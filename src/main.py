@@ -106,3 +106,4 @@ def main():
 if __name__ == "__main__":
     main()
     # python3 scripts/main.py --tool erudit --id 018001ar_2
+    # python3 src/main.py --tool grobid --id 1080394ar_2 --evaluation

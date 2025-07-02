@@ -1,5 +1,4 @@
-from utils.extract import extract_from_path
-from utils.io import normalize_date, normalize_text
+from utils.io import normalize_date, normalize_text, extract_from_path
 from .road import chemins_grobid
 ns_grobid = {"tei": "http://www.tei-c.org/ns/1.0"}
 

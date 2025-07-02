@@ -3,6 +3,7 @@ import json
 import unicodedata
 import re
 from datetime import datetime
+from lxml import etree
 
 
 def normalize_date(date_str: str) -> str:
@@ -158,3 +159,24 @@ def save_to_csv(tool, article_id, results):
     df = df[ordered_columns]
     df.to_csv(path)
 
+
+def extract_from_path(root, xpath, namespaces=None):
+    """
+    Extrait le texte des noeuds XML correspondant à un XPath donné.
+    Renvoie une liste de chaînes normalisées.
+    """
+    if namespaces is None:
+        namespaces = {}
+
+    elements = root.xpath(xpath, namespaces=namespaces)
+
+    result = []
+    for el in elements:
+        if isinstance(el, etree._Element):
+            text = "".join(el.itertext()).strip()
+            if text:
+                result.append(text)
+        elif isinstance(el, str):
+            result.append(el.strip())
+
+    return result

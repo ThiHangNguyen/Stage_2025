@@ -1,5 +1,4 @@
-from utils.extract import extract_from_path
-from utils.io import normalize_text
+from utils.io import normalize_text, extract_from_path
 from .road import chemins_erudit
 
 ns_erudit = {"er": "http://www.erudit.org/xsd/article",
