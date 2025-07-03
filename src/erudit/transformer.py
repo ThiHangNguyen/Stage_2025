@@ -211,24 +211,7 @@ def extract_erudit_body_sections(root):
                         "href": href,
                         "title": title
                     })
-        """
-        # Tableaux
-        tableaux = []
-        for tab in sec.findall(".//er:tableau", namespaces=ns_erudit):
-            no = tab.findtext("er:no", default="", namespaces=ns_erudit)
-            titre = tab.findtext("er:legende/er:titre", default="", namespaces=ns_erudit)
-            image_node = tab.find(".//er:image", namespaces=ns_erudit)
-            texte = tab.findtext(".//er:texte", default="", namespaces=ns_erudit)
-            note = tab.findtext(".//er:notetabl", default="", namespaces=ns_erudit)
-            image_href = image_node.get("{http://www.w3.org/1999/xlink}href", "") if image_node is not None else ""
-            tableaux.append({
-                "no": normalize_text(no),
-                "title": normalize_text(titre),
-                "href": normalize_text(image_href),
-                "text": normalize_text(texte),
-                "note": normalize_text(note),
-            })
-        """
+
         # Sous-sections récursives (section2, section3, etc.)
         subsections = []
         for level in range(2, 6):  # tu peux ajuster la profondeur
@@ -336,11 +319,6 @@ def parse_erudit_xml(root):
         else:
             resultats[champ] = []
             
-        # Normaliser les valeurs textuelles
-        if isinstance(resultats[champ], list):
-            resultats[champ] = [normalize_text(x) for x in resultats[champ] if isinstance(x, str)]
-        elif isinstance(resultats[champ], str):
-            resultats[champ] = normalize_text(resultats[champ])
     # Extraction du body structuré (sections)
     resultats["body_sections"] = extract_erudit_body_sections(root)
     resultats["figures"] = extract_erudit_global_figures(root)

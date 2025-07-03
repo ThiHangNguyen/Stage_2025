@@ -1,49 +1,6 @@
 import re
 import html
-from .io import normalize_date
-
-
-def normalize_text(text: str) -> str:
-    """
-    Nettoie et normalise une chaîne de caractères :
-    - décode les entités HTML/XML (ex: &eacute; → é)
-    - remplace les caractères typographiques français (guillemets, apostrophes)
-    - remplace les espaces insécables par des espaces simples
-    - supprime les balises HTML résiduelles éventuelles
-    - remplace les sauts de ligne/tabulations par un espace
-    - réduit les espaces multiples
-    - supprime les espaces autour
-    """
-    if not isinstance(text, str):
-        return ""
-
-    # Décodage des entités HTML/XML (ex: &eacute;)
-    text = html.unescape(text)
-
-    # Remplacement des caractères typographiques spécifiques
-    text = text.replace("’", "'")  # apostrophe typographique
-    text = text.replace("“", '"').replace("”", '"')  # guillemets courbes anglais
-    text = text.replace("«", '"').replace("»", '"')  # guillemets français
-    text = text.replace("\u00A0", " ")  # espace insécable
-
-    # Suppression éventuelle des balises HTML résiduelles (ex: <i>, <sup>)
-    text = re.sub(r"<[^>]+>", "", text)
-
-    # Remplacement des retours à la ligne/tabulations par un espace
-    text = re.sub(r"[\n\r\t]+", " ", text)
-
-    # Réduction des espaces multiples
-    text = re.sub(r"\s{2,}", " ", text)
-
-    return text.strip()
-
-def first_or_empty(val):
-    if isinstance(val, list):
-        return normalize_text(val[0]) if val else ""
-    elif isinstance(val, str):
-        return normalize_text(val)
-    return ""
-
+from .io import normalize_date, normalize_text, first_or_empty, first_or_raw
 
 
 def convert_section(section_data):
@@ -97,7 +54,7 @@ def convert_to_base(data):
         "subtitle": first_or_empty(data.get("subtitle")),
         "authors": [],
         "abstract": first_or_empty(data.get("abstract")),
-        "date": normalize_date(first_or_empty(data.get("date"))),
+        "date": normalize_date(first_or_raw(data.get("date"))),
         "id": {
             #"ori": first_or_empty(data.get("id")),
             "doi": first_or_empty(data.get("id")),
@@ -202,6 +159,5 @@ def convert_to_base(data):
                 "source": normalize_text(t.get("source", "")),
                 "rows": t.get("rows", [])
             })
-        #print(base['tables'])
 
     return base

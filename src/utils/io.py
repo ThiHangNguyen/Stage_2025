@@ -4,7 +4,7 @@ import unicodedata
 import re
 from datetime import datetime
 from lxml import etree
-
+import pandas as pd
 
 def normalize_date(date_str: str) -> str:
     if not date_str or not isinstance(date_str, str):
@@ -15,27 +15,11 @@ def normalize_date(date_str: str) -> str:
     for fmt in ("%Y-%m-%d", "%Y-%m", "%Y"):
         try:
             dt = datetime.strptime(date_str, fmt)
-            return date_str  # retourne tel quel
+            return date_str  
         except ValueError:
             continue
 
     return date_str
-
-normalize_date
-
-def parse_date(d):
-    if not d:
-        return None
-    for fmt in ["%Y-%m-%d", "%Y-%m", "%Y"]:
-        try:
-            return datetime.strptime(d, fmt).date()
-        except ValueError:
-            continue
-    return None
-def compare_dates(date1: str, date2: str) -> bool:
-    d1 = normalize_date(date1)
-    d2 = normalize_date(date2)
-    return d1 == d2 and d1 != ""
 
 def read_json(path):
     with open(path, 'r', encoding='utf-8') as f:
@@ -65,11 +49,19 @@ def normalize_text(text):
         return ""
     # Normalisation unicode
     text = unicodedata.normalize("NFKD", text)
+    # Suppression des accents (caractères non-spacing)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
     # Remplacement des caractères typographiques fréquents
     text = text.replace("\u00a0", " ")  # espace insécable
     text = text.replace("–", "-")      # tiret moyen
     text = text.replace("—", "-")      # tiret long
-    text = text.replace("’", "'")      # apostrophe courbe
+    text = text.replace("’", "'")        # apostrophe courbe
+    text = text.replace("‘", "'")        # apostrophe ouvrante
+    text = text.replace("«", "")         # guillemet français ouvrant
+    text = text.replace("»", "")         # guillemet français fermant
+    text = text.replace('"', "")         # guillemet droit
+    #Suppression des tirets et apostrophes
+    text = re.sub(r"[-']", "", text)
     # Minuscule + strip + suppression des espaces multiples
     text = text.lower().strip()
     text = re.sub(r"\s+", " ", text)
@@ -126,38 +118,20 @@ def load_json(tool, article_id):
         raise FileNotFoundError(f"Fichier manquant : {path}")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
-
 def save_to_csv(tool, article_id, results):
-    import pandas as pd
-    import os
 
-    output_dir = f"../results/csv/{tool}"
+
+    output_dir = f"results/csv/{tool}"
     os.makedirs(output_dir, exist_ok=True)
     path = os.path.join(output_dir, f"{article_id}.csv")
 
-    # Création du DataFrame
+    # Crée un DataFrame avec les stratégies comme colonnes
     df = pd.DataFrame.from_dict(results, orient="index")
     df.index.name = "field"
 
-    # Colonnes souhaitées : uniquement les versions sans _unordered
-    strategies = ["strict", "soft", "levenshtein"]
-    metrics = ["accuracy", "f1", "recall", "support", "matched"]
-
-    ordered_columns = []
-
-    for strat in strategies:
-        for metric in metrics:
-            col = f"{metric}_{strat}"
-            if col in df.columns:
-                ordered_columns.append(col)
-
-    # Ajouter les colonnes restantes à la fin si besoin
-    for col in df.columns:
-        if col not in ordered_columns:
-            ordered_columns.append(col)
-
-    df = df[ordered_columns]
     df.to_csv(path)
+    print(f"Résultats sauvegardés dans {path}")
+
 
 
 def extract_from_path(root, xpath, namespaces=None):
@@ -180,3 +154,49 @@ def extract_from_path(root, xpath, namespaces=None):
             result.append(el.strip())
 
     return result
+
+
+def first_or_empty(val):
+    if isinstance(val, list):
+        return normalize_text(val[0]) if val else ""
+    elif isinstance(val, str):
+        return normalize_text(val)
+    return ""
+
+
+def first_or_raw(val):
+    """Retourne le premier élément brut (non modifié), utile pour des dates, DOIs, etc."""
+    if isinstance(val, list):
+        return val[0] if val else ""
+    elif isinstance(val, str):
+        return val
+    return ""
+
+
+def match_format(value: str, format_type: str) -> bool:
+    """
+    Vérifie si une chaîne 'value' correspond à un format donné.
+    Formats pris en charge : email, date, year, number, word, issn, doi, id
+    """
+    if not isinstance(value, str):
+        return False
+
+    value = value.strip()
+
+    patterns = {
+        "email": r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$",
+        "date": r"^\d{4}(-\d{2}){0,2}$",           # YYYY or YYYY-MM or YYYY-MM-DD
+        "year": r"^\d{4}$",                        # Only YYYY
+        "number": r"^-?\d+(\.\d+)?$",              # int or float
+        "word": r"^[a-zA-ZÀ-ÿ]+$",                 # letters only
+        "issn": r"^\d{4}-\d{3}[\dXx]$",            # ex: 1234-567X
+        "doi": r"^10\.\d{4,9}/[-._;()/:a-zA-Z0-9]+$",
+        "id": r"^[a-zA-Z0-9\-_]+$"
+    }
+
+    pattern = patterns.get(format_type)
+    if pattern is None:
+        raise ValueError(f"Format type '{format_type}' not supported.")
+
+    return re.fullmatch(pattern, value) is not None
+

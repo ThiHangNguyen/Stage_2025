@@ -1,28 +1,17 @@
-import argparse
 from utils.io import normalize_text, load_json, save_to_csv
+from utils.hashmap import hashmap
 from evaluation.strategies.strict import strict_match
 from evaluation.strategies.soft import soft_match
 from evaluation.strategies.levenshtein import levenshtein_match
-from evaluation.metrics.accuracy import accuracy
-from evaluation.metrics.f1 import f1_score
-from evaluation.metrics.recall import recall
-from evaluation.metrics.support import support
-from collections import defaultdict
 from evaluation.metrics.metrics import compute_metrics
 import time  
 
 STRATEGIES = {
     "strict": strict_match,
-    "soft": soft_match,
+    "soft": soft_match, #matchesequence 
     "levenshtein": levenshtein_match,
 }
 
-METRICS = {
-    "accuracy": accuracy,
-    "f1": f1_score,
-    "recall": recall,
-    "support": support,
-}
 
 
 def compare_dict_of_strings(exp_dict, pred_dict, seuil=0.8):
@@ -107,11 +96,67 @@ def compare_list_of_strings(list1, list2, seuil=0.8):
 
     return scores
 
-def compare_structured_fields(pred_list, exp_list, seuil=0.8):
+def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
     """
     Compare deux listes d’objets structurés (comme authors, bibliographies).
     Calcule un F1-score par champ + un F1 global sur les objets entiers.
+    Utilise une correspondance basée sur des clés générées via STRUCTURED_KEYS.
     """
+
+    scores = {}
+    exp_map = hashmap(exp_list, type_)
+    pred_map = hashmap(pred_list, type_)
+    for strat_name, match_fn in STRATEGIES.items():
+        matched_pred_keys = set()
+        tp, fp, fn = 0, 0, 0
+        
+        for key, exp_obj in exp_map.items():
+            pred_obj = pred_map.get(key)
+            if pred_obj:
+                print('here')
+                all_match = True
+                for field in exp_obj:
+                    val_exp = str(exp_obj.get(field, "")).strip().lower()
+                    #print(val_exp)
+                    val_pred = str(pred_obj.get(field, "")).strip().lower()
+                    #print(val_pred)
+                    if not val_exp and not val_pred:
+                        continue
+
+                    score = match_fn(val_exp, val_pred)
+                    if isinstance(score, list):
+                        score = float(score[0])
+                    elif isinstance(score, bool):
+                        score = 1.0 if score else 0.0
+                    else:
+                        score = float(score)
+                    #print(score)
+                    if score <= seuil:
+                        all_match = False
+                        break
+
+                if all_match:
+                    tp += 1
+                    matched_pred_keys.add(key)
+                else:
+                    fn += 1
+            else:
+                fn += 1
+
+        unmatched_pred = set(pred_map.keys()) - matched_pred_keys
+        fp = len(unmatched_pred)
+        metrics = compute_metrics(tp, fp, fn)
+        #print(f"[{strat_name}] metrics: {metrics}")
+        scores[strat_name] = round(metrics["f1"], 3)
+
+    return scores
+
+"""
+
+def compare_structured_fields(pred_list, exp_list, seuil=0.8):
+
+    Compare deux listes d’objets structurés (comme authors, bibliographies).
+    Calcule un F1-score par champ + un F1 global sur les objets entiers.
 
     all_fields = set()
     for d in pred_list + exp_list:
@@ -176,6 +221,7 @@ def compare_structured_fields(pred_list, exp_list, seuil=0.8):
         scores[strat_name] = round(metrics["f1"], 3)
 
     return scores
+"""
 
 def compare_simple(text1: str, text2: str) -> dict:
     """
@@ -192,22 +238,16 @@ def compare_simple(text1: str, text2: str) -> dict:
             scores[strat_name] = 0.0
         return scores
 
-    norm1 = normalize_text(text1)
-    #print(norm1)
-    norm2 = normalize_text(text2)
-    #print(norm2)
     for strat_name, strat_fn in STRATEGIES.items():
-        print(strat_fn)
-        print(strat_name)
         try:
-            score = strat_fn(norm1, norm2)
+            score = strat_fn(text1, text2)
             #print(score)
             print(f"  Résultat brut : {score} (type: {type(score)})")
             scores[strat_name] = round(float(score), 3)
             print(scores[strat_name])
         except Exception:
             scores[strat_name] = 0.0
-    print(scores)
+    #print(scores)
     return scores
 
 def compare_raw_bibliographies(erudit_bib, grobid_bib):
@@ -257,16 +297,23 @@ def evaluate_fields_from_json(source, target, fields_to_compare):
 
         func = FIELD_COMPARISON_FUNCTIONS.get(field, compare_simple)
 
-        start = time.perf_counter()  # début du chronométrage
+        # Gestion des cas structurés nécessitant un type
+        if field in {"authors", "editorial_team", "body", "tables", "figures"}:
+            # Appel explicite avec le paramètre type_
+            start = time.perf_counter()
+            results[field] = compare_structured_fields(val1, val2, type_=field)
+            end = time.perf_counter()
 
-    
-        results[field] = func(val1, val2)
-        print(results[field])
-        end = time.perf_counter()
+        else:
+            # Cas normal sans type_
+            start = time.perf_counter()
+            results[field] = func(val1, val2)
+            end = time.perf_counter()
         duration = round(end - start, 3)
 
-        print(f"Champ '{field}' évalué en {duration} secondes")
-        #print("ok")
+        #print(f"Champ '{field}' évalué en {duration} secondes")
+        #print({field})
+        #print(results)
     return results
 
 def evaluate(source: str, target: str, article_id: str):
@@ -274,7 +321,9 @@ def evaluate(source: str, target: str, article_id: str):
     target_data = load_json(target, article_id)
     results = evaluate_fields_from_json(source_data, target_data, FIELD_COMPARISON_FUNCTIONS)
     print('finish evaluation')
+    print(results)
     save_to_csv(target, article_id, results)
+    print("done")
 
 """
 def main():

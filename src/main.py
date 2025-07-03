@@ -27,24 +27,6 @@ def get_ids_from_raw_xml(directory):
         if f.endswith(".xml")
     ]
 
-def process_article(article_id, tool):
-    input_path = Path("data") / "raw" / f"xml_{tool}" / f"{article_id}.xml"
-    output_path = Path("data") / "processed" / tool / f"{article_id}.json"
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    xml_tree = read_xml(input_path)
-    if tool == "grobid":
-        print ("here")
-        parsed = parse_grobid_xml(xml_tree)
-    else:
-        parsed = parse_erudit_xml(xml_tree)
-
-    base_data = convert_to_base(parsed)
-    write_json(base_data, output_path)
-
-    print(f"[OK] Fichier {tool} → forme_base : {output_path}")
-
 
 def transformer_article(article_id, tool):
     input_path = Path("data/raw") / f"xml_{tool}" / f"{article_id}.xml"
@@ -62,7 +44,7 @@ def transformer_article(article_id, tool):
 
     base_data = convert_to_base(parsed)
     write_json(base_data, output_path)
-    print(f"[OK] {tool.upper()} → forme_base : {output_path}")
+    print(f"[OK] {tool.upper()} => forme_base : {output_path}")
 
 def main():
     # parser = argparse.ArgumentParser()
@@ -105,5 +87,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # python3 scripts/main.py --tool erudit --id 018001ar_2
+    # python3 src/main.py --tool erudit --id 1080394ar_2
     # python3 src/main.py --tool grobid --id 1080394ar_2 --evaluation
