@@ -12,16 +12,12 @@ STRATEGIES = {
     "levenshtein": levenshtein_match,
 }
 
-
-
 def compare_dict_of_strings(exp_dict, pred_dict, seuil=0.8):
     """
     Compare deux dictionnaires simples (ex: id, pagination, rights),
     en appliquant des similarités sur chaque champ,
     et en calculant un F1 global.
     """
-    norm_exp = {k: normalize_text(v) for k, v in exp_dict.items()}
-    norm_pred = {k: normalize_text(pred_dict.get(k, "")) for k in norm_exp}
 
     results = {}
 
@@ -29,28 +25,26 @@ def compare_dict_of_strings(exp_dict, pred_dict, seuil=0.8):
         tp = 0
         fp = 0
         fn = 0
-
-        for k in norm_exp:
-            val1 = norm_exp[k]
-            val2 = norm_pred[k]
-            raw = match_fn(val1, val2)
-
-            if isinstance(raw, list):
-                score = float(raw[0])
-            elif isinstance(raw, bool):
-                score = 1.0 if raw else 0.0
+        for k in exp_dict:
+            val1 = exp_dict[k]
+            val2 = pred_dict[k]
+            if not val1 and not val2:
+                score = 0.0
             else:
-                score = float(raw)
+                raw = match_fn(val1, val2)
 
-            if val1:  
+                if isinstance(raw, list):
+                    score = float(raw[0])
+                elif isinstance(raw, bool):
+                    score = 1.0 if raw else 0.0
+                else:
+                    score = float(raw)
+
                 if score >= seuil:
                     tp += 1
-                else:
-                    fn += 1
-            else:
-                if val2: 
-                    fp += 1
-
+                            
+        fn = len(exp_dict) - tp
+        fp = len(pred_dict) - tp
         metrics = compute_metrics(tp, fp, fn)
         results[f"{strat_name}"] = round(metrics["f1"], 3)
 
@@ -61,19 +55,16 @@ def compare_list_of_strings(list1, list2, seuil=0.8):
     Compare deux listes de chaînes de caractères, en utilisant STRATEGIES.
     Renvoie un dictionnaire contenant les F1-scores pour chaque stratégie.
     """
-
     scores = {}
-    norm1 = [s.strip().lower() for s in list1 if s.strip()]
-    norm2 = [s.strip().lower() for s in list2 if s.strip()]
 
     for name, fn in STRATEGIES.items():
         matched_1 = set()
         matched_2 = set()
 
-        for i, val1 in enumerate(norm1):
+        for i, val1 in enumerate(list1):
             best_score = 0.0
             best_j = None
-            for j, val2 in enumerate(norm2):
+            for j, val2 in enumerate(list2):
                 raw_score = fn(val1, val2)
                 score = (
                     float(raw_score[0]) if isinstance(raw_score, list)
@@ -89,8 +80,8 @@ def compare_list_of_strings(list1, list2, seuil=0.8):
                 matched_2.add(best_j)
 
         tp = len(matched_1)
-        fp = len(norm2) - tp
-        fn = len(norm1) - tp
+        fp = len(list2) - tp
+        fn = len(list1) - tp
         metrics = compute_metrics(tp, fp, fn)
         scores[f"{name}"] = round(metrics["f1"], 3)
 
@@ -113,115 +104,38 @@ def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
         for key, exp_obj in exp_map.items():
             pred_obj = pred_map.get(key)
             if pred_obj:
-                print('here')
                 all_match = True
                 for field in exp_obj:
                     val_exp = str(exp_obj.get(field, "")).strip().lower()
-                    #print(val_exp)
                     val_pred = str(pred_obj.get(field, "")).strip().lower()
-                    #print(val_pred)
                     if not val_exp and not val_pred:
+                        score = 0
                         continue
-
-                    score = match_fn(val_exp, val_pred)
-                    if isinstance(score, list):
-                        score = float(score[0])
-                    elif isinstance(score, bool):
-                        score = 1.0 if score else 0.0
-                    else:
-                        score = float(score)
-                    #print(score)
-                    if score <= seuil:
-                        all_match = False
-                        break
+                    else: 
+                        score = match_fn(val_exp, val_pred)
+                        if isinstance(score, list):
+                            score = float(score[0])
+                        elif isinstance(score, bool):
+                            score = 1.0 if score else 0.0
+                        else:
+                            score = float(score)
+                        #print(score)
+                        if score <= seuil:
+                            all_match = False
+                            break
 
                 if all_match:
                     tp += 1
                     matched_pred_keys.add(key)
-                else:
-                    fn += 1
-            else:
-                fn += 1
 
         unmatched_pred = set(pred_map.keys()) - matched_pred_keys
         fp = len(unmatched_pred)
+        fn = len(pred_list) - tp
         metrics = compute_metrics(tp, fp, fn)
         #print(f"[{strat_name}] metrics: {metrics}")
         scores[strat_name] = round(metrics["f1"], 3)
 
     return scores
-
-"""
-
-def compare_structured_fields(pred_list, exp_list, seuil=0.8):
-
-    Compare deux listes d’objets structurés (comme authors, bibliographies).
-    Calcule un F1-score par champ + un F1 global sur les objets entiers.
-
-    all_fields = set()
-    for d in pred_list + exp_list:
-        all_fields.update(d.keys())
-    champs =sorted(all_fields)
-
-    # Initialiser les compteurs pour chaque champ
-    field_matches = {champ: 0 for champ in champs}
-    field_totals_exp = {champ: 0 for champ in champs}
-    field_totals_pred = {champ: 0 for champ in champs}
-
-    scores = {}            
-
-
-    for strat_name, match_fn in STRATEGIES.items():
-        # Pour le score global
-        matched_pred = set()
-        matched_exp = set()
-
-        for i, exp in enumerate(exp_list):
-            for j, pred in enumerate(pred_list):
-                if j in matched_pred:
-                    continue
-
-                all_fields_match = True
-                for champ in champs:
-                    val_exp = str(exp.get(champ, "")).strip().lower()
-                    val_pred = str(pred.get(champ, "")).strip().lower()
-
-                    if val_exp:
-                        field_totals_exp[champ] += 1
-                    if val_pred:
-                        field_totals_pred[champ] += 1
-
-                    raw_score = match_fn(val_exp, val_pred)
-                    if isinstance(raw_score, list):
-                        score = float(raw_score[0])
-                    elif isinstance(raw_score, bool):
-                        score = 1.0 if raw_score else 0.0
-                    else:
-                        score = float(raw_score)
-
-                    if score <= 0.8:
-                        all_fields_match = False
-                    elif val_exp:
-                        # On ne compte match que s'il y avait bien une valeur attendue
-                        field_matches[champ] += 1
-
-                if all_fields_match:
-                    matched_pred.add(j)
-                    matched_exp.add(i)
-                    break
-        # F1 global sur l’objet entier
-        tp = len(matched_exp)
-        fp = len(pred_list) - len(matched_pred)
-        fn = len(exp_list) - len(matched_exp)
-
-        print(f"[{strat_name}] tp: {tp}, fp: {fp}, fn: {fn}")
-        metrics = compute_metrics(tp, fp, fn)
-        print(f"[{strat_name}] metrics: {metrics}")
-
-        scores[strat_name] = round(metrics["f1"], 3)
-
-    return scores
-"""
 
 def compare_simple(text1: str, text2: str) -> dict:
     """
@@ -242,12 +156,10 @@ def compare_simple(text1: str, text2: str) -> dict:
         try:
             score = strat_fn(text1, text2)
             #print(score)
-            print(f"  Résultat brut : {score} (type: {type(score)})")
+            #print(f"  Résultat brut : {score} (type: {type(score)})")
             scores[strat_name] = round(float(score), 3)
-            print(scores[strat_name])
         except Exception:
             scores[strat_name] = 0.0
-    #print(scores)
     return scores
 
 def compare_raw_bibliographies(erudit_bib, grobid_bib):
@@ -325,29 +237,7 @@ def evaluate(source: str, target: str, article_id: str):
     save_to_csv(target, article_id, results)
     print("done")
 
-"""
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--id", required=True, help="ID de l'article")
-    parser.add_argument("--source", required=True, help="Nom de la source de vérité (ex: erudit)")
-    parser.add_argument("--target", required=True, help="Nom de l'outil à évaluer (ex: grobid)")
-    args = parser.parse_args()
 
-    source_data = load_json(args.source, args.id)
-    target_data = load_json(args.target, args.id)
-
-    # Compare chaque champ selon la logique associée
-    #results = evaluate_fields_from_json(source_data, target_data)
-    results = evaluate_fields_from_json(source_data, target_data, FIELD_COMPARISON_FUNCTIONS)
-    print('finish evaluation')
-    # Enregistre le résultat
-    save_to_csv(args.target, args.id, results)
-
-if __name__ == "__main__":
-    main()
-# PYTHONPATH=. python3 -m evaluation.evaluation --id 029574ar_2 --source erudit --target grobid
-
-"""
 
 
 
