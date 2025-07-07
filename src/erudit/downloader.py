@@ -37,6 +37,22 @@ def download_erudit_xml(article_id, output_dir=None):
     else:
         raise Exception(f"Échec de téléchargement depuis {xml_url} (code {response.status_code})")
 
+def download_erudit_xml_2cols(pdfs_dir="data/pdfs/pdf_2cols", output_dir="data/raw/xml_erudit/xml_2cols"):
+    """
+    Télécharge les fichiers XML depuis Érudit pour chaque PDF dans le dossier pdfs_dir,
+    et les enregistre dans output_dir.
+    """
+    os.makedirs(output_dir, exist_ok=True)
+
+    for filename in os.listdir(pdfs_dir):
+        if not filename.endswith(".pdf"):
+            continue
+        article_id = filename.replace(".pdf", "")
+        try:
+            print(f"Téléchargement XML pour {article_id} (2 cols)...")
+            download_erudit_xml(article_id, output_dir)
+        except Exception as e:
+            print(f"Erreur pour {article_id} : {e}")
 
 
 def download_and_clean_erudit_pdf(article_id, output_dir=None):
@@ -74,6 +90,21 @@ def download_and_clean_erudit_pdf(article_id, output_dir=None):
 
     print(f"PDF téléchargé et nettoyé (sans première page) : {output_path}")
 
+def clean_pdf_2cols(pdfs_dir="data/pdfs/pdf_2cols"):
+    """
+    Nettoie les fichiers PDF dans le répertoire donné en supprimant la première page.
+    Écrase les fichiers existants avec la version nettoyée.
+    """
+    for filename in os.listdir(pdfs_dir):
+        if not filename.endswith(".pdf"):
+            continue
+        article_id = filename.replace(".pdf", "")
+        try:
+            print(f"Nettoyage du PDF {article_id} (2 colonnes)...")
+            download_and_clean_erudit_pdf(article_id, output_dir=pdfs_dir)
+        except Exception as e:
+            print(f"Erreur lors du nettoyage de {article_id} : {e}")
+
 
 def main():
 
@@ -81,15 +112,17 @@ def main():
     pdf_dir = "data/pdfs"
     os.makedirs(pdf_dir, exist_ok=True)
 
-    ids = pd.read_csv(input_csv, header=None)[0].tolist()
+    # ids = pd.read_csv(input_csv, header=None)[0].tolist()
 
-    for article_id in ids:
-        try:
-            print(f"Téléchargement de {article_id}...")
-            #download_erudit_xml(article_id, None)
-            download_and_clean_erudit_pdf(article_id, pdf_dir)
-        except Exception as e:
-            print(f"Erreur pour {article_id} : {e}")
+    # for article_id in ids:
+    #     try:
+    #         print(f"Téléchargement de {article_id}...")
+    #         #download_erudit_xml(article_id, None)
+    #         #download_and_clean_erudit_pdf(article_id, pdf_dir)
+    #     except Exception as e:
+    #         print(f"Erreur pour {article_id} : {e}")
+    download_erudit_xml_2cols()
+    clean_pdf_2cols()
 
 if __name__ == "__main__":
     main()
