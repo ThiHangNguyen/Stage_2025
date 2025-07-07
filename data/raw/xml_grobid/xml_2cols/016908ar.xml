@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_qRarSFq">Gestion supervisée d&apos;une unité de coaGulation pour la potabilisation des eaux à partir d&apos;une méthodoloGie d&apos;apprentissaGe et d&apos;expertise Coagulation monitoring through a learning and expertise methodology for drinking water</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,118.70,243.62,95.79,11.23"><forename type="first">Bouchra</forename><surname>Lamrini</surname></persName>
+							<email>blamrini@yahoo.fr</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Laboratoire d&apos;Automatique , de l&apos; Environnement et de Procédés de Transfert (LAEPT) , Faculté de Sciences Semlalia , BP 2390 , 40000 -Marrakech , Maroc</note>
+								<orgName type="department" key="dep1">Environnement et de Procédés de Transfert (LAEPT)</orgName>
+								<orgName type="department" key="dep2">Faculté de Sciences Semlalia</orgName>
+								<orgName type="laboratory">Laboratoire d&apos;Automatique</orgName>
+								<address>
+									<postBox>BP 2390</postBox>
+									<postCode>40000 -Marrakech</postCode>
+									<country key="MA">Maroc</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,226.40,243.62,139.90,11.23"><forename type="first">Marie-Véronique</forename><surname>Le Lann</surname></persName>
+							<email>mvlelann@laas.fr</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> LAAS - CNRS , Université de Toulouse , 7, Avenue du Colonel Roche , 31077 Toulouse Cedex 4 , France</note>
+								<orgName type="laboratory">LAAS</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Université de Toulouse</orgName>
+								<address>
+									<addrLine>7, Avenue du Colonel Roche</addrLine>
+									<postCode>31077 Cedex 4</postCode>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,402.49,243.62,86.65,11.23"><forename type="first">Khadir</forename><surname>Lakhal</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Laboratoire d&apos;Automatique , de l&apos; Environnement et de Procédés de Transfert (LAEPT) , Faculté de Sciences Semlalia , BP 2390 , 40000 -Marrakech , Maroc</note>
+								<orgName type="department" key="dep1">Environnement et de Procédés de Transfert (LAEPT)</orgName>
+								<orgName type="department" key="dep2">Faculté de Sciences Semlalia</orgName>
+								<orgName type="laboratory">Laboratoire d&apos;Automatique</orgName>
+								<address>
+									<postBox>BP 2390</postBox>
+									<postCode>40000 -Marrakech</postCode>
+									<country key="MA">Maroc</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,246.29,258.02,116.11,11.23"><forename type="first">Ahmed</forename><surname>Benhammou</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Laboratoire d&apos;Automatique , de l&apos; Environnement et de Procédés de Transfert (LAEPT) , Faculté de Sciences Semlalia , BP 2390 , 40000 -Marrakech , Maroc</note>
+								<orgName type="department" key="dep1">Environnement et de Procédés de Transfert (LAEPT)</orgName>
+								<orgName type="department" key="dep2">Faculté de Sciences Semlalia</orgName>
+								<orgName type="laboratory">Laboratoire d&apos;Automatique</orgName>
+								<address>
+									<postBox>BP 2390</postBox>
+									<postCode>40000 -Marrakech</postCode>
+									<country key="MA">Maroc</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_aRVkZcb">Gestion supervisée d&apos;une unité de coaGulation pour la potabilisation des eaux à partir d&apos;une méthodoloGie d&apos;apprentissaGe et d&apos;expertise Coagulation monitoring through a learning and expertise methodology for drinking water</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">631B3CBA7805B9E85E1651A30FF60D8C</idno>
+					<note type="submission">Reçu le 7 mai 2005, accepté le 2 mai 2007</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-07T21:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-11-gf6b522b3f</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_x8QWB4F"><p xml:id="_jsP8Fbm"><s xml:id="_tEGw25k" coords="1,395.79,744.72,174.04,9.54;1,256.49,741.98,68.67,9.36;1,37.10,428.00,57.04,13.47;1,52.00,459.98,245.46,11.15;1,36.00,472.98,261.50,11.15;1,36.00,485.98,261.49,11.15;1,36.00,498.98,178.55,11.15">Revue des Sciences de l'Eau 20(4) <ref type="bibr" coords="1,512.41,744.72,24.18,9.54">(2007)</ref>  <ref type="bibr" coords="1,539.09,744.72,30.74,9.54;1,256.49,741.98,68.67,9.36">325-338 ISSN : 1718-8598</ref> résumé Le travail présenté propose une méthodologie de classification par apprentissage qui permet l'identification des états fonctionnels sur une unité de coagulation impliquée dans le traitement des eaux de surface.</s><s xml:id="_QX3C2U7" coords="1,220.09,498.98,77.37,11.15;1,36.00,511.98,261.51,11.15;1,36.00,524.98,261.49,11.15;1,36.00,537.98,158.22,11.15">La supervision et le diagnostic de ce procédé ont été réalisés en utilisant la méthode de classification LAMDA (Learning Algorithm for Multivariate Data Analysis).</s><s xml:id="_d6gXs8M" coords="1,205.05,537.98,92.44,11.15;1,36.00,550.98,261.51,11.15;1,36.00,563.98,261.46,11.15;1,36.00,576.98,228.29,11.15">Cette méthodologie d'apprentissage et d'expertise permet d'exploiter et d'agréger toutes les informations provenant du procédé et de son environnement ainsi que les connaissances de l'expert.</s><s xml:id="_QTqxwQn" coords="1,266.93,576.98,30.56,11.15;1,36.00,589.98,261.46,11.15;1,36.00,602.98,261.51,11.15;1,36.00,615.98,261.45,11.15;1,36.00,628.98,261.49,11.15;1,36.00,641.98,166.39,11.15">L'étude montre qu'il est possible d'ajouter aux informations issues des capteurs classiques (température, matières en suspension, pH, conductivité, oxygène dissous), la valeur de la dose de coagulant calculée par un capteur logiciel développé dans une étude antérieure afin d'affiner le diagnostic.</s><s xml:id="_te7yutx" coords="1,207.45,641.98,90.05,11.15;1,36.00,654.98,261.48,11.15;1,314.50,427.80,261.47,11.15;1,314.50,440.80,30.43,11.15">Le site d'application choisi pour l'identification des états fonctionnels est la station de production d'eau potable Rocade de la ville de Marrakech, Maroc.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_v9VNgmj" coords="1,314.50,467.00,261.50,10.57;1,314.50,480.20,261.50,10.57;1,314.50,493.40,133.41,10.57;1,315.60,557.42,71.48,13.47">Mots clefs : Procédé de coagulation, classification, apprentissage supervisé, apprentissage non supervisé, reconnaissance de formes, logique floue. abstract</head><p xml:id="_yYyUHnR"><s xml:id="_eJu5JX9" coords="1,330.50,589.61,245.47,11.15;1,314.50,602.81,261.51,11.15;1,314.50,616.01,261.47,11.15">The present work proposes a learning classification method to identify the functional states of a coagulation process for the treatment of surface water and production of drinking water.</s><s xml:id="_SfzgQxc" coords="1,314.50,629.21,261.53,11.15;1,314.50,642.41,261.51,11.15;1,314.50,655.61,100.98,11.15">Supervisory control and diagnosis were performed using the LAMDA (Learning Algorithm for Multivariate Data Analysis) classification technique.</s><s xml:id="_RQGUTRu" coords="1,418.45,655.61,157.53,11.15;2,36.00,36.71,261.46,11.15;2,36.00,49.91,261.46,11.15;2,36.00,63.11,101.44,11.15">This expert learning method involves the processing and aggregation of all information stemming from an environmental process, and it allows the incorporation of the user's knowledge.</s><s xml:id="_7JakXhq" coords="2,140.46,63.11,156.99,11.15;2,36.00,76.31,261.46,11.15;2,36.00,89.51,261.51,11.15;2,36.00,102.71,261.48,11.15;2,36.00,115.91,261.49,11.15;2,36.00,129.11,163.25,11.15">The study shows that it is possible to refine the diagnosis by taking into account the information obtained from common sensors (e.g., temperature, suspended solids, pH, conductivity, dissolved oxygen) together with the predicted coagulant dosage, as computed with an intelligent software sensor developed previously.</s><s xml:id="_Wa283wA" coords="2,204.06,129.11,93.46,11.15;2,36.00,142.32,261.49,11.15;2,36.00,155.51,51.90,11.15">The Rocade drinking water plant located at Marrakech, Morocco was chosen to test the method.</s></p><p xml:id="_uPPmET3"><s xml:id="_PXZHeEk" coords="2,36.00,181.91,254.07,10.57;2,36.00,195.11,261.47,10.57;2,36.00,208.32,23.18,10.57">Key words: Coagulation process, classification, supervised learning, unsupervised learning, pattern recognition, fuzzy logic.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_7tbamXm" coords="2,37.00,266.93,133.60,13.47">introduction</head><p xml:id="_fYxfZAX"><s xml:id="_9gbUy6g" coords="2,52.00,299.12,245.48,11.15;2,36.00,312.32,261.48,11.15;2,36.00,325.52,244.45,11.15">Le contrôle et la conduite des procédés industriels sont délicats et difficiles notamment lorsque les lois physiques décrivant le système sont trop complexes ou incomplètes.</s><s xml:id="_qRaFpdZ" coords="2,283.51,325.52,13.99,11.15;2,36.00,338.72,261.48,11.15;2,36.00,351.92,227.87,11.15">Les dérives et les défauts sont alors difficiles à détecter et à localiser sans utiliser de modèle représentatif du système réel.</s><s xml:id="_5Xtxbpn" coords="2,267.68,351.92,29.79,11.15;2,36.00,365.12,261.46,11.15;2,36.00,378.32,261.48,11.15;2,36.00,391.52,261.50,11.15;2,36.00,404.72,100.01,11.15">Certes, les procédés de coagulation sont fortement non linéaires et non stationnaires et leur fonctionnement reste difficilement modélisable à cause de la connaissance partielle des phénomènes mis en jeu.</s><s xml:id="_a5r6CTR" coords="2,137.98,404.72,159.53,11.15;2,36.00,417.92,261.49,11.15;2,36.00,431.12,261.51,11.15;2,36.00,444.32,78.51,11.15">La conduite supervisée de ces procédés nécessite la définition de méthodes avancées de contrôle et de supervision qui intègrent la connaissance insuffisante que l'on a de ces procédés.</s><s xml:id="_C7Z5SRv" coords="2,118.60,444.32,178.92,11.15;2,36.00,457.52,261.50,11.15;2,36.00,470.72,261.51,11.15">Jusqu'à présent, il n'existe pas de modèle mathématique ou structurel permettant d'identifier de façon certaine l'état de fonctionnement d'un procédé de coagulation.</s><s xml:id="_2EfCY24" coords="2,36.00,483.92,261.48,11.15;2,36.00,497.12,261.47,11.15;2,36.00,510.32,209.44,11.15">C'est généralement au moyen d'analyses hors-ligne que les opérateurs contrôlent indirectement cet état et interviennent en retour sur le processus avec un délai important.</s><s xml:id="_txD72YM" coords="2,247.79,510.32,49.66,11.15;2,36.00,523.52,261.48,11.15;2,36.00,536.72,261.47,11.15;2,36.00,549.92,261.46,11.15">Cependant, l'opérateur dispose de nombreuses informations issues du procédé lui-même et de son environnement, souvent précises, dont il est facile de faire une acquisition en ligne.</s><s xml:id="_hTv7wXX" coords="2,36.00,563.12,261.47,11.15;2,36.00,576.32,190.39,11.15">Ces informations traitées de façon individuelle ne permettent toujours pas de caractériser l'état du procédé.</s></p><p xml:id="_aUgNYhZ"><s xml:id="_pT8M2Z8" coords="2,52.00,605.56,245.49,11.15;2,36.00,618.76,261.51,11.15;2,36.00,631.96,261.51,11.15">Depuis plusieurs décennies, les études publiées sur la coagulation ont mis en évidence des mécanismes fortement complexes dépendant d'un nombre important de variables.</s><s xml:id="_3Ac4h9F" coords="2,36.00,645.16,261.48,11.15;2,36.00,658.36,261.51,11.15;2,36.00,671.56,261.53,11.15;2,36.00,684.76,261.52,11.15;2,36.00,697.96,261.50,11.15;2,36.00,711.16,261.49,11.15;2,314.50,36.71,261.53,11.15;2,314.50,49.91,111.27,11.15">Ainsi, d'importants efforts et différentes approches ont été développés pour construire et mettre en oeuvre des modèles de contrôle automatique de la dose de coagulant <ref type="bibr" coords="2,256.41,671.56,41.12,11.15;2,36.00,684.76,87.65,11.15">(BAZER-BACHI et al., 1986;</ref><ref type="bibr" coords="2,126.74,684.76,118.56,11.15" target="#b3">EVANS et ENOCH, 1998;</ref><ref type="bibr" coords="2,248.39,684.76,49.13,11.15;2,36.00,697.96,50.00,11.15" target="#b4">GAGNON et al., 1997;</ref><ref type="bibr" coords="2,88.62,697.96,98.86,11.15">LAMRINI et al., 2005;</ref><ref type="bibr" coords="2,189.94,697.96,107.56,11.15" target="#b18">VALENTIN et al., 1999)</ref> et des outils de supervision permettant d'optimiser ce procédé de traitement <ref type="bibr" coords="2,376.05,36.71,113.36,11.15" target="#b5">(KAN et HUANG, 1998;</ref><ref type="bibr" coords="2,493.10,36.71,82.93,11.15" target="#b10">LIU et WU, 1997;</ref><ref type="bibr" coords="2,314.50,49.91,106.56,11.15" target="#b17">STANDEN et al., 1997)</ref>.</s><s xml:id="_tVrb8w8" coords="2,429.76,49.91,146.27,11.15;2,314.50,63.11,261.48,11.15;2,314.50,76.31,261.47,11.15;2,314.50,89.51,261.51,11.15;2,314.50,102.71,214.74,11.15">En ce qui concerne les outils dits de supervision, dans le cas des travaux de <ref type="bibr" coords="2,497.50,63.11,78.49,11.15;2,314.50,76.31,27.25,11.15" target="#b5">KAN et HUANG (1998)</ref>, même si on parle de supervision ou de suivi, l'essentiel du développement porte sur la détermination automatique de la dose de coagulant grâce à un suivi optique.</s><s xml:id="_34XV6Xf" coords="2,533.16,102.71,42.81,11.15;2,314.50,115.91,261.49,11.15;2,314.50,129.11,261.49,11.15;2,314.50,142.32,261.55,11.15;2,314.50,155.51,261.47,11.15;2,314.50,168.71,49.02,11.15">De même dans le cas des travaux <ref type="bibr" coords="2,428.31,115.91,129.89,11.15">de STANDEN et al. (1997)</ref>, la modification automatique de la dose de coagulant se fait en rapport à la mesure de la turbidité et au nombre de particules colloïdales mesurées au préalable par diffraction laser lors de jar-tests.</s><s xml:id="_g9yMnhE" coords="2,367.22,168.71,208.77,11.15;2,314.50,181.91,261.47,11.15;2,314.50,195.11,261.50,11.15;2,314.50,208.32,118.21,11.15">Les travaux <ref type="bibr" coords="2,419.59,168.71,98.12,11.15">de LIU et WU (1997)</ref> sont quant à eux directement reliés au développement d'un contrôleur flou allié à un détecteur de courant permettant d'améliorer l'opération de coagulation.</s><s xml:id="_bzfyBy6" coords="2,437.91,208.32,138.09,11.15;2,314.50,221.51,261.49,11.15;2,314.50,234.71,261.49,11.15;2,314.50,247.91,261.51,11.15;2,314.50,261.11,97.37,11.15">On voit donc que, plus qu'un suivi de fonctionnement d'une opération, il s'agit plutôt d'un contrôle automatique de la dose de coagulant, l'objectif étant de déterminer la dose à appliquer en fonction des paramètres de l'eau brute observés.</s><s xml:id="_ZaahDuc" coords="2,414.30,261.11,161.68,11.15;2,314.50,274.32,261.49,11.15;2,314.50,287.51,172.66,11.15">Cependant, cette structure de contrôle automatique ne permet pas de diagnostiquer une dérive ou un mauvais fonctionnement à elle seule.</s><s xml:id="_w83jSc5" coords="2,490.50,287.51,85.48,11.15;2,314.50,300.71,261.49,11.15;2,314.50,313.91,261.46,11.15;2,314.50,327.11,196.66,11.15">Pour cela, il faut lui adjoindre une structure de supervision/diagnostic permettant de déterminer l'état de fonctionnement de l'unité (cet état de fonctionnement pouvant être une défaillance).</s></p><p xml:id="_kv2gqmA"><s xml:id="_pgq9tmF" coords="2,330.50,353.52,245.46,11.15;2,314.50,366.72,261.50,11.15;2,314.50,379.92,261.48,11.15;2,314.50,393.12,261.50,11.15;2,314.50,406.32,261.50,11.15;2,314.50,419.52,163.97,11.15">Pour assurer une bonne gestion et contribuer au bon fonctionnement de ce procédé, il semble nécessaire d'exploiter simultanément toutes les informations disponibles sur le procédé (les caractéristiques de l'eau brute et leurs évolutions provenant des anomalies imprévues), et de son environnement, ainsi que les connaissances de l'expert.</s><s xml:id="_8kPf6hm" coords="2,481.71,419.52,94.32,11.15;2,314.50,432.72,261.51,11.15;2,314.50,445.92,261.48,11.15;2,314.50,459.12,85.76,11.15">Pour ces raisons, nous proposons de réaliser la conduite supervisée de ce procédé en utilisant une technique de classification par apprentissage, la technique LAMDA.</s><s xml:id="_VWhdDXg" coords="2,402.88,459.12,173.13,11.15;2,314.50,472.32,261.50,11.15;2,314.50,485.52,261.49,11.15">Une telle technique permet d'exploiter et d'agréger toute information sur le procédé afin de reconnaître des situations spécifiques et agir, si possible, sur ce procédé.</s><s xml:id="_w2KU7Pe" coords="2,314.50,498.72,261.49,11.15;2,314.50,511.92,261.46,11.15;2,314.50,525.12,261.53,11.15;2,314.50,538.32,261.53,11.15;2,314.50,551.52,217.68,11.15">L'idée générale de la classification est l'évaluation des signaux significatifs du système (caractéristiques de l'eau brute, taux de coagulant, etc.), afin de reconnaître les facteurs liés à une quelconque situation et d'aider l'opérateur à prendre une décision lors de l'apparition de dysfonctionnement.</s></p><p xml:id="_F23UQGN"><s xml:id="_CD3mECx" coords="2,330.50,580.55,245.49,11.15;2,314.50,593.55,261.50,11.15;2,314.50,606.55,236.95,11.15">Le travail présenté dans le cadre de cet article est structuré de la manière suivante : la première section présente le site d'application choisi pour identifier les états fonctionnels.</s><s xml:id="_mrXaK86" coords="2,553.68,606.55,22.29,11.15;2,314.50,619.55,261.47,11.15;2,314.50,632.55,81.63,11.15">Dans la deuxième section, on présente une brève description de la méthode LAMDA.</s><s xml:id="_8vM3Fqc" coords="2,399.13,632.55,176.85,11.15;2,314.50,645.55,223.21,11.15">Finalement, dans la troisième section, des résultats expérimentaux seront présentés et discutés.</s><s xml:id="_tarauER" coords="2,541.30,645.55,34.67,11.15;2,314.50,658.55,261.50,11.15;2,314.50,671.55,261.49,11.15;2,314.50,684.55,261.46,11.15;2,314.50,697.55,261.51,11.15;2,314.50,710.55,250.94,11.15">Comme le montrent ces résultats obtenus lors de l'application de la méthodologie LAMDA aux données expérimentales couvrant 4 années de fonctionnement de la station de production d'eau potable de Marrakech, ils ouvrent la possibilité d'appliquer cette méthode à la surveillance en temps réel de ce procédé.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_nyntpxP" coords="3,37.00,36.91,184.42,13.47;3,57.09,57.91,108.88,13.47">présentation du site d'application</head><p xml:id="_B9Gn3np"><s xml:id="_vubcXz7" coords="3,52.00,90.90,245.46,11.15;3,36.00,104.90,261.46,11.15;3,36.00,118.90,48.57,11.15">L'installation de traitement concernée par cette étude est la station de production d'eau potable Rocade de la ville de Marrakech.</s><s xml:id="_zAeeDC6" coords="3,89.06,118.90,208.46,11.15;3,36.00,132.10,261.49,11.15">Elle alimente en eau potable, de façon variable dans le temps, une population de 1,5 millions habitants.</s><s xml:id="_4fHtJFb" coords="3,36.00,145.30,261.50,11.15;3,36.00,158.50,69.93,11.15">L'eau à l'entrée de la station provient d'une prise située dans le canal Rocade.</s><s xml:id="_CauCSjH" coords="3,109.54,158.50,187.96,11.15;3,36.00,171.70,261.53,11.15;3,36.00,184.90,261.45,11.15;3,36.00,198.10,200.32,11.15">En cas de défaillance de la ressource (crues, pollution accidentelle, travaux de maintenance, etc.), la station peut être alimentée à partir d'un réservoir de mise en charge situé près de la station de pompage Takerkoust.</s><s xml:id="_2Zjc9KD" coords="3,239.14,198.10,58.37,11.15;3,36.00,211.30,261.46,11.15;3,36.00,224.50,261.47,11.15;3,36.00,237.70,261.48,11.15;3,36.00,250.90,197.93,11.15">En se référant aux historiques de la station, soixante pour cent des besoins de la ville de Marrakech sont assurés par la station Rocade et les quarante pour cent restants sont fournis par l'eau des ressources souterraines (puits, forages, etc.).</s><s xml:id="_dpmxJnf" coords="3,240.17,250.90,57.29,11.15;3,36.00,264.10,261.51,11.15;3,36.00,277.30,83.11,11.15;3,119.10,276.66,5.26,6.50;3,124.36,277.30,2.75,11.15">À noter que la capacité maximale de traitement de la station étudiée est d'environ 1 400 L s -1 .</s></p><p xml:id="_kv23mJN"><s xml:id="_DyN58X7" coords="3,52.00,303.70,245.49,11.15;3,36.00,316.90,261.50,11.15;3,36.00,330.10,261.49,11.15;3,36.00,343.30,261.47,11.15;3,36.00,356.50,261.49,11.15;3,36.00,369.70,121.20,11.15">Compte tenu des caractéristiques de l'eau brute acheminée vers la station, les décideurs (Office National de l'Eau Potable, ONEP) utilisent le procédé physico-chimique classique illustré par la figure 1. Ce procédé comporte les phases suivantes : la pré-chloration, la coagulation-floculation, la décantation, la filtration et la désinfection.</s><s xml:id="_R7WChyF" coords="3,162.17,369.70,135.33,11.15;3,36.00,382.90,261.51,11.15;3,36.00,396.10,235.16,11.15">Cependant, la station présente des limites de fonctionnement au niveau du traitement des matières en suspension (MES) présentes dans l'eau brute.</s><s xml:id="_hnkAd2r" coords="3,272.92,396.10,24.59,11.15;3,36.00,409.30,240.74,11.15">Ainsi, les limites de fonctionnement se présentent comme suit :</s></p><p xml:id="_ttT4zzu"><s xml:id="_8YaCdpS" coords="3,36.00,438.34,25.51,11.15;3,61.51,437.70,5.26,6.50">-2 g L -1</s></p><p xml:id="_JDpV5n7"><s xml:id="_sBBDGn8" coords="3,108.00,438.33,189.52,11.15;3,108.00,451.33,54.07,11.15">en MES : limite d'un fonctionnement normal de la station;</s></p><p xml:id="_ZEhPMjS"><s xml:id="_7dDVQGU" coords="3,314.50,36.71,34.53,11.15;3,349.03,36.08,5.26,6.50;3,386.50,36.71,187.05,11.15;3,386.50,49.71,31.45,11.15;3,314.51,62.72,49.20,11.15;3,363.71,62.08,5.26,6.50">-2-3 g L -1 en MES : diminution de la production de la station; -&gt; 3 à 4 g L -1</s></p><p xml:id="_3Bse2vj"><s xml:id="_ndq9HUq" coords="3,386.50,62.71,189.49,11.15;3,386.50,75.71,31.45,11.15">en MES : arrêt du fonctionnement de la station.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_8UxNVHD" coords="3,315.50,133.73,255.15,13.47;3,335.60,154.73,50.43,13.47">la méthode de classiFication lamda</head><p xml:id="_9YKJhDG"><s xml:id="_XxgsazC" coords="3,330.50,186.92,245.48,11.15;3,314.50,200.12,261.52,11.15;3,314.50,213.32,166.63,11.15">La méthode LAMDA est une technique de classification développée par <ref type="bibr" coords="3,384.28,200.12,90.05,11.15" target="#b13">PIERA et al. (1989)</ref> suite à l'idée originale d' <ref type="bibr" coords="3,327.21,213.32,149.38,11.15">AGUILAR-MARTIN et al. (1980)</ref>.</s><s xml:id="_wtNEJBw" coords="3,486.44,213.32,89.58,11.15;3,314.50,226.52,261.51,11.15;3,314.50,239.72,261.50,11.15;3,314.50,252.92,220.83,11.15">Elle fut appliquée à plusieurs processus <ref type="bibr" coords="3,397.87,226.52,81.37,11.15">(AGUADO, 1998;</ref><ref type="bibr" coords="3,482.40,226.52,93.62,11.15;3,314.50,239.72,166.65,11.15">AGUILAR-MARTIN et LÓPEZ DE MÁNTARAS, 1982;</ref><ref type="bibr" coords="3,487.18,239.72,88.82,11.15" target="#b2">CHAN et al.,1989;</ref><ref type="bibr" coords="3,314.50,252.92,130.14,11.15" target="#b14">PIERA CARRETÉ et al., 1990;</ref><ref type="bibr" coords="3,446.11,252.92,84.51,11.15">WAISSMAN, 2000)</ref>.</s><s xml:id="_CgpMWbh" coords="3,536.97,252.92,39.02,11.15;3,314.50,266.12,261.51,11.15;3,314.50,279.32,261.47,11.15;3,314.50,292.52,154.55,11.15">L'objectif de cette méthode repose sur la représentation de classes ou de concepts au moyen de la connexion logique de toutes les informations marginales disponibles.</s><s xml:id="_VzBeqfZ" coords="3,471.09,292.52,104.90,11.15;3,314.50,305.72,261.50,11.15;3,314.50,318.92,261.49,11.15;3,314.50,332.12,261.51,11.15;3,314.50,345.32,138.34,11.15">L'une des caractéristiques les plus importantes de la technique LAMDA réside dans sa capacité à modéliser naturellement l'indistingabilité totale ou l'homogénéité au travers d'une classe non informative appelée NIC « Non-Informative Class ».</s><s xml:id="_Y8hWexA" coords="3,456.36,345.32,119.67,11.15;3,314.50,358.52,261.51,11.15;3,314.50,371.72,58.07,11.15">Cette classe accepte tous les objets présents dans l'espace de description avec le même degré d'adéquation.</s><s xml:id="_3GK43Sk" coords="3,374.16,371.72,201.87,11.15;3,314.50,384.92,261.45,11.15;3,314.50,398.12,198.12,11.15">De cette façon, elle représente un seuil minimum de classification, ce qui montre que la classe NIC est toujours présente dans l'espace des classes déjà établies.</s><s xml:id="_JBdqUMt" coords="3,516.10,398.12,59.92,11.15;3,314.50,411.32,261.53,11.15;3,314.50,424.52,261.50,11.15;3,314.50,437.72,261.50,11.15;3,314.50,450.92,261.49,11.15">De plus, cette méthode offre la possibilité de réaliser indifféremment un apprentissage séquentiel supervisé et non supervisé ainsi que de manipuler des informations de natures différentes : de natures numérique (quantitative), symbolique (qualitative) ou mixte.</s><s xml:id="_KJCYq6b" coords="3,88.38,557.24,18.26,15.96;3,88.38,577.15,25.40,15.96;3,165.43,511.15,58.56,15.96;3,165.43,531.06,56.09,15.96;3,239.90,515.76,58.44,15.96;3,321.44,516.68,46.38,15.96;3,403.30,495.48,44.30,15.96;3,419.92,515.39,11.06,15.96;3,405.30,535.30,40.30,15.96;3,489.51,571.06,18.26,15.96;3,483.69,590.98,29.88,15.96">Eau brute Coagulation flocculation Décantation Filtration Réservoir de stockage Eau traitée</s></p><p xml:id="_UDECPdg"><s xml:id="_vPwAJXf" coords="4,330.50,36.71,245.49,11.15;4,314.50,49.91,204.47,11.15">La méthode LAMDA propose six algorithmes permettant de calculer les DAMs <ref type="bibr" coords="4,413.32,49.91,100.94,11.15" target="#b6">(KEMPOWSKY, 2004)</ref>.</s><s xml:id="_NKkeVXw" coords="4,523.20,49.91,52.77,11.15;4,314.50,63.11,261.53,11.15;4,314.50,76.31,94.09,11.15">Les résultats qui seront présentés dans cette étude sont obtenus en utilisant l'algorithme Lamda3 :</s></p><formula xml:id="formula_1" coords="4,339.12,115.36,182.88,42.61">DAM x avec d x i j i j i d j i d j i i j i j i ρ ρ ρ , ,<label>, , , , ( ) </label></formula><formula xml:id="formula_2" coords="4,377.84,114.72,198.17,43.25">   = -- = - 1 1 --c j i ,<label>(2)</label></formula><p xml:id="_JVHC5fh"><s xml:id="_EyT7TqW" coords="4,314.50,186.10,22.75,11.59;4,337.25,193.23,1.62,6.50;4,338.87,186.54,2.75,11.15;4,341.62,193.23,1.65,6.50;4,349.00,186.54,227.00,11.15;4,314.50,199.74,59.50,11.15;4,374.00,206.43,1.65,6.50;4,375.65,199.30,15.50,10.12;4,391.15,206.43,1.62,6.50;4,395.52,199.74,14.88,11.15;4,410.40,206.43,1.62,6.50;4,412.03,199.74,2.75,11.15;4,414.78,206.43,1.65,6.50;4,416.42,199.30,16.42,10.12;4,432.71,206.43,1.65,6.50;4,437.11,199.74,132.23,11.15;4,569.34,206.43,1.62,6.50;4,570.96,199.74,2.75,11.15">où ρ j , i est la probabilité de succès pour que l'événement stochastique x i ∈C j et c j , i ∈D i soit appelé centre de la classe C j .</s></p><p xml:id="_X7u78F4"><s xml:id="_T4UbWyH" coords="4,330.50,226.14,245.53,11.15;4,314.50,239.34,261.46,11.15;4,314.50,252.54,261.49,11.15;4,314.50,265.74,28.27,11.15">En fait, ceci n'est qu'une extension floue de la loi de probabilité binomiale à laquelle a été ajoutée la possibilité de créer une partition autour des centres de classes <ref type="bibr" coords="4,513.03,252.54,62.96,11.15;4,314.50,265.74,23.56,11.15">(WAISSMAN, 2000)</ref>.</s></p><p xml:id="_SDZVUYe"><s xml:id="_wgks4jB" coords="4,330.50,292.14,245.48,11.15;4,314.50,305.34,107.09,11.15;4,421.59,312.03,1.62,6.50;4,425.96,305.34,115.93,11.15">L'actualisation des paramètres associés aux descripteurs quantitatifs de la classe C j se fait de la façon suivante :</s></p><formula xml:id="formula_3" coords="4,385.21,331.05,190.79,28.95">ρ ρ ρ j i j i i j i x N , , , = + - + 1<label>(3)</label></formula><p xml:id="_S5XByR4"><s xml:id="_tyrqApb" coords="4,314.50,380.65,236.05,11.15">où N est le nombre d'objets attribué à cette classe.</s><s xml:id="_QrRYew6" coords="4,555.96,380.65,20.08,11.15;4,314.50,393.85,261.48,11.15;4,314.50,407.05,261.54,11.15;4,314.50,420.25,93.62,11.15">Pour procéder séquentiellement, il est nécessaire de connaître le nombre d'éléments ayant servi au calcul des paramètres de la classe correspondante.</s><s xml:id="_TjTZUx5" coords="4,36.00,708.93,199.13,8.66">Figure 2. degrés d'adéquation marginale et Globale.</s><s xml:id="_nD9nJ7G" coords="4,76.00,719.73,151.62,8.65">Degrees of marginal and global adequacy.</s><s xml:id="_XPzKTjr" coords="4,53.96,505.41,59.10,8.95;4,506.12,547.73,30.40,11.94;4,484.64,560.45,73.17,8.95;4,506.25,570.42,29.96,8.95;4,380.69,498.54,30.42,11.94;4,411.14,502.74,5.23,8.00;4,380.97,617.15,35.00,11.45;4,68.69,525.64,7.01,11.12;4,75.70,529.64,4.70,7.45;4,68.69,538.82,7.01,11.12;4,75.70,542.83,4.70,7.45;4,68.69,552.01,3.90,11.12;4,68.69,565.20,3.90,11.12;4,68.69,578.39,3.90,11.12;4,68.69,591.58,11.72,11.44;4,186.96,469.07,31.19,11.94;4,218.10,473.28,5.23,8.00;4,223.29,469.07,11.77,11.94;4,234.93,473.28,5.23,8.00;4,240.12,469.07,14.05,11.94;4,186.96,498.54,31.19,11.94;4,218.10,502.74,5.23,8.00;4,223.29,498.54,11.77,11.94;4,234.93,502.74,5.23,8.00;4,240.12,498.54,14.05,11.94;4,220.90,511.73,4.67,11.94;4,186.96,528.13,31.19,11.94;4,218.10,532.33,5.23,8.00;4,223.29,528.13,11.77,11.94;4,234.93,532.33,5.23,8.00;4,240.12,528.13,14.05,11.94;4,220.90,541.31,4.67,11.94">Descripteurs MAX Attribution de la classe DAG 1 DAG k x 1 x 2 : : : x n DAM 1 (x 1 ,C DAM 2 (x 2 ,C ) DAM n <ref type="figure" coords="4,223.29,528.13,11.77,11.94;4,234.93,532.33,5.23,8.00">(x n</ref> ,<ref type="figure" coords="4,247.15,528.13,7.03,11.94">C</ref> )</s></p><formula xml:id="formula_4" coords="4,178.68,587.19,271.91,108.01">DAM 1 (x 1 ,C ) DAM 2 (x 2 ,C ) DAM n (x n ,C ) Degré d'Adéquation Globale (DAG) Degré d'Adéquation Maximale (DAM)</formula><p xml:id="_YdXuqxd"><s xml:id="_W9YmkUr" coords="5,52.00,36.71,245.50,11.15;5,36.00,49.91,261.53,11.15;5,36.00,63.11,48.21,11.15">On peut créer aussi, à l'aide de la classe (NIC), une nouvelle classe qui va être caractérisée par l'affectation d'un élément à cette classe.</s><s xml:id="_PgKargH" coords="5,86.79,63.11,202.66,11.15;5,289.46,69.81,8.04,6.50;5,36.00,76.31,261.50,11.15;5,36.00,89.51,36.34,11.15">X est le premier élément d'une nouvelle classe C j+1 et la représentation de cette nouvelle classe dépendra de cet élément.</s><s xml:id="_RXhqJhQ" coords="5,77.14,89.51,220.34,11.15;5,36.00,102.71,155.00,11.15">On prendra un paramètre fictif correspondant au nombre d'éléments de la classe NIC.</s></p><formula xml:id="formula_5" coords="5,121.96,128.42,175.54,31.09">ρ ρ ρ j j i j x N , , , 0 0 0 0 1 = + - +<label>(4)</label></formula><p xml:id="_bGSpJSg"><s xml:id="_WZk7uGH" coords="5,36.00,179.92,261.48,11.15;5,36.00,193.12,261.51,11.15;5,36.00,206.32,173.07,11.15;5,209.07,213.01,3.21,6.50;5,215.03,206.32,63.92,11.15">Dans le cas de l'auto-apprentissage, toute classe a dû être initialisée par la classe NIC, c'est pourquoi la formule de la mise à jour doit contenir ce paramètre fictif N 0 et elle devient :</s></p><formula xml:id="formula_6" coords="5,121.21,232.03,176.29,31.09">ρ ρ ρ j i j i i j i x N N , , , = + - + + 0 1 (5)</formula><p xml:id="_NDeG4eX"><s xml:id="_RPkCsKN" coords="5,36.00,284.04,88.52,11.15;5,124.63,290.73,3.21,6.50;5,130.76,284.04,166.74,11.15;5,36.00,297.24,65.86,11.15">Le paramètre N 0 &gt; 0 détermine l'initialisation de l'apprentissage.</s><s xml:id="_spunNVJ" coords="5,107.87,297.24,189.60,11.15;5,36.00,310.44,261.48,11.15;5,36.00,323.64,74.99,11.15;5,110.99,330.33,3.21,6.50;5,119.47,323.64,178.02,11.15;5,36.00,336.84,142.56,11.15">Sa valeur peut être choisie arbitrairement mais elle influe sur le pouvoir d'absorption de chaque classe nouvelle; plus N 0 est grand, moins la classe nouvelle sera influencée par le premier élément.</s><s xml:id="_4kFBse3" coords="5,180.88,336.84,116.60,11.15;5,36.00,350.04,261.53,11.15;5,36.00,363.24,56.16,11.15">Par contre, en apprentissage dirigé, ce paramètre n'a pas d'influence sur le résultat de la classification.</s></p><p xml:id="_aYPZdc7"><s xml:id="_rAUPXYE" coords="5,52.00,392.48,245.47,11.15;5,36.00,405.68,261.51,11.15;5,36.00,418.88,66.12,11.15">Dans le cas de la reconnaissance de formes, l'élément est attribué à une classe significative ou rejeté dans la classe résiduelle NIC.</s><s xml:id="_XWpsFCu" coords="5,105.85,418.88,191.62,11.15;5,36.00,432.08,261.53,11.15;5,36.00,445.28,62.57,11.15">Dans le cas de l'apprentissage, s'il est affecté à une classe significative, il y a modification des paramètres de cette classe.</s><s xml:id="_AXvzMWt" coords="5,102.06,445.28,195.40,11.15;5,36.00,458.48,261.53,11.15;5,36.00,471.68,50.72,11.15">En revanche, si la classe vide a la plus grande adéquation, une nouvelle classe doit être créée pour contenir cet élément.</s><s xml:id="_pwEZV4C" coords="5,88.97,471.68,208.58,11.15;5,36.00,484.88,261.53,11.15;5,36.00,498.08,205.79,11.15">Il y a rejet si la classe vide est la plus proche et qu'il n'y a pas possibilité de création de nouvelles classes parce que le nombre maximum de classes créées est atteint.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_Rwk5Je2" coords="5,37.00,565.20,257.17,13.47">résultats de la classiFication</head><p xml:id="_Prk4G5P"><s xml:id="_KKkfbqe" coords="5,52.00,599.02,245.45,11.15;5,36.00,611.02,261.46,11.15;5,36.00,623.02,149.50,11.15">Dans cette étude, la classification des états fonctionnels est basée sur l'application itérative de la méthode LAMDA dont les étapes se résument comme suit :</s></p><p xml:id="_Ubg7qVG"><s xml:id="_24SwbkA" coords="5,36.00,651.06,261.50,11.15;5,47.00,663.06,250.50,11.15;5,47.00,675.06,84.15,11.15">1. Initialisation de la méthode par un ensemble de données (sans prendre en compte une quelconque connaissance préalable du procédé</s></p><p xml:id="_uXRwTSq"><s xml:id="_CdjAcDA" coords="5,131.15,675.06,166.36,11.15;5,47.00,688.26,147.60,11.15;5,36.00,717.29,261.48,11.16;5,47.00,729.29,250.53,11.15;5,47.00,741.29,220.74,11.15;5,314.51,36.71,261.51,11.16;5,325.50,48.71,194.91,11.15">). À noter que les données à classer sont normalisées dans la gamme [0 -1]; 2. Application d'un apprentissage non supervisé (autoapprentissage) : les objets ne sont pas affectés à des classes prédéfinies et seule la classe NIC existe initialement; 3. Identification, par l'expert, de l'ensemble des classes en rapport à un ensemble d'états significatifs.</s><s xml:id="_VJPtZBK" coords="5,526.56,48.71,49.42,11.15;5,325.51,61.91,250.49,11.15;5,325.50,75.11,250.53,11.15;5,325.50,88.31,197.63,11.15;5,314.50,114.71,261.47,11.15;5,325.50,127.91,250.50,11.15;5,325.50,141.11,152.69,11.15;5,314.50,167.51,261.50,11.15;5,325.50,180.71,246.17,11.15;5,314.50,207.11,261.50,11.15;5,325.50,220.31,250.51,11.15;5,325.50,233.51,224.25,11.15">Ainsi, trois situations sont possibles : une classe est équivalente à un état, un ensemble de classes est équivalent à un état ou une classe n'a d'équivalence avec aucun état connu; 4. S'il existe au moins une classe dans la dernière situation, on doit retourner à l'étape 2 en considérant uniquement les données comprises dans cette classe; 5. Identification de toutes les séquences possibles d'états une fois que toutes les données sont classifiées en états connus; 6. Application d'un apprentissage supervisé à partir des données comprises entre chaque transition d'états possible afin d'obtenir toutes les conditions de changement.</s><s xml:id="_EFXRR7J" coords="5,553.73,233.51,22.29,11.15;5,325.50,246.71,250.47,11.15;5,325.50,259.91,250.51,11.15;5,325.50,273.11,250.46,11.15;5,325.50,286.31,40.62,11.15">Dans ce cas, l'expert, selon ses propres critères, peut définir un certain nombre de classes significatives par un ensemble de données, et ainsi mettre en place une classification de référence.</s></p><p xml:id="_GUQyuWR"><s xml:id="_EDWJUeS" coords="5,330.50,315.55,245.49,11.15;5,314.50,328.75,65.86,11.15">Les données utilisées pour l'apprentissage sont issues de la station Rocade.</s><s xml:id="_feuKggw" coords="5,383.66,328.75,192.33,11.15;5,314.50,341.95,206.61,11.15">Une base de données a été établie à partir de quatre années de fonctionnement de la station.</s><s xml:id="_aK5wh6G" coords="5,525.23,341.95,50.73,11.15;5,314.50,355.15,261.47,11.15;5,314.50,368.35,261.53,11.15">Nous avons considéré comme descripteurs : la température (T), les MES, le pH, la conductivité (COND) et l'oxygène dissous (OD).</s><s xml:id="_NdKtPs4" coords="5,314.50,381.55,261.48,11.15;5,314.50,394.75,198.52,11.15">Le choix de ces descripteurs a été dicté par l'extrême influence de leurs valeurs sur le procédé de coagulation.</s><s xml:id="_X9368d9" coords="5,516.53,394.75,59.50,11.15;5,314.50,407.95,261.51,11.15;5,314.50,421.15,261.52,11.15;5,314.50,434.35,261.50,11.15;5,314.50,447.55,203.81,11.15">En effet, dans une étude précédente <ref type="bibr" coords="5,412.25,407.95,106.29,11.15">(LAMRINI et al., 2005)</ref>, nous avons développé un capteur logiciel, à base de réseaux de neurones, permettant de prédire la dose optimale de coagulant nécessaire dans une station de production d'eau potable.</s><s xml:id="_5M3ZsrU" coords="5,522.65,447.55,53.37,11.15;5,314.50,460.75,238.98,11.15">Le calcul de la dose est basé sur les caractéristiques de l'eau brute.</s><s xml:id="_nbNJ5ts" coords="5,558.05,460.75,17.94,11.15;5,314.50,473.95,261.51,11.15;5,314.50,487.15,261.50,11.15;5,314.50,500.35,261.47,11.15;5,314.50,513.55,32.85,11.15">Une étude par analyse en composantes principales (ACP) a permis de déterminer les cinq paramètres principaux de l'eau brute à prendre en considération lors du développement du capteur logiciel.</s><s xml:id="_qdSFwhC" coords="5,351.33,513.55,224.63,11.15;5,314.50,526.75,261.46,11.15;5,314.50,539.95,261.54,11.15;5,314.50,553.15,261.47,11.15;5,314.50,566.35,170.01,11.15">De plus, l'étude effectuée sur le fonctionnement de la station Rocade nous a montré que la qualité de l'eau brute se caractérise par une turbidité très variable (très élevée à certaines périodes) et dès qu'elle dépasse la valeur 1 000 NTU, l'opérateur passe à la mesure des MES.</s><s xml:id="_Gr3NRE3" coords="5,488.37,566.35,87.60,11.15;5,314.50,579.55,261.44,11.15;5,314.50,592.75,261.50,11.15">Pour cette raison, et afin de tenir compte de toutes les variations de la qualité de l'eau brute, nous avons utilisé les MES au lieu de la turbidité.</s><s xml:id="_dqJDMrs" coords="5,314.50,605.95,261.46,11.15;5,314.50,619.15,261.48,11.15;5,314.50,632.35,88.19,11.15">La dose de coagulant prédite par le capteur logiciel sera considérée comme un descripteur supplémentaire à utiliser dans la classification.</s></p><p xml:id="_JVJktx4"><s xml:id="_WjSCbej" coords="5,330.51,659.05,245.51,11.15;5,314.50,672.55,130.77,11.15">La figure 3 représente les caractéristiques d'eau brute utilisées pour l'apprentissage.</s><s xml:id="_TraJxWw" coords="5,451.85,672.55,124.15,11.15;5,314.50,686.05,261.47,11.15;5,314.50,699.55,38.93,11.15">Les données montrent que la qualité de l'eau brute est caractérisée par des MES très variables.</s><s xml:id="_g9F8mxJ" coords="5,359.19,699.55,216.84,11.15;5,314.50,713.05,261.50,11.15;5,314.50,726.55,120.86,11.15">Ainsi, on constate de fortes variations de MES durant la saison hivernale qui deviennent parfois très élevées pendant certaines périodes.</s><s xml:id="_qU9yhZ7" coords="5,440.92,726.55,135.05,11.15;5,314.50,740.05,117.25,11.15;5,431.75,739.41,5.26,6.50;5,437.01,740.05,107.79,11.15">Les valeurs de MES mesurées dépassent parfois 900 mg L -1 , et ce, pendant les crues.</s><s xml:id="_MzS6syF" coords="5,547.96,740.05,28.05,11.15;6,36.00,527.01,181.82,11.15">Le pH est élevé et atteint la valeur maximale 8,5.</s><s xml:id="_TEkdgyQ" coords="6,221.36,527.01,76.18,11.15;6,36.00,540.51,170.98,11.15;6,206.98,539.88,5.26,6.50;6,212.24,540.51,85.26,11.15;6,36.00,553.71,218.88,11.15">On constate aussi une forte variation (jusqu'à 2 200 µs cm -2 ) de la conductivité, due à la présence des chlorures dans l'eau brute.</s><s xml:id="_EsPcQUH" coords="6,259.75,553.71,37.79,11.15;6,36.00,566.91,261.47,11.15;6,36.00,580.11,179.31,11.15;6,215.34,579.48,5.26,6.50;6,220.60,580.11,6.27,11.15">Dans les conditions d'opération normale, l'oxygène dissous varie dans des proportions négligeables (8 à 8,2 mg L -1 ).</s><s xml:id="_9MT7jFM" coords="6,229.46,580.11,68.02,11.15;6,36.00,593.31,261.50,11.15;6,36.00,606.51,194.58,11.15">Cependant, une forte variation de l'oxygène dissous est détectée en parallèle avec des valeurs très élevées de la conductivité.</s><s xml:id="_zm8Be2w" coords="6,233.21,606.51,64.29,11.15;6,36.00,619.71,261.53,11.15;6,36.00,632.91,138.06,11.15;6,174.06,632.28,5.26,6.50;6,179.32,632.91,6.27,11.15">En basse saison (saison hivernale), la qualité de l'eau ne nécessite que de faibles taux de coagulant (10 à 45 mg L -1 ).</s></p><p xml:id="_wEtjNtU"><s xml:id="_Pchc7uz" coords="6,52.00,659.31,245.51,11.15;6,36.00,672.51,261.49,11.15;6,36.00,685.71,261.50,11.15;6,36.00,698.91,261.46,11.15">Afin de garder et de bien distinguer les signaux relatifs aux variations brusques et significatives de chaque descripteur, ces données brutes sont filtrées (Figure <ref type="figure" coords="6,211.59,685.71,8.98,11.15" target="#fig_2">4a</ref>) au moyen d'un filtre passe bas d'ordre 2 autour d'une fréquence de 0,5 Hz.</s><s xml:id="_sdvCKZB" coords="6,36.00,712.11,261.51,11.15;6,36.00,725.31,261.49,11.15;6,36.00,738.51,261.50,11.15;6,314.50,527.96,261.49,11.15;6,314.50,541.16,200.67,11.15">Ensuite, pour mieux extraire les informations pertinentes pour la classification et connaître les conditions d'opération de chaque descripteur, nous avons utilisé un analyseur spectral en sélectionnant une composante fréquentielle autour de laquelle le spectre est défini par les paramètres suivants :</s></p><p xml:id="_RTrBwBP"><s xml:id="_jSP82Ku" coords="6,314.50,560.02,154.36,11.15;6,314.50,573.22,169.85,11.15;6,314.50,586.42,114.54,11.15;6,314.50,599.62,138.35,11.15;6,314.50,612.82,136.76,11.15">-Fréquence sélectionnée : 0,01 Hz; -Marge de tolérance (% Nyquist) : 10; -Largeur de la fenêtre : 7; -Déplacement de la fenêtre : 1; -Période d'échantillonnage : 1.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_34Ahvck" coords="6,314.50,642.06,261.45,11.15;6,314.50,655.26,199.69,11.15">Ce filtrage est effectué au moyen d'un outil d'abstraction des signaux appelé ABSALON (SARRATE, 2002).</head><p xml:id="_vvEXaP4"><s xml:id="_ZuwbCaz" coords="6,330.50,684.50,245.51,11.15;6,314.50,697.70,261.51,11.15;6,314.50,710.90,206.32,11.15">Dans un premier temps, nous avons réalisé une classification sans recours à une quelconque connaissance préalable (classification avec auto-apprentissage).</s><s xml:id="_hnKpEdG" coords="6,523.81,710.90,52.17,11.15;6,314.50,724.10,261.52,11.15;6,314.50,737.30,107.76,11.15">Dans ce cas, les objets ne sont pas déjà affectés à des classes prédéfinies et seule la classe NIC existe.</s><s xml:id="_42N9sr9" coords="7,52.00,470.51,245.50,11.15;7,36.00,483.71,261.50,11.15;7,36.00,496.91,78.44,11.15">Nous avons procédé à des essais (LAMRINI et al., 2005) pour les six algorithmes (KEMPOWSKY, 2004) et différents indices d'exigence.</s><s xml:id="_khMHCdm" coords="7,117.02,496.91,180.47,11.15;7,36.00,510.11,261.50,11.15;7,36.00,523.31,261.50,11.15;7,36.00,536.07,261.49,11.59;7,36.00,549.71,138.98,11.15">Les meilleurs résultats ont été obtenus avec l'algorithme Lamda3 (Éq. 3) comme fonction de présence utilisée pour calculer les adéquations marginales et le connectif Minimum/Maximum avec une exigence : α = 0,83, pour le calcul des adéquations globales.</s><s xml:id="_HkfYhVB" coords="7,179.67,549.71,117.79,11.15;7,36.00,562.91,261.54,11.15;7,36.00,576.11,261.50,11.15;7,36.00,589.31,45.87,11.15">Il est à noter que plus cet indice d'exigence est élevé, plus l'appartenance d'un objet à une classe est stricte, et plus le nombre d'objets non classés devient important.</s><s xml:id="_h3Py5yc" coords="7,85.97,589.31,211.52,11.15;7,36.00,602.51,261.47,11.15;7,36.00,615.71,261.51,11.15;7,36.00,628.91,206.27,11.15">De ce fait, le nombre de nouvelles classes créées augmente et il est donc évident que le choix de ces différents paramètres, nécessaires à la réalisation d'un auto-apprentissage, doit être guidé par les connaissances de l'expert.</s><s xml:id="_MhwBgzu" coords="7,245.65,628.91,51.83,11.15;7,36.00,642.11,261.53,11.15;7,36.00,655.31,220.99,11.15;7,257.01,662.00,3.21,6.50;7,260.21,655.31,15.75,11.15;7,275.96,662.00,3.37,6.50;7,279.33,655.31,18.16,11.15;7,36.00,668.51,211.46,11.15;7,118.55,710.76,5.04,10.30;7,166.96,703.76,24.54,10.30;7,159.02,719.38,5.04,10.30;7,194.36,719.38,5.04,10.30;7,124.24,714.76,21.22,8.42;7,172.64,707.76,2.06,8.42;7,192.15,707.76,2.06,8.42;7,164.71,723.39,2.06,8.42;7,200.05,723.39,2.06,8.42;7,149.52,709.97,6.04,10.92;7,178.33,702.97,6.04,10.92;7,186.24,718.60,6.04,10.92;7,195.61,707.76,13.56,8.42;7,168.17,723.39,14.65,8.42;7,203.52,723.39,13.56,8.42;7,284.96,709.44,12.54,11.15;7,330.51,468.15,245.50,11.15;7,314.50,481.35,261.50,11.15;7,314.50,494.55,79.45,11.15">La figure 4b illustre les 10 classes issues de l'auto-apprentissage. À noter que pour chaque descripteur i de l'élément x = (x 1 ,..,x n ), la normalisation a été faite avec la formule suivante : x x x x x inorm i i i i = --min max min (6) La figure 5 présente le profil de chaque classe, i.e. la fréquence de contribution de chaque descripteur aux classes créées (Tableau 1).</s><s xml:id="_sR8Jbhg" coords="7,397.53,494.55,178.50,11.15;7,314.50,507.75,261.49,11.15;7,314.50,520.95,261.47,11.15;7,314.50,534.15,35.23,11.15">Les caractéristiques de chaque classe dans l'espace de description permettent à l'expert d'identifier les classes significatives et celles ayant des caractéristiques très proches.</s><s xml:id="_urEF65u" coords="7,352.75,534.15,223.21,11.15;7,314.50,547.35,98.08,11.15">Ainsi, l'expert peut décider d'agréger ces classes dans un seul et même état.</s><s xml:id="_F9Jpc2M" coords="7,417.17,547.35,158.80,11.15;7,314.50,560.55,261.49,11.15;7,314.50,573.75,163.04,11.15">Sur cette figure, les descripteurs des classes apparaissent dans l'ordre suivant : Température, pH, MES, conductivité et oxygène dissous.</s><s xml:id="_szaRAJV" coords="7,330.51,605.81,178.16,11.15;7,314.50,632.21,261.45,11.15;7,325.50,645.41,250.51,11.15;7,325.50,658.62,250.49,11.15;7,325.50,671.82,185.48,11.15">Décrivons brièvement ce profil de classes : -Classes 1 et 3 : les descripteurs se trouvent dans des valeurs optimales de fonctionnement suivant deux saisons : la basse saison (saison hivernale) et la haute saison (saison estivale), cas de fonctionnement normal de la station.</s><s xml:id="_AxjVvRu" coords="7,513.59,671.82,62.45,11.15;7,325.50,685.02,250.46,11.15;7,325.50,698.22,49.67,11.15">Ainsi, ces deux classes peuvent être associées à l'état de fonctionnement « Normal ».</s><s xml:id="_YFCuqfa" coords="7,378.03,698.22,197.93,11.15;7,325.50,711.42,250.47,11.15;7,325.50,724.62,175.71,11.15">Les 549 éléments propres à la basse saison plus les 617 éléments propres à la haute saison ont été associés à ce même état de fonctionnement normal.</s><s xml:id="_G9TJmDw" coords="8,61.39,161.42,10.43,66.99;8,61.39,135.96,10.43,22.23;8,61.39,54.46,10.43,78.27;8,164.28,360.45,28.22,9.10;8,240.39,360.45,6.19,9.10;8,287.51,360.45,12.75,9.10;8,334.67,360.45,19.22,9.10;8,380.60,360.45,27.85,9.10;8,437.69,360.45,14.16,9.10;8,164.28,384.36,28.22,8.42;8,164.28,401.16,28.22,8.42;8,164.28,417.96,28.22,8.42;8,164.28,434.76,28.22,8.42;8,164.28,451.56,28.22,8.42;8,164.28,468.36,28.22,8.42;8,164.28,485.16,28.22,8.42;8,164.28,501.96,28.22,8.42;8,164.28,518.76,28.22,8.42;8,164.28,535.56,32.44,8.42;8,236.17,384.36,14.63,8.42;8,236.17,401.16,14.63,8.42;8,236.17,417.96,14.63,8.42;8,236.17,434.76,14.63,8.42;8,236.17,451.56,14.63,8.42;8,236.17,468.36,14.63,8.42;8,236.17,485.16,14.63,8.42;8,236.17,501.96,14.63,8.42;8,236.17,518.76,14.63,8.42;8,236.17,535.56,14.63,8.42;8,286.57,384.36,14.63,8.42;8,286.57,401.16,14.63,8.42;8,286.57,417.96,14.63,8.42;8,286.57,434.76,14.63,8.42;8,286.57,451.56,14.63,8.42;8,286.57,468.36,14.63,8.42;8,286.57,485.16,14.63,8.42;8,286.57,501.96,14.63,8.42;8,286.57,518.76,14.63,8.42;8,286.57,535.56,14.63,8.42;8,336.97,384.36,14.63,8.42;8,336.97,401.16,14.63,8.42;8,336.97,417.96,14.63,8.42;8,336.97,434.76,14.63,8.42;8,339.08,451.56,10.41,8.42;8,336.97,468.36,14.63,8.42;8,339.08,485.16,10.41,8.42;8,336.97,501.96,14.63,8.42;8,336.97,518.76,14.63,8.42;8,336.97,535.56,14.63,8.42;8,387.21,384.36,14.63,8.42;8,387.21,401.16,14.63,8.42;8,387.21,417.96,14.63,8.42;8,387.21,434.76,14.63,8.42;8,387.21,451.56,14.63,8.42;8,387.21,468.36,14.63,8.42;8,387.21,485.16,14.63,8.42;8,387.21,501.96,14.63,8.42;8,387.21,518.76,14.63,8.42;8,387.21,535.56,14.63,8.42;8,437.46,384.36,14.63,8.42;8,437.46,401.16,14.63,8.42;8,437.46,417.96,14.63,8.42;8,437.46,434.76,14.63,8.42;8,437.46,451.56,14.63,8.42;8,437.46,468.36,14.63,8.42;8,437.46,485.16,14.63,8.42;8,437.46,501.96,14.63,8.42;8,437.46,518.76,14.63,8.42;8,437.46,535.56,14.63,8.42;8,159.59,315.47,37.93,8.66;8,215.75,315.47,246.69,8.66">Fréquence des descripteurs Classes T pH MES COND OD Classe 1 Classe 2 Classe 3 Classe 4 Classe 5 Classe 6 Classe 7 Classe 8 Classe 9 Classe 10 0,27 0,57 0,72 0,67 0,71 0,35 0,68 0,37 0,34 0,27 0,05 0,06 0,04 0,65 0,03 0,49 0,02 0,03 0,05 0,04 0,07 0,63 0,09 0,14 0,1 0,12 0,1 0,08 0,16 0,07 0,06 0,08 0,06 0,30 0,35 0,20 0,95 0,50 0,45 0,70 0,01 0,03 0,01 0,04 0,03 0,08 0,03 0,10 0,82 0,12 tableau 1. Fréquence de contribution de chaque descripteur aux classes créées.</s><s xml:id="_ceZmrt5" coords="9,52.00,190.42,245.48,11.15;9,36.00,203.62,261.47,11.15;9,36.00,216.82,76.73,11.15">Les résultats de classification issus de l'auto-apprentissage indiqués dans le tableau 2 montrent qu'on peut identifier cinq états fonctionnels.</s><s xml:id="_2eFyn59" coords="9,115.16,216.82,182.31,11.15;9,36.00,230.02,244.82,11.15">Ces états permettent d'identifier, sur l'unité de coagulation, les principales dérives de fonctionnement.</s></p><p xml:id="_EQmz7cq"><s xml:id="_h7TbTn2" coords="9,52.00,259.25,245.51,11.15;9,36.00,272.45,109.83,11.15">Cette classification optimisée a permis de définir la classification de référence.</s><s xml:id="_UQyk6Ud" coords="9,148.76,272.45,148.74,11.15;9,36.00,285.65,261.46,11.15;9,36.00,298.85,261.51,11.15;9,36.00,312.05,47.23,11.15">L'étape suivante du développement de l'outil de supervision/diagnostic a constitué à réaliser une classification passive, i.e. une reconnaissance pour valider cette affectation.</s><s xml:id="_5gcfnx9" coords="9,88.46,312.05,209.01,11.15;9,36.00,325.25,261.46,11.15;9,36.00,338.45,244.37,11.15">Lors de l'affectation, les paramètres des classes ne sont pas modifiés, ce qui est normal puisqu'il s'agit d'une exploitation des connaissances et non d'un apprentissage.</s><s xml:id="_N6Sn2Ha" coords="9,283.50,338.45,13.99,11.15;9,36.00,351.65,261.46,11.15;9,36.00,364.85,261.51,11.15;9,36.00,378.05,181.95,11.15">Les éléments non classés sont affectés à une classe appelée « classe résiduelle » (classe 0) ayant les mêmes caractéristiques que la classe NIC dans le cas de l'apprentissage.</s><s xml:id="_GgpBhEF" coords="9,222.27,378.05,75.24,11.15;9,36.00,391.25,261.51,11.15;9,36.00,404.45,261.46,11.15;9,36.00,417.65,261.53,11.15;9,314.51,36.71,261.51,11.15;9,314.51,49.91,261.46,11.15;9,314.51,63.11,117.92,11.15">Les résultats sont présentés sur la figure 6. Sur cette figure, nous constatons que certains éléments (très peu) ont été soit mal reconnus (l'élément 138 est affecté à la classe 6 et les éléments 676, 677 et 678 sont affectés à la classe 8), soit non reconnus (c'est-à-dire n'appartenant à aucune classe prédéfinie); c'est le cas des éléments 674 et 675.</s><s xml:id="_frBHBRb" coords="9,434.71,63.11,141.31,11.15;9,314.50,76.31,261.51,11.15;9,314.50,89.51,105.93,11.15">Le tableau 3 représente le nombre d'éléments associés aux classes issues de l'auto-apprentissage et lors de la reconnaissance.</s></p><p xml:id="_gtXQSbh"><s xml:id="_sAuewP6" coords="9,330.50,115.91,245.45,11.15;9,314.50,129.11,261.47,11.15;9,314.50,142.31,261.51,11.15;9,314.50,155.51,52.47,11.15">À partir de cette classification, il est possible de réaliser un apprentissage supervisé pour créer de nouvelles classes ou faire évoluer les classes déjà formées et ainsi arriver à une partition satisfaisante.</s><s xml:id="_J4j3wqr" coords="9,371.53,155.51,204.49,11.15;9,314.50,168.71,261.46,11.15;9,314.50,181.91,261.50,11.15;9,314.50,195.11,261.48,11.15;9,314.50,208.31,162.16,11.15">Cet apprentissage supervisé a été effectué avec les mêmes valeurs pour les différents paramètres (fonction de présence, connectif, indice d'exigence) que celles utilisées lors de l'auto-apprentissage. Les figures 7 et 8 présentent les résultats de cet apprentissage supervisé.</s><s xml:id="_mfpYgd5" coords="9,478.68,208.31,97.33,11.15;9,314.50,221.51,261.47,11.15;9,314.50,234.71,18.30,11.15">Nous avons pu détecter les mêmes états fonctionnels avec l'identification d'un nouvel état.</s><s xml:id="_GQXv8NK" coords="9,336.40,234.71,239.56,11.15;9,314.50,247.91,261.46,11.15">La nouvelle classe (classe 11) identifie bien la transition des cinq descripteurs vers leur état optimal de fonctionnement.</s><s xml:id="_GAfCg42" coords="9,314.50,261.11,261.50,11.15;9,314.50,274.31,80.80,11.15">Cette classe est associée à l'état « Transition » et 10 éléments lui ont été associés.</s><s xml:id="_j8jShwF" coords="9,398.05,274.31,160.42,11.15">Il n'y a plus d'éléments non reconnus.</s></p><p xml:id="_PrM46ze"><s xml:id="_PZPxqWy" coords="9,330.51,300.71,245.47,11.15;9,314.50,313.91,261.48,11.15;9,314.50,327.11,165.22,11.15">Le tableau 4 présente la comparaison des résultats propres aux deux classifications (résultats issus de l'auto-apprentissage et ceux issus de l'apprentissage supervisé).</s><s xml:id="_wKJwx7y" coords="9,482.43,327.11,93.58,11.15;9,314.50,340.31,261.53,11.15;9,314.50,353.51,216.45,11.15;9,178.30,476.34,262.72,8.66;9,124.30,487.14,29.19,8.65">La compatibilité entre ces deux classifications peut être effectuée en calculant l'indice de dissemblance <ref type="bibr" coords="9,384.86,353.51,146.09,11.15" target="#b11">(LOPEZ DE MANTARAS, 1977)</ref>  les états fonctionnels associés aux classes issues de l'auto-apprentissage. Table <ref type="table" coords="9,146.47,487.14,3.51,8.65">2</ref>.</s></p><p xml:id="_mzS8wBV"><s xml:id="_r25drWV" coords="9,178.30,487.14,303.84,8.65;9,178.30,497.93,38.30,8.65">Functional states associated with the classes stemming from the self-learning procedure.</s><s xml:id="_SEESMDc" coords="10,185.91,394.37,37.94,8.66;10,239.91,394.37,172.31,8.66;10,239.91,405.16,172.31,8.66;10,239.91,415.96,27.23,8.66">tableau 3. les éléments associés aux classes issues de l'auto-apprentissage et de la reconnaissance de formes.</s><s xml:id="_SRdExj2" coords="10,185.91,426.76,29.19,8.65;10,239.91,426.76,172.30,8.65;10,239.91,437.56,172.31,8.65;10,239.91,448.36,43.16,8.65">Table 3. Elements associated with the classes stemming from the self-learning procedure and pattern recognition.</s><s xml:id="_xmxEKsj" coords="10,199.77,485.08,28.22,9.10;10,275.05,474.81,109.33,9.10;10,252.77,492.58,74.41,9.10;10,345.04,492.58,61.33,9.10;10,189.18,522.94,28.22,8.42;10,189.18,542.74,28.22,8.42;10,189.18,562.54,28.22,8.42;10,189.18,582.34,28.22,8.42;10,189.18,602.14,28.22,8.42;10,189.18,621.94,28.22,8.42;10,189.18,641.74,28.22,8.42;10,189.18,661.54,28.22,8.42;10,189.18,681.34,28.22,8.42;10,189.18,701.14,32.44,8.42;10,283.65,522.94,12.66,8.42;10,285.76,542.74,8.44,8.42;10,283.65,562.54,12.66,8.42;10,285.76,582.34,8.44,8.42;10,283.65,602.14,12.66,8.42;10,287.87,621.94,4.22,8.42;10,285.76,641.74,8.44,8.42;10,285.76,661.54,8.44,8.42;10,285.76,681.34,8.44,8.42;10,283.65,701.14,12.66,8.42;10,369.37,522.94,12.66,8.42;10,371.48,542.74,8.44,8.42;10,369.37,562.54,12.66,8.42;10,373.28,582.34,8.44,8.42;10,369.37,602.14,12.66,8.42;10,371.48,621.94,8.44,8.42;10,371.48,641.74,8.44,8.42;10,371.48,661.54,8.44,8.42;10,371.48,681.34,8.44,8.42;10,369.37,701.14,12.66,8.42;10,247.67,233.09,86.85,10.86;10,59.33,114.20,12.21,37.68;11,88.96,219.42,274.85,8.66">Classes Nombre d'éléments associés Auto-apprentissage Reconnaissance Classe 1 Classe 2 Classe 3 Classe 4 Classe 5 Classe 6 Classe 7 Classe 8 Classe 9 Classe 10 549 26 617 16 206 6 33 44 11 167 536 27 615 15 192 10 33 64 17 164 Échantillons Classes Figure 7. création et modification des classes par apprentissage supervisé.</s><s xml:id="_94sE6Ej" coords="11,131.12,230.22,209.57,8.65">Design and modification of classes by supervised learning.</s><s xml:id="_UyEvKXh" coords="11,89.78,381.54,10.35,48.05;11,89.78,362.44,10.35,16.37;11,89.78,302.49,10.35,57.32;11,101.08,338.30,10.35,55.51;11,89.57,460.13,226.13,8.66">Fréquence des descripteurs normalisées Figure 8. profil de classes issues de l'apprentissage supervisé.</s><s xml:id="_mNb7Dp4" coords="11,129.57,470.93,178.88,8.65">Class profiles stemming from supervised learning.</s><s xml:id="_SAZyZbY" coords="11,80.32,567.31,28.22,9.10;11,290.01,558.64,100.22,9.10;11,135.32,575.39,409.60,9.10;11,70.08,715.52,8.42,25.04;11,70.08,693.19,8.42,20.08;11,70.08,682.69,8.42,8.25;11,70.08,629.42,8.42,51.01;11,70.08,594.48,8.42,32.70;11,94.18,591.38,28.22,8.42;11,144.13,591.38,12.66,8.42;11,189.78,591.38,4.22,8.42;11,231.53,591.38,4.22,8.42;11,273.28,591.38,4.22,8.42;11,315.03,591.38,4.22,8.42;11,356.78,591.38,4.22,8.42;11,398.53,591.38,4.22,8.42;11,440.28,591.38,4.22,8.42;11,482.03,591.38,4.22,8.42;11,525.55,591.38,4.22,8.42;11,94.18,605.46,28.22,8.42;11,148.35,605.46,4.22,8.42;11,187.67,605.46,8.44,8.42;11,231.53,605.46,4.22,8.42;11,273.28,605.46,4.22,8.42;11,315.03,605.46,4.22,8.42;11,356.78,605.46,4.22,8.42;11,398.53,605.46,4.22,8.42;11,440.28,605.46,4.22,8.42;11,482.03,605.46,4.22,8.42;11,525.55,605.46,4.22,8.42;11,94.18,619.66,28.22,8.42;11,148.35,619.66,4.22,8.42;11,189.78,619.66,4.22,8.42;11,227.31,619.66,12.66,8.42;11,273.28,619.66,4.22,8.42;11,315.03,619.66,4.22,8.42;11,356.78,619.66,4.22,8.42;11,398.53,619.66,4.22,8.42;11,440.28,619.66,4.22,8.42;11,482.03,619.66,4.22,8.42;11,525.55,619.66,4.22,8.42;11,94.18,633.86,28.22,8.42;11,148.35,633.86,4.22,8.42;11,189.78,633.86,4.22,8.42;11,231.53,633.86,4.22,8.42;11,271.17,633.86,8.44,8.42;11,315.03,633.86,4.22,8.42;11,356.78,633.86,4.22,8.42;11,398.53,633.86,4.22,8.42;11,440.28,633.86,4.22,8.42;11,482.03,633.86,4.22,8.42;11,525.55,633.86,4.22,8.42;11,94.18,648.06,28.22,8.42;11,148.35,648.06,4.22,8.42;11,189.78,648.06,4.22,8.42;11,229.42,648.06,8.44,8.42;11,273.28,648.06,4.22,8.42;11,310.81,648.06,12.66,8.42;11,356.78,648.06,4.22,8.42;11,398.53,648.06,4.22,8.42;11,440.28,648.06,4.22,8.42;11,482.03,648.06,4.22,8.42;11,525.55,648.06,4.22,8.42;11,94.18,662.26,28.22,8.42;11,148.35,662.26,4.22,8.42;11,189.78,662.26,4.22,8.42;11,231.53,662.26,4.22,8.42;11,273.28,662.26,4.22,8.42;11,315.03,662.26,4.22,8.42;11,356.78,662.26,4.22,8.42;11,398.53,662.26,4.22,8.42;11,440.28,662.26,4.22,8.42;11,482.03,662.26,4.22,8.42;11,525.55,662.26,4.22,8.42;11,94.18,676.46,28.22,8.42;11,148.35,676.46,4.22,8.42;11,189.78,676.46,4.22,8.42;11,231.53,676.46,4.22,8.42;11,273.28,676.46,4.22,8.42;11,315.03,676.46,4.22,8.42;11,356.78,676.46,4.22,8.42;11,396.42,676.46,8.44,8.42;11,440.28,676.46,4.22,8.42;11,482.03,676.46,4.22,8.42;11,525.55,676.46,4.22,8.42;11,94.18,690.66,28.22,8.42;11,148.35,690.66,4.22,8.42;11,189.78,690.66,4.22,8.42;11,231.53,690.66,4.22,8.42;11,273.28,690.66,4.22,8.42;11,312.92,690.66,8.44,8.42;11,356.78,690.66,4.22,8.42;11,398.53,690.66,4.22,8.42;11,438.17,690.66,8.44,8.42;11,482.03,690.66,4.22,8.42;11,525.55,690.66,4.22,8.42;11,94.18,704.86,28.22,8.42;11,148.35,704.86,4.22,8.42;11,189.78,704.86,4.22,8.42;11,231.53,704.86,4.22,8.42;11,273.28,704.86,4.22,8.42;11,315.03,704.86,4.22,8.42;11,356.78,704.86,4.22,8.42;11,398.53,704.86,4.22,8.42;11,440.28,704.86,4.22,8.42;11,479.92,704.86,8.44,8.42;11,525.55,704.86,4.22,8.42;11,92.07,719.06,32.44,8.42;11,148.35,719.06,4.22,8.42;11,189.78,719.06,4.22,8.42;11,231.53,719.06,4.22,8.42;11,273.28,719.06,4.22,8.42;11,315.03,719.06,4.22,8.42;11,356.78,719.06,4.22,8.42;11,398.53,719.06,4.22,8.42;11,440.28,719.06,4.22,8.42;11,482.03,719.06,4.22,8.42;11,521.33,719.06,12.66,8.42;11,92.07,735.67,32.44,8.42;11,148.35,735.67,4.22,8.42;11,189.78,735.67,4.22,8.42;11,231.53,735.67,4.22,8.42;11,273.28,735.67,4.22,8.42;11,315.03,735.67,4.22,8.42;11,356.78,735.67,4.22,8.42;11,398.53,735.67,4.22,8.42;11,440.28,735.67,4.22,8.42;11,482.03,735.67,4.22,8.42;11,523.44,735.67,8.44,8.42;11,57.41,513.16,37.94,8.66;11,111.41,513.16,260.32,8.66">Classes Classification de référence Classe 1 Classe 2 Classe 3 Classe 4 Classe 5 Classe 6 Classe 7 Classe 8 Classe 9 Classe 10 Classes issues de l'apprentissage supervisé Classe 1 530 0 0 0 0 0 0 0 0 0 Classe 2 0 26 1 0 0 0 0 0 0 0 Classe 3 1 0 554 0 0 0 0 0 0 0 Classe 4 0 0 0 16 0 0 0 0 0 0 Classe 5 9 0 61 0 181 0 0 0 0 0 Classe 6 4 0 0 0 0 6 0 0 0 0 Classe 7 0 0 0 0 0 0 31 0 0 0 Classe 8 5 0 1 0 23 0 2 33 0 0 Classe 9 0 0 0 0 0 0 0 0 10 0 Classe 10 0 0 0 0 0 0 0 9 0 154 Classe 11 0 0 0 0 2 0 0 2 1 13 tableau 4. matrice de contingence (distance entre les deux classifications de 0.26).</s></p><p xml:id="_Wj3sxx7"><s xml:id="_bK6GM3T" coords="11,57.41,523.96,29.19,8.65;11,113.57,523.96,249.93,8.65">Table 4. Contingency matrix (distance between the two classifications = 0.26).</s><s xml:id="_CCRA8s7" coords="11,83.27,94.25,10.51,33.25;11,271.57,199.17,57.38,9.59;12,36.00,36.71,263.97,11.15;12,36.00,49.91,264.02,11.15;12,36.00,63.11,178.73,11.15">Classes Échantillons Les indices i et j représentent respectivement les nombres de classes des partitions F et G. Plus l'indice de dissemblance est faible, plus la compatibilité est bonne.</s><s xml:id="_W8qMbw5" coords="12,218.06,63.11,81.96,11.15;12,36.00,76.31,258.96,11.15">Dans notre cas, cet indice est de 0,26, ce qui démontre une bonne compatibilité.</s></p><p xml:id="_dXqyU7C"><s xml:id="_cYMbfnm" coords="12,52.00,108.38,247.97,11.15;12,36.00,121.58,191.10,11.15">Dans ce qui suit, nous donnons les résultats relatifs à l'introduction d'un sixième descripteur.</s><s xml:id="_WJnnKBQ" coords="12,234.04,121.58,65.93,11.15;12,36.00,134.78,263.97,11.15;12,36.00,147.98,263.98,11.15;12,36.00,161.18,136.38,11.15">Ce descripteur supplémentaire est la dose de coagulant prédite par le capteur logiciel <ref type="bibr" coords="12,68.58,147.98,100.81,11.15">(LAMRINI et al., 2005)</ref>, précédemment développé sur la base de réseaux de neurones.</s><s xml:id="_9NGEFUu" coords="12,176.32,161.18,123.68,11.15;12,36.00,174.38,263.98,11.15;12,36.00,187.58,263.96,11.15;12,36.00,200.78,185.64,11.15">En effet, dans les conditions d'opération normales de la station, la dose de coagulant appliquée évolue de façon non linéaire, en fonction des cinq descripteurs de la qualité de l'eau brute.</s><s xml:id="_PUWYvd4" coords="12,226.85,200.78,73.15,11.15;12,36.00,213.98,263.98,11.15;12,36.00,227.18,263.99,11.15;12,36.00,240.38,91.27,11.15">Trois réseaux de neurones ont été développés suivant la variable utilisée en entrée, en plus du pH, de la température, de l'oxygène dissous et de la conductivité :</s></p><p xml:id="_Tb57UsG"><s xml:id="_nrvjH8x" coords="12,36.00,269.62,197.12,11.15;12,36.00,285.66,263.97,11.15;12,47.00,298.86,147.25,11.15">-Le réseau 1 qui utilise directement les MES; -Le réseau 2 qui admet en entrée des valeurs de la turbidité limitées (inférieure à 1 000 NTU);</s></p><p xml:id="_GvsHFUm"><s xml:id="_EpyhPaq" coords="12,312.00,36.72,264.03,11.15;12,323.00,49.92,253.01,11.15;12,323.00,63.11,172.39,11.15">-Le réseau 3 qui utilise la turbidité avec une interpolation de celle-ci pour des valeurs supérieures à 1 000 NTU à l'aide d'une fonction d'interpolation des MES.</s></p><p xml:id="_SukYeeY"><s xml:id="_RFpHw7g" coords="12,328.00,89.51,247.97,11.15;12,312.00,102.71,264.01,11.15;12,312.00,115.91,103.52,11.15">Il a été démontré que ces trois réseaux donnaient des résultats similaires et qu'il était possible de passer du réseau 2 au réseau 1 par exemple.</s></p><p xml:id="_ayRxNjm"><s xml:id="_3YfjHrP" coords="12,328.00,142.31,248.00,11.15;12,312.00,155.51,264.03,11.15;12,312.00,168.71,152.58,11.15">La démarche adoptée a été d'effectuer un apprentissage supervisé et d'adapter la classification réalisée en fonction de l'évolution des nouvelles données.</s><s xml:id="_hgXzY86" coords="12,470.31,168.71,105.67,11.15;12,312.00,181.91,263.97,11.15;12,312.00,195.11,264.00,11.15;12,312.00,208.31,132.32,11.15">La figure <ref type="figure" coords="12,513.50,168.71,5.50,11.15" target="#fig_6">9</ref> présente les résultats de la classification obtenus après un apprentissage supervisé en adoptant les mêmes paramètres de classification que ceux initialement utilisés.</s><s xml:id="_8BVy5T6" coords="12,449.26,208.31,126.72,11.15;12,312.00,221.51,263.97,11.15;12,312.00,234.71,264.00,11.15;12,312.00,247.91,127.65,11.15">Les résultats de classification montrent que l'introduction de la dose de coagulant comme descripteur supplémentaire fait apparaître un nouvel état de fonctionnement dégradé.</s><s xml:id="_gernmmG" coords="12,446.51,247.91,129.46,11.15;12,312.00,261.11,263.97,11.15;12,312.00,274.31,91.54,11.15">Les classes 7 et 8 identifiant cet état de dysfonctionnement ont été associées à l'état « CoagulantAlarme ».</s><s xml:id="_py3Cy73" coords="12,407.65,274.31,168.34,11.15;12,312.00,287.51,263.97,11.15;12,312.00,300.71,138.78,11.15;12,450.79,300.08,5.26,6.50;12,456.05,300.71,6.27,11.15">Il correspond à un fonctionnement en basse saison où la qualité de l'eau ne nécessite que de faibles taux de coagulant (10 à 45 mg L -1 ).</s><s xml:id="_sdkZjjW" coords="12,465.22,300.71,110.77,11.15;12,49.87,406.00,12.31,35.87;12,49.87,580.18,12.31,58.08;13,52.00,81.98,247.98,11.15;13,36.00,95.18,144.01,11.15">De plus, l'introduction de Classes Descripteurs Les mêmes états fonctionnels identifiés précédemment sont retrouvés par les classes suivantes :</s></p><p xml:id="_teeGBCE"><s xml:id="_bDbH46J" coords="13,36.00,124.42,264.03,11.15;13,47.00,137.62,252.97,11.15;13,47.00,150.82,74.87,11.15;13,36.00,166.86,264.02,11.15;13,47.00,180.06,220.92,11.15;13,36.00,196.09,263.98,11.15;13,47.00,209.29,208.60,11.15;13,36.00,225.33,263.98,11.15;13,47.00,238.52,253.02,11.15;13,47.00,251.72,94.81,11.15;13,36.00,267.76,264.00,11.15;13,47.00,280.96,217.89,11.15">-Les classes 1, 3 et 5 caractérisent l'état de fonctionnement « Normal » suivant trois saisons : la basse saison, la mi-saison et la haute saison; -La classe 2, qui permet d'identifier toutes les fortes variations des MES, est alors associée à l'état « MESAlarme+ »; -Les variations du pH (vers un état très bas) identifiées par les classes 4 et 9 sont associées à l'état « pHAlarme »; -L'état « ODAlarme » est associé aux quatre dérives de fonctionnement dégradé de l'oxygène dissous par les classes 6, 10, 11 et 13; -La classe 12, caractérisée par de fortes variations de la conductivité, est affectée à l'état « CONDAlarme ».</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_jcZQNjT" coords="13,37.00,342.41,114.23,13.47">conclusion</head><p xml:id="_YuX77Yq"><s xml:id="_gAeAzjR" coords="13,52.00,374.60,247.97,11.15;13,36.00,387.80,264.01,11.15;13,36.00,401.00,235.65,11.15">Dans ce travail, la technique de classification par apprentissage LAMDA a été appliquée dans le but de réaliser une conduite supervisée du procédé de coagulation.</s><s xml:id="_WvbGUKC" coords="13,277.21,401.00,22.81,11.15;13,36.00,414.20,264.03,11.15;13,36.00,427.40,263.98,11.15;13,36.00,440.60,133.48,11.15">Nous avons montré les performances de la méthode pour détecter les différentes séquences d'états fonctionnels décrivant le comportement de ce procédé.</s><s xml:id="_sUzxP2q" coords="13,174.77,440.60,125.24,11.15;13,36.00,453.80,264.00,11.15;13,36.00,467.00,263.99,11.15;13,36.00,480.20,199.77,11.15">Les principaux avantages de cette méthode sont de permettre un apprentissage séquentiel supervisé et non supervisé et d'adapter la classification réalisée en fonction de l'évolution des données à classer.</s><s xml:id="_Y2DTUCb" coords="13,238.19,480.20,61.84,11.15;13,36.00,493.40,263.98,11.15;13,36.00,506.60,263.99,11.15">En outre, cette méthode se différencie des autres techniques par la notation de l'adéquation nulle et l'incidence de celle-ci sur la classification.</s><s xml:id="_9ba2mhH" coords="13,36.00,519.80,263.98,11.15;13,36.00,533.00,263.99,11.15;13,36.00,546.20,263.97,11.15;13,36.00,559.40,264.00,11.15;13,36.00,572.60,264.02,11.15;13,36.00,585.80,264.01,11.15;13,36.00,599.00,208.46,11.15">Dans la base de données, trois types d'états fonctionnels ont été reconnus : des états de fonctionnement normal (la station se trouve la majorité du temps dans des conditions d'opération normales), des états de fonctionnement dégradé identifiés hors opération normale et d'autres états fonctionnels vers lesquels il est possible de transiter, en revenant toujours après un temps plus ou moins long, à l'état d'opération normal.</s><s xml:id="_vVz9Cuu" coords="13,248.05,599.00,51.99,11.15;13,36.00,612.20,264.00,11.15;13,36.00,625.40,263.97,11.15">À noter que les résultats obtenus peuvent servir de base pour le suivi et la détection des défaillances au niveau des procédés de coagulation.</s><s xml:id="_n3nbhNW" coords="13,36.00,638.60,264.00,11.15;13,36.00,651.80,264.00,11.15;13,36.00,665.00,264.02,11.15;13,36.00,678.20,48.72,11.15">Une reconnaissance en ligne peut être envisagée à partir de ce modèle de référence pour déterminer l'état fonctionnel représentant le procédé une fois qu'une nouvelle observation se présente.</s><s xml:id="_D6TuJN9" coords="13,87.89,678.20,212.16,11.15;13,36.00,691.40,264.01,11.15;13,36.00,704.60,264.00,11.15;13,36.00,717.80,149.84,11.15">En effet, le modèle de référence n'est pas toujours exhaustif du fait que, pour certaines situations, soit le recueil des données n'a pas été possible ou qu'il existe des situations dont l'occurrence est peu fréquente.</s><s xml:id="_bQ7sMn9" coords="13,188.11,717.80,111.85,11.15;13,36.00,731.00,264.02,11.15;13,36.00,744.20,264.02,11.15;13,312.00,36.71,264.02,11.15;13,312.00,49.91,41.13,11.15">Il est donc possible de faire évoluer la base d'apprentissage au fur et à mesure de l'apparition de nouveaux cas, en réalisant des apprentissages dits spécialisés permettant de créer de nouvelles classes à partir d'éléments non reconnus.</s></p><p xml:id="_wYz45F4"><s xml:id="_pg4cQgg" coords="13,328.00,76.31,248.01,11.15;13,312.00,89.51,228.73,11.15">Des travaux sont actuellement réalisés pour permettre la validation automatique de la classification obtenue.</s><s xml:id="_4f8guBv" coords="13,545.84,89.51,30.16,11.15;13,312.00,102.71,264.00,11.15;13,312.00,115.91,37.09,11.15">Jusqu'à présent, seul l'expert était juge de la validité de la classification obtenue.</s><s xml:id="_e8Nt8Wu" coords="13,354.56,115.91,221.45,11.15;13,312.00,129.11,263.98,11.15;13,312.00,142.31,264.02,11.15;13,312.00,155.51,264.01,11.15;13,312.00,168.71,263.99,11.15;13,312.00,181.91,224.51,11.15">À l'aide d'indices de mesure de compacité et de séparation des classes exploitant le concept d'entropies intraclasse et interclasse, il est possible de faire évoluer l'indice d'exigence, par exemple, afin d'obtenir de manière quasi automatique la classification avec les meilleures caractéristiques en matière de compacité et de séparation des classes.</s><s xml:id="_66rc6vP" coords="13,539.71,181.91,36.30,11.15;13,312.00,195.11,263.99,11.15;13,312.00,208.31,264.00,11.15;13,312.00,221.51,264.01,11.15;13,312.00,234.71,263.99,11.15">De plus, pour éviter des transitions vers des classes non représentatives (lorsque l'élément en question a des DAM à deux classes très peu différents par exemple), des études sont menées actuellement pour ne prendre en compte que des transitions significatives.</s><s xml:id="_zc2r7Ks" coords="13,312.00,247.91,264.01,11.15;13,312.00,261.11,263.98,11.15;13,312.00,274.31,147.59,11.15">Ces deux modifications permettront à terme d'obtenir plus facilement une classification plus compacte et d'éviter d'avoir des transitions non représentatives.</s></p><p xml:id="_CGmf36y"><s xml:id="_e4QmPd5" coords="13,328.00,300.71,247.95,11.15;13,312.00,313.91,264.01,11.15;13,312.00,327.11,263.95,11.15;13,312.00,340.31,264.03,11.15;13,312.00,353.51,78.52,11.15">En se référant aux travaux réalisés dans ce domaine, il semble que l'application de l'approche, réalisée dans le cadre de cette étude, est la première de son genre qui ait pu montrer l'utilité des techniques de classification dans le suivi et la surveillance de ce type de procédé.</s><s xml:id="_BmgCnx4" coords="13,392.42,353.51,183.59,11.15;13,312.00,366.71,264.00,11.15;13,312.00,379.91,263.98,11.15;13,312.00,393.11,263.99,11.15;13,312.00,406.31,264.04,11.15">Il est clair que l'objectif final de l'étude est de pouvoir étendre cette surveillance à l'ensemble de la station de traitement Rocade, de traiter toutes les informations issues des différents procédés de traitement (décantation, filtration, etc.) et de détecter le plus tôt possible les dérives de fonctionnement.</s><s xml:id="_7zCfhDv" coords="13,312.00,419.51,264.00,11.15;13,312.00,432.71,263.94,11.15;13,312.00,445.91,263.98,11.15;13,312.00,459.11,47.89,11.15">De telles informations peuvent aider à identifier les pannes sur une unité située en amont de la station mais aussi servir à la maintenance préventive des appareils comme les filtres ou les décanteurs.</s></p><p xml:id="_vnvZkV7"><s xml:id="_6EHVhJQ" coords="13,313.10,517.73,231.88,13.47;13,312.00,552.76,111.84,11.15">réFérences biblioGraphiques <ref type="bibr" coords="13,312.00,552.76,107.30,11.15">AGUADO J.C. (1998)</ref>.</s><s xml:id="_K6zQjjU" coords="13,431.78,552.76,144.23,10.98;13,329.00,565.96,247.01,10.98;13,329.00,579.16,160.68,10.98">A mixed qualitative-quantitative self-learning classification technique applied to situation assessment in industrial process control.</s><s xml:id="_twa3gnG" coords="13,493.43,579.16,82.58,11.15;13,329.00,592.36,23.09,11.15">Thèse de Doctorat, Univ.</s><s xml:id="_cBmAj9b" coords="13,354.84,592.36,216.71,11.15;13,312.00,624.43,173.50,11.15">Politècnica de Catalunya, Terrassa, Espagne, 160 p. AGUILAR-MARTIN J., M. BALSSA.</s><s xml:id="_5Sr4UbS" coords="13,491.45,624.43,84.51,11.15;13,329.00,637.63,93.47,11.15">et R. LOPEZ DE MANTARAS (1980).</s><s xml:id="_XyUjsjA" coords="13,425.91,637.63,150.10,10.98">Estimation récursive d'une partition.</s><s xml:id="_ePZCWN6" coords="13,329.00,650.83,231.09,10.98;13,560.09,650.19,3.21,6.40;13,569.07,650.83,6.93,10.98;13,329.00,664.03,3.75,10.98;13,332.49,663.39,3.21,6.40;13,335.70,664.03,240.32,11.15;13,329.00,677.23,8.61,11.15;13,337.28,676.59,3.12,6.50;13,343.15,677.23,54.90,11.15">Exemples d'apprentissage et auto-apprentissage dans R n et I n , LAAS-CNRS, Toulouse, France, Rapport scientifique N o 880139, 7 p.</s><s xml:id="_JjyczkD" coords="13,312.00,706.46,263.99,11.15;13,329.00,719.66,31.79,11.15">AGUILAR-MARTIN J. et R. LÓPEZ DE MANTARAS (1982).</s><s xml:id="_JdmXNj5" coords="13,363.30,719.66,212.71,10.98;13,329.00,732.86,147.55,10.98">The process of classification and learning the meaning of linguistic descriptors of concepts.</s><s xml:id="_vHZxhyB" coords="13,481.46,732.86,94.57,10.98;13,329.00,746.06,85.20,10.98">Approximate reasoning in decision analysis.</s><s xml:id="_CaTMSf6" coords="13,419.95,746.06,156.03,11.15">Approximate reasoning in decision</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,81.35,694.36,195.86,8.66;3,121.35,705.16,169.71,8.65"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_mCbRKau"><s xml:id="_VCsJwRx" coords="3,81.35,694.36,32.63,8.66">Figure 1.</s><s xml:id="_qPMP2rA" coords="3,121.35,694.36,155.86,8.66">chaîne de traitement de la station rocade.</s><s xml:id="_eGu8hJZ" coords="3,121.35,705.16,169.71,8.65">Water treatment operation of the Rocade plant</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,65.20,439.01,153.70,8.66;6,105.20,449.81,95.66,8.65;6,55.56,46.06,513.60,354.60"><head>Figure 3 .</head><label>3</label><figDesc><div><p xml:id="_7xMfFGU"><s xml:id="_KHqm8UA" coords="6,65.20,439.01,153.70,8.66;6,105.20,449.81,95.66,8.65">Figure 3. caractéristiques de l'eau brute.Raw water characteristics.</s></p></div></figDesc><graphic coords="6,55.56,46.06,513.60,354.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,49.18,415.39,296.34,8.66;7,89.18,426.19,237.18,8.65;7,36.00,42.00,540.00,357.00"><head>Figure 4 .</head><label>4</label><figDesc><div><p xml:id="_whnKtrj"><s xml:id="_HsSNmuU" coords="7,49.18,415.39,296.34,8.66;7,89.18,426.19,237.18,8.65">Figure 4. (a) descripteurs normalisés, (b) classes issues de l'auto-apprentissage. (a) Normalised descriptors, (b) Self-learning classification results.</s></p></div></figDesc><graphic coords="7,36.00,42.00,540.00,357.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="8,57.17,260.90,212.61,8.66;8,97.17,271.70,204.75,8.65;8,88.37,36.00,464.62,214.02"><head>Figure 5 .</head><label>5</label><figDesc><div><p xml:id="_PDxVMHQ"><s xml:id="_BMX6q7C" coords="8,57.17,260.90,212.61,8.66;8,97.17,271.70,204.75,8.65">Figure 5. profil des classes issues de l'auto-apprentissage.Class profiles stemming from the self-learning procedure.</s></p></div></figDesc><graphic coords="8,88.37,36.00,464.62,214.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="9,533.28,353.51,42.68,11.15;9,314.50,366.71,261.51,11.15;9,314.50,379.91,261.48,11.15;9,314.50,400.90,152.95,11.85;9,485.22,393.21,51.54,10.30;9,497.50,411.08,18.18,10.30;9,468.44,406.46,4.16,8.42;9,512.75,397.21,2.06,8.42;9,537.29,397.21,2.06,8.42;9,475.91,401.67,6.04,10.92;9,518.25,392.42,8.45,10.92;9,503.25,393.21,3.21,10.30;9,540.84,393.21,3.21,10.30;9,515.53,411.08,16.27,10.30;9,519.50,410.30,8.45,10.92;9,547.13,400.90,2.75,11.15;9,128.99,530.30,28.22,9.10;9,188.69,530.30,65.07,9.10;9,314.29,530.30,61.78,9.10;9,396.97,530.30,75.85,9.10;9,419.29,541.10,31.23,9.10;9,128.99,562.50,28.22,8.42;9,128.99,582.30,28.22,8.42;9,128.99,602.10,28.22,8.42;9,128.99,621.90,28.22,8.42;9,128.99,641.70,28.22,8.42;9,128.99,661.50,28.22,8.42;9,128.99,681.30,28.22,8.42;9,128.99,701.10,28.22,8.42;9,128.99,720.90,28.22,8.42;9,128.99,740.70,32.44,8.42;9,188.69,562.50,28.03,8.42;9,188.69,582.30,104.13,8.42;9,188.69,602.10,29.33,8.42;9,188.69,621.90,77.36,8.42;9,188.69,641.70,64.77,8.42;9,188.69,661.50,60.93,8.42;9,188.69,681.30,79.89,8.42;9,188.69,701.10,63.47,8.42;9,188.69,720.90,91.24,8.42;9,188.69,740.70,78.59,8.42;9,314.29,562.50,27.52,8.42;9,314.29,582.30,49.56,8.42;9,314.29,602.10,27.52,8.42;9,314.29,621.90,37.28,8.42;9,314.29,641.70,39.36,8.42;9,314.29,661.50,37.28,8.42;9,314.29,681.30,39.36,8.42;9,314.29,701.10,39.36,8.42;9,314.29,720.90,52.02,8.42;9,314.29,740.70,39.36,8.42;9,422.24,562.50,12.66,8.42;9,426.46,582.30,8.44,8.42;9,422.24,602.10,12.66,8.42;9,426.46,621.90,8.44,8.42;9,422.24,641.70,12.66,8.42;9,430.67,661.50,4.22,8.42;9,426.46,681.30,8.44,8.42;9,426.46,701.10,8.44,8.42;9,426.46,720.90,8.44,8.42;9,422.24,740.70,12.66,8.42;9,124.30,476.34,37.93,8.66"><figDesc><div><p xml:id="_uPBytTC"><s xml:id="_BUMWhhN" coords="9,533.28,353.51,42.68,11.15;9,314.50,366.71,110.33,11.15">à partir de la matrice de contingence.</s><s xml:id="_YCEWUxt" coords="9,427.32,366.71,148.70,11.15;9,314.50,379.91,261.48,11.15;9,314.50,400.90,139.88,11.15">Si on considère deux partitions F et G d'un même ensemble d'objets (Ω), les éléments de la matrice de contingence sont donnés par :</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="10,60.47,252.87,189.73,8.66;10,100.47,263.67,97.90,8.65;10,74.47,48.19,464.68,170.81"><head>Figure</head><figDesc><div><p xml:id="_XPX4M3R"><s xml:id="_sfkKa5X" coords="10,60.47,252.87,32.63,8.66">Figure 6.</s><s xml:id="_HQdf8yX" coords="10,100.47,252.87,149.73,8.66">résultats de la reconnaissance de formes.</s><s xml:id="_dMjUGya" coords="10,100.47,263.67,97.90,8.65">Pattern recognition results.</s></p></div></figDesc><graphic coords="10,74.47,48.19,464.68,170.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="12,46.20,725.69,286.32,8.66;12,86.20,736.49,263.27,8.65;12,270.33,703.13,67.18,10.34;12,69.48,520.33,492.15,170.97"><head>Figure 9 .</head><label>9</label><figDesc><div><p xml:id="_eAzG7cM"><s xml:id="_mzr852F" coords="12,46.20,725.69,286.32,8.66;12,86.20,736.49,263.27,8.65;12,270.33,703.13,67.18,10.34">Figure 9. classes issues de l'apprentissage supervisé avec la dose de coagulantClassification stemming from supervised learning with coagulant dosage.Échantillons</s></p></div></figDesc><graphic coords="12,69.48,520.33,492.15,170.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="11,104.67,280.49,412.68,161.57"><graphic coords="11,104.67,280.49,412.68,161.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="11,98.28,36.00,414.89,149.46"><graphic coords="11,98.28,36.00,414.89,149.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,35.99,326.27,540.04,431.27"><head>Table 1 . Contribution frequency of each descriptor.</head><label>1</label><figDesc><div><p><s xml:id="_czqAyMW" coords="9,47.00,36.71,250.48,11.15;9,47.00,49.91,250.52,11.15;9,47.00,63.11,250.47,11.15;9,47.00,76.31,250.54,11.15;9,47.00,89.51,145.68,11.15;9,36.00,105.55,232.76,11.15">Classe 9 : cette classe a été générée à partir de 11 éléments.Elle identifie toutes les variations élévées de la conductivité.Nous constatons aussi une faible variation simultanée de l'oxygène dissous vers un état bas constant.La classe 9 est affectée à l'état « CONDAlarme ».-Classe 10 : 167 éléments constituent la classe 10.</s><s xml:id="_EXnJYWD" coords="9,274.38,105.55,23.12,11.15;9,47.00,118.75,250.50,11.15;9,47.00,131.95,136.54,11.15">Cette classe permet d'identifier l'évolution de l'oxygène dissous, en basse saison, vers un état très bas.</s><s xml:id="_YuN8gq7" coords="9,185.64,131.95,111.85,11.15;9,47.00,145.15,178.97,11.15">Cette variation correspond à une faible variation de la conductivité.</s><s xml:id="_r2UB6wt" coords="9,230.27,145.15,67.19,11.15;9,47.00,158.35,130.82,11.15">La classe 10 est associée à l'état « ODAlarme ».</s></p></div></figDesc><table coords="8,314.50,598.35,261.53,63.95"><row><cell>plus d'influence dans la caractérisation de cette classe. Les</cell></row><row><cell>deux classes peuvent être agregées dans un seul état, soit</cell></row><row><cell>« pHAlarme ».</cell></row><row><cell>-Classes 5 et 8 : ces deux classes permettent de détecter</cell></row><row><cell>successivement, suivant les deux saisons, les variations de</cell></row></table><note xml:id="_tMKkg3F"><p>l'oxygène dissous vers un état bas. Les deux classes sont associées à l'état « ODAlarme » et les (206 + 44) éléments ont été intégrés à cet état. -Classe 7 : cette classe permet d'isoler les 33 variations de l'oxygène dissous vers un état très bas (toutes les variations sont dans la gamme [0,7 -1]). Nous associons cette classe à l'état « ODAlarme ».</p><p><s xml:id="_a9NBqKQ" coords="8,325.50,664.35,4.38,11.15">-Classes 4 et 6 : ces deux classes permettent de dégager successivement les 22 variations (propres à la basse et à la haute saison) du pH (vers un état très bas).</s><s xml:id="_fJQDnTZ" coords="8,329.88,664.35,90.80,11.15">Ces variations ont été identifiées simultanément avec une évolution de l'oxygène dissous vers son état optimal.</s><s xml:id="_C46ABN7" coords="8,425.42,664.35,11.41,11.15">En effet, le pH a -</s></p></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="14,84.01,36.71,215.97,11.15;14,53.00,49.91,132.95,11.15" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Sanchez</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="165" to="175" />
+			<pubPlace>Éditeurs), Amsterdam, Pays-Bas</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MM. GUPTA et E. SANCHEZ (Éditeurs), Amsterdam, Pays-Bas,165-175.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,81.98,263.99,11.15;14,53.00,95.18,246.97,11.15;14,53.00,108.38,247.00,11.15;14,53.00,121.58,72.20,11.15" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_q9BMZfc">Modélisation mathématique du taux de coagulant dans une station de traitement d&apos;eau</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bazer-Bachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Puech-Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ben Aim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">L</forename><surname>Probst</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/705081ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Wjs3SRa">Revue des sciences de l&apos;eau</title>
+		<title level="j" type="abbrev">rseau</title>
+		<idno type="ISSN">0992-7158</idno>
+		<idno type="ISSNe">1718-8598</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="377" to="397" />
+			<date type="published" when="1990">1990</date>
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BAZER-BACHI A., E. PUECH-COSTE, R. BEN AIM et J.L. PROBST (1990). Modélisation mathématique du taux de coagulant dans une station de traitement d&apos;eau. Rev. Sci. Eau, 3, 377-397.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,150.82,263.99,11.15;14,53.00,164.02,247.02,11.15;14,53.00,177.22,247.01,11.15;14,53.00,190.42,246.98,11.15;14,53.00,203.62,107.94,11.15;14,160.94,202.98,4.87,6.40;14,168.12,203.62,131.89,11.15;14,53.00,216.82,91.38,11.15" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_MuAyKYz">Classification techniques for feature extraction in low resolution topographic evaluative images: Application to cerebral blood flow estimation. 12 th conference GRESTI</title>
+		<author>
+			<persName coords=""><forename type="first">Chan</forename><forename type="middle">M</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Aguilar-Martin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Carreté</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Celsis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Marc-Vergnes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="page" from="12" to="16" />
+			<pubPlace>Juan-les-Pins, France</pubPlace>
+		</imprint>
+	</monogr>
+	<note>juin</note>
+	<note type="raw_reference">CHAN M., J. AGUILAR-MARTIN, N. PIERA CARRETÉ , P. CELSIS et J.P. MARC-VERGNES (1989). Classification techniques for feature extraction in low resolution topographic evaluative images: Application to cerebral blood flow estimation. 12 th conference GRESTI, 12-16 juin, Juan-les-Pins, France.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,243.22,264.00,11.15;14,53.00,256.42,247.02,11.15;14,53.00,269.62,246.99,10.98;14,53.00,282.82,246.99,11.15;14,53.00,296.02,247.02,11.15;14,53.00,309.22,40.03,11.15" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_Mq3ffpP">Investigation of advanced control methods applied to coagulation dosing at a WTW. UK Water Industry Research Limited/Sensors for Water Interest Group</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Enoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_SNCjyU3">UKWIR/SWIG) Workshop, 9-11 décembre</title>
+		<meeting><address><addrLine>National Motor Cycle Museum, Birmingham, Grande-Bretagne</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">EVANS J. et C. ENOCH (1998). Investigation of advanced control methods applied to coagulation dosing at a WTW. UK Water Industry Research Limited/Sensors for Water Interest Group (UKWIR/SWIG) Workshop, 9-11 décembre, National Motor Cycle Museum, Birmingham, Grande- Bretagne.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,335.62,264.00,11.15;14,53.00,348.82,246.97,11.15;14,53.00,362.02,131.42,11.15" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_FPuTdqH">Modelling of coagulant dosage in a water treatment plant</title>
+		<author>
+			<persName><forename type="first">Claude</forename><surname>Gagnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><forename type="middle">P A</forename><surname>Grandjean</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jules</forename><surname>Thibault</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0954-1810(97)00010-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XEdbd8D">Artificial Intelligence in Engineering</title>
+		<title level="j" type="abbrev">Artificial Intelligence in Engineering</title>
+		<idno type="ISSN">0954-1810</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="401" to="404" />
+			<date type="published" when="1997-10">1997</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GAGNON C., B.P.A. GRANDJEAN et J. THIBAULT (1997). Modelling of coagulant dosage in a water treatment plant. Artif. Intell. Eng., 11, 401-404.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,388.42,264.02,11.15;14,53.00,401.62,247.00,11.15;14,53.00,414.82,39.27,11.15" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_Ugh3UM8">Coagulation monitoring in surface water treatment facilities</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_q6GZFnn">Water Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="237" to="244" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">KAN C. et C. HUANG (1998). Coagulation monitoring in surface water treatment facilities. Water Sci. Technol., 38, 237-244.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,441.22,264.01,11.15;14,53.00,454.42,247.02,10.98;14,53.00,467.62,247.01,11.15;14,53.00,480.82,246.99,11.15;14,53.00,494.02,105.07,11.15" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" xml:id="_2hVNVkD">Surveillance de procédés à base de méthodes de classification : conception d&apos;un outil d&apos;aide pour la détection et le diagnostic des défaillances</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Kempowsky</surname></persName>
+		</author>
+		<idno type="DOI">10.69777/326866</idno>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Fonds de recherche du Québec</publisher>
+			<biblScope unit="page">170</biblScope>
+			<pubPlace>Toulouse, France</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Institut National des Sciences Appliquées</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thèse de Doctorat</note>
+	<note type="raw_reference">KEMPOWSKY T. (2004). Surveillance de procédés à base de méthodes de classification : conception d&apos;un outil d&apos;aide pour la détection et le diagnostic des défaillances. Thèse de Doctorat, Institut National des Sciences Appliquées, Toulouse, France, 170 p.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,520.42,263.99,11.15;14,53.00,533.62,247.02,11.15;14,53.00,546.82,246.98,11.15;14,53.00,560.02,247.00,11.15;14,53.00,573.22,55.77,11.15" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_e9KaCVa">A neural software sensor for online prediction of coagulant dosage in a drinking water treatment plant</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lamrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Benhammou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-V</forename><surname>Le Lann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Karama</surname></persName>
+		</author>
+		<idno type="DOI">10.1191/0142331205tm141oa</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YuVRfRa">Transactions of the Institute of Measurement and Control</title>
+		<title level="j" type="abbrev">Transactions of the Institute of Measurement and Control</title>
+		<idno type="ISSN">0142-3312</idno>
+		<idno type="ISSNe">1477-0369</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="195" to="213" />
+			<date type="published" when="2005-08">2005</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LAMRINI B., A. BENHAMMOU, M.V. LE LANN et A. KARAMA (2005). A neural software sensor for on-line prediction of coagulant dosage: Application to a drinking water treatment plant. Trans. Inst. Meas. Control (TIMC), 27, 195-213.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,599.62,264.00,11.15;14,53.00,612.82,247.01,11.15;14,53.00,626.02,247.00,11.15;14,53.00,639.22,247.01,10.98;14,53.00,652.42,220.63,11.15" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_4BbZget">Detection of functional states by the ‘LAMDA’ classification technique: application to a coagulation process in drinking water treatment</title>
+		<author>
+			<persName><forename type="first">Bouchra</forename><surname>Lamrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Véronique</forename><surname>Le Lann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ahmed</forename><surname>Benhammou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El</forename><forename type="middle">Khadir</forename><surname>Lakhal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.crhy.2005.11.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uv3nPRX">Comptes Rendus. Physique</title>
+		<idno type="ISSNe">1878-1535</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1161" to="1168" />
+			<date type="published" when="2005-12-01">2005</date>
+			<publisher>Cellule MathDoc/Centre Mersenne</publisher>
+			<pubPlace>Tetouan, Maroc</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LAMRINI B., M.V. LE LANN et A. BENHAMMOU (2005). Detection of functional states based on interactivity between expertise and LAMDA learning technique. Information and Communication Technologies International Symposium (ICTIS&apos;05), 3-6 juin, Tetouan, Maroc, pp. 105-110.</note>
+</biblStruct>
+
+<biblStruct coords="14,36.00,678.82,264.00,11.15;14,53.00,692.02,246.98,11.15;14,53.00,705.22,244.78,11.15;14,297.78,704.58,2.22,6.40;14,53.00,718.42,247.00,10.98;14,53.00,731.62,201.80,11.15" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_Sdhqc7C">Gestion supervisée d’une unité de coagulation pour la potabilisation des eaux à partir d’une méthodologie d’apprentissage et d’expertise</title>
+		<author>
+			<persName><forename type="first">Bouchra</forename><surname>Lamrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Véronique</forename><surname>Le Lann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El</forename><forename type="middle">Khadir</forename><surname>Lakhal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ahmed</forename><surname>Benhammou</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/016908ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zfsyP7g">Revue des sciences de l&apos;eau</title>
+		<title level="j" type="abbrev">rseau</title>
+		<idno type="ISSNe">1718-8598</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="325" to="338" />
+			<date type="published" when="2005">2005</date>
+			<publisher>Consortium Erudit</publisher>
+			<pubPlace>Toulouse, France, Auteurs I3</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LAMRINI B., M.V. LE LANN et A. BENHAMMOU (2005). Conduite supervisée d&apos;une station de traitement d&apos;eau potable par la méthode de classification LAMDA. 10 e congrès de la société française des génies de procédés (SFGP), 20-22 septembre, Toulouse, France, Auteurs I3.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,36.71,264.02,11.15;14,329.00,49.91,247.00,11.15;14,329.00,63.11,95.00,11.15" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_UhYjmrJ">Fuzzy control of coagulation reaction through streaming current monitoring</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.2166/wst.1997.0102</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xfc68Xy">Water Science and Technology</title>
+		<idno type="ISSN">0273-1223</idno>
+		<idno type="ISSNe">1996-9732</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="127" to="134" />
+			<date type="published" when="1997-08-01">1997</date>
+			<publisher>IWA Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LIU J.C. et M.D. WU (1997). Fuzzy control of coagulation reaction through streaming current monitoring. Water Sci. Technol., 36, 127-134.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,89.51,264.00,11.15;14,329.00,102.71,247.03,10.98;14,329.00,115.91,246.99,11.15;14,329.00,129.11,143.26,11.15" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" xml:id="_gaAfEJf">Auto-apprentissage d&apos;une partition. Application au classement itératif de données multidimensionnelles</title>
+		<author>
+			<persName coords=""><surname>Lopez De Mantaras R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<biblScope unit="page">150</biblScope>
+			<pubPlace>Toulouse, France</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Université Paul Sabatier</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thèse de Doctorat</note>
+	<note type="raw_reference">LOPEZ DE MANTARAS R. (1977). Auto-apprentissage d&apos;une partition. Application au classement itératif de données multidimensionnelles. Thèse de Doctorat, Université Paul Sabatier, Toulouse, France, 150 p.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,155.51,263.98,11.15;14,329.00,168.71,247.01,11.15;14,329.00,181.91,228.70,11.15" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_RHG7Shk">Controlling selectivity in non-standard pattern recognition algorithms</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Piera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Aguilar-Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pRy5qD7">IEEE Trans. Syst. Man Cybern</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="71" to="82" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">PIERA CARRETÉ N. et J. AGUILAR-MARTIN (1991). Controlling selectivity in non-standard pattern recognition algorithms. IEEE Trans. Syst. Man Cybern., 21, 71-82.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,208.31,263.97,11.15;14,329.00,221.51,247.00,11.15;14,329.00,234.71,246.98,11.15;14,329.00,247.91,59.68,11.15;14,388.34,247.28,3.12,6.50;14,394.21,247.91,54.90,11.15" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_rKUdMG7">LAMDA: An incremental conceptual clustering system</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Piera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Desroches</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Aguilar-Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_y4Rq6EX">LAAS-CNRS</title>
+		<imprint>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="1989">1989</date>
+			<pubPlace>Toulouse, France</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Rapport scientifique N o 89420</note>
+	<note type="raw_reference">PIERA CARRETÉ N., P. DESROCHES et J. AGUILAR- MARTIN (1989). LAMDA: An incremental conceptual clustering system. LAAS-CNRS, Toulouse, France. Rapport scientifique N o 89420, 10 p.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,274.31,263.97,11.15;14,329.00,287.51,247.01,11.15;14,329.00,300.71,141.76,11.15" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_6MYNN9A">Variation points in pattern recognition</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Piera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">H</forename><surname>Desroches</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Aguilar-Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0167-8655(90)90020-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Z4h6eMn">Pattern Recognition Letters</title>
+		<title level="j" type="abbrev">Pattern Recognition Letters</title>
+		<idno type="ISSN">0167-8655</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="519" to="524" />
+			<date type="published" when="1990-08">1990</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">PIERA CARRETÉ N., P. DESROCHES et J. AGUILAR- MARTIN (1990). Variation points in pattern recognition. Patt. Recognit. Lett., 11, 519-524.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,327.11,264.01,11.15;14,329.00,340.31,247.03,10.98;14,329.00,353.51,247.00,11.15;14,329.00,366.71,106.56,11.15" xml:id="b15">
+	<monogr>
+		<title level="m" type="main" xml:id="_x4Vc2wv">Supervisió Intel.ligent de processos dinàmics basada en esdeveniments</title>
+		<author>
+			<persName><forename type="first">Ramon</forename><surname>Sarrate Estruch</surname></persName>
+			<idno type="ORCID">0000-0002-9979-5899</idno>
+		</author>
+		<idno type="DOI">10.5821/dissertation-2117-93493</idno>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Universitat Politècnica de Catalunya</publisher>
+			<biblScope unit="page">145</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Univ. Politècnica de Catalunya, Terrassa, Espagne</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thèse de Doctorat</note>
+	<note type="raw_reference">SARRATE R. (2002). Supervisió intelligent de processos dinàmics basada en esdeveniments (ABSALON: Abstraction analysis on- line). Thèse de Doctorat, Univ. Politècnica de Catalunya, Terrassa, Espagne, 145 p.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,393.11,264.00,11.15;14,329.00,406.31,247.01,11.15;14,329.00,419.51,163.85,11.15" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_rtebwU4">Water-supply operations: Critiquing expert-system approach</title>
+		<author>
+			<persName coords=""><forename type="first">Shepherd</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Ortolano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_eqwn2ea">J. Water Resour. Plann. Manage</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="348" to="355" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SHEPHERD A. et L. ORTOLANO (1996). Water-supply operations: Critiquing expert-system approach. J. Water Resour. Plann. Manage., 122, 348-355.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,445.91,263.97,11.15;14,329.00,459.11,247.01,11.15;14,329.00,472.31,247.00,11.15;14,329.00,485.51,111.92,11.15" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_DzGvZHT">The use of particle monitoring in the performance optimisation of conventional clarification and filtration processes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Standen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Insole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Shek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">A</forename><surname>Irwin</surname></persName>
+		</author>
+		<idno type="DOI">10.2166/wst.1997.0117</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_maMQqjQ">Water Science and Technology</title>
+		<idno type="ISSN">0273-1223</idno>
+		<idno type="ISSNe">1996-9732</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="191" to="198" />
+			<date type="published" when="1997-08-01">1997</date>
+			<publisher>IWA Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">STANDEN G., P.J. INSOLE, K.J. SHEK et R.A. IRWIN (1997). The use of particle monitoring in the performance optimisation of conventional clarification processes. Water Sci. Technol., 36, 191-198.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,511.91,263.99,11.15;14,329.00,525.11,246.96,11.15;14,329.00,538.31,247.00,11.15;14,329.00,551.51,53.00,11.15" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_NWGuXNF">An hybrid neural network based system for optimization of coagulant dosing in a water treatment plant</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valentin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fotoohi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ijcnn.1999.836205</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_d8Y3EbV">IJCNN&apos;99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339)</title>
+		<meeting><address><addrLine>Warsaw, Pologne</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3380" to="3385" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">VALENTIN N., F. FOTOOHI, T. DENOEUX (1999). Modeling of coagulant dosing in a water treatment plant. Proceedings of EANN&apos;99, septembre, Warsaw, Pologne, pp.165-170.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,577.91,264.00,11.15;14,329.00,591.11,246.98,10.98;14,329.00,604.31,246.99,11.15;14,329.00,617.51,246.99,11.15;14,329.00,630.71,27.40,11.15" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_KukbwGF">Le modèle cognitivo-comportemental de base utilisé dans la TCCp de groupe</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Waissmann</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv1n35d3m.7</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_R5ge5xf">La TCC de groupe pour le traitement de la psychose</title>
+		<meeting><address><addrLine>France</addrLine></address></meeting>
+		<imprint>
+			<publisher>Presses de l&apos;Université du Québec</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="15" to="28" />
+		</imprint>
+		<respStmt>
+			<orgName>Institut National Polytechnique de Toulouse</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thèse de Doctorat</note>
+	<note type="raw_reference">WAISSMANN J. (2000). Construction d&apos;un modèle comportemental pour la supervision de procédés : application à une station de traitement des eaux. Thèse de Doctorat, Institut National Polytechnique de Toulouse, France, 119 p.</note>
+</biblStruct>
+
+<biblStruct coords="14,312.00,657.11,263.98,11.15;14,329.00,670.31,247.00,11.15;14,329.00,683.51,39.27,11.15" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_wgjrRXx">Expert System for Water Treatment Plant Operation</title>
+		<author>
+			<persName><forename type="first">Xin</forename><forename type="middle">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">R</forename><surname>Simpson</surname></persName>
+		</author>
+		<idno type="DOI">10.1061/(asce)0733-9372(1996)122:9(822</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_reqQtmp">Journal of Environmental Engineering</title>
+		<title level="j" type="abbrev">J. Environ. Eng.</title>
+		<idno type="ISSN">0733-9372</idno>
+		<idno type="ISSNe">1943-7870</idno>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="822" to="829" />
+			<date type="published" when="1996-09">1996</date>
+			<publisher>American Society of Civil Engineers (ASCE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ZHU X. et A.R. SIMPSON (1996). Expert system for water treatment plant operation. J. Environ. Eng., 122, 822-829.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_Jj7fGH7">LES SYMPTÔMES DE LA FAILLITE : LE CAS DE LA BELGIQUE *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,63.00,198.33,59.70,8.80"><forename type="first">Xavier</forename><surname>Brédart</surname></persName>
+							<email>xavier.bredart@umons.ac.be</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Umons -Faculté Warocqué d&apos;Économie et de Gestion</note>
+								<orgName type="department">Umons -Faculté Warocqué d&apos;Économie et de Gestion</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_xy8ZbAk">LES SYMPTÔMES DE LA FAILLITE : LE CAS DE LA BELGIQUE *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0B4C10F3DBF481D09AB5AAE321EF086C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-07T18:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-11-gf6b522b3f</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_CC5PakJ"><p xml:id="_byNJhkh"><s xml:id="_jWCy8s5" coords="1,99.47,277.89,287.48,7.92;1,63.00,288.79,206.70,7.92">À l'instar de nombreux autres pays, la Belgique a fait face à un nombre croissant de faillites d'entreprises depuis la crise des « subprimes ».</s><s xml:id="_VQQgKRc" coords="1,271.58,288.79,115.42,7.92;1,63.00,299.69,154.33,7.92">Ce nombre a, en effet, augmenté d'un peu plus de 43 % entre 2007 et 2012.</s><s xml:id="_zZeu9Cj" coords="1,219.82,299.69,167.14,7.92;1,63.00,310.59,323.97,7.92;1,63.00,321.49,323.98,7.92;1,63.00,332.39,129.32,7.92">Sur base d'un échantillon d'entreprises belges couvrant une période allant de 2002 à 2010, cet article a pour but de développer trois modèles économétriques de prévision construits à partir de six ratios financiers, respectivement à un, trois et cinq ans avant la faillite.</s><s xml:id="_s5hBHed" coords="1,194.46,332.39,192.49,7.92;1,63.00,343.29,323.99,7.92;1,63.00,354.19,324.04,7.92;1,63.00,365.09,158.34,7.92">Outre l'apport académique à la recherche relative à la prévision des faillites en Belgique, les résultats de cette étude empirique peuvent être utiles au sein du monde professionnel, notamment pour les institutions financières intéressées par le risque de faillite de leurs partenaires.</s></p><p xml:id="_CH6XdpD"><s xml:id="_BmbEeub" coords="1,63.00,389.99,222.27,7.92">abstRact -Symptoms of Bankruptcy: The Case of Belgium.</s><s xml:id="_BbyE9na" coords="1,287.81,389.99,99.20,7.92;1,63.00,400.89,323.97,7.92">Like many other countries, Belgium has faced a growing number of corporate bankruptcies since the "subprime" crisis.</s><s xml:id="_gEWacKZ" coords="1,63.00,411.79,244.04,7.92">This number increased by more than 43% between 2007 and 2012.</s><s xml:id="_VgkT4SG" coords="1,309.40,411.79,77.64,7.92;1,63.00,422.69,323.97,7.92;1,63.00,433.59,323.98,7.92;1,63.00,444.49,142.06,7.92">Based on a sample of Belgian companies covering a period from 2002 to 2010, this paper aims to develop three econometric forecasting models constructed from six financial ratios, respectively one, three and five years before bankruptcy.</s><s xml:id="_3WAKrtD" coords="1,207.21,444.49,179.79,7.92;1,63.00,455.39,323.98,7.92;1,63.00,466.29,324.00,7.92;1,63.00,477.19,77.01,7.92">Besides the academic contribution to the research relative to the bankruptcy prediction in Belgium, the empirical results of this study may be useful for practitioners, particularly for financial institutions interested in the bankruptcy risk of their partners.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_KQfxKak" coords="1,63.00,503.53,53.88,8.80">IntRoductIon</head><p xml:id="_fKrMS8x"><s xml:id="_y9VT82A" coords="1,78.00,520.33,308.96,8.80;1,63.00,532.13,54.15,8.80">Ces dernières années, la Belgique a fait face à un nombre croissant de faillites d'entreprises.</s><s xml:id="_ybdvahh" coords="1,119.88,532.13,267.09,8.80;1,63.00,543.93,58.35,8.80">Le phénomène de faillite a fortement augmenté suite à la crise des « subprimes ».</s><s xml:id="_h2rb4mx" coords="1,123.72,543.93,263.26,8.80;1,63.00,555.73,140.48,8.80">En effet, sur une période de 5 années (de 2007 à 2012), ce nombre a augmenté d'un peu plus de 43 %.</s><s xml:id="_rsYrFFG" coords="1,205.97,555.73,181.00,8.80;1,63.00,567.53,199.29,8.80;1,262.29,567.01,2.90,5.10;1,265.19,567.53,2.50,8.80">À titre comparatif, durant la période allant de 2001 à 2007, il ne s'est majoré que d'environ 8 % 1 .</s><s xml:id="_EHPAqvh" coords="1,63.00,90.96,192.41,7.04">L'Actualité économique, Revue d'analyse économique, vol.</s><s xml:id="_MAr4PNh" coords="1,257.41,90.54,58.76,7.46;1,63.00,588.70,44.00,7.04;1,78.00,600.70,4.00,7.04;1,99.00,600.70,288.02,7.04;1,63.00,609.70,74.64,7.04">90, n o 2, juin 2014 ___________ * L'auteur tient à remercier Jonathan Blondeel (Ernst &amp; Young) pour sa contribution à la rédaction de cet article.</s><s xml:id="_wUBVJvJ" coords="1,78.00,621.70,5.71,7.04">1.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="684.0" lry="450.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="684.0" lry="450.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_znkEdjB"><p xml:id="_CsQU4Bh"><s xml:id="_pSXdywH" coords="2,78.00,91.20,308.88,8.80;2,63.00,103.61,243.30,8.80">La prédiction de la détresse financière est un sujet qui intéresse bon nombre d'acteurs <ref type="bibr" coords="2,100.50,103.61,100.87,8.80" target="#b32">(Weitzel et Jonsson, 1989;</ref><ref type="bibr" coords="2,203.33,103.61,98.79,8.80" target="#b10">Daubie et Meskens, 2001)</ref>.</s><s xml:id="_u3UcWUx" coords="2,308.27,103.61,78.70,8.80;2,63.00,116.02,254.65,8.80">En effet, les prêteurs de fonds veulent évaluer la probabilité de défaut du prêt octroyé.</s><s xml:id="_KdCyqJ6" coords="2,319.83,116.02,67.17,8.80;2,63.00,128.43,324.01,8.80;2,63.00,140.84,131.63,8.80">Les investisseurs ainsi que les actionnaires désirent s'assurer de la sécurité de leur investissement envers les titres d'une entreprise.</s><s xml:id="_anu5H9q" coords="2,197.20,140.84,189.82,8.80;2,63.00,153.25,324.00,8.80;2,63.00,165.65,309.12,8.80">Puisque les banqueroutes risquent de mettre les institutions financières en péril, les législateurs et les banques centrales ont l'aptitude d'instaurer certaines lois afin d'assurer une certaine stabilité financière.</s><s xml:id="_TVbmK6J" coords="2,375.12,165.65,11.67,8.80;2,63.00,178.06,324.00,8.80;2,63.00,190.47,47.92,8.80">De plus, les auditeurs doivent fournir leur jugement concernant le going concern de l'entreprise.</s><s xml:id="_GaWK8uR" coords="2,113.03,190.47,274.01,8.80;2,63.00,202.88,234.83,8.80">Enfin, les managers sont engagés, entre autres choses, afin de garantir la pérennité de l'entreprise et d'éviter la faillite de celle-ci.</s></p><p xml:id="_STkmuKU"><s xml:id="_PFaJjMt" coords="2,78.00,223.29,309.00,8.80;2,63.00,235.70,306.63,8.80">Dans ce contexte, la problématique de la défaillance des entreprises a retenu l'attention des chercheurs depuis de nombreuses années <ref type="bibr" coords="2,291.72,235.70,73.60,8.80" target="#b16">(Fitzpatrick, 1932)</ref>.</s><s xml:id="_duwHG6H" coords="2,372.55,235.70,14.44,8.80;2,63.00,248.11,324.00,8.80;2,63.00,260.52,323.81,8.80;2,63.00,272.93,323.78,8.80;2,63.00,285.34,323.97,8.80;2,63.00,297.74,323.99,8.80;2,63.00,310.15,324.00,8.80;2,63.00,322.56,323.91,8.80;2,63.00,334.97,120.66,8.80">Les pionniers se nomment <ref type="bibr" coords="2,153.11,248.11,56.89,8.80">Beaver (1966)</ref> et <ref type="bibr" coords="2,221.20,248.11,58.92,8.80" target="#b0">Altman (1968)</ref> dont les méthodes -l'analyse unidimensionnelle et l'analyse discriminante linéaire respectivement -sont souvent comparées aux études édifiées plus récemment : les modèles Logit <ref type="bibr" coords="2,352.88,272.93,33.89,8.80;2,63.00,285.34,22.78,8.80" target="#b24">(Ohlson, 1980;</ref><ref type="bibr" coords="2,88.10,285.34,74.89,8.80" target="#b27">Platt et Platt, 1990)</ref>, le modèle Probit de <ref type="bibr" coords="2,249.44,285.34,69.85,8.80" target="#b33">Zmijewski (1984)</ref>, l'algorithme de partitionnement récursif d <ref type="bibr" coords="2,165.96,297.74,82.49,8.80" target="#b1">'Altman et al. (1985)</ref>, les estimateurs à noyau et du plus proche voisin <ref type="bibr" coords="2,119.34,310.15,105.84,8.80">de Calia et Ganucci (1997)</ref>, les réseaux de neurones <ref type="bibr" coords="2,328.74,310.15,58.26,8.80;2,63.00,322.56,23.25,8.80" target="#b2">(Altman et al., 1994;</ref><ref type="bibr" coords="2,89.37,322.56,96.93,8.80" target="#b29">Shah et Murtaza, 2000;</ref><ref type="bibr" coords="2,189.42,322.56,85.46,8.80" target="#b4">Becerra et al., 2005)</ref> ou encore, les algorithmes génétiques <ref type="bibr" coords="2,109.51,334.97,69.92,8.80">de Varetto (1998)</ref>.</s><s xml:id="_jnnz7ma" coords="2,186.57,334.97,200.45,8.80;2,63.00,347.38,324.00,8.80;2,63.00,359.79,323.65,8.80;2,63.00,372.20,99.71,8.80">Tous ces modèles de prédiction façonnés dans la littérature sont pour la plupart statistiques, utilisant bien souvent des ratios économiques et financiers (comptables) pour estimer la probabilité de défaillance, il s'agit de l'approche financière.</s><s xml:id="_EZB2qEg" coords="2,165.50,372.20,221.50,8.80;2,63.00,384.61,323.99,8.80;2,63.00,397.02,324.01,8.80;2,63.00,409.43,291.99,8.80">Certains auteurs <ref type="bibr" coords="2,233.29,372.20,95.61,8.80" target="#b8">(Chava et Jarrow, 2004;</ref><ref type="bibr" coords="2,331.69,372.20,55.31,8.80;2,63.00,384.61,23.11,8.80" target="#b22">Maffett et al., 2013)</ref> ont également testé des modèles de prédiction incluant, en plus des variables comptables, des variables liées au marché boursier sur lequel les entreprises évoluent; ils rapportent une influence de ces variables sur la qualité de prédiction.</s><s xml:id="_gkfhkzW" coords="2,357.99,409.43,28.90,8.80;2,63.00,421.84,324.00,8.80;2,63.00,434.24,324.00,8.80;2,63.00,446.65,60.52,8.80">Notons que la littérature comptable ne propose pas une définition claire et généralement acceptée de la défaillance d'entreprise <ref type="bibr" coords="2,218.44,434.24,109.06,8.80" target="#b30">(Sharma et Mahajan, 1980;</ref><ref type="bibr" coords="2,330.06,434.24,56.94,8.80" target="#b21">Koenig, 1985;</ref><ref type="bibr" coords="2,63.00,446.65,56.24,8.80" target="#b18">Guilhot, 2000)</ref>.</s><s xml:id="_8GdrNhc" coords="2,125.60,446.65,261.40,8.80;2,63.00,459.06,324.04,8.80;2,63.00,471.47,62.41,8.80">En conséquence, pour toute étude portée sur la défaillance d'entreprise, il est nécessaire d'examiner le sens de la notion de défaillance d'entreprise <ref type="bibr" coords="2,63.00,471.47,58.07,8.80" target="#b23">(Morris, 1997)</ref>.</s><s xml:id="_FPser76" coords="2,128.45,471.47,258.64,8.80;2,63.00,483.88,303.62,8.80">D'un point de vue juridique, l'entreprise est considérée comme étant défaillante si elle se retrouve dans une situation de règlement judiciaire.</s><s xml:id="_FJ7Uc4q" coords="2,368.74,483.88,18.29,8.80;2,63.00,496.29,323.96,8.80;2,63.00,508.70,324.02,8.80;2,63.00,521.11,324.01,8.80;2,63.00,533.52,84.84,8.80">dans la plupart des pays occidentaux, la défaillance d'entreprise est fortement liée à la faillite, à savoir une procédure juridique qui conduit à la disparition juridique de l'entreprise lorsque de graves problèmes de liquidité et de solvabilité sont détectés <ref type="bibr" coords="2,63.00,533.52,80.53,8.80">(Gérard et al., 1998)</ref>.</s><s xml:id="_d4DCVJp" coords="2,150.48,533.52,236.53,8.80;2,63.00,545.93,323.96,8.80;2,63.00,558.33,324.12,8.80;2,63.00,570.74,238.22,8.80">L'idée principale des modèles de prédiction précédemment évoqués n'est pas seulement de savoir que l'entreprise présente de faibles ratios avant la faillite mais de prédire la probabilité d'effondrement suffisamment tôt pour minimiser la perte associée <ref type="bibr" coords="2,175.41,570.74,121.50,8.80" target="#b12">(Dighaye et Van Caillie, 2002)</ref>.</s><s xml:id="_ZQ9nsKs" coords="2,304.05,570.74,82.93,8.80;2,63.00,583.15,324.01,8.80;2,63.00,595.56,323.84,8.80;2,63.00,607.97,96.67,8.80">Il est, d'ailleurs, mis en évidence dans la littérature que les indicateurs financiers (liquidité, solvabilité, rentabilité, etc.) ne sont pas forcément des prédicteurs de la faillite mais bien souvent des symptômes.</s><s xml:id="_pkSKCm6" coords="2,161.83,607.97,225.17,8.80;2,63.00,620.38,323.93,8.80;3,63.00,91.21,100.98,8.80">La plupart des études empiriques relatives à la prédiction de la faillite ont été réalisées dans le contexte américain <ref type="bibr" coords="2,293.32,620.38,59.21,8.80">(Beaver, 1966;</ref><ref type="bibr" coords="2,355.53,620.38,31.40,8.80;3,63.00,91.21,22.78,8.80" target="#b24">Ohlson, 1980;</ref><ref type="bibr" coords="3,88.46,91.21,71.22,8.80" target="#b14">Duan et al., 2012)</ref>.</s><s xml:id="_TgppaYY" coords="3,166.66,91.21,220.36,8.80;3,63.00,103.74,323.91,8.80;3,63.00,116.27,324.09,8.80;3,63.00,128.80,306.05,8.80">Dans la littérature belge, certains auteurs se sont voués à l'étude des modèles de prédictions en général <ref type="bibr" coords="3,263.01,103.74,123.91,8.80" target="#b9">(Crutzen et Van Caillie, 2008;</ref><ref type="bibr" coords="3,63.00,116.27,121.80,8.80" target="#b12">Dighaye et Van Caillie, 2002;</ref><ref type="bibr" coords="3,187.88,116.27,83.02,8.80" target="#b11">Declerc et al., 1991)</ref>; on retrouve cependant peu de modèles consacrés à la prédiction des faillites appliqués au cas belge.</s><s xml:id="_T5b7tUR" coords="3,372.25,128.80,14.89,8.80;3,63.00,141.33,324.01,8.80;3,63.00,153.86,139.16,8.80">Les plus connus sont ceux développés par <ref type="bibr" coords="3,220.77,141.33,103.94,8.80" target="#b25">Ooghe et Verbaere (1982)</ref>, <ref type="bibr" coords="3,331.97,141.33,55.04,8.80;3,63.00,153.86,26.89,8.80">Declerc et al. (1992)</ref> et par <ref type="bibr" coords="3,119.16,153.86,78.80,8.80" target="#b26">Ooghe et al. (2005)</ref>.</s><s xml:id="_59WD6P4" coords="3,205.21,153.86,181.89,8.80;3,63.00,166.39,324.01,8.80;3,63.00,178.91,278.47,8.80">Dans ce contexte, cet article va permettre de combler ce vide relatif au sein de la littérature belge sur les faillites par le biais de la construction de modèles économétriques de prédiction des faillites.</s><s xml:id="_BFhBNqz" coords="3,343.97,178.91,43.03,8.80;3,63.00,191.44,324.01,8.80;3,63.00,203.97,324.07,8.80;3,63.00,216.50,306.53,8.80">Plus précisément, sur base d'un échantillon important d'entreprises belges, cet article a pour but de développer trois modèles économétriques de prévision construits à partir de six ratios financiers, respectivement à un, trois et cinq ans avant la faillite.</s><s xml:id="_w3kDuvg" coords="3,372.01,216.50,15.00,8.80;3,63.00,229.03,324.00,8.80;3,63.00,241.56,140.69,8.80">Ces modèles permettront de tester quatre hypothèses de travail développées au cours de la section suivante de cet article.</s><s xml:id="_xGs8bEQ" coords="3,206.07,241.56,180.93,8.80;3,63.00,254.09,323.98,8.80;3,63.00,266.62,110.99,8.80">En ce qui concerne les données, une partie de l'échantillon est composée d'entreprises tombées en faillites entre 2002 et 2010, l'autre d'entreprises saines.</s><s xml:id="_rRxgpcE" coords="3,177.00,266.62,209.96,8.80;3,63.00,279.15,144.36,8.80">Les régressions logistiques permettent de modéliser une dichotomie entre ces deux états.</s><s xml:id="_2npfaZh" coords="3,209.75,279.15,177.29,8.80;3,63.00,291.68,324.03,8.80;3,63.00,304.21,266.81,8.80">Les résultats de nos analyses rapportent que, à un an et à trois ans avant la faillite, les ratios liés à la rentabilité, la liquidité ainsi qu'à la taille de l'entreprise apparaissent comme étant significatifs.</s><s xml:id="_eJGt2EE" coords="3,332.23,304.21,54.75,8.80;3,63.00,316.74,324.10,8.80;3,63.00,329.27,324.12,8.80;3,63.00,341.80,181.82,8.80">À cinq ans, le modèle de prévision de faillites rapporte que c'est davantage la solvabilité et la taille de l'entreprise qui permettent de réaliser une discrimination entre entreprises saines et entreprises qui tomberont en faillite.</s></p><p xml:id="_Adcj9G8"><s xml:id="_ekNB7nt" coords="3,78.00,362.12,170.29,8.80">La suite de l'article se présente comme suit.</s><s xml:id="_FH2Y2nr" coords="3,250.35,362.12,136.42,8.80;3,63.00,374.45,323.98,8.80;3,63.00,386.78,207.80,8.80">La première section présentera une revue de la littérature permettant de formuler différentes hypothèses et de réaliser le choix des variables financières le plus judicieux.</s><s xml:id="_erCGg8A" coords="3,273.83,386.78,113.17,8.80;3,63.00,399.11,196.99,8.80">Ensuite, l'échantillon sélectionné et la méthodologie suivie seront présentés.</s><s xml:id="_6F97fZY" coords="3,262.45,399.11,124.57,8.80;3,63.00,411.44,115.87,8.80">La troisième section rapportera les résultats de nos analyses.</s><s xml:id="_svfhAFU" coords="3,181.80,411.44,205.17,8.80;3,63.00,423.77,90.52,8.80">Enfin, nous discuterons des résultats obtenus avant de conclure cet article.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_YA3N3Q6" coords="3,63.00,454.10,131.44,8.80">les symptômes de la faIllIte</head><p xml:id="_7QYyM4H"><s xml:id="_6VnaF5d" coords="3,78.00,472.43,309.05,8.80;3,63.00,484.76,324.02,8.80;3,63.00,497.09,324.16,8.80;3,63.00,509.42,49.72,8.80">Bien que certains auteurs <ref type="bibr" coords="3,179.12,472.43,92.90,8.80" target="#b8">(Chava et Jarrow, 2004;</ref><ref type="bibr" coords="3,274.11,472.43,78.82,8.80" target="#b22">Maffett et al., 2013)</ref> ajoutent à leurs modèles de prédiction des variables liées au marché boursier sur lequel les entreprises évoluent, nous considérons, dans cette étude, des variables comptables uniquement.</s><s xml:id="_ax8bkJV" coords="3,115.10,509.42,271.85,8.80;3,63.00,521.75,289.00,8.80">Ce choix est lié à notre échantillon d'analyse; en effet, ce dernier est composé d'entreprises cotées mais également d'entreprises non cotées.</s><s xml:id="_vf4reYh" coords="3,355.04,521.75,31.83,8.80;3,63.00,534.08,324.00,8.80;3,63.00,546.40,324.00,8.80">D'après <ref type="bibr" coords="3,63.00,534.08,96.68,8.80" target="#b28">Refait-Alexandre (2004)</ref>, la rentabilité de l'entreprise, la structure de son bilan et sa capacité de remboursement sont les trois éléments les plus corrélés à la faillite.</s><s xml:id="_SXeYvh2" coords="3,63.00,558.73,324.22,8.80;3,63.00,571.06,291.21,8.80">Nos hypothèses de travail feront donc référence aux notions de rentabilité, de liquidité, de solvabilité ainsi qu'à la taille de l'entreprise <ref type="bibr" coords="3,291.15,571.06,58.75,8.80" target="#b24">(Ohlson, 1980)</ref>.</s><s xml:id="_YbWtb88" coords="3,356.72,571.06,30.28,8.80;3,63.00,583.39,324.04,8.80;3,63.00,595.72,323.99,8.80;3,63.00,608.05,324.02,8.80;3,63.00,620.38,226.08,8.80">Pour ce qui est de la sélection des variables permettant de tester les différentes hypothèses de travail, nous nous basons sur les travaux de synthèse de <ref type="bibr" coords="3,300.83,595.72,76.20,8.80">Akers et al. (2007)</ref> et de la littérature belge <ref type="bibr" coords="3,148.14,608.05,103.23,8.80" target="#b25">(Ooghe et Verbaere, 1982;</ref><ref type="bibr" coords="3,253.46,608.05,75.89,8.80" target="#b26">Ooghe et al., 2005)</ref> afin de choisir les ratios les plus pertinents à inclure dans notre modèle.</s></p><p xml:id="_EB8xQ3m"><s xml:id="_y4TH8dj" coords="4,63.00,91.21,58.89,8.80;4,78.00,109.21,308.97,8.80;4,63.00,121.21,324.00,8.80;4,63.00,133.21,88.21,8.80">1.1 Rentabilité <ref type="bibr" coords="4,78.00,109.21,119.40,8.80" target="#b5">Bilderbeek et Pompe (2005)</ref> ont estimé qu'une société dont les bénéfices diminuent au fil des années rencontre de fortes probabilités de devenir victime de difficultés financières.</s><s xml:id="_W22yeHE" coords="4,153.60,133.21,233.40,8.80;4,63.00,145.21,324.00,8.80;4,63.00,157.21,66.35,8.80">De plus, d'après <ref type="bibr" coords="4,221.03,133.21,75.77,8.80" target="#b7">Chang et al. (1999)</ref>, la rentabilité générée par l'entreprise est un des critères primordiaux à l'octroi de crédit par les institutions financières.</s><s xml:id="_ZN4wbx6" coords="4,131.39,157.21,255.52,8.80;4,63.00,169.21,324.00,8.80;4,63.00,181.21,52.44,8.80">D'après <ref type="bibr" coords="4,164.64,157.21,111.53,8.80">Keasey et McGuiness (1990)</ref>, la rentabilité et l'efficience sont les indicateurs les plus déterminants de la faillite des entreprises industrielles britanniques.</s><s xml:id="_M9CSbUq" coords="4,118.49,181.21,268.51,8.80;4,63.00,193.21,324.01,8.80;4,63.00,205.21,275.55,8.80">En termes de rentabilité pure, les ratios sélectionnés afin d'appréhender la faillite sont le résultat avant impôts et charges financières (EBIT)/actif total (EBIT_TA) et le résultat reporté et réserves/actif total (Res_TA).</s><s xml:id="_R87nQZS" coords="4,341.18,205.21,45.81,8.80;4,63.00,217.21,324.03,8.80">Pour ce qui est de l'efficience, le ratio Valeur ajoutée/personne employée (VA_Pers) est retenu.</s></p><p xml:id="_gCRM6ST"><s xml:id="_Jnu5s38" coords="4,78.00,235.21,215.18,8.80">Notre première hypothèse sera formulée comme suit :</s></p><p xml:id="_yMmeJxe"><s xml:id="_hazkx8X" coords="4,63.00,253.07,323.98,8.94;4,63.00,265.21,125.71,8.80">Hypothèse 1 -« Une forte rentabilité a un impact négatif sur la probabilité de faillite des entreprises belges ».</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_grqSSsX" coords="4,63.00,294.21,51.12,8.80">Liquidité</head><p xml:id="_7BMq8mA"><s xml:id="_b3taZvd" coords="4,78.00,312.21,309.01,8.80;4,63.00,324.21,192.13,8.80">Intuitivement, on suppose que des niveaux supérieurs de liquidité auront une influence positive sur la pérennité des entreprises.</s><s xml:id="_n9fUhRk" coords="4,257.14,324.21,129.89,8.80;4,63.00,336.21,324.02,8.80;4,63.00,348.21,76.27,8.80">En effet, des sociétés en difficulté disposent bien souvent de faibles liquidités et rencontrent des soucis à honorer leurs engagements.</s><s xml:id="_JAdGRjY" coords="4,141.43,348.21,245.57,8.80;4,63.00,360.21,324.01,8.80;4,63.00,372.21,47.16,8.80">Dans ce contexte, les banques peuvent resserrer les conditions de crédit pour prévenir du futur risque d'échec, entraînant davantage de troubles pécuniaires.</s><s xml:id="_4s9g6r2" coords="4,112.19,372.21,274.86,8.80;4,63.00,384.21,324.00,8.80;4,63.00,396.21,122.55,8.80">Un ratio de liquidité est un indicateur financier inéluctable car il évalue l'importance des fonds disponibles pour faire face à diverses situations (prévues ou non, significatives ou non).</s><s xml:id="_EvBeejw" coords="4,188.51,396.21,198.45,8.80;4,63.00,408.21,280.08,8.80">Un tel ratio permet de vérifier si la société est en mesure de rembourser ses dettes et de pouvoir poursuivre son activité.</s></p><p xml:id="_SNRvvJN"><s xml:id="_84gPxke" coords="4,78.00,426.21,309.00,8.80;4,63.00,438.21,324.00,8.80;4,63.00,450.30,19.35,8.70;4,82.35,449.69,2.90,5.10;4,88.26,450.21,39.82,8.80">Selon <ref type="bibr" coords="4,103.03,426.21,103.30,8.80">Daubie et Meskens (2002)</ref>, <ref type="bibr" coords="4,212.74,426.21,81.46,8.80" target="#b13">Dimitras et al. (1999</ref><ref type="bibr" coords="4,294.20,426.21,88.64,8.80">) et Akers et al. (2007)</ref>, un des ratios financiers les plus usités pour caractériser la liquidité est le current ratio 2 (Curr_R).</s><s xml:id="_VUhHJxK" coords="4,131.09,450.21,255.87,8.80;4,63.00,462.21,323.82,8.80;4,63.00,474.21,271.71,8.80">Enfin, d'après les modèles connus de <ref type="bibr" coords="4,285.26,450.21,51.92,8.80">Beaver (1966</ref><ref type="bibr" coords="4,337.19,450.21,49.78,8.80;4,63.00,462.21,21.28,8.80">), d'Altman (1968</ref><ref type="bibr" coords="4,84.28,462.21,86.52,8.80">), d'Edminster (1972</ref><ref type="bibr" coords="4,170.80,462.21,78.28,8.80">), d'Ohlson (1980)</ref>, de <ref type="bibr" coords="4,269.18,462.21,73.75,8.80" target="#b33">Zmijewski (1984)</ref> et de bien d'autres, une faible liquidité engendre un risque de faillite plus élevé.</s><s xml:id="_b6RhFGh" coords="4,336.27,474.21,50.60,8.80;4,63.00,486.21,324.00,8.80">Au vu de ces constatations, nous formulerons notre seconde hypothèse de la manière suivante :</s></p><p xml:id="_ASYrmYQ"><s xml:id="_S677xCz" coords="4,63.00,504.07,324.23,8.94;4,63.00,516.21,97.20,8.80">Hypothèse 2 -« Une forte liquidité a un impact négatif sur la probabilité de faillite des entreprises belges ».</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3" xml:id="_4mXKdrP" coords="4,63.00,545.21,57.78,8.80">Solvabilité</head><p xml:id="_CU8xPXc"><s xml:id="_BUAeHqV" coords="4,78.00,563.21,308.77,8.80;4,63.00,575.21,323.73,8.80;4,63.00,587.21,96.54,8.80">La capacité de remboursement de ses dettes et de ses charges financières constitue la solvabilité de l'entreprise; sa structure financière peut jouer un rôle dans le risque de faillite.</s><s xml:id="_GRnH6SM" coords="4,161.69,587.21,225.31,8.80;4,63.00,609.70,44.00,7.04">Lorsque qu'elle rencontre des troubles financiers, engen-___________</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_qwXw4Pt" coords="4,78.00,621.70,6.13,7.04">2.</head><p xml:id="_pbfpZZR"><s xml:id="_w42aNvw" coords="4,99.00,621.70,257.30,7.04">Current ratio = liquidité au sens large = actifs circulants/dettes de court terme.</s></p><p xml:id="_7GDGMCC"><s xml:id="_VsquKsg" coords="5,63.00,91.20,323.96,8.80;5,63.00,103.23,106.47,8.80">drant des dettes et des charges financières, la probabilité de faillite de l'entreprise s'accroît considérablement.</s><s xml:id="_8YKRE45" coords="5,171.45,103.23,215.65,8.80;5,63.00,115.26,165.06,8.80">En effet, le remboursement des échéances peut conduire l'entreprise à une cessation de paiement.</s><s xml:id="_7e6nq7v" coords="5,231.07,115.26,155.89,8.80;5,63.00,127.29,324.22,8.80;5,63.00,139.32,253.26,8.80">En économie financière, la variable de solvabilité communément utilisée afin de déterminer la capacité de remboursement d'une entreprise est le ratio dettes totales/actif total (Dettes_TA).</s><s xml:id="_s2KapeG" coords="5,318.36,139.32,68.63,8.80;5,63.00,151.36,323.85,8.80;5,63.00,163.39,324.01,8.80;5,63.00,175.42,125.67,8.80">Enfin, d'après les modèles connus de Beaver (1966), d' <ref type="bibr" coords="5,208.37,151.36,50.66,8.80" target="#b0">Altman (1968</ref><ref type="bibr" coords="5,259.03,151.36,81.12,8.80">), d'Edminster (1972</ref><ref type="bibr" coords="5,340.14,151.36,46.71,8.80;5,63.00,163.39,24.99,8.80">), d'Ohlson (1980)</ref>, de <ref type="bibr" coords="5,107.50,163.39,72.14,8.80" target="#b33">Zmijewski (1984)</ref> et de bien d'autres, une faible solvabilité engendre un risque de faillite plus élevé.</s><s xml:id="_abcQw3F" coords="5,191.70,175.42,195.20,8.80;5,63.00,187.45,90.27,8.80">En conséquence, notre troisième hypothèse sera formulée comme suit :</s></p><p xml:id="_4JdvFg8"><s xml:id="_Hk5MbzS" coords="5,63.00,205.34,324.04,8.94;5,63.00,217.51,125.71,8.80">Hypothèse 3 -« Une forte solvabilité a un impact négatif sur la probabilité de faillite des entreprises belges ».</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4" xml:id="_qupnjQP" coords="5,63.00,247.54,38.34,8.80">Taille</head><p xml:id="_J6r5ncN"><s xml:id="_qeYwNKW" coords="5,78.00,265.57,227.08,8.80">Le facteur taille constitue un risque de faillite en Belgique.</s><s xml:id="_ZkUnrad" coords="5,307.12,265.57,80.09,8.80;5,63.00,277.60,323.99,8.80;5,63.00,289.63,255.47,8.80">Le modèle d <ref type="bibr" coords="5,355.17,265.57,32.05,8.80;5,63.00,277.60,26.66,8.80" target="#b24">'Ohlson (1980)</ref> a effectivement incorporé cette variable au sein de sa méthode, incluant de la sorte, le logarithme de l'actif total (LogTA) de chaque société.</s><s xml:id="_N44WHWH" coords="5,320.81,289.63,66.20,8.80;5,63.00,301.67,324.13,8.80;5,63.00,313.70,238.65,8.80">Outre cet auteur, <ref type="bibr" coords="5,63.00,301.67,61.10,8.80" target="#b19">Horrigan (1966)</ref>, dans son étude d'évaluation des titres d'une entreprise, a également découvert que la taille constitue un déterminant de la faillite.</s><s xml:id="_4HXWD3V" coords="5,303.76,313.70,83.40,8.80;5,63.00,325.73,183.64,8.80">De manière intuitive, ce constat peut s'expliquer par divers facteurs.</s><s xml:id="_aTfS6j6" coords="5,248.89,325.73,138.15,8.80;5,63.00,337.76,324.00,8.80;5,63.00,349.79,323.99,8.80;5,63.00,361.82,324.02,8.80;5,63.00,373.85,324.01,8.80;5,63.00,385.88,51.67,8.80">En règle générale, les structures de moindre taille ont davantage de chances de rencontrer des revers de négociations avec leurs partenaires (clients ou fournisseurs), plus de difficultés à dénicher des capitaux, à investir dans la technologie, l'innovation, la formation du personnel, etc. En conséquence, l'hypothèse concernant la taille de l'entreprise est formulée comme suit :</s></p><p xml:id="_wZwqdNN"><s xml:id="_bCGmVR8" coords="5,63.00,403.77,323.88,8.94;5,63.00,415.95,81.37,8.80">Hypothèse 4 -« La taille a un impact négatif sur la probabilité de faillite des entreprises belges ».</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_C5kSQTC" coords="5,63.00,445.98,119.37,8.80">données et méthodologIe</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_wk7tFdr" coords="5,63.00,470.01,49.99,8.80">Données</head><p xml:id="_H2a54Uw"><s xml:id="_Vkvs9CZ" coords="5,78.00,488.04,309.15,8.80;5,63.00,500.07,324.00,8.80;5,63.00,512.10,176.52,8.80">Afin de réaliser notre étude, nous avons choisi d'utiliser la base de données Bureau Van Dijk Electronic Publishing afin de sélectionner les entreprises belges disponibles sur cette dernière de 2002 à 2010.</s><s xml:id="_8u5Xa5q" coords="5,241.53,512.10,145.77,8.80;5,63.00,524.13,323.96,8.80;5,63.00,536.16,323.91,8.80;5,63.00,548.19,324.04,8.80;5,63.00,560.22,133.20,8.80">Puisque nous désirons concevoir trois modèles de prédiction, respectivement à un, trois et cinq années avant la faillite, seules les entreprises ayant déposé leur bilan au moins jusqu'en 2006 sont reprises afin de pouvoir étudier l'évolution de leurs comptes annuels depuis 2000 c'est-àdire, cinq années avant la faillite.</s><s xml:id="_qmzuM5c" coords="5,198.95,560.22,188.05,8.80;5,63.00,572.26,324.02,8.80;5,63.00,584.29,274.30,8.80">À partir de l'échantillon des entreprises défaillantes construit, il convient d'élaborer un échantillon correspondant d'entreprises saines, n'ayant pas fait faillite durant l'horizon temporel considéré.</s><s xml:id="_vUfqX5x" coords="5,340.34,584.29,46.63,8.80;5,63.00,596.32,323.99,8.80;5,63.00,608.35,196.08,8.80">L'ensemble des données obtenues pour ces entreprises sont disponibles au sein de la base de données Bureau Van Dijk Electronic Publishing.</s><s xml:id="_c5pWXH2" coords="5,261.54,608.35,125.21,8.80;5,63.00,620.38,324.03,8.80;6,63.00,91.20,323.97,8.80;6,63.00,103.25,272.80,8.80">Après sélection des entreprises pour lesquelles suffisamment de données étaient disponibles, nous obtenons un échantillon exploitable de 155 entreprises en faillite et de 5207 entreprises saines pour l'élaboration de notre modèle de prévision des faillites à 1 an.</s><s xml:id="_T2cNaTa" coords="6,338.77,103.25,48.26,8.80;6,63.00,115.29,324.06,8.80;6,63.00,127.34,84.16,8.80">Ces chiffres s'élèvent à 185 et 5052 ainsi qu'à 28 et 5052 pour les modèles de prévision à 3 et 5 ans respectivement.</s><s xml:id="_t4DgVcF" coords="6,148.68,127.34,238.53,8.80;6,63.00,139.38,158.32,8.80">Afin de réaliser un réel modèle de prévision, nos échantillons initiaux seront divisés en deux parties.</s><s xml:id="_3zFztBQ" coords="6,224.41,139.38,162.55,8.80;6,63.00,151.43,291.33,8.80">Pour chaque modèle, la première partie comprend 75 % des observations et constitue l'échantillon d'apprentissage.</s><s xml:id="_sBXNXu4" coords="6,356.34,151.43,30.87,8.80;6,63.00,163.47,323.97,8.80;6,63.00,175.52,226.90,8.80">Le reste des entreprises représente l'échantillon de contrôle qui sera utilisée pour tester le modèle obtenu sur base de l'échantillon d'apprentissage.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_VsR7up6" coords="6,63.00,204.56,70.55,8.80">Méthodologie</head><p xml:id="_Qm8JjeK"><s xml:id="_PaXAJHn" coords="6,78.00,221.41,309.00,8.80;6,63.00,233.25,324.13,8.80;6,63.00,245.10,105.08,8.80">À travers la littérature, on retrouve principalement le développement de deux principaux modèles <ref type="bibr" coords="6,146.31,233.25,83.43,8.80" target="#b26">(Ooghe et al., 2005)</ref> : les analyses discriminantes linéaires ainsi que le modèle Logit.</s><s xml:id="_VEHbCRj" coords="6,170.81,245.10,216.18,8.80;6,63.00,256.94,324.01,8.80;6,63.00,268.79,70.94,8.80">Malgré l'étendue de l'état de l'art dans le domaine de prédiction des faillites, <ref type="bibr" coords="6,160.17,256.94,62.97,8.80" target="#b3">Balcaen (2009)</ref> a conclu qu'il n'existe pas vraiment de modèle supérieur.</s><s xml:id="_C4Djzxk" coords="6,136.28,268.79,250.75,8.80;6,63.00,280.63,114.47,8.80">Nous avons opté pour la régression logistique afin de prédire la faillite des entreprises belges.</s><s xml:id="_uq8ucHg" coords="6,179.49,280.63,207.49,8.80;6,63.00,292.48,324.00,8.80;6,63.00,304.32,217.87,8.80;6,280.91,310.40,2.93,5.10;6,283.87,304.41,10.13,8.70;6,294.04,310.40,2.93,5.10;6,296.99,304.32,25.93,8.80;6,322.96,310.45,2.61,5.05;6,325.59,304.32,2.53,8.80">Celle-ci décrit la relation entre une variable expliquée dichotomique, pouvant prendre soit la valeur 1 (entreprise faillie), soit la valeur 0 (entreprise saine), et k autres variables explicatives x 1 , x 2 , …, x k .</s><s xml:id="_sdjNTM3" coords="6,331.23,304.32,55.78,8.80;6,63.00,316.17,162.10,8.80">Ces dernières peuvent être quantitatives ou qualitatives.</s><s xml:id="_Nnsd4AZ" coords="6,227.17,316.17,159.79,8.80;6,63.00,328.01,194.76,8.80;6,257.76,334.15,1.61,5.05;6,261.88,328.01,22.01,8.80;6,283.89,334.15,1.61,5.05;6,289.45,328.01,97.57,8.80;6,63.00,339.86,87.17,8.80;6,150.17,345.99,1.61,5.05;6,154.01,339.86,126.86,8.80">Puisque la variable expliquée est binaire, celle-ci suit la distribution de Bernoulli tel que P i = P(y i = 1) est la probabilité de faillite et tel que 1 -P i est la probabilité de non-faillite.</s><s xml:id="_CBjaS8T" coords="6,283.10,339.86,103.89,8.80;6,63.00,351.70,318.45,8.80">Le modèle estimé requiert que la variable endogène soit une combinaison linéaire des variables exogènes :</s></p><formula xml:id="formula_0" coords="6,78.00,369.23,46.20,11.70">y i * = βX i + ε i</formula><p xml:id="_QDpaa3T"><s xml:id="_Y8CQjH8" coords="6,63.00,387.41,223.83,9.93">où ε est le terme d'erreur et β le vecteur des coefficients</s></p><formula xml:id="formula_1" coords="6,63.00,404.32,83.56,46.79">y i = 1 si y i * &gt; 0 et y i = 0 si y i * ≤ 0.</formula><p xml:id="_kqx7SUJ"><s xml:id="_zPvVrSe" coords="6,78.00,457.97,302.07,8.80">La probabilité de non-faillite (a posteriori) de l'entreprise i est donnée par :</s></p><formula xml:id="formula_2" coords="6,78.00,474.50,309.00,11.70">P(y i = 0) = P(y i * ≤ 0) = P(βX i + ε i ≤ 0) = P(ε i ≤ -βX i ) = F(-βX i ) = 1 -F(βX i ) = 1 -P i .</formula><p xml:id="_FqaTEVq"><s xml:id="_Qv4xsJJ" coords="6,78.00,493.06,309.00,8.80;6,63.00,505.11,45.54,8.80">De même, la probabilité de faillite (a posteriori) de l'entreprise i est représentée par :</s></p><formula xml:id="formula_3" coords="6,78.00,521.63,309.00,11.70">P(y i = 1) = P(y i * &gt; 0) = P(βX i + ε i &gt; 0) = P(ε i &gt; -βX i ) = 1 -P(ε i ≤ -βX i ) = F(βX i ) = P i .</formula><p xml:id="_GMWbAkZ"><s xml:id="_shsuJSr" coords="6,78.00,539.82,308.82,9.93">Les coefficients β seront estimés par la méthode du maximum de vraisemblance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_8RXwjym" coords="6,63.00,568.24,52.78,8.80">Résultat</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_rQTcdxH" coords="6,63.00,590.29,172.50,8.80">Statistiques descriptives et corrélations</head><p xml:id="_R3QunUY"><s xml:id="_Mdn2DcJ" coords="6,78.00,608.33,309.14,8.80;6,63.00,620.38,324.12,8.80">Le tableau 1 nous renseigne quant aux statistiques descriptives relatives aux variables qui seront testées dans chacun des trois modèles de prévision de faillites.</s></p><p xml:id="_anSt6Hs"><s xml:id="_SCmaT69" coords="7,63.00,91.20,324.03,8.80;7,63.00,103.23,323.98,8.80;7,63.00,115.26,39.91,8.80">Les statistiques descriptives concernent l'échantillon total, les entreprises faillies et les entreprises saines respectivement un, trois et cinq ans avant l'annonce de la faillite.</s><s xml:id="_gwsjsa5" coords="7,106.06,115.26,280.77,8.80">L'analyse de ce tableau permet de noter les constatations suivantes.</s><s xml:id="_kvfr4ub" coords="7,63.00,127.29,324.19,8.80;7,63.00,139.32,324.03,8.80;7,63.00,151.35,289.80,8.80">Premièrement, d'un point de vue comparatif, les entreprises saines affichent, en moyenne, de meilleurs ratios de rentabilité et d'efficience, davantage de liquidité et de solvabilité ainsi qu'une taille supérieure à leurs homologues faillies.</s><s xml:id="_4ZHcDXF" coords="7,354.92,151.35,32.08,8.80;7,63.00,163.38,323.97,8.80;7,63.00,175.41,323.98,8.80;7,63.00,187.44,88.47,8.80">Deuxièmement, d'un point de vue temporel, si l'on peut conclure en une relative stabilité des indicateurs pour les entreprises saines, on notera de fortes différences pour les entreprises faillies.</s><s xml:id="_PM6kKRm" coords="7,153.68,187.44,233.32,8.80;7,63.00,199.47,324.00,8.80;7,63.00,211.50,317.95,8.80">Remarquons notamment la détérioration des ratios Res_TA (qui devient même négatif 1 an avant la faillite) et Curr_R ainsi que la dégradation de la solvabilité des entreprises faillies entre cinq, trois et un an avant la faillite.</s></p><p xml:id="_CHT32j9"><s xml:id="_CtueygM" coords="7,78.00,229.52,308.85,8.80;7,63.00,241.55,323.74,8.80;7,63.00,253.58,324.01,8.80;7,63.00,265.61,76.82,8.80">Les corrélations entre les variables incluses dans chacun des trois modèles sont présentées dans le tableau 2. L'analyse de ce tableau nous permet de noter une corrélation importante (&gt;0.5) entre la variable Dettes_TA et les variables Res_TA et Curr_R.</s><s xml:id="_UX5X2JR" coords="7,142.79,265.61,244.26,8.80">Ce constat est valable à un, trois et cinq ans avant la faillite.</s><s xml:id="_tR8CWFH" coords="7,63.00,277.64,324.03,8.80;7,63.00,289.67,323.99,8.80;7,63.00,301.70,221.08,8.80">Afin d'éviter des problèmes de multicolinéarité dans l'élaboration de nos modèles de prédiction des faillites, nous écarterons la variable Dettes_TA de nos analyses lors de la construction de nos modèles économétriques.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_NZb5zTY" coords="7,63.00,331.73,72.50,8.80">Modèles Logit</head><p xml:id="_dSq45kY"><s xml:id="_3JWPPQr" coords="7,78.00,349.76,309.05,8.80;7,63.00,361.79,323.77,8.80;7,63.00,373.82,324.00,8.80;7,63.00,385.85,207.64,8.80">Les résultats des régressions logistiques visant à expliquer la variable dépendante dichotomique peuvent être trouvés dans le tableau 3. Trois modèles sont construits sur base des échantillons d'apprentissage et testés sur l'échantillon de contrôle, respectivement, un, trois et cinq ans avant la faillite.</s></p><p xml:id="_kjy48w9"><s xml:id="_7h7CMWE" coords="7,78.00,403.88,309.03,8.80;7,63.00,415.91,324.00,8.80;7,63.00,427.94,323.95,8.80;7,63.00,439.97,58.05,8.80">L'analyse de ce tableau nous permet, premièrement, de noter, au vu des tests chi -2 réalisés, que les trois modèles sont significatifs au seuil de 1 %, ce qui signifie que les variables introduites dans le modèle apportent une quantité significative d'information.</s><s xml:id="_SwgqW2N" coords="7,123.55,439.97,249.69,8.80">Le choix des variables semble donc, à première vue, pertinent.</s></p><p xml:id="_dAMN3sx"><s xml:id="_EUDdEuv" coords="7,78.00,458.00,309.02,8.80;7,63.00,470.03,148.58,8.80">Deuxièmement, en ce qui concerne les variables introduites dans nos modèles, nous observons les résultats suivants.</s><s xml:id="_M2zrVQt" coords="7,214.11,470.03,172.89,8.80;7,63.00,482.06,324.01,8.80;7,63.00,494.09,137.57,8.80">Pour le modèle de prédiction de la faillite à un an, les variables, Res_TA LogTA et VA_Pers sont significatives au seuil de 1 %; Curr_R et EBIT_TA au seuil de 5 %.</s><s xml:id="_5P7xkhw" coords="7,202.48,494.09,184.55,8.80;7,63.00,506.11,324.02,8.80;7,63.00,518.14,27.31,8.80">Notons également que les signes des coefficients observés correspondent à ceux attendus d'après la formulation des hypothèses de travail.</s><s xml:id="_NRt7STp" coords="7,92.38,518.14,294.62,8.80;7,63.00,530.17,323.99,8.80;7,63.00,542.20,222.53,8.80">Pour le modèle à 3 ans, les hypothèses testées sont pour la plupart vérifiées; la variable LogTA est significative au seuil au seuil de 1 %, EBIT_TA au seuil de 1 %, Res_TA au seuil de 5 % et Curr_R au seuil de 10 %.</s><s xml:id="_RsHUJap" coords="7,287.63,542.20,99.35,8.80;7,63.00,554.23,324.00,8.80;7,63.00,566.26,164.02,8.80">Enfin, en ce qui concerne le modèle à cinq ans, seules les variables VA_Pers et LogTA apparaissent comme étant significatives, et ce au seuil de 1 %.</s></p><p xml:id="_t3tyFaU"><s xml:id="_r6BcF94" coords="7,78.00,584.29,309.02,8.80;7,63.00,596.32,324.12,8.80;7,63.00,608.35,123.69,8.80">L'analyse des coefficients associés aux différents ratios permet donc de constater que ces derniers affichent généralement une significativité accrue à mesure que l'on se rapproche de la faillite.</s><s xml:id="_YGE6q5z" coords="7,189.51,608.35,197.46,8.80;7,63.00,620.38,232.83,8.80">En d'autres termes, l'influence des valeurs prises par les différents ratios est grandissante au cours du temps.</s><s xml:id="_RAURCMr" coords="7,298.06,620.38,88.89,8.80">En ce qui concerne les</s></p><p xml:id="_JnfEGRq"><s xml:id="_XFs6dfH" coords="8,298.42,64.20,54.16,8.80;8,107.30,82.20,436.41,8.80;8,147.95,108.38,84.10,8.94;8,308.00,108.38,87.99,8.94;8,472.50,108.38,87.99,8.94;8,121.55,132.20,28.90,8.94;8,173.18,132.20,33.64,8.94;8,230.39,132.20,27.23,8.94;8,283.55,132.20,28.90,8.94;8,335.18,132.20,33.64,8.94;8,392.39,132.20,27.23,8.94;8,445.55,132.20,28.90,8.94;8,497.18,132.20,33.64,8.94;8,556.89,132.20,27.23,8.94;8,57.00,156.02,36.30,8.94;8,116.33,156.02,417.34,8.94;8,550.83,156.02,39.34,8.94;8,57.00,179.91,40.57,8.87;8,127.25,179.98,17.50,8.80;8,121.42,191.98,29.16,8.80;8,179.59,179.98,20.83,8.80;8,175.42,191.98,29.16,8.80;8,235.25,179.98,17.50,8.80;8,229.42,191.98,29.16,8.80;8,291.75,179.98,12.50,8.80;8,283.42,191.98,29.16,8.80;8,345.75,179.98,12.50,8.80;8,337.42,191.98,29.16,8.80;8,399.75,179.98,12.50,8.80;8,391.42,191.98,29.16,8.80;8,451.25,179.98,17.50,8.80;8,445.42,191.98,29.16,8.80;8,505.25,179.98,17.50,8.80;8,501.92,191.98,24.16,8.80;8,561.75,179.98,17.50,8.80;8,555.92,191.98,29.16,8.80;8,57.00,215.73,32.23,8.87;8,124.75,215.80,22.50,8.80;8,121.42,227.80,29.16,8.80;8,179.59,215.80,20.83,8.80;8,175.42,227.80,29.16,8.80;8,232.75,215.80,22.50,8.80;8,229.42,227.80,29.16,8.80;8,286.75,215.80,22.50,8.80;8,283.42,227.80,29.16,8.80;8,345.75,215.80,12.50,8.80;8,337.42,227.80,29.16,8.80;8,394.75,215.80,22.50,8.80;8,393.92,227.80,24.16,8.80;8,451.25,215.80,17.50,8.80;8,445.42,227.80,29.16,8.80;8,505.25,215.80,17.50,8.80;8,499.42,227.80,29.16,8.80;8,559.25,215.80,22.50,8.80;8,555.92,227.80,29.16,8.80;8,57.00,251.55,31.68,8.87;8,127.25,251.62,17.50,8.80;8,123.92,263.62,24.16,8.80;8,183.75,251.62,12.50,8.80;8,177.92,263.62,24.16,8.80;8,235.25,251.62,17.50,8.80;8,231.92,263.62,24.16,8.80;8,289.25,251.62,17.50,8.80;8,288.42,263.62,19.16,8.80;8,343.25,251.62,17.50,8.80;8,342.42,263.62,19.16,8.80;8,397.25,251.62,17.50,8.80;8,393.92,263.62,24.16,8.80;8,451.25,251.62,17.50,8.80;8,447.92,263.62,24.16,8.80;8,505.25,251.62,17.50,8.80;8,501.92,263.62,24.16,8.80;8,561.75,251.62,17.50,8.80;8,558.42,263.62,24.16,8.80;8,57.00,287.37,42.78,8.87;8,124.75,287.44,22.50,8.80;8,121.42,299.44,29.16,8.80;8,178.75,287.44,22.50,8.80;8,175.42,299.44,29.16,8.80;8,232.75,287.44,22.50,8.80;8,229.42,299.44,29.16,8.80;8,289.25,287.44,17.50,8.80;8,283.42,299.44,29.16,8.80;8,340.75,287.44,22.50,8.80;8,337.42,299.44,29.16,8.80;8,394.75,287.44,22.50,8.80;8,391.42,299.44,29.16,8.80;8,448.75,287.44,22.50,8.80;8,445.42,299.44,29.16,8.80;8,502.75,287.44,22.50,8.80;8,499.42,299.44,29.16,8.80;8,559.25,287.44,22.50,8.80;8,555.92,299.44,29.16,8.80;8,57.00,323.19,28.34,8.87;8,127.25,323.26,17.50,8.80;8,123.92,335.26,24.16,8.80;8,183.75,323.26,12.50,8.80;8,177.92,335.26,24.16,8.80;8,235.25,323.26,17.50,8.80;8,231.92,335.26,24.16,8.80;8,289.25,323.26,17.50,8.80;8,288.42,335.26,19.16,8.80;8,343.25,323.26,17.50,8.80;8,339.92,335.26,24.16,8.80;8,397.25,323.26,17.50,8.80;8,393.92,335.26,24.16,8.80;8,451.25,323.26,17.50,8.80;8,447.92,335.26,24.16,8.80;8,505.25,323.26,17.50,8.80;8,501.92,335.26,24.16,8.80;8,561.75,323.26,17.50,8.80;8,558.42,335.26,24.16,8.80;8,57.00,359.01,35.32,8.87;8,122.25,359.08,27.50,8.80;8,118.92,371.08,34.16,8.80;8,178.75,359.08,22.50,8.80;8,175.42,371.08,29.16,8.80;8,230.25,359.08,27.50,8.80;8,226.92,371.08,34.16,8.80;8,284.25,359.08,27.50,8.80;8,280.92,371.08,34.16,8.80;8,340.75,359.08,22.50,8.80;8,337.42,371.08,29.16,8.80;8,392.25,359.08,27.50,8.80;8,388.92,371.08,34.16,8.80;8,446.25,359.08,27.50,8.80;8,442.92,371.08,34.16,8.80;8,502.75,359.08,22.50,8.80;8,499.42,371.08,29.16,8.80;8,556.75,359.08,27.50,8.80;8,553.42,371.08,34.16,8.80;9,298.42,64.20,54.16,8.80;9,124.54,82.20,401.92,8.80;9,237.65,96.19,175.69,6.16;9,140.65,119.77,75.69,8.05;9,305.90,119.77,79.19,8.05;9,474.90,119.77,79.19,8.05;9,97.85,141.71,494.42,6.65;9,57.00,162.74,29.21,7.98;9,106.25,162.80,4.50,7.92;9,273.25,162.80,4.50,7.92;9,440.25,162.80,4.50,7.92">TABLEAU 1 statIstIques descRIptIves des échantIllons d'entRepRIses belges à un, tRoIs et cInq années avant la faIllIte 1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite Global Faillites Saines Global Faillites Saines Global Faillites Saines Variable Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne EBIT_TA 7,46 (11,46) -2,44 (14,54) 7,76 (11,22) 7,6 (11,33) 2,1 (10,49) 7,8 (11,31) 7,72 (11,22) 0,54 (9,42) 7,76 (11,22) Res_TA 20,52 (26,15) -0,84 (26,75) 21,18 (25,86) 20,56 (25,97) 5,5 (23,11) 21,11 (25,9) 21,1 (25,83) 6,29 (14,14) 21,18 (25,86) Curr_R 1,76 (1,89) 1,2 (0,94) 1,78 (1,91) 1,77 (1,9) 1,23 (0,5) 1,79 (1,93) 1,78 (1,91) 1,38 (0,77) 1,78 (1,91) Dettes_TA 64,12 (22,59) 81,53 (16,69) 63,58 (22,54) 64,2 (22,62) 78,53 (15,29) 63,68 (22,67) 63,66 (22,54) 77,94 (17,25) 63,58 (22,54) LogTA 4,42 (0,57) 3,8 (0,52) 4,44 (0,56) 4,41 (0,6) 3,38 (0,59) 4,45 (0,57) 4,44 (0,56) 4,01 (0,47) 4,44 (0,56) VA_Pers 119,88 (111,07) 63,33 (64,49) 121,62 (111,74) 119,86 (110,89) 76,74 (96,72) 121,44 (111,07) 121,29 (111,56) 60,56 (31,63) 121,62 (111,74) TABLEAU 2 tableau des coRRélatIons entRe vaRIables explIcatIves pouR les échantIllons d'entRepRIses belges à un, tRoIs et cInq années avant la faIllIte 1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite EBIT_TA Res_TA Curr_R Dettes_TA LogTA VA_Pers EBIT_TA Res_TA Curr_R Dettes_TA LogTA VA_Pers EBIT_TA Res_TA Curr_R Dettes_TA LogTA VA_Pers EBIT_TA 1 1 1</s></p><p xml:id="_zQfWgpW"><s xml:id="_yGgm97w" coords="9,57.00,184.78,23.21,7.98;9,100.63,184.84,15.75,7.92;9,133.25,184.84,4.50,7.92;9,267.63,184.84,15.75,7.92;9,300.25,184.84,4.50,7.92;9,434.63,184.84,15.75,7.92;9,467.25,184.84,4.50,7.92;9,57.00,206.82,22.81,7.98;9,100.63,206.88,42.75,7.92;9,160.25,206.88,4.50,7.92;9,267.63,206.88,42.75,7.92;9,327.25,206.88,4.50,7.92;9,434.63,206.88,42.75,7.92;9,494.25,206.88,4.50,7.92;9,57.00,228.85,114.87,7.98;9,189.75,228.92,4.50,7.92;9,266.13,228.92,72.75,7.92;9,356.75,228.92,4.50,7.92;9,433.13,228.92,72.75,7.92;9,523.75,228.92,4.50,7.92;9,57.00,250.89,20.41,7.98;9,99.13,250.95,100.00,7.92;9,218.75,250.95,4.50,7.92;9,266.13,250.95,100.00,7.92;9,385.75,250.95,4.50,7.92;9,433.13,250.95,102.25,7.92;9,552.75,250.95,4.50,7.92;9,57.00,272.93,25.43,7.98;9,100.63,272.99,128.25,7.92;9,245.75,272.99,4.50,7.92;9,266.13,272.99,45.75,7.92;9,327.25,272.99,4.50,7.92;9,356.75,272.99,4.50,7.92;9,380.13,272.99,15.75,7.92;9,412.75,272.99,4.50,7.92;9,434.63,272.99,128.25,7.92;9,580.75,272.99,4.50,7.92;10,63.00,428.21,324.00,8.80;10,63.00,440.21,324.03,8.80;10,63.00,452.21,38.26,8.80">Res_TA 0,37 1 0,37 1 0,36 1 Curr_R 0,14 0,41 1 0,14 0,41 1 0,14 0,41 1 Dettes_TA -0,18 -0,62 -0,55 1 -0,18 -0,62 -0,55 1 -0,17 -0,62 -0,55 1 LogTA -0,07 -0,05 0,03 -0,1 1 -0,07 -0,04 0,05 -0,1 1 -0,11 -0,08 0,03 -0,09 1 VA_Pers 0,25 0,07 0,05 -0,04 0,26 1 -0,01 -0,01 0 0 0,13 1 0,25 0,06 0,05 -0,03 0,25 1 ratios de rentabilité (EBIT_TA et Res_TA), ils ne sont, en effet, pas significatifs, cinq années avant la faillite mais le deviennent à partir de trois années précédant la faillite.</s><s xml:id="_yhFMvV5" coords="10,103.79,452.21,235.45,8.80">Un constat similaire peut être fait pour le ratio de liquidité.</s><s xml:id="_KNu2YjT" coords="10,341.77,452.21,45.27,8.80;10,63.00,464.21,324.01,8.80;10,63.00,476.21,151.76,8.80">Cependant, la taille des entreprises semble exercer une influence fortement significative quel que soit l'horizon temporel considéré.</s><s xml:id="_fb8arp9" coords="10,217.22,476.21,169.80,8.80;10,63.00,488.21,324.00,8.80;10,63.00,500.21,324.00,8.80;10,63.00,512.21,132.34,8.80">Nos hypothèses de travail sont donc toutes vérifiées au seuil de 5 % pour le modèle à 1 an (excepté pour l'hypothèse 3 concernant la solvabilité; cette dernière n'ayant pu être testée par crainte d'intégrer de la multicolinéarité dans le modèle).</s><s xml:id="_8MdZSMz" coords="10,198.07,512.21,188.91,8.80;10,63.00,524.21,324.04,8.80;10,63.00,536.21,323.99,8.80;10,63.00,548.21,323.97,8.80;10,63.00,560.21,265.55,8.80">Pour le modèle à trois ans, l'hypothèse relative à la rentabilité (H1) est partiellement (le ratio de valeur ajoutée n'apparaissant pas comme étant significatif) vérifiée au seuil de 5 %; l'hypothèse relative à la liquidité (H2) n'est vérifiée qu'au seuil de 10 %; l'hypothèse 3 relative à la solvabilité n'a pas pu être testée pour la même raison que pour le modèle à un an.</s><s xml:id="_m2YvkDf" coords="10,331.00,560.21,56.01,8.80;10,63.00,572.21,231.55,8.80">Enfin, l'hypothèse relative à la taille (H4) est vérifiée au seuil de 1 %.</s></p><p xml:id="_QgBcnzR"><s xml:id="_TuJfmF2" coords="10,297.55,572.21,89.27,8.80;10,63.00,584.21,229.99,8.80">Pour le modèle à cinq ans, seule l'hypothèse relative à la taille (H4) est vérifiée.</s><s xml:id="_EwWyKR6" coords="10,295.02,584.21,91.98,8.80;10,63.00,596.21,324.25,8.80;10,63.00,608.21,93.25,8.80">Afin de réaliser un réel travail de prévision, nos échantillons initiaux ont, pour chacun des modèles, été divisés en deux parties.</s><s xml:id="_3JKQG2U" coords="10,158.81,608.21,228.20,8.80;10,63.00,620.21,323.78,8.80;10,197.92,91.20,54.16,8.80;10,94.99,109.20,260.01,8.80;10,63.00,177.70,36.30,8.94;10,160.45,133.88,44.10,8.94;10,163.75,145.88,37.50,8.94;10,241.50,133.88,47.99,8.94;10,246.75,145.88,37.50,8.94;10,326.00,133.88,47.99,8.94;10,331.25,145.88,37.50,8.94;10,155.78,177.70,19.44,8.94;10,195.06,165.70,23.88,8.94;10,197.84,177.70,18.33,8.94;10,238.78,177.70,19.44,8.94;10,278.06,165.70,23.88,8.94;10,280.84,177.70,18.33,8.94;10,320.78,177.70,19.44,8.94;10,360.56,165.70,23.88,8.94;10,363.34,177.70,18.33,8.94;10,63.00,197.76,37.28,8.70;10,152.59,197.66,25.83,8.80;10,198.25,197.66,17.50,8.80;10,233.09,197.66,30.83,8.80;10,281.25,197.66,17.50,8.80;10,321.75,197.66,17.50,8.80;10,363.75,197.66,17.50,8.80;10,63.00,214.59,30.61,8.70;10,147.59,214.49,68.16,8.80;10,235.59,214.49,25.83,8.80;10,281.25,214.49,17.50,8.80;10,321.75,214.49,17.50,8.80;10,363.75,214.49,17.50,8.80;10,63.00,230.42,55.60,8.70;10,152.59,230.32,25.83,8.80;10,198.25,230.32,17.50,8.80;10,235.59,230.32,25.83,8.80;10,281.25,230.32,17.50,8.80;10,321.75,230.32,17.50,8.80;10,363.75,230.32,17.50,8.80;10,63.00,246.25,26.63,8.70;10,147.59,246.15,151.17,8.80;10,314.25,246.15,32.50,8.80;10,363.75,246.15,17.50,8.80;10,63.00,262.08,33.74,8.70;10,147.59,261.98,68.16,8.80;10,238.09,261.98,20.83,8.80;10,281.25,261.98,17.50,8.80;10,314.25,261.98,32.50,8.80;10,363.75,261.98,17.50,8.80;10,63.00,277.91,23.33,8.70;10,146.75,277.81,201.66,8.80;10,363.75,277.81,17.50,8.80;10,63.00,298.50,43.80,8.94;10,161.25,298.64,42.50,8.80;10,244.25,298.64,42.50,8.80;10,331.25,298.64,37.50,8.80;10,63.00,318.32,36.03,8.94;10,63.00,330.32,53.34,8.94;10,172.50,318.46,20.00,8.80;10,255.50,318.46,20.00,8.80;10,340.00,318.46,20.00,8.80;10,63.00,350.14,62.50,8.94;10,63.00,362.14,74.00,8.94;10,167.09,350.28,30.83,8.80;10,250.09,350.28,30.83,8.80;10,337.09,350.28,25.83,8.80;10,63.00,383.85,301.28,7.04;10,63.00,392.85,51.12,7.04">La première partie, comprenant 75 % des observations et constituant l'échantillon d'apprentissage, a permis l'élaboration des modèles repris TABLEAU 3 modèles de pRévIsIon logIt à un, tRoIs et cInq avant la faIllIte Variable 1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite Bêta Écart type Bêta Écart type Bêta Écart type EBIT_TA -0,02* 0,01 -0,04** 0,01 0,02 0,02 Res_TA -0,02*** 0,01 -0,01* 0,01 0,01 0,01 Current_ratio -0,54* 0,25 -0,44 † 0,27 0,08 0,24 LogTA -3,59*** 0,34 -5,96*** 0,44 2,46*** 0,60 VA_pers -0,02*** 0,01 -0,01 0,00 0,02*** 0,01 _cons 13,47*** 1,38 21,30*** 1,68 -7,24*** 2,46 Test Chi-2 359,78*** 605,19*** 70,70*** Taille de l'échantillon 3905 3927 3809 Log maximum de vraisemblance -335,29 -264,90 -78,99 note : † Partiellement significatif à P &lt; 0.10; *, **, *** Significatif à P &lt; 0,05, 0,01 et 0,001, respectivement.</s><s xml:id="_zNXMfQn" coords="11,63.00,91.20,34.26,8.80">ci-avant.</s><s xml:id="_rfBxfjt" coords="11,99.49,91.20,287.52,8.80;11,63.00,103.20,286.05,8.80">Le reste des observations représente l'échantillon de contrôle permettant de tester le modèle obtenu sur la base de l'échantillon d'apprentissage.</s><s xml:id="_GD7zH5F" coords="11,351.91,103.20,35.08,8.80;11,63.00,115.20,324.24,8.80;11,63.00,127.20,210.91,8.80">Les tests réalisés sur ces échantillons de contrôle rapportent des résultats concluants puisque les taux de bons classements sont supérieurs à 90 %.</s><s xml:id="_YAaQCPS" coords="11,276.52,127.20,110.49,8.80;11,63.00,139.20,324.04,8.80;11,63.00,151.20,85.27,8.80">Ces résultats élevés doivent cependant être relativisés au vu du nombre très important s'entreprises saines au sein des échantillons.</s></p><p xml:id="_BnXvP7K"><s xml:id="_2qUU3UK" coords="11,78.00,169.20,308.94,8.80;11,63.00,181.20,57.87,8.80">En conclusion, suite à la construction de ces modèles, les hypothèses de départ ont été testées.</s><s xml:id="_g8Cp5q5" coords="11,123.00,181.20,264.00,8.80;11,63.00,193.20,213.15,8.80">À un et à trois ans avant la faillite, la probabilité de défaut s'accroît lorsque la rentabilité, la liquidité et la taille sont faibles.</s><s xml:id="_eJBCBay" coords="11,278.14,193.20,108.96,8.80;11,63.00,205.20,324.00,8.80;11,63.00,217.20,299.43,8.80">Cinq années avant la faillite, ces symptômes n'apparaissent pas encore comme significatifs; la taille présente, quant à elle, un effet significatif pour les trois horizons temporels analysés.</s><s xml:id="_DUAHFM8" coords="11,63.00,247.20,47.11,8.80;11,78.00,265.20,308.88,8.80;11,63.00,277.20,323.95,8.80;11,63.00,289.20,118.71,8.80">conclusIon La prédiction de la détresse financière est un sujet qui intéresse bon nombre d'acteurs : tant les prêteurs de fonds et investisseurs que les managers et actionnaires veulent éviter la banqueroute.</s></p><p xml:id="_6WdaXVM"><s xml:id="_UqAeRV4" coords="11,78.00,307.20,309.00,8.80;11,63.00,319.20,66.07,8.80">Cet article s'est focalisé sur les symptômes d'un aspect particulier de la défaillance, la faillite.</s><s xml:id="_eZtGRbh" coords="11,132.13,319.20,254.87,8.80;11,63.00,331.20,21.38,8.80">Nous utilisons l'approche financière basée sur les ratios financiers.</s><s xml:id="_3AqTaWf" coords="11,87.11,331.20,271.63,8.80">Les pionniers de la littérature sont Beaver (1966) et <ref type="bibr" coords="11,296.86,331.20,57.72,8.80" target="#b0">Altman (1968)</ref>.</s><s xml:id="_xzXGR3U" coords="11,361.48,331.20,25.51,8.80;11,63.00,343.20,323.94,8.80">Ils ont développé la méthode d'analyse discriminante linéaire afin de prédire la faillite.</s><s xml:id="_uEhemP7" coords="11,63.00,355.20,324.06,8.80;11,63.00,367.20,65.39,8.80">D'autres auteurs sont venus contribuer à ces recherches tels que <ref type="bibr" coords="11,310.91,355.20,56.50,8.80" target="#b24">Ohlson (1980)</ref> avec le modèle Logit.</s><s xml:id="_8EnqnZF" coords="11,130.67,367.20,256.30,8.80;11,63.00,379.20,324.00,8.80;11,63.00,391.20,324.26,8.80;11,63.00,403.20,99.12,8.80">Concernant le cas de la Belgique, on discerne principalement les études menées par <ref type="bibr" coords="11,138.18,379.20,102.45,8.80" target="#b25">Ooghe et Verbaere (1982)</ref> et par <ref type="bibr" coords="11,267.49,379.20,77.71,8.80" target="#b26">Ooghe et al. (2005)</ref> dont leurs modèles -analyse discriminante et régression logistique respectivement -sont les précurseurs en Belgique.</s><s xml:id="_FnrZVq5" coords="11,164.61,403.20,222.42,8.80;11,63.00,415.20,324.02,8.80;11,63.00,427.20,291.63,8.80">La plupart des modèles de prévision de faillite existants ayant été réalisés sur des entreprises originaires des États-Unis, cet article a permis de contribuer à la littérature belge, relativement peu fournie en cette matière.</s><s xml:id="_Qag2Mgj" coords="11,356.58,427.20,30.65,8.80;11,63.00,439.20,324.00,8.80;11,63.00,451.20,324.24,8.80;11,197.92,487.60,54.16,8.80;11,80.21,505.60,289.57,8.80;11,152.21,519.59,145.58,6.16;11,197.95,542.28,44.10,8.94;11,201.25,554.28,37.50,8.94;11,264.00,542.28,47.99,8.94;11,269.25,554.28,37.50,8.94;11,333.50,542.28,47.99,8.94;11,338.75,554.28,37.50,8.94;11,63.00,574.24,116.54,8.80;11,215.00,574.24,10.00,8.80;11,283.00,574.24,10.00,8.80;11,355.00,574.24,5.00,8.80;11,63.00,594.06,113.86,8.80;11,210.00,594.06,20.00,8.80;11,278.00,594.06,20.00,8.80;11,347.50,594.06,20.00,8.80;11,63.00,613.88,103.35,8.80;11,203.34,613.88,33.33,8.80;11,271.34,613.88,33.33,8.80;11,340.84,613.88,33.33,8.80;12,63.00,91.20,22.50,8.80">Inspirés des travaux d <ref type="bibr" coords="11,116.82,439.20,60.88,8.80" target="#b24">'Ohlson (1980)</ref>, nous avons élaboré différents modèles logistiques afin de prédire la faillite des entreprises belges sur une période allant de 2002 à TABLEAU 4 analyse suR l'échantIllon de contRôle des modèles de pRévIsIon logIt à un, tRoIs et cInq avant la faIllIte 1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite Nombre d'entreprises faillies 41 56 9 Nombre d'entreprises saines 1261 1254 1262 Taux de bons classements 96,85 % 97,63 % 99,29 % 2010.</s><s xml:id="_ZApaWvW" coords="12,88.15,91.20,298.82,8.80;12,63.00,103.38,324.13,8.80;12,63.00,115.55,100.16,8.80">Une revue de la littérature nous a premièrement permis de formuler quatre hypothèses de travail concernant la rentabilité, la liquidité, la solvabilité ainsi que l'âge de l'entreprise.</s><s xml:id="_dZx2yDE" coords="12,165.36,115.55,221.64,8.80;12,63.00,127.73,324.01,8.80;12,63.00,139.90,324.01,8.80;12,63.00,152.08,324.03,8.80;12,63.00,164.25,323.95,8.80;12,63.00,176.43,251.47,8.80">Afin de tester ces hypothèses de travail, nous avons, en référence à la littérature et grâce au travail de synthèse de Akers et al. (2007) et de l'état de l'art belge (Ooghe et al., 2005; Ooghe et Verbaere, 1982), sélectionné les six ratios suivants : « résultat net avant impôts et charges financières (EBIT)/actif total », « résultat reporté et réserves/actif total », current ratio, « dettes totales/actif total », log(actif total) et « valeur ajoutée/personne employée ».</s><s xml:id="_wrfqPXq" coords="12,316.71,176.43,70.28,8.80;12,63.00,188.60,324.01,8.80;12,63.00,200.78,324.26,8.80;12,63.00,212.95,26.94,8.80">Deuxièmement, à l'aide de la base de données Bureau Van Dijk, nous avons construit un échantillon composé, d'une part, d'entreprises tombées en faillite et, d'autre part, d'entreprises saines.</s><s xml:id="_ZmGTckJ" coords="12,92.59,212.95,294.41,8.80;12,63.00,225.13,323.75,8.80;12,63.00,237.30,61.72,8.80">Nous avons ensuite analysé ces données sur base des statistiques descriptives et des modèles logistiques de prédiction des faillites à un, trois et cinq ans avant la faillite.</s><s xml:id="_dCRJNuc" coords="12,127.12,237.30,259.89,8.80;12,63.00,249.48,323.85,8.80;12,63.00,261.65,289.66,8.80">Les statistiques descriptives rapportent que, les entreprises saines affichent de meilleurs ratios de rentabilité et d'efficience, davantage de liquidité et de solvabilité ainsi qu'une taille supérieure à leurs homologues faillies.</s><s xml:id="_3Na4h4X" coords="12,354.78,261.65,32.47,8.80;12,63.00,273.83,323.98,8.80;12,63.00,286.00,323.70,8.80;12,63.00,298.18,88.69,8.80">Ensuite, si l'on peut conclure en une relative stabilité des indicateurs pour les entreprises saines, on notera globalement une dégradation des différents ratios étudiés pour les entreprises faillies.</s><s xml:id="_CzNHGuM" coords="12,154.00,298.18,233.02,8.80;12,63.00,310.35,324.00,8.80">L'approche économétrique s'est opérée à l'aide du logiciel STATA afin de construire les trois modèles Logit appliqués au cas de la Belgique.</s></p><p xml:id="_h3fggjk"><s xml:id="_dcBKp7f" coords="12,63.00,322.53,324.00,8.80;12,63.00,334.70,83.99,8.80">En raison de risques de multicolinéarité, les modèles n'incorporent pas la variable « dettes/actif total ».</s><s xml:id="_PjAbmj8" coords="12,150.03,334.70,237.08,8.80;12,63.00,346.88,282.25,8.80">Suite à la construction de ces modèles logistiques, il a été possible de tester les hypothèses de départ et de noter certains constats.</s><s xml:id="_43AjBSq" coords="12,347.56,346.88,39.44,8.80;12,63.00,359.05,323.96,8.80;12,63.00,371.23,121.80,8.80">Premièrement, la taille des entreprises offre un pouvoir dichotomique très significatif pour les trois modèles de prévision.</s><s xml:id="_AfrzWjy" coords="12,187.40,371.23,199.60,8.80;12,63.00,383.40,324.00,8.80;12,63.00,395.58,324.00,8.80;12,63.00,407.75,296.55,8.80">Deuxièmement, si, cinq années avant la faillite, la rentabilité ainsi que la liquidité ne semble pas constituer des symptômes déterminants; à trois et un an, elles deviennent des éléments significatifs de discrimination entre les entreprises qui tomberont en faillite et leurs homologues saines.</s><s xml:id="_NEyEYrY" coords="12,362.55,407.75,24.19,8.80;12,63.00,419.93,324.00,8.80;12,63.00,432.10,170.41,8.80">Enfin, les variables relatives à la rentabilité apparaissent de plus en plus significatives à mesure que l'on se rapproche de la faillite.</s></p><p xml:id="_zVmWyda"><s xml:id="_dDvf52v" coords="12,78.00,450.28,308.86,8.80;12,63.00,462.45,71.59,8.80">Différentes pistes de réflexion peuvent être émises afin de poursuivre la recherche dans ce domaine.</s><s xml:id="_gyEKj9U" coords="12,137.70,462.45,249.24,8.80;12,63.00,474.63,324.20,8.80;12,63.00,486.80,219.22,8.80">Premièrement, il conviendrait de bâtir de nouveaux modèles couvrant une période de temps plus importante ainsi qu'une zone géographique accrue afin d'obtenir des conclusions plus générales.</s><s xml:id="_d2tftyk" coords="12,285.36,486.80,101.46,8.80;12,63.00,498.98,324.00,8.80;12,63.00,511.15,324.01,8.80;12,63.00,523.33,45.87,8.80">Deuxièmement, d'autres méthodes, notamment celles faisant référence à l'intelligence artificielle, pourraient être testées afin de confronter les résultats avec ceux issus des régressions logistiques.</s><s xml:id="_d6vzhCg" coords="12,111.87,523.33,274.96,8.80;12,63.00,535.50,324.03,8.80">Enfin, bien que les modèles de prédiction permettent d'appréhender la faillite suffisamment tôt, ceux-ci ne garantissent pas une dichotomie sans faille.</s><s xml:id="_vJ9gYZR" coords="12,63.00,547.68,323.99,8.80;12,63.00,559.85,240.11,8.80">Souvent, une analyse complémentaire au cas par cas de la situation de l'entreprise semble nécessaire afin de pressentir le risque de défaillance.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="12,186.67,590.03,76.66,8.80;12,63.00,608.20,323.96,8.80;12,72.00,620.38,315.00,8.80"><figDesc><div><p xml:id="_9g6ZW6A"><s xml:id="_U8DEAQk" coords="12,186.67,590.03,76.66,8.80;12,63.00,608.20,323.96,8.80;12,72.00,620.38,315.00,8.80">BIBLIOGRAPHIE AkeRs, M., J. BellovaRy et D. GIacomIno (2007), « A Review of Bankruptcy Prediction Studies: 1930 to Present », Journal of Financial Education, 33(5) : 1-42.</s></p></div></figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="13,63.00,91.20,324.04,8.80;13,72.00,103.55,258.56,8.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_D5tA4g3">FINANCIAL RATIOS, DISCRIMINANT ANALYSIS AND THE PREDICTION OF CORPORATE BANKRUPTCY</title>
+		<author>
+			<persName coords=""><forename type="first">Edward</forename><forename type="middle">I</forename><surname>Altman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1540-6261.1968.tb00843.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fnmXM6Q">The Journal of Finance</title>
+		<title level="j" type="abbrev">The Journal of Finance</title>
+		<idno type="ISSN">0022-1082</idno>
+		<idno type="ISSNe">1540-6261</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="589" to="609" />
+			<date type="published" when="1968-09">1968</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altman, E. I. (1968), « Financial Ratios, Discriminants Analysis and the Prediction of Corporate Bankruptcy », Journal of Finance, 23(4) : 589-609.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,118.41,324.14,8.80;13,72.00,130.76,315.00,8.80;13,72.00,143.12,65.27,8.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_M9qM438">Introducing Recursive Partitioning for Financial Classification: The Case of Financial Distress</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Frydman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">L</forename><surname>Kao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hmw9emA">Journal of Finance</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="269" to="291" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altman, E., H. FRydman et D. L. Kao (1985), « Introducing Recursive Partitioning for Financial Classification: The Case of Financial Distress », Journal of Finance, 40(1) : 269-291.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,157.97,323.98,8.80;13,72.00,170.33,315.00,8.80;13,72.00,182.68,288.42,8.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_AH4Ast6">Corporate distress diagnosis: Comparisons using linear discriminant analysis and neural networks (the Italian experience)</title>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">I</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giancarlo</forename><surname>Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franco</forename><surname>Varetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0378-4266(94)90007-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HnMKDnt">Journal of Banking &amp; Finance</title>
+		<title level="j" type="abbrev">Journal of Banking &amp; Finance</title>
+		<idno type="ISSN">0378-4266</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="505" to="529" />
+			<date type="published" when="1994-05">1994</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altman, E.I., G. MaRco et F. VaRetto (1994), « Corporate Distress Diagnosis: Comparisons Using Linear Discrimination Analysis and Neural Networks (the Italian Experience) », Journal of Banking and Finance, 18(3) : 505-529.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,197.54,323.75,8.80;13,72.00,209.89,315.02,8.80;13,72.00,222.25,218.12,8.80;13,63.00,237.10,323.98,8.80;13,72.00,249.45,315.02,8.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_bsXmT3t">Explaining Distress-Related Firm Exit: Analysis of Exit Path</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Balcaen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_8YmSVgp">Department of Accountancy and Corporate Finance, Faculty of Economics and Business Administration</title>
+		<imprint>
+			<date type="published" when="1966">2009. 1966</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="71" to="111" />
+		</imprint>
+		<respStmt>
+			<orgName>Ghent University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Financial Ratios as Predictors of Failure Supplement to Journal of Accounting Research</note>
+	<note type="raw_reference">Balcaen, S. (2009), « Explaining Distress-Related Firm Exit: Analysis of Exit Path », Department of Accountancy and Corporate Finance, Faculty of Economics and Business Administration, Ghent University, 215 p. BeaveR, W. (1966), « Financial Ratios as Predictors of Failure », Journal of Accounting Research, 4, Supplement to Journal of Accounting Research : 71-111.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,264.31,324.00,8.80;13,72.00,276.66,314.94,8.80;13,72.00,289.02,100.71,8.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_kUdNSMv">Neural and Wavelet Network Models for Financial Distress Classification</title>
+		<author>
+			<persName><forename type="first">Victor</forename><forename type="middle">M</forename><surname>Becerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">K H</forename><surname>Galvão</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magda</forename><surname>Abou-Seada</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10618-005-1360-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WQ99scb">Data Mining and Knowledge Discovery</title>
+		<title level="j" type="abbrev">Data Min Knowl Disc</title>
+		<idno type="ISSN">1384-5810</idno>
+		<idno type="ISSNe">1573-756X</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="55" />
+			<date type="published" when="2005-07">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BeceRRa, V., R. Galvao et M. Abou-Seada (2005), « Neural and Wavelet Network Models for Financial Distress Classification » Data Mining and Knowledge Discovery, 11(1) : 35-55.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,303.87,324.08,8.80;13,72.00,316.23,315.03,8.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_Mpshp3E">The Prediction of Bankruptcy of Small and Medium Sized Industrials Firms</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Bilderbeek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Pompe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZynE2Yc">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="847" to="868" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BIldeRbeek, J. et P.M. Pompe (2005): « The Prediction of Bankruptcy of Small and Medium Sized Industrials Firms », Journal of Business Venturing, 20(6) : 847-868.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,331.08,323.96,8.80;13,72.00,343.44,314.98,8.80;13,72.00,355.79,177.04,8.80" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_N2xYjBy">Kernel and Nearest Neighbour Discriminant Analysis: Business Failure Classification in Industrial District</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Calia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Ganucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_d2hCTBj">Applied Stochastic Models and Data Analysis</title>
+		<meeting><address><addrLine>Colloque, Capri</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CalIa, P. et P. GanuccI (1997): « Kernel and Nearest Neighbour Discriminant Analysis: Business Failure Classification in Industrial District », Applied Stochastic Models and Data Analysis, Colloque, Capri.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,370.64,324.01,8.80;13,72.00,383.00,315.00,8.80;13,72.00,395.35,138.32,8.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_gyre5ZF">Dynamics of Modeling in Data Mining: Interpretative Approach to Bankruptcy Prediction</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">K</forename><surname>Sung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8V2cAbt">Journal of Management Information System</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="85" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chang, N., G. Lee et T. K. Sung (1999), « Dynamics of Modeling in Data Mining: Interpretative Approach to Bankruptcy Prediction », Journal of Management Information System, 18(1) : 63-85.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,410.21,324.02,8.80;13,72.00,422.56,138.85,8.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_hg7UgEn">Bankruptcy Prediction with Industry Effects</title>
+		<author>
+			<persName><forename type="first">Sudheer</forename><surname>Chava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">A</forename><surname>Jarrow</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10679-004-6279-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZTbTFfc">European Finance Review</title>
+		<title level="j" type="abbrev">European Finance Review</title>
+		<idno type="ISSN">1572-3097</idno>
+		<idno type="ISSNe">1573-692X</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="537" to="569" />
+			<date type="published" when="2004">2004</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chava, S. et R. JaRRoW (2004), « Bankruptcy Prediction with Industry Effects », Review of Finance, 8(4) : 537-569.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,437.42,324.02,8.80;13,72.00,449.77,315.01,8.80" xml:id="b9">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Crutzen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Van Caillie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_yfkJQnQ">The Business Failure Process: An Integrative Model of the Literature</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="288" to="316" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CRutzen, N. et D. Van CaIllIe (2008), « The Business Failure Process: An Integrative Model of the Literature », Review of Business and Economics, 53(5) : 288-316.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,464.63,324.00,8.80;13,72.00,476.98,314.95,8.80;13,72.00,489.34,141.64,8.80" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_KpWhFCb">Business Failure Prediction: A Review and Analysis of the Literature</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Daubie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Meskens</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-57478-8_5</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HAH6mQ6">Contributions to Management Science</title>
+		<imprint>
+			<publisher>Physica-Verlag HD</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="71" to="86" />
+		</imprint>
+	</monogr>
+	<note>Statistics and Computer Science</note>
+	<note type="raw_reference">DaubIe, M. et N. Meskens (2001), « Bankruptcy Prediction: Literature Survey of the Last Ten Years », Belgian Journal of Operational Research, Statistics and Computer Science, 41(1-2) : 43-58.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,504.19,324.06,8.80;13,72.00,516.54,314.94,8.80;13,72.00,528.90,113.32,8.80" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_6ymxgGN">Flux financiers et prévision de faillite : une analyse comportementale de l&apos;entreprise</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Declerc</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Heins</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Van Wymeersch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dTNTxc3">Cahiers Économiques de Bruxelles</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="415" to="443" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DecleRc, M., B. HeIns et C. Van WymeeRsch (1991), « Flux financiers et prévision de faillite : une analyse comportementale de l&apos;entreprise », Cahiers Économiques de Bruxelles, 136 : 415-443.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,543.75,323.95,8.80;13,72.00,556.11,315.00,8.80;13,72.00,568.46,92.39,8.80;13,164.38,567.94,2.58,5.10;13,169.37,568.46,217.64,8.80;13,72.00,580.82,110.69,8.80" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_Ak85h9Y">La recherche en matière de faillite d&apos;entreprise : un état de sa situation et de ses perspectives d&apos;avenir</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Dighaye</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Van Caillie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_73Wu69f">Communication proposée à la XI e Conférence internationale de management stratégique</title>
+		<imprint>
+			<publisher>Paris -ESCP-EAP</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="2" to="28" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DIghaye, A. et D. Van CaIllIe (2002), « La recherche en matière de faillite d&apos;entreprise : un état de sa situation et de ses perspectives d&apos;avenir », Communi- cation proposée à la XI e Conférence internationale de management stratégique, Paris -ESCP-EAP, p. 2-28.</note>
+</biblStruct>
+
+<biblStruct coords="13,63.00,595.67,324.00,8.80;13,72.00,608.03,315.00,8.80;13,72.00,620.38,70.27,8.80" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_XS5557H">Business failure prediction using rough sets</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">I</forename><surname>Dimitras</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Slowinski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Susmaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zopounidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0377-2217(98)00255-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tcmJqHr">European Journal of Operational Research</title>
+		<title level="j" type="abbrev">European Journal of Operational Research</title>
+		<idno type="ISSN">0377-2217</idno>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="263" to="280" />
+			<date type="published" when="1999-04">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DImItRas, A.I., R. SloWInskI, R. Susmaga et C. ZapounIdIs (1999), « Business Failure Prediction Using Rough Sets », European Journal of Operational Research, 114(2) : 263-280.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,91.20,324.00,8.80;14,72.00,103.38,308.63,8.80" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_ms9fn2G">Multiperiod corporate default prediction—A forward intensity approach</title>
+		<author>
+			<persName><forename type="first">Jin-Chuan</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jie</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2012.05.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WBdNRDj">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="191" to="209" />
+			<date type="published" when="2012-09">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duan, J., J. Sun et T. Wang (2012), « Multiperiod Corporate Default Prediction: A Forward Intensity Approach », Journal of Econometrics, 170(1) : 191-209.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,117.55,323.93,8.80;14,72.00,129.73,315.00,8.80;14,72.00,141.90,75.27,8.80" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_nHJMjW6">An Empirical Test of Financial Ratio Analysis for Small Business Failure Prediction</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">O</forename><surname>Edminster</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2329929</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JHTc38H">The Journal of Financial and Quantitative Analysis</title>
+		<title level="j" type="abbrev">The Journal of Financial and Quantitative Analysis</title>
+		<idno type="ISSN">0022-1090</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">1477</biblScope>
+			<date type="published" when="1972-03">1972</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">EdmInsteR, R. O. (1972), « An Empirical Test of Financial Ratio Analysis for Small Business Failure Prediction», Journal of Financial and Quantitative Analysis, 7, (2) : 1477-1493.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,156.08,324.00,8.80;14,72.00,168.25,311.32,8.80" xml:id="b16">
+	<monogr>
+		<title level="m" type="main" xml:id="_z2EWPQ3">A Comparison of Ratios of Successful Industrial Enterprises with those of Failed Firms (I) », Certified Public Accountant</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">J</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1932">1932</date>
+			<biblScope unit="page" from="598" to="605" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">FItzpatRIck, P. J. (1932), « A Comparison of Ratios of Successful Industrial Enter- prises with those of Failed Firms (I) », Certified Public Accountant : 598-605.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,182.43,324.04,8.80;14,72.00,194.60,314.98,8.80;14,72.00,206.78,151.08,8.80" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_rjA9HqG">Retablissement de la religion en France, ou Recueil de pieces authentiques et interessantes, sur l&apos;organisation des differens Cultes, contenant les discours du Conseiller d&apos;Etat Portalis, des cit. Simeon et Lucien Bonaparte, le Concordat avec le Pape, et les Lois organiques des Cultes catholique et protestant</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Gerard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Windey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Gregoire</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/2214-8264_dutchpamphlets-va0-va02063</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DqFQCNv">Les dossiers du journal des tribunaux</title>
+		<imprint>
+			<biblScope unit="page">221</biblScope>
+			<date type="published" when="1998">1998</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+			<pubPlace>Bruxelles</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GeRaRd, P., J. WIndey et M. GRegoIRe (1998), « Le concordat judiciaire et la faillite - Lois des 17 juillet et 8 août 1997 », Les dossiers du journal des tribunaux, Éditions De Boeck et Larcier, Bruxelles, 221p.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,220.95,323.91,8.80;14,72.00,233.13,273.83,8.80" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_TFeDzeD">Défaillances d&apos;entreprises : soixante-dix ans d&apos;analyses théoriques et empiriques</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Guilhot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DYwKxgj">Revue française de Gestion</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="52" to="67" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GuIlhot, B. (2000), « Défaillances d&apos;entreprises : soixante-dix ans d&apos;analyses théoriques et empiriques », Revue française de Gestion, 130 : 52-67.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,247.30,324.01,8.80;14,72.00,259.48,314.99,8.80;14,72.00,271.65,128.45,8.80" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_a5j6Nkv">The Determination of Long-Term Credit Standing with Financial Ratios</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">O</forename><surname>Horrigan</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2490168</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZhYhjHK">Journal of Accounting Research</title>
+		<title level="j" type="abbrev">Journal of Accounting Research</title>
+		<idno type="ISSN">0021-8456</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">44</biblScope>
+			<date type="published" when="1966">1966</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note>supplement to Journal of Accounting Research</note>
+	<note type="raw_reference">HoRRIgan, J. (1966), « The Determination of Long-Term Credit Standing with Financial Ratios », Empirical Research in Accounting , 4, supplement to Journal of Accounting Research : 44-62.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,285.83,324.06,8.80;14,72.00,298.00,315.02,8.80;14,72.00,310.18,205.46,8.80" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_grTUPfq">THE FAILURE OF UK INDUSTRIAL FIRMS FOR THE PERIOD 1976–1984, LOGISTIC ANALYSIS AND ENTROPY MEASURES</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Keasey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Mcguinness</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-5957.1990.tb00553.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_V8wURxc">Journal of Business Finance &amp; Accounting</title>
+		<title level="j" type="abbrev">Business Fin &amp; Account</title>
+		<idno type="ISSN">0306-686X</idno>
+		<idno type="ISSNe">1468-5957</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="135" />
+			<date type="published" when="1990-03">1990</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keasey, K. et P. McguInness (1990), « The Failure of UK Industrials Firms for the Period 1976-1984, Logistic Analysis and Entropy Measures », Journal of Business Finance and Accounting, 17(1) : 119-135.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,324.35,323.99,8.80;14,72.00,336.53,203.96,8.80" xml:id="b21">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Koenig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Qm2KSgm">Entreprises en difficultés: des symptômes aux remèdes</title>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<biblScope unit="page" from="84" to="92" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">KoenIg, G. (1985): « Entreprises en difficultés: des symptômes aux remèdes », Revue française de gestion, Janvier-février : 84-92.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,350.70,323.99,8.80;14,72.00,362.88,315.00,8.80;14,72.00,375.05,234.38,8.80" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_acm8E3q">Default Prediction Around the World: The Effect of Constraints on Pessimistic Trading</title>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">G</forename><surname>Maffett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">L</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anand</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2296992</idno>
+		<ptr target="http://ssrn.com/abstract=2296992" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BRkntng">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maffett, M., F. OWens et A. SrInIvasan (2013), « Default Prediction around the World: The Effect of Constraints on Pessimistic Trading », Simon School Work- ing, Available at SSRN: http://ssrn.com/abstract=2296992.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,389.23,324.04,8.80;14,72.00,401.40,315.02,8.80;14,72.00,413.58,79.99,8.80" xml:id="b23">
+	<monogr>
+		<title level="m" type="main" xml:id="_v7QCNkP">Early Warning Indicators of Corporate Failure</title>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><surname>Morris</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780429458507</idno>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Routledge</publisher>
+			<biblScope unit="page">421</biblScope>
+			<pubPlace>Great Britain</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MoRRIs, R. (1997), Early Warning Indicators of Corporate Failure: A Critical Review of Previous Research and Further Empirical Evidence, Ashgate Publishing Ltd, Great Britain, 421p.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,427.75,324.00,8.80;14,72.00,439.93,236.37,8.80" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_gSxSfb4">Financial Ratios and the Probabilistic Prediction of Bankruptcy</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">A</forename><surname>Ohlson</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2490395</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_eYZF7Xr">Journal of Accounting Research</title>
+		<title level="j" type="abbrev">Journal of Accounting Research</title>
+		<idno type="ISSN">0021-8456</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">109</biblScope>
+			<date type="published" when="1980">1980</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ohlson, J. (1980), « Financial Ratios and the Probabilistic Prediction of Bank- ruptcy », Journal of Accounting Research, 18(1) : 109-131.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,454.10,324.00,8.80;14,72.00,466.37,315.00,8.70;14,72.00,478.45,35.83,8.80" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_2XqCVKd">Vergelijking van het financieel profiel van gefaalde en niet-gefaalde ondernemingen</title>
+		<author>
+			<persName><forename type="first">Hubert</forename><surname>Ooghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lic.</forename><forename type="middle">Eric</forename><surname>Verbaere</surname></persName>
+		</author>
+		<idno type="DOI">10.5117/mab.58.16138</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aTKPBcC">Maandblad Voor Accountancy en Bedrijfseconomie</title>
+		<title level="j" type="abbrev">MAB</title>
+		<idno type="ISSN">0924-6304</idno>
+		<idno type="ISSNe">2543-1684</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="130" to="147" />
+			<date type="published" when="1982">1982</date>
+			<publisher>Amsterdam University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ooghe H. et E. VeRbaeRe (1982), « Determinante van Faling: Verklaring en Predictie », Accountancy -Bedrijfsfinanciering -Beleidsinformatie (Rijksuniversiteit Gent), p. 5-166.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,492.63,324.01,8.80;14,72.00,504.80,315.16,8.80;14,72.00,516.98,166.25,8.80" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_9VUkujB">A note on performance measures for business failure prediction models</title>
+		<author>
+			<persName><forename type="first">Hubert</forename><surname>Ooghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Spaenjers</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13504850701719769</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bbFPPYS">Applied Economics Letters</title>
+		<title level="j" type="abbrev">Applied Economics Letters</title>
+		<idno type="ISSN">1350-4851</idno>
+		<idno type="ISSNe">1466-4291</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="70" />
+			<date type="published" when="2005">2005</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Universiteit Gent</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Ooghe, H., C. SpaenjeRs et P. VandeRmoeRe (2005), « Business Failure Prediction: Simple-Intuitive Models Versus Statistical Models », Faculteit Economie en Bedrijfskunde, Universiteit Gent, p. 1-36.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,531.15,324.00,8.80;14,72.00,543.33,315.00,8.80;14,72.00,555.50,105.82,8.80" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_u3JTAJm">DEVELOPMENT OF A CLASS OF STABLE PREDICTIVE VARIABLES: THE CASE OF BANKRUPTCY PREDICTION</title>
+		<author>
+			<persName><forename type="first">Harlan</forename><forename type="middle">D</forename><surname>Platt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marjorie</forename><forename type="middle">B</forename><surname>Platt</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-5957.1990.tb00548.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rmfA5uH">Journal of Business Finance &amp; Accounting</title>
+		<title level="j" type="abbrev">Business Fin &amp; Account</title>
+		<idno type="ISSN">0306-686X</idno>
+		<idno type="ISSNe">1468-5957</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="51" />
+			<date type="published" when="1990-03">1990</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Platt, H. et M. Platt (1990), « Development of a Class of Stable Predictive Vari- ables: The Case of Bankruptcy Prediction », Journal of Business Finance and Accounting, 17(1) : 31-51.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,569.68,324.03,8.80;14,72.00,581.85,314.99,8.80;14,72.00,594.03,35.83,8.80" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" xml:id="_zpwtxac">La prévision de la faillite fondée sur l&apos;analyse financière de l&apos;entreprise : un état des lieux</title>
+		<author>
+			<persName coords=""><forename type="first">Catherine</forename><surname>Refait-Alexandre</surname></persName>
+		</author>
+		<idno type="DOI">10.3917/ecop.162.0129</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gBUzGmx">Économie &amp; prévision</title>
+		<idno type="ISSN">0249-4744</idno>
+		<imprint>
+			<biblScope unit="volume">n o 162</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="129" to="147" />
+			<date type="published" when="2004-03-01">2004</date>
+			<publisher>CAIRN</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RefaIt-AlexandRe, C. (2004), « La prévision de la faillite fondée sur l&apos;analyse financière de l&apos;entreprise : un état des lieux », Economie et prévision, 1(162) : 129-147.</note>
+</biblStruct>
+
+<biblStruct coords="14,63.00,608.20,324.01,8.80;14,72.00,620.38,284.51,8.80" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_99gq6Vs">A Neural Network Based Clustering Procedure for Bankruptcy Prediction</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Murtaza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ETF3eDP">American Business Review</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="80" to="86" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shah, J. et M. MuRtaza (2000), « A Neural Network Based Clustering Procedure for Bankruptcy Prediction », American Business Review, 18(2) : 80-86.</note>
+</biblStruct>
+
+<biblStruct coords="15,63.00,91.20,323.85,8.80;15,72.00,103.20,145.47,8.80" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_gjhYTuM">Early Warning Indicators of Business Failure</title>
+		<author>
+			<persName><forename type="first">Subhash</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vijay</forename><surname>Mahajan</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/002224298004400412</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HHwABEM">Journal of Marketing</title>
+		<title level="j" type="abbrev">Journal of Marketing</title>
+		<idno type="ISSN">0022-2429</idno>
+		<idno type="ISSNe">1547-7185</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="80" to="89" />
+			<date type="published" when="1980-09">1980</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ShaRma, S. et V. Mahajan (1980), « Early Warning Indicators of Business Failure », Journal of Marketing, 44(4) : 80-89.</note>
+</biblStruct>
+
+<biblStruct coords="15,63.00,117.20,323.99,8.80;15,72.00,129.20,258.73,8.80" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" xml:id="_qgt9EfS">Genetic algorithms applications in the analysis of insolvency risk</title>
+		<author>
+			<persName coords=""><forename type="first">Franco</forename><surname>Varetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0378-4266(98)00059-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pCzDNbP">Journal of Banking &amp; Finance</title>
+		<title level="j" type="abbrev">Journal of Banking &amp; Finance</title>
+		<idno type="ISSN">0378-4266</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">10-11</biblScope>
+			<biblScope unit="page" from="1421" to="1439" />
+			<date type="published" when="1998-10">1998</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">VaRetto, F. (1998), « Genetic Algorithms Applications in the Analysis of Insolvency Risk », Journal of Banking and Finance, 22(10-11) : 1421-1439.</note>
+</biblStruct>
+
+<biblStruct coords="15,63.00,143.20,324.15,8.80;15,72.00,155.20,267.32,8.80" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_FeagF2s">Decline in Organizations: A Literature Integration and Extension</title>
+		<author>
+			<persName><forename type="first">William</forename><surname>Weitzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ellen</forename><surname>Jonsson</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2392987</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZkxkuMr">Administrative Science Quarterly</title>
+		<title level="j" type="abbrev">Administrative Science Quarterly</title>
+		<idno type="ISSN">0001-8392</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">91</biblScope>
+			<date type="published" when="1989-03">1989</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">WeItzel, W. et E. Jonsson (1989), « Decline in Organizations: A Literature Integration and Extension », Administrative Sciences Quarterly, 4(1) : 91-109.</note>
+</biblStruct>
+
+<biblStruct coords="15,63.00,169.20,324.00,8.80;15,72.00,181.20,315.00,8.80;15,72.00,193.20,56.94,8.80" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" xml:id="_bErawvY">Methodological Issues Related to the Estimation of Financial Distress Prediction Models</title>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><forename type="middle">E</forename><surname>Zmijewski</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2490859</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PPABFnu">Journal of Accounting Research</title>
+		<title level="j" type="abbrev">Journal of Accounting Research</title>
+		<idno type="ISSN">0021-8456</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">59</biblScope>
+			<date type="published" when="1984">1984</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note>supplement</note>
+	<note type="raw_reference">ZmIjeWskI, M. (1984), « Methodological Issues Related to the Estimation of Finan- cial Distress Prediction Models », Journal of Accounting Research, 22(supple- ment) : 59-86.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
