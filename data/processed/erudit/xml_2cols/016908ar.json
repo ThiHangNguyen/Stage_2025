@@ -1,0 +1,764 @@
+{
+  "title": "gestion supervisee dune unite de coagulation pour la potabilisation des eaux a partir dune methodologie dapprentissage et dexpertise",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "bouchra",
+      "last_name": "lamrini",
+      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
+      "email": "blamrini@yahoo.fr",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "marieveronique",
+      "last_name": "le lann",
+      "affiliation": "laascnrs, universite de toulouse, 7, avenue du colonel roche, 31077 toulouse cedex 4, france",
+      "email": "mvlelann@laas.fr",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "el khadir",
+      "last_name": "lakhal",
+      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
+      "email": "",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "ahmed",
+      "last_name": "benhammou",
+      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
+      "email": "",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "le travail presente propose une methodologie de classification par apprentissage qui permet lidentification des etats fonctionnels sur une unite de coagulation impliquee dans le traitement des eaux de surface. la supervision et le diagnostic de ce procede ont ete realises en utilisant la methode de classification lamda (learning algorithm for multivariate data analysis). cette methodologie dapprentissage et dexpertise permet dexploiter et dagreger toutes les informations provenant du procede et de son environnement ainsi que les connaissances de lexpert. letude montre quil est possible dajouter aux informations issues des capteurs classiques (temperature, matieres en suspension, ph, conductivite, oxygene dissous), la valeur de la dose de coagulant calculee par un capteur logiciel developpe dans une etude anterieure afin daffiner le diagnostic. le site dapplication choisi pour lidentification des etats fonctionnels est la station de production deau potable rocade de la ville de marrakech, maroc.",
+  "date": "2008-01-21",
+  "id": {
+    "doi": "10.7202/016908ar",
+    "issn": "17188598"
+  },
+  "pagination": {
+    "start_page": "325",
+    "end_page": "338"
+  },
+  "rights": {
+    "text": "revue des sciences de leau",
+    "link": ""
+  },
+  "editorial_team": [
+    {
+      "first_name": "michel",
+      "middle_name": "",
+      "last_name": "baudu",
+      "gender": "masculin",
+      "role": "",
+      "category": "director"
+    },
+    {
+      "first_name": "peter",
+      "middle_name": "g.c.",
+      "last_name": "campbell",
+      "gender": "masculin",
+      "role": "",
+      "category": "director"
+    },
+    {
+      "organization": "universite du quebec inrseau, terre et environnement (inrsete)",
+      "category": "editor"
+    }
+  ],
+  "issue_number": "4",
+  "volume": "20",
+  "keywords": [
+    "procede de coagulation",
+    "classification",
+    "apprentissage supervise",
+    "apprentissage non supervise",
+    "reconnaissance de formes",
+    "logique floue",
+    "coagulation process",
+    "classification",
+    "supervised learning",
+    "unsupervised learning",
+    "pattern recognition",
+    "fuzzy logic"
+  ],
+  "themes": [],
+  "language": "fr",
+  "annexes": [],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "aguado j.c. (1998). a mixed qualitativequantitative selflearning classification technique applied to situation assessment in industrial process control. these de doctorat, univ. politecnica de catalunya, terrassa, espagne, 160 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "aguilarmartin j., m. balssa. et r. lopez de mantaras (1980). estimation recursive dune partition. exemples dapprentissage et autoapprentissage dans rn et in, laascnrs, toulouse, france, rapport scientifique no 880139, 7 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "aguilarmartin j. et r. lopez de mantaras (1982). the process of classification and learning the meaning of linguistic descriptors of concepts. approximate reasoning in decision analysis. approximate reasoning in decision analysis, mm. gupta et e. sanchez (editeurs), amsterdam, paysbas,165175."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bazerbachi a., e. puechcoste, r. ben aim et j.l. probst (1990). modelisation mathematique du taux de coagulant dans une station de traitement deau. rev. sci.eau, 3, 377397."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "chan m., j. aguilarmartin, n. piera carrete , p. celsis et j.p. marcvergnes (1989). classification techniques for feature extraction in low resolution topographic evaluative images: application to cerebral blood flow estimation. 12th conference gresti, 1216 juin, juanlespins, france."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "evans j. et c. enoch (1998). investigation of advanced control methods applied to coagulation dosing at a wtw. uk water industry research limited/sensors for water interest group (ukwir/swig) workshop, 911 decembre, national motor cycle museum, birmingham, grandebretagne."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gagnon c., b.p.a. grandjean et j. thibault (1997). modelling of coagulant dosage in a water treatment plant. artif. intell. eng., 11, 401404."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kan c. et c. huang (1998). coagulation monitoring in surface water treatment facilities. water sci. technol., 38, 237244."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kempowsky t. (2004). surveillance de procedes a base de methodes de classification : conception dun outil daide pour la detection et le diagnostic des defaillances. these de doctorat, institut national des sciences appliquees, toulouse, france, 170 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lamrini b., a. benhammou, m.v. le lann et a. karama (2005). a neural software sensor for online prediction of coagulant dosage: application to a drinking water treatment plant. trans. inst. meas. control (timc), 27, 195213."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lamrini b., m.v. le lann et a. benhammou (2005). detection of functional states based on interactivity between expertise and lamda learning technique. information and communication technologies international symposium (ictis05), 36 juin, tetouan, maroc, pp. 105110."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lamrini b., m.v. le lann et a. benhammou (2005). conduite supervisee dune station de traitement deau potable par la methode de classification lamda. 10e congres de la societe francaise des genies de procedes (sfgp), 2022 septembre, toulouse, france, auteurs i3."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "liu j.c. et m.d. wu (1997). fuzzy control of coagulation reaction through streaming current monitoring. water sci. technol., 36, 127134."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lopez de mantaras r. (1977). autoapprentissage dune partition. application au classement iteratif de donnees multidimensionnelles. these de doctorat, universite paul sabatier, toulouse, france, 150 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "piera carrete n. et j. aguilarmartin (1991). controlling selectivity in nonstandard pattern recognition algorithms. ieee trans. syst. man cybern., 21, 7182."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "piera carrete n., p. desroches et j. aguilarmartin (1989). lamda: an incremental conceptual clustering system. laascnrs, toulouse, france. rapport scientifique no 89420, 10 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "piera carrete n., p. desroches et j. aguilarmartin (1990). variation points in pattern recognition. patt. recognit. lett., 11, 519524."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sarrate r. (2002). supervisio intelligent de processos dinamics basada en esdeveniments (absalon: abstraction analysis online). these de doctorat, univ. politecnica de catalunya, terrassa, espagne, 145 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "shepherd a. et l. ortolano (1996). watersupply operations: critiquing expertsystem approach. j. water resour. plann. manage., 122, 348355."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "standen g., p.j. insole, k.j. shek et r.a. irwin (1997). the use of particle monitoring in the performance optimisation of conventional clarification processes. water sci. technol., 36, 191198."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "valentin n., f. fotoohi, t. denoeux (1999). modeling of coagulant dosing in a water treatment plant. proceedings of eann99, septembre, warsaw, pologne, pp.165‐170."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "waissmann j. (2000). construction dun modele comportemental pour la supervision de procedes : application a une station de traitement des eaux. these de doctorat, institut national polytechnique de toulouse, france, 119 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "zhu x. et a.r. simpson (1996). expert system for water treatment plant operation. j. environ. eng., 122, 822‐829."
+    }
+  ],
+  "notes": [],
+  "body": [
+    {
+      "title": "1. introduction",
+      "paragraphs": [
+        "le controle et la conduite des procedes industriels sont delicats et difficiles notamment lorsque les lois physiques decrivant le systeme sont trop complexes ou incompletes. les derives et les defauts sont alors difficiles a detecter et a localiser sans utiliser de modele representatif du systeme reel. certes, les procedes de coagulation sont fortement non lineaires et non stationnaires et leur fonctionnement reste difficilement modelisable a cause de la connaissance partielle des phenomenes mis en jeu. la conduite supervisee de ces procedes necessite la definition de methodes avancees de controle et de supervision qui integrent la connaissance insuffisante que lon a de ces procedes. jusqua present, il nexiste pas de modele mathematique ou structurel permettant didentifier de facon certaine letat de fonctionnement dun procede de coagulation. cest generalement au moyen danalyses horsligne que les operateurs controlent indirectement cet etat et interviennent en retour sur le processus avec un delai important. cependant, loperateur dispose de nombreuses informations issues du procede lui‐meme et de son environnement, souvent precises, dont il est facile de faire une acquisition en ligne. ces informations traitees de facon individuelle ne permettent toujours pas de caracteriser letat du procede.",
+        "depuis plusieurs decennies, les etudes publiees sur la coagulation ont mis en evidence des mecanismes fortement complexes dependant dun nombre important de variables. ainsi, dimportants efforts et differentes approches ont ete developpes pour construire et mettre en oeuvre des modeles de controle automatique de la dose de coagulant (bazerbachi et al., 1986; evans et enoch, 1998; gagnon et al., 1997; lamrini et al., 2005; valentin et al., 1999) et des outils de supervision permettant doptimiser ce procede de traitement (kan et huang, 1998; liu et wu, 1997; standen et al., 1997). en ce qui concerne les outils dits de supervision, dans le cas des travaux de kan et huang (1998), meme si on parle de supervision ou de suivi, lessentiel du developpement porte sur la determination automatique de la dose de coagulant grace a un suivi optique. de meme dans le cas des travaux de standen et al. (1997), la modification automatique de la dose de coagulant se fait en rapport a la mesure de la turbidite et au nombre de particules colloidales mesurees au prealable par diffraction laser lors de jartests. les travaux de liu et wu (1997) sont quant a eux directement relies au developpement dun controleur flou allie a un detecteur de courant permettant dameliorer loperation de coagulation. on voit donc que, plus quun suivi de fonctionnement dune operation, il sagit plutot dun controle automatique de la dose de coagulant, lobjectif etant de determiner la dose a appliquer en fonction des parametres de leau brute observes. cependant, cette structure de controle automatique ne permet pas de diagnostiquer une derive ou un mauvais fonctionnement a elle seule. pour cela, il faut lui adjoindre une structure de supervision/diagnostic permettant de determiner letat de fonctionnement de lunite (cet etat de fonctionnement pouvant etre une defaillance).",
+        "pour assurer une bonne gestion et contribuer au bon fonctionnement de ce procede, il semble necessaire dexploiter simultanement toutes les informations disponibles sur le procede (les caracteristiques de leau brute et leurs evolutions provenant des anomalies imprevues), et de son environnement, ainsi que les connaissances de lexpert. pour ces raisons, nous proposons de realiser la conduite supervisee de ce procede en utilisant une technique de classification par apprentissage, la technique lamda. une telle technique permet dexploiter et dagreger toute information sur le procede afin de reconnaitre des situations specifiques et agir, si possible, sur ce procede. lidee generale de la classification est levaluation des signaux significatifs du systeme (caracteristiques de leau brute, taux de coagulant, etc.), afin de reconnaitre les facteurs lies a une quelconque situation et daider loperateur a prendre une decision lors de lapparition de dysfonctionnement.",
+        "le travail presente dans le cadre de cet article est structure de la maniere suivante : la premiere section presente le site dapplication choisi pour identifier les etats fonctionnels. dans la deuxieme section, on presente une breve description de la methode lamda. finalement, dans la troisieme section, des resultats experimentaux seront presentes et discutes. comme le montrent ces resultats obtenus lors de lapplication de la methodologie lamda aux donnees experimentales couvrant 4 annees de fonctionnement de la station de production deau potable de marrakech, ils ouvrent la possibilite dappliquer cette methode a la surveillance en temps reel de ce procede."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "2. presentation du site dapplication",
+      "paragraphs": [
+        "linstallation de traitement concernee par cette etude est la station de production deau potable rocade de la ville de marrakech. elle alimente en eau potable, de facon variable dans le temps, une population de 1,5 millions habitants. leau a lentree de la station provient dune prise situee dans le canal rocade. en cas de defaillance de la ressource (crues, pollution accidentelle, travaux de maintenance, etc.), la station peut etre alimentee a partir dun reservoir de mise en charge situe pres de la station de pompage takerkoust. en se referant aux historiques de la station, soixante pour cent des besoins de la ville de marrakech sont assures par la station rocade et les quarante pour cent restants sont fournis par leau des ressources souterraines (puits, forages, etc.). a noter que la capacite maximale de traitement de la station etudiee est denviron 1 400 l s‐1.",
+        "compte tenu des caracteristiques de leau brute acheminee vers la station, les decideurs (office national de leau potable, onep) utilisent le procede physicochimique classique illustre par la figure 1. ce procede comporte les phases suivantes : la prechloration, la coagulationfloculation, la decantation, la filtration et la desinfection. cependant, la station presente des limites de fonctionnement au niveau du traitement des matieres en suspension (mes) presentes dans leau brute. ainsi, les limites de fonctionnement se presentent comme suit :"
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "3. la methode de classification lamda",
+      "paragraphs": [
+        "la methode lamda est une technique de classification developpee par piera et al. (1989) suite a lidee originale daguilarmartin et al. (1980). elle fut appliquee a plusieurs processus (aguado, 1998; aguilarmartin et lopez de mantaras, 1982; chan et al.,1989; piera carrete et al., 1990; waissman, 2000). lobjectif de cette methode repose sur la representation de classes ou de concepts au moyen de la connexion logique de toutes les informations marginales disponibles. lune des caracteristiques les plus importantes de la technique lamda reside dans sa capacite a modeliser naturellement lindistingabilite totale ou lhomogeneite au travers dune classe non informative appelee nic non‐informative class . cette classe accepte tous les objets presents dans lespace de description avec le meme degre dadequation. de cette facon, elle represente un seuil minimum de classification, ce qui montre que la classe nic est toujours presente dans lespace des classes deja etablies. de plus, cette methode offre la possibilite de realiser indifferemment un apprentissage sequentiel supervise et non supervise ainsi que de manipuler des informations de natures differentes : de natures numerique (quantitative), symbolique (qualitative) ou mixte. ces deux caracteristiques ne se rencontrent pas simultanement dans les techniques de classification telles que celles par reseaux de neurones ou logique floue.",
+        "ces informations sont des collections dobjets, decrits par un nombre η dattributs appeles descripteurs. chaque objet est decrit par un nombre fini et fixe de descripteurs representes par le vecteur = (x1,x2,..,xn) ou xi est la valeur normalisee associee au descripteur i. afin dobtenir une confrontation entre et les differentes classes cj, une fonction de vraisemblance, appelee degre dadequation marginale (dam), est calculee pour chaque classe et chaque espace de description. linformation donnee par le calcul des η dams est ensuite utilisee pour determiner le degre dadequation globale (dag).",
+        "la figure 2 montre le schema representatif du dag obtenu au moyen dun operateur logique dagregation appele connectif mixte de compensation lineaire , introduit et etudie par piera carrete et aguilarmartin (1991). ce connectif, issu de la theorie des ensembles flous, effectue une interpolation entre loperateur logique dintersection (t‐norme, t) et celui de lunion (t‐conorme, s), par le biais de lindice dexigence, α ∊ [01]. le calcul du dag se fait selon la formule :",
+        "la methode lamda propose six algorithmes permettant de calculer les dams (kempowsky, 2004). les resultats qui seront presentes dans cette etude sont obtenus en utilisant lalgorithme lamda3 :",
+        "en fait, ceci nest quune extension floue de la loi de probabilite binomiale a laquelle a ete ajoutee la possibilite de creer une partition autour des centres de classes (waissman, 2000).",
+        "lactualisation des parametres associes aux descripteurs quantitatifs de la classe cj se fait de la facon suivante :",
+        "on peut creer aussi, a laide de la classe (nic), une nouvelle classe qui va etre caracterisee par laffectation dun element a cette classe. x est le premier element dune nouvelle classe cj+1 et la representation de cette nouvelle classe dependra de cet element. on prendra un parametre fictif correspondant au nombre delements de la classe nic.",
+        "dans le cas de lautoapprentissage, toute classe a du etre initialisee par la classe nic, cest pourquoi la formule de la mise a jour doit contenir ce parametre fictif n0 et elle devient :",
+        "le parametre n0 > 0 determine linitialisation de lapprentissage. sa valeur peut etre choisie arbitrairement mais elle influe sur le pouvoir dabsorption de chaque classe nouvelle; plus n0 est grand, moins la classe nouvelle sera influencee par le premier element. par contre, en apprentissage dirige, ce parametre na pas dinfluence sur le resultat de la classification.",
+        "dans le cas de la reconnaissance de formes, lelement est attribue a une classe significative ou rejete dans la classe residuelle nic. dans le cas de lapprentissage, sil est affecte a une classe significative, il y a modification des parametres de cette classe. en revanche, si la classe vide a la plus grande adequation, une nouvelle classe doit etre creee pour contenir cet element. il y a rejet si la classe vide est la plus proche et quil ny a pas possibilite de creation de nouvelles classes parce que le nombre maximum de classes creees est atteint."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "",
+          "image_href": "016908are004n.png"
+        },
+        {
+          "content": "",
+          "image_href": "016908are006n.png"
+        },
+        {
+          "content": "",
+          "image_href": "016908are007n.png"
+        },
+        {
+          "content": "",
+          "image_href": "016908are008n.png"
+        },
+        {
+          "content": "",
+          "image_href": "016908are009n.png"
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [
+        {
+          "type": "equation",
+          "href": "016908are002n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are003n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are004n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are006n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are007n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are008n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are009n.png",
+          "title": "equation pleine grandeur"
+        }
+      ],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "4. resultats de la classification",
+      "paragraphs": [
+        "dans cette etude, la classification des etats fonctionnels est basee sur lapplication iterative de la methode lamda dont les etapes se resument comme suit :",
+        "les donnees utilisees pour lapprentissage sont issues de la station rocade. une base de donnees a ete etablie a partir de quatre annees de fonctionnement de la station. nous avons considere comme descripteurs : la temperature (t), les mes, le ph, la conductivite (cond) et loxygene dissous (od). le choix de ces descripteurs a ete dicte par lextreme influence de leurs valeurs sur le procede de coagulation. en effet, dans une etude precedente (lamrini et al., 2005), nous avons developpe un capteur logiciel, a base de reseaux de neurones, permettant de predire la dose optimale de coagulant necessaire dans une station de production deau potable. le calcul de la dose est base sur les caracteristiques de leau brute. une etude par analyse en composantes principales (acp) a permis de determiner les cinq parametres principaux de leau brute a prendre en consideration lors du developpement du capteur logiciel. de plus, letude effectuee sur le fonctionnement de la station rocade nous a montre que la qualite de leau brute se caracterise par une turbidite tres variable (tres elevee a certaines periodes) et des quelle depasse la valeur 1 000 ntu, loperateur passe a la mesure des mes. pour cette raison, et afin de tenir compte de toutes les variations de la qualite de leau brute, nous avons utilise les mes au lieu de la turbidite. la dose de coagulant predite par le capteur logiciel sera consideree comme un descripteur supplementaire a utiliser dans la classification.",
+        "la figure 3 represente les caracteristiques deau brute utilisees pour lapprentissage. les donnees montrent que la qualite de leau brute est caracterisee par des mes tres variables. ainsi, on constate de fortes variations de mes durant la saison hivernale qui deviennent parfois tres elevees pendant certaines periodes. les valeurs de mes mesurees depassent parfois 900 mg l‐1, et ce, pendant les crues. le ph est eleve et atteint la valeur maximale 8,5. on constate aussi une forte variation (jusqua 2 200 μs cm‐2) de la conductivite, due a la presence des chlorures dans leau brute. dans les conditions doperation normale, loxygene dissous varie dans des proportions negligeables (8 a 8,2 mg l‐1). cependant, une forte variation de loxygene dissous est detectee en parallele avec des valeurs tres elevees de la conductivite. en basse saison (saison hivernale), la qualite de leau ne necessite que de faibles taux de coagulant (10 a 45 mg l‐1).",
+        "afin de garder et de bien distinguer les signaux relatifs aux variations brusques et significatives de chaque descripteur, ces donnees brutes sont filtrees (figure 4a) au moyen dun filtre passe bas dordre 2 autour dune frequence de 0,5 hz. ensuite, pour mieux extraire les informations pertinentes pour la classification et connaitre les conditions doperation de chaque descripteur, nous avons utilise un analyseur spectral en selectionnant une composante frequentielle autour de laquelle le spectre est defini par les parametres suivants :",
+        "ce filtrage est effectue au moyen dun outil dabstraction des signaux appele absalon (sarrate, 2002).",
+        "dans un premier temps, nous avons realise une classification sans recours a une quelconque connaissance prealable (classification avec autoapprentissage). dans ce cas, les objets ne sont pas deja affectes a des classes predefinies et seule la classe nic existe.",
+        "nous avons procede a des essais (lamrini et al., 2005) pour les six algorithmes (kempowsky, 2004) et differents indices dexigence. les meilleurs resultats ont ete obtenus avec lalgorithme lamda3 (eq. 3) comme fonction de presence utilisee pour calculer les adequations marginales et le connectif minimum/maximum avec une exigence : α = 0,83, pour le calcul des adequations globales. il est a noter que plus cet indice dexigence est eleve, plus lappartenance dun objet a une classe est stricte, et plus le nombre dobjets non classes devient important. de ce fait, le nombre de nouvelles classes creees augmente et il est donc evident que le choix de ces differents parametres, necessaires a la realisation dun autoapprentissage, doit etre guide par les connaissances de lexpert. la figure 4b illustre les 10 classes issues de lautoapprentissage. a noter que pour chaque descripteur i de lelement x = (x1,..,xn), la normalisation a ete faite avec la formule suivante :",
+        "la figure 5 presente le profil de chaque classe, i.e. la frequence de contribution de chaque descripteur aux classes creees (tableau 1). les caracteristiques de chaque classe dans lespace de description permettent a lexpert didentifier les classes significatives et celles ayant des caracteristiques tres proches. ainsi, lexpert peut decider dagreger ces classes dans un seul et meme etat. sur cette figure, les descripteurs des classes apparaissent dans lordre suivant : temperature, ph, mes, conductivite et oxygene dissous.",
+        "decrivons brievement ce profil de classes :",
+        "les resultats de classification issus de lautoapprentissage indiques dans le tableau 2 montrent quon peut identifier cinq etats fonctionnels. ces etats permettent didentifier, sur lunite de coagulation, les principales derives de fonctionnement.",
+        "cette classification optimisee a permis de definir la classification de reference. letape suivante du developpement de loutil de supervision/diagnostic a constitue a realiser une classification passive, i.e. une reconnaissance pour valider cette affectation. lors de laffectation, les parametres des classes ne sont pas modifies, ce qui est normal puisquil sagit dune exploitation des connaissances et non dun apprentissage. les elements non classes sont affectes a une classe appelee classe residuelle (classe 0) ayant les memes caracteristiques que la classe nic dans le cas de lapprentissage. les resultats sont presentes sur la figure 6. sur cette figure, nous constatons que certains elements (tres peu) ont ete soit mal reconnus (lelement 138 est affecte a la classe 6 et les elements 676, 677 et 678 sont affectes a la classe 8), soit non reconnus (cest‐a‐dire nappartenant a aucune classe predefinie); cest le cas des elements 674 et 675. le tableau 3 represente le nombre delements associes aux classes issues de lautoapprentissage et lors de la reconnaissance.",
+        "a partir de cette classification, il est possible de realiser un apprentissage supervise pour creer de nouvelles classes ou faire evoluer les classes deja formees et ainsi arriver a une partition satisfaisante. cet apprentissage supervise a ete effectue avec les memes valeurs pour les differents parametres (fonction de presence, connectif, indice dexigence) que celles utilisees lors de lautoapprentissage. les figures 7 et 8 presentent les resultats de cet apprentissage supervise. nous avons pu detecter les memes etats fonctionnels avec lidentification dun nouvel etat. la nouvelle classe (classe 11) identifie bien la transition des cinq descripteurs vers leur etat optimal de fonctionnement. cette classe est associee a letat transition et 10 elements lui ont ete associes. il ny a plus delements non reconnus.",
+        "le tableau 4 presente la comparaison des resultats propres aux deux classifications (resultats issus de lautoapprentissage et ceux issus de lapprentissage supervise). la compatibilite entre ces deux classifications peut etre effectuee en calculant lindice de dissemblance (lopez de mantaras, 1977) a partir de la matrice de contingence. si on considere deux partitions f et g dun meme ensemble dobjets (ω), les elements de la matrice de contingence sont donnes par : .",
+        "les indices i et j representent respectivement les nombres de classes des partitions f et g. plus lindice de dissemblance est faible, plus la compatibilite est bonne. dans notre cas, cet indice est de 0,26, ce qui demontre une bonne compatibilite.",
+        "dans ce qui suit, nous donnons les resultats relatifs a lintroduction dun sixieme descripteur. ce descripteur supplementaire est la dose de coagulant predite par le capteur logiciel (lamrini et al., 2005), precedemment developpe sur la base de reseaux de neurones. en effet, dans les conditions doperation normales de la station, la dose de coagulant appliquee evolue de facon non lineaire, en fonction des cinq descripteurs de la qualite de leau brute. trois reseaux de neurones ont ete developpes suivant la variable utilisee en entree, en plus du ph, de la temperature, de loxygene dissous et de la conductivite :",
+        "il a ete demontre que ces trois reseaux donnaient des resultats similaires et quil etait possible de passer du reseau 2 au reseau 1 par exemple.",
+        "la demarche adoptee a ete deffectuer un apprentissage supervise et dadapter la classification realisee en fonction de levolution des nouvelles donnees. la figure 9 presente les resultats de la classification obtenus apres un apprentissage supervise en adoptant les memes parametres de classification que ceux initialement utilises. les resultats de classification montrent que lintroduction de la dose de coagulant comme descripteur supplementaire fait apparaitre un nouvel etat de fonctionnement degrade. les classes 7 et 8 identifiant cet etat de dysfonctionnement ont ete associees a letat coagulantalarme . il correspond a un fonctionnement en basse saison ou la qualite de leau ne necessite que de faibles taux de coagulant (10 a 45 mg l‐1). de plus, lintroduction de la dose de coagulant a permis daffiner letat de fonctionnement normal par la creation dune classe supplementaire.",
+        "les memes etats fonctionnels identifies precedemment sont retrouves par les classes suivantes :"
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "",
+          "image_href": "016908are013n.png"
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [
+        {
+          "type": "equation",
+          "href": "016908are013n.png",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "016908are018n.png",
+          "title": "equation pleine grandeur"
+        }
+      ],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "5. conclusion",
+      "paragraphs": [
+        "dans ce travail, la technique de classification par apprentissage lamda a ete appliquee dans le but de realiser une conduite supervisee du procede de coagulation. nous avons montre les performances de la methode pour detecter les differentes sequences detats fonctionnels decrivant le comportement de ce procede. les principaux avantages de cette methode sont de permettre un apprentissage sequentiel supervise et non supervise et dadapter la classification realisee en fonction de levolution des donnees a classer. en outre, cette methode se differencie des autres techniques par la notation de ladequation nulle et lincidence de celleci sur la classification. dans la base de donnees, trois types detats fonctionnels ont ete reconnus : des etats de fonctionnement normal (la station se trouve la majorite du temps dans des conditions doperation normales), des etats de fonctionnement degrade identifies hors operation normale et dautres etats fonctionnels vers lesquels il est possible de transiter, en revenant toujours apres un temps plus ou moins long, a letat doperation normal. a noter que les resultats obtenus peuvent servir de base pour le suivi et la detection des defaillances au niveau des procedes de coagulation. une reconnaissance en ligne peut etre envisagee a partir de ce modele de reference pour determiner letat fonctionnel representant le procede une fois quune nouvelle observation se presente. en effet, le modele de reference nest pas toujours exhaustif du fait que, pour certaines situations, soit le recueil des donnees na pas ete possible ou quil existe des situations dont loccurrence est peu frequente. il est donc possible de faire evoluer la base dapprentissage au fur et a mesure de lapparition de nouveaux cas, en realisant des apprentissages dits specialises permettant de creer de nouvelles classes a partir delements non reconnus.",
+        "des travaux sont actuellement realises pour permettre la validation automatique de la classification obtenue. jusqua present, seul lexpert etait juge de la validite de la classification obtenue. a laide dindices de mesure de compacite et de separation des classes exploitant le concept dentropies intraclasse et interclasse, il est possible de faire evoluer lindice dexigence, par exemple, afin dobtenir de maniere quasi automatique la classification avec les meilleures caracteristiques en matiere de compacite et de separation des classes. de plus, pour eviter des transitions vers des classes non representatives (lorsque lelement en question a des dam a deux classes tres peu differents par exemple), des etudes sont menees actuellement pour ne prendre en compte que des transitions significatives. ces deux modifications permettront a terme dobtenir plus facilement une classification plus compacte et deviter davoir des transitions non representatives.",
+        "en se referant aux travaux realises dans ce domaine, il semble que lapplication de lapproche, realisee dans le cadre de cette etude, est la premiere de son genre qui ait pu montrer lutilite des techniques de classification dans le suivi et la surveillance de ce type de procede. il est clair que lobjectif final de letude est de pouvoir etendre cette surveillance a lensemble de la station de traitement rocade, de traiter toutes les informations issues des differents procedes de traitement (decantation, filtration, etc.) et de detecter le plus tot possible les derives de fonctionnement. de telles informations peuvent aider a identifier les pannes sur une unite situee en amont de la station mais aussi servir a la maintenance preventive des appareils comme les filtres ou les decanteurs."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    }
+  ],
+  "figures": [
+    {
+      "label": "figure 1",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 2",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 3",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "(a)",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "(b)",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 5",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 6",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 7",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 8",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "figure 9",
+      "caption": "",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "label": "tableau 1",
+      "caption": "frequence de contribution de chaque descripteur aux classes creees.",
+      "source": "",
+      "rows": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 2",
+      "caption": "les etats fonctionnels associes aux classes issues de lautoapprentissage.",
+      "source": "",
+      "rows": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 3",
+      "caption": "les elements associes aux classes issues de lautoapprentissage et de la reconnaissance de formes.",
+      "source": "",
+      "rows": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 4",
+      "caption": "matrice de contingence (distance entre les deux classifications de 0.26).",
+      "source": "",
+      "rows": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

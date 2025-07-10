@@ -1,0 +1,1391 @@
+{
+  "title": "demande de monnaie en zone cemac : une modelisation par cointegration avec ruptures structurelles",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "herve",
+      "last_name": "talabong",
+      "affiliation": "ministere de leconomie, de la planification et de lamenagement du territoire",
+      "email": "",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "cette etude met en evidence lexistence dune relation cointegrante de demande de monnaie dans les pays de la commission economique et monetaire de lafrique centrale (cemac) en tenant compte dune possibilite de changements structurels affectant les agregats macroeconomiques. elle se focalise ensuite sur la stabilite et lhomogeneite des comportements de demande de monnaie dans ces pays faisant face a une politique monetaire unique. si leur stabilite ne peut etre remise en cause, leur heterogeneite peut par contre accroitre la dispersion de linflation dans ces differents pays.",
+  "date": "2014-03-17",
+  "id": {
+    "doi": "10.7202/1023797ar",
+    "issn": "17103991"
+  },
+  "pagination": {
+    "start_page": "429",
+    "end_page": "458"
+  },
+  "rights": {
+    "text": "hec montreal",
+    "link": ""
+  },
+  "editorial_team": [
+    {
+      "first_name": "patrick",
+      "middle_name": "",
+      "last_name": "gonzalez",
+      "gender": "masculin",
+      "role": "",
+      "category": "director"
+    },
+    {
+      "organization": "hec montreal",
+      "category": "editor"
+    }
+  ],
+  "issue_number": "4",
+  "volume": "88",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "annexes": [
+    "9a.1 test de cointegration et dautocorrelation des residustableau 8test de cointegration test de rang de cointegration sans restriction (trace) hypothese nombre de ce(s) valeur deigen statistique trace 0,05 valeur critique probabilite** cameroun r = 0 r = 1 r = 2 r = 3 r = 4 0,771717 0,711806 0,533857 0,361876 0,295502 143,9492 95,20266 54,14666 28,95901 14,13464 95,75366 69,81889 47,85613 29,79707 15,49471 0,0000 0,0001 0,0114 0,0622 0,0793 congo r = 0 r = 1 r = 2 r = 3 r = 4 0,877976 0,767390 0,575550 0,315827 0,156833 159,1064 91,79336 45,12479 17,70207 5,556665 95,75366 69,81889 47,85613 29,79707 15,49471 0,0000 0,0003 0,0883 0,5881 0,7472 gabon r = 0 r = 1 r = 2 r = 3 r = 4 0,972767 0,773329 0,637830 0,554105 0,253911 239,3676 120,4584 71,47794 37,96175 11,30860 117,7082 88,80380 63,87610 42,91525 25,87211 0,0000 0,0001 0,0100 0,1434 0,8570 rca r = 0 r = 1 r = 2 r = 3 r = 4 0,864703 0,674285 0,478827 0,428019 0,240666 148,3582 84,34917 48,45377 27,60025 9,723483 95,75366 69,81889 47,85613 29,79707 15,49471 0,0000 0,0022 0,0439 0,0878 0,3026 **note : mackinnonhaugmichelis (1999) pvaluestableau 9test dautocorrelation des residus test du multiplicateur de lagrange de correlation serielle des residus du vecm h0 : pas de correlation serielle pour le retard dordre h cameroun congo gabon rca retard lmstat probabilite lmstat probabilite lmstat probabilite lmstat probabilite h = 1 h = 2 h = 3 60,16002 29,43361 32,98492 0,0001 0,2462 0,1314 40,09546 32,76175 30,79900 0,2934 0,6234 0,7142 38,14624 44,82455 37,84098 0,3721 0,1486 0,3853 39,94791 27,77958 42,87043 0,2990 0,8350 0,2002 graphique 5stabilite du vecm10a.2 resultat du test de bai et perron applique aux series utiliseesgraphique 6series du cameroungraphique 7series du gabongraphique 8series rca11a.3 le test de changements structurels de bai et perron11. 1a.3.1 le modeleon considere une serie {yt}t=1,...,t , ou lon suppose loccurrence de m ruptures structurelles survenues a des dates t1, ..., tm inconnues. pour chaque mpartition (t1, ..., tm) de 1, ..., t, on considere le modele de regression lineaire suivant :(a.1)yt = z′tδj + ut, t = tj1 +1, ... tj, j = 1, ..., m + 1 avec lhypothese conventionnelle t0 = 0, et tm+1 = t. zt ∈rq est le vecteur de regresseurs (exemple : zt = {1} pour un changement de constante, zt = {t} pour un changement de tendance). (δ1, ..., δm+1) est le vecteur de coefficients (avec δj, = δj+1) et ut le terme derreur. sous forme matricielle, lequation (a.1) secrit :(a.2)avec y = (y1, ..., yt)′, u = (u1, ..., ut)′, δ = (δ1, ..., δt)′y = zδ + uz = diag((z1, ..., zt)′), ou zi = (zti1, ..., zti)′. les estimateurs des coefficients sont obtenus par les mco en minimisant la somme des carres des residus(a.3)graphique 9series du congographique 10les taux dinteretle probleme consiste a donner les estimateurs des vraies dates de rupture (t01, ..., t0m). on fait lhypothese de lexistence dau moins un ecart h entre deux dates de ruptures consecutives, cestadire ǀtj+1 tj ǀ≥ h ou de maniere equivalente que ǀλj+1 λj ǀ≥ ∈, ∈ fixe. est la fraction de la rupture. on pose :λ∈ = {(λ1, ..., λm) : ǀλj+1 λj ǀ≥ ∈, λ1 ≥ ∈, λm+1 ≤ ∈}. les estimateurs sont obtenus par balayage exhaustif de λ∈ et determines par la minimisation de la somme des residus sur toutes les mpartitions de (1, ..., t) telles que definies precedemment, cestadire :(a.4)les proprietes de convergence des estimateurs vers leurs vraies valeurs ainsi que leurs distributions asymptotiques sont donnees dans bai et perron (1998). lorsque m > 2 , la methode de balayage devient plus complexe et necessite un temps de calcul important. pour contourner la difficulte, bai et perron (1998), ont developpe un algorithme base sur les principes de programmation dynamique permettant lobtention des minimas globaux en effectuant des mco dordre o(t2) pour tout t ≥ 2 16.11. 2a.3.2 estimateur du nombre optimal de rupturesla selection du nombre optimal m0 de ruptures est basee sur la minimisation des criteres dinformation17 : schwartz (1978)(a.5)avec p* = (m + 1) q + m.yao (1978) (critere dinformation bayesien)(a.6)12a.4 le test de zivot et andrewszivot et andrews (1992), considerent pour une serie {yt}t=1,...,t, lhypothese nulle selon laquelle la serie possede une racine unitaire sans changement structurel exogene.sous h0, on a :(a.7)lhypothese alternative est celle de lexistence dune stationnarite autour dune tendance, avec un changement structurel survenu a une date inconnue tb. cela revient a distinguer trois variantes sous lhypothese alternative, correspondant a trois modeles semblables a ceux de perron(1989). les equations de regressions sont donc celles de dickey et fuller modifiees et secrivent de la maniere suivante :(a.8)(a.9)(a.10)avec et lidee est destimer la date de rupture qui donne le plus grand poids a lhypothese alternative de stationnarite autour de la tendance. une methode possible est de retenir le point de rupture qui donne la statistique de student tρ=1 minimale, quand les petites valeurs de la statistique conduisent a rejeter lhypothese nulle. si lon note une telle valeur, lon a par definition(a.11)λ est un sousensemble ferme de [0,1]. les statistiquest et la date de rupture sont obtenus par les moindres carres ordinaires apres t 2 regressions, avec λ parcourant en fait les valeurs de . on rejette lhypothese nulle de racine unitaire si(a.12)kiα, est la valeur critique tabulee au seuil α."
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "avouyidovi, s., a. diop, e.c. fonteny, e. gervais, p. jacquinot, j.s. mesonnier et j.g. sahuc(2003), estimation dune fonction de demande demonnaie pour la zone euro : une synthese desresultats , bulletin de la banque de france, 111."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bai, j. et p. perron (2003a), computation and analysis of multiple structural change models , journal of applied econometrics, 18 : 122."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bai, j. et p. perron (2003b), critical values for multiple structural change tests , econometrics journal, 6 : 7278."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bai, j. et p. perron(2001), multiple structural change models: a simulationanalysis . unpublished manuscrit, department of economics,boston university."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bai, j. et p. perron (1998), estimating and testing linear models with multiple structural changes , econometrica, 66 : 4778."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bernard, a. et g. roy(2003), etude des distorsions de niveau des testsde johansen pour la cointegration , cahiers de recherche, w/p: 0308, universite de sherbrooke."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bhaskara, r et s. rup(2004), a cointegration and error correction approach todemand for money in fiji: 19712002 , working paper, n°2004/11, the university of the south pacific suva, fiji islands."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bordes, c., h. chevrouseverac et v. marimoutou(2001), une europe monetaire a plusieursvitesses? la demande de monnaie dans les grands pays de la zone euro(19791999) , economie et prevision, 147 : 5171."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "creel, j. et h. sterdyniak (1999), pour en finir avec la masse monetaire , revue economique, 50(3) : 523533."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "dickey, d. et w. fuller (1981), likelihood ratio statistics for autoregressive time series with unit root , econometrica, 49(4) : 10571072."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "golfeld, s.m. et d.e. sichel (1990), the demand for money , in b.m. friedman et f.h. hahn (eds), handbook of monetary economics, 1 : 299356."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "goux, j.f. (2005), le taux de change eurodollar : une approche fondee sur la cointegration avec break structurel , la documentation francaise, 3(103) : 4572"
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "goux, j.f. et t. rusuhuzwa kigabo (2007), rupture structurelle et demande de monnaie au rwanda ."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "goux,j.f. (2000), existetil vraiment une relationcointegrante de demande de monnaie m3 en france? , revue economique, 51(4) : 885911."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "goux, j.f. (1998), inflation, desinflation, deflation, dunod."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "guillard,m. (1999), la monnaie dans les modeles de choixintertemporels : quelques resultatsdequivalences fonctionnelles , document derecherche, centre detude des politiqueseconomiques de luniversite devry."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "johansen, s. et k. juselius(1990), maximum likelihood estimation and inference oncointegration with applications to the demand for money , oxford bulletin of economics and statistics, 52(2) : 169210."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "johansen, s., r. mosconi et b. nielsen (2000), cointegration analysis with the presence of structuralbreaks in the deterministic trend , versionpreliminaire."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "johansen,s. (1991), estimation and hypotheses testing ofcointegration vectors in gaussian vector autoregressivemodels , econometrica, 59(6) : 15511580."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "juselius,k. (1995), do purchasing power parity and uncoveredinterest rate parity hold in the long run? an example of likelihoodinference in a multivariate timeseries , journal of econometrics, 69(1) : 211240."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kurmann,a. (2006), monnaie, inflation et activitereelle , universite du quebec amontreal, support de cours."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "laidler, d. (1993), the demand for money: theories, evidence, and problems, harpers collins college publishers new york, 224p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lardic, s. et v. mignon (2002), econometrie des series temporelles macroeconomiques et financieres, economica, 416 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "nachega, jc.(2001), a cointegration analysis of broad money demand incameroon , imf working paper, wp/01/26."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "perron, p. (1997), further evidence on breaking trend functions in macroeconomics variables , journal of econometrics, 80(2) : 355385."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "pierre, m. (1964), notes sur la theorie monetaire de milton friedman , revue economique, 15(5) : 677712."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "plihon, d. (2001), la monnaie et ses mecanismes, la decouverte, paris, 128 p."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "rachline, f. (1982), la nature de la monnaie , revue economique, 33(3) : 446475."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sriram,s. (1999), survey of literature for money: theoretical andempirical work with special reference to errorcorrectionmodels , imf working paper, wp/99/64."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sriram, s. (2001), a survey of recent empirical money demand studies , imf staff paper, 47(3) : 334365."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "stracca,l. (2001), the functionnal form of the demand for euroarea m1 , working paper , 51, european central bank."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "zivot, e. et d.w.k. andrews (2002), futher evidence of the great crash, the oilprice shock, and the unitroot hypothesis , journal of business and economic statistics, 10(1) : 251270."
+    }
+  ],
+  "notes": [
+    "[1] le taux minimal de couverture exterieure de la monnaie est fixe a 20 %.",
+    "[2] milton friedman (1969), inflation et systemes monetaires, p. 44.",
+    "[3] il faut noter quune acceleration de linflation peut aussi etre due a la hausse des produits energetiques, dou la necessite detablir une difference entre linflation et linflation sousjacente qui semble plus appropriee dans ce cas.",
+    "[4] cite par goux (1998).",
+    "[5] the general theory of employment, interest and money.",
+    "[6] voir par exemple kigabo et goux (2007)",
+    "[7] voir par exemple nachega (2001), ou kouletvickot (2002).",
+    "[8] cest ce critere qui est disponible dans le logiciel r.",
+    "[9] ces chiffres sont calcules a partir des donnees.",
+    "[10] ce test est implemente sous r, dans le progiciel urca .",
+    "[11] voir johansen et juselius 1991.",
+    "[12] on estime a au moins r2 le nombre de restrictions lineaires quil faut imposer pour une identification complete des parametres cointegrants.",
+    "[13] voir talabong et al. (2009) : fonction de reaction de la banque centrale et credibilite de la politique monetaire , mpra paper.",
+    "[14] les signes des coefficients presentes dans le tableau correspondent aux inverses de ceux de long terme.",
+    "[15] certains pays, notamment le tchad et la guinee equatoriale nont pas ete pris en compte les donnees etant incompletes.",
+    "[16] voir bai et perron (1998).",
+    "[17] le nombre optimal de ruptures peut aussi etre teste a partir dun test sequentiel, dun test de type supf (voir bai et perron, 1998)."
+  ],
+  "body": [
+    {
+      "title": "introduction",
+      "paragraphs": [
+        "linstabilite des agregats monetaires observee a partir des annees 1980, a ete a lorigine de nombreuses mutations dans la formulation de la politique monetaire dans plusieurs pays developpes. en effet, le developpement spectaculaire des actifs liquides (tels que les fonds mutuels, les titres dorganismes de placement collectif en valeurs mobilieres (opcvm)...) a contribue a restreindre la limite entre actifs monetaires et non monetaires. certains de ces actifs bien que sagissant des valeurs mobilieres, etaient utilises comme reserve de moyen de paiement rendant ainsi plus complexe le controle des agregats monetaires. a ce probleme de controle sajoute celui de linstabilite des fonctions de demande de monnaie, qui, incapables de prevoir et de rendre compte de la realite, deviennent alors un guide inapproprie de la politique monetaire. ainsi, la fed, comme bien dautres banques centrales (nouvellezelande, espagne, canada, royaumeuni, suede), a renonce des le debut des annees 1990 a lutilisation dun agregat monetaire comme objectif intermediaire de la politique monetaire. dans les pays en developpement en general, et ceux de la zone de la commission economique et monetaire de lafrique centrale (cemac) en particulier, de telles instabilites monetaires ne sont pas encore mises en evidence ou semble ne pas susciter de preoccupations majeures. pourtant, les economies de la sousregion ont connu differentes mutations et crises financieres plus ou moins marquees susceptibles de troubler le comportement de demande de monnaie des agents. on peut citer la crise economique de la fin des annees 1980 suite a leffondrement des cours des produits de base, les reformes monetaires et financieres operees par la banque des etats de lafrique centrale (beac) en fin dannee 1990, la devaluation de 50 % du franc cfa par rapport au franc francais survenu en janvier 1994, lancrage du cfa a leuro des 1999, etc. dans la meme lignee, le developpement recent des innovations financieres telles que la monnaie electronique bien quembryonnaire, peut mettre a mal la stabilite de la demande de monnaie.",
+        "par ailleurs, en reaction a la politique monetaire commune, les comportements de demande de monnaie sontils homogenes (dun point de vue des elasticites) dans les differents pays de la zone cemac?",
+        "inspiree des fondements theoriques dorigine monetariste, lutilisation dun agregat monetaire comme objectif intermediaire de la politique monetaire repose sur lhypothese de lexistence dune fonction dencaisses reelles stable a long terme (friedman, 1956). lobjectif de cet article est donc de verifier a laide doutils econometriques appropries, lexistence ou non dune relation cointegrante de demande de monnaie dans les pays de la zone cemac. il sagira par la suite de determiner si les differentes crises et mutations financieres cidessus mentionnees ont eu un effet sur leurs qualites statistiques.",
+        "nous etudions lexistence dune relation cointegrante de demande de monnaie en tenant compte de la possibilite des ruptures structurelles sur la dynamique des series macroeconomiques utilisees. ces ruptures sont mises en oeuvre grace au test de bai et perron (1998). par ailleurs, perron (1989) montre quen presence de tels changements structurels affectant la tendance des series, les tests habituels de racine unitaire (test adf) sont biaises en faveur de lhypothese nulle. afin detudier efficacement les proprietes stochastiques des variables, nous recourrons judicieusement au test de zivot et andrews, permettant de tester lexistence dune racine unitaire compte tenu dune rupture structurelle. ces resultats sont enfin pris en compte dans letude multivariee de la cointegration proprement dite, a travers la procedure de johansen, mosconi et nielsen (2000) qui tient en effet compte dun changement structurel dans la composante deterministe du modele vectoriel a correction derreur (vecm)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": [
+        {
+          "title": "objectif",
+          "paragraphs": [
+            "inspiree des fondements theoriques dorigine monetariste, lutilisation dun agregat monetaire comme objectif intermediaire de la politique monetaire repose sur lhypothese de lexistence dune fonction dencaisses reelles stable a long terme (friedman, 1956). lobjectif de cet article est donc de verifier a laide doutils econometriques appropries, lexistence ou non dune relation cointegrante de demande de monnaie dans les pays de la zone cemac. il sagira par la suite de determiner si les differentes crises et mutations financieres cidessus mentionnees ont eu un effet sur leurs qualites statistiques."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [],
+          "references": [],
+          "subsections": []
+        },
+        {
+          "title": "methodologie",
+          "paragraphs": [
+            "nous etudions lexistence dune relation cointegrante de demande de monnaie en tenant compte de la possibilite des ruptures structurelles sur la dynamique des series macroeconomiques utilisees. ces ruptures sont mises en oeuvre grace au test de bai et perron (1998). par ailleurs, perron (1989) montre quen presence de tels changements structurels affectant la tendance des series, les tests habituels de racine unitaire (test adf) sont biaises en faveur de lhypothese nulle. afin detudier efficacement les proprietes stochastiques des variables, nous recourrons judicieusement au test de zivot et andrews, permettant de tester lexistence dune racine unitaire compte tenu dune rupture structurelle. ces resultats sont enfin pris en compte dans letude multivariee de la cointegration proprement dite, a travers la procedure de johansen, mosconi et nielsen (2000) qui tient en effet compte dun changement structurel dans la composante deterministe du modele vectoriel a correction derreur (vecm)."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [],
+          "references": [],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "1. apercu de la politique monetaire en zone cemac",
+      "paragraphs": [
+        "la politique monetaire des six etats membres de la cemac (cameroun, gabon, guinee equatoriale, congo, republique centrafricaine (rca)) est definie et conduite par la banque des etats de lafrique centrale (beac) depuis le debut des annees 1970. celleci, conformement a ses statuts, emet la monnaie de lunion monetaire et en garantit la stabilite . concretement, les objectifs finals de la politique monetaire sont dassurer la stabilite monetaire par le maintien dune faible progression de linflation et une forte couverture exterieure de la monnaie (meilleure constitution des reserves de change)1. la beac, comme bien dautres banques centrales, a adopte un principe que lon peut attribuer a la theorie monetariste : celui consistant a faire de la stabilite des prix, la priorite de la politique monetaire. ce principe est theoriquement fonde : (i) il decoule du fait que la stabilite des prix est reconnue comme la condition necessaire pour garantir une evolution durable dune economie le long de son sentier de croissance potentielle; (ii) il sappuie ensuite sur le fait que lorsque les anticipations dinflation a long terme sont fermes, la variabilite des taux dinteret a long terme est plus faible et il est plus facile pour les entreprises et les investisseurs de sengager dans des contrats a long terme (rogoff, 2003).",
+        "la beac vise ainsi une progression annuelle du taux dinflation de lordre de 3 % maximum et pour ce faire, elle sappuie sur deux objectifs intermediaires : lagregat monetaire m2 et le credit a leconomie dont les taux de croissance sont particulierement suivis. pour ce dernier indicateur, une valeur de reference compatible avec la stabilite des prix est de ce fait determinee a moyen terme par la programmation monetaire. pourquoi lier croissance monetaire et evolution des prix? dans son livre inflation et systemes monetaire2, milton friedman rehabilite par evidences empiriques la theorie quantitative de la monnaie. dans cet ouvrage, friedman affirme que : la cause immediate de linflation est toujours et partout la meme : un accroissement anormalement rapide de la quantite de monnaie par rapport au volume de la production . le graphique 1 montre levolution annuelle de la masse monetaire et celle de linflation dans quatre pays de la zone cemac.",
+        "bien quun examen visuel de ce graphique ne suffit pas a admettre une relation causale entre croissance monetaire et inflation, il nous permet neanmoins de constater que dans ces pays et la plupart de temps, des periodes dacceleration de linflation correspondent bien a des periodes de forte croissance de la masse monetaire3. cette correlation entre croissance monetaire et inflation a ete etudiee par barro, qui arriva a la conclusion selon laquelle il existe une relation stable entre le taux dinflation et le taux de croissance de la masse monetaire, a la fois synchronique cestadire entre les pays et a la meme date, et diachronique cestadire dans le temps pour un meme pays4 ."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "2. quelques considerations theoriques",
+      "paragraphs": [
+        "les theories visant a expliquer les comportements de detention dencaisses monetaires des agents non financiers ont fait lobjet dune abondante litterature et different dun auteur a lautre. ces divergences dopinion decoulent fondamentalement de la divergence de conceptions quant au role que joue la monnaie au sein de leconomie (intermediaire des echanges, unite de compte, reserve de valeur). pour les classiques (notamment ricardo, marx, walras), toutes les marchandises peuvent etre rapportees a une autre, cette derniere etant rapportee a ellememe : cest le role que joue la monnaie, et walras lappelle numeraire. comme telle, elle ninfluence pas les grandeurs reelles; il y a donc une separation entre la sphere reelle et la sphere monetaire : cest la dichotomie classique. de cette hypothese, decoule celle de neutralite, reformulee par la theorie quantitative (pigou, 1917 et marshall, 1923). en effet, ces auteurs, partant dune reflexion microeconomique etablissent que pour un individu donne, la demande de monnaie est proportionnelle au niveau nominal de revenu (py), toutes choses egales par ailleurs, ce qui permet dobtenir lequation agregee",
+        "dans lequation (2.1), le terme k (inverse de la vitesse de circulation) reflete le volume des transactions, mais pourrait dependre des facteurs tels que la richesse, le taux dinteret, etc. par rapport a la sensibilite de la demande de monnaie au taux dinteret, keynes (1936) fournit une explication plus convaincante5 : la fonction keynesienne de demande de monnaie secrit :",
+        "par ailleurs, baumol (1952) et tobin (1956) ont developpe une modelisation des comportements de demande de monnaie dans laquelle la monnaie est essentiellement vue comme un stock a des fins de transaction. ils montrent que sous certaines hypotheses dimperfection de marche, la demande de monnaie a des fins de transaction depend du cout dopportunite de detention de la monnaie et setablit :"
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "",
+          "image_href": "1910586n.jpg"
+        },
+        {
+          "content": "",
+          "image_href": "1910587n.jpg"
+        },
+        {
+          "content": "",
+          "image_href": "1910588n.jpg"
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [
+        {
+          "type": "equation",
+          "href": "1910586n.jpg",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "1910587n.jpg",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "1910588n.jpg",
+          "title": "equation pleine grandeur"
+        }
+      ],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "3. choix des variables et analyse stochastique des variables",
+      "paragraphs": [
+        "conformement aux theories precedemment passees en revue, nous retenons une specification de lequation de long terme de la forme :",
+        "lagregat monetaire : il sagit de la masse monetaire au sens large m2 constituee de la masse monetaire au sens strict m1 et de la quasimonnaie. en effet, cette variable est suivie par la beac comme indicateur de la politique monetaire.",
+        "la variable dechelle : le choix dune variable dechelle se base sur les theories economiques liant la demande de monnaie a une variable de transactions, et donc sa demande depend de la richesse totale des individus (theorie du choix des portefeuilles, theorie friedmanienne). dans ce sens, la richesse totale est une bonne mesure de la variable dechelle. elle est souvent approximee par le revenu permanent, mais cette derniere variable est rarement disponible. ici, nous utilisons le pib reel comme proxy de la variable de transaction. conformement a la theorie economique selon laquelle la demande de monnaie avec le revenu, nous anticipons un signe positif pour le coefficient δ. on a δ = 1 dans les theories monetaristes et δ = 0,5 dans les theories de stock de baumol et tobin.",
+        "le taux dinteret : afin de comprendre linfluence du taux dinteret sur la demande dencaisses monetaires, il faudrait se detourner du role de monnaie comme moyen de paiement et la considerer comme un actif financier a part entiere. sa detention depend alors de son prix relatif par rapport aux actifs alternatifs. dans ce cas, le taux dinteret varie en sens inverse des encaisses monetaires. en effet, une augmentation des taux dinteret sur les actifs alternatifs amenent les agents non financiers a orienter leurs epargnes vers les placements plus remunerateurs. cette conception theorique sera tout au moins nuancee, du fait de labsence de marches financiers viables dans la zone cemac, qui exprime en dautres termes la rarete des actifs alternatifs a la monnaie. cela nous conduit a considerer judicieusement le taux dinteret sur les depots a terme comme le principal prix de detention de la liquidite. du fait que ce taux remunere des actifs monetaires intrinseques a lagregat m2, il varie raisonnablement dans le meme sens que les encaisses monetaires et nous conduit a anticiper un signe positif pour θ.",
+        "linflation anticipee : dans les pays en developpement en general et dans la zone cemac en particulier, en labsence de marches financiers viables ou les agents peuvent disposer de placements en actifs financiers alternatifs a la monnaie, lacquisition des actifs reels apparait souvent comme un moyen de se proteger contre linflation. de ce point de vue, il existe une relation negative entre le taux dinflation et les encaisses monetaires, dans le sens ou une persistance de linflation peut amener les agents a se debarrasser de la monnaie pour acquerir des biens physiques durables6. le probleme peut etre aussi observe en sens inverse : en presence dune hausse generalisee des prix, les agents doivent augmenter leurs encaisses monetaires pour couvrir leurs depenses de transactions habituelles. dans ce cas, on sattend a ce le signe de μ soit positif.",
+        "le taux dinteret etranger : dans une perspective de globalisation financiere et de parfaite mobilite des capitaux, le taux de rendement espere des actifs etrangers, peut paraitre comme une variable de cout dopportunite de detention de la monnaie locale7.",
+        "les changements structurels sont mis en evidence par le test de bai et perron (1998) dont le principe est precise dans la soussection 1.3 de lannexe. ces tests de changement structurel sont realises a laide du logiciel r (progiciel strucchange). le nombre optimal de ruptures est obtenu grace au critere dinformation bic8, et evidemment a laide de la minimisation de la somme des carres des residus (voir graphique 3). les resultats sont synthetises dans les tableaux 1 et 2 et ou designe le nombre optimal de ruptures.",
+        "il ressort du tableau 1, que les series ont ete affectees de changements structurels de taux de croissance ou de niveau. pour le cameroun, les dates de rupture se situent aux environs des annees 1985 et 1986 dune part, et autour des annees 1993 et 1994, dautre part. ces dates renvoient respectivement a la crise economique et financiere survenue en 1986 et a la devaluation de 1994. dans le cas du gabon, les memes dates semblent revenir : les impacts de la crise economique et de la devaluation se font ressentir. la date de 1998 peut etre rattachee aux effets de la crise financiere asiatique de 1999. seule la date 1976 ne nous semble pas economiquement interpretable. le graphique represente quelques series ainsi que les dates de ruptures.",
+        "le meme test est effectue pour les series de la rca et du congo. ces resultats sont consignes dans le tableau 2. on peut noter que les dates 1982, 1984, 1985, 1993 et 1994 sont identifiees pour la rca, comme des annees ou les series auront connu des chocs significatifs. plus precisement, les annees 1984 et 1994 correspondent aux dates ou le pib reel connait une forte croissance positive (9,48 % en 1984 contre 4,9 % en 1994) apres plusieurs annees de croissance negative9. lannee 1985 correspond a la date ou linflation culmine a 34 % et connaitra une chute importante lannee suivante. de meme, les annees 1982 et 1993 correspondent a une acceleration de la croissance monetaire. a laide des memes procedures, le test detecte les annees 1981, 1985, 1993 et 1997 comme dates de changement structurel au congo. si lannee 1981 ne nous semble pas liee a un evenement notable dans leconomie congolaise, cest moins vrai pour les autres. en effet, les annees 1985 et 1993 precedent les grands evenements majeurs a savoir la crise economique de 1986 et la devaluation de 1994. de meme, lannee 1997 correspond au debut de la guerre civile au congo. certaines de ces series sont representees sur le graphique 4, ainsi que les dates de ruptures correspondantes.",
+        "en presence de ruptures dans la tendance de donnees, il est a noter que les tests usuels de racine unitaire (test adf par exemple) peuvent conduire a des rejets a tort de lhypothese alternative. dans la litterature, il existe plusieurs tests de racine unitaire tenant compte dune possibilite de rupture dans la tendance de la serie. nous pouvons citer a ce titre, le test de perron et ogelsang (1992), de bai et perron (1997), de banerjee et al. (1992), de zivot et andrews (1992). les deux derniers cites permettent de differencier un processus stationnaire avec rupture structurelle dun processus avec racine unitaire en tenant compte de la possibilite de rupture dans le processus generateur des donnees sous lhypothese alternative. dans ce travail, nous privilegions le test de zivot et andrews (1992) en raison de sa disponibilite dans certains logiciels10.",
+        "zivot et andrews (1992), considerent pour une serie {yt}t=1,...,t, lhypothese nulle selon laquelle la serie possede une racine unitaire sans changement structurel exogene.",
+        "sous h0, on a :",
+        "lhypothese alternative est celle de lexistence dune stationnarite autour dune tendance, avec un changement structurel survenu a une date inconnue tb sur le niveau de la serie, la pente ou les deux. cela revient a distinguer trois variantes sous lhypothese alternative, correspondant a trois modeles semblables a ceux de perron (1989). les equations de regressions sont donc celles de dickey et fuller modifiees dont les contours sont largement presentes en annexe.",
+        "ce test a ete applique et les principaux resultats sont synthetises dans les tableaux suivants (tableaux 3 et 4) dans lesquels represente la date de rupture estimee et tmin, la valeur minimale de la statistiquet associee a ρ. la decision sur lordre dintegration de la serie est donnee apres une eventuelle differenciation. le test de zivot et andrews detecte formellement la presence dune seule rupture, mais certains auteurs ladaptent de maniere a ce quil puisse rendre compte dune presence eventuelle de plusieurs ruptures, ceci en representant la courbe des valeurs de la statistiquet associee a ρ et en retenant graduellement les dates correspondant aux minimas de cette courbe (voir par exemple goux, 2005). une deuxieme date de rupture si elle est ainsi detectee sera representee dans le tableau et mise entre parenthese.",
+        "le tableau 3 nous rend compte des dates de ruptures au cameroun et au gabon. ces dates ne sont pas fondamentalement differentes de celles trouvees a la section precedente.",
+        "de meme, le tableau 4 presente la situation en rca et au congo. les deux dates de choc majeur sont une fois de plus revelees, a lexception des dates de rupture sur la croissance de m2, qui est de 1981 pour la rca et de 1999 pour le congo.",
+        "lanalyse precedente montre limportance de tenir compte des ruptures structurelles susceptibles daffecter levolution des series, ceci afin davoir entres autres, de plus amples connaissances sur la nature stochastique des variables. ces resultats seront pris en compte dans la section suivante portant sur lanalyse cointegrante des series."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "",
+          "image_href": "1910589n.jpg"
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [
+        {
+          "type": "forme",
+          "href": "1910612n.jpg",
+          "title": "forme pleine grandeur"
+        },
+        {
+          "type": "forme",
+          "href": "1910613n.jpg",
+          "title": "forme pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "1910589n.jpg",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "1910614n.jpg",
+          "title": "equation pleine grandeur"
+        }
+      ],
+      "references": [],
+      "subsections": [
+        {
+          "title": "3.1 modele de base",
+          "paragraphs": [
+            "conformement aux theories precedemment passees en revue, nous retenons une specification de lequation de long terme de la forme :"
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [],
+          "references": [],
+          "subsections": []
+        },
+        {
+          "title": "3.2 choix des variables et signe attendu des coefficients",
+          "paragraphs": [
+            "lagregat monetaire : il sagit de la masse monetaire au sens large m2 constituee de la masse monetaire au sens strict m1 et de la quasimonnaie. en effet, cette variable est suivie par la beac comme indicateur de la politique monetaire.",
+            "la variable dechelle : le choix dune variable dechelle se base sur les theories economiques liant la demande de monnaie a une variable de transactions, et donc sa demande depend de la richesse totale des individus (theorie du choix des portefeuilles, theorie friedmanienne). dans ce sens, la richesse totale est une bonne mesure de la variable dechelle. elle est souvent approximee par le revenu permanent, mais cette derniere variable est rarement disponible. ici, nous utilisons le pib reel comme proxy de la variable de transaction. conformement a la theorie economique selon laquelle la demande de monnaie avec le revenu, nous anticipons un signe positif pour le coefficient δ. on a δ = 1 dans les theories monetaristes et δ = 0,5 dans les theories de stock de baumol et tobin.",
+            "le taux dinteret : afin de comprendre linfluence du taux dinteret sur la demande dencaisses monetaires, il faudrait se detourner du role de monnaie comme moyen de paiement et la considerer comme un actif financier a part entiere. sa detention depend alors de son prix relatif par rapport aux actifs alternatifs. dans ce cas, le taux dinteret varie en sens inverse des encaisses monetaires. en effet, une augmentation des taux dinteret sur les actifs alternatifs amenent les agents non financiers a orienter leurs epargnes vers les placements plus remunerateurs. cette conception theorique sera tout au moins nuancee, du fait de labsence de marches financiers viables dans la zone cemac, qui exprime en dautres termes la rarete des actifs alternatifs a la monnaie. cela nous conduit a considerer judicieusement le taux dinteret sur les depots a terme comme le principal prix de detention de la liquidite. du fait que ce taux remunere des actifs monetaires intrinseques a lagregat m2, il varie raisonnablement dans le meme sens que les encaisses monetaires et nous conduit a anticiper un signe positif pour θ.",
+            "linflation anticipee : dans les pays en developpement en general et dans la zone cemac en particulier, en labsence de marches financiers viables ou les agents peuvent disposer de placements en actifs financiers alternatifs a la monnaie, lacquisition des actifs reels apparait souvent comme un moyen de se proteger contre linflation. de ce point de vue, il existe une relation negative entre le taux dinflation et les encaisses monetaires, dans le sens ou une persistance de linflation peut amener les agents a se debarrasser de la monnaie pour acquerir des biens physiques durables6. le probleme peut etre aussi observe en sens inverse : en presence dune hausse generalisee des prix, les agents doivent augmenter leurs encaisses monetaires pour couvrir leurs depenses de transactions habituelles. dans ce cas, on sattend a ce le signe de μ soit positif.",
+            "le taux dinteret etranger : dans une perspective de globalisation financiere et de parfaite mobilite des capitaux, le taux de rendement espere des actifs etrangers, peut paraitre comme une variable de cout dopportunite de detention de la monnaie locale7."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [],
+          "references": [],
+          "subsections": []
+        },
+        {
+          "title": "3.3 mise en evidence des ruptures structurelles",
+          "paragraphs": [
+            "les changements structurels sont mis en evidence par le test de bai et perron (1998) dont le principe est precise dans la soussection 1.3 de lannexe. ces tests de changement structurel sont realises a laide du logiciel r (progiciel strucchange). le nombre optimal de ruptures est obtenu grace au critere dinformation bic8, et evidemment a laide de la minimisation de la somme des carres des residus (voir graphique 3). les resultats sont synthetises dans les tableaux 1 et 2 et ou designe le nombre optimal de ruptures.",
+            "il ressort du tableau 1, que les series ont ete affectees de changements structurels de taux de croissance ou de niveau. pour le cameroun, les dates de rupture se situent aux environs des annees 1985 et 1986 dune part, et autour des annees 1993 et 1994, dautre part. ces dates renvoient respectivement a la crise economique et financiere survenue en 1986 et a la devaluation de 1994. dans le cas du gabon, les memes dates semblent revenir : les impacts de la crise economique et de la devaluation se font ressentir. la date de 1998 peut etre rattachee aux effets de la crise financiere asiatique de 1999. seule la date 1976 ne nous semble pas economiquement interpretable. le graphique represente quelques series ainsi que les dates de ruptures.",
+            "le meme test est effectue pour les series de la rca et du congo. ces resultats sont consignes dans le tableau 2. on peut noter que les dates 1982, 1984, 1985, 1993 et 1994 sont identifiees pour la rca, comme des annees ou les series auront connu des chocs significatifs. plus precisement, les annees 1984 et 1994 correspondent aux dates ou le pib reel connait une forte croissance positive (9,48 % en 1984 contre 4,9 % en 1994) apres plusieurs annees de croissance negative9. lannee 1985 correspond a la date ou linflation culmine a 34 % et connaitra une chute importante lannee suivante. de meme, les annees 1982 et 1993 correspondent a une acceleration de la croissance monetaire. a laide des memes procedures, le test detecte les annees 1981, 1985, 1993 et 1997 comme dates de changement structurel au congo. si lannee 1981 ne nous semble pas liee a un evenement notable dans leconomie congolaise, cest moins vrai pour les autres. en effet, les annees 1985 et 1993 precedent les grands evenements majeurs a savoir la crise economique de 1986 et la devaluation de 1994. de meme, lannee 1997 correspond au debut de la guerre civile au congo. certaines de ces series sont representees sur le graphique 4, ainsi que les dates de ruptures correspondantes.",
+            "en presence de ruptures dans la tendance de donnees, il est a noter que les tests usuels de racine unitaire (test adf par exemple) peuvent conduire a des rejets a tort de lhypothese alternative. dans la litterature, il existe plusieurs tests de racine unitaire tenant compte dune possibilite de rupture dans la tendance de la serie. nous pouvons citer a ce titre, le test de perron et ogelsang (1992), de bai et perron (1997), de banerjee et al. (1992), de zivot et andrews (1992). les deux derniers cites permettent de differencier un processus stationnaire avec rupture structurelle dun processus avec racine unitaire en tenant compte de la possibilite de rupture dans le processus generateur des donnees sous lhypothese alternative. dans ce travail, nous privilegions le test de zivot et andrews (1992) en raison de sa disponibilite dans certains logiciels10."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [
+            {
+              "type": "forme",
+              "href": "1910612n.jpg",
+              "title": "forme pleine grandeur"
+            },
+            {
+              "type": "forme",
+              "href": "1910613n.jpg",
+              "title": "forme pleine grandeur"
+            }
+          ],
+          "references": [],
+          "subsections": []
+        },
+        {
+          "title": "3.4 test de racine unitaire avec prise en compte des ruptures : le test de de zivot et andrews",
+          "paragraphs": [
+            "zivot et andrews (1992), considerent pour une serie {yt}t=1,...,t, lhypothese nulle selon laquelle la serie possede une racine unitaire sans changement structurel exogene.",
+            "sous h0, on a :",
+            "lhypothese alternative est celle de lexistence dune stationnarite autour dune tendance, avec un changement structurel survenu a une date inconnue tb sur le niveau de la serie, la pente ou les deux. cela revient a distinguer trois variantes sous lhypothese alternative, correspondant a trois modeles semblables a ceux de perron (1989). les equations de regressions sont donc celles de dickey et fuller modifiees dont les contours sont largement presentes en annexe.",
+            "ce test a ete applique et les principaux resultats sont synthetises dans les tableaux suivants (tableaux 3 et 4) dans lesquels represente la date de rupture estimee et tmin, la valeur minimale de la statistiquet associee a ρ. la decision sur lordre dintegration de la serie est donnee apres une eventuelle differenciation. le test de zivot et andrews detecte formellement la presence dune seule rupture, mais certains auteurs ladaptent de maniere a ce quil puisse rendre compte dune presence eventuelle de plusieurs ruptures, ceci en representant la courbe des valeurs de la statistiquet associee a ρ et en retenant graduellement les dates correspondant aux minimas de cette courbe (voir par exemple goux, 2005). une deuxieme date de rupture si elle est ainsi detectee sera representee dans le tableau et mise entre parenthese.",
+            "le tableau 3 nous rend compte des dates de ruptures au cameroun et au gabon. ces dates ne sont pas fondamentalement differentes de celles trouvees a la section precedente.",
+            "de meme, le tableau 4 presente la situation en rca et au congo. les deux dates de choc majeur sont une fois de plus revelees, a lexception des dates de rupture sur la croissance de m2, qui est de 1981 pour la rca et de 1999 pour le congo.",
+            "lanalyse precedente montre limportance de tenir compte des ruptures structurelles susceptibles daffecter levolution des series, ceci afin davoir entres autres, de plus amples connaissances sur la nature stochastique des variables. ces resultats seront pris en compte dans la section suivante portant sur lanalyse cointegrante des series."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [
+            {
+              "content": "",
+              "image_href": "1910589n.jpg"
+            }
+          ],
+          "tables": [],
+          "urls": [],
+          "media_objects": [
+            {
+              "type": "equation",
+              "href": "1910589n.jpg",
+              "title": "equation pleine grandeur"
+            },
+            {
+              "type": "equation",
+              "href": "1910614n.jpg",
+              "title": "equation pleine grandeur"
+            }
+          ],
+          "references": [],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "4. principe methodologique de la cointegration",
+      "paragraphs": [
+        "les outils econometriques relatifs a letude de demande de monnaie ont beaucoup evolue depuis labandon des modeles dajustement partiel vers la fin des annees 1970, apres que ceuxci aient demontre plusieurs insuffisances, notamment leur incapacite a expliquer les periodes troubles des annees 1973. la theorie de la cointegration parait alors de nos jours comme un outil important de letude des relations dequilibre de long terme entre plusieurs grandeurs macroeconomiques, notamment dans letude de la parite de pouvoir dachat (johansen et juselius, 1990; kugler et lenz, 1993), du taux de change entre divers pays (goux, 2005), ou de demande de monnaie (johansen et juselius, 1990; hendry, 1995). lidee a la base du principe de cointegration est quune ou plusieurs relations de long terme peuvent etre definies entre plusieurs variables, pourtant individuellement non stationnaires. de telles variables, meme si elles evoluent a court terme dans des directions differentes, seront ramenees a long terme les unes proches des autres par des forces economiques telles quun mecanisme de marche ou une intervention publique (granger, 1986).",
+        "introduite substantiellement par engle et granger (1987), la notion de cointegration a dans le temps evolue pour prendre en compte plusieurs relations de long terme. le modele statistique developpe a cet effet par johansen (1988), puis johansen et juselius a partir des annees 1990 sappuie sur un var a correction derreur (varecm ou vecm).",
+        "le modele statistique est un var dordre k, dont la forme reduite est formulee par lequation suivante :",
+        "quelques arrangements algebriques permettent decrire la relation (4.1) sous la forme dun modele vectoriel a correction derreur (vecm) de la maniere suivante :",
+        "cette derniere hypothese implique que xt est non stationnaire, mais que β′xt est stationnaire et peut etre interpretee comme la relation de cointegration ou de long terme (voir johansen et juselius, 1991). dans ce cas, r est le nombre de relation de cointegrations et α la matrice des poids. ses r colonnes lineairement independantes definissent les parametres dajustement et mesurent la vitesse de convergence vers lequilibre de long terme. β est le vecteur cointegrant, ses r colonnes lineairement independantes definissent les r relations de long terme. johansen (1988) formule lhypothese dexistence de r relations de cointegration par :",
+        "la specification du terme deterministe permet de prendre en compte la presence ou non dune constante ou tendance lineaire dans les relations de long terme ou de court terme.",
+        "deux types de tests bases sur le ratio de vraisemblance sont proposes par johansen et juselius (1990) pour determiner le nombre de relations de cointegration. le premier appele test de la trace, teste la cointegration de rang r contre la stationnarite des series et se formule par : h0 : rang π = r versus h1 : rang π = p.",
+        "la statistique de la trace [notee λtrace(r)] est donnee par :",
+        "la statistique de ce test [notee λmax(r)] est donnee par :",
+        "les tests dusage courant portent sur la restriction des parametres de long terme suggeres par les theories economiques. cest par exemple le cas lorsque nous aurions a tester econometriquement lhomogeneite de la demande de monnaie par rapport au prix ou par rapport au revenu (en imposant legalite a 1 de leurs elasticites). ce test est formalise par :",
+        "johansen et juselius (1991) proposent un ratio de vraisemblance pour tester lhypothese h2 contre h1, (notee 2 log q (h2 / h1)) qui est distribuee asymptotiquement suivant un χ2 (p s) × r degres de liberte.",
+        "un autre type de restriction peut porter sur la matrice des poids α. par exemple, sur la nullite dune ligne de α correspondant a labsence de poids dans les relations de cointegration pour une variable (cas de lexogeneite faible). ces restrictions sont imposes sur les poids α au moyen dune matrice a imposee par lutilisateur. plus formellement, le modele secrit :",
+        "on peut aussi tester la restriction conjointe sur les matrices α et β. ces types de tests sont concus par combinaison des deux tests precedents et formalises par :",
+        "la demarche classique que nous venons de decrire peut produire des resultats peu satisfaisants car la nonprise en compte des chocs majeurs dans la dynamique des donnees peut avoir des repercussions negatives sur la qualite du modele ou meme conduire a rejeter a tort lhypothese de cointegration (voir goux, 2005). en plus, elle ne nous permet pas de rendre compte de limpact de ces evenements exogenes. lapproche proposee par johansen, mosconi et nielsen (2000) surmonte cette insuffisance et permet de prendre en compte des ruptures dans la composante deterministe du vecm."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "",
+          "image_href": "1910590n.jpg"
+        },
+        {
+          "content": "",
+          "image_href": "1910591n.jpg"
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [
+        {
+          "type": "forme",
+          "href": "1910615n.jpg",
+          "title": "forme pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "1910590n.jpg",
+          "title": "equation pleine grandeur"
+        },
+        {
+          "type": "equation",
+          "href": "1910591n.jpg",
+          "title": "equation pleine grandeur"
+        }
+      ],
+      "references": [],
+      "subsections": [
+        {
+          "title": "4.1 presentation du modele statistique",
+          "paragraphs": [
+            "le modele statistique est un var dordre k, dont la forme reduite est formulee par lequation suivante :",
+            "quelques arrangements algebriques permettent decrire la relation (4.1) sous la forme dun modele vectoriel a correction derreur (vecm) de la maniere suivante :",
+            "cette derniere hypothese implique que xt est non stationnaire, mais que β′xt est stationnaire et peut etre interpretee comme la relation de cointegration ou de long terme (voir johansen et juselius, 1991). dans ce cas, r est le nombre de relation de cointegrations et α la matrice des poids. ses r colonnes lineairement independantes definissent les parametres dajustement et mesurent la vitesse de convergence vers lequilibre de long terme. β est le vecteur cointegrant, ses r colonnes lineairement independantes definissent les r relations de long terme. johansen (1988) formule lhypothese dexistence de r relations de cointegration par :",
+            "la specification du terme deterministe permet de prendre en compte la presence ou non dune constante ou tendance lineaire dans les relations de long terme ou de court terme.",
+            "deux types de tests bases sur le ratio de vraisemblance sont proposes par johansen et juselius (1990) pour determiner le nombre de relations de cointegration. le premier appele test de la trace, teste la cointegration de rang r contre la stationnarite des series et se formule par : h0 : rang π = r versus h1 : rang π = p.",
+            "la statistique de la trace [notee λtrace(r)] est donnee par :",
+            "la statistique de ce test [notee λmax(r)] est donnee par :",
+            "les tests dusage courant portent sur la restriction des parametres de long terme suggeres par les theories economiques. cest par exemple le cas lorsque nous aurions a tester econometriquement lhomogeneite de la demande de monnaie par rapport au prix ou par rapport au revenu (en imposant legalite a 1 de leurs elasticites). ce test est formalise par :",
+            "johansen et juselius (1991) proposent un ratio de vraisemblance pour tester lhypothese h2 contre h1, (notee 2 log q (h2 / h1)) qui est distribuee asymptotiquement suivant un χ2 (p s) × r degres de liberte.",
+            "un autre type de restriction peut porter sur la matrice des poids α. par exemple, sur la nullite dune ligne de α correspondant a labsence de poids dans les relations de cointegration pour une variable (cas de lexogeneite faible). ces restrictions sont imposes sur les poids α au moyen dune matrice a imposee par lutilisateur. plus formellement, le modele secrit :",
+            "on peut aussi tester la restriction conjointe sur les matrices α et β. ces types de tests sont concus par combinaison des deux tests precedents et formalises par :",
+            "la demarche classique que nous venons de decrire peut produire des resultats peu satisfaisants car la nonprise en compte des chocs majeurs dans la dynamique des donnees peut avoir des repercussions negatives sur la qualite du modele ou meme conduire a rejeter a tort lhypothese de cointegration (voir goux, 2005). en plus, elle ne nous permet pas de rendre compte de limpact de ces evenements exogenes. lapproche proposee par johansen, mosconi et nielsen (2000) surmonte cette insuffisance et permet de prendre en compte des ruptures dans la composante deterministe du vecm."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [
+            {
+              "content": "",
+              "image_href": "1910590n.jpg"
+            },
+            {
+              "content": "",
+              "image_href": "1910591n.jpg"
+            }
+          ],
+          "tables": [],
+          "urls": [],
+          "media_objects": [
+            {
+              "type": "forme",
+              "href": "1910615n.jpg",
+              "title": "forme pleine grandeur"
+            },
+            {
+              "type": "equation",
+              "href": "1910590n.jpg",
+              "title": "equation pleine grandeur"
+            },
+            {
+              "type": "equation",
+              "href": "1910591n.jpg",
+              "title": "equation pleine grandeur"
+            }
+          ],
+          "references": [],
+          "subsections": [
+            {
+              "title": "4.1.1 test de rang de cointegration",
+              "paragraphs": [
+                "deux types de tests bases sur le ratio de vraisemblance sont proposes par johansen et juselius (1990) pour determiner le nombre de relations de cointegration. le premier appele test de la trace, teste la cointegration de rang r contre la stationnarite des series et se formule par : h0 : rang π = r versus h1 : rang π = p.",
+                "la statistique de la trace [notee λtrace(r)] est donnee par :",
+                "la statistique de ce test [notee λmax(r)] est donnee par :"
+              ],
+              "citations": [],
+              "figures": [],
+              "formulas": [],
+              "tables": [],
+              "urls": [],
+              "media_objects": [],
+              "references": [],
+              "subsections": []
+            },
+            {
+              "title": "4.1.2 les tests de restriction lineaire",
+              "paragraphs": [
+                "les tests dusage courant portent sur la restriction des parametres de long terme suggeres par les theories economiques. cest par exemple le cas lorsque nous aurions a tester econometriquement lhomogeneite de la demande de monnaie par rapport au prix ou par rapport au revenu (en imposant legalite a 1 de leurs elasticites). ce test est formalise par :",
+                "johansen et juselius (1991) proposent un ratio de vraisemblance pour tester lhypothese h2 contre h1, (notee 2 log q (h2 / h1)) qui est distribuee asymptotiquement suivant un χ2 (p s) × r degres de liberte.",
+                "un autre type de restriction peut porter sur la matrice des poids α. par exemple, sur la nullite dune ligne de α correspondant a labsence de poids dans les relations de cointegration pour une variable (cas de lexogeneite faible). ces restrictions sont imposes sur les poids α au moyen dune matrice a imposee par lutilisateur. plus formellement, le modele secrit :",
+                "on peut aussi tester la restriction conjointe sur les matrices α et β. ces types de tests sont concus par combinaison des deux tests precedents et formalises par :"
+              ],
+              "citations": [],
+              "figures": [],
+              "formulas": [],
+              "tables": [],
+              "urls": [],
+              "media_objects": [],
+              "references": [],
+              "subsections": [
+                {
+                  "title": "tests de restriction sur les vecteurs cointegrants",
+                  "paragraphs": [
+                    "les tests dusage courant portent sur la restriction des parametres de long terme suggeres par les theories economiques. cest par exemple le cas lorsque nous aurions a tester econometriquement lhomogeneite de la demande de monnaie par rapport au prix ou par rapport au revenu (en imposant legalite a 1 de leurs elasticites). ce test est formalise par :",
+                    "johansen et juselius (1991) proposent un ratio de vraisemblance pour tester lhypothese h2 contre h1, (notee 2 log q (h2 / h1)) qui est distribuee asymptotiquement suivant un χ2 (p s) × r degres de liberte."
+                  ],
+                  "citations": [],
+                  "figures": [],
+                  "formulas": [],
+                  "tables": [],
+                  "urls": [],
+                  "media_objects": [],
+                  "references": [],
+                  "subsections": []
+                },
+                {
+                  "title": "tests sur les parametres dajustement",
+                  "paragraphs": [
+                    "un autre type de restriction peut porter sur la matrice des poids α. par exemple, sur la nullite dune ligne de α correspondant a labsence de poids dans les relations de cointegration pour une variable (cas de lexogeneite faible). ces restrictions sont imposes sur les poids α au moyen dune matrice a imposee par lutilisateur. plus formellement, le modele secrit :",
+                    "on peut aussi tester la restriction conjointe sur les matrices α et β. ces types de tests sont concus par combinaison des deux tests precedents et formalises par :"
+                  ],
+                  "citations": [],
+                  "figures": [],
+                  "formulas": [],
+                  "tables": [],
+                  "urls": [],
+                  "media_objects": [],
+                  "references": [],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "title": "4.1.3 lintroduction des ruptures structurelles",
+              "paragraphs": [
+                "la demarche classique que nous venons de decrire peut produire des resultats peu satisfaisants car la nonprise en compte des chocs majeurs dans la dynamique des donnees peut avoir des repercussions negatives sur la qualite du modele ou meme conduire a rejeter a tort lhypothese de cointegration (voir goux, 2005). en plus, elle ne nous permet pas de rendre compte de limpact de ces evenements exogenes. lapproche proposee par johansen, mosconi et nielsen (2000) surmonte cette insuffisance et permet de prendre en compte des ruptures dans la composante deterministe du vecm."
+              ],
+              "citations": [],
+              "figures": [],
+              "formulas": [],
+              "tables": [],
+              "urls": [],
+              "media_objects": [],
+              "references": [],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. donnees et strategie destimation",
+      "paragraphs": [
+        "les donnees vont de 1972 a 2006. lannee 1972 correspond a la date dentree en vigueur de la beac. les taux dinteret national et etranger sont issus du ifs du fonds monetaire international. les autres series quant a elles proviennent du world developpement indicator de la banque mondiale. lestimation du vecm se fait avec constante dans lespace de cointegration et dans le var en difference. la mauvaise completude de donnees pour le tchad et la guinee equatoriale nous amene a exclure ces deux pays dans la suite des estimations. le vecteur de variables endogene est defini par xt = (mt, pt, yt, it, πt, i*t)′. les analyses se font suivant la strategie suivante : 1test de cointegration; 2estimation du vecm; 3observation des residus; 4test de normalite et de bruit blanc des residus; 5introduction des dates de ruptures si necessaires. nous imposons ensuite les restrictions jusqua ce que tous les vecteurs cointegrants soient identifies12. en cas dexistence de plusieurs relations de cointegration, nous decidons didentifier par ailleurs la fonction de reaction de la banque centrale ou la relation de parite dinteret non couverte (pinc). la fonction de reaction sexprime par it = θ0 + θ1πt + θ2yt + ωzt + ∈t en supposant constants la croissance potentielle et le niveau dinflation desire. zt est un ensemble de variables additionnelles susceptibles dinfluencer la decision des autorites monetaires au moment ou elles fixent le taux dinteret13. les θi designent le poids accorde par les autorites monetaires a chaque variable. les coefficients trouves par taylor dans le cas de la reserve federale sont θ1 = 1,5 et θ2 = 0,5. la pinc en regime de change fixe et sous lhypothese de mobilite parfaite de capitaux sexprime par it i*t = c0 + ωt, ω un bruit blanc. tous les tests sont effectues au seuil 5 %."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "6. resultats de lestimation",
+      "paragraphs": [
+        "afin de corriger le defaut de normalite et prendre en compte les ruptures structurelles, nous avons introduit des variables muettes exogenes definies par du94 = 1{1994≤t≤2006} dans le modele des quatre pays en plus des specifiques pour chaque pays; du86 = 1{1972≤t≤1986} pour le cameroun et le congo; du82 = 1{1972≤t≤1982} pour la rca. ces dates de rupture sont issues des resultats du test de bai et perron (voir soussection 4.3).",
+        "les parametres de long terme identifies sont presentes dans le tableau 5 de la page suivante.",
+        "on note une homogeneiteprix de la demande de monnaie dans tous les pays (elasticite prix unitaire). les encaisses nominales croissant dans les memes proportions que les prix, nous sommes en situation dabsence dillusion monetaire a long terme. une elasticite unitaire du revenu est egalement observee dans tous les pays a lexception de la rca. dans les autres pays, lequation de la demande de monnaie peut donc sexprimer comme une equation de vitesse de circulation de la monnaie.",
+        "les differents coefficients lies au taux dinteret presentent le signe attendu14. une hausse des taux crediteurs amene les agents non financiers a detenir logiquement plus de monnaie a travers les depots remuneres. par contre la negativite des coefficients lies au taux dinflation (excepte en rca) induit une baisse dencaisses nominales en cas de hausse de linflation. cela correspond a une situation ou toute tendance haussiere de linflation amene les agents non financiers a substituer de la monnaie aux biens physiques. par ailleurs, au cameroun et au gabon, le taux dinteret reel simpose comme determinant de la demande de monnaie (β(i) = β(π)).",
+        "le taux dinteret etranger na pas une influence significative dans les comportements de demande de monnaie au congo et au gabon. a contrario, celuici a un effet negatif et significatif au cameroun et en rca. il revient donc a dire quen cas de hausse du taux dinteret etranger (francais), on assiste a une diminution des encaisses monetaires toutes choses etant egales dailleurs. cette situation peut etre assimilee a une fuite de capitaux. en cas de hausse du taux dinteret etranger, la beac ajuste toujours son taux dinteret directeur audessus de celuici afin de soutenir la fixite de la parite du franc cfa autour du niveau fixe.",
+        "prenant en compte les proprietes cidessus, la fonction de demande de monnaie peut donc sinterpreter comme une equation de vitesse de circulation de la monnaie dans les cas du cameroun, du congo et du gabon :",
+        "lune des relations de cointegration a ete identifiee comme la fonction de reaction de la banque centrale (voir tableau 5). dans le cas du cameroun et du congo les coefficients lies au taux dinflation et au revenu sont similaires a ceux trouves par taylor (respectivement 1,5 et 0,5). on note egalement une influence significative du taux dinteret etranger dans la fonction de reaction.",
+        "la pinc (troisieme relation de cointegration) nest pas conforme a la specification attendue : cestadire que le differentiel dinteret est uniquement fonction dune prime de risque constant et dun bruit blanc. cette situation peut etre justifiee par la situation ou lhypothese de mobilite parfaite de capitaux est violee en raison du triangle dincompatibilite de mundell. en effet, compte tenu de la fixite de la parite entre le franc cfa et la monnaie francaise (aujourdhui leuro), et face a une politique monetaire non unique entre la france et la zone cemac, la mobilite des capitaux ne peut etre parfaite entre les deux zones.",
+        "la matrice des poids est presentee dans le tableau 6 dans lequel les chiffres marques dun asterisque constituent les poids significatifs au seuil de 5 %. dans le cas du cameroun, une deviation a la hausse de la demande de monnaie par rapport a lequilibre de long terme sajuste par une baisse du taux dinteret etranger et de la masse monetaire la periode suivante. lajustement vers lequilibre de long terme est plus rapide par le biais du taux dinteret etranger que par celle de lagregat monetaire. pour le congo, on observe un ajustement lent vers lequilibre de long terme par le biais dune hausse des taux dinteret nationaux ou internationaux. dans le cas du gabon, tout excedent monetaire par rapport a la cible de long terme est resorbe la periode suivante par un ajustement rapide et a la baisse du taux dinteret. a loppose, on peut identifier dans chaque pays etudie, plusieurs variables faiblement exogenes a court terme (α = 0), en loccurrence le revenu y et la variable de prix p. le poids associe a ces variables est nul et par consequent, cellesci ne participent pas au mecanisme de correction derreur en cas de deviation par rapport a la cible de long terme. cette exogeneite faible a court terme peut etre en partie due a leffet des variables de rupture dans le modele. de facon generale, tout desequilibre monetaire est corrige par un ajustement des variables du secteur monetaire (taux dinteret ou masse monetaire).",
+        "nous avons limite notre attention aux equations de court terme liees a la demande de monnaie et en faisant abstraction des valeurs retardees des variables endogenes qui ne presentent pas grand interet ici (voir tableau 7). nous notons une influence significative et positive dans tous les pays (excepte le congo) de la devaluation du franc cfa de 1994 sur les comportements de demande de monnaie a court terme. cet effet se traduit par une hausse de demande de monnaie entre 26 % et 55 % selon les pays. par contre, la crise economique de 1986 a eu des repercussions sur le cameroun entrainant un ajustement des comportements des agents non financiers de pres de 38 %. pour autant, le graphique 5 presente en annexe montre que le systeme est reste stable dans chacun des pays etudie malgre limpact de ces chocs exogenes."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": [
+        {
+          "title": "6.1 equations de long terme",
+          "paragraphs": [
+            "les parametres de long terme identifies sont presentes dans le tableau 5 de la page suivante.",
+            "on note une homogeneiteprix de la demande de monnaie dans tous les pays (elasticite prix unitaire). les encaisses nominales croissant dans les memes proportions que les prix, nous sommes en situation dabsence dillusion monetaire a long terme. une elasticite unitaire du revenu est egalement observee dans tous les pays a lexception de la rca. dans les autres pays, lequation de la demande de monnaie peut donc sexprimer comme une equation de vitesse de circulation de la monnaie.",
+            "les differents coefficients lies au taux dinteret presentent le signe attendu14. une hausse des taux crediteurs amene les agents non financiers a detenir logiquement plus de monnaie a travers les depots remuneres. par contre la negativite des coefficients lies au taux dinflation (excepte en rca) induit une baisse dencaisses nominales en cas de hausse de linflation. cela correspond a une situation ou toute tendance haussiere de linflation amene les agents non financiers a substituer de la monnaie aux biens physiques. par ailleurs, au cameroun et au gabon, le taux dinteret reel simpose comme determinant de la demande de monnaie (β(i) = β(π)).",
+            "le taux dinteret etranger na pas une influence significative dans les comportements de demande de monnaie au congo et au gabon. a contrario, celuici a un effet negatif et significatif au cameroun et en rca. il revient donc a dire quen cas de hausse du taux dinteret etranger (francais), on assiste a une diminution des encaisses monetaires toutes choses etant egales dailleurs. cette situation peut etre assimilee a une fuite de capitaux. en cas de hausse du taux dinteret etranger, la beac ajuste toujours son taux dinteret directeur audessus de celuici afin de soutenir la fixite de la parite du franc cfa autour du niveau fixe.",
+            "prenant en compte les proprietes cidessus, la fonction de demande de monnaie peut donc sinterpreter comme une equation de vitesse de circulation de la monnaie dans les cas du cameroun, du congo et du gabon :",
+            "lune des relations de cointegration a ete identifiee comme la fonction de reaction de la banque centrale (voir tableau 5). dans le cas du cameroun et du congo les coefficients lies au taux dinflation et au revenu sont similaires a ceux trouves par taylor (respectivement 1,5 et 0,5). on note egalement une influence significative du taux dinteret etranger dans la fonction de reaction.",
+            "la pinc (troisieme relation de cointegration) nest pas conforme a la specification attendue : cestadire que le differentiel dinteret est uniquement fonction dune prime de risque constant et dun bruit blanc. cette situation peut etre justifiee par la situation ou lhypothese de mobilite parfaite de capitaux est violee en raison du triangle dincompatibilite de mundell. en effet, compte tenu de la fixite de la parite entre le franc cfa et la monnaie francaise (aujourdhui leuro), et face a une politique monetaire non unique entre la france et la zone cemac, la mobilite des capitaux ne peut etre parfaite entre les deux zones."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [],
+          "references": [],
+          "subsections": [
+            {
+              "title": "6.1.1 la fonction de demande de monnaie",
+              "paragraphs": [
+                "on note une homogeneiteprix de la demande de monnaie dans tous les pays (elasticite prix unitaire). les encaisses nominales croissant dans les memes proportions que les prix, nous sommes en situation dabsence dillusion monetaire a long terme. une elasticite unitaire du revenu est egalement observee dans tous les pays a lexception de la rca. dans les autres pays, lequation de la demande de monnaie peut donc sexprimer comme une equation de vitesse de circulation de la monnaie.",
+                "les differents coefficients lies au taux dinteret presentent le signe attendu14. une hausse des taux crediteurs amene les agents non financiers a detenir logiquement plus de monnaie a travers les depots remuneres. par contre la negativite des coefficients lies au taux dinflation (excepte en rca) induit une baisse dencaisses nominales en cas de hausse de linflation. cela correspond a une situation ou toute tendance haussiere de linflation amene les agents non financiers a substituer de la monnaie aux biens physiques. par ailleurs, au cameroun et au gabon, le taux dinteret reel simpose comme determinant de la demande de monnaie (β(i) = β(π)).",
+                "le taux dinteret etranger na pas une influence significative dans les comportements de demande de monnaie au congo et au gabon. a contrario, celuici a un effet negatif et significatif au cameroun et en rca. il revient donc a dire quen cas de hausse du taux dinteret etranger (francais), on assiste a une diminution des encaisses monetaires toutes choses etant egales dailleurs. cette situation peut etre assimilee a une fuite de capitaux. en cas de hausse du taux dinteret etranger, la beac ajuste toujours son taux dinteret directeur audessus de celuici afin de soutenir la fixite de la parite du franc cfa autour du niveau fixe.",
+                "prenant en compte les proprietes cidessus, la fonction de demande de monnaie peut donc sinterpreter comme une equation de vitesse de circulation de la monnaie dans les cas du cameroun, du congo et du gabon :"
+              ],
+              "citations": [],
+              "figures": [],
+              "formulas": [],
+              "tables": [],
+              "urls": [],
+              "media_objects": [],
+              "references": [],
+              "subsections": [
+                {
+                  "title": "homogeneite prix et revenu",
+                  "paragraphs": [
+                    "on note une homogeneiteprix de la demande de monnaie dans tous les pays (elasticite prix unitaire). les encaisses nominales croissant dans les memes proportions que les prix, nous sommes en situation dabsence dillusion monetaire a long terme. une elasticite unitaire du revenu est egalement observee dans tous les pays a lexception de la rca. dans les autres pays, lequation de la demande de monnaie peut donc sexprimer comme une equation de vitesse de circulation de la monnaie."
+                  ],
+                  "citations": [],
+                  "figures": [],
+                  "formulas": [],
+                  "tables": [],
+                  "urls": [],
+                  "media_objects": [],
+                  "references": [],
+                  "subsections": []
+                },
+                {
+                  "title": "influence du taux dinteret national et de linflation",
+                  "paragraphs": [
+                    "les differents coefficients lies au taux dinteret presentent le signe attendu14. une hausse des taux crediteurs amene les agents non financiers a detenir logiquement plus de monnaie a travers les depots remuneres. par contre la negativite des coefficients lies au taux dinflation (excepte en rca) induit une baisse dencaisses nominales en cas de hausse de linflation. cela correspond a une situation ou toute tendance haussiere de linflation amene les agents non financiers a substituer de la monnaie aux biens physiques. par ailleurs, au cameroun et au gabon, le taux dinteret reel simpose comme determinant de la demande de monnaie (β(i) = β(π))."
+                  ],
+                  "citations": [],
+                  "figures": [],
+                  "formulas": [],
+                  "tables": [],
+                  "urls": [],
+                  "media_objects": [],
+                  "references": [],
+                  "subsections": []
+                },
+                {
+                  "title": "le taux dinteret etranger",
+                  "paragraphs": [
+                    "le taux dinteret etranger na pas une influence significative dans les comportements de demande de monnaie au congo et au gabon. a contrario, celuici a un effet negatif et significatif au cameroun et en rca. il revient donc a dire quen cas de hausse du taux dinteret etranger (francais), on assiste a une diminution des encaisses monetaires toutes choses etant egales dailleurs. cette situation peut etre assimilee a une fuite de capitaux. en cas de hausse du taux dinteret etranger, la beac ajuste toujours son taux dinteret directeur audessus de celuici afin de soutenir la fixite de la parite du franc cfa autour du niveau fixe.",
+                    "prenant en compte les proprietes cidessus, la fonction de demande de monnaie peut donc sinterpreter comme une equation de vitesse de circulation de la monnaie dans les cas du cameroun, du congo et du gabon :"
+                  ],
+                  "citations": [],
+                  "figures": [],
+                  "formulas": [],
+                  "tables": [],
+                  "urls": [],
+                  "media_objects": [],
+                  "references": [],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "title": "6.1.2 la fonction de reaction de la banque centrale",
+              "paragraphs": [
+                "lune des relations de cointegration a ete identifiee comme la fonction de reaction de la banque centrale (voir tableau 5). dans le cas du cameroun et du congo les coefficients lies au taux dinflation et au revenu sont similaires a ceux trouves par taylor (respectivement 1,5 et 0,5). on note egalement une influence significative du taux dinteret etranger dans la fonction de reaction."
+              ],
+              "citations": [],
+              "figures": [],
+              "formulas": [],
+              "tables": [],
+              "urls": [],
+              "media_objects": [],
+              "references": [],
+              "subsections": []
+            },
+            {
+              "title": "6.1.3 la parite dinteret non couverte",
+              "paragraphs": [
+                "la pinc (troisieme relation de cointegration) nest pas conforme a la specification attendue : cestadire que le differentiel dinteret est uniquement fonction dune prime de risque constant et dun bruit blanc. cette situation peut etre justifiee par la situation ou lhypothese de mobilite parfaite de capitaux est violee en raison du triangle dincompatibilite de mundell. en effet, compte tenu de la fixite de la parite entre le franc cfa et la monnaie francaise (aujourdhui leuro), et face a une politique monetaire non unique entre la france et la zone cemac, la mobilite des capitaux ne peut etre parfaite entre les deux zones."
+              ],
+              "citations": [],
+              "figures": [],
+              "formulas": [],
+              "tables": [],
+              "urls": [],
+              "media_objects": [],
+              "references": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "6.2 equation de court terme et impact des chocs structurels",
+          "paragraphs": [
+            "la matrice des poids est presentee dans le tableau 6 dans lequel les chiffres marques dun asterisque constituent les poids significatifs au seuil de 5 %. dans le cas du cameroun, une deviation a la hausse de la demande de monnaie par rapport a lequilibre de long terme sajuste par une baisse du taux dinteret etranger et de la masse monetaire la periode suivante. lajustement vers lequilibre de long terme est plus rapide par le biais du taux dinteret etranger que par celle de lagregat monetaire. pour le congo, on observe un ajustement lent vers lequilibre de long terme par le biais dune hausse des taux dinteret nationaux ou internationaux. dans le cas du gabon, tout excedent monetaire par rapport a la cible de long terme est resorbe la periode suivante par un ajustement rapide et a la baisse du taux dinteret. a loppose, on peut identifier dans chaque pays etudie, plusieurs variables faiblement exogenes a court terme (α = 0), en loccurrence le revenu y et la variable de prix p. le poids associe a ces variables est nul et par consequent, cellesci ne participent pas au mecanisme de correction derreur en cas de deviation par rapport a la cible de long terme. cette exogeneite faible a court terme peut etre en partie due a leffet des variables de rupture dans le modele. de facon generale, tout desequilibre monetaire est corrige par un ajustement des variables du secteur monetaire (taux dinteret ou masse monetaire).",
+            "nous avons limite notre attention aux equations de court terme liees a la demande de monnaie et en faisant abstraction des valeurs retardees des variables endogenes qui ne presentent pas grand interet ici (voir tableau 7). nous notons une influence significative et positive dans tous les pays (excepte le congo) de la devaluation du franc cfa de 1994 sur les comportements de demande de monnaie a court terme. cet effet se traduit par une hausse de demande de monnaie entre 26 % et 55 % selon les pays. par contre, la crise economique de 1986 a eu des repercussions sur le cameroun entrainant un ajustement des comportements des agents non financiers de pres de 38 %. pour autant, le graphique 5 presente en annexe montre que le systeme est reste stable dans chacun des pays etudie malgre limpact de ces chocs exogenes."
+          ],
+          "citations": [],
+          "figures": [],
+          "formulas": [],
+          "tables": [],
+          "urls": [],
+          "media_objects": [],
+          "references": [],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "conclusion",
+      "paragraphs": [
+        "letude que nous venons de realiser met en evidence lexistence dune relation cointegrante de demande de monnaie dans les pays de la zone cemac15 en tenant compte dune possibilite de changements structurels affectant les agregats macroeconomiques utilises. lhypothese delasticite unitaire du revenu est verifiee dans tous les pays etudies excepte le cas de la rca. de meme, la neutralite a long terme de la monnaie ne peut etre rejetee dans les pays etudies. par ailleurs, le taux dinteret reel savere, pour la plupart des pays, un determinant de la demande de monnaie. en effet, la semielasticite liee au taux dinteret reste significativement positive et varie entre 35 % et 63 %. les comportements de demande de monnaie ne correspondent donc pas a la version la plus extreme de la theorie quantitative. cette influence significative du taux crediteur sur la demande de monnaie nest pas surprenante dans un contexte economique marque par labsence ou la rarete des actifs financiers alternatifs a la monnaie. enfin, la mise en evidence de lheterogeneite des comportements de demande de monnaie (dun point de vue des elasticites) dans les pays de la zone cemac, devrait inciter les autorites monetaires a tenir compte des specificites nationales. cette heterogeneite temoigne des effets differents de la politique monetaire a linterieur de chaque pays, et peut en effet se traduire par une hausse de la dispersion du taux dinflation dans la zone."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    }
+  ],
+  "figures": [
+    {
+      "label": "graphique 1",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 2",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 3",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 4",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 5",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 6",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 7",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 8",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 9",
+      "caption": "",
+      "source": ""
+    },
+    {
+      "label": "graphique 10",
+      "caption": "",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "label": "tableau 1",
+      "caption": "test de changement structurel sur les series camerounaises et gabonaises",
+      "source": "",
+      "rows": [
+        [
+          "series pays m dates de ruptures pays m dates de rupture y cameroun 2 (1985; 1994)** gabon 3 (1976; 1986; 1998)** m 1 1986* 1 1985* p 1 1986* 1 1985* i 1 1993** 1 1993**",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 2",
+      "caption": "test de changement structurel sur les series centrafricaines et congolaises",
+      "source": "",
+      "rows": [
+        [
+          "series pays m dates de ruptures pays m dates de rupture y rca 1 (1984; 1994)** congo 2 (1981; 1997)** m 2 (1982; 1993)** 1 1985* p 1 1985* 1 1985* i 1 1993** 1 1993**",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 3",
+      "caption": "resultats du test de zivotandrews sur les series camerounaises et gabonaises",
+      "source": "",
+      "rows": [
+        [
+          "series pays ¬tb tmin (v.crit) decision pays ¬tb tmin (v.crit) decision y cameroun 1988** 3,60 (4,80) i (1) gabon 1988** 5,23 (4,42) i (0) m 1987** 3,48 (5,43) i (1) 1986* 5,36 (5,08) i (0) p 1984* 3,44 (4,42) i (1) 1986* 4,80 (5,08) i (1) i 1994** 5,75 (5,08) i (0) 1994** 5,75 (5,08) i (0) π 1986 (1994) 4,85 (4,80) i (0) 1994 6,60 (4,80) i (0)",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 4",
+      "caption": "resultats du test de zivotandrews sur les series centra fricaines et congolaises",
+      "source": "",
+      "rows": [
+        [
+          "series pays tb tmin (v.crit) decision pays tb tmin (v.crit) decision y rca 1994** 3,17 (4,80) i (1) congo 1983** 4,01 (4,42) i (1) m 1981* 3,15 (4,43) i (1) 1999* 0,9 (5,08) i (1) p 1986* 5,00 ( 4,42) i (0) 1986* 4,68 (5,08) i (1) i 1994** 5,75 (5,08) i (0) 1994** 5,75 (5,08) i (0) π 1986 (1994) 6,15 (4,85) i (0) 1985 (1994) 6,15 (4,80) i (0)",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 5",
+      "caption": "vecteurs cointegrants",
+      "source": "",
+      "rows": [
+        [
+          "restrictions",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 6",
+      "caption": "la matrice des poids",
+      "source": "",
+      "rows": [
+        [
+          "δ(m) δ(p) δ(y) δ(i) δ(π) δ(i*) cameroun r2 = 0,812 ecm1 0,75* (2,28) 0,11 (0,61) 0,25 (1,44) 3,82 (1,18) 12,61 (0,63) 3,98* ( 2,35) ecm2 0,24* (2,31) 0,03 (0,59) 0,08 (1,52) 1,19 (1,14) 3,89 (0,61) 1,08* (2,00) ecm2 0,00 (0,57) 0,00 0,83 0,00 0,96 0,04 (0,68) 0,27 (0,66) 0,00 0,16 congo r2 = 0,453 ecm1 0,001 (0,79) 0 (0,45) 0 (0,86) 0,01* (3,76) 0,006 (0,06) 0,01* (5,22) ecm2 0,31 (0,62) 0,557 (1,72) 0,15 (0,95) 3,64* (2,13) 53,51 (1,49) 3,24* (5,02) gabon r2 = 0,880 ecm1 0,04 (0,91) 0,035 (0,56) 0,016 (0,50) 0,84* (2,65) 1,80 (0,27) 0,03 (0,15) ecm2 0,02 (0,66) 0,04 (0,84) 0,00 (0,12) 1,22* (4,49) 4,51 ( 0,81) 0,11 (0,57) ecm3 0,037* (2,83) 0,03 (1,69) 0,00 (0,39) 0,05 (0,55) 3,96* (2,07) 0,07 (1,02) rca r2 = 0,761 ecm1 0,01 (0,08) 0,092* (2,58) 0,132* (2,10) 0,05 (0,09) 9,69* (2,26) 0,56 (1,41) ecm2 0,11* (3,35) 0,05* (7,00) 0,004 (0,29) 0,43* (3,42) 6,15* (6,55) 0,07 (0,90) ecm3 0,11* (2,23) 0,001 (0,12) 0,04* (2,439) 0,59* (3,20) 0,26 (0,19) 0,27* (2,08)",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 7",
+      "caption": "parametres de court terme",
+      "source": "",
+      "rows": [
+        [
+          "equation de δ(mt) ecm1(t1) ecm2(t1) ecm3(t1) du86 du94 du82 constante cameroun 0,75 (2,28142) 0,24* (2,31402) 0,0038 (0,57614) 0,34* (4,81633) 0,42* (3,67298) 0,01 (0,01440) congo 0,001 (0,79512) 0,31 (0,62603) 0,186 (1,30995) 0,023 (0,08723) 0,00 gabon 0,04 (0,91476) 0,025 (0,66092) 0,037* ( 2,83551) 0,26* (2,19424) 0,13 (1,30974) rca 0,012 (0,08377) 0,112* (3,35636) 0,11* (2,23942) 0,558* (4,32357) 0,092 (1,03686) 1,14 (1,63043)",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 8",
+      "caption": "test de cointegration",
+      "source": "",
+      "rows": [
+        [
+          "test de rang de cointegration sans restriction (trace) hypothese nombre de ce(s) valeur deigen statistique trace 0,05 valeur critique probabilite",
+          ""
+        ]
+      ]
+    },
+    {
+      "label": "tableau 9",
+      "caption": "test dautocorrelation des residus",
+      "source": "",
+      "rows": [
+        [
+          "test du multiplicateur de lagrange de correlation serielle des residus du vecm h0 : pas de correlation serielle pour le retard dordre h cameroun congo gabon rca retard lmstat probabilite lmstat probabilite lmstat probabilite lmstat probabilite h = 1 h = 2 h = 3 60,16002 29,43361 32,98492 0,0001 0,2462 0,1314 40,09546 32,76175 30,79900 0,2934 0,6234 0,7142 38,14624 44,82455 37,84098 0,3721 0,1486 0,3853 39,94791 27,77958 42,87043 0,2990 0,8350 0,2002",
+          ""
+        ]
+      ]
+    }
+  ]
+}

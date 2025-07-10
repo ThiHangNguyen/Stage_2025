@@ -1,0 +1,2454 @@
+{
+  "title": "pivots et elections*",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "jeanfrancois",
+      "last_name": "laslier",
+      "affiliation": "paris school of economics cnrs cnrs universite parisdauphine philippe richert (union de la droite, ud)",
+      "email": "jeanfrancois.laslier@ens.fr",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "matias",
+      "last_name": "nunez",
+      "affiliation": "ug)",
+      "email": "matias.nunez@dauphine.fr",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "cet article decrit de maniere sommaire les principaux modeles de vote strategique avec un grand nombre delecteurs, dits modeles delections de masse.dans ces modeles, on suppose que lelecteur decide de son vote en fonction des pivots, cestadire des evenements ou son unique voix va faire une difference quant au resultat de lelection.les principaux messages de ces modeles sont illustres avec des exemples simples; ils sont ensuite presentes plus en detail; on examine enfin leurs applications et limites, notamment en ce qui concerne leconomie experimentale.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "annexes": [],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "baujard, antoinette",
+        "gavrel, frederic",
+        "igersheim, herrade",
+        "laslier, jeanfrancois",
+        "lebon, isabelle"
+      ],
+      "title": "vote par approbation, vote par note",
+      "monograph_title": "revue economique",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2013. 2012",
+      "pages": "345356",
+      "volume": "vol. 64",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/reco.642.0006",
+      "raw_reference": "baujard, a., f. gavrel, h. igersheim, j.f. laslier et i. lebon (2013), vote par approbation, vote par note : une experimentation lors des elections presidentielles francaises du 22 avril 2012 , revue economique, 64(2) : 345356."
+    },
+    {
+      "authors": [
+        "bhattacharya, s"
+      ],
+      "title": "preference monotonicity and information aggregation in elections",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2013",
+      "pages": "12291247",
+      "volume": "81",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta8311",
+      "raw_reference": "bhattacharya, s. (2013), preference monotonicity and information aggregation in elections , econometrica, 81(3) : 12291247."
+    },
+    {
+      "authors": [
+        "blais, andre"
+      ],
+      "title": "to vote or not to vote",
+      "monograph_title": "to vote or not to vote?: the merits and limits of rational choice theory",
+      "editors": [],
+      "publisher": "university of pittsburgh press",
+      "place": "",
+      "date": "2000",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/j.ctt5hjrrf",
+      "raw_reference": "blais, a. (2000), to vote or not to vote?: the merits and limits of rational choice theory, university of pittsburgh press."
+    },
+    {
+      "authors": [
+        "blais, andre",
+        "degan, arianna"
+      ],
+      "title": "letude empirique du vote strategique",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2016",
+      "pages": "47",
+      "volume": "93",
+      "issue": "12",
+      "organization": "",
+      "notes": "ce numero",
+      "url": "",
+      "doi": "10.7202/1044715ar",
+      "raw_reference": "blais, a. et a. degan (2016), letude du vote strategique , lactualite econo mique, ce numero."
+    },
+    {
+      "authors": [
+        "blais, andre",
+        "massicotte, louis",
+        "dobrzynska, agnieszka"
+      ],
+      "title": "direct presidential elections: a world summary",
+      "monograph_title": "electoral studies",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1997",
+      "pages": "441455",
+      "volume": "16",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s02613794(97)000206",
+      "raw_reference": "blais, a., l. massicotte et a. dobrzynska (1997), direct presidential elections: a world summary , electoral studies, 16 : 441455."
+    },
+    {
+      "authors": [
+        "blais, andre",
+        "pilet, jeanbenoit",
+        "van der straeten, karine",
+        "laslier, jeanfrancois",
+        "herouxlegault, maxime"
+      ],
+      "title": "to vote or to abstain? an experimental test of rational calculus in first past the post and pr elections",
+      "monograph_title": "electoral studies",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "3950",
+      "volume": "36",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.electstud.2014.07.001",
+      "raw_reference": "blais, a., j.b. pilet, k. van der straeten, j.f. laslier et m. herouxlegault (2014), to vote or to abstain? an experimental test of rational calculus in first past the post and pr elections , electoral studies, 36 : 3950."
+    },
+    {
+      "authors": [
+        "blais, andre",
+        "young, robert"
+      ],
+      "title": "why do people vote? an experiment in rationality",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1999",
+      "pages": "3955",
+      "volume": "99",
+      "issue": "1/2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1018341418956",
+      "raw_reference": "blais, a. et r. young (1999), why do people vote? an experiment in rationality , public choice, 99(12) : 3955."
+    },
+    {
+      "authors": [
+        "borda, j",
+        "de"
+      ],
+      "title": "",
+      "monograph_title": "memoire sur les elections au scrutin",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1781",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "borda, j.c. de. (1781), memoire sur les elections au scrutin."
+    },
+    {
+      "authors": [
+        "bouton, laurent"
+      ],
+      "title": "a theory of strategic voting in runoff elections",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2013",
+      "pages": "12481288",
+      "volume": "103",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.103.4.1248",
+      "raw_reference": "bouton, l. (2013), theory of strategic voting in runoff elections , the american economic review, 103(4) : 12481288."
+    },
+    {
+      "authors": [
+        "bouton, l",
+        "castanheira, m"
+      ],
+      "title": "one person, many votes: divided majority and information aggregation",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2012",
+      "pages": "4387",
+      "volume": "80",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta9111",
+      "raw_reference": "bouton, l. et m. castanheira (2012), one person, many votes: divided majority and information aggregation , econometrica, 80 : 4387."
+    },
+    {
+      "authors": [
+        "bouton, laurent",
+        "castanheira, micael",
+        "llorentesaguer, aniol"
+      ],
+      "title": "divided majority and information aggregation: theory and experiment",
+      "monograph_title": "journal of public economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "114128",
+      "volume": "134",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jpubeco.2015.11.003",
+      "raw_reference": "bouton, l., m. castanheira et a. llorentesaguer (2016a), divided majority and information aggregation: theory and experiment , journal of public economics, 134 : 114128."
+    },
+    {
+      "authors": [
+        "bouton, laurent",
+        "castanheira, micael",
+        "llorentesaguer, aniol"
+      ],
+      "title": "multicandidate elections: aggregate uncertainty in the laboratory",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016b",
+      "pages": "132150",
+      "volume": "101",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2015.10.003",
+      "raw_reference": "bouton, l., m. castanheira et a. llorentesaguer (2016b), multicandidate elections: aggregate uncertainty in the laboratory , games and economic behavior."
+    },
+    {
+      "authors": [
+        "bouton, laurent",
+        "gratton, gabriele"
+      ],
+      "title": "majority runoff elections: strategic voting and duvergers hypothesis",
+      "monograph_title": "theoretical economics",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2015",
+      "pages": "283314",
+      "volume": "10",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/te1642",
+      "raw_reference": "bouton, l. et g. gratton (2015), majority runoff elections: strategic voting and duvergers hypothesis , theoretical economics, 10(2) : 283314."
+    },
+    {
+      "authors": [
+        "brams, s",
+        "fishburn, p"
+      ],
+      "title": "approval voting",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "boston",
+      "date": "1983",
+      "pages": "389390",
+      "volume": "44",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00118772",
+      "raw_reference": "brams, s.j. et p. c. fishburn (1983), approval voting, birkhauser, boston."
+    },
+    {
+      "authors": [
+        "brams, steven",
+        "fishburn, peter"
+      ],
+      "title": "going from theory to practice: the mixed success of approval voting",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2005",
+      "pages": "457474",
+      "volume": "25",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550050013y",
+      "raw_reference": "brams, s.j. et p. c. fishburn (2005), going from theory to practice: the mixed success of approval voting , social choice and welfare, 25 : 457474."
+    },
+    {
+      "authors": [
+        "brennan, geoffrey",
+        "hamlin, alan"
+      ],
+      "title": "expressive voting and electoral equilibrium",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1998",
+      "pages": "149175",
+      "volume": "95",
+      "issue": "1/2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1004936203144",
+      "raw_reference": "brennan, g. et a. hamlin (1998), expressive voting and electoral equilibrium , public choice, 95(12) : 149175."
+    },
+    {
+      "authors": [
+        "campbell, donald",
+        "kelly, jerry"
+      ],
+      "title": "gains from manipulating social choice rules",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2009",
+      "pages": "349371",
+      "volume": "40",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019900803806",
+      "raw_reference": "campbell, d.e. et j.s. kelly (2009), gains from manipulating social choice rules , economic theory, 40 : 349371."
+    },
+    {
+      "authors": [
+        "campbell, donald",
+        "kelly, jerry"
+      ],
+      "title": "breadth of loss due to manipulation",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "393414",
+      "volume": "55",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019901307524",
+      "raw_reference": "campbell, d.e. et j.s. kelly (2013), breadth of loss due to manipulation , economic theory. doi: 10.1007/s0019901307524."
+    },
+    {
+      "authors": [
+        "castanheira, micael"
+      ],
+      "title": "victory margins and the paradox of voting",
+      "monograph_title": "european journal of political economy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2003",
+      "pages": "817841",
+      "volume": "19",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01762680(03)000387",
+      "raw_reference": "castanheira, m. (2003), victory margins and the paradox of voting , european journal of political economy, 19(4) : 817841."
+    },
+    {
+      "authors": [
+        "chamberlain, gary",
+        "rothschild, michael"
+      ],
+      "title": "a note on the probability of casting a decisive vote",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1981",
+      "pages": "152162",
+      "volume": "25",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/00220531(81)900223",
+      "raw_reference": "chamberlain, g. et m. rothschild (1981), a note on the probability of casting a decisive vote , journal of economic theory, 25(1) : 152162."
+    },
+    {
+      "authors": [
+        "chatterji, shurojit",
+        "sen, arunava"
+      ],
+      "title": "topsonly domains",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2011",
+      "pages": "255282",
+      "volume": "46",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019900905092",
+      "raw_reference": "chatterji, s. et a. sen (2011), topsonly domains , economic theory, 46 : 255282."
+    },
+    {
+      "authors": [
+        "cox, gary"
+      ],
+      "title": "strategic voting equilibria under the single nontransferable vote",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1994",
+      "pages": "608621",
+      "volume": "88",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2944798",
+      "raw_reference": "cox, g. w. (1994), strategic voting equilibria under the single nontransferable vote , american political science review : 608621."
+    },
+    {
+      "authors": [
+        "cox, gary"
+      ],
+      "title": "making votes count",
+      "monograph_title": "making votes count: strategic coordination in the worlds electoral systems",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "1997",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9781139174954",
+      "raw_reference": "cox, g. w. (1997), making votes count: strategic coordination in the worlds electoral systems, cambridge univ press."
+    },
+    {
+      "authors": [
+        "de sinopoli, francesco",
+        "dutta, bhaskar",
+        "laslier, jeanfrancois"
+      ],
+      "title": "approval voting: three examples",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2006",
+      "pages": "2738",
+      "volume": "35",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0018200600532",
+      "raw_reference": "de sinopoli, f., b. dutta et j.f. laslier (2006), approval voting: three examples , international journal of game theory, 38 : 2738."
+    },
+    {
+      "authors": [
+        "dellis, arnaud"
+      ],
+      "title": "weak undominance in scoring rule elections",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "110119",
+      "volume": "59",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2009.11.002",
+      "raw_reference": "dellis, a. (2010), weak undominance in scoring rule elections , mathematical social sciences, 59(1) : 110119."
+    },
+    {
+      "authors": [
+        "dowding, keith",
+        "van hees, martin"
+      ],
+      "title": "in praise of manipulation",
+      "monograph_title": "british journal of political science",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2008",
+      "pages": "115",
+      "volume": "38",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s000712340800001x",
+      "raw_reference": "dowding, k. et m. van hees (2008), in praise of manipulation , british journal of political science, 38 : 115."
+    },
+    {
+      "authors": [
+        "duverger, m"
+      ],
+      "title": "",
+      "monograph_title": "les partis politiques",
+      "editors": [],
+      "publisher": "colin",
+      "place": "",
+      "date": "1951",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "duverger, m. (1951), les partis politiques. colin."
+    },
+    {
+      "authors": [
+        "endriss, ulle"
+      ],
+      "title": "sincerity and manipulation under approval voting",
+      "monograph_title": "theory and decision",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "335355",
+      "volume": "74",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s112380129301z",
+      "raw_reference": "endriss, u. (2013), sincerity and manipulation under approval voting , theory and decision, 74 : 335355."
+    },
+    {
+      "authors": [
+        "evans, jonathan",
+        "newstead, stephen",
+        "byrne, ruth"
+      ],
+      "title": "",
+      "monograph_title": "human reasoning",
+      "editors": [],
+      "publisher": "psychology press",
+      "place": "",
+      "date": "1993",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4324/9781315785028",
+      "raw_reference": "evans, j. s. b., s. newstead et r. mj. byrne (1993), human reasoning: the psychology of deduction, psychology press."
+    },
+    {
+      "authors": [
+        "feddersen, timothy"
+      ],
+      "title": "a voting model implying duvergers law and positive turnout",
+      "monograph_title": "american journal of political science",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1992",
+      "pages": "938",
+      "volume": "36",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2111355",
+      "raw_reference": "feddersen, t. (1992), a voting model implying duvergers law and positive turnout , american journal of political science : 938962."
+    },
+    {
+      "authors": [
+        "feddersen, t",
+        "pesendorfer, w"
+      ],
+      "title": "the swing voters curse",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1996",
+      "pages": "408424",
+      "volume": "86",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "feddersen, t. et w. pesendorfer (1996), the swing voters curse , american economic review, 86 : 408424."
+    },
+    {
+      "authors": [
+        "feddersen, timothy",
+        "pesendorfer, wolfgang"
+      ],
+      "title": "voting behavior and information aggregation in elections with private information",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1997",
+      "pages": "1029",
+      "volume": "65",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2171878",
+      "raw_reference": "feddersen, t. et w. pesendorfer (1997), voting behavior and information aggregation in elections with private information , econometrica, 65 : 10291058."
+    },
+    {
+      "authors": [
+        "feddersen, timothy",
+        "pesendorfer, wolfgang"
+      ],
+      "title": "convicting the innocent: the inferiority of unanimous jury verdicts under strategic voting",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1998",
+      "pages": "2335",
+      "volume": "92",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2585926",
+      "raw_reference": "feddersen, t. et w. pesendorfer (1998), convicting the innocent: the inferiority of unanimous jury verdicts under strategic voting , american political science review, 92 : 2235."
+    },
+    {
+      "authors": [
+        "fey, mark"
+      ],
+      "title": "stability and coordination in duvergers law: a formal model of preelection polls and strategic voting",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1997",
+      "pages": "135147",
+      "volume": "91",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2952264",
+      "raw_reference": "fey, m. (1997), stability and coordination in duvergers law: a formal model of preelection polls and strategic voting , american political science review, 91(01) : 135147."
+    },
+    {
+      "authors": [
+        "fiorina, morris"
+      ],
+      "title": "the voting decision: instrumental and expressive aspects",
+      "monograph_title": "the journal of politics",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1976",
+      "pages": "390413",
+      "volume": "38",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2129541",
+      "raw_reference": "fiorina, m.p. (1976), the voting decision: instrumental and expressive aspects , the journal of politics, 38(02) : 390413."
+    },
+    {
+      "authors": [
+        "fisher, s",
+        "myatt, d"
+      ],
+      "title": "",
+      "monograph_title": "strategic voting experiments",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2002",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "nuffield college politics working paper",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fisher, s. d. et d.p. myatt (2002), strategic voting experiments , technical report, nuffield college politics working paper."
+    },
+    {
+      "authors": [
+        "fisher, s",
+        "myatt, m"
+      ],
+      "title": "",
+      "monograph_title": "strategic voting in plurality rule elections",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2014",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "mimeo, london business school",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fisher, s. et m. myatt (2014), strategic voting in plurality rule elections , technical report, mimeo, london business school."
+    },
+    {
+      "authors": [
+        "forand, jean",
+        "maheshri, vikram"
+      ],
+      "title": "a dynamic duvergers law",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2015",
+      "pages": "285306",
+      "volume": "165",
+      "issue": "34",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1112701603098",
+      "raw_reference": "forand, j.g. et v. maheshri (2015), a dynamic duvergers law , public choice, 165(34) : 285306."
+    },
+    {
+      "authors": [
+        "forsythe, robert",
+        "myerson, rogerb.",
+        "rietz, thomasa.",
+        "weber, robertj."
+      ],
+      "title": "an experiment on coordination in multicandidate elections: the importance of polls and election histories",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1993",
+      "pages": "223247",
+      "volume": "10",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00182507",
+      "raw_reference": "forsythe, r. r.b. myerson, t.a. rietz et r.j. weber(1993), an experiment on coordination in multicandidate elections: the importance of polls and election histories , social choice and welfare, 10(3) : 223247."
+    },
+    {
+      "authors": [
+        "goertz, johanna",
+        "maniquet, francois"
+      ],
+      "title": "on the informational efficiency of simple scoring rules",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "14641480",
+      "volume": "146",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2011.03.001",
+      "raw_reference": "goertz, j. et f. maniquet (2011), on the informational efficiency of simple scoring rules , journal of economic theory, 146 : 14641480."
+    },
+    {
+      "authors": [
+        "good, i",
+        "mayer, lawrence"
+      ],
+      "title": "estimating the efficacy of a vote",
+      "monograph_title": "behavioral science",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1975",
+      "pages": "2533",
+      "volume": "20",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/bs.3830200104",
+      "raw_reference": "good, i.j. et i.s. mayer (1975), estimating the efficacy of a vote , behavioral science, 20(1) : 2533."
+    },
+    {
+      "authors": [
+        "green, d",
+        "gerber, a"
+      ],
+      "title": "",
+      "monograph_title": "get out the vote: how to increase voter turnout",
+      "editors": [],
+      "publisher": "brookings institution press",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "green, d.p. et a.s. gerber (2008), get out the vote: how to increase voter turnout, brookings institution press."
+    },
+    {
+      "authors": [
+        "guarnaschelli, serena",
+        "mckelvey, richard",
+        "palfrey, thomas"
+      ],
+      "title": "an experimental study of jury decision rules",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2000",
+      "pages": "407423",
+      "volume": "94",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2586020",
+      "raw_reference": "guarnaschelli, s., r.d. mckelvey et t.r. palfrey (2000), an experimental study of jury decision rules , american political science review, 94(02) : 407423."
+    },
+    {
+      "authors": [
+        "igersheim, herrade",
+        "baujard, antoinette",
+        "laslier, jeanfrancois"
+      ],
+      "title": "la question du vote. experimentations en laboratoire et in situ",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2016",
+      "pages": "151189",
+      "volume": "92",
+      "issue": "12",
+      "organization": "",
+      "notes": "la question du vote",
+      "url": "",
+      "doi": "10.7202/1039875ar",
+      "raw_reference": "igersheim, h., a. baujard et j.f. laslier (2016), la question du vote. experimentations en laboratoire et in situ , lactualite economique, 92 : 151189."
+    },
+    {
+      "authors": [
+        "jackson, matthew"
+      ],
+      "title": "a crash course in implementation theory",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2001",
+      "pages": "655708",
+      "volume": "18",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550100152",
+      "raw_reference": "jackson, m.(2001), a crash course in implementation theory , social choice and welfare, 18 : 655708."
+    },
+    {
+      "authors": [
+        "kabre, a",
+        "laslier, j.f",
+        "wantchekon, l"
+      ],
+      "title": "",
+      "monograph_title": "about political polarization in africa: an experiment on approval voting in benin",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2015",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kabre, a., j.f. laslier et l. wantchekon (2015), about political polarization in africa: an experiment on approval voting in benin , mimeo."
+    },
+    {
+      "authors": [
+        "lang, j"
+      ],
+      "title": "le faible taux de chomage de la region de quebec est le reflet de son faible pouvoir dattraction",
+      "monograph_title": "grandeur et misere de nos choix economiques",
+      "editors": [],
+      "publisher": "presses de luniversite laval",
+      "place": "",
+      "date": "2015",
+      "pages": "111116",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/j.ctv1gbrxzd.24",
+      "raw_reference": "lang, j. (2015), le choix social a laide de lelecteur de gauche desempare en region grand est , mimeo."
+    },
+    {
+      "authors": [
+        "laslier, jeanfrancois"
+      ],
+      "title": "the leader rule",
+      "monograph_title": "journal of theoretical politics",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2009",
+      "pages": "113136",
+      "volume": "21",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0951629808097286",
+      "raw_reference": "laslier, j.f. (2009), the leader rule: a model of strategic approval voting in a large electorate , journal of theoretical politics, 21 : 113136."
+    },
+    {
+      "authors": [
+        "laslier, jeanfrancois",
+        "sanver, m"
+      ],
+      "title": "the basic approval voting game",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [],
+      "publisher": "springer berlin heidelberg",
+      "place": "heildelberg",
+      "date": "2010",
+      "pages": "153163",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783642028397_8",
+      "raw_reference": "laslier, jf. et m.r. sanver (2010), handbook on approval voting. heildelberg: springerverlag."
+    },
+    {
+      "authors": [
+        "laslier, jeanfrancois",
+        "van der straeten, karine"
+      ],
+      "title": "une experience de vote par assentiment lors de lelection presidentielle francaise de 2002",
+      "monograph_title": "revue francaise de science politique",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2004. 2002",
+      "pages": "99",
+      "volume": "54",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/rfsp.541.0099",
+      "raw_reference": "laslier, jf. et k. van der straeten (2004), une experience de vote par assenti ment lors de lelection presidentielle francaise de 2002 , revue francaise de science politique, 54 : 99130."
+    },
+    {
+      "authors": [
+        "ledyard, john"
+      ],
+      "title": "the pure theory of large twocandidate elections",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1984",
+      "pages": "741",
+      "volume": "44",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00124816",
+      "raw_reference": "ledyard, j. o. (1984), the pure theory of large twocandidate elections , public choice, 44(1) : 741."
+    },
+    {
+      "authors": [
+        "levine, david",
+        "palfrey, thomas"
+      ],
+      "title": "the paradox of voter participation? a laboratory study",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2007",
+      "pages": "143158",
+      "volume": "101",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0003055407070013",
+      "raw_reference": "levine, d. k et t.r. palfrey (2007), the paradox of voter participation? a laboratory study , american political science review, 101(1) : 143158."
+    },
+    {
+      "authors": [
+        "man, priscilla",
+        "takayama, shino"
+      ],
+      "title": "a unifying impossibility theorem",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "249271",
+      "volume": "54",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019901307506",
+      "raw_reference": "man, p.t.y. et s.a. takayama (2013), a unifiying impossiblity theorem , economic theory, 54 : 249271."
+    },
+    {
+      "authors": [
+        "mandler, michael"
+      ],
+      "title": "the fragility of information aggregation in large elections",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "257268",
+      "volume": "74",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2011.03.004",
+      "raw_reference": "mandler, m. (2012), the fragility of information aggregation in large elections , games and economic behavior, 74(1) : 257268."
+    },
+    {
+      "authors": [
+        "martinelli, c&#x000e9;sar"
+      ],
+      "title": "simple plurality versus plurality runoff with privately informed voters",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2002",
+      "pages": "901919",
+      "volume": "19",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550200167",
+      "raw_reference": "martinelli, c. (2002), simple plurality versus plurality runoff with privately informed voters , social choice and welfare, 19(4) : 901919."
+    },
+    {
+      "authors": [
+        "mclennan, andrew"
+      ],
+      "title": "manipulation in elections with uncertain preferences",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "370375",
+      "volume": "47",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmateco.2010.12.012",
+      "raw_reference": "mclennan, a. (2011), manipulation in elections with uncertain preferences , journal of mathematical economics, 47 : 370375."
+    },
+    {
+      "authors": [
+        "merrill, samuel",
+        "nagel, jack"
+      ],
+      "title": "the effect of approval balloting on strategic voting under alternative decision rules",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1987",
+      "pages": "509524",
+      "volume": "81",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1961964",
+      "raw_reference": "merill, s. et j. nagel (1987), the effect of approval balloting on strategic voting under alternative decision rules , american political science review, 81 : 509524."
+    },
+    {
+      "authors": [
+        "myatt, david"
+      ],
+      "title": "on the theory of strategic voting1",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2007",
+      "pages": "255281",
+      "volume": "74",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.1467937x.2007.00421.x",
+      "raw_reference": "myatt, d.p. (2007), on the theory of strategic voting , the review of economic studies, 74(1) : 255281."
+    },
+    {
+      "authors": [
+        "myatt, d"
+      ],
+      "title": "the social theory of turnout",
+      "monograph_title": "voter turnout",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "2015",
+      "pages": "98124",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9781139058513.007",
+      "raw_reference": "myatt, d.p. (2015), a theory of voter turnout , mimeo."
+    },
+    {
+      "authors": [
+        "myerson, r"
+      ],
+      "title": "refinements of the nash equilibrium concept",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1978",
+      "pages": "7380",
+      "volume": "7",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01753236",
+      "raw_reference": "myerson, r.(1978), refinements of the nash equilibrium concept , international journal of game theory, 15 : 133154."
+    },
+    {
+      "authors": [
+        "myerson, roger"
+      ],
+      "title": "comparison of scoring rules in poisson voting games",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "219251",
+      "volume": "103",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jeth.2001.2830",
+      "raw_reference": "myerson, r. (2002), comparison of scoring rules in poisson voting games , journal of economic theory, 103 : 219251."
+    },
+    {
+      "authors": [
+        "myerson, roger"
+      ],
+      "title": "extended poisson games and the condorcet jury theorem",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1998",
+      "pages": "111131",
+      "volume": "25",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1997.0610",
+      "raw_reference": "myerson, r. (1998a), extended poisson games and the condorcet jury theorem , games and economic behavior, 25 : 111131."
+    },
+    {
+      "authors": [
+        "myerson, roger"
+      ],
+      "title": "population uncertainty and poisson games",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1998b",
+      "pages": "375392",
+      "volume": "27",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s001820050079",
+      "raw_reference": "myerson, r. (1998b), population uncertainty and poisson games , international journal of game theory, 27 : 375392."
+    },
+    {
+      "authors": [
+        "myerson, roger"
+      ],
+      "title": "large poisson games",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2000",
+      "pages": "745",
+      "volume": "94",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jeth.1998.2453",
+      "raw_reference": "myerson, r. (2000), large poisson games , journal of economic theory, 94 : 745."
+    },
+    {
+      "authors": [
+        "myerson, roger",
+        "weber, robert"
+      ],
+      "title": "a theory of voting equilibria",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1993",
+      "pages": "102114",
+      "volume": "87",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2938959",
+      "raw_reference": "myerson, r. et r.j. weber (1993), a theory of voting equilibria , american political science review, 87 : 102114."
+    },
+    {
+      "authors": [
+        "nunez, m"
+      ],
+      "title": "condorcet consistency of approval voting: a counter example in large poisson games",
+      "monograph_title": "journal of theoretical politics",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2010",
+      "pages": "6484",
+      "volume": "22",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0951629809348268",
+      "raw_reference": "nunez, m. (2010), condorcet consistency of approval voting: a counter example on large poisson games , journal of theoretical politics, 22 : 6484."
+    },
+    {
+      "authors": [
+        "nunez, matias"
+      ],
+      "title": "the strategic sincerity of approval voting",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2014",
+      "pages": "157189",
+      "volume": "56",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s001990130775x",
+      "raw_reference": "nunez, m. (2014), the strategic sincerity of approval voting , economic theory, 56(1) : 157189."
+    },
+    {
+      "authors": [
+        "nunez, matias",
+        "xefteris, dimitrios"
+      ],
+      "title": "electoral thresholds as coordination devices",
+      "monograph_title": "the scandinavian journal of economics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2015",
+      "pages": "346374",
+      "volume": "119",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/sjoe.12175",
+      "raw_reference": "nunez, m. et d. xefteris (2015), electoral thresholds as coordination devices , the scandinavian journal of economics, 119(2) : 346374."
+    },
+    {
+      "authors": [
+        "piketty, thomas"
+      ],
+      "title": "voting as communicating",
+      "monograph_title": "review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2000",
+      "pages": "169191",
+      "volume": "67",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/1467937x.00126",
+      "raw_reference": "piketty, t. (2000), voting as communicating , the review of economic studies, 67(1) : 169191."
+    },
+    {
+      "authors": [
+        "reitz, t",
+        "myerson, r",
+        "weber, r"
+      ],
+      "title": "campaign finance levels as coordinating signals in three‐way, experimental elections",
+      "monograph_title": "economics & politics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1998",
+      "pages": "185218",
+      "volume": "10",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680343.00044",
+      "raw_reference": "rietz, t., r. myerson et r. weber (1998), campaign finance levels as coordinating signals in threeway, experimental elections , economics & politics, 10(3) : 185218."
+    },
+    {
+      "authors": [
+        "riker, william"
+      ],
+      "title": "the twoparty system and duvergers law: an essay on the history of political science",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1982",
+      "pages": "753766",
+      "volume": "76",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1962968",
+      "raw_reference": "riker, w.h. (1982), the twoparty system and duvergers law: an essay on the history of political science , american political science review, 76(04) : 753766."
+    },
+    {
+      "authors": [
+        "riker, w"
+      ],
+      "title": "duvergers law revisited",
+      "monograph_title": "electoral laws and their political consequences",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1986",
+      "pages": "1942",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "riker, w.h. (1986), duvergers law revisited , electoral laws and their political consequences : 1942."
+    },
+    {
+      "authors": [
+        "riker, william",
+        "ordeshook, peter"
+      ],
+      "title": "a theory of the calculus of voting",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1968",
+      "pages": "2542",
+      "volume": "62",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1953324",
+      "raw_reference": "riker, w.h. et p.c. ordeshook (1968), a theory of the calculus of voting , american political science review, 62(1) : 2542."
+    },
+    {
+      "authors": [
+        "roemer, j"
+      ],
+      "title": "",
+      "monograph_title": "political competition: theory and applications",
+      "editors": [],
+      "publisher": "harvard university press",
+      "place": "",
+      "date": "2009",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "roemer, j.e. (2009), political competition: theory and applications, harvard university press."
+    },
+    {
+      "authors": [
+        "sanver, r"
+      ],
+      "title": "approval as an intrinsic part of preference",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [
+        "laslier, j",
+        "sanver, r"
+      ],
+      "publisher": "springer berlin heidelberg",
+      "place": "heildelberg",
+      "date": "2010",
+      "pages": "469481",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783642028397_20",
+      "raw_reference": "sanver, r. (2010), approval as an intrinsic part of preference , in laslier, j.f. et r. sanver (eds), handbook on approval voting, heildelberg: springerverlag."
+    },
+    {
+      "authors": [
+        "sauger, nicolas",
+        "blais, andra©",
+        "laslier, jeanfrana§ois",
+        "van der straeten, karine"
+      ],
+      "title": "strategic voting in the laboratory",
+      "monograph_title": "experimental political science",
+      "editors": [
+        "kittel, b",
+        "luhan, w",
+        "morton, r"
+      ],
+      "publisher": "palgrave macmillan",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1057/9781137016645.0012",
+      "raw_reference": "sauger, n., a. blais, j.f. laslier et k. van der straeten (2012), strategic voting in the laboratory , in b. kittel, w. luhan, et r. morton (eds), experimental political science: principles and practices, palgravemacmillan."
+    },
+    {
+      "authors": [
+        "schram, arthur",
+        "sonnemans, joep"
+      ],
+      "title": "voter turnout as a participation game: an experimental investigation",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1996",
+      "pages": "385406",
+      "volume": "25",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf02425263",
+      "raw_reference": "schram, a. et j. sonnemans (1996), voter turnout as a participation game: an experimental investigation , international journal of game theory, 25(3) : 385406."
+    },
+    {
+      "authors": [
+        "schram, arthur",
+        "sonnemans, joep"
+      ],
+      "title": "why people vote: experimental evidence",
+      "monograph_title": "journal of economic psychology",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1996",
+      "pages": "417442",
+      "volume": "17",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01674870(96)000220",
+      "raw_reference": "schram, a. et j. sonnemans (1996), why people vote: experimental evidence , journal of economic psychology, 17(4) : 417442."
+    },
+    {
+      "authors": [
+        "tyran, j.r"
+      ],
+      "title": "voting when money and morals conflict: an experimental test of expressive voting",
+      "monograph_title": "journal of public economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004",
+      "pages": "16451664",
+      "volume": "88",
+      "issue": "78",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00472727(03)000161",
+      "raw_reference": "tyran, j.r. (2004), voting when money and morals conflict: an experimental test of expressive voting , journal of public economics, 88(7) : 16451664."
+    },
+    {
+      "authors": [
+        "van der straeten, karine",
+        "laslier, jeanfrancois",
+        "blais, andre"
+      ],
+      "title": "vote au pluriel: how people vote when offered to vote under different rules",
+      "monograph_title": "political science and politics",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2013",
+      "pages": "324328",
+      "volume": "46",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s1049096513000036",
+      "raw_reference": "van der straeten, k., j.f. laslier et a, blais (2013), vote au pluriel: how people vote when offered to vote under different rules , ps: political science & politics, 46(2) : 324328."
+    },
+    {
+      "authors": [
+        "van der straeten, karine",
+        "laslier, jeanfrancois",
+        "blais, andre"
+      ],
+      "title": "patterns of strategic voting in runoff elections",
+      "monograph_title": "voting experiments",
+      "editors": [
+        "blais, a",
+        "laslier, j.f",
+        "van der straeten, k"
+      ],
+      "publisher": "springer international publishing",
+      "place": "",
+      "date": "2015",
+      "pages": "215236",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "voting experiments",
+      "url": "",
+      "doi": "10.1007/9783319405735_11",
+      "raw_reference": "van der straeten, k., j.f. laslier et a, blais (2015), patterns of strategic voting in runoff elections , a paraitre dans blais, a., j.f. laslier et k. van der straeten (eds), voting experiments, springer."
+    },
+    {
+      "authors": [
+        "van der straeten, karine",
+        "laslier, jeanfrancois",
+        "sauger, nicolas",
+        "blais, andre"
+      ],
+      "title": "strategic, sincere, and heuristic voting under four election rules: an experimental study",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2010",
+      "pages": "435472",
+      "volume": "35",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035501004487",
+      "raw_reference": "van der straeten, k., j.f. laslier, n. sauger et a. blais, (2010), strategic, sincere, and heuristic voting under four election rules: an experimental study , social choice and welfare, 35(3) : 435472."
+    },
+    {
+      "authors": [
+        "van der straeten, karine",
+        "sauger, nicolas",
+        "laslier, jeanfrancois",
+        "blais, andre"
+      ],
+      "title": "sorting out mechanical and psychological effects in candidate elections: an appraisal with experimental data",
+      "monograph_title": "british journal of political science",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2013",
+      "pages": "937944",
+      "volume": "43",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0007123412000579",
+      "raw_reference": "van der straeten, k., n. sauger, j.f. laslier, j.f. et a. blais (2013), sorting out mechanical and psychological effects in candidate elections: an appraisal with experimental data , british journal of political science, 43(04) : 937944."
+    },
+    {
+      "authors": [
+        "wolitzky, alexander"
+      ],
+      "title": "fully sincere voting",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "720735",
+      "volume": "67",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2009.01.001",
+      "raw_reference": "wolitzky, a. (2009), fully sincere voting , games and economic behaviour, 67 : 720735."
+    }
+  ],
+  "notes": [
+    "[12] voirvan der straeten et al. (2013) pour une analyse experimentale de ce laminage.",
+    "[13] pour une analyse plus approfondie de la litterature empirique sur le vote strategique, voir la contributionde blais et degan (2016) dans ce meme numero."
+  ],
+  "body": [
+    {
+      "title": "",
+      "paragraphs": [
+        "sandrine belier (europe ecologie les verts, eelv), ecologistes 6,70 laurent jacobelli (debout la france, dlf), droite 4,78 jeangeorges trouillet (unser land), regionaliste 4,74 patrick peron (front de gauche, fg), extreme gauche 3,07 julien wostyn (lutte ouvriere), extreme gauche 1,48 david wentzel (union populaire republicaine), droite 1,23",
+        "seules pouvaient se presenter au second tour les listes atant obtenu au moins 10 % des voix au premier tour.la liste ug etait la liste soutenue par le parti socialiste.afin de faire barrage au front national, le parti socialiste (ps) a demande a j.p.masseret de ne pas presenter sa liste au second tour.j.p.masseret et ses colistiers sont passes outre et ont perdu, de ce fait, le label quils avaient au premier tour.au second tour restaient donc en lice trois listes : celle du front national, celle de lunion de la droite et celle conduite par j.p.masseret, desormais etiquetee divers gauche (dg).ceci a conduit a une situation inhabituelle : lappel du ps et du gouvernement socialiste a voter pour la liste ud malgre la presence de la liste dg.",
+        "que doit faire un electeur rationnel dans pareil cas?quelles sont les predictions faites par la theorie des elections de masse dans un tel cadre?pourquoi le ps atil besoin dappeler ses electeurs a ne pas voter pour son propre candidat?telles sont les questions auxquelles nous tenterons de repondre dans cet article.",
+        "pour ce faire, il convient dabord, avant de rappeler les definitions formelles, dillustrer certaines predictions de la theorie des elections de masse dans le cadre de lelection de la region du grand est.",
+        "il sagit delire lassemblee regionale.lelection en question suit une regle de proportionalite avec prime au vainqueur : le nombre de sieges attribues a chaque liste est proportionel a son score, avec une prime de 25 % des sieges pour la liste arrivee en tete.lexistence de cette prime importante ramene en pratique cette election proportionnelle vers une election de type majoritaire.en effet, la liste arrivee en tete a de fait de fortes chances detre a elle seule majoritaire a lassemblee, et en tout cas de faire elire le president de lassemblee.",
+        "supposons que le seul but des electeurs du deuxieme tour est delire le president de la region 1 , en dautres mots, leur utilite depend uniquement du candidat elu et non pas de la distribution des votes (qui, ceci dit, peut avoir une influence sur la repartition du pouvoir au sein du gouvernement).pour simplifier, nous diviserons les electeurs en trois groupes ou types.le premier dentre eux rassemble les electeurs qui preferent la victoire du fn a celle des deux autres partison les appellera les electeurs de type fn.les electeurs des deux autres types sont ceux qui ne veulent pas la victoire du fn mais qui sont partages entre ceux qui preferent lud a dg 1.",
+        "supposer que les electeurs sinteressent uniquement au gagnant de lelection et non pas aux pourcentages obtenus par les differents partis est une hypothese simplificatrice, qui est utilisee de maniere quasi exhaustive dans les modeles delections de masse, a quelques exceptions pres (voir par exemple nunez et xefteris, 2015).notons cependant dans le cadre de lelection du grand est, la representation obtenue in fine dans la region a une certaine dose de proportionnalite.et vice versa.aucun des trois groupes ne rassemble plus de 50 % de lelectorat mais les electeurs de type ud et dg forment ensemble une majorite.",
+        "les electeurs majoritaires se trouvent alors face a un dilemme.sils parviennent a se coordonner, ces electeurs peuvent imposer un de leurs candidats comme president.ils ont forcement interet a se coordonner car en cas de mesentente, ils se retrouveront dans la situation quaucun deux ne souhaite : lelection du candidat fn.cette situation est donc tres similaire a un exemple classique de la theorie du vote dit de la majorite divisee decrit par myerson et weber (1993) 2 .nous la representons par le tableau suivant."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "type delecteur",
+      "paragraphs": [
+        "utilite proportion de lelectorat fn (10, 0, 0) a < 0,5 ud (0, 10, 9) b < a dg (0, 9, 10) g < a note : avec a + b + g = 1.",
+        "lorsquon represente lutilite dun electeur de type ud par le vecteur (0,10,9), cela signifie que cet electeur associe un paiement de 0 pour la victoire du parti fn, 10 pour celle du parti ud et de 9 pour celle de dg.lappel du ps et du gouvernement aux electeurs de type dg a voter pour ud est clairement un appel a la coordination des electeurs.cette coordination semble souhaitable pour ces electeurs.en effet, si tous les electeurs votent de maniere sincere (cestadire pour leur parti prefere), ceci conduit a la victoire du parti fn.or, pour une majorite delecteurs, cette issue est la moins souhaitable.ceci dit, lexistence meme de cette consigne suggere que la situation ou chaque type delecteur ne vote que pour son parti prefere est tout a fait possible.en effet, comme le demontrent myerson et weber (1993), les trois cas de figure (vote des electeurs uddg pour ud, vote des electeurs uddg pour dg, et chaque electeur vote pour son parti prefere 3 ) sont des situations dequilibre 4 .ceci veut dire que la regle de la pluralite ne garantit pas la coordination des electeurs de maniere systematique : en dautres mots, cette regle ne fournit pas aux electeurs les bonnes incitations pour pouvoir se coordonner systematiquement sur un des partis/candidats preferes par la majorite."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "2.",
+      "paragraphs": [
+        "lelection presidentielle americaine de 1912 est souvent citee comme exemple de ce type de divisions.borda (1781) analyse egalement un probleme similaire."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "3.",
+      "paragraphs": [
+        "ce dernier type dequilibre, ou les votes ne sont pas concentres sur deux des candidats, est souvent instable comme demontre par fey (1997), dans un modele delections a la myerson et weber (1993)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "4.",
+      "paragraphs": [
+        "a lequilibre, aucun electeur na interet a devier de maniere unilaterale etant donne son information et les bulletins choisis par les autres electeurs.",
+        "bien quil semble raisonnable, pour cette majorite, de se coordonner de maniere collective, reste a savoir comment doit agir individuellement un electeur rationnel dans cette situation.doitil suivre lappel du ps ou au contraire voter de maniere sincere?ce comportement optimal de lelecteurdit rationneldepend de ses preferences et surtout de ses croyances par rapport aux chances de gagner des differents candidats.existetil des systemes electoraux qui permettent aux electeurs de se coordonner correctement ou, au contraire, tout systeme doitil mener inevitablement a des defaillances de coordination?autant de questions auxquelles nous tacherons de repondre en considerant principalement les elections a plus de deux candidats.a cet effet, la premiere partie de notre revue de litterature (section 1) sera consacre a ce que nous appelerons le modele de base qui reprend en grande partie celui de myerson et weber (1993).nous presenterons ensuite deux exemples simples pour illustrer les messages principaux de cette litterature (section 2).la troisieme partie, plus technique, sera consacree au calcul et a lestimation des probabilites pivots dans les modeles binomiaux et de poisson (sections 3.1 et 3.2).enfin, nous discuterons des quelques applications des modeles de grandes elections comme les problemes de coordination, le systeme a deux tours et les modeles dincertitude agregee, et des limites de ces modeles mises en evidence par leconomie experimentale (section 4)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "le modele de myersonweber",
+      "paragraphs": [
+        "sera repris ici, en grande partie, le modele propose par myerson et weber (1993), en laissant de cote la plupart des arguments techniques.la specificite du modele presente reside dans sa simplicite : les probabilites des evenements pivot (ou probabilites pivot plus simplement) ne sont jamais calculees ni estimees.le raisonnement strategique des electeurs depend de la tres astucieuse condition dordre qui permet detablir des ordres de grandeur de ces probabilites et donc de simplifier enormement le raisonnement strategique.nous etudierons plus tard deux methodes destimation de ces probabilites proposees par myerson (2000) et laslier (2009).mais il en existe bien dautres, tels par exemple ceux de ledyard (1984) et cox (1994) qui estiment les probabilites pivot en utilisant des techniques combinatoires."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "structure du modele",
+      "paragraphs": [
+        "les ensembles finis delecteurs et de candidats sont respectivement designes par n = {1,...,n} et x = {a, b,...,k}.notons que n est suppose etre grand.les preferences dun electeur sont representees par une fonction dutilite u : x → r , ou u(x) est egal a lutilite que lelecteur obtient en cas de victoire du candidat x.",
+        "les electeurs votent de maniere simultanee en choisissant un bulletin dans un ensemble fini v de bulletins.par exemple, si on applique la regle de la pluralite, chaque electeur vote pour un seul des candidats ou sabstient.il choisit donc un bulletin v = (v a ,..., v k ) ∈ v p ou v x ∈ {0, 1} represente le nombre de points associe au candidat x et il y a au plus un v x = 1.par exemple, a trois candidats, lensemble v p des bulletins de pluralite est le suivant :",
+        "v p = {(1, 0, 0), (0, 1, 0), (0, 0, 1), (0, 0, 0),}.",
+        "si la regle est le vote par assentiment (voir brams et fishburn, 1983;laslier et sanver, 2010, entre autres) chaque electeur a le droit de donner un point a nimporte quel sousensemble de candidats.lensemble de bulletins autorises sous cette regle, v a , est lensemble de bulletins v tels que v x ∈ {0, 1}.a nouveau a trois candidats, v a est tel que :",
+        "si la regle de borda est utilisee, lelecteur doit classer les candidats.on peut donc la representer en definissant chaque bulletin par une liste de nombres",
+        ". lensemble v b de bulletins est lensemble des permutations de b et labstention.ceci implique quavec trois candidats, lensemble des bulletins est egal a :",
+        ", (1/2, 0, 1), (0, 1/2, 1), (0, 1, 1/2), (0, 0, 0)}.",
+        "pour toute paire de candidats x, y ∈ x, la relation majoritaire m est definie ainsi :",
+        "le gagnant de condorcet (gc) est le candidat qui est mprefere a tout autre candidat : x est le gc si et seulement si xmy pour tout y ∈ x \\ {x}.son existence nest pas garantie pour tout profil de preferences, cestadire quil existe des profils qui nen possedent pas (sauf si lon fait des hypotheses de restriction de domaines comme lunimodalite).de meme, sil existe un candidat x tel que tout autre candidat y est mprefere a x, on dit que ce candidat est le perdant de condorcet (pc)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "pour chaque electeur i ∈ n et toute paire de candidats x, y ∈ x, x ≻ i y ⇔ u i (x) > u i (y).",
+          "image_href": ""
+        },
+        {
+          "content": "v a = v p ∪ {(1, 1, 0), (1, 0, 1), (0, 1, 1), (1, 1, 1),}.",
+          "image_href": ""
+        },
+        {
+          "content": "b = (b 1 ,...,b k ) avec b j = k j k 1",
+          "image_href": ""
+        },
+        {
+          "content": "v b = {(1, 1/2, 0), (1, 0, 1/2), (1/2, 1, 0)",
+          "image_href": ""
+        },
+        {
+          "content": "x est mprefere a y, xmy, si et seulement si n(x, y) > n(y, x) , avec n(x, y) = #{i ∈ n | x ≻ i y}.",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "comportement strategique des electeurs",
+      "paragraphs": [
+        "chaque electeur maximise son utilite esperee et choisit, pour ce faire, un bulletin dans lensemble v. nous supposerons tout au long de cet article que son vote na dimpact sur son paiement qua la condition de modifier le gagnant de lelection.afin de pouvoir determiner lutilite esperee des differents bulletins, un electeur a des lors besoin davoir une opinion a priori sur les ordres de grandeur de ce type de situations, qui sont appeles les evenements pivots.",
+        "deux candidats sont ex aequo si leur score est le meme.lensemble h decrit les paires non ordonnees de candidats.la paire {x, y} ∈ h est simplement notee xy avec xy = yx.pour chaque paire xy ∈ h, la probabilite p xy est la probabilite de levenement les candidats x et y sont premiers ex aequo .le vecteur pivot p = (p xy ) xy ∈ h represente les differentes probabilites pivots pour les differentes paires de candidats.on impose une symetrie de linformation de maniere exogene : le vecteur pivot p est connu par tous les electeurs par hypothese.etant donne le vecteur pivot p, un electeur qui choisit le bulletin v pense que : la probabilite detre decisif entre y et x est proportionnelle a p xy × max{v xv y , 0}.plus precisement, etre decisif entre y et x lorsquon choisit v signifie que x remplace y comme gagnant de lelection lorsquau lieu de sabstenir, lelecteur choisit le bulletin v. ce changement du gagnant ne peut arriver que si v x ≥ v y .autrement dit, la probabilite detre decisif entre y et x en choisissant le bulletin v est proportionnelle a v xv y et p xy est le coefficient de proportionnalite.de maniere symetrique, la probabilite detre decisif entre x et y en choisissant le bulletin v si v y ≥ v x est aussi proportionnelle a la difference des scores v y ≥ v x et a le meme coefficient de proportionnalite (p xy ).cette hypothese de symetrie est equivalente a supposer que la probabilite de levenement les candidats x et y sont premiers ex aequo est egale a celle de levenement les candidats x et y sont les deux premiers classes et x a un point davance sur y et aussi a celle de levenement les candidats x et y sont les deux premiers classes et y a un point davance sur x .myerson et weber (1993) justifient cette hypothese en affirmant quelle semble verifiee lorsque lelectorat est suffisamment important.elle nest pas verifiee dans dautres modeles comme les jeux de poisson.lutilite esperee u i (v; p) de lelecteur i lorsquil choisit le bulletin v etant donne le vecteur pivot p secrit : u",
+        "un profil de strategies s = (s i , s i ) est une fonction de x dans lensemble des distributions de probabilites sur v. chaque s i decrit la probabilite avec laquelle lelecteur i choisit chaque bulletin v dans lensemble v. le gain en utilite esperee pour lelecteur i lorsquil joue la strategie (mixte) (v; p).pour tout profil de strategies s, la proportion de lelectorat qui choisit le bulletin v est representee par",
+        "par consequent, le score du candidat x est egal a",
+        "pour tout profil de strategies s, lensemble des gagnants probables w(s) ⊆ x contient les candidats dont le score s(x; s) est maximal."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "i (v; p) = xy∈h ∑ (v x v y ) ⋅ p xy ⋅[u i (x) u i (y)].",
+          "image_href": ""
+        },
+        {
+          "content": "s i est egale a u i (σ i ; p) = v∈v ∑ σ i (v)u i",
+          "image_href": ""
+        },
+        {
+          "content": "τ(v;σ) = i∈n ∑ σ i (v).",
+          "image_href": ""
+        },
+        {
+          "content": "s(x;σ) = v∈v ∑ v x τ(v;σ).",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "scores et pivots : la condition dordre",
+      "paragraphs": [
+        "jusqua present, nous avons suppose que les anticipations des electeurs sont completement determinees par le vecteur pivot p. de plus, ce vecteur est exogene, il ne depend daucun autre parametre du modele.or, en general, les anticipations des electeurs sur les probabilites detre pivot (ou plus generalement sur le possible impact de leur vote) dependent en grande mesure des anticipations sur les scores des candidats.autrement dit, si lelection est serree, cestadire si les deux candidats principaux ont des scores tres proches dans les sondages, il semble naturel danticiper quun seul vote peut faire la difference.de la meme maniere, si un seul gagnant emerge des sondages, un electeur rationnel devrait deduire quil est peu probable que son seul vote aura un impact sur la victoire de ce candidat.",
+        "pour prendre en compte cette intuition, myerson et weber (1993) font deux hypotheses.",
+        "la premiere de ces hypotheses porte sur les anticipations des electeurs a propos des probabilites des evenements pivots ou deux candidats arrivent premiers ex aequo.les electeurs anticipent que si le candidat y a un score plus bas que le candidat x et si lun des deux doit etre premier ex aequo contre un troisieme candidat z, il est nettement plus probable que ce soit x qui soit present a lex aequo.cestadire, ils imposent une correlation entre les scores des candidats et leurs probabilites pivot.mathematiquement, cette correlation implique que pour tout candidat z, le vecteur pivot p verifie la condition dordre par rapport a e ∈ (0, 1) pour le profil de strategies s si pour tout x, y ∈ x,",
+        "la deuxieme hypothese sur les probabilites pivot porte sur les evenements pivots avec plus de deux candidats.plus precisement, on suppose que les evenements ou plus de deux candidats sont premiers ex aequo ont une probabilite negligeable par rapport aux probabilites pivot des evenements ou deux candidats sont premiers ex aequo.un electeur peut donc simplement se concentrer sur les evenements pivots a deux candidats et ignorer les autres types de pivot."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "s(x;σ) > s(y;σ) ⇒ εp xz ≥ p yz .",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "concept dequilibre",
+      "paragraphs": [
+        "pour tout vecteur pivot p, lensemble des meilleures reponses pour un electeur i est represente par",
+        "le support de la strategie s i de lelecteur i represente lensemble des strategies pures jouees avec probabilite positive dans s i : supp(s i ) = {v ∈ v | s i (v) > 0}.une suite de vecteurs pivot {p e } e→0 verifie la condition dordre par rapport au profil de strategies s si, pour tout e > 0, p e est un vecteur qui satisfait la condition dordre.",
+        "definition 1.1 le profil de strategies s est un equilibre si et seulement si :",
+        "1. il existe une suite {p e } e→0 de vecteurs pivot avec p e xy > 0 pour tout xy ∈ h et tout e > 0 qui satisfait la condition dordre par rapport au profil de strategies",
+        "pour tout e > 0."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "br i ( p) = {v ∈ v | v ∈ arg ʹ v ∈v maxu i ( ʹ v ; p)}.",
+          "image_href": ""
+        },
+        {
+          "content": "s et 2. pour tout bulletin v ∈ v et tout electeur i ∈ n, v ∈ supp i (s) ⇒ v ∈ br i (p e )",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "remarques :",
+      "paragraphs": [
+        "1.",
+        "und represente lensemble des strategies pures non dominees.rappelons quune strategie est (faiblement) dominee sil en existe une autre qui ne donne jamais un pire paiement pour toute strategie des autres joueurs.a linverse, une strategie est non dominee si elle nest pas dominee.par exemple, toute strategie sous la pluralite ou lelecteur ne vote pas pour son candidat le moins prefere ou sabstient est non dominee.sous le vote par assentiment, une telle strategie doit (i) approuver le candidat prefere de lelecteur et (ii) ne pas approuver son candidat le moins prefere.avec borda et juste trois candidats, un bulletin est non domine si lelecteur donne 1 ou 2 points a son candidat prefere, et 0 ou 1 a son pire candidat 5 .afin dunifier les resultats, nous nous interessons uniquement aux equilibres du jeu ou les electeurs ne choisissent que des strategies non dominees.2. v sinc represente lensemble des strategies sinceres pour chaque joueur.pour la pluralite, etre sincere implique voter pour son candidat prefere alors quavec le systeme de borda, afficher son vrai classement est considere comme sincere.sous le vote par assentiment, est considere comme sincere tout bulletin avec la propriete suivante : si lon approuve un candidat, on approuve egalement tout candidat prefere a celuici.3. on peut demontrer quil existe toujours un equilibre si le nombre de types (cestadire preferences cardinales) autorise dans le jeu est fini.cette restriction est importante car la preuve dexistence se base sur celle de lequilibre propre (myerson, 1978), qui elle se base a son tour sur le nombre fini dagents.",
+        "4. dans la litterature des modeles de grandes elections, on compare les regles de vote en comparant les ensembles dequilibres qui y sont associes.plus particulierement, on sinteresse a lensemble des candidats gagnants a 5.",
+        "lequilibre.par exemple, on sinteresse a lexistence dun equilibre ou la victoire du gagnant de condorcet est assuree.dune certaine maniere, cette notion de comparaison des regles de vote est similaire aux idees presentes dans la litterature de limplementation.en effet, lobjectif de la theorie de limplementation est de construire un mecanisme qui implemente une fonction de choix social soit dans un des equilibres generes par le mecanisme, (implementation de nash) soit dans tous (implementation complete); voir laslier et sanver ( 2010) pour une introduction.la difference fondamentale entre ces deux approches repose sur le pouvoir de prediction de lequilibre de nash (meme en strategies non dominees) : il est quasi inexistant dans les modeles delection puisque des que le gagnant de lelection a plus de 2 voix decart avec le second, le profil de strategies correspondant est un equilibre.afin detablir des predictions electorales, on se voit donc oblige de faire appel a des modeles plus sophistiques ou les croyances des electeurs sont liees aux scores attendus des candidats en lice, ce qui est dailleurs realiste."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "v",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "deux exemples simples",
+      "paragraphs": [
+        "pour illustrer les principaux messages des modeles delections de masse, nous presenterons ici deux exemples adaptes de myerson (2002) et myerson et weber (1993).ils sont tous les deux tres simples (deux types delecteurs et trois candidats), mais ils resument bien certains messages de cette litterature.ils ont, en outre, tous les deux la particularite davoir chacun un surnom : audessus de la melee et la pomme pourrie .dans le premier, un candidat est unanimement prefere, dans le second, un candidat est classe dernier dans les preferences de tous les electeurs.",
+        "on remarquera que les memes exemples peuvent etre analyses en utilisant le concept, plus traditionnel, dequilibre de nash.or, le concept dequilibre de nash nest pas tres informatif dans les modeles de vote dans le sens suivant : tout profil de strategies ou un candidat gagne par plus de deux points est un equilibre car aucune deviation individuelle ne peut modifier le resultat.le concept dequilibre utilise ici (definition 1.1) est propre aux modeles de vote et tient compte des anticipations de probabilites pivot de maniere explicite; comme montre par la suite, il raffine les equilibres de nash et donne peu de predictions possibles."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "audessus de la melee",
+      "paragraphs": [
+        "comme annonce, cet exemple compare les regles de vote dans un scenario ou un candidat est le meilleur choix pour tous les electeurs.ce candidat est donc audessus de la melee (above the fray) ce qui conduit a penser quun bon systeme de vote doit le choisir dans tout equilibre.",
+        "il y a trois candidats, et deux types delecteurs.precisement, on suppose que les preferences de lelectorat sur les candidats {a, b, c} sont decrites par le tableau suivant :"
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "type delecteur",
+      "paragraphs": [
+        "utilite proportion de lelectorat a (10, x, 0) a b (10, 0, y) b = 1 a note : avec 0 < x, y < 10.sans perte de generalite, nous supposons que a ≥ 1 a.",
+        "avec le vote par assentiment, toute strategie non dominee donne un point au candidat prefere de lelecteur et aucun au dernier place.la seule question qui se pose a lelecteur est de savoir sil va approuver ou non son second candidat.on en deduit immediatement que, dans tout equilibre, le candidat a est seul gagnant de lelection.sous borda, a est egalement elu a lequilibre.",
+        "si la regle de vote utilisee est celle de pluralite, il existe aussi un equilibre ou le candidat a est bien elu.mais ce candidat nest pas forcement elu dans tout equilibre.par exemple, le profil de strategies s suivant definit un equilibre ou il nest pas parmi les gagnants probables :",
+        "la condition dordre implique donc que la probabilite pivot p bc devient infiniment plus probable que les autres lorsque e → 0 pour toute suite de vecteurs pivot {p e }.etant donne ce vecteur pivot, les electeurs de type a et b ont respectivement une unique meilleure reponse : voter pour b et pour c, ce qui demontre que s est bien un equilibre.le candidat prefere par tous ne recoit aucune voix, tous les electeurs rationnels se basant sur la prophetie (autorealisee) quil na aucune chance."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "σ i (b) = 1∀i ∈ aet σ i (c) = 1∀i ∈ b. ce profil s induit les scores suivants s(b;σ) = α ≥ s(c;σ) = 1α ≥ s(a;σ) = 0.",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "la pomme pourrie",
+      "paragraphs": [
+        "la situation est ici diametralement opposee a celle decrite dans audessus de la melee .cette fois, lun des candidats est le pire choix pour tous les electeurs.ce candidat est donc une pomme pourrie .il semble donc pertinent de penser quun bon systeme de vote ne doit pas le choisir dans aucun equilibre.",
+        "de maniere plus precise, on suppose que les preferences de lelectorat sur les candidats {a, b, c} sont decrites par le tableau suivant : avec le vote par assentiment, il est facile de voir que toute strategie non dominee donne un point au candidat prefere de lelecteur et aucun au dernier place.il sensuit que, dans tout equilibre, le candidat c ne recoit aucun point et quil est donc exclu des gagnants de lelection.si la regle de vote utilisee est celle de pluralite, le meme raisonnement sapplique.toute strategie non dominee ne donnant pas de points au dernier place, le candidat c ne recoit pas de point a lequilibre et se trouve donc, en fait, exclu des gagnants probables de lelection.",
+        "mais, cette fois, le probleme resulte de lapplication dautres regles de vote.par exemple, avec borda, on peut demontrer que le candidat c fait partie des gagnants probables, ce qui demontre que cette regle est loin detre ideale.en effet, supposons quil existe un equilibre s sous la regle de borda ou les scores sont tels que s(a; s) > s(b; s) > s(c; s).etant donne que le candidat c est classe dernier, la condition dordre implique que le pivot le plus probable a lieu entre les candidats a et b.ceci suffit a determiner la meilleure reponse des deux types delecteurs.ceux de type a votent (1,0,1/2) pour empecher b de gagner et ceux de type b votent (0,1,1/2) pour faire barrage au candidat a.or ceci implique que s(a; s) = a, s(b; s) = (1 a) et s(c; s) = (1/2).or, nous avons suppose que a ≥ 1 a.si a > 1/2, alors s(c; s) > s(b; s) et si a = 1/2, les trois candidats sont ex aequo.ceci montre quil ny a donc pas dequilibre avec des scores s(a; s) > s(b; s) > s(c; s).en appliquant de maniere iterative le meme raisonnement aux differents ordres des scores, on demontre que c doit toujours etre parmi les gagnants probables afin davoir un equilibre : sous la regle de borda, des candidats peu souhaitables peuvent se retrouver systematiquement parmi les gagnants a lequilibre."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "estimation des probabilites pivots",
+      "paragraphs": [
+        "nous nous sommes concentres jusqua present sur les intuitions du vote strategique sans prendre en compte le calcul des probabilites pivot.or, une partie importante de la litterature porte sur ce point precis, principalement en raison de sa complexite.par calcul des probabilites pivot, on entend en effet lestimation pour tout nombre delecteurs, compte tenu de leurs actions, des ordres de grandeur des differents evenements ou un seul vote peut faire la difference.les developpements cidessous decrivent lestimation de ces probabilites pivot dans deux modeles."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "pivots endogenes : le modele binomial",
+      "paragraphs": [
+        "le modele binomial, decrit par laslier (2009), est similaire au modele de base decrit precedemment.les deux modeles supposent que le nombre delecteurs est exogene et connu, et que leurs preferences sont connaissance commune.dans les deux modeles, lelecteur nest pas sur des consequences de son vote et son choix depend des probabilites de pivot.la principale difference porte sur lestimation de ces probabilites.alors que myerson et weber (1993) vont simplement supposer que les electeurs connaissent les probabilites de pivot exogenes et vont exploiter leurs ordres de grandeur pour deduire le comportement optimal des electeurs, laslier (2009) decrit un mecanisme qui genere lincertitude sur les scores des candidats.cette incertitude va, a son tour, permettre aux electeurs destimer les probabilites pivot.le mecanisme dincertitude est particulierement simple : chaque point donne a chaque candidat peut etre efface (ou simplement ignore) avec une probabilite tres faible mais strictement positive (florida tremble).cette probabilite detre efface implique que les scores des candidats suivent des lois binomiales independantes les unes des autres.cette independance a un grand avantage : elle permettra par la suite de deduire un comportement particulierement intuitif pour les electeurs sous le vote par assentiment (voir theoreme 4.2).",
+        "de maniere plus formelle, laslier (2009) considere un modele avec un nombre fini delecteurs et de candidats (que nous representons toujours par n de cardinal n et x de cardinal k).les preferences cardinales de chaque electeur sont representees par un type t dans lensemble fini t. la proportion delecteurs de type t dans lelectorat est donnee par r(t) avec t ∑ r(t) = 1.le probleme de decision individuelle est tres similaire a celui du modele de base car on suppose, a nouveau, que les evenements ou plus de deux candidats sont premiers ex aequo sont negligeables par rapport aux probabilites pivot des evenements ou deux candidats sont premiers ex aequo.pour representer lidee dune election de masse, on etudie des replications de lelectorat.en dautres termes, lorsque lelectorat est nn, la proportion delecteurs de type t est egal a nnr(t).",
+        "en outre, la probabilite quun point pour un candidat soit efface est egale a q avec 0 < q < 1 n > q > 0 .cette probabilite est independante (i) du candidat qui recoit le point et (ii) du bulletin qui assigne ce point.de plus, elle est supposee etre independante de n.",
+        "exemple : dans un contexte ou x = {a, b, c}, si lelecteur i choisit le bulletin (1, 1, 0) alors : avec probabilite q 2 , le bulletin enregistre est (0,0,0) avec probabilite q(1 q), le bulletin enregistre est (1,0,0) avec probabilite q(1 q), le bulletin enregistre est (0,1,0) avec probabilite (1 q) 2 , le bulletin enregistre est (1,1,0).il sensuit que les scores de a et b suivent des lois binomiales b(1, 1q).comme dans le modele de base, s decrit un profil de strategies et t(v, s) la proportion de lelectorat qui choisit le bulletin v. a la difference du modele de base, s(x; s) represente cette fois le nombre maximal de points que recoit chaque candidat x dans le profil de strategies s et lorsque lelectorat est represente par n.",
+        "pour chaque point j dans s(x; s), la variable aleatoire h j , x est egale a 1 avec probabilite q et a 0 avec probabilite 1 q.nous representons le score aleatoire du candidat x associe au profil de strategies s par s(x; s) ou",
+        "lorsquon replique lelectorat (mn), le score de x est au plus de ns(x; s) et donc est une loi binomiale avec esperance (1 q)ns(x; s) et variance q(1 q)ns(x; s).",
+        "un gagnant probable de lelection est un candidat tel que s(x;σ) = k∈x max s(k;σ).",
+        "pour simplifier nous supposons que le nombre maximal de points quon peut donner a un candidat est 1. dans ce cas, un evenement pivot ou un seul vote est determinant pour decider le vainqueur de lelection entre les candidats x et y est donc un evenement tel que :",
+        "dans ce modele, tous les electeurs nont pas forcement les memes croyances sur les probabilites des evenements pivots.on doit donc definir pour tout electeur i, le vecteur pivot p i = (p i xy ) xy∈h .ceci dit, on peut demontrer le resultat suivant.",
+        "theoreme 3.1 quand lelectorat est suffisamment replique dans le modele binomial, les differences entre les vecteurs pivots nont pas dimpact sur les meilleures reponses des electeurs.ce resultat nous permet de retourner a la notation plus simple et de parler simplement du vecteur pivot p = (p xy ) xy∈h .pour tout profil de strategies s, le vecteur pivot p satisfait la condition dordre limite si pour tout candidat z, s(x;σ) > s(y;σ) ⇒ ν→∞ lim p xz p yz = +∞.theoreme 3.2 sil ny a pas dex aequo parmi les scores attendus des candidats, le vecteur pivot satisfait la condition dordre limite dans le modele binomial."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "s(x;σ) = j∈s (x;σ ) ∑ (1η j , x).",
+          "image_href": ""
+        },
+        {
+          "content": "| s(x;σ) s(y;σ) |≤ 1et z∈x \\{x,y} max s(z;σ) ≤ s(x;σ) 1,s(y,σ) 1.",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "pivots endogenes : le modele de poisson",
+      "paragraphs": [
+        "les preferences de chaque electeur sont representees par son type t qui appartient a lensemble fini des types.a nouveau, lidentite du gagnant des elections est lunique determinant de lutilite des electeurs.les preferences de type t sont representees par un vecteur u t qui associe a tout candidat une valeur numerique.comme dans le modele precedent, r(t) represente la proportion de lelectorat de type t.les vecteurs u = (u t ) t ∈ t u t et r = (r(t)) t ∈ t representent les possibles utilites de lelectorat et leurs respectives proportions.",
+        "la principale originalite du modele de poisson est de considerer que le nombre delecteurs est aleatoire.un jeu de poisson de taille n est un jeu ou le nombre delecteurs est une variable aleatoire : sa distribution suit une loi de poisson de moyenne n 6 .la distribution de probabilite et son parametre sont de connaissance commune."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "6.",
+      "paragraphs": [
+        "la probabilite quune variable aleatoire de poisson de parametre n soit egale a l est de e n n l l! , pour tout l entier positif.",
+        "un jeu fini de poisson de taille esperee n est donc representee par (x, t, n, r, u).lexpression grand jeu de poisson fait reference au comportement asymptotique dune suite de jeux de poisson de taille esperee n lorsque n est suffisamment grand.pour tout ensemble fini de bulletins v, z(v) represente lensemble des profils daction possibles.en dautres mots, z(v) est lensemble de vecteurs z = (z(v)) v ∈ v tel que chaque composante x(v) est un entier positif.",
+        "ces jeux sont caracterises par les deux proprietes suivantes :",
+        "1. les actions des electeurs dependent uniquement de leur information privee a lequilibre (equivalence environnementale), et 2. le nombre delecteurs qui choisissent deux bulletins donnes sont independants lun de lautre (independance des actions).",
+        "ces deux proprietes, comme le montre myerson (1998b), font deux un outil pratique pour travailler dans des jeux a taille variable.en effet, lindependance des actions nous permet de simplifier la description des profils de strategies.au lieu decrire s i pour representer laction de lelecteur i, nous ecrivons simplement s t pour decrire laction de nimporte quel electeur qui a un type t : s t (v) est la probabilite quun electeur de type t choisisse le bulletin v.",
+        "pour tout profil de strategies s, la proportion de lelectorat qui choisit le bulletin v est maintenant representee par τ(v;σ) = t∈t ∑ r(t)σ t (v).",
+        "nous ecrivons t(v) au lieu de t(v; s) pour simplifier les notations.une fois determinees les proportions de lelectorat qui choisissent les differents bulletins, la probabilite que le resultat de lelection coincide avec le vecteur z ∈ z(v) est egale a :",
+        "le score attendu dun candidat x associe au profil s secrit",
+        "ou v x represente le nombre de points que donne le bulletin v au candidat j.les candidats avec le plus grand s(;s) sont les gagnants probables de lelection lorsque s decrit le comportement des electeurs.le score de chaque candidat x, s(x; s), est une variable aleatoire de poisson de parametre ns(x; s).",
+        "pour tout evenement z ∈ z(v), les vrais scores des candidats sont decrits par le vecteur s z = (s z (x)) x∈x avec s z (x) = v∈v ∑ v x z(v).lorsque le profil de vote est z ∈ z(v), on definit m(z) = argmax x∈x s z (x) comme lensemble de candidats avec le plus grand score.si les ex aequo sont decides par tirage au sort, la probabilite de victoire du candidat x dans le vecteur z ∈ z(v) est egale a :",
+        "pour tout vecteur z ∈ z(v) et tout bulletin v ∈ v, z + {v} represente levenement ou un bulletin v est ajoute au vecteur z.",
+        "lutilite esperee dun electeur de type t sil choisit le bulletin v et le profil de vote est z secrit",
+        "un profil de strategies s est un equilibre dans un jeu fini de poisson si pour",
+        ". en dautres mots, un equilibre dans un jeu fini de poisson est une liste de strategies, une par type, telle que tout electeur prend une decision optimale compte tenu des strategies des autres electeurs et de ses croyances sur le nombre delecteurs de chaque type dans lelectorat.ces equilibres existent et ont des limites bien definies lorsque la taille esperee de lelectorat devient arbitrairement grande.myerson (1998b) propose dutiliser ces limites dequilibre comme source de predictions des comportements strategiques dans des elections de masse.",
+        "plus formellement, nous definissons les limites dequilibre lorsque la taille esperee de lelectorat n tend vers linfini.une suite convergente dequilibres est une suite dequilibres {s n } n → ∞ de jeux finis de poisson de taille n tels que les vecteurs s n convergent vers une certaine limite s lorsque n → ∞.cette limite s est un equilibre de masse.",
+        "pour tout bulletin v et toute paire de candidats x et y, nous introduisons les notations suivantes :",
+        "pivot(v, x, y) represente levenement ou rajouter un seul bulletin v fait basculer le gagnant de lelection du candidat x au candidat y,",
+        "pivot(x, y) represente levenement ou rajouter un seul bulletin en plus peut faire basculer le gagnant de lelection du candidat x au candidat y ou vice versa avec pivot(x, y) = v∈v ∪ ( pivot(v, x, y)∪ pivot(v, y, x)).",
+        "remarquons que les electeurs ne sinteressent quaux evenements precedemment decrits pour determiner leurs meilleures reponses.",
+        "lorsque n tend vers linfini, la probabilite dun evenement pivot tend generalement exponentiellement vers zero.le concept dordre de grandeur (magnitude) dun evenement est souvent plus utile que celui de sa probabilite car il simplifie les calculs.un resultat a est un sousensemble de z(v) avec",
+        "pour une suite convergente dequilibres {s n } n → ∞ , la magnitude m[a] dun resultat a est definie par legalite suivante :"
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [
+        {
+          "content": "p[z |nσ] = v ∈v ∏ e nτ(v) (nτ(v)) z(v) z(v)! ⎛ ⎝ ⎜ ⎞ ⎠ ⎟.",
+          "image_href": ""
+        },
+        {
+          "content": "s(x;σ) = v∈v ∑ v x τ(v),",
+          "image_href": ""
+        },
+        {
+          "content": "w[x | z] = 1 / #(m(z)) si x ∈ m(z) 0 si x ∈ m(z). ⎧ ⎨ ⎪ ⎪ ⎩ ⎪ ⎪",
+          "image_href": ""
+        },
+        {
+          "content": "u t [v] = z∈z (v ) ∑ p[z |nσ] x∈x ∑ w[x | z +{v}]u t (x).",
+          "image_href": ""
+        },
+        {
+          "content": "tout v ∈ v et tout t ∈ t, σ t ( ʹ v ) > 0 ⇒ ʹ v ∈ argmax v∈v u t [v]",
+          "image_href": ""
+        },
+        {
+          "content": "pivot(v, x, y) = {z ∈ z(v )|w[x | z] > w[x | z +{v}]and w[y| z] < w[y| z +{v}]}. pivot(v, x, y) = {z ∈ z(v )|w[x | z] > w[x | z +{v}]and w[y| z] < w[y| z +{v}]}. et",
+          "image_href": ""
+        },
+        {
+          "content": "p[a|nσ] = z∈ a ∑ p[z |nσ].",
+          "image_href": ""
+        },
+        {
+          "content": "μ[a] = n→∞ lim 1 n log p[a|nσ n ].",
+          "image_href": ""
+        }
+      ],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "applications et limites des modeles delections de masse",
+      "paragraphs": [
+        "sont decrites ici les applications principales des modeles de grandes elections et leurs limites.on presente de maniere sommaire les lecons generales quon peut tirer de la comparaison des regles de vote dans les modeles precedemment decrits.on sinteressera dabord a lagregation des preferences et a la multiplicite des equilibres.par souci de simplicite, on presentera deux resultats, verifies dans le modele de base (myerson et weber, 1993) et leur robustesse dans les deux autres modeles est discutee.on portera ensuite notre attention sur les incitations a la sincerite donnees par les differents systemes.puis, on finira par apporter quelques remarques sur les experiences de vote."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "coordination et equilibres",
+      "paragraphs": [
+        "le premier resultat concerne la regle de la pluralite.il illustre, en une certaine mesure, la loi de duverger (duverger, 1951) selon laquelle les scrutins uninominaux (comme la regle de la pluralite) ont tendance a soutenir lemergence de deux partis, et seulement deux.un large eventail de recherches a ete consacre a cette loi, qui est verifiee dans la plupart des systemes uninominaux, a quelques exceptions pres, dont le canada 7 .dun point de vue theorique, duverger (1951) presente cette loi en argumentant que le nombre de partis politiques est reduit a deux par un processus naturel de fusion et elimination comme suit.si un parti recoit un nombre reduit mais significatif de votes (qui nassure pas sa participation active au gouvernement), il se voit confronte a un futur electoral hasardeux.il peut donc choisir de sallier, ou meme de fusionner, avec un des deux partis majeurs en echange dun partage des gratifications de la victoire.ceci est le resultat dun calcul strategique fait par les leaders des partis, ou le resultat indirect de la competition interne entre les membres du parti (roemer, 2009).si le parti ne suit pas cette idee de fusion, il court le risque de voir ses electeurs le deserter progressivement et le parti se verra ainsi elimine de la competition electorale.cette deuxieme possibilite est celle decrite par le theoreme suivant.theoreme 4.1 supposons que les preferences des electeurs sont strictes dans une election sous la regle de pluralite.pour toute paire de candidats xy, il existe un equilibre ou tous les electeurs votent pour leur prefere parmi x et y."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "7.",
+      "paragraphs": [
+        "on peut citer entre autres les travaux sur les tests empiriques et les modeles theoriques comme par exemple ceux de riker (1982), rijer (1986), feddersen (1992), fey (1997) et forand et maheshri (2015).",
+        "ce resultat nest pas particulierement positif pour la pluralite : on peut linterpreter comme une sorte de chaos en ce sens que pratiquement tout candidat peut gagner lelection.en effet, des lors quil nest pas le perdant de condorcet, on peut toujours construire un equilibre ou il gagne.a lequilibre, la mecanique de vote suivie par les electeurs est assez simple : sil est de commun accord que leffet le plus probable dun vote est de departager les candidats x et y, alors un electeur rationnel et instrumental ne va voter que pour son candidat prefere parmi x et y.ceci va, a son tour, assurer quil est de commun accord que seuls x et y ont des vrais chances de gagner lelection.ce theoreme est aussi verifie dans les modeles binomiaux et de poisson.",
+        "le second des resultats porte sur le vote par assentiment, ou la mecanique de vote est bien differente."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "theoreme 4.2 supposons quil existe un gagnant de condorcet dans une election sous le vote par assentiment. sil ny a pas dex aequo parmi les scores attendus des candidats, alors",
+      "paragraphs": [
+        "1. il existe un unique equilibre en strategies pures, et 2. le seul gagnant probable est le gagnant de condorcet.",
+        "ce theoreme est un argument solide en faveur du vote par assentiment car il montre que cette methode aide les electeurs a se coordonner sur le bon candidat des quil existe.ce resultat est aussi verifie dans le modele binomial mais ne lest pas dans les jeux de poisson.les correlations entre les scores des candidats, inherentes aux jeux de poisson avec le vote par assentiment, empechent dobtenir la condition dordre (voir nunez, 2010).",
+        "le comportement des electeurs dans lequilibre decrit par le theoreme 4.2 est decrit par la regle du leader (ou leaders rule, voir laslier, 2009), car chaque electeur se positionne par rapport au leader (ou parti avec un plus grand score attendu) pour decider de ses votes.cette regle de comportement peut etre enoncee comme suit.soit a le candidat considere par lelecteur comme le gagnant le plus probable (le leader ).lelecteur vote pour (ou approuve) tout candidat quil prefere a a et il napprouve aucun des candidats quil considere moins bien que a. finalement, pour decider dapprouver ou non le candidat a luimeme, il compare a au gagnant le plus probable parmi le reste des candidats (le challenger b), il ne vote pour a que sil prefere a a b.cette regle mene a un comportement sincere de la part de lelecteur et est relativement simple cognitivement : ce sont les candidats les plus serieux qui sont utilises comme benchmark dans la decision dapprobation."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "sincerite et strategyproofness",
+      "paragraphs": [
+        "une conclusion nuancee semble se degager des differentes analyses : le vote par assentiment mene souvent a des resultats plus consensuels et a une meilleure coordination des electeurs.mais quen estil de la revelation des preferences?les grands theoremes dimpossibilite du debut des annees soixantedix vehiculent en effet un message tres clair : toute regle de vote, independamment de sa complexite, peut mener un electeur rationnel a mentir sur ses vraies preferences.ceci a ete interprete maintes fois en disant que toute regle de vote est donc egalement nuisible.quel est donc linteret des modeles de grandes elections?ce type de modeles repondil a ce type de critique?le resultat suivant 8 met clairement en avant les proprietes remarquables du vote par assentiment."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "theoreme 4.3 dans toute election sous le vote par assentiment dans le modele binomial, sil ny a pas dex aequo parmi les scores attendus des candidats, alors tout electeur est sincere a lequilibre.",
+      "paragraphs": [
+        "on dit quun electeur est sincere sil joue des bulletins sinceres, cestadire quen votant pour un candidat, il vote aussi pour les candidats quil prefere a ce candidat.",
+        "ce resultat peut sembler paradoxal et aller a lencontre des impossibilites deja mentionnees.afin dillustrer en quoi il ny a pas de paradoxe et de montrer comment les deux types de resultats peuvent coexister, nous presenterons une discussion sur la notion de sincerite et celle, beaucoup plus classique, de strategyproofness.demblee, nous ferons remarquer que la methode de vote par assentiment, a difference du vote a la pluralite ou a la borda, est hors du modele canonique du vote (voir sanver, 2010et endriss, 2013 pour une discussion a ce sujet).en effet, pour toute regle a points, il existe une correspondance claire entre vote sincere et preference.afficher son meilleur candidat sous la regle de la pluralite est evidemment lunique message sincere alors que la sincerite oblige lelecteur a afficher son vrai classement sous borda.ni la pluralite ni la regle de borda ne garantissent un comportement sincere a lequilibre dans les modeles de grandes elections, ce qui ne nous surprend pas car le theoreme de gibbardsatterthwaite peut setendre au modele de poisson comme le montre mclennan (2011) 9 .mclennan (2011) demontre que toute fonction de choix social unanime et strategyproof est une dictature dans les jeux de poisson."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "8.",
+      "paragraphs": [
+        "ce resultat nest pas verifie dans le modele de poisson comme montre par nunez (2014)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "9.",
+      "paragraphs": [
+        "voir aussi les autres extensions recentes des theoremes dimpossibilite comme celles de campbell et kelly (2009), campbell et kelly (2013), chatterji et sen (2011) et man et takayama (2013).",
+        "le vote par assentiment, en revanche, ne sinscrit pas dans ce schema de pensee car il demande a lelecteur de choisir un ensemble dalternatives quil considere comme acceptables.il nest donc plus tout a fait clair ce que veut dire etre sincere .le concept de sincerite est en relation mais nest pas vraiment equivalent a celui de strategyproofness.en effet, on peut demontrer que les strategies non dominees avec le vote par assentiment avec trois candidats sont forcement sinceres.la difference cle entre ce resultat et le theoreme de gibbadsatterthwaite est la suivante.avec le vote par assentiment, il existe differents messages sinceres.si un electeur prefere le candidat 1 au candidat 2 et le candidat 2 au candidat 3, et vote pour les deux premiers, il peut preferer le candidat 2 au candidat 1 et ce dernier au candidat 3. il nexiste pas en consequence un unique message sincere pour toute preference 10 .si on accepte que la sincerite est un bon critere pour evaluer les systemes electoraux 11 , on doit remarquer quil existe dautres definitions de sincerite dans la litterature du vote par assentiment.la definition de sincerite utilisee dans le theoreme 4.3 est empruntee de brams et fishburn (2005).elle est la definition la plus commune et acceptee; elle est en outre intuitive.dautres definitions sont donnees dans merill et nagel (1987) et dowding et van hees (2008)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "le systeme a deux tours",
+      "paragraphs": [
+        "le scrutin uninominal majoritaire a deux tours (ou systeme a deux tours plus simplement) est le systeme electoral le plus utilise pour les elections presidentielles : 61 des 91 pays qui elisent de maniere directe leur president ont instaure une variante du systeme a deux tours (blais, massicotte et dobrzynska, 1997).sous ce systeme, un candidat gagne lelection au premier tour sil obtient une majorite absolue (plus de 50 %) des voix.si aucun candidat nobtient la majorite absolue au premier tour, un second tour a lieu entre (au moins) les deux candidats ayant eu le plus grand score au premier tour.le candidat majoritaire au second tour gagne lelection.",
+        "on pourrait sattendre a que ce systeme (i) soit plus performant que la regle de la pluralite quant a la revelation des preferences et de linformation, et (ii) donne plus de legimite democratique au gagnant, dans le sens ou tout gagnant est elu par la majorite des electeurs.a lappui de ces idees, on peut argumenter que, puisquil existe une possibilite de coordination au deuxieme tour, les electeurs vont voter au premier tour pour leurs candidats prefere (riker, 1982;cox, 1997;piketty, 2000;martinelli, 2002).dun autre cote, on peut aussi imaginer que le systeme a 10.wolitzky (2009) fait une analyse interessante sur la difference entre strategyproofness et sincerite dans le vote.",
+        "11. elle ne garantit pas une agregation satisfaisante des preferences meme avec le vote par assentiment comme le montrent nunez (2010), de sinopoli, dutta et laslier (2006).dans un cadre different, la litterature sur le theoreme du jury de condorcet (feddersen et pesendorfer, 1996;feddersen et pesendorfer, 1997;feddersen et pesendorfer, 1998;myerson, 1998) suggere que le vote insincere peut mener a un meilleur resultat que le vote sincere.en effet, quand les electeurs ne sont pas sinceres, le meilleur candidat est le seul gagnant probable meme lorsque linformation est biaisee.deux tours peut induire un comportement strategique au premier tour et mener au laminage du centre, comme discute plus loin dans la section 5foot_1 .",
+        "malgre sa popularite dans le monde reel, lapproche formelle de ce systeme est relativement recente et limitee.elle se cantonne au cas de trois candidats et, dans la plupart des cas, a des profils de preferences particuliers.lorsquon analyse ce systeme en utilisant les equilibres des jeux de poisson, il ressort que ses proprietes theoriques sont, au mieux, mitigees.bouton (2013) et bouton et gratton (2015) mettent en evidence une grande multiplicite dequilibres parmi lesquels on retrouve les equilibres duvergeriens (comme ceux decrits par le theoreme 4.1 avec la regle de la pluralite) ou deux candidats concentrent tous les votes.dans ce type dequilibres, un des candidats gagne directement au premier tour.on retrouve aussi des equilibres (dont lexistence nest pas assure pour tout profil de preferences) ou trois candidats sont viables.on peut donc conclure que la legitimite democratique du gagnant nest pas a priori assuree : on peut juste exclure que le perdant de condorcet soit elu a lequilibre, ce qui est bien la moindre des choses.",
+        "la modelisation par les equilibres de poisson est donc peu conclusive, en particulier parce que ce modele ne permet pas de dire si certains equilibres sont plus plausibles que dautres.en prenant un example specifique (un profil de preferences particulier sous information prive), martinelli (2002) obtient des resultats plus precis sur la comparaison entre la regle de la pluralite et le systeme a deux tours.il demontre que le systeme a deux tours domine la regle de la pluralite dans le sens suivant : une majorite des electeurs obtient une plus grande utilite esperee des lors que linformation sur les candidats nest pas tres precise."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "les modeles dincertitude agregee",
+      "paragraphs": [
+        "jusqua present, nous nous sommes concentres sur les modeles de vote strategique avec incertitude essentiellement sur les probabilites pivot.comme on a vu, lincertitude sur le nombre delecteurs ou sur la mecanique denregistrement donne lieu a des modeles ou le vote des electeurs genere de maniere endogene ces probabilites, qui sont cles dans le comportement des electeurs.ceci dit, lanalyse decrite se base sur une hypothese cruciale : les electeurs ont une connaissance commune et parfaite des candidats sur lesquels lelection se joue.plus precisement, ces modeles se basent en general sur lidee que les types des electeurs (leurs preferences) sont tires de maniere independante suivant une distribution connue : cette independance implique une quasicertitude des supports populaires respectifs des differents candidats lorsque lelectorat devient suffisament grand (par une application de la loi des grands nombres).en dautres termes, de maniere agregee, un electeur connait, de maniere quasi certaine, les preferences de lelectorat.",
+        "or, ceci peut sembler peu pertinent ou realiste dans un cadre delection de masse.lexistence meme de sondages et leur grand nombre en periode electorale peuvent etre mis en avant pour affirmer quau niveau agrege, un electeur a toujours de lincertitude sur la popularite des candidats en lice.cette observation a mene a la naissance dune litterature en pleine expansion sur les modeles dits dincertitude agregee.ce type dincertitude a ete modelisee de deux manieres principales dans la litterature.",
+        "une possibilite pour introduire ce type dincertitude est de supposer que les votes (ou les types des electeurs) sont tires dun ensemble de distributions de probabilite, chacune dentre elles etant choisie avec une certaine probabilite.les votes sont donc conditionellement independants (sils sont tires de la meme distribution), mais sont correles de maniere non conditionelle car ils sont tires a priori de distributions differentes.lexemple suivant, repris de myatt (2015), illustre tres simplement lidee dincertitude agregee dans le cadre dune election a deux candidats.considerons une election entre deux candidats a et b.chacun des n electeurs prefere a a b ou le contraire (pas dindifference).un electeur tire au hasard prefere a avec probabilite 1p et b avec probabilite p; on dit que p est la popularite relative de b par rapport a a. conditionellement a p, les types sont independants.en effet, si p est le meme pour tous les electeurs, on se trouve dans un modele sans incertitude agregee car lorsque n devient suffisament grand, la loi des grands nombres nous confirme que le ratio des tailles de chaque groupe se rapproche de p/(1p).or, si on suppose que p est tire dune densite f(⋅) avec une moyenne p, on cree de lincertitude agregee.de maniere rationelle, chaque electeur revise ses croyances sur les preferences des autres electeurs, conditionellement a la realisation de son propre type : il y a donc de lincertitude agregee.good et mayer (1975) font partie des premiers travaux a identifier limportance de cette sorte dincertitude dans le calcul des probabilites pivot (ce resultat a ete aussi souligne par chamberlain et rothschild, 1981;myatt, 2007et mandler, 2012 montrent comment ceci va modifier la mecanique electorale dans le modele de lelecteur rationnel).fisher et myatt (2002) mettent en evidence, dans un cadre experimental, que les electeurs associent une importance moindre aux signaux publics que celle predite par les modeles theoriques.fisher et myatt (2014) calibrent leur modele sur des enquetes conduites en angleterre et montrent que, si lincertitude agregee est suffisament forte, le pouvoir predictif theorique devient eleve.bouton, castanheira et llorentesaguer (2016b) complementent les etudes precedentes en isolant leffet de lincertitude agregee et parviennent a demontrer que lexistence (et non pas lintensite) de lincertitude agregee suffit a expliquer lexistence dequilibres non duvergeriens.lautre choix principal de modelisation de lincertitude, qui est plus proche du modele dit du jury de condorcet, consiste a supposer que les electeurs sont incertains de leurs propres preferences.les contributions de austensmith (1996), feddersen et pesendorfer (1996) et myerson (1998a) font partie des papiers pionniers dans cette approche, qui suppose quune des composantes des preferences est commune a tous les electeurs (on parle de valeurs communes).la valeur de cette composante nest pas exogene, elle va dependre de letat du monde.par exemple, dans un jury, un jure preferera la condamnation ou la relaxe suivant letat du monde (culpabilite ou innocence) dont il nest pas certain.",
+        "plus precisement, on suppose quil existe un certain nombre detats du monde mais aucun des electeurs ne peut lobserver directement.chaque electeur recoit juste un signal sur le veritable etat de monde (son information privee) qui est positivement correle avec la verite.son utilite esperee depend donc de ses croyances.les informations privees recues par chaque electeur lui sont propres.lobjectif de lelection est dorenavant dagreger les informations individuelles, ce qui contraste avec lagregation des preferences qui est lobjectif des modeles sans incertitude agregee.en utilisant cette approche, on obtient des predictions plus realistes sur la participation electorale a lequilibre comme montre par castanheira (2003) ou sur la coordination electorale comme un outil de communication de lelectorat (piketty, 2000).on peut observer egalement dans ces modeles lemergence, sous la regle de la pluralite, dequilibres stables non duvergeriens, ou les votes ne sont pas concentres sur uniquement deux candidats, comme le montrent bouton et castanheira (2012), et bouton, castanheira et llorentesaguer (2016a).en outre, cette incertitude agregee, alliee aux valeurs communes, peut parfois resoudre les problemes de coordination souvent presents dans les contextes electoraux.en effet, dans la situation de la majorite divisee, le vote par assentiment mene a une aggregation complete de linformation si les valeurs communes sont suffisament presentes.lidee selon laquelle le vote par assentiment mene a une nette amelioration de lagregation de linformation par rapport a la plupart des regles de vote emerge aussi de la comparaison des regles de vote etablie par goertz et maniquet (2011).ces resultats theoriques sont confirmes par bouton, castanheira et llorentesaguer (2016a) qui comparent les regles de pluralite et dassentiment dans un cadre experimental.",
+        "pour conclure cette section, on se doit de mentionner letude des referendums multiples (ahn et oliveros, 2012), lextension du jury de condorcet a plusieurs jurys proposee par (ahn et oliveros, 2012) ainsi que le modele de bhattacharya (2013) qui donne des conditions pour lequivalence des predictions electorales des modeles sans et avec incertitude agregee, tous les trois se basant sur des techniques similaires a celles precedemment decrites."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "le vote et leconomie experimentale",
+      "paragraphs": [
+        "comme on le voit, la theorie economique du vote fait grand cas dun raisonnement assez specifique prete a lelecteur et qui consiste a envisager seulement le cas, meme tres peu probable, ou son unique voix va faire une difference quant au resultat de lelection; le resultat etant dailleurs le plus souvent entendu dans un sens assez etroit : qui est elufoot_2 .or ce raisonnement entre souvent en contradiction avec dautres motifs de vote, tout particulierement avec la norme sociale qui veut quune election soit une consultation dans laquelle chaque citoyen est suppose indiquer honnetement son opinion (fiorina, 1976;brams et fishburn, 1983;blais et young, 1999;blais, 2000).la pertinence pratique des theories basees sur les evenements pivots est donc tout sauf evidente et doit etre validee empiriquement.",
+        "plus precisement, deux elements, a ne pas confondre, peuvent faire douter de la validite de cette theorie.dune part, comme on vient de le dire, dautres normes que la rationalite instrumentale peuvent determiner les comportements.dautre part, meme un electeur desireux de suivre ce chemin de la rationalite peut tout simplement ne pas etre convaincu par un raisonnement qui aboutit a baser son action sur un evenement tres improbable.cette faute logique est commune, et correspond a une limitation cognitive connue : la difficulte du raisonnement conditionnel (evans, newstead et byrne, 1993).cette limite simpose sans doute de maniere dautant plus forte que les recommandations rationnelles semblent parfois (on en donnera des exemples) contreintuitives, voire tirees par les cheveux ."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "la participation",
+      "paragraphs": [],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "en laboratoire",
+      "paragraphs": [
+        "dans le modele economique instrumental standard, la participation a une election a un cout et la decision de sabstenir ou pas releve dun calcul coutbenefice standard, dans lequel le cout est fixe et le benefice depend de cette fameuse probabilite pivot quun unique vote fasse une difference (riker et ordeshook, 1968;ledyard, 1984).on a par consequence cherche a valider, ou invalider, la theorie a propos de la participation.",
+        "les predictions qualitatives sont les suivantes.(i) au premier ordre, la participation devrait etre minuscule dans les elections politiques (car les probabilites objectives degalite exacte dans les elections de masse sont de fait minuscules).cette prediction theorique est clairement refutee.(ii) la prediction de second ordre est que la participation devrait etre plus importante lors des elections les plus disputees.ceci semble etre le cas (blais, 2000).",
+        "lanalyse coutbenefice ne permet donc pas dexpliquer pourquoi les electeurs participent aux elections reelles, mais ce qui peut etre compatible avec ces observations est lexistence dune frange de la population, qui obeisse aux predictions qualitatives de cette theorie et ne se deplace donc que pour les elections les plus disputees, lessentiel de la population obeissant a dautres motifs.",
+        "un test plus rigoureux de la theorie economique de la participation peut se faire en laboratoire.il consiste a mettre les electeurs dans une situation dans laquelle les motifs politiques et sociaux sont effaces et seul reste linteressement au resultat.on donne ainsi toutes ses chances au raisonnement rationnel instrumental de se developper sans interference avec dautres normes.ceci est facilement realise en laboratoire.dans la version la plus simple (schram et sonnemans, 1996), on organise des jeux (le mot election nest pas prononce) au cours desquels les participants, repartis dans deux groupes, doivent payer pour acheter des jetons (le mot vote nest pas prononce).la decision dacheter un jeton est individuelle mais cest le groupe qui achete le plus de jetons qui gagne.",
+        "de nombreuses variations sur ce theme ont ete realisees en laboratoire (schram et sonnemans, 1996;tyran, 2004;levine et palfrey, 2007;sauger et al., 2012;blais et al., 2014).on observe en laboratoire un phenomene similaire a ce qui est observe en realite.premierement, la participation est trop elevee par rapport aux predictions de la theorie rationnelle (qui sont ici precises et quantitatives).ceci constitue une refutation dautant plus forte que le protocole est destine a donner toutes ses chances a cette theorie : les sujets sont en quelque sorte payes pour cela et les effectifs etant faibles, les probabilites detre pivot sont reellement non negligeables, contrairement aux elections politiques reelles.deuxiemement, les variations observees pour la participation suivant les parametres du modele, par exemple le nombre de participants, sont qualitativement conformes a la theorie (et a lintuition aussi, dailleurs)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "sur le terrain",
+      "paragraphs": [
+        "de nombreuses experiences ont ete realisees sur le terrain, destinees a comprendre les determinants de la participation.ces experiences se placent dans une longue tradition de la science politique, notamment americaine.en etudiant lefficacite relative des diverses manieres dappeler les electeurs a participer, on demontre limportance des effets de pression sociale.pourquoi les electeurs votentils?la reponse est souvent : parce que les voisins regardent.certaines de ces experiences sont tres spectaculaires et convaincantes.cependant, comme elles doivent assez peu a la science economique, nous ne les discutons pas ici.le lecteur interesse pourra lire par exemple green et gerber (2008)."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "le vote strategique",
+      "paragraphs": [
+        "la theorie du vote pivot se revele donc peu utile, voire clairement insuffisante, pour rendre compte de la participation electorale.mais, bien entendu, ceci ne prejuge pas de sa capacite a expliquer tout ou partie des comportements des electeurs une fois quils se sont deplaces pour aller voter ou, plus generalement, une fois quils se sont acquitte du cout ou quils ont retire le benefice social de la participation.on sinteresse donc maintenant aux experiences sur le vote rationnel au sens du choix strategique du bulletin.",
+        "deux branches de la litterature meritent detre distinguees.la premiere sinteresse aux elections a deux candidats.le comportement strategique dans le cas de deux candidats seulement, et sous les regles de vote usuelles, semble aller de soi : chacun vote pour le candidat quil prefere, compte tenu de son information.une litterature de theorie des jeux sest cependant developpee a partir dun paradoxe mis en lumiere par austensmith et banks (1996) et feddersen et pesendorfer (1996), et lie a la logique de levenement pivot dans les situations dincertitude.plus precisement, en presence dinformation asymetrique et deux candidats, certains electeurs peuvent choisir a lequilibre de voter contre leur meilleur candidat, de facon a deleguer la decision aux electeurs informes.cette problematique a eu une abondante descendance theorique, et a fait lobjet de quelques tests experimentaux en laboratoire (guarnaschelli, mckelvey et palfrey, 2000).",
+        "le cas de deux candidats (decision collective binaire), bien que particulierement pertinent aux etatsunis, est tres restrictif et conduit a negliger une dimension importante des procedures democratiques, a savoir les differentes manieres dadapter le principe majoritaire aux situations non binaires.on va donc surtout sattarder sur les experiences traitant des elections entre plus de deux candidats.",
+        "disons tout de suite que, contrairement a ce qui se passe a propos de la question de la participation electorale, la theorie economique rationnelle apporte des eclairages interessants sur la question du choix du bulletin.",
+        "la theorie du vote rationnel est souvent identifiee a lidee de desertion des extremes .si on sait a lavance quels sont les deux candidats qui vont probablement arriver en tete, voter pour un troisieme candidat est inutile.dans un vote a la pluralite simple (first past the post), la prediction theorique est que deux candidats seulement recoivent un nombre significatif de suffrages (cox, 1997).en theorie ces candidats peuvent etre quelconques un cas typique dune multiplicite dequilibres , ce qui necessite une coordination entre les electeurs.ce point est resume en theorie par le theoreme 4.1 vu plus haut.en pratique cette coordination se fait par le biais de lhistoire, les sondages dopinion et les contributions electorales (voir rietz, myerson et weber, 1973), et aboutit generalement a ce que les candidats extremes soient marginalises.",
+        "cette logique se verifie tres facilement en laboratoire avec le vote a la pluralite simple; voir par exemple forsythe et al. (1993).on peut en particulier bien voir en laboratoire, en repetant les elections, comment un electorat se focalise progressivement sur une paire de candidats, dune maniere qui peut paraitre ineluctable aux participants alors meme que la paire de candidats qui emerge est en realite aleatoire et varie effectivement, dune session a une autre.",
+        "du point de vue de lelecteur, la logique de la desertion des candidats non viables est en effet particulierement simple dans le cas de la pluralite.elle ne requiert que des informations de base sur les chances des differents candidats et aboutit a une recommandation evidente : voter en faveur de celui quon prefere entre les deux principaux candidats.mais il en va tout autrement avec les autres regles de vote, et tout particulierement avec la regle la plus commune pour les elections politiques destinees a elire un candidat, a savoir le systeme majoritaire a deux tours.",
+        "le calcul rationnel du choix du bulletin au premier tour dune election a deux tours peut se reveler etonnamment complexe.premierement il doit integrer des anticipations sur ce qui peut se passer au premier tour ainsi que dans les differents seconds tours envisageables.deuxiemement il doit etre du type backward induction (induction retrograde), cestadire deduire ce quon veut obtenir au premier tour des consequences de notre choix sur le second tour et tout ceci dans le cadre de raisonnements pivots , bases sur des evenements tres peu probables.",
+        "leconomie experimentale a montre depuis longtemps que les raisonnements par induction retrograde sont peu utilises en pratique.ceci se verifie a propos des elections a deux tours.suivant les circonstances, les prescriptions rationnelles pour le vote a deux tours sont parfois intuitives, comme pour un vote a un seul tour, et parfois contreintuitives, en invitant par exemple a faire passer au second tour un candidat, non pas parce quon veut le voir elu, mais, au contraire, parce quil a moins de chance quun autre de faire battre notre candidat prefere.van der straeten, laslier et blais (2013) montrent en laboratoire que les electeurs suivent, dans des elections a deux tours, les recommandations strategiques si et seulement si ces recommandations se deduisent de raisonnements relativement simples.les raisonnements sophistiques noperent pas.",
+        "il existe quelques experiences de laboratoire a propos dautres regles de vote, qui presentent un interet theorique et/ou sont utilisees dans certains pays : la regle de borda, le vote par approbation, le vote alternatif.certains de ces travaux sont decrits dans cette revue (igersheim, baujard et laslier, 2017).sur la question du vote rationnel, ces travaux confirment dans lensemble ce quon vient desquisser : en laboratoire, les participants votent de maniere rationnelle tant que le raisonnement rationnel nest pas trop sophistique.si le raisonnement strategique est trop complexe, les electeurs ne votent pas necessairement de maniere naive, mais ils se reposent sur des heuristiques partiellement rationnelles."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    },
+    {
+      "title": "experiences hors du laboratoire",
+      "paragraphs": [
+        "rappelons que les etudes en laboratoire donnent toutes ses chances au modele economique de calcul des benefices, les incitations etant, aussi purement que possible, monetaires.il est donc important de ne pas se limiter a cette categorie dobservations.quelques experiences ont ete faites, lors delections politiques, sur le terrain ou en ligne, a propos des questions soulevees precedemment.on peut ainsi etudier comment differentes regles de vote sont utilisees par les electeurs.pour completer ce qui a ete dit dans la partie theorique, nous reprenons maintenant un des deux exemples deja etudies ( audessus de la melee ) et abordons lexemple classique du laminage du centre .",
+        "la situation decrite dans audessus de la melee , ou un candidat (parmi trois) est considere comme meilleur par tous les electeurs, ne se retrouve pas aussi simplement dans la realite politique.cependant lequilibre theorique conduisant a la nonelection dun tel candidat sous le vote a la pluralite decrit une logique dont il nest pas exclu quelle puisse se mettre en place en realite.il sagit simplement de lidee quun candidat, meme tres bon, ne recoit aucun vote parce que chaque electeur, pour ne pas perdre sa voix inutilement, vote pour celui quil prefere entre deux autres candidats, pourtant tous les deux moins bons.la theorie nous indique que ceci est possible avec la pluralite, mais pas avec le vote par approbation, car sous le vote par approbation, voter pour un candidat nempeche pas de voter aussi pour un autre.",
+        "toutes les experiences contrastant les comportements des electeurs sous les systemes uninominaux (comme le vote a la pluralite) et multinominaux (comme le vote par approbation et plus generalement les systemes par evaluation) confirment la validite de cette idee theorique.par exemple, les electeurs a qui on offre la possibilite, pourtant destabilisante, de voter pour plusieurs candidats, se saisissent de cette possibilite de maniere intelligible et non triviale.il sensuit que les candidats ne risquent plus, avec ces regles, detre absorbes par de tels pieges speculaires de nonviabilite.ceci a ete observe non seulement en laboratoire (van der straeten et al., 2010) mais aussi lors dexperiences in situ ou en ligne et dans des circonstances variees (europe et afrique, elections presidentielles ou legislatives).voir laslier et van der straeten (2004), baujard et al. (2013), van der straeten, laslier et blais (2013), kabre. laslier et wantchekon (2015) et les nombreuses references decrites dans igersheim, baujard et laslier (2017).",
+        "lexemple de la pomme pourrie mentionne plus haut est interessant dans le cas du vote suivant la regle de borda.cette regle etant pratiquement inusitee pour des elections de masse, nous ne nous y attardons pas et passons a un probleme plus courant dit le laminage du centre .",
+        "il sagit du phenomene suivant.la desertion des extremes fait se reporter les voix des electeurs dextreme droite sur un candidat de la droite modere et celles des electeurs dextreme gauche sur un candidat de la gauche moderee.ce gonflement des voix recoltees au premier tour par deux candidats moderes fait quun candidat centriste ne passe jamais lepreuve du premier tour.il ne gagne donc jamais lelection alors meme quil aurait gagne au second tour contre nimporte quel adversaire : il gagnerait face a un candidat de droite, avec lapport des voix de gauche et il gagnerait contre un candidat de gauche, avec lapport des voix de droite.",
+        "ce phenomene paradoxal est typique du systeme a deux tours et a une importance reelle; il semble avoir structure la vie politique francaise pendant longtemps.on voit que la logique pretee aux electeurs est bien celle du vote rationnel et des evenements pivots, en fait assez semblable a celle decrite dans audessus de la melee .cette logique sapplique au vote alternatif comme au vote a deux tours 14 .au contraire, les experiences montrent que cette logique na plus cours dans le vote par approbation et les systemes voisins.lensemble de ces travaux dresse un tableau nuance des comportements des electeurs, qui napparaissent ni naifs ni infiniment calculateurs.conclusion nous avons traite de la litterature theorique sur les elections de masse en decrivant ses principales methodes et conclusions, en trois parties.",
+        "14. le mode de scrutin appele vote alternatif , ou vote simple transferable ou encore instant runoff est utilise dans certains pays anglosaxons.il peut etre vu comme une extension du vote a deux tours.lelecteur soumet une liste ordonnee de ses choix.dans un premier tour, on ne compte que les premiers choix.le candidat le moins souvent en tete est alors elimine et chaque vote quil avait attire est alors transfere au choix suivant de lelecteur.le processus est ensuite itere jusqua ne trouver quun seul candidat.",
+        "la premiere partie, la plus classique, sappuie sur le concept de pivot et de vote instrumental.son objectif est de comprendre les raisonnements strategiques dun electeur qui tient compte des probabilites des pivots et anticipe les consequences dans un cadre delection de masse.avec differents degres de sophistication mathematique, elle dresse une comparaison des regles de vote.il en ressort que, sous la plupart dentre elles, on peut sattendre a un grand nombre dequilibres et donc a une grande permeabilite des resultats electoraux a linformation dont disposent les electeurs.on remarquera que deux des regles les plus utilisees en pratique, comme la regle de la pluralite et le systeme a deux tours, appartiennent a cette categorie.par contraste, le vote par assentiment semble assurer une meilleure agregation des preferences dans le sens ou, sous des hypotheses raisonnables, le seul equilibre mene a lelection du gagnant de condorcet (sil en existe un).",
+        "la deuxieme partie, plus recente et dite de lincertitude agregee, sattaque a une des faiblesses des premiers travaux.plus precisement, elle relache lhypothese selon laquelle, dans une election de masse, un electeur rationnel est presque certain des preferences des autres electeurs.ce faisant, elle obtient des resultats plus realistes et explique mieux des phenomenes souvent peu ou mal compris comme la participation electorale.ceci dit, etant donne quil sagit dune litterature en pleine expansion, on dispose pour linstant de peu de travaux et la plupart dentre eux portent sur des situations particulieres.on a donc du mal pour linstant a tirer des conclusions claires; en dautres termes, il sagit dune litterature prometteuse qui devrait permettre de resoudre certaines difficultes posees par le modele de lelecteur rationnel.",
+        "la derniere partie a trait a lexperimentation.elle cherche a (in)valider le modele du vote rationnel et a proposer des alternatives qui decrivent, de maniere moins caricaturale, le comportement dans lisoloir.elle met en avant certaines difficultes du modele rationnel a propos de la participation electorale ou de la logique de linduction retrograde (souvent utilisee dans les approches theoriques des systemes de vote a plusieurs tours).par contre, elle semble valider certains aspects importants du vote strategique comme la desertion des extremes ou les problemes de coordination.cette litterature arrive, en dautres mots, a la conclusion que les electeurs ne sont ni naifs, ni trop sophistiques dans leurs raisonnements."
+      ],
+      "citations": [],
+      "figures": [],
+      "formulas": [],
+      "tables": [],
+      "urls": [],
+      "media_objects": [],
+      "references": [],
+      "subsections": []
+    }
+  ],
+  "figures": [
+    {
+      "label": "",
+      "caption": "exemple qui vient detre developpe nest quun exemple, mais il est clair que ce type de situation est frequent. les elections federales canadiennes de 2015 fournissent un autre exemple recent de majorite divisee . rappelons que, apres son score historiquement bas de 18,9 % en 2011, le parti liberal abordait les elections de 2015 en etat de crise alors que le nouveau parti democratique avait forme lopposition officielle au parti conservateur au pouvoir de 2011 a 2015. des lors, ceux qui voulaient voter contre le parti conservateur avaient un choix strategique a faire : le parti liberal ou le nouveau parti democratique. au debut de la campagne, le nouveau parti democratique etait annonce grand gagnant. mais cela sest renverse en cours de campagne et cest finalement le parti liberal qui a gagne avec 39,5 % des voix. son leader justin trudeau est donc devenu premier ministre. lhistoire de cette campagne est en bonne part lhistoire de la coordination dynamique des electeurs anticonservateurs.",
+      "source": ""
+    },
+    {
+      "label": "",
+      "caption": "note : avec 0 < x, y < 10. sans perte de generalite, nous supposons a nouveau que a ≥ 1 a.",
+      "source": ""
+    },
+    {
+      "label": "",
+      "caption": "afin de lillustrer, nous considerons une election a quatre candidats {a, b, c, d}, ou s est un profil de strategies qui genere les scores attendus suivants : s(a; s) > s(b; s) > s(c; s) > s(d; s). un electeur avec des preferences c  i a  i d  i b raisonne de la maniere suivante. comme a et b sont respectivement le leader et le challenger, il va voter pour a car il prefere a et b. comme il prefere c a a, il va voter pour c. et, finalement, il ne vote pas pour d car il prefere a a d. sa meilleure reponse est donc de voter {a, c}. de meme, un electeur avec des preferences c  i b  i d  i a a le bulletin {b ,c ,d}comme unique meilleure reponse.",
+      "source": ""
+    },
+    {
+      "label": "",
+      "caption": "bibliographie ahn, d. s. et s. oliveros (2012), combinatorial voting , econometrica, 80(1) : 89141. ahn, d. s. et s. oliveros (2014), the condorcet jur(ies) theorem , journal of economic theory, 150 : 841851. austensmith, d. et j, banks (1996), information aggregation, rationality, and the condorcet jury theorem , american political science review, 90 : 3445.",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

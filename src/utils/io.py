@@ -111,21 +111,36 @@ def both_empty(val1, val2):
         (not val1 or val1.strip() == "") and (not val2 or val2.strip() == "")
     )
 
+def load_json(tool, article_id, subfolder=None):
+    if subfolder:
+        path = f"data/processed/{tool}/{subfolder}/{article_id}.json"
+    else:
+        path = f"data/processed/{tool}/{article_id}.json"
 
-def load_json(tool, article_id):
-    path = f"data/processed/{tool}/{article_id}.json"
     if not os.path.exists(path):
         raise FileNotFoundError(f"Fichier manquant : {path}")
+
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
-def save_to_csv(tool, article_id, results):
+    
+def save_to_csv(tool, article_id, results, output_subfolder=None):
+    """
+    Sauvegarde les résultats d'évaluation dans un fichier CSV.
+    
+    Args:
+        tool (str): Nom de l’outil évalué (ex: "grobid").
+        article_id (str): ID de l’article.
+        results (dict): Dictionnaire des résultats par champ.
+        output_subfolder (str, optional): Sous-dossier de sortie (ex: "xml_2cols").
+    """
+    if output_subfolder:
+        output_dir = os.path.join("results", "csv", tool, output_subfolder)
+    else:
+        output_dir = os.path.join("results", "csv", tool)
 
-
-    output_dir = f"results/csv/{tool}"
     os.makedirs(output_dir, exist_ok=True)
     path = os.path.join(output_dir, f"{article_id}.csv")
 
-    # Crée un DataFrame avec les stratégies comme colonnes
     df = pd.DataFrame.from_dict(results, orient="index")
     df.index.name = "field"
 

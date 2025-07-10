@@ -227,7 +227,7 @@ def evaluate_fields_from_json(source, target, fields_to_compare):
         #print({field})
         #print(results)
     return results
-
+"""
 def evaluate(source: str, target: str, article_id: str):
     source_data = load_json(source, article_id)
     target_data = load_json(target, article_id)
@@ -237,7 +237,28 @@ def evaluate(source: str, target: str, article_id: str):
     save_to_csv(target, article_id, results)
     print("done")
 
+"""
 
+def evaluate(source: str, target: str, article_id: str, subfolder: str = None):
+    """
+    Évalue un article donné entre deux outils (source et target),
+    en comparant leurs fichiers JSON transformés.
+
+    Args:
+        source (str): Nom de l'outil source (ex: "erudit").
+        target (str): Nom de l'outil cible (ex: "grobid").
+        article_id (str): Identifiant de l'article.
+        subfolder (str, optional): Sous-répertoire dans data/processed/<tool>/ (ex: "xml_2cols").
+    """
+    source_data = load_json(source, article_id, subfolder=subfolder)
+    target_data = load_json(target, article_id, subfolder=subfolder)
+
+    results = evaluate_fields_from_json(source_data, target_data, FIELD_COMPARISON_FUNCTIONS)
+    print(f"[INFO] Évaluation terminée pour {article_id}")
+    print(results)
+
+    save_to_csv(target, article_id, results, output_subfolder=subfolder)
+    print("[OK] Résultats enregistrés")
 
 
 
