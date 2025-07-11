@@ -1,7 +1,8 @@
 
 chemins_erudit = {
-    "title": ".//er:titre",
-    "subtitle": ".//er:sstitre",
+    "title": ".//er:grtitre/er:titre",
+    "overline": ".//er:grtitre/er:surtitre",
+    "subtitle": ".//er:grtitre/er:sstitre",
     "author_first_name": [...],
     "author_last_name": [...],
     "author_affiliation": [...],

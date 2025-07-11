@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.1.0/eruditarticle.xsd" qualtraitement="complet" idproprio="1109869ar" typeart="article" lang="fr" ordseq="4"><admin><infoarticle><idpublic scheme="doi">10.7202/1109869ar</idpublic><pagination><ppage>81</ppage><dpage>103</dpage></pagination></infoarticle><revue id="cqd27" lang="fr"><titrerev>Cahiers québécois de démographie</titrerev><sstitrerev>Revue internationale d'étude des populations</sstitrerev><titrerevabr>cqd</titrerevabr><idissn>0380-1721</idissn><idissnnum>1705-1495</idissnnum><directeur sexe="masculin"><fonction lang="fr">Directeur</fonction><nompers><prenom>Alain</prenom><autreprenom/><nomfamille>Gagnon</nomfamille></nompers></directeur><directeur sexe="masculin"><fonction lang="fr">Directeur adjoint</fonction><nompers><prenom>Yves</prenom><autreprenom/><nomfamille>Carrière</nomfamille></nompers></directeur></revue><numero id="cqd09161"><volume>49</volume><nonumero>1</nonumero><pub><periode>Printemps</periode><annee>2024</annee></pub><pubnum><date typedate="publication">2024-03-08</date></pubnum></numero><editeur><nomorg>Association des démographes du Québec</nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.1.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Association des démographes du Québec</nomorg>, 2024</droitsauteur></admin><liminaire><grtitre><surtitre>Articles</surtitre><titre>La surqualification des diplômés universitaires québécois : ampleur, évolution et facteurs associés</titre><titreparal lang="en">Magnitude, evolution and influencing factors in overqualification among Quebec university graduates</titreparal></grtitre><grauteur><auteur id="au1"><nompers><prenom>Sylvain</prenom><nomfamille>Bourdon</nomfamille></nompers><affiliation><alinea>Université de Sherbrooke, Faculté d’éducation, Professeur associé</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:sylvain.bourdon@usherbrooke.ca" xlink:type="simple">sylvain.bourdon@usherbrooke.ca</liensimple></courriel></auteur><auteur id="au2"><nompers><prenom>Mircea</prenom><nomfamille>Vultur</nomfamille></nompers><affiliation><alinea>Institut national de la recherche scientifique, Centre Urbanisation Culture Société, Professeur titulaire</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="mailto:mircea.vultur@inrs.ca" xlink:type="simple">mircea.vultur@inrs.ca</liensimple></courriel></auteur><auteur id="au3"><nompers><prenom>Marie-Pierre</prenom><nomfamille>Lapointe-Garant</nomfamille></nompers><affiliation><alinea>Université de Sherbrooke</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls3" xlink:href="mailto:marie-pierre.lapointe-garant2@usherbrooke.ca" xlink:type="simple">marie-pierre.lapointe-garant2@usherbrooke.ca</liensimple></courriel></auteur></grauteur><resume typeresume="resume" lang="fr"><alinea>La surqualification consiste à occuper un emploi qui requiert un niveau de formation moindre que celui qui a été acquis. Cet article analyse les données des recensements canadiens de 2006 et 2016 pour décrire l’étendue de la surqualification des diplômés universitaires québécois, son évolution entre les deux dates ainsi que les facteurs qui y sont associés. Il permet de constater une légère baisse du phénomène qui touche encore 36,4 % des diplômés universitaires en 2016. Parmi les six catégories de facteurs dont l’association avec la surqualification est examinée (sexe et âge ; compétences linguistiques ; situation familiale ; région ; marqueurs d’origine géographique, domaine du diplôme), ce sont les marqueurs d’origine géographique qui ont l’effet net le plus important. L’analyse met aussi au jour d’importantes variations entre les régions du Québec dans l’effet net des compétences linguistiques sur la surqualification des diplômés.</alinea></resume><resume typeresume="resume" lang="en"><alinea>Overqualification is the state of holding a job requiring a lower level of training than that which has been acquired. This article analyzes data from the 2006 and 2016 Canadian censuses to reveal the magnitude, evolution and influencing factors in overqualification among Quebec university graduates. Results show a slight decrease in the phenomenon, which still affects 36.4 % of university graduates in 2016. Of the five categories of factors whose influence on overqualification is examined (gender and age ; language skills ; family status ; region ; markers of geographical origin), markers of geographical origin are shown to have the greatest net effect. The analysis also reveals significant regional variations in the net effect of language skills on the overqualification of graduates.</alinea></resume><grmotcle lang="fr"><motcle>Surqualification</motcle><motcle>Marqueurs d’origine</motcle><motcle>Compétences linguistiques</motcle><motcle>Genre</motcle><motcle>Recensement canadiens</motcle><motcle>Régressions logistiques</motcle></grmotcle><grmotcle lang="en"><motcle>Overqualification</motcle><motcle>Markers of origin</motcle><motcle>Language skills</motcle><motcle>Gender</motcle><motcle>Canadian censuses</motcle><motcle>Logistic regressions</motcle></grmotcle></liminaire><corps><section1 id="s1n1"><no>1</no><titre><marquage typemarq="majuscule">CONTEXTE</marquage></titre><para id="pa1"><no>1</no><alinea>L’insertion sur le marché du travail et les perspectives de carrière des
+					diplômés universitaires font l’objet de débats croissants et récurrents depuis
+					plusieurs années. Au Canada et au Québec, plusieurs études se sont penchées sur
+					les conditions d’insertion professionnelle des diplômés universitaires et sur la
+					relation entre leurs qualifications et les emplois détenus (Edge et Munro,
+					2015 ; Vultur, 2016 ; ministère de l’Éducation et de l’Enseignement supérieur,
+					2016 ; Uppal et LaRochelle-Côté, 2014 ; Larochelle-Côté et Hango, 2016 ;
+					Boudarbat et Montmarquette, 2017 ; Bangali et collab., 2019 ; Conseil des
+					académies canadiennes, 2021). La question a fait également l’objet d’analyses
+					dans plusieurs pays membres de l’Organisation de coopération et de développement
+					économique (OCDE) (Auriol et collab., 2013). La question d’une insertion réussie
+					qui soit conforme aux qualifications et aux attentes des diplômés reste de
+					grande actualité, notamment dans un contexte où le nombre de diplômés
+					universitaires ne cesse d’augmenter. </alinea></para><para id="pa2"><no>2</no><alinea>En effet, au Québec comme dans l’ensemble des pays occidentaux, on assiste
+					au cours des dernières années à un afflux croissant de diplômés universitaires
+					sur le marché du travail. Ainsi, entre 2001 et 2016 au Québec, le nombre de
+					diplômés de baccalauréat est passé de 465  025 (11,6 % de la population de 25 à
+					64 ans) à 712 935 (16,3 %), celui des diplômés de maîtrise de 200 190 (5 % de la
+					population de 25 à 64 ans) à 332  545 (7,6 %) et celui de diplômes de doctorat
+					de 23 515 (0,6 %) à 40 050 (0,9 %)<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi>. La hausse
+					la plus importante de la diplomation a été enregistrée chez les jeunes de 25 à
+					34 ans. Dans cette catégorie d’âge, la proportion de personnes détenant un
+					diplôme universitaire est passée de 14 % en 2001 à 32 % en 2016. La croissance a
+					été plus accentuée chez les femmes, de sorte qu’en 2016, près de 40 % des femmes
+					en emploi âgées de 25 à 34 ans avaient un diplôme universitaire comparativement
+					à 27 % des hommes. Entre 2001 et 2016, la part des femmes parmi les diplômés
+					universitaires est passée de 58 % à 60 % au baccalauréat et de 54 % à 58 % à la
+					maîtrise. Au troisième cycle universitaire, la progression a été plus marquée ;
+					si en 2001 la part des femmes parmi les détenteurs d’un doctorat était de 37 %,
+					en 2016, leur proportion est passée à 53 %. Les immigrants représentent
+					également une catégorie de la population fortement scolarisée. En 2016, la part
+					des immigrants parmi la population de 25 à 64 ans détentrice d’un diplôme
+					universitaire était particulièrement élevée : 23 % au baccalauréat, 37 % à la
+					maîtrise (ou certificat supérieur au baccalauréat) et 48 % au doctorat.
+				</alinea></para><para id="pa3"><no>3</no><alinea>Cette situation n’est pas sans poser des questions relatives à la capacité
+					d’absorption des diplômés par le marché du travail. Dans quelle mesure cette
+					production de diplômés universitaires est-elle arrimée aux besoins de l’économie
+					et à l’évolution des emplois ? Quelles chances ces diplômés ont-ils d’obtenir un
+					travail ajusté à leur niveau de formation et qui valorise leurs connaissances et
+					leurs compétences ? Pris de manière agrégée, les indicateurs classiques
+					d’insertion (activité, emploi, chômage, rémunération), pour une année donnée,
+					valident la théorie du capital humain (Becker, 1964) selon laquelle la
+					scolarisation est un investissement productif, le taux d’activité, le taux
+					d’emploi et le salaire ayant des valeurs d’autant plus positives que le niveau
+					de formation est élevé. Au Québec comme ailleurs, le diplôme universitaire
+					constitue une assurance contre la perte d’emploi, car en dépit des fluctuations
+					du marché du travail, le taux de chômage est d’autant plus faible que le niveau
+					de diplôme est élevé (Merle, 2010). De même, les variations conjoncturelles des
+					emplois sont fortement déterminées par le niveau de diplôme, comme le montrent
+					divers travaux européens (Fondeur et Mimi, 2011 ; Barcena-Martin et collab.,
+					2012) ainsi que les analyses récentes des effets de la pandémie due à la
+					C<marquage typemarq="majuscule">ovid</marquage>-19 sur les jeunes Québécois en
+					fonction de leur niveau de diplôme (Bourdon et collab., 2020). Cependant, si
+					l’on analyse la situation dans une perspective diachronique, on observe que,
+					depuis 2001, les taux d’activité et le taux d’emploi des diplômés universitaires
+					ont baissé et que le taux de chômage s’est maintenu à des valeurs relativement
+					constantes, en suivant les variations de la conjoncture économique (Vultur,
+					2022). </alinea></para><para id="pa4"><no>4</no><alinea>Ces données, de même que les résultats de plusieurs autres études (Vahey,
+					2000 ; Eckert, 2011 ; Kilolo-Malambwe, 2014 ; Dubet et Duru-Bellat, 2020)
+					tendent à conforter l’idée d’une diminution du rendement global de
+					l’investissement éducatif à mesure que le stock de diplômés croît : la
+					multiplication des diplômes universitaires mène à une perte de valeur relative
+					de ceux-ci et le rendement du nombre d’années d’études a une tendance à la
+					baisse. Comme tout bien dont la valeur était garantie par sa rareté, les
+					diplômes tendent à perdre de leur valeur réelle lorsque leurs détenteurs
+					deviennent plus nombreux. Cette baisse relative de leur rendement global
+					s’accompagne également d’un déplacement de la correspondance formation/emploi
+					qui génère le phénomène de la surqualification. </alinea></para><section2 id="s2n1"><no>1.
+				1</no><titre>La surqualification : définition, mesure et pertinence analytique </titre><para id="pa5"><no>5</no><alinea>Définie comme la situation qui caractérise un individu dont le niveau de
+					formation dépasse celui normalement requis pour l’emploi occupé, la
+					surqualification apparaît aujourd’hui à la fois comme une question sociale
+					importante et un champ de recherche insuffisamment exploré, notamment dans le
+					contexte québécois et canadien. Dans la littérature spécialisée, trois méthodes
+					sont mobilisées pour quantifier l’ampleur de la surqualification (Vultur,
+					2006) : la première, dite « objective » mobilise la norme de qualification du
+					système éducatif et s’appuie sur l’association d’un niveau de formation a priori
+					requis à chaque emploi ; on mesure la surqualification par les écarts à une
+					grille d’adéquation, comme celle proposée par la Classification nationale des
+					professions (CNP) du Canada (Statistique Canada, 2018). La deuxième, qui
+					mobilise la norme de qualification du marché du travail, prend comme point de
+					référence la relation formation/emploi la plus fréquemment rencontrée et mesure
+					la surqualification par les écarts par rapport à cet équilibre entre l’offre et
+					la demande. Il s’agit d’une méthode plus rarement employée, notamment en raison
+					du fait qu’elle prend peu en considération l’hétérogénéité des emplois au sein
+					d’une même profession et tient peu compte de l’évolution des conjonctures
+					économiques. La troisième méthode, quant à elle, utilise le point de vue du
+					salarié ayant le sentiment d’être surqualifié et mesure le phénomène à partir
+					des réponses individuelles à une enquête par questionnaire. Les résultats sont
+					souvent sensibles à la formulation des questions et au contexte d’interprétation
+					des répondants. Dans le présent article, nous utilisons la première méthode,
+					« objective », en mobilisant les données des Recensements canadiens. </alinea></para><para id="pa6"><no>6</no><alinea>L’analyse de la surqualification des diplômés universitaires donne une idée
+					du déphasage existant entre ces investissements et les besoins du marché du
+					travail (Boudarbat et Montmarquette, 2014). Une bonne adéquation entre la
+					formation universitaire et l’emploi obtenu indique une utilisation efficace du
+					capital humain qui aurait un effet positif sur la productivité et sur le
+					bien-être des diplômés, et un effet protecteur de plusieurs retombées
+					indésirables sur la vie individuelle et sociale. Diverses recherches montrent
+					que la surqualification est source de démotivation, de frustration et de départ
+					de l’entreprise (Berg, 1970 ; Tsang, 1987 ; Guérin et collab., 1999), d’autres
+					que les surqualifiés participent beaucoup moins à la formation continue en
+					entreprise et qu’ils ont des comportements contre-productifs (Tsang et Levin,
+					1985 ; Solane et collab., 1996). Pour un même emploi, les personnes
+					surqualifiées sont aussi moins payées que leurs pairs qui ont seulement le
+					niveau de formation requis pour le poste (Vahey, 2000 ; Kilolo-Malambwe, 2014).
+					La surqualification peut aussi conduire à un gaspillage de ressources
+					intellectuelles et à une perte de productivité des individus par le déclin de
+					leurs aptitudes cognitives causé par le lien mal assorti entre le niveau
+					d’éducation et le niveau d’emploi (Chauvel, 2016). Elle produit ainsi des effets
+					négatifs sur la situation des individus moins qualifiés à l’intérieur du système
+					d’emploi, notamment « l’effet de report » (<marquage typemarq="italique">crowding out</marquage>), c’est-à-dire le refoulement des populations moins
+					scolarisées dans des franges moins valorisées du marché du travail (Vultur,
+					2016). </alinea></para><para id="pa7"><no>7</no><alinea>Quant aux diplômés universitaires, ils sont visés de manière transversale
+					par les études sur la surqualification, mais peu de travaux abordent leurs
+					particularités, la dynamique de la surqualification qui leur est propre ainsi
+					que des facteurs spécifiques qui y sont associés à l’échelle du Québec. Certains
+					travaux évoquent la situation des diplômés appartenant à des catégories
+					particulières de la population (Bélanger et Vézina, 2017 ; Cornelissen et
+					Turcotte, 2020). Dans cette perspective, Ledent, Bélanger et Marois (2014)
+					utilisent les données du recensement canadien de 2006 pour étudier la
+					surqualification des immigrants en limitant leur analyse à l’île de Montréal.
+					Leur analyse de régression logistique montre que l’appartenance à une minorité
+					visible y est plus associée que le statut migratoire et que les caractéristiques
+					individuelles sont un facteur explicatif important de la surqualification. Selon
+					cette étude, la plus forte surqualification des salariés nés hors Canada est une
+					observation trompeuse en ce sens qu’elle n’est pas due au fait même d’être né
+					hors Canada, mais plutôt au fait que les personnes immigrantes ont des
+					caractéristiques personnelles qui les prédisposent à être plus surqualifiées.
+					D’autres études de la surqualification des diplômés universitaires sont faites à
+					l’échelle canadienne et n’analysent la situation au Québec que de manière
+					tangentielle. Ainsi, Li, Gervais et Duval (2006) ont examiné le phénomène de la
+					surqualification des diplômés universitaires canadiens et ont dressé le profil
+					des personnes les plus susceptibles d’être trop qualifiées pour leur travail à
+					l’aide de données tirées de l’Enquête sur la dynamique du travail et du revenu
+					(EDTR) de Statistique Canada. Ils ont révélé que près d’une personne sur cinq
+					qui était sur le marché du travail et qui détenait un diplôme universitaire se
+					trouvait en situation de surqualification pour son emploi. Les travailleurs plus
+					jeunes étaient davantage susceptibles d’être trop qualifiés pour l’emploi qu’ils
+					occupaient. </alinea></para><para id="pa8"><no>8</no><alinea>De même, les immigrants et les diplômés de certains domaines comme le
+					commerce, ainsi que les arts et les sciences humaines devaient davantage
+					accepter des emplois pour lesquels ils étaient surqualifiés. Plus récemment, les
+					travaux sur la surqualification des nouveaux diplômés universitaires canadiens
+					ont également mis en évidence l’importance de l’âge, du sexe, du domaine
+					d’études, mais aussi d’autres variables comme le lieu d’obtention du plus haut
+					diplôme, le type de région et la province de résidence (Uppal et
+					LaRochelle-Côté, 2014). Des travaux ont aussi montré que les diplômés des
+					domaines de la santé, du génie ou de l’éducation et l’enseignement sont aussi
+					moins sujets que les autres à la surqualification (Statistique Canada, 2017). De
+					même, LaRochelle-Côté et Hango (2016) utilisent les données du Programme pour
+					l’évaluation internationale des compétences des adultes (PEICA) pour montrer
+					que, même chez des travailleurs canadiens de 25 à 64 ans détenant un diplôme
+					universitaire, les surqualifiés possèdent des compétences plus faibles en
+					littératie et en numératie que ceux qui ne sont pas surqualifiés. La diversité
+					des systèmes éducatifs et des réglementations du travail – deux champs de
+					compétence provinciaux – ainsi que des contextes économiques à l’échelle
+					canadienne ne permettent toutefois pas de généraliser ces résultats à la
+					situation spécifique des diplômés québécois qui sont touchés de manière
+					particulière par le phénomène de la surqualification sur le plan de son ampleur,
+					son évolution dans le temps et des facteurs qui y sont associés. </alinea></para><para id="pa9"><no>9</no><alinea>Dans ce contexte, l’objectif de cet article est d’analyser l’étendue de la
+					surqualification des diplômés universitaires québécois, son évolution entre 2006
+					et 2016 ainsi que les facteurs qui y sont associés. </alinea></para></section2></section1><section1 id="s1n2"><no>2</no><titre><marquage typemarq="majuscule">MÉTHODE</marquage></titre><section2 id="s2n2"><no>2.
+				1</no><titre>Sources de données et mesure de la surqualification</titre><para id="pa10"><no>10</no><alinea>Pour atteindre notre objectif, nous utilisons les données du questionnaire
+					détaillé des recensements de 2006 et de 2016 de Statistique Canada<renvoi id="re1no2" idref="no2" typeref="note">2</renvoi>. Alors que le formulaire abrégé du recensement est
+					soumis à l’ensemble des ménages canadiens, le formulaire détaillé n’a été
+					distribué qu’à un ménage sur quatre en 2016 et à un ménage sur cinq en 2006. Les
+					données individuelles récoltées dans le cadre de ces deux enquêtes transversales
+					ont été consultées au Centre interuniversitaire québécois de statistiques
+					sociales (CIQSS)<renvoi id="re1no3" idref="no3" typeref="note">3</renvoi>.</alinea></para><para id="pa11"><no>11</no><alinea>L’échantillon est constitué des diplômés universitaires de 15 ans ou plus
+					vivant au Québec, faisant partie de la population active et ayant travaillé
+					depuis le 1<exposant>er</exposant> janvier de l’année précédant le recensement.
+					Les résidents non permanents, les travailleurs autonomes ou ceux travaillant
+					pour une entreprise ou ferme familiale sans rémunération ont été
+					exclus.</alinea></para><para id="pa12"><no>12</no><alinea>Dans chacun des deux recensements étudiés, la profession des individus a été
+					établie en utilisant la Classification nationale des professions (CNP) de leur
+					année respective. Pour les répondants qui n’avaient pas d’emploi durant la
+					période de référence, soit la semaine du 1<exposant>er</exposant> au 7 mai de
+					l’année de Recensement, c’est l’emploi occupé le plus longtemps depuis le
+					1<exposant>er</exposant> janvier de l’année précédente qui a été retenu. Pour
+					ceux qui avaient plus d’un emploi, c’est l’emploi avec le plus grand nombre
+					d’heures qui a été sélectionné. </alinea></para><para id="pa13"><no>13</no><alinea>Comme nous l’avons précisé, nous avons utilisé la méthode dite « objective »
+					de mesure de la surqualification. Selon cette méthode, les travailleurs
+					surqualifiés sont ceux dont le niveau de scolarité est supérieur à ce qui est
+					normalement exigé dans la profession, et le taux de surqualification est le
+					ratio de leur nombre sur l’ensemble de ces travailleurs. L’échelle utilisée est
+					celle élaborée par Ressources humaines et développement des compétences Canada
+					(RHDCC) à partir de la Classification nationale des professions (CNP)
+					(tableau 1).</alinea></para><tableau id="ta1"><no><marquage typemarq="petitecap">tableau 1 </marquage></no><legende lang="fr"><titre>Niveaux de compétence dans la Classification nationale des
+						professions</titre></legende><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im1" typeimage="tableau" xlink:type="simple"/><texte>Niveau de compétenceÉtudes/formation caractérisant habituellement les
+						professionsA – Professionnel et gestionnairesUne formation universitaire
+						(baccalauréat, maîtrise ou doctorat)B – TechniqueUne formation collégiale ou
+						un programme d’apprentissageC – IntermédiaireUne formation de niveau
+						secondaire ou une formation spécifique à la profession, ou les deuxD –
+						ÉlémentaireUne formation en cours d’emploi</texte></objetmedia><source>Source : Matrice de la Classification nationale des professions, <marquage typemarq="italique">Ressources humaines et Développement des compétences
+					Canada</marquage></source></tableau><para id="pa14"><no>14</no><alinea>À partir de ce classement de la CNP, il est possible de déterminer le niveau
+					de compétence nécessaire à l’exercice des professions. Ces niveaux de compétence
+					sont regroupés en quatre catégories : la catégorie A regroupe les emplois
+					professionnels demandant généralement un diplôme universitaire ; la catégorie B
+					est celle des professions techniques ou spécialisées exigeant des études
+					postsecondaires (collégiales ou formations d’apprenti) ; la catégorie C concerne
+					les emplois pour lesquels un diplôme secondaire ou une formation en milieu de
+					travail est demandé ; la catégorie D s’applique aux emplois ne demandant pas de
+					diplôme. Comme tous les répondants de l’échantillon retenu ont un diplôme
+					universitaire, tous ceux occupant des professions de niveau B, C ou D ont été
+					considérés comme surqualifiés et se voient attribués la valeur de 1 à la
+					variable Surqualification. Au contraire, ceux occupant des emplois liés à une
+					profession de niveau de compétences A ou oeuvrant dans le secteur d’activité de
+					la gestion ne sont pas considérés comme surqualifiés et ont une valeur de 0 à la
+					variable Surqualification. Une personne qui détient une formation de
+					2<exposant>e</exposant> ou 3<exposant>e</exposant> cycle universitaire et qui
+					occupe un emploi exigeant habituellement une formation universitaire de
+					1<exposant>er</exposant> cycle n’est pas considérée surqualifiée selon cette
+					mesure<renvoi id="re1no4" idref="no4" typeref="note">4</renvoi>.</alinea></para></section2><section2 id="s2n3"><no>2.
+				2</no><titre>Variables indépendantes</titre><para id="pa15"><no>15</no><alinea>Un total de dix variables indépendantes a été sélectionné pour les analyses.
+					Les variables sociodémographiques <marquage typemarq="italique">Sexe</marquage>
+					et <marquage typemarq="italique">Âge</marquage> sont d’abord retenues en raison
+					de leurs liens démontrés avec la surqualification. La variable <marquage typemarq="italique">Âge</marquage> a été découpée en cinq catégories :
+					18-24 ans ; 25-29 ans ; 30-34 ans ; 35-44 ans ; et 45 ans et plus. </alinea></para><para id="pa16"><no>16</no><alinea>Outre le diplôme, la maîtrise des langues officielles du Canada constitue
+					une compétence qui peut favoriser ou limiter l’accès à l’emploi, et notamment à
+					un emploi lié à la formation (Bélanger et Vézina, 2017). Pour cette raison, deux
+					variables dichotomiques ont été considérées pour décrire la capacité de
+					l’individu à soutenir une conversation en français ainsi qu’en anglais.
+				</alinea></para><para id="pa17"><no>17</no><alinea>Afin de refléter d’éventuelles contraintes associées à la situation
+					familiale et au cycle de vie des diplômés, deux variables liées à la famille de
+					recensement<renvoi id="re1no5" idref="no5" typeref="note">5</renvoi> ont aussi été créées. Une première
+					variable dichotomique indique la présence ou non d’au moins un enfant de 18 ans
+					ou moins dans la famille de recensement. Les répondants ne vivant pas dans une
+					famille de recensement ont été classés dans la catégorie « sans enfant ». Une
+					deuxième variable dichotomique décrit la position du sujet dans sa famille de
+					recensement. Cette variable est composée de trois catégories : 1) Fait partie
+					d’un couple au sein de la famille de recensement ; 2) Est monoparental/Vit
+					seul/Ne fait pas partie d’une famille de recensement ; 3) Est un enfant dans la
+					famille de recensement.</alinea></para><para id="pa18"><no>18</no><alinea>Pour refléter la diversité de la structure économique et des
+					caractéristiques de la population sur le territoire, la variable région de
+					résidence du ménage est découpée en cinq catégories : 1) Grande région de
+					Montréal ; 2) Région de Québec ; 3) Sherbrooke ou Trois-Rivières ; 4) Gatineau ;
+					5) Autres régions du Québec.</alinea></para><para id="pa19"><no>19</no><alinea>Considérant que la surqualification, tout comme l’accès à l’emploi, est
+					fortement associée au statut d’immigration et aux marqueurs sociaux de l’origine
+					géographique, trois autres variables ont aussi été considérées. Le statut
+					d’immigrant (première génération) et le fait de faire partie d’une minorité
+					visible sont traités en variables dichotomiques (oui/non). Nous avons aussi
+					souhaité approfondir l’effet de la région d’origine du diplôme universitaire sur
+					la surqualification mis en évidence par Ledent et collab. (2014), en détaillant
+					sept grandes zones géographiques : 1) Canada ; 2) Amérique centrale et du Sud,
+					Caraïbes et Antilles ; 3) Afrique ; 4) Asie de l’Ouest et centrale et
+					Moyen-Orient ; 5) Asie ; 6) Europe, Océanie et autres ; 7) États-Unis. </alinea></para><para id="pa20"><no>20</no><alinea>Enfin, la discipline prédominante du plus haut diplôme obtenu a été ajoutée
+					à l’analyse pour tenir compte de la variation observée à cet égard dans les
+					études antérieures. Pour le recensement de 2016, la classification est fondée
+					sur la Classification des programmes d’enseignement (CPE) Canada 2016. Cette
+					classification propose des grands regroupements par domaine qui ont permis de
+					créer une variable à six catégories : 1) STGM (sciences, technologie, génie,
+					mathématiques et sciences informatiques) ; 2) Commerce et administration ; 3)
+					Arts, sciences humaines et sociales, droit ; 4) Santé ; 5) Éducation et
+					enseignement ; 6) Métiers, services, ressources naturelles et conservation. Le
+					recensement de 2006 utilise plutôt la CPE Canada 2000 qui n’inclut pas les
+					regroupements par domaine. Pour permettre la comparaison, la variable a été
+					recodée, en calquant diplôme par diplôme la classification du recensement de
+					2016.</alinea></para></section2><section2 id="s2n4"><no>2.
+				3</no><titre>Méthodes statistiques</titre><para id="pa21"><no>21</no><alinea>Pour chacune des variables étudiées, les fréquences et pourcentages pondérés
+					ont été estimés en tenant compte de la variable de pondération COMPW2 créée par
+					Statistique Canada, en arrondissant les fréquences pondérées au multiple de 5 le
+					plus près. Des régressions logistiques ont ensuite été effectuées afin d’étudier
+					l’association entre les diverses variables indépendantes et la variable
+					Surqualification. Trois interactions ont également été considérées dans les
+					modèles, et ce, toujours en utilisant la variable de pondération. Pour tenir
+					compte des effets de genre déjà documentés dans les stratégies de couple au
+					regard de la carrière (Flabbi et Mabli, 2018), deux interactions ont testé si le
+					fait d’être un homme ou une femme interagit avec chacune des deux variables
+					décrivant l’association de la situation familiale et la surqualification. Pour
+					tenir compte de la forte variation dans les proportions de locuteurs de
+					l’anglais entre les différentes régions du Québec, une troisième interaction du
+					modèle a vérifié si l’association entre le fait de parler anglais ou non et la
+					surqualification varie selon la région. Dans le cadre de toutes ces analyses,
+					l’estimation des erreurs types dans les modèles logistiques du recensement 2016
+					a été obtenue par la méthode BRR (<marquage typemarq="italique">Balanced
+					repeated replication</marquage>) à partir d’un ensemble de 100 poids de
+					rééchantillonnage fournis par Statistique Canada. Pour les données tirées du
+					recensement 2006, comme aucun ensemble de poids de rééchantillonnage n’est
+					disponible, les erreurs types ont été estimées par l’approximation de Taylor
+					considérant un groupement sur les ménages, tel que recommandé dans une note
+					fournie par des analystes de Statistique Canada au centre d’accès aux
+					données.</alinea></para></section2></section1><section1 id="s1n3"><no>3</no><titre><marquage typemarq="majuscule">RÉSULTATS</marquage></titre><para id="pa22"><no>22</no><alinea>L’analyse des recensements indique qu’au Québec, le nombre de travailleurs
+					détenant un diplôme universitaire est passé de 867 920 en 2006 à 1  013 725 en
+					2016. Au cours de la même période, la proportion de ces diplômés occupant un
+					emploi pour lequel ils étaient surqualifiés (le taux de surqualification) a
+					légèrement diminué, passant de 37,1 % (IC 95 % = [36,8 % - 37,4 %]) en 2006 à
+					36,4 % (IC 95 % = [36,2 % - 36,5 %]) en 2016. </alinea></para><para id="pa23"><no>23</no><alinea>Le tableau 2 présente les estimations des effectifs et proportions de
+					diplômés universitaires surqualifiés en 2006 et 2016, selon les différents
+					sous-groupes définis par les variables indépendantes sélectionnées. </alinea></para><tableau id="ta2"><no><marquage typemarq="petitecap">tableau 2</marquage></no><legende lang="fr"><titre>Estimation des proportions des diplômés universitaires surqualifiés selon
+						différents sous-groupes, Québec, recensements de 2006 et 2016</titre></legende><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im2" typeimage="tableau" xlink:type="simple"/><texte>20062016Ensemble322 01537,10 % 368 52536,40 % SexeFemme178 31038,10 % 212
+						87037,20 % Homme143 70535,90 % 155 65535,30 % Groupe d’âge18-24 ans31
+						42560,40 % 28 40560,10 % 25-29 ans46 94538,90 % 49 10038,90 % 30-34 ans43
+						99035,40 % 50 23534,50 % 35-44 ans88 26535,90 % 100 39034,10 % 45 ans et
+						plus111 39034,20 % 140 39535,10 % Parle françaisNon16 45549,10 % 19
+						04548,10 % Oui305 55536,60 % 349 48535,90 % Parle anglaisNon91 54037,70 % 82
+						78539,70 % Oui230 47036,90 % 285 74035,50 % Vit avec enfant(s) (0-18
+						ans)Non202 14039,60 % 222 38539,20 % Oui119 87033,50 % 146 14032,70 %
+						Ensemble322 01537,10 % 368 52536,40 % MénagePas en couple dans le ménage92
+						53540,50 % 104 54040,20 % En couple dans le ménage190 39533,40 % 226
+						30533,00 % Enfant dans le ménage39 08056,80 % 37 68055,20 % </texte></objetmedia><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im3" typeimage="tableau" xlink:type="simple"/><texte>20062016RégionMontréal206 77039,70 % 242 73538,70 % Québec33 93033,00 %
+						40 46033,10 % Sherbrooke ou Trois-Rivières12 08034,30 % 13 69533,40 %
+						Gatineau12 40030,30 % 15 63531,40 % Autres régions du Québec56 83533,80 % 56
+						00032,30 % ImmigrantNon243 54534,50 % 252 05032,60 % Oui78 47048,70 % 116
+						47548,60 % Minorité visible (inclut autochtones)Non268 33035,00 % 279
+						16033,30 % Oui53 68553,00 % 89 36551,00 % Origine du diplômeCanada270
+						98035,00 % 290 90533,30 % Amérique latine6 73569,90 % 12 79065,60 % Europe
+						ou autres pays17 81045,40 % 25 97545,10 % Afrique9 99067,80 % 18 48068,80 %
+						Asie Ouest, Centr. et Moy.-Orient3 76060,90 % 5 39060,50 % Asie10 24571,00 %
+						11 84571,40 % États-Unis2 49526,20 % 3 14529,40 % Principal domaine des
+						étudesSTGM62 79033,60 % 68 43531,60 % Commerce et administration87
+						78041,10 % 106 93540,20 % Arts, sciences humaines et sociales, droit107
+						83548,00 % 124 76548,60 % Santé14 68020,70 % 16 04018,80 % Éducation et
+						enseignement28 10523,00 % 27 41520,80 % Métiers, services ressources
+						naturelles et conservation20 82541,90 % 24 93543,50 % </texte></objetmedia></tableau><para id="pa24"><no>24</no><alinea>Pour les deux années étudiées, on constate que la surqualification touche un
+					peu plus de femmes que d’hommes et qu’elle affecte dans une plus grande mesure
+					les jeunes diplômés de 18 à 24 ans (presque deux fois plus que des autres
+					groupes d’âge). De manière générale, le taux de surqualification diminue au fur
+					et à mesure qu’on avance dans l’âge. Cependant, chez les 45 ans et plus, on
+					retrouve une plus grande proportion de diplômés universitaires surqualifiés en
+					2016 qu’en 2006 (35,1 % contre 34,2 %).</alinea></para><para id="pa25"><no>25</no><alinea>L’analyse de la surqualification en fonction des compétences reliées à la
+					maîtrise des langues officielles montre qu’il y a davantage de surqualifiés chez
+					les diplômés universitaires qui ne parlent pas le français que chez ceux qui ne
+					parlent pas l’anglais (49,1 % vs 37,7 % en 2006 et 48,1 % vs 39,7 % en 2016). En
+					2006, le taux de surqualification chez les diplômés qui parlent le français est
+					12,5 % moins élevé que chez ceux qui ne le parlent pas ; ce taux a diminué
+					légèrement à 12,2 % en 2016. En comparaison, le taux de surqualification des
+					diplômés qui parlent l’anglais n’est que de 0,8 % moins élevé que chez ceux qui
+					ne le parlent pas en 2006 et de 4,2 % en 2016. </alinea></para><para id="pa26"><no>26</no><alinea>Du côté du contexte de vie, on observe que les diplômés universitaires qui
+					vivent avec des enfants mineurs et ceux qui vivent en couple sont
+					proportionnellement moins surqualifiés, alors que ceux qui ne vivent pas en
+					couple, et surtout ceux qui sont des enfants dans le ménage, le sont
+					davantage.</alinea></para><para id="pa27"><no>27</no><alinea>L’analyse des différences régionales montre que c’est dans le Grand Montréal
+					qu’on retrouve les plus grandes proportions de diplômés universitaires
+					surqualifiés, avec des valeurs qui avoisinent les 40 %, tant en 2006 qu’en 2016.
+					Dans toutes les autres régions, ces proportions se situent en dessous de la
+					moyenne québécoise, ce qui indique que le Grand Montréal est le principal basin
+					de diplômés universitaires surqualifiés. La région de Gatineau est celle où l’on
+					retrouve proportionnellement le moins de diplômés surqualifiés. Cette région et,
+					dans une moindre mesure, la région de Québec sont aussi les seules où l’on
+					observe une légère augmentation du taux de surqualification entre 2006 et 2016,
+					qui pourrait être imputable à des dynamiques économiques et d’immigration plus
+					fortes que dans les autres régions non métropolitaines.</alinea></para><para id="pa28"><no>28</no><alinea>Nos résultats indiquent également que la surqualification touche fortement
+					les immigrants et les minorités visibles (incluant les Autochtones). Alors qu’un
+					peu plus du tiers de l’ensemble des diplômés est surqualifié en 2006 et 2016
+					(37,1 % et 36,4 %, respectivement), cette proportion est de près de la moitié
+					chez les personnes immigrantes (48,7 % et 48,6 % respectivement) et de plus de
+					la moitié chez les membres des minorités visibles (53 % et 51 % respectivement).
+					Les différences sont encore plus marquées si on considère l’origine du diplôme
+					universitaire. La proportion de surqualifiés est d’un peu moins de moitié chez
+					les diplômés d’Europe et Océanie, mais elle dépasse les 60 % chez les diplômés
+					d’Asie de l’Ouest, du Centre et Moyen-Orient, d’Amérique latine et d’Afrique et
+					les 70 % chez les diplômés du reste de l’Asie. Les personnes diplômées aux
+					États-Unis sont les seules à être proportionnellement un peu moins surqualifiées
+					que celles diplômées au Canada<renvoi id="re1no6" idref="no6" typeref="note">6</renvoi>.</alinea></para><para id="pa29"><no>29</no><alinea>La prévalence de la surqualification varie aussi selon le domaine d’études.
+					Dans les deux recensements, les domaines de la santé et de l’éducation sont ceux
+					où on observe les plus faibles proportions de surqualification. À l’opposé, les
+					domaines des arts, des sciences humaines et sociales et du droit et ceux du
+					domaine des métiers, des services, des ressources naturelles et conservation
+					sont non seulement ceux où les proportions de surqualification sont les plus
+					élevées, mais aussi les deux domaines où les proportions de diplômés
+					universitaires surqualifiés ont augmenté entre 2006 et 2006, passant de 48,0 % à
+					48,6 % (arts, sciences humaines et sociales et droit) et de 41,9 % à 43,5 %
+					(métiers, services, ressources naturelles et conservation). </alinea></para><para id="pa30"><no>30</no><alinea>Le tableau 3 présente deux modèles de régression logistique qui détaillent
+					l’influence nette de chacune des variables indépendantes du modèle sur les
+					chances de surqualification lors du recensement de 2006. Le premier modèle ne
+					tient pas compte des effets d’interaction mentionnés dans la section
+					méthodologique, alors que le second tient compte des effets d’interaction
+					significatifs<renvoi id="re1no7" idref="no7" typeref="note">7</renvoi>. </alinea></para><para id="pa31"><no>31</no><alinea>Selon le Modèle 1, la probabilité de surqualification des hommes est moins
+					grande que celle des femmes (RC = 0,85)<renvoi id="re1no8" idref="no8" typeref="note">8</renvoi>. On
+					note toutefois une interaction significative entre le sexe et le type de ménage
+					(Modèle 2) qui sera abordée plus loin. Le groupe d’âge est un prédicteur net de
+					la surqualification, mais son effet ne s’interprète pas linéairement. Analysée
+					en rapport avec les 35-44 ans, qu’on peut considérer comme des travailleurs
+					établis, la probabilité de surqualification est deux fois plus élevée chez les
+					18-24 ans (RC = 2,05). Les différences avec les autres groupes d’âge sont moins
+					importantes. La probabilité de surqualification est un peu plus faible
+					(RC = 0,95) chez les 30-34 ans comme chez les 45 ans et plus (RC = 0,96)
+					comparativement au groupe de référence, et elle ne diffère pas significativement
+					de ce groupe chez les 25-29 ans.</alinea></para><para id="pa32"><no>32</no><alinea>En ce qui a trait aux compétences linguistiques, la maîtrise du français n’a
+					pas d’effet net sur la probabilité de surqualification, alors que, globalement,
+					la maîtrise de l’anglais la fait diminuer (RC = 0,79 ; Modèle 1). L’analyse des
+					interactions introduite dans le Modèle 2 montre toutefois que cet effet varie
+					selon les régions. La maîtrise de l’anglais ne procure aucun avantage
+					significatif à Gatineau, mais elle procure un avantage marqué à Québec
+					(RC = 0,74), à Sherbrooke et Trois-Rivières (RC = 0,77) ainsi qu’à Montréal
+					(RC = 0,77). L’effet de la maîtrise de l’anglais sur la probabilité de
+					surqualification est plus faible dans les autres régions du Québec (RC = 0,86),
+					mais il est toujours statistiquement significatif. </alinea></para><para id="pa33"><no>33</no><alinea>Les variables décrivant la situation familiale ont aussi un effet net
+					significatif sur la probabilité de surqualification. La présence d’au moins un
+					enfant de 18 ans ou moins dans le ménage est associée à des probabilités moins
+					élevées de surqualification par rapport aux ménages sans enfant (RC = 0,89). Le
+					Modèle 1 montre aussi que, relativement au fait d’être un adulte célibataire,
+					vivre en couple fait diminuer la probabilité de surqualification (RC = 0,82) et
+					être un enfant dans le ménage (vivre chez ses parents) la fait augmenter de plus
+					de la moitié (RC = 1,59). L’analyse des interactions (Modèle 2) montre que vivre
+					en couple fait davantage diminuer la probabilité de surqualification chez les
+					hommes que chez les femmes (RC = 0,76, IC à 95 % = [0,73-0,80] contre RC = 0,86,
+					IC à 95 % = [0,83-0,89]) alors que vivre chez ses parents fait augmenter
+					davantage la probabilité de surqualification chez les hommes que chez les femmes
+					(RC = 1,72, IC à 95 %  = [1,61-1,85] contre RC = 1,47, IC à 95 % = [1,37 à
+					1,57]).</alinea></para><tableau id="ta3"><no><marquage typemarq="petitecap">tableau 3</marquage></no><legende lang="fr"><titre>Modèles de régression logistique prédisant la surqualification, Québec,
+						Recensement 2006</titre><alinea>*p &lt; 0,05. ** p &lt; 0,01. *** p &lt; 0,001.</alinea></legende><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im4" typeimage="tableau" xlink:type="simple"/><texte>Modèle 1Modèle 2Sans effets d’interactionAvec effets d’interactionRCIC
+						95 % RCIC 95 % Sexe [Femme]Homme0,85***[0,83, 0,87]——Groupe d’âge [35-44
+						ans]18-24 ans2,03***[1,92, 2,15]2,05***[1,93, 2,17]25-29 ans1,01[0,97,
+						1,05]1,01[0,97, 1,05]30-34 ans0,95**[0,91, 0,98]0,95**[0,91, 0,98]45 ans et
+						plus0,95**[0,92, 0,98]0,96**[0,93, 0,99]Parle français [Non]Oui0,99[0,92,
+						1,06]0,99[0,92, 1,06]Parle anglais [Non]Oui0,79***[0,77, 0,81]——Vit avec
+						enfant(s) [Non]Oui0,89***[0,86, 0,91]0,89***[0,87, 0,92]Ménage [Pas en
+						couple]En couple dans le ménage0,82***[0,79, 0,84]——Enfant dans le
+						ménage1,59***[1,51, 1,67]——Région [Montréal]Québec0,87***[0,83,
+						0,90]——Sherbrooke ou Trois-Rivières0,96[0,91, 1,02]——Gatineau0,73***[0,68,
+						0,77]——Autres régions du Québec0,99[0,95, 1,02]——Immigrant
+						[Non]Oui1,17***[1,12, 1,22]1,17***[1,12, 1,22]Minorité visible (inclut
+						autochtones) [Non]Oui1,28***[1,22, 1,35]1,29***[1,23, 1,35]</texte></objetmedia><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im5" typeimage="tableau" xlink:type="simple"/><texte>Modèle 1Modèle 2Sans effets d’interactionAvec effets d’interactionRCIC
+						95 % RCIC 95 % Origine du diplôme [Canada]Amérique latine3,78***[3,34,
+						4,29]3,79***[3,34, 4,30]Europe ou autres pays1,56***[1,46,
+						1,66]1,56***[1,46, 1,66]Afrique3,59***[3,23, 3,98]3,58***[3,23, 3,98]Asie
+						Ouest, Centr. et Moy.-Orient2,80***[2,44, 3,21]2,80***[2,44,
+						3,21]Asie4,07***[3,62, 4,57]4,09***[3,64, 4,59]États-Unis0,64***[0,57,
+						0,73]0,64***[0,57, 0,73]Domaine d’études [STGM]Commerce et
+						administration1,58***[1,52, 1,64]1,58***[1,53, 1,64]Arts, sc. hum. et soc.,
+						droit1,96***[1,89, 2,03]1,96***[1,90, 2,03]Soins de santé0,52***[0,49,
+						0,54]0,51***[0,49, 0,54]Éducation et enseignement0,64***[0,61,
+						0,67]0,64***[0,61-0,67]Métiers, services, res. nat. conserv.1,59***[1,51,
+						1,68]1,59***[1,51, 1,68]Interaction Sexe x MénageHomme Enfant vs Pas en
+						couple1,72***[1,61, 1,85]Homme En couple vs Pas en couple0,76***[0,73,
+						0,80]Femme Enfant vs Pas en couple1,47***[1,37, 1,57]Femme En couple vs Pas
+						en couple0,86***[0,83, 0,89]Interaction Région x Parle anglaisMontréal
+						Anglais vs Non0,77***[0,74, 0,80]Québec Anglais vs Non0,74***[0,69,
+						0,80]Sherb. ou Trois-Riv. Anglais vs Non0,77***[0,68, 0,86]Gatineau Anglais
+						vs Non0,86[0,73, 1,01]Autres régions Anglais vs Non0,86***[0,81, 0,90]-2 Log
+						Likelihood1 144 776,31 144 776,3Khi-deux -2LL84192,9 (ddl = 27)
+						p &lt; 0,000184629,2 (ddl=33) p &lt; 0,0001</texte></objetmedia></tableau><para id="pa34"><no>34</no><alinea>Les indicateurs de l’origine géographique sont également fortement associés
+					à la surqualification. Tant le fait d’être issu de l’immigration que
+					l’appartenance à une minorité visible augmentent la probabilité de
+					surqualification, mais la dernière caractéristique plus que la première
+					(RC = 1,17 et RC = 1,29). Le lieu d’obtention du diplôme universitaire a aussi
+					un effet notable. Relativement aux diplômes canadiens, seuls ceux obtenus aux
+					États-Unis sont associés à une moindre probabilité de surqualification
+					(RC = 0,64). Les diplômes obtenus en Europe<renvoi id="re1no9" idref="no9" typeref="note">9</renvoi>
+					font augmenter la probabilité de surqualification de plus de la moitié
+					(RC = 1,56), ceux obtenus en Asie de l’Ouest, Centrale et Moyen-Orient la font
+					plus que doubler (RC = 2,80), alors que ceux obtenus dans le reste de l’Asie, en
+					Amérique latine et en Afrique la multiplient par plus du triple (RC = 4,09,
+					RC = 3,79, RC = 3,58 respectivement). Rappelons que cet effet de l’origine du
+					diplôme universitaire est net du pays de naissance et de l’appartenance à une
+					minorité visible des diplômés universitaires, et qu’il s’ajoute donc à l’effet
+					de ces derniers.</alinea></para><para id="pa35"><no>35</no><alinea>Les modèles 2006 nous montrent finalement que les personnes ayant obtenu des
+					diplômes dans le domaine des soins de santé et celui de l’éducation et
+					l’enseignement sont moins enclines à vivre de la surqualification (RC = 0,51 et
+					RC = 0,64 respectivement) que ceux ayant un diplôme dans le domaine des STGM.
+					Pour tous les autres domaines, les chances de surqualification sont
+					significativement augmentées par rapport au domaine STGM.</alinea></para><para id="pa36"><no>36</no><alinea>Similaire au tableau précédent, le tableau 4 détaille l’influence de chacune
+					des variables indépendantes sur les probabilités de surqualification à partir de
+					données du recensement de 2016. </alinea></para><para id="pa37"><no>37</no><alinea>Les résultats indiquent que les hommes sont toujours protégés de la
+					surqualification relativement aux femmes, selon le modèle sans interactions
+					(RC = 0,87). Comme nous le verrons plus loin, cette protection varie selon le
+					type de ménage. Pour ce qui est de l’âge, on observe que les 18-24 ans, les
+					25-29 ans et les 45 ans et plus ont des probabilités plus grandes d’être
+					surqualifiés en 2016 qu’en 2006 comparativement au groupe des 35-44 ans, alors
+					que les 30-34 ans ne se distinguent plus significativement du groupe de
+					référence.</alinea></para><para id="pa38"><no>38</no><alinea>La maîtrise du français n’est toujours pas un prédicteur de la
+					surqualification, mais l’anglais protège davantage de la surqualification en
+					2016 (RC = 0,69, Modèle 1) qu’en 2006 (RC = 0,79, Modèle 1). Le Modèle 2 indique
+					aussi que la maîtrise de l’anglais a maintenant un effet significatif sur la
+					probabilité de surqualification à Gatineau (RC = 0,86), et que son effet
+					protecteur de la surqualification augmente à Montréal
+					(RC<indice>2006</indice> = 0,77 contre RC<indice>2016</indice> = 0,63).
+				</alinea></para><tableau id="ta4"><no><marquage typemarq="petitecap">tableau 4 </marquage></no><legende lang="fr"><titre>Modèles de régression logistique prédisant la surqualification, Québec,
+						Recensement 2016</titre><alinea>*p &lt; 0,05. ** p &lt; 0,01. *** p &lt; 0,001.</alinea></legende><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im6" typeimage="tableau" xlink:type="simple"/><texte>Modèle 1Modèle 2Sans effets d’interactionAvec effets d’interactionRCIC
+						95 % RCIC 95 % Sexe [Femme]Homme0,87***[0,85, 0,88]——Groupe d’âge [35-44
+						ans]18-24 ans2,46***[2,36, 2,56]2,46***[2,36, 2,57]25-29 ans1,20***[1,17,
+						1,24]1,20***[1,17, 1,24]30-34 ans1,01[0,98, 1,04]1,01[0,98, 1,04]45 ans et
+						plus1,06***[1,04, 1,09]1,07***[1,04, 1,09]Parle français [Non]Oui1[0,96,
+						1,05]1[0,95, 1,05]Parle anglais [Non]Oui0,69***[0,68, 0,71]——Vit avec
+						enfant(s) [Non]Oui0,87***[0,86, 0,89]0,88***[0,86, 0,89]Ménage [Pas en
+						couple]En couple dans le ménage0,81***[0,79, 0,82]——Enfant dans le
+						ménage1,51***[1,45, 1,57]——Région [Montréal]Québec0,94***[0,92,
+						0,96]——Sherbrooke ou Trois-Rivières1,03[0,99, 1,07]——Gatineau0,79***[0,76,
+						0,82]——Autres régions du Québec1[0,98, 1,02]——Immigrant
+						[Non]Oui1,24***[1,21, 1,27]1,24***[1,21, 1,27]Minorité visible (inclut
+						autochtones) [Non]Oui1,33***[1,30, 1,36]1,33***[1,30, 1,37]</texte></objetmedia><objetmedia flot="bloc"><image xmlns:xlink="http://www.w3.org/1999/xlink" id="im7" typeimage="tableau" xlink:type="simple"/><texte>Modèle 1Modèle 2Sans effets d’interactionAvec effets d’interactionRCIC
+						95 % RCIC 95 % Origine du diplôme [Canada]Amérique latine3,27***[3,09,
+						3,46]3,25***[3,07, 3,44]Europe ou autres pays1,58***[1,51,
+						1,65]1,58***[1,51, 1,65]Afrique3,86***[3,64, 4,09]3,81***[3,60, 4,04]Asie
+						Ouest, Centr. et Moy.-Orient2,98***[2,73, 3,26]2,99***[2,74,
+						3,27]Asie4,59***[4,27, 4,94]4,62***[4,30, 4,97]États-Unis0,77***[0,71,
+						0,83]0,77***[0,71, 0,83]Domaine d’études [STGM]Commerce et
+						administration1,68***[1,64, 1,71]1,68***[1,64, 1,71]Arts, sc. hum. et soc.,
+						droit2,32***[2,26, 2,38]2,32***[2,26, 2,38]Soins de santé0,48***[0,47,
+						0,50]0,48***[0,47, 0,50]Éducation et enseignement0,64***[0,62,
+						0,66]0,64***[0,62, 0,66]Métiers, services, res. nat. conserv.1,93***[1,86,
+						2,00]1,93***[1,86, 2,00]Interaction Sexe x MénageHomme Enfant vs Pas en
+						couple1,53***[1,45, 1,62]Homme En couple vs Pas en couple0,75***[0,73,
+						0,77]Femme Enfant vs Pas en couple1,50***[1,42, 1,57]Femme En couple vs Pas
+						en couple0,85***[0,83, 0,87]Interaction Région x Parle anglaisMontréal
+						Anglais vs Non0,63***[0,61, 0,65]Québec Anglais vs Non0,68***[0,65,
+						0,72]Sherb. ou Trois-Riv. Anglais vs Non0,72***[0,66, 0,79]Gatineau Anglais
+						vs Non0,86*[0,77, 0,97]Autres régions Anglais vs Non0,82***[0,79, 0,85]-2
+						Log Likelihood1 328 844,21 328 844,2Khi-deux -2LL120 137,3 (ddl = 27)
+						p &lt; 0,0001120 764,6 (ddl = 33) p &lt; 0,0001</texte></objetmedia></tableau><para id="pa39"><no>39</no><alinea>En ce qui a trait à la situation familiale, le fait de vivre avec des
+					enfants est toujours associé à une moindre probabilité de surqualification. Dans
+					l’ensemble, relativement à la vie en célibataire, la vie en couple confère une
+					protection du même ordre qu’en 2006 et il en est de même pour l’augmentation de
+					probabilité associée au fait d’être un enfant dans le ménage (Modèle 1). L’effet
+					d’interaction avec le sexe est toujours significatif, mais le contraste entre
+					les hommes et les femmes s’amenuise (Modèle 2). Relativement au fait de vivre
+					seul ou hors famille, l’effet protecteur de la vie en couple est toujours plus
+					marqué chez les hommes que chez les femmes (RC = 0,75, I.C. à 95 % = [0,73-0,77]
+					et RC<indice>Femme</indice> = 0,85, I.C. à 95 % = [0,83-0,87]), mais l’effet
+					d’être un enfant dans sa famille n’est plus différent chez les hommes et les
+					femmes en 2016 (RC<indice>Homme</indice> = 1,53, I.C. à 95 % = [1,45- 1,62] et
+					RC<indice>Femme</indice> = 1,50, I.C. à 95 % = [1,42-1,57]).</alinea></para><para id="pa40"><no>40</no><alinea>Les marqueurs d’origine géographique demeurent les plus forts prédicteurs de
+					surqualification en 2016. Les rapports de cote associés au statut d’immigrant et
+					à l’appartenance à une minorité visible augmentent légèrement, mais comme les
+					intervalles de confiance se chevauchent pour toutes les catégories de ces
+					variables entre les deux recensements, cette tendance demeure incertaine.
+					L’association positive entre les diplômes obtenus hors Canada et la
+					surqualification est toujours très marquée, sauf pour ceux obtenus aux
+					États-Unis. En effet, ces derniers sont encore les seuls qui sont associés à une
+					moindre probabilité de surqualification que ceux obtenus au Canada. </alinea></para><para id="pa41"><no>41</no><alinea>En ce qui concerne les domaines d’études, on observe qu’en 2016, les
+					diplômes obtenus en soins de santé et ceux en éducation et enseignement sont
+					toujours les seuls qui sont associés à une moindre probabilité de
+					surqualification comparativement au domaine des STGM. Par rapport aux domaines
+					des STGM, entre 2006 et 2016, on observe également une augmentation du
+					désavantage associé aux diplômes du domaine des arts, des sciences sociales et
+					humaines et du droit (RC<indice>2006</indice> = 1,96 contre
+					RC<indice>2016</indice> = 2,32) et à ceux du domaine des métiers, services,
+					ressources naturelles et conservation (RC<indice>2006</indice> = 1,59 contre
+					RC<indice>2016</indice> = 1,93).</alinea></para></section1><section1 id="s1n4"><no>4</no><titre><marquage typemarq="majuscule">DISCUSSION ET CONCLUSION</marquage></titre><para id="pa42"><no>42</no><alinea>La surqualification, soit le fait de détenir une formation dont le niveau
+					dépasse celui normalement requis pour l’emploi occupé, touche, au Québec, plus
+					du tiers des diplômés universitaires. Ce phénomène est particulièrement
+					important chez les diplômés plus jeunes, issus de l’immigration, faisant partie
+					d’une minorité visible, ainsi que chez ceux dont le diplôme a été obtenu à
+					l’extérieur du Canada et des États-Unis. On trouve également plus de
+					surqualifiés dans le groupe de diplômés universitaires qui ne parlent pas le
+					français, chez ceux qui sont célibataires ou chez ceux qui ont le statut
+					d’« enfant » dans la famille de recensement. La grande région de Montréal est la
+					plus touchée par ce phénomène. </alinea></para><para id="pa43"><no>43</no><alinea>En termes d’évolution, entre 2006 et 2016, on constate une diminution
+					légère, mais significative, du taux de surqualification pour l’ensemble des
+					diplômés universitaires. Cette diminution de la surqualification pourrait
+					s’expliquer par un amoindrissement de la concurrence pour les emplois de niveau
+					universitaire entre les diplômés actifs dans les conditions où le taux de
+					chômage chez les diplômés est demeuré stable à 4,9 % entre ces deux dates alors
+					que le taux d’activité a diminué de 2,6 points (79,3 % à 76,7 %)<renvoi id="re1no10" idref="no10" typeref="note">10</renvoi>.</alinea></para><para id="pa44"><no>44</no><alinea>Cette tendance générale se décline toutefois selon les différentes variables
+					analysées. Si les modèles de régression logistique montrent une certaine
+					stabilité, on observe cependant quelques évolutions des caractéristiques
+					sociales associées à la surqualification des diplômés universitaires pour la
+					période étudiée. Même si chacune des six catégories de variables indépendantes
+					introduites dans les modèles (sexe et âge ; compétences linguistiques ;
+					situation familiale ; région ; marqueur d’origine géographique ; domaine du
+					diplôme) inclut des prédicteurs significatifs de la surqualification dans les
+					modèles, l’effet net le plus marqué se concentre dans la catégorie des marqueurs
+					d’origine géographique. En ordre d’importance, le fait d’avoir obtenu un diplôme
+					dans un pays autre que le Canada ou les États-Unis et le fait d’appartenir à une
+					minorité visible constituent des marqueurs plus forts de la surqualification que
+					le statut d’immigration. Leurs effets se maintiennent dans le temps et touchent
+					plus de la moitié des diplômés universitaires appartenant à ces catégories. Et
+					bien que la proportion globale de diplômés surqualifiés diminue entre 2006 et
+					2016, on observe un accroissement, ou une tendance à l’accroissement, de l’effet
+					du statut d’immigration, de l’appartenance à une minorité visible et de
+					l’origine géographique du diplôme sur la probabilité d’être surqualifié entre
+					ces deux dates. Sur le plan explicatif, l’effet de l’appartenance à une minorité
+					visible peut probablement être associé à la persistance de pratiques de
+					discrimination à l’embauche déjà documentée par ailleurs (Boudarbat et
+					Montmarquette, 2022). En ce qui concerne l’effet du lieu d’obtention du diplôme,
+					deux mécanismes peuvent être invoqués. Le premier recouvre les délais, obstacles
+					et exigences supplémentaires associés à la reconnaissance formelle des diplômes
+					obtenus à l’étranger par les ordres professionnels et autres instances de
+					contrôle qui régulent l’accès à certains secteurs d’activité. À ce premier
+					mécanisme peut se superposer l’effet décrit par l’hypothèse de la « crise de
+					signaux » selon laquelle des signaux contrastés sont donnés aux recruteurs par
+					des diplômes obtenus dans des pays différents, en fonction des compétences
+					perçues ou réelles. Comme la surqualification constitue une forme de
+					non-concordance entre l’emploi et le niveau de scolarité et ne mesure pas
+					statistiquement la non-concordance entre l’emploi et les compétences, certains
+					détenteurs de diplôme universitaire obtenu à l’extérieur du Canada pourraient ne
+					pas avoir les compétences requises pour occuper des emplois correspondant à leur
+					niveau d’études. Ils sont, dans ce cas, des surqualifiés statistiquement, mais
+					pas réellement. La tendance à l’augmentation de la probabilité de
+					surqualification associée aux marqueurs géographiques entre 2006 et 2016 est
+					préoccupante. Elle pourrait refléter une augmentation des pratiques
+					discriminatoires associée à l’accroissement de la population immigrée qui est
+					passée de 11,5 % à 13,7 % entre les deux années. Sur le plan des politiques
+					sociales, il sera important de suivre l’évolution de cette tendance à l’aide des
+					données du recensement de 2021 lorsqu’elles deviendront disponibles. Les
+					variations régionales dans les probabilités de surqualification posent la
+					question de la reconnaissance des diplômes et des compétences des immigrants de
+					même que la nécessité de la mise en place de mécanismes plus souples et plus
+					rapides de certification et de transférabilité des qualifications acquises
+					ailleurs. </alinea></para><para id="pa45"><no>45</no><alinea>Sur le plan des compétences linguistiques, même si l’on retrouve une plus
+					grande proportion de diplômés universitaires surqualifiés chez ceux qui ne
+					maîtrisent pas le français que chez ceux qui le maîtrisent, cette compétence n’a
+					pas d’effet net sur la probabilité de surqualification une fois les autres
+					variables prises en compte. La maîtrise de l’anglais agit toutefois comme un
+					facteur de protection de la surqualification. On peut penser que cet effet
+					protecteur de la maîtrise de l’anglais reflète l’avantage procuré par cette
+					compétence sur les diplômés qui ne la maîtrisent pas (28,0 % en 2006 et 20,6 %
+					en 2016), un avantage que ne confère pas le français qui est maîtrisé par la
+					quasi-totalité (96,1 %) des diplômés. La variation de l’effet protecteur de
+					l’anglais selon les régions, avec un poids plus important à Québec, Sherbrooke
+					et Trois-Rivières, modéré à Montréal et nul dans la région de Gatineau tend à
+					conforter cette explication dans la mesure où l’avantage conféré par cette
+					compétence est plus élevé dans les régions où il est moins répandu. L’effet
+					protecteur de cette compétence tend à s’accentuer entre 2006 et 2016, ce qui
+					suggère que le rôle de l’anglais comme facteur de protection de la
+					surqualification devient, globalement, plus important, malgré la progression de
+					cette compétence parmi les diplômés. Cette situation pourrait refléter le déclin
+					de la proportion de travailleurs utilisant uniquement le français en milieu de
+					travail qui est passée de 83,1 % en 2006 à 80,6 % en 2016. </alinea></para><para id="pa46"><no>46</no><alinea>L’analyse de la situation familiale indique que le fait d’habiter chez ses
+					parents est un facteur associé à une probabilité plus élevée de
+					surqualification. Une partie de cette association pourrait être attribuable aux
+					étudiants des cycles supérieurs inclus dans l’échantillon qui acceptent
+					d’occuper un emploi « alimentaire », sans lien avec leur domaine ou leur niveau
+					de formation, pendant la poursuite de leur scolarité. En termes d’évolution, au
+					cours des dix dernières années, la probabilité de se retrouver en situation de
+					surqualification a augmenté particulièrement pour les jeunes diplômés. La hausse
+					de la diplomation associée au renouvellement démographique combiné avec
+					l’incapacité du marché du travail d’absorber des jeunes de plus en plus diplômés
+					se traduit dans une probabilité plus élevée de surqualification. La vie en
+					couple est associée à une moindre probabilité de surqualification, mais elle
+					fait davantage diminuer cette probabilité chez les hommes que chez les femmes.
+					Cette différence semble attribuable à la prévalence de stratégies de couples qui
+					privilégient la carrière masculine aux dépens de la carrière féminine. On note
+					que même si cette tendance persiste dans le temps, le contraste entre les sexes
+					s’amenuise entre 2006 et 2016, ce qui pourrait refléter une tendance à la
+					diminution des inégalités de genre dans les stratégies des couples à double
+					carrière. Malgré cette tendance, au regard de l’étendue et de la probabilité de
+					surqualification, les femmes restent doublement pénalisées : leur taux de
+					surqualification est plus élevé et le fait de vivre en couple les protège moins
+					que les hommes de la probabilité de surqualification. En situation d’homogamie,
+					et dans les conditions où les hommes ont en moyenne un revenu plus élevé, les
+					ajustements mutuels à l’intérieur des couples semblent donc se faire en défaveur
+					des femmes, y compris sur le plan de la relation formation/emploi. Des éléments
+					d’analyse plus spécifiques s’imposent cependant pour confirmer la capacité
+					explicative de cette hypothèse. </alinea></para><para id="pa47"><no>47</no><alinea>Les résultats des analyses présentés dans cet article montrent que malgré la
+					persévérance et la durée qu’elles exigent, les études universitaires ne
+					garantissent pas l’obtention d’un emploi d’un niveau de qualification équivalent
+					à celui de la formation. Pour la catégorie des diplômés universitaires, le
+					principal défi à surmonter lors de l’insertion professionnelle en période de
+					chômage relativement faible n’est pas tant d’obtenir un emploi, mais d’en
+					obtenir un dont la qualification corresponde à son niveau de diplôme. Le
+					phénomène de la surqualification qui les touche est un indicateur de ce défi, et
+					il soulève la question de la valeur du diplôme universitaire qui apparaît
+					aujourd’hui de plus en plus nécessaire, mais de moins en moins suffisant pour
+					l’accès à un emploi convoité. Outre le diplôme, la relation formation/emploi
+					dépend de l’évolution des emplois ainsi que de la valorisation de l’expérience
+					et des caractéristiques non cognitives comme les traits de personnalité et les
+					compétences relationnelles. Dans un monde du travail marqué par l’existence
+					d’une main-d’oeuvre de plus en diplômée, les dynamiques de l’emploi changent et
+					les attentes se déplacent. Dans ce mouvement, on ne peut pas considérer tous les
+					diplômes de manière homogène. Comme les données présentées dans cet article
+					l’ont démontré, différentes variables associées aux caractéristiques de leurs
+					détenteurs peuvent largement influencer les probabilités de surqualification et
+					la valeur de chaque diplôme sur le marché du travail. </alinea></para><para id="pa48"><no>48</no><alinea>En terminant, il y a lieu de souligner que, indépendamment de sa valeur
+					marchande, le diplôme possède aussi une valeur symbolique qui réfère à des
+					éléments individuels de prestige, d’habilitation culturelle, de reconnaissance
+					ou purement et simplement de plaisir intellectuel. Sur le « marché de la
+					formation », on retrouve des individus qui tirent de la possession des diplômes
+					des avantages sur le « marché des positions sociales ». L’université délivre non
+					seulement des compétences spécifiques en lien avec le marché du travail, mais
+					aussi une « culture de statut » (Heath et Cheung, 1998), soit des valeurs et des
+					attitudes qui, dans la vie de certains individus, comptent autant que les
+					savoirs. La perception du diplôme tire sa substance de sa valeur sur le marché
+					du travail, mais aussi des éléments subjectifs en fonction de la situation
+					particulière et de l’expérience personnelle de chaque individu. C’est la raison
+					pour laquelle, dans l’analyse de la surqualification, il faut prendre en
+					considération non seulement son étendue statistique, mais aussi des facteurs
+					sociologiques tels que les représentations, les valeurs, les préférences
+					individuelles et les stratégies professionnelles des diplômés. Ces éléments
+					peuvent intervenir dans le façonnement des rapports individuels aux situations
+					objectives de surqualification, révélées par les données présentées dans cet
+					article. </alinea></para></section1></corps><partiesann lang="fr"><grbiblio><biblio><refbiblio id="rb1">AURIOL, L., M. MISU et R. A. FREEMAN. 2013. Careers of Doctorate Holders : Analysis of<marquage typemarq="italique"> Labour Market and Mobility Indicators</marquage>. Paris, Éditions de l’OCDE, 61 p. </refbiblio><refbiblio id="rb2">BANGALI, M., D. LITALIEN, J.-C. COALLIER, A. GUILEMETTE et S. BOISVERT. 2019. Étude<marquage typemarq="italique"> panquébécoise sur les compétences des titulaires de doctorat, </marquage>Rapport final, Québec<marquage typemarq="italique">,</marquage> Université Laval. À paraître.</refbiblio><refbiblio id="rb3"><idpublic scheme="doi">10.1080/13504851.2011.633886</idpublic>BARCENA-MARTIN, E., S. BUDRIUA et A. I. MORO-EGIDO. 2012. « Skill mismatches and wages among European university graduates » <marquage typemarq="italique">Applied Economics Letters</marquage>, 19, 15 : 1471-1475. </refbiblio><refbiblio id="rb4">BECKER, G. 1964. <marquage typemarq="italique">Human capital. A theoretical and Empirical analysis with special Reference to Education</marquage>, New York, Columbia University Press, 412 p.</refbiblio><refbiblio id="rb5"><idpublic scheme="doi">10.7202/1040393ar</idpublic>BÉLANGER, A. et S. VÉZINA. 2017. « L’impact de la connaissance des langues officielles, du niveau de littératie et du pays d’origine sur le risque de surqualification au travail des immigrants canadiens », <marquage typemarq="italique">Cahiers québécois de démographie</marquage>, 45, 2 : 145-156. </refbiblio><refbiblio id="rb6">BERG, I. 1970, <marquage typemarq="italique">Education and job : The great training robbery</marquage>, New York, Praeger, 266 p.</refbiblio><refbiblio id="rb7">BOUDARBAT, B. et C. MONTMARQUETTE. 2017. <marquage typemarq="italique">La surqualification professionnelle chez les diplômés des collèges et des universités : État de la situation au Québec</marquage>, Rapport de projet, Centre interuniversitaire de recherche en analyse des organisations, Montréal, 135 p.</refbiblio><refbiblio id="rb8"><idpublic scheme="doi">10.2307/j.ctv2j6xfp6.9</idpublic>BOUDARBAT, B. et C. MONTMARQUETTE. 2022. « Les déterminants à l’embauche des diplômés universitaires originaires du Maghreb », dans M. VULTUR (dir.) <marquage typemarq="italique">Les diplômés universitaires : perspectives socioéconomiques</marquage>, Québec, Presses de l’Université Laval : 105-128.</refbiblio><refbiblio id="rb9">BOURDON, S., M. VULTUR, M.-E. LONGO, A. LECHAUME, C. FLEURY et N. GALLANT. 2020. « Des pertes d’emploi plus importantes chez les jeunes moins diplômés, surtout les jeunes femmes, ainsi que ceux travaillant à temps partiel », <marquage typemarq="italique">Feuillet statistique La jeunesse en chiffres,</marquage> 2, juillet. Québec : Chaire-réseau de recherche sur la jeunesse du Québec, 4 p.</refbiblio><refbiblio id="rb10">CHAUVEL, S. 2016. <marquage typemarq="italique">Course aux diplômes : qui sont les perdants ? </marquage>Paris, Éditions Textuel, 144 p.</refbiblio><refbiblio id="rb11">CONSEIL DES ACADÉMIES CANADIENNES. 2021. <marquage typemarq="italique">Formés pour réussir.</marquage> Ottawa, Comité d’experts sur la transition des nouveaux titulaires de doctorat vers le marché du travail, Conseil des académies canadiennes, 251 p. </refbiblio><refbiblio id="rb12">CORNELISSEN, L. et M. TURCOTTE. 2020. <marquage typemarq="italique">La persistance de la surqualification en emploi des immigrants et des non-immigrants</marquage>, Regards sur la société canadienne, N<exposant>o</exposant> 75-006-X au catalogue, Statistique Canada, Ottawa, Ministre de l’Industrie.</refbiblio><refbiblio id="rb13">DUBET, F. et M. DURU-BELLAT. 2020. <marquage typemarq="italique">L’école peut-elle sauver la démocratie ? </marquage>Paris, Seuil, 221 p.</refbiblio><refbiblio id="rb14">ECKERT, H. 2011. « Le rapport subjectif des jeunes à l’emploi. Employé… Sous-employés ? », <marquage typemarq="italique">Chroniques du travail</marquage>, 1 :  153-164.</refbiblio><refbiblio id="rb15">EDGE, J. et D. MUNRO. 2015. <marquage typemarq="italique">Inside and Outside the Academy. Valuing and Preparing PhDs for Careers</marquage>. Ottawa, The Conference Board of Canada, 131 p.</refbiblio><refbiblio id="rb16"><idpublic scheme="doi">10.1086/693864</idpublic>FLABBI, L. et J. MABLI. 2018. « Household Search or Individual Search : Does It Matter ? », <marquage typemarq="italique">Journal of Labor Economics</marquage>, 36, 1 : 1-46.</refbiblio><refbiblio id="rb17">FONDEUR, Y. et C. MIMI. 2011. « L’insertion des jeunes Français sur le marché du travail : l’influence forte de la conjoncture économique », dans M. VULTUR et D. MERCURE (dir.), <marquage typemarq="italique">Perspectives internationales sur le travail des jeunes</marquage>, Québec, Presses de l’Université Laval : 51-68. </refbiblio><refbiblio id="rb18"><idpublic scheme="doi">10.7202/051267ar</idpublic>GUÉRIN, G., J. CARRIÈRE et T. WILS 1999. « Facteurs explicatifs de la démobilisation chez les diplômés récemment embauchés », <marquage typemarq="italique">Relations industrielles</marquage>, 54 : 4 : 643-672.</refbiblio><refbiblio id="rb19">KILOLO-MALAMBWE, J.-M. 2014. « La surqualification des travailleurs québécois selon l’industrie portrait évolutif selon le genre et effets sur la rémunération », dans M. VULTUR (dir.), <marquage typemarq="italique">La surqualification au Québec et au Canada</marquage>, Québec, Presses de l’Université Laval : 21-48.</refbiblio><refbiblio id="rb20">LAROCHELLE-COTÉ, S. et D. HANGO. 2016. <marquage typemarq="italique">La surqualification, les compétences et la satisfaction au travail</marquage>, Regards sur la société canadienne, N<exposant>o</exposant> 75-006-X au catalogue, Statistique Canada, Ottawa, Ministre de l’Industrie.</refbiblio><refbiblio id="rb21">LEDENT, J., A. BÉLANGER et G. MAROIS. 2014. « La surqualification des travailleurs surqualifiés d’origine immigrée résidant sur l’île de Montréal » dans M. VULTUR (dir.), <marquage typemarq="italique">La surqualification au Québec et au Canada</marquage>, Québec, Presses de l’Université Laval : 97-129.</refbiblio><refbiblio id="rb22">LI, C., G. GERVAIS et A. DUVAL. 2006. <marquage typemarq="italique">La dynamique de la surqualification : les universitaires sous-utilisés au Canada</marquage>, Document analytique, N<exposant>o</exposant> 11-621-MIF2006039 au catalogue, Statistique Canada, Ottawa, Ministre de l’Industrie.</refbiblio><refbiblio id="rb23">MERLE, P. 2010. « Prolongation de la scolarisation et déclassement à l’embauche. Une relation complexe et instable », dans C. PAPINOT et M. VULTUR (dir.) <marquage typemarq="italique">Les jeunesses au travail. Regards croisés France-Québec</marquage>, Québec, Presses de l’Université Laval : 77-100. </refbiblio><refbiblio id="rb24">MINISTÈRE DE L’ÉDUCATION ET DE L’ENSEIGNEMENT SUPÉRIEUR. 2016. <marquage typemarq="italique">La Relance à l’université : la situation d’emploi de personnes titulaires d’un doctorat</marquage>, Québec, Gouvernement du Québec. </refbiblio><refbiblio id="rb25"><idpublic scheme="doi">10.1080/135048596356131</idpublic>SOLANE, P. J., H. BATTU et P. SEAMAN. 1996. « Overeducation and the formal education-experience and training trade-off », <marquage typemarq="italique">Applied Economics Letters</marquage>, 3, 511-515.</refbiblio><refbiblio id="rb26">STATISTIQUE CANADA. 2018. « Classification nationale des professions (CNP) 2016 Version 1.1 ». No 12-583-X au catalogue, Canada, Ministre de l’Industrie.</refbiblio><refbiblio id="rb27">STATISTIQUE CANADA. 2017. « Les jeunes titulaires d’un baccalauréat trouvent-ils des emplois qui correspondent à leur domaine d’études ? », Recensement de la population, 2016. No 98-200-X2016025 au catalogue, Canada, Ministre de l’Industrie.</refbiblio><refbiblio id="rb28"><idpublic scheme="doi">10.1016/0272-7757(87)90003-3</idpublic>TSANG, M. C. 1987. « The impact of underutilisation on productivity : the US bell companies », <marquage typemarq="italique">Economics of Education Review</marquage>, 6 : 239-254.</refbiblio><refbiblio id="rb29"><idpublic scheme="doi">10.1016/0272-7757(85)90051-2</idpublic>TSANG, M. C. et H. M. LEVIN. 1985. « The economics of overeducation », <marquage typemarq="italique">Economics of Education Review</marquage>, 4 : 93-105.</refbiblio><refbiblio id="rb30"><idpublic scheme="doi">10.1016/S0272-7757(98)00029-6</idpublic>VAHEY, S. P. 2000. « The Great Canadian training robbery : evidence on the returns to education mismatch », <marquage typemarq="italique">Economics of Education Review</marquage>, 19 : 219-227. </refbiblio><refbiblio id="rb31"><idpublic scheme="doi">10.7202/013641ar</idpublic>VULTUR, M. 2006. « Le diplôme et le marché du travail. La dynamique de l’éducation et le déclassement au Québec », <marquage typemarq="italique">Recherches sociographiques</marquage>, XLVII, 1 :  41-68.</refbiblio><refbiblio id="rb32"><idpublic scheme="doi">10.7202/1038439ar</idpublic>VULTUR, M. 2016. « Rapport au diplôme et sentiment de surqualification des diplômés universitaires québécois », <marquage typemarq="italique">Recherches sociographiques</marquage>, LVII, 2-3 : 553-574.</refbiblio><refbiblio id="rb33"><idpublic scheme="doi">10.2307/j.ctv2j6xpzq.10</idpublic>VULTUR, M. 2022. « Quelle formation pour quel emploi ? Une polygraphie de la surqualification professionnelle des diplômés universitaires québécois » dans C. FLEURY et A. LACHAUME (dir.), <marquage typemarq="italique">Les diversités en emploi : perspectives et enjeux au Québec et au Canada</marquage>, Presses de l’Université Laval, p. 140-159.</refbiblio><refbiblio id="rb34">UPPAL, S. et S. LAROCHELLE-CÔTÉ. 2014. <marquage typemarq="italique">La surqualification de nouveaux diplômés universitaires au Canada</marquage>, Regards sur la société canadienne, N<exposant>o</exposant> 75-006-X au catalogue, Statistique Canada, Ottawa, Ministre de l’Industrie.</refbiblio></biblio></grbiblio><grnote><note id="no1"><no>1</no><alinea>Les données sur la diplomation et les indicateurs d’insertion ont été
+					produites par les auteurs à partir de différents recensements
+					canadiens.</alinea></note><note id="no2"><no>2</no><alinea>Les estimations du questionnaire détaillé du Recensement de 2006 ont été
+					dérivées à partir d’une enquête à participation obligatoire. Le taux de réponse
+					au questionnaire détaillé du Recensement de 2006 était de 93,8 %. Le risque
+					d’erreur due à la non-réponse était très faible, et ce risque est similaire
+					entre les estimations dérivées à partir des questionnaires détaillés du
+					Recensement de 2016 et du Recensement de 2006.</alinea></note><note id="no3"><no>3</no><alinea>Les analyses contenues dans ce texte ont été réalisées au Centre
+					interuniversitaire québécois de statistiques sociales (CIQSS), membre du Réseau
+					canadien des Centres de données de recherche (RCCDR). Les activités du CIQSS
+					sont rendues possibles grâce à l’appui financier du Conseil de recherche en
+					sciences humaines (CRSH), des Instituts de recherche en santé du Canada (IRSC),
+					de la Fondation canadienne pour l’innovation (FCI), de Statistique Canada, des
+					Fonds de recherche du Québec ainsi que de l’ensemble des universités québécoises
+					qui participent à leur financement. Les idées exprimées dans ce texte sont
+					celles des auteurs et pas nécessairement celles du RCCDR, du CIQSS ou de leurs
+					partenaires.</alinea></note><note id="no4"><no>4</no><alinea>L’utilisation de la Classification nationale des professions pour déterminer
+					le niveau de qualification des diplômés universitaires nous limite dans
+					l’analyse relative au niveau de diplôme universitaire puisque le niveau de
+					compétences « A-professionnel » ne fait aucune distinction entre les différents
+					diplômes universitaires (baccalauréat, maîtrise et doctorat). Par conséquent, le
+					taux de surqualification risque d’être sous-estimé chez les personnes qui
+					possèdent un diplôme d’études supérieures. Les titulaires d’une maîtrise ou d’un
+					doctorat qui occupent un emploi qui exige un baccalauréat sont considérés comme
+					qualifiés alors que, dans les faits, ils sont surqualifiés par rapport à leur
+					emploi.</alinea></note><note id="no5"><no>5</no><alinea>La famille de recensement est composée d’une personne vivant seule ou d’un
+					couple, marié ou non, ainsi que, le cas échéant, des enfants du couple ou de
+					l’un ou l’autre des conjoints. Tous les membres d’une famille de recensement
+					habitent le même logement.</alinea></note><note id="no6"><no>6</no><alinea>Il est intéressant de mentionner qu’en 2016, chez les personnes immigrantes,
+					le taux de surqualification de celles détenant un diplôme d’un établissement
+					canadien est de 37,8 % alors qu’il est de 57,9 % chez celles dont le diplôme
+					provient d’un établissement hors Canada (non présenté dans le
+					tableau 1).</alinea></note><note id="no7"><no>7</no><alinea>Tel que précisé dans la section méthodologique, trois effets d’interaction
+					ont été testés : Sexe x Vit avec enfant ; Sexe x Ménage ; Région x Parle
+					anglais. Seules les interactions significatives sont incluses dans le tableau.
+					Lorsque l’interaction est significative, les rapports de cotes liés aux effets
+					principaux pris individuellement ne sont pas interprétables ; seuls le sont ceux
+					de l’interaction. </alinea></note><note id="no8"><no>8</no><alinea>Le rapport de cotes (RC) indique la probabilité relative de surqualification
+					par rapport à la modalité de référence. </alinea></note><note id="no9"><no>9</no><alinea>Cette catégorie inclut aussi l’Australie, la Nouvelle-Zélande et quelques
+					autres pays insulaires regroupant une très faible proportion d’immigrants au
+					Canada.</alinea></note><note id="no10"><no>10</no><alinea>Statistique Canada Tableau 14-10-0020-01 (anciennement CANSIM
+					282-0004).</alinea></note></grnote></partiesann></article>

@@ -1,5 +1,6 @@
 from utils.io import normalize_text, extract_from_path
 from .road import chemins_erudit
+import re
 
 ns_erudit = {"er": "http://www.erudit.org/xsd/article",
              "xlink": "http://www.w3.org/1999/xlink"}
@@ -232,22 +233,63 @@ def extract_erudit_body_sections(root):
 
 def extract_erudit_global_figures(root):
     ns = {"er": "http://www.erudit.org/xsd/article"}
-
     figures = []
-    for fig in root.findall(".//er:figure", namespaces=ns):
-        fig_id = fig.attrib.get("id", "")
-        fig_label = fig.findtext("er:no", default="", namespaces=ns)
-        alinea_node = fig.find(".//er:legende/er:alinea", namespaces=ns)
-        fig_caption = "".join(alinea_node.itertext()) if alinea_node is not None else ""
-        fig_source = fig.findtext("er:source", default="", namespaces=ns)
+
+    # Cas 1 : groupes de figures (grfigure)
+    for grfig in root.findall(".//er:grfigure", namespaces=ns):
+        group_label = grfig.findtext("er:no", default="", namespaces=ns)
+        titre = grfig.findtext("er:legende/er:titre", default="", namespaces=ns)
+        # Légendes de l'ensemble du groupe
+        alineas = grfig.findall("er:legende/er:alinea", namespaces=ns)
+        legends = []
+        for alinea in alineas:
+            texte = "".join(alinea.itertext()).strip()
+            if texte:
+                legends.append(normalize_text(texte))
+
+        # Sous-figures
+        subfigures = []
+        for subfig in grfig.findall(".//er:figure", namespaces=ns):
+            sub_label = subfig.findtext("er:no", default="", namespaces=ns)
+            sub_titre = subfig.findtext("er:legende/er:titre", default="", namespaces=ns)
+
+            subfigures.append({
+                "label": normalize_text(sub_label),
+                "caption": normalize_text(sub_titre),
+            })
 
         figures.append({
+            "label": normalize_text(group_label),
+            "caption": normalize_text(titre),
+            "legends": legends,
+            "subfigures": subfigures,
+        })
+
+    # Cas 2 : figures simples hors des groupes
+    for fig in root.findall(".//er:figure", namespaces=ns):
+        if fig.getparent().tag.endswith("grfigure"):
+            continue
+
+        fig_label = fig.findtext("er:no", default="", namespaces=ns)
+        titre = fig.findtext("er:legende/er:titre", default="", namespaces=ns)
+
+        alineas = fig.findall("er:legende/er:alinea", namespaces=ns)
+        legends = []
+        for alinea in alineas:
+            for media in alinea.findall("er:objetmedia", namespaces=ns):
+                if media.tail:
+                    texte = normalize_text(media.tail)
+                    if texte:
+                        legends.append(texte)
+        figures.append({
             "label": normalize_text(fig_label),
-            "caption": normalize_text(fig_caption),
-            "source": normalize_text(fig_source)
+            "caption": normalize_text(titre),
+            "legends": legends,
+            "subfigures": []
         })
 
     return figures
+
 
 
 def extract_erudit_global_tables(root):

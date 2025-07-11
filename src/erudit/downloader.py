@@ -108,21 +108,21 @@ def clean_pdf_2cols(pdfs_dir="data/pdfs/pdf_2cols"):
 
 def main():
 
-    input_csv = "data/csv/article_ids_ae49.csv"
+    input_csv = "data/csv/article_ids_cqd27.csv"
     pdf_dir = "data/pdfs"
     os.makedirs(pdf_dir, exist_ok=True)
 
-    # ids = pd.read_csv(input_csv, header=None)[0].tolist()
+    ids = pd.read_csv(input_csv, header=None)[0].tolist()
 
-    # for article_id in ids:
-    #     try:
-    #         print(f"Téléchargement de {article_id}...")
-    #         #download_erudit_xml(article_id, None)
-    #         #download_and_clean_erudit_pdf(article_id, pdf_dir)
-    #     except Exception as e:
-    #         print(f"Erreur pour {article_id} : {e}")
-    download_erudit_xml_2cols()
-    clean_pdf_2cols()
+    for article_id in ids:
+        try:
+            print(f"Téléchargement de {article_id}...")
+            download_erudit_xml(article_id, None)
+            download_and_clean_erudit_pdf(article_id, pdf_dir)
+        except Exception as e:
+            print(f"Erreur pour {article_id} : {e}")
+    #download_erudit_xml_2cols()
+    #clean_pdf_2cols()
 
 if __name__ == "__main__":
     main()

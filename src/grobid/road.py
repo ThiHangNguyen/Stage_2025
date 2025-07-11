@@ -1,13 +1,12 @@
 
 chemins_grobid = {
     "title": "//tei:titleStmt/tei:title",
+    "overline" : "",
     "subtitle": "//tei:titleStmt/tei:title[@level='a' and @type='sub']",
     "author_first_name": "//tei:sourceDesc//tei:author/tei:persName/tei:forename[@type='first']",
     "author_last_name": "//tei:sourceDesc//tei:author/tei:persName/tei:surname",
     "author_email": "//tei:sourceDesc//tei:author/tei:email",
     "author_affiliation": "//tei:author//tei:affiliation/tei:note",
-
-
 
     "abstract": "//tei:profileDesc/tei:abstract//tei:p",
     "date": "//tei:sourceDesc//tei:date[@type='published']/@when",
@@ -24,7 +23,7 @@ chemins_grobid = {
     "editorial_team": None,
     "issue_number": "//tei:sourceDesc//tei:biblStruct//tei:monogr//tei:imprint//tei:biblScope[@unit='issue']",
     "volume": "//tei:sourceDesc//tei:biblStruct//tei:monogr//tei:imprint//tei:biblScope[@unit='volume']",
-    "volume_year": "//tei:sourceDesc//tei:biblStruct/tei:monogr/tei:imprint/tei:date[@type='published']",
+    #"volume_year": "//tei:sourceDesc//tei:biblStruct/tei:monogr/tei:imprint/tei:date[@type='published']",
     #"publication_date_online": "//tei:sourceDesc//tei:biblStruct/tei:monogr/tei:imprint/tei:date[@type='published']/@when",
     "themes": None,
 

@@ -12,7 +12,7 @@ def extract_grobid_footnotes(root):
     for note in root.xpath("//tei:note[@place='foot' and @n]", namespaces=ns_grobid):
         numero = note.attrib.get("n")
         #print(numero)
-        texte = "".join(note.itertext()).strip()
+        texte = " ".join(note.itertext())
         #print (texte)
         if numero and texte:
             notes.append(f"[{numero}] {normalize_text(texte)}")
@@ -208,10 +208,8 @@ def extract_grobid_global_tables(root):
             cells = [normalize_text("".join(cell.itertext())) for cell in row.findall("tei:cell", namespaces=ns)]
             rows.append(cells)
 
-        # Caption (via parent <figure> -> <figDesc>)
         caption = ""
         label = ""
-        fig_type = ""
 
         parent = table_node.getparent()
         if parent is not None and parent.tag.endswith("figure"):
@@ -226,7 +224,6 @@ def extract_grobid_global_tables(root):
         tables.append({
             "label": label,
             "caption": caption,
-            "source": fig_type,
             "rows": rows
         })
    # print(tables)
@@ -241,8 +238,7 @@ def extract_grobid_figures(root):
         return []
 
     figures = []
-    for figure in body.findall(".//tei:figure", namespaces=ns):  # global
-        fig_type = figure.attrib.get("type", "")
+    for figure in body.xpath(".//tei:figure[not(@type)]", namespaces=ns):
         caption = ""
         fig_desc = figure.find("tei:figDesc", namespaces=ns)
         if fig_desc is not None:
@@ -258,7 +254,6 @@ def extract_grobid_figures(root):
         figures.append({
             "label": label,
             "caption": caption,
-            "source": fig_type
         })
 
     return figures

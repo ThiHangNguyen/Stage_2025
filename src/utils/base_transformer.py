@@ -51,6 +51,7 @@ def convert_section(section_data):
 def convert_to_base(data):
     base = {
         "title": first_or_empty(data.get("title")),
+        "overline": first_or_empty(data.get("overline")), #surtitre
         "subtitle": first_or_empty(data.get("subtitle")),
         "authors": [],
         "abstract": first_or_empty(data.get("abstract")),
@@ -76,7 +77,7 @@ def convert_to_base(data):
         "language": first_or_empty(data.get("language")),
 
         # Nouveaux champs pour des annexes
-        "annexes": [normalize_text(a) for a in data.get("annexes", []) if isinstance(a, str)],
+        #"annexes": [normalize_text(a) for a in data.get("annexes", []) if isinstance(a, str)],
         "acknowledgements": first_or_empty(data.get("acknowledgements")),
         "biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
         #"bibliographies": [normalize_text(b) for b in data.get("bibliographies", []) if isinstance(b, str)],
@@ -101,8 +102,6 @@ def convert_to_base(data):
             for b in data.get("bibliographies", [])
             if isinstance(b, dict)
         ],
-
-
 
         "notes": [normalize_text(n) for n in data.get("notes", []) if isinstance(n, str)],
     }
@@ -147,7 +146,8 @@ def convert_to_base(data):
             base["figures"].append({
                 "label": normalize_text(f.get("label", "")),
                 "caption": normalize_text(f.get("caption", "")),
-                "source": normalize_text(f.get("source", ""))
+                "legends" : f.get("legends", []),
+                "subfigures": f.get("subfigures", [])
             })
 
     base["tables"] = []
@@ -156,7 +156,6 @@ def convert_to_base(data):
             base["tables"].append({
                 "label": normalize_text(t.get("label", "")),
                 "caption": normalize_text(t.get("caption", "")),
-                "source": normalize_text(t.get("source", "")),
                 "rows": t.get("rows", [])
             })
 
