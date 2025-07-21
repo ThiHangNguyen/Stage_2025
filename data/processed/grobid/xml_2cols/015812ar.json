@@ -1,5 +1,6 @@
 {
   "title": "cartographie de la vulnerabilite a la pollution des eaux souterraines : application a la plaine du",
+  "overline": "",
   "subtitle": "",
   "authors": [
     {
@@ -55,7 +56,6 @@
   "keywords": [],
   "themes": [],
   "language": "fr",
-  "annexes": [],
   "acknowledgements": "",
   "biographical_notes": [],
   "bibliographies": [
@@ -306,9 +306,7 @@
         "dans ce travail nous presentons une methode devaluation et de cartographie de la vulnerabilite a la pollution des eaux souterraines.pour cela, nous avons introduit un indice de vulnerabilite iv en considerant trois parametres caracterisant le transfert dun polluant depuis la surface sol jusqua la nappe.il sagit du temps de transit t via la zone de couverture, le degre depuration cp/cp (le rapport de la concentration cp de leau en polluant a larrivee au niveau de la nappe par rapport a la concentration initiale cp de leau polluante) et le degre de recharge r/r (rapport de la recharge efficace par rapport a la recharge potentielle).cet indice represente la somme ponderee de leffet de ces trois parametres sur la vulnerabilite.les parametres temps de transit et degre depuration ont ete approches par lintermediaire des vitesses de filtration, du pouvoir epurateur et des epaisseurs caracterisant les differentes couches de la zone de couverture.le degre de recharge est estime par le bilan hydrique, tandis que les ponderateurs des trois parametres ont ete determines par des tests de sensibilite suivis danalyses de regression lineaire multiple realisees sur des puits temoins.cette methode a ete appliquee a la plaine du gharb (maroc) connue pour son systeme hydraulique complexe et une intense activite agricole.ainsi, une carte de vulnerabilite intrinseque et des cartes thematiques ont ete etablies pour ladite plaine en utilisant un systeme dinformation geographique (sig)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -320,9 +318,7 @@
         "here we present a method for the evaluation and mapping of groundwater vulnerability to pollution.for this purpose, we introduce a vulnerability index, iv, as a linear function of three parameters: 1) time of transit, t, via the unsaturated zone, 2) degree of purge, cp/cp (the ratio of the pollutant concentration, cp, reaching the water table and the initial pollutant concentration in the aquifer, cp) and 3) the degree of recharge r/r (the ratio of the effective recharge and the potential recharge).the vulnerability index thus takes into account the weighted sum of all three parameters, which characterize the transfer of a pollutant from the soil surface to the water table.in our study, the transit time and the degree of purge were estimated by the infiltration rate, purge power and thickness, which characterize the various layers of the unsaturated zone.the degree of recharge was estimated by the water balance.the weighting coefficients of the above parameters were estimated by sensitivity tests and analyzed by linear regression using pilot wells.this method was applied to the gharb plain in morocco, known for its complex hydraulic system and intense agricultural activity.intrinsic vulnerability and parametric maps were established for this area using a geographical information system.keyword: groundwater, pollution, vulnerability, mapping, gis, gharb, morocco."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -335,9 +331,7 @@
         "dans ce travail nous presentons la cartographie de la vulnerabilite de la plaine du gharb au maroc a laide dun indice iv qui est fonction de trois parametres intervenant dans le transfert du polluant : le temps de transit (t) dun polluant dans la zone non saturee, le degre depuration (cp/cp) et le degre de recharge (r/r).lindice de vulnerabilite est defini comme etant la somme ponderee de leffet de ces trois parametres (amharref et al., 2001a;2002)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -347,9 +341,7 @@
       "title": "indice de vulnerabilite et cartographie",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -371,14 +363,12 @@
         "les valeurs calculees de lindice sont reparties en classes de degres de vulnerabilite dont les limites sont fixees en fonction des caracteristiques de la zone detude.le calcul de lindice de vulnerabilite et la cartographie des differents parametres, sur toute la zone, ont ete enormement facilites par lutilisation dun systeme dinformation geographique (arcview dans notre cas)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "iv 1 t cp cp r r = + + α β γ(",
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -390,9 +380,7 @@
         "levaluation du degre de recharge (r/r) se fait en se basant sur lidentification des zones dinfiltration concentree (zones dalimentation privilegiee de la nappe par les eaux de surface, zones dirrigation intensive) et lappreciation des surfaces dinfiltration diffuse des precipitations.cependant, la quantification de la recharge dun aquifere nest pas toujours simple; elle depend aussi bien des caracteristiques du sol (nature, pente et couvert vegetal) que de la distribution des precipitations dans le temps ainsi que dautres variables climatiques (temperature et humidite).il nest donc pas possible de donner un pourcentage absolu de la recharge (lerner et al., 1990).cette recharge est dautant plus difficile a evaluer dans les climats arides et semiarides ou les precipitations sont relativement rares et sporadiques et ou les processus devaporation et devapotranspiration sont tres importants.toutefois, linfiltration des precipitations predomine particulierement dans la recharge des nappes superficielles et elle peut etre estimee par plusieurs methodes dont le bilan hydrique est la plus couramment utilisee."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -408,7 +396,6 @@
         "la protection de la nappe est dautant meilleure que ce temps t est plus eleve."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "cp cp md si md cas / = < 1 1 de lepuration partielle 0 s si md 1 cas de lepuration totale ≥   ",
@@ -419,7 +406,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -436,9 +422,7 @@
         "ce modele decrit une relation tres significative entre lindice de vulnerabilite et les trois parametres.il montre que ce sont les facteurs degre depuration et temps de transit qui conditionnent le plus, et ce de maniere quasi similaire, lindice iv et que la recharge linfluence moins.dautre part, les valeurs approchees que nous avons affectees aux coefficients α, β et γ (α = β = 2 et γ = 1) sont aussi coherentes et judicieuses.en pratique, les coefficients de ponderations proposes sont des constantes applicables de maniere generale.par contre, les intervalles des degres de vulnerabilite (faible, forte et tres forte), pour des temps de transit superieurs ou egaux a un jour, peuvent etre raffines en fonction des caracteristiques geologiques et hydrogeologiques de la zone etudiee.lapplication de ce modele a la plaine du gharb donne des resultats qui concordent bien avec ceux des puits temoins."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -448,9 +432,7 @@
       "title": "application a la plaine du gharb (maroc)",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -462,9 +444,7 @@
         "la plaine du gharb est situee au nordouest du maroc.elle setend dans la basse vallee de loued sebou sur une superficie de 3 000 km 2 (figure 2).elle est formee dune epaisse serie sedimentaire de depots tres heterogenes depuis les marnes du miocene jusquaux limons du quaternaire recent (figure 3).son climat passe de subhumide a hiver tempere en zone cotiere et a semiaride a hiver chaud a linterieur de la plaine.les precipitations moyennes annuelles sont de 460 mm.le drainage superficiel est assure principalement par loued sebou avec un apport de 6 milliards m 3 /an.la zone est a vocation agricole et a fait lobjet damenagements hydrauliques considerables et de mise en valeur agricole depuis 1933.le mode dirrigation le plus pratique est le gravitaire.les fourrages, la canne a sucre et la betterave sont les cultures irriguees les plus frequentes.la plaine renferme un systeme aquifere complexe constitue de deux principales nappes (figure 4) superposees qui sont : la nappe phreatique au centre de la plaine et la nappe profonde qui affleure sur les pourtours sud et ouest et plonge au centre sous la nappe superficielle.laquifere profond, dune epaisseur variant de 60 a 200 m, se trouve dans un complexe heterogene du pliovillafranchien forme de sables, de gres, de calcarenites et de conglomerats.il est dote de bonnes caracteristiques hydrodynamiques, dont la permeabilite varie de 10 4 a 6,10 3 m/s et la transmissivite varie de 3 10 4 a 1,5 10 2 m 2 /s (drpe, 1994;el mansouri, 1999 ).laquifere superieur, dune puissance variant de 20 a 100 m, est forme de materiaux quaternaires heterogenes dargiles, de limons et de passages sableux et /ou sablolimoneux.il renferme une nappe libre localisee au centre de la plaine.sa permeabilite est comprise entre 10 7 et 2 10 5 m/s.la recharge de la nappe se fait principalement par linfiltration des pluies et le retour des eaux dirrigation.lecoulement general est du sudest vers le nordouest dans la partie sud de la plaine et devient sensiblement estouest dans les parties centre et ouest (figure 4).la nappe se decharge essentiellement par evaporation et par drainage naturel par des oueds, et artificiel par des canaux.la ligne de partage des eaux qui jalonne par endroit le sebou est a mettre en relation avec une zone dalimentation privilegiee par cet oued."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -474,9 +454,7 @@
       "title": "2 donnees relatives a la plaine du gharb",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -488,9 +466,7 @@
         "la recharge concentree, predominee par les retours dirrigation, est estimee a 25 % (drpe, 1994) et les echanges avec loued sebou qui sont tres localises, en particulier dans la partie centreouest de la plaine.la recharge diffuse se fait par infiltration de 15 % des precipitations (estimee par le bilan hydrique).la plaine montre (figure 5) un degre de recharge important sur lensemble de la region qui est a mettre en relation avec lirrigation intensive que connaissent la plaine et les faibles pentes qui favorisent linfiltration."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -502,9 +478,7 @@
         "la nature et lepaisseur des differentes couches qui constituent la zone non saturee ont ete determinees essentiellement a partir des donnees fournies par loffice de mise en valeur agricole du gharb (ormvag) et par la direction des travaux publics.il sagit de donnees extraites des profils des puits realises au cours de letude pedologique (ormvag, 1996), de donnees des fiches de puits et de forages realises par la direction de lhydraulique, et de donnees de suivi des piezometres captant la nappe superficielle (figure 2).lepaisseur de la zone non saturee varie entre 0,7 m dans la partie nord et 10 m au centre et au sudest de la plaine.lutilisation de ces donnees, des indices depuration et des vitesses (tableau 1) nous a permis de calculer le temps de transit et le degre depuration de la couche de couverture.la repartition du temps de transit et du degre depuration (figure 6 presentent des intercalations sableuses au sud est.elles ont aussi des epaisseurs faibles a louest et au nord de la plaine."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -516,9 +490,7 @@
         "les valeurs de lindice normalise qui ont ete calculees pour la plaine du gharb par la relation 1 sont reparties en classes correspondant a une vulnerabilite faible (0 < iv < 0,15), forte (0,15 < iv < 0,35), tres forte (0,35 < iv < 1) et extreme (iv > 1).le choix de ces intervalles est base sur une analyse des temps de transit et du degre depuration de tous les puits et leur confrontation avec les donnees geologiques et hydrogeologiques.la carte obtenue (figure 8) montre en general une forte vulnerabilite au niveau des parties nord et centre qui est peut etre liee a la faible epaisseur de la zone non saturee de laquifere.les parties nordest et sudest de la plaine presentent une faible vulnerabilite qui pourrait sexpliquer en loccurrence par la puissance de la zone de couverture.les eaux souterraines y sont localement mieux protegees.par contre, cette protection nest pas assuree dans les zones nordouest (au nord sidi allal tazi) et au nord de sidi sliman, presentant une vulnerabilite tres forte a extreme localement.cette situation est inquietante, car cette derniere zone presente une densite elevee des puits captant la nappe phreatique et les utilisateurs de leau souterraine y sont nombreux.par ailleurs, les zones a forte et a tres forte vulnerabilite necessitent un controle et une limitation des activites potentiellement polluantes, car ces zones sont, dune part, susceptibles detre polluees et, dautre part, les ecoulements souterrains peuvent entrainer le polluant vers dautres zones peu vulnerables.des echanges sont aussi possibles entre les deux nappes et avec loued sebou.ces echanges sont probables, en particulier dans la partie centreouest (au nordest de sidi allal tazi) qui est une zone dalimentation privilegiee de la nappe par loued.la situation est preoccupante sachant que loued sebou est le collecteur principal des rejets des deux grandes villes de fes et meknes situees en amont de la plaine.le probleme atteint plus le milieu rural dont la population utilise directement leau souterraine sans aucun traitement prealable.dans ces zones, des mesures preventives adequates sont necessaires afin de limiter les risques."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -530,9 +502,7 @@
         "la cartographie de la vulnerabilite des eaux souterraines est une methodologie qui est devenue imperative afin dassurer la gestion qualitative des ressources en eau et la protection des captages deau potable.elle apparait donc necessaire et incontournable, car elle permet didentifier facilement les zones sensibles a des pollutions potentielles.elle permet aussi dorienter lamenagement du territoire.cependant, lusage de ces cartes pour la limitation efficace de la protection des eaux souterraines doit tenir compte du contexte hydrodynamique de laquifere qui ne compromet pas inutilement la planification et la gestion du territoire.loriginalite de ce travail reside dans la realisation dune cartographie de la vulnerabilite de la plaine du gharb qui, jusqua ce jour, navait pas ete dressee, et cela en utilisant un indice de vulnerabilite recemment introduit (amharref et al., 2001a).dautres etudes doivent etre poursuivies afin delaborer des cartes plus precises et tenant compte dun nombre important de donnees.par ailleurs lutilisation dun systeme dinformation geographique faciliterait la mise a jour de ces cartes.remerciement nous tenons a remercier m. abdeloiahid el moussaoui, professeur de statistiques a la faculte des sciences et techniques a tanger, pour son aide a la realisation des tests de sensibilite.references bibliographiques aller l., t. bennet, j.h. lehr, r. petty et g. hackett (1987).drastic: a standardized system to evaluate ground water pollution potential using hydrogeologic settings.u.s epa600/287035, 455 p. albinet m. et j. margat (1970).cartographie de la vulnerabilite a la pollution des nappes deau souterraines.bull.brgm, 2 e serie, section iii, 4, 322, orleans.amharref m., j. mania et b. haddouchi (2001a).adaptation of an evaluation vulnerability method to groundwater pollution.proc. of salt water intrusion in coastal aquifer: monitoring, modeling, and management.essaouira, maroc, 2325 avril.pp.110; www.olemiss.edu/sciencenet/saltnet/swica1/swica1.html.amharref m., j. mania et b. haddouch (2001b).evaluation de la vulnerabilite a la pollution des eaux souterraines.1 er colloque national dhydrogeologie et environnement, 2628 avril, fes, maroc, p. 9. amharref m., s. aassine et a. bernoussi (2002).cartographie de la vulnerabilite des eaux souterraines : application au cas de la plaine du gharb.proc.du congres international de mathematiques appliquees jano7, tanger 1719 avril.cdrom edite par la faculte des sciences et techniques, tanger, maroc."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -545,9 +515,7 @@
         "1. evaluer des valeurs approchees de iv pour certains puits temoins; 2. determiner des valeurs pour α, β et γ par application de la regression lineaire multiple en utilisant les valeurs de iv calculees pour des puits temoins."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -559,9 +527,7 @@
         "pour determiner une valeur approchee de iv pour certains puits dits temoins , on a procede en quatre etapes : etape 1. choix des puits temoins a partir de lanalyse des donnees recueillies sur la plaine du gharb, on a selectionne 12 puits temoins (tableau 1) representant des variations importantes des differents parametres (temps de transit, degre depuration et degre de recharge).en plus de ces puits temoins, on a considere un puits de reference, puits n° 1111, qui est un puits fictif avec t = 1, cp/cp = 1 et r/r = 1."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -584,9 +550,7 @@
         "la figure 3 donne une representation graphique de differentes combinaisons et de iv moyen .ivm7, ivm8 et iv9 correspondent respectivement a une moyenne de 7, 8 et 9 combinaisons; nous avons considere ivm7.variable dependant : iv_m parametre estimation erreur standard statistique de t valeur de p 1/t 0,400066 0,000041071 9740,84 0,0000 cp/cp 0,428486 0,000294461 1455,15 0,0000 r/r 0,171516 0,000409808 418,528 0,0000 analyse de variance source somme des carres df moindres carres ratio de f valeur de p modele 18,8289 3 6,27629 81129789,40 0,0000 residuel 7,73611e7 10 7,73611e8 total 18,8289 13 rcarre = 100,0 pourcent rcarre (ajuste pour d.f.) = 100,0 pourcent erreur standard de lestimation = 0,000278139 erreur moyenne absolue = 0,000191959 statistique de durbinwatson = 1,81348 intervalles de confiance de 95,0 % pour les estimations de coefficients parametre estimation erreur standard limite inferieure limite superieure 1/t 0,400066 0,000041071 0,399975 0,400158 cp/cp 0,428486 0,000294461 0,42783 0,429142 r/r 0,171516 0,000409808 0,170603 0,172429 tableau 3. resultats de la regression lineaire multiple entre lindice de vulnerabilite et les trois parametres (l/t, c/c et r/r).table 3"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -596,9 +560,7 @@
       "title": ". results of the multiple linear regression between the vulnerability index and the three parameters (l/t, c/c et r/r).",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -609,62 +571,74 @@
     {
       "label": "",
       "caption": "figure1. schema de la contaminatin des eaux souterraines.diagram of groundwater contamination.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "et figure7) est a mettre en relation avec les epaisseurs et la nature des couches constituant la zone non saturee. ces couches sont a dominance argileuse au nord et a louest et",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "2",
       "caption": "figure 2. carte de repartition des points de mesure et des zones irriguees. distribution of data points and irrigated areas.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "3",
       "caption": "figure 3. coupe geologique nose dans la plaine du gharb (ormvag, 1996). nwse geological section of the gharb plain (ormvag, 1996).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "4",
       "caption": "figure 4. carte piezometrique de la nappe superficielle du gharb (1997).piezometric map of the gharb shallow aquifer (1997).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "5",
       "caption": "figure 5. carte de repartition du degre de recharge de la nappe superficielle du gharb. distribution of the recharge intensity of the gharb shallow aquifer.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "6",
       "caption": "figure 6. carte de repartition de linverse du temps de transit a la nappe superficielle du gharb. distribution of the inverse transit time of the gharb shallow aquifer.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "7",
       "caption": "figure 7. carte de repartition du degre depuration de la nappe superficielle du gharb. distribution of the degree of purge of the gharb shallow aquifer.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "8",
       "caption": "figure 8. carte de vulnerabilite intrinseque de la nappe superficielle du gharb. intrinsic vulnerability map of the gharb shallow aquifer.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "1",
       "caption": "figure 1. courbes representant iv pour differentes combinaisons des coefficients de ponderation dans lintervalle [01] et avec un pas de 0,1. plots representing iv for different combinations of weighing coefficients in the interval [01] with a step of 0.1.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "23",
       "caption": "figure 2. courbes representant iv pour differentes combinaisons des coefficients de ponderation dans lintervalle [01] et avec un pas de 0,1. plots representing iv for different combinations of weighing coefficients in the interval [01] with a step of 0.1.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "evaluation de α, β et γ en utilisant les valeurs de iv obtenues pour les differents puits temoins, on a effectue une regression lineaire, via le logiciel statgraphics 4.0, pour determiner les valeurs de α, β et γ. parmi les sorties, on a releve les resultats apparaissant au tableau 3. la meilleure combinaison lineaire (au sens du critere des moindres carres) estimant lindice de vulnerabilite en fonction des trois parametres est donc approximativement : iv_m = 0,40 (1/t) + 0,43 (cp/cp) + 0,17 (r/r) le modele obtenu decrit une relation tres significative entre lindice de vulnerabilite et les trois parametres. il montre que ce sont les facteurs degre depuration et temps de transit qui conditionnent le plus, et ce, de maniere quasisimilaire (α = 2,13 et β = 2,28) lindice iv et que la recharge linfluence moins (γ = 0,92).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     }
   ],
   "tables": []

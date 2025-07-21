@@ -1,5 +1,6 @@
 {
   "title": "developpement dune nouvelle methode de regionalisation basee sur le concept de regime des debits naturels",
+  "overline": "",
   "subtitle": "",
   "authors": [
     {
@@ -71,7 +72,6 @@
   "keywords": [],
   "themes": [],
   "language": "fr",
-  "annexes": [],
   "acknowledgements": "",
   "biographical_notes": [],
   "bibliographies": [
@@ -845,9 +845,7 @@
         "application of the ecogeographical method involves four separate steps: 1) the definition of the flow characteristics for the hydrologic series of interest; 2) the determination of minor and major characteristics using principal component analysis, where a major flow characteristic is defined as one which meets the following criterion: tve ≥ (100% / n), where n is the total number of characteristics that define the analyzed hydrologic series and tve is the total variance explained; 3) the grouping of stations in homogeneous hydrologic regions based on factorial scores.homogeneous hydrologic regions are divided in two types based on the presence or absence of stations: effective homogeneous regions contain stations whereas fictive homogenous regions do not; 4) the determination of the factors that affect the spatial variability of flow characteristics.this is achieved using canonical correlation analysis, an approach that we have applied to average annual flows in quebec watersheds."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -878,9 +876,7 @@
         "nous allons appliquer cette nouvelle methode aux debits moyens annuels au quebec.nous avons choisi cette echelle car elle na jamais ete utilisee par les deux autres approches.ceci permettra de demontrer que meme les debits moyens annuels peuvent etre utilises dans un cadre de regionalisation des debits.toutefois, nous avons deja applique la methode ecogeographique a la regionalisation des debits saisonniers au quebec (assani et tardif, 2005)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -890,9 +886,7 @@
       "title": "presentation de lapproche",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -904,9 +898,7 @@
         "lapplication de cette approche se fait en quatre etapes presentees a la figure 1."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -925,9 +917,7 @@
         "pour mettre en evidence les facteurs environnementaux de la variabilite spatiale des debits a une echelle danalyse donnee, il faut tenir compte de toutes les caracteristiques qui definissent les debits a cette echelle."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -942,14 +932,12 @@
         "les autres caracteristiques dont la variance totale expliquee ne satisfait pas a cette relation sont dites mineures .les caracteristiques majeures sont celles qui sont generalement associees aux deux ou trois premieres composantes principales.cellesci permettent une meilleure differenciation et une meilleure caracterisation des regions hydrologiques homogenes."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "tve n ≥ 100%(1)",
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -974,14 +962,12 @@
         "il decoule de lapplication de lequation 2 les deux types de regions hydrologiques homogenes (classes) suivants : les regions homogenes effectives et les regions homogenes fictives ou virtuelles .dans un territoire geographique donne, une region homogene est effective lorsquelle contient au moins une station hydrologique.dans le cas contraire, elle devient fictive ou virtuelle.lexistence des regions hydrologiques fictives peut paraitre etrange a premiere vue, mais, en fait, elle traduit linfluence de deux facteurs dans la regionalisation : lechantillonnage ainsi que les conditions physiographiques et climatiques du territoire analyse.en ce qui concerne lechantillonnage, la presence de regions hydrologiques homogenes fictives peut traduire simplement labsence de stations parmi les stations analysees qui presentent les combinaisons des caracteristiques des debits qui definissent ces regions hydrologiques.cette absence se justifie par le fait quon ne tient pas compte de toutes les rivieres dans la regionalisation des debits.on perd ainsi certaines informations sur les caracteristiques des debits et les facteurs qui les influencent.quant aux conditions physiographiques et climatiques, lexistence de regions homogenes fictives dans un territoire donne peut etre interpretee comme labsence de linfluence de certains facteurs physiographiques et climatiques sur la variabilite spatiotemporelles des debits dans ce territoire.ainsi, les facteurs physiographiques et climatiques presents dans un territoire donne permettent lexistence de certaines regions homogenes dont les caracteristiques des debits sont influencees par ces facteurs.les regions dont les caracteristiques des debits ne sont pas influencees par ces facteurs deviennent des lors fictives dans ce territoire.a titre dexemple, la presence dun massif calcaire peut se traduire par une variabilite intraannuelle des debits tres faible.par consequent, les regions hydrologiques homogenes caracterisees par une forte variabilite des debits ne peuvent exister dans ce territoire.dans un territoire donne, la combinaison des caracteristiques des debits depend alors des conditions climatiques, physiographiques et lithologiques."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "nr = 2 m (2)",
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -993,9 +979,7 @@
         "la finalite de l approche ecogeographique est de determiner les facteurs physiographiques et climatiques susceptibles dexpliquer la variabilite spatiale des caracteristiques des debits.pour determiner ces facteurs, nous proposons dutiliser simultanement la methode des correlations simples et la methode canonique des correlations.cette derniere aura pour objectif de maximiser les valeurs des coefficients de correlations simples.par rapport aux autres methodes danalyse multivariees, lanalyse des correlations canoniques tient compte aussi bien des correlations intragroupes que des correlations croisees entre variables de deux groupes.en effet, elle cree des facteurs (transformations lineaires des variables, communement appelees variables canoniques) dans le premier groupe (variables dependantes) simultanement a des facteurs dans le second groupe (variables independantes).elle impose a ces facteurs detre orthogonaux entre eux au sein dun meme groupe, de sorte quils sinterpretent comme de dimensions independantes du phenomene exprime par un groupe de variables.ainsi, lanalyse canonique permet de maximiser la correlation entre le premier facteur du premier groupe et le premier facteur du second groupe; ensuite, entre les seconds facteurs des deux groupes, chacun etant orthogonal aux deux facteurs de la premiere paire; ensuite, entre les troisiemes facteurs et ainsi de suite.chaque paire de facteurs exprime un type de relation entre variables des deux groupes.lintensite de la relation dun type determine est mesuree par un coefficient de correlation dit canonique qui est le coefficient de correlation entre les facteurs dune meme paire (afifi et clark, 1996)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1005,9 +989,7 @@
       "title": "application de lapproche",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1017,9 +999,7 @@
       "title": "ecogeographique a la",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1029,9 +1009,7 @@
       "title": "regionalisation des debits moyens annuels au quebec",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1046,9 +1024,7 @@
         "toutes les stations situees dans le bassin versant.ensuite, nous avons calcule une moyenne globale par la methode de thiessen quon a comparee a celle mesuree a la station la plus proche.ces deux moyennes etaient generalement tres peu differentes en raison de la faible variabilite topographique des bassins versants au quebec.par consequent, le choix de la station la plus proche se justifiait."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1061,9 +1037,7 @@
         "la caracteristique magnitudefrequence a ete definie par quatre variables statistiques (tableau 2).pour eviter leffet de taille , du a la difference des aires des bassins versants, sur les valeurs de coefficients de correlation et sur les notes factorielles, nous avons divise les valeurs de ces variables par les superficies de bassins versants (pour lobtention des debits specifiques).cette transformation permet ainsi de pouvoir comparer aisement la magnitude des debits entre des bassins versants de differentes tailles.quant a la variabilite interannuelle de la magnitude, elle a ete definie aussi par quatre variables statistiques dont les valeurs sont independantes de la taille des bassins versants.enfin, la forme de la distribution des frequences des debits a ete definie par trois variables, dont les coefficients dasymetrie et daplatissement (coefficients de pearson).il convient de preciser quon pouvait augmenter le nombre de variables statistiques pour mieux definir ces quatre caracteristiques.mais cette augmentation naurait aucun impact sur les resultats finaux de lanalyse en composantes principales en vertu du premier postulat qui stipule que les variables hydrologiques, qui definissent une meme caracteristique des debits, sont generalement correlees entre elles."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1077,9 +1051,7 @@
         "en tenant compte des signes des stations sur la premiere composante principale, celleci permet de separer les bassins versants caracterises par des debits specifiques eleves de ceux caracterises par des debits specifiques faibles.si on considere les debits specifiques moyens, par exemple, le seuil de separation est situe a 23 l/s//km 2 .tous les bassins versants qui ont des debits specifiques moyens superieurs a ce seuil ont le signe positif sur la premiere composante, et ceux qui ont des valeurs inferieures a ce seuil ont le signe negatif.quant a la seconde composante, elle permet separer les bassins versants caracterises par une forte variabilite interannuelle des debits moyens annuels de ceux qui ont une faible variabilite.le seuil de separation est situe a 20 % en ce qui concerne le coefficient de variation.tous"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1094,9 +1066,7 @@
         "la cartographie de sept regions hydrologiques homogenes a revele quelles ne sont pas geographiquement contigues.ainsi, comme le montre le tableau 4, deux bassins versants geographiquement contigus ne se retrouvent pas forcement dans une meme region hydrologique homogene comme lavaient deja note plusieurs auteurs (acreman et wiltshire, 1987;burn, 1990)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1108,9 +1078,7 @@
         "caracteristiques des debits."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1125,9 +1093,7 @@
         "la forme de la courbe de distribution des debits moyens annuels est negativement correlee seulement a la temperature hivernale.mais cette correlation est relativement faible (r = 0,290)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1139,9 +1105,7 @@
         "le tableau 6 presente les valeurs des coefficients de correlation entre les variables canoniques et les variables originales ainsi que les composantes des combinaisons lineaires.les coefficients de correlation canonique pour lensemble des donnees sont respectivement de λ 1 = 0,8604, λ 2 = 0,770 et λ 3 = 0,4625.le degre de liaison de lensemble des variables nest pas tres eleve car la valeur du premier coefficient nexcede pas 0,900.le tableau 6 revele quen ce qui concerne les caracteristiques des debits, la premiere variable canonique est positivement correlee a la caracteristique magnitudefrequence mais negativement correlee a la caracteristique forme de courbe de distribution.ces deux caracteristiques varient donc de facon inverse, ce qui na pas ete mis en evidence avec les correlations simples.la seconde variable canonique est correlee negativement a la variabilite de la caracteristique magnitudefrequence.la troisieme variable canonique nest correlee significativement a aucune caracteristique.quant aux facteurs physiographiques, la premiere variable canonique (w1) est liee positivement aux precipitations annuelles et hivernales mais negativement aux temperatures printanieres et estivales.la seconde variable est positivement reliee a la superficie occupee par les lacs et les marais mais negativement a la pente des cours deau.ces resultats sont en grande partie differents de ceux obtenus avec lanalyse des correlations simples.en effet, lanalyse canonique des correlations revele dabord linfluence table 5 coefficients of correlation between the principal components (flow characteristics flows) and environmental factors.rh pci pcii pciii rivieres i + + + ii + + becancour, blanche, etchemin, famine, gouffre, madeleine, nabisipi, nicolet, nicolet so, nouvelle, portneuf, sud, tonnerre.iii + + aulnaies ouest, eaux volees.iv + aguanus, cap chat, cascapedia, eaux volees, jacques cartier, matane, moisie, montmorency, romaine, stpaul, steanne (bras nord).v + + coaticook, lassomption, noire, vermillon.vi + beaurivage, kinojevis, loup, richelieu, rimouski, rouge, troispistoles, yamaska.vii + coulonge, matawin, rouge.viii chamouchouane, croche, eaton, hall, lievre, malbaie, maskinonge, mistassibi, mistassini, nord, york.tableau 4 regroupement des stations en regions hydrologiques homogenes naturelles en fonction des signes de notes factorielles sur les trois premieres composantes principales.table 4 grouping of stations into natural homogeneous hydrologic regions based on the loadings signs on the first three principal components.v1 v2 v3 w1 w2 w3 pc i 0,893 0,404 0,120 0,768 0,311 0,092 pc ii 0,486 0,804 0,342 0,418 0,619 0,158 pc iii 0,863 0,457 0,215 0,743 0,352 0,100 b1 0,255 0,274 0,187 0,296 0,355 0,405 b2 0,038 0,336 0,161 0,045 0,436 0,347 b3 0,293 0,374 0,051 0,341 0,485 0,111 a1 0,267 0,314 0,065 0,310 0,408 0,140 a2 0,086 0,407 0,221 0,101 0,528 0,477 p1 0,567 0,095 0,065 0,659 0,124 0,141 p2 0,596 0,102 0,071 0,693 0,133 0,152 p3 0,368 0,288 0,035 0,428 0,374 0,075 t1 0,391 0,142 0,061 0,455 0,184 0,131 t2 0,198 0,216 0,087 0,230 0,281 0,188 t3 0,467 0,043 0,057 0,543 0,055 0,122 t4 0,466 0.104 0,015 0,541 0,135 0,032 t5 0,289 0,018 0,036 0,336 0,024 0,077 ve (%) 59,4 34,0 6,8 15,8 10,0 3,5 rd (%) 44,0 20,1 1,5 11,7 6,0 0,7 tableau 6 coefficients de correlation entre les variables canoniques et les variables originales ainsi que les composantes des combinaisons lineaires.table 6 correlation between principal components (flow characteristics) and environmental factors and canonical roots."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1156,9 +1120,7 @@
         "la variance totale expliquee (vte) par les variables canoniques associees aux caracteristiques des debits est tres elevee.la premiere variable canonique rend compte de pres de 60 % de la variance totale des caracteristiques des debits.en revanche, la variance totale expliquee par les variables physiographiques est tres faible (moins de 30 %).cette faible valeur peut etre expliquee par un grand nombre de variables physiographiques retenues dans lanalyse.quant a la redondance totale des caracteristiques des debits (rd), qui exprime la part de variance totale des caracteristiques des debits dont les variables physiographiques rendent compte, elle depasse 65 %.cette valeur nous autorise a conclure que les caracteristiques des debits sont plus ou moins fortement liees aux variables physiographiques.ce degre de liaison na pas ete suffisamment mis en evidence par les correlations simples."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1172,9 +1134,7 @@
         "regionalisation basee sur les caracteristiques des debits."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1188,9 +1148,7 @@
         "choix de caracteristiques justifie par un concept scientifique."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1207,9 +1165,7 @@
         "toutes les echelles mais analysees separement."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1229,9 +1185,7 @@
         "utilisees pour determiner les impacts hydrologiques induits par les changements de ces facteurs.lapproche ecogeographique apparait ainsi comme un outil de gestion pour un meilleur suivi des regimes hydrologiques face aux changements de lenvironnement induits par les activites anthropiques ou les modifications du climat."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -1242,34 +1196,32 @@
     {
       "label": "1",
       "caption": "figure 1 les quatre etapes dapplication de lapproche ecogeographique.the four stages of ecogeographic method application.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "2",
       "caption": "figure 2 localisation des stations analysees.location of stations.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "3",
       "caption": "saturations des variables sur les trois composantes principales apres rotation daxes par la methode varimax.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "de correlation calcules entre les composantes principales et les facteurs environnementaux.",
-      "source": ""
-    },
-    {
-      "label": "3",
-      "caption": "bassins versants dont le coefficient de variation est superieur a 20 % ont des notes factorielles positives sur la seconde composante. enfin, la derniere composante permet de separer les bassins versants selon le degre dasymetrie des courbes de distribution des debits moyens annuels. mais contrairement aux deux precedentes caracteristiques, il nexiste aucun seuil net pour separer les bassins versants. toutefois, les bassins versants caracterises par des valeurs elevees des coefficients daplatissement, notamment, ont des notes factorielles positives et relativement elevees sur la troisieme composante. ceci ne concerne que moins de 10 % des stations. par consequent, la majorite des bassins versants est caracterisee par des valeurs faibles des coefficients dasymetrie et daplatissement au quebec. cest ce qui explique un faible pouvoir discriminant de cette composante par rapport aux deux premieres.",
-      "source": "table"
+      "legends": [],
+      "subfigures": []
     }
   ],
   "tables": [
     {
       "label": "3",
       "caption": "bassins versants dont le coefficient de variation est superieur a 20 % ont des notes factorielles positives sur la seconde composante. enfin, la derniere composante permet de separer les bassins versants selon le degre dasymetrie des courbes de distribution des debits moyens annuels. mais contrairement aux deux precedentes caracteristiques, il nexiste aucun seuil net pour separer les bassins versants. toutefois, les bassins versants caracterises par des valeurs elevees des coefficients daplatissement, notamment, ont des notes factorielles positives et relativement elevees sur la troisieme composante. ceci ne concerne que moins de 10 % des stations. par consequent, la majorite des bassins versants est caracterisee par des valeurs faibles des coefficients dasymetrie et daplatissement au quebec. cest ce qui explique un faible pouvoir discriminant de cette composante par rapport aux deux premieres.",
-      "source": "table",
       "rows": [
         [
           "caracteristiques",

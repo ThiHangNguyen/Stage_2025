@@ -7,6 +7,13 @@ from lxml import etree
 import pandas as pd
 
 def normalize_date(date_str: str) -> str:
+    """
+    Nettoie une chaîne de date (au format YYYY, YYYY-MM, ou YYYY-MM-DD) 
+    et vérifie si elle correspond à un format de date valide.
+
+    Si valide, retourne la date sous forme de chaîne ; sinon, renvoie la chaîne inchangée.
+    """
+
     if not date_str or not isinstance(date_str, str):
         return ""
 
@@ -22,28 +29,59 @@ def normalize_date(date_str: str) -> str:
     return date_str
 
 def read_json(path):
+
+    """
+    Lit un fichier JSON et retourne son contenu sous forme de dictionnaire.
+    """
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def write_json(obj, path, indent=2):
+
+    """
+    Écrit un dictionnaire dans un fichier JSON avec indentation.
+    Crée les dossiers nécessaires si le chemin n’existe pas.
+    Gère les dates avec `isoformat()` si nécessaire.
+    """
+
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(obj, f, indent=indent, ensure_ascii=False)
 
 def read_text(path):
+
+    """
+    Lit un fichier texte UTF-8 et retourne son contenu sous forme de chaîne.
+    """
     with open(path, 'r', encoding='utf-8') as f:
         return f.read()
 
 def read_xml(path):
+
+    """
+    Lit et parse un fichier XML en utilisant lxml.etree, et retourne un arbre XML.
+    """
     from lxml import etree
     with open(path, 'rb') as f:
         return etree.parse(f)
 
 def save_xml(tree, path):
+
+    """
+    Sauvegarde un arbre XML (lxml.etree.ElementTree) dans un fichier,
+    avec indentations et déclaration XML.
+    """
     tree.write(path, pretty_print=True, xml_declaration=True, encoding='UTF-8')
 
 def normalize_text(text):
     """
-    Nettoie et normalise un texte : minuscules, unicode, tirets, espaces.
+    Nettoie et normalise un texte :
+    - Minuscule
+    - Suppression des accents
+    - Remplacement des caractères typographiques (tirets, apostrophes, guillemets)
+    - Suppression des tirets et apostrophes
+    - Réduction des espaces multiples
+    
+    Retourne une chaîne nettoyée.
     """
     if not isinstance(text, str):
         return ""
@@ -67,13 +105,6 @@ def normalize_text(text):
     text = re.sub(r"\s+", " ", text)
     return text
 
-
-
-def first_or_empty(x):
-    """
-    Retourne le premier élément d’une liste ou une chaîne vide si vide ou None.
-    """
-    return x[0] if isinstance(x, list) and x else ""
 
 
 def write_json(data, path):

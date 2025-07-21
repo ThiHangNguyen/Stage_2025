@@ -114,7 +114,7 @@ def evaluate_subfolder(source: str, target: str, subfolder: str = None):
 def main():
  
     parser = argparse.ArgumentParser(description="Transforme un ou plusieurs fichiers XML vers forme_base.json")
-    parser.add_argument("--tool", required=True, choices=["grobid", "erudit"], help="Outil de transformation")
+    parser.add_argument("--tool", choices=["grobid", "erudit"], help="Outil de transformation")
     parser.add_argument("--id", help="ID de l'article")
     parser.add_argument("--batch", action="store_true", help="Traiter tous les fichiers .xml dans le dossier racine (pas les sous-dossiers)")
     parser.add_argument("--xml_2cols", action="store_true", help="Traiter un seul fichier dans xml_2cols/")
@@ -123,15 +123,16 @@ def main():
 
     # --- Cas 1 : ÉVALUATION uniquement ---
     if args.evaluation:
-            if args.id:
-                evaluate("erudit", "grobid", args.id)
-            elif args.xml_2cols:
-                evaluate_subfolder("erudit", "grobid", "xml_2cols")
-            elif args.batch:
-                evaluate_subfolder("erudit", "grobid", None)
-            else:
-                print("[ERREUR] Pour l’évaluation, utilisez soit --id, soit --batch, soit --xml_2cols")
-            return  # on quitte après l’évaluation
+        if args.id:
+            evaluate("erudit", "grobid", args.id)
+        elif args.xml_2cols:
+            evaluate_subfolder("erudit", "grobid", "xml_2cols")
+        elif args.batch:
+            print("here")
+            evaluate_subfolder("erudit", "grobid", None)
+        else:
+            print("[ERREUR] Pour l’évaluation, utilisez soit --id, soit --batch, soit --xml_2cols")
+            return 
 
     # --- Cas 2 : TRANSFORMATION ---
     if args.id and args.tool:
@@ -148,3 +149,4 @@ if __name__ == "__main__":
     main()
     # python3 src/main.py --tool erudit --id 1080394ar_2
     # python3 src/main.py --tool grobid --id 1080394ar_2 --evaluation
+    # python3 src/main.py --tool grobid --batch --evaluation

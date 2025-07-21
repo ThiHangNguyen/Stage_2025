@@ -171,6 +171,7 @@ def compare_raw_bibliographies(erudit_bib, grobid_bib):
 FIELD_COMPARISON_FUNCTIONS = {
     # champs simples (string) -- similar score
     "title": compare_simple,
+    "overline": compare_simple,
     "subtitle": compare_simple,
     "abstract": compare_simple,
     "language": compare_simple,
@@ -189,7 +190,6 @@ FIELD_COMPARISON_FUNCTIONS = {
     #list of strings --f1
     "keywords" : compare_list_of_strings,
     "themes": compare_list_of_strings,
-    "annexes": compare_list_of_strings, 
     "biographical_notes": compare_list_of_strings,
 
     "id": compare_dict_of_strings,
@@ -203,10 +203,12 @@ FIELD_COMPARISON_FUNCTIONS = {
 
 def evaluate_fields_from_json(source, target, fields_to_compare):
     results = {}
+    count=1
     for field in fields_to_compare:
         val1 = source.get(field)
         val2 = target.get(field)
-
+        print (count)
+        count+=1
         func = FIELD_COMPARISON_FUNCTIONS.get(field, compare_simple)
 
         # Gestion des cas structurés nécessitant un type
@@ -223,9 +225,9 @@ def evaluate_fields_from_json(source, target, fields_to_compare):
             end = time.perf_counter()
         duration = round(end - start, 3)
 
-        #print(f"Champ '{field}' évalué en {duration} secondes")
-        #print({field})
-        #print(results)
+        print(f"Champ '{field}' évalué en {duration} secondes")
+        # print({field})
+        # print(results)
     return results
 """
 def evaluate(source: str, target: str, article_id: str):
@@ -252,6 +254,8 @@ def evaluate(source: str, target: str, article_id: str, subfolder: str = None):
     """
     source_data = load_json(source, article_id, subfolder=subfolder)
     target_data = load_json(target, article_id, subfolder=subfolder)
+
+    print("commencer l'evaluation")
 
     results = evaluate_fields_from_json(source_data, target_data, FIELD_COMPARISON_FUNCTIONS)
     print(f"[INFO] Évaluation terminée pour {article_id}")

@@ -210,5 +210,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-
+#python3  src/evaluation/visualisation.py --method levenshtein --2cols --compare
 #python3  src/evaluation/visualisation.py --field title --method levenshtein

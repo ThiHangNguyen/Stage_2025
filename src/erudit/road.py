@@ -22,7 +22,7 @@ chemins_erudit = {
     "rights_text": "//er:droitsauteur/er:nomorg",
     "rights_link": "//er:droitsauteur/er:liensimple/@xlink:href",
     "keywords": ".//er:grmotcle/er:motcle",
-    "editorial_team": None,
+    "editorial_team": None, # traitement specifique 
     "issue_number": ".//er:numero/er:nonumero",
     "volume": ".//er:numero/er:volume",
     "volume_year": ".//er:pubnum/er:annee",

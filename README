@@ -1,0 +1,21 @@
+transformer - il faut changer nom d'outil:
+python3 src/main.py --tool grobid --id 1013496ar
+sur un répertoire : ( --batch ou --xml_2cols)
+python3 src/main.py --tool grobid --batch
+
+évaluation sur un répertoire:
+python3 src/main.py --tool grobid --batch --evaluation
+ou
+python3 src/main.py --tool grobid --xml_2cols --evaluation
+
+
+
+visualisation:
+python3 src/evaluation/visualisation.py --field body --method levenshtein
+ou 
+python3 src/evaluation/visualisation.py --field body --method levenshtein --2cols
+
+tous les champs:
+python3 src/evaluation/visualisation.py --method levenshtein --compare
+ou
+python3 src/evaluation/visualisation.py --method levenshtein --compare --2cols

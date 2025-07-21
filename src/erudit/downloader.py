@@ -6,7 +6,8 @@ from io import BytesIO
 
 def get_redirected_url(article_id):
     """
-    Suit la redirection depuis l'URL courte.
+    Récupère l'URL finale (redirigée) d'un article Érudit à partir de son identifiant court.
+    Exemple : "1065017ar" → URL complète avec DOI ou chemin final sur erudit.org.
     """
     base_url = f"https://www.erudit.org/iderudit/{article_id}"
     response = requests.get(base_url, allow_redirects=True)
@@ -15,6 +16,11 @@ def get_redirected_url(article_id):
     return response.url  
 
 def download_erudit_xml(article_id, output_dir=None):
+
+    """
+    Télécharge le fichier XML structuré d’un article Érudit à partir de son identifiant.
+    Le fichier est sauvegardé dans le dossier output_dir.
+    """
     if output_dir is None:
         output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/raw/xml_erudit"))
 
@@ -56,6 +62,11 @@ def download_erudit_xml_2cols(pdfs_dir="data/pdfs/pdf_2cols", output_dir="data/r
 
 
 def download_and_clean_erudit_pdf(article_id, output_dir=None):
+
+    """
+    Télécharge le PDF d’un article Érudit et supprime la première page (page de garde).
+    Le fichier nettoyé est enregistré dans `output_dir`.
+    """
     if output_dir is None:
         output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/pdfs"))
 
@@ -91,6 +102,7 @@ def download_and_clean_erudit_pdf(article_id, output_dir=None):
     print(f"PDF téléchargé et nettoyé (sans première page) : {output_path}")
 
 def clean_pdf_2cols(pdfs_dir="data/pdfs/pdf_2cols"):
+
     """
     Nettoie les fichiers PDF dans le répertoire donné en supprimant la première page.
     Écrase les fichiers existants avec la version nettoyée.
@@ -107,7 +119,10 @@ def clean_pdf_2cols(pdfs_dir="data/pdfs/pdf_2cols"):
 
 
 def main():
-
+    """
+    Lit un fichier CSV contenant une liste d'identifiants d'articles,
+    puis télécharge pour chacun le XML et le PDF nettoyé.
+    """
     input_csv = "data/csv/article_ids_cqd27.csv"
     pdf_dir = "data/pdfs"
     os.makedirs(pdf_dir, exist_ok=True)

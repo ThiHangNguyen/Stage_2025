@@ -1,5 +1,6 @@
 {
   "title": "comparaison de differents modes dechantillonnage pour lestimation du gradex des pluies scale parameter of maximal rainfall distribution: comparison of three sampling techniques",
+  "overline": "",
   "subtitle": "",
   "authors": [
     {
@@ -57,7 +58,6 @@
   ],
   "themes": [],
   "language": "fr",
-  "annexes": [],
   "acknowledgements": "",
   "biographical_notes": [],
   "bibliographies": [
@@ -565,7 +565,6 @@
         "lobjectif de ce travail est lie a une methode dextrapolation de la distribution des crues, la methode du gradex (guillot et duband, 1967), utilisee en france depuis une trentaine dannees pour le dimensionnement des evacuateurs de crue des grands barrages.cette methode repose sur lemploi de lois a decroissance exponentielle pour la distribution des pluies, dont la loi de gumbel constitue lexemple le plus connu.nous nous proposons deffectuer une analyse de sensibilite sur lestimation du gradex des pluies, egal dans le cas dune loi de gumbel ou une loi exponentielle au parametre dechelle de la loi des pluies, en testant differents modes dechantillonnage, par valeurs maximales annuelles, valeurs superieures a un seuil, ou valeurs cumulees successives.apres un rappel des differentes distributions utilisees pour chacun de ces modes dechantillonnage, nous presentons le jeu de donnees pluviometriques disponible sur une soixantaine de bassins de la moselle et une dizaine de bassins du rhone.apres avoir constitue des series chronologiques de pluie de bassin, nous analysons les variations saisonnieres des gradex, ainsi que le coefficient dabattement spatial sur le gradex.nous comparons ensuite les differentes estimations du gradex des pluies de bassin, pour les differents modes dechantillonnage testes."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "prob [xa < x] = prob[k crues x > x dans lannee] [pr s k = ∞ ∑ 0 o ob[x < x]] s k (1)",
@@ -580,7 +579,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -590,9 +588,7 @@
       "title": "les differentes distributions",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -602,9 +598,7 @@
       "title": "utilisees par mode dechantillonnage",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -619,7 +613,6 @@
         "nb valeurs x s )/nb annees.la combinaison des relations 1 et 6 donne alors :"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "f x xa x k x x a a k ( ) = < [ ] = +                 = prob si k exp / 1 0 1 0 si k = 0 (loi de gumb exp exp                   x x a 0 e el)        (4)",
@@ -638,7 +631,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -656,7 +648,6 @@
         "p p (11) lindependance des valeurs x s de lechantillon est obtenue en imposant une duree minimale entre deux valeurs (10 jours) et un coefficient de redescente de la pluie entre deux episodes (valeur inferieure a 90 % du maximum selectionne).le choix du seuil s a ete obtenu en verifiant que le processus doccurrence des valeurs extraites pouvait bien etre modelise suivant une loi de poisson, basee sur les hypotheses dindependance, stationnarite et homogeneite des valeurs.deux tests ont ete appliques, le premier (cunnane, 1979) sur lindice de dispersion i du nombre k devenements par annee (ou saison) : i = var(k)/e(k); le second (lang et al., 1999) sur la date doccurrence des evenements, en reportant sur un graphique le nombre cumule devenements en fonction de la date.un exemple dillustration de ces deux tests sera presente en section 4.2."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": " a s = ( ) 6 / π(8)",
@@ -667,7 +658,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -679,9 +669,7 @@
         "le parallelisme asymptotique entre la distribution des valeurs successives x et la distribution des valeurs maximales annuelles xa (eq. 3) permet destimer le gradex des pluies a partir de la pente de la distribution, dans un graphique a echelle de gumbel.le gradex correspond au parametre dechelle de chacune des distributions testees : melange dexponentielles, max (a, b); loi gamma tronquee, ρ; loi exponentielle simple, a."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -696,7 +684,6 @@
         "gouy (1994) a precise le domaine dapplication de cette loi :"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "f(x) = prob[x < x] = 1 exp(x / a) exp(x / b) α β (12) avec α + β = θ = 1 f(0)",
@@ -715,7 +702,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -729,7 +715,6 @@
         "la correspondance entre la loi gamma ajustee sur les valeurs non nulles et la distribution f(x) de lensemble des valeurs est la suivante :"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "prob x x x e x dx x p x < >     =       ( ) ∫ 0 1 0 1 γ( ) / λ ρ ρ λ (16",
@@ -748,7 +733,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -762,7 +746,6 @@
         "la loi exponentielle simple nest pas adaptee aux series dont le coefficient de variation cv est tres different de 1. le nombre de postes selectionnes a ete defini dapres la taille de chaque bassin versant et la relation etablie par lebel (1984), qui relie la portee p (en km) (ou distance de decorrelation, audela de laquelle deux stations sont considerees comme independantes) dune station pluviometrique avec le pas de temps t (en h) considere :"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "f x = 1 exp x / a ( ) [ ](19)",
@@ -773,7 +756,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -783,9 +765,7 @@
       "title": "premiere analyse dun jeu de",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -795,9 +775,7 @@
       "title": "donnees pluviometriques",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -809,14 +787,12 @@
         "des chroniques de lame deau spatiale journaliere ont ainsi ete calculees par moyenne arithmetique des pluies ponctuelles de chacun des postes des bassins versants, sur la periode 19681998 (30 ans) pour la moselle, et 1950moselle, et 1998 (49 ans) (49 ans) pour le rhone.on dispose en moyenne de 1 a 56 pluviometres par bassin sur la moselle, et de 5 a 42 postes pour le rhone (figure 2).afin de bien prendre en compte la variabilite spatiale de la pluie, nous avons retenu un nombre plus important de postes dans le calcul de la lame spatiale, en considerant que chacun des postes netait representatif que sur le tiers de la portee definie precedemment.lechantillonnage des chroniques a ensuite ete realise en travaillant sur plusieurs pas de temps : 1, 2, 3, 4, 5 , 6 et 7 jours pour les 11 bassins du rhone, et 1, 3, 6, 15 et 20 jours pour les 63 bassins de la moselle.les pas de temps retenus sont compatibles avec le temps de concentration de chaque bassin, fonction de la dynamique des crues et de la taille des bassins.celleci varie de 16 km 2 (elvon a bazancourt) a 10 770 km 2 (moselle a uckange) sur la moselle, et de 854 km 2 (eyrieux) a 29 908 km 2 (saone) sur le rhone."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "p t = 20 (21)",
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -831,9 +807,7 @@
         "a titre de verification, nous avons compare les resultats obtenus sur la moselle avec ceux de laborde (1984), sur neuf postes pluviographiques de la lorraine.le decoupage saisonnier etait legerement different du notre, avec deux saisons de six mois chacune (maioctobre et novembreavril), et lechantillonnage etait relatif aux valeurs maximales des mois successifs de la saison etudiee.les valeurs de gradex obtenues par chacun des deux decoupages saisonniers sont pratiquement identiques sur la saison a plus fort risque (hiver) et different de moins de 5 % sur la saison secondaire (ete).par la suite, nous presenterons les resultats obtenus sur la saison a plus fort risque, lhiver (septembremars) pour les bassins de la moselle, et lautomne (septembrenovembre) pour les bassins du rhone."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -845,9 +819,7 @@
         "nous presentons un exemple dajustement des pluies maximales dhiver sur lesch a jezainville.on observe sur la figure 5 un basculement de la pente de la distribution des valeurs x s , du fait de la selection de valeurs supplementaires en seconde ou troisieme position dans lannee.dune facon generale, on observe sur lensemble des bassins testes une meilleure homogeneite des valeurs issues dun echantillonnage des precipitations superieures a un seuil, par rapport a un maximum annuel ou saisonnier.la figure 6 compare (de gauche a droite) sur le bassin de ruptsurmoselle la distribution des valeurs maximales journalieres, obtenues par selection de la valeur maximale de chaque mois de la saison (nr na valeurs) ou selection de la valeur maximale de chaque quinzaine de la saison (2nr na valeurs), avec celle des valeurs successives de la saison a risque (≈ 30nr na valeurs).on constate que la faible autocorrelation des donnees journalieres successives ninflue pas sur le parallelisme des differentes distributions echantillonnees.la selection de lensemble des valeurs journalieres successives permet ainsi de disposer dun echantillon plus fourni et davoir une estimation du gradex moins sensible a la distribution dechantillonnage que celle obtenue avec la seule valeur maximale de la saison."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -859,9 +831,7 @@
         "le coefficient spatial dabattement traduit la decroissance du risque de pluie forte au fur et a mesure que lon sinteresse a une superficie de plus en plus etendue.dans le domaine du risque dinondation, lanalyse probabiliste des pluies doit prendre en compte lextension spatiale du phenomene et pas simplement la variabilite spatiale dune intensite de pluie mesuree ponctuellement.une premiere approche consiste a choisir le poste pluviometrique suppose etre representatif de la pluie de bassin, a partir dune analyse cartographique de la variabilite spatiale des gradex ponctuels de pluie.une approche plus complete doit permettre dintegrer les phenomenes de concomitance et de structuration spatiale de la pluie.nous pouvons comparer la moyenne des gradex ponctuels des stations appartenant a un bassin donne avec le gradex de la lame deau de ce bassin, et determiner un coefficient dabattement empirique fonction de lintercorrelation entre les stations.en effet, prendre pour gradex spatial la moyenne des gradex, revient a dire que toutes les correlations spatiales entre postes sont egales a un, et amene donc a une surestimation.la figure 7 montre que lestimation du gradex du bassin par la moyenne des gradex ponctuels entraine une surestimation par rapport au gradex des pluies de bassin, qui prend implicitement en compte la correlation spatiale des precipitations (cf.section 3.1, avec un calcul de lame deau spatiale journaliere).le coefficient dabattement des pluies dhiver sur la moselle varie de 12 % a 6 % (respectivement cumuls journaliers et de trois jours).les valeurs obtenues pour lete sont un peu plus fortes, et peuvent atteindre 15 %."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -871,9 +841,7 @@
       "title": "gumbel plot of 1 day maximum areal precipitation in september for two stmartindardeche catchments (s=2430 km2, rhone).",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -885,9 +853,7 @@
         "ces pourcentages fournissent un ordre de grandeur de labattement spatial des pluies sur la moselle, pour une premiere estimation du risque de pluie forte.la climatologie des pluies etant variable dun bassin a un autre, il est preferable, dans la mesure du possible, de raisonner sur le gradex de la lame deau spatiale, a partir dune chronique de pluie spatiale, qui integre de fait les interrelations entre les stations."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -897,9 +863,7 @@
       "title": "estimation du gradex des pluies suivant le mode dechantillonnage",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -911,9 +875,7 @@
         "la figure 8 presente une comparaison du gradex obtenu avec un echantillonnage par valeurs maximales annuelles (indice x) et par valeurs superieures a un seuil (indice s), pour les 63 bassins de la moselle et les 11 bassins du rhone.les deux courbes du haut correspondent au ratio μ s / μ x de la moyenne des gradex sur lensemble des bassins traites; les deux courbes du bas correspondent au coefficient de correlation r de la regression lineaire obtenue a partie de lequation 21.dune facon generale, la correlation r entre les deux gradex est meilleure lorsque lon utilise un decoupage saisonnier qui produit des valeurs plus homogenes, et on note une sousestimation du gradex par la methode classique (max annuel) de 10 a 20 % par rapport a lechantillonnage par valeurs superieures a un seuil (rapport μ s / μ x )."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -923,9 +885,7 @@
       "title": "comparison of gradex estimates from annual maximum values or peakoverthreshold (pot) values. (a) moselle catchment (63 catchments); (b) rhone catchment (11 catchments).",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -935,9 +895,7 @@
       "title": "comparaison du gradex issu de la distribution des valeurs superieures a un seuil et des valeurs successives",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -952,9 +910,7 @@
         "la figure 11 montre quen moyenne, sur les 63 sousbassins de la moselle, la loi exponentielle appliquee aux pluies cumulees de 20 jours surestime le gradex denviron 20 %, en comparaison avec une loi gamma tronquee (rapport μ y /μ x = 0,83).cette derniere distribution est donc a recommander pour letude des cumuls pluviometriques de plus de sept jours."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -969,9 +925,7 @@
         "la disparite des resultats entre le rhone et la moselle peut sexpliquer par le fait que certains des bassins etudies sur la moselle sont de taille reduite, pour lesquels on ne disposait pas dun nombre suffisant de postes a linterieur du bassin considere.dans ce cas de figure, le calcul de la lame spatiale est forcement moins robuste que sur des grands bassins avec un plus grand nombre de pluviometres."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -985,9 +939,7 @@
         "la question du comportement asymptotique de la distribution des pluies fortes reste determinante, notamment pour determiner si lhypothese exponentielle est acceptable ou pas.muller (2006) a realise une analyse sur 22 longues series pluviometriques en france avec plus de 100 annees de mesure.si lhypothese k > 0 est acceptee pour pres dun poste sur deux, il reste difficile de rejeter par une analyse locale la loi de gumbel au profit de la loi generalisee des valeurs extremes, du fait de la forte variabilite de lestimateur de k."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -998,72 +950,86 @@
     {
       "label": "",
       "caption": "nous avons utilise deux jeux de donnees pluviometriques, constitues respectivement de 192 et 213 stations sur la moselle et le rhone. la critique et la correction des donnees ont ete realisees sur la moselle par javelle (2001), dans le cadre du projet pacte (galea et blum, 2005), et sur le rhone par safege (2000) et les differents organismes impliques dans letude globale des crues du rhone. le calcul de la lame deau a ete effectue sur 63 bassins de la moselle, pour lesquels ont ete retenues 100 stations, et sur 11 bassins du rhone a partir de 112 stations (figure1).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "1",
       "caption": "figure 1. localisation des sousbassins versants etudies sur la moselle et le rhone. location of the studied subbasins of the moselle and rhone rivers.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "2",
       "caption": "figure 2. distribution des surfaces des sousbassins et du nombre de pluviometres utilises pour le calcul de la lame deau (bassins de (a) la moselle et (b) du rhone). distribution of the catchment areas and the number of raingauges used for areal rainfall computation ((a) moselle and (b) rhone catchments).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "figure 3. distribution des pluies journalieres spatiales du mois de septembre pour le bassin de stmartindardeche (s = 2 430 km 2 , rhone).gumbel plot of 1 day maximum areal precipitation in september for two stmartindardeche catchments (s=2430 km2, rhone).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "4",
       "caption": "figure 4. variations mensuelles du gradex des pluies spatiales de (a) 11 sousbassins de la moselle (pas de temps 3 jours) et (b) 11 sousbassins du rhone (pas de temps 1 jour). monthly areal rainfall gradex values of (a) 11 subcatchments of the moselle river (time step 3 d) and of (b) 11 subcatchments of the rhone rivers (time step 1 d).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "5",
       "caption": "figure 5. exemple dajustement des pluies journalieres : comparaison de deux modes dechantillonnage (max hiver, supseuil hiver) sur lesch a jezainville.example of a gumbel plot of maximum daily precipitation: comparison between two kinds of sampling methods (maximum winter values and winter peakoverthreshold (pot) values).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "6",
       "caption": "figure 6. exemple dajustement des pluies journalieres saisonnieres : comparaison de deux modes dechantillonnage par maximum (mois, quinzaine) avec lensemble des valeurs successives. example of a gumbel plot of seasonal maximum daily precipitation: comparison between two kinds of sampling methods (monthly and bimonthly) including all successive values.lues.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "7",
       "caption": "figure 7. comparaison entre (a) le gradex (1 et 3 jours) de la pluie moyenne du bassin et (b) le gradex moyen du bassin (63 sousbassins de la moselle). comparison between (a) the 1 and 3 day gradex values of the areal rainfall and (b) the average spatial gradex values (63 subcatchments of the moselle river).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "8",
       "caption": "figure 8. comparaison du gradex obtenu a partir de valeurs maximales annuelles ou superieures a un seuil. (a) bassin de la moselle (63 bassins); (b) bassin du rhone (11 bassins).comparison of gradex estimates from annual maximum values or peakoverthreshold (pot) values. (a) moselle catchment (63 catchments); (b) rhone catchment (11 catchments).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "figure 10. exemple dajustement des pluies cumulees de (a) 10 jours et (b) 15 jours en hiver (ruptsurmoselle). example of a gumbel plot of (a) 10 and (b) 15 day rainfall in the winter (ruptsurmoselle).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "9",
       "caption": "figure 9, exemple dajustement des pluies cumulees de 20 jours en hiver (ruptsurmoselle).example of a gumbel plot of 20 day rainfall in winter (ruptsurmoselle).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "11",
       "caption": "figure 11. comparaison du gradex des pluies cumulees de 20 jours en hiver, estime dapres une loi gamma ou une loi exponentielle (63 sousbassins de la moselle).comparison of gradex estimates of 20 day rainfall in the winter, with a gamma or an exponential distribution (63 subcatchments of the moselle river).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "12",
       "caption": "figure 12. verification des hypotheses de (a) stationnarite et (b) dindependance. application aux pluies cumulees de 3 jours, superieures a un seuil (bassin de ruptsurmoselle). test of (a) stationarity and (b) independance. application to pot values of 3day precipitations (ruptsurmoselle catchment).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "13",
       "caption": "figure 13. comparaison du gradex obtenu a partir de valeurs cumulees successives ou superieures a un seuil. (a) bassin de la moselle; (b) bassin du rhone. comparison of gradex estimates from successive cumulated values or peakoverthreshold (pot) values. (a) moselle catchment; (b) rhone catchment.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     }
   ],
   "tables": []

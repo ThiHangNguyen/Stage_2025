@@ -1,9 +1,26 @@
-import re
-import html
 from .io import normalize_date, normalize_text, first_or_empty, first_or_raw
 
-
 def convert_section(section_data):
+    """
+    Objectif :
+        Convertir une section d'article (et ses sous-sections) en une structure JSON normalisée dans le body,
+        en nettoyant le contenu textuel et en structurant les éléments multimédias, citations et formules.
+
+    Paramètres :
+        section_data (dict) : Données d'une section, extraites d’un XML structuré (ex : body_sections),
+                              contenant des champs comme titre, paragraphes, figures, formules, sous-sections, etc.
+
+    Retour :
+        dict : Section normalisée contenant :
+            - "title" : titre de la section (chaîne nettoyée)
+            - "paragraphs" : liste de paragraphes nettoyés
+            - "citations" : liste d’objets citation {text, source}
+            - "urls" : Liste de liens URL présents dans la section, nettoyés.
+            - "formulas" : Liste de formules mathématiques
+            - "media_objects" : Liste d’objets multimédias (images, vidéos, etc.) dans leur forme brute.
+            - "references" : Liste de chaînes textuelles correspondant à des références ou renvois, nettoyées.
+            - "subsections" : traitement récursif des sous-sections
+    """
 
     return {
         "title": first_or_empty(section_data.get("title")),
@@ -15,16 +32,6 @@ def convert_section(section_data):
             }
             for c in section_data.get("citations", [])
         ],
-        "figures": [
-            {
-                #"id": normalize_text(f.get("id", "")),
-                "label": normalize_text(f.get("label", "")),
-                "caption": normalize_text(f.get("caption", "")),
-                "source": normalize_text(f.get("source", ""))
-            }
-            for f in section_data.get("figures", [])
-            if isinstance(f, dict)
-        ],
         "formulas": [
             {
                 "content": normalize_text(f.get("content", "")),
@@ -33,31 +40,39 @@ def convert_section(section_data):
             for f in section_data.get("formulas", section_data.get("equations", []))
             if isinstance(f, dict)
         ],
-        "tables": section_data.get("tables", []), 
         "urls": [normalize_text(u) for u in section_data.get("urls", [])],
         "media_objects": section_data.get("media_objects", []),
         "references": [normalize_text(r) for r in section_data.get("references", [])],
         "subsections": [convert_section(s) for s in section_data.get("subsections", [])],
     }
-"""
-"lists": {
-    "ordonnees": [normalize_text(l) for l in section_data.get("lists", {}).get("ordonnees", [])],
-    "non_ordonnes": [normalize_text(l) for l in section_data.get("lists", {}).get("non_ordonnes", [])],
-    "relation": [normalize_text(l) for l in section_data.get("lists", {}).get("relation", [])],
-},
-"""
 
 
 def convert_to_base(data):
+    """
+    Objectif :
+        Transformer une structure de données hétérogène issue de fichiers XML
+        en un format JSON unifié, structuré et nettoyé, conforme au schéma de comparaison de l’évaluation.
+
+    Paramètres :
+        data (dict) : Données d’entrée provenant d’un XML parsé 
+                     contenant des champs bibliographiques, métadonnées, auteurs, corps de texte, etc.
+
+    Retour :
+        dict : Une structure JSON complète et homogène avec :
+            - Des champs simples (titre, résumé, date, etc.)
+            - Des listes (mots-clés, notes, figures, tables…)
+            - Des objets structurés (auteurs, équipe éditoriale, bibliographies, body...)
+            - Des valeurs normalisées (texte nettoyé, date formatée, chaînes vides supprimées)
+    """
+
     base = {
         "title": first_or_empty(data.get("title")),
-        "overline": first_or_empty(data.get("overline")), #surtitre
+        "overline": first_or_empty(data.get("overline")), 
         "subtitle": first_or_empty(data.get("subtitle")),
         "authors": [],
         "abstract": first_or_empty(data.get("abstract")),
         "date": normalize_date(first_or_raw(data.get("date"))),
         "id": {
-            #"ori": first_or_empty(data.get("id")),
             "doi": first_or_empty(data.get("id")),
             "issn": first_or_empty(data.get("issn")),
         },
@@ -76,11 +91,8 @@ def convert_to_base(data):
         "themes": [normalize_text(t) for t in data.get("themes", []) if isinstance(t, str)],
         "language": first_or_empty(data.get("language")),
 
-        # Nouveaux champs pour des annexes
-        #"annexes": [normalize_text(a) for a in data.get("annexes", []) if isinstance(a, str)],
         "acknowledgements": first_or_empty(data.get("acknowledgements")),
         "biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
-        #"bibliographies": [normalize_text(b) for b in data.get("bibliographies", []) if isinstance(b, str)],
         "bibliographies": [
             {
                 "authors": b.get("authors", []),
@@ -110,7 +122,6 @@ def convert_to_base(data):
     first_names = data.get("author_first_name", [])
     last_names = data.get("author_last_name", [])
     affiliations = data.get("author_affiliation", [])
-    #print(affiliations)
     emails = data.get("author_email", [])
     websites = data.get("author_website", [])
     orcids = data.get("author_orcid", [])
@@ -139,7 +150,7 @@ def convert_to_base(data):
 
 
     base["body"] = [convert_section(s) for s in data.get("body_sections", [])]
-    # Ajouter les figures globales si elles existent
+
     base["figures"] = []
     for f in data.get("figures", []):
         if isinstance(f, dict):

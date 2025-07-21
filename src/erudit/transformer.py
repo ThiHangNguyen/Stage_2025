@@ -24,7 +24,7 @@ def extract_biblio_text(node, ns) -> str:
     texte = "".join(parts)
     return normalize_text(texte)
 
-
+"""
 def extract_erudit_editorial_team(root):
     ns = {"er": "http://www.erudit.org/xsd/article"}
     team = {"directors": [], "editors_in_chief": [], "editors": []}
@@ -67,8 +67,17 @@ def extract_erudit_editorial_team(root):
 
     return team
 
-
+"""
 def extract_erudit_author_fields(root):
+    """
+    Extrait les champs associés aux auteurs d’un article Érudit, y compris :
+    - prénom, nom
+    - email, ORCID, site web
+    - affiliations (concaténées)
+    
+    Retourne un dictionnaire avec une liste de valeurs pour chaque champ.
+    """
+
     ns = {"er": "http://www.erudit.org/xsd/article"}
 
     result = {
@@ -109,7 +118,18 @@ def extract_erudit_author_fields(root):
 
     return result
 
+
 def extract_erudit_editorial_team(root):
+    """
+    Extrait les informations de l’équipe éditoriale depuis un document Érudit,
+    y compris :
+    - Directeurs (nom, sexe, fonction)
+    - Rédacteurs en chef (nom, type)
+    - Éditeurs institutionnels (organisation)
+    
+    Retourne une liste de dictionnaires plats, avec un champ 'category'.
+    """
+
     ns = {"er": "http://www.erudit.org/xsd/article"}
     team_flat = []
 
@@ -156,8 +176,20 @@ def extract_erudit_editorial_team(root):
 
     return team_flat
 
-
 def extract_erudit_body_sections(root):
+
+    """
+    Extrait les sections du corps de texte de l’article (section1, section2...).
+    Pour chaque section :
+    - titre
+    - paragraphes
+    - formules (équations avec image)
+    - objets médias (images, vidéos)
+    - sous-sections récursives
+    
+    Retourne une liste structurée reflétant la hiérarchie du texte.
+    """
+
     def parse_section(sec):
         titre_node = sec.find("er:titre", namespaces=ns_erudit)
         titre = normalize_text("".join(titre_node.itertext())) if titre_node is not None else ""
@@ -232,6 +264,19 @@ def extract_erudit_body_sections(root):
 
 
 def extract_erudit_global_figures(root):
+
+    """
+    Extrait toutes les figures globales dans le document :
+    - Groupes de figures (<grfigure>) avec sous-figures, label, caption, legends
+    - Figures simples (<figure>) en dehors des groupes
+    
+    Chaque figure retourne :
+    - label (ex. "Figure 1")
+    - caption (titre général)
+    - legends (listes d’annotations ou descriptions)
+    - subfigures (sous-figures avec label et caption)
+    """
+
     ns = {"er": "http://www.erudit.org/xsd/article"}
     figures = []
 
@@ -293,6 +338,19 @@ def extract_erudit_global_figures(root):
 
 
 def extract_erudit_global_tables(root):
+
+    """
+    Extrait toutes les tables (<tableau>) du document.
+    Pour chaque tableau :
+    - label (numéro)
+    - caption (titre)
+    - source (chemin de l’image s’il y en a une)
+    - lignes de contenu (texte principal + note)
+    
+    Retourne une liste de dictionnaires.
+    """
+
+
     ns = {"er": "http://www.erudit.org/xsd/article"}
 
     tables = []
@@ -316,6 +374,10 @@ def extract_erudit_global_tables(root):
 
 
 def parse_erudit_xml(root):
+
+    """
+    Fonction principale de parsing pour un fichier XML Érudit.
+    """
     resultats = {}
 
     for champ, xpath in chemins_erudit.items():
@@ -330,7 +392,6 @@ def parse_erudit_xml(root):
                 resultats[key] = values
             #resultats["authors"] = author_fields
             continue
-
 
         elif champ == "bibliographies":
             resultats[champ] = []
@@ -359,6 +420,8 @@ def parse_erudit_xml(root):
         elif xpath:
             resultats[champ] = extract_from_path(root, xpath, ns_erudit)
         else:
+            print("A REVOIR")
+            print(champ)
             resultats[champ] = []
             
     # Extraction du body structuré (sections)

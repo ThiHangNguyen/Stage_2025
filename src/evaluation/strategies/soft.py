@@ -1,18 +1,20 @@
 from difflib import SequenceMatcher
-from utils.io import normalize_text
 
-from difflib import SequenceMatcher
 def soft_match(a, b):
+    """
+    Calcule une similarité floue (entre 0 et 1) entre deux chaînes de caractères.
+
+    Paramètres :a, b sont des chaines de caractères
+    Retour :
+    - float : un score de similarité basé sur l’algorithme de Ratcliff/Obershelp (utilisé par SequenceMatcher).
+    1.0 signifie égalité parfaite, 
+    0.0 signifie aucune similarité.
+
+    """
+
     if not isinstance(a, str):
         a = str(a)
     if not isinstance(b, str):
         b = str(b)
     return SequenceMatcher(None, a, b).ratio()
 
-"""
-def soft_match(guess, truth):
-    g = normalize_text(guess) if guess else ""
-    t = normalize_text(truth) if truth else ""
-    ratio = SequenceMatcher(None, g, t).ratio()  # valeur entre 0 et 1
-    return [ratio]  # score continu
-"""

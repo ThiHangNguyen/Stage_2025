@@ -1,5 +1,6 @@
 {
   "title": "gestion supervisee dune unite de coagulation pour la potabilisation des eaux a partir dune methodologie dapprentissage et dexpertise coagulation monitoring through a learning and expertise methodology for drinking water",
+  "overline": "",
   "subtitle": "",
   "authors": [
     {
@@ -55,7 +56,6 @@
   "keywords": [],
   "themes": [],
   "language": "fr",
-  "annexes": [],
   "acknowledgements": "",
   "biographical_notes": [],
   "bibliographies": [
@@ -501,9 +501,7 @@
         "revue des sciences de leau 20(4) (2007) 325338 issn : 17188598 resume le travail presente propose une methodologie de classification par apprentissage qui permet lidentification des etats fonctionnels sur une unite de coagulation impliquee dans le traitement des eaux de surface.la supervision et le diagnostic de ce procede ont ete realises en utilisant la methode de classification lamda (learning algorithm for multivariate data analysis).cette methodologie dapprentissage et dexpertise permet dexploiter et dagreger toutes les informations provenant du procede et de son environnement ainsi que les connaissances de lexpert.letude montre quil est possible dajouter aux informations issues des capteurs classiques (temperature, matieres en suspension, ph, conductivite, oxygene dissous), la valeur de la dose de coagulant calculee par un capteur logiciel developpe dans une etude anterieure afin daffiner le diagnostic.le site dapplication choisi pour lidentification des etats fonctionnels est la station de production deau potable rocade de la ville de marrakech, maroc."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -516,9 +514,7 @@
         "key words: coagulation process, classification, supervised learning, unsupervised learning, pattern recognition, fuzzy logic."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -533,9 +529,7 @@
         "le travail presente dans le cadre de cet article est structure de la maniere suivante : la premiere section presente le site dapplication choisi pour identifier les etats fonctionnels.dans la deuxieme section, on presente une breve description de la methode lamda.finalement, dans la troisieme section, des resultats experimentaux seront presentes et discutes.comme le montrent ces resultats obtenus lors de lapplication de la methodologie lamda aux donnees experimentales couvrant 4 annees de fonctionnement de la station de production deau potable de marrakech, ils ouvrent la possibilite dappliquer cette methode a la surveillance en temps reel de ce procede."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -552,9 +546,7 @@
         "en mes : arret du fonctionnement de la station."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -575,7 +567,6 @@
         "dans le cas de la reconnaissance de formes, lelement est attribue a une classe significative ou rejete dans la classe residuelle nic.dans le cas de lapprentissage, sil est affecte a une classe significative, il y a modification des parametres de cette classe.en revanche, si la classe vide a la plus grande adequation, une nouvelle classe doit etre creee pour contenir cet element.il y a rejet si la classe vide est la plus proche et quil ny a pas possibilite de creation de nouvelles classes parce que le nombre maximum de classes creees est atteint."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "dam x avec d x i j i j i d j i d j i i j i j i ρ ρ ρ , ,, , , , ( ) ",
@@ -602,7 +593,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -620,9 +610,7 @@
         "frequence selectionnee : 0,01 hz; marge de tolerance (% nyquist) : 10; largeur de la fenetre : 7; deplacement de la fenetre : 1; periode dechantillonnage : 1."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -645,9 +633,7 @@
         "les classes 1, 3 et 5 caracterisent letat de fonctionnement normal suivant trois saisons : la basse saison, la misaison et la haute saison; la classe 2, qui permet didentifier toutes les fortes variations des mes, est alors associee a letat mesalarme+ ; les variations du ph (vers un etat tres bas) identifiees par les classes 4 et 9 sont associees a letat phalarme ; letat odalarme est associe aux quatre derives de fonctionnement degrade de loxygene dissous par les classes 6, 10, 11 et 13; la classe 12, caracterisee par de fortes variations de la conductivite, est affectee a letat condalarme ."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -662,9 +648,7 @@
         "references bibliographiques aguado j.c. (1998).a mixed qualitativequantitative selflearning classification technique applied to situation assessment in industrial process control.these de doctorat, univ.politecnica de catalunya, terrassa, espagne, 160 p. aguilarmartin j., m. balssa.et r. lopez de mantaras (1980).estimation recursive dune partition.exemples dapprentissage et autoapprentissage dans r n et i n , laascnrs, toulouse, france, rapport scientifique n o 880139, 7 p.aguilarmartin j. et r. lopez de mantaras (1982).the process of classification and learning the meaning of linguistic descriptors of concepts.approximate reasoning in decision analysis.approximate reasoning in decision"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -675,59 +659,62 @@
     {
       "label": "1",
       "caption": "figure 1. chaine de traitement de la station rocade. water treatment operation of the rocade plant",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "3",
       "caption": "figure 3. caracteristiques de leau brute.raw water characteristics.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "4",
       "caption": "figure 4. (a) descripteurs normalises, (b) classes issues de lautoapprentissage. (a) normalised descriptors, (b) selflearning classification results.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "5",
       "caption": "figure 5. profil des classes issues de lautoapprentissage.class profiles stemming from the selflearning procedure.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "a partir de la matrice de contingence. si on considere deux partitions f et g dun meme ensemble dobjets (ω), les elements de la matrice de contingence sont donnes par :",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "figure 6. resultats de la reconnaissance de formes. pattern recognition results.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "9",
       "caption": "figure 9. classes issues de lapprentissage supervise avec la dose de coagulantclassification stemming from supervised learning with coagulant dosage.echantillons",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "",
       "caption": "",
-      "source": ""
-    },
-    {
-      "label": "1",
-      "caption": "classe 9 : cette classe a ete generee a partir de 11 elements.elle identifie toutes les variations elevees de la conductivite.nous constatons aussi une faible variation simultanee de loxygene dissous vers un etat bas constant.la classe 9 est affectee a letat condalarme .classe 10 : 167 elements constituent la classe 10. cette classe permet didentifier levolution de loxygene dissous, en basse saison, vers un etat tres bas. cette variation correspond a une faible variation de la conductivite. la classe 10 est associee a letat odalarme .",
-      "source": "table"
+      "legends": [],
+      "subfigures": []
     }
   ],
   "tables": [
     {
       "label": "1",
       "caption": "classe 9 : cette classe a ete generee a partir de 11 elements.elle identifie toutes les variations elevees de la conductivite.nous constatons aussi une faible variation simultanee de loxygene dissous vers un etat bas constant.la classe 9 est affectee a letat condalarme .classe 10 : 167 elements constituent la classe 10. cette classe permet didentifier levolution de loxygene dissous, en basse saison, vers un etat tres bas. cette variation correspond a une faible variation de la conductivite. la classe 10 est associee a letat odalarme .",
-      "source": "table",
       "rows": [
         [
           "plus dinfluence dans la caracterisation de cette classe. les"

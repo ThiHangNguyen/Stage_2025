@@ -1,5 +1,6 @@
 {
   "title": "modele de lessivage des matieres en suspension en milieu urbain washoff model of total suspended particles in an urban context",
+  "overline": "",
   "subtitle": "",
   "authors": [
     {
@@ -45,7 +46,6 @@
   ],
   "themes": [],
   "language": "en",
-  "annexes": [],
   "acknowledgements": "",
   "biographical_notes": [],
   "bibliographies": [
@@ -552,9 +552,7 @@
         "les charges de matiere en suspension mesurees durant 22 evenements pluvieux enregistres a lexutoire du sousbassin (1) de larrondissement de verdun au canada et a lexutoire de trois sousbassins de la ville de champaign aux etatsunis ont servi a valider le modele rqsm.les charges de matiere en suspension simulees par le modele rqsm ont ete comparees aux charges mesurees et aux charges simulees par le modele de rating curve et par le modele de lessivage exponentiel du logiciel swmm.les charges simulees a laide du modele rqsm etaient comparables aux charges mesurees.de plus, la performance du modele rqsm a ete jugee equivalente a celle des modeles exponentiel et rating curve .une analyse de sensibilite menee sur le modele rqsm a mis en lumiere linfluence de chaque parametre sur la charge simulee."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -571,9 +569,7 @@
         "the second validation step was to simulate the tss load resulting from 11 other rainfalls.the simulated loads of the rqsm model were compared to the measured loads.they were also compared to the simulated loads obtained with the rating curve model and with the swmm exponential washoff model.comparisons were made using three performance criteria: the nash criterion, the ratio of the simulated tss mass divided by the measured tss mass (r m ), and the peak charge ratio (r p ).reasonable agreement was reached between loads computed with the rqsm model and measured loads.the mean r m was 1.08 and the standard deviation was 35%.moreover, the nash criterion was greater than 0.6 for 50% of simulated events.unfortunately, the number of events was insufficient to detect statistically significant differences in accuracy, between the rqsm model, the rating curve and the exponential model.nevertheless, a qualitative study based on the value of the three performance criteria showed that the results given by the rqsm model are equivalent to the results given by the swmm exponential wash off model.finally, a sensitivity analysis was conducted on the rqsm model.in order to achieve the sensitivity analysis, reference values were attributed to the parameters of the rqsm model.the values of the rqsm parameters were then changed individually and the resulting change in the nash criterion was noted.the change in the nash value indicates that for rainfalls of high intensity and short duration, the rqsm method is particularly sensitive to the time of concentration.in the other cases, the erosion parameter of impervious areas was the most sensitive parameter."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -590,9 +586,7 @@
         "cet article presente un nouveau modele conceptuel de lessivage des mes en milieu urbain.le modele propose sera valide a laide de mesures de mes effectuees sur le terrain.les resultats du modele propose seront compares aux resultats du modele exponentiel et du modele de rating curve .de plus, les parametres du modele propose feront lobjet dune analyse de sensibilite."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -602,9 +596,7 @@
       "title": "representations du processus daccumulation",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -619,14 +611,12 @@
         "enfin, la derniere approche consiste a considerer que laccumulation est infinie.dans ce cas, la masse accumulee de particules est supposee infinie.cette approche permet egalement de simplifier la formulation des modeles de lessivage."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "dma t dt = accu disp ma t ( ) ( )(1)",
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -639,9 +629,7 @@
         "laccumulation sur les surfaces impermeables savere beaucoup plus difficile a apprehender.gromaire (1998) a montre lexistence du lessivage sur les chaussees urbaines et sartor et al. (1974) a mis en evidence lexistence dune accumulation durant la periode de temps sec.or, les etudes statistiques de kanso et al. (2005) montrent que la periode de temps sec na pas deffet sur le processus daccumulation.de plus, les analyses de butler et al. (1992) sur des mesures realisees dans six sites differents ne font ressortir aucune dependance entre la masse de particules solides accumulees et la masse de particules solides lessivees.par consequent, les surfaces impermeables semblent se comporter comme des zones daccumulation infinie ou la perte de particules solides est instantanement compensee par un apport equivalent.cet apport provient des actions climatiques et des activites humaines les contradictions entre les auteurs sur la nature du processus daccumulation sur les surfaces impermeables sexpliquent par la complexite des phenomenes physiques en jeu.de plus amples etudes semblent donc necessaires en vue de lever les ambiguites existantes."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -651,9 +639,7 @@
       "title": "formulation du modele rqsm",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -673,7 +659,6 @@
         "les equations 3 et 4 montrent que la mise en suspension des particules solides est controlee par le parametre kp imp pour les surfaces impermeables et par le parametre kp per pour les surfaces permeables.de plus, le taux de mise en suspension mp per fourni par lequation 4 est nul lorsque f(t) ≥ i(t)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "ke t i t ( ) = α β ( )(2)",
@@ -688,7 +673,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -714,7 +698,6 @@
         "trois remarques sont a faire a propos du modele rqsm.premierement, le modele rqsm dissocie la contribution des surfaces impermeables et permeables.deuxiemement, le modele rqsm utilise uniquement lintensite des precipitations pour decrire le transport des mes.enfin, la representativite du modele rqsm est liee a la precision de la mesure des intensites de precipitation.par consequent, une resolution inferieure ou egale a cinq minutes est recommandee pour la mesure des intensites de precipitation."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "q t = i u(t )d nette 0 t ( ) ( ) ∫ τ τ τ (5)",
@@ -733,7 +716,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -743,9 +725,7 @@
       "title": ". modele de rating curve et",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -764,7 +744,6 @@
         "en supposant un modele daccumulation instantanee comme le recommande kanso et al. (2005), laccumulation initiale ma(0) en debut de pluie devient un parametre supplementaire a caler."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "ml t = a q t b ( ) ( )(11)",
@@ -779,7 +758,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -789,9 +767,7 @@
       "title": "validation du modele rqsm",
       "paragraphs": [],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -804,9 +780,7 @@
         "le tableau 1 decrit les caracteristiques physiques des sousbassins etudies.les surfaces, les pentes et loccupation des sols varient sensiblement dun sousbassin a lautre.la surface des sousbassins, la fraction de surface impermeable directement drainee, la pente des sousbassins et les parametres dinfiltration du modele de horton des sousbassins de champaign ont ete evalues lors des campagnes de mesures.en revanche, les parametres du modele de horton pour le sousbassin de verdun et le temps de concentration pour lensemble des sousbassins nont pas ete mesures durant les campagnes de mesures.par consequent, les valeurs de ces caracteristiques physiques ont ete estimees a laide dun modele hydrologique (bennis et crobeddu, 2005).elles peuvent egalement etre obtenues a laide de formules ou de valeurs tabulees (chow et al., 1988)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -825,7 +799,6 @@
         "la valeur des parametres obtenus appelle deux commentaires.premierement, la masse accumulee ma(0) du modele exponentiel et le coefficient de mise en suspension kp imp du modele rqsm ne semblent pas etre correles a la surface des sousbassins ou a loccupation des sols presentees au tableau 1. deuxiemement, le parametre k du modele exponentiel presente de fortes variations entre les differents sousbassins.ces variations sexpliquent en grande partie par lutilisation dun modele daccumulation instantanee.en effet, les parametres des modeles rqsm et rating curve ont une amplitude de variation moindre que le modele exponentiel alors quils utilisent un modele daccumulation infinie."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [
         {
           "content": "nash = 1 ml i ml i ml i ml mesure simule mesure mes ( ) ( )     ( ) = ∑ 2 i l n u ure     = ∑ 2 i l n (14",
@@ -836,7 +809,6 @@
           "image_href": ""
         }
       ],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -854,9 +826,7 @@
         "0 0,05 0,1 0,15 0,2 0,25 0,3 0,35 0,4 0,45 0,5 6:22 6:52 7:22 7:52 8:22 8:52 9:22 temps (h:m in) debit (m 3/s) 0 10 20 30 40 50 60 70 80 90 100 intensite (m m /h) precipitation debit mesure (a) 0 0,02 0,04 0,06 0,08 0,1 0,12 0,14 0,16 0,18 0,2 6:22 6:52 7:22 7:52 8:22 8:52 9:22 tem ps (h:m in) mes (kg/s) charge mesuree rqsm rating curve modele exponentiel (b) 0 0,5 1 1,5 2 2,5 3 20:50 21:20 21:50 22:20 22:50 23:20 tem ps (h:m in) debit (m 3/s) 0 5 10 15 20 25 30 35 40 45 50 intensite (m m /h) precipitation debit mesure (a) 0 0,05 0,1 0,15 0,2 0,25 0,3 0,35 20:50 21:20 21:50 22:20 22:50 23:20 tem ps (h:m in) mes (kg/s) charge mesuree rqsm rating curve modele exponentiel (b)"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -875,9 +845,7 @@
         "les resultats de lanalyse de sensibilite pour la pluie (2) sont presentes sur la figure 6(b).ils amenent quatre remarques importantes.premierement, la variation du parametre kp imp engendre une forte diminution du nash comme pour la pluie (1).en revanche, la variation du parametre kp per ne fait pratiquement pas diminuer le nash.neanmoins, ce parametre peut devenir influent en cas de pluie extreme ou pour une surface permeable presentant une faible capacite dinfiltration.deuxiemement, la variation de t c , dans le cas dune pluie de duree superieure a t c , genere une plus grande diminution du nash que la variation de kp imp .en revanche, linfluence de t c diminue significativement et devient meme inferieure a celle de kp imp quant la duree de la pluie est inferieure a t c .troisiemement, une variation importante de la capacite initiale dinfiltration (f 0 ) entraine une importante baisse du nash.de plus, la sousestimation de la capacite initiale dinfiltration entraine une diminution du nash plus importante que sa surestimation.enfin, la variation de la capacite finale dinfiltration (f ∞ ) et du coefficient de decroissance (k) a entraine une diminution table 4. means and standard deviations of the nash, r p and r m values.tableau 5. valeurs de reference des parametres pour lanalyse de sensibilite du modele rqsm table 5. reference values of the parameters used for the sensitivity analysis of the rqsm model.modeles nash r m r p moyenne ecarttype moyenne ecarttype moyenne ecarttype rating curve 0,06 1,14 1,57 0,93 1,34 0,68 modele exponentiel 0,33 0,93 1,26 0,77 1,15 0,45 rqsm 0,53 0,31 1,08 0,35 0,81 0,31 parametres a (ha) imp t c (min) f 0 (mm/h) f ∞ (mm/h) k (1/h) kp imp (kg/j) kp per (kg/j) valeurs 100 0,5 32 160 16 4 2⋅10 5 2⋅10 5 negligeable du nash.par consequent, la variation de ces parametres na pas ete presentee sur la figure 6(b) afin den alleger la lecture.ces resultats sur les parametres dinfiltration du modele de horton sont similaires aux observations faites suite a lanalyse de sensibilite du modele de reservoir non lineaire du logiciel swmm (liong et al., 1991)."
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -893,9 +861,7 @@
         "6,5 6 5,5 5 4,5 4 3,5 3 2,5 2 1,5 1 0,5 0 0,5 1 0,25 0,5 0,75 1 1,25 1,5 1,75 taux de variation nash kpimp tc 3 2,5 2 1,5 1 0,5 0 0,5 1 0,25 0,5 0,75 1 1,25 1,5 1,75 taux de variation nash kpimp kpper tc fo (a) (b)"
       ],
       "citations": [],
-      "figures": [],
       "formulas": [],
-      "tables": [],
       "urls": [],
       "media_objects": [],
       "references": [],
@@ -906,27 +872,32 @@
     {
       "label": "3",
       "caption": "figure 3. pluies enregistrees sur, (a), le sousbassin (1) de larrondissement de verdun et sur (b), les sousbassins mattis nord, mattis sud et saint john nord (champaign, usa). rainfall monitored in (a) the subcatchment (1) of the verdun borough and (b) the north mattis, south mattis and st john north subcatchments (champaign, usa).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "2",
       "caption": "valeur des parametres apres calage des modeles rqsm, rating curve et exponentiel.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "45",
       "caption": "figure 4. (a) pluie et debit du 13 octobre 2000 sur le sousbassin (1) de larrondissement de verdun, et (b) charges de mes mesurees et simulees. (a) rainfall and flow in the subcatchment (1) of the verdun borough on 13 october 2000, and (b) measured and simulated tss loads.",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "4",
       "caption": "moyennes et ecartstypes des valeurs de nash, r p et r m",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     },
     {
       "label": "6",
       "caption": "figure 6. variation du nash en fonction du taux de variation des parametres du modele rqsm pour (a), la pluie (1), et (b), la pluie (2). variation of the nash value as a function of the rate of change of the rqsm parameters for (a), rainfall (1), and (b), rainfall (2).",
-      "source": ""
+      "legends": [],
+      "subfigures": []
     }
   ],
   "tables": []
