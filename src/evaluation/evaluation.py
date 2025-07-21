@@ -259,10 +259,10 @@ def evaluate(source: str, target: str, article_id: str, subfolder: str = None):
 
     results = evaluate_fields_from_json(source_data, target_data, FIELD_COMPARISON_FUNCTIONS)
     print(f"[INFO] Évaluation terminée pour {article_id}")
-    print(results)
+    #print(results)
 
     save_to_csv(target, article_id, results, output_subfolder=subfolder)
-    print("[OK] Résultats enregistrés")
+    print("Résultats enregistrés")
 
 
 
