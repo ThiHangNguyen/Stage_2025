@@ -7,7 +7,7 @@ from io import BytesIO
 def get_redirected_url(article_id):
     """
     Récupère l'URL finale (redirigée) d'un article Érudit à partir de son identifiant court.
-    Exemple : "1065017ar" → URL complète avec DOI ou chemin final sur erudit.org.
+    Exemple : "1065017ar" => URL complète avec DOI ou chemin final sur erudit.org.
     """
     base_url = f"https://www.erudit.org/iderudit/{article_id}"
     response = requests.get(base_url, allow_redirects=True)
@@ -120,22 +120,33 @@ def clean_pdf_2cols(pdfs_dir="data/pdfs/pdf_2cols"):
 
 def main():
     """
-    Lit un fichier CSV contenant une liste d'identifiants d'articles,
-    puis télécharge pour chacun le XML et le PDF nettoyé.
+    Télécharge les fichiers XML et PDF (nettoyé) pour chaque fichier CSV
+    commençant par article_ids_* dans data/csv/.
     """
-    input_csv = "data/csv/article_ids_cqd27.csv"
-    pdf_dir = "data/pdfs"
-    os.makedirs(pdf_dir, exist_ok=True)
+    input_dir = "data/csv"
+    csv_files = [f for f in os.listdir(input_dir) if f.startswith("article_ids_") and f.endswith(".csv")]
 
-    ids = pd.read_csv(input_csv, header=None)[0].tolist()
+    for file in csv_files:
+        journal_id = file.replace("article_ids_", "").replace(".csv", "")
+        input_csv = os.path.join(input_dir, file)
 
-    for article_id in ids:
-        try:
-            print(f"Téléchargement de {article_id}...")
-            download_erudit_xml(article_id, None)
-            download_and_clean_erudit_pdf(article_id, pdf_dir)
-        except Exception as e:
-            print(f"Erreur pour {article_id} : {e}")
+        pdf_dir = os.path.join("data/pdfs", journal_id)
+        xml_dir = os.path.join("data/raw/xml_erudit", journal_id)
+
+        os.makedirs(pdf_dir, exist_ok=True)
+        os.makedirs(xml_dir, exist_ok=True)
+
+        ids = pd.read_csv(input_csv, header=None)[0].tolist()
+
+        print(f"\n[INFO] Traitement du journal : {journal_id} ({len(ids)} articles)")
+        for article_id in ids:
+            try:
+                print(f"  Téléchargement de {article_id}...")
+                download_erudit_xml(article_id, xml_dir)
+                download_and_clean_erudit_pdf(article_id, pdf_dir)
+            except Exception as e:
+                print(f"  [ERREUR] pour {article_id} : {e}")
+
     #download_erudit_xml_2cols()
     #clean_pdf_2cols()
 

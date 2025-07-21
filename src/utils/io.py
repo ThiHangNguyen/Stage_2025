@@ -246,3 +246,20 @@ def match_format(value: str, format_type: str) -> bool:
 
     return re.fullmatch(pattern, value) is not None
 
+def has_data(value):
+    """
+    Retourne True si la valeur contient de l'information.
+    - Pour une string : non vide
+    - Pour une liste : au moins un élément non vide
+    - Pour un dict : au moins un champ non vide
+    - Pour None ou vide : False
+    """
+    if value in (None, "", [], {}):
+        return False
+    if isinstance(value, str):
+        return value.strip() != ""
+    if isinstance(value, list):
+        return any(has_data(v) for v in value)
+    if isinstance(value, dict):
+        return any(has_data(v) for v in value.values())
+    return True

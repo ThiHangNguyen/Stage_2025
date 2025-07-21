@@ -1,4 +1,4 @@
-from utils.io import normalize_text, load_json, save_to_csv
+from utils.io import has_data, load_json, save_to_csv
 from utils.hashmap import hashmap
 from evaluation.strategies.strict import strict_match
 from evaluation.strategies.soft import soft_match
@@ -203,43 +203,38 @@ FIELD_COMPARISON_FUNCTIONS = {
 
 def evaluate_fields_from_json(source, target, fields_to_compare):
     results = {}
-    count=1
+    presence_flags = {} 
     for field in fields_to_compare:
         val1 = source.get(field)
         val2 = target.get(field)
-        print (count)
-        count+=1
+        has_ref = int(has_data(val1))
+        has_extractor = int(has_data(val2))
+
+        results[field] = {
+            "has_ref": has_ref,
+            "has_extractor": has_extractor,
+        }
         func = FIELD_COMPARISON_FUNCTIONS.get(field, compare_simple)
 
         # Gestion des cas structurés nécessitant un type
         if field in {"authors", "editorial_team", "body", "tables", "figures"}:
             # Appel explicite avec le paramètre type_
             start = time.perf_counter()
-            results[field] = compare_structured_fields(val1, val2, type_=field)
+            scores = compare_structured_fields(val1, val2, type_=field)
             end = time.perf_counter()
 
         else:
             # Cas normal sans type_
             start = time.perf_counter()
-            results[field] = func(val1, val2)
+            scores = func(val1, val2)
             end = time.perf_counter()
         duration = round(end - start, 3)
 
         print(f"Champ '{field}' évalué en {duration} secondes")
-        # print({field})
-        # print(results)
-    return results
-"""
-def evaluate(source: str, target: str, article_id: str):
-    source_data = load_json(source, article_id)
-    target_data = load_json(target, article_id)
-    results = evaluate_fields_from_json(source_data, target_data, FIELD_COMPARISON_FUNCTIONS)
-    print('finish evaluation')
-    print(results)
-    save_to_csv(target, article_id, results)
-    print("done")
+        results[field].update(scores)
 
-"""
+    return results
+
 
 def evaluate(source: str, target: str, article_id: str, subfolder: str = None):
     """

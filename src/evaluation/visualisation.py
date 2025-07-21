@@ -15,7 +15,7 @@ def collect_scores_by_field_and_method(directory, field_name, method_name):
         full_path = os.path.join(directory, file)
         if file.endswith(".csv") and os.path.isfile(full_path):
             df = pd.read_csv(full_path, index_col="field")
-            if field_name in df.index and method_name in df.columns:
+            if ( field_name in df.index and method_name in df.columns and "has_ref" in df.columns and df.at[field_name, "has_ref"] == 1):
                 score = df.at[field_name, method_name]
                 data.append({"file": file.replace(".csv", ""), "score": score})
 
@@ -89,8 +89,14 @@ def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
             full_path = os.path.join(directory, file)
             if file.endswith(".csv") and os.path.isfile(full_path):
                 df = pd.read_csv(full_path, index_col="field")
-                if method_name in df.columns:
-                    all_dfs.append(df[[method_name]])
+                if "has_ref" not in df.columns:
+                    print(f"[Avertissement] Colonne 'has_ref' manquante dans {file}, ignoré.")
+                    continue
+
+                df_filtered = df[df["has_ref"] == 1]
+
+                if method_name in df_filtered.columns:
+                    all_dfs.append(df_filtered[[method_name]])
 
         if not all_dfs:
             print(f"[Avertissement] Aucun CSV valide trouvé pour {tool} avec la méthode '{method_name}'")
@@ -176,6 +182,7 @@ def main():
 
     parser.add_argument("--field", help="Champ à visualiser (ex: title, abstract, etc.)")
     parser.add_argument("--method", required=True, choices=["strict", "soft", "levenshtein"], help="Méthode à visualiser")
+    parser.add_argument("--tool", required=True, help="Nom de l'outil à visualiser (ex: grobid)")
     parser.add_argument("--dir", default="results/csv/grobid", help="Répertoire contenant les fichiers CSV")
     parser.add_argument("--2cols", action="store_true", help="Utiliser les résultats du sous-répertoire xml_2cols/")
     parser.add_argument("--compare", action="store_true", help="Comparer plusieurs outils (ex: GROBID vs autres)")

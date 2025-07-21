@@ -24,50 +24,7 @@ def extract_biblio_text(node, ns) -> str:
     texte = "".join(parts)
     return normalize_text(texte)
 
-"""
-def extract_erudit_editorial_team(root):
-    ns = {"er": "http://www.erudit.org/xsd/article"}
-    team = {"directors": [], "editors_in_chief": [], "editors": []}
 
-    # Directeurs
-    for d in root.xpath(".//er:directeur", namespaces=ns):
-        sexe = d.attrib.get("sexe", "")
-        prenom = d.findtext("er:nompers/er:prenom", default="", namespaces=ns)
-        autreprenom = d.findtext("er:nompers/er:autreprenom", default="", namespaces=ns)
-        nomfamille = d.findtext("er:nompers/er:nomfamille", default="", namespaces=ns)
-        fonction = d.findtext("er:fonction", default="", namespaces=ns)
-
-        team["directors"].append({
-            "first_name": prenom,
-            "middle_name": autreprenom,
-            "last_name": nomfamille,
-            "gender": sexe,
-            "role": fonction
-        })
-
-    # Rédacteurs en chef
-    for r in root.xpath(".//er:redacteurchef", namespaces=ns):
-        typerc = r.attrib.get("typerc", "")
-        prenom = r.findtext("er:nompers/er:prenom", default="", namespaces=ns)
-        autreprenom = r.findtext("er:nompers/er:autreprenom", default="", namespaces=ns)
-        nomfamille = r.findtext("er:nompers/er:nomfamille", default="", namespaces=ns)
-
-        team["editors_in_chief"].append({
-            "first_name": prenom,
-            "middle_name": autreprenom,
-            "last_name": nomfamille,
-            "type": typerc
-        })
-
-    # Éditeurs (organismes)
-    for e in root.xpath(".//er:editeur", namespaces=ns):
-        org_name = e.findtext("er:nomorg", default="", namespaces=ns)
-        if org_name:
-            team["editors"].append({"organization": org_name})
-
-    return team
-
-"""
 def extract_erudit_author_fields(root):
     """
     Extrait les champs associés aux auteurs d’un article Érudit, y compris :
