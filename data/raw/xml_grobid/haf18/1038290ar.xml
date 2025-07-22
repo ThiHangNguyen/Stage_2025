@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_M2mRBjH">Le développement des partis politiques au Bas-Canada (1791-1840)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,136.98,244.39,71.20,11.03"><forename type="first">Eve</forename><surname>Bourgeois</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Département de science politique University of Toronto Département de science politique Université de Montréal</note>
+								<orgName type="department" key="dep1">Département de science politique</orgName>
+								<orgName type="department" key="dep2">Département de science politique</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,136.98,278.50,116.10,11.03"><forename type="first">Jean-François</forename><surname>Godbout</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Département de science politique University of Toronto Département de science politique Université de Montréal</note>
+								<orgName type="department" key="dep1">Département de science politique</orgName>
+								<orgName type="department" key="dep2">Département de science politique</orgName>
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_BRmRF6X">Le développement des partis politiques au Bas-Canada (1791-1840)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">89B46AE76416B42DFB87973038A9C3AD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-22T15:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-12-g5c1957b1e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_h92xRtR"><p xml:id="_Cb6Na9C"><s xml:id="_HNqSGC6" coords="1,107.86,335.28,275.16,8.21;1,64.98,347.27,289.63,8.21">Cette étude s'intéresse à la formation des partis politiques et à l'origine de la cohésion partisane à la Chambre d'Assemblée du Bas-Canada entre 1791 et 1840.</s><s xml:id="_4KdEANP" coords="1,356.17,347.27,26.77,8.21;1,64.98,359.27,318.10,8.21;1,64.98,371.27,99.13,8.21">Pour ce faire, elle présente une analyse systématique de tous les votes tenus en Chambre en utilisant différents indices de loyauté.</s><s xml:id="_sWehvhP" coords="1,165.77,371.27,217.23,8.21;1,64.98,383.26,317.71,8.21;1,64.98,395.26,175.70,8.21">L'analyse cherche à évaluer les deux principales thèses qui ont été avancées pour expliquer le développement des partis politiques au Bas-Canada, soit les divisions entre les groupes ethniques ou politiques.</s><s xml:id="_C2ENzss" coords="1,242.14,395.26,140.59,8.21;1,64.98,407.26,318.05,8.21;1,64.98,419.26,318.05,8.21;1,64.98,431.25,317.88,8.21;1,64.98,443.25,39.47,8.21">Nos résultats démontrent que l'ethnicité est la principale source de division entre les députés lors des premières législatures et que c'est plutôt l'opposition entre les réformistes constitutionnels et les conservateurs favorables à l'ancien régime qui explique les divisions entre les députés lors des deux dernières législatures.</s></p><p xml:id="_QgtXZvK"><s xml:id="_vZRmuxa" coords="1,64.98,467.25,317.99,8.25;1,64.98,479.25,295.96,8.21">Abstract • This paper analyzes the development of political parties and the origin of party loyalty in the legislative Assembly of Lower Canada between 1791 and 1840.</s><s xml:id="_evn3qmV" coords="1,361.86,479.25,21.13,8.21;1,64.98,491.25,318.01,8.21;1,64.98,503.24,123.91,8.21">To do so, it conducts a systemic analysis of the legislative behaviour of the Members of Parliament (MPs) with various loyalty indexes.</s><s xml:id="_SXVtVHy" coords="1,190.06,503.24,192.89,8.21;1,64.98,515.24,317.96,8.21;1,64.98,527.24,28.21,8.21">The study aims to assess the validity of two common theories found in the literature to explain the development of political parties in Lower Canada.</s><s xml:id="_YzwvgnQ" coords="1,94.83,527.24,288.14,8.21;1,64.98,539.23,318.01,8.21;1,64.98,551.23,187.73,8.21">Results suggest that ethnicity is the most salient issue of division among MPs in the first Parliaments, and that constitutional issues (reformists against conservatives) are the primary causes of conflict in the last two Parliaments.</s><s xml:id="_3m6Zgvn" coords="4,75.19,29.24,181.53,8.79">revue d'histoire de l'amérique française</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="429.968" lry="645.968"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_sEzEQpt"><p xml:id="_xSdUSby"><s xml:id="_Kp4HdZn" coords="2,46.98,60.18,19.17,29.86;2,65.81,60.16,298.96,10.23;2,65.81,73.61,299.24,10.23;2,46.99,87.06,89.08,10.23;2,136.35,86.15,2.96,5.93;2,139.47,87.06,225.46,10.23;2,46.98,100.51,62.86,10.23;2,109.68,99.61,2.96,5.93;2,112.56,100.51,2.74,10.23">L es études menées sur le comportement législatif des députés à la Chambre des communes du Canada confirment la présence d'une forte cohésion partisane <ref type="bibr" coords="2,136.35,86.15,2.96,5.93" target="#b0">1</ref> , et ce, dès la quatrième législature suivant la Confédération <ref type="bibr" coords="2,109.68,99.61,2.96,5.93" target="#b1">2</ref> .</s><s xml:id="_F8Sdt7k" coords="2,117.31,100.51,247.74,10.23;2,46.98,113.97,318.04,10.23;2,46.98,127.42,317.90,10.23;2,46.98,140.87,114.25,10.23">Pour mieux comprendre l'évolution de ce phénomène qui domine aujourd'hui la politique canadienne et québécoise, il est pertinent d'étudier la genèse des partis politiques lors des toutes premières années de la démocratie canadienne.</s><s xml:id="_Y5fkApy" coords="2,164.09,140.87,200.90,10.23;2,46.98,154.32,317.99,10.23;2,46.97,167.77,318.00,10.23;2,46.97,181.23,318.01,10.23;2,46.97,194.68,289.10,10.23">Dans cette logique, la présente recherche propose de reculer jusqu'en 1791, date à laquelle l'Acte constitutionnel accorde à la colonie du Bas-Canada son premier parlement, pour expliquer la formation des partis politiques en analysant le résultat des votes enregistrés tenus à la Chambre d'Assemblée du Bas-Canada entre 1792 et 1840.</s></p><p xml:id="_8v2Q3gu"><s xml:id="_9bXPF2W" coords="2,56.98,208.13,302.28,10.23;2,359.29,207.22,2.96,5.93;2,362.25,208.13,2.74,10.23;2,46.98,221.58,317.99,10.23;2,46.98,235.03,317.99,10.23;2,46.98,248.49,266.50,10.23">Si quelques recherches ont déjà étudié la vie parlementaire coloniale <ref type="bibr" coords="2,359.29,207.22,2.96,5.93" target="#b3">3</ref> , celles-ci se sont limitées à l'analyse des votes sur des enjeux particuliers comme le choix de l'orateur (président) de l'Assemblée, la politique linguistique ou l'expulsion de certains membres de la Chambre.</s><s xml:id="_vSwe292" coords="2,315.73,248.49,49.44,10.23;2,46.98,261.94,317.96,10.23;2,46.98,275.39,318.01,10.23;2,46.98,288.84,70.49,10.23">Aucune n'a effectué une analyse systématique de tous les votes tenus en raison de l'absence de données et d'outils informatiques adéquats au moment de ces publications.</s><s xml:id="_jXWbNVB" coords="2,119.55,288.84,245.58,10.23;2,46.98,302.29,317.81,10.23;2,46.98,315.75,51.77,10.23">Une analyse longitudinale de ces législatures est toutefois nécessaire pour éclaircir le processus par lequel les partis politiques se sont développés.</s><s xml:id="_SGejuDz" coords="2,102.18,315.75,262.83,10.23;2,46.98,329.20,318.25,10.23;2,46.98,342.65,317.98,10.23;2,46.98,356.10,294.87,10.23;2,341.87,355.19,2.96,5.93;2,346.30,356.10,18.68,10.23;2,46.99,369.55,255.12,10.23;2,302.10,368.65,2.96,5.93;2,305.06,369.55,2.74,10.23">En effet, les historiens comprennent encore mal comment les groupes partisans se sont créés au Bas-Canada bien qu'ils reconnaissent que deux formations émergèrent en tant que partis politiques pendant la période couverte par l'Acte constitutionnel : le Parti des bureaucrates <ref type="bibr" coords="2,341.87,355.19,2.96,5.93" target="#b6">4</ref> et le Parti canadien (qui deviendra par la suite le Parti patriote) <ref type="bibr" coords="2,302.10,368.65,2.96,5.93" target="#b7">5</ref> .</s></p><p xml:id="_WKYx59f"><s xml:id="_xzUCKAM" coords="2,56.98,383.01,307.79,10.23;2,46.99,396.46,318.01,10.23;2,46.99,409.91,317.95,10.23;3,64.98,60.16,156.19,10.23">Cette recherche vise ainsi à combler partiellement cette lacune en répondant à la question suivante : quels sont les enjeux responsables des divisions et des coalitions parmi les députés lors des votes tenus à l'As-semblée législative du Bas-Canada ?</s><s xml:id="_zwq5Pnq" coords="3,223.95,60.16,159.02,10.23;3,64.98,73.61,318.00,10.23;3,64.98,87.06,171.66,10.23">L'objectif est d'identifier les sources d'opposition entre les députés et d'éclaircir le processus par lequel les alliances entre les élus se sont formées.</s><s xml:id="_pBfq4T8" coords="3,239.22,87.06,143.75,10.23;3,64.98,100.51,71.67,10.23">Pour ce faire, cet article se divise en sept sections.</s><s xml:id="_5NPASy9" coords="3,139.18,100.51,243.77,10.23;3,64.98,113.97,318.22,10.23;3,64.98,127.42,36.72,10.23">La première partie présente les enjeux identifiés dans la littérature pour expliquer la formation des partis politiques au Bas-Canada.</s><s xml:id="_j75GRN7" coords="3,105.77,127.42,276.97,10.23;3,64.98,140.87,112.61,10.23">La deuxième expose le cadre théorique retenu ainsi que les hypothèses de recherche.</s><s xml:id="_fCn4gJp" coords="3,180.82,140.87,202.17,10.23;3,64.98,154.32,168.34,10.23">La troisième section introduit les données de recherches utilisées dans cette étude.</s><s xml:id="_WxYgCM9" coords="3,237.20,154.32,145.57,10.23;3,64.98,167.77,318.04,10.23;3,64.98,181.23,317.98,10.23;3,64.98,194.68,317.97,10.23;3,64.98,208.13,245.64,10.23">Pour leur part, les quatrième et cinquième sections présentent respectivement les résultats des analyses faites : la première porte sur la loyauté partisane des députés alors que la seconde étudie les votes en utilisant une méthode de classification sur données à grande dimension (classification optimale).</s><s xml:id="_ZuPs94U" coords="3,314.54,208.13,68.13,10.23;3,64.98,221.58,317.92,10.23;3,64.98,235.03,271.06,10.23">Enfin, les deux dernières sections traitent des résultats obtenus, de leurs limites ainsi que de leurs implications empiriques pour des recherches futures.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_CJNPVWs" coords="3,64.98,258.01,185.93,7.30">les partis politiques au Bas-canada</head><p xml:id="_Bs7tWgN"><s xml:id="_qKpguDm" coords="3,64.98,276.09,317.71,10.23;3,64.98,289.54,156.21,10.23">Cette section présente les deux principales thèses qui expliquent la genèse des partis politiques au Bas-Canada.</s><s xml:id="_w2MEn4K" coords="3,223.46,289.54,159.55,10.23;3,64.98,302.99,317.96,10.23;3,64.98,316.44,25.32,10.23">Avant de les exposer, il est nécessaire de fournir une brève définition de ce que nous entendons par parti politique.</s><s xml:id="_3eGc6pQ" coords="3,92.56,316.44,290.43,10.23;3,64.98,329.89,293.96,10.23">Malgré leur appellation, les partis politiques de l'époque ne correspondent pas à la conception moderne des formations politiques.</s><s xml:id="_eNWZ7bz" coords="3,362.78,329.89,19.97,10.23;3,64.98,343.35,318.01,10.23;3,64.98,356.80,317.99,10.23;3,64.98,370.25,317.72,10.23;3,64.98,383.70,186.05,10.23;3,251.03,382.79,2.96,5.93;3,255.41,383.70,6.90,10.23">Cela explique pourquoi nous utilisons la définition de Maurice Duverger plus appropriée pour la période étudiée et selon laquelle un parti politique regroupe « des tendances d'opinions, des clubs populaires, des associations de pensée ou des groupes parlementaires 6 ».</s><s xml:id="_uegBBZ7" coords="3,265.75,383.70,117.24,10.23;3,64.99,397.15,318.00,10.23;3,64.99,410.61,318.00,10.23;3,64.99,424.06,267.87,10.23">Cette définition plus large permet d'identifier l'affiliation partisane des députés en fonction de différents facteurs et de suivre le processus de formation des partis politiques à la Chambre d'Assemblée du Bas-Canada à travers le temps.</s></p><p xml:id="_u5Rzs47"><s xml:id="_2cFEpHd" coords="3,74.98,437.51,307.97,10.23;3,64.99,450.96,317.98,10.23;3,64.99,464.41,241.95,10.23;3,306.96,463.51,2.96,5.93;3,309.92,464.41,2.74,10.23">Afin d'expliquer le développement des partis politiques à l'époque coloniale, les historiens ont mis en évidence deux principaux clivages parmi les députés : l'ethnicité et l'idéologie des députés <ref type="bibr" coords="3,306.96,463.51,2.96,5.93">7</ref> .</s><s xml:id="_UvGtgpn" coords="3,314.93,464.41,68.05,10.23;3,64.98,477.87,318.03,10.23;3,64.98,491.32,130.54,10.23">La thèse prédominante stipule que le conflit ethnique est la plus importante source de division durant cette période.</s><s xml:id="_y5hkK5B" coords="3,198.30,491.32,184.68,10.23;3,74.98,518.94,285.48,7.81;3,74.99,529.02,308.02,7.18;3,64.99,538.46,145.29,7.18">Cette thèse est surtout défendue par John 6. Maurice Duverger, Les partis politiques, 6 e édition (Paris, Librairie Armand Collin, 1967), 1. 7. D'autres enjeux qui auraient pu influencer le vote des députés, comme l'occupation civile, les intérêts commerciaux et les intérêts régionaux.</s><s xml:id="_HtcWJe5" coords="3,211.97,538.46,171.05,7.18;3,64.99,547.90,318.02,7.18;3,64.99,557.34,290.09,7.18">Puisque Bourgeois démontre que ceux-ci n'ont presque aucune influence sur le comportement législatif des élus, nous présentons seulement le résultat des analyses portant sur ces deux principaux facteurs d'influence que sont l'ethnicité et l'idéologie.</s><s xml:id="_QxhyJGp" coords="3,356.68,557.34,26.31,7.18;3,64.99,566.78,317.96,7.18;3,64.99,576.22,151.65,7.18">Voir Eve Bourgeois, La genèse et le développement des partis politiques au Bas-Canada (1791-1840), mémoire de maîtrise (science politique), Université de Montréal, 2014.</s></p><p xml:id="_8G55Vaa"><s xml:id="_DUzG9Y6" coords="4,46.98,60.16,21.83,10.23;4,68.69,59.25,2.96,5.93;4,73.75,60.16,291.30,10.23;4,46.99,73.61,226.76,10.23;4,273.74,72.70,2.96,5.93;4,276.70,73.61,2.74,10.23">Hare 8 qui a étudié le comportement législatif des députés lors de 147 votes tenus à la Chambre d'Assemblée entre 1793 et 1812 9 .</s><s xml:id="_V8Kzrgu" coords="4,280.94,73.61,84.04,10.23;4,46.98,87.06,317.89,10.23;4,46.98,100.51,318.05,10.23;4,46.98,113.97,34.46,10.23;4,81.45,113.06,5.92,5.93;4,87.37,113.97,2.74,10.23">Étant donné que la population du Bas-Canada est très majoritairement d'origine française ou britannique, le concept d'ethnicité réfère ici à la langue et à la religion des députés <ref type="bibr" coords="4,81.45,113.06,5.92,5.93">10</ref> .</s></p><p xml:id="_2495wjd"><s xml:id="_MBSkp6J" coords="4,56.99,127.42,308.11,10.23;4,46.99,140.87,318.03,10.23;4,46.99,154.32,318.00,10.23;4,46.99,167.77,318.01,10.23;4,46.99,181.23,230.76,10.23;4,277.65,180.32,5.86,5.93;4,283.45,181.23,2.74,10.23">L'origine de cette hypothèse remonte à la Conquête et à la formation du Bas-Canada alors que lord Durham écrit dans son rapport de 1839 suivant la rébellion des patriotes : « I expected to find a contest between a government and a people : I found two nations warring in the bosom of a single state : I found a struggle not of principles, but of race 11 .</s><s xml:id="_YfzQYt7" coords="4,287.38,181.23,77.60,10.23;4,46.99,194.68,310.14,10.23;4,356.62,193.77,5.78,5.93;4,362.25,194.68,2.74,10.23;4,46.98,208.13,80.03,10.23;4,126.90,207.22,5.86,5.93;4,132.70,208.13,94.81,10.23;4,227.40,207.22,5.86,5.93;4,236.93,208.13,78.57,10.23;4,315.38,207.22,5.86,5.93;4,321.18,208.13,2.74,10.23">» Cette hypothèse est également partagée par d'autres auteurs, tels que Pierre Elliott Trudeau 12 , Jean-Pierre Wallot 13 , Murray Greenwood 14 et Renaud Séguin <ref type="bibr" coords="4,315.38,207.22,5.86,5.93">15</ref> .</s><s xml:id="_qrUHQF2" coords="4,327.54,208.13,37.45,10.23;4,46.98,221.58,318.00,10.23;4,46.98,235.03,318.07,10.23;4,46.98,248.49,317.83,10.23">En effet, Trudeau affirme que les Canadiens français n'ont jamais voulu de la démocratie, mais qu'une fois celle-ci imposée par les autorités britanniques, ils se sont servis des institutions démocratiques pour assurer leur survie.</s><s xml:id="_RWVnxhG" coords="4,46.98,261.94,317.98,10.23;4,46.98,275.39,318.20,10.23;4,46.98,288.84,127.84,10.23">S'inscrivant dans la même logique, Greenwood et Wallot soutiennent que les deux groupes ethniques se livrèrent un combat pour la défense des intérêts de leur communauté.</s><s xml:id="_8fqYkBx" coords="4,176.97,288.84,188.00,10.23;4,46.98,302.29,318.04,10.23;4,46.98,315.75,317.99,10.23;4,46.98,329.20,240.71,10.23">Wallot, par exemple, estime que la rancoeur des anglophones provient en partie du fait que la minorité anglaise désirait contrôler l'administration de la colonie, mais qu'elle s'en voyait empêchée par la majorité canadienne qui bloquait ses aspirations.</s><s xml:id="_yQd3Mvm" coords="4,290.76,329.20,74.24,10.23;4,46.98,342.65,318.03,10.23;4,46.98,356.10,317.91,10.23;4,46.97,369.55,317.82,10.23">Il soutient que la querelle des prisons qui déchira les députés au sein de l'Assemblée législative du Bas-Canada durant les années 1805, 1806 et 1807, « devint le symbole de la lutte pour la suprématie du Bas-Canada entre les deux groupes ethniques</s></p><p xml:id="_9vZvm9M"><s xml:id="_dqRrt85" coords="4,56.98,425.18,185.34,7.18">8. J. Hare, « L'Assemblée législative du Bas-Canada… », loc.</s><s xml:id="_Np6w3cr" coords="4,244.30,425.18,9.08,7.16">cit.</s><s xml:id="_zBG9kxw" coords="4,254.38,425.18,110.62,7.18;4,47.00,434.62,33.91,7.16">; J. Hare, Aux origines du parlementa-risme…, op.</s><s xml:id="_s9gzbrp" coords="4,82.58,434.62,9.08,7.16">cit.</s><s xml:id="_FTVE2Y8" coords="4,92.66,434.62,125.62,7.18">; J. Hare, Le développement des partis…, op.</s><s xml:id="_7GBVtUy" coords="4,219.95,434.62,9.08,7.16">cit.</s><s xml:id="_WSsbqzB" coords="4,57.00,444.06,193.29,7.18">9. Entre 1793 et 1812, plus de 350 votes enregistrés ont eu lieu.</s><s xml:id="_H9HRC8F" coords="4,251.83,444.06,113.21,7.18;4,47.00,453.50,70.41,7.18">Voir J. Hare, « L'Assemblée législative du Bas-Canada… », loc.</s><s xml:id="_aDg26Tc" coords="4,119.08,453.50,25.46,7.18">cit., 369.</s><s xml:id="_Q2XHM8X" coords="4,57.00,462.94,9.09,7.18">10.</s><s xml:id="_tabSZ6D" coords="4,71.00,462.94,293.74,7.18;4,47.00,472.38,318.01,7.18;4,47.00,481.82,318.02,7.18">Puisque à l'époque, presque tous les francophones étaient catholiques alors que les anglophones étaient protestants (à l'exception notamment de certains Irlandais qui étaient également catholiques), il est difficile de distinguer l'influence de la religion et de la langue sur le comportement législatif des élus.</s><s xml:id="_Cy4vCQn" coords="4,57.00,491.26,8.77,7.18">11.</s><s xml:id="_Uq3hhHk" coords="4,71.00,491.26,292.70,7.18">John George Lambton Durham, Lord Durham's Report (Toronto, McClelland and Stewart, 1963), 23.</s><s xml:id="_SepB7Ad" coords="4,57.00,500.70,306.68,7.18;4,47.00,510.14,313.09,7.18">12. Pierre Elliott Trudeau, « Some Obstacles to Democracy in Quebec », The Canadian Journal of Economics and Political Science/Revue canadienne d'Économie et de Science politique, 24, 3 (1958) : 297-311.</s><s xml:id="_XPFjcAs" coords="4,57.00,519.58,9.09,7.18">13.</s><s xml:id="_XGsfVjg" coords="4,71.00,519.58,294.00,7.18;4,47.00,529.02,103.45,7.18">Jean-Pierre Wallot, « La querelle des prisons (Bas-Canada, 1805-1807) », Revue d'histoire de l'Amérique française, 14, 1 (1960) : 61-86.</s><s xml:id="_48AsTWF" coords="4,57.00,538.46,9.09,7.18">14.</s><s xml:id="_E3rbwWK" coords="4,71.00,538.46,294.03,7.18;4,47.03,547.90,140.01,7.18">Murray Greenwood, Legacies of Fear : Law and Politics in Quebec in the Era of the French Revolution (Toronto, University of Toronto Press, 1993).</s><s xml:id="_p22SjRg" coords="4,57.03,557.34,9.09,7.18">15.</s><s xml:id="_txa6PJH" coords="4,71.03,556.70,293.95,7.81;4,46.98,566.78,317.99,7.18;4,46.98,576.22,21.92,7.18">Renaud Séguin, « Pour une nouvelle synthèse sur les processus électoraux du XIX e siècle québécois », Journal of the Canadian Historial Association/Revue de la Société historique du Canada, 16, 1 (2005) : 75-100.</s></p><p xml:id="_n736N9c"><s xml:id="_Uu7u5fC" coords="5,64.98,60.16,65.53,10.23;5,130.40,59.25,5.86,5.93;5,137.50,60.16,6.78,10.23">qui l'habitaient <ref type="bibr" coords="5,130.40,59.25,5.86,5.93" target="#b8">16</ref> ».</s><s xml:id="_xQhZjup" coords="5,147.26,60.16,235.71,10.23;5,64.99,73.61,283.46,10.23;5,348.32,72.70,5.86,5.93;5,354.12,73.61,2.74,10.23">À la suite de cet épisode, plusieurs autres événements viendront renforcer les tensions ethniques au sein de la législature <ref type="bibr" coords="5,348.32,72.70,5.86,5.93" target="#b9">17</ref> .</s></p><p xml:id="_2w5f4Ag"><s xml:id="_XUGaxu2" coords="5,74.99,87.06,307.91,10.23;5,64.99,100.51,318.00,10.23;5,64.99,113.97,221.64,10.23">La rivalité entre les deux communautés s'étendra également à l'extérieur du Parlement après la création de journaux partisans (The Quebec Mercury, Le Canadien, Le Courrier de Québec et Le Vrai Canadien).</s><s xml:id="_VHAFsRm" coords="5,288.48,113.97,94.53,10.23;5,65.00,127.42,318.03,10.23;5,65.00,140.87,318.01,10.23;5,65.00,154.32,309.57,10.23;5,374.46,153.41,5.86,5.93;5,380.25,154.32,2.74,10.23">La solution à ce conflit ethnique était, pour plusieurs membres de la minorité anglaise, l'union des deux Canadas afin de mettre les francophones en position minoritaire, ce qui aurait permis aux Britanniques de prendre le contrôle de la colonie <ref type="bibr" coords="5,374.46,153.41,5.86,5.93" target="#b10">18</ref> .</s><s xml:id="_SAFEaFE" coords="5,64.98,167.77,317.66,10.23;5,64.98,181.23,237.31,10.23">Quant à lui, Séguin propose une version plus modérée lorsqu'il parle d'une « polarisation ethnolinguistique dominante après 1827 ».</s><s xml:id="_QFjXbME" coords="5,304.30,181.23,78.58,10.23;5,64.97,194.68,317.97,10.23;5,64.97,208.13,318.05,10.23;5,64.97,221.58,171.26,10.23;5,236.13,220.67,5.86,5.93;5,241.92,221.58,2.74,10.23">Pour lui, le facteur religieux est particulièrement important, comme en témoignent les votes des Irlandais majoritairement en faveur des Canadiens en raison de leur appartenance conjointe au catholicisme <ref type="bibr" coords="5,236.13,220.67,5.86,5.93" target="#b11">19</ref> .</s></p><p xml:id="_t7TrkVp"><s xml:id="_KyzEmJ6" coords="5,74.99,235.03,308.03,10.23;5,64.99,248.49,318.00,10.23;5,64.99,261.94,51.95,10.23;5,116.87,261.03,5.86,5.93;5,122.67,261.94,2.74,10.23">Dans les faits, il semble y avoir une division ethnique claire au sein de la Chambre d'Assemblée du Bas-Canada dès les premières années du parlementarisme <ref type="bibr" coords="5,116.87,261.03,5.86,5.93" target="#b12">20</ref> .</s><s xml:id="_ccV49vC" coords="5,129.01,261.94,253.98,10.23;5,64.99,275.39,318.06,10.23;5,64.99,288.84,317.99,10.23;5,64.99,302.29,217.58,10.23;5,282.45,301.39,5.86,5.93;5,288.24,302.29,2.74,10.23">En effet, une division ethnique est observée lors des premières séances alors que les députés doivent se prononcer sur le choix de l'orateur (issu de la majorité francophone ou de la minorité anglophone) ainsi que sur le statut du français dans la Chambre <ref type="bibr" coords="5,282.45,301.39,5.86,5.93" target="#b13">21</ref> .</s><s xml:id="_BSCESwZ" coords="5,293.54,302.29,89.44,10.23;5,64.98,315.75,317.79,10.23;5,64.98,329.20,318.11,10.23;5,64.99,342.65,318.03,10.23;5,64.99,356.10,190.30,10.23;5,255.17,355.19,5.86,5.93;5,260.96,356.10,2.74,10.23">Selon le député John Richardson, en 1793 « la session commença avec un esprit de parti résolu de la part des députés canadiens » et il estime que le quorum fixé à 36 avait été adopté afin de protéger les intérêts des Canadiens et d'empêcher que les Anglais détiennent la majorité au Parlement <ref type="bibr" coords="5,255.17,355.19,5.86,5.93" target="#b14">22</ref> .</s></p><p xml:id="_YQRW65j"><s xml:id="_tbXHKCW" coords="5,74.98,369.55,307.90,10.23;5,64.98,383.01,317.81,10.23;5,64.98,396.46,317.81,10.23;5,64.98,409.91,96.14,10.23">Une deuxième thèse reçoit également l'appui de plusieurs auteurs, celle-ci suggère plutôt que les alliances politiques ont pour source l'opposition entre les réformistes constitutionnels et les conservateurs favorables à l'Acte constitutionnel de 1791.</s><s xml:id="_5GZzR3n" coords="5,163.32,409.91,219.66,10.23;5,64.98,423.36,104.58,10.23;5,169.47,422.45,5.84,5.93;5,177.38,423.36,59.62,10.23;5,236.87,422.45,5.84,5.93;5,242.63,423.36,140.36,10.23;5,64.98,436.81,124.27,10.23;6,56.98,60.07,308.23,9.42;6,56.98,72.46,308.05,9.42;6,56.98,84.85,307.95,9.42;6,56.98,97.24,51.59,9.42;6,108.57,96.40,5.46,5.46;6,114.03,97.24,2.52,9.42">Il s'agit donc, selon cette hypothèse défendue entre autres par Lionel Groulx 23 et Henri Brun <ref type="bibr" coords="5,236.87,422.45,5.84,5.93" target="#b15">24</ref> , d'une opposition que nous pouvons qualifier d'idéologique : l'aspect racial du conflit demeura secondaire […], le fait que la majorité, dans le Bas-Canada, n'ait pas été d'origine britannique, a eu l'effet d'un stimulant, et non d'un obstacle en faveur du développement d'institutions parlementaires locales 25 .</s><s xml:id="_E8XjEa6" coords="6,56.98,116.15,307.84,10.23;6,46.99,129.60,317.97,10.23;6,46.99,143.06,318.05,10.23;6,46.99,156.51,21.15,10.23;6,68.13,155.60,5.92,5.93;6,74.06,156.51,2.74,10.23">À l'appui de cette hypothèse, il convient de noter que des demandes de réformes constitutionnelles étaient également faites à la même époque au Haut-Canada bien que la province ait été ethniquement très homogène <ref type="bibr" coords="6,68.13,155.60,5.92,5.93">26</ref> .</s><s xml:id="_hzy2HZe" coords="6,79.86,156.51,285.10,10.23;6,46.98,169.96,21.87,10.23">De plus, plusieurs anglophones étaient favorables au Parti canadien.</s><s xml:id="_BvKtnun" coords="6,71.52,169.96,293.45,10.23;6,46.98,183.41,318.01,10.23;6,46.98,196.86,134.70,10.23;6,181.68,195.95,5.92,5.93;6,187.61,196.86,2.74,10.23">C'est le cas notamment de John Neilson qui appuya ce parti dès sa première élection en 1818 jusqu'en 1834 où il s'en dissocia après la radicalisation d'une de ses factions <ref type="bibr" coords="6,181.68,195.95,5.92,5.93">27</ref> .</s></p><p xml:id="_hzDyrvz"><s xml:id="_9wvNTF6" coords="6,56.99,210.32,308.11,10.23;6,46.99,223.77,318.00,10.23;6,46.99,237.22,318.06,10.23;6,46.99,250.67,168.62,10.23">La source des demandes de réformes constitutionnelles provient en partie des limitations fondamentales de l'Acte constitutionnel qui confère au gouverneur et à ses conseillers le pouvoir d'empêcher l'adoption des projets de loi votés par la Chambre d'Assemblée.</s><s xml:id="_WjG3Ec2" coords="6,218.64,250.67,146.36,10.23;6,46.99,264.12,318.01,10.23;6,46.99,277.58,318.03,10.23;6,46.99,291.03,279.19,10.23;6,326.33,290.12,5.86,5.93;6,332.14,291.03,2.74,10.23">Cette situation est considérée par Groulx comme une forme de « parlementarisme truqué » qui mènera les Canadiens à réclamer des réformes constitutionnelles, dont l'élection des membres du Conseil législatif et le gouvernement responsable <ref type="bibr" coords="6,326.33,290.12,5.86,5.93">28</ref> .</s><s xml:id="_2XxJq75" coords="6,336.94,291.03,28.02,10.23;6,46.98,304.48,317.99,10.23;6,46.98,317.93,168.93,10.23">Si une situation similaire prévaut dans le Haut-Canada, celle au Bas-Canada se double, on le sait, d'un conflit ethnique.</s><s xml:id="_Z595X5A" coords="6,217.91,317.93,146.87,10.23;6,46.98,331.38,318.24,10.23">Dans un tel contexte, les questions ethniques sont donc fortement liées aux questions constitutionnelles.</s><s xml:id="_nhN73kw" coords="6,46.98,344.84,317.97,10.23;6,46.98,358.29,318.03,10.23;6,46.98,371.74,318.00,10.23;6,46.98,385.19,317.09,10.23">Néanmoins, devant les blocages répétés du gouverneur ou de l'exécutif et devant la volonté de la Chambre d'Assemblée, il est possible que certains députés anglophones favorables aux demandes de réformes du Parti canadien se soient joints à celui-ci lors de ses revendications constitutionnelles.</s></p><p xml:id="_naZhE77"><s xml:id="_ee49aC9" coords="6,46.98,408.17,186.54,7.30;6,46.98,426.24,317.98,10.23;6,46.98,439.70,318.00,10.23;6,46.98,453.15,317.99,10.23;6,46.98,466.60,225.65,10.23">théorie et hypothèses de recherche Pour comprendre la formation des alliances entre les députés, nous utilisons la théorie d'Aldrich selon laquelle la formation des partis politiques à l'intérieur d'un Parlement s'explique par le désir des députés de diminuer l'incertitude relative aux votes tenus en Chambre.</s><s xml:id="_azWbJgT" coords="6,276.40,466.60,88.89,10.23;6,46.98,480.05,318.00,10.23;6,46.98,493.50,318.00,10.23;6,56.98,519.58,9.09,7.18">Ainsi, en créant des alliances plus ou moins durables, les députés s'assurent d'un certain appui envers les projets qu'ils proposent et peuvent alors adopter les politiques 25.</s><s xml:id="_VHrFEnA" coords="6,70.98,519.58,42.38,7.18">Ibid., 255-256.</s><s xml:id="_nhSWnrF" coords="6,56.98,529.02,307.93,7.18;6,46.97,538.46,53.32,7.18">26. Louis Massicotte, Le Parlement du Québec, de 1867 à aujourd'hui (Québec, Les Presses de l'Université Laval, 2009), 265.</s><s xml:id="_UXrBKxq" coords="6,56.97,547.90,9.09,7.18">27.</s><s xml:id="_zykFajE" coords="6,70.97,547.90,293.98,7.18;6,46.97,557.34,33.19,7.16">Sonia Chassé, Rita Girard-Wallot et Jean-Pierre Wallot, « Neilson, John », Dictionnaire biographique du Canada, <ref type="url" coords="6,81.95,557.34,151.98,7.18" target="www.biographi.ca/fr/bio/neilson_john_7F.html">www.biographi.ca/fr/bio/neilson_john_7F.html</ref></s><s xml:id="_CKaujM5" coords="6,235.72,557.34,98.32,7.18">[page consultée le 17 mai 2014].</s><s xml:id="_H5WYb8H" coords="6,56.97,566.78,9.09,7.18">28.</s><s xml:id="_gT6TQyP" coords="6,70.97,566.78,294.02,7.18;6,46.99,576.22,97.33,7.18">Lionel Groulx, Histoire du Canada français depuis la découverte, Tome 2 : Le Régime britannique au Canada (Montréal, Fides, 1960).</s></p><p xml:id="_cBhdYpS"><s xml:id="_t9yDw4n" coords="7,64.98,60.16,47.91,10.23">souhaitées.</s><s xml:id="_nvCPvau" coords="7,116.16,60.16,266.84,10.23;7,64.98,73.61,318.00,10.23;7,64.98,87.06,195.67,10.23;7,260.52,86.15,5.86,5.93;7,266.32,87.06,2.74,10.23">Lorsque ces associations sont stables à travers le temps, elles permettent l'avancement de projets qui, sans cette solidarité, n'obtiendraient pas l'appui d'une majorité de députés <ref type="bibr" coords="7,260.52,86.15,5.86,5.93" target="#b16">29</ref> .</s><s xml:id="_j5GKzsN" coords="7,270.48,87.06,112.52,10.23;7,64.98,100.51,318.01,10.23;7,64.98,113.97,317.63,10.23;7,64.98,127.42,318.05,10.23;7,64.98,140.87,225.94,10.23;7,290.77,139.96,5.86,5.93;7,296.56,140.87,2.74,10.23">Dans le même esprit, Cox et McCubbins considèrent qu'en plus de faire adopter la législation de leur choix, la création de coalitions entre les députés permet de contrôler l'ordre du jour parlementaire pour influencer le contenu et l'ordre des projets de loi ou des motions qui sont présentés à la Chambre <ref type="bibr" coords="7,290.77,139.96,5.86,5.93" target="#b17">30</ref> .</s><s xml:id="_aG3m9nW" coords="7,300.95,140.87,82.05,10.23;7,64.98,154.32,318.04,10.23;7,64.98,167.77,154.71,10.23;7,219.57,166.87,5.86,5.93;7,225.36,167.77,2.74,10.23">Ces coalitions sont donc la résultante d'un choix stratégique afin d'augmenter la prévisibilité du comportement législatif des élus <ref type="bibr" coords="7,219.57,166.87,5.86,5.93" target="#b18">31</ref> .</s><s xml:id="_Wb6WAdP" coords="7,230.28,167.77,152.71,10.23;7,64.99,181.23,227.67,10.23;7,292.58,180.32,2.90,5.93;7,296.89,181.23,83.29,10.23;7,380.09,180.32,2.90,5.93;7,64.98,194.68,317.99,10.23;7,64.98,208.13,284.41,10.23;7,349.27,207.22,5.86,5.93;7,355.06,208.13,2.74,10.23">Cette théorie apparaît d'autant plus pertinente que les partis politiques de la fin du XVIII e et du début du XIX e siècle seraient « nés dans le cadre parlementaire », c'est-à-dire d'une union entre les membres élus du Parlement, plutôt que parmi l'électorat <ref type="bibr" coords="7,349.27,207.22,5.86,5.93" target="#b19">32</ref> .</s></p><p xml:id="_8ExvUv4"><s xml:id="_xk8SjFq" coords="7,74.99,221.58,308.01,10.23;7,64.99,235.03,318.16,10.23;7,64.99,248.49,203.95,10.23">La prémisse sous-jacente à cette étude stipule donc que les partis politiques vont se développer au sein de l'Assemblée législative pour favoriser un meilleur contrôle de l'ordre du jour législatif.</s><s xml:id="_Dfv2paB" coords="7,272.63,248.49,110.65,10.23;7,64.99,261.94,318.04,10.23;7,64.99,275.39,115.33,10.23">Ce contrôle, lorsqu'il est exercé par une coalition majoritaire de députés, ne pourra exister que si ce groupe demeure organisé.</s><s xml:id="_CWPZu4B" coords="7,183.29,275.39,199.72,10.23;7,64.99,288.84,318.23,10.23;7,64.99,302.29,187.31,10.23">En effet, si les partis politiques influencent les activités parlementaires, les votes tenus au Parlement doivent être différents de ceux qui auraient eu lieu en leur absence.</s><s xml:id="_eJBw4R3" coords="7,254.30,302.29,128.84,10.23;7,64.99,315.75,309.32,10.23;7,374.32,314.84,5.92,5.93;7,380.25,315.75,2.74,10.23">Sans quoi, l'existence et le rôle des formations politiques sont impossibles à falsifier ou à confirmer <ref type="bibr" coords="7,374.32,314.84,5.92,5.93" target="#b20">33</ref> .</s><s xml:id="_h7ptfSf" coords="7,64.98,329.20,317.79,10.23;7,64.98,342.65,317.85,10.23;7,64.98,356.10,318.05,10.23;7,64.98,369.55,64.52,10.23">Empiriquement, on peut émettre l'hypothèse voulant qu'une certaine loyauté parmi les membres d'une même coalition parlementaire devait être présente afin de favoriser l'adoption des projets de loi mis de l'avant par ladite coalition.</s><s xml:id="_R42pkcN" coords="7,131.38,369.55,251.61,10.23;7,64.98,383.01,318.04,10.23;7,64.98,396.46,80.62,10.23">L'indice de loyauté est utilisé ici pour mesurer cette relation ; plus l'influence des partis politiques est élevée, plus la loyauté des députés devrait être élevée.</s><s xml:id="_J9rF8C6" coords="7,147.63,396.46,235.00,10.23;7,64.98,409.91,318.04,10.23;7,64.98,423.36,318.19,10.23">Nous ne supposons pas une loyauté absolue au sein des partis politiques du Bas-Canada, mais plutôt une loyauté grandissante, qui augmente avec le développement de ces organisations parlementaires.</s><s xml:id="_PfFWhmh" coords="7,64.98,436.81,317.99,10.23;7,64.98,450.27,317.93,10.23;8,46.98,60.16,317.98,10.23;8,46.98,73.61,227.70,10.23;8,274.57,72.70,5.86,5.93;8,280.36,73.61,2.74,10.23">Néanmoins, la vérification de cette hypothèse est toutefois problématique comme le démontre Krehbiel : il est extrêmement difficile de déterminer si la loyauté entre les députés est la résultante de l'imposition d'une ligne de parti ou de préférences communes au sein du caucus <ref type="bibr" coords="8,274.57,72.70,5.86,5.93">34</ref> .</s></p><p xml:id="_aDcvw9x"><s xml:id="_QDdeN5m" coords="8,56.99,87.06,307.99,10.23;8,46.99,100.51,317.98,10.23;8,46.99,113.97,318.03,10.23;8,46.99,127.42,19.61,10.23">Il est possible de contourner ce problème en suivant l'évolution de la loyauté entre les différents groupes parlementaires et la distribution de leurs préférences idéologiques en fonction de leur comportement législatif.</s><s xml:id="_mc68KMm" coords="8,69.99,127.42,295.03,10.23;8,46.99,140.87,318.03,10.23;8,46.99,154.32,152.26,10.23">Ce faisant, l'objectif est de déterminer si les députés votent selon leurs préférences personnelles ou s'ils sont plutôt influencés par le parti politique auquel ils appartiennent.</s><s xml:id="_YmCzVC7" coords="8,202.00,154.32,163.01,10.23;8,46.99,167.77,317.99,10.23;8,46.99,181.23,318.04,10.23;8,46.99,194.68,318.04,10.23;8,46.99,208.13,317.88,10.23;8,46.99,221.58,318.15,10.23;8,46.99,235.03,317.96,10.23;8,46.99,248.49,279.81,10.23">Si les partis politiques ont bel et bien une influence sur leurs députés lors des votes tenus à la Chambre d'assemblée, celle-ci sera perceptible entre autres par le calcul de l'indice de loyauté : il sera plus élevé entre les députés affiliés au Parti des bureaucrates et entre les membres du Parti canadien respectivement qu'entre les députés n'ayant pas d'affiliation partisane (l'influence des partis politiques est cependant sujette à changement pendant la période étudiée puisque c'est à ce moment que les partis politiques prennent naissance).</s></p><p xml:id="_T39pym3"><s xml:id="_tkfZFEW" coords="8,56.99,261.94,307.77,10.23;8,46.99,275.39,317.88,10.23;8,46.99,288.84,310.13,10.23;8,57.00,302.29,307.69,10.23;8,46.99,315.75,124.51,10.23">À la lumière des études citées plus haut et en fonction du cadre théorique retenu, deux hypothèses sont formulées quant aux sources de division parmi les députés lors des votes tenus à l'Assemblée législative du Bas-Canada : H1 : Il existe une opposition constante entre les députés en fonction de leur appartenance ethnique.</s></p><p xml:id="_tUXNDs5"><s xml:id="_uA4dzJP" coords="8,56.99,329.20,308.00,10.23;8,46.99,342.65,318.28,10.23;8,46.99,356.10,195.60,10.23">H2 : Il existe une opposition croissante entre réformistes et conservateurs constitutionnels à partir de la querelle des prisons (1805), et ce, jusqu'à la révocation de l'Acte constitutionnel.</s></p><p xml:id="_A6ANaT6"><s xml:id="_4t9tKn7" coords="8,56.99,369.55,307.95,10.23;8,46.99,383.01,317.91,10.23;8,46.99,396.46,318.01,10.23;8,46.99,409.91,318.00,10.23;8,46.99,423.36,199.52,10.23">Dans les deux cas, l'hypothèse nulle suppose que les partis politiques rassemblent des députés partageant des préférences ou une idéologie communes et que ceux-ci ont peu ou pas d'impact sur le comportement législatif des élus : leurs membres sont libres de se positionner selon leur bon vouloir lors des votes tenus au Parlement.</s><s xml:id="_a3jdmya" coords="8,248.66,423.36,116.31,10.23;8,46.99,436.81,318.00,10.23;8,46.99,450.27,146.17,10.23;8,56.99,463.72,277.20,10.23;8,334.18,462.81,5.92,5.93;8,341.53,463.72,6.90,10.23">Enfin, nous formulons une troisième hypothèse liée à l'absence d'influence des partis politiques supportée par l'analyse de Vaugeois : H3 : « les députés votent librement, sans véritable ligne de parti 35 ».</s><s xml:id="_PXu9Gxx" coords="8,56.99,477.17,308.22,10.23;8,46.99,490.62,317.87,10.23;8,46.99,504.07,317.72,10.23;8,46.99,517.53,318.05,10.23;8,46.99,530.98,40.87,10.23">En soutien à cette dernière hypothèse, il faut préciser que les formations politiques du Bas-Canada ne possédaient pas d'outils comparables à ceux des partis politiques modernes pour maintenir la cohésion dans leurs rangs (soit par des promotions au sein du parti ou des nominations au Cabinet).</s><s xml:id="_SpuC7Ua" coords="8,91.28,530.98,273.72,10.23;8,56.98,566.78,9.09,7.18">De plus, l'absence du principe de gouvernement responsable 34.</s><s xml:id="_cKqtwdX" coords="8,70.98,566.78,13.17,7.16">Ibid.</s><s xml:id="_6WfA3ac" coords="8,56.98,576.22,8.77,7.18">35.</s><s xml:id="_HE2VZeY" coords="8,70.98,576.22,293.96,7.18">Denis Vaugeois, Québec 1792, Les acteurs, les institutions et les frontières (Saint-Laurent, Fides, 1992), 157.</s><s xml:id="_ZgtVvEG" coords="9,64.98,60.16,318.06,10.23;9,64.98,73.61,318.00,10.23;9,64.98,87.06,56.48,10.23">assure que, dans le cas où une loyauté est observée, celle-ci ne sera pas déterminée par le désir de supporter le Cabinet pour éviter une élection, par exemple.</s><s xml:id="_Jc78jzQ" coords="9,123.72,87.06,259.26,10.23;9,64.98,100.51,317.64,10.23;9,64.98,113.97,318.00,10.23;9,64.98,127.42,52.84,10.23;9,117.82,126.51,5.92,5.93;9,123.75,127.42,2.74,10.23">Nous devons tout de même nous attendre à ce que l'impact des partis politiques sur le comportement des députés, s'il existe, soit beaucoup plus petit que ce que les recherches sur le Parlement actuel démontrent <ref type="bibr" coords="9,117.82,126.51,5.92,5.93" target="#b21">36</ref> .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Z34EVSs" coords="9,64.98,150.40,95.50,7.30">sources de l'étude</head><p xml:id="_bMbc3U5"><s xml:id="_bvy3vnM" coords="9,64.98,168.47,318.00,10.23;9,64.98,181.92,227.83,10.23;9,292.81,181.01,5.92,5.93;9,298.73,181.92,2.74,10.23">Les données de cette étude proviennent directement des Journaux de l'Assemblée législative du Bas-Canada disponibles en ligne <ref type="bibr" coords="9,292.81,181.01,5.92,5.93" target="#b23">37</ref> .</s><s xml:id="_gxTpf99" coords="9,304.35,181.92,78.64,10.23;9,64.98,195.37,317.97,10.23;9,64.98,208.83,318.17,10.23;9,64.98,222.28,204.94,10.23">Pour comprendre les sources de division à la Chambre d'Assemblée du Bas-Canada, cette étude analyse l'impact de l'affiliation politique et linguistique des députés sur le comportement législatif de ces derniers.</s><s xml:id="_jnEuGtp" coords="9,272.42,222.28,110.61,10.23;9,64.98,235.73,318.03,10.23;9,64.98,249.18,317.95,10.23;9,65.00,262.63,40.97,10.20;9,105.96,261.73,5.92,5.93;9,111.88,262.63,2.74,10.23">La distribution des sièges en fonction de ces catégories est rapportée dans le tableau 1 (les données incluses dans ce tableau proviennent du Dictionnaire des parlementaires québécois) <ref type="bibr" coords="9,105.96,261.73,5.92,5.93" target="#b24">38</ref> .</s></p><p xml:id="_zcX5Wg9"><s xml:id="_whjz7SS" coords="9,74.99,276.09,308.03,10.23;9,64.99,289.54,292.58,10.23">Certaines informations supplémentaires sont toutefois nécessaires pour comprendre comment les députés ont été classés dans ces catégories.</s><s xml:id="_ckT3GmE" coords="9,359.57,289.54,23.67,10.23;9,64.99,302.99,318.00,10.23;9,64.99,316.44,318.00,10.23;9,64.99,329.89,318.14,10.23;9,64.99,343.35,206.11,10.23">En ce qui concerne l'affiliation partisane, les députés qui ont appuyé majoritairement le Parti canadien sont identifiés en tant que membres du Parti canadien, alors que ceux ayant majoritairement appuyé le Parti des bureaucrates sont identifiés comme membres de ce dernier.</s><s xml:id="_Bt5JPYs" coords="9,274.53,343.35,108.48,10.23;9,64.99,356.80,318.00,10.23;9,64.99,370.25,317.84,10.23;9,64.99,383.70,318.00,10.23;9,64.99,397.15,197.50,10.23;9,262.37,396.25,5.86,5.93;9,268.16,397.15,2.74,10.23">Quant aux députés pour lesquels aucune affiliation n'a été attribuée par le Dictionnaire des parlementaires québécois ou ceux ayant appuyé en alternance les deux formations politiques, ils ont été classés dans la catégorie « Non-affilié », comme c'est le cas par exemple de Pierre-Amable De Bonne 39 .</s><s xml:id="_rZk8EKq" coords="9,274.03,397.15,108.96,10.23;9,64.99,410.61,318.05,10.23;9,64.99,424.06,317.96,10.23;9,64.99,437.51,149.99,10.23">L'affiliation partisane des députés est toutefois problématique puisque la date d'apparition des partis politiques est encore incertaine (les conséquences de cette situation sur les résultats sont expliquées plus loin).</s></p><p xml:id="_dCrgjd7"><s xml:id="_bKyUHyq" coords="9,74.98,450.96,307.97,10.23;9,64.99,464.41,317.74,10.23">Étant donné que la distribution des sièges affecte l'analyse des résultats, il est important de comprendre la répartition des différents groupes de</s></p><p xml:id="_F8r6ddR"><s xml:id="_9tfEH3S" coords="10,183.78,59.02,44.40,9.84;10,71.62,69.64,268.72,9.84;10,37.97,76.70,246.58,8.34;10,52.60,103.20,38.70,8.34;10,116.00,103.20,25.80,8.34;10,167.05,103.20,79.57,8.34;10,262.36,98.21,14.81,8.34;10,258.30,108.01,22.94,8.34;10,293.75,103.20,64.13,8.34;10,68.53,121.61,4.30,8.34;10,72.83,119.59,2.52,5.50;10,110.26,121.61,37.28,8.34;10,178.99,121.61,8.60,8.34;10,221.53,121.61,8.60,8.34;10,267.61,121.61,4.30,8.34;10,304.01,121.61,8.60,8.34;10,340.19,121.61,8.60,8.34;10,68.53,132.27,4.30,8.34;10,72.83,130.25,2.52,5.50;10,110.26,132.27,37.28,8.34;10,178.99,132.27,8.60,8.34;10,221.53,132.27,8.60,8.34;10,267.61,132.27,4.30,8.34;10,304.01,132.27,8.60,8.34;10,340.19,132.27,8.60,8.34;10,68.53,143.11,4.30,8.34;10,72.83,141.09,2.52,5.50;10,110.26,143.11,37.28,8.34;10,178.99,143.11,8.60,8.34;10,221.53,143.11,8.60,8.34;10,267.61,143.11,4.30,8.34;10,304.01,143.11,8.60,8.34;10,340.19,143.11,8.60,8.34;10,68.53,153.78,4.30,8.34;10,72.83,151.76,2.52,5.50;10,110.26,153.78,37.28,8.34;10,178.99,153.78,8.60,8.34;10,221.53,153.78,8.60,8.34;10,267.61,153.78,4.30,8.34;10,304.01,153.78,8.60,8.34;10,340.19,153.78,8.60,8.34;10,68.53,164.62,4.30,8.34;10,72.83,162.60,2.52,5.50;10,110.26,164.62,37.28,8.34;10,178.99,164.62,8.60,8.34;10,221.53,164.62,8.60,8.34;10,267.61,164.62,4.30,8.34;10,304.01,164.62,8.60,8.34;10,340.19,164.62,8.60,8.34;10,68.53,175.29,4.30,8.34;10,72.83,173.27,2.52,5.50;10,110.26,175.29,37.28,8.34;10,178.99,175.29,8.60,8.34;10,221.53,175.29,8.60,8.34;10,267.61,175.29,4.30,8.34;10,304.01,175.29,8.60,8.34;10,340.19,175.29,8.60,8.34;10,68.53,186.13,4.30,8.34;10,72.83,184.11,2.52,5.50;10,110.26,186.13,37.28,8.34;10,178.99,186.13,8.60,8.34;10,223.68,186.13,4.30,8.34;10,265.46,186.13,8.60,8.34;10,304.01,186.13,8.60,8.34;10,340.19,186.13,8.60,8.34;10,68.53,196.80,4.30,8.34;10,72.83,194.77,2.52,5.50;10,110.26,196.79,37.28,8.34;10,178.99,196.79,8.60,8.34;10,223.68,196.79,4.30,8.34;10,265.46,196.79,8.60,8.34;10,304.01,196.79,8.60,8.34;10,340.19,196.79,8.60,8.34;10,68.53,207.63,4.30,8.34;10,72.83,205.61,2.52,5.50;10,110.26,207.63,37.28,8.34;10,178.99,207.63,8.60,8.34;10,223.68,207.63,4.30,8.34;10,265.46,207.63,8.60,8.34;10,304.01,207.63,8.60,8.34;10,340.19,207.63,8.60,8.34;10,66.38,218.30,8.60,8.34;10,74.98,216.28,2.52,5.50;10,120.30,218.30,17.21,8.34;10,179.00,218.30,8.60,8.34;10,223.69,218.30,4.30,8.34;10,265.47,218.30,8.60,8.34;10,304.02,218.30,8.60,8.34;10,340.20,218.30,8.60,8.34;10,66.39,229.14,8.60,8.34;10,74.98,227.12,2.52,5.50;10,110.26,229.14,37.28,8.34;10,178.99,229.14,8.60,8.34;10,223.68,229.14,4.30,8.34;10,265.46,229.14,8.60,8.34;10,304.01,229.14,8.60,8.34;10,340.19,229.14,8.60,8.34;10,66.38,239.81,8.60,8.34;10,74.98,237.79,2.52,5.50;10,110.26,239.81,37.28,8.34;10,178.99,239.81,8.60,8.34;10,223.68,239.81,4.30,8.34;10,265.46,239.81,8.60,8.34;10,304.01,239.81,8.60,8.34;10,340.19,239.81,8.60,8.34;10,66.38,250.65,8.60,8.34;10,74.98,248.63,2.52,5.50;10,110.26,250.65,37.28,8.34;10,178.99,250.65,8.60,8.34;10,223.68,250.65,4.30,8.34;10,265.46,250.65,8.60,8.34;10,304.01,250.65,8.60,8.34;10,340.19,250.65,8.60,8.34;10,66.38,261.32,8.60,8.34;10,74.98,259.29,2.52,5.50;10,110.26,261.32,37.28,8.34;10,178.99,261.32,8.60,8.34;10,221.53,261.32,8.60,8.34;10,265.46,261.32,8.60,8.34;10,304.01,261.32,8.60,8.34;10,340.19,261.32,8.60,8.34;10,66.38,272.16,8.60,8.34;10,74.98,270.13,2.52,5.50;10,110.26,272.16,37.28,8.34;10,178.99,272.16,8.60,8.34;10,221.53,272.16,8.60,8.34;10,267.61,272.16,4.30,8.34;10,304.01,272.16,8.60,8.34;10,340.19,272.16,8.60,8.34;10,55.71,282.82,32.49,8.34;10,179.00,282.82,8.60,8.34;10,221.54,282.82,8.60,8.34;10,265.47,282.82,8.60,8.34;10,304.02,282.82,8.60,8.34;10,340.20,282.82,8.60,8.34;10,46.98,315.75,285.31,10.23;10,332.48,314.84,5.96,5.93;10,338.47,315.75,2.74,10.23">Tableau 1 Distribution des sièges pour les législatures du Bas-Canada Tableau 1 -Distribution des sièges pour les législatures du Bas-Canada Législature Années Canadien Bureaucrate Non Affilié Français Anglais 1 e 1792-1976 22 19 9 35 17 2 e 1796-1800 28 16 9 36 17 3 e 1800-1804 27 14 7 36 15 4 e 1804-1808 28 20 7 33 18 5 e 1808-1809 30 16 5 35 14 6 e 1809-1810 34 15 1 38 13 7 e 1810-1814 36 9 13 41 17 8 e 1814-1816 32 4 18 33 20 9 e 1816-1820 29 8 18 42 14 10 e 1820 29 4 16 38 13 11 e 1820-1824 34 5 15 43 12 12 e 1824-1827 39 5 11 44 12 13 e 1827-1830 46 3 14 43 20 14 e 1830-1834 73 16 33 86 36 15 e 1834-1838 80 15 9 79 26 Moyenne 38 11 12 44 17 députés présents au Parlement au cours de la période étudiée 40 .</s><s xml:id="_U7EnkqF" coords="10,343.52,315.75,21.45,10.23;10,46.98,329.20,317.95,10.23;10,46.98,342.65,318.00,10.23;10,46.98,356.10,206.60,10.23;10,253.47,355.20,2.90,5.93;10,258.78,356.10,30.66,10.23;10,289.33,355.20,2.90,5.93;10,293.50,356.10,71.49,10.23;10,46.98,369.56,41.55,10.23">Tout d'abord, le nombre de députés affiliés au Parti canadien est beaucoup plus élevé que celui des députés affiliés au Parti des bureaucrates et cette différence est particulièrement importante entre la 7 e et la 13 e législature inclusivement.</s><s xml:id="_4jkMKdp" coords="10,91.58,369.56,273.41,10.23;10,46.98,383.01,301.97,10.23">La situation est semblable pour les non-affiliés lors des six premières législatures où peu d'élus sont compris dans cette catégorie.</s><s xml:id="_atxMDb4" coords="10,352.61,383.01,12.26,10.23;10,46.98,396.46,318.00,10.23;10,46.98,409.91,318.05,10.23;10,46.98,423.36,317.75,10.23;10,46.98,436.82,60.29,10.23">En conséquence, une attention particulière devra être portée envers les bureaucrates et les non-affiliés pour les législatures mentionnées afin de tenir compte des limites de ces petits échantillons lors des analyses subséquentes.</s><s xml:id="_zB9Ak2b" coords="10,56.98,450.27,308.00,10.23;10,46.98,463.72,317.98,10.23;10,46.98,477.17,318.05,10.23;10,46.98,490.62,318.00,10.23;10,46.98,504.08,191.02,10.23">Par ailleurs, si le nombre de députés canadiens peut paraître particulièrement élevé lors de certaines législatures (notamment à partir de 1830), il faut préciser que ces données ne tiennent pas compte des différentes factions au sein du Parti canadien (modérée et radicale) qui se sont opposées à de nombreuses reprises en Chambre.</s><s xml:id="_ne6Avrm" coords="10,240.48,504.08,124.50,10.23;10,46.98,517.53,294.84,10.23">De plus, le tableau 1 montre que les anglophones sont en minorité à la Chambre d'Assemblée.</s><s xml:id="_gSYNYu5" coords="10,345.07,517.53,19.96,10.23;10,56.98,547.90,9.09,7.18">Bien 40.</s><s xml:id="_FtRG5bK" coords="10,70.98,547.90,294.03,7.18;10,46.98,557.34,317.95,7.18;10,46.98,566.78,317.94,7.18;10,46.98,576.22,87.23,7.18">Les données présentées dans le tableau 1 ne représentent pas exactement la distribution des députés siégeant à la Chambre d'Assemblée : celles-ci comprennent tous les élus ayant siégé lors de chaque législature (dont ceux qui ont quitté le Parlement en cours de mandat et ceux qui ont été élus à des élections complémentaires).</s><s xml:id="_n2gW8EV" coords="11,64.98,60.16,318.05,10.23;11,64.98,73.61,317.97,10.23;11,64.98,87.06,318.01,10.23;11,64.98,100.51,317.97,10.23;11,64.98,113.97,317.87,10.23;11,65.00,127.42,94.72,10.23;11,159.71,126.51,5.92,5.93;11,165.63,127.42,2.74,10.23">que cette situation ne soit pas surprenante en soi, puisque la population du Bas-Canada est majoritairement d'origine française, le pourcentage d'élus anglophones est élevé comparé au pourcentage d'anglophones qui habitent le Bas-Canada ; entre 1792 et 1815, Hare estime que les anglophones occupent 27,4 % des sièges bien qu'ils ne représentent qu'environ 15 % de la population <ref type="bibr" coords="11,159.71,126.51,5.92,5.93" target="#b25">41</ref> .</s></p><p xml:id="_x6SC4eF"><s xml:id="_ctmtqZM" coords="11,74.99,140.87,308.00,10.23;11,64.99,154.32,317.81,10.23;11,64.99,167.77,30.18,10.23">Un second facteur qui doit être pris en considération est relatif aux votes tenus en Chambre ainsi qu'au nombre de députés qui y participaient.</s><s xml:id="_zy9payX" coords="11,98.36,167.77,284.59,10.23;11,64.99,181.23,318.18,10.23;11,64.99,194.68,317.97,10.23;11,64.99,208.13,317.98,10.23;11,64.99,221.58,317.97,10.23;11,64.99,235.03,317.96,10.23;11,64.99,248.49,318.09,10.23;11,64.99,261.94,267.10,10.23;11,332.13,261.03,5.95,5.93;11,338.10,261.94,2.85,10.20">En effet, puisque le système parlementaire n'est pas encore très développé, le nombre de votes enregistrés n'est pas toujours suffisant pour pouvoir faire une analyse des coalitions parlementaires et des sources de divisions pour chaque législature comme en témoigne le tableau 2. Cela s'explique par le fait que le Parlement siégeait quelques mois par année seulement et que les noms des députés lors des votes étaient inscrits uniquement si l'un d'eux en faisait la demande (autrement seul le résultat du vote apparaissait dans les Journaux de l'Assemblée législative) <ref type="bibr" coords="11,332.13,261.03,5.95,5.93">42</ref> .</s><s xml:id="_WFrFgM2" coords="11,344.88,261.94,38.13,10.23;11,65.00,275.39,317.97,10.23;11,65.00,288.84,317.77,10.23;11,65.00,302.29,158.27,10.23">De plus, certaines législatures ont été dissoutes par le gouverneur avant la fin de la durée normale d'une législature en raison des conflits entre la Chambre d'Assemblée et le Conseil législatif.</s><s xml:id="_CfDXg5a" coords="11,226.58,302.29,156.42,10.23;11,65.00,315.75,317.97,10.23;11,65.00,329.20,317.83,10.23;11,65.00,342.65,47.91,10.23">En agissant de la sorte, les gouverneurs espéraient l'élection de députés plus favorables envers leurs politiques, ce qui aurait réduit les blocages parlementaires entre les deux Chambres.</s><s xml:id="_3qa4cJB" coords="11,115.17,342.65,138.90,10.23;11,254.03,341.74,2.90,5.93;11,256.92,342.65,10.10,10.23;11,266.99,341.74,2.90,5.93;11,272.16,342.65,15.78,10.23;11,287.91,341.74,2.90,5.93;11,293.07,342.65,89.91,10.23;11,64.98,356.10,171.90,10.23">Pour cette raison, la durée des 5 e , 6 e et 8 e législatures est significativement plus courte que les autres.</s><s xml:id="_dzf3Qx9" coords="11,239.36,356.10,107.43,10.23;11,346.80,355.19,2.90,5.93;11,352.18,356.10,30.80,10.23;11,64.98,369.55,317.72,10.23;11,64.98,383.01,165.53,10.23">En ce qui concerne la 10 e législature, elle fut dissoute avant la tenue du premier vote en Chambre à la suite de l'annonce de la mort de George III.</s><s xml:id="_KyJMVTu" coords="11,232.73,383.01,150.34,10.23;11,64.98,396.46,318.23,10.23;11,64.98,409.91,156.76,10.23">En conséquence, les résultats pour ces législatures figurent dans les tableaux, mais ils sont exclus des analyses en raison du petit nombre de votes.</s></p><p xml:id="_8X4MSd6"><s xml:id="_wZww4dP" coords="11,74.98,423.36,308.05,10.23;11,64.98,436.81,266.82,10.23">Le tableau 2, p. suivante, illustre également le nombre de députés qui ont siégé au Bas-Canada au cours des différentes législatures.</s><s xml:id="_gBKD2CD" coords="11,334.16,436.81,48.79,10.23;11,64.98,450.27,317.96,10.23;11,64.98,463.72,318.00,10.23;11,64.98,477.17,168.01,10.23;11,232.98,476.26,5.92,5.93;11,238.90,477.17,2.74,10.23">Le nombre d'élus varie en raison des décès et des démissions ainsi que des changements apportés en 1829 à la loi électorale pour tenir compte de l'augmentation de la population du Bas-Canada <ref type="bibr" coords="11,232.98,476.26,5.92,5.93" target="#b26">43</ref> .</s><s xml:id="_fqQ3tRx" coords="11,244.10,477.17,138.91,10.23;11,64.98,490.62,317.83,10.23;11,64.98,504.07,298.83,10.23;11,363.81,503.17,5.92,5.93;11,369.73,504.07,2.74,10.23">Lors des douze premières législatures, le nombre de députés est fixé à 50, il augmente à 84 pour les raisons évoquées et atteint finalement 90 députés entre 1836 et 1838 <ref type="bibr" coords="11,363.81,503.17,5.92,5.93" target="#b27">44</ref> .</s></p><p xml:id="_VuwPBf7"><s xml:id="_ZJZw3eE" coords="12,183.78,59.02,44.40,9.84;12,86.48,69.64,238.99,9.84;12,71.80,68.90,269.69,10.17;12,58.71,101.03,47.24,10.17;12,129.58,101.03,31.49,10.17;12,183.85,94.94,34.41,10.17;12,183.70,106.91,34.70,10.17;12,236.37,94.94,34.41,10.17;12,241.54,106.91,24.07,10.17;12,287.03,94.94,69.85,10.17;12,297.60,106.91,48.70,10.17;12,76.98,123.08,5.25,10.17;12,82.23,120.61,5.41,6.72;12,122.58,123.08,45.50,10.17;12,193.18,123.08,15.75,10.17;12,248.34,123.08,10.50,10.17;12,312.78,123.08,18.38,10.17;12,78.14,136.31,5.25,10.17;12,83.39,133.84,3.08,6.72;12,122.58,136.31,45.50,10.17;12,195.81,136.31,10.50,10.17;12,248.34,136.31,10.50,10.17;12,312.78,136.31,18.38,10.17;12,78.15,149.54,5.25,10.17;12,83.39,147.07,3.08,6.72;12,122.58,149.54,45.50,10.17;12,195.81,149.54,10.50,10.17;12,248.34,149.54,10.50,10.17;12,312.78,149.54,18.38,10.17;12,78.15,162.98,5.25,10.17;12,83.39,160.51,3.08,6.72;12,122.58,162.98,45.50,10.17;12,195.81,162.98,10.50,10.17;12,248.34,162.98,10.50,10.17;12,312.78,162.98,18.38,10.17;12,78.15,176.21,5.25,10.17;12,83.39,173.74,3.08,6.72;12,122.58,176.21,45.50,10.17;12,195.81,176.21,10.50,10.17;12,248.34,176.21,10.50,10.17;12,312.78,176.21,18.38,10.17;12,78.15,189.44,5.25,10.17;12,83.39,186.97,3.08,6.72;12,122.58,189.44,45.50,10.17;12,195.81,189.44,10.50,10.17;12,248.34,189.44,10.50,10.17;12,312.78,189.44,18.38,10.17;12,78.15,202.67,5.25,10.17;12,83.39,200.20,3.08,6.72;12,122.58,202.67,45.50,10.17;12,193.18,202.67,15.75,10.17;12,248.34,202.67,10.50,10.17;12,312.78,202.67,18.38,10.17;12,78.15,215.90,5.25,10.17;12,83.39,213.43,3.08,6.72;12,122.58,215.90,45.50,10.17;12,198.43,215.90,5.25,10.17;12,248.34,215.90,10.50,10.17;12,312.78,215.90,18.38,10.17;12,78.15,229.13,5.25,10.17;12,83.39,226.66,3.08,6.72;12,122.58,229.13,45.50,10.17;12,195.81,229.13,10.50,10.17;12,248.34,229.13,10.50,10.17;12,312.78,229.13,18.38,10.17;12,75.53,242.36,10.50,10.17;12,86.02,239.89,3.08,6.72;12,134.82,242.36,21.00,10.17;12,198.42,242.36,5.25,10.17;12,248.33,242.36,10.50,10.17;12,318.46,242.36,6.99,10.17;12,75.52,255.59,10.50,10.17;12,86.02,253.12,3.08,6.72;12,122.58,255.59,45.50,10.17;12,195.81,255.59,10.50,10.17;12,248.34,255.59,10.50,10.17;12,312.78,255.59,18.38,10.17;12,75.53,269.03,10.50,10.17;12,86.02,266.56,3.08,6.72;12,122.58,269.03,45.50,10.17;12,195.81,269.03,10.50,10.17;12,248.34,269.03,10.50,10.17;12,312.78,269.03,18.38,10.17;12,75.53,282.26,10.50,10.17;12,86.02,279.79,3.08,6.72;12,122.58,282.26,45.50,10.17;12,195.81,282.26,10.50,10.17;12,248.34,282.26,10.50,10.17;12,312.78,282.26,18.38,10.17;12,75.53,295.49,10.50,10.17;12,86.02,293.02,3.08,6.72;12,122.58,295.49,45.50,10.17;12,193.18,295.49,15.75,10.17;12,245.71,295.49,15.75,10.17;12,312.78,295.49,18.38,10.17;12,75.53,308.72,10.50,10.17;12,86.02,306.25,3.08,6.72;12,122.58,308.72,45.50,10.17;12,195.81,308.72,10.50,10.17;12,245.71,308.72,15.75,10.17;12,312.78,308.72,18.38,10.17;12,56.98,336.99,307.98,10.23;12,46.99,350.45,25.52,10.23">Tableau 2 Tableau récapitulatif des législatures au Bas-Canada Tableau 2 -Tableau récapitulatif des législatures au Bas-Canada Législature Années Nombre de votes Nombre d'élus % d'absentéisme des députés 1 er 1792-1976 136 51 38,8 2 e 1796-1800 55 52 51,2 3 e 1800-1804 80 52 55,1 4 e 1804-1808 53 53 57,3 5 e 1808-1809 16 50 35,3 6 e 1809-1810 11 48 35,4 7 e 1810-1814 116 56 52,4 8 e 1814-1816 9 53 49,2 9 e 1816-1820 46 55 53,0 10 e 1820 0 49 --11 e 1820-1824 77 54 47,3 12 e 1824-1827 48 53 41,5 13 e 1827-1830 74 61 42,7 14 e 1830-1834 156 120 37,5 15 e 1834-1838 75 104 26,7 Par ailleurs, le taux d'absentéisme des députés était particulièrement élevé.</s><s xml:id="_VA6Asa8" coords="12,75.38,350.45,289.58,10.23;12,46.99,363.90,317.98,10.23;12,46.99,377.35,45.59,10.23;12,92.55,376.44,5.90,5.93;12,98.43,377.35,2.74,10.23">Cette situation n'est pas surprenante dans la mesure où plusieurs députés devaient parcourir une distance importante pour se rendre au Parlement 45 .</s><s xml:id="_HjbsXWS" coords="12,103.38,377.35,261.47,10.23;12,46.98,390.80,309.44,10.23;12,356.38,389.89,5.90,5.93;12,362.25,390.80,2.74,10.23">De plus, certains devaient s'absenter pour s'occuper de leurs affaires personnelles ; jusqu'en 1831, les élus ne recevaient aucun salaire 46 .</s><s xml:id="_E7RCnke" coords="12,46.98,404.25,318.01,10.23;12,46.98,417.71,317.99,10.23;12,46.98,431.16,11.15,10.23">Les données permettent de calculer un taux d'absentéisme moyen des députés pour toutes les législatures qui se situe à 44,5 % (voir le tableau 2).</s><s xml:id="_EKfdmQQ" coords="12,60.40,431.16,273.00,10.23;12,333.38,430.25,2.90,5.93;12,336.26,431.16,10.11,10.23;12,346.37,430.25,2.90,5.93;12,349.26,431.16,10.11,10.23;12,359.36,430.25,2.90,5.93;12,362.25,431.16,2.74,10.23;12,46.98,444.61,5.11,10.23;12,52.09,443.70,2.90,5.93;12,56.50,444.61,16.34,10.23;12,72.83,443.70,2.90,5.93;12,77.24,444.61,56.00,10.23">Il dépasse même 50 % dans certains cas (notamment pour les 2 e , 3 e , 4 e , 7 e et 9 e législatures).</s><s xml:id="_HE2qZZe" coords="12,134.85,444.61,230.15,10.23;12,46.98,458.06,207.68,10.23;12,254.67,457.15,5.92,5.93;12,260.59,458.06,2.74,10.23">Ces absences répétées ont forcé l'ajournement de la Chambre à plusieurs reprises, faute de quorum 47 .</s><s xml:id="_qdVJqGM" coords="12,46.98,481.04,176.22,7.30;12,46.98,499.11,317.96,10.23;12,46.98,512.57,195.71,10.23">analyse de la loyauté des députés Nous commençons notre étude par une analyse de la loyauté des députés envers les deux principaux partis politiques.</s><s xml:id="_ufDYu3d" coords="12,246.02,512.57,118.98,10.23;12,56.98,547.90,9.09,7.18">Pour ce faire, un indice de 45.</s><s xml:id="_gTq6ZvX" coords="12,70.98,547.90,294.06,7.18;12,46.98,557.34,58.10,7.18">Gaston Deschênes, Le Parlement de Québec : Histoire, anecdotes et légendes (Québec, Éditions Multi-Mondes, 2005), 27.</s><s xml:id="_by8WwfR" coords="12,56.98,566.78,9.09,7.18">46.</s><s xml:id="_EWgvG9m" coords="12,70.98,566.78,45.77,7.18">M. Grenier, op.</s><s xml:id="_REKr6Au" coords="12,118.42,566.78,9.08,7.16">cit.</s><s xml:id="_4MEYsk2" coords="12,56.98,576.22,9.09,7.18">47.</s><s xml:id="_95Xxa6M" coords="12,70.98,576.22,54.04,7.18">G. Deschênes, op.</s><s xml:id="_9ccFPZn" coords="12,126.69,576.22,21.96,7.18">cit., 29.</s><s xml:id="_EfbNfJC" coords="13,64.98,60.16,317.95,10.23;13,64.98,73.61,317.71,10.23;13,64.98,87.06,318.04,10.23;13,64.98,100.51,317.95,10.23;13,64.98,113.97,195.74,10.23">loyauté (calculé entre 0 et 1) est utilisé pour représenter le pourcentage de votes où un député a supporté la majorité de son parti politique ou de son groupe ethnique : plus la loyauté se rapproche de 1 pour un groupe de députés, plus ces députés ont voté avec la majorité du groupe partageant leur affiliation partisane ou ethnique.</s><s xml:id="_zGKzmn6" coords="13,264.23,113.97,118.77,10.23;13,64.98,127.42,317.83,10.23;13,64.98,140.87,317.99,10.23;13,64.98,154.32,171.32,10.23">L'objectif est d'observer si une loyauté existe ou non entre les députés partageant une affiliation partisane ou ethnique commune et d'observer comment cette loyauté évolue à travers les quinze législatures.</s></p><p xml:id="_F3whrPe"><s xml:id="_Uyzr5pj" coords="13,74.98,167.77,308.08,10.23;13,64.98,181.23,318.00,10.23;13,64.98,194.68,187.02,10.23;13,251.77,193.77,5.87,5.93;13,257.59,194.68,125.49,10.23;13,64.98,208.13,156.71,10.23">Le calcul de loyauté des députés en fonction du parti politique duquel ils sont membres est toutefois problématique : bien que l'information à propos de leur affiliation partisane soit disponible 48 , la date exacte où les partis politiques sont apparus est inconnue.</s><s xml:id="_FWeYUDw" coords="13,223.64,208.13,159.28,10.23;13,64.98,221.58,170.64,10.23;13,235.43,220.67,5.86,5.93;13,241.22,221.58,141.82,10.23;13,64.99,235.03,318.28,10.23;13,64.99,248.49,30.31,10.23;13,95.14,247.58,5.83,5.93;13,100.88,248.49,2.74,10.23">Hare soutient que les partis politiques sont présents dès la première législature <ref type="bibr" coords="13,235.43,220.67,5.86,5.93" target="#b28">49</ref> , alors que d'autres croient plutôt qu'il faut attendre plusieurs années avant qu'ils soient véritablement formés <ref type="bibr" coords="13,95.14,247.58,5.83,5.93" target="#b29">50</ref> .</s><s xml:id="_4bn4BGH" coords="13,105.60,248.49,277.35,10.23;13,64.98,261.94,315.23,10.23;13,380.09,261.03,2.90,5.93;13,64.98,275.39,318.00,10.23;13,64.98,288.84,317.90,10.23;13,64.98,302.29,318.04,10.23;13,64.98,315.75,34.96,10.23">Par exemple, si l'on suppose que les partis politiques sont apparus au moment de la fondation des premiers journaux partisans lors de la 4 e législature, l'identification partisane attribuée par le Dictionnaire des parlementaires pour les trois premières législatures serait anachronique, puisqu'aucune formation politique organisée n'aurait été présente à cette époque.</s></p><p xml:id="_rSSPvUV"><s xml:id="_q7qBM3B" coords="13,74.98,329.20,308.06,10.23;13,64.98,342.65,318.03,10.23;13,64.98,356.10,195.50,10.23">Par conséquent, et étant donné que le processus de formation des partis politiques est en cours durant la période étudiée, il faut considérer avec prudence les résultats portant sur la loyauté.</s><s xml:id="_9SZ46je" coords="13,262.99,356.10,120.03,10.23;13,64.98,369.55,318.04,10.23;13,64.98,383.01,318.00,10.23;13,64.98,396.46,152.28,10.23">Cette faiblesse est toutefois contournée dans la seconde partie de l'analyse grâce à l'utilisation de la classification optimale pour étudier la dimensionnalité des votes à l'Assemblée législative du Bas-Canada.</s><s xml:id="_RZu6KSY" coords="13,219.54,396.46,163.44,10.23;13,64.98,409.91,317.93,10.23;13,64.98,423.36,318.01,10.23;13,64.98,436.81,318.00,10.23;13,64.98,450.27,178.30,10.23">Cette approche n'utilise pas l'identification partisane des députés ; elle situe plutôt ces derniers dans un modèle spatial en calculant la fréquence avec laquelle ceux-ci votent ensemble à l'Assemblée pour déterminer dans quelles circonstances les députés ont des comportements législatifs similaires.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_JAvuuHT" coords="13,64.98,470.92,156.58,8.48">affiliation partisane des députés</head><p xml:id="_sUkSUwc"><s xml:id="_wyGq9gy" coords="13,64.98,483.88,317.84,10.23;13,64.98,497.33,317.95,10.23;13,64.98,510.78,317.96,10.23;13,64.98,524.23,200.91,10.23;13,266.04,523.33,2.90,5.93;13,271.17,524.23,111.71,10.23">En considérant l'affiliation partisane des députés au tableau 3, on observe que la loyauté des membres du Parti des bureaucrates (en moyenne à 0,879) est toujours supérieure à celle des membres affiliés au Parti canadien (en moyenne à 0,798) à l'exception de la 2 e législature (1796-1800) où</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_SDSzk6N" coords="14,183.78,59.02,44.40,9.84;14,131.60,69.64,148.74,9.84;14,110.06,80.26,191.82,9.84">Tableau 3 Loyauté des députés en fonction de leur affiliation partisane et linguistique</head><p xml:id="_4mwYq5a"><s xml:id="_KpsQtrF" coords="14,48.77,77.49,281.94,7.83;14,58.56,95.75,73.03,7.83;14,148.01,95.75,160.08,7.83;14,325.61,95.75,25.12,7.83;14,72.50,106.08,4.04,7.83;14,76.54,104.19,2.37,5.17;14,102.00,106.08,34.99,7.83;14,154.18,106.08,18.17,7.83;14,197.96,106.08,18.17,7.83;14,241.73,106.08,18.17,7.83;14,285.34,106.08,18.17,7.83;14,329.11,106.08,18.17,7.83;14,72.50,116.26,4.04,7.83;14,76.54,114.36,2.37,5.17;14,102.00,116.26,34.99,7.83;14,154.18,116.26,18.17,7.83;14,197.96,116.26,18.17,7.83;14,241.73,116.26,18.17,7.83;14,285.34,116.26,18.17,7.83;14,329.11,116.26,18.17,7.83;14,72.51,126.44,4.04,7.83;14,76.54,124.54,2.37,5.17;14,102.00,126.44,34.99,7.83;14,154.18,126.44,18.17,7.83;14,197.96,126.44,18.17,7.83;14,241.73,126.44,18.17,7.83;14,285.34,126.44,18.17,7.83;14,329.11,126.44,18.17,7.83;14,72.51,136.45,4.04,7.83;14,76.54,134.55,2.37,5.17;14,102.00,136.45,34.99,7.83;14,154.18,136.45,18.17,7.83;14,197.96,136.45,18.17,7.83;14,241.73,136.45,18.17,7.83;14,285.34,136.45,18.17,7.83;14,329.11,136.45,18.17,7.83;14,72.51,146.63,4.04,7.83;14,76.54,144.73,2.37,5.17;14,102.00,146.63,34.99,7.83;14,154.18,146.63,18.17,7.83;14,197.96,146.63,18.17,7.83;14,241.73,146.63,18.17,7.83;14,285.34,146.63,18.17,7.83;14,329.11,146.63,18.17,7.83;14,72.51,156.64,4.04,7.83;14,76.54,154.74,2.37,5.17;14,102.00,156.64,34.99,7.83;14,154.18,156.64,18.17,7.83;14,197.96,156.64,18.17,7.83;14,241.73,156.64,18.17,7.83;14,285.34,156.64,18.17,7.83;14,329.11,156.64,18.17,7.83;14,72.51,166.82,4.04,7.83;14,76.54,164.92,2.37,5.17;14,102.00,166.82,34.99,7.83;14,154.18,166.82,18.17,7.83;14,197.96,166.82,18.17,7.83;14,241.73,166.82,18.17,7.83;14,285.34,166.82,18.17,7.83;14,329.11,166.82,18.17,7.83;14,72.51,176.83,4.04,7.83;14,76.54,174.93,2.37,5.17;14,102.00,176.83,34.99,7.83;14,154.18,176.83,18.17,7.83;14,197.96,176.83,18.17,7.83;14,241.73,176.83,18.17,7.83;14,285.34,176.83,18.17,7.83;14,329.11,176.83,18.17,7.83;14,72.51,187.01,4.04,7.83;14,76.54,185.11,2.37,5.17;14,102.00,187.01,34.99,7.83;14,154.18,187.01,18.17,7.83;14,197.96,187.01,18.17,7.83;14,241.73,187.01,18.17,7.83;14,285.34,187.01,18.17,7.83;14,329.11,187.01,18.17,7.83;14,70.49,197.02,8.08,7.83;14,78.56,195.12,2.37,5.17;14,111.41,197.02,16.15,7.83;14,161.91,197.02,2.69,7.83;14,205.68,197.02,2.69,7.83;14,249.46,197.02,2.69,7.83;14,293.07,197.02,2.69,7.83;14,336.84,197.02,2.69,7.83;14,70.48,207.20,8.08,7.83;14,78.56,205.30,2.37,5.17;14,102.00,207.20,34.99,7.83;14,154.18,207.20,18.17,7.83;14,197.96,207.20,18.17,7.83;14,241.73,207.20,18.17,7.83;14,285.34,207.20,18.17,7.83;14,329.11,207.20,18.17,7.83;14,70.49,217.21,8.08,7.83;14,78.56,215.31,2.37,5.17;14,102.00,217.21,34.99,7.83;14,154.18,217.21,18.17,7.83;14,197.96,217.21,18.17,7.83;14,241.73,217.21,18.17,7.83;14,285.34,217.21,18.17,7.83;14,329.11,217.21,18.17,7.83;14,70.49,227.39,8.08,7.83;14,78.56,225.49,2.37,5.17;14,102.00,227.39,34.99,7.83;14,154.18,227.39,18.17,7.83;14,197.96,227.39,18.17,7.83;14,241.73,227.39,18.17,7.83;14,285.34,227.39,18.17,7.83;14,329.11,227.39,18.17,7.83;14,70.49,237.40,8.08,7.83;14,78.56,235.50,2.37,5.17;14,102.00,237.40,34.99,7.83;14,154.18,237.40,18.17,7.83;14,197.96,237.40,18.17,7.83;14,241.73,237.40,18.17,7.83;14,285.34,237.40,18.17,7.83;14,329.11,237.40,18.17,7.83;14,70.49,247.58,8.08,7.83;14,78.56,245.68,2.37,5.17;14,102.00,247.58,34.99,7.83;14,154.18,247.58,18.17,7.83;14,197.96,247.58,18.17,7.83;14,241.73,247.58,18.17,7.83;14,285.34,247.58,18.17,7.83;14,329.11,247.58,18.17,7.83;14,56.55,257.59,38.35,7.83;14,116.81,257.11,5.38,7.83;14,154.18,257.59,18.17,7.83;14,197.96,257.59,18.17,7.83;14,241.73,257.59,18.17,7.83;14,285.34,257.59,18.17,7.83;14,329.11,257.59,18.17,7.83;14,56.77,267.77,37.91,7.83">Tableau 3 -Loyauté des députés en fonction de leur affiliation partisane et linguistique Législature Années Canadien Bureaucrate Non Affilié Français Anglais 1 e 1792-1976 0,781 0,855 0,883 0,732 0,873 2 e 1796-1800 0,865 0,779 0,798 0,842 0,782 3 e 1800-1804 0,801 0,889 0,906 0,746 0,937 4 e 1804-1808 0,840 0,909 0,911 0,800 0,921 5 e 1808-1809 0,817 0,922 0,719 0,763 0,922 6 e 1809-1810 0,887 0,920 1,000 0,860 0,846 7 e 1810-1814 0,777 0,878 0,814 0,799 0,795 8 e 1814-1816 0,667 0,963 0,632 0,682 0,609 9 e 1816-1820 0,704 0,844 0,683 0,699 0,790 10 e 1820 -----11 e 1820-1824 0,732 0,902 0,764 0,743 0,755 12 e 1824-1827 0,782 0,899 0,872 0,780 0,778 13 e 1827-1830 0,830 0,974 0,860 0,824 0,792 14 e 1830-1834 0,774 0,824 0,736 0,760 0,726 15 e 1834-1838 0,892 0,912 0,930 0,871 0,613 Moyenne A --0,796 0,891 0,822 0,779 0,796 Moyenne B</s></p><p xml:id="_KmF3uRw"><s xml:id="_eYnhVBn" coords="14,116.81,267.28,5.38,7.83;14,154.18,267.77,18.17,7.83;14,197.96,267.77,18.17,7.83;14,241.73,267.77,18.17,7.83;14,285.34,267.77,18.17,7.83;14,329.11,267.77,18.17,7.83;14,48.78,277.30,310.93,7.83;14,48.78,286.66,316.53,7.83;14,48.78,295.87,16.37,7.83;14,65.14,293.97,2.37,5.17;14,69.99,295.87,200.87,7.83;14,270.84,293.97,2.37,5.17;14,273.23,295.87,8.52,7.83;14,281.75,293.97,2.37,5.17;14,286.61,295.87,12.33,7.83;14,298.93,293.97,2.37,5.17;14,303.78,295.87,61.45,7.83;14,48.78,305.24,316.45,7.83;14,48.78,314.44,51.32,7.83">--0,798 0,879 0,832 0,781 0,797 _____________________________________________________________________________ Note : La moyenne A désigne la moyenne de la loyauté de toutes les législatures à l'exception de la 10 e puisqu'il n'y a pas eu de vote lors de celle-ci, alors que les 5 e , 6 e et 8 e législatures ont été exclues du calcul de la moyenne B en raison du petit nombre de votes tenus en Chambre lors de ces législatures.</s><s xml:id="_h3vJxZm" coords="14,102.30,314.44,262.93,7.83;14,48.78,323.81,196.47,7.83">Pour éviter de fausser les conclusions, la moyenne B est utilisée dans le cadre de cette analyse (la même logique s'applique pour le tableau 4).</s><s xml:id="_xNTtR78" coords="14,46.98,349.96,178.79,10.23">la loyauté de ces derniers est plus élevée.</s><s xml:id="_vUkpgjf" coords="14,227.21,349.96,137.76,10.23;14,46.99,363.41,114.11,10.23;14,161.10,362.50,2.90,5.93;14,166.72,363.41,198.27,10.23;14,46.98,376.86,317.98,10.23;14,46.98,390.31,157.15,10.23">Ces résultats sont toutefois peu concluants à partir de la 7 e législature (1810-1814) puisque le nombre de députés affiliés au Parti des bureaucrates est peu élevé, ce qui pourrait expliquer la forte loyauté observée.</s><s xml:id="_zJ9yAvG" coords="14,207.01,390.31,157.98,10.23;14,46.98,403.77,318.23,10.23;14,46.98,417.22,185.27,10.23;14,232.17,416.31,2.90,5.93;14,237.26,417.22,72.80,10.23;14,309.99,416.31,2.90,5.93;14,315.09,417.22,49.91,10.23;14,46.98,430.67,205.54,10.23">Dans un second temps, nous observons que la loyauté des députés affiliés au Parti canadien semble plus constante à travers le temps sauf pour les 9 e (1816-1820) et 11 e (1820-1824) législatures où celle-ci diminue autour de 0,70.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_3NHdDcm" coords="14,46.98,451.33,187.10,8.48">appartenance linguistique des députés</head><p xml:id="_yfneX8r"><s xml:id="_wy4WYUy" coords="14,46.98,464.28,317.99,10.23;14,46.98,477.73,318.00,10.23;14,46.98,491.19,65.85,10.23">En ce qui concerne la langue des députés, la loyauté moyenne parmi les anglophones (0,797) est légèrement plus élevée que parmi les francophones (0,781).</s><s xml:id="_vA4FPDa" coords="14,115.00,491.19,249.76,10.23;14,46.98,504.64,317.90,10.23;14,46.98,518.09,318.00,10.23;14,46.98,531.54,318.01,10.23;14,46.98,544.99,128.27,10.23">Une lecture plus attentive révèle cependant que la loyauté de la députation francophone est relativement stable lors des quinze législatures (malgré les variations concernant le nombre de francophones et le nombre de votes en Chambre), alors que celle des anglophones varie davantage à travers le temps.</s><s xml:id="_wRRr4VW" coords="14,178.13,544.99,186.82,10.23;14,46.98,558.45,289.43,10.23;14,336.42,557.54,2.90,5.93;14,341.79,558.45,23.20,10.23;14,46.98,571.90,174.78,10.23;14,221.77,570.99,2.90,5.93;14,228.02,571.90,136.97,10.23;15,64.98,60.16,318.00,10.23;15,64.98,73.61,222.17,10.23;15,287.12,72.70,5.86,5.93;15,292.92,73.61,2.74,10.23">En effet, la loyauté parmi les anglophones est plus élevée lors des premières législatures, à l'exception de la 2 e législature (1796-1800), et décroît après la 4 e législature (1804-1808) ; elle ne dépassera pas 0,80 pour les législatures subséquentes (la députation anglophone est relativement constante à travers le temps) <ref type="bibr" coords="15,287.12,72.70,5.86,5.93">51</ref> .</s><s xml:id="_WRaVuFd" coords="15,297.73,73.61,85.20,10.23;15,64.98,87.06,318.03,10.23;15,64.98,100.51,317.96,10.23;15,64.98,113.97,318.04,10.23;15,64.98,127.42,222.37,10.23">La baisse de loyauté parmi les anglophones peut s'expliquer par le fait que, sauf exception, ceux-ci sont affiliés au Parti des bureaucrates lors des quatre premières législatures (1796-1808) et que, par la suite, un nombre de plus en plus grand d'anglophones est affilié au Parti canadien.</s><s xml:id="_wfcwpVM" coords="15,290.77,127.42,89.35,10.23;15,380.09,126.51,2.90,5.93;15,64.98,140.87,64.44,10.23;15,129.31,139.96,2.90,5.93;15,134.35,140.87,64.44,10.23;15,198.69,139.96,2.90,5.93;15,203.73,140.87,72.25,10.23;15,275.87,139.96,2.90,5.93;15,280.91,140.87,102.10,10.23;15,64.99,154.32,317.95,10.23;15,64.99,167.77,250.70,10.23">En effet, lors des 11 e (1820-1824), 12 e (1824-1827), 13 e (1827-1830) et 15 e (1824-1838) législatures, le nombre d'anglophones affiliés au Parti canadien est plus élevé que le nombre d'anglophones affiliés au Parti des bureaucrates.</s><s xml:id="_N8JHN9c" coords="15,318.38,167.77,64.56,10.23;15,64.99,181.23,318.05,10.23;15,64.99,194.68,213.76,10.23">Il semble donc que les députés anglophones aient voté en bloc lors des premières législatures, mais que cette alliance n'ait pas survécu.</s></p><p xml:id="_gjgAueq"><s xml:id="_eyy8Dmt" coords="15,74.98,208.13,307.84,10.23;15,64.99,221.58,317.98,10.23;15,64.99,235.03,290.43,10.23">Du côté des francophones, l'influence du facteur linguistique ne semble pas diminuer à travers les différentes législatures, malgré leur augmentation numérique au Parlement après la réforme électorale de 1829.</s><s xml:id="_Z2mnRRP" coords="15,357.93,235.03,25.07,10.23;15,64.99,248.49,317.97,10.23;15,64.99,261.94,318.00,10.23;15,64.99,275.39,318.19,10.23;15,64.99,288.84,15.26,10.23;15,80.25,287.93,2.90,5.93;15,85.70,288.84,101.78,10.23">Ainsi, les résultats semblent montrer que l'ethnicité chez les députés francophones est un facteur constant et plus important que chez les députés anglophones lors des votes tenus à la Chambre d'Assemblée, surtout après la 4 e législature (1804-1808).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Hz8CWY7" coords="15,64.98,309.50,206.47,8.48">le comportement législatif des non-affiliés</head><p xml:id="_hS4jKbB"><s xml:id="_GaJY9Eu" coords="15,64.98,322.45,318.01,10.23;15,64.98,335.91,318.02,10.23;15,64.98,349.36,25.33,10.23">Une catégorie de députés est toutefois surprenante : il s'agit des députés n'ayant pas d'affiliation partisane, mais qui ont une loyauté moyenne de 0,832.</s><s xml:id="_JGKf8f5" coords="15,93.14,349.36,275.93,10.23">Face à de tels résultats, deux hypothèses peuvent être avancées.</s><s xml:id="_xYkuSfc" coords="15,371.90,349.36,11.05,10.23;15,64.98,362.81,318.04,10.23;15,64.98,376.26,318.00,10.23;15,64.98,389.71,317.89,10.23;15,64.98,403.17,46.49,10.23">La première stipule que les députés sans affiliation partisane peuvent partager des préférences similaires (et donc, avoir un comportement législatif semblable) malgré le fait qu'ils ne soient pas regroupés sous une étiquette commune.</s><s xml:id="_3SSzS7g" coords="15,113.32,403.17,269.71,10.23;15,64.98,416.62,317.97,10.23;15,64.98,430.07,317.68,10.23;15,64.98,443.52,51.96,10.23">Dans cet esprit, Cornell donne l'exemple des groupes de députés extrémistes de l'aile gauche et de l'aile droite qui votent ensemble contre les groupes de députés modérés lors des votes au Parlement du Canada-Uni (1840-1867).</s><s xml:id="_4zG43Kz" coords="15,119.88,443.52,263.10,10.23;15,64.98,456.97,318.00,10.23;15,64.98,470.43,93.63,10.23;15,158.35,469.52,5.81,5.93;15,164.05,470.43,2.74,10.23">Cette union contre les modérés fait apparaître une cohésion entre ces groupes radicaux bien que leurs positions sur plusieurs enjeux soient très divergentes 52 .</s><s xml:id="_hw4tD8a" coords="15,168.68,470.43,214.43,10.23;15,64.98,483.88,318.00,10.23;15,64.98,497.33,318.04,10.23;15,64.98,510.78,317.99,10.23;15,64.98,524.23,318.20,10.23;15,74.98,547.90,9.09,7.18">La seconde hypothèse veut que les partis politiques aient un impact très modeste sur le comportement législatif de leurs membres : si les partis politiques obligeaient généralement leurs députés à voter d'une certaine manière, la loyauté devrait être plus élevée parmi les élus affiliés à un parti que celle obtenue parmi ceux n'ayant pas d'affiliation 51.</s><s xml:id="_bsVuduP" coords="15,88.98,547.26,293.97,7.81;15,64.98,557.34,318.03,7.18;15,64.98,566.14,57.96,7.81">Étant donné que les 5 e et 6 e législatures sont exclues de l'analyse en raison du petit nombre de votes enregistrés, cette étude conclut à une chute de la loyauté parmi les députés anglophones à partir de la 4 e législature.</s></p><p xml:id="_nw6csgM"><s xml:id="_8PE3R3H" coords="15,74.98,576.22,164.34,7.18">52. P. Cornell, The Alignment of Political Groups…, op.</s><s xml:id="_QxstjqW" coords="15,241.00,576.22,24.30,7.18">cit., viii.</s></p><p xml:id="_EDjh88z"><s xml:id="_HP3sHsS" coords="16,46.98,60.16,42.11,10.23">partisane.</s><s xml:id="_wJ5fpnU" coords="16,91.88,60.16,273.09,10.23;16,46.98,73.61,120.63,10.23">La prochaine section vérifie ces hypothèses grâce à l'utilisation de la classification optimale.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_7vdA4AD" coords="16,46.98,96.59,123.50,7.30">classification optimale</head><p xml:id="_ZHdRpTb"><s xml:id="_mZJVGch" coords="16,46.98,114.66,317.95,10.23;16,46.98,128.11,309.25,10.23;16,356.31,127.21,5.93,5.93;16,362.25,128.11,2.74,10.23">Cette seconde partie étudie le comportement législatif des députés grâce à la classification optimale (Optimal classification) élaborée par Poole 53 .</s><s xml:id="_g4VRUKE" coords="16,46.98,141.57,317.83,10.23;16,46.98,155.02,317.98,10.23;16,46.98,168.47,317.96,10.23;16,46.98,181.92,223.84,10.23">L'utilisation de cette méthodologie permet de compenser la faiblesse des données sur l'affiliation partisane des députés lors des premières législatures et d'améliorer notre compréhension quant aux enjeux de divisions parmi les députés lors des votes tenus en Chambre.</s><s xml:id="_dr7qCvN" coords="16,273.09,181.92,91.90,10.23;16,46.98,195.37,316.57,10.23;16,46.98,208.83,317.95,10.23;16,46.98,222.28,62.49,10.23">La classification optimale analyse les votes enregistrés en fonction du comportement législatif des députés et les positionne dans un modèle spatial représenté sur un plan cartésien.</s><s xml:id="_CgNa2nR" coords="16,111.62,222.28,253.35,10.23;16,46.98,235.73,318.03,10.23;16,46.98,249.18,181.57,10.23;16,228.55,248.27,5.92,5.93;16,234.47,249.18,2.74,10.23">Dans les études politiques contemporaines, cette approche permet de pallier certaines faiblesses méthodologiques liées à l'analyse des votes soumis à une discipline de parti <ref type="bibr" coords="16,228.55,248.27,5.92,5.93">54</ref> .</s><s xml:id="_WFRQMc8" coords="16,56.99,262.63,308.04,10.23;16,46.99,276.09,317.96,10.23;16,46.99,289.54,240.56,10.23">La classification optimale postule que les députés ont des préférences individuelles et que ceux-ci appuieront l'option qui se situe le plus près de leurs préférences lors des votes tenus en Chambre.</s><s xml:id="_eps3gnv" coords="16,290.58,289.54,74.43,10.23;16,46.99,302.99,317.97,10.23;16,46.99,316.44,317.84,10.23;16,46.99,329.89,318.00,10.23;16,46.99,343.35,318.04,10.23;16,46.99,356.80,237.23,10.23;16,284.20,355.89,5.92,5.93;16,290.13,356.80,2.74,10.23">Par le cumul des votes individuels au Parlement, il est possible de positionner un député par rapport aux autres en fonction de son comportement législatif sur un plan à deux dimensions dans lequel les députés situés à proximité les uns des autres partagent une idéologie commune, alors que ceux qui sont éloignés ont des préférences idéologiques différentes <ref type="bibr" coords="16,284.20,355.89,5.92,5.93">55</ref> .</s><s xml:id="_5f5jttj" coords="16,296.40,356.80,68.59,10.23;16,46.99,370.25,317.96,10.23;16,46.99,383.70,317.69,10.23;16,46.99,397.15,317.99,10.23">La position des députés sur le plan cartésien est déterminée par l'algorithme de la classification optimale selon le nombre de dimensions choisies (plus le nombre de dimensions augmente, plus les erreurs de classification diminuent).</s><s xml:id="_pksnhqW" coords="16,46.98,410.61,317.99,10.23;16,46.98,424.06,274.14,10.23">Ainsi, il est possible de déterminer la position des députés en vérifiant leur affiliation partisane ou leur appartenance à un groupe ethnique.</s><s xml:id="_YNqZwTa" coords="16,323.22,424.06,40.37,10.23;16,46.98,437.51,317.99,10.23;16,46.98,450.96,198.30,10.23">L'objectif est de comprendre si les députés associés à un même groupe linguistique ou politique ont un comportement similaire.</s></p><p xml:id="_nZ8HMmB"><s xml:id="_7HXmaE2" coords="16,56.98,464.41,308.06,10.23;16,46.98,477.87,318.04,10.23;16,46.98,491.32,317.96,10.23">La première étape consiste à analyser le nombre de votes correctement prédit en fonction des dimensions utilisées (les dimensions peuvent être comprises comme des enjeux importants divisant les députés lors des</s></p><p xml:id="_krF9Xw2"><s xml:id="_QnvtxpN" coords="16,56.98,538.46,307.99,7.18;16,46.99,547.90,18.59,7.18">53. Keith T. Poole, Spatial Models of Parliamentary Voting (Cambridge, Cambridge University Press, 2005).</s><s xml:id="_q8BaXeC" coords="16,56.99,557.34,9.09,7.18">54.</s><s xml:id="_FFmTJ2U" coords="16,70.99,557.34,294.10,7.18;16,46.99,566.78,180.75,7.18">Les problèmes reliés à la discipline de parti ne devraient pas être un enjeu pour la période étudiée puisque nous supposons que les députés votent librement.</s><s xml:id="_2Rqtmrv" coords="16,56.99,576.22,9.09,7.18">55.</s><s xml:id="_DMUNgkJ" coords="16,70.99,576.22,46.01,7.18">K. T. Poole, op.</s><s xml:id="_44bU8GZ" coords="16,118.67,576.22,9.08,7.16">cit.</s><s xml:id="_2Xrnw56" coords="17,64.98,60.16,115.17,10.23;17,180.21,59.25,5.94,5.93;17,186.17,60.16,2.74,10.23">votes tenus en Chambre) 56 .</s><s xml:id="_qWUUCyN" coords="17,192.81,60.16,190.15,10.23;17,64.99,73.61,317.83,10.23;17,64.99,87.06,252.73,10.23">Ces résultats, présentés dans le tableau 4, indiquent que la première dimension permet de prédire correctement en moyenne 91,1 % des votes lors des quinze législatures.</s><s xml:id="_SRnjE4C" coords="17,321.73,87.06,61.06,10.23;17,64.99,100.51,318.00,10.23;17,64.99,113.97,318.00,10.23;17,64.99,127.42,57.90,10.23">L'ajout d'une seconde dimension augmente d'environ 4 % le nombre de votes correctement prédits lors de ces législatures, élevant ainsi ce nombre à 94,9 % en moyenne.</s><s xml:id="_Duxr5uC" coords="17,125.97,127.42,256.98,10.23;17,64.99,140.87,318.01,10.23;17,64.99,154.32,110.17,10.23">Par ailleurs, il est intéressant de noter que les données du tableau 4 indiquent un niveau de prédiction relativement stable durant toute la période étudiée.</s><s xml:id="_mEcDMbq" coords="17,178.45,154.32,204.53,10.23;17,64.99,167.77,318.01,10.23;17,64.99,181.23,178.67,10.23">Ce résultat semble ainsi donner raison à John Hare qui a affirmé que des familles politiques déjà très cohésives auraient été présentes dès la première législature.</s></p><p xml:id="_8sJzs8k"><s xml:id="_XXFDDzB" coords="17,74.99,194.68,308.04,10.23;17,64.99,208.13,318.01,10.23;17,64.99,221.58,275.49,10.23">La seconde étape de la classification optimale est le positionnement des députés les uns par rapport aux autres sur un plan cartésien en fonction de leur affiliation partisane et de leur appartenance linguistique.</s><s xml:id="_K9zZkeZ" coords="17,342.65,221.58,40.14,10.23;17,64.99,235.03,200.29,10.23">L'analyse de chacune de ces variables est faite plus loin.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_CcAbJqt" coords="17,64.98,255.69,156.58,8.48">affiliation partisane des députés</head><p xml:id="_Ctn2tBg"><s xml:id="_8caEcAT" coords="17,64.98,268.65,59.01,10.23">La figure 1 (p.</s><s xml:id="_JpDjFS4" coords="17,126.20,268.65,157.42,10.23;17,283.56,267.74,5.03,5.93;17,288.52,268.65,15.05,10.23;17,303.46,267.74,2.90,5.93;17,308.62,268.65,20.63,10.23;17,329.15,267.74,2.90,5.93;17,334.30,268.65,48.68,10.23;17,64.99,282.10,318.00,10.23;17,64.99,295.55,75.08,10.23;17,140.03,294.64,5.87,5.93;17,145.85,295.55,2.74,10.23">102-103) positionne les députés des 1 re , 14 e et 15 e législatures en fonction du parti politique auquel ils sont affiliés (chaque point représente un député) 57 .</s><s xml:id="_dmV56EW" coords="17,152.23,295.55,230.58,10.23;17,64.99,309.00,318.09,10.23;17,64.99,322.45,38.04,10.23">Pour le graphique 1 et les suivants, l'axe horizontal représente la première dimension alors que l'axe vertical représente la seconde.</s><s xml:id="_hyKVcWG" coords="17,106.73,322.45,276.17,10.23;17,64.99,335.91,192.79,10.23">Les unités numériques de ces deux axes correspondent à une échelle standardisée qui s'étend de -1 et +1.</s><s xml:id="_Zd9CsNT" coords="17,260.99,335.91,122.00,10.23;17,64.99,349.36,318.00,10.23;17,64.99,362.81,259.82,10.23">Sur ces axes, la position des coordonnées de chacun des députés est estimée par l'algorithme de la classification optimale sur la première et la deuxième dimensions.</s><s xml:id="_uqwqPnS" coords="17,326.72,362.81,56.04,10.23;17,64.99,376.26,317.98,10.23;17,64.99,389.71,131.97,10.23">Ces positions sont calculées uniquement à partir du résultat de tous les votes enregistrés dans une législature spécifique.</s><s xml:id="_2h4kxBG" coords="17,198.93,389.71,184.32,10.23;17,64.99,403.17,234.27,10.23">Les deux dimensions représentent donc des variables latentes corrélées avec le résultat de ces votes.</s><s xml:id="_nvFawPB" coords="17,301.31,403.17,81.54,10.23;17,64.99,416.62,318.05,10.23;17,64.99,430.07,318.03,10.23;17,64.99,443.52,216.68,10.23;17,281.54,442.61,5.86,5.93;17,287.34,443.52,2.74,10.23">Historiquement, la première dimension explique généralement l'opposition partisane (ou idéologique) entre les députés au Parlement canadien, alors que la deuxième dimension est associée à des conflits intrapartisans <ref type="bibr" coords="17,281.54,442.61,5.86,5.93">58</ref> .</s></p><p xml:id="_neuyqG8"><s xml:id="_ywWVXum" coords="17,74.99,456.97,308.02,10.23;17,64.99,470.43,318.12,10.23;17,64.99,483.88,318.01,10.23;17,64.99,497.33,125.23,10.23;17,190.21,496.42,5.01,5.93;17,196.39,497.33,85.56,10.23;17,281.90,496.42,2.90,5.93;17,286.87,497.33,93.26,10.23;17,380.09,496.42,2.90,5.93;17,74.98,529.02,8.93,7.18">La figure 1 montre une forte polarisation sur la première dimension qui oppose majoritairement les députés affiliés au Parti des bureaucrates (situés à la gauche de la figure) aux députés affiliés au Parti canadien (situés à la droite de la figure) lors de la 1 re (1792-1796), de la 14 e (1830-1834) et de la 15 e 56.</s><s xml:id="_G4QghtR" coords="17,88.98,529.02,293.99,7.18;17,64.98,538.46,303.14,7.18">Par l'analyse des votes, la classification optimale utilise différents algorithmes qui déterminent des lignes de division entre les députés de manière à optimiser le résultat des votes correctement prédits.</s></p><p xml:id="_RbXhJnB"><s xml:id="_uSPD3ws" coords="17,74.98,547.90,307.79,7.18;17,64.98,557.34,161.53,7.18">57. L'analyse porte principalement sur ces législatures, puisqu'elles illustrent bien toutes les coalitions parlementaires présentes à l'époque du Bas-Canada.</s><s xml:id="_57H9YfB" coords="17,228.44,557.34,154.54,7.18;17,64.98,566.78,51.46,7.18">Pour accéder aux résultats des autres législatures : E. Bourgeois, op.</s><s xml:id="_FN3GfCD" coords="17,118.12,566.78,9.08,7.16">cit.</s></p><p xml:id="_yJqRQvH"><s xml:id="_MMVeJ7P" coords="17,74.98,576.22,224.50,7.18">58. Voir J.-F.Godbout et B.Høyland, « The Emergence of Parties… », loc.</s><s xml:id="_Ukj92ZW" coords="17,301.15,576.22,9.08,7.16">cit.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_gnpMSez" coords="18,183.78,59.02,44.40,9.84;18,59.90,69.64,292.18,9.84">Tableau 4 Pourcentage de votes correctement prédits et erreurs associées</head><p xml:id="_ZxqwYSz"><s xml:id="_8Mrwf78" coords="18,128.50,79.41,190.94,6.24;18,95.56,94.10,11.46,6.24;18,127.98,94.10,16.47,6.24;18,165.41,94.10,11.46,6.24;18,197.84,94.10,16.47,6.24;18,235.26,94.10,11.46,6.24;18,267.56,94.10,16.47,6.24;18,303.27,94.10,14.91,6.24;18,51.87,98.36,28.99,6.24;18,92.19,101.48,18.20,7.76;18,127.12,101.48,18.20,7.76;18,162.76,101.48,16.77,7.76;18,197.69,101.48,16.77,7.76;18,235.62,103.00,10.74,6.24;18,270.42,103.00,10.74,6.24;18,305.35,103.00,10.74,6.24;18,331.24,94.62,28.81,6.24;18,338.84,102.09,13.60,6.24;18,64.75,111.89,3.22,6.24;18,94.04,111.89,14.50,6.24;18,128.96,111.89,14.50,6.24;18,163.89,111.89,14.50,6.24;18,198.82,111.89,14.50,6.24;18,233.74,111.89,14.50,6.24;18,268.54,111.89,14.50,6.24;18,303.47,111.89,14.50,6.24;18,340.81,111.89,9.67,6.24;18,64.75,120.01,3.22,6.24;18,94.04,120.01,14.50,6.24;18,128.97,120.01,14.50,6.24;18,163.89,120.01,14.50,6.24;18,198.82,120.01,14.50,6.24;18,233.75,120.01,14.50,6.24;18,268.54,120.01,14.50,6.24;18,303.47,120.01,14.50,6.24;18,342.43,120.01,6.44,6.24;18,64.75,128.00,3.22,6.24;18,94.04,128.00,14.50,6.24;18,128.97,128.00,14.50,6.24;18,163.89,128.00,14.50,6.24;18,200.43,128.00,11.28,6.24;18,233.75,128.00,14.50,6.24;18,268.54,128.00,14.50,6.24;18,303.47,128.00,14.50,6.24;18,342.43,128.00,6.44,6.24;18,64.75,136.12,3.22,6.24;18,94.04,136.12,14.50,6.24;18,128.97,136.12,14.50,6.24;18,163.89,136.12,14.50,6.24;18,198.82,136.12,14.50,6.24;18,233.75,136.12,14.50,6.24;18,268.54,136.12,14.50,6.24;18,303.47,136.12,14.50,6.24;18,342.43,136.12,6.44,6.24;18,64.75,144.11,3.22,6.24;18,94.04,144.11,14.50,6.24;18,130.58,144.11,11.28,6.24;18,163.89,144.11,14.50,6.24;18,198.82,144.11,14.50,6.24;18,233.75,144.11,14.50,6.24;18,268.54,144.11,14.50,6.24;18,303.47,144.11,14.50,6.24;18,342.43,144.11,6.44,6.24;18,64.75,152.23,3.22,6.24;18,99.68,152.23,3.22,6.24;18,134.61,152.23,3.22,6.24;18,169.53,152.23,3.22,6.24;18,204.46,152.23,3.22,6.24;18,239.39,152.23,3.22,6.24;18,274.18,152.23,3.22,6.24;18,309.11,152.23,3.22,6.24;18,342.43,152.23,6.44,6.24;18,64.75,160.22,3.22,6.24;18,94.04,160.22,14.50,6.24;18,128.97,160.22,14.50,6.24;18,163.89,160.22,14.50,6.24;18,198.82,160.22,14.50,6.24;18,235.36,160.22,11.28,6.24;18,271.77,160.22,8.06,6.24;18,303.47,160.22,14.50,6.24;18,340.81,160.22,9.67,6.24;18,64.75,168.34,3.22,6.24;18,94.04,168.34,14.50,6.24;18,128.97,168.34,14.50,6.24;18,169.53,168.34,3.22,6.24;18,204.46,168.34,3.22,6.24;18,233.75,168.34,14.50,6.24;18,268.54,168.34,14.50,6.24;18,303.47,168.34,14.50,6.24;18,344.04,168.34,3.22,6.24;18,64.75,176.33,3.22,6.24;18,94.04,176.33,14.50,6.24;18,132.19,176.33,8.06,6.24;18,163.89,176.33,14.50,6.24;18,198.82,176.33,14.50,6.24;18,233.75,176.33,14.50,6.24;18,268.54,176.33,14.50,6.24;18,303.47,176.33,14.50,6.24;18,342.43,176.33,6.44,6.24;18,63.14,184.45,6.44,6.24;18,100.21,184.45,2.15,6.24;18,135.14,184.45,2.15,6.24;18,170.07,184.45,2.15,6.24;18,204.99,184.45,2.15,6.24;18,239.92,184.45,2.15,6.24;18,274.72,184.45,2.15,6.24;18,309.64,184.45,2.15,6.24;18,344.03,184.45,3.22,6.24;18,63.14,192.44,6.44,6.24;18,95.65,192.44,11.28,6.24;18,128.96,192.44,14.50,6.24;18,163.89,192.44,14.50,6.24;18,198.81,192.44,14.50,6.24;18,233.74,192.44,14.50,6.24;18,268.54,192.44,14.50,6.24;18,303.46,192.44,14.50,6.24;18,342.42,192.44,6.44,6.24;18,63.14,200.56,6.44,6.24;18,94.03,200.56,14.50,6.24;18,128.96,200.56,14.50,6.24;18,163.89,200.56,14.50,6.24;18,198.81,200.56,14.50,6.24;18,233.74,200.56,14.50,6.24;18,268.54,200.56,14.50,6.24;18,303.46,200.56,14.50,6.24;18,342.42,200.56,6.44,6.24;18,63.14,208.55,6.44,6.24;18,94.03,208.55,14.50,6.24;18,128.96,208.55,14.50,6.24;18,163.89,208.55,14.50,6.24;18,198.81,208.55,14.50,6.24;18,233.74,208.55,14.50,6.24;18,268.54,208.55,14.50,6.24;18,306.69,208.55,8.06,6.24;18,342.42,208.55,6.44,6.24;18,63.14,216.67,6.44,6.24;18,94.03,216.67,14.50,6.24;18,128.96,216.67,14.50,6.24;18,163.89,216.67,14.50,6.24;18,198.81,216.67,14.50,6.24;18,235.35,216.67,11.28,6.24;18,268.54,216.67,14.50,6.24;18,303.46,216.67,14.50,6.24;18,340.81,216.67,9.67,6.24;18,63.14,224.66,6.44,6.24;18,94.03,224.66,14.50,6.24;18,128.96,224.66,14.50,6.24;18,163.89,224.66,14.50,6.24;18,198.81,224.66,14.50,6.24;18,233.74,224.66,14.50,6.24;18,270.15,224.66,11.28,6.24;18,303.46,224.66,14.50,6.24;18,342.42,224.66,6.44,6.24;18,51.05,232.78,57.48,6.24;18,128.96,232.78,14.50,6.24;18,163.89,232.78,14.50,6.24;18,198.81,232.78,14.50,6.24;18,233.74,232.78,14.50,6.24;18,268.54,232.78,14.50,6.24;18,303.46,232.78,14.50,6.24;18,342.42,232.78,6.44,6.24;18,51.23,241.03,30.25,6.24">Tableau 4 -Pourcentage de votes correctement prédits et erreurs associées PCP APRE PCP APRE PCP APRE &gt;0.20 Législature 1 re dim 1 re dim 2 e dim 2 e dim Diff Diff Diff Nombre de votes 1 0,897 0,687 0,929 0,783 0,032 0,097 0,184 136 2 0,916 0,734 0,953 0,851 0,037 0,117 0,291 55 3 0,932 0,803 0,969 0,91 0,037 0,107 0,163 80 4 0,934 0,814 0,971 0,919 0,037 0,105 0,189 53 5 0,966 0,91 0,994 0,985 0,028 0,075 0,188 16 6 1 1 1 1 0 0 0 11 7 0,914 0,714 0,944 0,814 0,03 0,1 0,233 116 8 0,981 0,938 1 1 0,019 0,062 0,556 9 9 0,894 0,7 0,942 0,837 0,048 0,136 0,239 46 10 -------0 11 0,88 0,588 0,929 0,754 0,048 0,167 0,299 77 12 0,909 0,601 0,955 0,804 0,046 0,203 0,458 48 13 0,917 0,577 0,958 0,788 0,042 0,212 0,5 74 14 0,869 0,583 0,909 0,711 0,04 0,128 0,167 156 15 0,963 0,825 0,982 0,916 0,019 0,09 0,107 75 Moyenne A 0,927 0,748 0,960 0,862 0,033 0,114 0,255 63 Moyenne B</s></p><p xml:id="_pqAFWsP"><s xml:id="_peMv2Nq" coords="18,94.03,241.03,14.50,6.24;18,128.96,241.03,14.50,6.24;18,163.89,241.03,14.50,6.24;18,198.81,241.03,14.50,6.24;18,233.74,241.03,14.50,6.24;18,268.54,241.03,14.50,6.24;18,303.46,241.03,14.50,6.24;18,342.42,241.03,6.44,6.24;18,50.79,250.56,310.30,6.24;18,50.79,256.39,310.39,7.76;18,50.79,263.87,73.16,7.76">0,911 0,693 0,949 0,826 0,038 0,133 0,257 83 Note : PCP = pourcentage de votes correctement prédits, APRE= average prortion reduction error, Diff = la différence entre le PCP de la 2 e dimension et le PCP de la 1re dimension, &gt; 0,20 = la proportion de votes où APRE 2 e dimension -APRE 1 re dimension &gt; 0,20.</s><s xml:id="_bmyTduT" coords="18,125.65,265.38,235.51,6.24;18,50.79,272.73,31.86,6.24">Comme pour le tableau 3, la moyenne B est utilisée lors de l'analyse pour éviter de fausser les résultats.</s></p><p xml:id="_KZTuEuf"><s xml:id="_XecbZV8" coords="18,46.98,294.76,103.93,10.23">(1834-1838) législatures.</s><s xml:id="_gjkWVA2" coords="18,154.34,294.76,210.67,10.23;18,46.98,308.21,317.82,10.23;18,46.98,321.66,261.34,10.23">Malgré l'opposition partisane visible, la figure <ref type="figure" coords="18,359.90,294.76,5.11,10.23" target="#fig_0">1</ref> montre que les députés partageant une même affiliation sont toutefois assez éloignés les uns des autres, surtout sur la seconde dimension.</s><s xml:id="_eDFm2Qy" coords="18,310.48,321.66,54.48,10.23;18,46.98,335.11,318.03,10.23;18,46.98,348.57,295.94,10.23">Ces résultats permettent de confirmer la tendance observée par l'indice de loyauté, c'està-dire que les membres d'un même parti politique sont peu cohésifs.</s><s xml:id="_Pw6kGqF" coords="18,345.40,348.57,19.62,10.23;18,46.98,362.02,317.89,10.23;18,46.98,375.47,149.48,10.23">Cela n'empêche cependant pas d'observer une opposition claire entre les députés affiliés à des formations partisanes.</s></p><p xml:id="_h4d2cqx"><s xml:id="_kkXgYWX" coords="18,56.98,388.92,308.00,10.23;18,46.98,402.37,317.98,10.23;18,46.98,415.83,317.96,10.23;18,46.98,429.28,317.98,10.23;18,46.98,442.73,318.04,10.23">Étant donné que les conflits reliés aux demandes de réformes constitutionnelles par les membres du Parti canadien prennent de l'envergure à partir de 1830 (ces conflits mèneront à la rébellion des patriotes), il est intéressant d'approfondir l'analyse de l'impact des divisions idéologiques au sein des deux formations politiques lors des deux dernières législatures.</s><s xml:id="_wz2vExj" coords="18,46.98,456.18,212.47,10.23">Pour ce faire, deux stratégies ont été adoptées.</s><s xml:id="_b6PcxCK" coords="18,262.99,456.18,101.94,10.23;18,46.98,469.63,317.95,10.23;18,46.98,483.09,210.06,10.23;18,257.01,482.18,2.90,5.93;18,262.84,483.09,102.16,10.23">La première consiste à analyser les votes en Chambre en séparant les députés ayant voté pour ou contre les 92 Résolutions adoptées lors de la 14 e législature (1830-1834).</s><s xml:id="_PrRDEGK" coords="18,46.98,496.54,318.00,10.23;18,46.98,509.99,317.83,10.23;18,47.00,523.44,226.76,10.23">L'objectif est ainsi de vérifier si les députés ayant appuyé ces résolutions (députés dits « réformistes ») votent contre ceux s'y étant opposés (députés dits « conservateurs ») lors des autres votes (figure <ref type="figure" coords="18,262.70,523.44,3.69,10.23">2</ref>).</s><s xml:id="_jF9kdf2" coords="18,275.94,523.44,88.85,10.23;18,46.98,536.89,317.93,10.23;18,46.98,550.35,317.89,10.23;18,46.98,563.80,317.88,10.23;19,64.98,60.16,277.81,10.23">La seconde stratégie consiste à identifier les factions au sein du Parti canadien : lorsque les conflits entre la Chambre d'Assemblée et le Conseil législatif prennent de l'envergure à partir de 1830, des factions se dessinent à l'intérieur du Parti canadien opposant les plus radicaux aux plus modérés (figure <ref type="figure" coords="19,331.73,60.16,3.69,10.23">3</ref>).</s><s xml:id="_wjaVsEs" coords="19,344.98,60.16,37.73,10.23;19,64.98,73.61,317.98,10.23;19,64.98,87.06,50.41,10.23;19,115.39,86.15,5.92,5.93;19,121.32,87.06,261.69,10.23;19,64.99,100.51,318.15,10.23;19,64.99,113.97,156.40,10.23">Ainsi, en identifiant l'appartenance des membres du Parti canadien à chacune de ces factions 59 , il est possible de comprendre les enjeux de division au sein même du Parti canadien qui regroupe la très grande majorité des députés lors des deux dernières législatures.</s></p><p xml:id="_UC26yPn"><s xml:id="_9vcA8YK" coords="19,74.99,127.42,60.49,10.23">La figure 2 (p.</s><s xml:id="_AphgNeX" coords="19,137.92,127.42,245.11,10.23;19,64.99,140.87,317.77,10.23;19,64.99,154.32,318.00,10.23;19,64.99,167.77,165.45,10.23">104) indique que les députés ayant voté en faveur des 92 Réso lutions se trouvent majoritairement au centre et à la droite, alors que les députés ayant voté contre sont positionnés à la gauche de la figure pour les deux dernières législatures.</s><s xml:id="_2JqF9Fy" coords="19,234.38,167.77,148.67,10.23;19,64.99,181.23,248.04,10.23;19,313.01,180.32,2.90,5.93;19,318.90,181.23,48.75,10.23">Les députés ayant appuyé les 92 Résolutions sont cependant assez dispersés lors de la 14 e législature.</s><s xml:id="_zBuWWaV" coords="19,370.64,181.23,12.35,10.23;19,64.99,194.68,318.05,10.23;19,64.99,208.13,317.65,10.23;19,64.99,221.58,318.01,10.23;19,64.99,235.03,300.02,10.23">En comparant la figure sur les partis politiques (figure <ref type="figure" coords="19,296.95,194.68,4.22,10.23" target="#fig_0">1</ref>) à celle sur les 92 Résolutions (figure <ref type="figure" coords="19,155.96,208.13,3.79,10.23">2</ref>), on remarque que ce sont majoritairement les membres du Parti canadien qui ont voté en faveur des Résolutions et que ce sont les membres du Parti des bureaucrates qui ont voté contre.</s><s xml:id="_GgWR76F" coords="19,368.10,235.03,14.84,10.23;19,64.99,248.49,91.31,10.23">Par ailleurs, la figure 3 (p.</s><s xml:id="_xkuUBuQ" coords="19,158.42,248.49,224.63,10.23;19,64.99,261.94,317.75,10.23;19,64.99,275.39,271.13,10.23">105) montre que les députés appartenant à la faction radicale du Parti canadien votent majoritairement ensemble alors que les députés appartenant à la faction modérée sont plus dispersés.</s><s xml:id="_qWQhMYe" coords="19,338.76,275.39,44.23,10.23;19,64.99,288.84,317.99,10.23;19,64.99,302.29,261.45,10.23">Ainsi, lors de ces législatures, les partis politiques reflètent en partie l'idéologie des députés, c'est-à-dire s'ils sont réformistes ou conservateurs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Px26gJp" coords="19,64.98,322.95,187.10,8.48">appartenance linguistique des députés</head><p xml:id="_hZucJyf"><s xml:id="_qhYadBK" coords="19,64.98,335.91,318.10,10.23;19,64.98,349.36,96.97,10.23;19,161.92,348.45,5.03,5.93;19,168.14,349.36,86.01,10.23;19,254.12,348.45,2.90,5.93;19,259.13,349.36,93.76,10.23;19,352.86,348.45,2.90,5.93;19,356.86,349.36,26.09,10.23;19,64.98,362.81,264.02,10.23">En ce qui concerne l'appartenance linguistique des députés, la figure <ref type="figure" coords="19,377.98,335.91,5.11,10.23">4</ref> positionne ceux de la 1 re (1792-1796), de la 14 e (1830-1834) et de la 15 e (1834-1838) législatures en fonction de leur groupe linguistique.</s><s xml:id="_QNzDSvg" coords="19,332.87,362.81,49.96,10.23;19,64.98,376.26,10.69,10.23">La figure <ref type="figure" coords="19,377.72,362.81,5.11,10.23">4</ref> (p.</s><s xml:id="_ZcSB7xg" coords="19,77.66,376.26,305.35,10.23;19,64.98,389.71,5.11,10.23;19,69.98,388.81,5.03,5.93;19,74.94,389.71,14.98,10.23;19,89.81,388.81,2.90,5.93;19,94.89,389.71,20.57,10.23;19,115.34,388.81,2.90,5.93;19,120.43,389.71,51.17,10.23">106-107) indique tout d'abord une forte polarisation linguistique lors des 1 re , 14 e et 15 e législatures.</s><s xml:id="_AyE9E9Z" coords="19,173.74,389.71,209.27,10.23;19,64.99,403.17,173.03,10.23">Cela dit, cette opposition n'est pas aussi tranchée au cours des deux dernières législatures.</s></p><p xml:id="_3VZsFzw"><s xml:id="_MpyHf89" coords="19,74.99,416.62,307.98,10.23;19,64.99,430.07,317.98,10.23;19,64.99,443.52,317.84,10.23;19,64.99,456.97,112.65,10.23">En comparant la figure à propos des partis politiques (figure <ref type="figure" coords="19,352.06,416.62,4.22,10.23" target="#fig_0">1</ref>) avec celle concernant la langue (figure <ref type="figure" coords="19,211.65,430.07,3.69,10.23">4</ref>), il semble que les députés n'ayant pas d'affiliation partisane appuient majoritairement le groupe linguistique auquel ils appartiennent.</s><s xml:id="_vtzAyMQ" coords="19,179.79,456.97,203.40,10.23;19,64.99,470.43,318.00,10.23;19,64.99,483.88,113.53,10.23;19,178.58,482.97,5.08,5.93;19,185.91,483.88,196.88,10.23;19,64.98,497.33,173.33,10.23">Ainsi, il apparaît que la langue est le facteur principal pour expliquer les divisions au sein de la Chambre d'Assemblée du Bas-Canada lors de la 1 re législature et que les alliances politiques pour cette période reflètent cette opposition.</s><s xml:id="_hEFHdTW" coords="19,240.60,497.33,106.47,10.23;19,347.00,496.42,2.90,5.93;19,352.19,497.33,30.80,10.23;19,64.98,510.78,318.03,10.23;19,64.98,524.23,279.76,10.23">En ce qui concerne la 14 e législature, l'affiliation partisane des députés fournit une meilleure explication à propos des divisions observées que l'appartenance linguistique.</s><s xml:id="_E8tUvM9" coords="19,346.88,524.23,36.14,10.23;19,74.98,557.34,307.90,7.18;19,64.98,566.78,318.00,7.18;19,64.98,576.22,26.19,7.18">Comme 59. Le Dictionnaire des parlementaires québécois identifie pour plusieurs députés membres du Parti patriote la faction à laquelle ils appartiennent, c'est-à-dire s'ils sont membres de la faction modérée ou radicale.</s><s xml:id="_JJmQYeq" coords="19,92.97,576.22,172.72,7.18">Voir Assemblée nationale du Québec, Dictionnaire…, op.</s><s xml:id="_HMJECPs" coords="19,267.36,576.22,9.08,7.16">cit.</s><s xml:id="_djTBeWp" coords="21,64.98,322.96,317.88,10.23;21,64.98,336.41,318.03,10.23;21,64.98,349.86,317.99,10.23;21,64.98,363.31,228.07,10.23">mentionné précédemment, la perte d'importance du facteur linguistique peut s'expliquer par le fait que lors des premières législatures, la majorité des députés anglophones est affiliée au Parti des bureaucrates, alors que lors des dernières, elle est affiliée au Parti canadien.</s><s xml:id="_eNQDEHa" coords="21,295.82,363.31,87.18,10.23;21,64.98,376.77,317.96,10.23;21,64.98,390.22,317.92,10.23;21,64.98,403.67,298.55,10.23">Du côté des francophones, le nombre de députés affiliés au Parti des bureaucrates est relativement stable (autour de trois en moyenne), même après la réforme électorale en 1829 qui augmenta le nombre de sièges à l'Assemblée.</s><s xml:id="_Et8m2ft" coords="21,74.98,417.12,182.66,10.23;21,257.65,416.21,5.10,5.93;21,265.75,417.12,117.24,10.23;21,64.98,430.57,317.97,10.23;21,64.98,444.03,312.29,10.23;21,377.12,443.12,5.86,5.93;21,64.98,457.48,317.99,10.23;21,64.98,470.93,317.74,10.23;21,64.98,484.38,55.71,10.23;21,120.72,483.47,5.92,5.93;21,126.64,484.38,2.74,10.23">Enfin, l'étude des votes tenus lors de la 1 re législature permet de confir mer que l'opposition sur la première dimension est très fortement liée aux questions linguistiques (votes BC01S1V12, BC01S1V19, BC01S1V20) 60 et à celles liées à l'adoption des règlements de la Chambre (votes BC01S1V01, BC01S1V70, BC01S1V74) qui divisaient les deux groupes linguistiques 61 .</s><s xml:id="_djvAxmW" coords="21,131.65,484.38,251.19,10.23;21,64.99,497.83,317.93,10.23;21,64.99,511.29,133.01,10.23">Pour la première législature, la principale dimension peut donc être qualifiée d'une « opposition linguistique » distinguant les députés anglophones et francophones.</s><s xml:id="_ZpCCUXf" coords="21,200.50,511.29,182.49,10.23;26,56.99,87.06,116.13,10.23;26,172.98,86.15,2.90,5.93;26,178.04,87.06,187.05,10.23;26,46.99,100.51,318.00,10.23;26,46.99,113.97,318.00,10.23;26,46.99,127.42,266.82,10.23">Quant à la deuxième dimension, elle crée L'analyse des votes de la 15 e législature (1834-1838) atteste, pour sa part, que la première dimension est également liée aux questions constitutionnelles comme c'était le cas lors de la législature précédente (environ 32 % des votes tenus en Chambre entrent dans cette catégorie).</s><s xml:id="_DFk3rVe" coords="26,316.24,127.42,48.71,10.23;26,46.99,140.87,318.08,10.23;26,46.99,154.32,317.92,10.23;26,46.99,167.77,317.77,10.23;26,46.99,181.23,241.55,10.23">Quant à la seconde, les votes y concernent majoritairement des questions régionales, par exemple, la construction d'un pont (vote BC15S02V11), la gestion des deniers pour l'éducation dans le comté de Beauharnois (vote BC15S02V20) ou l'étude d'un rapport d'élection (vote BC15S02V21).</s><s xml:id="_B3GRVE6" coords="26,290.08,181.23,74.91,10.23;26,46.99,194.68,317.99,10.23">En conséquence, la deuxième dimension est identifiée comme une « opposition régionale ».</s><s xml:id="_pDhta6P" coords="26,46.97,208.13,317.97,10.23;26,46.97,221.58,318.03,10.23;26,46.97,235.03,318.04,10.23;26,46.97,248.49,91.93,10.23">Ainsi, l'étude des votes confirme la baisse d'importance du facteur linguistique : au cours des deux dernières législatures, la langue n'est plus un facteur de premier plan, ce sont plutôt les questions constitutionnelles qui le sont devenues.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_b9ADyVu" coords="26,46.98,271.46,137.10,7.30">validation des hypothèses</head><p xml:id="_9Fhkseu"><s xml:id="_cTj96KD" coords="26,46.98,289.54,317.97,10.23;26,46.98,302.99,318.00,10.23;26,46.98,316.44,318.15,10.23;26,46.98,329.89,185.39,10.23">Tout d'abord, l'indice de la loyauté observée et les résultats obtenus par la classification optimale nous permettent de confirmer la première hypothèse concernant l'opposition ethnique des députés (comprenant leur appartenance linguistique et religieuse).</s><s xml:id="_asTBRfj" coords="26,236.45,329.89,128.45,10.23;26,46.98,343.35,318.00,10.23;26,46.98,356.80,317.99,10.23;26,46.98,370.25,40.78,10.23;26,87.77,369.34,2.90,5.93;26,92.99,370.25,52.08,10.23">En effet, l'indice de loyauté montre une forte cohésion parmi les députés francophones et parmi les députés anglophones (la loyauté chute cependant chez les anglophones après la 4 e législature).</s><s xml:id="_Pj9jc2Q" coords="26,147.39,370.25,217.58,10.23;26,46.99,383.70,318.04,10.23;26,46.99,397.15,5.11,10.23;26,52.09,396.25,5.09,5.93;26,59.47,397.15,305.52,10.23;26,46.98,410.61,71.34,10.23;26,118.36,409.70,2.90,5.93;26,123.51,410.61,20.82,10.23;26,144.31,409.70,2.90,5.93;26,149.46,410.61,52.13,10.23">Or, bien que l'analyse de la classification optimale confirme une opposition entre les deux groupes linguistiques lors de la 1 re législature du Bas-Canada, elle indique que celle-ci diminue en importance lors des 14 e et 15 e législatures.</s><s xml:id="_HFpHdBT" coords="26,203.83,410.61,160.95,10.23;26,46.99,424.06,317.71,10.23;26,46.99,437.51,236.28,10.23">Ainsi, en ce qui concerne la première hypothèse, cette étude permet de confirmer la présence d'une opposition ethnique durant les premières années du Bas-Canada.</s></p><p xml:id="_MX4qVxC"><s xml:id="_tNShEa6" coords="26,56.98,450.96,308.04,10.23;26,46.99,464.41,318.05,10.23;26,46.99,477.87,153.75,10.23">Ensuite, l'analyse permet de confirmer l'hypothèse idéologique selon laquelle il existe une opposition entre les réformistes et les conservateurs lors des deux dernières législatures.</s><s xml:id="_5zvvaYG" coords="26,203.43,477.87,161.57,10.23;26,46.99,491.32,318.04,10.23;26,46.99,504.77,318.01,10.23;26,46.99,518.22,317.76,10.23;26,46.99,531.67,317.96,10.23;26,46.99,545.13,85.80,10.23">L'analyse de la classification optimale pour ces sessions parlementaires illustre bien la division entre les députés en fonction de leur affiliation partisane (et de la faction à laquelle ils sont rattachés dans le cas du Parti canadien) ainsi qu'en fonction de leur position constitutionnelle (en se basant entre autres sur la position des députés face aux 92 Résolutions).</s><s xml:id="_MyQPXva" coords="26,134.77,545.13,229.96,10.23;26,46.99,558.58,317.80,10.23;26,46.99,572.03,318.01,10.23;27,64.98,60.16,32.41,10.23;27,97.29,59.25,2.90,5.93;27,102.41,60.16,50.71,10.23">Cependant, cette analyse montre aussi que les députés affiliés à un même parti politique sont assez distants les uns par rapport aux autres sur la seconde dimension (et même sur la première dimension lors de la 14 e législature).</s><s xml:id="_2WNybCg" coords="27,211.75,60.16,171.21,10.23;27,64.98,73.61,16.23,10.23;27,81.12,72.70,5.04,5.93;27,89.83,73.61,47.62,10.23">observée est également présente lors de la 1 re législature.</s><s xml:id="_QKW6z4f" coords="27,139.53,73.61,243.37,10.23;27,64.98,87.06,318.05,10.23;27,64.98,100.51,318.00,10.23;27,64.98,113.97,317.72,10.23;27,64.98,127.42,318.02,10.23;27,64.98,140.87,94.44,10.23">Or, puisque les partis politiques sont assez homogènes ethniquement au cours de cette législature et que les députés n'ayant pas d'affiliation partisane votent majoritairement en fonction de leur groupe ethnique, l'ethnicité des députés semble être une meilleure explication que leur position constitutionnelle pour comprendre les coalitions observées durant cette période.</s><s xml:id="_hTKvDC8" coords="27,163.16,140.87,219.88,10.23;27,64.98,154.32,318.04,10.23;27,64.98,167.77,318.00,10.23;27,64.98,181.23,150.79,10.23">L'indice de loyauté obtenu pour les anglophones confirme cette explication ; très élevé lors des premières législatures, il chute à partir du moment où les députés anglophones cessent d'appuyer majoritairement le Parti des bureaucrates.</s><s xml:id="_hr9D9aV" coords="27,217.80,181.23,164.90,10.23;27,64.98,194.68,318.00,10.23;27,64.98,208.13,317.97,10.23;27,64.98,221.58,318.00,10.23;27,64.98,235.03,201.94,10.23">Ainsi, cette analyse permet de soutenir la thèse voulant que les affiliations partisanes attribuées aux députés de la Chambre d'Assemblée du Bas-Canada reflètent l'opposition ethnique entre les élus lors de la première législature et leur position idéologique ou constitutionnelle lors des deux dernières législatures.</s></p><p xml:id="_pBf8Rdh"><s xml:id="_nJCBbvk" coords="27,74.98,248.49,307.74,10.23;27,64.98,261.94,317.98,10.23;27,64.98,275.39,318.00,10.23;27,64.98,288.84,212.54,10.23">Par ailleurs, en ce qui concerne l'hypothèse à propos de l'impact des partis politiques sur le comportement législatif de leurs membres, les résultats montrent un indice de loyauté plus élevé entre les députés n'ayant pas d'affiliation partisane qu'entre ceux attachés à un parti.</s><s xml:id="_zCuPMAQ" coords="27,279.36,288.84,103.87,10.23;27,64.98,302.29,318.00,10.23;27,64.98,315.75,318.00,10.23;27,64.98,329.20,42.11,10.23">Or, si les partis politiques avaient un impact sur le vote des députés, nous devrions nous attendre à une loyauté plus élevée parmi les députés appartenant à une formation partisane.</s><s xml:id="_Hzunde5" coords="27,109.23,329.20,273.72,10.23;27,64.98,342.65,317.80,10.23;27,64.98,356.10,318.04,10.23;27,64.98,369.55,48.83,10.23">Cependant, s'il est théoriquement possible que la loyauté élevée parmi les non-affiliés s'explique par une idéologie commune parmi ces députés, les résultats obtenus par la classification optimale infirment cette explication.</s><s xml:id="_33U3vMR" coords="27,115.73,369.55,267.17,10.23;27,64.98,383.01,318.03,10.23;27,64.98,396.46,318.06,10.23;27,64.98,409.91,317.95,10.23;27,64.98,423.36,278.79,10.23">L'étude du comportement législatif des non-affiliés montre que ceux-ci ne sont pas plus homogènes lors des votes tenus au Parlement que les députés associés à une formation partisane ; certains non-affiliés appuient le Parti canadien, alors que d'autres appuient le Parti des bureaucrates et, d'une manière générale, ils sont assez éloignés les uns des autres.</s><s xml:id="_8szGbpy" coords="28,56.98,60.16,308.13,10.23;28,78.83,73.61,177.77,10.23;28,256.45,72.70,5.03,5.93;28,264.84,73.61,100.15,10.23;28,46.98,87.06,317.65,10.23;28,46.98,100.51,302.64,10.23">Les résultats obtenus illustrent que l'opposition ethnique est la principale de division entre les députés lors de la 1 re législature (1792-1796), alors qu'une opposition idéologique (les réformistes constitutionnels contre les conservateurs) est dominante lors des deux dernières légis latures.</s><s xml:id="_g9sdeXc" coords="28,352.75,100.51,12.23,10.23;28,46.98,113.97,105.31,10.23;28,152.17,113.06,2.90,5.93;28,158.23,113.97,73.99,10.23;28,232.09,113.06,2.90,5.93;28,238.15,113.97,126.85,10.23;28,46.98,127.42,318.00,10.23;28,46.98,140.87,318.06,10.23;28,46.98,154.32,318.01,10.23;28,46.98,167.77,317.99,10.23;28,46.98,181.23,97.48,10.23">En effet, les analyses des 14 e (1830-1834) et 15 e (1834-1838) législatures faites avec la classification optimale montrent une division évidente en fonction de l'affiliation partisane des députés et de leur position face aux 92 Résolutions ; les députés ayant appuyé les 92 Résolutions sont affiliés au Parti canadien, tandis que ceux ayant voté contre celles-ci sont affiliés au Parti des bureaucrates.</s><s xml:id="_6XHa96B" coords="28,146.53,181.23,218.47,10.23;28,46.98,194.68,317.91,10.23;28,46.98,208.13,318.00,10.23;28,46.98,221.58,318.24,10.23;28,46.98,235.03,241.33,10.23">Il est possible de supposer qu'à la suite des blocages répétés du gouverneur ou du Conseil législatif, l'opposition ethnique se soit transformée en une opposition constitutionnelle divisant les députés voulant plus de pouvoirs pour la Chambre d'Assemblée contre ceux étant satisfaits des pouvoirs attribués par l'Acte constitutionnel.</s><s xml:id="_gufBKAE" coords="28,291.21,235.03,73.77,10.23;28,46.98,248.49,317.71,10.23;28,46.98,261.94,318.17,10.23;28,46.98,275.39,317.77,10.23;28,46.98,288.84,272.23,10.23">Cette explication concorde avec les événements qui ont lieu à la même époque dans le Haut-Canada ; bien que la population soit très homogène ethniquement, les députés demandent également au Parlement britannique des réformes constitutionnelles dont plusieurs trouvent écho au Bas-Canada.</s></p><p xml:id="_m5Rrgsn"><s xml:id="_Ukm2zXh" coords="28,56.98,302.29,308.03,10.23;28,46.98,315.75,317.98,10.23;28,46.98,329.20,317.92,10.23;28,46.98,342.65,317.91,10.23;28,46.98,356.10,47.21,10.23">Enfin, à la lumière des résultats obtenus, cette étude suggère que les partis politiques ont une influence assez modeste sur le comportement législatif de leurs membres lors des votes tenus en Chambre et que ceux-ci rassemblent des députés partageant des préférences ou une idéologie commune.</s><s xml:id="_TJWxdJ6" coords="28,96.24,356.10,268.56,10.23;28,46.98,369.55,318.01,10.23;28,46.98,383.01,317.68,10.23;28,46.98,396.46,273.74,10.23">Il est malheureusement impossible de confirmer avec certitude cette hypothèse puisque plusieurs questions devraient être éclaircies avant d'être en mesure de se prononcer davantage (notamment la forte loyauté observée parmi les députés n'ayant pas d'affiliation partisane).</s></p><p xml:id="_uuTJtSz"><s xml:id="_VZ4psaS" coords="28,56.98,409.91,308.02,10.23;28,46.98,423.36,218.50,10.23">Plusieurs avenues restent à explorer pour mieux comprendre le comportement législatif des députés au Bas-Canada.</s><s xml:id="_NPwkdDj" coords="28,269.22,423.36,95.71,10.23;28,46.98,436.81,317.95,10.23;28,46.98,450.27,318.05,10.23;28,46.98,463.72,50.74,10.23">Par exemple, il serait intéressant de faire une étude qualitative des votes portant sur des enjeux particuliers tels que le commerce, le système de taxation ou le système seigneurial.</s><s xml:id="_J3y8mud" coords="28,100.42,463.72,264.53,10.23;28,46.98,477.17,289.00,10.23">Ce faisant, il serait possible de déterminer si la cohésion des députés varie en fonction des enjeux sur lesquels portent les votes.</s><s xml:id="_Jz4YBNU" coords="28,338.24,477.17,26.62,10.23;28,46.98,490.62,317.74,10.23;28,46.98,504.07,317.70,10.23;28,46.98,517.53,317.96,10.23;28,46.98,530.98,218.18,10.23">Enfin, une étude similaire pourrait être menée sur d'autres assemblées coloniales comme celles du Haut-Canada et du Canada-Uni ou encore avec d'autres systèmes parlementaires de la même époque que le Bas-Canada comme celles du Royaume-Uni ou de la Nouvelle-Écosse.</s><s xml:id="_kJxvnbh" coords="28,267.68,530.98,97.30,10.23;28,46.98,544.43,317.93,10.23;28,46.98,557.88,318.01,10.23;29,64.98,60.16,318.01,10.23;29,64.98,73.61,74.89,10.23;29,163.90,73.61,126.17,10.23">De telles analyses permettraient de compléter l'étude du comportement législatif canadien en couvrant toutes les périodes de l'histoire dans laquelle une assemblée législative était présente ainsi que de comparer l'évolution du parlementarisme canadien d'autres systèmes politiques.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="20,187.69,59.02,36.59,9.84;20,61.96,69.64,150.90,9.84;20,212.88,69.25,5.46,5.71;20,219.90,69.64,70.19,9.84;20,290.10,69.25,3.11,5.71;20,295.89,69.64,54.11,9.84;20,78.59,80.26,22.95,9.84;20,101.55,79.87,3.11,5.71;20,106.11,80.26,227.27,9.84;20,155.83,90.88,100.29,9.84;20,85.98,104.47,239.88,239.17"><head>Figure 1</head><label>1</label><figDesc><div><p xml:id="_3MAsScD"><s xml:id="_Y9dH3Zz" coords="20,187.69,59.02,36.59,9.84;20,61.96,69.64,150.90,9.84;20,212.88,69.25,5.46,5.71;20,219.90,69.64,70.19,9.84;20,290.10,69.25,3.11,5.71;20,295.89,69.64,54.11,9.84;20,78.59,80.26,22.95,9.84;20,101.55,79.87,3.11,5.71;20,106.11,80.26,227.27,9.84;20,155.83,90.88,100.29,9.84">Figure 1 Classification optimale pour les 1 re (1792-1796), 14 e (1830-1834) et 15 e (1834-1838) législatures en fonction de l'affiliation partisane des députés</s></p></div></figDesc><graphic coords="20,85.98,104.47,239.88,239.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="22,187.69,59.02,36.59,9.84;22,55.73,69.64,156.25,9.84;22,212.01,69.25,3.11,5.71;22,217.80,69.64,79.73,9.84;22,297.55,69.25,3.11,5.71;22,302.11,69.64,54.11,9.84;22,92.17,80.26,227.57,9.84;22,142.54,90.88,126.87,9.84;22,89.98,105.98,231.68,233.56"><head>Figure 2 Figure 3 Figure 4</head><label>234</label><figDesc><div><p xml:id="_uztZXRK"><s xml:id="_9emM5cS" coords="22,187.69,59.02,36.59,9.84;22,55.73,69.64,156.25,9.84;22,212.01,69.25,3.11,5.71;22,217.80,69.64,79.73,9.84;22,297.55,69.25,3.11,5.71;22,302.11,69.64,54.11,9.84;22,92.17,80.26,227.57,9.84;22,142.54,90.88,126.87,9.84">Figure 2 Classification optimale pour les 14 e (1830-1834) et 15 e (1834-1838) législatures en fonction de la position des députés à propos des 92 Résolutions</s></p></div></figDesc><graphic coords="22,89.98,105.98,231.68,233.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="27,64.98,446.34,208.61,7.30;27,64.98,455.94,293.25,7.30;27,64.98,474.01,317.97,10.23;27,64.98,487.47,318.00,10.23;27,64.98,500.92,318.04,10.23;27,64.98,514.37,318.00,10.23;27,64.98,527.82,318.04,10.23;27,64.98,541.27,317.68,10.23;27,64.98,554.73,170.01,10.23"><figDesc><div><p xml:id="_Y5dFeMS"><s xml:id="_CEXDNxy" coords="27,64.98,446.34,208.61,7.30;27,64.98,455.94,293.25,7.30;27,64.98,474.01,317.97,10.23;27,64.98,487.47,318.00,10.23;27,64.98,500.92,318.04,10.23;27,64.98,514.37,253.29,10.23">le comportement législatif des députés : d'une opposition ethnique à une opposition idéologique L'objectif de cette recherche était d'observer le processus de formation des partis politiques au cours de la période couverte par l'Acte constitutionnel (1791-1840) et d'identifier les principaux enjeux de division parmi les députés de la Chambre d'Assemblée du Bas-Canada.</s><s xml:id="_HfGEu24" coords="27,321.99,514.37,61.00,10.23;27,64.98,527.82,318.04,10.23;27,64.98,541.27,317.68,10.23;27,64.98,554.73,170.01,10.23">Pour ce faire, nous avons analysé le comportement législatif des députés pour tous les votes enregistrés tenus à l'Assemblée législative à l'aide de l'indice de loyauté et de la classification optimale.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="21,104.98,57.98,239.58,241.71"><graphic coords="21,104.98,57.98,239.58,241.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="23,104.98,110.87,236.63,235.14"><graphic coords="23,104.98,110.87,236.63,235.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="23,105.98,350.38,234.61,234.15"><graphic coords="23,105.98,350.38,234.61,234.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="24,91.57,110.76,230.19,230.40"><graphic coords="24,91.57,110.76,230.19,230.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="24,92.58,348.03,231.38,232.96"><graphic coords="24,92.58,348.03,231.38,232.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="25,109.62,57.96,232.34,232.11"><graphic coords="25,109.62,57.96,232.34,232.11" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="2,59.74,434.62,305.24,7.18;2,46.98,444.06,287.34,7.18" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_JPhmpM9">Legislative Voting in the Canadian Parliament</title>
+		<author>
+			<persName coords=""><forename type="first">Jean-François</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bjørn</forename><surname>Høyland</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0008423911000175</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Xp3243T">Canadian Journal of Political Science</title>
+		<title level="j" type="abbrev">Can J Pol Sci</title>
+		<idno type="ISSN">0008-4239</idno>
+		<idno type="ISSNe">1744-9324</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="367" to="388" />
+			<date type="published" when="2011-06">2011</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jean-François Godbout et Bjørn Høyland, « Legislative Voting in the Canadian Parliament », Canadian Journal of Political Science/Revue canadienne de science politique, 44, 2 (2011) : 367-388.</note>
+</biblStruct>
+
+<biblStruct coords="2,59.74,453.50,304.40,7.18;2,46.98,462.94,70.67,7.18" xml:id="b1">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Jean-François</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bjørn</forename><surname>Høyland</surname></persName>
+		</author>
+		<title level="m" xml:id="_Zup5sp6">The Emergence of Parties in the Canadian House of Commons</title>
+		<imprint>
+			<biblScope unit="page" from="1867" to="1908" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jean-François Godbout et Bjørn Høyland, « The Emergence of Parties in the Canadian House of Commons (1867-1908)</note>
+</biblStruct>
+
+<biblStruct coords="2,118.66,462.94,246.30,7.18;2,46.96,472.38,36.39,7.18" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_2n4QW5R">CJPS: Canadian Journal of Political Science / RCSP: Revue canadienne de science politique, Volume / XLII, 2009</title>
+		<idno type="DOI">10.1017/s0008423909990734</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MxgFNEp">Canadian Journal of Political Science</title>
+		<title level="j" type="abbrev">Can J Pol Sci</title>
+		<idno type="ISSN">0008-4239</idno>
+		<idno type="ISSNe">1744-9324</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1089" to="1096" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">», Canadian Journal of Political Science/Revue canadienne de science politique, 46, 4 (2013) : 776.</note>
+</biblStruct>
+
+<biblStruct coords="2,59.71,481.82,305.25,7.18;2,46.97,491.26,318.01,7.18;2,46.98,500.70,144.14,7.18" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_NDmZgPz">The Alignment of Political Groups in Canada</title>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><surname>Valois</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">;</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Cornell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Wq26zPV">La Chambre d&apos;Assemblée du Bas-Canada, 1792-1815, mémoire de maîtrise (histoire)</title>
+		<meeting><address><addrLine>Toronto</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Toronto Press</publisher>
+			<date type="published" when="1960">1960. 1962</date>
+			<biblScope unit="page" from="1841" to="1867" />
+		</imprint>
+		<respStmt>
+			<orgName>Université de Montréal</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Charles Valois, La Chambre d&apos;Assemblée du Bas-Canada, 1792-1815, mémoire de maîtrise (histoire), Université de Montréal, 1960 ; Paul G. Cornell, The Alignment of Political Groups in Canada, 1841-1867 (Toronto, University of Toronto Press, 1962) ;</note>
+</biblStruct>
+
+<biblStruct coords="2,193.53,500.70,171.45,7.18;2,46.98,510.14,318.00,7.18;2,46.98,519.58,318.03,7.18;2,46.99,529.02,318.01,7.18;2,47.00,538.46,59.47,7.18" xml:id="b4">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Marcel</forename><surname>Grenier</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">John Hare</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">La</forename><surname>Chambre D'assemblée Du Bas-Canada</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">John Hare</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_bHKcYqX">L&apos;Assemblée législative du Bas-Canada, 1792-1814 : députation et polarisation politique</title>
+		<meeting><address><addrLine>Québec, Septentrion</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Hare</publisher>
+			<date type="published" when="1966">1966. 1973. 1993</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1791" to="1793" />
+		</imprint>
+		<respStmt>
+			<orgName>mémoire de maîtrise (histoire), Université de Montréal</orgName>
+		</respStmt>
+	</monogr>
+	<note>Aux origines du parlementarisme québécois</note>
+	<note type="raw_reference">Marcel Grenier, La Chambre d&apos;Assemblée du Bas-Canada, 1815-1837, mémoire de maîtrise (histoire), Université de Montréal, 1966, 43 ; John Hare, « L&apos;Assemblée législative du Bas-Canada, 1792-1814 : députation et polarisation politique », Revue d&apos;histoire de l&apos;Amérique française, 27, 3 (1973) : 361-395 ; John Hare, Aux origines du parlementarisme québécois : 1791-1793 (Québec, Septentrion, 1993) ;</note>
+</biblStruct>
+
+<biblStruct coords="2,108.10,538.46,256.87,7.18;2,46.97,547.90,187.33,7.18" xml:id="b5">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Hare</surname></persName>
+		</author>
+		<title level="m" xml:id="_Rucwqu4">Le développement des partis politiques à l&apos;Assemblée législative du Bas-Canada</title>
+		<imprint>
+			<publisher>Ottawa, Bibliothèque nationale du Canada</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="page" from="1792" to="1814" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John Hare, Le développement des partis politiques à l&apos;Assemblée législative du Bas-Canada, 1792-1814 (Ottawa, Bibliothèque nationale du Canada, 1997).</note>
+</biblStruct>
+
+<biblStruct coords="2,59.72,557.34,270.14,7.18" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_AVsMr3e">Chapitre 5. Le parti présidentiel et le président</title>
+		<author>
+			<persName><forename type="first">Jean-Louis</forename><surname>Thiébault</surname></persName>
+		</author>
+		<idno type="DOI">10.4000/books.septentrion.153214</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FpdJmBZ">Le parti du président</title>
+		<imprint>
+			<publisher>Presses universitaires du Septentrion</publisher>
+			<date type="published" when="2024" />
+			<biblScope unit="page" from="155" to="198" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Le Parti des bureaucrates était également appelé le Parti Tory ou le Parti ministériel.</note>
+</biblStruct>
+
+<biblStruct coords="2,59.72,566.78,305.27,7.18;2,46.97,576.22,66.98,7.18" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZxThr75">Intervention au nom du parti socialiste</title>
+		<author>
+			<persName><forename type="first">Mireille</forename><surname>Le Corre</surname></persName>
+		</author>
+		<idno type="DOI">10.3917/sn.023.0131</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xJHUgEd">Sud/Nord</title>
+		<idno type="ISSN">1265-2067</idno>
+		<imprint>
+			<biblScope unit="volume">n° 23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="2009-10-27" />
+			<publisher>CAIRN</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L&apos;appellation « Parti canadien » sera conservée tout au long du texte, même lorsque le parti portera le nom de « patriote ».</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,481.82,87.48,7.18" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_kKPr9HT">loc. cit., adv.</title>
+		<author>
+			<persName coords=""><forename type="first">J.-P</forename><surname>Wallot</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oed/1098615895</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jEx2hf8">Oxford English Dictionary</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2023-03-02" />
+			<biblScope unit="page" from="74" to="75" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P. Wallot, loc. cit., 74-75.</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,491.26,222.93,7.18" xml:id="b9">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Voir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Hare</surname></persName>
+		</author>
+		<title level="m" xml:id="_cDanBUc">L&apos;Assemblée législative du Bas-Canada…</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Voir aussi J. Hare, « L&apos;Assemblée législative du Bas-Canada… », loc. cit.</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,500.70,65.43,7.18" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_jTNGgTN">loc. cit., adv.</title>
+		<author>
+			<persName coords=""><forename type="first">J.-P</forename><surname>Wallot</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oed/1098615895</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xaQHHMf">Oxford English Dictionary</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2023-03-02" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P. Wallot, loc. cit.</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,510.14,74.49,7.18" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_PDrehVS">loc. cit., adv.</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Séguin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oed/1098615895</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_amW9pe6">Oxford English Dictionary</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2023-03-02" />
+			<biblScope unit="page">78</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Séguin, loc. cit., 78.</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,519.58,191.15,7.18" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_9zVcE6u">L’Assemblée législative du Bas-Canada, 1792-1814 : députation et polarisation politique</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Hare</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/303282ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sXFvKGq">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<title level="j" type="abbrev">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<idno type="ISSN">0035-2357</idno>
+		<idno type="ISSNe">1492-1383</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">361</biblScope>
+			<date type="published" when="1973" />
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hare, « L&apos;Assemblée législative du Bas-Canada… », loc. cit.</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,529.02,21.11,7.18" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" xml:id="_2W5aNvy">Serdica. Ara lapidea, inventa ibid.</title>
+		<author>
+			<persName coords=""><surname>Ibid</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/1874-6772_seg_a1_300</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ibid.</note>
+</biblStruct>
+
+<biblStruct coords="5,81.04,538.46,301.94,7.18;5,64.98,547.90,294.46,7.18;5,74.99,557.34,206.65,7.18" xml:id="b14">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Danielle</forename><surname>Brouard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jocelyn</forename><surname>Saint-Pierre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_u3kGTcH">La Chambre d&apos;Assemblée du Bas-Canada : des débuts difficiles racontés par un témoin</title>
+		<meeting><address><addrLine>Montréal, Granger</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1937">1981. 1937</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="57" to="59" />
+		</imprint>
+	</monogr>
+	<note>Lionel Groulx, Notre maître, le passé</note>
+	<note type="raw_reference">Danielle Brouard et Jocelyn Saint-Pierre, « La Chambre d&apos;Assemblée du Bas-Canada : des débuts difficiles racontés par un témoin », Bulletin de l&apos;Assemblée nationale du Québec, 10, 1 (1981) : 57-59. 23. Lionel Groulx, Notre maître, le passé (Montréal, Granger, 1937).</note>
+</biblStruct>
+
+<biblStruct coords="5,81.05,566.78,301.96,7.18;5,65.00,576.22,85.34,7.18" xml:id="b15">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Henri</forename><surname>Brun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_cSMXwv8">La formation des institutions parlementaires québécoises</title>
+		<meeting><address><addrLine>Québec</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1970">1970</date>
+			<biblScope unit="page" from="1791" to="1838" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henri Brun, La formation des institutions parlementaires québécoises, 1791-1838 (Québec, Les Presses de l&apos;Université Laval, 1970).</note>
+</biblStruct>
+
+<biblStruct coords="7,81.04,500.70,301.95,7.18;7,64.99,510.14,133.53,7.18" xml:id="b16">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">John</forename><forename type="middle">A</forename><surname>Aldrich</surname></persName>
+		</author>
+		<title level="m" xml:id="_UTeRBdG">Why Parties ? The Origin and Transformation of Political Parties America</title>
+		<meeting><address><addrLine>Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>The University of Chicago Press</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="page">36</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John A. Aldrich, Why Parties ? The Origin and Transformation of Political Parties America (Chicago, The University of Chicago Press, 1995), 36.</note>
+</biblStruct>
+
+<biblStruct coords="7,81.05,518.94,301.93,7.81;7,64.98,529.02,194.53,7.18" xml:id="b17">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><forename type="middle">D</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Mccubbins</surname></persName>
+		</author>
+		<title level="m" xml:id="_ZsrmJ7n">Legislative Leviathan : Party Government in the House</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="213" to="234" />
+		</imprint>
+	</monogr>
+	<note>nd edition</note>
+	<note type="raw_reference">Gary W. Cox et Matthew. D. McCubbins, Legislative Leviathan : Party Government in the House, 2 nd edition (Cambridge, Cambridge University Press, 2007), 213-34.</note>
+</biblStruct>
+
+<biblStruct coords="7,81.04,538.46,77.93,7.18" xml:id="b18">
+	<monogr>
+		<title level="m" type="main" xml:id="_s9VNd8j">Rome (in muro). Op. cit. 35.</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Aldrich</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/1874-6772_seg_a2_520</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+			<biblScope unit="page" from="35" to="36" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Aldrich, op. cit., 35-36.</note>
+</biblStruct>
+
+<biblStruct coords="7,81.04,547.90,301.96,7.18;7,64.99,556.70,318.00,7.81;7,64.99,566.78,25.50,7.18" xml:id="b19">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Réjean</forename><surname>Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_69hRzha">Les partis politiques fédéraux et québécois</title>
+		<editor>
+			<persName><forename type="first">Réjean</forename><surname>Pelletier</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Manon</forename><surname>Tremblay</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Québec</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="199" to="204" />
+		</imprint>
+	</monogr>
+	<note>Le parlementarisme canadien, 4 e édition</note>
+	<note type="raw_reference">Réjean Pelletier, « Les partis politiques fédéraux et québécois », dans Réjean Pelletier et Manon Tremblay, dir., Le parlementarisme canadien, 4 e édition (Québec, Les Presses de l&apos;Université Laval, 2009) : 199-204.</note>
+</biblStruct>
+
+<biblStruct coords="7,81.05,576.22,281.70,7.18" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_AAdVfNd">Where&apos;s the Party ?</title>
+		<author>
+			<persName coords=""><forename type="first">Keith</forename><surname>Krehbiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qnYArtA">British Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">235</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keith Krehbiel, « Where&apos;s the Party ? », British Journal of Political Science, 23, 2 (1993) : 235.</note>
+</biblStruct>
+
+<biblStruct coords="9,81.04,510.14,300.62,7.18;9,64.98,519.58,117.06,7.18" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_brDhAe5">Demotion and Dissent in the Canadian Liberal Party</title>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><surname>Kam</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0007123406000299</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vtmHyzs">British Journal of Political Science</title>
+		<title level="j" type="abbrev">Brit. J. Polit. Sci.</title>
+		<idno type="ISSN">0007-1234</idno>
+		<idno type="ISSNe">1469-2112</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="561" to="574" />
+			<date type="published" when="2006-05-17">2006</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christopher Kam, « Demotion and Dissent in the Canadian Liberal Party », British Journal of Political Science, 36, 3 (2006) : 561-574 ;</note>
+</biblStruct>
+
+<biblStruct coords="9,183.81,519.58,199.18,7.18;9,64.99,529.02,197.15,7.18" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_MEuaVEp">Legislative Voting in the Canadian Parliament</title>
+		<author>
+			<persName><forename type="first">Jean-François</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bjørn</forename><surname>Høyland</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0008423911000175</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yrcP3Um">Canadian Journal of Political Science</title>
+		<title level="j" type="abbrev">Can J Pol Sci</title>
+		<editor>
+			<persName><forename type="first">J.-F</forename><surname>Godbout</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Høyland</surname></persName>
+		</editor>
+		<idno type="ISSN">0008-4239</idno>
+		<idno type="ISSNe">1744-9324</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="367" to="388" />
+			<date type="published" when="2011-06" />
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note>cit</note>
+	<note type="raw_reference">J.-F. Godbout et B. Høyland, « Legislative Voting… », loc. cit. ; J.-F. Godbout et B. Høyland, « The Emergence of Parties… », loc. cit.</note>
+</biblStruct>
+
+<biblStruct coords="9,81.05,538.46,301.95,7.18;9,65.00,547.90,266.88,7.18" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_xxDVrdp">ANNEXE 5</title>
+		<author>
+			<persName coords=""><surname>Chambre D'assemblée Du Bas-Canada</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv30dxxmp.16</idno>
+		<ptr target="www.eco.canadiana.ca/view/oocihm.9_00938" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nWnPSuz">Les colonies du Haut et du Bas-Canada avant et à l’époque des rébellions</title>
+		<imprint>
+			<publisher>Presses de l&apos;Université Laval</publisher>
+			<date type="published" when="2022-07-20" />
+			<biblScope unit="page" from="201" to="206" />
+		</imprint>
+	</monogr>
+	<note>consultée en février 2014</note>
+	<note type="raw_reference">Chambre d&apos;assemblée du Bas-Canada, Journaux de la Chambre d&apos;assemblée du Bas-Canada, 1792-1837, Canadiana, www.eco.canadiana.ca/view/oocihm.9_00938 [consultée en février 2014].</note>
+</biblStruct>
+
+<biblStruct coords="9,81.06,557.34,301.93,7.18;9,64.99,566.78,304.62,7.18;9,74.99,576.22,27.25,7.18" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_kqgCKkv">Assemblée Nationale du Québec. Débats de l’Assemblée Législative, 8e législature, 1893-1897. Québec, Journal des Débats, 1980. 1707 p. $30. S’adresser au Service des documents parlementaires, Assemblée Nationale du Québec, G1A 1A7.</title>
+		<author>
+			<persName><forename type="first">Andrée</forename><surname>Désilets</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/303995ar</idno>
+		<ptr target="www.assnat.qc.ca/fr/Membres/notices/index.html" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JFUtncA">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<title level="j" type="abbrev">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<idno type="ISSN">0035-2357</idno>
+		<idno type="ISSNe">1492-1383</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">434</biblScope>
+			<date type="published" when="1981" />
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note>consultée en mars 2014 Ibid</note>
+	<note type="raw_reference">Assemblée nationale du Québec, Dictionnaire des parlementaires québécois depuis 1792, Assemblée nationale du Québec, www.assnat.qc.ca/fr/Membres/ notices/index.html [consultée en mars 2014]. 39. Ibid.</note>
+</biblStruct>
+
+<biblStruct coords="11,81.04,529.02,191.03,7.18;11,74.98,538.46,43.55,7.18" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_yufHEW7">L’Assemblée législative du Bas-Canada, 1792-1814 : députation et polarisation politique</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Hare</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/303282ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jZeX3Te">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<title level="j" type="abbrev">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<idno type="ISSN">0035-2357</idno>
+		<idno type="ISSNe">1492-1383</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">361</biblScope>
+			<date type="published" when="1973" />
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hare, « L&apos;Assemblée législative du Bas-Canada… », loc. cit. 42. Ibid., 369.</note>
+</biblStruct>
+
+<biblStruct coords="11,81.04,547.90,301.97,7.18;11,65.02,557.34,161.81,7.18" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_cpE39yM">Guide parlementaire historique de la Province de Québec</title>
+		<author>
+			<persName coords=""><forename type="first">Joseph</forename><surname>Desjardins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MBbsDFB">Bibliothèque de la Législature du Québec</title>
+		<imprint>
+			<biblScope unit="page">92</biblScope>
+			<date type="published" when="1792">1792 à 1902. 1902</date>
+			<pubPlace>Québec</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joseph Desjardins, Guide parlementaire historique de la Province de Québec, 1792 à 1902 (Québec, Bibliothèque de la Législature du Québec, 1902), 92.</note>
+</biblStruct>
+
+<biblStruct coords="11,81.07,566.78,301.71,7.18;11,65.01,576.22,234.92,7.18;13,74.98,547.90,182.41,7.18" xml:id="b27">
+	<monogr>
+		<title level="m" type="main" xml:id="_eEn4Euq">L&apos;inconsistance entre le nombre de sièges et le nombre de députés élus est causée par les démissions et les décès qui ont lieu durant une législature</title>
+		<author>
+			<persName coords=""><forename type="first">;</forename><forename type="middle">D</forename><surname>Ibid</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Vaugeois</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Op</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Cit</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Assemblée nationale du Québec</publisher>
+			<biblScope unit="volume">48</biblScope>
+		</imprint>
+	</monogr>
+	<note>Dictionnaire…, op. cit</note>
+	<note type="raw_reference">Ibid. ; D. Vaugeois, op. cit. L&apos;inconsistance entre le nombre de sièges et le nombre de députés élus est causée par les démissions et les décès qui ont lieu durant une législature. 48. Assemblée nationale du Québec, Dictionnaire…, op. cit.</note>
+</biblStruct>
+
+<biblStruct coords="13,81.04,557.34,193.15,7.18" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" xml:id="_ryVQEP2">L’Assemblée législative du Bas-Canada, 1792-1814 : députation et polarisation politique</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Hare</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/303282ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_c3W9XtD">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<title level="j" type="abbrev">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<idno type="ISSN">0035-2357</idno>
+		<idno type="ISSNe">1492-1383</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">361</biblScope>
+			<date type="published" when="1973" />
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note>cit</note>
+	<note type="raw_reference">J. Hare, « L&apos;Assemblée législative du Bas-Canada… », loc.. cit.</note>
+</biblStruct>
+
+<biblStruct coords="13,81.04,566.78,301.94,7.18;13,65.01,576.22,163.79,7.18" xml:id="b29">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Jacques-Yvan</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Josée</forename><surname>Woehrling</surname></persName>
+		</author>
+		<title level="m" xml:id="_k2pW6VD">Les constitutions du Canada et du Québec, du régime français à nos jours</title>
+		<meeting><address><addrLine>Montréal, Les Éditions Thémis</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="page">38</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacques-Yvan Morin et Josée Woehrling, Les constitutions du Canada et du Québec, du régime français à nos jours (Montréal, Les Éditions Thémis, 1992), 38.</note>
+</biblStruct>
+
+<biblStruct coords="21,81.04,566.78,301.94,7.18;21,64.98,576.22,44.62,7.16" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_AwMxr4j">L’Assemblée législative du Bas-Canada, 1792-1814 : députation et polarisation politique</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Hare</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/303282ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9u7HRKV">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<title level="j" type="abbrev">Revue d&apos;histoire de l&apos;Amérique française</title>
+		<idno type="ISSN">0035-2357</idno>
+		<idno type="ISSNe">1492-1383</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">361</biblScope>
+			<date type="published" when="1973" />
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hare, « L&apos;Assemblée législative du Bas-Canada… », loc. cit. ; J. Hare, Aux origines du parlementa- risme…, op. cit.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

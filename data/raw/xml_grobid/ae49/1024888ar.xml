@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_hZCpJ8C">Expliquer et contenir la prise de risque excessive des banques</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,63.00,200.91,85.81,8.80"><forename type="first">Pierre</forename><surname>Chaigneau</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,63.00,213.00,59.72,8.70"><forename type="first">Hec</forename><surname>Montréal</surname></persName>
+						</author>
+						<title level="a" type="main" xml:id="_CW2Yc86">Expliquer et contenir la prise de risque excessive des banques</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5543111C84881D1957B2241513254662</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T21:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-12-g5c1957b1e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_jHqeQ96"><p xml:id="_5aEPjDe"><s xml:id="_xubdQ8e" coords="1,99.11,280.57,287.86,7.92;1,63.00,291.57,73.44,7.92">Nous confrontons les critiques récemment adressées à l'encontre des banques à la théorie économique.</s><s xml:id="_c6NumrT" coords="1,138.52,291.57,248.49,7.92;1,63.00,302.57,304.96,7.92">Nous expliquons pourquoi les banques ne sont fondamentalement pas des entreprises comme les autres, de sorte que leur gouvernance devrait être spéciale.</s><s xml:id="_Snu2r5R" coords="1,370.00,302.57,16.98,7.92;1,63.00,313.57,324.00,7.92;1,63.00,324.57,323.99,7.92;1,63.00,335.57,323.99,7.92;1,63.00,346.57,315.22,7.92">Pour que la prise de risque dans le secteur financier ne soit pas excessive, nous proposons ensuite deux mesures qui s'attaquent aux racines du problème, c'est-à-dire la responsabilité limitée des actionnaires des banques associée à l'optimalité de secourir des banques en détresse d'une part, et les externalités négatives exercées par les faillites de banques d'autre part.</s></p><p xml:id="_nFUC3tv"><s xml:id="_88FXeww" coords="1,63.00,368.57,324.03,7.92;1,63.00,379.57,25.29,7.92">abstRact -We confront criticisms against banks' recent behavior to traditional economic theory.</s><s xml:id="_thgUyjc" coords="1,90.91,379.57,296.09,7.92;1,63.00,390.57,323.96,7.92">We argue that banks are intrinsically different from other businesses, so that the usual corporate governance arrangements may not be appropriate in the financial sector.</s><s xml:id="_DZEnEsa" coords="1,63.00,401.57,324.01,7.92;1,63.00,412.57,324.03,7.92;1,63.00,423.57,289.84,7.92">We propose two measures to take into account the problem posed by limited liability and the ex-post optimality of bailing-out failing banks on the one hand, and the externalities exerted by a bank's distress on the rest of the financial sector on the other hand.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_bXz6YzZ" coords="1,63.00,451.91,53.88,8.80">IntRoductIon</head><p xml:id="_BTGXsCN"><s xml:id="_HUcvX3S" coords="1,78.00,469.91,308.97,8.80;1,63.00,481.91,61.32,8.80">Les banques ont à de nombreuses reprises été tenues responsables de la récente crise financière.</s><s xml:id="_jGUttFe" coords="1,126.28,481.91,260.71,8.80;1,63.00,493.91,112.74,8.80">Leurs activités n'ont-elles pas rendu possible la crise des « subprime mortgages » dès l'été 2007?</s><s xml:id="_TQWtH2e" coords="1,178.55,493.91,208.45,8.80;1,63.00,505.91,324.00,8.80;1,63.00,517.91,119.57,8.80">N'est-ce pas l'effondrement de Lehman Brothers en 2008 qui a déclenché un effondrement des bourses, une contraction du crédit, et la récession qui s'en est suivi?</s><s xml:id="_8WyE3uh" coords="1,78.00,535.91,309.01,8.80;1,63.00,547.91,248.79,8.80">Dans ce contexte, il existe un quasi-consensus dans l'opinion publique pour dire que les banques et leurs employés s'enrichissent indûment.</s><s xml:id="_ak6bczP" coords="1,313.89,547.91,73.12,8.80;1,63.00,559.91,277.79,8.80">Aux États-Unis, le mouvement « Occupy Wall Street » a incarné cette perspective en 2011.</s><s xml:id="_vJMXz8r" coords="1,342.83,559.91,44.17,8.80;1,63.00,571.91,323.99,8.80;1,63.00,583.91,323.95,8.80">En Europe, de nombreux politiciens ont suggéré qu'il serait approprié de réguler ou imposer davantage la « finance », sans pour autant proposer de mesures convaincantes.</s><s xml:id="_BMyaAuR" coords="1,63.00,595.91,323.99,8.80;1,63.00,607.91,323.99,8.80;1,63.00,619.91,127.55,8.80">Parallèlement, la facture liée aux excès du secteur financier s'allonge : en automne 2011, l'État français s'est porté garant des actifs « pourris » de la banque Dexia à hauteur de 34 milliards d'euros.</s></p><p xml:id="_87HEQkk"><s xml:id="_u3JUSsn" coords="2,78.00,91.20,309.07,8.80">Il semble bien que quelque chose ne tourne pas rond dans le monde de la finance.</s><s xml:id="_F8tzeZD" coords="2,63.00,103.54,324.01,8.80;2,63.00,115.88,324.03,8.80;2,63.00,128.21,137.82,8.80">Pourtant, sans compréhension des mécanismes d'incitations et de transmission au coeur du problème, il est peu probable que de nouvelles réglementations, quelles qu'elles soient, atteignent leur but.</s><s xml:id="_eN3BUK9" coords="2,203.64,128.21,183.32,8.80;2,63.00,140.55,285.72,8.80">Au contraire, il est probable qu'elles génèrent de nombreux effets pervers et qu'elles freinent la croissance économique.</s><s xml:id="_fuC9Rtq" coords="2,350.78,140.55,36.25,8.80;2,63.00,152.89,94.25,8.80">Essayons donc d'y voir plus clair.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_tjd8vYr" coords="2,63.00,183.23,63.56,8.80">mécanIsmes</head><p xml:id="_4z56Qw5"><s xml:id="_JwMAt6D" coords="2,78.00,201.57,308.99,8.80;2,63.00,213.90,175.95,8.80">Pour commencer, on peut se demander pourquoi les actionnaires des banques les laisseraient prendre des risques « excessifs ».</s><s xml:id="_UWdXTWE" coords="2,241.02,213.90,145.99,8.80;2,63.00,226.24,160.07,8.80">Les actionnaires ne contrôlent-ils pas ces institutions (du moins en principe)?</s><s xml:id="_86rhNte" coords="2,226.03,226.24,160.93,8.80;2,63.00,238.58,97.04,8.80">N'ont-ils pas beaucoup à perdre si l'une d'entre elles fait faillite?</s><s xml:id="_4FjuwXB" coords="2,78.00,256.92,308.93,8.80;2,63.00,269.26,324.03,8.80;2,63.00,281.59,323.99,8.80;2,63.00,293.93,324.00,8.80;2,63.00,306.27,323.99,8.80">Ce raisonnement est valable dans la plupart des cas, et c'est pourquoi le système de gouvernance qui consiste à donner le contrôle des entreprises aux actionnaires (c'est-à-dire aux apporteurs de capitaux propres) est efficient en général <ref type="bibr" coords="2,357.27,281.59,29.72,8.80;2,63.00,293.93,76.98,8.80" target="#b6">(Jensen et Meckling, 1976;</ref><ref type="bibr" coords="2,143.01,293.93,99.72,8.80" target="#b5">Grossman et Hart, 1986)</ref>, et a historiquement contribué à la croissance économique et au développement des pays dans lesquels il a été adopté.</s></p><p xml:id="_QHdu7qQ"><s xml:id="_8dH5gaR" coords="2,78.00,324.61,308.95,8.80;2,63.00,336.95,30.98,8.80">Pourtant, dans le cas des banques, ce raisonnement est incomplet, pour deux raisons.</s></p><p xml:id="_xrfbnHV"><s xml:id="_B9jJbTv" coords="2,78.00,355.28,309.02,8.80;2,63.00,367.62,324.02,8.80;2,63.00,379.96,205.97,8.80">Premièrement, dans tous les secteurs d'activité, les actionnaires sont protégés par la responsabilité limitée (« limited liability »), de telle sorte que leur perte maximale est bornée par leur investissement initial.</s><s xml:id="_7NCjyFX" coords="2,271.27,379.96,115.73,8.80;2,63.00,392.30,216.54,8.80">Autrement dit, ils bénéficient de tous les gains, mais n'encaissent pas toutes les pertes.</s><s xml:id="_UsdsR5z" coords="2,281.53,392.30,105.42,8.80;2,63.00,404.63,323.95,8.80;2,63.00,416.97,119.23,8.80">Dans toutes les entreprises, les actionnaires ont donc naturellement tendance à prendre plus de risques qu'il ne serait socialement optimal.</s><s xml:id="_2Fd9vhq" coords="2,184.50,416.97,202.46,8.80">Cela dit, les apporteurs de dette en sont conscients.</s><s xml:id="_peMxPQQ" coords="2,63.00,429.31,324.00,8.80;2,63.00,441.65,248.37,8.80">Puisqu'ils supporteront les pertes non supportées par les actionnaires, ils imposent à l'entreprise un coût plus élevé pour le financement par dette.</s><s xml:id="_VjwDrqh" coords="2,313.91,441.65,73.09,8.80;2,63.00,453.99,324.00,8.80;2,63.00,466.32,324.02,8.80;2,63.00,478.66,83.65,8.80">Anticipant ou réagissant à cela, il est généralement dans l'intérêt des actionnaires de se « lier les mains » d'une façon ou d'une autre pour s'engager à ne pas prendre trop de risque <ref type="bibr" coords="2,63.00,478.66,79.41,8.80" target="#b7">(John et John, 1993)</ref>.</s><s xml:id="_aSb9xrz" coords="2,149.15,478.66,230.61,8.80">Tout est alors pour le mieux dans le meilleur des mondes.</s></p><p xml:id="_wyDVUbA"><s xml:id="_GZQBJ7Z" coords="2,78.00,497.00,309.00,8.80;2,63.00,509.34,22.25,8.80">Cependant, ce mécanisme modérateur ne fonctionne pas dans le secteur bancaire.</s><s xml:id="_7RYgZhE" coords="2,87.73,509.34,299.32,8.80;2,63.00,521.68,323.98,8.80;2,63.00,534.01,324.01,8.80;2,63.00,546.35,323.94,8.80;2,63.00,558.69,237.39,8.80">Tout simplement parce que les dépôts sont en partie assurés par l'État (afin de protéger les épargnants et d'éviter des paniques bancaires), et parce que les créanciers des banques s'attendent souvent à ce que ces dernières soient secourues par l'État en cas de faillite, afin d'éviter une grave crise financière comme on a pu l'expérimenter suite à l'effondrement de Lehman Brothers.</s><s xml:id="_JHbFc8M" coords="2,303.39,558.69,83.61,8.80;2,63.00,571.03,324.06,8.80;2,63.00,583.37,323.94,8.80;2,63.00,595.70,257.68,8.80">Dans ces conditions, les clients des banques et leurs créanciers ne demandent pas une compensation adéquate dans la mesure où la banque prend des risques excessifs : ils savent qu'ils n'auront de toutes façons pas à supporter toutes les pertes.</s><s xml:id="_T8FBxmE" coords="2,323.31,595.70,63.70,8.80;2,63.00,608.04,324.03,8.80;2,63.00,620.38,227.83,8.80">Par conséquent, les actionnaires des banques peuvent prendre des risques excessifs sans retenue <ref type="bibr" coords="2,63.00,620.38,109.47,8.80" target="#b8">(Kareken et Wallace, 1978;</ref><ref type="bibr" coords="2,174.97,620.38,111.65,8.80" target="#b2">Bebchuk et Spamann, 2010)</ref>.</s><s xml:id="_8R2TV3r" coords="3,78.00,91.20,309.00,8.80;3,63.00,103.23,159.04,8.80">Deuxièmement, dans la plupart des secteurs, la faillite d'une entreprise n'a pas d'effets en chaîne catastrophiques.</s><s xml:id="_qkPQYe2" coords="3,225.16,103.23,161.84,8.80;3,63.00,115.26,324.01,8.80;3,63.00,127.29,324.04,8.80;3,63.00,139.32,22.83,8.80">Les consommateurs se réorientent vers ses concurrents, de nouvelles entreprises émergent à moyen terme, etc. Ce n'est pas vrai dans le secteur bancaire, comme on a pu le vérifier une nouvelle fois en 2008.</s><s xml:id="_7wAWgNb" coords="3,88.47,139.32,298.54,8.80;3,63.00,151.35,324.02,8.80;3,63.00,163.38,152.40,8.80">Même si les actionnaires peuvent effectivement perdre leur investissement dans la banque, ils n'internalisent pas l'effet d'une faillite de celle-ci sur le reste du système financier et de l'économie.</s><s xml:id="_yQyxSad" coords="3,217.90,163.38,169.10,8.80;3,63.00,175.41,201.13,8.80">Encore une fois, ils sont amenés à prendre plus de risque qu'il ne serait socialement optimal.</s><s xml:id="_yDm4qnv" coords="3,267.03,175.41,119.98,8.80;3,63.00,187.44,299.56,8.80">C'est notamment pourquoi ils donnent aux dirigeants des banques de fortes incitations à la prise de risque.</s><s xml:id="_hnNPzz8" coords="3,364.67,187.44,22.34,8.80;3,63.00,199.47,324.03,8.80;3,63.00,211.50,324.04,8.80;3,63.00,223.52,249.61,8.80">Selon <ref type="bibr" coords="3,63.00,199.47,80.52,8.80" target="#b3">Core et Guay (2010)</ref>, les plans de « stock-options » sont tels que les incitations à la prise de risque des dirigeants de banques sont deux fois plus importantes que celles de dirigeants d'entreprises non financières comparables.</s></p><p xml:id="_FsaEuPY"><s xml:id="_BFHexDc" coords="3,78.00,241.55,309.09,8.80;3,63.00,253.58,324.02,8.80;3,63.00,265.61,283.70,8.80">La prise de risque est évidemment désirable dans de nombreux cas, et il est important de laisser les banques prendre des risques pour assurer la liquidité et l'efficience des marchés, et le financement des activités économiques.</s><s xml:id="_z6ueHYG" coords="3,349.73,265.61,37.27,8.80;3,63.00,277.64,324.00,8.80;3,63.00,289.67,324.03,8.80;3,63.00,301.70,51.98,8.80">Pourtant, pour les deux raisons susmentionnées, les banques sont naturellement portées à prendre trop de risque, ce qui est susceptible d'avoir des effets déstabilisateurs dévastateurs.</s><s xml:id="_ztHW26f" coords="3,117.48,301.70,122.41,8.80">Comment peut-on y remédier?</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_CdwRrwM" coords="3,63.00,331.73,49.95,8.80">mesuRes</head><p xml:id="_M7DSg4E"><s xml:id="_Pgjt2Sn" coords="3,78.00,349.76,215.98,8.80">L'analyse qui précède suggère deux types de mesures.</s><s xml:id="_TEMsn7R" coords="3,78.00,367.79,309.00,8.80;3,63.00,379.82,323.97,8.80;3,63.00,391.85,90.85,8.80">Premièrement, il s'agit de contrebalancer la prise de risque imputable aux subventions publiques explicites et implicites accordées au financement des banques par dépôt et par dette.</s><s xml:id="_z2kDCFZ" coords="3,156.93,391.85,230.08,8.80;3,63.00,403.88,155.98,8.80">La solution miracle n'existe pas, mais un mécanisme de régulation devrait viser deux objectifs.</s><s xml:id="_FDshwsZ" coords="3,221.87,403.88,165.15,8.80;3,63.00,415.91,324.00,8.80;3,63.00,427.94,173.50,8.80">D'une part, il s'agirait de faire payer aux banques le coût réel de leur financement par dépôts et par dette, par exemple en imposant une taxe sur cette partie du passif.</s><s xml:id="_7YRJ47w" coords="3,238.62,427.94,148.38,8.80;3,63.00,439.97,323.97,8.80;3,63.00,452.00,324.00,8.80;3,63.00,464.03,107.17,8.80">Dans la même veine, <ref type="bibr" coords="3,323.24,427.94,63.76,8.80" target="#b10">Zingales (2009)</ref> préconise d'imposer spécifiquement la dette de court terme, qui est encore plus dangereuse du fait que le risque de renouvellement de la dette (« rollover risk ») associé est plus important.</s><s xml:id="_Vbk53Uu" coords="3,173.05,464.03,213.90,8.80;3,63.00,476.06,302.24,8.80">D'autre part, cette taxe devrait refléter la distribution des pertes possibles qui ne pourraient être absorbées par les fonds propres.</s><s xml:id="_w5kM8u2" coords="3,368.05,476.06,18.90,8.80;3,63.00,488.09,324.00,8.80">Pour simplifier, plus l'espérance de perte est élevée, plus le taux d'imposition est élevé.</s><s xml:id="_Wu2vZPN" coords="3,63.00,500.11,324.00,8.80;3,63.00,512.14,197.58,8.80">L'outil des « stress tests », déjà utilisé par les régulateurs pour évaluer la solidité des banques, pourrait aussi être utilisé à cette fin.</s></p><p xml:id="_Us9QVgy"><s xml:id="_FzKwCTW" coords="3,78.00,530.17,308.99,8.80;3,63.00,542.20,306.95,8.80">En outre, dans la mesure où les gouvernements se portent au secours des banques nationales, nul besoin de coordonner une telle action au niveau international.</s><s xml:id="_Q4dMySn" coords="3,372.36,542.20,14.65,8.80;3,63.00,554.23,324.06,8.80;3,63.00,566.26,323.92,8.80;3,63.00,578.29,47.08,8.80">Les pays qui ne mettraient pas en place de telles mesures auraient des banques plus instables, et leurs contribuables devraient payer de plus lourdes factures lorsqu'elles font faillite.</s></p><p xml:id="_ZJkapGf"><s xml:id="_74FCMur" coords="3,78.00,596.32,308.99,8.80;3,63.00,608.35,324.00,8.80;3,63.00,620.38,323.98,8.80;4,63.00,91.20,289.87,8.80">Notons que l'idée de taxer les profits des banques, donc leurs fonds propres, aurait exactement l'effet inverse de celui recherché : il encouragerait encore davantage les banques à recourir au financement par dette, lequel les incite à la prise de risque excessive, ce qui les fragilise et augmente le risque systémique.</s><s xml:id="_xTAWeD5" coords="4,355.13,91.20,31.87,8.80;4,63.00,103.20,324.00,8.80;4,63.00,115.21,324.02,8.80;4,63.00,127.21,282.58,8.80">Comme noté par <ref type="bibr" coords="4,98.29,103.20,50.24,8.80" target="#b9">Rajan (2010)</ref>, cela encouragerait également les banques saines à générer leurs profits dans des véhicules externes, et cela récompenserait les banques mal gérées et peu profitables en leur permettant de survivre et de s'étendre.</s></p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p xml:id="_uxQSTKf"><s xml:id="_C7Ymggn" coords="1,63.00,90.96,192.41,7.04">L'Actualité économique, Revue d'analyse économique, vol.</s><s xml:id="_f2SJZAT" coords="1,257.41,90.54,58.76,7.46">89, n o 2, juin 2013</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p xml:id="_vefYHFF"><s xml:id="_Xn5ddEG" coords="4,78.00,144.22,309.00,8.80;4,63.00,156.22,59.86,8.80">Au contraire, il s'agit fondamentalement d'augmenter le coût relatif du financement par dette.</s><s xml:id="_swN2mHp" coords="4,125.57,156.22,261.44,8.80;4,63.00,168.23,324.01,8.80;4,63.00,180.23,50.70,8.80">Notons que cet objectif pourrait également être atteint en subventionnant le financement par fonds propres, par exemple en n'imposant pas les profits des banques.</s><s xml:id="_bRmrF9q" coords="4,116.23,180.23,257.14,8.80">Cependant, une telle mesure ne semble pas politiquement viable.</s><s xml:id="_Wb7WQAy" coords="4,375.90,180.23,11.11,8.80;4,63.00,192.23,323.96,8.80;4,63.00,204.24,324.02,8.80;4,63.00,216.24,66.94,8.80;4,78.00,233.25,308.99,8.80;4,63.00,245.25,324.00,8.80;4,63.00,257.26,208.88,8.80">En outre, il semble normal de faire en sorte que les banques fassent face au coût réel de leur financement par dette en ajustant celui-ci à la hausse, par exemple par le biais d'un impôt.Deuxièmement, afin de contrebalancer l'effet des activités des banques sur le risque systémique, il faudrait également taxer certaines d'entre elles, précisément en fonction de leur contribution au risque systémique.</s><s xml:id="_4ME4vc6" coords="4,273.92,257.26,113.06,8.80;4,63.00,269.26,324.04,8.80;4,63.00,281.26,224.05,8.80">Par exemple, l'octroi de prêts hypothécaires à des particuliers dont les revenus sont stables et l'apport personnel élevé ne contribue quasiment pas au risque systémique.</s><s xml:id="_QqkAfn2" coords="4,289.98,281.26,97.03,8.80;4,63.00,293.27,323.95,8.80;4,63.00,305.27,141.48,8.80">De même pour les prêts à des entreprises en bonne santé financière ou dont l'activité est peu dépendante des conditions macroéconomiques.</s><s xml:id="_sHU3Whm" coords="4,207.48,305.27,179.53,8.80;4,63.00,317.28,324.02,8.80;4,63.00,329.28,69.73,8.80;4,78.00,346.29,291.66,8.80">Ce type d'activités n'aurait pas besoin d'être taxé, d'autant qu'elles favorisent la croissance économique et devraient au contraire être encouragées.En revanche, d'autres activités sont potentiellement déstabilisatrices.</s><s xml:id="_dgUt2f7" coords="4,372.92,346.29,14.09,8.80;4,63.00,358.29,324.04,8.80;4,63.00,370.29,323.97,8.80;4,63.00,382.30,324.01,8.80;4,63.00,394.30,141.86,8.80">Par exemple, conduire des transactions avec d'autres institutions financières de gréà-gré (donc sans chambre de compensation) contribue typiquement fortement au risque systémique, puisque l'effondrement d'une institution financière met alors de nombreuses autres en difficulté.</s><s xml:id="_SQSGmvT" coords="4,207.89,394.30,179.17,8.80;4,63.00,406.31,324.01,8.80;4,63.00,418.31,323.99,8.80;4,63.00,430.32,78.39,8.80">Il n'est pas nécessaire d'interdire ce type de transactions, mais il faudrait les taxer suffisamment pour que les actionnaires des banques fassent face à leur coût réel, une fois intégrées les externalités négatives qu'elles engendrent.</s><s xml:id="_H8Uk7CJ" coords="4,143.47,430.32,243.50,8.80;4,63.00,442.32,324.00,8.80;4,63.00,454.32,323.90,8.80;4,63.00,466.33,323.95,8.80;4,63.00,478.33,323.92,8.80;4,63.00,490.34,212.53,8.80;4,78.00,507.34,308.98,8.80;4,63.00,519.35,31.02,8.80">Une telle mesure est d'autant plus importante que la recherche récente<ref type="bibr" coords="4,93.99,442.32,64.69,8.80" target="#b1">(Acharya, 2009;</ref><ref type="bibr" coords="4,160.77,442.32,83.81,8.80" target="#b4">Farhi et Tirole, 2012)</ref> souligne que les banques ont intérêt à prendre des risques fortement corrélés entre eux, afin qu'elles soient toutes en situation délicate en même temps, de sorte que les autorités publiques n'aient d'autre choix que de les secourir afin d'éviter un effondrement total de l'intermédiation financière aux répercussions terribles sur l'économie.Dans ce cas, le problème de la coordination internationale des réglementations se pose.</s><s xml:id="_NbacWV7" coords="4,96.11,519.35,290.90,8.80;4,63.00,531.35,323.96,8.80;4,63.00,543.35,143.12,8.80;4,78.00,560.36,309.01,8.80;4,63.00,572.36,323.97,8.80;4,63.00,584.37,324.00,8.80;4,63.00,596.37,82.47,8.80">Pour éviter les arbitrages réglementaires, il faudrait que les grands centres financiers s'accordent pour coordonner leurs politiques en la matière, et pour imposer des sanctions sur les « free riders ».Les recettes ainsi récoltées par le biais de ces deux types de taxes (sur les dépôts et dettes des banques d'une part, sur leurs activités qui contribuent au risque systémique d'autre part), pourraient alimenter un fonds de sauvegarde du système bancaire et financier.</s><s xml:id="_5jhxpR5" coords="4,147.55,596.37,239.43,8.80;4,63.00,608.38,324.03,8.80;4,63.00,620.38,185.55,8.80">Ce fonds assurerait que les faillites bancaires occasionnelles, qui ne manqueront tout de même pas de survenir tôt ou tard, puissent être payées sans impact négatif sur les finances publiques.</s><s xml:id="_b7JBff5" coords="4,251.11,620.38,135.86,8.80">Rappelons cependant que l'intérêt</s></p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,102.65,91.20,284.35,8.80;5,63.00,103.20,324.02,8.80;5,63.00,115.20,119.49,8.80;5,78.00,133.20,309.00,8.80;5,63.00,145.20,323.98,8.80;5,63.00,157.20,324.03,8.80;5,63.00,169.20,324.00,8.80;5,63.00,181.20,323.98,8.80;5,63.00,193.20,323.99,8.80;5,63.00,205.20,323.94,8.80;5,63.00,217.20,285.18,8.80;5,186.67,247.20,76.66,8.80" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" xml:id="_kdTYvBD">Malacologie mediterranéenne et littorale; ou, Description des mollusques qui vivent dans la Méditerranée ou sur le continent de l&apos;Italie, ainsi que des coquilles qui se trouvent dans les terrains tertiaires italiens, avec des observations sur leur anatomie, leurs moeurs, leur analogie et leur gisement. Ouvrage servant de faune malacologique italienne et de complément à la Conchiologia fossile subapennina de Brocchi</title>
+		<author>
+			<persName><forename type="first">Francois</forename><forename type="middle">Joseph</forename><surname>Cantraine</surname></persName>
+		</author>
+		<idno type="DOI">10.5962/bhl.title.12999</idno>
+		<imprint>
+			<date type="published" when="1838" />
+			<publisher>Impr. par A. Braulart</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de ces taxes réside dans leur effet incitatif, et non pas dans leur effet redistributif. Établies au bon niveau, elles assureraient que la prise de risque des banques ne soit pas excessive. Dans l&apos;état actuel des choses, les banques bénéficient de subventions publiques et de conditions telles qu&apos;il est dans leur intérêt de prendre trop de risques, avec les conséquences néfastes que l&apos;on connaît pour le reste de l&apos;économie. Nous avons proposé un mécanisme d&apos;imposition qui ferait potentiellement en sorte de récon- cilier l&apos;intérêt des actionnaires des banques avec l&apos;intérêt général. Ce mécanisme répondrait également au mouvement légitime de protestation envers la finance, il renforcerait la stabilité du système financier et il pourrait avantageusement se substituer à des mesures alternatives à l&apos;impact potentiellement néfaste. BIBLIOGRAPHIE</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,265.20,324.02,8.80;5,72.00,277.20,252.75,8.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_y6g8Xra">A theory of systemic risk and design of prudential bank regulation</title>
+		<author>
+			<persName coords=""><forename type="first">Viral</forename><forename type="middle">V</forename><surname>Acharya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jfs.2009.02.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ywraYZh">Journal of Financial Stability</title>
+		<title level="j" type="abbrev">Journal of Financial Stability</title>
+		<idno type="ISSN">1572-3089</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="224" to="255" />
+			<date type="published" when="2009-09">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">AcHaRya, V. V. (2009), « A Theory of Systemic Risk and Design of Prudential Bank Regulation », Journal of Financial Stability, 5 : 224-255.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,291.20,324.00,8.80;5,72.00,303.20,100.31,8.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_c3xucdc">How to fix bankers&apos; pay</title>
+		<author>
+			<persName coords=""><forename type="first">Lucian</forename><forename type="middle">A</forename><surname>Bebchuk</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Spamann</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/daed_a_00042</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Uk6Qksm">Daedalus</title>
+		<title level="j" type="abbrev">Daedalus</title>
+		<idno type="ISSN">0011-5266</idno>
+		<idno type="ISSNe">1548-6192</idno>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="52" to="60" />
+			<date type="published" when="2010-10">2010</date>
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BebcHuk, L. et H. Spamann (2010), « Regulating Bankers&apos; Pay », Georgetown Law Journal, 98(2) : 247-287.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,317.20,324.04,8.80;5,72.00,329.20,233.16,8.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_sEHbyhe">Is There a Case for Regulating Executive Pay in the Financial Services Industry?</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">E</forename><surname>Core</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wayne</forename><forename type="middle">R</forename><surname>Guay</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.1544104</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_666xjta">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CoRe, J. E. et W. R Guay (2010), « Is There a Case for Regulating Executive Pay in the Financial Services Industry? », Papier de recherche.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,343.20,324.00,8.80;5,72.00,355.20,262.15,8.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_RuNWZy2">Collective Moral Hazard, Maturity Mismatch, and Systemic Bailouts</title>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Farhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><surname>Tirole</surname></persName>
+		</author>
+		<idno type="DOI">10.1257/aer.102.1.60</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RAwUnne">American Economic Review</title>
+		<title level="j" type="abbrev">American Economic Review</title>
+		<idno type="ISSN">0002-8282</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="60" to="93" />
+			<date type="published" when="2012-02-01">2012</date>
+			<publisher>American Economic Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">FaRHI, E. et J. TIRoLe (2012), « Collective Moral Hazard, Maturity Mismatch, and Systemic Bailouts », American Economic Review, 102(1) : 60-93.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,369.20,324.03,8.80;5,72.00,381.20,315.00,8.80;5,72.00,393.20,62.37,8.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_5puzA9V">The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration</title>
+		<author>
+			<persName><forename type="first">Sanford</forename><forename type="middle">J</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><forename type="middle">D</forename><surname>Hart</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/261404</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wRjRzYu">Journal of Political Economy</title>
+		<title level="j" type="abbrev">Journal of Political Economy</title>
+		<idno type="ISSN">0022-3808</idno>
+		<idno type="ISSNe">1537-534X</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="691" to="719" />
+			<date type="published" when="1986-08">1986</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GRossman, S. J. et O. H. HaRt (1986), « The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration », Journal of Political Economy, 94(4) : 691-719.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,407.20,324.00,8.80;5,72.00,419.20,315.00,8.80;5,72.00,431.20,59.74,8.80" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_qT63qmB">Theory of the firm: Managerial behavior, agency costs and ownership structure</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">H</forename><surname>Meckling</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-405x(76)90026-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sVsHaaW">Journal of Financial Economics</title>
+		<title level="j" type="abbrev">Journal of Financial Economics</title>
+		<idno type="ISSN">0304-405X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="305" to="360" />
+			<date type="published" when="1976-10">1976</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jensen, M. C. et W. H. MeckLIng (1976), « Theory of the Firm: Managerial Behav- ior, Agency Costs and Ownership Structure », Journal of Financial Economics, 3(4) : 305-360.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,445.20,324.04,8.80;5,72.00,457.20,196.41,8.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_WJSBn34">Top‐Management Compensation and Capital Structure</title>
+		<author>
+			<persName><forename type="first">Teresa</forename><forename type="middle">A</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kose</forename><surname>John</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1540-6261.1993.tb04026.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BSaR73W">The Journal of Finance</title>
+		<title level="j" type="abbrev">The Journal of Finance</title>
+		<idno type="ISSN">0022-1082</idno>
+		<idno type="ISSNe">1540-6261</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="949" to="974" />
+			<date type="published" when="1993-07">1993</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">JoHn, T. A. et K. joHn (1993), « Top Management Compensation and Capital Structure », Journal of Finance, 48(3) : 949-974.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,471.20,323.99,8.80;5,72.00,483.20,293.49,8.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_7mec2sw">Deposit Insurance and Bank Regulation: A Partial-Equilibrium Exposition</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">H</forename><surname>Kareken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neil</forename><surname>Wallace</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/296006</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BYm7Wwz">The Journal of Business</title>
+		<title level="j" type="abbrev">J BUS</title>
+		<idno type="ISSN">0021-9398</idno>
+		<idno type="ISSNe">1537-5374</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">413</biblScope>
+			<date type="published" when="1978-01">1978</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">KaReken, J. et N. WaLLace (1978), « Deposit Insurance and Bank Regulation: A Partial Equilibrium Exposition », Journal of Business, 51(3) : 413-438.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,497.20,324.00,8.80;5,72.00,509.20,125.81,8.80" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_RYY2yse">The Financial Sector</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Rajan</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119205333.ch7</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4BjnCK9">Financial Times du 25 janvier</title>
+		<imprint>
+			<biblScope unit="page" from="125" to="143" />
+			<date type="published" when="2010">2010</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note>Comment</note>
+	<note type="raw_reference">Rajan, R. (2010), « A Better Way to Reduce Financial Sector Risk », Financial Times du 25 janvier, Comment.</note>
+</biblStruct>
+
+<biblStruct coords="5,63.00,523.20,324.01,8.80;5,72.00,535.20,178.87,8.80" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_aJHvw97">Figure 14. Health reform and higher employment would help stabilise debt</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Zingales</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/888933662559</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vCzWQM8">Financial Times</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+		</imprint>
+	</monogr>
+	<note>Comment</note>
+	<note type="raw_reference">ZIngaLes, L. (2009), « A Tax on Short-term Debt Would Stabilise the System », Financial Times du 16 décembre, Comment.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_HuMsgUZ">IDENTIFICATION PARTIELLE : MÉTHODES ET CONSÉQUENCES POUR LES APPLICATIONS EMPIRIQUES*</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,63.00,218.33,76.93,8.80"><forename type="first">Thierry</forename><surname>Magnac</surname></persName>
+							<email>thierry.magnac@tse-fr.eu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">École d&apos;Économie de Toulouse (TSE)</note>
+								<orgName type="department">École d&apos;Économie de Toulouse (TSE)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_YHWkUwz">IDENTIFICATION PARTIELLE : MÉTHODES ET CONSÉQUENCES POUR LES APPLICATIONS EMPIRIQUES*</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DDB661D69692EED497187B7A0E9C413A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T21:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-12-g5c1957b1e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_CWsgfxz"><p xml:id="_yEg7f6T"><s xml:id="_RyR7sSq" coords="1,84.83,290.07,302.21,7.83;1,78.00,301.07,173.83,7.83">Yet, there is enormous scope for fruitful inference using weaker and more credible assumptions that partially identify parameters.</s><s xml:id="_VDvQb3q" coords="1,254.31,300.99,4.50,7.92;1,78.00,317.99,309.00,7.92">» Charles <ref type="bibr" coords="1,106.31,317.99,50.08,7.92" target="#b44">Manski (2005)</ref>, Partial Identification in Econometrics, New Palgrave Dictionary.</s><s xml:id="_SJf5mBp" coords="1,78.00,346.99,308.96,7.92;1,78.00,358.07,309.04,7.83;1,78.00,369.07,309.03,7.83;1,78.00,380.07,48.07,7.83">« The partial identification approach advocates a more fluid view of identification and hence provides the empirical researcher with methods to help study the spectrum of information that we can harness about a parameter of interest using a menu of assumptions.</s><s xml:id="_HZ6VnrK" coords="1,128.55,379.99,4.50,7.92;1,78.00,396.99,308.99,7.92;1,78.00,408.07,42.45,7.83">» Elie Tamer (2010), « Partial Identification in Econometrics », Annual Review of Economics, IntroductIon La démarche empirique (en économie et ailleurs) est une démarche interprétative puisque les données économiques observationnelles ou expérimentales ne sont pas interprétables de façon brute.</s><s xml:id="_AH4kVhA" coords="1,122.70,407.99,4.50,7.92">On interprète ces données très couramment de façon implicite, ou plus rarement de façon explicite, en utilisant des modèles économiques.</s><s xml:id="_bF3y3Ry" coords="1,129.45,407.99,2.50,7.92">Ces modèles, qu'ils soient sous forme structurelle ou réduite, sont écrits en fonction de paramètres qui peuvent inclure de façon générale des paramètres fonctionnels comme des distributions de termes d'hétérogénéité inobservable des agents.</s><s xml:id="_RSnbNkQ" coords="1,134.20,407.99,16.06,7.92">Dans L'Actualité économique, Revue d'analyse économique, vol.</s><s xml:id="_6dadATf" coords="1,150.26,407.99,12.05,7.92">89, n o 4, décembre 2013 ___________ * Cette revue fait suite à une présentation invitée à la réunion de la Société canadienne de science économique à Québec en mai 2013.</s><s xml:id="_AbYeCAG" coords="1,63.00,462.33,53.88,8.80">Je remercie Bruce Shearer, Christian Bontemps, Marc Henry, Eric Maurin et les participants à cette conférence pour leurs remarques.</s><s xml:id="_AfunywA" coords="1,78.00,480.33,10.20,8.80">La responsabilité des erreurs et omissions de ce texte m'incombe entièrement.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_dqZ5BeB"><p xml:id="_sk48ug8"><s xml:id="_nk73j3N" coords="2,63.00,91.20,323.92,8.80;2,63.00,103.23,233.04,8.80">la plupart des cas, seul un sous-ensemble de ces paramètres est interprétable économiquement et constitue les paramètres dits d'intérêt.</s></p><p xml:id="_V6k6cRF"><s xml:id="_sAQJanG" coords="2,78.00,121.26,308.97,8.80;2,63.00,133.28,324.01,8.80;2,63.00,145.31,324.00,8.80;2,63.00,157.34,61.92,8.80">Au niveau abstrait d'une population de taille infinie dans laquelle sont tirés les échantillons de travail, les données sont décrites sous forme réduite par des fonctions de répartition des variables économiques, ces variables étant choisies par l'économétre appliqué.</s><s xml:id="_uEmxth9" coords="2,127.24,157.34,259.74,8.80;2,63.00,169.37,324.04,8.80;2,63.00,181.40,257.70,8.80">La démarche d'identification consiste alors en la mise en relation de ces fonctions de répartition avec celles qui sont construites à l'aide des modèles structurels pour en déduire les valeurs des paramètres d'intérêt.</s><s xml:id="_xu67tk6" coords="2,323.59,181.40,63.43,8.80;2,63.00,193.42,323.95,8.80;2,63.00,205.45,324.00,8.80;2,63.00,217.48,60.53,8.80">Si cette relation est univoque, on dit que les paramètres sont identifiés ponctuellement et c'est cette présentation qu'on trouve dans les manuels avancés d'économétrie (par exemple <ref type="bibr" coords="2,63.00,217.48,56.13,8.80" target="#b27">Greene, 2008)</ref>.</s></p><p xml:id="_6NMTQr9"><s xml:id="_F2dNYFJ" coords="2,78.00,235.51,309.00,8.80;2,63.00,247.54,323.97,8.80;2,63.00,259.57,324.04,8.80;2,63.00,271.59,305.43,8.80">L'importance de cette notion d'identification s'est vue remise en cause dans les 20 dernières années par Manski et ses coauteurs (1989 et années subséquentes) dans des modèles de traitements, de sélection ou de censure et cette remise en cause a donné lieu à une littérature qui s'amplifie dans les années récentes.</s><s xml:id="_UC9AtQV" coords="2,371.36,271.59,15.67,8.80;2,63.00,283.62,324.00,8.80;2,63.00,295.65,323.99,8.80;2,63.00,307.68,323.95,8.80;2,63.00,319.71,323.93,8.80;2,63.00,331.73,324.02,8.80;2,63.00,343.76,323.98,8.80;2,63.00,355.79,323.98,8.80;2,63.00,367.82,77.51,8.80">Des travaux précurseurs sur l'identification ensembliste ou partielle avaient été développés dès <ref type="bibr" coords="2,109.63,295.65,47.20,8.80" target="#b24">Gini (1921)</ref> et <ref type="bibr" coords="2,170.45,295.65,55.22,8.80" target="#b20">Frisch (1934)</ref> pour le modèle de régression simple à erreurs de mesure, <ref type="bibr" coords="2,143.00,307.68,120.73,8.80" target="#b48">Marschak et Andrews (1944)</ref> pour les modèles à équations simultanées, <ref type="bibr" coords="2,113.92,319.71,66.85,8.80">Hoeffding (1943)</ref> et <ref type="bibr" coords="2,191.80,319.71,55.99,8.80">Fréchet (1955)</ref> pour les bornes sur les distributions jointes de variables dont seules les distributions marginales sont observables (dans deux enquêtes différentes par exemple) et par <ref type="bibr" coords="2,243.11,343.76,101.83,8.80" target="#b38">Klepper et Leamer (1984)</ref> et <ref type="bibr" coords="2,356.22,343.76,30.75,8.80;2,63.00,355.79,24.17,8.80" target="#b39">Leamer (1987)</ref>, par exemple pour le modèle de régression multiple à erreurs de mesure sur toutes les variables.</s><s xml:id="_NKBAytW" coords="2,142.62,367.82,244.39,8.80;2,63.00,379.85,324.04,8.80;2,63.00,391.87,324.02,8.80;2,63.00,403.90,32.48,8.80">Ces travaux étaient restés peu connus et peu utilisés jusqu'aux travaux menés par Manski et que lui-même a repris dans un livre <ref type="bibr" coords="2,324.70,379.85,62.34,8.80" target="#b43">(Manski, 2003)</ref> ou plus brièvement dans un article dont la citation en exergue de cette revue est extraite.</s><s xml:id="_WFt5XFj" coords="2,97.70,403.90,289.30,8.80;2,63.00,415.93,323.99,8.80;2,63.00,427.96,324.02,8.80;2,63.00,439.99,73.76,8.80">De nombreux étudiants de Manski contribueront à développer cette littérature et parmi eux, Elie Tamer et Francesca Molinari pour ne citer qu'eux (par exemple la revue <ref type="bibr" coords="2,132.47,427.96,59.12,8.80">de Tamer, 2010</ref>, et l'article fondateur <ref type="bibr" coords="2,280.73,427.96,106.30,8.80;2,63.00,439.99,69.68,8.80">de Beresteanu, Molinari et Molchanov, 2011)</ref>.</s></p><p xml:id="_PYKDx6k"><s xml:id="_9f77pUE" coords="2,78.00,458.01,309.00,8.80;2,63.00,470.04,176.98,8.80">Le raisonnement général qui mène à l'identification partielle part de la notion d'incomplétude des données ou des modèles.</s><s xml:id="_9jz9VAT" coords="2,242.08,470.04,144.93,8.80;2,63.00,482.07,324.03,8.80;2,63.00,494.10,199.29,8.80">En premier lieu, les données peuvent être incomplètes à cause de mécanismes de censure, de l'utilisation de deux bases de données différentes ou de deux états exclusifs.</s><s xml:id="_FPQq5Eb" coords="2,265.03,494.10,121.98,8.80;2,63.00,506.13,323.96,8.80;2,63.00,518.16,323.95,8.80">Pour l'évaluation de politiques publiques, les données observationnelles sont incomplètes puisque les individus ne peuvent jamais être observés simultanément en traitement et hors du traitement.</s><s xml:id="_Yv5tM89" coords="2,63.00,530.18,324.01,8.80;2,63.00,542.21,82.01,8.80">Les modèles structurels peuvent aussi être incomplets s'ils ne spécifient pas de solutions univoques.</s><s xml:id="_sYfAmxs" coords="2,147.98,542.21,239.00,8.80;2,63.00,554.24,249.22,8.80">Un exemple classique de ce cas de figure est fourni par les équilibres multiples dans les jeux <ref type="bibr" coords="2,198.92,554.24,108.96,8.80">(Tamer, 2003, par exemple)</ref>.</s><s xml:id="_QXDVJtT" coords="2,314.66,554.24,72.34,8.80;2,63.00,566.27,323.94,8.80;2,63.00,578.30,160.87,8.80">Le modèle économique ne spécifie pas quel est le mécanisme de sélection (stochastique ou non) du seul équilibre observé dans les données.</s></p><p xml:id="_VyAVjra"><s xml:id="_J4f2MHw" coords="2,78.00,596.32,309.01,8.80;2,63.00,608.35,324.01,8.80;2,63.00,620.38,324.00,8.80">La façon de procéder la plus commune dans la littérature appliquée est de faire des hypothèses pour compléter les données ou pour rendre complets les modèles car par construction, leurs paramètres deviennent alors identifiables ponctuellement.</s></p><p xml:id="_sy4aEBy"><s xml:id="_YJyVRMk" coords="3,63.00,91.20,324.00,8.80;3,63.00,103.38,324.02,8.80;3,63.00,115.56,323.99,8.80;3,63.00,127.74,275.96,8.80">Par exemple, on spécifiera des variables latentes complémentaires ou leurs distributions, pour compléter les données comme dans les modèles de censure ou de traitement, ou des mécanismes qui rendent univoque la solution des modèles économiques, comme un mécanisme de sélection d'équilibre dans un jeu.</s><s xml:id="_J2TZjwm" coords="3,340.82,127.74,46.16,8.80;3,63.00,139.92,316.23,8.80">Néanmoins, cette procédure est arbitraire et l'identification ponctuelle devient peu crédible.</s></p><p xml:id="_5c3kWMN"><s xml:id="_H3y7uby" coords="3,78.00,158.10,308.99,8.80">Cette démarche fournit pourtant l'intuition première de l'identification partielle.</s><s xml:id="_cmJ3qNJ" coords="3,63.00,170.28,323.93,8.80;3,63.00,182.46,324.01,8.80;3,63.00,194.64,324.02,8.80;3,63.00,206.82,192.12,8.80">L'analyse des données se conduit en examinant TOUTES les hypothèses arbitraires acceptables, c'est-à-dire compatibles avec nos a priori, et en rassemblant dans un ensemble identifié toutes les valeurs des paramètres ponctuellement identifiées auxquelles chacune de ces hypothèses conduit.</s><s xml:id="_r5XtSEf" coords="3,258.18,206.82,128.78,8.80;3,63.00,219.00,324.04,8.80;3,63.00,231.17,323.95,8.80;3,63.00,243.35,309.77,8.80">L'acceptabilité d'une hypothèse dépendra des applications et ces hypothèses seront ensemblistes (par exemple, une probabilité de sélection d'équilibre appartient à l'intervalle [0,1], ou des valeurs censurées sont bornées) ou fonctionnelles <ref type="bibr" coords="3,242.65,243.35,126.67,8.80">(monotonicité, concavité, etc.)</ref>.</s><s xml:id="_jAKXnbt" coords="3,376.00,243.35,10.99,8.80;3,63.00,255.53,323.98,8.80;3,63.00,267.71,127.57,8.80">La puissance identifiante de différentes hypothèses pourra être comparée en termes de taille de l'ensemble identifié.</s></p><p xml:id="_qMss7us"><s xml:id="_x2MYdqv" coords="3,78.00,285.89,308.99,8.80">L'identification partielle semble donc être fort différente du cadre traditionnel.</s><s xml:id="_wyepNsQ" coords="3,63.00,298.07,324.01,8.80;3,63.00,310.25,324.00,8.80;3,63.00,322.43,29.87,8.80">Néanmoins, quand on revient aux autres étapes du travail empirique d'estimation et de construction d'intervalles de confiance, cette construction s'adapte naturellement.</s><s xml:id="_ZGW5FtA" coords="3,95.93,322.43,291.07,8.80;3,63.00,334.61,324.03,8.80;3,63.00,346.79,117.54,8.80">Pour l'estimation, on remplace des estimateurs ponctuels du paramètre d'intérêt par des estimateurs ensemblistes par exemple bâtis à partir de l'estimation de la frontière de l'ensemble.</s><s xml:id="_MJS5HHb" coords="3,183.54,346.79,203.36,8.80;3,63.00,358.97,323.99,8.80;3,63.00,371.15,147.81,8.80">Pour l'inférence, la présentation des intervalles de confiance ne change pas puisque les résultats s'expriment naturellement en termes d'intervalles ou régions de confiance.</s><s xml:id="_45YhNv9" coords="3,212.90,371.15,174.06,8.80;3,63.00,383.33,324.00,8.80;3,63.00,395.51,324.01,8.80;3,63.00,407.69,62.93,8.80">Seule leur interprétation change puisque ces régions de confiance ne sont plus uniquement le résultat de la variabilité de l'échantillonnage mais aussi de l'incertitude radicale sous-jacente quant à l'identification des paramètres.</s></p><p xml:id="_D9rZnph"><s xml:id="_a85wxzz" coords="3,78.00,425.87,309.01,8.80;3,63.00,438.05,86.07,8.80">Cette présentation restera peu technique et s'appuiera sur des exemples du mieux qu'elle pourra.</s><s xml:id="_JTMm2Cr" coords="3,151.71,438.05,235.29,8.80;3,63.00,450.23,324.07,8.80;3,63.00,462.41,324.04,8.80;3,63.00,474.59,150.97,8.80">Le but de cet article est de passer en revue les articles présentant les méthodes (mais certains restent assez arides) pour en extraire les principes généraux et les articles rapportant les résultats d'applications empiriques dont je fais une liste partielle et brève.</s><s xml:id="_KyfWRtp" coords="3,216.22,474.59,170.78,8.80;3,63.00,486.76,323.98,8.80;3,63.00,498.94,72.93,8.80">Je reviens d'abord sur la question de l'identification dans la section 1 pour définir plus précisément les notions évoquées dans cette introduction.</s><s xml:id="_cXeZ7ku" coords="3,138.18,498.94,248.80,8.80;3,63.00,511.12,144.87,8.80">Les méthodes d'inférence sont présentées dans la section 2 qui est la plus technique de cette revue.</s><s xml:id="_6MhxZh5" coords="3,210.84,511.12,176.19,8.80;3,63.00,523.30,323.94,8.80;3,63.00,535.48,323.91,8.80;3,63.00,547.66,135.40,8.80">J'étudie à la fin de la section 2 des cas plus simples d'inférence quand les ensembles identifiés sont convexes, puis je donne un catalogue bien incomplet d'applications empiriques dans la section 3. La dernière section conclut cette présentation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_wtYqFwt" coords="3,63.00,577.84,71.98,8.80">IdentIfIcatIon</head><p xml:id="_qwU7sjA"><s xml:id="_srb9TWz" coords="3,78.00,596.02,308.99,8.80;3,63.00,608.20,323.96,8.80;3,63.00,620.38,324.02,8.80;4,63.00,91.20,324.04,8.80;4,63.00,103.20,208.80,8.80">Après des définitions plus précises des concepts d'identification présentés dans l'introduction, je présente deux exemples, l'un concernant la prédiction linéaire d'une variable dépendante observée avec censure par intervalles (par exemple, <ref type="bibr" coords="4,63.00,91.20,89.97,8.80" target="#b47">Manski et Tamer, 2002)</ref>, et un jeu d'entrée entre deux entreprises dont les réalisations sont observées sur plusieurs marchés <ref type="bibr" coords="4,212.04,103.20,55.40,8.80" target="#b66">(Tamer, 2003)</ref>.</s><s xml:id="_AhRYr5M" coords="4,274.05,103.20,112.89,8.80;4,63.00,115.20,169.87,8.80">Il est important de souligner deux concepts généraux dans ces exemples.</s><s xml:id="_VykRukQ" coords="4,234.91,115.20,152.15,8.80;4,63.00,127.20,323.96,8.80;4,63.00,139.20,324.01,8.80;4,63.00,151.20,32.53,8.80">Premièrement, l'identification partielle a pour conséquence que les équations estimantes peuvent devenir des restrictions de moments à l'inégalité au lieu d'être uniquement des restrictions de moments à l'égalité.</s><s xml:id="_wAHMvnA" coords="4,97.47,151.20,202.10,8.80;4,299.13,150.68,2.84,5.10;4,303.94,151.20,83.05,8.80;4,63.00,163.20,324.00,8.80;4,63.00,175.20,266.83,8.80">On définit aussi le concept d'identification « exacte » 1 qui permet d'affirmer que tous les points de l'ensemble identifié correspondent bien à des hypothèses acceptables ou crédibles de complétion du modèle ou des données.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_AFWQPVW" coords="4,63.00,203.20,55.56,8.80">Définition</head><p xml:id="_2cqawKz"><s xml:id="_VXFkEA7" coords="4,78.00,220.20,309.00,8.80;4,63.00,232.20,323.99,8.80;4,63.00,244.20,264.82,8.80">À un niveau très abstrait qui présuppose qu'on ait défini des variables économiques d'intérêt, Y, qui sont bien sûr multidimensionnelles, les données sont décrites en forme réduite par des fonctions de répartition de ces variables :</s></p><p xml:id="_EdZkHRf"><s xml:id="_gtxcDXk" coords="4,79.81,257.88,70.63,11.90">Pr(Y ≤ y),∀y ∈Y.</s></p><p xml:id="_eQFbsYY"><s xml:id="_74T6HhM" coords="4,78.00,278.20,309.00,8.80;4,63.00,289.82,323.98,9.93;4,63.00,302.20,225.65,8.80">Les modèles économiques sont décrits sous leur forme structurelle par des fonctions de répartition dépendantes d'un paramètre q qui peut être aussi général que l'on veut (par exemple des fonctions de répartition) :</s></p><formula xml:id="formula_0" coords="4,80.00,317.19,82.41,12.88">F(y;θ),∀y ∈Y F ⊃ Y.</formula><p xml:id="_cvmCsyY"><s xml:id="_swnQSrf" coords="4,78.00,336.20,308.97,8.80;4,63.00,348.20,308.25,8.80">Cette définition des fonctions de répartition structurelles peut « emprunter » une partie de leur construction aux distributions marginales des observations.</s><s xml:id="_vgzkZME" coords="4,373.46,348.20,13.52,8.80;4,63.00,360.20,323.98,8.80;4,63.00,372.20,195.65,8.80">Par exemple, on confondra souvent les formes structurelles ou réduites des fonctions de répartition de variables explicatives exogènes.</s></p><p xml:id="_bunmC44"><s xml:id="_cu5RtRH" coords="4,78.00,389.20,309.00,8.80;4,63.00,401.20,24.62,8.80">On peut alors définir ce qu'est la notion d'équivalence observationnelle ponctuelle.</s><s xml:id="_uuCpAE7" coords="4,90.33,400.82,296.66,9.93;4,63.00,412.82,129.51,9.93;4,193.76,412.68,2.90,5.10;4,80.00,431.00,60.85,8.95;4,140.41,428.92,1.39,5.76;4,143.19,431.00,5.62,8.95">On dit que les paramètres q et q' sont observationnellement équivalents si et seulement si pour tout y ∈ Y : 2 F(y;θ) = F(y;θ ' ).</s></p><p xml:id="_gNA57u7"><s xml:id="_HRrWZaz" coords="4,78.00,447.20,308.98,8.80;4,63.00,458.82,144.40,9.93;4,207.39,465.28,2.90,5.10;4,212.79,458.82,95.57,9.93;4,79.81,472.32,70.93,11.90;4,150.97,479.39,3.25,5.82;4,155.22,474.52,5.62,8.95;4,63.00,493.20,276.30,8.80">On fera aussi ici une hypothèse de bonne spécification qui suppose qu'il existe au moins une valeur du paramètre q 0 tel que pour tout y ∈ Y : Pr(Y ≤ y) = F(y;θ 0 ), même s'il est facile d'étendre cette notion à des modèles mal spécifiés.</s><s xml:id="_tunG9xs" coords="4,341.39,493.20,45.65,8.80;4,63.00,505.20,323.98,8.80;4,63.00,517.20,324.01,8.80;4,63.00,529.20,320.78,8.80">Néanmoins la notion d'identification partielle se prête moins bien à cette extension <ref type="bibr" coords="4,335.29,505.20,51.69,8.80;4,63.00,517.20,60.74,8.80" target="#b55">(Ponomareva et Tamer, 2011)</ref> et c'est pourquoi la quasi-totalité de la littérature que nous passons en revue fait implicitement ou explicitement l'hypothèse de bonne spécification.</s></p><p xml:id="_BzuKak8"><s xml:id="_BQvFAnK" coords="4,78.00,545.82,175.96,9.93;4,253.95,552.28,2.90,5.10;4,259.35,546.20,83.43,8.80">L'hypothèse d'identification ponctuelle de q 0 s'écrit alors comme :</s></p><formula xml:id="formula_1" coords="4,78.00,562.43,188.75,36.31">∀θ,∀y;Pr(Y ≤ y) = F(y;θ) = F(y;θ 0 ) ⇒ θ = θ 0 , 1.</formula><p xml:id="_kXrR854"><s xml:id="_rgq3K4g" coords="4,99.00,591.70,288.00,7.04;4,63.00,600.70,48.29,7.04">Mauvaise traduction du difficile « sharp ». D'autres propositions pourraient être « nette » ou « franche ».</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_c7Ewgtk" coords="4,78.00,612.70,6.13,7.04">2.</head><p xml:id="_aXmX7QH"><s xml:id="_zy6WxGW" coords="4,99.00,612.40,287.99,7.94;4,63.00,621.40,31.41,7.94">Formellement, il suffirait de dire pour presque tout y ∈ Y pour la mesure induite par Pr(Y ≤ y).</s><s xml:id="_kR6t9y4" coords="4,96.41,621.70,189.64,7.04">Nous ne précisons pas ces détails techniques dans la suite.</s><s xml:id="_anAe3Nd" coords="5,63.00,91.20,324.01,8.80;5,63.00,102.82,149.47,9.93">et ceci de manière globale ou locale suivant les hypothèses sur le domaine de variation des q dans cette définition<ref type="foot" coords="5,207.02,102.68,2.90,5.10" target="#foot_0">foot_0</ref> .</s></p><p xml:id="_hfNKh3A"><s xml:id="_5DCfS3e" coords="5,78.00,121.20,309.00,8.80;5,63.00,133.20,324.01,8.80;5,63.00,145.20,231.73,8.80">Quand ces notions sont remises en cause car les modèles sont incomplets, on peut adopter une démarche de complétion ou d'augmentation des données en supposant que les observables sont maintenant z = (y, t).</s><s xml:id="_RUghWQK" coords="5,297.77,145.20,89.22,8.80;5,63.00,157.20,324.00,8.80;5,63.00,169.20,323.93,8.80;5,63.00,181.20,187.16,8.80">Comme on l'a évoqué dans l'introduction, ces variables t complètent les données de façon arbitraire et par exemple décrivent les censures c'est-à-dire la valeur exacte de la variable dépendante dans le cas de censure par intervalle.</s><s xml:id="_PuVXf4S" coords="5,252.13,181.20,134.87,8.80;5,63.00,193.20,300.35,8.80">Ces variables peuvent aussi décrire l'équilibre sélectionné dans le cas de jeux générant des équilibres multiples.</s><s xml:id="_NaEc58E" coords="5,365.57,193.20,21.40,8.80;5,63.00,205.20,323.97,8.80;5,63.00,217.20,50.69,8.80;5,113.47,223.06,3.50,5.76;5,117.58,216.82,269.42,9.93;5,63.00,229.20,244.76,8.80">Cette complétion permet de réécrire le modèle au moyen d'une nouvelle fonction de répartition F η (z; q) écrite en fonction du paramètre inconnu, η et qui est la distribution des variables t conditionnellement aux observables y.</s><s xml:id="_qmmKxxs" coords="5,310.78,229.20,76.23,8.80;5,63.00,241.20,266.92,8.80">Ce paramètre n'est pas spécifié par la théorie économique ou par le modèle statistique.</s><s xml:id="_4kwHR7P" coords="5,332.15,241.20,54.84,8.80;5,63.00,252.82,323.99,9.93;5,63.00,264.82,203.62,9.93">Par définition de la complétion du modèle, on supposera que dans le modèle complet où η est donné, le paramètre q est identifié ponctuellement.</s></p><p xml:id="_2ptaJKD"><s xml:id="_sdnASWb" coords="5,78.00,283.20,256.61,8.80">En l'absence d'autres restrictions, il semble difficile de progresser.</s><s xml:id="_dPGwJdQ" coords="5,336.63,283.20,50.31,8.80;5,63.00,294.82,324.00,9.93;5,63.00,306.82,323.99,9.93;5,63.00,319.20,323.99,8.80;5,63.00,331.20,144.31,8.80">On fera donc des restrictions ensemblistes du type, t ∈T, un intervalle par exemple, qui entraîne des restrictions ensemblistes pour η, η ∈ N. La probabilité conditionnelle (à toutes les variables exogènes) de sélection d'un équilibre dans un jeu à équilibres multiples sera bornée entre 0 et 1 par exemple.</s><s xml:id="_xt5TE8h" coords="5,209.43,331.20,177.60,8.80;5,63.00,343.20,324.00,8.80;5,63.00,354.82,151.84,9.93">On peut alors définir l'ensemble identifié par toutes les valeurs possibles du paramètre ponctuellement identifié quand la complétion des données est décrite par η :</s></p><formula xml:id="formula_2" coords="5,79.59,370.38,246.83,50.85">Θ I = θ;∃η ∈N,Pr(Y ≤ y,T ≤ t) = F η (z;θ),∀z = (y,t) ∈Y × T { } = ∪ η∈N θ;Pr(Z ≤ z) = F η (z;θ),∀z ∈Z { }</formula><p xml:id="_HkmVUZz"><s xml:id="_k3Pu2Tp" coords="5,63.00,435.20,324.02,8.80;5,63.00,447.20,323.97,8.80;5,63.00,459.20,141.13,8.80">c'est-à-dire, toute valeur du paramètre d'intérêt qui peut être réconciliée avec les données pour une valeur au moins du paramètre qui décrit l'augmentation des données pour les rendre complètes.</s></p><p xml:id="_sWXGGYB"><s xml:id="_KNa9eVr" coords="5,78.00,477.20,309.01,8.80;5,63.00,489.20,46.22,8.80">On peut alors analyser différentes restrictions suivant leur degré de crédibilité :</s></p><formula xml:id="formula_3" coords="5,80.00,503.00,88.50,12.89">η ∈N 1 ,η ∈N 2 ⊂ N 1 ,...</formula><p xml:id="_nqBsU5g"><s xml:id="_BzSk9Pu" coords="5,78.00,525.20,308.96,8.80;5,63.00,537.20,52.21,8.80">Les deux exemples qui suivent permettent de mettre en pratique cette construction.</s></p><p xml:id="_A33yMRf"><s xml:id="_t83GFfH" coords="6,63.00,91.21,157.47,8.80;6,78.00,109.21,309.00,8.80;6,63.00,121.21,61.04,8.80">1.2 Exemple 1 : censure par intervalles <ref type="bibr" coords="6,78.00,109.21,98.66,8.80" target="#b47">Manski et Tamer (2002)</ref> étudient parmi d'autres modèles, un modèle de prédiction linéaire</s></p><formula xml:id="formula_4" coords="6,80.41,136.03,168.44,14.25">y i * = β 0 + β 1 x i + u i , E(u i ) = E(u i x i ) = 0,</formula><p xml:id="_9mpG2Py"><s xml:id="_Xh8QWsJ" coords="6,63.00,157.21,219.71,8.80">où la variable dépendante est censurée par intervalles :</s></p><formula xml:id="formula_5" coords="6,80.41,169.09,17.41,14.24">y i * ∈</formula><p xml:id="_jZKrDnk"><s xml:id="_gyfak6a" coords="6,103.31,172.73,4.44,8.86;6,107.53,177.57,5.36,5.76;6,114.09,172.65,8.31,8.95;6,122.19,177.57,5.36,5.76;6,130.38,170.45,12.13,11.90;6,142.88,177.57,1.81,5.76;6,98.38,170.82,3.84,14.34;6,146.41,170.82,3.84,14.34;6,63.00,193.21,99.72,8.80;6,162.80,199.34,5.01,5.05;6,168.28,192.83,10.59,9.93;6,178.88,199.34,1.62,5.05;6,183.60,193.21,31.76,8.80;6,215.44,199.34,1.62,5.05;6,220.15,193.21,67.59,8.80;6,287.94,192.69,2.92,5.10;6,291.01,193.21,2.51,8.80">y iL , y iL + δ i ⎡ ⎣ ⎤ ⎦ où seules les variables y iL , d i &gt; 0 et x i sont observables 4 .</s><s xml:id="_v5gceU8" coords="6,296.63,193.21,90.39,8.80;6,63.00,205.21,323.93,8.80;6,63.00,217.21,308.95,8.80">C'est un cas de figure assez courant quand on utilise des données sur les revenus ou la richesse des ménages car certaines enquêtes procèdent par une démarche en deux temps.</s><s xml:id="_VryHpqg" coords="6,374.65,217.21,12.38,8.80;6,63.00,229.21,324.00,8.80;6,63.00,241.21,324.02,8.80;6,63.00,253.21,324.00,8.80;6,63.00,265.21,25.81,8.80">On demandera d'abord aux ménages ou aux individus, le niveau exact de leurs revenus ou patrimoines puis, si les ménages ne veulent pas répondre pour des raisons de confidentialité, l'enquêteur reposera la même question mais sous la forme d'intervalles.</s><s xml:id="_BQaktMc" coords="6,90.96,265.21,162.78,8.80">Votre revenu est-il entre 0 et 500 dollars?</s><s xml:id="_WdnpBnM" coords="6,255.90,265.21,115.02,8.80">ou entre 500 et 1000 dollars?</s><s xml:id="_Bqn8pXy" coords="6,373.04,265.30,13.96,8.70">etc.</s><s xml:id="_Gnfuj9U" coords="6,63.00,277.21,211.67,8.80;6,274.72,283.34,4.97,5.05;6,282.39,276.83,14.87,9.93;6,297.26,283.34,1.61,5.05;6,301.57,277.21,85.43,8.80;6,63.00,289.21,324.02,8.80;6,63.00,301.21,129.49,8.80">On notera dans ce cas que le support des variables y iL et d i est discret et qu'il est construit en utilisant les bornes inférieures et les largeurs d'intervalles décidées par le concepteur de l'enquête.</s><s xml:id="_7dm7ySw" coords="6,195.74,301.21,191.30,8.80;6,63.00,313.21,323.95,8.80;6,63.00,325.21,30.67,8.80">On notera aussi que même si 0 est une borne naturelle inférieure pour les revenus, une borne supérieure n'est pas aussi clairement définie.</s><s xml:id="_Gn4Wq7n" coords="6,96.44,325.21,290.53,8.80;6,63.00,337.21,324.07,8.80;6,63.00,349.21,324.02,8.80;6,63.00,361.21,64.05,8.80">La plupart des études font alors une hypothèse arbitraire sur le montant maximum de la variable dépendante, par exemple le revenu dans l'intervalle observé le plus élevé (par exemple Lee, 2009, quand il évalue les bornes les plus conservatrices).</s></p><p xml:id="_MHQVexQ"><s xml:id="_dqaPT6T" coords="6,78.00,379.21,202.95,8.80;6,280.99,385.34,1.61,5.05;6,285.40,379.21,101.60,8.80;6,63.00,390.83,141.32,9.93;6,203.93,397.29,2.90,5.10;6,206.72,391.21,2.50,8.80">Pour simplifier les notations, on supposera que Ex i = 0 et on ne s'intéressera qu'à l'identification du paramètre b 1 .</s><s xml:id="_Jy3RWzF" coords="6,211.69,391.21,175.34,8.80;6,63.00,403.21,324.03,8.80;6,63.00,415.21,323.99,8.80;6,63.00,427.21,141.25,8.80">Pour les extensions au modèle de prédiction linéaire à plusieurs variables, on pourra se référer à la section 2.3 où les résultats de <ref type="bibr" coords="6,75.07,415.21,50.13,8.80" target="#b64">Stoye (2007)</ref>, <ref type="bibr" coords="6,132.05,415.21,117.76,8.80">Beresteanu et Molinari (2008</ref><ref type="bibr" coords="6,249.80,415.21,137.19,8.80;6,63.00,427.21,25.99,8.80" target="#b4">) et Bontemps, Magnac et Maurin (2012)</ref> sont brièvement développés.</s></p><p xml:id="_QwbDfBk"><s xml:id="_hRUSuEV" coords="6,78.00,445.21,309.03,8.80;6,63.00,457.21,44.03,8.80">On complète maintenant les données pour se ramener au cas d'identification ponctuelle.</s><s xml:id="_4y6uYce" coords="6,109.53,457.21,37.15,8.80">Comme :</s></p><formula xml:id="formula_6" coords="6,80.41,470.34,70.28,14.24">y iL ≤ y i * ≤ y iL + δ i ,</formula><p xml:id="_4ZcpT3k"><s xml:id="_Wb9kacH" coords="6,63.00,493.21,121.20,8.80">on augmente les données par :</s></p><formula xml:id="formula_7" coords="6,79.81,506.62,52.56,12.88">t i ∈E = [0,1],</formula><p xml:id="_Nj4kK2x"><s xml:id="_SKdjymc" coords="6,63.00,529.21,147.48,8.80">de telle manière qu'on puisse écrire :</s></p><formula xml:id="formula_8" coords="6,80.41,543.90,54.28,14.24">y i * = y iL + δ i t i .</formula><p xml:id="_UUqGZ7V"><s xml:id="_n85TUjj" coords="6,78.00,565.21,202.64,8.80;6,280.66,571.34,1.61,5.05;6,284.78,565.21,75.97,8.80">Le chercheur est agnostique quant aux valeurs de t i dans cet intervalle.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_AjCyGJA" coords="6,78.00,594.70,5.94,7.04">4.</head><p xml:id="_FPRDR37"><s xml:id="_2Gj7j7w" coords="6,99.00,594.70,287.98,7.04;6,63.00,603.70,129.87,7.04">L'ensemble est fermé à droite et à gauche par simplicité alors qu'il serait naturel par la convention CADLAG de l'ouvrir à droite.</s><s xml:id="_x8v9X4p" coords="6,194.45,603.70,192.52,7.04;6,63.00,612.70,147.98,7.04">On néglige dans cette littérature ces distinctions topologiques ou on les traite dans les annexes techniques.</s><s xml:id="_n8rX3aw" coords="6,213.64,612.70,173.37,7.04;6,63.00,621.70,32.47,7.04">On considère en général la fermeture des ensembles identifiés.</s></p><p xml:id="_akk6bKn"><s xml:id="_F9K8u2J" coords="7,78.00,90.83,304.02,9.93;7,382.39,97.34,1.66,5.05;7,384.43,91.21,2.58,8.80;7,63.00,102.83,29.36,9.93;7,92.38,109.34,1.61,5.05;7,96.56,100.25,9.01,15.40;7,105.59,109.34,4.95,5.05;7,110.99,102.83,10.01,9.93;7,120.97,109.34,1.61,5.05;7,122.75,103.21,9.51,8.80;7,132.29,109.34,1.61,5.05;7,133.96,103.21,6.02,8.80">On remarquera que η est alors la distribution conditionnelle de t i , η = F(t i | y iL , d i , x i ).</s><s xml:id="_ZRXP4H6" coords="7,142.55,103.21,190.23,8.80">Le cas général inclut donc les cas d'imputation.</s><s xml:id="_v8zk8GW" coords="7,335.35,103.21,51.67,8.80;7,63.00,115.21,324.03,8.80;7,63.00,127.30,4.40,8.70;7,67.20,126.74,2.87,5.05;7,68.38,133.34,1.60,5.05;7,72.25,127.21,188.41,8.80;7,260.66,133.34,1.60,5.05;7,264.30,126.83,122.70,9.93;7,63.00,139.21,266.33,8.80">Par exemple, dans un cas de Probit ou Logit ordonné, on spécifierait que la variable inobservée, y * i est normale ou logistique conditionnellement à x i et donc que η a une distribution normale ou logistique, tronquée à l'intérieur de chaque intervalle.</s><s xml:id="_bQprd3n" coords="7,332.33,139.21,54.63,8.80;7,63.00,150.83,157.32,9.93;7,219.98,157.34,2.90,5.05;7,225.04,150.83,92.16,9.93;7,317.24,157.29,2.90,5.10;7,322.30,151.21,64.72,8.80;7,63.00,163.30,5.07,8.70;7,68.31,169.34,1.64,5.05;7,73.06,163.21,38.17,8.80;7,111.28,162.69,2.94,5.10;7,114.28,163.21,2.54,8.80">Sous l'une de ces hypothèses, le paramètre d'intérêt b 1 est identifié ainsi que b 0 et la variance de u i d'ailleurs 5 .</s><s xml:id="_a3h4Aa3" coords="7,119.95,163.21,267.06,8.80;7,63.00,175.21,323.99,8.80;7,63.00,186.83,118.25,9.93">Néanmoins, l'ensemble identifié est beaucoup plus grand que ce singleton donné par le Probit ou Logit multinomial puisqu'il correspond à toutes les distributions, η, possibles.</s></p><p xml:id="_FQ9PSu7"><s xml:id="_TunPAQ7" coords="7,78.00,205.21,308.97,8.80;7,63.00,217.21,23.43,8.80">Contrairement à l'intuition, une analyse directe du cas général est pourtant facile.</s><s xml:id="_XuJjX9N" coords="7,88.34,217.21,298.65,8.80;7,63.00,229.21,158.35,8.80">On procède d'abord à l'identification dans le modèle complet puis on considère l'union de toutes les valeurs identifiées.</s></p><p xml:id="_CHMzBAx"><s xml:id="_TdTFVas" coords="7,78.00,247.21,37.15,8.80">Comme :</s></p><formula xml:id="formula_9" coords="7,80.41,261.50,115.72,14.25">y i * = y iL + δ i t i = β 0 + β 1 x i + u i ,</formula><p xml:id="_YPB8XE9"><s xml:id="_dNPBsmT" coords="7,63.00,286.83,161.19,9.93;7,223.80,293.29,2.90,5.10;7,229.20,287.21,29.67,8.80;7,261.37,286.69,2.90,5.10;7,266.77,287.21,2.78,8.80">on peut dériver la valeur du paramètre b 1 comme 6 :</s></p><formula xml:id="formula_10" coords="7,79.38,307.60,175.73,26.88">β 1 = E((y iL + δ i t i )x i ) E(x i 2 ) = E(y iL x i ) E(x i 2 ) + E(δ i t i x i ) E(x i 2 ) , .</formula><p xml:id="_NJHfWGx"><s xml:id="_MhJ86CM" coords="7,78.00,349.21,25.06,8.80;7,103.09,355.34,1.61,5.05;7,107.20,348.83,33.82,9.93">Or si t i ∈ [0, 1]:</s></p><formula xml:id="formula_11" coords="7,79.81,366.83,199.20,40.55">E δ i t i x i ( ) = E δ i t i x i 1 x i &gt; 0 { } ( ) + E δ i t i x i 1 x i &lt; 0 { } ( ) ≤ E δ i x i 1 x i &gt; 0 { } ( ) ,</formula><p xml:id="_emc97rE"><s xml:id="_h6HyzCk" coords="7,63.00,418.21,114.97,8.80">symétriquement, on obtient :</s></p><formula xml:id="formula_12" coords="7,80.00,433.88,111.44,12.88">E(δ i t i x i ) ≥ E(δ i x i 1{x i &lt; 0}).</formula><p xml:id="_VaDm7qB"><s xml:id="_pbHW7YM" coords="7,78.00,457.83,110.32,9.93;7,187.93,464.29,2.90,5.10;7,193.15,458.21,193.83,8.80;7,63.00,470.21,45.33,8.80">L'intervalle identifié pour b 1 est donc l'union de toutes les valeurs possibles et on obtient :</s></p><formula xml:id="formula_13" coords="7,79.38,484.17,307.63,36.58">β 1 ∈ E y iL x i ( )+ E δ i x i 1 x i &lt; 0 { } ⎡ ⎣ ⎤ ⎦ E x i 2 ( ) , E y iL x i ( )+ E δ i x i 1 x i &gt; 0 { } ⎡ ⎣ ⎤ ⎦ E x i 2 ( ) ⎡ ⎣ ⎢ ⎢ ⎤ ⎦ ⎥ ⎥ ,<label>(1)</label></formula><p xml:id="_eEpZNwK"><s xml:id="_ZrRJVMW" coords="7,63.00,532.21,167.93,8.80">dont la longueur est toujours positive car :</s></p><formula xml:id="formula_14" coords="7,78.00,543.36,62.84,64.38">E δ i x i ( ) E x i 2 ( ) &gt; 0 5.</formula><p xml:id="_SnKuAjD"><s xml:id="_ustxSqR" coords="7,99.00,600.70,288.04,7.04;7,63.00,609.40,75.45,7.94;7,138.44,614.57,2.32,4.08;7,142.76,609.70,13.71,7.04;7,156.50,614.57,2.32,4.08;7,159.04,609.40,8.39,7.94;7,167.12,614.57,2.32,4.08;7,169.47,609.29,80.40,8.06">Il faut pour cela postuler une condition de stricte définie négativité sur le hessien de la log-vraisemblance en q 0 = (b 0 , b 1 , s 2 ) <ref type="bibr" coords="7,185.15,609.70,58.02,7.04" target="#b63">(Rothenberg, 1971</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_GTHgaxX" coords="7,78.00,621.70,6.03,7.04">6.</head><p xml:id="_B9a3MfW"><s xml:id="_arH26EQ" coords="7,99.00,621.70,58.42,7.04;7,157.50,626.61,1.29,4.04;7,160.79,621.70,83.39,7.04">Rappelons que Ex i = 0 et donc la variance de</s></p><formula xml:id="formula_15" coords="7,246.18,621.29,36.33,9.36">x i est E(x 2 i ).</formula><p xml:id="_nAwSu25"><s xml:id="_afhWhqU" coords="8,63.00,91.20,217.52,8.80">si les intervalles de départ sont de longueur positive.</s><s xml:id="_4ZFCzm4" coords="8,283.62,91.20,103.37,8.80;8,63.00,103.20,324.00,8.80;8,63.00,115.20,150.03,8.80;8,213.08,121.33,1.63,5.05;8,217.77,114.82,169.23,9.93;8,63.00,127.20,324.00,8.80">Réciproquement, on peut montrer par un argument constructif que tout point de cet intervalle correspond bien à une distribution possible de t i ∈ [0, 1] ce qui permet d'affirmer que cet intervalle est identifié de manière exacte (par exemple, <ref type="bibr" coords="8,282.09,127.20,100.51,8.80" target="#b41">Magnac et Maurin, 2008)</ref>.</s></p><p xml:id="_qCVbje4"><s xml:id="_DW7nEJM" coords="8,78.00,144.82,151.30,9.93;8,228.91,151.28,2.90,5.10;8,234.17,145.20,152.82,8.80;8,63.00,157.20,90.81,8.80">Notons finalement que le paramètre b 1 se définit de façon équivalente par des inégalités de moment :</s></p><formula xml:id="formula_16" coords="8,79.38,173.89,169.03,40.67">E y iL x i ( )+ E δ i x i 1 x i &lt; 0 { } ( ) -β 1 E x i 2 ( ) ≤ 0, β 1 E x i 2 ( ) -E y iL x i ( )-E δ i x i 1 x i &gt; 0 { } ( ) ≤ 0.</formula><p xml:id="_xjayVzy"><s xml:id="_UsJXDsc" coords="8,375.34,188.20,11.67,8.80">(2)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3" xml:id="_eRbDekj" coords="8,63.00,231.20,209.13,8.80">Exemple 2 : jeu d'entrée à information complète</head><p xml:id="_xCDDfSh"><s xml:id="_bmycNwu" coords="8,78.00,249.20,309.04,8.80;8,63.00,260.82,117.48,9.93;8,180.54,267.33,5.88,5.05;8,187.18,261.20,199.83,8.80;8,63.00,273.20,36.84,8.80;8,99.87,279.33,7.11,5.05;8,109.48,272.82,91.77,9.93">Deux entreprises notées 1 et 2 jouent un jeu d'entrée simultanée sur différents marchés, m, et leurs profits, p mj , dépendent négativement de l'entrée sur le marché ou non, y mj' ∈ {0, 1}, de leur rival :</s></p><formula xml:id="formula_17" coords="8,79.81,286.90,219.00,20.29">π mj = β 0 -β 1 y mj ' + ε j pour j, j ' ( ) ∈ 1,2 ( ), 2,1 ( ) { },β 1 &gt; 0.</formula><p xml:id="_uRAjFgu"><s xml:id="_kyp83Bd" coords="8,78.00,313.82,242.14,9.93;8,319.71,320.28,2.90,5.10;8,324.73,313.82,13.68,9.93;8,338.23,320.28,2.90,5.10;8,343.24,314.20,43.77,8.80;8,63.00,326.20,117.82,8.80">On suppose que les deux entreprises observent les variables e 1 et e 2 et le jeu est donc à information complète.</s><s xml:id="_JeYg362" coords="8,183.39,326.20,167.15,8.80">L'économètre n'observe pas ces variables.</s><s xml:id="_aQA7pBb" coords="8,353.11,326.20,33.89,8.80;8,63.00,338.20,323.95,8.80;8,63.00,350.20,323.96,8.80;8,63.00,362.20,307.86,8.80">Par simplicité, on s'abstiendra de considérer des variables explicatives qui permettent pourtant, sous des conditions de support infini et de restrictions d'exclusion de certaines variables, l'identification ponctuelle des paramètres <ref type="bibr" coords="8,311.35,362.20,55.22,8.80" target="#b66">(Tamer, 2003)</ref>.</s></p><p xml:id="_sZutV6z"><s xml:id="_gPxg7qf" coords="8,78.00,380.20,309.02,8.80;8,63.00,392.20,149.52,8.80">On étudie les résultats de ce jeu en stratégies pures mais ces résultats s'étendent facilement au cas de stratégies mixtes.</s><s xml:id="_MNgYx3T" coords="8,214.57,392.20,172.35,8.80;8,63.00,404.20,160.95,8.80">Le graphique 1 décrit les différentes régions du plan en fonction des équilibres du jeu.</s><s xml:id="_6gPpQZJ" coords="8,226.04,404.20,161.03,8.80;8,63.00,416.20,68.49,8.80;8,131.07,422.28,2.90,5.10;8,133.92,415.82,9.59,9.93;8,143.33,422.28,2.90,5.10;8,146.32,416.20,240.69,8.80;8,63.00,428.20,34.51,8.80">Dans cette figure, on voit qu'il existe une région du plan (e 1 , e 2 ), la région centrale, où deux équilibres sont possibles (0, 1) et (1, 0).</s><s xml:id="_B6sjU36" coords="8,100.54,428.20,286.48,8.80;8,63.00,440.20,324.10,8.80;8,63.00,452.20,106.46,8.80">Le modèle est dit incohérent <ref type="bibr" coords="8,220.79,428.20,70.43,8.80" target="#b29">(Heckman, 1978;</ref><ref type="bibr" coords="8,294.25,428.20,92.77,8.80;8,63.00,440.20,64.16,8.80" target="#b26">Gouriéroux, Laffont et Monfort, 1980)</ref> car la vraisemblance du modèle est mal définie à cause de la multiplicité des équilibres.</s></p><p xml:id="_hvBrXP4"><s xml:id="_HbFdK8P" coords="8,78.00,470.20,308.99,8.80;8,63.00,482.29,2.78,8.70;8,65.94,488.33,4.19,5.05;8,72.76,481.82,314.22,9.93;8,63.00,494.20,158.16,8.80">On complète le modèle par la donnée d'une variable additionnelle, la variable t m ∈ E = [0, 1] qui décrit la sélection de l'équilibre (1, 0) dans la région centrale où les équilibres du jeu sont (0, 1) ou (1, 0).</s><s xml:id="_7njNmTq" coords="8,223.27,494.20,163.76,8.80;8,63.00,506.20,323.99,8.80;8,63.00,518.20,39.16,8.80">Si cette variable était observée, le modèle serait complet et ses paramètres sont identifiables sous certaines conditions (voir plus bas).</s><s xml:id="_jgJUrme" coords="8,105.23,517.82,281.77,9.93;8,63.00,530.20,302.75,8.80">La distribution de cette variable additionnelle est le paramètre η qui décrit la probabilité de sélection de l'équilibre (1, 0) dans la région centrale.</s></p><p xml:id="_wN99w2p"><s xml:id="_sXT2SrX" coords="8,78.00,547.82,193.48,9.93">Certaines probabilités sont indépendantes de η :</s></p><formula xml:id="formula_18" coords="8,80.00,558.12,307.01,56.31">P y j , y j ' ( ) = 0,0 ( ) ⎛ ⎝ ⎞ ⎠ = Pr ε 1 ≤ -β 0 ,ε 2 ≤ -β 0 ( ) P y j , y j ' ( ) = 1,1 ( ) ⎛ ⎝ ⎞ ⎠ = Pr ε 1 &gt; β 1 -β 0 ,ε 2 &gt; β 1 -β 0 ( )<label>(3)</label></formula><p xml:id="_qxdcQHq"><s xml:id="_55P35gK" coords="8,63.00,620.20,141.37,8.80">mais d'autres en sont dépendantes :</s></p><formula xml:id="formula_19" coords="9,78.00,372.26,178.41,27.96">P y j , y j ' ( ) = (0,1) ⎛ ⎝ ⎞ ⎠ = Pr ε 1 &gt; -β 0 ,ε 2 ≤ β 1 -β 0 (</formula><p xml:id="_4eM5EHA"><s xml:id="_aMDFUXG" coords="9,257.85,378.06,123.85,17.49;9,286.63,378.91,3.33,15.95;9,381.47,378.91,3.33,15.95">)-ηPr Carré Central, Figure <ref type="figure" coords="9,376.70,383.63,5.00,8.95">1</ref> ( )</s></p><formula xml:id="formula_20" coords="9,79.81,383.90,307.19,65.72">(carré central, graphique 1) P y j , y j ' ( ) = 1,0 ( ) ⎛ ⎝ ⎞ ⎠ = Pr ε 1 ≤ β 1 -β 0 ,ε 2 &gt; -β 0 ( )-1-η ( )Pr Carré Central, Figure1</formula><p xml:id="_WhVVTaA"><s xml:id="_XaPjhY8" coords="9,233.50,432.98,3.33,15.95;9,325.84,432.98,3.33,15.95">( )</s></p><formula xml:id="formula_21" coords="9,235.90,427.90,151.10,18.50">(carré central, graphique 1)<label>(4)</label></formula><p xml:id="_u2Tt4G8"><s xml:id="_7xZBGWC" coords="9,63.00,458.90,263.55,8.80">où le carré central, graphique 1 est déterminé par les contraintes :</s></p><formula xml:id="formula_22" coords="9,79.81,474.90,148.06,12.89">-β 0 &lt; ε 1 ≤ β 1 -β 0 ,-β 0 &lt; ε 2 ≤ β 1 -β 0 .</formula><p xml:id="_5A8BjSQ"><s xml:id="_8ZzuFhG" coords="9,78.00,494.52,247.21,9.93;9,325.09,501.03,1.61,5.05;9,329.54,494.90,57.46,8.80;9,63.00,506.52,236.75,9.93;9,299.36,512.98,2.90,5.10;9,305.08,506.52,15.49,9.93;9,320.61,512.98,2.90,5.10;9,326.33,506.90,60.67,8.80;9,63.00,518.52,324.00,9.93;9,63.00,530.90,324.02,8.80;9,63.00,542.90,324.04,8.80;9,63.00,554.52,88.75,9.93">Sans restrictions sur la fonction de répartition des variables e i en fonction de covariables (par exemple l'indépendance) les paramètres b 1 et b 0 et les fonctions de répartitions des e ne peuvent être identifiées et pour affirmer que le modèle est complet on raisonnera directement sur les probabilités des régions définies par le graphique 1. Ces probabilités sont identifiées par les équations ci-dessus si le paramètre η est donné.</s><s xml:id="_pt3qHBU" coords="9,153.74,554.90,233.26,8.80">Il nous faut alors identifier quatre probabilités, par exemple :</s></p><formula xml:id="formula_23" coords="9,63.00,561.02,318.84,32.42">Pr ε 1 ≤ -β 0 ,ε 2 ≤ -β 0 ( ), Pr ε 1 &gt; β 1 -β 0 ,ε 2 &gt; β 1 -β 0 ( ), Pr ε 1 &gt; -β 0 ,ε 2 ≤ β 1 -β 0 ( ) et Pr ε 1 ≤ β 1 -β 0 ,ε 2 &gt; -β 0 ( ) 7 .</formula><p xml:id="_38fKseN"><s xml:id="_3pTZchC" coords="9,182.93,581.74,204.08,8.80">Les deux premières sont directement identifiées par</s></p><formula xml:id="formula_24" coords="10,137.53,110.66,214.88,20.11">&gt; -β 0 ,ε 2 ≤ β 1 -β 0 ( ),Pr ε 1 ≤ β 1 -β 0 ,ε 2 &gt; -β 0 ( ) ( ) .</formula><p xml:id="_XU3ddQG"><s xml:id="_P8RzBnd" coords="10,78.00,136.14,308.97,8.80;10,63.00,148.45,132.53,8.80">De la même façon que dans l'exemple précédent, ces contraintes s'écrivent comme des inégalités de moment.</s><s xml:id="_qAPBnKf" coords="10,197.58,148.45,189.39,8.80;10,63.00,160.76,324.00,8.80;10,63.00,172.69,324.03,9.93;10,63.00,185.39,26.89,8.80">De plus, tout vecteur de probabilités appartenant à l'ensemble identifié correspond à une probabilité de sélection d'équilibres réalisables, η ∈ [0, 1], ce qui permet de dire que cet intervalle est identifié de manière exacte.</s><s xml:id="_6EBYpDU" coords="10,91.85,185.39,295.19,8.80;10,63.00,197.70,324.01,8.80;10,63.00,210.01,47.51,8.80">Ces résultats s'étendent aussi à des jeux à plusieurs joueurs (voir par exemple, Galichon et Henry, 2011) mais d'une façon plus sophistiquée dont nous discutons maintenant.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4" xml:id="_QtUnFvU" coords="10,63.00,242.32,58.89,8.80">Discussion</head><p xml:id="_7A4nEhh"><s xml:id="_mG872bQ" coords="10,78.00,261.64,308.99,8.80;10,63.00,273.95,143.87,8.80">Les principaux résultats obtenus dans ces exemples s'étendent au cas d'ensembles identifiés de dimension quelconque.</s><s xml:id="_upsKfWb" coords="10,209.33,273.95,177.68,8.80;10,63.00,286.26,324.02,8.80;10,63.00,298.57,323.99,8.80;10,63.00,310.88,137.56,8.80">Ces résultats expriment les restrictions identifiantes sur les paramètres comme des contraintes à l'inégalité sur des fonctions linéaires ou non linéaires des coefficients et conduisent donc à un ensemble fini ou infini d'inégalités de moments.</s><s xml:id="_dpVgAPB" coords="10,203.21,310.88,183.79,8.80;10,63.00,323.20,324.00,8.80;10,63.00,335.51,128.38,8.80">Une question plus difficile est de montrer que la caractérisation par ces inégalités de moment est équivalente à la caractérisation par les restrictions ensemblistes.</s><s xml:id="_QxgDAqD" coords="10,193.50,335.51,193.53,8.80;10,63.00,347.82,156.03,8.80">Dans ce cas, le modèle est identifié partiellement mais exactement (c'est-à-dire sharply).</s></p><p xml:id="_9f6Z4sr"><s xml:id="_pewGgfH" coords="10,78.00,367.13,308.97,8.80;10,63.00,379.45,77.43,8.80">Ces extensions nécessitent pourtant des outils plus sophistiqués que ceux que nous avons utilisés.</s><s xml:id="_qAMqK9r" coords="10,142.80,379.45,244.16,8.80;10,63.00,391.76,324.00,8.80;10,63.00,404.07,324.02,8.80;10,63.00,416.38,323.99,8.80;10,63.00,428.70,324.03,8.80;10,63.00,441.01,66.25,8.80">Dans les modèles structurels et en particulier ceux dérivés de la théorie des jeux, <ref type="bibr" coords="10,142.92,391.76,99.50,8.80" target="#b21">Galichon et Henry (2009</ref><ref type="bibr" coords="10,242.42,391.76,28.90,8.80">, 2011)</ref> expliquent comment utiliser des outils comme les capacités de Choquet et les méthodes de transport optimal pour résoudre la question d'identification exacte et construire l'ensemble des inégalités de moment qui sont nécessaires et suffisantes pour l'identification exacte des paramètres.</s><s xml:id="_NYb4THu" coords="10,132.48,441.01,254.48,8.80;10,63.00,453.32,323.99,8.80;10,63.00,465.63,140.96,8.80">Alternativement, <ref type="bibr" coords="10,206.25,441.01,180.71,8.80" target="#b1">Beresteanu, Molchanov et Molinari (2012)</ref> expliquent comment des méthodes d'ensembles aléatoires convexes permettent aussi la résolution de ces questions.</s><s xml:id="_daQfGnU" coords="10,206.37,465.63,180.61,8.80;10,63.00,477.94,323.95,8.80;10,63.00,490.26,323.93,8.80;10,63.00,502.57,117.46,8.80">Ces outils sont aussi applicables aux modèles réduits tenant compte de la censure des variables comme ceux développés dans <ref type="bibr" coords="10,63.00,490.26,104.59,8.80" target="#b34">Horowitz et Manski (1995)</ref>, <ref type="bibr" coords="10,173.65,490.26,98.25,8.80" target="#b45">Manski et Pepper (2000)</ref> ou plus généralement le livre de revue par <ref type="bibr" coords="10,117.08,502.57,59.15,8.80" target="#b43">Manski (2003)</ref>.</s><s xml:id="_dbyXcyU" coords="10,183.49,502.57,203.46,8.80;10,63.00,514.88,192.02,8.80">D'autres encore, combinent modèles structurels et censure des données <ref type="bibr" coords="10,147.69,514.88,103.14,8.80" target="#b23">(Galichon et Henry, 2013)</ref>.</s></p><p xml:id="_UDrB25t"><s xml:id="_RGZH3dY" coords="10,78.00,534.19,309.00,8.80;10,63.00,546.51,323.97,8.80;10,63.00,558.82,324.00,8.80;10,63.00,571.13,25.01,8.80">Dans un cadre d'inégalités de moment, les méthodes d'estimation sont dérivées par analogie ou en construisant des critères de distance à l'ensemble identifié (qui seront présentés plus loin) puisqu'ils servent aussi dans les méthodes d'inférence.</s><s xml:id="_f5fAzg8" coords="10,91.34,571.13,295.65,8.80;10,63.00,583.44,323.94,8.80;10,63.00,595.76,224.79,8.80">Pour estimer un intervalle comme celui présenté dans l'exemple 1, on peut se contenter d'estimer directement les deux bornes, supérieure et inférieure de l'intervalle (par exemple, <ref type="bibr" coords="10,181.21,595.76,102.05,8.80" target="#b36">Imbens et Manski, 2004)</ref>.</s><s xml:id="_s6UhNDP" coords="10,290.45,595.76,96.51,8.80;10,63.00,608.07,324.02,8.80;10,63.00,620.38,47.08,8.80">Pour un ensemble, c'est plus difficile sauf si cet ensemble est convexe et ce cas sera analysé dans la section 2.3.</s></p><p xml:id="_3sGp5d8"><s xml:id="_fpzbshd" coords="11,78.00,91.20,309.00,8.80;11,63.00,103.55,324.02,8.80;11,63.00,115.89,47.50,8.80">Certains auteurs omettent l'estimation « ensembliste » et passent directement à l'estimation par régions de confiance et donc à l'inférence que nous présentons maintenant.</s><s xml:id="_rfst95z" coords="11,113.49,115.89,223.15,8.80">Notons toutefois un point final relatif à l'identification.</s><s xml:id="_fY5uw3G" coords="11,339.63,115.89,47.37,8.80;11,63.00,128.24,324.00,8.80;11,63.00,140.59,240.89,8.80">De manière générale, il semble important pour l'inférence de contrôler la dimension de la fonction inconnue à qui s'applique la restriction ensembliste.</s><s xml:id="_vNbRj78" coords="11,306.21,140.59,80.75,8.80;11,63.00,152.93,76.36,8.80">Nous en verrons des exemples plus loin.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_A7TtKyG" coords="11,63.00,183.28,105.16,8.80">Méthodes d'Inférence</head><p xml:id="_2qJwr7q"><s xml:id="_3AXd3XV" coords="11,78.00,201.63,308.94,8.80;11,63.00,213.97,324.01,8.80;11,63.00,226.32,323.97,8.80;11,63.00,238.67,172.88,8.80">Les techniques générales d'inférence reposent soit sur la construction d'une fonction critère et l'inversion d'un test basé sur cette fonction <ref type="bibr" coords="11,321.47,213.97,65.53,8.80;11,63.00,226.32,86.58,8.80" target="#b7">(Chernozhukov, Hong et Tamer, 2007)</ref> soit sur la caractérisation directe de la frontière <ref type="bibr" coords="11,339.16,226.32,47.81,8.80;11,63.00,238.67,74.81,8.80">(Beresteanu et Molinari, 2008;</ref><ref type="bibr" coords="11,140.79,238.67,90.84,8.80" target="#b4">Bontemps et al., 2012)</ref>.</s><s xml:id="_Qfa7U86" coords="11,238.86,238.67,148.16,8.80;11,63.00,251.02,18.40,8.80">On peut résumer ces deux méthodes par :</s></p><p xml:id="_dEmMmEB"><s xml:id="_t8Cchaa" coords="11,78.00,268.98,65.55,9.93;11,143.38,275.49,1.95,5.05;11,148.41,268.98,238.46,9.93;11,93.00,281.33,72.46,9.93">• En notant Θ I l'ensemble identifié, on construit un test de niveau a pour toute valeur de q :</s></p><formula xml:id="formula_25" coords="11,110.19,296.71,110.97,12.89">H 0 : Θ I ∍ θ, H a : θ ∉Θ I ,</formula><p xml:id="_zgR65Vf"><s xml:id="_eWCQxv9" coords="11,93.00,318.40,75.42,8.80">et on inverse ce test.</s><s xml:id="_eDNDWCs" coords="11,170.29,318.02,216.70,9.93;11,93.00,330.37,168.58,9.93">Tous les q qu'on ne rejette pas, appartiennent à l'ensemble de confiance de degré de confiance 1 -a.</s></p><p xml:id="_W5r9yys"><s xml:id="_dz68V22" coords="11,78.00,348.72,204.03,9.93;11,281.85,355.23,1.93,5.05;11,286.19,349.10,100.83,8.80;11,93.00,361.44,294.02,8.80">• On estime la frontière de l'ensemble identifié Θ I et on utilise sa variabilité dans l'échantillon pour construire les régions ou intervalles de confiance.</s></p><p xml:id="_wgYX8dE"><s xml:id="_AD8z7ED" coords="11,93.00,373.79,294.00,8.80;11,93.00,386.14,294.07,8.80;11,93.00,398.48,108.69,8.80">On remarquera que cette démarche repose aussi in fine sur l'inversion d'un test comme la méthode précédente mais elle est rendue plus facile par l'estimation de la frontière.</s><s xml:id="_RYkJgBb" coords="11,204.49,398.48,182.54,8.80;11,93.00,410.83,119.04,8.80">Cette démarche est typique quand l'ensemble est convexe (voir section 2.3).</s></p><p xml:id="_Z4FCTWS"><s xml:id="_ke5BRjc" coords="11,78.00,429.18,308.95,8.80;11,63.00,441.52,323.95,8.80;11,63.00,453.87,154.45,8.80">Dans le premier cas, on se posera aussi des questions sur la sélection des moments à l'inégalité qui sont pertinents <ref type="bibr" coords="11,231.45,441.52,106.11,8.80">(Andrews et Soares, 2011;</ref><ref type="bibr" coords="11,340.56,441.52,46.39,8.80;11,63.00,453.87,61.21,8.80">Andrews et Barwick, 2012;</ref><ref type="bibr" coords="11,126.42,453.87,86.83,8.80">Andrews et Shi, 2013)</ref>.</s><s xml:id="_6qJ9FZE" coords="11,219.66,453.87,167.29,8.80;11,63.00,466.22,324.04,8.80;11,63.00,478.56,178.55,8.80">D'autre part, les méthodes caractérisant la frontière peuvent amener à des inégalités de moment qui sont des intersections de bornes <ref type="bibr" coords="11,92.50,478.56,144.85,8.80" target="#b8">(Chernozhukov, Lee et Rosen, 2013)</ref>.</s></p><p xml:id="_eQ8Hv9t"><s xml:id="_ynP6SNx" coords="11,78.00,496.91,272.34,8.80">C'est cet ensemble de questions que nous étudions dans cette section.</s><s xml:id="_jrK8q4P" coords="11,352.44,496.91,34.56,8.80;11,63.00,509.26,324.06,8.80">En guise de préliminaire, on discutera deux points qui distinguent les objets des recherches.</s><s xml:id="_EbVdse9" coords="11,63.00,521.61,323.97,8.80;11,63.00,533.95,323.95,8.80">D'abord, il semble souvent raisonnable d'imposer que l'inférence soit robuste à la variation de la vraie loi de probabilité des données puisque celle-ci est inconnue.</s><s xml:id="_quFKAct" coords="11,63.00,546.30,323.98,8.80;11,63.00,558.65,323.99,8.80;11,63.00,570.99,197.53,8.80">On considérera alors que la vraie loi de probabilité des données varie dans un ensemble large de lois de probabilités sous-jacentes et on construira la procédure d'inférence en tenant compte de cette variation.</s><s xml:id="_zh6gJr5" coords="11,263.64,570.99,123.35,8.80;11,63.00,583.34,323.92,8.80">On dira alors dans ce cas que l'inférence est uniforme (par rapport à l'ensemble considéré de lois de probabilités).</s><s xml:id="_PEVUbhq" coords="11,63.00,595.69,324.00,8.80;11,63.00,608.03,323.97,8.80;11,63.00,620.38,84.05,8.80">Deuxièmement, on se demande si l'objet est de couvrir par une région de confiance, soit un point, c'est-à-dire une seule vraie valeur des paramètres, soit un ensemble de valeurs distinctes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_vCEKHu9" coords="12,63.00,91.21,289.13,8.80">Couverture d'un point ou d'un ensemble et uniformité de l'inférence</head><p xml:id="_2PdgGAb"><s xml:id="_j92b2Ey" coords="12,78.00,109.21,309.00,8.80;12,63.00,121.21,260.52,8.80">La question de la couverture d'un point ou d'un ensemble est la question la plus simple à exposer même si elle nécessite quelques notations.</s><s xml:id="_3RKyu2X" coords="12,326.48,121.21,60.51,8.80;12,63.00,132.83,204.53,9.93;12,267.35,139.34,1.93,5.05;12,270.05,133.21,116.94,8.80;12,63.00,145.21,324.00,8.80;12,63.00,157.21,190.45,8.80">Supposons que la loi des données observables est P et dénotons Θ I (P) l'ensemble identifié c'està-dire toutes les valeurs compatibles avec P (et implicitement toutes les autres restrictions structurelles que nous avons faites).</s><s xml:id="_k5VKvqy" coords="12,255.99,157.21,131.01,8.80;12,63.00,168.83,219.75,9.93;12,282.79,175.34,2.90,5.05;12,288.14,169.21,98.86,8.80;12,63.00,180.83,254.97,9.93;12,318.01,187.34,2.90,5.05;12,323.25,181.21,63.75,8.80;12,63.00,193.21,14.74,8.80">Si nous voulons couvrir un point unique q par un intervalle ou une région de confiance I n à un niveau de confiance asymptotique au moins égal à 1 -a, il nous faut alors chercher I n comme solution de :</s></p><formula xml:id="formula_26" coords="12,77.89,207.62,136.69,28.28">lim n→∞ inf θ∈Θ I (P) inf Pr(θ ∈I n ) ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ ≥ 1-α.</formula><p xml:id="_hFyT6zJ"><s xml:id="_C547JNs" coords="12,375.53,218.21,11.47,8.80">(5)</s></p><p xml:id="_XfrrrkB"><s xml:id="_7tGqVeE" coords="12,78.00,247.21,309.02,8.80;12,63.00,258.83,226.07,9.93;12,289.06,265.29,2.90,5.10;12,292.75,259.21,94.25,8.80;12,63.00,270.83,147.41,9.93;12,210.23,277.34,1.93,5.05;12,212.94,271.21,15.38,8.80">On voit que l'identification partielle a consisté à remplacer dans cette expression la vraie valeur d'un paramètre ponctuellement identifié q 0 (P) par toute les valeurs appartenant à l'ensemble identifié, Θ I (P).</s></p><p xml:id="_sUna9VN"><s xml:id="_2pBwVSc" coords="12,78.00,289.21,309.00,8.80;12,63.00,301.21,323.98,8.80">Dans le premier exemple développé plus haut de censure de la variable dépendante par intervalles, l'intervalle de confiance prendra la forme,</s></p><formula xml:id="formula_27" coords="12,65.00,312.82,157.74,19.71">I n = β1,n L -ĉn L , β1,n U + ĉn U ⎡ ⎣ ⎤ ⎦ où β1,n L et β1,n</formula><p xml:id="_uQCXgys"><s xml:id="_7DQpzPA" coords="12,214.65,316.98,4.69,5.76;12,227.41,319.21,159.59,8.80;12,63.00,335.49,320.19,9.79;12,380.81,334.29,3.61,5.76;12,63.00,347.40,19.15,9.89;12,78.99,346.19,4.69,5.76;12,89.69,348.48,297.29,8.80;12,63.00,360.48,214.12,8.80">U sont les estimateurs, respectivement des bornes inférieure et supérieure des quantités définies par l'équation (1) et où ĉn L et ĉn U sont des estimateurs dépendant de la loi jointe des estimateurs des bornes et d'une valeur critique qui s'ajuste par l'équation (5).</s><s xml:id="_6BQ7YBw" coords="12,279.72,360.48,107.31,8.80;12,63.00,372.10,324.02,9.93;12,63.00,384.48,323.94,8.80;12,63.00,396.48,122.52,8.80">Cet ajustement se fait pour toutes les valeurs possibles de q dans l'intervalle identifié défini dans l'équation (1) au lieu de ne le faire que pour une seule valeur du paramètre comme dans le cas d'identification ponctuelle.</s><s xml:id="_cabehF8" coords="12,187.88,396.48,199.11,8.80;12,63.00,408.48,120.25,8.80">Cette construction est exposée de manière précise par <ref type="bibr" coords="12,78.54,408.48,100.45,8.80" target="#b36">Imbens et Manski (2004)</ref>.</s></p><p xml:id="_bRuwNrF"><s xml:id="_QVt4deW" coords="12,78.00,426.48,309.00,8.80;12,63.00,438.48,29.30,8.80">Cette construction couvre un point, la supposée unique valeur vraie des paramètres.</s><s xml:id="_2vUKybU" coords="12,94.69,438.48,292.35,8.80;12,63.00,450.48,275.51,8.80">Mais maintenant que l'ensemble identifié a une « épaisseur », on pourrait vouloir couvrir des régions ou intervalles I au lieu de singletons {q}.</s><s xml:id="_NxwrSff" coords="12,341.10,450.48,45.90,8.80;12,63.00,462.48,71.95,8.80;12,135.03,468.62,2.90,5.05;12,140.07,462.48,246.96,8.80;12,63.00,474.10,89.05,9.93">On cherche alors des régions I n qui satisfont la condition de niveau de confiance asymptotique au moins égal à 1 -a,</s></p><formula xml:id="formula_28" coords="12,79.81,491.32,140.69,28.29">lim n→∞ inf I⊂Θ I (P) inf Pr(I ⊂ I n ) ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ ≥ 1-α .</formula><p xml:id="_E2H7EtW"><s xml:id="_vc2bUKE" coords="12,78.00,528.48,309.04,8.80;12,63.00,540.48,324.00,8.80;12,63.00,552.48,92.52,8.80">La plupart des applications économétriques s'attachent à couvrir un point mais il y a un certain nombre d'opinions dissidentes et la littérature est partagée entre ces deux présentations.</s><s xml:id="_bwj6dQm" coords="12,157.94,552.48,229.07,8.80;12,63.00,564.48,159.79,8.80">Par exemple, <ref type="bibr" coords="12,211.87,552.48,98.50,8.80" target="#b59">Romano et Shaikh (2008</ref><ref type="bibr" coords="12,310.37,552.48,28.53,8.80">, 2011)</ref> étudient les deux cas dans deux articles différents.</s><s xml:id="_SFMc56n" coords="12,225.92,564.48,161.12,8.80;12,63.00,576.48,324.06,8.80;12,63.00,588.48,262.64,8.80">Remarquons pourtant que la deuxième condition est plus contraignante que la première puisque les singletons sont des intervalles dégénérés (voir par exemple, <ref type="bibr" coords="12,225.58,588.48,95.83,8.80">Henry et Onatski, 2012)</ref>.</s><s xml:id="_j6dT4aj" coords="12,328.30,588.48,58.72,8.80;12,63.00,600.48,323.97,8.80;12,63.00,612.10,105.28,9.93;12,168.10,618.62,1.93,5.05;12,170.80,612.48,15.38,8.80">Les régions de confiance couvrant des ensembles sont donc généralement plus grands que ceux couvrant des points, q ∈ Θ I (P).</s><s xml:id="_fQUMq43" coords="13,78.00,91.21,308.98,8.80;13,63.00,103.29,324.00,8.80;13,63.00,115.37,324.01,8.80;13,63.00,127.45,324.04,8.80">D'autre part, la question de l'uniformité peut s'aborder dans un cadre simple d'inférence à une seule dimension comme dans l'exemple 1. L'intervalle identifié est décrit par une borne supérieure et par une borne inférieure comme dans l'équation (1) et on suppose que ces bornes sont des fonctions de moments dans les données.</s><s xml:id="_RqV7zmC" coords="13,63.00,139.54,324.00,8.80;13,63.00,151.62,324.06,8.80">Comme nous l'avons dit plus haut, l'estimation de ces bornes est effectuée directement par la construction de contreparties empiriques à ces fonctions des moments.</s><s xml:id="_PZn37GU" coords="13,63.00,163.70,323.95,8.80;13,63.00,175.78,324.02,8.80;13,63.00,187.86,29.42,8.80">Les intervalles de confiance pour les bornes inférieures et supérieures « combinent » alors des éléments tenant compte de la distribution jointe des estimateurs des bornes.</s><s xml:id="_nEJThU6" coords="13,94.75,187.86,292.22,8.80;13,63.00,199.94,324.05,8.80;13,63.00,212.02,131.64,8.80">Néanmoins, les deux bornes estimées peuvent être suffisamment proches (au sens de la métrique données par leurs écarts-types) et leurs intervalles de confiance peuvent se chevaucher.</s><s xml:id="_vUAgrnr" coords="13,196.73,212.02,190.25,8.80;13,63.00,224.10,222.18,8.80">La résolution de cette difficulté fût proposée par Imbens et <ref type="bibr" coords="13,106.01,224.10,60.75,8.80" target="#b36">Manski (2004)</ref> et étendue par <ref type="bibr" coords="13,230.14,224.10,50.77,8.80" target="#b65">Stoye (2009)</ref>.</s><s xml:id="_b44a5PV" coords="13,288.19,224.10,98.76,8.80;13,63.00,236.19,323.90,8.80;13,63.00,248.27,316.10,8.80">Les auteurs construisent des intervalles de confiance dont les propriétés statistiques sont robustes au fait que le vrai intervalle identifié est aussi petit que l'on veut (y compris un point).</s></p><p xml:id="_yCF9FWd"><s xml:id="_MByFquB" coords="13,78.00,266.35,308.99,8.80;13,63.00,278.43,71.98,8.80">En retournant au cas général, admettons que nous voulions couvrir un point de façon uniforme.</s><s xml:id="_Zrbrb6D" coords="13,136.88,278.43,250.12,8.80;13,63.00,290.29,323.98,9.37;13,63.00,302.59,324.04,8.80;13,63.00,314.29,253.67,9.93;13,316.64,320.81,1.61,5.05;13,320.39,314.67,66.62,8.80;13,63.00,326.37,58.60,9.93;13,121.21,332.83,2.90,5.10;13,126.74,326.75,49.50,8.80">Supposons que le vrai processus générateur de données appartient à une famille P. Dans l'exemple 1 de variable dépendante censurée par intervalles, on inclura par exemple dans cette famille les cas où il n'y a pas de censure ce qui fait que la largeur des intervalles d'observation peut être nulle, d i = 0. Dans ce cas, le paramètre b 1 est identifié.</s><s xml:id="_uF3ypsV" coords="13,178.87,326.75,185.34,8.80;13,364.28,332.89,2.90,5.05;13,369.81,326.75,17.20,8.80;13,63.00,338.46,286.57,9.93">Puis on cherchera un intervalle de confiance I n à un niveau de confiance asymptotique au moins égal à 1 -a qui satisfait à :</s></p><formula xml:id="formula_29" coords="13,79.81,354.76,303.29,28.29">lim n→∞ inf P∈P ,θ∈Θ I (P) inf Pr(θ ∈I n ) ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ ≥ 1-α . (<label>6</label></formula><formula xml:id="formula_30" coords="13,383.10,363.92,3.90,8.80">)</formula><p xml:id="_ZtmckJX"><s xml:id="_7uaZ2Z5" coords="13,78.00,391.00,309.02,8.80;13,63.00,403.08,323.95,8.80;13,63.00,415.16,76.97,8.80">Ici aussi, la condition est plus contraignante que dans le cas non uniforme et les intervalles de confiance uniformes sont donc plus grands que ceux qu'on avait définis auparavant.</s><s xml:id="_f3zQBye" coords="13,142.95,415.16,244.01,8.80;13,63.00,427.24,324.00,8.80;13,63.00,439.10,324.01,9.37;13,63.00,451.18,20.17,9.37">C'est pourtant ce cas qui parait le plus intéressant puisqu'on n'a pas toujours une idée bien précise sur la vraie loi des données P et son domaine de variation P. L'uniformité a d'ailleurs des définitions aussi variées que la variation de P.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_m64yD8Q" coords="13,63.00,481.49,149.97,8.80">Techniques générales d'inférence</head><p xml:id="_Kqj728x"><s xml:id="_EpnExjt" coords="13,78.00,499.57,309.00,8.80;13,63.00,511.65,73.24,8.80">On décrit rapidement ici différentes techniques d'inférence proposées dans la littérature récente.</s><s xml:id="_8dyR2Tc" coords="13,138.44,511.65,248.60,8.80;13,63.00,523.73,323.90,8.80;13,63.00,535.81,323.97,8.80;13,63.00,547.89,236.47,8.80">Les premiers auteurs à utiliser une fonction critère positive qui prend une valeur nulle pour les points se situant à l'intérieur de l'ensemble identifié, ont été <ref type="bibr" coords="13,91.43,535.81,109.59,8.80" target="#b7">Chernozhukov et al. (2007)</ref> et ils ont été suivis par <ref type="bibr" coords="13,292.69,535.81,52.01,8.80" target="#b62">Rosen (2008)</ref>, Andrews et Soares (2010), <ref type="bibr" coords="13,132.32,547.89,102.36,8.80" target="#b60">Romano et Shaikh (2010)</ref> et bien d'autres.</s><s xml:id="_rFDrfwS" coords="13,301.81,547.89,85.18,8.80;13,63.00,559.97,324.00,8.80">Le point de départ de cette littérature est l'étude d'un nombre fini de conditions de moment à l'inégalité.</s><s xml:id="_Hxvhb6Y" coords="13,63.00,572.05,323.99,8.80;13,63.00,584.14,48.91,8.80">La littérature la plus récente l'étend à un cadre où il y a une infinité de moments à l'inégalité.</s><s xml:id="_tZXreq8" coords="13,114.25,584.14,272.75,8.80;13,63.00,596.22,323.99,8.80;13,63.00,608.30,231.39,8.80">L'article d'Andrews et Shi (2013) s'intéresse en particulier à la transformation de moments conditionnels à l'inégalité en un nombre fini mais croissant avec la taille d'échantillon, de moment non conditionnels.</s><s xml:id="_KJHdnVT" coords="13,296.98,608.30,90.00,8.80;13,63.00,620.38,324.02,8.80;14,63.00,91.20,324.06,8.80;14,63.00,103.20,120.34,8.80">Une autre méthode est fournie par Chernozhukov, <ref type="bibr" coords="13,177.69,620.38,84.09,8.80" target="#b8">Lee et Rosen (2013)</ref> qui développent une méthode d'inférence pour une borne dans le cas où il y a une infinité de conditions de moments contenant cette borne.</s><s xml:id="_pc4KZKa" coords="14,185.21,103.20,201.81,8.80;14,63.00,115.20,231.21,8.80">D'autres auteurs comme <ref type="bibr" coords="14,278.83,103.20,54.78,8.80" target="#b50">Menzel (2008)</ref>, <ref type="bibr" coords="14,339.53,103.20,47.49,8.80;14,63.00,115.20,25.41,8.80" target="#b54">Ponomareva (2010)</ref> ou Armstrong (2011) étudient aussi ces cas en détail.</s><s xml:id="_sqxYQ6T" coords="14,296.23,115.20,90.76,8.80;14,63.00,127.20,324.01,8.80;14,63.00,139.20,139.43,8.80">Notons que l'utilisation du bootstrap a des aspects délicats puisque le bootstrap « naf » ne marche pas <ref type="bibr" coords="14,63.00,139.20,135.21,8.80">(Andrews et Guggenberger, 2010)</ref>.</s><s xml:id="_FwVb7gB" coords="14,205.40,139.20,181.60,8.80;14,63.00,151.20,323.99,8.80;14,63.00,163.20,227.50,8.80">Des bootstraps sophistiqués sont disponibles par exemple dans <ref type="bibr" coords="14,132.40,151.20,49.77,8.80" target="#b5">Bugni (2010)</ref>, Andrews et Barwick (2012) et dans <ref type="bibr" coords="14,326.39,151.20,60.60,8.80;14,63.00,163.20,82.39,8.80" target="#b30">Henry, Meango et Queyranne (2013)</ref>  <ref type="bibr" coords="14,147.89,163.20,138.54,8.80">ou Romano, Shaikh et Wolf (2013)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1" xml:id="_7RXU3dA" coords="14,63.00,193.20,155.00,8.80">Utilisation d'une fonction critère</head><p xml:id="_kcN3fun"><s xml:id="_zV4W3pR" coords="14,78.00,210.82,309.01,9.93;14,63.00,222.82,43.38,9.93;14,106.20,229.33,1.93,5.05;14,110.63,223.20,68.12,8.80">On suppose qu'il existe une fonction critère Q(q) ≥ 0 qui décrit l'ensemble identifié Θ I par la condition :</s></p><formula xml:id="formula_31" coords="14,79.59,241.14,76.98,12.88">θ ∈Θ I ⇔ Q(θ) = 0.</formula><p xml:id="_NJPg6Jj"><s xml:id="_83waJgJ" coords="14,78.00,263.20,309.05,8.80;14,63.00,275.20,147.04,8.80">Par exemple, si on suppose que les restrictions forment un système fini de conditions de moments à l'inégalité :</s></p><formula xml:id="formula_32" coords="14,80.00,288.28,130.16,20.94">E h j Y , X,θ ( ) ( ) ≤ 0 pour j = 1,., J</formula><p xml:id="_kDQNf7B"><s xml:id="_a4mh5V6" coords="14,78.00,317.20,246.89,8.80">alors on peut définir une version de la fonction Q(q) comme :</s></p><formula xml:id="formula_33" coords="14,79.38,335.11,185.12,27.88">Q θ ( ) = j=1 J ∑ Eh j Y , X,θ ( ) ⎡ ⎣ ⎤ ⎦ 2 1 Eh j Y , X,θ ( ) &gt; 0 { }.</formula><p xml:id="_jwPA9sa"><s xml:id="_EscJfcZ" coords="14,78.00,372.82,223.28,9.93;14,301.10,379.33,1.93,5.05;14,305.14,373.20,81.86,8.80;14,63.00,385.20,163.10,8.80">La valeur du critère pour tout point hors de l'ensemble Θ I est ainsi quadratique en la distance à 0 des moments en ce point.</s><s xml:id="_ZvSKJKj" coords="14,228.03,385.20,158.97,8.80;14,63.00,397.20,153.81,8.80">Cette construction s'applique directement au premier exemple étudié plus haut.</s><s xml:id="_nVD9uw7" coords="14,219.96,397.20,167.02,8.80;14,63.00,409.20,42.11,8.80">Les équations (2) utilisent en effet deux fonctions :</s></p><formula xml:id="formula_34" coords="14,79.81,423.48,182.47,35.49">h 1 y iL , x i ,δ i ,β 1 ( ) = y iL x i + δ i x i 1 x i &lt; 0 { }-β 1 x i 2 , h 2 y iL , x i ,δ i ,β 1 ( ) = β 1 x i 2 -y iL x i -δ i x i 1 x i &gt; 0 { }.</formula><p xml:id="_EwDQQAW"><s xml:id="_xshSDGn" coords="14,78.00,472.20,309.01,8.80;14,63.00,484.20,189.08,8.80">Une infinité de telles fonctions critères peuvent être définies et leurs propriétés comparées (Andrews et Shi, 2013 par exemple).</s><s xml:id="_Gpc3hrt" coords="14,254.20,484.20,132.82,8.80;14,63.00,496.20,323.96,8.80;14,63.00,508.20,277.62,8.80">Ici on utilise une fonction du type Cramer-von Mises qui somme les écarts quadratiques mais on pourrait utiliser une approche de type Kolmogorov en retenant le maximum de ces écarts.</s><s xml:id="_bdcJqdk" coords="14,343.06,508.20,43.94,8.80;14,63.00,520.20,324.03,8.80;14,63.00,532.20,237.36,8.80">D'après les travaux d'Andrews et de ses coauteurs, la deuxième construction semble dominée par la première (par exemple, Andrews et <ref type="bibr" coords="14,235.28,532.20,60.85,8.80">Barwick, 2012)</ref>.</s><s xml:id="_KVjNWPs" coords="14,303.36,532.20,83.62,8.80;14,63.00,544.20,324.00,8.80;14,63.00,556.20,324.03,8.80;14,63.00,568.20,245.46,8.80">Une pondération des conditions de moments en fonction de leur matrice de covariance est aussi recommandée par ces auteurs comme dans une approche de méthode généralisée de moments (GMM) pour des restrictions de moment à l'égalité.</s></p><p xml:id="_5tt34eH"><s xml:id="_nFSxfQN" coords="14,78.00,586.20,308.99,8.80;14,63.00,598.20,84.53,8.80;14,147.55,604.33,1.61,5.05;14,150.36,598.20,9.12,8.80;14,159.51,604.33,1.61,5.05;14,161.19,598.20,3.33,8.80;14,165.10,604.28,18.27,5.10">La contrepartie empirique de cette fonction critère dans un échantillon de taille n et d'observations (y i , x i ) i = 1,.,n</s><s xml:id="_fbmFhde" coords="14,185.55,598.20,201.44,8.80;14,63.00,616.20,115.40,9.06;14,179.06,621.24,5.00,5.76;14,189.18,614.12,5.21,11.90;15,78.00,129.88,309.00,8.80;15,63.00,141.90,79.71,8.80;15,81.75,156.08,38.13,12.14;15,119.66,164.19,3.25,5.76;15,123.91,157.06,26.15,11.90;15,150.47,164.19,3.25,5.76;15,153.88,159.26,7.28,8.95;15,63.00,177.55,16.86,9.93;15,79.79,184.06,2.90,5.05;15,85.19,177.93,269.62,8.80">est construite à partir des contreparties empiriques des moments, par exemple h jn θ <ref type="bibr" coords="15,78.00,129.88,110.82,8.80" target="#b7">Chernozhukov et al. (2007)</ref> proposent alors la construction de l'estimateur de l'ensemble comme : Θn = {θ;Q n (θ) &lt; τ n }, où t n est un paramètre de lissage qui respecte les conditions aux limites :</s></p><formula xml:id="formula_35" coords="14,185.46,609.88,150.72,22.94">( ) = 1 n i=1 n ∑ h j y i , x i ,θ ( ) et en notant : Q n (θ) = j=1 J ∑ h jn (θ) 2 1 h jn (θ) &gt; 0 { }.</formula><formula xml:id="formula_36" coords="15,79.81,195.99,118.84,12.88">τ n / n → 0, ln ln n / τ n → 0.</formula><p xml:id="_TPKWPsK"><s xml:id="_czkk8x8" coords="15,78.00,216.96,285.46,8.80">Ils proposent aussi directement l'estimation d'une région de confiance :</s></p><formula xml:id="formula_37" coords="15,81.75,228.76,121.39,26.18">Θn C = θ;Q n (θ) &lt; c n Θn ,1-α ( ) { }</formula><p xml:id="_VRYWwt5"><s xml:id="_pPsW7bJ" coords="15,63.00,259.61,68.52,9.93">à un niveau 1 -a.</s><s xml:id="_hj9UxfD" coords="15,133.49,259.99,253.51,8.80;15,63.00,271.62,191.84,9.93;15,254.66,278.14,1.93,5.05;15,256.64,272.00,2.50,8.80">On peut voir cette construction comme l'inversion du test d'appartenance du paramètre q à l'ensemble identifié Θ I .</s></p><p xml:id="_8cz9jqb"><s xml:id="_QevC8cf" coords="15,78.00,290.02,199.59,8.80;15,277.71,296.15,2.90,5.05;15,282.76,290.02,104.24,8.80;15,63.00,302.03,323.99,8.80;15,63.00,314.05,323.94,8.80;15,63.00,326.06,324.01,8.80;15,63.00,338.08,80.71,8.80">Le point délicat est le calcul de la valeur critique c n qui se fait par sous-échantillonnage (« subsampling », <ref type="bibr" coords="15,179.04,302.03,109.07,8.80" target="#b7">Chernozhukov et al., 2007;</ref><ref type="bibr" coords="15,290.49,302.03,96.50,8.80">Romano et Shaik, 2010)</ref> ou par bootstrap <ref type="bibr" coords="15,136.58,314.05,58.24,8.80" target="#b5">(Bugni, 2010)</ref> en montrant que la région de confiance ainsi construite respecte la condition de couverture asymptotique donnée par l'équation (5) ou l'équation (6).</s><s xml:id="_SZYh89B" coords="15,145.79,338.08,241.21,8.80;15,63.00,350.09,92.96,8.80">La difficulté de ces papiers vient de la technicité des démonstrations asymptotiques.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2" xml:id="_x848Nur" coords="15,63.00,380.11,109.15,8.80">Sélection de moments</head><p xml:id="_BZkM2F5"><s xml:id="_PVgWpph" coords="15,78.00,397.74,185.58,9.93;15,263.56,404.20,2.88,5.10;15,267.19,398.12,119.81,8.80;15,63.00,410.14,324.00,8.80;15,63.00,421.77,324.01,9.93;15,63.00,434.17,324.00,8.80;15,63.00,446.18,100.42,8.80">Quand on teste une vraie valeur du paramètre q 0 , on peut améliorer l'inférence, c'est-à-dire le pouvoir du test conduisant à la construction de la région de confiance pour la vraie valeur (ou du vrai ensemble) du paramètre au niveau 1 -a si on reconnaît que les conditions de moments à l'inégalité peuvent ne pas être toutes saturées en même temps.</s><s xml:id="_ENGzxNu" coords="15,165.92,446.18,126.79,8.80">Les moments d'indice j tels que</s></p><formula xml:id="formula_38" coords="15,63.00,463.98,324.00,30.20">E(h j (Y i , X i ,θ 0 )) &lt; 0 ne « comptent » pas. Seuls les moments d'indice k, E h k Y i , X i ,θ 0 ( ) ( ) = 0 comptent</formula><p xml:id="_57JZfsd"><s xml:id="_remA5Y7" coords="15,63.00,494.23,324.05,8.80">mais le point délicat est qu'on ne sait quels moments comptent ou ne comptent pas.</s></p><p xml:id="_4W3x5C3"><s xml:id="_VDSgCBc" coords="15,78.00,512.24,308.94,8.80;15,63.00,524.26,324.00,8.80;15,63.00,536.27,324.00,8.80;15,63.00,548.29,134.63,8.80">Andrews et Soares ( <ref type="formula" coords="15,160.73,512.24,17.27,8.80">2010</ref>) dans un cadre de conditions en nombre fini et son extension, <ref type="bibr" coords="15,107.04,524.26,91.33,8.80">Andrews et Shi (2013)</ref>, dans le cadre d'un système de conditions de moments conditionnels proposent la méthode suivante qu'ils appellent sélection généralisée de moments (GMS).</s><s xml:id="_Nr8zHNC" coords="15,200.75,547.91,186.26,9.93;15,63.00,559.92,88.79,9.93;15,151.61,566.44,1.93,5.05;15,156.36,560.30,227.62,8.80;15,384.10,566.44,2.90,5.05;15,63.00,572.32,323.94,8.80">Pour le test d'appartenance du paramètre q à l'ensemble identifié Θ I on n'utilisera pour la construction de la valeur critique c n associée à ce test que les conditions de moments qui sont proches de la saturation.</s><s xml:id="_vGBND5u" coords="15,63.00,584.33,324.03,8.80;15,63.00,596.35,168.15,8.80">Les auteurs proposent que ce soient les données qui décident en fonction de la distance à la saturation de chaque moment.</s><s xml:id="_Nnsx6u8" coords="15,233.22,596.35,58.54,8.80;15,291.85,602.48,2.88,5.05;15,295.00,596.35,92.00,8.80;15,63.00,608.36,324.03,8.80;15,63.00,620.38,126.21,8.80">Pour calculer c n , ces auteurs comparent aussi différentes techniques asymptotiques, par calcul de la variance asymptotique, bootstrap ou par subsampling.</s><s xml:id="_cDDYPGn" coords="15,192.31,620.38,194.69,8.80;16,63.00,91.21,323.99,8.80;16,63.00,103.21,323.98,8.80;16,63.00,115.22,277.41,8.80">La dernière technique proposée en premier par <ref type="bibr" coords="16,63.00,91.21,106.54,8.80" target="#b7">Chernozhukov et al. (2007)</ref> et reprise par <ref type="bibr" coords="16,223.65,91.21,98.41,8.80" target="#b60">Romano et Shaikh (2010)</ref> semble dominée par les autres propositions qui ont un meilleur comportement à distance finie, comme le montrent les travaux plus récents de Andrews et coauteurs.</s><s xml:id="_3nJUdku" coords="16,78.00,132.12,308.97,8.80;16,63.00,144.03,324.01,8.80;16,63.00,155.93,324.00,8.80;16,63.00,167.84,156.42,8.80">D'autre part, pour assurer là aussi, un meilleur comportement à distance fini (mais dont les propriétés ne reposent pour l'instant que sur des expériences de Monte-Carlo), Andrews et Barwick ( <ref type="formula" coords="16,214.00,155.93,17.33,8.80">2012</ref>) construisent une sélection affinée de moments (Refined Moment Selection).</s><s xml:id="_d4Z3Kqa" coords="16,222.45,167.84,164.54,8.80;16,63.00,179.74,324.00,8.80;16,63.00,191.65,324.02,8.80;16,63.00,203.55,56.55,8.80">La sélection de moments se fait alors en utilisant un critère plus lâche de sélection et qui ne varie pas avec le nombre d'observations tout en corrigeant le niveau du test à cause du caractère conservateur d'une telle méthode.</s><s xml:id="_c7P2dUr" coords="16,121.92,203.55,265.05,8.80;16,63.00,215.46,323.95,8.80;16,63.00,227.36,324.02,8.80;16,63.00,239.27,223.83,8.80">Une simplification de cette méthode très intensive numériquement et en particulier dans le cas où le nombre de moments est important est proposée par <ref type="bibr" coords="16,77.89,227.36,124.05,8.80" target="#b61">Romano, Shaikh et Wolf (2012)</ref> au prix d'un caractère légèrement conservateur de la procédure et donc d'une légère perte de puissance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3" xml:id="_UxdVpk4" coords="16,63.00,268.27,111.93,8.80">Intersection de bornes</head><p xml:id="_6shf2Yg"><s xml:id="_wG57x5s" coords="16,78.00,285.27,309.02,8.80;16,63.00,297.28,139.95,8.80">Quand il y a des moments surnuméraires, on peut exploiter plusieurs ou une infinité de conditions de moments.</s><s xml:id="_bjh4gS3" coords="16,205.66,297.28,181.35,8.80;16,63.00,309.28,323.98,8.80;16,63.00,321.29,34.95,8.80">Par exemple, il existe de nombreux exemples (par exemple, <ref type="bibr" coords="16,120.71,309.28,100.48,8.80" target="#b45">Manski et Pepper, 2000)</ref> où les conditions estimantes sont écrites comme :</s></p><formula xml:id="formula_39" coords="16,63.00,328.46,173.69,61.93">θ ≤ E h Y i , X i , Z i ( )| Z i = z ( ) , pour tout z, et donc satisfont nécessairement : θ ≤ z inf E h Y i , X i , Z i ( )| Z i = z ( ) ⎡ ⎣ ⎤ ⎦ .</formula><p xml:id="_TzFezgE"><s xml:id="_VZcBmUN" coords="16,78.00,396.31,47.77,8.80;16,126.07,402.44,2.90,5.05;16,129.61,396.31,257.38,8.80;16,63.00,408.31,131.53,8.80">Si on note h n (z) un estimateur dans un échantillon de taille n, par exemple un estimateur non paramètrique, de</s></p><formula xml:id="formula_40" coords="16,197.64,401.20,85.92,20.11">E h Y i , X i , Z i ( )| Z i = z (</formula><p xml:id="_jpukG34"><s xml:id="_WqGnCgN" coords="16,284.42,401.20,3.33,20.11;16,287.51,408.31,99.48,8.80;16,63.00,420.32,106.66,8.80">) , estimer cette borne par la contrepartie empirique :</s></p><formula xml:id="formula_41" coords="16,79.81,433.48,307.18,21.00">z inf h n (y i , x i ,z) ( )<label>(7)</label></formula><p xml:id="_tps2NVf"><s xml:id="_j476M7E" coords="16,63.00,461.32,324.04,8.80;16,63.00,473.33,296.67,8.80;16,360.04,479.46,2.95,5.05;16,363.68,473.33,23.32,8.80;16,63.00,485.33,53.50,8.80">est sévèrement biaisée vers le bas à distance finie puisqu'on ne contrôle pas la variabilité de l'échantillonnage et donc la variation de la variance de h n (z) en fonction de z.</s><s xml:id="_ZgUwHDb" coords="16,119.02,485.33,267.97,8.80;16,63.00,497.34,309.01,8.80">L'argument de l'infimum de la fonction estimée dans l'équation (7) a une forte tendance à être un point z pour lequel l'estimation est très bruitée.</s></p><p xml:id="_2v5rekX"><s xml:id="_ebQhdRV" coords="16,78.00,514.34,309.01,8.80;16,63.00,526.35,297.86,8.80">Chernozhukov, <ref type="bibr" coords="16,142.91,514.34,83.66,8.80" target="#b8">Lee et Rosen (2013)</ref> proposent de résoudre ce problème en construisant l'intervalle de confiance de la borne en utilisant l'estimateur :</s></p><formula xml:id="formula_42" coords="16,79.81,540.63,79.21,17.63">z inf h n (z) + c n v n (z) ⎡ ⎣ ⎤ ⎦</formula><p xml:id="_Yx7CjGh"><s xml:id="_gBsGdqz" coords="16,63.00,560.36,16.49,8.80;16,79.44,566.49,2.90,5.05;16,84.45,560.36,258.56,8.80">où v n est un estimateur de la variance de la contrepartie empirique en z.</s><s xml:id="_ArarsSg" coords="16,345.11,560.36,41.89,8.80;16,63.00,572.36,323.99,8.80;16,63.00,584.37,323.97,8.80;16,63.00,596.37,37.64,8.80">On rajoute donc dans la fonction objectif un terme qui pénalise les régions où la variable par rapport à laquelle on prend l'infimum conduit à des variances importantes de l'objectif.</s><s xml:id="_HnrGWM9" coords="16,102.75,596.37,217.73,8.80;16,320.59,602.50,2.90,5.05;16,323.64,596.37,2.50,8.80">La difficulté là-aussi est le calcul de la valeur critique c n .</s><s xml:id="_YKzm6Ub" coords="16,328.25,596.37,58.75,8.80;16,63.00,608.38,323.99,8.80;16,63.00,620.38,85.85,8.80">La plus grande partie de l'article est consacrée à cette construction et à la justification asymptotique de cette construction.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_FJf9fdh" coords="17,63.00,91.21,153.59,8.80">Structure additionnelle : convexité</head><p xml:id="_sKZya9V"><s xml:id="_hFvaaH9" coords="17,78.00,109.21,308.97,8.80;17,63.00,121.21,126.61,8.80">Dans certains cas et en particulier dans les cas où les moments sont linéaires, l'ensemble identifié est convexe.</s><s xml:id="_5PeDxrQ" coords="17,191.68,121.21,195.32,8.80;17,63.00,133.21,324.00,8.80;17,63.00,145.21,78.48,8.80">L'idée est alors de remplacer l'estimation et l'inférence construites pour un ensemble par l'estimation et l'inférence pour une fonction, la fonction support.</s><s xml:id="_VGXwzRN" coords="17,144.28,145.21,242.71,8.80;17,63.00,157.21,324.03,8.80">En effet, cette fonction caractérise complètement l'ensemble identifié convexe par ses coordonnées polaires (par exemple, <ref type="bibr" coords="17,309.97,157.21,72.80,8.80" target="#b58">Rockafellar, 1970)</ref>.</s><s xml:id="_ww57DBN" coords="17,63.00,169.07,324.02,8.94;17,63.00,181.21,324.00,8.80;17,63.00,193.21,122.92,8.80"><ref type="bibr" coords="17,63.00,169.07,165.56,8.94" target="#b1">Beresteanu, Molchanov et Molinari (2012)</ref> développent le cadre général dans lequel la théorie des ensembles aléatoires peut être utilisée et qui fournit une autre justification de la fonction support.</s></p><p xml:id="_AMhxSmg"><s xml:id="_99bJZvn" coords="17,78.00,211.21,247.39,8.80">La fonction support d'un ensemble convexe B est définie par :</s></p><formula xml:id="formula_43" coords="17,79.59,226.89,77.86,21.68">δ * q | B ( ) = β∈B sup q T β</formula><p xml:id="_w3SPFBV"><s xml:id="_u6dDcHK" coords="17,138.50,224.50,3.33,20.23;17,157.97,224.50,3.33,20.23;17,164.75,230.39,168.61,10.61;17,63.00,257.21,152.38,8.80">( ) pour toutes directions, q telles que  q = 1, qui caractérise l'ensemble convexe B :</s></p><formula xml:id="formula_44" coords="17,79.38,274.34,145.53,15.95">β ∈B ⇔ ∀q, q = 1,q T β ≤ δ * q | B ( ).</formula><p xml:id="_kkJ5MWm"><s xml:id="_xw2Ehww" coords="17,78.00,301.21,205.93,8.80">Cette construction est illustrée dans le graphique 2.</s></p><p xml:id="_tmhyHNK"><s xml:id="_CjbNXdj" coords="17,192.37,332.03,65.27,8.80;17,135.67,350.03,178.65,8.80;17,268.81,513.95,41.31,8.34;17,213.93,537.95,52.42,8.34;17,182.42,395.80,22.91,9.09;17,94.41,428.05,20.17,8.07;17,311.57,407.52,39.16,8.34;17,109.78,609.70,47.65,8.34">GRAPHIQUE 2 La fonctIon support d'un enseMbLe convexe Ensemble B Point d'origine q B q B Direction q Direction (-q)</s></p><p xml:id="_P3VacbB"><s xml:id="_VgEcXnk" coords="18,78.00,91.20,308.94,8.80;18,63.00,103.27,324.00,8.80;18,63.00,115.34,111.57,8.80">Par exemple, dans le cas de censure par intervalles étudié par <ref type="bibr" coords="18,332.12,91.20,50.58,8.80" target="#b64">Stoye (2007)</ref>, dans un modèle de prédiction linéaire, extension de l'exemple 1 à un cadre multidimensionnel, on écrit que :</s></p><formula xml:id="formula_45" coords="18,80.41,127.81,124.37,16.08">y i * = x i β + ε i , y i * ∈ y iL , y iL + δ i ⎡ ⎣ ⎤ ⎦ .</formula><p xml:id="_8Sc8nht"><s xml:id="_zvQhdz5" coords="18,78.00,151.09,309.00,9.93;18,63.00,163.16,93.05,9.93;18,155.88,169.67,1.95,5.05;18,160.90,163.54,162.61,8.80;18,323.56,169.67,1.63,5.05;18,328.27,163.54,58.74,8.80;18,63.00,173.49,74.66,11.90">Par notre argumentation habituelle, le vecteur de paramètres b appartient à l'ensemble identifié, Θ I si et seulement s'il existe une variable t i de fonction de répartition η = F(.</s><s xml:id="_ZaUg7V5" coords="18,139.10,175.69,8.75,8.95;18,148.04,180.61,1.81,5.76;18,150.95,175.69,8.00,8.95;18,159.32,180.61,1.81,5.76;18,162.23,175.69,8.31,8.95;18,170.32,180.61,5.36,5.76;18,176.89,175.61,210.11,9.03;18,63.00,187.68,40.59,8.80">| x i ,δ i , y iL ) sur [0,1] et qui complète les données par l'intermédiaire de :</s></p><formula xml:id="formula_46" coords="18,80.41,203.25,54.50,14.24">y i * = y iL + δ i t i ,</formula><p xml:id="_3xHtZzp"><s xml:id="_9cgkB7G" coords="18,63.00,224.81,212.96,8.80">comme dans l'exemple 1. Ceci permet alors d'écrire :</s></p><formula xml:id="formula_47" coords="18,79.38,238.88,133.22,20.23">β = E(x i T x i ) ( ) -1 E x i T y iL + t i δ i ( ) ( ) ,</formula><p xml:id="_GrXeqcD"><s xml:id="_JqjjNAW" coords="18,63.00,268.95,323.99,8.80;18,63.00,281.11,2.73,8.70;18,65.56,287.15,1.58,5.05;18,68.92,281.02,105.95,8.80">ce qui permet d'affirmer d'abord que l'ensemble est convexe puisque l'intervalle auquel t i appartient, [0,1] est convexe.</s><s xml:id="_4xRxSPS" coords="18,176.56,281.02,210.41,8.80">Cela permet ensuite d'écrire la fonction support comme :</s></p><formula xml:id="formula_48" coords="18,79.59,290.21,248.91,30.93">δ * q | B ( ) = β∈B sup q T β ( ) = η i ∈0,1] sup q T E(x i T x i ) ( ) -1 E x i T y iL + t i δ i ( )<label>( ) ( ) .</label></formula><p xml:id="_4W8542u"><s xml:id="_hw22BXg" coords="18,78.00,331.15,308.96,8.80;18,63.00,343.22,207.64,8.80">Quelques calculs simples permettent d'obtenir la fonction support comme des moments des données (voir <ref type="bibr" coords="18,174.71,343.22,90.65,8.80" target="#b4">Bontemps et al., 2012)</ref> :</s></p><formula xml:id="formula_49" coords="18,77.49,354.48,304.10,30.38">δ * q | B ( ) = E z q w q ( ) = q T E x T x ( ) ( ) -1 E x T 1 q T E x T x ( ) -1 x T &gt; 0 { } δ i + y L ( ) ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ . δ * q | B ( ) = E z q w q ( ) = q T E x T x ( ) ( ) -1 E x T 1 q T E x T x ( ) -1 x T &gt; 0 { } δ i + y L ( ) ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ .</formula><p xml:id="_RmujNac"><s xml:id="_e8qhS4d" coords="18,78.00,391.36,308.97,8.80;18,63.00,403.43,99.26,8.80">Un estimateur de cette quantité peut être exprimé comme un estimateur MCO dans chaque direction q.</s><s xml:id="_rqCfVHE" coords="18,165.26,403.43,221.70,8.80;18,63.00,415.49,323.97,8.80">En effet, l'expression du point de la frontière tangent à l'ensemble identifié et perpendiculaire à la direction q (voir le graphique 2) s'écrit :</s></p><formula xml:id="formula_50" coords="18,77.22,428.03,171.16,26.55">β q = E x T x ( ) ( ) -1 E x T 1 x q &gt; 0 { } δ i + y L ( ) ( ) , β q = E x T x ( ) ( ) -1 E x T 1 x q &gt; 0 { } δ i + y L ( ) ( ) ,</formula><p xml:id="_Q7KBJXJ"><s xml:id="_e5w9jrr" coords="18,63.00,463.63,288.18,8.80;18,354.69,459.53,32.31,12.90;18,63.00,475.70,324.00,8.80">et est donc obtenu comme la limite en probabilité de l'estimateur MCO, βq , dans la prédiction linéaire de la variable dépendante construite en fonction des observables</s></p><formula xml:id="formula_51" coords="18,60.86,478.90,125.42,30.38">1 q T E x T x ( ) -1 x T &gt; 0 { } δ i + y L ( ) 1 q T E x T x ( ) -1 x T &gt; 0 { } δ i + y L (</formula><p xml:id="_aWBMvm4"><s xml:id="_5ghu9b7" coords="18,181.11,478.90,3.33,30.35;18,187.16,491.77,120.33,8.80">) en fonction des covariables x.</s><s xml:id="_Z8zjHMg" coords="18,310.50,491.77,76.50,8.80;18,63.00,507.84,124.25,8.80">Notons alors l'esti- mateur de la frontière comme :</s></p><formula xml:id="formula_52" coords="18,80.63,523.34,66.41,15.95">δn * q | B ( ) = q T βq .</formula><p xml:id="_77tFav6"><s xml:id="_KdY9sQV" coords="18,78.00,547.97,308.99,8.80;18,63.00,560.04,104.07,8.80">Les méthodes d'inférence sont développées par <ref type="bibr" coords="18,266.59,547.97,115.91,8.80">Beresteanu et Molinari (2008</ref><ref type="bibr" coords="18,382.50,547.97,4.49,8.80;18,63.00,560.04,99.98,8.80" target="#b4">) et Bontemps et al. (2012)</ref>.</s><s xml:id="_TcH3QED" coords="18,169.55,560.04,217.40,8.80;18,63.00,572.11,324.04,8.80;18,63.00,579.72,115.55,13.25">Sous certaines hypothèses de régularité de la frontière (qui exclut en particulier des variables discrètes), ces auteurs montrent que le processus stochastique n δn</s></p><formula xml:id="formula_53" coords="18,166.14,573.87,82.89,24.99">* q | B ( ) -δ * q | B ( ) (</formula><p xml:id="_FPwvAcH"><s xml:id="_KbUfbVb" coords="18,249.42,573.87,3.33,24.99;18,254.97,584.18,132.02,8.80;18,63.00,596.24,270.21,8.80">) tend uniformément en distribution quand n tend vers l'infini vers un processus stochastique gaussien.</s><s xml:id="_HmUj9z8" coords="18,336.22,596.24,50.78,8.80;18,63.00,608.31,323.99,8.80;18,63.00,620.38,323.96,8.80;19,63.00,91.20,324.00,8.80;19,63.00,103.20,226.44,8.80;19,294.44,99.18,11.25,12.76;19,303.00,103.20,2.50,8.80"><ref type="bibr" coords="18,336.22,596.24,50.78,8.80;18,63.00,608.31,38.91,8.80" target="#b4">Bontemps et al. (2012)</ref> montrent comment l'opérateur de covariance, c'est-à-dire la covariance entre les estimateurs de la fonction support concernant des directions différentes s'obtient simplement en utilisant les résidus des régressions dans chaque direction que nous avons décrites plus haut pour la construction de βq , .</s><s xml:id="_eUxfe82" coords="19,307.78,103.20,79.23,8.80;19,63.00,115.20,236.38,8.80">Les tests et donc les intervalles de confiance sont écrits pour chaque direction q.</s><s xml:id="_QYgHPsW" coords="19,301.50,115.20,85.50,8.80;19,63.00,127.20,259.26,8.80">Sous certaines conditions techniques, l'inférence est efficace <ref type="bibr" coords="19,225.96,127.20,92.23,8.80" target="#b37">(Kaido et Santos, 2011)</ref>.</s></p><p xml:id="_8B6ZEWz"><s xml:id="_9gNqgqM" coords="19,78.00,144.20,309.01,8.80;19,63.00,156.20,324.02,8.80;19,63.00,168.20,324.00,8.80;19,63.00,180.20,324.00,8.80;19,63.00,192.20,25.31,8.80">On peut étendre ces résultats au cas des variables discrètes mais les résultats asymptotiques font apparaître un processus additionnel dans la loi asymptotique de l'estimateur de la frontière précédente même si ceci ne semble pas avoir d'importance à distance finie dans des expériences de Monte-Carlo <ref type="bibr" coords="19,315.20,180.20,71.80,8.80;19,63.00,192.20,21.09,8.80" target="#b4">(Bontemps et al., 2012)</ref>.</s><s xml:id="_TvTnAcf" coords="19,90.42,192.20,296.55,8.80;19,63.00,204.20,323.97,8.80;19,63.00,216.20,323.99,8.80;19,63.00,228.20,128.20,8.80">Ce dernier article étend aussi le cadre de prédiction linéaire en étudiant des restrictions générales de moments linéaires en nombre fini mais supérieur au nombre de paramètres à estimer (moments surnuméraires) et l'estimation et les méthodes d'inférence associées.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_xA7cG3X" coords="19,63.00,257.20,291.53,8.80">un échantILLon d'appLIcatIons eMpIrIques et autres suJets connexes</head><p xml:id="_cgkgGTf"><s xml:id="_u7fxyHy" coords="19,78.00,274.20,308.99,8.80;19,63.00,286.20,323.98,8.80">Le nombre d'applications empiriques de ces principes reste réduit et n'utilise pas toujours les résultats récents sur l'inférence que nous venons de passer en revue.</s><s xml:id="_N8yTFRd" coords="19,63.00,298.20,200.69,8.80">Nous en donnons ici un échantillon non exhaustif.</s></p><p xml:id="_FBcFBFK"><s xml:id="_TATsBhw" coords="19,78.00,315.20,309.04,8.80;19,63.00,327.20,256.53,8.80">Un des premiers articles utilisant des concepts d'identification partielle dans un cadre empirique est celui <ref type="bibr" coords="19,179.49,327.20,135.96,8.80">de Hotz, Mullin et Sanders (1997)</ref>.</s><s xml:id="_fyT9fCH" coords="19,322.20,327.20,64.78,8.80;19,63.00,339.20,323.95,8.80;19,63.00,351.20,324.00,8.80;19,63.00,363.20,96.84,8.80">C'est un modèle sous forme réduite qui posent des questions d'évaluation d'un traitement dans un cadre où la principale variable instrumentale ne respecte pas pleinement les conditions usuelles de validité.</s><s xml:id="_YtWacGu" coords="19,161.83,363.20,225.24,8.80;19,63.00,375.20,324.02,8.80;19,63.00,387.20,324.01,8.80;19,63.00,399.20,97.64,8.80">Le paramètre d'intérêt est l'effet causal de l'âge au premier enfant pendant l'adolescence sur les comportements et résultats ultérieurs et la variable instrumentale en question est le fait de subir une fausse couche au moment de la première grossesse.</s><s xml:id="_3Tjm9vt" coords="19,162.70,399.20,224.29,8.80;19,63.00,411.20,323.98,8.80;19,63.00,423.20,162.37,8.80">Les fausses couches ne fournissent en effet un instrument valide que pour un sous-échantillon dans la population et il est donc contaminé dans le sens d <ref type="bibr" coords="19,115.41,423.20,106.02,8.80" target="#b34">'Horowitz et Manski (1995)</ref>.</s><s xml:id="_9NUvrPp" coords="19,227.36,423.20,159.71,8.80;19,63.00,435.20,323.97,8.80">Cette littérature de traitement et sélection inclut aussi l'article <ref type="bibr" coords="19,141.46,435.20,110.44,8.80">de Manski et Pepper (2000)</ref> sur les rendements de l'éducation.</s><s xml:id="_NK347Zv" coords="19,63.00,447.20,324.01,8.80;19,63.00,459.20,223.45,8.80">Les auteurs analysent les rendements de l'éducation à chacun de ses niveaux et ces niveaux sont considérés comme un traitement multiple.</s><s xml:id="_DctsNJf" coords="19,289.37,459.20,97.64,8.80;19,63.00,471.20,323.97,8.80;19,63.00,483.20,103.15,8.80">De plus, ils utilisent des hypothèses de monotonicité sur l'effet du traitement ou sur l'existence d'une variable qui augmente les revenus.</s><s xml:id="_2rg4GmC" coords="19,168.63,483.20,218.34,8.80;19,63.00,495.20,324.00,8.80;19,63.00,507.20,269.19,8.80">Les mêmes auteurs analysent les effets dissuasifs de la peine de mort aux États-Unis <ref type="bibr" coords="19,179.90,495.20,99.07,8.80" target="#b46">(Manski et Pepper, 2013)</ref> et montrent que différentes hypothèses conduisent à des conclusions diamétralement opposées.</s></p><p xml:id="_qEjXZt2"><s xml:id="_Ee6fCec" coords="19,78.00,524.20,309.00,8.80;19,63.00,536.20,200.38,8.80">Un autre exemple d'estimation sous forme réduite dans un cadre de sélection inclut l'article <ref type="bibr" coords="19,120.55,536.20,138.56,8.80">de Honoré et Lleras-Muney (2006)</ref>.</s><s xml:id="_5F7V8AG" coords="19,265.89,536.20,121.11,8.80;19,63.00,548.20,323.98,8.80;19,63.00,560.20,305.86,8.80">Ces deux auteurs estiment des bornes sur l'évolution au cours des 40 dernières années aux États-Unis des deux causes de mortalité principales que sont les maladies du coeur et le cancer.</s><s xml:id="_MR6gSV7" coords="19,371.87,560.20,15.08,8.80;19,63.00,572.20,323.95,8.80;19,63.00,584.20,276.19,8.80">Ces causes sont traitées comme des risques concurrents dans un modèle de durée et la corrélation entre ces risques est le paramètre qui n'est pas identifiable.</s><s xml:id="_FRtCjZ9" coords="19,341.30,584.20,45.70,8.80;19,63.00,596.20,323.96,8.80;19,63.00,608.20,324.05,8.80;19,63.00,620.20,174.94,8.80">Les auteurs montrent que les progrès dans la lutte contre le cancer semblent avoir été cachés dans les analyses supposant des risques concurrents indépendants, par l'importance des progrès contre les accidents cardiaques.</s><s xml:id="_nRhNjeU" coords="20,78.00,91.20,309.00,8.80;20,63.00,103.37,324.04,8.80;20,63.00,115.54,324.04,8.80;20,63.00,127.71,94.12,8.80">L'évaluation de politiques publiques comme celles de stages offerts à certaines populations prend une place centrale dans la littérature récente en économétrie appliquée et à la suite de Manski, des auteurs ont développé un certain nombre de résultats sur les bornes.</s><s xml:id="_H5HXfGV" coords="20,159.72,127.71,227.30,8.80;20,63.00,139.88,324.01,8.80;20,63.00,152.05,324.02,8.80;20,63.00,164.23,324.00,8.80;20,63.00,176.40,324.00,8.80">Par exemple, <ref type="bibr" coords="20,214.02,127.71,45.00,8.80" target="#b40">Lee (2009)</ref> montre comment surmonter les problèmes de sélection dans l'emploi pour évaluer les effets d'un programme de formation, le Job Corps aux États-Unis. Lee utilise des données d'expérimentations contrôlées et une hypothèse de monotonicité de l'effet du traitement sur l'emploi pour en inférer les effets du traitement sur les salaires conditionnellement à l'emploi.</s><s xml:id="_zscZPZF" coords="20,63.00,188.57,323.95,8.80;20,63.00,200.74,323.94,8.80;20,63.00,212.91,323.96,8.80;20,63.00,225.08,222.36,8.80">Le cadre proposé par Manski pour la sélection est aussi appliqué par <ref type="bibr" coords="20,349.92,188.57,37.03,8.80;20,63.00,200.74,153.17,8.80" target="#b2">Blundell, Gosling, Ichimura et Meghir (2007)</ref> au cas de l'évolution des rendements de l'éducation et ceci en fonction de la non-participation pour les hommes et pour les femmes au Royaume-Uni sur les 30 dernières années.</s><s xml:id="_BSaWhJj" coords="20,288.44,225.08,98.57,8.80;20,63.00,237.25,324.01,8.80;20,63.00,249.42,177.53,8.80">La littérature empirique dans ces cadres de traitement et de sélection est donc assez bien développée et d'autres références auraient pu être données.</s></p><p xml:id="_2NSfTkG"><s xml:id="_czQZKJp" coords="20,78.00,267.59,179.51,8.80">Plus rares sont les applications structurelles.</s><s xml:id="_pxtxkEZ" coords="20,260.50,267.59,126.49,8.80;20,63.00,279.76,173.28,8.80">L'un des premiers exemples est celui présenté par <ref type="bibr" coords="20,140.16,279.76,91.78,8.80" target="#b28">Haile et Tamer (2003)</ref>.</s><s xml:id="_YFQBdB9" coords="20,239.45,279.76,147.58,8.80;20,63.00,291.94,324.03,8.80;20,63.00,304.11,324.01,8.80;20,63.00,316.28,102.25,8.80">Les auteurs développent un modèle structurel dans des enchères ascendantes qui sont un cadre d'enchères dont les paramètres sont notoirement difficiles à identifier car l'information observée y est particulièrement réduite.</s><s xml:id="_u8JVPK3" coords="20,168.39,316.28,218.58,8.80;20,63.00,328.45,324.00,8.80;20,63.00,340.62,235.83,8.80">Les auteurs n'exploitent que certaines contraintes de rationalité sur le comportement des agents et ne font pas d'hypothèses distributionnelles pour estimer les valeurs privées des enchérisseurs.</s><s xml:id="_cPcCEt7" coords="20,300.85,340.62,86.09,8.80;20,63.00,352.79,323.99,8.80;20,63.00,364.96,300.04,8.80">Les auteurs supposent que les acheteurs potentiels n'enchérissent que jusqu'à la valeur qu'ils confèrent à l'objet et ne laissent pas l'objet être vendu à un prix inférieur à cette valeur.</s></p><p xml:id="_CRhQDUR"><s xml:id="_rSPWMqX" coords="20,78.00,383.13,309.00,8.80;20,63.00,395.30,75.47,8.80">Un autre exemple est fourni par <ref type="bibr" coords="20,200.51,383.13,123.55,8.80" target="#b53">Pakes, Porter, Ho et Ishii (2006)</ref> et son extension dans <ref type="bibr" coords="20,84.09,395.30,50.30,8.80" target="#b52">Pakes (2010)</ref>.</s><s xml:id="_3Fr9jAS" coords="20,140.89,395.30,246.14,8.80;20,63.00,407.47,323.98,8.80;20,63.00,419.64,324.00,8.80;20,63.00,431.82,96.28,8.80">Ce dernier développe l'estimation de modèles structurels sous des contraintes de rationalité très générales sur des choix ordonnés (comme le nombre de comptoirs de retraits bancaires, ATM) ou dans des jeux non coopératifs entre hôpitaux et HMOs.</s><s xml:id="_RNjNmzh" coords="20,161.32,431.82,225.70,8.80;20,63.00,443.99,324.01,8.80;20,63.00,456.16,80.63,8.80">Ces contraintes à l'inégalité s'appuient sur des restrictions sur les choix observés des entreprises et les paramètres d'intérêt sont les fonctions de profit des agents.</s><s xml:id="_eHk9VQ9" coords="20,146.29,456.16,240.70,8.80;20,63.00,468.33,324.00,8.80;20,63.00,480.50,39.32,8.80">Les choix faits par les entreprises doivent leur rapporter des profits qui sont supérieurs à ceux qu'elles obtiendraient si elles prenaient d'autres décisions.</s><s xml:id="_TeMp7Nc" coords="20,104.42,480.50,282.58,8.80;20,63.00,492.67,324.04,8.80;20,63.00,504.84,324.02,8.80;20,63.00,517.01,46.04,8.80">De la même façon, <ref type="bibr" coords="20,180.57,480.50,101.91,8.80" target="#b13">Ciliberto et Tamer (2009)</ref> estiment un modèle structurel dérivé d'un jeu d'entrée sur des lignes aériennes reliant deux aéroports en utilisant des données américaines et des restrictions dérivées de la rationalité des entreprises.</s><s xml:id="_TgBsDUT" coords="20,111.85,517.01,275.18,8.80;20,63.00,529.18,324.00,8.80;20,63.00,541.35,29.67,8.80">Ce modèle généralise le deuxième exemple introduit plus haut et cet article utilise une méthode d'estimation dérivée <ref type="bibr" coords="20,253.49,529.18,133.52,8.80;20,63.00,541.35,25.43,8.80">de Chernozhukov, Hong et Tamer (2007)</ref>.</s><s xml:id="_JdefpTd" coords="20,95.62,541.35,291.39,8.80;20,63.00,553.53,323.98,8.80;20,63.00,565.70,31.53,8.80"><ref type="bibr" coords="20,95.62,541.35,103.40,8.80" target="#b31">Henry et Mourifié (2012)</ref> étudient la concurrence politique et le modèle spatial de vote et montrent comment, malgré l'identification partielle, tester ce modèle.</s><s xml:id="_rhU3YNC" coords="20,97.01,565.70,281.98,8.80">Les auteurs le rejettent d'ailleurs en utilisant des données américaines.</s></p><p xml:id="_pTh7UBa"><s xml:id="_3adTkBS" coords="20,78.00,583.87,308.97,8.80">De nombreux sujets connexes se rattachent au cadre d'identification partielle.</s><s xml:id="_cFQhv5T" coords="20,63.00,596.04,323.95,8.80;20,63.00,608.21,324.00,8.80;20,63.00,620.38,157.68,8.80"><ref type="bibr" coords="20,63.00,596.04,94.97,8.80" target="#b57">Ridder et Moffitt (2007)</ref> offrent un panorama complet de modélisations de données venant de sources multiples comme dans deux enquêtes, par exemple, ou deux états du monde mutuellement exclusifs.</s><s xml:id="_549qSNE" coords="20,223.25,620.38,163.70,8.80;21,63.00,91.20,324.02,8.80;21,63.00,103.23,324.03,8.80;21,63.00,115.26,323.93,8.80;21,63.00,127.29,323.97,8.80;21,63.00,139.32,31.18,8.80">Les modèles à variation discrète dans un cadre d'équations simultanées ont fait l'objet de recherches par <ref type="bibr" coords="21,324.54,91.20,58.11,8.80" target="#b9">Chesher (2005</ref><ref type="bibr" coords="21,63.00,103.23,22.61,8.80" target="#b10">Chesher ( , 2010) )</ref> et <ref type="bibr" coords="21,97.88,103.23,96.71,8.80" target="#b11">Chesher et Rosen (2013)</ref>, des modèles discrets polytomiques sont traités par <ref type="bibr" coords="21,77.59,115.26,109.21,8.80" target="#b12">Chesher et Smolinski (2012)</ref> et les modèles binaires à régresseur « très exogène » dont l'observation est discrète ou censurée par intervalles par <ref type="bibr" coords="21,312.03,127.29,74.94,8.80;21,63.00,139.32,26.72,8.80" target="#b41">Magnac et Maurin (2008)</ref>.</s><s xml:id="_VzYTR2p" coords="21,97.44,139.32,289.52,8.80">Par ailleurs <ref type="bibr" coords="21,149.67,139.32,146.06,8.80" target="#b15">Davezies et d'Haultfoeuille (2012)</ref> traitent de l'attrition.</s><s xml:id="_zF6FdS8" coords="21,63.00,151.34,323.96,8.80;21,63.00,163.37,324.03,8.80;21,63.00,175.40,55.37,8.80">L'identification partielle de paramètres de variance et covariance est étudiée par <ref type="bibr" coords="21,63.00,163.37,110.31,8.80">Horowitz et Manski (2005)</ref>, <ref type="bibr" coords="21,180.61,163.37,74.75,8.80" target="#b17">Fan et Park (2010)</ref>, <ref type="bibr" coords="21,262.51,163.37,71.82,8.80" target="#b18">Fan et Wu (2010)</ref> et <ref type="bibr" coords="21,347.68,163.37,39.35,8.80;21,63.00,175.40,51.33,8.80">Gomez et Pacini (2012)</ref>.</s><s xml:id="_g5YWmZA" coords="21,120.42,175.40,266.58,8.80;21,63.00,187.43,153.76,8.80"><ref type="bibr" coords="21,120.42,175.40,79.95,8.80" target="#b51">Nevo et Rosen (2012</ref><ref type="bibr" coords="21,200.37,175.40,137.17,8.80">) et Conley, Hansen et Rossi (2011)</ref> introduisent ce que sont des instruments imparfaits.</s><s xml:id="_cnraAvq" coords="21,218.85,187.43,168.16,8.80;21,63.00,199.46,213.85,8.80">L'extension de méthodes de vraisemblance empirique fait l'objet d'un article par <ref type="bibr" coords="21,218.60,199.46,54.09,8.80" target="#b6">Canay (2010)</ref>.</s><s xml:id="_A9gQRpw" coords="21,279.96,199.46,107.08,8.80;21,63.00,211.49,324.02,8.80;21,63.00,223.52,220.93,8.80">On peut ainsi voir que les domaines d'application de telles méthodes sont très larges et de nombreux autres articles que nous n'avons pas cités ici en sont la preuve.</s><s xml:id="_dvwuvw9" coords="21,63.00,253.55,47.11,8.80;21,78.00,271.57,308.97,8.80;21,63.00,283.60,323.99,8.80;21,63.00,295.63,270.72,8.80">concLusIon De façon générale, on peut décrire la démarche de l'économétre appliqué comme un choix d'hypothèses dite structurelles qu'il ou elle applique à un ensemble de données pour en dériver des paramètres économiques fondamentaux.</s><s xml:id="_KZVaGKg" coords="21,335.76,295.63,51.20,8.80;21,63.00,307.66,324.00,8.80;21,63.00,319.69,223.60,8.80">La démarche traditionnelle est de chercher à compléter l'ensemble d'hypothèses de telle manière qu'un seul paramètre soit le résultat de cette démarche.</s><s xml:id="_DR8bz2g" coords="21,289.52,319.69,97.50,8.80;21,63.00,331.72,323.99,8.80;21,63.00,343.75,323.95,8.80;21,63.00,355.78,184.46,8.80">Par exemple en utilisant des données censurées, on peut identifier ponctuellement les paramètres d'intérêt en faisant des hypothèses de normalité comme dans le cas d'un Probit ordonné dans le premier exemple exposé dans cet article.</s><s xml:id="_nsRU8dP" coords="21,249.42,355.78,137.62,8.80;21,63.00,367.80,324.00,8.80;21,63.00,379.83,324.03,8.80;21,63.00,391.86,98.41,8.80">Le concept d'identification partielle permet d'abandonner cette complétion et admet que les structures crédibles soient assez lâches pour conduire seulement à l'identification d'un ensemble de valeurs des paramètres d'intérêt.</s><s xml:id="_eDt6CvC" coords="21,163.74,391.86,223.21,8.80;21,63.00,403.89,323.97,8.80;21,63.00,415.92,51.35,8.80">Au lieu de faire une hypothèse de normalité, on fera des hypothèses d'indépendance vis-à-vis de variables explicatives ou d'indépendance en moyenne.</s><s xml:id="_gqARgZp" coords="21,117.38,415.92,269.58,8.80;21,63.00,427.95,324.00,8.80;21,63.00,439.98,304.40,8.80">Malgré cette extension du concept d'identification, la présentation des résultats de l'inférence par régions de confiance ne change pas et les raisonnements empiriques habituels des économétres appliqués restent les mêmes.</s></p><p xml:id="_HvnkGV5"><s xml:id="_GKJhZXr" coords="21,78.00,458.01,277.45,8.80">Il est à noter pourtant que cette démarche semble anti-poppérienne.</s><s xml:id="_MgCksuV" coords="21,358.50,458.01,28.51,8.80;21,63.00,470.03,324.01,8.80;21,63.00,482.06,310.15,8.80"><ref type="bibr" coords="21,358.50,458.01,28.51,8.80;21,63.00,470.03,25.92,8.80" target="#b56">Popper (2005)</ref> suggérait en effet qu'une des qualités d'une théorie est de faire des hypothèses suffisamment contraignantes pour qu'il soit facile de les falsifier ou rejeter.</s><s xml:id="_dbnvm7c" coords="21,376.22,482.06,10.74,8.80;21,63.00,494.09,324.05,8.80;21,63.00,506.12,249.37,8.80">La démarche d'identification partielle semble au contraire se protéger contre tout rejet, en affaiblissant les hypothèses sur un certain nombre d'objets.</s><s xml:id="_zprC7kY" coords="21,314.97,506.12,72.02,8.80;21,63.00,518.15,324.01,8.80;21,63.00,530.18,323.99,8.80;21,63.00,542.21,80.74,8.80">L'assouplissement sans frein des restrictions semble donner lieu à un phénomène de régression à l'infini et le résultat en est assez peu encourageant puisque sans restrictions, on ne peut rien identifier.</s><s xml:id="_ySAGANB" coords="21,146.93,542.21,240.13,8.80;21,63.00,554.24,324.01,8.80;21,63.00,566.26,290.77,8.80">Des hypothèses faibles ont aussi le risque d'aboutir à des recommandations de politique économique peu précises au prix d'une robustesse qui pourrait paraître extrême dans la plupart des domaines scientifiques.</s></p><p xml:id="_GFb8gZ9"><s xml:id="_d3RMddz" coords="21,78.00,584.29,248.81,8.80">C'est pourquoi il faut interpréter cette démarche autrement.</s><s xml:id="_v4ff2RD" coords="21,329.98,584.29,57.06,8.80;21,63.00,596.32,323.98,8.80;21,63.00,608.35,324.06,8.80;21,63.00,620.38,273.72,8.80">Une direction naturelle suggérée par Manski est de comparer des hypothèses de plus en plus contraignantes et qui permettent de réduire la taille de l'ensemble identifié (par exemple, la stratégie empirique utilisée dans <ref type="bibr" coords="21,237.81,620.38,94.52,8.80" target="#b45">Manski et Pepper, 2000)</ref>.</s><s xml:id="_NVvtPNy" coords="21,338.76,620.38,48.28,8.80;22,63.00,91.20,324.06,8.80;22,63.00,103.23,73.80,8.80">Ce ne seront pas les données qui justifieront la crédibilité de chaque résultat puisque les données restent les mêmes.</s><s xml:id="_x97rC4c" coords="22,139.53,103.23,236.64,8.80">Ce sont les hypothèses que les chercheurs doivent justifier.</s><s xml:id="_BdqqEqn" coords="22,378.90,103.23,8.13,8.80;22,63.00,115.26,323.99,8.80;22,63.00,127.29,323.96,8.80;22,63.00,139.32,323.93,8.80;22,63.00,151.35,99.09,8.80">Si la démarche est suffisamment ouverte pour que les lecteurs évaluent la crédibilité de ces restrictions, ils auront le choix de mener des raisonnements empiriques assez riches pour dire que telle hypothèse entraîne telle conclusion empirique ou absence de conclusion empirique.</s><s xml:id="_pstx6W9" coords="22,164.20,151.35,222.79,8.80;22,63.00,163.38,187.60,8.80">En effet, les bornes des intervalles ou régions identifiées peuvent être larges sous des hypothèses faibles.</s><s xml:id="_tJecxwP" coords="22,252.72,163.38,134.27,8.80;22,63.00,175.41,323.97,8.80;22,63.00,187.44,323.99,8.80;22,63.00,199.47,100.41,8.80">L'absence de conclusion doit alors provoquer la recherche d'hypothèses crédibles ou la construction de nouvelles données qui devraient permettre de rendre plus précis les résultats des démarches empiriques en économie.</s></p><p xml:id="_RAaPkga"><s xml:id="_2gv3MDG" coords="22,78.00,217.50,274.10,8.80">Il faut aussi noter en passant les difficultés pratiques de l'inférence.</s><s xml:id="_YXqvjhs" coords="22,355.09,217.50,31.93,8.80;22,63.00,229.52,324.02,8.80;22,63.00,241.55,256.46,8.80;22,382.95,241.55,3.97,8.80">Celle-ci est assez facile dans le cas convexe et certains programmes en Stata commencent à être écrits, par exemple par Francesca Molinari et ses coauteurs (<ref type="url" coords="22,319.46,241.55,63.49,8.80" target="http://economics">http://economics</ref>.</s><s xml:id="_pexZscB" coords="22,63.00,253.58,157.83,8.80">cornell.edu/fmolinari/#Stata_SetBLP).</s><s xml:id="_Dsn8bVf" coords="22,223.70,253.58,163.29,8.80;22,63.00,265.61,217.51,8.80;22,63.00,277.64,90.24,8.80">Cela est aussi vrai pour l'application des méthodes dans l'article <ref type="bibr" coords="22,155.26,265.61,118.77,8.80">de Chernozhukov et al. (2013)</ref> (<ref type="url" coords="22,280.51,265.61,106.49,8.80" target="http://www.cemmap.ac.uk/">http://www.cemmap.ac.uk/</ref> wps/cwp381313.pdf).</s><s xml:id="_YVAZpXz" coords="22,156.50,277.64,230.52,8.80;22,63.00,289.67,302.91,8.80">Dans le cadre des inégalités de moment, les méthodes générales d'inférence sont innovantes mais elles prennent un certain temps.</s><s xml:id="_9us95T9" coords="22,368.50,289.67,18.53,8.80;22,63.00,301.70,323.98,8.80;22,63.00,313.73,38.41,8.80">Ceci n'est qu'un problème technique qui se résoudra par une augmentation de la puissance de calcul.</s></p><p xml:id="_BRNKFKC"><s xml:id="_sq7tvqH" coords="22,78.00,331.76,308.99,8.80;22,63.00,343.79,323.96,8.80;22,63.00,355.82,321.93,8.80">Il ne me reste donc qu'à formuler un souhait qui est celui de voir un nombre plus important d'applications empiriques qui seul permettra d'évaluer la pertinence et la portée de ce courant récent de recherches théoriques pour la recherche empirique.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="9,78.00,612.70,5.41,7.04;9,99.00,612.70,288.23,7.04;9,63.00,621.70,135.11,7.04;9,190.57,91.20,65.27,8.80;9,197.73,109.20,50.94,8.80;9,305.07,157.16,56.31,7.15;9,69.58,304.16,56.30,7.15;9,149.08,144.66,56.30,7.15;9,309.08,279.16,56.31,7.15;9,66.59,284.16,21.72,7.15;9,88.31,289.14,2.33,4.10;9,90.64,284.16,15.22,7.15;9,67.25,161.99,20.39,7.15;9,87.64,166.98,2.33,4.10;9,89.97,161.99,15.22,7.15;9,309.75,319.66,20.39,7.15;9,330.14,324.64,2.33,4.10;9,332.47,319.66,15.22,7.15;9,113.09,319.66,21.72,7.15;9,134.81,324.64,2.33,4.10;9,137.14,319.66,15.22,7.15;9,198.51,209.66,40.09,7.15;9,196.11,232.66,44.87,7.15;9,116.83,128.26,3.51,7.94;9,120.34,133.44,2.33,4.10;9,367.63,311.63,3.51,7.94;9,371.14,316.81,2.33,4.10;10,63.00,91.20,323.99,8.80;10,63.00,103.13,324.00,9.93;10,63.00,115.48,96.49,11.90;10,159.37,122.55,3.25,5.82"><figDesc><div><p xml:id="_GV9UmGC"><s xml:id="_K94s4JC" coords="9,78.00,612.70,5.41,7.04;9,99.00,612.70,288.23,7.04;9,63.00,621.70,135.11,7.04;10,142.25,91.20,244.75,8.80;10,63.00,103.13,324.00,9.93;10,63.00,115.48,96.49,11.90;10,159.37,122.55,3.25,5.82">7.Par la formule des probabilités totales, on obtient la probabilité du carré central en sommant ces quatre probabiltés et en soustrayant 1. équations (3) et les deux dernières obéissent aux contraintes dérivées des équations (4) sous les contraintes, η ∈ [0, 1] et 0 ≤ Pr(carré central, graphique 1)≤ min Pr ε 1</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="22,186.67,385.85,76.66,8.80;22,63.00,403.74,323.98,8.94;22,72.00,415.91,314.99,8.80;22,72.00,427.94,137.65,8.80;22,63.00,441.83,324.02,8.94;22,72.00,454.00,315.01,8.80;22,72.00,466.03,152.51,8.80;22,63.00,479.92,324.01,8.94;22,72.00,492.09,315.00,8.80;22,72.00,504.11,77.42,8.80;22,63.00,518.14,323.97,8.80;22,72.00,530.17,187.02,8.80;22,63.00,544.20,324.01,8.80;22,72.00,556.23,315.00,8.80;22,72.00,568.26,59.76,8.80;22,63.00,582.15,323.98,8.94;22,72.00,594.32,184.36,8.80;22,63.00,608.21,323.98,8.94;22,72.00,620.38,246.61,8.80"><figDesc><div><p xml:id="_YQdAfe5"><s xml:id="_zCQR545" coords="22,186.67,385.85,76.66,8.80;22,63.00,403.74,323.98,8.94;22,72.00,415.91,314.99,8.80;22,72.00,427.94,137.65,8.80">BIBLIOGRAPHIE Andrews, D.W.K et P.J. BarwIck (2012), « Inference for Parameters Defined by Moment Inequalities : A Recommended Moment Selection Procedure », Econometrica, 80(6) : 2805-2826.</s><s xml:id="_Nr2gcUd" coords="22,63.00,441.83,324.02,8.94;22,72.00,454.00,315.01,8.80;22,72.00,466.03,152.51,8.80">Andrews, D.W.K. et P. Guggenberger (2009), « Validity of Subsampling and Plug-in Asymptotic Inference for Parameters Defined by Moment Inequalities », Econometric Theory, 25(3) : 669-709.</s><s xml:id="_5sGZnt4" coords="22,63.00,479.92,324.01,8.94;22,72.00,492.09,315.00,8.80;22,72.00,504.11,77.42,8.80">Andrews, D.W.K. et P. Guggenberger (2010), « Assymptotic Size and a Problem with Subsampling and with the m out of n Bootstrap », Econometric Theory, 26(02) : 426 -468.</s><s xml:id="_KrsK8X2" coords="22,63.00,518.14,94.34,8.80">Andrews, D.W.K et X.</s><s xml:id="_pRfwzDt" coords="22,160.47,518.14,226.49,8.80;22,72.00,530.17,187.02,8.80">ShI (2013), « Inference Based on Conditional Moment Inequalities », Econometrica, 81(2) : 609-666.</s><s xml:id="_YEuNnFE" coords="22,63.00,544.20,324.01,8.80;22,72.00,556.23,315.00,8.80;22,72.00,568.26,59.76,8.80;22,63.00,582.15,323.98,8.94;22,72.00,594.32,184.36,8.80">Andrews, D.W.K et G. Soares (2010), « Inference for Parameters Defined by Moment Inequalities Using Generalized Moment Selection », Econometrica, 78(1) : 119-157 ArMstrong, T.B. (2011), « Asymptotically Exact Inference in Conditional Moment Inequality Models », unpublished manuscript.</s><s xml:id="_DnDHX8W" coords="22,63.00,608.21,323.98,8.94;22,72.00,620.38,246.61,8.80">Beresteanu, A. et F. MoLInarI (2008), « Asymptotic Properties for a Class of Partially Identified Models », Econometrica, 76(4) : 763-814.</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_0"><p xml:id="_fbeVyDb"><s xml:id="_9VfaEr7" coords="5,99.00,603.40,288.00,7.94;5,63.00,612.70,120.13,7.04">On peut aussi s'intéresser uniquement à un sous-ensemble des paramètres q, par exemple dans le cas d'un modèle de régression.</s><s xml:id="_FFhup4J" coords="5,184.75,612.70,202.21,7.04;5,63.00,621.70,193.89,7.04">Dans ce cas, on reformule l'identification en utilisant la fonction de répartition, par exemple par l'intermédiaire de moments.</s></p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="23,63.00,91.06,323.98,8.94;23,72.00,103.23,314.78,8.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_fsY3qm7">Sharp Identification Regions in Models With Convex Moment Predictions</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Beresteanu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Molchanov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Molinari</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta8680</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uXTksyT">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1785" to="1821" />
+			<date type="published" when="2011">2011</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beresteanu, A., I. MoLchanov et F. MoLInarI (2011), « Sharp Identification Regions in Models with Convex Moment Predictions », Econometrica, 79(6) : 1785-1821.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,117.26,323.96,8.80;23,72.00,129.29,255.74,8.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_bQ4Jf4u">Partial identification using random set theory</title>
+		<author>
+			<persName><forename type="first">Arie</forename><surname>Beresteanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilya</forename><surname>Molchanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Molinari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2011.06.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8NjRVMa">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="17" to="32" />
+			<date type="published" when="2012-01">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beresteanu, A., I. MoLchanov et F. MoLInarI (2012), « Partial Identification Using Random Set Theory », Journal of Econometrics, 166(1) : 17-32.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,143.32,324.01,8.80;23,72.00,155.34,315.01,8.80;23,72.00,167.37,194.84,8.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_4fk9MDc">Changes in the Distribution of Male and Female Wages Accounting for Employment Composition Using�Bounds</title>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amanda</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hidehiko</forename><surname>Ichimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Costas</forename><surname>Meghir</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-0262.2006.00750.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jW5rQR2">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="323" to="363" />
+			<date type="published" when="2007-03">2007</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BLundeLL, R.W., A. GosLIng, H. IchIMura et C. MeghIr (2007), « Changes in the Distribution of Male and Female Wages Accounting for Employment Composition Using Bounds », Econometrica, 75(2) : 323-363.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,181.40,324.01,8.80;23,72.00,193.43,244.13,8.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_WYUsf7W">Bounding mean regressions when a binary regressor is mismeasured</title>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><forename type="middle">R</forename><surname>Bollinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0304-4076(95)01730-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JuzVCBn">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="387" to="399" />
+			<date type="published" when="1996-08">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BoLLInger, C.R. (1996), « Bounding Mean Regressions when a Binary Regressor is Mismeasured », Journal of Econometrics, 73(2) : 387-399.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,207.46,324.01,8.80;23,72.00,219.49,134.60,8.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_TTbHENz">Set Identified Linear Models</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Bontemps</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Magnac</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Maurin</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta7637</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_n7Ta5Yd">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1129" to="1155" />
+			<date type="published" when="2012">2012</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BonteMps, C., T. Magnac et E. MaurIn (2012), « Set Identified Linear Models », Econometrica, 80(3) : 1129-1155.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,233.38,323.99,8.94;23,72.00,245.55,221.15,8.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_c8Mw2eN">Bootstrap Inference in Partially Identified Models Defined by Moment Inequalities: Coverage of the Identified Set</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Bugni</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta8056</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QRjXrgu">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="735" to="753" />
+			<date type="published" when="2010">2010</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BugnI, F. (2010), « Bootstrap Inference in Partially Identified Models Defined by Moment Inequalities », Econometrica, 78(2) : 735-754.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,259.43,324.02,8.94;23,72.00,271.60,315.02,8.80;23,72.00,283.63,35.87,8.80" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_g6JK2b9">EL inference for partially identified models: Large deviations optimality and bootstrap validity</title>
+		<author>
+			<persName coords=""><forename type="first">Ivan</forename><forename type="middle">A</forename><surname>Canay</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2009.11.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rbnAVu9">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="408" to="425" />
+			<date type="published" when="2010-06">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Canay, I. (2010), « EL Inference for Partially Identified Models : Large Deviations Optimality and Bootstrap Validity », Journal of Econometrics, 156(2) : 408-425.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,297.66,323.97,8.80;23,72.00,309.69,231.90,8.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_CNSTEQe">Estimation and Confidence Regions for Parameter Sets in Econometric Models</title>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Chernozhukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Han</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elie</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-0262.2007.00794.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yysuf64">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1243" to="1284" />
+			<date type="published" when="2007-09">2007</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chernozhukov, V., H. Hong et E. TaMer (2007), « Inference on Parameter Sets in Econometric Models », Econometrica, 75(5) : 1243-1284.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,323.58,323.98,8.94;23,72.00,335.75,191.69,8.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_c2s2C6S">Intersection Bounds: Estimation and Inference</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Chernozhukov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Rosen</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta8718</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gV7R8JB">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="667" to="737" />
+			<date type="published" when="2013">2013</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chernozhukov, V., S. Lee et A.M. Rosen (2013), « Intersection Bounds : Estimation and Inference », Econometrica, 81(2) : 667-737.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,349.78,324.03,8.80;23,72.00,361.80,135.61,8.80" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_f6G2vXw">Nonparametric Identification under Discrete Variation</title>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><surname>Chesher</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-0262.2005.00628.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8DxPeD6">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1525" to="1550" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chesher, A. (2005), « Non Parametric Identification under Discrete Variation », Econometrica, 73(5) : 1525-1550.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,375.69,323.97,8.94;23,72.00,387.86,126.30,8.80" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_keMC4Za">Instrumental Variable Models for Discrete Outcomes</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Chesher</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta7315</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zCuRWed">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="575" to="601" />
+			<date type="published" when="2010">2010</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chesher, A. (2010), « Instrumental Variable Models for Discrete Outcomes », Econometrica, 78(2) : 575-601.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,401.89,324.00,8.80;23,72.00,413.92,51.42,8.80" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_hu3pXkB">Generalized instrumental variable models</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Chesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Rosen</surname></persName>
+		</author>
+		<idno type="DOI">10.1920/wp.cem.2013.4313</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_sAqxtGH">Generalized Instrumental Variable Models</title>
+		<imprint>
+			<publisher>Institute for Fiscal Studies</publisher>
+			<date type="published" when="2013-08-29">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chesher, A. et A. Rosen (2013), « Generalized Instrumental Variable Models », unpublished.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,427.95,324.00,8.80;23,72.00,439.98,120.01,8.80" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_J5ZPnZa">IV models of ordered choice</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Chesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Konrad</forename><surname>Smolinski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2011.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DdfvM2g">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="48" />
+			<date type="published" when="2012-01">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chesher, A. et K. SMoLInskI (2012), « IV models of Ordered Choice », Journal of Econometrics, 166(1) : 33-48.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,454.01,323.98,8.80;23,72.00,466.03,210.87,8.80" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_Aykg9ca">Market Structure and Multiple Equilibria in Airline Markets</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Ciliberto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta5368</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2upFF6s">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1791" to="1828" />
+			<date type="published" when="2009">2009</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CILIberto, F. et E. TaMer (2009), « Market Structure and Multiple Equilibria in Airline Markets », Econometrica, 77(6) : 1791-1828.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,480.06,324.01,8.80;23,72.00,492.09,167.12,8.80" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_MSp2xA6">Plausibly Exogenous</title>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">G</forename><surname>Conley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">B</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Rossi</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/rest_a_00139</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rHda3gV">Review of Economics and Statistics</title>
+		<title level="j" type="abbrev">Review of Economics and Statistics</title>
+		<idno type="ISSN">0034-6535</idno>
+		<idno type="ISSNe">1530-9142</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="260" to="272" />
+			<date type="published" when="2012-02">2012</date>
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ConLey T., C. Hansen. et P. RossI (2012), « Plausibly Exogenous », The Review of Economic and Statistics, 94(1) : 260-272.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,506.12,324.00,8.80;23,72.00,518.15,87.25,8.80" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_rCXUjNv">Missing Outcomes</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Davezies</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Et X. D'haultfoeuille</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/0-387-21786-x_2</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_n89XeNS">Springer Series in Statistics</title>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="6" to="25" />
+		</imprint>
+	</monogr>
+	<note type="report_type">preprint</note>
+	<note type="raw_reference">DavezIes, L. et X. d&apos;HauLtfoeuILLe (2012), « Partial Identification with Missing Outcomes », preprint.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,532.18,323.94,8.80;23,72.00,544.21,293.82,8.80" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_QnmPc9R">Restricting Regression Slopes in the Errors-in-Variables Model by Bounding the Error Correlation</title>
+		<author>
+			<persName coords=""><forename type="first">Timothy</forename><surname>Erickson</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2951770</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CskdEke">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">959</biblScope>
+			<date type="published" when="1993-07">1993</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ErIckson, T. (1993), « Restricting Regression Slopes in the Errors in Variables Model by Bounding the Error Correlation », Econometrica, 61 : 959-969.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,558.24,323.97,8.80;23,72.00,570.26,315.00,8.80;23,72.00,582.29,33.30,8.80" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_aYXTRwu">SHARP BOUNDS ON THE DISTRIBUTION OF TREATMENT EFFECTS AND THEIR STATISTICAL INFERENCE</title>
+		<author>
+			<persName><forename type="first">Yanqin</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sang</forename><forename type="middle">Soo</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0266466609990168</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rF3se8x">Econometric Theory</title>
+		<title level="j" type="abbrev">Econom. Theory</title>
+		<idno type="ISSN">0266-4666</idno>
+		<idno type="ISSNe">1469-4360</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="931" to="951" />
+			<date type="published" when="2010">2010</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fan, Y. et S. Park (2010), « Sharp Bounds on the Distribution of the Treatment Effects and Their Statistical Inference », Econometric Theory, 26(3) : 931-951.</note>
+</biblStruct>
+
+<biblStruct coords="23,63.00,596.32,324.00,8.80;23,72.00,608.35,315.00,8.80;23,72.00,620.38,148.15,8.80" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_7ZkSps2">Partial Identification of the Distribution of Treatment Effects in Switching Regime Models and its Confidence Sets</title>
+		<author>
+			<persName><forename type="first">Yanqin</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jisong</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-937x.2009.00593.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QRfNTFS">Review of Economic Studies</title>
+		<idno type="ISSN">0034-6527</idno>
+		<idno type="ISSNe">1467-937X</idno>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1002" to="1041" />
+			<date type="published" when="2010">2010</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fan, Y. et J. Wu (2010), « Partial Identification of the Distribution of Treatment Effects in Switching Regimes Models and its Confidence Sets », Review of Economic Studies, 77(3) : 1002-1041</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,91.20,323.99,8.80;24,72.00,103.23,230.49,8.80" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_j6fkaWs">Les tableaux dont les marges sont données</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Fréchet</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf03009203</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kHnanDe">Trabajos de Estadistica</title>
+		<title level="j" type="abbrev">Trabajos de Estadistica</title>
+		<idno type="ISSN">0490-219X</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="18" />
+			<date type="published" when="1951">1951</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fréchet, M. (1951), « Sur les tableaux de corrélation dont les marges sont données », Annales de l&apos;Université de Lyon, III° Série Sci. A : 53-77.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,117.26,324.00,8.80;24,72.00,129.29,237.73,8.80" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_kmTvtNs">Statistical Confluence Analysis by Means of Complete Regression Systems (University Institute of Economics, Oslo, 1934, pp. 5–8)</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Frisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9781139170116.026</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_MtQDEXt">The Foundations of Econometric Analysis</title>
+		<meeting><address><addrLine>Oslo, Norway</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1934">1934</date>
+			<biblScope unit="page" from="271" to="273" />
+		</imprint>
+		<respStmt>
+			<orgName>University Institute of Economics.</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">FrIsch, R. (1934), Statistical Confluence Analysis by Means of Complete Regression Systems, Oslo, Norway : University Institute of Economics.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,143.32,324.00,8.80;24,72.00,155.34,315.00,8.80;24,72.00,167.37,68.62,8.80" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_3Ut7px4">A test of non-identifying restrictions and confidence regions for partially identified parameters</title>
+		<author>
+			<persName><forename type="first">Alfred</forename><surname>Galichon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Henry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2009.01.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EBbH4Ge">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="196" />
+			<date type="published" when="2009-10">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GaLIchon, A., et M. Henry (2009), « A Test of Non-Identifying Restrictions and Confidence Regions for Partially Identified Parameters », Journal of Econometrics, 152(2) : 186-196.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,181.40,324.02,8.80;24,72.00,193.43,246.41,8.80" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_9kfF7BH">Set Identification in Models with Multiple Equilibria</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Galichon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Henry</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/restud/rdr008</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wNwE9qz">The Review of Economic Studies</title>
+		<title level="j" type="abbrev">The Review of Economic Studies</title>
+		<idno type="ISSN">0034-6527</idno>
+		<idno type="ISSNe">1467-937X</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1264" to="1298" />
+			<date type="published" when="2011-04-29">2011</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GaLIchon, A. et M. Henry (2011), « Set Identification in Models with Multiple Equilibria », Review of Economic Studies, 78(4) : 1264-1298.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,207.46,324.00,8.80;24,72.00,219.49,315.00,8.80;24,72.00,231.52,123.52,8.80" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_dnxWHge">A test of non-identifying restrictions and confidence regions for partially identified parameters</title>
+		<author>
+			<persName><forename type="first">Alfred</forename><surname>Galichon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Henry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2009.01.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dYqEQrv">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="196" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GaLIchon, A. et M. Henry (2013), « Dilatation Bootstrap : A Methodology for Constructing Confidence Regions with Partially Identified Models », Journal of Econometrics, forthcoming.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,245.55,324.02,8.80;24,72.00,257.57,315.00,8.80" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_3KFKfeX">On the interpolation of a straight line when the values of the independent variable are affected by accidental errors</title>
+		<author>
+			<persName coords=""><forename type="first">Corrado</forename><surname>Gini</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf03263548</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rqW43r5">METRON</title>
+		<title level="j" type="abbrev">METRON</title>
+		<idno type="ISSN">0026-1424</idno>
+		<idno type="ISSNe">2281-695X</idno>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="43" />
+			<date type="published" when="1921">1921</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GInI, C. (1921), « Sull&apos;interpoliazone di una retta quando i valori della variabile indipendente sono affetti da errori accidentali », Metroeconomica, 1(1) : 63-82.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,271.60,323.99,8.80;24,72.00,283.63,73.46,8.80" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_Yg259rQ">Measuring Inequality from Contaminated Data</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Pacini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5cvhhJN">preprint Bristol U</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GoMez, F. et D. PacInI (2013), « Measuring Inequality from Contaminated Data », preprint Bristol U.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,297.66,324.00,8.80;24,72.00,309.69,315.00,8.80;24,72.00,321.72,109.80,8.80" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_Bvaj5AK">Coherency Conditions in Simultaneous Linear Equation Models with Endogenous Switching Regimes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gourieroux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Laffont</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Monfort</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1913130</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vHt6Wmf">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">675</biblScope>
+			<date type="published" when="1980-04">1980</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GourIéroux, C., J.J. Laffont et A. Monfort (1980), « Coherency Conditions in Simultaneous Linear Equation Models with Endogenous Switching Regime&apos;s », Econometrica, 48 : 675-95.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,335.75,289.73,8.80" xml:id="b27">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">H</forename><surname>Greene</surname></persName>
+		</author>
+		<title level="m" xml:id="_UjQ4kSh">Econometric Analysis</title>
+		<imprint>
+			<publisher>Prentice Hall</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>7th Edition</note>
+	<note type="raw_reference">Greene, W.H. (2008), Econometric Analysis, Prentice Hall, 7th Edition.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,349.78,323.98,8.80;24,72.00,361.80,222.58,8.80" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" xml:id="_4zcr3pQ">Inference with an Incomplete Model of English Auctions</title>
+		<author>
+			<persName><forename type="first">Philip</forename><forename type="middle">A</forename><surname>Haile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elie</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/344801</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5fC423P">Journal of Political Economy</title>
+		<title level="j" type="abbrev">Journal of Political Economy</title>
+		<idno type="ISSN">0022-3808</idno>
+		<idno type="ISSNe">1537-534X</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="51" />
+			<date type="published" when="2003-02">2003</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HaILe, P. et E. TaMer (2003), « Inference with an Incomplete Model of English Auctions », Journal of Political Economy, 111(1) : 1-51.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,375.83,324.02,8.80;24,72.00,387.86,155.89,8.80" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_2m2c62G">Dummy Endogenous Variables in a Simultaneous Equation System</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">J</forename><surname>Heckman</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1909757</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8Dyu5Wy">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">931</biblScope>
+			<date type="published" when="1978-07">1978</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HeckMan, J.J (1978), « Dummy Endogenous Variables in a Simultaneous Equation System », Econometrica, 46 : 931-960.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,401.75,324.01,8.94;24,72.00,413.92,314.68,8.80" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_2EUET5d">Combinatorial Bootstrap Inference in Partially Identified Incomplete Structural Models</title>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Romuald</forename><surname>Meango</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maurice</forename><surname>Queyranne</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.1758743</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UUERjXj">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>unpublished manuscript</note>
+	<note type="raw_reference">Henry, M., R. Meango et M. Queyranne (2013), « Combinatorial Bootstrap Inference in Partially Identified Incomplete Structural Models », unpublished manuscript.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,427.95,324.00,8.80;24,72.00,439.98,101.50,8.80" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" xml:id="_RnTzqTq">Set coverage and robust policy</title>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><surname>Onatski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.econlet.2011.12.071</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_22S2CX7">Economics Letters</title>
+		<title level="j" type="abbrev">Economics Letters</title>
+		<idno type="ISSN">0165-1765</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="256" to="257" />
+			<date type="published" when="2012-05">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henry, M. et I. MourIfIé (2012), « Set Coverage and Robust Policy », Economics Letters, 115(2) : 256-257.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,454.01,324.00,8.80;24,72.00,466.12,314.97,8.70;24,72.00,478.06,136.29,8.80" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_rxjXNbh">Masstabinvariante Korrelationstheorie</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Hoeffding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Mhzw5xa">Shriften des Mathematischen Instituts und des Instituts für Angewandte Mathematik der Universität Berlin</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="179" to="233" />
+			<date type="published" when="1940">1940</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HoeffdIng, W. (1940), « Masstabinvariante Korrelationstheorie », Shriften des Mathematischen Instituts und des Instituts für Angewandte Mathematik der Universität Berlin, 5(3) : 179-233.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,492.09,323.96,8.80;24,72.00,504.12,239.35,8.80" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" xml:id="_GATrqd9">Bounds in Competing Risks Models and the War on Cancer</title>
+		<author>
+			<persName><forename type="first">Bo</forename><forename type="middle">E</forename><surname>Honoré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adriana</forename><surname>Lleras-Muney</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-0262.2006.00722.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vBTUZGt">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1675" to="1698" />
+			<date type="published" when="2006-11">2006</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Honoré, B. et A. LLeras-Muney (2006), « Bounds in Competing Risks Models and the War on Cancer », Econometrica, 74(6) : 1675-1698.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,518.15,323.97,8.80;24,72.00,530.18,277.61,8.80" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_6vMwqR3">Identification and Robustness with Contaminated and Corrupted Data</title>
+		<author>
+			<persName><forename type="first">Joel</forename><forename type="middle">L</forename><surname>Horowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2951627</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Nf88Wqy">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">281</biblScope>
+			<date type="published" when="1995-03">1995</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HorowItz, J.L. et C.F. ManskI (1995), « Identification and Robustness with Contaminated and Corrupted Data », Econometrica, 63(6) : 281-302.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,544.21,323.97,8.80;24,72.00,556.24,315.01,8.80;24,72.00,568.26,302.87,8.80" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" xml:id="_6jRzxUT">Bounding Causal Effects Using Data from a Contaminated Natural Experiment: Analysing the Effects of Teenage Childbearing</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><forename type="middle">J</forename><surname>Hotz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Mullin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">G</forename><surname>Sanders</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2971732</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QY2Wd3f">The Review of Economic Studies</title>
+		<title level="j" type="abbrev">The Review of Economic Studies</title>
+		<idno type="ISSN">0034-6527</idno>
+		<idno type="ISSNe">1467-937X</idno>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="575" to="603" />
+			<date type="published" when="1997-10-01">1997</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hotz, V. J., C. H. MuLLIn, et S. G. Sanders (1997), « Bounding Causal Effects using Data from a Contaminated Natural Experiment : Analysing the Effects of Teenage Childbearing », The Review of Economic Studies, 64(4) : 575-603.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,582.15,324.02,8.94;24,72.00,594.32,192.18,8.80" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" xml:id="_W4anBC5">Confidence Intervals for Partially Identified Parameters</title>
+		<author>
+			<persName><forename type="first">Guido</forename><forename type="middle">W</forename><surname>Imbens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-0262.2004.00555.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Fpy46MM">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1845" to="1857" />
+			<date type="published" when="2004-11">2004</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">IMbens, G. et C.F., ManskI (2004), « Confidence Intervals for Partially Identified Parameters », Econometrica, 72(6) : 1845-1859.</note>
+</biblStruct>
+
+<biblStruct coords="24,63.00,608.35,323.98,8.80;24,72.00,620.38,210.23,8.80" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" xml:id="_49D5FnK">Asymptotically Efficient Estimation of Models Defined by Convex Moment Inequalities</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Kaido</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Santos</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta10017</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DWT3UUC">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="387" to="413" />
+			<date type="published" when="2011">2011</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">preprint</note>
+	<note type="raw_reference">KaIdo, H. et A. Santos (2011), « Asymptotically Efficient Estimation of Models Defined by Convex Moment Inequalities », preprint.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,91.20,324.01,8.80;25,72.00,103.23,234.82,8.80" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" xml:id="_YfFJVjV">Consistent Sets of Estimates for Regressions with Errors in All Variables</title>
+		<author>
+			<persName><forename type="first">Steven</forename><surname>Klepper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">E</forename><surname>Leamer</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1911466</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YUaZ4xc">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">163</biblScope>
+			<date type="published" when="1984-01">1984</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">KLepper S. et E. E. LeaMer (1984), « Consistent Sets of Estimates for Regressions with Errors in all Variables », Econometrica, 52 : 163-183.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,117.26,323.99,8.80;25,72.00,129.29,64.43,8.80" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" xml:id="_RtxvxCB">Errors in Variables in Linear Systems</title>
+		<author>
+			<persName coords=""><forename type="first">Edward</forename><forename type="middle">E</forename><surname>Leamer</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1911034</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yPmXKDA">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">893</biblScope>
+			<date type="published" when="1987-07">1987</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LeaMer, E.E. (1987), « Errors in Variables in Linear Systems », Econometrica, 55(4) : 893-909.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,143.32,324.00,8.80;25,72.00,155.34,315.00,8.80;25,72.00,167.37,42.88,8.80" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" xml:id="_TRes6qT">Training, Wages, and Sample Selection: Estimating Sharp Bounds on Treatment Effects</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-937x.2009.00536.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XV2KGQC">Review of Economic Studies</title>
+		<idno type="ISSN">0034-6527</idno>
+		<idno type="ISSNe">1467-937X</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1071" to="1102" />
+			<date type="published" when="2009-07">2009</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, D.S. (2009), « Training, Wages, and Sample Selection : Estimating Sharp Bounds on Treatment Effects », Review of Economic Studies, 76(3) : 1071-1102.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,181.26,323.99,8.94;25,72.00,193.43,315.00,8.80;25,72.00,205.46,64.42,8.80" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" xml:id="_EquZe8P">Partial Identification in Monotone Binary Models: Discrete Regressors and Interval Data</title>
+		<author>
+			<persName><forename type="first">Thierry</forename><surname>Magnac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Maurin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-937x.2008.00490.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WKZVyUn">Review of Economic Studies</title>
+		<title level="j" type="abbrev">Rev Econ Studies</title>
+		<idno type="ISSN">0034-6527</idno>
+		<idno type="ISSNe">1467-937X</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="835" to="864" />
+			<date type="published" when="2008-07">2008</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Magnac, T. et E. MaurIn (2008), « Partial Identification in Monotone Binary Models : Discrete Regressors and Interval Data », Review of Economic Studies, 75(3) : 835-864.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,219.49,323.99,8.80;25,72.00,231.52,110.85,8.80" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" xml:id="_XMYy3D9">Anatomy of the Selection Problem</title>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/145818</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PXM94E2">The Journal of Human Resources</title>
+		<title level="j" type="abbrev">The Journal of Human Resources</title>
+		<idno type="ISSN">0022-166X</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">343</biblScope>
+			<date type="published" when="1989">1989</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ManskI, C.F. (1989), « Anatomy of the Selection Problem », Journal of Human Resources, 24(3) : 343-360.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,245.55,324.00,8.80;25,72.00,257.57,61.74,8.80" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" xml:id="_h5gF6Ju">Partial Identification of Probability Distributions</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/b97478</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_fNFGEPJ">Partial Identification of Probability Distributions</title>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ManskI, C.F. (2003), Partial Identification of Probability Distributions, Springer- Verlag : Berlin.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,271.60,324.00,8.80;25,72.00,283.72,103.98,8.70" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" xml:id="_NAxv4SG">partial identification in econometrics</title>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<idno type="DOI">10.1057/9780230226203.1251</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6TtTMVS">New Palgrave Dictionary of Economics</title>
+		<imprint>
+			<biblScope unit="page" from="300" to="306" />
+			<date type="published" when="2005">2005</date>
+			<publisher>Nature Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ManskI, C.F. (2005), « Partial Identification in Econometrics », New Palgrave Dictionary of Economics.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,297.66,323.98,8.80;25,72.00,309.69,302.17,8.80" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" xml:id="_dfuJxaH">Monotone Instrumental Variables: With an Application to the Returns to Schooling</title>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">V</forename><surname>Pepper</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1468-0262.00144</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6zjQkBj">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="997" to="1010" />
+			<date type="published" when="2000-07">2000</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ManskI, C.F. et J.V. Pepper (2000), « Monotone Instrumental Variables : With an Application to the Returns to Schooling », Econometrica, 68(4) : 997-1010.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,323.72,324.02,8.80;25,72.00,335.75,315.00,8.80;25,72.00,347.78,117.88,8.80" xml:id="b46">
+	<analytic>
+		<title level="a" type="main" xml:id="_DrkMUcq">Deterrence and the Death Penalty: Partial Identification Analysis Using Repeated Cross Sections</title>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">V</forename><surname>Pepper</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10940-012-9172-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tsDX5y5">Journal of Quantitative Criminology</title>
+		<title level="j" type="abbrev">J Quant Criminol</title>
+		<idno type="ISSN">0748-4518</idno>
+		<idno type="ISSNe">1573-7799</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="123" to="141" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ManskI, C.F. et J.V. Pepper (2013), « Deterrence and the Death Penalty : Partial Identification Analysis Using Repeated Cross Sections », Journal of Quantitative Criminology, 29(1) : 123-141.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,361.80,324.03,8.80;25,72.00,373.83,248.17,8.80" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" xml:id="_nZVQGxK">Inference on Regressions with Interval Data on a Regressor or Outcome</title>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elie</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1468-0262.00294</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WJ4tKvp">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<idno type="ISSNe">1468-0262</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="519" to="546" />
+			<date type="published" when="2002-03">2002</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ManskI, C.F. et E. TaMer (2002), « Inference on Regressions with Interval Data on a Regressor or Outcome », Econometrica, 70(2) : 519-546.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,387.72,323.98,8.94;25,72.00,399.89,227.54,8.80" xml:id="b48">
+	<analytic>
+		<title level="a" type="main" xml:id="_fuYKWnV">Random Simultaneous Equations and the Theory of Production</title>
+		<author>
+			<persName><forename type="first">Jacob</forename><surname>Marschak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">H</forename><surname>Andrews</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1905432</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yhrA4yX">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3/4</biblScope>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="1944-07">1944</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marschak, J. et W.H. Andrews (1944), « Random Simultaneous Equations and the Theory of Production », Econometrica, 12 : 143-205.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,413.92,324.00,8.80;25,72.00,425.95,210.33,8.80" xml:id="b49">
+	<analytic>
+		<title level="a" type="main" xml:id="_bTY7CC9">Contingent Valuation and Social Choice</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1243732</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xMzKus3">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="689" to="708" />
+			<date type="published" when="1994-11">1994</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McFadden, D. (1994), « Contingent Valuation and Social Choice », American Journal of Agricultural Economics, 76(4) : 689-708.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,439.98,323.98,8.80;25,72.00,452.01,197.17,8.80" xml:id="b50">
+	<analytic>
+		<title level="a" type="main" xml:id="_79yD7Cz">Consistent estimation with many moment inequalities</title>
+		<author>
+			<persName coords=""><forename type="first">Konrad</forename><surname>Menzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2014.05.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9Q5Me4G">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="329" to="350" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Massachussetts Institute of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Preprint</note>
+	<note type="raw_reference">MenzeL, K. (2008), « Estimation and Inference with many Moment Inequalities », Preprint, Massachussetts Institute of Technology.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,466.03,323.97,8.80;25,72.00,478.06,212.56,8.80" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" xml:id="_yWtaW9A">Identification With Imperfect Instruments</title>
+		<author>
+			<persName><forename type="first">Aviv</forename><surname>Nevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">M</forename><surname>Rosen</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/rest_a_00171</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RMpWwQM">Review of Economics and Statistics</title>
+		<title level="j" type="abbrev">Review of Economics and Statistics</title>
+		<idno type="ISSN">0034-6535</idno>
+		<idno type="ISSNe">1530-9142</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="659" to="671" />
+			<date type="published" when="2012-08">2012</date>
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nevo, A. et A. M. Rosen (2012), « Identification with Imperfect Instruments », Review of Economics and Statistics, 94(3) : 659-671.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,492.09,324.00,8.80;25,72.00,504.12,73.09,8.80" xml:id="b52">
+	<analytic>
+		<title level="a" type="main" xml:id="_AjxV5P9">Alternative Models for Moment Inequalities</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Pakes</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta7944</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qHe88wj">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1783" to="1822" />
+			<date type="published" when="2010">2010</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pakes, A. (2010), « Alternative Models for Moment Inequalities », Econometrica, 78(6) : 1783-1822.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,518.01,324.01,8.94;25,72.00,530.18,123.22,8.80" xml:id="b53">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Pakes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Ishii</surname></persName>
+		</author>
+		<title level="m" xml:id="_tN6Z5aT">Moment Inequalities and Their Applications</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>working paper</note>
+	<note type="raw_reference">Pakes, A., J. Porter, K. Ho et J. IshII (2006), « Moment Inequalities and Their Applications », working paper.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,544.21,324.00,8.80;25,72.00,556.24,314.99,8.80;25,72.00,568.26,184.02,8.80" xml:id="b54">
+	<analytic>
+		<title level="a" type="main" xml:id="_4WTdFwg">Bootstrap Inference in Partially Identified Models Defined by Moment Inequalities: Coverage of the Identified Set</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Ponomareva</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta8056</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HPCbj5d">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="735" to="753" />
+			<date type="published" when="2010">2010</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Economics, University of Western Ontario</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">PonoMareva, M. (2010), « Inference in Models Defined by Conditional Moment Inequalities with Continuous Covariates », Unpublished manuscript, Department of Economics, University of Western Ontario.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,582.29,323.99,8.80;25,72.00,594.32,313.24,8.80" xml:id="b55">
+	<analytic>
+		<title level="a" type="main" xml:id="_zRXbrtj">Misspecification in moment inequality models: back to moment equalities?</title>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Ponomareva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elie</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1368-423x.2010.00332.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wbR6ACR">The Econometrics Journal</title>
+		<idno type="ISSN">1368-4221</idno>
+		<idno type="ISSNe">1368-423X</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="203" />
+			<date type="published" when="2011-06-07">2011</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">PonoMareva, M. et E. TaMer (2011), « Misspecification in Moment Inequality Models : Back to Moment Equalities », Econometrics Journal, 14(2) : 186-203.</note>
+</biblStruct>
+
+<biblStruct coords="25,63.00,608.35,324.01,8.80;25,72.00,620.38,114.53,8.80" xml:id="b56">
+	<analytic>
+		<title level="a" type="main" xml:id="_yDhDymv">The Logic of Scientific Discovery</title>
+		<author>
+			<persName coords=""><forename type="first">Karl</forename><surname>Popper</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203994627</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_2ePttdY">The Logic of Scientific Discovery</title>
+		<meeting><address><addrLine>London and New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2005-11-04">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Popper, K. (2005), The Logic of Scientific Discovery, London and New York : Routledge/Taylor &amp; Francis.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,91.20,324.01,8.80;26,72.00,103.20,315.01,8.80;26,72.00,115.20,151.97,8.80" xml:id="b57">
+	<analytic>
+		<title level="a" type="main" xml:id="_CEQwKZJ">Chapter 75 The Econometrics of Data Combination</title>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Ridder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Moffitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1573-4412(07)06075-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wk7EYgM">Handbook of Econometrics</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Heckman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Leamer</surname></persName>
+		</editor>
+		<meeting><address><addrLine>North-Holland, Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="5469" to="5547" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RIdder, G. E. et R. MoffItt (2007), « The Econometrics of Data Combination », in HeckMan, J.J. et E. E. LeaMer (éds), Handbook of Econometrics, vol. 6, North-Holland, Amsterdam, chap. 75.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,129.20,324.00,8.80" xml:id="b58">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">T</forename><surname>Rockafellar</surname></persName>
+		</author>
+		<title level="m" xml:id="_9UEUYuK">Convex Analysis</title>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RockafeLLar, R.T. (1970), Convex Analysis, Princeton University Press : Princeton.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,143.20,323.99,8.80;26,72.00,155.20,315.00,8.80;26,72.00,167.20,121.58,8.80" xml:id="b59">
+	<analytic>
+		<title level="a" type="main" xml:id="_ytcRhD3">Inference for identifiable parameters in partially identified econometric models</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">P</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azeem</forename><forename type="middle">M</forename><surname>Shaikh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jspi.2008.03.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bha2JyZ">Journal of Statistical Planning and Inference</title>
+		<title level="j" type="abbrev">Journal of Statistical Planning and Inference</title>
+		<idno type="ISSN">0378-3758</idno>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2786" to="2807" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RoMano, J.P. et A.M. ShaIkh (2008), « Inference for Identifiable Parameters in Partially Identified Econometric Models », Journal of Statistical Planning and Inference, 138(9) : 2786-2807.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,181.20,324.00,8.80;26,72.00,193.20,223.01,8.80" xml:id="b60">
+	<analytic>
+		<title level="a" type="main" xml:id="_UCKqZyK">Inference for the Identified Set in Partially Identified Econometric Models</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Shaikh</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta6706</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kX2pYmu">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="169" to="211" />
+			<date type="published" when="2010">2010</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RoMano, J.P. et A.M. ShaIkh (2010), « Inference for the Identified Set in Partially Identified Econometric Models », Econometrica, 78(1),</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,207.20,323.98,8.80;26,72.00,219.20,315.00,8.80;26,72.00,231.20,194.47,8.80" xml:id="b61">
+	<analytic>
+		<title level="a" type="main" xml:id="_bCKFJvy">A Simple Two-Step Method for Testing Moment Inequalities with an Application to Inference in Partially Identified Models</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">P</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azeem</forename><surname>Shaikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wolf</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2137550</idno>
+		<idno>SSRN 2137550</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3Qu3YqB">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RoMano, J.P., A.M. ShaIkh et M. WoLf (2012), « A Simple Two-step Method for Testing Moment Inequalities with an Application to Inference in Partially Identified Models », available at SSRN 2137550.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,245.20,324.00,8.80;26,72.00,257.20,315.00,8.80;26,72.00,269.20,65.66,8.80" xml:id="b62">
+	<analytic>
+		<title level="a" type="main" xml:id="_deW6jRX">Confidence sets for partially identified parameters that satisfy a finite number of moment inequalities</title>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><forename type="middle">M</forename><surname>Rosen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jeconom.2008.08.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CRHuvJv">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="117" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosen, A.M. (2008), « Confidence Sets for Partially Identified Parameters that Satisfy a Finite Number of Moment Inequalities », Journal of Econometrics, 146(1) : 107-117.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,283.20,324.00,8.80;26,72.00,295.20,50.96,8.80" xml:id="b63">
+	<analytic>
+		<title level="a" type="main" xml:id="_ENh8VEF">Identification in Parametric Models</title>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><forename type="middle">J</forename><surname>Rothenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1913267</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PsgZ6yA">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">577</biblScope>
+			<date type="published" when="1971-05">1971</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rothenberg, T. J. (1971), « Identification in Parametric Models », Econometrica, 39 : 577-591.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,309.06,323.98,8.94;26,72.00,321.20,220.43,8.80" xml:id="b64">
+	<analytic>
+		<title level="a" type="main" xml:id="_Bck2FRs">Bounds on Generalized Linear Predictors with Incomplete Outcome Data</title>
+		<author>
+			<persName coords=""><forename type="first">Jörg</forename><surname>Stoye</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11155-006-9030-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Gyz7HZs">Reliable Computing</title>
+		<title level="j" type="abbrev">Reliable Comput</title>
+		<idno type="ISSN">1385-3139</idno>
+		<idno type="ISSNe">1573-1340</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="293" to="302" />
+			<date type="published" when="2007">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stoye, J. (2007), « Bounds on Generalized Linear Predictors with Incomplete Outcome Data », Reliable Computing, 13(3) : 293-302.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,335.06,323.94,8.94;26,72.00,347.20,135.08,8.80" xml:id="b65">
+	<analytic>
+		<title level="a" type="main" xml:id="_kfUYHgZ">More on Confidence Intervals for Partially Identified Parameters</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Stoye</surname></persName>
+		</author>
+		<idno type="DOI">10.3982/ecta7347</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uq39BMB">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1299" to="1315" />
+			<date type="published" when="2009">2009</date>
+			<publisher>The Econometric Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stoye, J. (2009), « More on Confidence Intervals for Partially Identified Parameters », Econometrica, 77(4) : 1299-1315.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,361.06,324.00,8.94;26,72.00,373.20,287.93,8.80" xml:id="b66">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZG6jb7c">Incomplete Simultaneous Discrete Response Model with Multiple Equilibria</title>
+		<author>
+			<persName coords=""><forename type="first">Elie</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-937x.00240</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sBEjFaC">Review of Economic Studies</title>
+		<title level="j" type="abbrev">Rev Econ Studies</title>
+		<idno type="ISSN">0034-6527</idno>
+		<idno type="ISSNe">1467-937X</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="147" to="165" />
+			<date type="published" when="2003-01">2003</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TaMer, E. (2003), « Incomplete Simultaneous Discrete Response Model with Multiple Equilibria », The Review of Economic Studies, 70(1) : 147-165.</note>
+</biblStruct>
+
+<biblStruct coords="26,63.00,387.20,323.99,8.80;26,72.00,399.20,93.06,8.80" xml:id="b67">
+	<analytic>
+		<title level="a" type="main" xml:id="_swH66uG">Partial Identification in Econometrics</title>
+		<author>
+			<persName coords=""><forename type="first">Elie</forename><surname>Tamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.economics.050708.143401</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bFuYpQ7">Annual Review of Economics</title>
+		<title level="j" type="abbrev">Annu. Rev. Econ.</title>
+		<idno type="ISSN">1941-1383</idno>
+		<idno type="ISSNe">1941-1391</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="167" to="195" />
+			<date type="published" when="2010-09-04">2010</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TaMer, E. (2010), « Partial Identification in Econometrics », Annual Review of Economics, 2 : 167-195</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

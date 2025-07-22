@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_HZPAGNW">FISCALITÉ DES ENTREPRISES ET PARADIS FISCAUX : UNE ÉTUDE SUR DONNÉES CANADIENNES*</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,63.00,218.93,65.83,8.80"><forename type="first">Julien</forename><surname>Martin</surname></persName>
+							<email>martin.julien@uqam.ca</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Département des sciences économiques École des sciences de la gestion UQAM CEPR</note>
+								<orgName type="laboratory">Département des sciences économiques École des sciences de la gestion UQAM CEPR</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,63.00,310.14,83.06,8.80;1,63.00,322.43,28.33,8.70"><forename type="first">Cristian</forename><forename type="middle">Stratica</forename><surname>Mcgill</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Département des sciences économiques École des sciences de la gestion UQAM CEPR</note>
+								<orgName type="laboratory">Département des sciences économiques École des sciences de la gestion UQAM CEPR</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_dCcEGHN">FISCALITÉ DES ENTREPRISES ET PARADIS FISCAUX : UNE ÉTUDE SUR DONNÉES CANADIENNES*</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">711B27AA791AF3BAA3EDF35EEA115FC5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T21:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-12-g5c1957b1e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_zJkg3vx"><p xml:id="_Kuy2GVD"><s xml:id="_D74qbUX" coords="1,100.30,382.20,286.71,7.92;1,63.00,393.40,323.99,7.92;1,63.00,404.61,105.94,7.92">Le recours à l'évitement fiscal est un phénomène largement documenté dans la littérature économique et comptable, quoique peu d'études traitent de l'évitement fiscal des multinationales canadiennes.</s><s xml:id="_9raaTMn" coords="1,171.70,404.61,215.31,7.92;1,63.00,415.81,250.02,7.92">Cet article dresse un portrait de l'évolution de l'imposition des entreprises canadiennes et de leur recours aux paradis fiscaux.</s><s xml:id="_SMjJkHk" coords="1,316.20,415.81,70.81,7.92;1,63.00,427.01,221.11,7.92">Une évaluation des pertes associées au recours aux paradis fiscaux est proposée.</s></p><p xml:id="_vDjWvwN"><s xml:id="_vj6yzTn" coords="1,63.00,444.21,324.02,7.92;1,63.00,455.41,30.92,7.92">Les multinationales utilisent différentes méthodes pour réduire, voire se soustraire à la fiscalité.</s><s xml:id="_W5JT2M3" coords="1,95.80,455.41,291.20,7.92;1,63.00,466.61,47.02,7.92">Elles peuvent, entre autres, déplacer leur endettement vers des pays à taux d'imposition élevés.</s></p><p xml:id="_C65pvcg"><s xml:id="_GVYpcDQ" coords="1,63.00,483.81,324.00,7.92;1,63.00,495.01,324.04,7.92;1,63.00,506.21,138.27,7.92">Elles peuvent aussi ajuster les prix de transferts, qui sont les prix imputés dans les transactions avec leurs filiales étrangères, de manière à transférer des profits vers des pays où le système de taxation est plus avantageux.</s><s xml:id="_qZmrGf5" coords="1,202.97,506.21,184.02,7.92;1,63.00,517.42,268.81,7.92">Enfin, les multinationales ont également la possibilité de délocaliser leurs activités en faveur des juridictions à faible imposition.</s><s xml:id="_sYYdxDB" coords="1,63.00,534.62,324.02,7.92;1,63.00,545.82,145.05,7.92">La littérature suggère que les entreprises canadiennes entretiennent des relations étroites avec les juridictions à faible imposition.</s><s xml:id="_RqvVaCx" coords="1,210.44,545.82,176.56,7.92;1,63.00,557.02,324.00,7.92;1,63.00,568.22,104.08,7.92">Collins et Shackelford (1995) ont calculé que les entreprises canadiennes ont un taux d'imposition effectif inférieur à celui des États-Unis, du Japon et du Royaume-Uni.</s><s xml:id="_Ux9HaU4" coords="1,168.90,568.22,218.03,7.92;1,63.00,579.42,323.96,7.92;1,63.00,590.62,245.44,7.92">Arnold et Wilson (2014) montrent que les autorités du Canada sont réticentes à l'idée d'adopter des mesures restrictives afin de ne pas désavantager les entreprises canadiennes vis-à-vis de ses concurrents internationaux.</s><s xml:id="_NzhTwgP" coords="1,310.52,590.62,76.47,7.92;1,63.00,90.96,192.41,7.04">Hejazi (2007) met en L'Actualité économique, Revue d'analyse économique, vol.</s><s xml:id="_vPDwRYY" coords="1,257.41,90.54,79.20,7.46;1,63.00,609.70,44.00,7.04;1,73.00,621.70,314.02,7.04">93, n o 3, septembre 2017 ___________ * Nous remercions un rapporteur anonyme, Manon Deslandes et Anne Fortin pour leurs suggestions.</s></p><p xml:id="_gnu2rEa"><s xml:id="_3wwBEzw" coords="2,63.00,66.00,15.00,8.80;2,174.19,67.66,101.63,6.60;2,63.00,91.08,323.95,7.92;2,63.00,102.08,82.20,7.92">406 L'ACTUALITÉ ÉCONOMIQUE évidence l'importance croissante des paradis fiscaux dans les investissements directs canadiens à l'étranger.</s><s xml:id="_t7TYMJg" coords="2,148.14,102.08,238.85,7.92;2,63.00,113.08,324.00,7.92;2,63.00,124.08,161.60,7.92">Mintz et Smart (2004) montrent que les entreprises canadiennes procèdent à l'évitement fiscal entre les provinces en transférant leurs bénéfices vers des provinces ou des territoires à faible fiscalité.</s><s xml:id="_RrVV54q" coords="2,63.00,141.08,324.02,7.92">Différentes sources de données microéconomiques et macroéconomiques sont mobilisées.</s><s xml:id="_UTW9tPR" coords="2,63.00,152.08,323.95,7.92;2,63.00,163.08,324.00,7.92;2,63.00,174.08,110.96,7.92">Il ressort de cette étude que le taux d'imposition effectif des entreprises canadiennes se situe largement en deçà du taux d'imposition statutaire et qu'il n'a cessé de décroître au cours des 35 dernières années.</s><s xml:id="_gBJJYtD" coords="2,176.26,174.08,210.71,7.92;2,63.00,185.08,153.34,7.92">La tendance baissière du taux d'imposition s'observe pour les petites et pour les grandes entreprises.</s><s xml:id="_ab5NNZw" coords="2,218.96,185.08,168.04,7.92;2,63.00,196.08,243.95,7.92">Cependant, les niveaux et l'évolution des taux d'imposition effectifs sont assez hétérogènes entre secteurs d'activité.</s><s xml:id="_wNEYbVY" coords="2,308.77,196.08,78.16,7.92;2,63.00,207.08,323.95,7.92;2,63.00,218.08,171.23,7.92">Les données montrent ensuite que la part des bénéfices générés à l'étranger par les entreprises canadiennes a plus que doublé au cours des 30 dernières années.</s><s xml:id="_gGzAw6y" coords="2,237.57,218.08,149.46,7.92;2,63.00,229.08,205.07,7.92">Par ailleurs, les paradis fiscaux abritent environ 25 % des investissements canadiens à l'étranger.</s></p><p xml:id="_MwXKEDs"><s xml:id="_m8fdX6A" coords="2,63.00,258.08,270.42,7.92">AbstRAct -Business Taxes and Tax Havens : A Study with Canadian Data.</s><s xml:id="_4Wse9hZ" coords="2,335.31,258.08,51.69,7.92;2,63.00,269.08,324.00,7.92;2,63.00,280.08,250.02,7.92">Tax avoidance is a well-documented phenomenon in the economic and accounting literature, although few studies have focused on tax avoidance of Canadian multinationals.</s><s xml:id="_JvaGJz9" coords="2,314.86,280.08,72.10,7.92;2,63.00,291.08,270.61,7.92">This article portrays the evolution of taxation of Canadian corporations and their use of tax havens.</s><s xml:id="_FPRsHFK" coords="2,335.36,291.08,51.60,7.92;2,63.00,302.08,227.27,7.92">An assessment of the losses associated with the use of tax havens is proposed.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="684.0" lry="450.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="30" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="31" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="32" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="33" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="34" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="35" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_E74wHTs"><p xml:id="_VM9SHax"><s xml:id="_PzmhC57" coords="2,63.00,319.08,283.76,7.92">Multinational companies use different methods to reduce or evade taxation.</s><s xml:id="_yjvzNwz" coords="2,350.01,319.08,36.97,7.92;2,63.00,330.08,288.98,7.92">They can, among other things, shift the allocation of debt to countries with higher tax rates.</s><s xml:id="_pzt7tag" coords="2,353.87,330.08,33.13,7.92;2,63.00,341.08,323.95,7.92;2,63.00,352.08,294.54,7.92">They can also adjust transfer prices, which are the prices charged in transactions with foreign affiliates, in ways to transfer profits to countries where the tax system is more advantageous.</s><s xml:id="_3M86htn" coords="2,359.45,352.08,27.57,7.92;2,63.00,363.08,258.03,7.92">Finally, multinationals also can relocate their activities in low-tax jurisdictions.</s></p><p xml:id="_wSX33jf"><s xml:id="_5DP6bmC" coords="2,63.00,380.08,323.97,7.92;2,63.00,391.08,47.41,7.92">The literature suggests that Canadian companies have close relationships with low-tax jurisdictions.</s><s xml:id="_hg4jqKy" coords="2,112.87,391.08,274.15,7.92;2,63.00,402.08,226.39,7.92"><ref type="bibr" coords="2,112.87,391.08,113.77,7.92" target="#b10">Collins and Shackelford (1995)</ref> find that Canadian companies have a lower effective tax rate than the US, Japan and the United Kingdom.</s><s xml:id="_D7UqyEN" coords="2,291.67,402.08,95.35,7.92;2,63.00,413.08,324.02,7.92;2,63.00,424.08,233.86,7.92"><ref type="bibr" coords="2,291.67,402.08,95.35,7.92" target="#b1">Arnold and Wilson (2014)</ref> show that Canadian authorities are reluctant to adopt restrictive measures in order not to penalize Canadian companies vis-à-vis competition from abroad.</s><s xml:id="_WpzqdAK" coords="2,298.74,424.08,88.23,7.92;2,63.00,435.08,284.10,7.92"><ref type="bibr" coords="2,298.74,424.08,49.82,7.92" target="#b25">Hejazi (2007)</ref> highlights the growing importance of tax havens in Canadian direct foreign investments.</s><s xml:id="_BbA6pts" coords="2,349.41,435.08,37.59,7.92;2,63.00,446.08,324.00,7.92;2,63.00,457.08,167.09,7.92">Smart and <ref type="bibr" coords="2,63.00,446.08,49.19,7.92" target="#b29">Mintz (2004)</ref> argue that Canadian companies avoid taxes by transferring their profits to more accommodating provinces or territories.</s></p><p xml:id="_avAzXXT"><s xml:id="_ASXSYrd" coords="2,63.00,474.08,315.49,7.92">Different sources of microeconomic and macroeconomic data are used in this study.</s><s xml:id="_VJBBsM5" coords="2,381.55,474.08,5.42,7.92;2,63.00,485.08,324.00,7.92;2,63.00,496.08,192.40,7.92">It appears that the effective tax rate of Canadian companies is largely below the statutory tax rate and has steadily declined over the past 35 years.</s><s xml:id="_kSbVXpr" coords="2,257.85,496.08,129.20,7.92;2,63.00,507.08,176.56,7.92">The downward trend in the tax rate is observed both for small and large corporations.</s><s xml:id="_ddVXWzv" coords="2,241.44,507.08,145.55,7.92;2,63.00,518.08,146.66,7.92">However, the level and evolution of these effective tax rates differ across sectors.</s><s xml:id="_rzedPnZ" coords="2,212.84,518.08,174.15,7.92;2,63.00,529.08,284.32,7.92">The data show that the share of profits earned abroad by Canadian companies has more than doubled over the past 30 years.</s><s xml:id="_wYNSs5x" coords="2,349.75,529.08,37.27,7.92;2,63.00,540.08,262.33,7.92">Moreover, tax havens are recipients to about 25% of Canadian foreign investments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9Zg47fm" coords="3,63.00,91.20,53.88,8.80">IntRoductIon</head><p xml:id="_vXubwkj"><s xml:id="_ThYWJNs" coords="3,78.00,109.38,309.00,8.80;3,63.00,121.55,179.27,8.80">L'imposition des firmes multinationales fait l'objet de vives discussions dans les milieux publics, politiques et académiques.</s><s xml:id="_HtBMXnT" coords="3,245.35,121.55,141.63,8.80;3,63.00,133.73,323.95,8.80;3,63.00,145.90,80.52,8.80">Les faibles taux d'imposition dont bénéficient des firmes multinationales mondialement renommées font régulièrement la une des journaux.</s><s xml:id="_bpjSYTv" coords="3,146.10,145.90,240.90,8.80;3,63.00,158.08,324.00,8.80;3,63.00,170.25,324.00,8.80;3,63.00,182.43,24.12,8.80">La désapprobation du public à l'égard des pratiques des multinationales et les pertes potentielles en termes de recettes fiscales pour les gouvernements ont conduit les décideurs politiques à aborder la question de l'évitement fiscal.</s><s xml:id="_SrPYBRm" coords="3,89.82,182.43,297.21,8.80;3,63.00,194.60,323.97,8.80;3,63.00,206.78,323.95,8.80">C'est dans ce sens qu'a été lancé le plan d'action concernant l'érosion de la base d'imposition et le transfert de bénéfices développé par l'OCDE <ref type="bibr" coords="3,330.10,194.60,56.87,8.80" target="#b31">(OECD, 2013)</ref> et qui a été ratifié par les pays du G20 et plusieurs pays en voie de développement.</s></p><p xml:id="_zU284h8"><s xml:id="_2ghUst4" coords="3,78.00,224.95,309.00,8.80;3,63.00,237.13,324.00,8.80;3,63.00,249.30,45.83,8.80">Sur le plan académique, une littérature bourgeonnante présente des preuves directes et indirectes de transfert de bénéfices et d'évitement fiscal par les multinationales.</s><s xml:id="_q3d4k4u" coords="3,112.46,249.30,274.52,8.80;3,63.00,261.48,180.80,8.80">Ces études concernent, cependant, un nombre restreint de pays (Danemark, France, Allemagne, États-Unis).</s><s xml:id="_uZ9gfNM" coords="3,246.37,261.48,140.63,8.80;3,63.00,273.65,324.00,8.80;3,63.00,285.83,323.97,8.80;3,63.00,298.00,87.52,8.80">En outre, ces études se concentrent sur certaines stratégies d'évitement fiscal ou certains secteurs d'activité, d'où l'impossibilité de mesurer de façon robuste l'ensemble des pertes engrangées par les autoritées fiscales.</s><s xml:id="_DhQxujk" coords="3,152.87,298.00,234.17,8.80;3,63.00,310.18,324.00,8.80;3,63.00,322.35,214.18,8.80">Dans un article publié récemment, Zucman (2014) se prête à l'exercice de quantifier l'ensemble des pertes potentielles résultant de l'évitement fiscal pratiqué par les multinationales américaines.</s><s xml:id="_zbxrHH3" coords="3,280.36,322.35,106.66,8.80;3,63.00,334.53,323.96,8.80;3,63.00,346.70,163.06,8.80">Selon ses estimations, les multinationales américaines réduiraient leur facture fiscale de 20 % en transférant leurs bénéfices dans des paradis fiscaux.</s></p><p xml:id="_zjhQfMH"><s xml:id="_4CQ36GS" coords="3,78.00,364.88,309.01,8.80;3,63.00,377.05,123.00,8.80">Au Canada, les multinationales contribuent de façon significative à l'activité économique <ref type="bibr" coords="3,113.91,377.05,67.88,8.80" target="#b33">(Rao et al., 1994)</ref>.</s><s xml:id="_6x3BNtx" coords="3,188.60,377.05,198.43,8.80;3,63.00,389.23,207.74,8.80">Les questions relatives à leur fiscalité sont de plus en plus débattues dans les cercles publics et politiques.</s><s xml:id="_kZdVrRR" coords="3,272.64,389.23,114.43,8.80;3,63.00,401.40,324.00,8.80;3,63.00,413.58,114.31,8.80">En 2013, le comité permanent des finances du Parlement canadien a produit un rapport sur la fraude fiscale et le recours aux paradis fiscaux.</s><s xml:id="_DHeDz65" coords="3,180.24,413.58,206.72,8.80;3,63.00,425.75,323.92,8.80;3,63.00,437.93,262.45,8.80">En 2015, la Commission des finances publiques de l'Assemblée Nationale du Québec s'est également penchée sur le rôle des paradis fiscaux dans la planification fiscale des personnes et des entreprises.</s><s xml:id="_9wPh5UA" coords="3,327.35,437.93,59.65,8.80;3,63.00,450.10,324.01,8.80;3,63.00,462.28,324.05,8.80;3,63.00,474.45,319.28,8.80">Malgré la place prépondérante qu'occupent les multinationales dans l'activité économique canadienne et l'intérêt manifesté par les décideurs politiques, très peu d'études provenant du milieu académique traitent de l'évitement fiscal des multinationales canadiennes.</s></p><p xml:id="_UZHefvc"><s xml:id="_gcZTTky" coords="3,78.00,492.63,191.87,8.80">Cet article poursuit principalement trois objectifs.</s><s xml:id="_xbwg45A" coords="3,271.85,492.63,115.19,8.80;3,63.00,504.80,286.97,8.80">Tout d'abord, nous souhaitons effectuer une revue de littérature sur l'évitement fiscal des entreprises.</s><s xml:id="_Sy6zh4U" coords="3,352.99,504.80,33.98,8.80;3,63.00,516.98,289.15,8.80">Dans un premier temps, nous passerons en revue la littérature récente sur le sujet.</s><s xml:id="_tKArSvp" coords="3,354.48,516.98,32.47,8.80;3,63.00,529.15,324.01,8.80;3,63.00,541.33,314.40,8.80">Ensuite, nous discuterons de façon plus spécifique de l'imposition des entreprises au Canada et de la littérature portant sur l'évitement fiscal des multinationales au Canada.</s><s xml:id="_2zBWTMt" coords="3,379.77,541.33,7.22,8.80;3,63.00,553.50,324.00,8.80;3,63.00,565.68,324.00,8.80;3,63.00,577.85,88.04,8.80">À l'issue de cette revue de littérature, force sera de constater l'absence d'articles récents traitant de l'évitement fiscal et du recours aux paradis fiscaux des multinationales au Canada.</s></p><p xml:id="_kbE287K"><s xml:id="_36xtw9h" coords="3,78.00,596.03,309.00,8.80;3,63.00,608.20,324.02,8.80;3,63.00,620.38,323.93,8.80;4,63.00,91.20,98.84,8.80">Notre second objectif est de calculer l'évolution du taux d'imposition effectif des multinationales au Canada d'une part et de procéder à l'évaluation macroéconomique de l'importance des paradis fiscaux dans l'évitement fiscal des multinationales canadiennes d'autre part.</s><s xml:id="_xFUVQGa" coords="4,164.41,91.20,222.58,8.80;4,63.00,103.38,30.93,8.80">Ces nouveaux éléments sont présentés dans la deuxième section.</s><s xml:id="_u5BQpHy" coords="4,96.87,103.38,290.07,8.80;4,63.00,115.56,324.07,8.80;4,63.00,127.74,67.23,8.80">Nous commençons par calculer le taux d'imposition effectif agrégé des entreprises canadiennes en utilisant les données des bilans comptables des entreprises cotées en bourse.</s><s xml:id="_eK5dV7K" coords="4,132.34,127.74,254.68,8.80;4,63.00,139.92,323.96,8.80;4,63.00,152.10,29.69,8.80">Il ressort principalement de cette section que le taux d'imposition effectif des entreprises canadiennes n'a cessé de décroître au cours des 35 dernières années.</s><s xml:id="_Uubpj4u" coords="4,95.08,152.10,291.89,8.80;4,63.00,164.28,145.13,8.80">La tendance baissière du taux d'imposition effectif s'observe à la fois pour les petites et les grandes entreprises.</s><s xml:id="_SUHRAcq" coords="4,210.97,164.28,176.04,8.80;4,63.00,176.46,310.17,8.80">Toutefois, les niveaux et l'évolution des taux d'imposition effectifs sont assez hétérogènes d'un secteur d'activité à l'autre.</s><s xml:id="_pK32TpJ" coords="4,376.11,176.46,10.84,8.80;4,63.00,188.64,323.99,8.80;4,63.00,200.82,152.92,8.80">Le secteur de la finance et de l'assurance ainsi que celui de l'immobilier affichent les taux effectifs d'imposition les plus bas.</s><s xml:id="_kuKN2r7" coords="4,78.00,219.00,308.96,8.80;4,63.00,231.17,324.03,8.80;4,63.00,243.35,111.95,8.80">À l'aide de données recueillies à partir de la balance des paiements internationaux et du compte courant, nous explorons ensuite l'utilisation des paradis fiscaux par les entreprises canadiennes.</s><s xml:id="_PeP7f5H" coords="4,177.77,243.35,209.23,8.80;4,63.00,255.53,324.03,8.80;4,63.00,267.71,30.11,8.80">Nous constatons que la part des bénéfices générés à l'étranger par les entreprises canadiennes a plus que doublé au cours des 30 dernières années.</s><s xml:id="_4yQvM9Q" coords="4,95.25,267.71,291.72,8.80;4,63.00,279.89,84.28,8.80">Par ailleurs, les paradis fiscaux abritent environ 25 % des investissements canadiens à l'étranger.</s><s xml:id="_r3X6ZZF" coords="4,149.17,279.89,237.85,8.80;4,63.00,292.07,304.45,8.80">Les investissements directs dans les paradis fiscaux expliquent une part substantielle de l'augmentation des bénéfices générés à l'étranger.</s><s xml:id="_MM87W2F" coords="4,370.49,292.07,16.53,8.80;4,63.00,304.25,324.01,8.80;4,63.00,316.43,254.69,8.80">Une estimation sommaire suggère que les transferts de bénéfices permettent de réduire la facture fiscale des entreprises canadiennes d'au moins 6,5 %.</s></p><p xml:id="_Y9r7Upk"><s xml:id="_de2kf8Q" coords="4,78.00,334.61,308.96,8.80;4,63.00,346.79,235.33,8.80">Le dernier objectif de cet article est la formulation de pistes de recherche sur le thème de l'évitement fiscal des entreprises canadiennes.</s><s xml:id="_svDWNB3" coords="4,301.10,346.79,85.86,8.80;4,63.00,358.97,324.00,8.80;4,63.00,371.15,90.06,8.80">Pour ce faire, dans la section 3, nous nous penchons sur trois pistes de recherche qui émergent naturellement de notre étude.</s><s xml:id="_hXHYzGS" coords="4,155.99,371.15,230.98,8.80;4,63.00,383.33,324.07,8.80">Tout d'abord, nous évoquons l'interaction qu'il pourrait y avoir entre l'impôt fédéral, l'impôt provincial et le transfert de bénéfices à l'étranger.</s><s xml:id="_Z6hJPUv" coords="4,63.00,395.51,323.99,8.80;4,63.00,407.69,166.63,8.80">Ensuite, nous lançons un appel pour plus d'études sur le transfert de bénéfices au Canada utilisant des données désagrégées.</s><s xml:id="_bGXa4r9" coords="4,231.70,407.69,155.34,8.80;4,63.00,419.87,294.59,8.80">Finalement, nous soulignons le manque d'études examinant l'impact réel du transfert de bénéfices sur l'économie.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_yy3geXd" coords="4,63.00,450.05,311.32,8.80">Revue de lIttéRAtuRe suR le tRAnsfeRt de bénéfIces et l'évItement fIscAl</head><p xml:id="_JamX2nr"><s xml:id="_XNQNAsA" coords="4,78.00,468.23,309.00,8.80;4,63.00,480.41,145.26,8.80">Cette section passe en revue la littérature récente sur le recours à l'évitement fiscal par les firmes multinationales.</s><s xml:id="_NudwSdZ" coords="4,210.41,480.41,176.59,8.80;4,63.00,492.59,223.74,8.80">Les études portant sur les firmes multinationales au Canada sont discutées dans la section suivante.</s></p><p xml:id="_8xBqjZj"><s xml:id="_hrvV7zb" coords="4,78.00,510.76,308.99,8.80;4,63.00,522.94,215.15,8.80">Il existe des preuves indirectes grandissantes de la pratique du transfert de bénéfices et de l'évitement fiscal par les multinationales.</s><s xml:id="_ZQZyXVv" coords="4,280.09,522.94,106.91,8.80;4,63.00,535.12,324.00,8.80;4,63.00,547.30,324.04,8.80;4,63.00,559.48,142.21,8.80">En se basant sur un sondage des multinationales américaines couvrant la période <ref type="bibr" coords="4,268.77,535.12,17.27,8.80">1982</ref><ref type="bibr" coords="4,290.36,535.12,17.27,8.80">-1999</ref><ref type="bibr" coords="4,364.70,535.12,22.30,8.80" target="#b15">, Desai et al. (2006) )</ref> montrent que les multinationales ayant des filiales situées dans les paradis fiscaux paient moins d'impôt aux États-Unis.</s><s xml:id="_VJjKjzm" coords="4,207.14,559.48,179.90,8.80;4,63.00,571.66,323.95,8.80;4,63.00,583.84,323.96,8.80;4,63.00,596.02,65.78,8.80">Pour les auteurs, les paradis fiscaux permettent aux multinationales américaines de différer ou d'éviter le paiement d'impôt pour le compte de leurs autres filiales à l'étranger (celles ne se trouvant pas dans des paradis fiscaux).</s><s xml:id="_3Sj4kzy" coords="4,130.86,596.02,256.18,8.80;4,63.00,608.20,179.06,8.80">Par ailleurs, il a été observé que seules les grandes firmes avaient recours, de façon active, aux paradis fiscaux.</s><s xml:id="_yuMV48t" coords="4,244.32,608.20,142.65,8.80;4,63.00,620.38,324.00,8.80;5,129.77,67.50,190.47,6.60;5,63.00,91.20,218.04,8.80">L'utilisation de données allemandes a permis à <ref type="bibr" coords="4,108.31,620.38,87.26,8.80" target="#b23">Gumpert et al. (2011)</ref> de confirmer que la probabilité de recours aux FISCALITÉ DES ENTREPRISES ET PARADIS FISCAUX… paradis fiscaux était plus grande chez les grandes firmes.</s><s xml:id="_a483q3s" coords="5,282.98,91.20,103.98,8.80;5,63.00,103.38,323.91,8.80;5,63.00,115.57,159.28,8.80">Ils ont également démontré que la décision d'avoir une filiale dans un paradis fiscal était principalement guidée par les économies potentielles d'impôts.</s><s xml:id="_GCJCSHM" coords="5,224.48,115.57,162.55,8.80;5,63.00,127.75,324.00,8.80;5,63.00,139.94,317.43,8.80">Dans la même veine, <ref type="bibr" coords="5,309.52,115.57,77.51,8.80;5,63.00,127.75,27.69,8.80" target="#b26">Huizinga et Laeven (2008)</ref> montrent que les firmes européennes ayant des filiales à l'étranger ont tendance à payer moins d'impôts, en comparaison avec les firmes domestiques.</s></p><p xml:id="_XsSYbtQ"><s xml:id="_SsJVHbT" coords="5,78.00,158.12,309.03,8.80">Les constats d'évitement fiscal ne se limitent pas à la littérature économique.</s><s xml:id="_xzPKCya" coords="5,63.00,170.30,323.96,8.80;5,63.00,182.49,324.00,8.80;5,63.00,194.67,121.64,8.80">Dans la littérature comptable, le taux d'imposition effectif (taux net) payé par une entreprise, est souvent utilisé comme une mesure d'évitement fiscal <ref type="bibr" coords="5,329.78,182.49,57.22,8.80;5,63.00,194.67,23.33,8.80">(Dyreng et al., 2008;</ref><ref type="bibr" coords="5,89.32,194.67,91.16,8.80" target="#b8">Brown et Drake, 2014)</ref>.</s><s xml:id="_3XQfMS7" coords="5,187.63,194.67,199.35,8.80;5,63.00,206.86,323.98,8.80;5,63.00,219.04,324.00,8.80;5,63.00,231.23,29.71,8.80">Il apparaît que les multinationales paient un taux d'imposition effectif relativement moins élevé et que cette tendance était de plus en plus répandue <ref type="bibr" coords="5,133.86,219.04,81.11,8.80" target="#b20">(Dyreng et al., 2015</ref> présente une revue détaillée de cette littérature).</s><s xml:id="_tFe4fA7" coords="5,95.02,231.23,292.00,8.80;5,63.00,243.41,324.04,8.80;5,63.00,255.59,324.06,8.80;5,63.00,267.78,294.65,8.80">En lien avec les éléments de preuve fournis par la littérature économique, la littérature comptable met en lumière l'importance des paradis fiscaux, des caractéristiques des firmes (comme la taille de la firme) et du système d'imposition pour expliquer l'évitement fiscal <ref type="bibr" coords="5,194.78,267.78,82.41,8.80" target="#b2">(Atwood et al. 2012;</ref><ref type="bibr" coords="5,279.69,267.78,73.74,8.80" target="#b36">Taylor et al., 2015)</ref>.</s><s xml:id="_vJD6px4" coords="5,78.00,450.35,309.01,8.80;5,63.00,462.54,215.80,8.80;5,278.46,462.02,2.90,5.10;5,281.21,462.54,2.50,8.80">Une autre méthode ayant fait l'objet de nombreuses études dans la littérature théorique est celle de l'utilisation des prix de transfert 1 .</s><s xml:id="_BQyj8cU" coords="5,286.18,462.54,100.83,8.80;5,63.00,474.72,323.94,8.80;5,63.00,486.91,76.10,8.80">Les prix de transfert sont les prix pratiqués par les firmes multinationales dans les transactions avec leurs filiales à l'étranger.</s><s xml:id="_eJJbx4z" coords="5,141.21,486.91,245.79,8.80;5,63.00,499.09,324.02,8.80;5,63.00,511.28,161.87,8.80">La manipulation des prix de transfert peut alors permettre aux multinationales de transférer les bénéfices dans leurs filiales implantées dans des pays où la fiscalité est plus avantageuse.</s><s xml:id="_6ME9zNs" coords="5,227.59,511.28,159.39,8.80;5,63.00,523.46,323.94,8.80;5,63.00,535.64,43.09,8.80">Par exemple, une firme au Canada peut pratiquer des prix peu élevés lorsqu'elle échange avec une de ses filiales aux Bermudes.</s><s xml:id="_62FZKAS" coords="5,108.50,535.64,278.51,8.80;5,63.00,547.83,73.90,8.80">Cela lui permet de réduire ses bénéfices et, par conséquent, sa facture fiscale au Canada.</s><s xml:id="_uS3n42H" coords="5,139.43,547.83,247.57,8.80;5,63.00,560.01,148.16,8.80">D'autre part, cela fera hausser ses bénéfices aux Bermudes où l'imposition des entreprises est nulle.</s><s xml:id="_tyjgyjZ" coords="5,213.62,560.01,173.42,8.80;5,63.00,572.20,324.03,8.80;5,63.00,584.38,290.51,8.80">La manipulation des prix pratiqués lors des transactions intrafirmes permet donc de transférer des bénéfices du Canada vers les Bermudes et de réduire le taux d'imposition effectif global de la firme.</s><s xml:id="_N5EH6z8" coords="5,355.60,584.38,31.47,8.80;5,78.00,612.70,5.71,7.04">Il existe 1.</s></p><p xml:id="_C6sxyRx"><s xml:id="_dSRWScU" coords="5,99.00,612.70,288.00,7.04;5,63.00,621.70,42.45,7.04">Pour une revue des motivations théoriques derrière la manipulation des prix voir <ref type="bibr" coords="5,360.98,612.70,26.02,7.04;5,63.00,621.70,38.99,7.04" target="#b19">Diewert et al. (2006)</ref>.</s></p><p xml:id="_Ntn25DH"><s xml:id="_Xh9PgVz" coords="6,174.19,67.66,101.63,6.60;6,63.00,91.20,214.01,8.80">L'ACTUALITÉ ÉCONOMIQUE très peu de bases de données sur les prix de transfert.</s><s xml:id="_vzkv8ve" coords="6,279.55,91.20,107.46,8.80;6,63.00,103.45,243.27,8.80">La plupart des éléments de preuve rapportés sur les prix de transfert sont donc indirects.</s><s xml:id="_6YcFXFj" coords="6,308.73,103.45,78.25,8.80;6,63.00,115.71,324.01,8.80;6,63.00,127.96,324.03,8.80;6,63.00,140.22,61.47,8.80">Les études récentes sur cette pratique ayant révélé des preuves indirectes incluent : <ref type="bibr" coords="6,319.87,115.71,63.05,8.80" target="#b34">Swenson (2001)</ref>, <ref type="bibr" coords="6,63.00,127.96,126.25,8.80" target="#b4">Bartelsman et Beetsma (2003)</ref>, <ref type="bibr" coords="6,196.77,127.96,63.92,8.80" target="#b32">Overesch (2006</ref><ref type="bibr" coords="6,260.70,127.96,64.07,8.80" target="#b37">), Vicard (2014</ref><ref type="bibr" coords="6,324.77,127.96,62.26,8.80;6,63.00,140.22,55.99,8.80" target="#b11">), et Cristea et Nguyen (2014)</ref> <ref type="foot" coords="6,119.14,139.70,2.82,5.10" target="#foot_0">foot_0</ref> .</s><s xml:id="_bd4UcT5" coords="6,126.34,140.22,260.66,8.80;6,63.00,152.47,324.03,8.80;6,63.00,164.73,142.68,8.80">La robustesse de ces résultats semble être confirmée par <ref type="bibr" coords="6,339.38,140.22,47.62,8.80;6,63.00,152.47,75.32,8.80" target="#b24">Heckemeyer et Overesch (2013)</ref> à travers une méta-analyse sur les prix de transfert, l'octroi de licences et le transfert de bénéfices.</s></p><p xml:id="_g3PGnTB"><s xml:id="_B54m3UZ" coords="6,78.00,182.98,309.01,8.80;6,63.00,195.24,36.32,8.80">Certains articles apportent des preuves directes de l'utilisation des prix de transfert.</s><s xml:id="_uYsYBqU" coords="6,101.56,195.24,285.44,8.80;6,63.00,207.49,274.37,8.80"><ref type="bibr" coords="6,101.56,195.24,64.52,8.80" target="#b9">Clausing (2003)</ref> utilise les prix intrafirmes et des prix de pleine concurrence pratiqués pour les importations et les exportations américaines.</s><s xml:id="_MJZ2vS8" coords="6,339.49,207.49,47.55,8.80;6,63.00,219.75,324.03,8.80;6,63.00,232.00,258.75,8.80">Son analyse révèle une forte corrélation entre les prix pratiqués et le taux d'imposition du pays de destination, ce qui implique l'utilisation des prix de transfert.</s><s xml:id="_2EDwAJc" coords="6,324.44,232.00,62.54,8.80;6,63.00,244.25,324.00,8.80;6,63.00,256.51,323.99,8.80;6,63.00,268.76,201.22,8.80">En utilisant des données désagrégées américaines, <ref type="bibr" coords="6,203.28,244.25,85.60,8.80" target="#b7">Bernard et al. (2006)</ref> montrent que les firmes facturent, de façon systématique, des prix intrafirmes moins élevés lorsqu'elles exportent vers des pays à faible taux d'imposition.</s><s xml:id="_VeYvkTJ" coords="6,266.88,268.76,120.13,8.80;6,63.00,281.02,324.03,8.80;6,63.00,293.27,323.96,8.80;6,63.00,305.53,138.50,8.80"><ref type="bibr" coords="6,266.88,268.76,78.82,8.80">Davies et al. (2015)</ref> montrent, à patir de données désagrégées françaises, que la majeure partie des transferts de bénéfices opérés par le biais de la manipulation des prix de transfert se fait vers un petit nombre de paradis fiscaux.</s><s xml:id="_MgeaJ4R" coords="6,203.59,305.53,183.46,8.80;6,63.00,317.78,311.60,8.80">Ils trouvent également que la manipulation des prix de transfert était seulement le fait de très grandes firmes multinationales.</s></p><p xml:id="_wG557WJ"><s xml:id="_9UhzjZd" coords="6,78.00,336.04,309.01,8.80;6,63.00,348.29,282.16,8.80">La littérature mentionnée plus haut concerne les firmes qui essayent de se soustraire à la fiscalité sans toutefois avoir recours à la délocalisation.</s><s xml:id="_qhBsdGy" coords="6,347.67,348.29,39.29,8.80;6,63.00,360.54,324.08,8.80;6,63.00,372.80,235.78,8.80">Une autre façon de profiter d'une fiscalité avantageuse consiste à délocaliser toutes les activités de la firme vers une juridiction à faible imposition.</s><s xml:id="_662rnGW" coords="6,300.93,372.80,86.08,8.80;6,63.00,385.05,323.91,8.80;6,63.00,397.31,111.93,8.80">Certains auteurs dans la littérature se sont intéressés à l'impact de la fiscalité sur la décision de localisation des firmes multinationales.</s><s xml:id="_R7QZYGY" coords="6,178.06,397.31,208.94,8.80;6,63.00,409.56,324.02,8.80;6,63.00,421.82,323.97,8.80;6,63.00,434.07,323.95,8.80;6,63.00,446.33,31.76,8.80"><ref type="bibr" coords="6,178.06,397.31,116.68,8.80" target="#b16">Devereux et Griffith (1998,)</ref> en analysant les lieux d'implantation d'un panel de multinationales américaines en Europe de 1980 à 1994, constatent que le taux moyen d'imposition effectif avait un impact significatif sur le choix de la localisation une fois que la firme avait décidé de produire en Europe.</s><s xml:id="_ayCjNGX" coords="6,97.50,446.33,289.50,8.80;6,63.00,458.58,323.99,8.80">Toutefois, il ne jouait aucun rôle sur la décision de la firme de produire en Europe plutôt que d'importer ou simplement d'ignorer le marché européen.</s><s xml:id="_DY97UXT" coords="6,63.00,470.84,324.01,8.80;6,63.00,483.09,324.05,8.80;6,63.00,495.34,154.78,8.80"><ref type="bibr" coords="6,63.00,470.84,86.68,8.80" target="#b0">Altshuler et al. (2000)</ref>, à l'aide de données recueillies auprès du Trésor américain, analysent les grandes firmes américaines exerçant des activités dans le secteur manufacturier sur la période 1984-1992.</s><s xml:id="_VYAUuwA" coords="6,219.77,495.34,167.23,8.80;6,63.00,507.60,323.99,8.80;6,63.00,519.85,324.02,8.80;6,63.00,532.11,324.03,8.80;6,63.00,544.36,243.97,8.80">Il ressort de leur analyse que non seulement le taux moyen d'imposition avait un impact significatif sur la localisation du capital, mais aussi que l'élasticité du capital par rapport à la fiscalité a augmenté deux fois plus de 1984 à 1992, ce qui pourrait s'expliquer par une hausse dans la mobilité du capital et par la mondialisation de la production.</s><s xml:id="_d9wtwDG" coords="6,309.49,544.36,77.51,8.80;6,63.00,556.62,324.03,8.80;6,63.00,568.87,210.70,8.80"><ref type="bibr" coords="6,309.49,544.36,77.51,8.80" target="#b5">Basile et al. (2008)</ref> s'intéressent au choix de localisation de firmes européennes et non européennes dans huit pays de l'Union européenne de 1991 à 1999.</s><s xml:id="_8zfsrBk" coords="6,275.82,568.87,111.16,8.80;6,63.00,581.13,324.01,8.80;6,63.00,593.38,129.92,8.80">Fait intéressant, les résultats révèlent que seules les multinationales non européennes réagissent négativement au niveau du taux d'imposition.</s><s xml:id="_dfHPSsz" coords="6,196.03,593.38,190.94,8.80;7,63.00,91.20,323.97,8.80;7,63.00,103.23,133.23,8.80">Les multinationales européennes sont, quant à elles, plus sensibles aux réformes et politiques économiques comme l'institution des fonds structurels européens.</s><s xml:id="_WJkNzSn" coords="7,199.40,103.23,187.61,8.80;7,63.00,115.26,323.98,8.80;7,63.00,127.30,323.96,8.80;7,63.00,139.33,117.35,8.80">Dans une étude effectuée sur des données en panel de firmes multinationales allemandes portant sur la période <ref type="bibr" coords="7,341.03,115.26,18.38,8.80">2001</ref><ref type="bibr" coords="7,364.01,115.26,18.38,8.80" target="#b12">-2005</ref><ref type="bibr" coords="7,118.79,127.30,21.42,8.80" target="#b6">, Becker et al. (2012) )</ref> trouvent aussi que le taux d'imposition joue un rôle significatif dans le choix de localisation.</s></p><p xml:id="_A5ZBSgJ"><s xml:id="_GRc9sXh" coords="7,78.00,157.36,252.16,8.80">Une dernière étude sur la question nous provient de Zucman (2014).</s><s xml:id="_e5pFfnZ" coords="7,331.93,157.36,55.06,8.80;7,63.00,169.39,323.97,8.80;7,63.00,181.42,124.45,8.80">Contrairement au reste de la littérature, il étudie le phénomène de l'évitement fiscal avec une perspective macroéconomique.</s><s xml:id="_dg6XgHz" coords="7,189.73,181.42,197.25,8.80;7,63.00,193.46,323.91,8.80">En utilisant les données des comptes nationaux et de la balance des paiements des États-Unis, il met en lumière deux faits intéressants.</s><s xml:id="_Hu3dvje" coords="7,63.00,205.49,324.08,8.80;7,63.00,217.52,193.55,8.80">D'une part, la part des bénéfices générés par les firmes américaines dans les paradis fiscaux est passée de 2 % en 1980 à 20 % en 2012.</s><s xml:id="_qJ37Zjb" coords="7,258.56,217.52,128.46,8.80;7,63.00,229.55,323.99,8.80;7,63.00,241.58,21.91,8.80">D'autre part, le taux d'imposition effectif des firmes américaines est passé de 50 % en 1950 à moins de 15 % en 2012.</s><s xml:id="_zzVp7cw" coords="7,87.25,241.58,299.77,8.80;7,63.00,253.61,323.99,8.80">Ces deux informations suggèrent que les firmes américaines ont réduit leur facture fiscale en procédant au transfert de bénéfices vers des paradis fiscaux.</s><s xml:id="_JarFPXA" coords="7,63.00,265.65,323.94,8.80;7,63.00,277.68,241.61,8.80">L'auteur estime que les multinationales américaines ont réduit de 20 % leur facture fiscale en transférant leur bénéfice dans des paradis fiscaux.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_EPyx433" coords="7,63.00,307.71,211.20,8.80">fIscAlIté des fIRmes multInAtIonAles Au cAnAdA</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_JkT7YJ9" coords="7,63.00,331.74,82.20,8.80">Mise en contexte</head><p xml:id="_MyRvU8R"><s xml:id="_YFQ9ucG" coords="7,78.00,349.77,285.03,8.80">Avant d'effectuer la revue de littérature, une mise en contexte est de mise.</s><s xml:id="_y6rcbVu" coords="7,365.04,349.77,21.96,8.80;7,63.00,361.81,324.04,8.80;7,63.00,373.84,324.01,8.80;7,63.00,385.87,250.68,8.80">Selon la Loi de l'impôt sur le revenu (LIR), une firme est considérée canadienne si elle réside au Canada et a, soit été constituée au Canada, soit résidée au Canada tout au long de la période allant du 18 juin 1971 jusqu'à nos jours.</s><s xml:id="_yfMFFuJ" coords="7,316.62,385.87,70.42,8.80;7,63.00,397.90,323.96,8.80;7,63.00,409.93,323.96,8.80;7,63.00,421.97,141.79,8.80">Le gouvernement canadien détermine le statut de résidence d'une firme en utilisant les principes de la common law, qui stipule que la résidence d'une firme correspond à l'endroit où elle exerce réellement son activité.</s><s xml:id="_qaeSZKN" coords="7,207.86,421.97,179.14,8.80;7,63.00,434.00,323.99,8.80;7,63.00,446.03,37.70,8.80">Selon les tribunaux britanniques « l'activité véritable d'une société est exercée là où sa gestion centrale et son contrôle sont exercés ».</s><s xml:id="_uXBYZvX" coords="7,102.69,446.03,284.28,8.80;7,63.00,458.06,323.98,8.80;7,63.00,470.09,324.02,8.80;7,63.00,482.12,61.89,8.80">Pour les firmes opérant dans le cadre d'une convention fiscale renfermant une définition du terme « résident », et qui sont considérées comme résidentes de plus d'un pays, dont le Canada, la définition de la convention fiscale l'emporte sur celle de la LIR.</s></p><p xml:id="_8U47NNb"><s xml:id="_xKnrDQg" coords="7,78.00,500.16,158.52,8.80;7,236.65,499.64,2.93,5.10;7,242.55,500.16,144.44,8.80;7,63.00,512.19,73.90,8.80">Toutes les firmes résidentes au Canada 3 doivent produire une déclaration de revenus de société.</s><s xml:id="_cBcZSxv" coords="7,139.27,512.19,247.73,8.80;7,63.00,524.22,168.16,8.80">Les bénéfices des firmes résidentes canadiennes sont assujettis à l'impôt fédéral et provincial (ou territorial).</s><s xml:id="_BJ5KMXp" coords="7,232.93,524.22,154.09,8.80;7,63.00,536.25,323.99,8.80;7,63.00,548.28,323.96,8.80;7,63.00,560.32,190.87,8.80">Les provinces et les territoires établissent eux-mêmes les niveaux d'imposition sur les sociétés, mais tout cela est administré par le gouvernement fédéral, à l'exception des provinces de l'Alberta et du Québec qui collectent elles-mêmes l'impôt sur les sociétés.</s><s xml:id="_DzuTGBG" coords="7,255.71,560.32,131.29,8.80;7,63.00,572.35,323.96,8.80;7,63.00,584.38,324.03,8.80;7,78.00,612.70,5.81,7.04">Tous les gouvernements, à l'exception du Manitoba, ont opté pour un système de taux d'imposition double, avec un taux d'imposition plus bas appliqué au revenu admissible à la déduction des petites 3.</s></p><p xml:id="_J6AmwXX"><s xml:id="_wE9mjjb" coords="7,99.00,612.70,288.36,7.04;7,63.00,621.70,88.11,7.04;8,63.00,91.20,266.31,8.80">À l'exception des sociétés d'État exonérées d'impôt, des colonies huttérites et des organismes de bienfaisance enregistrés entreprises, et un taux plus élevé appliqué à tous les autres revenus.</s><s xml:id="_Kn6sYnR" coords="8,331.89,91.20,55.09,8.80;8,63.00,103.20,323.94,8.80;8,63.00,115.20,271.50,8.80">Au Manitoba, il n'y a pas d'impôt sur les sociétés pour les sociétés privées sous contrôle canadien qui sont admissibles à la déduction accordée aux petites entreprises.</s><s xml:id="_n8HfC5D" coords="8,337.30,115.20,49.70,8.80;8,63.00,127.20,180.98,8.80;8,243.38,126.68,4.56,5.10;8,250.34,127.20,50.72,8.80">Le tableau 1 présente les taux d'imposition en vigueur au 1 er janvier 2015.</s></p><p xml:id="_MU8RxFW"><s xml:id="_gsmpmks" coords="8,197.92,169.20,54.16,8.80;8,126.88,187.20,196.24,8.80;8,232.21,219.88,50.59,8.94;8,311.31,219.88,56.15,8.94;8,63.00,239.70,32.50,8.94;8,247.43,239.84,20.14,8.80;8,329.12,239.84,20.54,8.80;8,63.00,257.52,37.84,8.94;8,67.00,273.48,100.93,8.80;8,249.59,273.48,15.83,8.80;8,329.29,273.48,20.20,8.80;8,67.00,289.30,67.36,8.80;8,249.59,289.30,15.83,8.80;8,329.27,289.30,20.24,8.80;8,67.00,305.12,91.49,8.80;8,243.36,305.12,28.28,8.80;8,329.27,305.12,20.24,8.80;8,67.00,320.94,82.09,8.80;8,249.59,320.94,15.83,8.80;8,329.10,320.94,20.57,8.80;8,67.00,336.76,30.87,8.80;8,249.59,336.76,15.83,8.80;8,323.28,336.76,32.21,8.80;8,67.00,352.58,31.12,8.80;8,243.36,352.58,28.28,8.80;8,323.25,352.58,32.28,8.80;8,67.00,368.40,38.45,8.80;8,249.59,368.40,15.83,8.80;8,329.21,368.40,20.36,8.80;8,67.00,384.22,56.46,8.80;8,249.59,384.22,15.83,8.80;8,329.10,384.22,20.57,8.80;8,67.00,400.04,30.65,8.80;8,249.59,400.04,15.83,8.80;8,329.21,400.04,20.36,8.80;8,67.00,415.86,89.95,8.80;8,243.24,415.86,28.52,8.80;8,329.32,415.86,20.14,8.80;8,63.00,435.54,42.54,8.94;8,67.00,451.50,26.53,8.80;8,249.59,451.50,15.83,8.80;8,329.12,451.50,20.54,8.80;8,67.00,467.32,104.24,8.80;8,249.59,467.32,15.83,8.80;8,323.25,467.32,32.28,8.80;8,67.00,483.14,34.25,8.80;8,249.59,483.14,15.83,8.80;8,329.10,483.14,20.57,8.80;8,63.00,502.96,154.98,8.80;8,290.69,502.96,28.39,8.80;8,63.00,522.64,58.03,8.94;8,234.47,522.64,43.36,8.94;8,293.31,522.64,89.46,8.94;8,67.00,538.60,64.66,8.80;8,245.71,538.60,20.88,8.80;8,295.96,538.60,32.16,8.80;8,350.47,538.60,20.61,8.80;8,67.00,554.42,84.71,8.80;8,239.52,554.42,33.25,8.80;8,301.62,554.42,20.84,8.80;8,350.47,554.42,20.61,8.80;8,63.00,576.99,323.97,7.04;8,86.00,585.58,51.27,7.46">TABLEAU 1 tAux de tAxe Aux nIveAux pRovIncIAl et fédéRAl Taux réduit Taux général Fédéral 11 % 15 % Province Terre-Neuve-et-Labrador 3 % 14 % Nouvelle-Écosse 3 % 16 % Île-du-Prince-Édouard 4,50 % 16 % Nouveau-Brunswick 4 % 12 % Québec 8 % 11,90 % Ontario 4,50 % 11,50 % Manitoba 0 % 10 % Saskatchewan 2 % 12 % Alberta 3 % 10 % Colombie-Britannique 2,50 % 11 % Territoire Yukon 3 % 15 % Territoires du Nord-Ouest 4 % 11,50 % Nunavut 4 % 12 % Taux de taxe sur le revenu des sociétés 26,3 % Comparaison Minimum Médiane Maximum Membres du G7 20 % 30,18 % 39 % Membres de l'OCDE 12,50 % 25 % 39 % note : Ce tableau indique le taux de taxe statutaire des provinces canadiennes et des territoires au 1 er janvier 2015.</s><s xml:id="_Bm52Wyf" coords="8,63.00,597.99,27.85,7.04;8,152.11,597.99,3.49,7.04;8,233.98,597.99,3.47,7.04">souRce : <ref type="url" coords="8,92.85,597.99,59.26,7.04" target="www.cra-arc.gc.ca">www.cra-arc.gc.ca</ref>; <ref type="url" coords="8,157.59,597.99,76.39,7.04" target="www.finance.alberta.ca">www.finance.alberta.ca</ref>;</s><s xml:id="_DFxMX3P" coords="8,314.48,597.99,5.82,7.04"><ref type="url" coords="8,239.45,597.99,73.02,7.04" target="www.revenuquebec.ca">www.revenuquebec.ca</ref></s><s xml:id="_GbGXZdH" coords="8,322.29,597.99,24.19,7.04">et OCDE.</s><s xml:id="_cC4GZdc" coords="8,78.00,611.67,309.00,8.80;9,63.00,91.20,324.01,8.80;9,63.00,103.58,323.99,8.80;9,63.00,115.95,238.84,8.80">Une société étrangère affiliée (SEA) à un contribuable résidant au Canada est définie comme étant une société étrangère si elle détient une participation d'au moins 1 % et dans laquelle le contribuable et des personnes qui lui sont liées détiennent conjointement une participation d'au moins 10 %.</s><s xml:id="_4eFNpB6" coords="9,303.93,115.95,83.09,8.80;9,63.00,128.33,324.04,8.80;9,63.00,140.71,324.01,8.80;9,63.00,153.08,173.43,8.80;9,236.78,152.56,2.90,5.10;9,239.69,153.08,2.50,8.80">Si la participation est inférieure à 10 % les revenus sont considérés comme étant des revenus de portefeuille et si elle est supérieure à 50 % la société étrangère est considérée comme une société étrangère affiliée contrôlée (SEAC) 4 .</s></p><p xml:id="_fFEExBp"><s xml:id="_BmTvTmk" coords="9,78.00,171.46,309.01,8.80;9,63.00,183.84,147.53,8.80;9,210.51,183.32,2.94,5.10;9,216.56,183.84,170.45,8.80;9,63.00,196.21,179.10,8.80">Il est important de noter que les revenus d'un contribuable résident au Canada provenant d'un établissement stable 5 (comme une succursale) à l'étranger sont inclus dans son revenu imposable au Canada.</s><s xml:id="_kYZ6fSn" coords="9,244.23,196.21,142.74,8.80;9,63.00,208.59,323.94,8.80;9,63.00,220.97,324.00,8.80;9,63.00,233.34,100.77,8.80">Le résident peut demander un crédit d'impôt pour les impôts payés à l'étranger, déduire les pertes subies à l'étranger des revenus de source canadienne, mais ne peut en aucun cas reporter l'impôt dû sur les revenus étrangers.</s></p><p xml:id="_Up4zWzJ"><s xml:id="_BWdxzvq" coords="9,78.00,251.72,308.94,8.80;9,63.00,264.10,46.13,8.80">Il existe deux ensembles de règles sur les sociétés étrangères affiliées établis par la LIR.</s><s xml:id="_zrHSAJM" coords="9,112.20,264.10,274.69,8.80;9,63.00,276.47,324.02,8.80;9,63.00,288.85,323.98,8.80;9,63.00,301.23,89.90,8.80">Le premier, portant sur le revenus étranger accumulé tiré de biens (REATB), consiste en un ensemble étendu de règles antireport applicables aux revenus hors exploitation gagnés par une société étrangère affiliée contrôlée par un contribuable canadien.</s><s xml:id="_WtWpTrK" coords="9,155.46,301.23,231.50,8.80;9,63.00,313.60,323.96,8.80;9,63.00,325.98,323.97,8.80;9,63.00,338.35,323.94,8.80">Les revenus hors exploitation comprennent notamment les revenus de placement, les revenus locatifs, les gains en capital, les revenus provenant d'une entreprise inactive ou de certaines activités commerciales non éligibles (qui ont un lien au Canada ou qui ne comptent pas un nombre minimum d'employés).</s><s xml:id="_PPSf3VX" coords="9,63.00,350.73,323.96,8.80;9,63.00,363.11,201.10,8.80">Le second s'applique aux dividendes perçus par les sociétés actionnaires canadiennes de sociétés étrangères affiliées (contrôlées ou non).</s><s xml:id="_pMDXVzE" coords="9,266.17,363.11,120.81,8.80;9,63.00,375.48,202.81,8.80">L'imposition de ces dividendes dépend du compte à partir duquel ils ont été payés.</s><s xml:id="_Q727Gmr" coords="9,268.42,375.48,118.56,8.80;9,63.00,387.86,323.97,8.80;9,63.00,400.24,112.09,8.80">Selon les règles de la LIR, les premiers dividendes devraient être décaissés à partir des surplus exonérés, puis à partir des surplus imposables.</s><s xml:id="_MkNJ9p2" coords="9,176.90,400.24,210.08,8.80;9,63.00,412.61,323.95,8.80;9,63.00,424.99,116.07,8.80">Après avoir épuisé ces deux sources, tous les dividendes sont payés à même les surplus antérieurs à l'acquisition, étant considérés comme un remboursement de capital.</s><s xml:id="_SrtJ9mC" coords="9,181.09,424.99,205.86,8.80;9,63.00,437.37,324.06,8.80;9,63.00,449.74,324.01,8.80;9,63.00,462.12,324.05,8.80">Les dividendes versés à partir du compte des surplus exonérés peuvent être rapatriés en franchise de tout autre impôt si le Canada a conclu une convention fiscale avec le pays de résidence de la société étrangère affiliée et si le contribuable canadien répond à la définition de « société » au sens de la loi.</s><s xml:id="_qNUaAKB" coords="9,63.00,474.50,324.00,8.80;9,63.00,486.87,323.97,8.80;9,63.00,499.25,324.01,8.80;9,63.00,511.63,47.21,8.80">Les contribuables peuvent réclamer jusqu'à 15 % de crédit d'impôt fédéral pour les impôts étrangers payés sur ces dividendes, peu importe le compte de surplus à partir duquel ils ont été payés, tous les impôts payés à l'étranger de plus de 15 % étant déductibles.</s><s xml:id="_WgjFYnm" coords="9,112.59,511.63,274.43,8.80;9,63.00,524.00,323.94,8.80;9,63.00,536.38,313.94,8.80">Les dividendes versés à partir du compte des surplus imposables sont assujettis à l'impôt canadien, tandis que ceux qui sont versés à partir des surplus antérieurs à l'acquisition peuvent être entièrement déduits du revenu imposable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dcSQWTe" coords="9,78.00,564.70,5.94,7.04">4.</head><p xml:id="_xmqntkC"><s xml:id="_UmhpjJZ" coords="9,99.00,564.70,287.98,7.04;9,63.00,573.70,151.43,7.04">Le régime actuel des SEA se fonde sur les modifications apportées à la LIR introduites en 1972 (elles sont entrées en vigueur en 1976).</s><s xml:id="_UW3WEk5" coords="9,217.40,573.70,169.60,7.04;9,63.00,582.70,324.03,7.04;9,63.00,591.70,324.04,7.04;9,63.00,600.70,324.01,7.04;9,63.00,609.70,205.89,7.04">D'autres changements ont été apportés par la suite notamment, l'adoption des règles sur les biens de fonds de placement non résidents en 1984, les recommandations formulées par le Comité permanent des comptes publics de la Chambre des Communes en 1983, une série de « lettres d'accord » en <ref type="bibr" coords="9,244.94,600.70,142.07,7.04;9,63.00,609.70,73.32,7.04">2002 et 2004, et de nouveaux amendements en 2007, 2009, et 2012</ref> introduits par le ministère des Finances.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_xgy4YEb" coords="9,78.00,621.70,5.81,7.04">5.</head><p xml:id="_ByEDNdT"><s xml:id="_Jp2vAYa" coords="9,99.00,621.70,288.02,7.04">Un établissement stable est une entité qui n'est pas légalement distincte de sa société mère.</s></p><p xml:id="_JgXjUej"><s xml:id="_V3437sF" coords="10,78.00,91.20,308.98,8.80;10,63.00,103.23,279.87,8.80">Comme documenté par Hejazi (2007), les firmes canadiennes entretiennent des liens très étroits avec les juridictions à faible taux d'imposition.</s><s xml:id="_B8kteX3" coords="10,346.03,103.23,40.94,8.80;10,63.00,115.26,324.00,8.80;10,63.00,127.28,324.02,8.80;10,63.00,139.31,107.49,8.80">On utilise fréquemment plusieurs termes pour qualifier les juridictions à faible taux d'imposition : paradis fiscaux, régimes fiscaux préférentiels dommageables ou encore centres financiers offshore.</s><s xml:id="_XceP8Te" coords="10,172.63,139.31,95.54,8.80;10,336.26,283.65,50.70,8.80;10,63.00,295.68,323.95,8.80;10,63.00,307.71,324.06,8.80;10,63.00,319.73,147.90,8.80">L'OCDE <ref type="bibr" coords="10,209.53,139.31,58.64,8.80">(OECD, 2000)</ref>   <ref type="formula" coords="10,336.26,283.65,18.23,8.80">2007</ref>) utilise une définition plus large d'un paradis fiscal, incluant non seulement les juridictions reconnues par l'OCDE en tant que telles, mais aussi celles avec des régimes fiscaux préférentiels dommageables.</s><s xml:id="_uTdb6fB" coords="10,213.43,319.73,173.58,8.80;10,63.00,331.76,324.01,8.80;10,63.00,343.79,221.32,8.80">Le Fonds monétaire international (FMI) et le Forum de Stabilité Financière (FSF) utilisent la notion de centre financier offshore (CFO) dont la définition diffère légèrement.</s><s xml:id="_QxtswtN" coords="10,287.51,343.79,99.48,8.80;10,63.00,355.82,323.96,8.80;10,63.00,367.85,324.01,8.80;10,63.00,379.87,323.99,8.80;10,63.00,391.90,324.05,8.80;10,63.00,403.93,292.01,8.80">Le FMI définit un CFO comme une juridiction caractérisée par une fiscalité faible ou inexistante, un secret bancaire et une régulation financière faibles ou modérés, un grand nombre d'institutions financières, principalement contrôlées par des non-résidents, avec une majorité de transactions initiées à l'étranger et des montants disproportionnés d'actifs et de passifs comparativement à la taille de l'économie nationale.</s><s xml:id="_EERmF5q" coords="10,357.25,403.93,29.70,8.80;10,63.00,415.96,323.97,8.80;10,63.00,427.99,324.02,8.80;10,63.00,440.01,323.94,8.80;10,63.00,452.04,100.93,8.80">Le FSF utilise également le critère de fiscalité faible ou nulle et une régulation faible dans sa définition d'un CFO, mais y ajoute un haut niveau de secret, l'inaccessibilité des résidents à des avantages fiscaux similaires et aucune présence physique imposée aux entreprises.</s><s xml:id="_Wk92KYJ" coords="10,166.63,452.04,220.42,8.80;10,63.00,464.07,247.17,8.80">Ces différences conduisent à des divergences entre les listes de paradis fiscaux publiés par diverses organisations.</s><s xml:id="_XzB88e9" coords="10,313.37,464.07,73.65,8.80;10,63.00,476.10,324.04,8.80;10,63.00,488.13,140.74,8.80">Dans notre étude, nous considérons la liste des paradis fiscaux proposée par <ref type="bibr" coords="10,300.51,476.10,86.53,8.80;10,63.00,488.13,25.74,8.80" target="#b17">Dharmapala et Hines (2009)</ref>, en y ajoutant les Pays-Bas.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_aVvcHCw" coords="10,63.00,518.16,94.43,8.80">Revue de littérature</head><p xml:id="_ke7ZAXH"><s xml:id="_dt36xnK" coords="10,78.00,536.18,308.99,8.80;10,63.00,548.21,323.98,8.80;10,63.00,560.24,115.88,8.80">Dans un article publié récemment, <ref type="bibr" coords="10,226.66,536.18,102.73,8.80" target="#b1">Arnold et Wilson (2014)</ref> discutent des mesures prises par les autorités canadiennes en réponse à la planification fiscale abusive des multinationales.</s><s xml:id="_fnrAQVm" coords="10,181.89,560.24,205.10,8.80;10,63.00,572.27,324.01,8.80;10,63.00,584.30,324.05,8.80;10,63.00,596.32,323.98,8.80;10,63.00,608.35,324.03,8.80;10,63.00,620.38,120.18,8.80">Les auteurs montrent que le Canada a été réticent à l'idée d'adopter des réglementations restrictives sur cette question afin de préserver l'avantage concurrentiel des entreprises canadiennes vis-à-vis des multinationales étrangères (le taux légal d'imposition au Canada est de 4 points en dessous de la médiane des pays du G7 et 1 point au-dessus de la médiane des pays de l'OCDE -Tableau 1).</s><s xml:id="_mwTxpJE" coords="11,78.00,91.20,309.00,8.80;11,63.00,103.40,98.60,8.80">L'avantage fiscal des sociétés canadiennes vis-à-vis de leurs concurrents étrangers du G7 n'est pas nouveau.</s><s xml:id="_55crtCA" coords="11,163.92,103.40,223.07,8.80;11,63.00,115.60,311.33,8.80"><ref type="bibr" coords="11,163.92,103.40,116.82,8.80" target="#b10">Collins et Shackelford (1995)</ref> ont calculé le taux effectif moyen d'imposition du Canada, du Japon, du Royaume-Uni et des États-Unis.</s><s xml:id="_paGDa8k" coords="11,376.78,115.60,10.20,8.80;11,63.00,127.80,323.99,8.80">Ils constatent que le Canada a le plus bas taux d'imposition effectif des quatre pays.</s><s xml:id="_wP3M7rd" coords="11,63.00,140.00,324.03,8.80;11,63.00,152.20,137.55,8.80">Ils constatent également que le taux d'imposition effectif moyen au Canada de 1982 à 1991 est aussi bas que 18 %.</s><s xml:id="_xfjjm5e" coords="11,202.62,152.20,184.37,8.80;11,63.00,164.40,77.54,8.80">Notez que ce chiffre est inférieur à celui trouvé dans notre analyse.</s><s xml:id="_TutdNTm" coords="11,143.39,164.40,243.58,8.80;11,63.00,176.60,324.00,8.80;11,63.00,188.80,69.39,8.80">Ceci pourrait s'expliquer par le fait que les auteurs calculent le taux d'imposition effectif comme une moyenne simple des taux effectifs d'imposition individuels.</s><s xml:id="_D3JDczw" coords="11,134.43,188.80,252.56,8.80;11,63.00,200.99,305.60,8.80">Nous suivons une littérature plus récente sur le taux d'imposition effectif et calculons une moyenne pondérée des taux d'imposition individuels.</s><s xml:id="_3cQ4uKk" coords="11,370.68,200.99,16.31,8.80;11,63.00,213.19,323.97,8.80;11,63.00,225.39,323.98,8.80;11,63.00,237.59,263.40,8.80;11,326.45,237.07,2.90,5.10;11,329.43,237.59,2.50,8.80">Une deuxième source de différence entre les deux articles réside dans le fait que <ref type="bibr" coords="11,358.16,213.19,28.81,8.80;11,63.00,225.39,84.89,8.80" target="#b10">Collins et Shackelford (1995)</ref> calculent le ratio des impôts sur le revenu net alors que nous le calculons comme le ratio des impôts sur le revenu avant impôts 6 .</s><s xml:id="_MffbbFx" coords="11,78.00,255.79,308.99,8.80;11,63.00,267.99,324.00,8.80;11,63.00,280.19,119.72,8.80"><ref type="bibr" coords="11,78.00,255.79,74.62,8.80" target="#b27">Jog et Tang (2001)</ref> étudient l'effet des réformes fiscales canadiennes dans les années quatre-vingt sur le ratio d'endettement des sociétés au Canada et sur les revenus de l'impôt des sociétés.</s><s xml:id="_jEBcEDW" coords="11,184.65,280.19,202.36,8.80;11,63.00,292.39,323.98,8.80;11,63.00,304.59,324.00,8.80;11,63.00,316.79,323.99,8.80">En utilisant des données désagrégées confidentielles, ils montrent que les sociétés canadiennes détenant des sociétés étrangères affiliées et les filiales de sociétés américaines situées au Canada ont connu une forte augmentation de leur ratio d'endettement dans le début des années quatre-vingt-dix.</s><s xml:id="_4MzunyP" coords="11,63.00,328.99,324.07,8.80;11,63.00,341.19,206.68,8.80">Les auteurs concluent donc que la politique de répartition de la dette de ces sociétés a bénéficié aux États-Unis au détriment du Canada.</s></p><p xml:id="_w9b9ET6"><s xml:id="_VhpQQc9" coords="11,78.00,359.39,309.00,8.80;11,63.00,371.59,157.89,8.80">Dans une étude plus récente, Hejazi (2007) analyse la composition des investissements directs canadiens à l'étranger.</s><s xml:id="_hn5hSSh" coords="11,222.90,371.59,164.11,8.80;11,63.00,383.79,324.01,8.80;11,63.00,395.99,42.18,8.80">Il met en évidence l'importance croissante des centres financiers offshore (paradis fiscaux) dans les investissements directs canadiens.</s><s xml:id="_S8yeUmd" coords="11,108.02,395.99,278.99,8.80;11,63.00,408.19,324.04,8.80;11,63.00,420.39,94.13,8.80">L'auteur affirme alors que les investissements directs vers les centres financiers offshore font croître les exportations canadiennes, ce qui profite à l'économie canadienne.</s></p><p xml:id="_TnGMdag"><s xml:id="_zv75ZBm" coords="11,78.00,438.58,308.99,8.80;11,63.00,450.78,107.45,8.80">Pour finir, <ref type="bibr" coords="11,122.29,438.58,90.80,8.80" target="#b29">Mintz et Smart (2004)</ref> examinent les transferts de bénéfices entre les provinces canadiennes.</s><s xml:id="_Fg9GvwB" coords="11,173.31,450.78,213.69,8.80;11,63.00,462.98,149.80,8.80;11,212.84,462.46,2.90,5.10;11,215.40,462.98,2.50,8.80">Ils développent un modèle et utilisent les données de CORPAC pour les années 1986-1999 7 .</s><s xml:id="_5vzMR7p" coords="11,220.74,462.98,166.27,8.80;11,63.00,475.18,324.02,8.80;11,63.00,487.38,324.00,8.80;11,63.00,499.58,59.43,8.80">Ils montrent que les sociétés situées dans plusieurs juridictions exploitent les différences de taux d'imposition entre provinces et procèdent au transfert de bénéfices des provinces à forte fiscalité vers celles à faible fiscalité.</s></p><p xml:id="_vtGzgp2"><s xml:id="_2Dk6bVH" coords="11,78.00,517.78,308.98,8.80;11,63.00,529.98,98.13,8.80">En résumé, il existe une littérature intéressante sur l'évitement fiscal des entreprises canadiennes.</s><s xml:id="_pzKJjEt" coords="11,163.73,529.98,223.28,8.80;11,63.00,542.18,29.54,8.80">Malheureusement, la couverture de ces études se limite à 1999.</s><s xml:id="_QVMWBX3" coords="11,95.63,542.18,291.37,8.80;11,63.00,554.38,197.33,8.80">Dans la section suivante, nous tentons de fournir une analyse avec des données actualisées pour l'économie canadienne.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_HNUjy3w" coords="11,78.00,582.70,6.03,7.04">6.</head><p xml:id="_dvTDNRG"><s xml:id="_skb5cZd" coords="11,99.00,582.70,288.03,7.04;11,63.00,591.70,324.00,7.04;11,63.00,600.70,51.48,7.04">La principale différence entre les deux dénominateurs est que le revenu net comprend les éléments extraordinaires tandis que le revenu avant impôts est calculé sans tenir compte des éléments extraordinaires.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_EmBJVG5" coords="11,78.00,612.70,5.41,7.04">7.</head><p xml:id="_wWNzecq"><s xml:id="_pxR2DZQ" coords="11,99.00,612.70,288.23,7.04;11,63.00,621.70,114.04,7.04">La base de données CORPAC est administrée par l'Agence du revenu du Canada et l'Agence des services frontaliers du Canada.</s></p><formula xml:id="formula_0" coords="12,80.63,295.46,306.38,48.28">AETR rt = f ∈R t ∑ T ft f ∑ Π ft (1)</formula><p xml:id="_67qnxh7"><s xml:id="_Wae2R9y" coords="12,63.00,349.20,37.07,8.80;12,100.17,355.33,4.06,5.05;12,106.80,349.20,267.57,8.80;12,373.85,355.33,3.46,5.05;12,379.88,349.20,7.12,8.80;12,63.00,360.82,310.59,9.99;12,373.41,367.33,3.46,5.05;12,379.88,361.20,7.12,8.80;12,63.00,373.20,323.99,8.80;12,63.00,385.20,91.58,8.80;12,154.69,391.33,1.61,5.05;12,158.80,385.20,43.49,8.80">où AETR rt représente le taux d'imposition effectif dans le pays r au temps t, T ft le montant d'impôt payé par l'entreprise f residant dans le pays r au temps t, P ft le revenu avant impôts de l'entreprise f au temps t, et R l'ensemble d'entreprises résidant dans le pays R t au temps t.</s></p><p xml:id="_CNP7MuF"><s xml:id="_BhW8rJ6" coords="12,78.00,402.20,200.57,8.80">Nous explorons deux variantes de cette formule.</s><s xml:id="_cpwJ8uz" coords="12,281.68,402.20,105.30,8.80;12,63.00,414.20,323.97,8.80;12,63.00,426.20,33.02,8.80">D'abord, nous appliquons cette formule en nous limitant (ou en excluant) les 100 plus grandes entreprises au Canada.</s><s xml:id="_2MjhdH3" coords="12,98.52,426.20,76.30,8.80">Ainsi, nous avons :</s></p><formula xml:id="formula_1" coords="12,79.59,438.70,307.41,49.66">BOTETR rt TOPETR rt = f ∈Top rt ∑ T ft f ∑ Π ft BOT rt = f ∈Top rt c ∑ T ft f ∑ Π ft TOPETR rt = f ∈Top rt ∑ T ft f ∑ Π ft BOT rt = f ∈Top rt c ∑ T ft f ∑ Π ft (2)</formula><p xml:id="_GgTgntC"><s xml:id="_ZTWwmY6" coords="12,63.00,493.20,49.06,8.80;12,112.15,499.33,4.06,5.05;12,118.54,493.20,268.46,8.80;12,63.00,505.29,38.07,8.70;12,101.20,511.33,4.14,5.05;12,108.44,505.20,105.84,8.80;12,214.38,511.33,4.14,5.05;12,218.63,505.20,2.53,8.80">où TOPETR rt l'ensemble des 100 plus grandes firmes dans le pays r au temps t, et BOTETR rt est le complément de Top rt .</s><s xml:id="_gYNnQeS" coords="12,224.28,505.20,162.72,8.80;12,63.00,517.20,173.77,8.80">Notez que la liste des 100 plus grandes entreprises peut changer à travers le temps.</s><s xml:id="_Fbjg67d" coords="12,239.49,517.20,89.18,8.80;12,328.76,523.33,4.06,5.05;12,335.55,517.20,47.30,8.80;12,382.94,523.33,4.06,5.05;12,63.00,529.20,323.98,8.80;12,63.00,541.20,199.81,8.80">Le calcul de TOPETR rt et BOTETR rt nous permet une comparaison du niveau et de l'évolution du taux d'imposition effectif entre les grandes et les petites entreprises.</s><s xml:id="_Rgxc9sv" coords="12,78.00,558.20,309.01,8.80;12,63.00,570.20,38.87,8.80">La seconde variante consiste à calculer le taux d'imposition effectif par secteur d'activité.</s></p><formula xml:id="formula_2" coords="12,79.81,582.17,307.20,48.28">SETR rst = f ∈R st ∑ T ft f ∑ Π ft (3)</formula><p xml:id="_DRfNbKS"><s xml:id="_aRuNgH8" coords="13,63.00,91.21,17.86,8.80;13,80.99,97.34,3.92,5.05;13,86.94,91.21,300.06,8.80;13,63.00,103.21,64.18,8.80">où R st représente l'ensemble d'entreprises résidant dans le pays r au temps t évoluant dans le secteur s.</s><s xml:id="_wEE97S8" coords="13,129.10,103.21,257.88,8.80;13,63.00,115.21,323.99,8.80;13,63.00,127.21,197.64,8.80">Cela nous permet d'évaluer si les différents secteurs (manufacturier, des finances, des services aux entreprises, etc.) connaissent un niveau et une évolution de taux d'imposition effectif similaires.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.2" xml:id="_v5Sp2nu" coords="13,63.00,145.21,63.17,8.80">Données</head><p xml:id="_B4MW8pH"><s xml:id="_YY97Gj7" coords="13,78.00,163.21,308.98,8.80;13,63.00,175.21,45.17,8.80">Dans le cadre de cette étude, nous avons eu recours à la base de données Compustat.</s><s xml:id="_bCnMJr5" coords="13,110.21,175.21,276.77,8.80;13,63.00,187.21,248.29,8.80">On y trouve de l'information sur les états financiers et d'autres données statistiques des entreprises cotées en bourse du monde entier.</s><s xml:id="_cAfpwHY" coords="13,314.20,187.21,72.76,8.80;13,63.00,199.21,324.03,8.80;13,63.00,211.21,94.96,8.80;13,158.04,210.69,2.94,5.10;13,161.08,211.21,2.54,8.80">Nous restreignons notre analyse à l'Amérique et nous nous concentrons sur les entreprises ayant leur siège social au Canada 8 .</s><s xml:id="_KGwKMJg" coords="13,166.75,211.21,220.20,8.80;13,63.00,223.21,116.67,8.80">Le pays où se situe le siège social est identifié par la variable loc dans Compustat.</s></p><p xml:id="_ua3SzMt"><s xml:id="_XwEYzEg" coords="13,78.00,241.21,309.00,8.80;13,63.00,253.21,175.89,8.80">Afin de calculer le taux d'imposition effectif, nous utilisons les résultats d'exploitation et hors exploitation avant impôts (pi).</s><s xml:id="_MGSeS3T" coords="13,241.39,253.21,145.59,8.80;13,63.00,265.21,324.01,8.80;13,63.00,277.21,99.05,8.80;13,161.98,276.69,2.90,5.10;13,164.68,277.21,2.50,8.80">Aussi, nous utilisons soit l'impôt sur le revenu courant (txc), soit le montant d'impôt payé (txpd) figurant dans les états financiers de l'entreprise 9 .</s></p><p xml:id="_Qc6ameS"><s xml:id="_TG8Czth" coords="13,78.00,295.21,309.01,8.80;13,63.00,307.21,323.99,8.80;13,63.00,319.21,66.33,8.80">Dans la littérature, l'impôt sur le revenu courant (Avi-Yonah et Lahav, 2012) ou l'impôt payé <ref type="bibr" coords="13,129.83,307.21,81.77,8.80">(Dyreng et al., 2008</ref><ref type="bibr" coords="13,219.28,307.21,17.43,8.80" target="#b20">(Dyreng et al., , 2015</ref>, par exemple) sont utilisés de façon interchangeable.</s><s xml:id="_WBQGAMe" coords="13,132.39,319.21,254.59,8.80;13,63.00,331.21,157.96,8.80">Il n'y a pas de fondement comptable ou économique justifiant l'utilisation de l'une ou de l'autre mesure.</s><s xml:id="_U3Hp4r2" coords="13,222.93,331.21,164.01,8.80;13,63.00,343.21,133.40,8.80">Cependant, les données à notre disposition ne couvrent pas la même période.</s><s xml:id="_PspGDbc" coords="13,198.68,343.21,188.31,8.80;13,63.00,355.21,323.97,8.80;13,63.00,367.21,53.31,8.80">L'impôt sur le revenu courant couvre la période 1990-2015, mais cette mesure est disponible pour un nombre relativement restreint d'entreprises.</s><s xml:id="_PEWrkBV" coords="13,119.07,367.21,267.96,8.80;13,63.00,379.21,21.63,8.80">L'impôt payé n'est quasiment pas disponible pour la période 1990-1999.</s><s xml:id="_KZseaRS" coords="13,87.49,379.21,299.56,8.80;13,63.00,391.21,151.59,8.80;13,214.29,390.69,5.65,5.10;13,219.96,391.21,2.50,8.80">Cependant, après 1999 la disponibilité des données est bien meilleure que celle de l'impôt sur le revenu courant 10 .</s><s xml:id="_sxMhpZU" coords="13,225.46,391.21,161.51,8.80;13,63.00,403.21,25.36,8.80">Pour cette raison, nous présentons deux séries.</s><s xml:id="_ZWKjUk3" coords="13,90.60,403.21,296.40,8.80;13,63.00,415.21,44.48,8.80">La première est calculée avec l'impôt sur le revenu courant pour la période 1990-2015.</s><s xml:id="_nPS6cmM" coords="13,109.96,415.21,277.00,8.80">La seconde est calculée avec l'impôt payé pour la période 1999-2015.</s><s xml:id="_ycGFUD3" coords="13,63.00,427.21,324.01,8.80;13,63.00,439.21,318.80,8.80">Pour des fins de comparaison entre groupes ou entre secteurs nous utilisons la série de l'impôt payé afin d'avoir un nombre suffisant d'observations par année.</s></p><p xml:id="_nRTfy7a"><s xml:id="_m2vU9Sq" coords="13,78.00,457.21,309.06,8.80;13,63.00,469.21,300.44,8.80">En plus des observations manquantes, nous avons rencontré une autre difficulté dans la détermination du taux d'imposition effectif : les bénéfices négatifs.</s><s xml:id="_eva25UH" coords="13,366.04,469.21,20.92,8.80;13,63.00,481.21,324.00,8.80;13,63.00,493.21,152.51,8.80">Nous adoptons la méthodologie de <ref type="bibr" coords="13,184.89,481.21,80.09,8.80">Dyreng et al. (2008</ref><ref type="bibr" coords="13,272.53,481.21,22.99,8.80" target="#b20">Dyreng et al. ( , 2015) )</ref> en excluant toutes les entreprises ayant des revenus négatifs.</s><s xml:id="_59vMmVh" coords="13,217.89,493.21,169.14,8.80;13,63.00,505.21,115.91,8.80">La plupart de ces entreprises ne paient pas (ou paient très peu) d'impôts.</s><s xml:id="_wuKz6Jp" coords="13,181.04,505.21,205.92,8.80;13,63.00,517.21,324.00,8.80;13,78.00,552.70,6.01,7.04">Nous les excluons de l'analyse parce que les revenus négatifs font baisser le dénominateur de notre mesure AETR, ce qui a pour 8.</s></p><p xml:id="_q2WdvmK"><s xml:id="_5CpCWaB" coords="13,99.00,552.70,288.01,7.04;13,63.00,561.70,72.84,7.04">Dans un exercice, nous faisons le même calcul pour les entreprises dont le siège social se trouve aux États-Unis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_WvncfMj" coords="13,78.00,573.70,5.62,7.04">9.</head><p xml:id="_DCBRJKe"><s xml:id="_fGGxg67" coords="13,99.00,573.70,288.14,7.04;13,63.00,582.70,229.82,7.04">L'impôt sur le revenu courant (variable txc) représente le montant actuel des impôts à payer aux gouvernements au niveau local, provincial, national et à l'étranger.</s><s xml:id="_7QDhfwm" coords="13,294.85,582.70,92.15,7.04;13,63.00,591.70,323.96,7.04;13,63.00,600.70,111.41,7.04">L'impôt payé (variable txpd) représente les paiements en espèces effectués au titre de l'impôt aux gouvernements au niveau local, provincial, national et à l'étranger.</s><s xml:id="_kvyezZV" coords="13,176.41,600.70,208.88,7.04">Nous ne prenons pas en compte l'impôt différé dans nos calculs.</s><s xml:id="_KQ6s39y" coords="13,78.00,612.70,9.66,7.04">10.</s><s xml:id="_tfnT2nS" coords="13,99.00,612.70,288.01,7.04;13,63.00,621.70,26.74,7.04">Après 1999, il y a 2,2 fois plus d'observations de l'impôt payé que de l'impôt sur le revenu courant.</s></p><p xml:id="_WGYWR8K"><s xml:id="_Ays7M66" coords="14,63.00,91.20,324.02,8.80">conséquence d'augmenter artificiellement le taux d'imposition effectif calculé.</s><s xml:id="_R8A9Sry" coords="14,63.00,103.23,323.95,8.80;14,63.00,115.26,323.93,8.80;14,63.00,127.29,135.80,8.80">Dans certains cas, les revenus négatifs reportés sont considérables et rendent le dénominateur de l'équation (la somme des revenus) négatif, ce qui implique un taux d'imposition effectif négatif.</s><s xml:id="_4ZZ2QPx" coords="14,201.80,127.29,185.18,8.80;14,63.00,139.32,153.99,8.80">Par exemple, les revenus de JDS Uniphase en 2001 étaient de -81 milliards de dollars.</s><s xml:id="_Gq2G4WM" coords="14,219.01,139.32,168.05,8.80;14,63.00,151.35,311.22,8.80">Conserver JDS Uniphase dans nos données conduirait à un taux d'imposition effectif négatif au Canada pour cette année.</s><s xml:id="_QtYM9BW" coords="14,78.00,169.38,308.97,8.80;14,63.00,181.41,323.64,8.80">Comme décrit dans le tableau 2, les différentes restrictions que nous avons appliquées ont réduit considérablement le nombre d'observations de nos données.</s><s xml:id="_pCRAudS" coords="14,197.92,210.44,54.16,8.80;14,169.00,228.47,112.00,8.80;14,269.66,255.19,30.45,8.94;14,321.36,255.19,59.27,8.94;14,63.00,275.01,33.62,8.94;14,67.00,290.97,177.99,8.80;14,275.24,290.97,19.27,8.80;14,338.90,290.97,24.21,8.80;14,67.00,306.79,99.04,8.80;14,275.06,306.79,19.63,8.80;14,339.33,306.79,23.35,8.80;14,67.00,322.61,129.74,8.80;14,275.05,322.61,19.67,8.80;14,339.21,322.61,23.59,8.80;14,67.00,338.53,91.49,8.70;14,69.00,352.26,157.05,8.80;14,275.36,352.26,19.04,8.80;14,341.28,352.26,19.45,8.80;14,69.00,368.08,162.36,8.80;14,275.10,368.08,19.56,8.80;14,340.97,368.08,20.06,8.80;14,63.00,387.76,45.42,8.94;14,67.00,403.71,175.43,8.80;14,272.60,403.71,24.57,8.80;14,336.48,403.71,29.03,8.80;14,67.00,419.53,99.04,8.80;14,272.70,419.53,24.37,8.80;14,336.42,419.53,29.16,8.80;14,67.00,435.35,129.74,8.80;14,272.44,435.35,24.88,8.80;14,336.70,435.35,28.61,8.80;14,67.00,451.27,91.49,8.70;14,67.00,465.00,157.05,8.80;14,272.71,465.00,24.35,8.80;14,339.17,465.00,23.66,8.80;14,67.00,480.82,162.36,8.80;14,273.20,480.82,23.36,8.80;14,338.85,480.82,24.29,8.80;14,63.00,503.43,323.98,7.04;14,86.00,512.46,109.61,7.04">TABLEAU 2 RestRIctIons et couveRtuRe Firmes Firme-années Canada Compagnies canadiennes (LOC = « CAN ») 4522 37505 Dont le profit est reporté 3963 32317 Dont le profit est positif (PI &gt; 0) 2601 15553 Couverture 1990-2015 -Taxes payées (TXPD) non manquante 1657 8679 -Taxes courantes (TXC) non manquante 1380 3906 États-Unis Compagnies américaines (LOC = « USA ») 22982 228212 Dont le profit est reporté 19683 189056 Dont le profit est positif (PI &gt; 0) 15005 115885 Couverture 1990-2015 -Taxes payées (TXPD) non manquante 12983 99145 -Taxes courantes (TXC) non manquante 11862 85858 note : Ce tableau indique le taux de couverture de l'échantillon utilisé dans l'analyse empirique selon les restrictions que l'on applique.</s><s xml:id="_JV668p5" coords="14,198.29,512.46,188.71,7.04;14,86.00,521.49,36.48,7.04">Le taux de couverture est présenté pour le Canada et les États-Unis.</s></p><p xml:id="_G2Xhfsb"><s xml:id="_Zmh4ddP" coords="14,78.00,548.20,308.95,8.80;14,63.00,560.23,269.66,8.80">Pour le Canada, ainsi que pour les États-Unis, nous avons supprimé plus de la moitié des observations en raison de revenus négatifs et manquants.</s><s xml:id="_CdrQfaS" coords="14,334.69,560.23,52.32,8.80;14,63.00,572.26,324.03,8.80;14,63.00,584.29,134.91,8.80">Le traitement des revenus négatifs va au-delà de la portée de cette étude, mais mériterait plus d'attention dans les travaux futurs.</s><s xml:id="_NpG5yV2" coords="14,200.00,584.29,186.90,8.80;14,63.00,596.32,323.94,8.80;14,63.00,608.35,29.16,8.80">De façon plus spécifique, la part des entreprises déclarant des revenus négatifs est plus élevée au Canada (52 %) qu'aux États-Unis (38 %).</s><s xml:id="_R35wq72" coords="14,94.30,608.35,292.66,8.80;14,63.00,620.38,323.98,8.80;15,63.00,91.20,324.03,8.80;15,63.00,103.20,286.66,8.80">Un examen plus approfondi des données révèle que l'écart entre le Canada et les États-Unis est en partie dû à la composition sectorielle des deux économies : le secteur extractif compte pour un tiers des observations dans l'échantillon canadien et 72 % de ces observations affichent des revenus négatifs.</s><s xml:id="_Zgb37NN" coords="15,352.87,103.20,34.15,8.80;15,63.00,115.20,324.00,8.80;15,63.00,127.20,120.14,8.80">Outre le secteur extractif, la part des revenus négatifs est toujours de 3 à 4 points en dessous aux États-Unis qu'au Canada.</s></p><p xml:id="_JZCm9b9"><s xml:id="_xt6Dq3b" coords="15,78.00,145.20,308.97,8.80;15,63.00,157.20,323.99,8.80;15,63.00,169.20,323.94,8.80;15,63.00,181.20,217.58,8.80">Bien que la plupart des entreprises canadiennes déclarent leurs informations en dollars canadiens, certaines d'entre elles le font en dollars américains. Puisque nous additionnons tous les revenus et les impôts des entreprises canadiennes, nous devons exprimer ces variables dans une même devise.</s><s xml:id="_AnC6ftR" coords="15,283.29,181.20,103.72,8.80;15,63.00,193.20,323.95,8.80;15,63.00,205.20,252.53,8.80;15,315.36,204.68,5.53,5.10;15,320.73,205.20,2.50,8.80">Nous avons ainsi converti tous les montants en dollars américains en utilisant le taux de change disponible dans Compustat (variable curuscn, taux de change USD-CAD) 11 .</s></p><p xml:id="_kWZhqZj"><s xml:id="_rFcgmTW" coords="15,78.00,223.20,299.35,8.80;15,377.36,229.33,3.92,5.05;15,381.30,223.20,5.69,8.80;15,63.00,235.20,323.97,8.80;15,63.00,247.20,154.75,8.80">Pour le calcul du taux d'imposition effectif des plus grandes sociétés (TOPETR rt ), nous utilisons le résultat d'exploitation comme proxy pour la taille et classons les entreprises en fonction de cette mesure.</s><s xml:id="_zVtkUBB" coords="15,219.82,247.20,167.24,8.80;15,63.00,259.20,64.64,8.80;15,127.85,265.33,6.49,5.05;15,134.43,259.20,252.57,8.80;15,63.00,271.20,38.62,8.80;15,101.05,270.68,5.75,5.10;15,106.94,271.20,2.50,8.80">Pour le calcul du taux d'imposition effectif sectoriel (SETR srt ), nous avons divisé l'échantillon à l'aide des codes SCIAN à 2 chiffres 12 .</s><s xml:id="_xNmNXq5" coords="15,111.87,271.20,275.08,8.80;15,63.00,283.20,126.01,8.80">Les codes SCIAN sont attribués à des entreprises en fonction de leur activité économique principale.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2" xml:id="_gTDdrp2" coords="15,63.00,313.20,206.26,8.80">Évolution du taux d'imposition effectif agrégé</head><p xml:id="_rpNA6VP"><s xml:id="_JHSWgn4" coords="15,78.00,331.20,277.14,8.80">Le graphique 1 présente l'évolution du taux d'imposition effectif agrégé.</s><s xml:id="_UVBU7kC" coords="15,357.13,331.20,29.91,8.80;15,63.00,343.20,324.03,8.80;15,63.00,355.20,173.37,8.80">Chaque graphique comprend le taux d'imposition effectif agrégé et le taux d'imposition statutaire (basé sur les chiffres de l'OCDE).</s><s xml:id="_pTHnzyf" coords="15,238.46,355.20,148.48,8.80;15,63.00,367.20,324.00,8.80;15,63.00,379.20,160.40,8.80">Les taux d'imposition au Canada sont présentés en haut du graphique 1. À gauche, le taux d'imposition effectif est calculé en utilisant l'impôt sur le revenu courant.</s><s xml:id="_xyW6juF" coords="15,225.47,379.20,161.60,8.80;15,63.00,391.20,20.57,8.80">À droite, il est calculé en utilisant l'impôt payé.</s><s xml:id="_8nkrHwH" coords="15,85.65,391.20,301.38,8.80;15,63.00,403.20,111.34,8.80">À des fins de comparaison, nous reproduisons ces indicateurs pour les États-Unis au bas du graphique 1.</s></p><p xml:id="_xyjFZ5a"><s xml:id="_g2Ds4G6" coords="15,78.00,421.20,308.99,8.80;15,63.00,433.20,324.00,8.80;15,63.00,445.20,21.43,8.80">Un premier regard sur les différents panels révèle qu'aux États-Unis et au Canada, les sociétés ont un taux d'imposition effectif plus faible que le taux d'imposition légal.</s><s xml:id="_fb7Grp8" coords="15,86.49,445.20,300.51,8.80;15,63.00,457.20,286.70,8.80">Chose intéressante, au Canada, le taux d'imposition légal a diminué considérablement, mais le taux d'imposition effectif a diminué au même rythme.</s><s xml:id="_dBeTSbs" coords="15,351.83,457.20,35.16,8.80;15,63.00,469.20,210.15,8.80">En 1990, le taux d'imposition légal au Canada était de 41,5 %.</s><s xml:id="_U2sXgkn" coords="15,275.79,469.20,111.21,8.80">Il a chuté à 26,3 % en 2015.</s><s xml:id="_CNB27da" coords="15,63.00,481.20,324.07,8.80;15,63.00,493.20,174.56,8.80">Durant cette période, l'AETR calculé à l'aide de l'impôt courant (colonne de gauche) a diminué, passant de 31,7 % à environ 5 %.</s><s xml:id="_9EcYnWU" coords="15,239.95,493.20,147.02,8.80;15,63.00,505.20,217.90,8.80">Sur l'ensemble de la période, l'AETR est d'environ 50 % inférieur au taux d'imposition légal.</s><s xml:id="_CWdHcQ3" coords="15,283.35,505.20,103.61,8.80;15,63.00,517.20,174.24,8.80">Les trois dernières années de notre échantillon, il a chuté à environ 5 %.</s><s xml:id="_8tkaQAE" coords="15,239.19,517.20,147.89,8.80;15,63.00,529.20,294.18,8.80">Si l'on regarde l'AETR calculé à partir de l'impôt payé (colonne de droite), nous constatons une tendance similaire.</s><s xml:id="_gMdmvnM" coords="15,359.15,529.20,27.88,8.80;15,63.00,541.20,324.01,8.80;15,63.00,553.20,323.97,8.80;15,78.00,582.70,9.24,7.04">Encore une fois, notez que les données sont manquantes avant 1999 au Canada, mais après 1999 l'AETR en utilisant l'impôt payé est calculé pour plus de 400 entreprises 11.</s><s xml:id="_msNfuXX" coords="15,99.00,582.70,288.04,7.04;15,63.00,591.70,323.99,7.04;15,63.00,600.70,23.45,7.04">Bien que le taux de change n'était pas disponible pour plusieurs observations, nous avons été en mesure de récupérer toutes les valeurs à partir d'autres observations portant sur la même année fiscale.</s></p><p xml:id="_cBGEe45"><s xml:id="_5MA9Evf" coords="15,78.00,612.70,309.21,7.04;15,63.00,621.70,252.66,7.04">12. Afin d'avoir un nombre suffisant d'observations, nous avons regroupé les secteurs commerce de gros (42), commerce de détail (44-45), et transport et entreposage <ref type="bibr" coords="15,289.02,621.70,9.99,7.04">(48)</ref><ref type="bibr" coords="15,302.34,621.70,9.99,7.04">(49)</ref>.</s></p><p xml:id="_7NWPVJM"><s xml:id="_SvP7tVH" coords="17,63.00,91.20,219.07,8.80">(contre 200 entreprises pour celui de l'impôt courant).</s><s xml:id="_mcMURrS" coords="17,284.86,91.20,102.11,8.80;17,63.00,103.54,324.00,8.80;17,63.00,115.88,106.66,8.80">Nous remarquons que les résultats de l'AETR, peu importe la méthode de calcul, sont similaires, à l'exception des trois dernières années.</s><s xml:id="_FXBcjA5" coords="17,172.37,115.88,214.59,8.80;17,63.00,128.21,324.01,8.80;17,63.00,140.55,322.63,8.80">À la fin de la période, l'AETR atteint 16 % ce qui est 10 points de pourcentage en dessous du taux d'imposition légal, tout en restant 10 points de pourcentage au-dessus de l'AETR calculé en utilisant l'impôt courant.</s></p><p xml:id="_fKx5Vxs"><s xml:id="_yxx3Ng3" coords="17,78.00,158.89,309.04,8.80;17,63.00,171.23,248.31,8.80">Le faible niveau de l'AETR de l'impôt courant obtenu en 2012-2014 pour le Canada est tiré par l'industrie de la finance et des assurances.</s><s xml:id="_Dy5ShUf" coords="17,313.98,171.23,73.05,8.80;17,63.00,183.57,324.01,8.80;17,63.00,195.90,136.97,8.80">Dans l'échantillon d'entreprises ayant déclaré leur impôt courant dans les années 2010, les entreprises de ce secteur sont surreprésentées.</s><s xml:id="_yuZJ6EZ" coords="17,202.13,195.90,184.88,8.80;17,63.00,208.24,15.30,8.80">Pour toutes ces entreprises, l'impôt courant est nul.</s><s xml:id="_KpQ356U" coords="17,81.33,208.24,216.08,8.80">Cela relève probablement d'un problème de données.</s><s xml:id="_GeJTMr7" coords="17,300.45,208.24,86.49,8.80;17,63.00,220.58,324.03,8.80">Par conséquent, nous suggérons au lecteur de ne pas trop se fier aux résultats de cette partie de la figure.</s><s xml:id="_JSGKaTF" coords="17,63.00,232.92,323.95,8.80;17,63.00,245.26,257.59,8.80">L'AETR de l'impôt payé du secteur des finances ne suit pas cette tendance, d'où la différence à la fin de la période pour les deux séries agrégées.</s></p><p xml:id="_XPA6uuH"><s xml:id="_awvDpyD" coords="17,78.00,263.59,308.95,8.80;17,63.00,275.93,76.61,8.80">En regardant au bas du graphique, nous remarquons des tendances similaires pour les États-Unis.</s><s xml:id="_XUxbQU9" coords="17,141.60,275.93,245.35,8.80;17,63.00,288.27,73.83,8.80">Notez toutefois que l'AETR est nettement plus faible au Canada qu'aux États-Unis.</s><s xml:id="_NeCw3nf" coords="17,139.39,288.27,247.56,8.80;17,63.00,300.61,167.23,8.80">Par exemple, en 2015, l'AETR de l'impôt payé aux États-Unis atteint 23 % contre 16 % pour le Canada.</s><s xml:id="_Kujz39p" coords="17,233.00,300.61,154.04,8.80;17,63.00,312.95,131.85,8.80">Le Canada est donc plus attrayant que les États-Unis de ce point de vue.</s><s xml:id="_B9c2KsM" coords="17,197.03,312.95,189.96,8.80;17,63.00,325.28,323.95,8.80;17,63.00,337.62,132.95,8.80">Cela n'a rien de surprenant puisque le taux légal d'imposition au Canada est de 13 points de pourcentage plus bas que celui des États-Unis (39 % contre 26,3 %).</s></p><p xml:id="_qWxpz6M"><s xml:id="_QaEZyJr" coords="17,78.00,355.96,309.00,8.80;17,63.00,368.30,229.85,8.80">Le graphique 1 montre que le taux d'imposition effectif des entreprises canadiennes est nettement inférieur au taux d'imposition légal.</s><s xml:id="_EpWYGNW" coords="17,294.98,368.30,92.03,8.80;17,63.00,380.63,323.99,8.80;17,63.00,392.97,73.74,8.80">L'écart entre l'AETR et le taux d'imposition légal suggère que les entreprises font largement recours à l'évitement fiscal.</s><s xml:id="_CM3hnnv" coords="17,139.91,392.97,247.06,8.80;17,63.00,405.31,317.67,8.80">Les deux sections suivantes examinent si cette pratique est répandue à travers les entreprises de différentes tailles et de différents secteurs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3" xml:id="_sJxgewu" coords="17,63.00,435.65,219.16,8.80">Taux d'imposition effectif et taille de l'entreprise</head><p xml:id="_wQ7DHbS"><s xml:id="_xzc5xmb" coords="17,78.00,453.99,309.01,8.80;17,63.00,466.32,323.99,8.80;17,63.00,478.66,205.94,8.80">L'évolution du taux d'imposition effectif agrégé (calculé à partir de l'impôt payé) des petites et les grandes entreprises est décrite dans le graphique 2. La taille de l'entreprise est mesurée par son chiffre d'affaires.</s><s xml:id="_6FZuhCb" coords="17,271.01,478.66,115.98,8.80;17,63.00,491.00,323.99,8.80">Nous remarquons que les 100 plus grandes entreprises ont connu une tendance similaire aux autres entreprises.</s><s xml:id="_G45q7Mv" coords="17,63.00,503.34,216.54,8.80">L'AETR a diminué au cours des 15 dernières années.</s><s xml:id="_6sQgzty" coords="17,282.49,503.34,104.52,8.80;17,63.00,515.68,324.02,8.80;17,63.00,528.01,324.00,8.80;17,63.00,540.35,55.87,8.80">Alors que l'AETR semble plus petit à la fin de la période pour les grandes entreprises comparativement aux petites entreprises, on ne sait pas à partir du graphique si la différence est significative ou non.</s></p><p xml:id="_6TpfcZJ"><s xml:id="_paqAfBn" coords="17,78.00,558.69,309.00,8.80;17,63.00,571.03,323.99,8.80;17,63.00,583.37,324.01,8.80">Pour analyser davantage le lien entre la taille des entreprises et le taux d'imposition effectif, nous avons régressé le taux d'imposition effectif sur différentes mesures de la taille des entreprises, en incluant des effets fixes secteur et année.</s><s xml:id="_c5MeAJa" coords="17,63.00,595.70,170.56,8.80">Les résultats sont disponibles sur demande.</s><s xml:id="_2vSZkaG" coords="17,235.65,595.70,151.35,8.80;17,63.00,608.04,324.03,8.80;17,63.00,620.38,98.00,8.80">La corrélation entre la taille de l'entreprise et le taux d'imposition effectif n'est statistiquement significative dans aucune spécification du modèle.</s><s xml:id="_xwwPWeR" coords="19,78.00,385.21,308.99,8.80;19,63.00,397.21,251.85,8.80">Dans l'ensemble, les résultats indiquent que le taux d'imposition effectif est inférieur au taux d'imposition légal dans la plupart des secteurs.</s><s xml:id="_kY6TCHK" coords="19,316.97,397.21,70.08,8.80;19,63.00,409.21,324.02,8.80;19,63.00,421.21,323.97,8.80;19,63.00,433.21,324.02,8.80;19,63.00,445.21,161.03,8.80">Hormis le secteur de l'immobilier -tout en gardant à l'esprit que nous ne pouvons quantifier le rôle des transferts de bénéfices dans l'écart entre le taux d'imposition légal et le taux d'imposition effectif -l'analyse des données suggère que le transfert de bénéfices se pratique dans la plupart des secteurs.</s><s xml:id="_WPSxchK" coords="19,226.73,445.21,160.22,8.80;19,63.00,457.21,323.97,8.80;19,63.00,469.21,323.97,8.80;19,63.00,481.21,63.72,8.80">Dans le secteur de la finance, toutes les grandes banques canadiennes (Banque de Montréal, TD Canada Trust, CIBC, Banque Royale du Canada, Banque de Nouvelle-Écosse) sont présentes dans les paradis fiscaux.</s><s xml:id="_zR8Sf3d" coords="19,129.00,481.21,258.00,8.80;19,63.00,493.21,71.60,8.80">Ce secteur représente la moitié des investissements directs canadiens à l'étranger.</s><s xml:id="_SVRPsxN" coords="19,137.47,493.21,249.53,8.80;19,63.00,505.21,279.77,8.80;19,342.52,504.69,5.76,5.10;19,348.22,505.21,2.50,8.80">Dans le secteur de l'information, 117 sur 299 entreprises sont des éditeurs de logiciels qui ont largement recours aux paradis fiscaux 15 .</s><s xml:id="_M8dKCjs" coords="19,352.90,505.21,34.10,8.80;19,78.00,534.70,9.66,7.04">Dans les 13.</s><s xml:id="_cKAcSCV" coords="19,99.00,534.70,287.96,7.04;19,63.00,543.70,276.25,7.04">En regardant la description des sociétés dans Compustat et sur Internet, nous constatons que sur 154 entreprises, au moins 74 sont des fiducies de placement immobilier (FPI).</s><s xml:id="_hVSNweE" coords="19,341.02,543.70,45.95,7.04;19,63.00,552.70,323.98,7.04;19,63.00,561.70,74.22,7.04">Cela constitue une borne inférieure parce que certaines de ces structures n'existent plus et nous ne retrouvons pas leur statut sur Internet.</s></p><p xml:id="_Wm7SK5X"><s xml:id="_M9RSXkK" coords="19,78.00,573.70,309.04,7.04;19,63.00,582.70,323.96,7.04;19,63.00,591.70,84.68,7.04">14. Les revenus des FPI pourraient ne pas être imposés avant de nombreuses années puisque les investisseurs peuvent reporter leur imposition personnelle en investissant ces revenus dans un régime d'épargne-retraite.</s></p><p xml:id="_WrPP7bT"><s xml:id="_wQBaE3p" coords="19,78.00,603.70,308.97,7.04;19,63.00,612.70,259.05,7.04;19,383.67,612.70,3.33,7.04">15. 74 % des 50 plus grandes entreprises d'édition de logiciels américaines procèdent au transfert de bénéfices par le biais de filiales basées dans des paradis fiscaux (voir <ref type="url" coords="19,323.73,612.70,59.94,7.04" target="http://www.reuters">http://www.reuters</ref>.</s><s xml:id="_NgrCE3D" coords="19,63.00,621.70,188.75,7.04">com/article/us-tax-bigtech-idUSBRE96M08W20130723).</s></p><p xml:id="_PNds8sV"><s xml:id="_sgbeS7Y" coords="23,63.00,91.20,324.01,8.80;23,63.00,103.20,323.97,8.80;23,63.00,115.20,117.72,8.80">secteurs du commerce et du transport, les compagnies de transport sont connues pour avoir des filiales dans les paradis fiscaux-et plus particulièrement dans l'État du Delaware aux États-Unis.</s><s xml:id="_nA7Ussc" coords="23,183.81,115.20,203.21,8.80;23,63.00,127.20,255.38,8.80">Il existe également des preuves d'évitement fiscal par le transfert de bénéfices dans le secteur de la fabrication.</s><s xml:id="_rmbj4x7" coords="23,321.55,127.20,65.42,8.80;23,63.00,139.20,324.03,8.80;23,63.00,151.20,28.62,8.80;23,91.31,150.68,5.48,5.10;23,96.85,151.20,2.46,8.80">Par exemple les entreprises pharmaceutiques sont disproportionnellement situées dans des paradis fiscaux 16 .</s><s xml:id="_rNrj8vm" coords="23,101.36,151.20,285.69,8.80;23,63.00,163.20,165.84,8.80;23,228.61,162.68,5.55,5.10;23,233.84,163.20,2.50,8.80">L'Agence du revenu du Canada vise également les sociétés dans le secteur de l'exploitation minière et de l'extraction 17 .</s><s xml:id="_KYbp2Us" coords="23,238.54,163.20,148.45,8.80;23,63.00,175.20,324.04,8.80;23,63.00,187.20,193.67,8.80">Bien que le taux d'imposition effectif soit inférieur au taux d'imposition légal dans les secteurs manufacturier et extractif, l'écart est plus faible que dans d'autres secteurs.</s><s xml:id="_ta4BPus" coords="23,259.32,187.20,127.72,8.80;23,63.00,199.20,228.15,8.80">En effet, la planification fiscale est probablement plus facile dans l'industrie des services.</s><s xml:id="_hz3W79e" coords="23,293.34,199.20,93.65,8.80;23,63.00,211.20,280.59,8.80">Une stratégie populaire pour transférer des profits est la manipulation des prix de transfert.</s><s xml:id="_qdFVhw7" coords="23,346.75,211.20,40.26,8.80;23,63.00,223.20,323.99,8.80;23,63.00,235.20,90.46,8.80;23,152.92,234.68,5.57,5.10;23,158.57,235.20,2.50,8.80">Mettre en oeuvre cette stratégie est plus facile à faire pour les services que lorsqu'il s'agit de produits manufacturés 18 .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.5" xml:id="_tkd5hWD" coords="23,63.00,266.20,227.23,8.80">Taux d'imposition effectif et firmes multinationales</head><p xml:id="_3hnBK7v"><s xml:id="_XkUcPn8" coords="23,78.00,285.20,308.95,8.80;23,63.00,297.20,136.24,8.80">Nous comparons à présent le taux d'imposition effectif des multinationales à celui des entreprises nationales.</s><s xml:id="_cHUtxwT" coords="23,201.61,297.20,185.40,8.80;23,63.00,309.20,324.00,8.80;23,63.00,321.20,17.01,8.80;23,79.56,320.68,5.74,5.10;23,85.17,321.20,2.50,8.80">Nous définissons une entreprise comme étant une multinationale si elle déclare des impôts étrangers ou des bénéfices étrangers 19 .</s><s xml:id="_8b4StzG" coords="23,90.65,321.20,296.38,8.80;23,63.00,333.20,265.85,8.80">Bien qu'étant restrictive, cette définition correspond à la mesure la plus courante dans les études utilisant des données de Compustat.</s><s xml:id="_7e7wChZ" coords="23,332.32,333.20,54.70,8.80;23,63.00,345.20,323.96,8.80;23,63.00,357.20,324.00,8.80;23,63.00,369.20,323.96,8.80;23,63.00,381.20,66.04,8.80">Les résultats comparant les entreprises multinationales et nationales sont présentés dans le graphique 4. Nous représentons graphiquement l'évolution de l'AETR des entreprises multinationales et nationales pour tous les secteurs, avec et sans le secteur de l'immobilier.</s></p><p xml:id="_T2bgdes"><s xml:id="_CZDZtRG" coords="23,78.00,400.20,309.02,8.80;23,63.00,412.20,323.95,8.80;23,63.00,424.20,323.98,8.80;23,63.00,436.20,143.22,8.80">Il n'y a pas de fait saillant à retenir du graphique 4. Dans un exercice non rapporté, nous avons régressé les taux d'imposition effectifs des entreprises sur des effets fixes secteur et une variable dichotomique prenant la valeur 1 lorsque l'entreprise est une multinationale.</s><s xml:id="_P5BFXmX" coords="23,209.09,436.20,177.91,8.80;23,63.00,448.20,324.00,8.80;23,63.00,460.20,324.02,8.80">Aucun des coefficients estimés n'est statistiquement différent de zéro, ce qui nous suggère que les multinationales et les entreprises domestiques font face à des taux d'imposition effectifs similaires.</s><s xml:id="_C5vJgga" coords="23,63.00,472.20,324.00,8.80;23,63.00,484.20,323.97,8.80;23,63.00,496.20,67.22,8.80">Il est important de rappeler ici, que notre système d'identification des multinationales laisse à désirer et que cette conclusion doit, par conséquent, être prise avec précaution.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Tntf75h" coords="23,78.00,561.70,8.99,7.04">17.</head><p xml:id="_AgSyqet"><s xml:id="_Fj8D8Bd" coords="23,99.00,561.70,288.00,7.04;23,63.00,570.70,118.89,7.04">Cameco est soupçonné d'utiliser les prix de transfert pour transférer les profits provenant des activités d'uranium vers la Suisse.</s><s xml:id="_3c4frn3" coords="23,183.49,570.70,203.46,7.04;23,63.00,579.70,257.45,7.04">Silver Wheaton est également visé par l'ARC pour son utilisation du transfert de bénéfices à travers des filiales à la Barbade et aux îles Caïmans.</s></p><p xml:id="_mVEppeJ"><s xml:id="_2R5YFXB" coords="23,78.00,591.70,309.01,7.04;23,63.00,600.70,81.67,7.04">18. Les services sont plus facilement négociés et les prix internes des services sont plus difficilement vérifiables.</s></p><p xml:id="_ySdBMSx"><s xml:id="_UWNUFWD" coords="23,78.00,612.70,309.25,7.04;23,63.00,621.70,190.97,7.04">19. Nous n'utilisons pas la variable IDBFLAG à cet effet, puisque nous avons identifié certaines entreprises multinationales considérées comme nationales.</s></p><p xml:id="_TM2VP3Z"><s xml:id="_CZXK4tc" coords="25,78.00,91.20,308.98,8.80">Cependant nos résultats sont conformes à ceux d'autres articles dans la littérature.</s><s xml:id="_rEf7Pwz" coords="25,63.00,103.20,324.01,8.80;25,63.00,115.20,324.03,8.80"><ref type="bibr" coords="25,63.00,103.20,80.90,8.80" target="#b20">Dyreng et al. (2015)</ref> trouvent que les entreprises nationales américaines font face à des taux d'imposition effectifs légèrement plus bas que ceux des multinationales.</s><s xml:id="_xg2wSFW" coords="25,63.00,127.20,323.97,8.80;25,63.00,139.20,324.02,8.80;25,63.00,151.20,324.00,8.80;25,63.00,163.20,323.94,8.80;25,63.00,175.20,45.65,8.80"><ref type="bibr" coords="25,63.00,127.20,122.47,8.80" target="#b28">Markle et Shackelford (2009)</ref> mesurent également un niveau similaire de taux d'imposition effectif entre les multinationales et les entreprises nationales en se servant de données recueillies sur la Wharton Research Data Services pour l'identification des sociétés mère, et des données du Bureau van Dijk pour l'identification des filiales.</s><s xml:id="_MW2Hsxt" coords="25,110.77,175.20,276.22,8.80;25,63.00,187.20,324.02,8.80;25,63.00,199.20,323.98,8.80;25,63.00,211.20,86.59,8.80">Une explication à ces résultats qui peuvent paraitre contre-intuitifs est que les entreprises nationales ont recours à des stratégies alternatives pour réduire leur charge fiscale, d'où la similitude de taux d'imposition effectif entre les deux groupes d'entreprises.</s><s xml:id="_6Qez2bG" coords="25,151.67,211.20,235.35,8.80;25,63.00,223.20,324.04,8.80;25,63.00,235.20,323.99,8.80;25,63.00,247.20,324.07,8.80;25,63.00,259.20,99.85,8.80">Le Canadian Business présente Manitoba Telecom Services et BCE comme des illustrations parfaites de planification fiscale agressive en ayant recours à des outils « locaux », comme des contributions au régime de retraite, la dépréciation du capital, ou encore l'acquisition d'entreprises avec des pertes fiscales pouvant être reportées<ref type="foot" coords="25,154.33,258.68,5.97,5.10" target="#foot_2">foot_2</ref> .</s><s xml:id="_xd7gRdJ" coords="25,165.91,259.20,221.13,8.80;25,63.00,271.20,308.06,8.80">En outre, le transfert de bénéfices peut se produire au sein d'une même juridiction fiscale à travers d'autres entités d'une entreprise.</s><s xml:id="_MmkhNnQ" coords="25,373.47,271.20,13.52,8.80;25,63.00,283.20,324.00,8.80;25,63.00,295.20,46.99,8.80">Par exemple, les détaillants peuvent louer un espace commercial d'une FPI affiliée à l'entreprise.</s><s xml:id="_xMNSPZ7" coords="25,112.58,295.20,274.38,8.80;25,63.00,307.20,324.04,8.80;25,63.00,319.20,164.82,8.80">Manipuler le prix de location d'un tel espace pourrait leur permettre de transférer une partie des bénéfices du commerce de détail vers la FPI, qui est assujettie à un taux d'imposition très bas.</s></p><p xml:id="_njHyQN7"><s xml:id="_Uchb8by" coords="25,78.00,337.20,309.05,8.80;25,63.00,349.20,28.75,8.80">Plusieurs moyens sont utilisés par les entreprises pour réduire leur charge fiscale.</s><s xml:id="_cTskxuq" coords="25,94.21,349.20,292.83,8.80;25,63.00,361.20,148.35,8.80">L'un de ces moyens, souvent mentionné dans la littérature, est le transfert de bénéfices vers les paradis fiscaux.</s><s xml:id="_bJPSRRf" coords="25,213.84,361.20,173.14,8.80;25,63.00,373.20,97.24,8.80">Dans la section qui suit, nous examinons le rôle des paradis fiscaux.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_V85Kvht" coords="25,63.00,403.20,220.24,8.80">Impact macroéconomique du transfert de bénéfices</head><p xml:id="_CYkc5F5"><s xml:id="_UNr3KM5" coords="25,78.00,421.20,309.01,8.80;25,63.00,433.20,324.00,8.80;25,63.00,445.20,173.33,8.80">Zucman (2014) a récemment documenté certains faits agrégés relatifs à la part des bénéfices des entreprises américaines générés à l'étranger et à l'importance des paradis fiscaux dans cette profitabilité.</s><s xml:id="_rGvfFH6" coords="25,239.06,445.20,147.94,8.80;25,63.00,457.20,184.36,8.80">Dans cette sous-section nous tentons de fournir des faits similaires pour le Canada.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1" xml:id="_2hHN7bN" coords="25,63.00,487.20,168.88,8.80">Part des profits générés à l'étranger</head><p xml:id="_vnKMwUv"><s xml:id="_f7Vzp5r" coords="25,78.00,505.20,308.98,8.80;25,63.00,517.20,78.41,8.80">Pour mesurer la part des bénéfices réalisés à l'étranger, nous utilisons deux sources de données.</s><s xml:id="_VFgA4jb" coords="25,143.48,517.20,243.56,8.80;25,63.00,529.20,184.64,8.80">Tout d'abord, nous utilisons les données de Statistique Canada sur les bénéfices des entreprises canadiennes.</s><s xml:id="_yFsKK2p" coords="25,250.54,529.20,136.44,8.80;25,63.00,541.20,323.96,8.80;25,63.00,553.20,103.75,8.80">Deuxièmement, nous utilisons les données sur les revenus des investissements directs de la balance canadienne des paiements internationaux.</s></p><p xml:id="_KPUzD6r"><s xml:id="_3bF4ZQY" coords="25,78.00,571.20,308.99,8.80;25,63.00,583.20,168.48,8.80">Nous définissons les bénéfices réalisés à l'étranger comme étant les revenus reçus des investissements directs étrangers.</s><s xml:id="_e5Wszrr" coords="25,233.44,583.20,153.53,8.80;26,63.00,91.20,323.98,8.80;26,63.00,103.49,154.42,8.80">Les revenus des investissements directs représentent les bénéfices après impôts, mais avant comptabilisation des gains et pertes en capital réalisés et non réalisés.</s><s xml:id="_VEFhC9q" coords="26,219.35,103.49,167.63,8.80;26,63.00,115.78,324.01,8.80;26,63.00,128.06,293.55,8.80;26,356.67,127.55,5.55,5.10;26,362.02,128.06,2.49,8.80">Un investissement est désigné comme étant un investissement direct tant qu'une entreprise canadienne (étrangère) détient au moins 10 % des actions avec droit de vote de l'entité à l'étranger (au Canada) 21 .</s><s xml:id="_Jt2GHCY" coords="26,366.44,128.06,20.56,8.80;26,63.00,140.35,324.00,8.80;26,63.00,152.64,323.99,8.80;26,63.00,164.93,323.96,8.80;26,63.00,177.22,76.02,8.80">Nous définissons les bénéfices des entreprises canadiennes comme étant les bénéfices des entreprises totales auxquels on soustrait les revenus des investissements directs versés aux résidents étrangers plus les revenus des investissements directs versés aux résidents canadiens.</s><s xml:id="_mzqsvFZ" coords="26,140.85,177.22,246.18,8.80;26,63.00,189.51,43.76,8.80">Il est à noter que tous les bénéfices étrangers ne sont pas rapatriés au Canada.</s><s xml:id="_RZXWgP4" coords="26,108.71,189.51,278.30,8.80;26,63.00,201.79,78.25,8.80">Notre calcul fournira ainsi une valeur minimale de la part des bénéfices réalisés à l'étranger.</s><s xml:id="_gRGYeQg" coords="26,143.69,201.79,243.34,8.80;26,63.00,214.08,296.99,8.80">La part des bénéfices réalisés à l'étranger est donc le ratio des bénéfices réalisés à l'étranger sur les bénéfices des entreprises canadiennes.</s></p><p xml:id="_RWj3PhF"><s xml:id="_86PXhkB" coords="26,78.00,232.37,309.04,8.80;26,63.00,244.66,92.01,8.80">La balance des paiements et les données sur les bénéfices des sociétés ont une fréquence trimestrielle.</s><s xml:id="_aXUKqVk" coords="26,157.53,244.66,229.46,8.80;26,63.00,256.95,276.86,8.80">Puisque l'ajustement saisonnier est différent pour les deux séries, nous regroupons les données pour former des séries annuelles.</s><s xml:id="_EepkgTY" coords="26,342.65,256.95,44.35,8.80;26,63.00,269.24,324.03,8.80;26,63.00,281.52,95.29,8.80">À partir de ces données annuelles, nous calculons la part des bénéfices canadiens effectués à l'étranger de 1981 à 2015.</s><s xml:id="_SXegNWv" coords="26,160.10,281.52,226.96,8.80;26,63.00,293.81,273.29,8.80">Les résultats sont présentés dans le graphique 5. On constate aisément une hausse dans la part des bénéfices effectués à l'étranger.</s><s xml:id="_3rfGUS7" coords="26,338.96,293.81,48.03,8.80;26,78.00,612.70,9.39,7.04">En 1981, les 21.</s><s xml:id="_nKAkuPa" coords="26,99.00,612.70,287.97,7.04;26,63.00,621.70,308.62,7.04">Contrairement aux données sur Compustat qui mettent l'accent sur les sociétés cotées en bourse, les données de la balance des paiements couvrent également les entreprises non cotées.</s><s xml:id="_rXHGmTS" coords="27,63.00,91.20,310.89,8.80">entreprises canadiennes effectuaient environ 8 % de leurs bénéfices à l'étranger.</s><s xml:id="_6rTKqSf" coords="27,375.91,91.20,11.08,8.80;27,63.00,103.20,299.78,8.80">En 2015, ce sont 26 % des bénéfices canadiens qui sont effectués à l'étranger.</s><s xml:id="_D4qTPG5" coords="27,365.68,103.20,21.31,8.80;27,63.00,115.20,211.16,8.80">Cette tendance est similaire à celle observée aux États-Unis.</s><s xml:id="_fAm4rrx" coords="27,276.12,115.20,110.90,8.80;27,63.00,127.20,324.03,8.80;27,63.00,139.20,235.91,8.80">Zucman (2014) rapporte que la part des bénéfices des entreprises américaines effectués à l'étranger est passée de 5 % dans les années 30 à 35 % durant la période 2010-2013.</s></p><p xml:id="_n5F8Krj"><s xml:id="_ngGUBkq" coords="27,78.00,156.20,220.65,8.80">Dans le graphique 5, nous présentons des valeurs annuelles.</s><s xml:id="_hnVY4pM" coords="27,300.37,156.20,86.64,8.80;27,63.00,168.20,324.00,8.80;27,63.00,180.20,114.60,8.80">Cela explique pourquoi l'évolution est plus volatile que les évolutions moyennes calculées par période de 10 ans dans Zucman (2014).</s><s xml:id="_ubhXZyZ" coords="27,180.49,180.20,206.52,8.80;27,63.00,192.20,323.96,8.80;27,63.00,204.20,322.73,8.80">Notez qu'une grande partie de cette volatilité est le résultat de crises nationales et globales <ref type="bibr" coords="27,219.01,192.20,167.94,8.80">(début des années 1980, 2001, 2008-2009)</ref> qui ont causé des baisses de bénéfices nationaux ou à l'étranger (voir graphique 6).</s><s xml:id="_hVF6z7F" coords="28,78.00,91.20,308.96,8.80;28,63.00,103.20,216.07,8.80">Les bénéfices réalisés à l'étranger comprennent tous les bénéfices et intérêts sur les investissements directs canadiens à l'étranger.</s><s xml:id="_4XAKkD3" coords="28,282.09,103.20,104.94,8.80;28,63.00,115.20,324.03,8.80;28,63.00,127.20,156.58,8.80">La balance des paiements rapporte deux autres sources de revenus des investissements directs, à savoir les dividendes et les bénéfices réinvestis.</s><s xml:id="_TmdrRRX" coords="28,222.74,127.20,164.30,8.80;28,63.00,139.20,323.99,8.80;28,63.00,151.20,89.05,8.80">Le graphique 7 présente l'évolution des bénéfices et intérêts, dividendes et bénéfices réinvestis des investissements directs canadiens à l'étranger.</s></p><p xml:id="_Udjn4Gy"><s xml:id="_WV8qX4U" coords="28,78.00,418.38,308.98,8.80;28,63.00,430.38,106.19,8.80">Le graphique 7 confirme la tendance haussière des revenus des investissements directs présentés plus haut.</s><s xml:id="_Axf9NdN" coords="28,171.76,430.38,215.27,8.80;28,63.00,442.38,167.78,8.80">Elle montre également que la part des dividendes dans le revenu total a diminué au fil du temps.</s><s xml:id="_57r56VC" coords="28,233.67,442.38,153.30,8.80;28,63.00,454.38,324.02,8.80">Contrairement aux dividendes, la part des bénéfices réinvestis dans le revenu total a fortement augmenté au fil du temps.</s><s xml:id="_sHpSaV3" coords="28,63.00,466.38,323.98,8.80;28,63.00,478.38,323.98,8.80;28,63.00,490.38,40.10,8.80">Cela suggère que les bénéfices rapatriés représentent une partie infime des bénéfices réalisés à l'étranger -une partie de ces bénéfices étant directement réinvestis à l'étranger.</s><s xml:id="_CwcdEpa" coords="28,106.07,490.38,280.94,8.80;28,63.00,502.38,324.02,8.80;28,63.00,514.38,64.29,8.80">Il serait intéressant d'étudier si l'importance croissante des bénéfices réinvestis est une conséquence de la planification fiscale des entreprises multinationales.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2" xml:id="_dsx9wxY" coords="28,63.00,542.38,282.75,8.80">Importance des paradis fiscaux pour les entreprises canadiennes</head><p xml:id="_36aPxKC"><s xml:id="_gZY3Ypf" coords="28,78.00,560.38,309.02,8.80;28,63.00,572.38,323.98,8.80;28,63.00,584.38,324.02,8.80;28,63.00,596.38,20.78,8.80">Idéalement, les données nécessaires à l'évaluation de l'importance des paradis fiscaux pour les entreprises canadiennes seraient un ensemble de données bilatérales rapportant le revenu des investissements directs des entreprises canadiennes par pays.</s><s xml:id="_nabY3rp" coords="28,86.90,596.38,300.11,8.80;28,63.00,608.38,76.24,8.80">Cette base de données n'est pas mise à la disposition des chercheurs par Statistique Canada.</s><s xml:id="_vfw2E2J" coords="28,141.29,608.38,245.64,8.80;28,63.00,620.38,274.09,8.80">Dans ce qui suit, nous considérons cette question en examinant les investissements étrangers directs bilatéraux dans les paradis fiscaux.</s><s xml:id="_vrMf43Q" coords="28,339.02,620.38,48.00,8.80">Les données</s></p><p xml:id="_7CRhBBG"><s xml:id="_5Z9ux3Y" coords="28,84.51,351.10,4.00,7.04;28,80.51,324.19,8.00,7.04;28,80.51,295.81,8.00,7.04;28,80.51,267.61,8.00,7.04;28,80.51,239.51,8.00,7.04;28,76.51,210.68,12.00,7.04;28,114.07,378.45,26.66,7.15;28,162.56,378.45,62.73,7.15;28,246.81,378.45,37.71,7.15;28,313.31,378.45,22.76,7.15;28,67.74,313.74,8.66,28.89;28,67.74,301.08,8.66,10.66;28,67.74,268.40,8.66,30.67;28,67.74,258.40,8.66,8.00;28,67.74,230.18,8.66,26.22;28,85.37,361.39,16.00,8.72;28,120.71,361.39,16.00,8.72;28,162.08,361.39,16.00,8.72;28,201.52,361.39,16.00,8.72;28,240.96,361.39,16.00,8.72;28,280.40,361.39,16.00,8.72;28,319.84,361.39,16.00,8.72;28,359.28,361.39,16.00,8.72;28,192.37,174.20,65.27,8.80;28,104.40,192.20,241.20,8.80;28,63.00,395.70,275.17,7.04">0 20 40 60 80 100 Intérêts Revenus réinvestis Dividendes Profits Revenus (en milliards de dollars) 1980 1985 1990 1995 2000 2005 2010 2015 GRAPHIQUE 7 Revenus des InvestIssements dIRect cAnAdIens à l'étRAngeR note : Calcul des auteurs à partir des données StatCan sur la balance des paiements.</s><s xml:id="_f37M5C5" coords="29,63.00,91.20,275.31,8.80">sur les investissements étrangers ont l'avantage d'être déclarées par pays.</s><s xml:id="_Uzbs6V4" coords="29,340.22,91.20,46.75,8.80;29,63.00,103.39,324.03,8.80;29,63.00,115.57,257.07,8.80">L'hypothèse que nous devons faire ici est que la part des revenus d'investissements directs est proportionnelle à la part des investissements directs à l'étranger.</s><s xml:id="_E6WRSWR" coords="29,63.00,133.76,284.37,8.80;29,78.00,151.95,309.00,8.80;29,63.00,164.14,323.98,8.80;29,63.00,176.32,48.28,8.80">3.2.2.1 Composition des investissements directs canadiens à l'étranger Statistique Canada fournit des informations bilatérales sur le stock des investissements directs canadiens à l'étranger (et des investissements directs étrangers au Canada).</s><s xml:id="_WuvtDEv" coords="29,114.11,176.32,272.90,8.80;29,63.00,188.51,324.02,8.80;29,63.00,200.70,323.94,8.80">Les investissements directs canadiens à l'étranger comprennent tous les investissements dans une société étrangère effectués par une entité canadienne qui détient au moins 10 % du capital à droit de vote dans cette société étrangère.</s><s xml:id="_smB4UBQ" coords="29,63.00,212.89,324.01,8.80;29,63.00,225.07,202.06,8.80">En 2014, le stock d'investissements étrangers directs réalisés par des entreprises canadiennes est d'environ 830 milliards de dollars.</s><s xml:id="_JUDPxyU" coords="29,267.50,225.07,119.50,8.80;29,63.00,237.26,323.99,8.80;29,63.00,249.45,30.90,8.80">Les États-Unis représentent la destination principale de ces investissements (62 %), suivis par les pays européens (23 %).</s><s xml:id="_jmHcfNR" coords="29,96.96,249.45,290.00,8.80;29,63.00,261.64,323.99,8.80;29,63.00,273.82,260.16,8.80">Si les États-Unis, l'Allemagne et le Royaume-Uni sont des partenaires naturels du Canada, un examen plus approfondi des données révèle que les entreprises canadiennes investissent également dans des pays plus exotiques.</s><s xml:id="_be8KebT" coords="29,325.90,273.82,61.07,8.80;29,63.00,286.01,324.03,8.80;29,63.00,585.38,152.32,8.80;29,215.42,584.86,5.83,5.10;29,221.37,585.38,2.50,8.80">Le graphique 8 présente le niveau et l'évolution des investissements directs canadiens dans des pays considérés comme des paradis fiscaux 22 .</s><s xml:id="_EFdJtHK" coords="29,78.00,621.70,308.99,7.04;29,111.31,494.86,12.69,7.05;29,111.31,472.23,12.69,7.05;29,107.30,448.53,16.69,7.05;29,107.30,424.82,16.69,7.05;29,107.30,401.11,16.69,7.05;29,107.30,377.40,16.69,7.05;29,107.30,353.69,16.69,7.05;29,119.58,504.64,37.07,7.05;29,177.92,504.64,16.03,7.05;29,215.01,504.64,16.03,7.05;29,251.86,504.64,16.03,7.05;29,287.90,504.64,44.17,7.05;29,280.97,481.78,19.83,5.29;29,280.43,447.16,30.91,5.29;29,202.15,447.16,60.65,5.29;29,237.30,428.89,16.85,5.29;29,205.02,420.44,22.15,5.29;29,222.11,371.17,15.21,5.29;29,296.90,384.63,28.26,5.29;29,297.54,390.03,24.29,5.29;29,258.61,357.83,32.06,5.29;29,192.37,314.20,65.27,8.80;29,154.45,332.20,141.10,8.80;29,63.00,528.70,171.98,7.04">22. Nous utilisons la définition des paradis fiscaux de Dharmapala et Hines (2009) plus les 0 % 5 % 10 % 15 % 20 % 25 % 30 % 1987 1990 1995 2000 2005 2010 2014 Barbade Îles Caïmans Autres pays aux Caraïbes Irlande Pays-Bas Suisse Autres pays en Europe Asie/Océanie GRAPHIQUE 8 pARAdIs fIscAux et Ides cAnAdIens note : Calcul des auteurs à partir de données StatCan.</s><s xml:id="_Gnb22Ht" coords="29,236.59,528.70,150.39,7.04;29,86.00,537.70,300.97,7.04;29,86.00,546.70,236.51,7.04">Les investissements direct à l'étrangers incluent tous les investissements dans des entreprises étrangères réalisés par des entités canadiennes qui possèdent au moins 10 % des droits de vote de l'entreprise étrangère.</s><s xml:id="_ApWP3v5" coords="29,324.58,546.70,62.43,7.04;29,86.00,555.70,289.62,7.04">Le groupe Caribbe inclut : Bahamas, Bermudes, Îles Vierges, Antilles néerlandaises, Belize et le Panama.</s><s xml:id="_AmEtbtm" coords="29,378.36,555.70,8.66,7.04;29,86.00,564.70,243.62,7.04">Le groupe Autres Européens inclut : Chypre, Liechtenstein et Luxembourg.</s><s xml:id="_6awT8Vj" coords="29,332.64,564.70,54.37,7.04;29,86.00,573.70,136.77,7.04">Le groupe Asie/ Océanie inclut : Hong-Kong et Singapour.</s><s xml:id="_DuhKcFU" coords="30,174.19,67.66,101.63,6.60;30,78.00,91.20,309.02,8.80;30,63.00,103.24,323.92,8.80;30,63.00,115.28,88.01,8.80">L'ACTUALITÉ ÉCONOMIQUE Le graphique 8 montre également que la part des paradis fiscaux dans les investissements directs canadiens a doublé depuis 1987 -passant de 12 % en 1987 à 25 % en 2014.</s><s xml:id="_MSQnsq3" coords="30,153.79,115.28,233.22,8.80;30,63.00,127.31,73.90,8.80;30,136.83,126.79,6.04,5.10;30,142.92,127.31,2.53,8.80">Plus de la moitié de cette augmentation est due à un seul pays : la Barbade 23 .</s><s xml:id="_7Wy52as" coords="30,148.81,127.31,238.19,8.80;30,63.00,139.35,121.74,8.80">En 1987, il n'y avait pratiquement pas d'investissements directs canadiens à la Barbade.</s><s xml:id="_Etyr44h" coords="30,186.91,139.35,200.04,8.80;30,63.00,151.39,110.28,8.80">En 2014, 9 % de tous les investissements canadiens étaient dirigés vers ce pays.</s><s xml:id="_Yq5j9RV" coords="30,175.58,151.39,211.45,8.80;30,63.00,163.43,300.60,8.80;30,363.74,162.91,6.07,5.10;30,369.90,163.43,2.51,8.80">L'importance de la Barbade s'explique probablement par la convention bilatérale signée par le Canada et la Barbade en 1980 24 .</s><s xml:id="_BWRKkem" coords="30,375.68,163.43,11.32,8.80;30,63.00,175.47,206.38,8.80">En 2011, les deux pays ont modifié cette convention.</s><s xml:id="_5yTrbc8" coords="30,272.64,175.47,114.34,8.80;30,63.00,187.50,323.97,8.80;30,63.00,199.54,324.02,8.80;30,63.00,211.58,78.07,8.80">Cela a provoqué une baisse du stock d'investissements directs canadiens à la Barbade et une hausse des investissements directs vers d'autres paradis fiscaux tels que les îles Caïmans ou le Luxembourg.</s><s xml:id="_NYCURCy" coords="30,78.00,229.62,309.01,8.80;30,63.00,241.66,324.03,8.80;30,63.00,253.69,216.73,8.80">Concernant la répartition géographique des investissements directs dans les paradis fiscaux, le graphique 8 montre que 60 % des investissements sont effectués dans les paradis fiscaux se situant dans les Caraïbes.</s><s xml:id="_3MpapZZ" coords="30,282.32,253.69,104.68,8.80;30,63.00,265.73,324.03,8.80;30,63.00,277.77,171.99,8.80">Les paradis fiscaux européens (principalement la Suisse, les Pays-Bas, le Luxembourg et l'Irlande) comptent pour 35 % des investissements.</s><s xml:id="_ybbbpwG" coords="30,238.25,277.77,148.79,8.80;30,63.00,289.81,224.71,8.80">Singapour, Hong Kong et les autres paradis fiscaux asiatiques représentent les 5 % restant.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.2" xml:id="_QsAQFGr" coords="30,63.00,307.85,188.01,8.80">Coûts pour les administrations fiscales</head><p xml:id="_A8NjvR3"><s xml:id="_y37K6Rz" coords="30,78.00,325.89,309.06,8.80;30,63.00,337.92,276.14,8.80">Zucman (2014) a estimé que le recours aux paradis fiscaux permet aux entreprises américaines de réduire leur charge fiscale de 20 %.</s><s xml:id="_gMwda6v" coords="30,342.62,337.92,44.39,8.80;30,63.00,349.96,323.98,8.80;30,63.00,362.00,323.99,8.80;30,63.00,374.04,53.31,8.80">Ce chiffre s'explique par le fait que 20 % des bénéfices des entreprises américaines sont effectués dans les paradis fiscaux où les taux d'imposition effectifs sont négligeables.</s></p><p xml:id="_VA6A899"><s xml:id="_9jbdxMF" coords="30,78.00,392.08,308.98,8.80;30,63.00,404.11,57.49,8.80">Le calcul de la part des bénéfices canadiens effectués dans des paradis fiscaux n'est pas aisé.</s><s xml:id="_yYSwdf2" coords="30,123.76,404.11,263.26,8.80;30,63.00,416.15,227.11,8.80">Premièrement, nous ne disposons pas d'une décomposition par pays des revenus sur les bénéfices canadiens à l'étranger.</s><s xml:id="_yBATXT8" coords="30,292.39,416.15,94.60,8.80;30,63.00,428.19,323.98,8.80;30,63.00,440.23,271.47,8.80">Une hypothèse qui peut être faite est que la part des bénéfices réalisés dans un pays est proportionnelle à la part de ce pays dans les investissements directs canadiens.</s><s xml:id="_d8faCmX" coords="30,337.88,440.23,49.16,8.80;30,63.00,452.27,323.93,8.80;30,63.00,464.30,90.79,8.80">Nous avons montré que les paradis fiscaux représentent 25 % des investissements directs canadiens à l'étranger.</s><s xml:id="_7Raps27" coords="30,156.15,464.30,230.85,8.80;30,63.00,476.34,243.16,8.80">On pourrait donc supposer que les paradis fiscaux représentent 25 % des revenus d'investissements directs en 2015.</s><s xml:id="_UWQvtAP" coords="30,308.61,476.34,78.44,8.80;30,63.00,488.38,323.97,8.80;30,63.00,516.70,31.72,7.04">Nous avons montré dans la section 3.2.1 que 25 % des bénéfices canadiens sont effectués à l'étranger Pays-Bas.</s></p><p xml:id="_z8F58UY"><s xml:id="_m3wyyFG" coords="30,78.00,528.70,207.60,7.04">23. La Barbade est une île située dans la mer des Caraïbes.</s><s xml:id="_3ASR4BM" coords="30,288.34,528.70,98.70,7.04;30,63.00,537.70,22.00,7.04">Environ 280 000 personnes y vivent.</s><s xml:id="_bdYAwqW" coords="30,87.09,537.70,155.70,7.04">Son PIB en 2015 est de 4,5 milliards de dollars.</s><s xml:id="_7z8kuqa" coords="30,244.87,537.70,142.13,7.04;30,63.00,546.70,324.02,7.04;30,63.00,555.70,294.07,7.04">Les entreprises canadiennes (plus de 1100), représentent plus de 30 % du nombre total de sociétés offshore sur l'île, tandis que les banques canadiennes représentent 78 % des 50 banques internationales enregistrées à la Barbade.</s><s xml:id="_zSaxa2y" coords="30,359.62,555.70,27.42,7.04;30,344.66,564.70,3.35,7.04">Source : <ref type="url" coords="30,63.00,564.70,281.66,7.04" target="http://barbadosoffshoreadvisor.com/barbados-tax-treaties/barbados-canada-tax-treaty/">http://barbadosoffshoreadvisor.com/barbados-tax-treaties/barbados-canada-tax-treaty/</ref>.</s></p><p xml:id="_cph3dBm"><s xml:id="_dMr54DD" coords="30,78.00,576.70,308.99,7.04;30,63.00,585.70,136.96,7.04">24. Une illustration du régime avantageux de cette île pour les entreprises canadiennes est présentée sur le site canadian-lawyers.ca.</s><s xml:id="_JJxcPVS" coords="30,202.68,585.70,184.35,7.04;30,63.00,594.70,312.84,7.04">« Une entreprise résidant au Canada établit une société étrangère affiliée à la Barbade sous la forme d'une Société Commerciale Internationale (SCI).</s><s xml:id="_xaa68pH" coords="30,378.39,594.70,8.57,7.04;30,63.00,603.70,86.98,7.04">La SCI fait 100 $ de bénéfices.</s><s xml:id="_sVvp7FB" coords="30,151.62,603.70,235.38,7.04;30,63.00,612.70,207.64,7.04">L'impôt sur les bénéfices de la Barbade est prélevé à 2,5 % laissant 97,50 $ à la société affiliée qui les versera à sa société mère au Canada.</s><s xml:id="_nutmV6q" coords="30,272.77,612.70,114.26,7.04;30,63.00,621.70,136.41,7.04">La société mère reçoit le dividende complètement libre de l'impôt canadien ».</s></p><p xml:id="_SnQ4gNQ"><s xml:id="_Camh7yX" coords="31,129.77,67.50,190.47,6.60;31,63.00,91.20,34.77,8.80">FISCALITÉ DES ENTREPRISES ET PARADIS FISCAUX… en 2015.</s><s xml:id="_SqQTuzh" coords="31,101.02,91.20,285.95,8.80;31,63.00,102.85,217.04,9.99">Cela impliquerait que la part des bénéfices canadiens effectués dans les paradis fiscaux est d'environ 6,5 % (0.25 × 0.25).</s><s xml:id="_ezgRnmb" coords="31,283.02,103.23,103.97,8.80;31,63.00,115.27,234.48,8.80">Les sociétés canadiennes réduisent, par conséquent, leur facture d'impôt de 6,5 %.</s></p><p xml:id="_Q74wcgy"><s xml:id="_dhDK5ME" coords="31,78.00,133.30,309.07,8.80;31,63.00,145.33,251.88,8.80">En plus des limites sur la disponibilité des données exposées plus haut, ce chiffre doit être pris avec précautions pour deux autres raisons.</s><s xml:id="_srqew4v" coords="31,317.11,145.33,69.87,8.80;31,63.00,157.36,324.03,8.80;31,63.00,169.40,78.97,8.80;31,141.82,168.88,5.93,5.10;31,147.73,169.40,2.50,8.80">Tout d'abord, une partie des investissements canadiens directs aux États-Unis est dirigée vers Porto Rico et le Delaware 25 .</s><s xml:id="_2kpetpR" coords="31,152.49,169.40,211.15,8.80">Ces endroits sont des paradis fiscaux par excellence.</s><s xml:id="_QNWKmck" coords="31,365.90,169.40,21.08,8.80;31,63.00,181.43,324.05,8.80;31,63.00,193.46,202.58,8.80">Il n'y a pas de données quantitatives sur l'importance de ces deux endroits dans les investissements directs canadiens aux États-Unis.</s><s xml:id="_CTmrTQ6" coords="31,268.23,193.46,118.80,8.80;31,63.00,205.49,170.16,8.80">Le 6,5 % ne tient pas compte du transfert de bénéfices vers ces endroits.</s><s xml:id="_VF39CnT" coords="31,235.42,205.49,151.56,8.80;31,63.00,217.53,324.00,8.80;31,63.00,229.56,32.60,8.80;31,95.58,229.04,6.08,5.10;31,101.82,229.56,2.54,8.80">Deuxièmement, la réduction de 6,5 % de la facture d'impôt concerne les activités mondiales des entreprises multinationales 26 .</s><s xml:id="_mXzTYdv" coords="31,107.66,229.56,279.26,8.80;31,63.00,241.59,40.28,8.80">Le Canada effectue une part moins importante de ses bénéfices à l'étranger.</s><s xml:id="_DKcFAvS" coords="31,105.52,241.59,281.48,8.80;31,63.00,253.63,323.98,8.80;31,63.00,265.66,324.01,8.80;31,63.00,277.69,52.18,8.80">Cela peut être dû à une composition sectorielle (plus facile de déplacer des activités de fabrication ou des services que le pétrole) ou par le renforcement de la compétitivité des entreprises américaines par rapport aux entreprises canadiennes.</s><s xml:id="_wCeS4B7" coords="31,117.41,277.69,269.52,8.80;31,63.00,289.72,323.91,8.80;31,63.00,301.76,324.00,8.80;31,63.00,313.79,33.36,8.80">En outre, les États-Unis sont plus spécialisés dans les industries qui investissent massivement dans la recherche et le développement et les actifs incorporels sont connus pour être plus facile à déplacer entre les juridictions fiscales.</s><s xml:id="_6T5nbPV" coords="31,98.66,313.79,288.34,8.80;31,63.00,325.82,324.02,8.80;31,63.00,337.86,324.04,8.80;31,63.00,349.89,188.79,8.80">Tant et aussi longtemps que ces activités à l'étranger génèrent des bénéfices dans les paradis fiscaux, les différences dans la part des bénéfices réalisés à l'étranger peuvent expliquer la faible réduction de la facture fiscale des entreprises canadiennes comparativement aux États-Unis.</s><s xml:id="_F6GuPgp" coords="32,63.00,91.20,47.11,8.80;32,78.00,109.20,309.00,8.80;32,63.00,121.20,255.12,8.80">conclusIon Cet article essaye de fournir de nouveaux éléments sur l'incidence du recours à l'évitement fiscal par les firmes multinationales au Canada.</s><s xml:id="_Tm7cNv9" coords="32,321.25,121.20,65.79,8.80;32,63.00,133.20,323.97,8.80;32,63.00,145.20,117.41,8.80">Une revue de la littérature existante et la réalisation de cette analyse nous ont permis de proposer certaines pistes de recherche.</s></p><p xml:id="_MPweehd"><s xml:id="_cs5az63" coords="32,78.00,163.20,309.00,8.80;32,63.00,175.20,187.23,8.80">Les données de Compustat nous fournissent de l'information désagrégée sur les taux d'imposition effectifs des entreprises.</s><s xml:id="_6sbn3rS" coords="32,253.26,175.20,133.70,8.80;32,63.00,187.20,143.66,8.80">Cette dimension des données n'a pas été explorée dans cette analyse.</s><s xml:id="_RCdeRDV" coords="32,209.50,187.20,177.50,8.80;32,63.00,199.20,244.51,8.80">À l'avenir, nous prévoyons étudier les déterminants du taux d'imposition effectif au niveau des entreprises.</s><s xml:id="_3UubNJr" coords="32,309.50,199.20,77.49,8.80;32,63.00,211.20,241.55,8.80">Les caractéristiques des entreprises et des secteurs seront alors prises en compte.</s></p><p xml:id="_z3JeZVv"><s xml:id="_SqCNMGm" coords="32,78.00,229.20,308.98,8.80;32,63.00,241.20,324.01,8.80;32,63.00,253.20,98.26,8.80">Plus généralement, la revue de la littérature montre l'absence d'études à partir de données désagrégées sur l'évitement fiscal des multinationales au Canada durant ces 15 dernières années.</s><s xml:id="_S5aQuJe" coords="32,164.06,253.20,222.94,8.80;32,63.00,265.20,324.00,8.80;32,63.00,277.20,126.14,8.80">Statistique Canada dispose de données désagrégées sur les bilans des entreprises qui pourraient être utilisées pour évaluer l'importance de l'évitement fiscal au Canada.</s><s xml:id="_EUbuzkQ" coords="32,191.26,277.20,195.74,8.80;32,63.00,289.20,324.01,8.80;32,63.00,301.20,324.03,8.80">D'autres données privées pourraient être utilisées pour avoir une meilleure compréhension des déterminants de la localisation des filiales canadiennes à l'étranger -et plus particulièrement dans les paradis fiscaux.</s><s xml:id="_T459xzx" coords="32,63.00,313.20,323.94,8.80">La Barbade apparaît comme un partenaire très spécial de l'économie canadienne.</s><s xml:id="_gTsTG5s" coords="32,63.00,325.20,323.96,8.80;32,63.00,337.20,217.92,8.80">Un regard plus approfondi de la composition et l'activité réelle des entreprises canadiennes actives sur cette île serait très intéressant.</s></p><p xml:id="_SKFPZmy"><s xml:id="_yhT8ZKB" coords="32,78.00,355.20,308.90,8.80;32,63.00,367.20,324.01,8.80;32,63.00,379.20,151.10,8.80">Au Canada -et aux États-Unis -les sociétés opérant dans plusieurs juridictions peuvent transférer leurs bénéfices dans les provinces ou les États pour réduire leur fardeau fiscal <ref type="bibr" coords="32,119.39,379.20,90.29,8.80" target="#b29">(Mintz et Smart, 2004)</ref>.</s><s xml:id="_eGHScVX" coords="32,216.22,379.20,170.77,8.80;32,63.00,391.20,323.93,8.80;32,63.00,403.20,204.76,8.80">Il serait intéressant d'examiner comment la présence des paradis fiscaux étrangers affecte la planification fiscale des entreprises présentes dans plusieurs juridictions d'un même pays.</s><s xml:id="_GD79hud" coords="32,269.70,403.20,117.32,8.80;32,63.00,415.20,324.04,8.80;32,63.00,427.20,266.96,8.80">On peut étudier théoriquement et empiriquement si le transfert de bénéfices vers un paradis fiscal constitue un substitut ou un complément au transfert de bénéfices intranational.</s></p><p xml:id="_PdFjgnc"><s xml:id="_tVeAH5A" coords="32,78.00,445.20,309.03,8.80;32,63.00,457.20,324.00,8.80">Bien que la littérature documente l'évitement fiscal et tente d'évaluer ses coûts en termes de pertes fiscales, très peu d'études examinent ses avantages potentiels<ref type="foot" coords="32,379.08,456.68,5.79,5.10" target="#foot_5">foot_5</ref> .</s><s xml:id="_xVpFQ2a" coords="32,63.00,469.20,323.97,8.80;32,63.00,481.20,324.04,8.80;32,63.00,493.20,161.02,8.80">L'évitement fiscal permet aux multinationales de réduire leurs coûts, ce qui peut avoir un effet positif sur l'emploi au niveau national et peut les aider à mieux résister à la concurrence internationale.</s><s xml:id="_9NhfK5Q" coords="32,227.08,493.20,159.85,8.80;32,63.00,505.20,323.97,8.80;32,63.00,517.20,62.90,8.80">L'évitement fiscal peut également avoir un impact positif sur les marges bénéficiaires des multinationales et par ricochet sur l'innovation.</s><s xml:id="_qcBycPD" coords="32,127.92,517.20,259.12,8.80;32,63.00,529.20,305.13,8.80">Cela peut éventuellement conduire à l'augmentation des dividendes pour les actionnaires, ce qui pourrait avoir un impact positif sur l'économie.</s><s xml:id="_98R7rcy" coords="32,370.55,529.20,16.48,8.80;32,63.00,541.20,324.05,8.80;32,63.00,553.20,323.98,8.80;32,63.00,565.20,83.40,8.80">Une analyse minutieuse de l'élasticité de l'emploi, la production et les bénéfices par rapport au taux d'imposition effectif permettrait d'évaluer les avantages potentiels de l'évitement fiscal.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,78.00,285.96,308.95,8.80;5,63.00,298.15,323.99,8.80;5,63.00,310.33,323.97,8.80;5,63.00,322.51,324.05,8.80;5,63.00,334.70,324.02,8.80;5,63.00,346.88,324.01,8.80;5,63.00,359.07,324.03,8.80;5,63.00,371.25,324.00,8.80;5,63.00,383.43,323.94,8.80;5,63.00,395.62,323.95,8.80;5,63.00,407.80,324.01,8.80;5,63.00,419.99,324.02,8.80;5,63.00,432.17,189.36,8.80"><figDesc><div><p xml:id="_F9d8D2b"><s xml:id="_jf7ReSq" coords="5,78.00,285.96,308.95,8.80;5,63.00,298.15,221.71,8.80">ll existe différentes méthodes utilisées par les multinationales pour faire du transfert de bénéfices et se soustraire ainsi à la fiscalité.</s><s xml:id="_VyAxkdY" coords="5,286.96,298.15,100.03,8.80;5,63.00,310.33,244.91,8.80">Une méthode étudiée par Egger et al. (2010) consiste à répartir l'endettement de la firme.</s><s xml:id="_7JtMYvR" coords="5,309.93,310.33,77.04,8.80;5,63.00,322.51,324.05,8.80;5,63.00,334.70,207.78,8.80">Les multinationales peuvent réduire leur charge fiscale en transférant de la dette des pays à faible taux d'imposition vers des pays à taux d'imposition élevé.</s><s xml:id="_V5YpmuE" coords="5,272.92,334.70,114.10,8.80;5,63.00,346.88,324.01,8.80;5,63.00,359.07,271.02,8.80">En utilisant les données d'un panel de firmes européennes, les auteurs montrent que le ratio d'endettement des firmes nationales était moins élevé que celui des multinationales.</s><s xml:id="_46nzZSj" coords="5,337.15,359.07,49.88,8.80;5,63.00,371.25,324.00,8.80">Ils ont aussi constaté que cet écart d'endettement augmentait avec le taux d'imposition du pays.</s><s xml:id="_AwWzasg" coords="5,63.00,383.43,323.94,8.80;5,63.00,395.62,111.84,8.80">Cela suggère que la gestion de l'endettement est utilisée par les multinationales pour se soustraire à l'impôt.</s><s xml:id="_Sgbj5Ef" coords="5,177.29,395.62,209.66,8.80;5,63.00,407.80,324.01,8.80;5,63.00,419.99,324.02,8.80;5,63.00,432.17,189.36,8.80">Par ailleurs, dans un article connexe, Dharmapala et Riedel (2013) montrent qu'un choc positif de revenu pour une multinationale est associé à une hausse relative de bénéfices avant impôts déclarés par ses filiales situées dans les pays à faible taux d'imposition.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="10,270.30,139.31,116.68,8.80;10,63.00,151.34,324.00,8.80;10,63.00,163.37,324.03,8.80;10,63.00,175.40,323.99,8.80;10,63.00,187.42,324.00,8.80;10,63.00,199.45,324.00,8.80;10,63.00,211.48,324.06,8.80;10,63.00,223.51,323.99,8.80;10,63.00,235.54,324.05,8.80;10,63.00,247.57,323.94,8.80;10,63.00,259.59,323.97,8.80;10,63.00,271.62,324.02,8.80;10,63.00,283.65,273.26,8.80"><figDesc><div><p xml:id="_UWxpGFz"><s xml:id="_4epWsyd" coords="10,270.30,139.31,116.68,8.80;10,63.00,151.34,282.11,8.80">fait cependant une distinction entre les paradis fiscaux et les juridictions à faible taux d'imposition.</s><s xml:id="_V7fSd3K" coords="10,347.94,151.34,39.06,8.80;10,63.00,163.37,309.64,8.80">Cette différence réside dans le degré de transparence et d'échange de renseignements.</s><s xml:id="_Z9cHYUR" coords="10,374.98,163.37,12.05,8.80;10,63.00,175.40,323.99,8.80;10,63.00,187.42,324.00,8.80;10,63.00,199.45,324.00,8.80;10,63.00,211.48,324.06,8.80;10,63.00,223.51,57.92,8.80">Un paradis fiscal est défini comme une juridiction qui répond aux quatre critères suivants : (a) des impôts insignifiants ou inexistants; (b) des règles strictes de confidentialité empêchant l'échange de renseignements avec d'autres autorités fiscales; (c) l'absence de transparence sur le régime fiscal; (d) l'absence d'activités substantielles.</s><s xml:id="_TqBjHu5" coords="10,124.11,223.51,262.87,8.80;10,63.00,235.54,217.97,8.80">Le dernier critère n'est plus pris en compte par l'OCDE depuis 2002 en réponse à une plainte des autorités américaines.</s><s xml:id="_MNbUyp8" coords="10,283.02,235.54,104.03,8.80;10,63.00,247.57,323.94,8.80;10,63.00,259.59,323.97,8.80;10,63.00,271.62,324.02,8.80;10,63.00,283.65,180.00,8.80">L'OCDE définit également un régime fiscal préférentiel dommageable sur la base de quatre éléments : (a) le taux d'imposition s'il est très faible ou nul; (b) l'inaccessibilité du régime fiscal préférentiel aux acteurs économiques nationaux; (c) le manque de transparence; (d) le manque d'échange de renseignements.</s><s xml:id="_gJXYvRe" coords="10,245.77,283.65,90.49,8.80">Tax Justice Network (</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="12,174.19,67.66,101.63,6.60;12,63.00,91.20,162.54,8.80;12,63.00,115.20,233.04,8.80;12,78.00,132.20,309.02,8.80;12,63.00,144.20,324.01,8.80;12,63.00,156.20,323.99,8.80;12,63.00,168.20,323.95,8.80;12,63.00,180.20,183.10,8.80;12,63.00,209.20,123.04,8.80;12,63.00,226.20,82.91,8.80;12,78.00,244.20,309.02,8.80;12,63.00,256.20,324.00,8.80;12,63.00,268.20,324.02,8.80;12,63.00,280.20,253.06,8.80"><figDesc><div><p xml:id="_tXWPHfw"><s xml:id="_atsGaY4" coords="12,78.00,115.29,218.04,8.70;12,78.00,132.20,309.02,8.80;12,63.00,144.20,207.74,8.80">Taux d'imposition effectif des entreprises canadiennesDans cette section, nous calculons le taux d'imposition effectif des entreprises cotées en bourse ayant leur siège social au Canada.</s><s xml:id="_FYWV7J2" coords="12,273.63,144.20,113.38,8.80;12,63.00,156.20,126.95,8.80">Certaines de ces entreprises ne sont pas des multinationales.</s><s xml:id="_GpDxbxf" coords="12,192.44,156.20,194.54,8.80;12,63.00,168.20,63.66,8.80">Les entreprises multinationales seront étudiées à la section 3.2.2,</s><s xml:id="_BNHuTv6" coords="12,129.52,168.20,257.43,8.80;12,63.00,180.20,183.10,8.80;12,63.00,209.20,20.00,8.80">où nous analyserons les revenus générés par les investissements directs étrangers des entreprises canadiennes.3.1.1</s><s xml:id="_ADHnNja" coords="12,85.50,209.29,100.54,8.70;12,63.00,226.20,24.74,8.80">Méthodologie et données3.1.1.1</s><s xml:id="_njJ9Kzu" coords="12,90.23,226.29,55.68,8.70;12,78.00,244.20,309.02,8.80;12,63.00,256.20,324.00,8.80;12,63.00,268.20,324.02,8.80;12,63.00,280.20,253.06,8.80">MéthodologieAfin de calculer le taux effectif d'imposition des entreprises canadiennes, nous utilisons la formule proposée par Avi-Yonah et Lahav (2012) et définissons le taux d'imposition effectif agrégé (AETR) comme la somme des impôts enregistrés par les entreprises divisée par la somme des revenus avant impôts :</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="19,129.77,67.50,190.47,6.60;19,63.00,91.21,240.00,8.80;19,78.00,109.21,308.97,8.80;19,63.00,121.21,324.02,8.80;19,63.00,133.21,324.02,8.80;19,63.00,145.21,323.95,8.80;19,63.00,157.21,323.94,8.80;19,63.00,169.21,323.99,8.80;19,63.00,181.21,323.98,8.80;19,63.00,193.21,165.31,8.80;19,228.03,192.69,5.68,5.10;19,233.65,193.21,153.36,8.80;19,63.00,205.21,324.03,8.80;19,63.00,217.21,311.11,8.80;19,373.53,216.69,5.56,5.10;19,379.10,217.21,2.50,8.80;19,78.00,235.21,309.02,8.80;19,63.00,247.21,324.00,8.80;19,63.00,259.21,324.04,8.80;19,63.00,271.21,324.00,8.80;19,63.00,283.21,324.07,8.80;19,63.00,295.21,323.92,8.80;19,63.00,307.21,324.01,8.80;19,63.00,319.21,323.93,8.80;19,63.00,331.21,324.04,8.80;19,63.00,343.21,324.03,8.80;19,63.00,355.21,323.99,8.80;19,63.00,367.21,313.25,8.80"><head>FISCALITÉ</head><figDesc><div><p xml:id="_sSrttCf"><s xml:id="_eADAqcQ" coords="19,85.50,91.30,217.50,8.70;19,78.00,109.21,308.97,8.80;19,63.00,121.21,168.28,8.80">Comparaison des taux d'imposition effectifs sectorielsDans le graphqiue 3, le taux d'imposition effectif agrégé dans tous les secteurs est présenté pour les années 1999 à 2015.</s><s xml:id="_EzD3ptr" coords="19,234.27,121.21,152.74,8.80;19,63.00,133.21,181.94,8.80">Nous présentons les résultats pour les secteurs avec plus de 40 observations par an.</s><s xml:id="_zdjAxfQ" coords="19,247.76,133.21,139.26,8.80;19,63.00,145.21,323.95,8.80;19,63.00,157.21,106.68,8.80">Le secteur services immobiliers et services de location et de location de bail est celui avec le taux d'imposition effectif le plus bas pour la période.</s><s xml:id="_c3pWzvR" coords="19,171.96,157.21,214.98,8.80;19,63.00,169.21,81.65,8.80">Le taux d'imposition effectif oscille entre 5 % et 10 % sur toute la période.</s><s xml:id="_ZjbwRh8" coords="19,147.68,169.21,239.32,8.80;19,63.00,181.21,88.64,8.80">Le faible taux d'imposition dans ce secteur n'est pas dû au transfert de bénéfices.</s><s xml:id="_9H8yrHP" coords="19,154.19,181.21,232.79,8.80;19,63.00,193.21,165.31,8.80;19,228.03,192.69,5.68,5.10;19,233.65,193.21,2.49,8.80">Ceci est la conséquence de la part importante des fiducies dans le secteur de l'immobilier au Canada 13 .</s><s xml:id="_kDe8sAD" coords="19,238.23,193.21,148.78,8.80;19,63.00,205.21,324.03,8.80;19,63.00,217.21,311.11,8.80;19,373.53,216.69,5.56,5.10;19,379.10,217.21,2.50,8.80;19,78.00,235.21,309.02,8.80;19,63.00,247.21,324.00,8.80">Les fiducies de placement immobilier font face à un très faible taux d'imposition effectif parce que les revenus attribués aux porteurs de parts de la fiducie ne sont pas assujettis à l'impôt des sociétés 14 .Les taux d'imposition effectifs dans les secteurs manufacturier et de la finance et des assurances sont volatils, mais restent inférieurs au taux d'imposition légal.</s><s xml:id="_8a45z5w" coords="19,63.00,259.21,268.51,8.80">Les deux secteurs ont connu une baisse du taux d'imposition effectif.</s><s xml:id="_3hXChrM" coords="19,333.53,259.21,53.52,8.80;19,63.00,271.21,324.00,8.80">L'AETR dans le secteur de la finance a connu un pic anormal en 2008 lors de la crise des subprimes.</s><s xml:id="_TUSpGfv" coords="19,63.00,283.21,246.95,8.80">Le taux d'imposition effectif est tombé à 4,2 % l'année suivante.</s><s xml:id="_3UfM9kF" coords="19,311.91,283.21,75.17,8.80;19,63.00,295.21,323.92,8.80;19,63.00,307.21,81.21,8.80">Le secteur extractif a connu, quant à lui, une tendance à la hausse du taux d'imposition effectif atteignant un sommet en 2012.</s><s xml:id="_H6QF6Sw" coords="19,147.00,307.21,240.01,8.80;19,63.00,319.21,176.20,8.80">En 2013 et 2014, le taux d'imposition effectif s'est contracté autour de 24 % pour ensuite passer à 15 %.</s><s xml:id="_URSeBHh" coords="19,242.12,319.21,144.82,8.80;19,63.00,331.21,324.04,8.80;19,63.00,343.21,255.08,8.80">L'industrie de l'information a connu une tendance en forme de U avec un taux d'imposition effectif en baisse de 30 % en 2000 à 2 % en 2007, pour finalement atteindre 22 % en 2014.</s><s xml:id="_r3Satqk" coords="19,320.46,343.21,66.57,8.80;19,63.00,355.21,323.99,8.80;19,63.00,367.21,119.50,8.80">Le commerce de détail, le commerce de gros et le transport affichent un taux d'imposition effectif d'environ 22 % sur la période.</s><s xml:id="_hvAzYpR" coords="19,184.92,367.21,191.33,8.80">Il n'y a pas de tendance claire pour ces secteurs.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="23,78.00,540.70,309.02,7.04;23,63.00,549.70,323.51,7.04"><figDesc><div><p xml:id="_cekRWPX"><s xml:id="_G8eU2jA" coords="23,78.00,540.70,309.02,7.04;23,63.00,549.70,36.93,7.04">16. Des entreprises canadiennes telles que Acerus ou Valeant ont des filiales en Irlande et à la Barbade.</s><s xml:id="_VR2z52J" coords="23,101.93,549.70,284.58,7.04">Angiotech Pharmaceuticals possède des filiales en Suisse, à Porto Rico et au Delaware.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="26,78.90,513.43,14.00,7.04;26,78.90,479.17,14.00,7.04;26,78.90,444.91,14.00,7.04;26,78.90,410.65,14.00,7.04;26,78.90,376.38,14.00,7.04;26,93.54,527.28,16.00,7.04;26,209.27,527.28,16.00,7.04;26,247.85,527.28,16.00,7.04;26,286.43,527.28,16.00,7.04;26,170.70,527.28,16.00,7.04;26,132.12,527.28,16.00,7.04;26,325.01,527.28,16.00,7.04;26,363.58,527.28,16.00,7.04;26,126.84,541.05,103.41,7.15;26,267.81,540.96,79.78,7.15;26,126.97,554.89,122.14,7.15;26,68.47,507.24,7.15,14.98;26,68.47,494.13,7.15,11.11;26,68.47,469.62,7.15,22.51;26,68.47,433.84,7.15,33.78;26,68.47,406.51,7.15,25.33;26,68.47,400.51,7.15,4.00;26,68.47,364.30,7.15,34.21;26,192.37,322.20,65.27,8.80;26,125.56,340.20,198.89,8.80;26,63.00,570.70,323.96,7.04;26,86.00,579.70,301.01,7.04;26,86.00,588.70,96.60,7.04"><figDesc><div><p xml:id="_PN3NHwH"><s xml:id="_bRTUhzS" coords="26,193.85,342.19,130.60,6.16;26,63.00,570.70,323.96,7.04;26,86.00,579.70,51.07,7.04">cAnAdIens RéAlIsés à l'étRAngeR note : Calcul des auteurs à partir des données StatCan sur la balance des paiements et sur le profit des entreprises.</s><s xml:id="_tpxdwqK" coords="26,139.71,579.70,247.30,7.04;26,86.00,588.70,96.60,7.04">Les profits étrangers incluent les profits et intérêts reçus d'investissements directs canadiens à l'étranger.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="27,89.33,396.92,4.00,7.04;27,71.33,375.11,22.00,7.04;27,67.33,331.49,26.00,7.04;27,67.33,353.30,26.00,7.04;27,67.33,309.68,26.00,7.04;27,67.33,287.86,26.00,7.04;27,93.97,406.74,16.00,7.04;27,209.70,406.74,16.00,7.04;27,248.28,406.74,16.00,7.04;27,286.86,406.74,16.00,7.04;27,171.13,406.74,16.00,7.04;27,132.55,406.74,16.00,7.04;27,325.43,406.74,16.00,7.04;27,364.01,406.74,16.00,7.04;27,184.42,583.96,28.69,7.15;27,250.31,583.96,35.03,7.15;27,176.61,268.23,83.73,8.94;27,89.33,558.38,4.00,7.04;27,71.33,536.55,22.00,7.04;27,71.33,492.87,22.00,7.04;27,71.33,514.71,22.00,7.04;27,71.33,471.03,22.00,7.04;27,71.33,449.20,22.00,7.04;27,93.97,568.21,16.00,7.04;27,209.70,568.21,16.00,7.04;27,248.28,568.21,16.00,7.04;27,286.86,568.21,16.00,7.04;27,171.13,568.21,16.00,7.04;27,132.55,568.21,16.00,7.04;27,325.43,568.21,16.00,7.04;27,364.01,568.21,16.00,7.04;27,146.72,428.77,143.51,8.94;27,192.37,231.89,65.27,8.80;27,69.70,249.89,310.61,8.80;27,63.00,603.70,324.00,7.04;27,86.00,612.70,300.97,7.04;27,86.00,621.70,294.69,7.04"><figDesc><div><p xml:id="_xXTjpXe"><s xml:id="_gVtVKJE" coords="27,164.81,251.88,215.49,6.16;27,63.00,603.70,324.00,7.04;27,86.00,612.70,37.17,7.04">Revenus suR les InvestIssements dIRects à l'étRAngeR note : Calcul des auteurs à partir des données StatCan sur la balance des paiements et sur le profit des entreprises.</s><s xml:id="_qbtnZwy" coords="27,125.05,612.70,261.92,7.04;27,86.00,621.70,71.54,7.04">Les profits étrangers incluent les profits et intérêts reçus d'investissements directs canadiens à l'étranger.</s><s xml:id="_7aumfyq" coords="27,159.46,621.70,221.23,7.04">Les chiffres de l'année 2015 portent sur les trois premiers trimestres.</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p xml:id="_Fay2VVT"><s xml:id="_xkHuWQw" coords="6,99.00,621.70,269.73,7.04">Pour une revue de littérature antérieure sur les prix de transfert voir Gresik (2001).</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p xml:id="_b8RUA2M"><s xml:id="_b6beSmg" coords="22,63.00,576.70,323.99,7.04;22,86.00,585.70,196.30,7.04">note : Taux de taxe effectif agrégé calculé par les auteurs à partir des données Compustat (voir équation 3 et les restrictions présentées dans le tableau 2).</s><s xml:id="_MThaUbR" coords="22,285.15,585.70,101.89,7.04;22,86.00,594.70,166.63,7.04">Nous nous concentrons sur les secteurs avec plus de 40 observations par année.</s><s xml:id="_nXGvhtj" coords="22,255.71,594.70,131.25,7.04;22,86.00,603.70,300.97,7.04;22,86.00,612.70,301.00,7.04;22,86.00,621.70,182.86,7.04">Agriculture, forestrie, pêche et chasse, construction, services professionel, scientifique et techniques, services d'éducation, gestion des déchets, soins de santé et assistance sociale, arts, services récréatifs, hôtellerie et restauration, et autres services ne satisfont pas cette condition.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20" xml:id="foot_2"><p xml:id="_WdJcV8s"><s xml:id="_jUnbVKk" coords="25,99.00,612.70,287.86,7.04;25,63.00,621.70,48.08,7.04">Voir http://www.canadianbusiness.com/companies-and-industries/manitoba-telecomservices-taxes.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p xml:id="_urfq7vx"><s xml:id="_8KKA7nT" coords="29,129.77,67.50,190.47,6.60">FISCALITÉ DES ENTREPRISES ET PARADIS FISCAUX…</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p xml:id="_K9G8Jhp"><s xml:id="_2GN8TBM" coords="31,78.00,367.92,309.00,8.80;31,63.00,379.95,310.15,8.80">Malgré tout, une réduction de 6,5 % de la facture d'impôt des sociétés canadiennes reste bien inférieure à la réduction d'impôt de 25 % aux États-Unis.</s><s xml:id="_dcGYSzp" coords="31,375.77,379.95,11.26,8.80;31,63.00,391.99,324.03,8.80;31,63.00,404.02,66.24,8.80">En plus des problèmes de données, il pourrait y avoir une justification économique dans ce résultat.</s><s xml:id="_uXV6k44" coords="31,131.90,404.02,255.08,8.80;31,63.00,416.05,75.11,8.80">Le taux d'imposition légal est de 10 points plus bas au Canada qu'aux États-Unis.</s><s xml:id="_uGXFsHN" coords="31,140.47,416.05,246.51,8.80;31,63.00,428.08,147.37,8.80">Les entreprises canadiennes ont donc une incitation moindre à transférer des bénéfices à l'étranger.</s><s xml:id="_8hhGZXY" coords="31,212.51,428.08,174.45,8.80;31,63.00,440.12,324.04,8.80;31,63.00,452.15,175.17,8.80">Pour transférer des bénéfices, les entreprises font face à plusieurs coûts : l'ouverture d'une filiale, la manipulation des comptes, le coût de se faire prendre par les autorités.</s><s xml:id="_2Hcv9EZ" coords="31,240.65,452.15,146.35,8.80;31,63.00,464.18,274.98,8.80">Si une partie de ces coûts est fixe, il y a alors une sélection d'entreprises pour le transfert de bénéfices.</s><s xml:id="_XQKEgM4" coords="31,341.09,464.18,45.93,8.80;31,63.00,476.22,324.02,8.80;31,63.00,488.25,123.50,8.80">Plus l'écart de taux entre le pays domestique et le paradis fiscal est grand, plus petite sera la sélection(Davies et al., 2015).</s><s xml:id="_aMxgA7H" coords="31,188.93,488.25,198.04,8.80;31,63.00,500.28,324.01,8.80;31,63.00,512.31,323.98,8.80;31,63.00,524.35,323.96,8.80;31,63.00,536.38,65.06,8.80">Les taux d'imposition plus élevés aux États-Unis pourraient alors expliquer la part plus élevée d'entreprises américaines transférant des bénéfices vers les paradis fiscaux -ce qui expliquerait la raison pour laquelle une plus grande part de bénéfices américains à l'étranger est effectuée dans des paradis fiscaux.</s><s xml:id="_VuXYreT" coords="31,78.00,564.70,9.89,7.04">25.</s><s xml:id="_JYdF3GV" coords="31,99.00,564.70,288.03,7.04;31,63.00,573.70,31.74,7.04">Par exemple, le Delaware semble être une juridiction populaire pour les compagnies de transport.</s><s xml:id="_NeJp9df" coords="31,97.75,573.70,223.94,7.04">En 2005, TransCanada avait cinq filiales constituées au Delaware.</s><s xml:id="_u9WDQ2y" coords="31,324.70,573.70,62.28,7.04;31,63.00,582.70,165.94,7.04">Canadian National Railway a quatre filiales constituées au Delaware.</s><s xml:id="_vfUd3HN" coords="31,231.53,582.70,155.47,7.04;31,63.00,591.70,32.86,7.04">Canadian Pacific a deux filiales constituées au Delaware.</s><s xml:id="_mBSVcq9" coords="31,98.31,591.70,206.12,7.04">TransForce possède un burau à Wilmington dans le Delaware.</s><s xml:id="_FenqJDt" coords="31,306.88,591.70,80.15,7.04;31,63.00,600.70,323.99,7.04">Trimac Transportation a conclu une alliance stratégique avec Trimac Equipment Leasing, une entreprise constituée au Delaware.</s><s xml:id="_c5m8fc7" coords="31,78.00,612.70,10.11,7.04">26.</s><s xml:id="_f92EKE5" coords="31,99.00,612.70,288.00,7.04;31,63.00,621.70,181.59,7.04">Par exemple, Google France peut utiliser des paradis fiscaux pour transférer les profits de la France et ainsi alléger sa facture fiscale dans ce pays.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27" xml:id="foot_5"><p xml:id="_SyQBcFd"><s xml:id="_Ku7wJrA" coords="32,99.00,594.70,288.06,7.04;32,63.00,603.70,324.03,7.04;32,63.00,612.70,324.01,7.04;32,63.00,621.70,249.89,7.04">Un système fiscal optimal serait d'appliquer des taux d'imposition discriminatoires fondés sur l'élasticité de chaque assiette fiscale.<ref type="bibr" coords="32,193.12,603.70,68.84,7.04" target="#b13">Davidson et al. (2007</ref>Davidson et al. (  et 2009) )  montrent que l'évasion fiscale et les marchés noirs pourraient effectivement rendre le système fiscal plus efficace en permettant un taux d'imposition effectif plus faible pour les activités économiques mobiles.</s></p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_eMUZuuN"><p xml:id="_F4648Rc"><s xml:id="_pAU3dbe" coords="16,142.36,228.48,93.21,8.94">Taxes courantes, USA</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="33,63.00,109.23,324.02,8.80;33,72.00,121.26,315.00,8.80;33,72.00,133.30,314.98,8.80;33,72.00,145.33,232.06,8.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_dkrbUqF">Has U.S. Investment Abroad Become More Sensitive to Tax Rates?</title>
+		<author>
+			<persName><forename type="first">Rosanne</forename><surname>Altshuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harry</forename><surname>Grubert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">Scott</forename><surname>Newlon</surname></persName>
+		</author>
+		<idno type="DOI">10.7208/chicago/9780226341750.003.0002</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ENKc7Uy">International Taxation and Multinational Activity</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hines</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="9" to="32" />
+		</imprint>
+		<respStmt>
+			<orgName>NBER Chapters, National Bureau of Economic Research</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">AltshuleR, R., H. GRubeRt et T.S. Newlon (2000), « Has U.S. Investment Abroad Become More Sensitive to Tax Rates? », in hInes, J. R. (éd.), International Taxation and Multinational Activity, NBER Chapters, National Bureau of Economic Research, University of Chicago Press, p. 9-38.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,163.36,324.00,8.80;33,72.00,175.39,315.01,8.80;33,72.00,187.42,222.34,8.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_xcyMWsN">Aggressive International Tax Planning by Multinational Corporations: The Canadian Context and Possible Responses</title>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">J</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.55016/ojs/sppp.v7i1.42484</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kZyGacZ">The School of Public Policy Publications</title>
+		<title level="j" type="abbrev">SPP Publications</title>
+		<idno type="ISSN">2560-8312</idno>
+		<idno type="ISSNe">2560-8320</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">07</biblScope>
+			<date type="published" when="2014-10-02">2014</date>
+			<publisher>University of Calgary</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ARnold, B. J. et J. wIlson (2014), « Aggressive International Tax Planning by Multinational Corporations: The Canadian Context and Possible Responses », SPP Research Paper No. 07.29, School of Public Policy.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,205.46,324.01,8.80;33,72.00,217.49,314.95,8.80;33,72.00,229.52,221.08,8.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_XtMf6Jj">Home Country Tax System Characteristics and Corporate Tax Avoidance: International Evidence</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">J</forename><surname>Atwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">S</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">N</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Linda</forename><forename type="middle">A</forename><surname>Myers</surname></persName>
+		</author>
+		<idno type="DOI">10.2308/accr-50222</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_N2XVNfN">The Accounting Review</title>
+		<idno type="ISSN">0001-4826</idno>
+		<idno type="ISSNe">1558-7967</idno>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1831" to="1860" />
+			<date type="published" when="2012-06-01">2012</date>
+			<publisher>American Accounting Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atwood, T. J., M.S. dRAke, J.N. myeRs et L.A. myeRs (2012), « Home Country Tax System Characteristics and Corporate Tax Avoidance: International Evidence », The Accounting Review, 87(6) : 1831-1860.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,247.55,323.99,8.80;33,72.00,259.58,216.49,8.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_Y7Techp">The Effective Tax Rate of the Largest US and EU Multinationals</title>
+		<author>
+			<persName coords=""><forename type="first">Avi-Yonah</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Lahav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wZkmx4U">Tax Law Review</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="375" to="390" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">AvI-yonAh, R. et Y. LAhAv (2012), « The Effective Tax Rate of the Largest US and EU Multinationals », Tax Law Review, 6(3) : 375-390.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,277.61,323.97,8.80;33,72.00,289.65,315.02,8.80;33,72.00,301.68,136.64,8.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_qzWEMNX">Why pay more? Corporate tax avoidance through transfer pricing in OECD countries</title>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Bartelsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roel</forename><forename type="middle">M W J</forename><surname>Beetsma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0047-2727(02)00018-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9Q2v22D">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">9-10</biblScope>
+			<biblScope unit="page" from="2225" to="2252" />
+			<date type="published" when="2003-09">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BARtelsmAn, E J. et R. M. W.J. BeetsmA (2003), « Why Pay more? Corporate Tax Avoidance through Transfer Pricing in OECD Countries », Journal of Public Economics, 87(9-10) : 2225-2252.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,319.71,324.00,8.80;33,72.00,331.74,315.00,8.80;33,72.00,343.77,170.40,8.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_etAXKtz">Location choices of multinational firms in Europe: The role of EU cohesion policy</title>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Basile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Castellani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonello</forename><surname>Zanfei</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jinteco.2007.08.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tbhS5Mj">Journal of International Economics</title>
+		<title level="j" type="abbrev">Journal of International Economics</title>
+		<idno type="ISSN">0022-1996</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="328" to="340" />
+			<date type="published" when="2008-03">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BAsIle, R., D. CAstellAnI, D. et A. ZAnfeI (2008), « Location Choices of Multinational Firms in Europe: The Role of EU Cohesion Policy », Journal of International Economics, 74(2) : 328-340.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,361.81,324.02,8.80;33,72.00,373.84,315.00,8.80;33,72.00,385.87,164.78,8.80" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_KVjqPdX">How low business tax rates attract MNE activity: Municipality-level evidence from Germany</title>
+		<author>
+			<persName><forename type="first">Sascha</forename><forename type="middle">O</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">H</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valeria</forename><surname>Merlo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpubeco.2012.05.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_q3wYfGM">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">9-10</biblScope>
+			<biblScope unit="page" from="698" to="711" />
+			<date type="published" when="2012-10">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BeckeR, S. O., P.H. EggeR et V. MeRlo (2012), « How Low Business Tax Rates Attract MNE Activity: Municipality-level Evidence from Germany », Journal of Public Economics, 96(9-10) : 698-711.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,403.90,323.97,8.80;33,72.00,415.93,314.92,8.80;33,72.00,427.97,82.56,8.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_d4PC26J">Transfer Pricing by U.S.-Based Multinational Firms</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Bradford</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Schott</surname></persName>
+		</author>
+		<idno type="DOI">10.3386/w12493</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_utvTkAg">NBER Working Papers</title>
+		<imprint>
+			<date type="published" when="2006-08">2006. 12493</date>
+			<publisher>National Bureau of Economic Research</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BeRnARd, A.B., J.B. Jensen et P.K. Schott (2006), « Transfer Pricing by U.S.-Based Multinational Firms », NBER Working Papers no 12493, National Bureau of Economic Research.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,446.00,324.00,8.80;33,72.00,458.03,146.15,8.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_TFfZY88">Network Ties Among Low-Tax Firms</title>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katharine</forename><forename type="middle">D</forename><surname>Drake</surname></persName>
+		</author>
+		<idno type="DOI">10.2308/accr-50648</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cKPm9bg">The Accounting Review</title>
+		<idno type="ISSN">0001-4826</idno>
+		<idno type="ISSNe">1558-7967</idno>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="483" to="510" />
+			<date type="published" when="2014">2014</date>
+			<publisher>American Accounting Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">bRown, J. L. et R.D. DRAke (2014), « Network Ties among Low-tax Firms », The Accounting Review, 89(2) : 483-510.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,476.06,323.97,8.80;33,72.00,488.09,246.35,8.80" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_7dxX4tJ">Tax-motivated transfer pricing and US intrafirm trade prices</title>
+		<author>
+			<persName coords=""><forename type="first">Kimberly</forename><forename type="middle">A</forename><surname>Clausing</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0047-2727(02)00015-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nVgAG5n">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">9-10</biblScope>
+			<biblScope unit="page" from="2207" to="2223" />
+			<date type="published" when="2003-09">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ClAusIng, K.A. (2003), « Tax-motivated Transfer Pricing and US Intrafirm Trade Prices », Journal of Public Economics, 87(9-10) : 2207-2223.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,506.12,324.02,8.80;33,72.00,518.16,314.95,8.80;33,72.00,530.19,243.57,8.80" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_v8VFsxM">Corporate domicile and average effective tax rates: The cases of Canada, Japan, the United Kingdom, and the United States</title>
+		<author>
+			<persName><forename type="first">Julie</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Douglas</forename><forename type="middle">A</forename><surname>Shackelford</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00873107</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_V9j3mpw">International Tax and Public Finance</title>
+		<title level="j" type="abbrev">Int Tax Public Finan</title>
+		<idno type="ISSN">0927-5940</idno>
+		<idno type="ISSNe">1573-6970</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="83" />
+			<date type="published" when="1995">1995</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CollIns, J. et D. ShAckelfoRd (1995), « Corporate Domicile and Average Effective Tax Rates: The Cases of Canada, Japan, the United Kingdom, and the United States », International Tax and Public Finance, 2(1) : 55-83.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,548.22,323.97,8.80;33,72.00,560.25,228.96,8.80" xml:id="b11">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">D</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">X</forename><surname>Nguyen</surname></persName>
+		</author>
+		<title level="m" xml:id="_Utf68ps">Transfer Pricing by Multinational Firms: New Evidence from Foreign Firm Ownerships</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">cRIsteA, A. D. et D.X. Nguyen (2014), « Transfer Pricing by Multinational Firms: New Evidence from Foreign Firm Ownerships », mimeo.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,578.28,323.97,8.80;33,72.00,590.32,202.64,8.80" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_kHqbRae">Tax evasion as an optimal tax device</title>
+		<author>
+			<persName><forename type="first">Carl</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lawrence</forename><forename type="middle">W</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">D</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.econlet.2004.05.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jZxPsKj">Economics Letters</title>
+		<title level="j" type="abbrev">Economics Letters</title>
+		<idno type="ISSN">0165-1765</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="285" to="289" />
+			<date type="published" when="2005-02">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">dAvIdson, C., L. W. MARtIn et J.D. WIlson (2005), « Tax Evasion as an Optimal Tax Device », Economics Letters, 86(2) : 285-289.</note>
+</biblStruct>
+
+<biblStruct coords="33,63.00,608.35,324.00,8.80;33,72.00,620.38,203.29,8.80" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_ffNbusD">Efficient black markets?</title>
+		<author>
+			<persName><forename type="first">Carl</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lawrence</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">Douglas</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpubeco.2006.10.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yVWppev">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">7-8</biblScope>
+			<biblScope unit="page" from="1575" to="1590" />
+			<date type="published" when="2007-08">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">dAvIdson, C., L. W. MARtIn et J.D. WIlson (2007), « Efficient Black Markets? », Journal of Public Economics, 91(7-8) : 1575-1590.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,91.20,324.01,8.80;34,72.00,103.39,315.00,8.80;34,72.00,115.59,93.46,8.80" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_SR3ZfGb">Knocking on Tax Haven’s Door: Multinational Firms and Transfer Pricing</title>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">B</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathieu</forename><surname>Parenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Farid</forename><surname>Toubal</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/rest_a_00673</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BDdVbGk">The Review of Economics and Statistics</title>
+		<title level="j" type="abbrev">The Review of Economics and Statistics</title>
+		<idno type="ISSN">0034-6535</idno>
+		<idno type="ISSNe">1530-9142</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="120" to="134" />
+			<date type="published" when="2018-03">2018</date>
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+	<note type="raw_reference">DAvIes, R. B., J. MARtIn, M. PARentI et F. ToubAl (2018), « Knocking on Tax Haven&apos;s Door: Multinational Firms and Transfer Pricing », Review of Economics and Statistics, In press.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,133.78,324.00,8.80;34,72.00,145.98,242.06,8.80" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_SwU95Xd">The demand for tax haven operations</title>
+		<author>
+			<persName><forename type="first">Mihir</forename><forename type="middle">A</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">Fritz</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Hines</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpubeco.2005.04.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JAHwmbJ">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="513" to="531" />
+			<date type="published" when="2006-02">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">desAI, m.A., c.f. foley et J.J. HInes (2006), « The Demand for Tax Haven Operations », Journal of Public Economics, 90(3) : 513-531.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,164.17,323.98,8.80;34,72.00,176.36,314.99,8.80;34,72.00,188.56,63.04,8.80" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_uXNa7ht">Taxes and the location of production: evidence from a panel of US multinationals</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">P</forename><surname>Devereux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Griffith</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0047-2727(98)00014-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_egWTD79">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="335" to="367" />
+			<date type="published" when="1998-06">1998</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">deveReux, m.p. et R. GRIffIth (1998), « Taxes and the Location of Production: Evidence from a Panel of US Multinationals », Journal of Public Economics, 68(3) : 335-367.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,206.75,324.02,8.80;34,72.00,218.95,209.30,8.80" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_J7gVqmU">Which countries become tax havens?</title>
+		<author>
+			<persName><forename type="first">Dhammika</forename><surname>Dharmapala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Hines</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpubeco.2009.07.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rQ5zkst">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">9-10</biblScope>
+			<biblScope unit="page" from="1058" to="1068" />
+			<date type="published" when="2009-10">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">dhARmApAlA, D. et J.R. Hines (2009), « Which Countries Become Tax Havens? », Journal of Public Economics, 93(9-10) : 1058-1068.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,237.14,324.02,8.80;34,72.00,249.33,315.00,8.80;34,72.00,261.53,110.03,8.80" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_vmFv96s">Earnings shocks and tax-motivated income-shifting: Evidence from European multinationals</title>
+		<author>
+			<persName><forename type="first">Dhammika</forename><surname>Dharmapala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nadine</forename><surname>Riedel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpubeco.2012.08.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zAmU3ek">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">C</biblScope>
+			<biblScope unit="page" from="95" to="107" />
+			<date type="published" when="2013-01">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DhARmApAlA, D. et N. RIedel (2013), « Earnings Shocks and Tax-motivated Income-Shifting: Evidence from European Multinationals », Journal of Public Economics, 97(C) : 95-107.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,279.72,324.02,8.80;34,72.00,291.92,315.00,8.80;34,72.00,304.11,315.00,8.80;34,63.00,322.30,324.02,8.80;34,72.00,334.50,207.86,8.80" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_UdZUMDN">Transfer Prices and Import and Export Price Indexes: Theory and Practice</title>
+		<author>
+			<persName><forename type="first">Erwin</forename><forename type="middle">Erwin</forename><surname>Diewert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Alterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorraine</forename><surname>Eden</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.734883</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Uqu9Sg7">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Diewert</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">.</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Nakamura</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Productivity</forename><surname>Price</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Measurement</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Dyreng</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Hanlon</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Maydew</surname></persName>
+		</editor>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="82" />
+			<date type="published" when="2006">2006. 2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">dIeweRt, E., W. AlteRmAn et L. eden (2006), « Transfer Prices and Import and Export Price Indexes: Theory and Practice », in DIeweRt, w. e., b. m. bAlk, d. fIxleR, k. J. fox et A. O. NAkAmuRA, Price and Productivity Measurement. dyReng, s.d., m. hAnlon et E.L. MAydew (2008), « Long Run Corporate Tax Avoidance », The Accounting Review, 83(1) : 61-82.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,352.69,324.00,8.80;34,72.00,364.89,315.08,8.80;34,72.00,377.08,47.01,8.80" xml:id="b20">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">L</forename><surname>Maydew</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">R</forename><surname>Sloan</surname></persName>
+		</author>
+		<title level="m" xml:id="_sm5sb6S">Changes in Corporate Effective Tax Rates over the Past Twenty-five Years</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">dyReng, s., m. hAnlon, e.l. mAydew et J.R. thoRnock (2015), « Changes in Corporate Effective Tax Rates over the Past Twenty-five Years », mimeo, MIT Sloan.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,395.28,324.00,8.80;34,72.00,407.47,315.00,8.80;34,72.00,419.66,58.25,8.80" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_rhhyCcU">Corporate Taxation, Debt Financing and Foreign-plant Ownership</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Winner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_P6jWKRs">European Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="96" to="107" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">eggeR, p., w. eggeRt, c. keuschnIgg et H. WInneR (2010), « Corporate Taxation, Debt Financing and Foreign-plant Ownership », European Economic Review 54(1) : 96-107.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,437.86,324.00,8.80;34,72.00,450.05,154.55,8.80" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_WudbG9s">The Taxing Task of Taxing Transnationals</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nGwsm7t">Journal of Economic Literature</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="800" to="838" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">gResIk, T.A. (2001), « The Taxing Task of Taxing Transnationals », Journal of Economic Literature, 39(3) : 800-838.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,468.25,324.01,8.80;34,72.00,480.44,315.01,8.80;34,72.00,492.63,100.37,8.80" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_jeWn3z2">The Use of Tax Havens in Exemption Regimes</title>
+		<author>
+			<persName><forename type="first">Anna</forename><surname>Gumpert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Monika</forename><surname>Schnitzer</surname></persName>
+		</author>
+		<idno type="DOI">10.3386/w17644</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_n6NeAR6">NBER Working Papers 17644</title>
+		<imprint>
+			<publisher>National Bureau of Economic Research</publisher>
+			<date type="published" when="2011-12">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">gumpeRt, A., J.R. hInes, et M. SchnItze (2011), « The Use of Tax Havens in Exemption Regimes », NBER Working Papers 17644, National Bureau of Economic Research, Inc.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,510.83,324.04,8.80;34,72.00,523.02,314.97,8.80;34,72.00,535.22,315.02,8.80;34,72.00,547.41,123.93,8.80" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_aPKA3AN">Multinationals&apos; Profit Response to Tax Differentials: Effect Size and Shifting Channels</title>
+		<author>
+			<persName><forename type="first">Jost</forename><surname>Heckemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Overesch</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.2303679</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VhEqyFp">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">045</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">heckemeyer, J.H. et M. OveResch (2013), « Multinationals&apos; Profit Response to Tax Differentials: Effect Size and Shifting Channels », ZEW Discussion Papers 13-045, ZEW-Zentrum für Europäische Wirtschaftsforschung / Center for European Economic Research.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,565.60,323.98,8.80;34,72.00,577.80,162.90,8.80" xml:id="b25">
+	<monogr>
+		<title level="m" type="main" xml:id="_HFydCfh">Offshore Financial Centres and the Canadian Economy », mimeo</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Rotman School of Management</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">heJAzI, W. (2007), « Offshore Financial Centres and the Canadian Economy », mimeo, Rotman School of Management.</note>
+</biblStruct>
+
+<biblStruct coords="34,63.00,595.99,324.00,8.80;34,72.00,608.19,315.00,8.80;34,72.00,620.38,81.49,8.80" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_F3zF5j2">International profit shifting within multinationals: A multi-country perspective</title>
+		<author>
+			<persName><forename type="first">Harry</forename><surname>Huizinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Laeven</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpubeco.2007.11.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5qqySrp">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="1164" to="1182" />
+			<date type="published" when="2008-06">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HuIzIngA, H. et L. lAeven (2008), « International Profit Shifting within Multinationals: A Multi-country Perspective », Journal of Public Economics, 92(5-6) : 1164-1182.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,91.20,323.99,8.80;35,72.00,103.20,314.99,8.80;35,72.00,115.20,44.32,8.80" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_7GKbe5M">Tax Reforms, Debt Shifting and Tax Revenues: Multinational Corporations in Canada</title>
+		<author>
+			<persName><forename type="first">Vijay</forename><surname>Jog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianmin</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1008749415492</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tepSMu6">International Tax and Public Finance</title>
+		<title level="j" type="abbrev">International Tax and Public Finance</title>
+		<idno type="ISSN">0927-5940</idno>
+		<idno type="ISSNe">1573-6970</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="25" />
+			<date type="published" when="2001-01">2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jog, V. et J. TAng (2001), « Tax Reforms, Debt Shifting and Tax Revenues: Multinational Corporations in Canada », International Tax and Public Finance, 8(1) : 5-25.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,133.20,324.00,8.80;35,72.00,145.20,314.96,8.80;35,72.00,157.20,124.69,8.80" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" xml:id="_BYfeCTm">Do Multinationals or Domestic Firms Face Higher Effective Tax Rates?</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Markle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Douglas</forename><surname>Shackelford</surname></persName>
+		</author>
+		<idno type="DOI">10.3386/w15091</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xW7RbJp">Do Multinationals or Domestic Firms Face Higher Effective Tax Rates? », NBER Working Papers 15091</title>
+		<imprint>
+			<publisher>National Bureau of Economic Research</publisher>
+			<date type="published" when="2009-06">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MARkle, K.S. et D. ShAckelfoRd (2009), « Do Multinationals or Domestic Firms Face Higher Effective Tax Rates? », NBER Working Papers 15091, National Bureau of Economic Research.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,175.20,324.02,8.80;35,72.00,187.20,315.01,8.80;35,72.00,199.20,121.93,8.80" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_rZgyxMR">Income shifting, investment, and tax competition: theory and evidence from provincial taxation in Canada</title>
+		<author>
+			<persName><forename type="first">Jack</forename><surname>Mintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Smart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0047-2727(03)00060-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E5NU6pY">Journal of Public Economics</title>
+		<title level="j" type="abbrev">Journal of Public Economics</title>
+		<idno type="ISSN">0047-2727</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1149" to="1168" />
+			<date type="published" when="2004-06">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MIntz, J. et M. SmARt (2004), « Income Shifting, Investment, and Tax Competition: Theory and Evidence from Provincial Taxation in Canada », Journal of Public Economics, 88(6) : 1149-1168.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,217.20,324.01,8.80;35,72.00,229.20,309.97,8.80" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_qJwkQer">Meeting of the OECD Council at Ministerial Level</title>
+		<idno type="DOI">10.1787/9789264064553-en</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_eeqbNSQ">Towards Global Tax Cooperation, Report to the 2000 Ministerial Council Meeting and Recommendations by the Committee on Fiscal Affairs</title>
+		<imprint>
+			<publisher>OECD Publishing</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">oecd (2000), Towards Global Tax Cooperation, Report to the 2000 Ministerial Council Meeting and Recommendations by the Committee on Fiscal Affairs.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,247.20,324.01,8.80" xml:id="b31">
+	<monogr>
+		<title level="m" type="main" xml:id="_BcgAcYj">Action Plan on Base Erosion and Profit Shifting</title>
+		<author>
+			<persName coords=""><surname>Oecd</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/9789264202719-en</idno>
+		<imprint>
+			<date type="published" when="2013-07-19">2013</date>
+			<publisher>OECD</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">OECD (2013), Action Plan on Base Erosion and Profit Shifting, OECD Publishing.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,265.20,324.02,8.80;35,72.00,277.20,314.95,8.80;35,72.00,289.20,314.99,8.80;35,72.00,301.20,82.56,8.80" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_PS3TCUb">Transfer Pricing of Intrafirm Sales as a Profit Shifting Channel - Evidence from German Firm Data</title>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Overesch</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.955758</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bpd9dVc">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">OveResch, M. (2006), « Transfer Pricing of Intrafirm Sales as a Profit Shifting Channel: Evidence from German Firm Data », ZEW Discussion Papers 06-84, ZEW-Zentrum für Europäische Wirtschaftsforschung / Center for European Economic Research.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,319.20,324.01,8.80;35,72.00,331.20,314.99,8.80;35,72.00,343.20,136.50,8.80" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" xml:id="_xdQEkkM">Canadian-based Multinationals: An Analysis of Activities and Performance</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Legault</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Ahmad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ze6NCbC">Working Papers</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="1994">1994</date>
+			<publisher>Industry Canada Micro-Economic Policy Analysis</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RAo, S., M. legAult et A. AhmAd (1994), « Canadian-based Multinationals: An Analysis of Activities and Performance », Working Papers 2, Industry Canada Micro-Economic Policy Analysis.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,361.20,324.00,8.80;35,72.00,373.20,102.87,8.80" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_HYkeABb">Tax Reforms and Evidence of Transfer Pricing</title>
+		<author>
+			<persName coords=""><forename type="first">Deborah</forename><forename type="middle">L</forename><surname>Swenson</surname></persName>
+		</author>
+		<idno type="DOI">10.17310/ntj.2001.1.01</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cG2E8zK">National Tax Journal</title>
+		<title level="j" type="abbrev">National Tax Journal</title>
+		<idno type="ISSN">0028-0283</idno>
+		<idno type="ISSNe">1944-7477</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="25" />
+			<date type="published" when="2001-03-01">2001</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">swenson, D. L. (2001), « Tax Reforms and Evidence of Transfer Pricing », National Tax Journal, 54(1) : 7-26.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,391.20,324.02,8.80;35,72.00,403.29,33.45,8.70" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" xml:id="_bDDTSah">International Banking and Offshore Finance: London and the Major Centres</title>
+		<author>
+			<persName><forename type="first">Mervyn</forename><forename type="middle">K</forename><surname>Lewis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-349-14752-6_4</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Jchu3T6">Offshore Finance Centres and Tax Havens</title>
+		<imprint>
+			<publisher>Palgrave Macmillan UK</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="80" to="116" />
+		</imprint>
+	</monogr>
+	<note>tAx JustIce netwoRk</note>
+	<note type="raw_reference">tAx JustIce netwoRk (2007), Identifying Tax Havens and Offshore Finance Centres.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,421.20,323.97,8.80;35,72.00,433.20,314.94,8.80;35,72.00,445.20,244.53,8.80" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" xml:id="_HgkVDD2">Multinationality, Tax Havens, Intangible Assets, and Transfer Pricing Aggressiveness: An Empirical Analysis</title>
+		<author>
+			<persName><forename type="first">Grantley</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grant</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Roman</forename><surname>Lanis</surname></persName>
+		</author>
+		<idno type="DOI">10.2308/jiar-51019</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WazvbrB">Journal of International Accounting Research</title>
+		<idno type="ISSN">1542-6297</idno>
+		<idno type="ISSNe">1558-8025</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="57" />
+			<date type="published" when="2015-01-01">2015</date>
+			<publisher>American Accounting Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">tAyloR, g., g. RIchARdson et R. lAnIs (2015), « Multinationality, Tax Havens, Intangible Assets, and Transfer Pricing Aggressiveness: An Empirical Analysis », Journal of International Accounting Research, 14(1) : 25-57.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,463.20,323.97,8.80;35,72.00,475.20,65.64,8.80" xml:id="b37">
+	<monogr>
+		<title level="m" type="main" xml:id="_5UN2YSA">Transfer Pricing of Multinational Companies and Aggregate Trade</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">vIcARd, V. (2014), « Transfer Pricing of Multinational Companies and Aggregate Trade », mimeo.</note>
+</biblStruct>
+
+<biblStruct coords="35,63.00,493.20,324.04,8.80;35,72.00,505.20,284.08,8.80" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" xml:id="_xTq22d3">Taxing across Borders: Tracking Personal Wealth and Corporate Profits</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vbyNpHY">Journal of Economic Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="121" to="148" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">zucmAn, G. (2014), « Taxing across Borders: Tracking Personal Wealth and Corporate Profits », Journal of Economic Perspectives, 28(4) : 121-48.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

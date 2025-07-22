@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_fhvJbXc">CHOCS DE PRIX INTERNATIONAUX ET TRANSMISSION : CAS DU MARCHÉ DU RIZ AU BURKINA FASO</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,63.00,213.17,64.72,8.80"><forename type="first">Félix</forename><surname>Badolo</surname></persName>
+							<email>felix.badolo1@u-clermont1.fr</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Centre d&apos;Études et de Recherches sur le Développement International (CERDI) , Clermont-Ferrand , France</note>
+								<orgName type="department">Centre d&apos;Études et de Recherches sur le Développement International (CERDI)</orgName>
+								<address>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_2BEW36u">CHOCS DE PRIX INTERNATIONAUX ET TRANSMISSION : CAS DU MARCHÉ DU RIZ AU BURKINA FASO</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1FB1AFAEA34C3F8DBBDDD1FFC54F6F85</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T21:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-12-g5c1957b1e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_Vf6rBHP"><p xml:id="_MeZFbCh"><s xml:id="_DZmRrFV" coords="1,101.25,307.68,285.75,7.92;1,63.00,318.53,324.00,7.92;1,63.00,329.38,202.07,7.92">Comment les marchés des produits agricoles dans les pays en développement répondent-ils aux chocs de prix sur les marchés internationaux est une question cruciale en économie agricole qui n'est pas totalement résolue.</s><s xml:id="_yVN2yBM" coords="1,268.25,329.38,118.71,7.92;1,63.00,340.23,324.00,7.92;1,63.00,351.08,324.00,7.92;1,63.00,361.93,49.76,7.92">La hausse des prix des produits agricoles sur les marchés internationaux durant la période 2006-2008 a entraîné une flambée des prix intérieurs dans certains pays en développement, mais cela n'a pas été le cas dans d'autres pays.</s><s xml:id="_AakqZVA" coords="1,115.74,361.93,271.28,7.92;1,63.00,372.78,324.01,7.92;1,63.00,383.63,29.43,7.92">La littérature empirique sur l'analyse de l'ampleur de la transmission des chocs des prix internationaux aux prix intérieurs dans les pays en développement reste très mitigée.</s><s xml:id="_dafZrrZ" coords="1,95.44,383.63,291.57,7.92;1,63.00,394.48,324.02,7.92;1,63.00,405.33,205.61,7.92">L'objectif de cet article est d'évaluer la relation entre le prix du riz importé au Burkina Faso et le prix international, à partir des tests de coïntégration linéaires et non linéaires (modèle autorégressif à seuil ou modèle TAR).</s><s xml:id="_peavvFd" coords="1,271.14,405.33,115.87,7.92;1,63.00,416.18,324.00,7.92;1,63.00,427.03,195.71,7.92">L'analyse empirique se base sur des séries mensuelles de prix pour deux marchés du Burkina Faso : le marché de Sankaryaré à Ouagadougou et le marché de Dori au nord du pays.</s><s xml:id="_pE3P57j" coords="1,261.03,427.03,125.97,7.92;1,63.00,437.88,270.21,7.92">Les résultats montrent que les prix du riz importé sur ces deux marchés sont intégrés au prix international.</s><s xml:id="_mvXxcGN" coords="1,336.44,437.88,50.57,7.92;1,63.00,448.73,182.41,7.92">L'élasticité de transmission de long terme apparaît être importante.</s><s xml:id="_QgyXQFc" coords="1,247.16,448.73,139.82,7.92;1,63.00,459.58,251.01,7.92">Le modèle TAR révèle une transmission asymétrique dont l'ampleur diffère en fonction de la nature des chocs.</s><s xml:id="_z2YtJTz" coords="1,316.01,459.58,70.94,7.92;1,63.00,470.43,324.04,7.92">Les hausses du prix international se transmettent plus rapidement aux prix intérieurs par rapport aux baisses.</s><s xml:id="_5yXNKbr" coords="1,63.00,481.28,324.00,7.92;1,63.00,492.13,253.36,7.92">Ces résultats s'expliquent par le pouvoir de marché des intermédiaires commerciaux, les coûts de transport et les mécanismes d'intervention du gouvernement.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="28" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="29" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+		<surface n="30" ulx="0.0" uly="0.0" lrx="450.0" lry="684.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fPjnewz" coords="1,63.00,520.47,53.88,8.80">IntRoductIon</head><p xml:id="_SDNmSh4"><s xml:id="_MCF4acf" coords="1,78.00,537.32,309.02,8.80;1,63.00,549.17,324.00,8.80;1,63.00,561.02,31.50,8.80">Le concept d'intégration des marchés agricoles a été longtemps débattu en lien avec la libéralisation des marchés des biens alimentaires dans les pays en développement.</s><s xml:id="_rPZnuyr" coords="1,96.58,561.02,290.44,8.80;1,63.00,572.87,204.46,8.80">En effet, l'intégration des marchés reste une condition nécessaire pour une réforme efficace des marchés des produits agricoles.</s><s xml:id="_3uNJRZV" coords="1,269.44,572.87,117.56,8.80;1,63.00,584.72,324.07,8.80;1,63.00,596.57,324.00,8.80;1,63.00,608.42,324.01,8.80;1,63.00,620.27,277.91,8.80">En l'absence d'une intégration spatiale des marchés, les signaux de prix ne sont pas transmis des régions à excédent alimentaire aux régions à déficit alimentaire, les prix sont plus volatiles, les producteurs agricoles auront du mal à se spécialiser selon la théorie de l'avantage comparatif à long terme et les gains du commerce seront difficilement réalisables.</s></p><p xml:id="_x4MP8mz"><s xml:id="_CQsfmKV" coords="2,78.00,91.20,309.00,8.80;2,63.00,103.20,198.19,8.80">Les travaux empiriques sur le degré de transmission des chocs des prix internationaux aux prix intérieurs restent très mitigés.</s><s xml:id="_8ydW4BW" coords="2,263.89,103.20,123.09,8.80;2,63.00,115.20,323.99,8.80;2,63.00,127.20,324.05,8.80;2,63.00,139.20,48.17,8.80">En utilisant des données de 22 pays en développement couvrant la période <ref type="bibr" coords="2,231.63,115.20,16.53,8.80">1961</ref><ref type="bibr" coords="2,252.30,115.20,16.53,8.80" target="#b23">-1987</ref><ref type="bibr" coords="2,328.53,115.20,21.25,8.80">, Hazell et al. (1990) )</ref> montrent que la variation des prix mondiaux n'est pas transmise aux prix moyens payés aux producteurs.</s><s xml:id="_DrXpExg" coords="2,113.11,139.20,273.94,8.80;2,63.00,151.20,129.39,8.80">Les auteurs expliquent cela par le taux de change réel et les mécanismes d'intervention du gouvernement.</s><s xml:id="_u8KYrqp" coords="2,194.58,151.20,192.42,8.80;2,63.00,163.20,323.97,8.80;2,63.00,175.20,161.80,8.80">Par ailleurs, les auteurs trouvent une forte corrélation entre les prix aux producteurs et les prix d'exportation pour le café mais cela n'a pas été le cas pour les autres produits.</s><s xml:id="_mzCBGQ9" coords="2,226.91,175.20,160.07,8.80;2,63.00,187.20,324.02,8.80;2,63.00,199.20,324.00,8.80;2,63.00,211.20,324.02,8.80">Dans leur étude basée sur un échantillon de 58 pays et avec des données de prix couvrant la période <ref type="bibr" coords="2,303.59,187.20,17.70,8.80">1968</ref><ref type="bibr" coords="2,321.29,187.20,22.12,8.80">-1978</ref><ref type="bibr" coords="2,343.41,187.20,43.61,8.80;2,63.00,199.20,65.47,8.80">, Mundlak et Larson (1992)</ref> mettent en évidence une transmission presque parfaite des variations des prix internationaux aux prix intérieurs dans les pays en développement.</s><s xml:id="_48az6pc" coords="2,63.00,223.20,324.02,8.80;2,63.00,235.20,324.02,8.80;2,63.00,247.20,205.85,8.80"><ref type="bibr" coords="2,63.00,223.20,138.79,8.80">Bakhshoodeh et Sahraeian (2006)</ref> analysent l'intégration des marchés agricoles en Iran après son entrée dans l'Organisation mondiale du commerce, en utilisant des données de prix couvrant la période <ref type="bibr" coords="2,223.13,247.20,45.72,8.80">1984-2002.</ref></s><s xml:id="_t637MVf" coords="2,271.00,247.20,116.04,8.80;2,63.00,259.20,324.01,8.80;2,63.00,271.20,320.29,8.80">Les auteurs concluent que les marchés nationaux ne sont pas intégrés aux marchés internationaux à long terme et ils expliquent ce résultat par les mécanismes d'intervention du gouvernement.</s></p><p xml:id="_wvGj96G"><s xml:id="_ax2gqrN" coords="2,78.00,289.20,308.98,8.80;2,63.00,301.20,298.79,8.80">La hausse des prix des produits de base sur les marchés internationaux durant la période 2006-2008 a renouvelé le débat sur la transmission des prix.</s><s xml:id="_CfHQqxY" coords="2,364.95,301.20,22.03,8.80;2,63.00,313.20,323.90,8.80;2,63.00,325.20,238.46,8.80">Cette flambée des prix qui a débuté en 2006 s'est intensifiée avec une inflation croissante touchant les prix alimentaires sur la période <ref type="bibr" coords="2,253.86,325.20,19.04,8.80">[2007]</ref><ref type="bibr" coords="2,277.66,325.20,19.04,8.80">[2008]</ref>.</s><s xml:id="_a6Hp6m8" coords="2,304.69,325.20,82.36,8.80;2,63.00,337.20,323.99,8.80;2,63.00,349.20,262.61,8.80">Cela a conduit à un accroissement de l'insécurité alimentaire et à de violentes protestations dans les grandes agglomérations dans beaucoup de pays en développement.</s><s xml:id="_ZRz6GMP" coords="2,327.70,349.20,59.34,8.80;2,63.00,361.20,324.05,8.80;2,63.00,373.20,108.15,8.80;2,170.53,372.68,2.90,5.10;2,175.74,373.20,211.25,8.80;2,63.00,385.20,79.22,8.80">L'Organisation des Nations Unies pour l'agriculture et l'alimentation (FAO) montre dans une étude datant de 2009 que l'indice 1 des prix alimentaires avait augmenté de 7 % en 2006 et de 27 % en 2007.</s><s xml:id="_p2gWEVD" coords="2,144.78,385.20,242.16,8.80;2,63.00,397.20,127.73,8.80">Cette hausse s'est accélérée dans la première moitié de 2008 pour atteindre un taux de 61 %.</s><s xml:id="_gCWJZ6b" coords="2,193.43,397.20,193.56,8.80;2,63.00,409.20,253.42,8.80">Entre janvier 2007 et mars 2008, les prix du blé et du riz ont presque doublé, celui du maïs a augmenté de 42 %.</s><s xml:id="_Wezks5V" coords="2,318.76,409.20,68.21,8.80;2,63.00,421.20,324.02,8.80;2,63.00,433.20,177.30,8.80">En 2009, les prix céréaliers ont connu une baisse mais sont restés tout de même significativement très élevés par rapport à leur niveau de 2006.</s><s xml:id="_YhysHNu" coords="2,242.43,433.20,144.59,8.80;2,63.00,445.20,235.59,8.80">Par exemple, le prix moyen du riz en 2009 est 90 % plus élevé que son niveau moyen de 2006.</s><s xml:id="_dRZSZB2" coords="2,301.64,445.20,85.38,8.80;2,63.00,457.20,324.00,8.80;2,63.00,469.20,324.04,8.80;2,63.00,481.20,199.88,8.80">Le graphique A1 (en annexe) montre que l'ensemble des prix des produits agricoles ont augmenté sur la période 2000-2009 avec un taux d'augmentation élevé et variant significativement d'un produit à un autre sur la période <ref type="bibr" coords="2,216.28,481.20,18.64,8.80">[2006]</ref><ref type="bibr" coords="2,234.92,481.20,4.66,8.80">[2007]</ref><ref type="bibr" coords="2,239.58,481.20,18.64,8.80">[2008]</ref>.</s><s xml:id="_UscXCtp" coords="2,265.65,481.20,121.39,8.80;2,63.00,493.20,323.97,8.80;2,63.00,505.20,91.56,8.80">Les prix internationaux du riz et d'huile de palme ont augmenté de manière importante par rapport aux prix du maïs, du blé et du soja.</s></p><p xml:id="_hd92huQ"><s xml:id="_2cdrYK9" coords="2,78.00,523.20,308.96,8.80;2,63.00,535.20,236.68,8.80">Plusieurs facteurs expliquent cette flambée des prix des produits agricoles sur les marchés internationaux durant la période <ref type="bibr" coords="2,251.99,535.20,19.08,8.80">[2006]</ref><ref type="bibr" coords="2,271.07,535.20,4.77,8.80">[2007]</ref><ref type="bibr" coords="2,275.84,535.20,19.08,8.80">[2008]</ref>.</s><s xml:id="_RmzePjr" coords="2,302.82,535.20,84.21,8.80;2,63.00,547.20,324.00,8.80;2,63.00,559.20,324.00,8.80;2,63.00,571.20,23.38,8.80">Il y a entre autres la hausse du prix du pétrole, la dépréciation du dollar américain par rapport à l'euro et les politiques de restriction aux exportations pratiquées par certains pays émergents.</s><s xml:id="_yGhS8mb" coords="2,88.75,571.20,298.21,8.80;2,63.00,583.20,136.71,8.80">Le prix du pétrole est passé de 30 dollars US le baril en 2003 à plus de 140 dollars US le baril en juillet 2008.</s><s xml:id="_ausQj4m" coords="2,202.17,583.20,184.84,8.80;2,78.00,612.70,5.71,7.04">Cela a entraîné une augmentation des prix des 1.</s></p><p xml:id="_EWkKy37"><s xml:id="_puJWV5P" coords="2,99.00,612.70,288.03,7.04;2,63.00,621.70,98.20,7.04">Indice des prix pondéré de Laspeyres des cotations internationales exprimé en dollar US pour 55 produits alimentaires.</s><s xml:id="_RyGF4yd" coords="3,63.00,91.20,323.98,8.80;3,63.00,103.20,323.95,8.80">biens alimentaires liée à une hausse du coût des intrants agricoles particulièrement le coût des engrais, de l'irrigation agricole, de l'agriculture mécanisée et du transport.</s><s xml:id="_rweZKkD" coords="3,63.00,115.20,324.00,8.80;3,63.00,127.20,324.04,8.80;3,63.00,139.20,60.67,8.80"><ref type="bibr" coords="3,63.00,115.20,57.06,8.80">Lazear (2008)</ref> et <ref type="bibr" coords="3,131.50,115.20,69.72,8.80" target="#b28">Rosegrant (2008)</ref> montrent que la croissance de la production de biocarburants explique 33 à 39 % de la hausse des prix du maïs sur les marchés internationaux.</s><s xml:id="_nEakqWr" coords="3,126.44,139.20,260.59,8.80;3,63.00,151.20,286.62,8.80">La baisse du dollar américain par rapport à l'euro a entraîné une hausse des prix des biens alimentaires libellés en dollar <ref type="bibr" coords="3,290.71,151.20,54.69,8.80" target="#b20">(Minot, 2010)</ref>.</s><s xml:id="_tcWrrDF" coords="3,352.40,151.20,34.61,8.80;3,63.00,163.20,323.95,8.80;3,63.00,175.20,148.63,8.80">En effet, la dépréciation du dollar sur la période 2007-2008 explique 15 à 27 % de la hausse des prix agricoles libellés en dollar.</s><s xml:id="_fXebj7A" coords="3,214.76,175.20,172.25,8.80;3,63.00,187.20,324.01,8.80;3,63.00,199.20,324.00,8.80">Vers la fin de l'année 2007 et le début de l'année 2008, certains pays exportateurs de produits agricoles ont contribué à la flambée des prix internationaux par une politique de restriction de leurs exportations.</s><s xml:id="_USqPf3y" coords="3,63.00,211.20,323.97,8.80;3,63.00,223.20,324.01,8.80;3,63.00,235.20,47.91,8.80">von <ref type="bibr" coords="3,80.78,211.20,78.91,8.80" target="#b33">Braun et al. (2008)</ref> ont montré que ces restrictions ont joué un rôle majeur dans la forte hausse du prix mondial du riz mais pas de manière importante dans celle du blé.</s><s xml:id="_89x6vQx" coords="3,113.32,235.20,273.72,8.80;3,63.00,247.20,323.99,8.80;3,63.00,259.20,210.02,8.80">L'impact de cette flambée des prix sur la pauvreté dans beaucoup de pays en développement a mobilisé la communauté internationale dans le but de limiter les problèmes de pauvreté et de malnutrition.</s></p><p xml:id="_hf9UQsB"><s xml:id="_tYR3Xef" coords="3,78.00,277.20,309.01,8.80;3,63.00,289.20,323.99,8.80;3,63.00,301.20,324.02,8.80">Certaines études ont montré que la flambée des prix des produits agricoles sur les marchés internationaux durant la période 2006-2008 a entraîné une montée en flèche des prix des denrées alimentaires dans de nombreux pays en développement.</s><s xml:id="_AfbY9YS" coords="3,63.00,313.20,324.00,8.80;3,63.00,325.20,169.55,8.80">Ce constat n'est pas généralisé car dans certains pays, la hausse des prix internationaux a eu des effets moins importants.</s><s xml:id="_8zdGsSk" coords="3,235.60,325.20,151.41,8.80;3,63.00,337.20,107.52,8.80">Diverses raisons<ref type="foot" coords="3,302.36,324.68,2.92,5.10" target="#foot_1">foot_1</ref> sont évoquées pour expliquer une telle situation.</s><s xml:id="_DRcRKgc" coords="3,172.44,337.20,214.52,8.80;3,63.00,349.20,323.97,8.80;3,63.00,361.20,323.98,8.80;3,63.00,373.20,158.90,8.80">Il y a entre autres la mauvaise qualité des infrastructures de transport et des services de communication, les mécanismes d'intervention des gouvernements, la complexité des filières de commercialisation, les accords contractuels entre agents économiques.</s><s xml:id="_YCpdKVV" coords="3,224.93,373.20,162.13,8.80;3,63.00,385.20,324.04,8.80;3,63.00,397.20,324.00,8.80;3,63.00,409.20,324.00,8.80;3,63.00,421.20,192.26,8.80">En effet, les reformes politiques dans le secteur agricole peuvent limiter la transmission des variations des prix émanant du marché international aux marchés nationaux, mais aussi conduire à une transmission asymétrique, c'est-à-dire les hausses de prix internationaux ne se transmettrons pas de la même manière que les baisses.</s><s xml:id="_ARt8vMM" coords="3,257.30,421.20,129.75,8.80;3,63.00,433.20,323.94,8.80;3,63.00,445.20,178.05,8.80">Les intermédiaires commerciaux peuvent profiter de la complexité des circuits commerciaux dans l'objectif de s'octroyer un pouvoir sur les prix de marché.</s><s xml:id="_bRjHVBu" coords="3,243.43,445.20,143.58,8.80;3,63.00,457.20,283.54,8.80">Ainsi, ils vont chercher à tirer profit des opportunités qui pourraient accroître leurs marges bénéficiaires.</s><s xml:id="_Azdmbv7" coords="3,349.65,457.20,37.35,8.80;3,63.00,469.20,265.68,8.80">Une telle situation est génératrice d'asymétrie dans la transmission des prix.</s></p><p xml:id="_MXYjqyw"><s xml:id="_eznryud" coords="3,78.00,487.20,309.00,8.80;3,63.00,499.20,323.99,8.80;3,63.00,511.20,324.05,8.80">L'objectif de notre article est d'évaluer la transmission des chocs de prix internationaux du riz aux prix du riz importé sur les marchés au Burkina Faso tout en mettant en évidence les facteurs susceptibles d'influencer le degré de transmission.</s><s xml:id="_pQqtq4z" coords="3,63.00,523.20,229.68,8.80">Une telle analyse n'a pas encore été faite au Burkina Faso.</s><s xml:id="_ggsFQzA" coords="3,294.89,523.20,92.09,8.80;3,63.00,535.20,324.03,8.80;3,63.00,547.20,84.25,8.80">Le Burkina Faso est un importateur de riz et 60 % des besoins de consommation des ménages sont couverts par les importations.</s><s xml:id="_kTdV2GM" coords="3,150.28,547.20,236.65,8.80;3,63.00,559.20,81.58,8.80">Cela met en évidence la dépendance du pays vis-à-vis des importations de riz.</s><s xml:id="_FM9RZQY" coords="3,147.67,559.20,239.29,8.80;3,63.00,571.20,277.21,8.80">On peut donc penser qu'il pourrait avoir une transmission presque parfaite des chocs de prix internationaux aux prix intérieurs.</s><s xml:id="_NNVSKwU" coords="3,342.76,571.20,44.24,8.80;3,63.00,583.20,323.97,8.80;4,63.00,91.20,283.56,8.80">Les importations de riz du Burkina Faso mettent en jeu un certain nombre d'agents économiques : les intermédiaires commerciaux et les pouvoirs publics.</s><s xml:id="_rM9DBcE" coords="4,349.03,91.20,37.93,8.80;4,63.00,103.20,323.94,8.80;4,63.00,115.20,138.41,8.80">L'objectif premier des intermédiaires commerciaux est de maximiser leur marge bénéficiaire en influençant les prix de marché.</s><s xml:id="_QEUjk3C" coords="4,204.25,115.20,182.74,8.80;4,63.00,127.20,323.95,8.80;4,63.00,139.20,100.14,8.80">Les pouvoirs publiques quand à eux ont pour principal objectif de garantir un prix au consommateur et au producteur, ce qui n'est pas toujours évident.</s><s xml:id="_u65NdDr" coords="4,165.18,139.20,221.87,8.80;4,63.00,151.20,235.38,8.80">Les deux marchés du Burkina Faso considérés dans cette analyse sont : le marché de Sankaryaré et le marché de Dori.</s><s xml:id="_Za8DrKV" coords="4,300.42,151.20,86.66,8.80;4,63.00,163.20,223.03,8.80">Ce sont les principaux marchés céréaliers et particulièrement pour le riz importé.</s><s xml:id="_HvZ3A7B" coords="4,287.98,163.20,99.00,8.80;4,63.00,175.20,323.96,8.80">Le marché de Sankaryaré est le plus important marché de Ouagadougou en termes de commerce céréalier.</s><s xml:id="_xdytBnQ" coords="4,63.00,187.20,264.18,8.80">Ce marché approvisionne d'autres marchés à l'intérieur du pays.</s><s xml:id="_A8KEpka" coords="4,330.26,187.20,56.71,8.80;4,63.00,199.20,323.92,8.80;4,63.00,211.20,176.16,8.80">Le marché de Dori est situé à plus de 400 km de Ouagadougou au nord du Burkina Faso et connait aussi un commerce céréalier très important.</s></p><p xml:id="_zJaw2qC"><s xml:id="_9sRTX6t" coords="4,78.00,229.20,309.04,8.80;4,63.00,241.20,323.97,8.80;4,63.00,253.20,226.36,8.80">L'évaluation empirique de l'ampleur de la transmission des récents chocs de prix des produits agricoles sur des marchés mondiaux aux prix intérieurs a fait l'objet de peu d'études dans les pays en développement.</s><s xml:id="_tBQ72gC" coords="4,292.39,253.20,94.63,8.80;4,63.00,265.20,324.03,8.80;4,63.00,277.20,18.98,8.80">La présente analyse est guidée par l'hypothèse principale d'existence d'asymétrie dans la transmission des prix.</s><s xml:id="_ZNVRgwC" coords="4,84.10,277.20,302.88,8.80;4,63.00,289.20,306.19,8.80">Ainsi, nous supposons que les prix sur les marchés nationaux répondent plus rapidement aux hausses qu'aux baisses de prix sur le marché international.</s><s xml:id="_94gnc4b" coords="4,372.24,289.20,14.76,8.80;4,63.00,301.20,324.00,8.80;4,63.00,313.20,324.00,8.80;4,63.00,325.20,324.03,8.80;4,63.00,337.20,324.00,8.80;4,63.00,349.20,253.40,8.80">Les barrières aux échanges commerciaux tels que les coûts de transaction, les mécanismes d'intervention de l'État, le comportement oligopolistique de certains intermédiaires commerciaux dans les pays en développement peuvent constituer une taxe implicite à l'importation ou à l'exportation qui influence la vitesse d'ajustement des prix intérieurs aux chocs des prix internationaux.</s><s xml:id="_jZvSrjG" coords="4,319.53,349.20,67.51,8.80;4,63.00,361.20,323.96,8.80;4,63.00,373.20,324.03,8.80;4,63.00,385.20,97.25,8.80">Pour tester cette hypothèse, nous recourons aux tests de coïntégration standards et aux tests de coïntégration asymétrique<ref type="foot" coords="4,167.18,372.68,2.90,5.10" target="#foot_2">foot_2</ref> récemment développé par <ref type="bibr" coords="4,277.19,373.20,100.43,8.80">Enders et Granger (1998)</ref> et <ref type="bibr" coords="4,63.00,385.20,93.15,8.80" target="#b6">Enders et Siklos (2001)</ref>.</s><s xml:id="_hH7wdvh" coords="4,163.04,385.20,223.93,8.80;4,63.00,397.20,323.99,8.80;4,63.00,409.20,25.63,8.80">Le modèle de coïntégration à seuil permet de mettre en évidence une transmission asymétrique entre les prix des biens agricoles si elle existe.</s></p><p xml:id="_Q5tGrDq"><s xml:id="_Fr5KBmn" coords="4,78.00,427.20,309.00,8.80;4,63.00,439.20,323.96,8.80;4,63.00,451.20,323.98,8.80;4,63.00,463.20,88.40,8.80">Les conclusions de notre étude contribuent à enrichir la littérature sur l'intégration des marchés agricoles car elle se situe comme l'une des premières analyses qui s'intéressent à la transmission des chocs de prix internationaux aux prix sur les marchés intérieurs.</s><s xml:id="_JN2gbAy" coords="4,153.46,463.20,233.60,8.80;4,63.00,475.20,179.95,8.80">Les études précédentes ont mis en évidence la relation entre prix international et prix au niveau national.</s><s xml:id="_n3XmJAe" coords="4,245.94,475.20,141.02,8.80;4,63.00,487.20,323.98,8.80;4,63.00,499.20,221.20,8.80">C'est aussi la première étude de ce genre appliquée au Burkina Faso qui met en évidence la sensibilité des marchés intérieurs aux chocs de prix sur le marché international.</s><s xml:id="_RSnSBwa" coords="4,286.33,499.20,100.66,8.80;4,63.00,511.20,324.04,8.80;4,63.00,523.20,324.00,8.80;4,63.00,535.20,323.96,8.80;4,63.00,547.20,97.68,8.80">Notre analyse a confirmé l'influence des intermédiaires commerciaux, des interventions publiques et des coûts de transaction sur la transmission des prix soulignée dans les études précédentes, limitant ainsi le degré d'intégration des marchés du riz au Burkina Faso au marché international.</s></p><p xml:id="_4p3FGV4"><s xml:id="_DbzeNcF" coords="4,78.00,565.20,179.71,8.80">Le reste de l'article se présente comme suite.</s><s xml:id="_waMAZuj" coords="4,260.26,565.20,126.76,8.80;4,63.00,577.20,311.29,8.80">La première section discute des méthodes et des applications empiriques sur la transmission des prix agricoles.</s><s xml:id="_J2c3D9W" coords="4,376.40,577.20,10.62,8.80;5,63.00,91.20,237.31,8.80">La deuxième section décrit la filière du riz au Burkina Faso.</s><s xml:id="_3DbhDrc" coords="5,303.40,91.20,83.60,8.80;5,63.00,103.39,234.72,8.80">La troisième section présente la stratégie d'estimation utilisée dans cet article.</s><s xml:id="_7YWseyG" coords="5,300.78,103.39,86.24,8.80;5,63.00,115.58,196.31,8.80">La quatrième section présente et discute les résultats des estimations.</s><s xml:id="_qAetNcq" coords="5,262.39,115.58,124.61,8.80;5,63.00,127.77,66.54,8.80">La conclusion fait l'objet de la dernière section.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_5nKJKTC" coords="5,63.00,157.96,154.54,8.80">Revue de la lIttéRatuRe empIRIque</head><p xml:id="_jZB4wDw"><s xml:id="_yYz9Bnk" coords="5,78.00,176.14,309.00,8.80;5,63.00,188.33,323.95,8.80;5,63.00,200.52,323.96,8.80;5,63.00,212.71,285.68,8.80">Les études empiriques sur la transmission des prix visent à apporter des informations cruciales sur la manière dont les chocs survenant sur un marché sont répercutés sur un autre marché, mettant ainsi en évidence le degré d'intégration des marchés et l'efficacité du fonctionnement des structures de marché.</s></p><p xml:id="_jSqCBBK"><s xml:id="_FGsqNj9" coords="5,78.00,230.90,309.01,8.80;5,63.00,243.09,324.00,8.80;5,63.00,255.28,179.02,8.80">Nombreux sont les auteurs qui ont étudié la transmission des prix tant au niveau national qu'international (par exemple <ref type="bibr" coords="5,214.21,243.09,64.91,8.80" target="#b26">Ravallion, 1986;</ref><ref type="bibr" coords="5,281.16,243.09,72.19,8.80" target="#b29">Sexton et al. 1991;</ref><ref type="bibr" coords="5,355.39,243.09,31.61,8.80;5,63.00,255.28,21.96,8.80">Dercon, 1995;</ref><ref type="bibr" coords="5,86.97,255.28,53.86,8.80" target="#b1">Baulch, 1997;</ref><ref type="bibr" coords="5,142.85,255.28,94.88,8.80">Baffes et Gardner, 2003)</ref>.</s><s xml:id="_uRdc6NF" coords="5,244.03,255.28,142.90,8.80;5,63.00,267.47,324.00,8.80;5,63.00,279.66,324.00,8.80;5,63.00,291.85,323.97,8.80;5,63.00,304.03,324.00,8.80;5,63.00,316.22,125.84,8.80">Les récentes recherches s'intéressent à la transmission asymétrique des prix car certaines caractéristiques telles que l'intervention du gouvernement, les coûts de transport liés à la qualité des infrastructures de transport et de communication et le pouvoir de marché des intermédiaires commerciaux peuvent être sources d'asymétrie (par exemple <ref type="bibr" coords="5,307.70,304.03,79.30,8.80" target="#b27">Roberts et al. 1994;</ref><ref type="bibr" coords="5,63.00,316.22,53.97,8.80">Abdulai 2000</ref>; Subervie 2008).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_D9N5U8K" coords="5,63.00,346.41,118.61,8.80">Approches traditionnelles</head><p xml:id="_gwtMcAv"><s xml:id="_PdXstqZ" coords="5,78.00,364.60,309.05,8.80;5,63.00,376.79,324.00,8.80;5,63.00,388.98,34.66,8.80">La question de savoir comment un choc de prix sur un marché donné se transmet à un autre marché a longtemps été débattue dans la littérature consacrée à l'économie agricole.</s><s xml:id="_CX5hyF8" coords="5,100.08,388.98,286.96,8.80;5,63.00,401.17,91.04,8.80">Les études diffèrent selon la technique économétrique et selon les types de marché considérés.</s><s xml:id="_hWUsUmp" coords="5,157.12,401.17,229.88,8.80;5,63.00,413.36,323.99,8.80;5,63.00,425.55,324.06,8.80">Certaines études s'intéressent à la relation entre marché international et marché local; par contre d'autres se focalisent sur la relation entre marché déficitaire et marché excédentaire dans un même pays ou une même région.</s><s xml:id="_Q3tD96n" coords="5,63.00,437.73,324.00,8.80;5,63.00,449.92,73.05,8.80">Toutes ces études ont contribué à clarifier la question mais elle n'a pas été complètement résolue.</s><s xml:id="_sHFxcfv" coords="5,139.05,449.92,247.93,8.80;5,63.00,462.11,313.51,8.80">Dans cette partie, nous insistons d'avantage sur les méthodes utilisées dans les précédentes études tout en mettant en évidence leurs limites.</s></p><p xml:id="_2Hq7Tae"><s xml:id="_UEguvht" coords="5,78.00,480.30,308.91,8.80;5,63.00,492.49,143.21,8.80">Les premières études sur la transmission des prix ont utilisé une approche basée sur les simples corrélations de prix.</s><s xml:id="_gtXJtQ7" coords="5,208.93,492.49,178.10,8.80;5,63.00,504.68,323.96,8.80;5,63.00,516.87,175.33,8.80">Ainsi, un coefficient de corrélation élevé est synonyme d'une covariation importante des prix et est interprété comme un facteur de performance des structures du marché.</s><s xml:id="_6V3mKPQ" coords="5,241.47,516.87,145.49,8.80;5,63.00,529.06,323.95,8.80;5,63.00,541.25,323.92,8.80;5,63.00,553.44,83.25,8.80">Cette approche présente d'énormes faiblesses, notamment lorsque les données de prix sont non stationnaires ou dans le cas d'un système économique où les stocks sont importants <ref type="bibr" coords="5,305.16,541.25,81.76,8.80;5,63.00,553.44,21.60,8.80" target="#b35">(Williams et Wright, 1991;</ref><ref type="bibr" coords="5,87.10,553.44,54.87,8.80">Barrett, 1996)</ref>.</s></p><p xml:id="_sXCMe5C"><s xml:id="_UPuEA83" coords="5,78.00,571.62,309.02,8.80;5,63.00,583.81,159.30,8.80">Une autre approche a été suggérée pour prendre en compte les faiblesses liées aux tests de corrélation simple des prix.</s><s xml:id="_XDbKTJA" coords="5,224.81,583.81,162.21,8.80;5,63.00,596.00,324.03,8.80;5,63.00,608.19,189.36,8.80">Cette approche régroupe la technique de régression statique et les modèles à correction d'erreur proposés par <ref type="bibr" coords="5,347.50,596.00,39.53,8.80;5,63.00,608.19,24.17,8.80" target="#b26">Ravallion (1986)</ref>, <ref type="bibr" coords="5,93.95,608.19,92.26,8.80">Engle et Ganger (1987)</ref>, <ref type="bibr" coords="5,192.99,608.19,55.29,8.80" target="#b1">Baulch (1997)</ref>.</s><s xml:id="_SnUT8J6" coords="5,255.12,608.19,131.85,8.80;5,63.00,620.38,324.04,8.80;6,63.00,91.20,323.99,8.80;6,63.00,103.37,228.90,8.80">Par exemple, Mundlak et Larson (1992) utilisent la technique de régression statique pour estimer la transmission des prix internationaux des biens alimentaires aux prix intérieurs dans 58 pays à l'aide de données annuelles de prix fournies par la FAO.</s><s xml:id="_A8qTxrm" coords="6,294.85,103.37,92.13,8.80;6,63.00,115.54,216.92,8.80">Les auteurs mettent en évidence une transmission des prix presque parfaite.</s><s xml:id="_euqbPWf" coords="6,283.01,115.54,103.99,8.80;6,63.00,127.71,323.95,8.80;6,63.00,139.88,202.11,8.80">Ils trouvent une élasticité médiane de transmission de 0,95, ce qui signifie que 95 % des variations des prix mondiaux sont transmises aux marchés nationaux.</s></p><p xml:id="_avkxw8S"><s xml:id="_hTS69D7" coords="6,78.00,158.05,308.95,8.80;6,63.00,170.23,278.18,8.80">La méthode de régression statique suppose une réponse instantanée des prix sur un marché secondaire aux changements de prix sur le marché central.</s><s xml:id="_NyJftBY" coords="6,343.05,170.23,43.95,8.80;6,63.00,182.40,324.04,8.80;6,63.00,194.57,324.06,8.80;6,63.00,206.74,96.52,8.80">Cependant, il y a en général un retard entre le changement de prix sur un marché et son impact sur un autre marché et cela s'explique par le temps qui s'écoule avant la mise en place des nouveaux prix.</s><s xml:id="_JpX2bKE" coords="6,161.51,206.74,225.50,8.80;6,63.00,218.91,324.01,8.80;6,63.00,231.08,146.63,8.80">Ces effets dynamiques peuvent être captés en introduisant dans la relation économétrique des prix retardées comme variables explicatives <ref type="bibr" coords="6,63.00,231.08,68.68,8.80" target="#b26">(Ravallion, 1986</ref><ref type="bibr" coords="6,134.75,231.08,70.55,8.80">et Timmer, 1987)</ref>.</s><s xml:id="_TWydVMm" coords="6,212.69,231.08,174.26,8.80;6,63.00,243.25,323.95,8.80;6,63.00,255.42,97.71,8.80">Par ailleurs, l'hypothèse selon laquelle les variables sont stationnaires n'est pas toujours vérifiée car les séries de prix sont souvent non stationnaires.</s><s xml:id="_Z7UQ6ND" coords="6,162.52,255.42,224.49,8.80;6,63.00,267.59,324.04,8.80;6,63.00,279.76,306.85,8.80">Lorsque les variables sont non stationnaires, les coefficients estimés sont non biaisés mais la distribution des erreurs ne suit pas une loi normale, ce qui fait que les tests usuels de significativité statistique ne sont pas valides.</s></p><p xml:id="_JFvpcTv"><s xml:id="_YmqUfjC" coords="6,78.00,297.94,308.98,8.80;6,63.00,310.11,324.06,8.80;6,63.00,322.28,189.49,8.80">Pour remédier aux problèmes d'effets dynamiques et de non-stationnarité des variables, le modèle à correction d'erreur (MCE) a été suggéré pour analyser la transmission des prix <ref type="bibr" coords="6,150.90,322.28,97.35,8.80" target="#b7">(Engle et Granger, 1987)</ref>.</s><s xml:id="_qDAFER2" coords="6,254.86,322.28,132.14,8.80;6,63.00,334.45,323.96,8.80;6,63.00,346.62,129.55,8.80">En utilisant un modèle économétrique dynamique, <ref type="bibr" coords="6,138.01,334.45,85.58,8.80" target="#b24">Quiroz et Soto (1995)</ref> reprennent l'étude de Mundlak et Larson (1992) avec les mêmes données.</s><s xml:id="_qkmKahe" coords="6,195.29,346.62,191.70,8.80;6,63.00,358.79,324.07,8.80;6,63.00,370.96,323.94,8.80;6,63.00,383.13,132.58,8.80">Les auteurs concluent à une absence de relation de long terme entre les prix intérieurs et les prix internationaux pour 30 des 78 pays de l'échantillon, et dans les pays où il existe une relation, la convergence est très faible dans beaucoup de cas.</s><s xml:id="_ckUeCRR" coords="6,198.31,383.13,188.64,8.80;6,63.00,395.30,323.95,8.80;6,63.00,407.47,205.11,8.80"><ref type="bibr" coords="6,198.31,383.13,101.48,8.80">Baffes et Gardner (2003)</ref> utilisent un modèle à correction d'erreur pour analyser la transmission des prix avec un échantillon de 31 paires de pays-produit sur la période 1970-1990.</s><s xml:id="_nxRxVd5" coords="6,270.60,407.47,116.42,8.80;6,63.00,419.64,324.05,8.80;6,63.00,431.82,41.80,8.80">Les auteurs concluent qu'une petite partie seulement des variations du prix mondial est transmise aux prix nationaux.</s><s xml:id="_zYPGKXk" coords="6,106.91,431.82,280.06,8.80;6,63.00,443.99,324.00,8.80;6,63.00,456.16,34.83,8.80">En introduisant des ruptures structurelles dans leur modèle, les auteurs montrent que les réformes contribuent à limiter considérablement la transmission des prix.</s><s xml:id="_gPEAXfH" coords="6,100.32,456.16,286.67,8.80;6,63.00,468.33,324.00,8.80;6,63.00,480.50,152.97,8.80"><ref type="bibr" coords="6,100.32,456.16,63.84,8.80" target="#b4">Conforti (2004)</ref> analyse la transmission des prix avec un échantillon de 16 pays dont trois de l'Afrique subsaharienne pour 7 types de produits agricoles à l'aide d'un modèle à correction d'erreur.</s><s xml:id="_vwUajj8" coords="6,217.93,480.50,169.08,8.80;6,63.00,492.67,194.91,8.80">Les résultats obtenus pour les pays africains diffèrent selon le pays et selon le type de produit.</s><s xml:id="_q2Sx7UB" coords="6,260.18,492.67,126.81,8.80;6,63.00,504.84,324.02,8.80;6,63.00,517.01,134.15,8.80">En Ethiopie, les auteurs mettent en évidence une relation de long terme entre les prix mondiaux et les prix nationaux pour le blé, le sorgho et le maïs.</s><s xml:id="_3fy4ZYg" coords="6,200.27,517.01,186.72,8.80;6,63.00,529.18,324.03,8.80;6,63.00,541.35,29.00,8.80">Au Ghana, il existe une relation entre le prix international et le prix national pour le blé mais aucune relation pour le maïs et le sorgho.</s><s xml:id="_6S7qZxr" coords="6,94.04,541.35,292.87,8.80;6,63.00,553.53,68.17,8.80">Au Sénégal, les auteurs trouvent une relation de long terme pour le riz mais pas pour le maïs.</s></p><p xml:id="_W7K3n8m"><s xml:id="_cERQ2wy" coords="6,78.00,571.70,308.96,8.80;6,63.00,583.87,324.02,8.80;6,63.00,596.04,324.06,8.80;6,63.00,608.21,182.40,8.80">Malgré l'intérêt accordé aux modèles à correction d'erreur pour analyser la transmission des prix, d'importantes faiblesses ont été identifiées dans ces modèles <ref type="bibr" coords="6,63.00,596.04,57.66,8.80">(Barrett, 1996;</ref><ref type="bibr" coords="6,122.65,596.04,53.46,8.80" target="#b1">Baulch, 1997;</ref><ref type="bibr" coords="6,178.10,596.04,101.76,8.80" target="#b9">Fackler et Goodwin, 2001)</ref>, et qui ont des implications sur l'analyse de la performance des marchés.</s><s xml:id="_z35fqjA" coords="6,248.39,608.21,138.61,8.80;6,63.00,620.38,179.74,8.80">De manière générale, ces modèles sont basées sur deux hypothèses principales.</s><s xml:id="_cDKdveS" coords="6,245.48,620.38,141.54,8.80;7,63.00,91.20,271.31,8.80">La première hypothèse postule que les marges commerciales et les coûts de transaction sont stationnaires.</s><s xml:id="_SUFXFHF" coords="7,336.31,91.20,50.60,8.80;7,63.00,103.23,305.36,8.80">La deuxième hypothèse suppose que les échanges commerciaux sont unidirectionnels.</s><s xml:id="_mJmKJHb" coords="7,371.55,103.23,15.51,8.80;7,63.00,115.26,323.99,8.80;7,63.00,127.29,324.01,8.80;7,63.00,139.32,193.51,8.80">Ces hypothèses ne sont pas toujours vérifiées, surtout dans le contexte des pays en développement, ce qui pourrait donner des résultats fallacieux <ref type="bibr" coords="7,324.39,127.29,62.62,8.80" target="#b8">(Fackler, 1996;</ref><ref type="bibr" coords="7,63.00,139.32,108.33,8.80" target="#b9">Fackler et Goodwin, 2001;</ref><ref type="bibr" coords="7,174.27,139.32,77.84,8.80" target="#b0">Barrett et Li, 2002)</ref>.</s><s xml:id="_JQeHA5Q" coords="7,259.45,139.32,127.55,8.80;7,63.00,151.34,291.91,8.80">Pour pallier ces difficultés, une technique économétrique a été développée par <ref type="bibr" coords="7,250.91,151.34,99.93,8.80">Enders et Granger (1997)</ref>.</s><s xml:id="_CrpRCfd" coords="7,357.38,151.34,29.60,8.80;7,63.00,163.37,324.00,8.80;7,63.00,175.40,120.10,8.80">Il s'agit du modèle autorégressif à seuil (TAR), largement utilisé pour analyser la transmission asymétrique des prix.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_fQpb7g6" coords="7,63.00,205.43,154.72,8.80">Transmission asymétrique des prix</head><p xml:id="_VCPGgvY"><s xml:id="_Y5AmE8J" coords="7,78.00,223.46,308.95,8.80;7,63.00,235.49,323.96,8.80;7,63.00,247.52,324.01,8.80">L'hypothèse de transmission asymétrique des prix a fait l'objet d'une attention particulière dans la littérature consacrée à l'économie agricole <ref type="bibr" coords="7,304.04,235.49,82.92,8.80;7,63.00,247.52,22.42,8.80">(voir Balke et Fomby, 1997;</ref><ref type="bibr" coords="7,88.48,247.52,118.17,8.80">von Cramon-Taubadel, 1998;</ref><ref type="bibr" coords="7,209.71,247.52,62.36,8.80">Abdulaï, 2000;</ref><ref type="bibr" coords="7,275.13,247.52,107.61,8.80" target="#b11">Goodwin et Piggott, 2001)</ref>.</s><s xml:id="_NsX78Dp" coords="7,63.00,259.55,323.98,8.80;7,63.00,271.57,324.01,8.80;7,63.00,283.60,127.35,8.80">Cette hypothèse implique qu'en cas de choc de prix entraînant une déviation de l'équilibre excédant un certain seuil critique, les agents économiques agissent pour ramener le système à l'équilibre.</s><s xml:id="_TdJD43D" coords="7,192.44,283.60,194.53,8.80;7,63.00,295.63,34.14,8.80">La rapidité de leur action est fonction de la nature du choc.</s><s xml:id="_5KwBpUp" coords="7,100.15,295.63,286.80,8.80;7,63.00,307.66,324.05,8.80;7,63.00,319.69,324.00,8.80;7,63.00,331.72,324.02,8.80;7,63.00,343.75,183.20,8.80">En économie agricole, une asymétrie dans la transmission des prix est due à la présence d'une concurrence imparfaite qui peut être liée par exemple au pouvoir de marché de certains acteurs commerciaux, aux coûts de transport, à certaines mesures des gouvernements dans le secteur agricole et à une politique de stockage des intermédiaires commerciaux.</s></p><p xml:id="_mPtMpP9"><s xml:id="_U3D3Ysk" coords="7,78.00,361.78,308.96,8.80;7,63.00,373.80,324.04,8.80;7,63.00,385.83,150.35,8.80">Un des facteurs régulièrement cité dans la littérature empirique comme source d'asymétrie dans la transmission des prix agricoles est le pouvoir de marché de certains intermédiaires commerciaux.</s><s xml:id="_PTsrA7X" coords="7,215.43,385.83,171.57,8.80;7,63.00,397.86,324.00,8.80;7,63.00,409.89,324.04,8.80;7,63.00,421.92,249.39,8.80">Dans un environnement économique caractérisé par un système monopolistique ou oligopolistique, les intermédiaires commerciaux auront tendance à répercuter plus rapidement les hausses de prix que les baisses car celles-ci amélioreraient leurs marges bénéficiaires.</s><s xml:id="_hpzbmdz" coords="7,314.78,421.92,72.17,8.80;7,63.00,433.95,104.47,8.80">Cela est source de transmission asymétrique.</s><s xml:id="_wBN4hBJ" coords="7,169.59,433.95,217.41,8.80;7,63.00,445.98,120.94,8.80">Les stocks jouent aussi un rôle important dans la transmission asymétrique des prix.</s><s xml:id="_3cRkUQ8" coords="7,186.72,445.98,200.27,8.80;7,63.00,458.01,324.00,8.80;7,63.00,470.03,323.93,8.80;7,63.00,482.06,176.36,8.80">Si les tenants du marché anticipent une hausse du prix pour un bien donné la période suivante, ils auront tendance à accroître leurs stocks, ce qui aura pour effet d'augmenter le prix du bien sur le marché intérieur car l'offre ne pourra satisfaire la demande.</s><s xml:id="_z7yfYjf" coords="7,242.45,482.06,144.56,8.80;7,63.00,494.09,323.92,8.80;7,63.00,506.12,247.20,8.80">Par contre, en cas d'anticipation de baisse de prix, les commerçants vont essayer de réduire leurs stocks, cela aura pour effet de baisser le niveau des prix sur les marchés nationaux.</s><s xml:id="_tHeuqCq" coords="7,313.14,506.12,73.85,8.80;7,63.00,518.15,324.00,8.80;7,63.00,530.18,120.52,8.80">Une telle situation va empêcher une transmission totale des variations de prix sur le marché international aux marchés nationaux.</s></p><p xml:id="_DXz5rdW"><s xml:id="_p2kRHYC" coords="7,78.00,548.21,309.00,8.80;7,63.00,560.24,323.96,8.80;7,63.00,572.26,19.86,8.80">Dans le secteur agricole, la politique de soutien des prix est assez fréquente et cela est souvent évoqué comme un facteur d'asymétrie dans la transmission des prix.</s><s xml:id="_bt2AB4f" coords="7,86.12,572.26,300.91,8.80;7,63.00,584.29,246.90,8.80"><ref type="bibr" coords="7,86.12,572.26,112.94,8.80" target="#b15">Kinnucan et Forker (1987)</ref> montrent qu'une politique d'intervention du gouvernement peut conduire à une transmission asymétrique.</s><s xml:id="_tJEcaw2" coords="7,312.61,584.29,74.41,8.80;7,63.00,596.32,323.99,8.80;7,63.00,608.35,224.19,8.80">En effet, en cas de baisse des prix, les grossistes ou les détaillants peuvent croire que cela est temporaire parce qu'elle incitera une intervention du gouvernement.</s><s xml:id="_eMwjqCK" coords="7,289.49,608.35,97.51,8.80;7,63.00,620.38,239.53,8.80">Par contre, une augmentation des prix est susceptible de perdurer dans le temps.</s><s xml:id="_DT49Ckf" coords="7,305.73,620.38,81.31,8.80;8,63.00,91.20,324.00,8.80;8,63.00,103.20,323.98,8.80;8,63.00,115.20,72.19,8.80;8,135.29,114.68,2.90,5.10;8,138.21,115.20,2.50,8.80">Un autre facteur de transmission asymétrique cité le plus souvent dans le contexte des pays en développement est l'asymétrie d'information entre les grands centres urbains et les villes secondaires 4 .</s><s xml:id="_vPJXYur" coords="8,143.64,115.20,243.40,8.80;8,63.00,127.20,159.98,8.80">Cela peut influencer le degré de transmission des prix selon la localisation géographique du marché.</s><s xml:id="_AF3fbrk" coords="8,78.00,144.20,309.00,8.80;8,63.00,156.20,323.96,8.80;8,63.00,168.20,323.99,8.80;8,63.00,180.20,121.29,8.80"><ref type="bibr" coords="8,78.00,144.20,66.77,8.80" target="#b16">Krivonos (2004)</ref> analyse l'impact des reformes dans le secteur du café durant les années 1980 et 1990 sur les producteurs ainsi que la transmission asymétrique des prix dans les pays en développement à l'aide de l'approche dynamique utilisée par <ref type="bibr" coords="8,79.07,180.20,100.99,8.80">Baffes et Gardner (2003)</ref>.</s><s xml:id="_WXt3Hqq" coords="8,187.30,180.20,199.65,8.80;8,63.00,192.20,324.00,8.80;8,63.00,204.20,266.69,8.80">L'auteur a montré que dans certains cas, l'impact des reformes sur la transmission a été quelquefois asymétrique c'est-à-dire que les hausses de prix se sont transmises plus rapidement que les baisses.</s><s xml:id="_agfwXDJ" coords="8,78.00,221.20,309.02,8.80;8,63.00,233.20,184.68,8.80"><ref type="bibr" coords="8,78.00,221.20,62.32,8.80">Abdulaï (2000)</ref> analyse la transmission des prix dans les principaux marchés de maïs au Ghana à l'aide d'un modèle TAR.</s><s xml:id="_9AYmBEf" coords="8,250.71,233.20,136.29,8.80;8,63.00,245.20,324.00,8.80;8,63.00,257.20,142.70,8.80">La commercialisation du maïs au Ghana est organisée à travers des réseaux de commerçants qui entretiennent des relations ethniques et personnalisées.</s><s xml:id="_KHBsxJb" coords="8,207.64,257.20,179.35,8.80;8,63.00,269.20,324.00,8.80;8,63.00,281.20,28.37,8.80">Les détaillants et les petits grossistes dominent les marchés locaux et régionaux, tandis que les gros grossistes font de l'arbitrage spatial.</s><s xml:id="_qh2H8vk" coords="8,93.43,281.20,293.61,8.80;8,63.00,293.20,324.04,8.80;8,63.00,305.20,42.22,8.80">Dans le marché central, les grossistes obtiennent leur maïs soit directement des producteurs avec qui ils ont une relation privilégiée ou soit avec des coopératives résidentes.</s><s xml:id="_HEctWbn" coords="8,107.51,305.20,279.51,8.80;8,63.00,317.20,323.98,8.80">Les grossistes locaux vendent leur maïs à des commerçants situés à de longues distances, qui à leur tour servent les marchés urbains à travers tout le pays.</s><s xml:id="_3UpnCHB" coords="8,63.00,329.20,324.01,8.80;8,63.00,341.20,324.00,8.80;8,63.00,353.20,323.94,8.80;8,63.00,365.20,117.70,8.80">L'auteur montre que les intermédiaires commerciaux influencent considérablement la transmission des chocs de prix émanant du marché central et que le prix de vente de gros sur les marchés secondaires s'ajuste plus rapidement aux hausses qu'aux baisses sur le marché central.</s><s xml:id="_WYS7hTS" coords="8,78.00,382.20,308.97,8.80;8,63.00,394.20,201.06,8.80"><ref type="bibr" coords="8,78.00,382.20,64.79,8.80" target="#b31">Subervie (2008)</ref> teste la présence d'une asymétrie dans la vitesse d'ajustement à partir de séries temporelles longues disponibles  pour quatre pays en développement exportateurs de café, à savoir le Salvador, l'Inde, l'Ouganda et le Costa Rica, à l'aide d'une modélisation TAR.</s><s xml:id="_knny8ed" coords="8,267.07,394.20,4.45,8.80">L'auteur montre que les mécanismes de stabilisation et le jeu des intermédiaires commerciaux semblent agir sensiblement sur la vitesse de convergence des prix dans le cas de l'Inde, de l'Ouganda et du Costa Rica.</s><s xml:id="_qMf7rtw" coords="8,271.52,394.20,22.26,8.80">L'auteur conclut par la suite que le prix payé au producteur peut être maintenu durablement en dessous de sa valeur d'équilibre dans les pays en développement où l'intervention du gouvernement est importante dans la filière d'exportation de café et où le pouvoir de marché des intermédiaires commerciaux est considérable sur les producteurs.</s></p><p xml:id="_fU9emVb"><s xml:id="_x5PaDtk" coords="8,78.00,519.20,309.03,8.80;8,63.00,531.20,324.06,8.80;8,63.00,543.20,110.19,8.80">Les études empiriques ont essayé de mettre en évidence un certain nombre de facteurs à l'origine d'une transmission asymétrique des prix soit au niveau national, soit au niveau international.</s><s xml:id="_HyfE78T" coords="8,175.42,543.20,211.61,8.80;8,63.00,555.20,323.94,8.80;8,63.00,567.20,323.98,8.80;8,63.00,579.20,283.01,8.80">En revanche, très peu d'études se sont intéressées à la relation entre les chocs de prix internationaux et la réponse des prix sur différents marchés à l'intérieur d'un pays, compte tenu des problèmes liés à la disponibilité des données sur les prix dans le contexte des pays en développement.</s><s xml:id="_ky2wuk8" coords="8,349.02,579.20,37.92,8.80;8,63.00,591.20,216.64,8.80">Il se peut que le degré de transmission diffère selon le marché.</s><s xml:id="_ZA9y77x" coords="8,282.67,591.20,104.34,8.80;8,78.00,621.70,5.94,7.04">Pour ce faire, nous allons 4.</s></p><p xml:id="_vrevna5"><s xml:id="_V77Mb8p" coords="8,99.00,621.70,172.24,7.04">Ce facteur a été mis en évidence par Abdulaï <ref type="bibr" coords="8,246.79,621.70,20.95,7.04">(2000)</ref>.</s></p><p xml:id="_Pu4RtW5"><s xml:id="_8Yrhnqm" coords="9,63.00,91.20,323.95,8.80;9,63.00,103.20,209.82,8.80">tester les réponses des prix du riz importé sur deux marchés du Burkina Faso suite aux chocs du prix du riz sur le marché international.</s></p><p xml:id="_6CBjjgH"><s xml:id="_H5pX999" coords="9,63.00,133.20,205.54,8.80">2. applIcatIon au maRché du RIz au buRkIna Faso</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_nJzxhfK" coords="9,63.00,157.20,171.11,8.80">Filière du riz importé au Burkina Faso</head><p xml:id="_VGVFTPC"><s xml:id="_P9f33qM" coords="9,78.00,175.20,308.98,8.80;9,63.00,187.20,132.63,8.80">Le riz occupe la quatrième place dans la consommation alimentaire des ménages après le mil, le sorgho et le maïs.</s><s xml:id="_hj2PeU9" coords="9,198.19,187.20,188.82,8.80;9,63.00,199.20,194.61,8.80">Il est produit sur l'ensemble du pays mais à des niveaux de production différents selon les régions.</s><s xml:id="_bXCuRVG" coords="9,259.62,199.20,127.40,8.80;9,63.00,211.20,252.10,8.80">Les grandes zones de production sont l'ouest, le centre-est et la boucle du Mouhoun (plus de 50 %).</s><s xml:id="_6pyGmMH" coords="9,317.09,211.20,70.01,8.80;9,63.00,223.20,206.43,8.80">La consommation annuelle par tête connaît un accroissement rapide.</s><s xml:id="_d6T9m2U" coords="9,272.50,223.20,114.52,8.80;9,63.00,235.20,181.40,8.80">Elle est passée de 4,5 kg en 1960 à 14,8 kg en 1992 et à 18,1 kg en 2000.</s><s xml:id="_9F4GepF" coords="9,247.22,235.20,139.71,8.80;9,63.00,247.20,235.52,8.80;9,298.72,246.68,2.90,5.10;9,301.55,247.20,2.50,8.80">De nos jours, elle a atteint environ 70 kg en milieu urbain (Ouagadougou et Bobo-Dioulasso) 5 .</s><s xml:id="_UjAEmQS" coords="9,306.84,247.20,80.17,8.80;9,63.00,259.20,259.87,8.80">Entre 1990 et 2006, la production nationale de riz s'est accrue en moyenne de 8,4 %.</s><s xml:id="_NefVWs9" coords="9,325.62,259.20,61.34,8.80;9,63.00,271.20,238.55,8.80">Toutefois, cette production couvre à peine 40 % des besoins de consommation.</s><s xml:id="_87M7WcZ" coords="9,303.47,271.20,83.58,8.80;9,63.00,283.20,323.99,8.80;9,63.00,295.20,86.61,8.80">Le reste est compensé par les importations qui sont de plus en plus importantes comme le montre le graphique ci-dessous.</s><s xml:id="_6hZ48Y8" coords="9,151.93,295.20,235.03,8.80;9,63.00,307.20,204.71,8.80">En 2005, ces importations ont coûté environ 36,6 milliards de francs CFA (FCFA) (annuaire statistique 2006).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_JebWBHw" coords="9,192.37,335.20,65.27,8.80">GRAPHIQUE 1</head><p xml:id="_Pe6UAAR"><s xml:id="_bVpM9Bh" coords="9,123.87,351.20,202.26,8.80">ImpoRtatIons de RIz au buRkIna <ref type="bibr" coords="9,254.08,351.20,44.78,8.80">Faso (1990</ref><ref type="bibr" coords="9,303.40,351.20,22.72,8.80">Faso ( -2002) )</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_gWP983f" coords="9,78.00,621.70,5.82,7.04">5.</head><p xml:id="_T68uSes"><s xml:id="_hRpsEHg" coords="9,99.00,621.29,288.14,7.46">Ouagadougou et Bobo-Dioulasso sont respectivement la capitale et la 2 e ville du Burkina Faso.</s></p><p xml:id="_B8FG8eD"><s xml:id="_p3BCpkF" coords="10,78.00,91.20,309.00,8.80;10,63.00,103.20,324.01,8.80;10,63.00,115.20,72.83,8.80">Le riz importé provient de plusieurs pays dont ceux d'Europe, d'Asie et d'Amérique mais l'Asie reste le continent qui exporte le plus de riz vers le Burkina (80 % des importations).</s><s xml:id="_TRAAkdd" coords="10,138.21,115.20,248.79,8.80;10,63.00,127.20,178.94,8.80">Avant le processus de libéralisation de la filière, le riz importé était d'une qualité et d'une origine unique.</s><s xml:id="_fANeze5" coords="10,245.12,127.20,141.89,8.80;10,63.00,139.20,324.00,8.80;10,63.00,151.20,106.41,8.80">À partir de 1995, on assiste à une diversification de la qualité du riz avec l'arrivée sur le marché d'un nombre restreint d'opérateurs privés <ref type="bibr" coords="10,140.85,151.20,24.48,8.80">(1997)</ref>.</s><s xml:id="_mdcZ2wF" coords="10,171.58,151.20,215.47,8.80;10,63.00,163.20,240.05,8.80">Le riz importé transite par trois grands ports qui sont : Abidjan en Côte d'Ivoire, Lomé au Togo et Tema au Ghana.</s><s xml:id="_2QYqryn" coords="10,305.63,163.20,81.34,8.80;10,63.00,175.20,324.01,8.80;10,63.00,187.20,112.22,8.80">Le prix du transport pour acheminer le riz jusqu'au Burkina peut varier en fonction du prix du carburant et du port de débarquement.</s><s xml:id="_7TzCTVj" coords="10,177.71,187.20,209.26,8.80;10,63.00,199.20,324.03,8.80;10,63.00,211.20,168.47,8.80">Le riz est d'abord stocké avant d'être distribué sur le marché burkinabé par le canal des grossistes installés dans les deux grands centres urbains Ouagadougou et Bobo-Dioulasso.</s><s xml:id="_cc8SeQq" coords="10,234.14,211.20,152.90,8.80;10,63.00,223.20,206.73,8.80">Les demi-grossistes sont les relais des grossistes dans les villes principales et secondaires.</s><s xml:id="_mSGbCs2" coords="10,272.22,223.20,114.78,8.80;10,63.00,235.20,323.94,8.80;10,63.00,247.20,324.02,8.80;10,63.00,259.20,24.90,8.80">Chaque demi-grossiste a son approvisionneur qui lui livre soit au comptant ou par crédit, avec une durée de remboursement n'excédant pas un mois, les frais de livraison sont à la charge du client.</s><s xml:id="_48ZQva2" coords="10,90.98,259.20,296.01,8.80;10,63.00,271.20,196.81,8.80">Les détaillants s'approvisionnent auprès des demi-grossistes suivant des quantités variant entre une tonne et dix tonnes.</s><s xml:id="_StgKXze" coords="10,262.95,271.20,123.99,8.80;10,63.00,283.20,179.25,8.80">Ils sont plus présents dans les centres urbains et les petites agglomérations.</s><s xml:id="_Kxr2jGe" coords="10,244.72,283.20,142.25,8.80;10,63.00,295.20,230.83,8.80">Chaque détaillant a son fournisseur avec qui il entretient des relations de confiance mutuelle.</s><s xml:id="_zYv5HhB" coords="10,296.69,295.20,90.32,8.80;10,63.00,307.20,323.98,8.80;10,63.00,319.20,244.12,8.80">La configuration de la filière du riz au Burkina Faso laisse penser à l'existence d'un système oligopolistique formé par les grossistes, les semi-grossistes et les détaillants.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_Etzce2e" coords="10,63.00,349.20,241.11,8.80">Statistiques descriptives des prix du riz au Burkina Faso</head><p xml:id="_MagxCnF"><s xml:id="_TJABHeQ" coords="10,78.00,368.20,309.05,8.80;10,63.00,380.20,324.03,8.80;10,63.00,392.20,324.00,8.80;10,63.00,404.20,166.19,8.80">L'évolution des prix du riz sur le marché international et les marchés du Burkina Faso est illustrée par le graphique de la page suivante.. De manière générale, le niveau des prix sur le marché de Dori est plus élevé que celui de Sankaryaré durant la période 1995-2010.</s><s xml:id="_PNnubn2" coords="10,231.84,404.20,155.20,8.80;10,63.00,416.20,206.05,8.80">La différence de prix s'explique par le coût de transport du riz de Ouagadougou vers Dori.</s><s xml:id="_SfBrVne" coords="10,271.28,416.20,115.65,8.80;10,63.00,428.20,323.99,8.80;10,63.00,440.20,177.44,8.80">Par ailleurs, nous notons que le niveau des prix est très élevé à partir du milieu de l'année 2007 jusqu'au début de l'année 2009 sur les marchés nationaux.</s><s xml:id="_XB2NwMm" coords="10,243.43,440.20,143.56,8.80;10,63.00,452.20,323.95,8.80">Cela coïncide avec la période de la montée des prix des produits agricoles sur le marché international (graphique 2).</s><s xml:id="_EbQjct8" coords="10,63.00,464.20,323.96,8.80;10,63.00,476.20,187.47,8.80">Une augmentation des prix sur le marché international conduit à une hausse des prix sur les marchés de Sankaryaré et de Dori.</s><s xml:id="_EKEEQQQ" coords="10,252.80,476.20,134.19,8.80;10,63.00,488.20,324.05,8.80;10,63.00,500.20,20.85,8.80">Au début de l'année 2008, le prix du riz sur le marché mondial est supérieur au prix du riz importé vendu au Burkina Faso.</s><s xml:id="_uJFkY3t" coords="10,86.01,500.20,300.93,8.80;10,63.00,512.20,323.96,8.80;10,63.00,524.20,182.31,8.80">Cela peut s'expliquer probablement par l'intervention du gouvernement dans le secteur du riz durant cette période pour stabiliser l'envolée des prix, par l'effet des stocks et des délais normaux de livraison.</s><s xml:id="_YRK6uGz" coords="10,247.54,524.20,139.48,8.80;10,63.00,536.20,324.01,8.80;10,63.00,548.20,324.04,8.80;10,63.00,560.20,54.45,8.80">Cependant, l'évolution des prix sur le marché de Sankaryaré s'apparente à un phénomène de lissage sur une certaine période qui coïncide souvent avec les périodes de baisse de prix sur le marché international.</s><s xml:id="_s6d6XDy" coords="11,78.00,406.87,309.01,8.80;11,63.00,418.87,288.25,8.80">Le prix moyen du riz sur la période 1995-2010 sur les marchés de Sankaryaré et de Dori est égal à 282 francs CFA et à 304 francs CFA respectivement.</s><s xml:id="_nCp6H7X" coords="11,353.36,418.87,33.65,8.80;11,63.00,430.87,323.97,8.80;11,63.00,442.87,44.27,8.80">Ces prix moyens réprésentent presque le double du prix moyen sur le marché international (tableau 1).</s><s xml:id="_Jv7xNSH" coords="11,109.35,442.87,277.63,8.80;11,63.00,454.87,284.45,8.80">Le coefficient de variation est égal à 0,33 pour le marché international, à 0,21 pour le marché de Sankaryaré et de 0,18 pour le marché de Dori.</s><s xml:id="_9zYuDtc" coords="11,349.82,454.87,37.19,8.80;11,63.00,466.87,323.99,8.80;11,63.00,478.87,61.77,8.80">Les coefficients de variation montrent que les prix intérieurs sont plus stables que les prix internationaux.</s><s xml:id="_ucKKJcf" coords="11,127.87,478.87,259.10,8.80;11,63.00,490.87,154.04,8.80">Cela s'expliquerait par les coûts de transaction entre le marché international et les marchés nationaux.</s><s xml:id="_dZsbarN" coords="11,219.34,490.87,167.64,8.80;11,63.00,502.87,324.01,8.80;11,63.00,514.87,324.00,8.80">Ces coûts de transaction apparaissent plus importants pour le marché de Dori à cause de la distance séparant Ouagadougou à Dori et aussi de la qualité des infrastructures routières entre ces deux régions.</s><s xml:id="_hY4za96" coords="11,63.00,526.87,323.97,8.80;11,63.00,538.87,324.02,8.80;11,63.00,550.87,61.49,8.80">Les coefficients de corrélation sont de 0,79 et de 0,87 pour le marché international et le marché de Sankaryaré et pour le marché international et le marché de Dori respectivement.</s><s xml:id="_CdmR6Xu" coords="11,126.50,550.87,260.48,8.80;11,63.00,562.87,219.31,8.80">Ces résultats montrent qu'il existe une corrélation positive et élevée entre le marché international et les marchés nationaux.</s></p><p xml:id="_7Mh9263"><s xml:id="_7bDRtSp" coords="11,78.00,580.87,309.00,8.80;11,63.00,592.87,324.00,8.80;11,63.00,604.87,56.13,8.80">L'analyse de la filière du riz importé au Burkina Faso laisse supposer l'existence d'un système oligopolistique entretenu par un certain nombre d'intermédiaires commerciaux.</s><s xml:id="_YNXSzmD" coords="11,121.08,604.87,265.92,8.80;11,63.00,616.87,324.09,8.80;12,63.00,417.60,324.00,8.80;12,63.00,430.16,56.90,8.80">Cela justifie notre hypothèse de travail qui suppose l'existence d'asymétrie dans la transmission des chocs de prix internationaux aux prix sur les marchés nationaux au Burkina Faso à cause du comportement oligopolistique des intermédiaires commerciaux.</s><s xml:id="_EhsPmw6" coords="12,122.80,430.16,264.20,8.80;12,63.00,442.71,323.94,8.80;12,63.00,455.27,323.98,8.80;12,63.00,467.82,261.50,8.80">La transmission asymétrique signifie que les intermédiaires commerciaux auront tendance à répercuter plus rapidement les hausses du prix international du riz sur les prix intérieurs que les baisses et cela aux dépens du consommateur et dans le but de maintenir à un niveau élevé leur marge bénéficiaire.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_exSWrPj" coords="12,63.00,500.38,171.20,8.80">stRatégIe d'estImatIon économétRIque</head><p xml:id="_7ZEbg3D"><s xml:id="_Ch9Qhbv" coords="12,78.00,519.93,309.00,8.80;12,63.00,532.49,222.69,8.80">La stratégie d'estimation utilisée pour vérifier notre hypothèse de travail est basée sur l'application des méthodes de coïntégration.</s><s xml:id="_zgy2aFt" coords="12,288.78,532.49,98.23,8.80;12,63.00,545.05,324.03,8.80;12,63.00,557.60,152.57,8.80">Avant toute chose, nous allons déterminer les propriétés statistiques des séries de prix de notre échantillon en utilisant les tests de racine unitaire.</s><s xml:id="_5VZVDWX" coords="12,217.86,557.60,169.18,8.80;12,63.00,570.16,324.04,8.80;12,63.00,582.71,196.11,8.80">Si les séries sont intégrées du même ordre, nous allons procéder aux différents tests de coïntégration en utilisant les méthodes d' <ref type="bibr" coords="12,72.07,582.71,83.40,8.80" target="#b7">Engle-Granger (1987</ref><ref type="bibr" coords="12,155.46,582.71,99.59,8.80">) et de Johannsen (1988)</ref>.</s><s xml:id="_x3kXC2q" coords="12,262.14,582.71,124.88,8.80;12,63.00,595.27,324.02,8.80;12,63.00,607.82,114.89,8.80">Les tests de coïntégration vont permettre de tester l'existence d'une relation de long terme entre le prix international du riz et les prix nationaux.</s><s xml:id="_K7CqKBn" coords="12,181.00,607.82,205.98,8.80;12,63.00,620.38,323.98,8.80">Par la suite, nous réaliserons les tests basés sur le modèle TAR pour détecter la présence d'asymétrie dans la transmission des prix.</s></p><p xml:id="_N7rxJZ7"><s xml:id="_zkEwFWq" coords="12,197.92,91.20,54.16,8.80;12,73.58,110.20,302.85,8.80;12,63.00,165.88,36.53,8.94;12,128.42,153.88,29.36,8.94;12,129.88,165.88,71.72,8.94;12,207.60,153.88,27.00,8.94;12,211.80,165.88,18.60,8.94;12,240.60,141.88,46.20,8.94;12,258.73,153.88,9.93,8.94;12,244.24,165.88,140.37,8.94;12,63.00,185.84,52.76,8.80;12,136.00,185.84,14.19,8.80;12,169.46,185.84,62.14,8.80;12,255.14,185.84,17.12,8.80;12,300.50,185.84,26.00,8.80;12,349.29,185.84,26.23,8.80;12,63.00,205.66,17.31,8.80;12,63.00,217.66,46.11,8.80;12,136.08,205.66,14.05,8.80;12,169.41,205.66,62.19,8.80;12,255.22,205.66,16.96,8.80;12,305.82,205.66,15.36,8.80;12,354.79,205.66,15.22,8.80;12,63.00,237.48,38.45,8.80;12,136.06,237.48,14.09,8.80;12,169.39,237.48,62.22,8.80;12,255.52,237.48,16.35,8.80;12,300.19,237.48,26.62,8.80;12,349.20,237.48,26.40,8.80;12,63.00,257.30,54.90,8.80;12,63.00,269.30,16.55,8.80;12,63.00,281.30,49.57,8.80;12,63.00,293.30,34.01,8.80;12,135.92,257.30,14.37,8.80;12,169.64,257.30,61.97,8.80;12,254.97,257.30,17.45,8.80;12,300.98,257.30,25.04,8.80;12,349.10,257.30,26.59,8.80;12,63.00,313.12,54.90,8.80;12,63.00,325.12,16.55,8.80;12,63.00,337.12,55.79,8.80;12,136.06,313.12,14.09,8.80;12,170.20,313.12,25.01,8.80;12,210.60,313.12,21.00,8.80;12,255.01,313.12,17.39,8.80;12,300.50,313.12,26.00,8.80;12,349.30,313.12,26.20,8.80;12,63.00,365.69,231.18,7.04">TABLEAU 1 statIstIques descRIptIves des pRIx InteRnatIonal et natIonaux (1995-2009) Variable Observation Moyenne Écarttype Coefficient de variation Minimum Maximum Prix mondial 183 176,46 59,94 0,33 105,15 425,61 Prix Sankaryaré 178 291,44 63,15 0,21 244 500 Prix Dori 173 307,89 55,67 0,18 241,34 481,65 Différence de prix Sankaryaré-Mondial 168 114,50 39,84 0,34 -89,83 234,79 Différence de prix Dori-Mondial 173 131,17 29,41 0,22 -42,90 197,89 souRce : Calculés par l'auteur à partir des données SONAGESS et IFS.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_u7njgxN" coords="13,63.00,91.21,221.12,8.80">Tests standards de stationnarité et de coïntégration</head><p xml:id="_g4SkvMB"><s xml:id="_ZS3BPz2" coords="13,78.00,109.21,213.48,8.80;13,291.66,108.69,2.90,5.10;13,297.57,109.21,89.43,8.80;13,63.00,121.21,79.12,8.80">Il existe un grand nombre de tests de racine unitaire 6 pour tester la non-stationnarité des séries.</s><s xml:id="_Tyj55EV" coords="13,144.08,121.21,242.95,8.80;13,63.00,133.21,324.01,8.80;13,63.00,145.21,27.31,8.80">Les tests de Dickey-Fuller augmenté (ADF), de Phillips-Perron (PP) et de Kwiatkowski-Phillips-Schmidt-Shin (KPSS) sont appliqués dans notre article.</s><s xml:id="_yVrcwTD" coords="13,92.38,145.21,294.65,8.80;13,63.00,157.21,324.00,8.80;13,63.00,169.21,152.30,8.80">Si les tests révèlent que les séries sont intégrées du même ordre, nous allons tester l'hypothèse de non-coïntégration des séries de prix à l'aide de la technique d'Engle-Granger et celle de Johansen.</s></p><p xml:id="_GErh2px"><s xml:id="_mKwXSAu" coords="13,78.00,187.21,309.02,8.80;13,63.00,199.21,323.95,8.80;13,63.00,211.21,323.98,8.80;13,63.00,223.21,59.12,8.80">Pour tester l'hypothèse de non-coïntégration des séries avec la méthode d'Engle-Granger, nous partons de la relation d'équilibre de long terme définie par <ref type="bibr" coords="13,354.39,199.21,32.56,8.80;13,63.00,211.21,60.97,8.80" target="#b7">Engle et Granger (1987)</ref> appliquée au prix international du riz et au prix du riz importé au Burkina Faso :</s></p><formula xml:id="formula_0" coords="13,80.00,244.85,299.87,12.77">P t i = β 0 + β 1 P t m + µ t (</formula><p xml:id="_FEuU45C"><s xml:id="_Fatwsnd" coords="13,379.87,246.21,7.13,8.80;13,63.00,273.21,18.53,8.80;13,82.13,272.74,1.61,5.05;13,80.64,279.34,1.61,5.05;13,84.70,273.21,15.75,8.80;13,101.05,272.74,4.19,5.05;13,100.95,279.34,1.61,5.05;13,106.43,273.21,280.57,8.80;13,63.00,285.21,177.89,8.80">1) où P i t et P m t sont respectivement le prix du riz importé et le prix mondial exprimés tous deux en francs CFA et en logarithmes.</s><s xml:id="_wWeUsun" coords="13,243.91,284.83,5.78,9.93;13,249.62,291.34,1.62,5.05;13,254.26,285.21,132.75,8.80;13,63.00,297.21,176.89,8.80">m t est le terme d'erreur aléatoire de variance constante et qui peut être corrélé.</s><s xml:id="_4PG6sgC" coords="13,242.99,297.21,144.00,8.80;13,63.00,309.21,323.97,8.80">Le terme aléatoire capte l'effet des variables inobservables tels que les coûts de transaction, les politiques d'intervention.</s><s xml:id="_M2R8JYN" coords="13,63.00,320.83,16.28,9.93;13,79.20,327.34,1.61,5.05;13,83.21,321.21,126.01,8.80;13,209.82,320.74,1.61,5.05;13,208.33,327.34,1.61,5.05;13,212.33,321.21,15.69,8.80;13,228.63,320.74,4.19,5.05;13,228.53,327.34,1.61,5.05;13,235.62,321.21,151.38,8.80;13,63.00,333.21,229.58,8.80">Si m t est stationnaire, les deux prix P i t et P m t sont coïntégrés, ce qui implique qu'ils sont liés par une relation d'équilibre stable de long terme.</s></p><p xml:id="_6xJVXrD"><s xml:id="_vCnxk9j" coords="13,78.00,350.83,64.97,9.93;13,142.58,357.29,2.90,5.10;13,148.47,351.21,238.52,8.80;13,63.00,363.21,137.42,8.80;13,201.06,362.74,1.63,5.05;13,199.58,369.34,1.63,5.05;13,201.31,363.21,2.53,8.80">Le coefficient b 1 dans l'équation (1) représente l'élasticité de la transmission de long terme du prix intérieur P i t .</s><s xml:id="_XwryGsf" coords="13,206.92,363.21,177.89,8.80;13,385.45,362.74,4.23,5.05;13,385.37,369.34,1.63,5.05;13,63.00,375.21,55.41,8.80;13,119.01,374.74,1.61,5.05;13,117.52,381.34,1.61,5.05;13,122.05,375.21,2.50,8.80">Il mesure la proportion des variations de P m t transmise à P i t .</s><s xml:id="_6fwzh6P" coords="13,127.47,375.21,259.53,8.80;13,63.00,387.21,323.96,8.80;13,63.00,399.21,221.81,8.80">Plusieurs facteurs influencent le degré de transmission des fluctuations des cours mondiaux sur les marchés nationaux, c'est le cas par exemple des politiques commerciales appliquées aux frontières.</s><s xml:id="_XqemTEw" coords="13,287.81,399.21,99.18,8.80;13,63.00,411.21,324.01,8.80;13,63.00,423.21,226.04,8.80">Une taxe à l'importation ad valorem est compatible avec une transmission totale des chocs de prix, ce qui correspond à une élasticité de transmission égale à l'unité.</s><s xml:id="_SzHNaJ3" coords="13,291.08,423.21,95.87,8.80;13,63.00,435.21,323.97,8.80;13,63.00,447.21,165.43,8.80">Par contre, une politique de quota sur les importations ou encore une taxe à l'importation fixe peut réduire l'élasticité de transmission de long terme.</s></p><p xml:id="_gDPz4sZ"><s xml:id="_vEjS4Yj" coords="13,78.00,465.21,308.99,8.80;13,63.00,477.21,286.76,8.80">La technique d'Engle-Granger pour tester l'hypothèse nulle de non-coïntégration s'applique au résidu de l'équation (1) déterminé de la manière suivante :</s></p><formula xml:id="formula_1" coords="13,79.81,498.21,307.20,10.48">Δµ t = ρµ t-1 + ε t (2)</formula><p xml:id="_VhYBEXF"><s xml:id="_QxDZJ7f" coords="13,63.00,519.83,147.04,9.93;13,209.98,526.34,1.61,5.05;13,213.70,520.21,70.36,8.80">où r est la vitesse de convergence et e t est un bruit blanc.</s><s xml:id="_TFfd8uC" coords="13,286.16,520.21,100.85,8.80;13,63.00,532.21,324.00,8.80;13,63.00,544.21,324.01,8.80">Les tests de coïntégration standard à savoir le test de Dickey-Fuller Augmented, le test de Phillips-Perron et le test de Kwiatkowski-Phillips-Schmidt-Shin sont effectués sur l'équation (2).</s><s xml:id="_cVGXkEg" coords="13,63.00,556.21,323.96,8.80;13,63.00,567.83,36.22,9.93;13,99.15,574.34,1.61,5.05;13,103.13,568.21,154.91,8.80">L'hypothèse de non-coïntégration peut être rejetée si les tests confirment que les résidus m t sont stationnaires et de moyenne nulle.</s><s xml:id="_3zZUbXR" coords="13,260.41,568.21,126.60,8.80;13,63.00,580.21,324.06,8.80;13,63.00,592.21,262.21,8.80">Par la suite, nous allons réaliser le test de coïntégration de Johansen qui est plus puissant d'un point de vue statistique et permet de détecter s'il existe une relation de coïntégration.</s><s xml:id="_QZTuN4m" coords="13,328.48,592.21,58.53,8.80;13,78.00,621.70,160.25,7.04">Si les tests de 6. <ref type="bibr" coords="13,99.00,621.70,53.03,7.04" target="#b13">Hamilton (1994)</ref>; <ref type="bibr" coords="13,157.37,621.70,77.43,7.04">Darne et Terraza (2002)</ref>.</s></p><p xml:id="_zeUAB2p"><s xml:id="_T5HBAC2" coords="14,63.00,91.20,323.98,8.80;14,63.00,103.20,265.17,8.80">coïntégration infirment l'hypothèse de non-coïntégration, un modèle à correction d'erreur est estimé pour examiner la dynamique de court terme.</s><s xml:id="_sgeudbY" coords="14,331.27,103.20,55.75,8.80;14,63.00,115.20,130.65,8.80">Ce modèle se présente sous la forme suivante :</s></p><formula xml:id="formula_2" coords="14,79.81,136.83,307.20,21.73">ΔP t i = α + γµ t-1 + θ k ΔP t-k m k=0 ∑ + ρ k k=1 ∑ ΔP t-k i + ε t (3)</formula><p xml:id="_hwq5ENY"><s xml:id="_JYhhx86" coords="14,63.00,175.82,139.81,9.93;14,203.41,175.73,1.61,5.05;14,201.92,182.33,1.61,5.05;14,207.77,175.82,14.51,9.93;14,222.16,182.33,2.57,5.05;14,226.85,176.20,160.14,8.80;14,63.00,188.20,176.16,8.80">où g est la vitesse d'ajustement de P i t et q k représente les élasticités de transmission de court terme (dynamique de court terme).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_mr29tMg" coords="14,63.00,218.20,195.00,8.80">Modélisation de la transmission asymétrique</head><p xml:id="_MF7NR6S"><s xml:id="_xBcQjKN" coords="14,78.00,236.20,309.02,8.80;14,63.00,248.20,324.00,8.80;14,63.00,260.20,212.62,8.80">L'hypothèse selon laquelle les hausses de prix sur le marché international se transmettent plus rapidement aux marchés nationaux que les baisses est testée à l'aide d'un modèle autorégressif avec seuil (TAR).</s><s xml:id="_9Txwzff" coords="14,278.82,260.20,108.14,8.80;14,63.00,272.20,323.96,8.80;14,63.00,284.20,60.55,8.80">Les tests de coïntégration standards sont basés sur l'hypothèse implicite que les réponses de prix sont linéaires et symétriques.</s><s xml:id="_Q7PCyUH" coords="14,125.90,284.20,261.12,8.80;14,63.00,296.20,133.77,8.80">Cependant, des variables économiques telles que les prix peuvent s'ajuster de manière asymétrique.</s><s xml:id="_PhkSxnH" coords="14,199.37,296.20,187.63,8.80;14,63.00,308.20,323.97,8.80;14,63.00,320.20,226.34,8.80">Pour prendre en compte cette hypothèse d'asymétrie, <ref type="bibr" coords="14,93.47,308.20,100.34,8.80">Enders et Granger (1998)</ref> proposent une approche alternative basée sur un processus autorégressif à seuil (TAR) défini ci-dessous :</s></p><formula xml:id="formula_3" coords="14,79.81,342.39,307.18,10.92">Δµ t = I t ρ 1 µ t-1 + (1-I t )ρ 2 µ t-1 + ε t (4)</formula><p xml:id="_F95Dzay"><s xml:id="_9g82cG3" coords="14,63.00,365.82,17.76,9.93;14,80.68,372.33,1.61,5.05;14,84.38,366.20,302.61,8.80;14,63.00,377.82,230.53,9.93;14,293.46,384.33,1.61,5.05;14,297.69,377.82,85.12,9.93;14,382.74,384.33,1.61,5.05;14,384.50,378.20,2.50,8.80;14,63.00,390.20,18.55,8.80">où m t est le résidu de la relation (1) et est un indépendant et identiquement distribué (iid) de moyenne nulle et de variance constante, tel que m t soit indépendant de e t , j &lt; t.</s><s xml:id="_rJjcHpx" coords="14,84.05,390.20,199.46,8.80">I est une fonction indicatrice définie comme suit :</s></p><formula xml:id="formula_4" coords="14,80.00,410.69,303.18,27.10">I t = 1 si µ t-1 ≥ 0 0 si µ t-1 &lt; 0 ⎧ ⎨ ⎩ . (<label>5</label></formula><formula xml:id="formula_5" coords="14,383.18,418.20,3.82,8.80">)</formula><p xml:id="_ZFXR87z"><s xml:id="_25fBadv" coords="14,78.00,447.20,145.88,8.80">Considérons le cas où le seuil est nul.</s><s xml:id="_WFDq8qh" coords="14,225.99,446.63,58.42,9.37;14,284.93,451.01,8.47,5.76;14,296.00,445.86,90.99,10.14;14,63.00,459.20,134.27,8.80">Dans ce cas, µ t-1 = 0 peut être considéré comme l'équilibre de long terme.</s><s xml:id="_9eHGbwZ" coords="14,199.84,459.20,18.11,10.08;14,218.47,464.44,8.47,5.76;14,229.31,459.20,157.68,10.08;14,63.00,471.20,324.02,8.80;14,63.00,482.46,178.75,9.54;14,241.39,486.64,3.25,5.97;14,244.33,482.46,5.76,9.22;14,250.61,483.20,12.83,9.40">Si µ t-1 ≥ 0 , cela signifie qu'une baisse du prix international a entraîné une déviation positive par rapport à l'équilibre de long terme, dans ce cas, l'ajustement est égal à ρ 1 µ t-1 .</s><s xml:id="_NH7Sxhd" coords="14,266.20,483.20,18.29,10.58;14,285.02,488.94,1.81,5.76;14,289.96,483.20,97.04,10.58;14,63.00,495.20,324.01,8.80;14,63.00,506.35,117.83,9.65;14,180.99,510.53,3.25,5.97;14,184.34,506.35,5.76,9.22;14,190.62,507.20,12.89,9.29">Si µ t &lt; 0 , une hausse du prix international a entraîné une déviation négative par rapport à l'équilibre, dans ce cas, l'ajustement est égal à ρ 2 µ t-1 .</s><s xml:id="_Y5QJ3B9" coords="14,206.48,506.82,67.57,9.93;14,273.59,513.28,2.90,5.10;14,279.44,506.82,65.21,9.93;14,344.46,513.28,2.90,5.10;14,347.69,507.20,39.32,8.80;14,63.00,519.20,324.01,8.80;14,63.00,531.20,40.07,8.80">Par ailleurs, si r 1 est inférieur à r 2 , alors les déviations positives sont plus rapidement résorbées que les déviations négatives.</s></p><p xml:id="_8VpUdmV"><s xml:id="_6HrcxZj" coords="14,78.00,549.20,308.95,8.80;14,63.00,561.20,40.29,8.80">Il se peut que le seuil ne soit pas nul, dans ce cas il faudra l'estimer de manière endogène.</s><s xml:id="_3Ak4aNr" coords="14,105.79,561.20,148.30,8.80">Si c'est le cas, l'équation (5) devient :</s></p><formula xml:id="formula_6" coords="14,80.00,580.73,307.00,30.46">I t 1 si µ t-1 ≥ τ 0 si µ t-1 &lt; τ ⎧ ⎨ ⎩ (6)</formula><p xml:id="_DECjcEq"><s xml:id="_XPfFycw" coords="14,63.00,618.82,102.83,9.93">où t est la valeur du seuil.</s></p><p xml:id="_dmuVvcP"><s xml:id="_ZSSeYz6" coords="15,78.00,91.20,309.04,8.80;15,63.00,102.82,305.60,9.93;15,368.54,109.33,1.62,5.05;15,370.24,103.20,2.51,8.80">Pour tenir compte des effets d'ajustement dynamique, Enders et Granger (1998) montrent que l'équation (4) peut être modifiée en ajoutant des retards de m t .</s><s xml:id="_YgPzRun" coords="15,375.79,103.20,11.21,8.80;15,63.00,114.82,303.95,9.93;15,366.88,121.33,1.61,5.05;15,371.37,115.20,15.63,8.80;15,63.00,127.20,129.09,8.80">En effet, l'équation (4) ne suffit pas pour capter l'ajustement dynamique de Dm t à sa valeur d'équilibre de long terme.</s><s xml:id="_kkZWJGz" coords="15,194.22,127.20,192.78,8.80">L'équation (4) modifiée se présente comme suit :</s></p><formula xml:id="formula_7" coords="15,80.00,149.26,306.99,28.10">Δµ t = I t ρ t µ t-1 + (1-I t )ρ 2 µ t-1 + γ i i=1 p-1 ∑ Δµ t-1 + ε t . (7)</formula><p xml:id="_SXpXgSX"><s xml:id="_nP6MeJA" coords="15,78.00,189.20,308.99,8.80;15,63.00,201.20,211.77,8.80">Avant d'estimer l'équation (7), il faudra s'assurer de l'absence d'autocorrélation des résidus et du choix du nombre de retards approprié.</s><s xml:id="_RXgQu8z" coords="15,276.67,201.20,110.32,8.80;15,63.00,213.20,323.98,8.80;15,63.00,225.20,322.36,8.80">L'autocorrélation des résidus est testée à l'aide des tests de Ljung-Box et le nombre de retards est déterminé à partir du critère d'information d'Akaike (AIC) et du critère bayésien de Schwartz (SBC).</s></p><p xml:id="_z8UsBuG"><s xml:id="_C3rQnmf" coords="15,78.00,242.82,297.05,9.93;15,374.55,249.28,2.90,5.10;15,379.81,243.20,7.19,8.80;15,63.00,254.82,5.51,9.93;15,68.28,261.28,2.91,5.10;15,71.43,255.20,2.51,8.80">Le test de coïntégration dans le modèle TAR est basé sur les coefficients r 1 et r 2 .</s><s xml:id="_KV5JrNF" coords="15,76.97,254.82,286.14,9.93;15,362.61,261.28,2.91,5.10;15,368.55,254.82,15.77,9.93;15,384.09,261.28,2.91,5.10;15,63.00,267.20,114.25,8.80">Si l'hypothèse de coïntégration des prix est vérifiée, les coefficients r 1 et r 2 sont nécessairement négatifs.</s><s xml:id="_UdSW5fm" coords="15,179.29,267.20,207.71,8.80;15,63.00,279.20,324.01,8.80;15,63.00,291.20,324.03,8.80;15,63.00,303.20,323.96,8.80;15,63.00,315.20,30.24,8.80"><ref type="bibr" coords="15,179.29,267.20,90.94,8.80" target="#b6">Enders et Siklos (2001)</ref> utilisent deux tests : un t-max (la plus grande des deux statistiques individuelles) et un t-min (la plus petite) pour tester l'hypothèse selon laquelle les coefficients sont significativement négatifs et un F-test pour tester l'hypothèse selon laquelle ils sont conjointement différents de zéro.</s><s xml:id="_TrE8dmc" coords="15,95.20,315.20,291.71,8.80">Les valeurs critiques de ces tests sont données dans <ref type="bibr" coords="15,294.55,315.20,88.38,8.80" target="#b6">Enders et Siklos (2001)</ref>.</s><s xml:id="_tApfp3w" coords="15,63.00,327.20,324.01,8.80;15,63.00,339.20,52.63,8.80">Pour estimer la valeur du seuil dans l'équation (6), nous utilisons la méthode de <ref type="bibr" coords="15,63.00,339.20,48.59,8.80" target="#b3">Chan (1993)</ref>.</s><s xml:id="_jHGWQy8" coords="15,118.52,339.20,268.46,8.80;15,63.00,351.20,276.76,8.80">L'auteur a montré qu'il est possible d'obtenir un bon estimateur du seuil à partir de la minimisation de la somme des carrés des résidus.</s><s xml:id="_5uytFrw" coords="15,342.49,351.20,44.47,8.80;15,63.00,363.20,275.68,8.80">En effet, la procédure consiste à estimer l'équation (1) et à récupérer les résidus.</s><s xml:id="_fJ8dBB8" coords="15,341.47,363.20,45.52,8.80;15,63.00,375.20,323.97,8.80;15,63.00,387.20,323.97,8.80;15,63.00,399.20,84.82,8.80">Les résidus estimés sont triés par ordre croissant, les 15 % des valeurs les plus élevées et les plus faibles sont éliminées et les 70 % des valeurs restantes sont considérées comme des seuils potentiels.</s><s xml:id="_HRqNASw" coords="15,150.90,399.20,236.09,8.80;15,63.00,411.20,41.12,8.80">Ensuite, l'équation (7) est estimée pour chacun des seuils potentiels.</s><s xml:id="_kaEDxgb" coords="15,106.24,410.82,280.77,9.93;15,63.00,423.20,139.18,8.80">La valeur estimée du seuil t provenant de la minimisation de la somme des carrées des résidus est retenue.</s></p><p xml:id="_qYHDj7Q"><s xml:id="_ZbDVhqE" coords="15,78.00,441.20,308.96,8.80;15,63.00,453.20,165.61,8.80">Les équations (1), ( <ref type="formula" coords="15,152.24,441.20,3.72,8.80">4</ref>) et (6) permettent d'estimer un modèle à correction d'erreur asymétrique qui se présente comme suit :</s></p><formula xml:id="formula_8" coords="15,80.00,468.59,307.01,24.26">ΔP t i = ω + ρ 1.1 I t µ t-1 + ρ 2.1 (1-I t )µ t-1 + α k k=0 ∑ ΔP t-k m + β k k=1 ∑ ΔP t-k i + η t (8)</formula><p xml:id="_mb6xbNF"><s xml:id="_dynezMs" coords="15,63.00,501.82,17.18,9.93;15,79.66,508.28,6.75,5.10;15,88.43,501.82,14.44,9.93;15,102.35,508.28,7.02,5.10;15,111.38,502.20,275.60,8.80;15,63.00,514.20,308.80,8.80">où r 1.1 et r 1.2 sont respectivement les coefficients d'ajustement pour les chocs positifs (baisse du prix international) et chocs négatifs (hausse du prix international).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_Vrkh5AC" coords="15,63.00,544.20,123.33,8.80">Résultats économétRIques</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_7mY9KCX" coords="15,63.00,568.20,145.55,8.80">Données et tests de stationnarité</head><p xml:id="_eZ3UvCZ"><s xml:id="_WFuqFBE" coords="15,78.00,586.20,308.97,8.80;15,63.00,598.20,324.03,8.80;15,63.00,610.20,202.77,8.80">L'analyse utilise des données mensuelles de prix du riz importé relevé sur deux marchés du Burkina Faso et le prix international du riz d'origine thaïlandaise sur la période allant d'octobre 1995 à décembre 2010.</s><s xml:id="_9QPsy2S" coords="15,268.77,610.20,118.28,8.80;16,63.00,91.20,323.97,8.80;16,63.00,103.20,324.03,8.80;16,63.00,115.20,310.80,8.80">Les données de prix pour les deux marchés ont été fournies par la Société Nationale de Gestion des Stocks (SONAGESS) du Burkina Faso et ont été complétés par les données du Réseau des Systèmes d'Information des Marchés en Afrique de l'Ouest (RESIMAO).</s><s xml:id="_YqCsrew" coords="16,376.25,115.20,10.75,8.80;16,63.00,127.20,323.94,8.80;16,63.00,139.20,154.52,8.80">Le prix international du riz provient des IFS (International Financial Statistics) du Fonds monétaire international (FMI).</s><s xml:id="_xGa7epm" coords="16,220.57,139.20,166.44,8.80;16,63.00,151.20,323.97,8.80;16,63.00,163.20,61.55,8.80">Pour tenir compte de l'inflation, tous les prix sont exprimés en francs CFA, et ont été déflatés par un indice des prix à la consommation.</s><s xml:id="_h7rVh3w" coords="16,127.16,163.20,259.84,8.80">Pour l'estimation, nous utilisons le logarithme népérien des prix.</s><s xml:id="_UczeCs4" coords="16,63.00,175.20,208.78,8.80">Les coefficients sont interprétés comme des élasticités.</s><s xml:id="_MZGBgeH" coords="16,273.69,175.20,113.34,8.80;16,63.00,187.20,246.09,8.80">Les estimations sont réalisées avec le logiciel RATS (Regression Analysis of Times Series).</s></p><p xml:id="_AxGs8nV"><s xml:id="_DaE3Nn7" coords="16,78.00,205.20,308.94,8.80;16,63.00,217.20,323.97,8.80;16,63.00,229.20,126.38,8.80">Les tests de Dickey-Fuller augmenté (ADF), de Phillips-Perron (PP) et de Kwiatkowski-Phillips-Schmidt-Shin (KPSS) ont été utilisés pour tester l'hypothèse de non-stationnarité des séries.</s><s xml:id="_UkcYvrv" coords="16,192.42,229.20,194.58,8.80;16,63.00,241.20,324.00,8.80;16,63.00,253.20,324.04,8.80;16,63.00,265.20,22.00,8.80">Les tests présentés dans les tableaux ci-dessous montrent que la plupart des séries de prix sont intégrées d'ordre 1. Cela laisse penser qu'il existe une relation de long terme entre le prix international et le prix local.</s></p><p xml:id="_PcJ94NE"><s xml:id="_887cE73" coords="16,197.92,295.20,54.16,8.80;16,98.92,313.20,252.15,8.80;16,187.51,325.20,26.47,8.80">TABLEAU 2 tests de RacIne unItaIRe suR données mensuelles, sankaRyaRé <ref type="bibr" coords="16,187.51,325.20,26.47,8.80">(1995,</ref>,09) ADF Probabilité PP Probabilité KPSS Prix du riz importé (P i ) -0,099 0,712 -0,069 0,703 0,267 Prix du riz importé en différence première (DP i ) -11,641*** 0,00 -11,641*** 0,00 0,389 Prix international (P m ) -0,449 0,518 -0,491 0,502 0,416*** Prix international en différence première (DP m ) -9,764*** 0,00 -9,580*** 0,00 0,309 note : ADF : Dickey-Fuller Augmented.</s><s xml:id="_5NbX5Fc" coords="16,213.97,325.20,13.23,8.80">PP : Phillips-Perron.</s><s xml:id="_gDm4TjW" coords="16,227.21,325.20,17.64,8.80">KPSS : Kwiatkowski-Phillips-Schmidt-Shin) Le nombre de retards est déterminé à partir du critère d'Akaike.</s><s xml:id="_PPc4kX9" coords="16,244.85,325.20,4.41,8.80">*** significativité à 1 %.</s><s xml:id="_qJJcgZQ" coords="16,249.26,325.20,13.23,8.80;16,181.67,367.88,20.66,8.94;16,221.25,355.88,29.50,8.94;16,225.10,367.88,21.81,8.94;16,273.92,367.88,12.17,8.94;16,309.25,355.88,29.50,8.94;16,313.10,367.88,21.81,8.94;16,351.19,367.88,25.62,8.94;16,63.00,387.85,88.94,8.80;16,151.65,393.98,1.61,5.05;16,153.32,387.85,3.33,8.80;16,178.94,387.84,13.06,8.80">TABLEAU 3 tests de RacIne unItaIRe suR données mensuelles, doRI (1995,10-2009,09) ADF Probabilité PP Probabilité KPSS Prix du riz importé (P i ) -0,187 0,617 -0,543 0,480 0,369* Prix du riz importé en différence première (DP i ) -18,685*** 0,00 -18,457*** 0,00 0,148 Prix international à niveau (P m ) -0,449 0,518 -0,491 0,502 0,416* Prix international en différence première (DP m ) -9,764*** 0,00 -9,580*** 0,00 0,309 note : ADF : Dickey-Fuller Augmented.</s><s xml:id="_zhAfYCN" coords="16,192.00,387.84,13.06,8.80">PP : Phillips-Perron.</s><s xml:id="_6QmjDrr" coords="16,225.42,387.84,4.23,8.80">KPSS : Kwiatkowski-Phillips-Schmidt-Shin) Le nombre de retards est déterminé à partir du critère d'Akaike.</s><s xml:id="_582Vsha" coords="16,229.65,387.84,4.23,8.80">*** significativité à 1 %.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_JGXqVBT" coords="17,63.00,381.56,176.10,8.80">Tests de coïntégration des séries de prix</head><p xml:id="_XADp6A7"><s xml:id="_z3wxFgp" coords="17,78.00,400.56,308.99,8.80;17,63.00,412.56,324.04,8.80;17,63.00,424.56,77.19,8.80">L'estimation de la relation de long terme (équation (1)) fournit une élasticité de transmission de 0,817 pour le marché de Sankaryaré et de 0,899 pour le marché de Dori (tableau 4).</s><s xml:id="_Q3P3jJ4" coords="17,142.29,424.56,244.73,8.80;17,63.00,436.56,125.79,8.80">Le test d'autocorrélation sur les résidus de l'équation 1 conclut à une absence d'autocorrélation.</s><s xml:id="_hFWKCXE" coords="17,190.85,436.56,196.18,8.80;17,63.00,448.56,234.47,8.80">Le test de coïntégration d <ref type="bibr" coords="17,289.51,436.56,97.52,8.80" target="#b7">'Engle et Granger (1987)</ref> est ensuite appliqué au résidu de la relation de long terme.</s><s xml:id="_jbPucCp" coords="17,300.25,448.56,86.69,8.80;17,63.00,460.56,324.02,8.80;17,63.00,472.56,323.94,8.80">Le nombre de retards dans l'équation de test est déterminé par le critère d'information d'Akaike et le critère bayésien de Schwartz (SBC) et cela nous permet de choisir 1 comme retard.</s><s xml:id="_BcCaDZF" coords="17,63.00,484.56,323.99,8.80;17,63.00,496.56,323.96,8.80;17,63.00,508.56,262.44,8.80">La statistique du test est inférieure à la valeur critique pour les deux marchés <ref type="bibr" coords="17,63.00,496.56,71.35,8.80">(-10,466 et -4,803</ref> pour Sankaryaré et Dori respectivement), l'hypothèse nulle de non-coïntégration est donc rejetée (tableaux A1 et A2 en annexe).</s><s xml:id="_VwV6Duc" coords="17,327.85,508.56,59.14,8.80;17,63.00,520.56,237.46,8.80">Ce qui signifie que les prix intérieurs sont coïntégrés au prix international.</s><s xml:id="_FJGctk4" coords="18,197.92,91.20,54.16,8.80;18,77.19,107.20,295.63,8.80;18,159.67,137.84,50.55,8.94;18,309.85,137.84,19.60,8.94;18,63.00,158.40,5.49,9.93;18,68.53,164.91,2.90,5.05;18,166.61,158.77,36.68,8.80;18,170.85,170.77,28.20,8.80;18,301.57,158.77,36.16,8.80;18,305.61,170.77,28.08,8.80;18,63.00,190.22,5.49,9.93;18,68.15,196.73,2.90,5.05;18,167.25,190.59,35.41,8.80;18,170.42,202.59,29.06,8.80;18,301.32,190.59,36.66,8.80;18,305.31,202.59,28.68,8.80;18,63.00,222.41,48.60,8.80;18,177.93,222.41,14.05,8.80;18,312.61,222.41,14.09,8.80;18,63.00,244.98,196.98,7.04">TABLEAU 4 RelatIon de long teRme entRe le pRIx InteRnatIonal et le pRIx de maRché Sankaryaré Dori b 0 0,469*** (0,041) 0,534*** (0,018) b 1 0,817*** (0,054) 0,899*** (0,033) Observation 178 173 note : L'estimateur est celui des moindres carrés ordinaires.</s><s xml:id="_CmpMQA3" coords="18,262.05,244.98,124.95,7.04;18,86.00,253.98,151.75,7.04">Les écarts-types corrigés de l'hétéroscédasticité sont présentés sous les coefficients.</s><s xml:id="_MFUkf9R" coords="18,239.75,253.98,142.98,7.04">***, **, * (significativité à 1 %, 5 %, 10 %).</s></p><p xml:id="_7E3TmU3"><s xml:id="_cqYqSkZ" coords="18,78.00,287.66,309.05,8.80;18,63.00,299.66,324.03,8.80;18,63.00,311.66,138.86,8.80">Les résultats des tests de Johansen montrent qu'il existe au moins une relation de coïntégration linéaire entre les prix du riz importé et le prix international du riz (tableaux A3 et A4 en annexe).</s><s xml:id="_sKVdkMT" coords="18,204.17,311.66,182.86,8.80;18,63.00,323.66,305.79,8.80">Nous réalisons par la suite le test de causalité de Granger dont les résultats sont dans les tableaux A5 et A6 en annexe.</s><s xml:id="_4wFNDB5" coords="18,372.05,323.66,14.98,8.80;18,63.00,335.66,324.00,8.80;18,63.00,347.66,302.84,8.80">Les résultats de ce test montrent que le prix du riz sur le marché international cause au sens de Granger le prix du riz sur les marchés de Sankaryaré et de Dori.</s><s xml:id="_Px5q5uJ" coords="18,368.16,347.66,18.81,8.80;18,63.00,359.66,323.92,8.80;18,63.00,371.66,57.29,8.80">Ceci signifie que le prix international du riz détermine le prix du riz importé au Burkina Faso.</s></p><p xml:id="_wDtjgfY"><s xml:id="_nhcA779" coords="18,78.00,389.66,308.98,8.80;18,63.00,401.66,267.31,8.80">Le tableau 5 présente les résultats de l'estimation du modèle à correction d'erreur standard pour la dynamique de court terme sur la période 1995-2010.</s><s xml:id="_gg8Qkd5" coords="18,332.32,401.66,54.72,8.80;18,63.00,413.66,324.02,8.80;18,63.00,425.66,127.48,8.80">Les élasticités de transmission de court terme apparaissent relativement peu élevées (0,261 pour Sankaryaré et 0,316 pour Dori).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_wcmURWt" coords="19,63.00,91.21,117.50,8.80">Estimations asymétriques</head><p xml:id="_N29RDCT"><s xml:id="_T53WrKX" coords="19,78.00,109.21,309.04,8.80;19,63.00,120.83,211.89,9.93;19,274.38,127.29,2.90,5.10;19,279.44,120.83,14.84,9.93;19,294.05,127.29,2.90,5.10;19,299.11,121.21,87.88,8.80;19,63.00,133.21,183.52,8.80">Les résultats du test de coïntégration asymétrique à un retard et pour un seuil égal à zéro (tableau 6) montrent que les coefficients r 1 et r 2 sont significativement différents de zéro (d'après le t-max et le F-test).</s><s xml:id="_ht5sMq3" coords="19,248.54,133.21,138.46,8.80;19,63.00,145.21,324.00,8.80;19,63.00,157.21,37.03,8.80">Les valeurs du F-test sont de 11,422 et de 12,690 pour Sankaryaré -International et pour Dori -International respectivement.</s><s xml:id="_dJzKXN2" coords="19,102.74,157.21,284.24,8.80;19,63.00,169.21,42.67,8.80;19,105.76,168.69,2.90,5.10;19,108.32,169.21,2.50,8.80">Ces valeurs apparaissent plus élevées que la valeur critique au seuil de 5 % (5,87) 7 .</s><s xml:id="_zXwyHZp" coords="19,113.64,169.21,273.36,8.80;19,63.00,180.83,133.23,9.93;19,195.72,187.29,2.90,5.10;19,201.36,180.83,15.41,9.93;19,216.53,187.29,2.90,5.10;19,222.17,181.21,106.98,8.80;19,328.64,187.29,2.90,5.10;19,334.28,180.83,13.86,9.93;19,347.91,187.29,2.90,5.10;19,353.55,181.21,19.56,8.80">Ce résultat permet de rejeter l'hypothèse nulle de non-coïntégration qui postule que les coefficients r 1 et r 2 sont conjointement nuls (r 1 = r 2 = 0).</s><s xml:id="_R3dQn7x" coords="19,375.84,181.21,11.16,8.80;19,63.00,193.21,323.94,8.80;19,63.00,205.21,181.59,8.80">Ce qui signifie donc qu'il y a coïntégration asymétrique entre les prix du riz sur les marchés nationaux et le prix international.</s><s xml:id="_yNRfjBJ" coords="19,247.86,205.21,139.16,8.80;19,63.00,217.21,99.96,8.80">Nous testons ensuite l'hypothèse d'ajustement symétrique.</s><s xml:id="_kvNRXnQ" coords="19,165.84,216.83,208.70,9.93;19,374.03,223.29,2.90,5.10;19,379.81,217.21,7.19,8.80;19,63.00,228.83,5.47,9.93;19,68.23,235.29,2.89,5.10;19,73.23,229.21,297.01,8.80">Cette hypothèse suppose l'égalité des coefficients r 1 et r 2 et elle est testée à partir du test standard de Fisher standard ou test de Wald.</s><s xml:id="_9tCdepM" coords="19,372.33,229.21,14.59,8.80;19,63.00,241.21,324.00,8.80;19,63.00,253.21,169.53,8.80">Les résultats du test donnent des valeurs de 6,341 et 4,902 pour Sankaryaré -International et pour Dori -International respectivement.</s><s xml:id="_bQpvUtw" coords="19,234.52,253.21,152.54,8.80;19,63.00,265.21,324.05,8.80;19,63.00,277.21,49.44,8.80">L'hypothèse de l'ajustement symétrique des prix est donc rejetée pour le marché de Sankaryaré et le marché de Dori pour un seuil nul.</s></p><p xml:id="_MG4a3Tc"><s xml:id="_6bHRg2r" coords="19,78.00,294.83,116.78,9.93;19,194.28,301.29,2.90,5.10;19,199.73,294.83,15.22,9.93;19,214.72,301.29,2.90,5.10;19,220.17,295.21,166.85,8.80">Les coefficients estimés de r 1 et r 2 sont de -0,221 et -0,542 pour Sankaryaré.</s><s xml:id="_k38GdS8" coords="19,63.00,306.83,60.54,9.93;19,123.05,313.29,2.93,5.10;19,129.05,307.21,257.95,8.80;19,63.00,319.21,235.63,8.80">La valeur de r 1 indique qu'environ 22 % des déviations positives par rapport à l'équilibre de long terme sont résorbées au cours d'un mois.</s><s xml:id="_NnVPvDT" coords="19,300.80,318.83,83.53,9.93;19,384.10,325.29,2.90,5.10;19,63.00,331.21,324.02,8.80;19,63.00,343.21,80.01,8.80">Par contre, celle de r 2 indique que 54 % des déviations négatives par rapport à l'équilibre sont résorbées au cours d'un mois.</s><s xml:id="_bRzsJky" coords="19,146.03,343.21,241.04,8.80;19,63.00,354.83,26.19,9.93;19,88.69,361.29,2.90,5.10;19,93.73,354.83,74.05,9.93;19,167.55,361.29,2.90,5.10;19,170.68,355.21,2.50,8.80">Dans le cas de Dori, les coefficients estimés sont de -0,185 pour r 1 et de -0,721 pour r 2 .</s><s xml:id="_vpJMGGt" coords="19,175.32,355.21,211.68,8.80;19,63.00,367.21,323.96,8.80;19,63.00,379.21,323.99,8.80;19,63.00,391.21,67.29,8.80">On a environ 18 % des déviations positives (baisse du prix international) par rapport à l'équilibre qui est résorbée au cours d'un mois et 72 % des déviations négatives (hausse du prix international) sont résorbées au cours d'un mois.</s><s xml:id="_9mPkHDB" coords="19,133.28,391.21,253.72,8.80;19,63.00,403.21,323.95,8.80;19,63.00,415.21,161.47,8.80">Ces résultats signifient que les chocs à l'origine des déviations positives sont plus persistants que ceux à l'origine des déviations négatives dans les marchés de Sankaryaré et de Dori.</s><s xml:id="_zMDTpxS" coords="19,227.67,415.21,159.43,8.80;19,63.00,427.21,323.95,8.80;19,63.00,439.21,260.26,8.80">Autrement dit, les prix du riz importé répondent plus rapidement aux chocs entraînant les hausses du prix mondial que ceux entraînant des baisses de prix sur le marché international.</s><s xml:id="_5vFXrEH" coords="19,326.32,439.21,60.67,8.80;19,63.00,451.21,323.93,8.80;19,63.00,463.21,323.92,8.80;19,63.00,475.21,324.02,8.80">L'analyse de la dynamique de court terme à partir du MCE asymétrique montre qu'une hausse de 1 % du prix international entraîne une hausse d'environ 11 % et de 14 % du prix intérieur sur les marchés de Sankaryaré et de Dori respectivement (tableau 13).</s><s xml:id="_rkSP7hV" coords="19,63.00,487.21,324.04,8.80;19,63.00,499.21,288.48,8.80">Par ailleurs les prix sur les marchés de Sankaryaré et Dori répondent de manière significative aux déviations positives et négatives par rapport à l'équilibre.</s><s xml:id="_VAMgDBX" coords="19,353.53,499.21,33.42,8.80;19,63.00,510.83,101.89,9.93;19,164.39,517.29,6.92,5.10;19,174.31,510.83,15.69,9.93;19,189.50,517.29,7.18,5.10;19,199.68,511.21,187.29,8.80;19,63.00,523.21,323.96,8.80;19,63.00,535.21,190.24,8.80">En effet, les valeurs estimées de r 1.1 et r 1.2 indiquent que l'ajustement du prix domestique permet d'éliminer 40 % d'une déviation négative unitaire par rapport au seuil et 17 % d'une déviation positive pour Sankaryaré.</s><s xml:id="_gPRJ2G7" coords="19,255.80,535.21,131.23,8.80;19,63.00,547.21,324.00,8.80;19,63.00,559.21,279.83,8.80">Dans le cas de Dori, les résultats révèlent que l'ajustement du prix domestique permet d'éliminer 42 % d'une déviation négative par rapport au seuil et environ 21 % d'une déviation positive.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_frDVzu2" coords="19,78.00,621.70,5.44,7.04">7.</head><p xml:id="_53XmHHg"><s xml:id="_QQz4cxT" coords="19,99.00,621.70,190.07,7.04">Les valeurs critiques sont celles d <ref type="bibr" coords="19,208.10,621.70,77.63,7.04" target="#b6">'Enders et Siklos (2001)</ref>.</s></p><p xml:id="_vS6m2tu"><s xml:id="_BDsCdcw" coords="20,197.92,91.20,54.16,8.80;20,116.32,106.20,217.35,8.80;20,158.69,132.88,50.55,8.94;20,309.53,132.88,19.60,8.94;20,63.00,152.47,5.49,9.93;20,68.01,158.98,2.90,5.05;20,165.65,152.84,39.15,8.80;20,169.43,164.84,29.09,8.80;20,301.11,152.84,38.93,8.80;20,304.68,164.84,29.30,8.80;20,63.00,184.29,5.49,9.93;20,68.23,190.80,2.90,5.05;20,165.21,184.66,40.04,8.80;20,170.22,196.66,27.51,8.80;20,301.37,184.66,38.42,8.80;20,304.77,196.66,29.11,8.80;20,63.00,216.48,47.30,8.80;20,178.33,216.48,13.80,8.80;20,313.39,216.48,14.37,8.80;20,63.00,236.40,23.47,8.70;20,165.93,236.30,38.59,8.80;20,300.52,236.30,40.11,8.80;20,63.00,256.23,6.11,8.70;20,63.00,268.14,8.83,8.80;20,71.34,274.27,2.90,5.05;20,75.69,267.76,13.63,9.93;20,89.06,274.27,2.90,5.05;20,93.41,268.14,16.64,8.80;20,165.16,256.13,40.13,8.80;20,299.71,256.13,41.74,8.80;20,63.00,288.06,21.02,8.70;20,63.00,299.97,8.83,8.80;20,71.34,306.10,2.90,5.05;20,75.69,299.59,13.63,9.93;20,89.06,306.10,2.90,5.05;20,92.11,299.97,3.33,8.80;20,167.46,287.96,35.54,8.80;20,304.65,287.96,31.86,8.80;20,63.00,322.54,217.54,7.04">TABLEAU 6 estImatIon du modèle taR avec un seuIl égal à zéRo Sankaryaré Dori r 1 -0,221*** (0,034) -0,185*** (0,068) r 2 -0,542*** (0,011) -0,721*** (0,077) Observation 174 168 t-max -5,212*** -4,254*** F (r 1 = r 2 = 0) 11,422*** 12,690*** Wald (r 1 = r 2 ) 6,341*** 4,902** note : Les nombres en parenthèses représentent les écarts-types.</s><s xml:id="_wrftj7P" coords="20,283.32,322.54,103.67,7.04;20,86.00,331.54,117.45,7.04">F est la statistique du test joint proposé par Enders et Siklos (2001).</s><s xml:id="_7gzJXNk" coords="20,205.25,331.24,171.31,7.94">Le test de Wald est le test d'égalité des coefficients r.</s><s xml:id="_vqdnsTs" coords="20,378.34,331.54,8.66,7.04;20,86.00,340.54,256.56,7.04">Le nombre de retards du TAR est déterminé par le critère d'information d'Akaike.</s><s xml:id="_HUvDnby" coords="20,197.92,372.22,54.16,8.80;20,99.62,387.22,250.75,8.80;20,159.67,413.90,50.55,8.94;20,309.85,413.90,19.60,8.94;20,63.00,433.49,5.49,9.93;20,68.01,440.00,7.14,5.05;20,166.82,433.86,38.75,8.80;20,170.41,445.86,29.09,8.80;20,304.00,433.86,33.80,8.80;20,305.17,445.86,28.95,8.80;20,63.00,465.31,5.49,9.93;20,68.01,471.82,7.35,5.05;20,168.67,465.68,35.06,8.80;20,170.36,477.68,29.18,8.80;20,301.03,465.68,39.76,8.80;20,305.51,477.68,28.27,8.80;20,63.00,497.13,6.31,9.93;20,69.39,503.64,2.90,5.05;20,171.11,497.50,30.17,8.80;20,170.61,509.50,28.68,8.80;20,303.28,497.50,35.25,8.80;20,305.07,509.50,29.16,8.80;20,63.00,528.95,6.31,9.93;20,69.05,535.46,2.90,5.05;20,175.07,529.32,22.26,8.80;20,170.76,541.32,28.39,8.80;20,304.03,529.32,31.24,8.80;20,305.52,541.32,28.26,8.80;20,63.00,561.14,48.60,8.80;20,177.91,561.14,14.09,8.80;20,312.35,561.14,14.60,8.80;20,63.00,580.96,21.09,8.80;20,168.54,580.96,35.32,8.80;20,303.09,580.96,35.62,8.80;20,63.00,603.53,157.97,7.04">TABLEAU 7 modèle à coRRectIon d'eRReuR asymétRIque pouR un seuIl nul Sankaryaré Dori r 1.1 -0,173*** (0,034) -0,211** (0,078) r 1.2 -0,395** (0,022) -0,425*** (0,091) a 0 0,116** (0,033) 0,142*** (0,049) a 1 0,045 (0,010) 0,075** (0,013) Observation 170 164 Wald 6,551*** 6,871*** note : Les nombres représentent les écarts-types.</s><s xml:id="_JrpYXVb" coords="20,222.62,603.23,139.32,7.94;20,361.55,608.44,5.66,4.04;20,368.88,603.23,10.52,7.94;20,379.01,608.44,5.83,4.04;20,385.01,603.53,1.99,7.04">L'hypothèse nulle du test de Wald est H0 : r 1.1 = r 1.2 .</s><s xml:id="_EGTPUzP" coords="20,86.00,612.53,222.86,7.04">Le test de Ljung-Box confirme l'absence d'autocorrélation des résidus.</s><s xml:id="_J5KR2Fb" coords="20,310.50,612.53,76.53,7.04;20,86.00,621.53,60.57,7.04">***, **, *(significativité à 1 %, 5 %, 10 %).</s><s xml:id="_Qe5k8pv" coords="21,78.00,91.20,309.01,8.80;21,63.00,102.82,323.97,9.93;21,63.00,115.20,106.66,8.80">La technique de Chan (1993) utilisée pour estimer les seuils donne des valeurs de t = -0,119 et t = -0,071 pour Sankaryaré -International et Dori -International respectivement (tableau 8).</s><s xml:id="_WQZf35T" coords="21,171.74,115.20,215.24,8.80;21,63.00,126.82,5.49,9.93;21,67.99,133.28,2.90,5.10;21,73.68,126.82,15.47,9.93;21,88.91,133.28,2.90,5.10;21,94.60,127.20,292.37,8.80;21,63.00,139.20,149.94,8.80">Les résultats du tableau 8 montrent que les coefficients r 1 et r 2 sont significativement différents de zéro et sont conjointement différents de zéro (d'après le t-max et le F-test).</s><s xml:id="_qTTpVnN" coords="21,215.46,139.20,171.57,8.80;21,63.00,151.20,324.01,8.80">Ce qui signifie donc qu'il y a coïntégration asymétrique entre les prix du riz sur les marchés nationaux et le prix international.</s><s xml:id="_pkAZJMK" coords="21,63.00,163.20,323.96,8.80;21,63.00,175.20,239.92,8.80">L'hypothèse d'ajustement symétrique des prix est aussi rejetée pour le marché de Sankaryaré et le marché de Dori pour des seuils endogènes.</s><s xml:id="_ZnHmF4j" coords="21,197.92,208.20,54.16,8.80;21,90.55,226.20,268.89,8.80;21,190.31,252.88,50.55,8.94;21,320.07,252.88,19.60,8.94;21,195.84,272.46,39.51,9.93;21,309.57,272.46,40.58,9.93;21,63.00,292.29,5.49,9.93;21,68.01,298.80,2.90,5.05;21,195.42,292.66,40.35,8.80;21,201.61,304.66,27.97,8.80;21,311.51,292.66,39.22,8.80;21,315.32,304.66,29.09,8.80;21,63.00,324.11,5.49,9.93;21,68.23,330.62,2.90,5.05;21,196.90,324.48,39.89,8.80;21,201.03,336.48,29.12,8.80;21,311.64,324.48,38.95,8.80;21,315.75,336.48,28.23,8.80;21,63.00,356.30,48.89,8.80;21,209.68,356.30,14.32,8.80;21,323.95,356.30,14.32,8.80;21,63.00,376.22,23.47,8.70;21,199.99,376.12,33.71,8.80;21,311.72,376.12,38.78,8.80;21,63.00,395.96,17.44,8.80;21,79.95,402.09,2.90,5.05;21,84.30,395.58,13.63,9.93;21,97.67,402.09,2.90,5.05;21,101.39,395.96,16.64,8.80;21,199.24,395.95,35.21,8.80;21,311.68,395.95,38.87,8.80;21,63.00,415.79,32.34,8.80;21,94.86,421.92,2.90,5.05;21,99.21,415.41,13.63,9.93;21,112.57,421.92,2.90,5.05;21,115.63,415.79,3.33,8.80;21,199.37,415.78,34.95,8.80;21,313.28,415.78,35.67,8.80;21,63.00,438.36,217.70,7.04">TABLEAU 8 estImatIon du modèle taR avec déteRmInatIon endogène du seuIl Sankaryaré Dori t = -0,119 t = -0,071 r 1 -0,204*** (0,031) -0,241*** (0,062) r 2 -0,485*** (0,042) -0,514*** (0,184) Observation 169 165 t-max -4,701** -5,130*** F (r 1 = r 2 = 0) 9,801*** 15,141*** Wald (r 1 = r 2 ) 7,410*** 8,194*** note : Les nombres en parenthèses représentent les écarts-types.</s><s xml:id="_AYX6y4M" coords="21,283.50,438.36,103.48,7.04;21,86.00,447.36,117.47,7.04">F est la statistique du test joint proposé par Enders et Siklos (2001).</s><s xml:id="_Jcrzdbv" coords="21,205.27,447.06,171.29,7.94">Le test de Wald est le test d'égalité des coefficients r.</s><s xml:id="_PCC2X5R" coords="21,378.34,447.36,8.66,7.04;21,86.00,456.36,256.56,7.04">Le nombre de retards du TAR est déterminé par le critère d'information d'Akaike.</s><s xml:id="_8TpFdy5" coords="22,197.92,91.20,54.16,8.80;22,63.06,109.20,323.89,8.80;22,190.33,135.88,50.55,8.94;22,320.08,135.88,19.60,8.94;22,63.00,155.47,5.49,9.93;22,68.01,161.98,7.14,5.05;22,197.28,155.84,39.16,8.80;22,201.23,167.84,28.75,8.80;22,313.95,155.84,34.36,8.80;22,315.59,167.84,28.59,8.80;22,63.00,187.29,5.49,9.93;22,68.01,193.80,7.35,5.05;22,199.70,187.66,34.33,8.80;22,201.23,199.66,28.75,8.80;22,311.69,187.66,38.89,8.80;22,315.99,199.66,27.78,8.80;22,63.00,219.11,6.31,9.93;22,69.39,225.62,2.90,5.05;22,201.28,219.48,31.16,8.80;22,201.38,231.48,28.47,8.80;22,313.16,219.48,35.95,8.80;22,315.35,231.48,29.06,8.80;22,63.00,250.93,6.31,9.93;22,69.05,257.44,2.90,5.05;22,205.72,251.30,22.28,8.80;22,200.94,263.30,29.35,8.80;22,314.46,251.30,30.85,8.80;22,315.09,263.30,29.59,8.80;22,63.00,283.12,48.89,8.80;22,208.42,283.12,14.37,8.80;22,322.76,283.12,14.25,8.80;22,63.00,302.94,21.09,8.80;22,200.37,302.94,35.49,8.80;22,312.99,302.94,36.28,8.80;22,63.00,325.51,157.97,7.04">TABLEAU 9 modèle à coRRectIon d'eRReuR asymétRIque avec déteRmInatIon endogène du seuIl Sankaryaré Dori r 1.1 -0,193*** (0,052) -0,187** (0,053) r 1.2 -0,481** (0,052) -0,491*** (0,115) a 0 0,106** (0,012) 0,129*** (0,054) a 1 0,085 (0,024) 0,091** (0,060) Observation 168 163 Wald 7,523*** 6,255*** note : Les nombres représentent les écarts-types.</s><s xml:id="_khk8T6r" coords="22,222.62,325.21,139.31,7.94;22,361.55,330.42,5.66,4.04;22,368.88,325.21,10.52,7.94;22,379.01,330.42,5.83,4.04;22,385.01,325.51,1.99,7.04">L'hypothèse nulle du test de Wald est H0 : r 1.1 = r 1.2 .</s><s xml:id="_vQydw2R" coords="22,86.00,334.51,222.86,7.04">Le test de Ljung-Box confirme l'absence d'autocorrélation des résidus.</s><s xml:id="_fr8EcXj" coords="22,310.50,334.51,76.53,7.04;22,86.00,343.51,60.57,7.04">***, **, *(significativité à 1 %, 5 %, 10 %).</s></p><p xml:id="_PPCjADP"><s xml:id="_7XpMQYc" coords="22,63.00,390.19,47.11,8.80;22,78.00,408.39,309.00,8.80;22,63.00,420.59,323.94,8.80;22,63.00,432.79,274.81,8.80">conclusIon L'objectif de cet article était d'évaluer la transmission des chocs de prix internationaux aux prix de marché du riz importé au Burkina Faso tout en mettant en évidence les facteurs susceptibles d'influencer le degré de transmission.</s><s xml:id="_JX9QSqr" coords="22,339.78,432.79,47.24,8.80;22,63.00,444.99,300.84,8.80">L'hypothèse principale est basée sur l'existence d'asymétrie dans la transmission des prix.</s><s xml:id="_XsQXYeZ" coords="22,365.90,444.99,21.14,8.80;22,63.00,457.19,323.92,8.80;22,63.00,469.39,205.96,8.80">Cette hypothèse suppose que les prix sur les marchés nationaux répondent plus rapidement aux hausses de prix international qu'aux baisses.</s><s xml:id="_Pwvhahv" coords="22,272.18,469.39,114.86,8.80;22,63.00,481.59,324.01,8.80;22,63.00,493.79,324.00,8.80;22,63.00,505.99,323.98,8.80;22,63.00,518.19,131.85,8.80">En effet, les intermédiaires commerciaux formant un système oligopolistique essaient de répercuter plus rapidement les hausses de prix internationaux sur les prix intérieurs, ce qui est à l'origine du comportement asymétrique dans la vitesse d'ajustement du prix intérieur par rapport au prix international.</s></p><p xml:id="_rK9nG9m"><s xml:id="_8CPubPp" coords="22,78.00,537.39,308.97,8.80;22,63.00,549.59,323.96,8.80;22,63.00,561.79,324.05,8.80;22,63.00,573.99,324.00,8.80;22,63.00,586.19,31.21,8.80">Pour tester cette hypothèse, nous avons utilisé des données mensuelles du prix du riz importé au Burkina Faso et particulièrement pour deux marchés, à savoir le marché de Sankaryaré à Ouagadougou et celui de Dori au nord du Burkina Faso, et le prix international du riz représenté ici par le prix d'exportation du riz thaïlandais.</s><s xml:id="_6m9mwhk" coords="22,96.79,586.19,290.18,8.80">Les données couvrent la période allant d'octobre 1995 à décembre 2010.</s><s xml:id="_JdmkNJA" coords="22,63.00,598.39,324.04,8.80;22,63.00,610.59,302.46,8.80">Les tests de coïntégration standards montrent que les prix domestiques et le prix international sont coïntégrés, avec des élasticités de transmission élevées.</s><s xml:id="_8ayPBED" coords="22,368.55,610.59,18.44,8.80;23,63.00,91.20,324.05,8.80">Cela signifie que les variations des prix internationaux sont transmises aux prix locaux.</s><s xml:id="_JaeBs4p" coords="23,63.00,103.40,323.99,8.80;23,63.00,115.60,323.98,8.80;23,63.00,127.80,68.01,8.80">Les tests basés sur le modèle TAR mettent en évidence l'existence d'une transmission asymétrique du marché international du riz aux marchés nationaux de riz importé au Burkina Faso.</s></p><p xml:id="_Xq5q4bM"><s xml:id="_YTJRmSw" coords="23,78.00,147.00,309.00,8.80;23,63.00,159.20,324.03,8.80;23,63.00,171.40,111.05,8.80">De manière générale, les résultats montrent que les prix sur les marchés domestiques de riz importé au Burkina Faso répondent aux changements de prix du riz sur le marché international.</s><s xml:id="_9RaCqpG" coords="23,176.83,171.40,210.20,8.80;23,63.00,183.60,323.98,8.80;23,63.00,195.80,61.75,8.80">Les marchés de Sankaryaré à Ouagadougou et celui de Dori au nord du pays répondent plus rapidement aux hausses de prix international qu'aux baisses.</s><s xml:id="_MfMS6tm" coords="23,127.87,195.80,259.14,8.80;23,63.00,208.00,235.12,8.80">Ce constat est révélateur d'un manque de performance dans le fonctionnement des structures de marché au Burkina Faso.</s></p><p xml:id="_WG5SMnR"><s xml:id="_S7tMWCc" coords="23,78.00,227.20,309.01,8.80;23,63.00,239.40,323.97,8.80;23,63.00,251.60,324.03,8.80;23,63.00,263.80,57.37,8.80">L'asymétrie dans la transmission des chocs de prix internationaux aux prix nationaux au Burkina Faso confirme donc l'existence du pouvoir de marché des intermédiaires commerciaux qui forment un système oligopolistique dans la filière du riz importé.</s><s xml:id="_CZSj3uT" coords="23,122.33,263.80,264.61,8.80;23,63.00,276.00,323.99,8.80;23,63.00,288.20,61.48,8.80">Ces derniers réagissent pour répercuter très rapidemment les hausses de prix sur le marché international sur les prix intérieurs et cela aux dépens du consommateur.</s><s xml:id="_u2UBBfQ" coords="23,126.90,288.20,260.13,8.80;23,63.00,300.40,309.67,8.80">Cela pourrait s'expliquer aussi par les coûts de transaction liés au coût du carburant, au coût portuaire et à la qualité de l'infrastructure routière.</s><s xml:id="_gcEN78F" coords="23,375.02,300.40,11.99,8.80;23,63.00,312.60,324.02,8.80;23,63.00,324.80,324.01,8.80;23,63.00,337.00,323.99,8.80;23,63.00,349.20,302.45,8.80">Un rôle prépondérant du gouvernement pour le respect des principes du marché et des investissements importants dans l'infrastructure routière dans le but de réduire les coûts de transport pourraient contribuer à rendre plus optimal le fonctionnement des structures de marché et conduire à une meilleure transmission des prix.</s></p><p xml:id="_W8GEAGM"><s xml:id="_4SXhRzH" coords="25,194.31,91.20,61.38,8.80;25,99.27,108.00,251.46,8.80;25,262.64,140.47,117.87,8.94;25,63.00,160.43,170.86,8.80;25,275.04,160.43,26.01,8.80;25,340.06,160.43,28.20,8.80;25,63.00,188.66,67.70,8.80;25,63.00,200.66,31.64,8.80;25,144.00,180.25,44.75,8.80;25,275.46,180.25,25.17,8.80;25,144.00,194.07,44.75,8.80;25,275.82,194.07,24.46,8.80;25,144.00,209.07,49.27,8.80;25,276.15,209.07,23.79,8.80;25,63.00,232.44,296.34,7.04">TABLEAU A2 test de coïntégRatIon d'engle et gRangeR -maRché de doRI Statistique t Probabilité* Test statistique de Dickey-Fuller augmenté -4,803 0,0000 Valeurs critiques du test : 1 % niveau -2,579 5 % niveau -1,942 10 % niveau -1,615 souRce : Résultats des estimations à partir des données de SONAGESS, RESIMAO et IFS.</s><s xml:id="_eYZ6Cvp" coords="25,63.00,242.24,87.34,7.04">note : * significatif à 1 %.</s><s xml:id="_2tkGnbS" coords="25,194.31,316.71,61.38,8.80;25,100.93,333.51,248.14,8.80;25,70.97,365.98,45.06,8.94;25,82.88,377.98,21.23,8.94;25,136.62,365.98,45.06,8.94;25,136.18,377.98,45.95,8.94;25,206.64,365.98,31.54,8.94;25,212.32,377.98,20.19,8.94;25,257.38,365.98,64.54,8.94;25,277.70,377.98,23.91,8.94;25,334.79,377.98,46.21,8.94;25,91.00,396.94,5.00,8.80;25,156.65,396.94,5.00,8.80;25,209.74,396.94,25.34,8.80;25,276.31,396.94,26.68,8.80;25,346.49,396.94,22.81,8.80;25,91.00,410.76,5.00,8.80;25,156.65,410.76,5.00,8.80;25,211.60,410.76,21.61,8.80;25,278.81,410.76,21.69,8.80;25,347.03,410.76,21.73,8.80;25,63.00,433.13,296.34,7.04">TABLEAU A3 test de coïntégRatIon de johansen -maRché de sankaRyaRé Hypothèse nulle Hypothèse alternative Test du rang Valeur critique (5 %) Probabilité 0 1 17,106 15,494 0,004 1 2 2,010 3,841 0,125 souRce : Résultats des estimations à partir des données de SONAGESS, RESIMAO et IFS.</s><s xml:id="_jezamyQ" coords="25,194.31,504.60,61.38,8.80;25,116.04,521.40,217.92,8.80;25,70.97,553.87,45.06,8.94;25,82.88,565.87,21.23,8.94;25,136.62,553.87,45.06,8.94;25,136.18,565.87,45.95,8.94;25,206.64,553.87,31.54,8.94;25,212.32,565.87,20.19,8.94;25,257.38,553.87,64.54,8.94;25,277.70,565.87,23.91,8.94;25,334.79,565.87,46.21,8.94;25,91.00,584.83,5.00,8.80;25,156.65,584.83,5.00,8.80;25,209.38,584.83,26.06,8.80;25,276.31,584.83,26.68,8.80;25,347.09,584.83,21.60,8.80;25,91.00,598.65,5.00,8.80;25,156.65,598.65,5.00,8.80;25,211.11,598.65,22.59,8.80;25,278.81,598.65,21.69,8.80;25,346.87,598.65,22.05,8.80;25,63.00,621.70,296.34,7.04">TABLEAU A4 test de coïntégRatIon de johansen -maRché de doRI Hypothèse nulle Hypothèse alternative Test du rang Valeur critique (5 %) Probabilité 0 1 17,288 15,494 0,012 1 2 2,305 3,841 0,201 souRce : Résultats des estimations à partir des données de SONAGESS, RESIMAO et IFS.</s></p><p xml:id="_nfQgbNg"><s xml:id="_2X7gSgs" coords="26,194.31,91.20,61.38,8.80;26,110.73,107.20,228.54,8.80;26,63.00,133.88,68.79,8.94;26,296.00,133.88,85.00,8.94;26,63.00,153.84,219.44,8.80;26,298.35,153.84,22.31,8.80;26,347.38,153.84,21.24,8.80;26,63.00,167.66,219.77,8.80;26,298.57,167.66,21.86,8.80;26,347.64,167.66,20.72,8.80;26,63.00,190.23,296.34,7.04">TABLEAU A5 test de causalIté de gRangeR -maRché de sankaRyaRé Hypothèse nulle Test F Probabilité Prix mondial ne cause pas le prix intérieur, à la Granger 8,388 0,018 Prix intérieur ne cause pas le prix mondial, à la Granger 1,342 0,161 souRce : Résultats des estimations à partir des données de SONAGESS, RESIMAO et IFS.</s><s xml:id="_wFzdEPJ" coords="26,194.31,231.91,61.38,8.80;26,125.84,249.91,198.31,8.80;26,63.00,276.59,68.79,8.94;26,296.00,276.59,85.00,8.94;26,63.00,296.55,259.94,8.80;26,346.55,296.55,22.91,8.80;26,63.00,312.37,219.77,8.80;26,298.54,312.37,21.91,8.80;26,347.33,312.37,21.35,8.80;26,63.00,334.94,296.34,7.04">TABLEAU A6 test de causalIté de gRangeR -maRché de doRI Hypothèse nulle Test F Probabilité Prix mondial ne cause pas le prix intérieur, à la Granger 10,680 0,000 Prix intérieur ne cause pas le prix mondial, à la Granger 1,927 0,148 souRce : Résultats des estimations à partir des données de SONAGESS, RESIMAO et IFS.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="9,92.09,368.22,24.89,7.03;9,92.09,402.72,24.89,7.03;9,92.09,437.21,24.89,7.03;9,92.09,471.71,24.89,7.03;9,95.92,506.21,21.06,7.03;9,113.15,540.71,3.83,7.03;9,123.58,551.61,15.32,7.03;9,155.50,551.61,15.32,7.03;9,187.43,551.61,15.32,7.03;9,219.35,551.61,15.32,7.03;9,251.27,551.61,15.32,7.03;9,283.20,551.61,15.32,7.03;9,315.12,551.61,15.32,7.03;9,353.23,540.71,3.83,7.03;9,353.23,511.96,15.32,7.03;9,353.23,483.21,21.06,7.03;9,353.23,454.46,21.06,7.03;9,353.23,425.72,21.06,7.03;9,353.23,396.97,21.06,7.03;9,353.23,368.22,21.06,7.03;9,75.87,459.67,7.34,18.51;9,75.87,430.12,7.34,27.55;9,222.39,562.56,23.83,7.03;9,175.85,573.74,40.25,6.43;9,255.11,573.74,69.10,6.43;9,63.00,592.41,110.58,7.04"><figDesc><div><p xml:id="_FTgpdZQ"><s xml:id="_yHtam28" coords="9,213.24,573.74,2.87,6.43;9,255.11,573.74,69.10,6.43;9,63.00,592.41,110.58,7.04">)Valeurs (millions FCFA)souRce : Ouedraogo et al.(2005).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="11,192.37,91.20,65.27,8.80;11,75.34,109.20,299.32,8.80;11,200.01,121.20,49.99,8.80;11,89.75,304.32,3.83,7.03;11,82.09,275.57,11.49,7.03;11,82.09,246.82,11.49,7.03;11,82.09,218.07,11.49,7.03;11,82.09,189.32,11.49,7.03;11,82.09,160.58,11.49,7.03;11,82.09,131.83,11.49,7.03;11,99.84,318.22,15.32,7.03;11,150.39,318.22,15.32,7.03;11,200.95,318.22,15.32,7.03;11,251.50,318.22,15.32,7.03;11,302.05,318.22,15.32,7.03;11,352.60,318.22,15.31,7.03;11,220.99,332.17,23.83,7.03;11,137.95,347.35,26.25,6.43;11,213.95,347.35,44.91,6.43;11,289.95,347.35,37.14,6.43;11,63.00,364.19,267.83,7.04"><figDesc><div><p xml:id="_uKbrXeW"><s xml:id="_SFSvjcS" coords="11,119.02,364.19,211.81,7.04">par l'auteur à partir des données SONAGESS, RESIMAO et IFS.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="18,197.92,455.66,54.16,8.80;18,142.15,471.66,165.71,8.80;18,159.67,498.34,50.55,8.94;18,309.85,498.34,19.60,8.94;18,63.00,517.60,4.11,9.93;18,167.20,518.30,35.51,8.80;18,170.90,530.30,28.11,8.80;18,299.95,518.30,39.41,8.80;18,305.17,530.30,28.96,8.80;18,63.00,549.75,5.21,9.93;18,68.20,556.26,2.90,5.05;18,167.22,550.12,35.45,8.80;18,301.94,550.12,35.42,8.80;18,170.50,569.95,28.91,8.80;18,305.28,569.95,28.73,8.80;18,63.00,589.77,48.60,8.80;18,177.71,589.77,14.49,8.80;18,312.39,589.77,14.52,8.80;18,63.00,612.34,324.00,7.04;18,86.00,621.34,301.01,7.04"><figDesc><div><p xml:id="_4Yfqa9w"><s xml:id="_8CuPwjN" coords="18,101.40,612.34,185.45,7.04">nombres entre parenthèses représentent les écarts-types.</s><s xml:id="_HwUCpZM" coords="18,289.32,612.34,97.68,7.04;18,86.00,621.34,157.97,7.04">Le test de Ljung-Box (Q-test) confirme l'absence d'autocorrelation des résidus.</s><s xml:id="_GN57yGF" coords="18,245.79,621.34,141.22,7.04">***, **, * (significativité à 1 %, 5 %, 10 %).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="26,188.76,376.12,72.49,8.80;26,121.13,394.12,207.74,8.80;26,200.25,412.12,49.50,8.80;26,84.07,594.36,12.12,7.03;26,84.07,565.61,12.12,7.03;26,84.07,536.86,12.12,7.03;26,92.37,508.12,3.83,7.03;26,86.62,479.37,9.57,7.03;26,86.62,450.62,9.57,7.03;26,86.62,421.87,9.57,7.03;26,107.60,602.53,16.00,7.34;26,142.24,602.53,16.00,7.34;26,176.87,602.53,16.00,7.34;26,211.41,602.53,16.00,7.34;26,246.05,602.53,16.00,7.34;26,280.69,602.53,16.00,7.34;26,315.32,602.53,16.00,7.34;26,349.96,602.53,16.00,7.34;26,63.00,621.45,323.96,7.04"><figDesc><div><p xml:id="_zmQzF8n"><s xml:id="_5XW2u2A" coords="26,121.51,621.45,265.44,7.04">par l'auteur à partir des résidus de l'estimation de la relation de long terme (équation 1).</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p xml:id="_SeecTWR"><s xml:id="_qVhXszd" coords="1,63.00,90.96,192.41,7.04">L'Actualité économique, Revue d'analyse économique, vol.</s><s xml:id="_suY3xZN" coords="1,257.41,90.54,79.20,7.46">88, n o 3, septembre 2012</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p xml:id="_eqpQdJ9"><s xml:id="_BnahCQk" coords="3,99.00,612.70,287.99,7.04;3,63.00,621.70,133.62,7.04">Meyer et von Cramon-Taubadel (2004)  ont fait une étude détaillée des facteurs à l'origine d'une transmission asymétrique des prix.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><p xml:id="_AsFT4RZ"><s xml:id="_7XSJv8u" coords="4,99.00,612.70,288.00,7.04;4,63.00,621.70,76.70,7.04">Une version complète et détaillée des modèles de coïntégration à seuil est présentée parBalke et Fomby (1997).</s></p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_fGt3RQT" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="28,63.00,91.20,324.03,8.80;28,72.00,103.38,315.00,8.80;28,72.00,115.55,34.44,8.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_KbjGzyS">Distinguishing between Equilibrium and Integration in Spatial Price Analysis</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">B</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jau</forename><forename type="middle">Rong</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-8276.00298</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JzE7gag">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="292" to="307" />
+			<date type="published" when="2002-05">2002</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">baRRett, C. et J.R. lI (2002), « Distinguishing between Equilibrium and Integration in Special Price Analysis », American Journal of Agricultural Economics, 84(2) : 292-307.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,129.73,323.95,8.80;28,72.00,141.90,308.26,8.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_CXKR2fj">Transfer Costs, Spatial Arbitrage, and Testing for Food Market Integration</title>
+		<author>
+			<persName coords=""><forename type="first">Bob</forename><surname>Baulch</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1244145</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CwyM56m">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="477" to="487" />
+			<date type="published" when="1997-05">1997</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">baulch, B. (1997), « Transfer Costs, Spatial Arbitrage, and Testing for Food Market Integration », American Journal of Agricultural Economics, 79(2) : 477-487.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,156.08,324.00,8.80;28,72.00,168.25,315.06,8.80;28,72.00,180.43,90.14,8.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_QFEf5Ut">Étude de la demande de riz au Burkina Faso</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Boundi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Toé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_urgTrE2">Papier préparé pour la rencontre des acheteurs/vendeurs, Ho Chi Minh</title>
+		<meeting><address><addrLine>Vietnam</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008-11">2008. novembre 2008</date>
+			<biblScope unit="page" from="25" to="27" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">boundI, D. et B. toé (2008), « Étude de la demande de riz au Burkina Faso », Papier préparé pour la rencontre des acheteurs/vendeurs, Ho Chi Minh, Vietnam, 25-27 novembre 2008.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,194.60,323.96,8.80;28,72.00,206.78,315.00,8.80;28,72.00,218.95,34.39,8.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_72APy2C">Consistency and Limiting Distribution of the Least Squares Estimator of a Threshold Autoregressive Model</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1214/aos/1176349040</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Qq2EUM7">The Annals of Statistics</title>
+		<title level="j" type="abbrev">Ann. Statist.</title>
+		<idno type="ISSN">0090-5364</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="520" to="533" />
+			<date type="published" when="1993-03-01">1993</date>
+			<publisher>Institute of Mathematical Statistics</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">chan, K. S. (1993), « Consistency and Limiting Distribution of the Least Squares Estimation of a Threshold Autoregressive Model», The Annals of Statistics, 21 : 520-533.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,233.13,323.97,8.80;28,72.00,245.30,273.19,8.80;28,63.00,259.48,323.98,8.80;28,72.00,271.65,302.05,8.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_jgmatXy">On Market Integration and Liberalization: Method and Application to Ethiopia</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Pzax4c3">FAO Commodity and Trade Policy Research Working Paper</title>
+		<editor>
+			<persName><forename type="first">Rome</forename><surname>Dercon</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="112" to="143" />
+			<date type="published" when="1995">2004. 1995</date>
+		</imprint>
+	</monogr>
+	<note>Price Transmission in Selected Agricultural Markets Journal of Development Studies</note>
+	<note type="raw_reference">conFoRtI, P. (2004), «Price Transmission in Selected Agricultural Markets », FAO Commodity and Trade Policy Research Working Paper, no 7, Rome. deRcon, S. (1995), « On Market Integration and Liberalization: Method and Application to Ethiopia », Journal of Development Studies, 32(1) : 112-143.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,285.83,323.99,8.80;28,72.00,298.00,315.00,8.80;28,72.00,310.18,314.99,8.80;28,72.00,322.35,256.29,8.80;28,63.00,336.53,305.83,8.80;28,63.00,350.70,324.01,8.80;28,72.00,362.88,315.00,8.80;28,72.00,375.05,153.61,8.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_yQ3yu5H">Unit-root Tests and Asymmetric Adjustment with an Example Using the Term Structure of Interest Rates</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Darné</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Litago</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Terraza</surname></persName>
+		</author>
+		<ptr target="http://archive.numdam.org/ARCHIVE/RSA/" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_XJ99fVY">RSA_2002 __50_2/RSA_2002__50_2_71_0/RSA_2002__50_2_71_0.pdf endeRs, W</title>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Enders</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Granger</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>John Wiley and Sons</publisher>
+			<date type="published" when="1995">2002. 1995. 1998</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="304" to="311" />
+		</imprint>
+	</monogr>
+	<note>Applied Econometric Time Series Tests de racines unitaires saisonnières pour des données journalières Journal of Business and Economic Statistics</note>
+	<note type="raw_reference">daRné, O., J. lItago et M. teRRaza (2002), « Tests de racines unitaires saisonnières pour des données journalières », Revue de statistique appliquée, disponible à l&apos;adresse suivante : http://archive.numdam.org/ARCHIVE/RSA/RSA_2002 __50_2/RSA_2002__50_2_71_0/RSA_2002__50_2_71_0.pdf endeRs, W. (1995), Applied Econometric Time Series, John Wiley and Sons. endeRs, W. et C. gRangeR (1998), « Unit-root Tests and Asymmetric Adjustment with an Example Using the Term Structure of Interest Rates », Journal of Business and Economic Statistics, 16 : 304-311.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,389.23,323.98,8.80;28,72.00,401.40,236.51,8.80" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_26ENcgc">Cointegration and Threshold Adjustment</title>
+		<author>
+			<persName><forename type="first">Walter</forename><surname>Enders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><forename type="middle">L</forename><surname>Siklos</surname></persName>
+		</author>
+		<idno type="DOI">10.1198/073500101316970395</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zwdDPVp">Journal of Business &amp; Economic Statistics</title>
+		<title level="j" type="abbrev">Journal of Business &amp; Economic Statistics</title>
+		<idno type="ISSN">0735-0015</idno>
+		<idno type="ISSNe">1537-2707</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="166" to="176" />
+			<date type="published" when="2001-04">2001</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">endeRs, W. et P. sIklos (2001), « Cointegration and Threshold Adjustment », Journal of Business and Economic Statistics, 19 : 166-176.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,415.58,324.00,8.80;28,72.00,427.75,297.45,8.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_zvZegVQ">Co-Integration and Error Correction: Representation, Estimation, and Testing</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">F</forename><surname>Engle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">W J</forename><surname>Granger</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1913236</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GVmMVBN">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">251</biblScope>
+			<date type="published" when="1987-03">1987</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">engle, R. F. et C. W. J. gRangeR (1987), « Co-Integration and Error Correction : Representation, Estimation, and Testing », Econometrica, 55(2) : 251-276.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,441.86,324.00,8.87;28,72.00,454.10,315.00,8.80;28,72.00,466.28,314.98,8.80;28,72.00,478.45,269.08,8.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_zAfCPAa">Chapter 17 Spatial price analysis</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Fackler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1574-0072(01)01008-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FBp8AyR">Handbook of Agricultural Economics</title>
+		<meeting><address><addrLine>Chicago, Illinois; Stillwater, OK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="971" to="1024" />
+		</imprint>
+		<respStmt>
+			<orgName>Department of Agricultural Economics, Oklahoma State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">FackleR, P. (1996), « Spatial Price Analysis : A Methodological Review », in Applied Price Analysis, Forecasting and Market Risk Management, Proceedings of the NCR-134 Conference, Chicago, Illinois. Department of Agricultural Economics, Oklahoma State University. Stillwater, OK. p. 122-145.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,492.63,323.98,8.80;28,72.00,504.80,314.91,8.80;28,72.00,516.98,29.08,8.80" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_aN4dcJt">Chapter 17 Spatial price analysis</title>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">L</forename><surname>Fackler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barry</forename><forename type="middle">K</forename><surname>Goodwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1574-0072(01)10025-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_kXQtMbq">Handbook of Agricultural Economics</title>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Gardner</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Rausser</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="971" to="1024" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">FackleR, P. L. et B. K. goodwIn (2001), « Spatial Price Analysis », in B. L. Gardner et G. C. Rausser (éds), The Handbook of Agricultural Economics, North Holland, vol. 18.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,531.15,323.96,8.80;28,72.00,543.33,314.99,8.80;28,72.00,555.50,35.08,8.80" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_hpZNPnf">Price Transmission and Asymmetric Adjustment in the U.S. Beef Sector</title>
+		<author>
+			<persName><forename type="first">Barry</forename><forename type="middle">K</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">T</forename><surname>Holt</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1244026</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_D5aCnpK">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="630" to="637" />
+			<date type="published" when="1999-08">1999</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">goodwIn, B. et M. holt (1999), « Price Transmission and Asymmetric Adjustment in the U.S. Beef Sector », American Journal of Agricultural Economics, 81 : 630-637.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,569.68,323.98,8.80;28,72.00,581.85,315.00,8.80;28,72.00,594.03,33.21,8.80" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_mbwSrZm">Spatial Market Integration in the Presence of Threshold Effects</title>
+		<author>
+			<persName><forename type="first">Barry</forename><forename type="middle">K</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">E</forename><surname>Piggott</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/0002-9092.00157</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dYqgpeC">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="302" to="317" />
+			<date type="published" when="2001-05">2001</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">goodwIn, B. et N. pIggott (2001), « Spatial Market Integration in the Presence of Threshold Effects », American Journal of Agricultural Economics, 83(2) : 302-317.</note>
+</biblStruct>
+
+<biblStruct coords="28,63.00,608.20,323.99,8.80;28,72.00,620.38,285.36,8.80" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_gfgeVz3">Residual-based tests for cointegration in models with regime shifts</title>
+		<author>
+			<persName><forename type="first">Allan</forename><forename type="middle">W</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bruce</forename><forename type="middle">E</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-4076(69)41685-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mecvgWy">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="126" />
+			<date type="published" when="1996-01">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">gRegoRy, A. W. et B. E. hansen (1996), « Residual-based Tests for Cointegration in Models with Regime Shifts », Journal of Econometrics, 70 : 99-126.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,91.21,295.59,8.80;29,63.00,105.38,323.99,8.80;29,72.00,117.56,314.96,8.80;29,72.00,129.73,262.54,8.80" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_BJEu3Uh">The Relationship between World Price Instability and the Prices Farmers Receive in Developing Countries</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">D</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">B R</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Jaramillo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Williamson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HNGauZF">Times Series Analysis</title>
+		<imprint>
+			<publisher>Princeton University Press hazell</publisher>
+			<date type="published" when="1990">1994. 1990</date>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="227" to="241" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">hamIlton, J. D. (1994), Times Series Analysis, Princeton University Press hazell, P. B. R., M. jaRamIllo et A. wIllIamson (1990), « The Relationship between World Price Instability and the Prices Farmers Receive in Developing Countries », Journal of Agricultural Economics, 41 (2) : 227-241.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,143.91,324.00,8.80;29,72.00,156.08,205.58,8.80" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_Q2MdhRE">Statistical analysis of cointegration vectors</title>
+		<author>
+			<persName coords=""><forename type="first">Søren</forename><surname>Johansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0165-1889(88)90041-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EcAMtct">Journal of Economic Dynamics and Control</title>
+		<title level="j" type="abbrev">Journal of Economic Dynamics and Control</title>
+		<idno type="ISSN">0165-1889</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="231" to="254" />
+			<date type="published" when="1988-06">1988</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">johansen, S. (1988), « Statistical Analysis of Cointegrating Vectors », Journal of Economic Dynamic and Control 12(2-3) : 231-254.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,170.26,323.99,8.80;29,72.00,182.43,315.00,8.80;29,72.00,194.61,114.53,8.80" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_bDrMN6Y">Asymmetry in Farm-Retail Price Transmission for Major Dairy Products</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">W</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><forename type="middle">D</forename><surname>Forker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xcQfgwU">American Journal of Agricultural Economics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="285" to="292" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">kInnucan, H. W. et O. D. FoRkeR, 1987. « Asymmetry in Farm-Retail Price Transmission for Major Dairy Products », American Journal of Agricultural Economics, 69(2) : 285-292.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,208.78,323.96,8.80;29,72.00,220.96,293.65,8.80;29,63.00,235.13,323.96,8.80;29,72.00,247.31,315.01,8.80;29,72.00,259.48,125.13,8.80" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_uU5ksfJ">The Impact of Coffee Market Reforms on Producer Prices and Price Transmission</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename></persName>
+		</author>
+		<ptr target="http://www.whitehouse.gov/cea/lazear20080514.html" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9xjpq8K">Response to the Global Food Crisis</title>
+		<imprint>
+			<date type="published" when="2004">2004. 2008. 2008</date>
+			<biblScope unit="volume">3358</biblScope>
+		</imprint>
+	</monogr>
+	<note>Document de Travail Banque Mondiale. lazeaR, E.</note>
+	<note type="raw_reference">kRIvonos, E. (2004), « The Impact of Coffee Market Reforms on Producer Prices and Price Transmission », Document de Travail 3358, Banque Mondiale. lazeaR, E. (2008), « Response to the Global Food Crisis », Testimony for the Senate Foreign Relations Committee on May 14, 2008 (http://www.whitehouse. gov/cea/lazear20080514.html).</note>
+</biblStruct>
+
+<biblStruct coords="29,88.01,273.66,299.00,8.80;29,72.00,285.83,258.14,8.80" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_g8NA6W6">Asymmetric Price Transmission : A Survey</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uxpsBbW">Journal of Agricultural Economics</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="581" to="611" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>von cRamon-taubadel</note>
+	<note type="raw_reference">J. et S. von cRamon-taubadel (2004), « Asymmetric Price Transmission : A Survey », Journal of Agricultural Economics, 55(3) : 581-611.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,300.01,324.00,8.80;29,72.00,312.18,315.00,8.80;29,72.00,324.36,154.49,8.80" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZXrtkAV">La robustesse des tests de transmission asymétrique des prix en présence de changements structurels</title>
+		<author>
+			<persName><forename type="first">Jochen</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Von Cramon-Taubadel</surname></persName>
+		</author>
+		<idno type="DOI">10.3406/ecoru.2004.5503</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XdCzR98">Économie rurale</title>
+		<title level="j" type="abbrev">ecoru</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Meyer</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Et S. Von Cramon-Taubadel</surname></persName>
+		</editor>
+		<idno type="ISSN">0013-0559</idno>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="26" />
+			<date type="published" when="2004">2004</date>
+			<publisher>PERSEE Program</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">meyeR, J. et S. von cRamon-taubadel (2004), « La robustesse des tests de trans- mission asymétrique des prix en présence de changements structurels », Economie Rurale, 283-284/septembre-décembre.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,338.53,324.00,8.80;29,72.00,350.71,180.15,8.80" xml:id="b19">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Mignon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lardic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Yat5wRS">Économétrie des séries temporelles macroéconomiques et financières</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">mIgnon, V. et S. laRdIc (2002), Économétrie des séries temporelles macroécono- miques et financières, Éd. Economica, Paris.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,364.88,324.00,8.80;29,72.00,377.06,314.91,8.80;29,72.00,389.23,315.01,8.80;29,72.00,401.41,314.95,8.80;29,72.00,413.58,190.81,8.80" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_dus4dgn">Transmission of World Food Price Changes to African Markets and its Effect on Household Welfare</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_cCswbe7">Comesa Policy Seminar « Food Price Variability : Causes, Consequences, and Policy Options</title>
+		<meeting><address><addrLine>Maputo, Mozambique</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-01">2010. January 2010</date>
+		</imprint>
+	</monogr>
+	<note>Under the Comesa-MSU-IFPRI African Agricultural Markets Project (AAMP)</note>
+	<note type="raw_reference">mInot, N. (2010), « Transmission of World Food Price Changes to African Markets and its Effect on Household Welfare », Paper presented at the Comesa Policy Seminar « Food Price Variability : Causes, Consequences, and Policy Options », on 25-26 January 2010 in Maputo, Mozambique. Under the Comesa-MSU-IFPRI African Agricultural Markets Project (AAMP).</note>
+</biblStruct>
+
+<biblStruct coords="29,99.16,427.76,287.87,8.80;29,72.00,439.93,242.37,8.80" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_TYPrerw">On the Transmission of World Agricultural Prices</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Larson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9VYemNQ">The World Bank Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="399" to="422" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. et D. laRson (1992), « On the Transmission of World Agricultural Prices », The World Bank Economic Review, 6(3) : 399-422.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,454.11,323.96,8.80;29,72.00,466.28,315.00,8.80;29,72.00,478.46,251.32,8.80" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZBSS95K">Nonlinear Aspects of Goods-Market Arbitrage and Adjustment : Heckscher&apos;s Commodity Points Revisited</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FRhBgPH">Journal of the Japanese and International Economies</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="441" to="479" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">obstFeld, M. et A. M. tayloR (1997), « Nonlinear Aspects of Goods-Market Arbitrage and Adjustment : Heckscher&apos;s Commodity Points Revisited », Journal of the Japanese and International Economies, 11(4) : 441-479.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,492.63,324.00,8.80;29,72.00,504.81,63.08,8.80" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_JNUXc7b">Time Series Regression with a Unit Root</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">C B</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1913237</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5aqE2fW">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">277</biblScope>
+			<date type="published" when="1987-03">1987</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">phIllIps, P. (1987), « Time Series Regression with a Unit Root », Econometrica, 55(2) : 277-301.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,518.98,324.02,8.80;29,72.00,531.16,315.01,8.80;29,72.00,543.33,248.95,8.80" xml:id="b24">
+	<monogr>
+		<title level="m" type="main" xml:id="_raHyeag">International Price Signals in Agricultural Prices : Do Governments Care? », Documento de investigacion #88</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Quiroz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Soto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<pubPlace>Santiago, Chile</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>ILADES Postgraduate Economics Program. Georgetown University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">quIRoz, J. et R. soto (1995), « International Price Signals in Agricultural Prices : Do Governments Care? », Documento de investigacion #88. ILADES Postgraduate Economics Program. Georgetown University. Santiago, Chile.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,557.51,324.02,8.80;29,72.00,569.68,315.03,8.80;29,72.00,581.86,315.00,8.80;29,72.00,594.03,121.12,8.80" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_hhDYuAP">Analyse des marchés des produits de la pêche et de l’aquaculture continentales dans les pays du Maghreb</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Rapsomanikis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Conforti</surname></persName>
+		</author>
+		<idno type="DOI">10.4060/cc6086fr</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mp2eswA">Intégration des marchés et transmission des prix pour certains marchés de cultures vivrières et commerciales de pays en développement : analyse et applications</title>
+		<imprint>
+			<publisher>FAO</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Rapport sur les marchés des produits 2003-2004</note>
+	<note type="raw_reference">RapsomanIkIs, G., D. hallam et P. conFoRtI (2004), « Intégration des marchés et transmission des prix pour certains marchés de cultures vivrières et commerciales de pays en développement : analyse et applications », Rapport sur les marchés des produits 2003-2004, FAO.</note>
+</biblStruct>
+
+<biblStruct coords="29,63.00,608.21,324.01,8.80;29,72.00,620.38,164.48,8.80" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_3A9BvSP">Testing Market Integration</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Ravallion</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1241654</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uFtc7EW">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="102" to="109" />
+			<date type="published" when="1986-02">1986</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RavallIon, N. (1986), « Testing Market Integration », American Journal of Agricultural Economics, 68(1) : 102-109.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,91.20,324.01,8.80;30,72.00,103.20,302.68,8.80" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_eTyYDfn">Evidence on the Flexibility of Prices</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Stockton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">S</forename><surname>Struckmeyer</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2109832</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tPCYSuT">The Review of Economics and Statistics</title>
+		<title level="j" type="abbrev">The Review of Economics and Statistics</title>
+		<idno type="ISSN">0034-6535</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">142</biblScope>
+			<date type="published" when="1994-02">1994</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RobeRts, J. M., D.J. stockton et C. S. stRuckmeyeR (1994),« Evidence on the Flexibility of Prices », Review of Economics and Statistics, 76(1) : 142-150.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,117.20,324.01,8.80;30,72.00,129.20,314.98,8.80;30,72.00,141.20,86.62,8.80" xml:id="b28">
+	<monogr>
+		<title level="m" type="main" xml:id="_uWY5MEF">Homeland Security and Governmental Affairs Committee, Senate</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rosegrant</surname></persName>
+		</author>
+		<idno type="DOI">10.4135/9781483300498.n177</idno>
+		<imprint>
+			<date type="published" when="2008-05-07">2008. May 7, 2008</date>
+			<publisher>CQ Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RosegRant, M. (2008), « Biofuels and Grain Prices : Impacts and Policy Responses », Testimony for the U.S. Senate Committee on Homeland Security and Governmental Affairs. May 7, 2008.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,155.20,324.00,8.80;30,72.00,167.20,314.98,8.80;30,72.00,179.20,293.26,8.80" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_adx4Us3">Market Integration, Efficiency of Arbitrage, and Imperfect Competition: Methodology and Application to U.S. Celery</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Sexton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><forename type="middle">L</forename><surname>Kling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hoy</forename><forename type="middle">F</forename><surname>Carman</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1242810</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Qsx5DPs">American Journal of Agricultural Economics</title>
+		<title level="j" type="abbrev">American J Agri Economics</title>
+		<idno type="ISSN">0002-9092</idno>
+		<idno type="ISSNe">1467-8276</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="568" to="580" />
+			<date type="published" when="1991-08">1991</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">sexton, R., C. klIng et H. caRman (1991), « Market Integration, Efficiency of Arbitrage, and Imperfect Competition : Methodology and Application to U.S. Celery », American Journal of Agricultural Economics, 73 (3) : 568-580.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,193.20,324.01,8.80;30,72.00,205.20,199.69,8.80" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_ttazv2b">The estimation of transaction costs in arbitrage models</title>
+		<author>
+			<persName><forename type="first">Pablo</forename><forename type="middle">T</forename><surname>Spiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">O</forename><surname>Wood</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-4076(88)90061-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MyYCM8E">Journal of Econometrics</title>
+		<title level="j" type="abbrev">Journal of Econometrics</title>
+		<idno type="ISSN">0304-4076</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="309" to="326" />
+			<date type="published" when="1988-11">1988</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">spIlleR, P. et R. wood (1988), « The Estimation of Transaction Costs in Arbitrage Models », Journal of Econometrics, 39 : 309-326.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,219.20,324.04,8.80;30,72.00,231.20,156.45,8.80" xml:id="b31">
+	<monogr>
+		<title level="m" type="main" xml:id="_Z5syWsN">Figure 1.1 Évolution des prix mondiaux de certains produits agricoles, 2006-09</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1787/888932297742</idno>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Organisation for Economic Co-Operation and Development (OECD)</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Thèse</note>
+	<note type="raw_reference">subeRvIe, J. (2008), « Rupture et asymétrie dans la transmission des prix agricoles mondiaux », Article de Thèse, CERDI.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,245.20,323.95,8.80;30,72.00,257.20,314.99,8.80;30,72.00,269.20,41.36,8.80" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_yPZvpWD">Agriculture and Pro-Poor Growth: An Asian Perspective</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">Peter</forename><surname>Timmer</surname></persName>
+		</author>
+		<idno type="DOI">10.37801/ajad2008.5.1.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qxgfE2j">Asian Journal of Agriculture and Development</title>
+		<title level="j" type="abbrev">AJAD</title>
+		<idno type="ISSN">1656-4383</idno>
+		<idno type="ISSNe">2599-3879</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="27" />
+			<date type="published" when="1997">1997</date>
+			<publisher>Southeast Asian Regional Center for Graduate Study and Research in Agriculture (SEARCA)</publisher>
+		</imprint>
+	</monogr>
+	<note>project, décembre</note>
+	<note type="raw_reference">tImmeR, C. P. (1997), « How Well do the Poor Connect to the Growth Process? », Harvard Institute for International Development for the USAID/CAER project, décembre.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,283.20,324.04,8.80;30,72.00,295.20,315.01,8.80;30,72.00,307.20,263.55,8.80" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" xml:id="_ySggQNf">High Food Prices : The What, Who, and How of Proposed Policy Actions</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Von Braun</surname></persName>
+		</author>
+		<ptr target="http://www.ifpri.org/PUBS/ib/foodprices.asp" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hv5X9gD">Policy Brief. International Food Policy Research Institute</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">von bRaun, J. (2008), « High Food Prices : The What, Who, and How of Proposed Policy Actions », Policy Brief. International Food Policy Research Institute. Washington, DC. (http://www.ifpri.org/PUBS/ib/foodprices.asp).</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,321.20,324.01,8.80;30,72.00,333.20,314.99,8.80;30,72.00,345.20,263.68,8.80" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_h2JTtbK">Estimating asymmetric price transmission with the error correction representation: An application to the German pork market</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Cramon-Taubadel</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/erae/25.1.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xhZWqBW">European Review of Agricultural Economics</title>
+		<title level="j" type="abbrev">European Review of Agricultural Economics</title>
+		<idno type="ISSN">0165-1587</idno>
+		<idno type="ISSNe">1464-3618</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="1998-01-01">1998</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">von cRamon-taubadel s. (1998), « Estimating Asymmetric Price Transmission with the Error Correction Representation : An application to the German Pork Market », European Review of Agricultural Economics, 25 : 1-18.</note>
+</biblStruct>
+
+<biblStruct coords="30,63.00,359.20,324.00,8.80;30,72.00,371.20,67.93,8.80" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" xml:id="_zQdVEfa">Storage and Commodity Markets</title>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">D</forename><surname>Wright</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9780511571855</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_2sgzFtP">Storage and Commodity Markets</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1991-03-29">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">wIllIams, J. et B.D. wRIght (1991), Storage and Commodity Markets, Cambridge University Press.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

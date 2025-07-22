@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Liste des identifiants de journaux
-journals=("cqd27" "ae49" "haf18")
+journals=("haf18")
 
 # Répertoire racine des PDF et des sorties XML
 PDF_ROOT="/Tmp/nguyth/project/Stage_2025/data/pdfs"

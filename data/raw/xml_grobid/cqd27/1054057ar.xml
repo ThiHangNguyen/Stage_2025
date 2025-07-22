@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_UFZfmpe"></title>
+				<funder ref="#_5UmmHBt #_mJ54UKQ">
+					<orgName type="full">Canadiens âgés de demain et conséquences prévisibles sur le réseau de soutien », Cahiers québécois de démographie, 41</orgName>
+				</funder>
+				<funder ref="#_HE7cAD9 #_VGJ2Ksp #_6qW4bG9">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_RSrNn67">
+					<orgName type="full">Ressources et utilisation des soins de longue durée », Tableau de données</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>*</label> Université de Groningen et NIDI. *</note>
+								<orgName type="institution">Université de Groningen et NIDI. *</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>*</label> INRS, Urbanisation Culture Société et Département de démographie , Université de Montréal. *</note>
+								<orgName type="department">INRS, Urbanisation Culture Société et Département de démographie</orgName>
+								<orgName type="institution">Université de Montréal. *</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>**</label> Département de démographie , Université de Montréal .</note>
+								<orgName type="department">Département de démographie</orgName>
+								<orgName type="institution">Université de Montréal</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EE35D9CB6D817B3A12F3A3E33F793E3F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T21:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-12-g5c1957b1e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=true, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=true, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, head, label, figureDesc, table, tr, s], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_eSu8DXq"><p xml:id="_7TXYQGr"><s xml:id="_upFpEMd" coords="1,99.24,167.19,413.54,13.97;1,132.13,186.18,347.74,13.97;1,194.48,205.18,219.04,13.97;1,413.52,203.10,4.00,9.50;1,76.98,239.41,458.05,13.50">Projection de la population canadienne vivant en institution de santé : le nombre de places pourra-t-il répondre aux besoins des baby-boomers ? 1 michaël boissonneault*, yann décarie** et jacques légaré***</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_kXbvh8H" coords="1,284.25,286.68,43.50,10.48">RÉSUMÉ</head><p xml:id="_s98hCV7"><s xml:id="_FDDGNuM" coords="1,72.00,308.31,449.16,9.60">Au canada, une part importante des soins de longue durée sont prodigués en institution de santé.</s><s xml:id="_qfPmjYe" coords="1,524.40,308.31,15.77,9.60;1,72.00,321.31,467.80,9.60;1,72.00,334.31,325.94,9.60">ces soins sont associés à des coûts importants, lesquels risquent d'augmenter encore plus rapidement avec l'avancée en âge des membres des cohortes nombreuses du baby-boom.</s><s xml:id="_wYjXxtC" coords="1,400.98,334.31,138.85,9.60;1,72.00,347.31,398.67,9.60">cependant, les gouvernements font de plus en plus d'efforts pour contenir ces coûts en favorisant le soutien à domicile.</s><s xml:id="_aQZKb4k" coords="1,474.07,347.31,65.86,9.60;1,72.00,360.32,351.03,9.60">cette situation rend le fait de projeter la population vivant en institution de santé très difficile.</s><s xml:id="_ksDQZy4" coords="1,425.86,360.32,114.19,9.60;1,72.00,373.32,307.22,9.60">nous présentons dans cet article la projection faite par le modèle de microsimulation LifePaths.</s><s xml:id="_4GMcFsn" coords="1,382.15,373.32,157.34,9.60;1,72.00,386.32,467.74,9.60;1,72.00,399.32,131.48,9.60">cette projection est faite en supposant le risque d'institutionnalisation constant dans le temps et prévoit un quadruplement des effectifs pendant la période 2011-2051.</s><s xml:id="_eFSkEzc" coords="1,206.39,399.32,333.27,9.60;1,72.00,412.32,43.42,9.60">étant donné le contexte politique, nous doutons qu'une telle augmentation se réalise.</s><s xml:id="_pEzhdSX" coords="1,117.97,412.32,422.06,9.60;1,72.00,425.33,40.32,9.60">nous proposons différents scénarios de réduction du nombre de personnes vivant en institution de santé.</s><s xml:id="_SHaahNV" coords="1,115.29,425.33,424.22,9.60;1,72.00,438.33,205.25,9.60">Les projections tiennent alors compte du transfert d'un certain nombre de personnes vivant en institution vers la population en ménage privé.</s><s xml:id="_qYbJYQ6" coords="1,279.81,438.33,260.20,9.60;1,72.00,451.33,468.29,9.60;1,72.00,464.33,220.98,9.60">nous montrons comment ces personnes peuvent être choisies sur la base de certaines combinaisons de caractéristiques telles l'âge, le niveau de scolarité, le statut matrimonial et le nombre de proches survivants.</s><s xml:id="_v56kuaM" coords="1,296.17,464.33,243.86,9.60;1,72.00,477.33,468.11,9.60;1,72.00,490.34,468.43,9.60;1,72.00,503.34,188.69,9.60">Enfin, nous quantifions l'augmentation du nombre de personnes projetées comme vivant en ménage privé avec incapacité grave, qui pourrait être accrue de 67 pour cent pendant la période 2011-2051 si l'on suppose que le nombre de personnes vivant en institution de santé reste constant dans le temps.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="792.0" lry="612.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_QCFEUUF" coords="2,72.00,298.77,94.72,10.48">INTRODUCTION</head><p xml:id="_DhYTqNs"><s xml:id="_NRDRNYx" coords="2,70.98,321.45,18.87,31.57;2,91.25,321.45,448.79,10.80;2,91.25,336.45,86.43,10.80">L a prestation de soins de longue durée est présentement en mutation au Canada (Colombo,   2011 ; Keefe, 2011).</s><s xml:id="_c43tA7w" coords="2,180.77,336.45,359.20,10.80;2,72.01,351.45,468.00,10.80;2,72.01,366.45,468.33,10.80;2,72.01,381.45,468.00,10.80;2,72.01,396.45,264.22,10.80">D'une part, différents changements dans la prestation de soins en milieu hospitalier (réduction du temps d'hospitalisation, augmentation du nombre de traitements ambulatoires) ainsi que la volonté des personnes de vieillir chez soi favorisent un plus grand soutien à domicile (Association canadienne des compagnies d'assurances de personnes, 2012 ; Institut de recherche en politiques publiques, 2015).</s><s xml:id="_QjtdcEP" coords="2,339.75,396.45,200.41,10.80;2,72.01,411.45,468.24,10.80;2,72.01,426.45,468.00,10.80;2,72.01,441.45,468.18,10.80;2,72.01,456.45,207.17,10.80">D'autre part, les changements démographiques (incluant le vieillissement démographique, l'allongement de la durée de vie moyenne et les changements dans le réseau de proches) <ref type="bibr" coords="2,292.79,426.45,124.21,10.80">(Bohnert et collab. 2014 ;</ref><ref type="bibr" coords="2,420.62,426.45,119.38,10.80">Légaré et Décarie, 2012 ;</ref><ref type="bibr" coords="2,72.01,441.45,150.06,10.80">Ménard et Le Bourdais, 2012 ;</ref><ref type="bibr" coords="2,225.94,441.45,104.43,10.80">Milan et collab. 2014</ref>) exercent une pression à la hausse sur la demande de places en institution de santé.</s><s xml:id="_6Zq7cjh" coords="2,282.35,456.45,257.74,10.80;2,72.01,471.45,467.95,10.80;2,72.01,486.45,451.12,10.80">En 2012, près de 900 000 Canadiens de 65 ans et plus vivant en ménage privé déclaraient avoir besoin d'aide concernant des problèmes de santé de longue durée, une incapacité ou des besoins liés au vieillissement <ref type="bibr" coords="2,396.41,486.45,121.92,10.80">(Sinha et Bleakney, 2014)</ref>.</s><s xml:id="_pdDRsWB" coords="2,526.44,486.45,13.32,10.80;2,72.01,501.45,467.99,10.80;2,71.99,516.45,468.00,10.80;2,71.99,531.45,29.32,10.80">En contrepartie, on comptait 225 000 personnes de 65 ans et plus vivant en institution de santé en 2011 <ref type="bibr" coords="2,71.99,516.45,127.09,10.80">(Statistique Canada, 2012a)</ref>, contre 265 000 personnes en 2016 <ref type="bibr" coords="2,366.88,516.45,76.38,10.80" target="#b6">(Gibbard, 2017 ;</ref><ref type="bibr" coords="2,445.80,516.45,94.20,10.80;2,71.99,531.45,24.43,10.80">Statistique Canada, 2017)</ref>.</s><s xml:id="_aHAmxgc" coords="2,105.28,531.45,434.83,10.80;2,71.99,546.45,468.01,10.80;2,71.99,561.45,220.20,10.80">Bien que moins nombreuses, les personnes en institution de santé ont généralement besoin de plus de soins et de services, et les coûts associés sont plus élevés <ref type="bibr" coords="2,437.45,546.45,102.55,10.80;2,71.99,561.45,27.60,10.80">(Blomqvist et Busby, 2014 ;</ref><ref type="bibr" coords="2,103.89,561.45,183.41,10.80" target="#b0">Conference Board of Canada, 2015)</ref>.</s><s xml:id="_56ytrPU" coords="2,296.49,561.45,243.56,10.80;2,71.99,576.45,468.00,10.80;2,71.99,591.45,226.51,10.80">En 2015, ils ont engendré des dépenses de près 25 milliards de dollars, ce qui a représenté une hausse de 66 % par rapport à 2005 (Institut canadien d'information sur la santé, 2017a ; 2017b).</s><s xml:id="_vnBEmnb" coords="2,301.52,591.45,238.48,10.80;2,71.99,606.45,467.69,10.80;2,71.99,621.45,468.34,10.80;2,71.99,636.45,217.52,10.80">Vu le vieillissement démographique accéléré que le Canada connaitra dans les décennies à venir, il importe de bien connaitre les tendances concernant le nombre de personnes nécessitant des soins de longue durée, incluant les effectifs de population vivant en institution de santé.</s></p><p xml:id="_6mKDF9V"><s xml:id="_FqU5yaP" coords="2,89.99,651.45,450.07,10.80;2,71.99,666.45,169.99,10.80">Les projections de population constituent depuis longtemps un outil précieux servant à la planification et la prise de décision.</s><s xml:id="_kf3EWUe" coords="2,244.94,666.45,295.06,10.80;2,71.99,681.45,152.22,10.80">Pourtant, peu de projections de la population vivant en institution de santé sont effectuées.</s><s xml:id="_7n57Vbd" coords="2,227.50,681.45,312.79,10.80;2,71.99,696.45,468.28,10.80;2,71.99,711.45,150.98,10.80">Le fait que cette population est mal connue (Carrière et <ref type="bibr" coords="2,505.13,681.45,35.16,10.80;2,71.99,696.45,25.38,10.80">Légaré, 1993 ;</ref><ref type="bibr" coords="2,100.66,696.45,62.41,10.80" target="#b12">Légaré, 2014)</ref>, tant de la part des décideurs que de la communauté scientifique, contribue sans doute à cet état des choses.</s><s xml:id="_hwX2rQY" coords="2,225.74,711.45,314.33,10.80;3,72.00,97.20,468.36,10.80;3,72.00,112.20,83.51,10.80">Nous notons tout de même une étude ayant projeté la population québécoise vivant en institution de santé jusqu'à l'horizon 2050, soit celle de Laliberté-Auger et collègues <ref type="bibr" coords="3,121.98,112.20,28.74,10.80">(2015)</ref>.</s><s xml:id="_nWCz3S8" coords="3,159.59,112.20,380.42,10.80;3,72.00,127.20,467.62,10.80;3,72.00,142.20,23.36,10.80">Les auteurs y présentent les résultats d'une microsimulation basée sur des données de l'Enquête nationale de la santé des populations (ENSP) ayant été récoltées de 1994 à 2012.</s><s xml:id="_hwg6hW7" coords="3,97.88,142.20,442.12,10.80;3,72.00,157.20,468.00,10.80">Poursuivant les tendances enregistrées par les données, leur modèle prévoit un triplement du nombre de personnes vivant en institution de santé durant la période comprise entre 2010 et 2050.</s><s xml:id="_z5Vtkqb" coords="3,72.00,172.20,445.98,10.80">Selon les auteurs, cette évolution est « insoutenable » vu les coûts qui seraient engendrés.</s><s xml:id="_hp9gb7g" coords="3,521.57,172.20,18.42,10.80;3,72.00,187.20,468.34,10.80;3,72.00,202.20,453.27,10.80">Des projections suivant d'autres scénarios plus conservateurs sont aussi produites, lesquelles donnent des estimations variant de 62 000 personnes vivant en institution de santé à près de 200 000.</s><s xml:id="_vFbQjmu" coords="3,528.47,202.20,11.69,10.80;3,72.00,217.20,468.00,10.80;3,72.00,232.20,175.62,10.80">La large fourchette de possibilités montre jusqu'à quel point il existe peu de balises sûres concernant les tendances d'institutionnalisation.</s></p><p xml:id="_zWyvaHQ"><s xml:id="_m9htbb6" coords="3,90.00,247.20,449.68,10.80;3,72.00,262.20,468.00,10.80;3,72.00,277.20,468.04,10.80;3,72.00,292.20,246.48,10.80">Dans le présent article, nous présentons et discutons une projection du nombre de personnes vivant en institution de santé, faite à partir du modèle de microsimulation LifePaths, un logiciel de microsimulation s'appuyant sur plusieurs bases de données, telles que les recensements, des données historiques et une multitude d'enquêtes.</s><s xml:id="_YdB4JXq" coords="3,322.02,292.20,217.98,10.80;3,72.00,307.20,467.93,10.80;3,72.00,322.20,468.32,10.80;3,72.00,337.20,424.27,10.80">Ce modèle est utilisé depuis de nombreuses années <ref type="bibr" coords="3,108.30,307.20,112.39,10.80">(Décarie et collab. 2012</ref>) pour, entre autres, analyser différents changements sociodémographiques et économiques tels que ceux affectant le réseau de soutien à domicile <ref type="bibr" coords="3,482.49,322.20,57.83,10.80;3,72.00,337.20,62.36,10.80">(Carrière et collab. 2007 ;</ref><ref type="bibr" coords="3,137.50,337.20,111.97,10.80">Gaymu et collab. 2010 ;</ref><ref type="bibr" coords="3,252.61,337.20,96.75,10.80">Keefe et collab. 2007</ref>), la retraite (Moore et collab.</s><s xml:id="_45Pv6Sj" coords="3,499.41,337.20,40.30,10.80;3,71.99,352.20,468.12,10.80;3,71.99,367.20,305.55,10.80">2010), la santé <ref type="bibr" coords="3,100.65,352.20,120.71,10.80" target="#b15">(Légaré et Décarie, 2011 ;</ref><ref type="bibr" coords="3,224.71,352.20,104.15,10.80">Légaré et collab. 2014</ref>) et certaines questions spécifiques liées au vieillissement de la population <ref type="bibr" coords="3,226.92,367.20,145.77,10.80">(Wolfson et McDonald, 2016)</ref>.</s><s xml:id="_56WeAuP" coords="3,380.96,367.20,158.74,10.80;3,71.99,382.20,251.98,10.80">Ce logiciel permet également de projeter la population vivant en institution de santé.</s><s xml:id="_Q2QXq9x" coords="3,327.00,382.20,212.99,10.80;3,71.99,397.20,468.00,10.80;3,71.99,412.20,468.06,10.80;3,71.99,427.20,184.57,10.80">Plus précisément, Lifepaths se concentre sur les établissements offrant des soins et des services pour les personnes âgées en perte d'autonomie, lesquels abritent environ la moitié des personnes âgées de 65 ans et plus vivant en logements collectifs <ref type="bibr" coords="3,118.85,427.20,132.86,10.80">(Statistique Canada, 2012a)</ref>.</s><s xml:id="_ynWJZzW" coords="3,260.02,427.20,280.19,10.80;3,71.99,442.20,468.00,10.80;3,71.99,457.20,312.29,10.80">Étant également basé sur les tendances récentes des taux d'institutionnalisation <ref type="bibr" coords="3,181.98,442.20,122.37,10.80">(Samvura et Vladès, 2014)</ref>, ce modèle prédit quant à lui un quadruplement de la population vivant en institution de santé à l'horizon 2051.</s><s xml:id="_pSxRHXU" coords="3,387.62,457.20,152.57,10.80;3,71.99,472.20,468.00,10.80;3,71.99,487.20,217.00,10.80">Nous présentons plus en détail cette projection dans la première partie de la section résultats, incluant une ventilation selon différentes caractéristiques sociodémographiques.</s></p><p xml:id="_mqaQp4T"><s xml:id="_Zgymtkk" coords="3,89.99,502.20,450.00,10.80;3,71.99,517.20,247.57,10.80">À l'instar de Laliberté-Auger et collègues, nous doutons qu'un tel accroissement du nombre de personnes vivant en institution de santé se réalise.</s><s xml:id="_35CTAQs" coords="3,322.92,517.20,216.97,10.80;3,71.99,532.20,468.00,10.80;3,71.99,547.20,468.22,10.80;3,71.99,562.20,381.80,10.80">Comme le nombre de places disponibles est tributaire de décisions politiques, les tendances passées ne constituent probablement pas une base solide pour une projection de la situation future et nous croyons qu'il est primordial d'envisager différents scénarios <ref type="bibr" coords="3,166.66,562.20,149.67,10.80">(Christiansen et Keilman, 2013 ;</ref><ref type="bibr" coords="3,318.79,562.20,130.39,10.80">Martikainen et collab. 2017)</ref>.</s><s xml:id="_XJcwnvF" coords="3,456.24,562.20,83.75,10.80;3,71.99,577.20,468.00,10.80;3,71.99,592.20,440.09,10.80">Selon les données les plus récentes, le nombre de personnes recevant des soins et services à domicile croît beaucoup plus rapidement que le nombre de celles en recevant en institution de santé <ref type="bibr" coords="3,441.41,592.20,66.04,10.80">(OCDE, 2017)</ref>.</s><s xml:id="_Q996j72" coords="3,515.19,592.20,24.45,10.80;3,71.99,607.20,467.55,10.80;3,71.99,622.20,468.00,10.80;3,71.99,637.20,206.06,10.80">Si les conditions nécessaires sont réunies (incluant par exemple la disponibilité d'infirmières), les soins et services à domicile peuvent en bonne partie remplacer ceux prodigués en institution (Ordre des infirmières et infirmiers du Québec, 2017).</s><s xml:id="_E5WYHwb" coords="3,281.17,637.20,258.82,10.80;3,71.99,652.20,468.24,10.80;3,71.99,667.20,281.16,10.80">Nous considérons plusieurs raisons pour lesquelles la demande en soins et services à domicile risque de croitre dans le futur, et ce au détriment de la croissance de la demande de places en institution de santé.</s><s xml:id="_XJedzN7" coords="3,356.06,667.20,183.92,10.80;3,71.99,682.20,467.69,10.80;3,71.99,697.20,468.33,10.80;3,71.99,712.20,28.79,10.80">D'abord, les fonds publics affectés aux institutions de santé ont tendance à stagner, alors qu'ils sont en hausse dans pratiquement l'ensemble des autres secteurs de dépenses de santé (Commission de la santé et des services sociaux, 2013).</s><s xml:id="_qq5bFAm" coords="3,104.82,712.20,435.40,10.80;4,72.00,97.20,467.79,10.80;4,72.00,112.20,232.85,10.80">Les institutions privées peuvent constituer une alternative, mais elles demeurent peu nombreuses et les coûts que les bénéficiaires doivent débourser sont élevés (Association canadienne des compagnies d'assurances de personnes, 2012).</s><s xml:id="_kY7hM5M" coords="4,307.60,112.20,232.40,10.80;4,72.00,127.20,468.00,10.80;4,72.00,142.20,463.26,10.80">Simultanément, les personnes vieillissantes expriment de plus en plus le désir de vieillir chez elles, option pour laquelle les gouvernements augmentent présentement les budgets et les ressources (Institut de recherche en politiques publiques, 2015).</s></p><p xml:id="_PJvvfQv"><s xml:id="_v3U8mhM" coords="4,90.00,157.20,450.30,10.80;4,72.00,172.20,437.90,10.80">Compte tenu de ce contexte, comment pouvons-nous établir des scénarios qui reflètent les différentes possibilités de l'accroissement du nombre de places en institution de santé ?</s><s xml:id="_m98wGdR" coords="4,513.57,172.20,26.45,10.80;4,72.00,187.20,438.22,10.80">Nous tentons, dans la deuxième partie des résultats, de fournir une réponse à cette question.</s><s xml:id="_FEVDHdw" coords="4,513.94,187.20,26.26,10.80;4,72.00,202.20,468.22,10.80;4,72.00,217.20,468.00,10.80;4,72.00,232.20,468.01,10.80;4,72.01,247.20,197.35,10.80">Cette réponse est basée sur l'observation selon laquelle certaines personnes sont plus susceptibles que d'autres de se retrouver en institution de santé, et ce, même à santé égale <ref type="bibr" coords="4,418.42,217.20,121.58,10.80;4,72.00,232.20,26.81,10.80" target="#b2">(Désesquelles et Brouard, 2003 ;</ref><ref type="bibr" coords="4,101.37,232.20,98.97,10.80">Einio et collab. 2012 ;</ref><ref type="bibr" coords="4,202.91,232.20,113.16,10.80">Gaugler et collab. 2007 ;</ref><ref type="bibr" coords="4,318.63,232.20,112.36,10.80" target="#b7">Grundy et Glaser, 1997 ;</ref><ref type="bibr" coords="4,433.56,232.20,106.46,10.80">Luppa et collab. 2009 ;</ref><ref type="bibr" coords="4,72.01,247.20,72.50,10.80">Pelletier, 1992 ;</ref><ref type="bibr" coords="4,147.87,247.20,116.27,10.80">Trottier et collab. 2000)</ref>.</s><s xml:id="_GAd8Qzb" coords="4,272.71,247.20,267.32,10.80;4,72.01,262.20,437.95,10.80">Cela est le cas par exemple des personnes plus vieilles, veuves ou divorcées, n'ayant pas d'enfants survivants et avec un niveau plus bas de scolarité.</s><s xml:id="_WGAZ4TU" coords="4,512.56,262.20,27.45,10.80;4,72.01,277.20,467.96,10.80;4,72.01,292.20,206.64,10.80">Sur la base de ces caractéristiques, nous excluons différents effectifs de la population vivant en institution de santé de la projection de LifePaths.</s><s xml:id="_tBvWXfu" coords="4,281.76,292.20,258.33,10.80;4,72.01,307.20,324.50,10.80">Ces effectifs correspondent à un éventail de scénarios de projection plus modestes que nous aurons préalablement établis.</s></p><p xml:id="_ySjWTAn"><s xml:id="_Hp8UhA9" coords="4,90.01,322.20,449.90,10.80;4,72.01,337.20,442.89,10.80">En troisième partie, nous nous intéressons à l'impact de déplacer des personnes de 65 ans et plus originalement projetées en institution aux horizons 2031 et 2051 vers des ménages privés.</s><s xml:id="_7yUABKg" coords="4,517.49,337.20,22.52,10.80;4,72.01,352.20,468.00,10.80;4,72.01,367.20,306.69,10.80">Life-Paths permet de projeter la population selon quatre niveaux de santé : sans incapacité, avec incapacité légère, avec incapacité modérée et avec incapacité grave.</s><s xml:id="_3Rpp2cw" coords="4,381.90,367.20,158.30,10.80;4,72.01,382.20,467.70,10.80;4,72.01,397.20,379.95,10.80">Si l'on retire des personnes de la projection des effectifs vivant en institution de santé, nous devons nécessairement ajouter des personnes avec incapacité grave à la composante ménage privé de la projection.</s><s xml:id="_8X3aBxU" coords="4,454.74,397.20,85.27,10.80;4,72.01,412.20,468.09,10.80;4,72.01,427.20,468.18,10.80;4,72.01,442.20,199.14,10.80">Nous évaluons en cette troisième partie des résultats l'impact de la réduction du nombre de personnes projetées comme vivant en institution de santé sur le nombre de personnes projetées comme vivant en ménage privé avec une incapacité grave.</s><s xml:id="_MNBWy5U" coords="4,274.61,442.20,265.64,10.80;4,72.01,457.20,468.36,10.80;4,72.01,472.20,91.92,10.80">Cela permettra d'illustrer différentes situations où les besoins de soins et services à domicile vont croitre encore plus rapidement que ce que la projection de base prédit.</s></p><p xml:id="_vx45353"><s xml:id="_zXrrVqC" coords="4,90.01,487.20,450.04,10.80;4,72.01,502.20,124.35,10.80">Cet article porte sur la population âgée de 65 ans et plus exclusivement ; plusieurs facteurs justifient cette approche.</s><s xml:id="_xVDE3pQ" coords="4,199.99,502.20,339.95,10.80;4,72.01,517.20,278.27,10.80">D'abord, les personnes âgées de 65 ans et plus constituent la grande majorité des personnes résidant en institution de santé.</s><s xml:id="_v658jdU" coords="4,353.89,517.20,186.45,10.80;4,72.01,532.20,324.23,10.80">De plus, il s'agit d'une population en pleine croissance étant donnée la montée en âge des baby-boomers.</s><s xml:id="_CXy47QH" coords="4,399.11,532.20,140.90,10.80;4,72.01,547.20,448.92,10.80">Aussi, si la tendance se maintient, cette cohorte connaitra une durée moyenne de vie supérieure aux cohortes précédentes.</s><s xml:id="_3AgjWsz" coords="4,523.79,547.20,16.22,10.80;4,72.01,562.20,468.02,10.80;4,72.01,577.20,468.00,10.80;4,72.01,592.20,391.29,10.80">Or, une plus grande longévité est associée à une plus grande prévalence de maladies incapacitantes comme l'Alzheimer, laquelle constitue un important facteur de risque quant à la présence en institution <ref type="bibr" coords="4,105.06,592.20,125.84,10.80">(Bergman et collab. 2009 ;</ref><ref type="bibr" coords="4,233.99,592.20,115.21,10.80">Gaugler et collab. 2007 ;</ref><ref type="bibr" coords="4,352.29,592.20,105.95,10.80">Luppa et collab. 2009)</ref>.</s><s xml:id="_ajXJcVY" coords="4,466.39,592.20,73.55,10.80;4,72.02,607.20,468.12,10.80;4,72.02,622.20,467.60,10.80;4,72.02,637.20,241.56,10.80">Enfin, la distribution des âges de décès se concentre de plus en plus au-delà de 65 ans au <ref type="bibr" coords="4,442.55,607.20,97.59,10.80;4,72.02,622.20,57.04,10.80">Canada (Bohnert et collab. 2014</ref>) et il a été démontré que les séjours en institution de santé se concentrent le plus souvent en fin de vie <ref type="bibr" coords="4,173.52,637.20,135.51,10.80">(Martikainen et collab. 2013)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_8QjU9QM" coords="4,72.02,673.52,66.97,10.48">MÉTHODES</head><p xml:id="_2MEadz9"><s xml:id="_zUy7aEB" coords="4,72.02,696.20,189.32,10.80">Cette section est divisée en trois parties.</s><s xml:id="_Un9EHC2" coords="4,264.01,696.20,276.02,10.80;4,72.02,711.20,91.19,10.80">Premièrement, nous présentons les concepts liés au terme institution de santé.</s><s xml:id="_2EGRpCb" coords="4,165.82,711.20,374.20,10.80;5,72.00,97.20,468.12,10.80">Par la suite, nous faisons une brève description du modèle de microsimulation LifePaths ainsi que du module servant à projeter la population vivant en institution de santé.</s><s xml:id="_9k2rKce" coords="5,72.00,112.20,284.70,10.80">Enfin, nous décrivons les différents scénarios de projection.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9ZDS4yQ" coords="5,72.00,143.21,216.70,10.91">Utilisation du terme institution de santé</head><p xml:id="_hAWEvqJ"><s xml:id="_v3W7fpC" coords="5,72.00,164.20,467.99,10.80;5,71.99,179.20,384.38,10.80">Dans les études sur les personnes âgées vivant en institution, le terme « institution de santé » réfère à une variété d'établissements selon les sources et données statistiques utilisées.</s><s xml:id="_waB3Pdg" coords="5,459.49,179.20,80.77,10.80;5,71.99,194.20,397.54,10.80">Dans l'introduction du présent article, nous utilisons ce terme générique sans autres spécifications.</s></p><p xml:id="_yWPWhrB"><s xml:id="_ySw2m4B" coords="5,89.99,209.20,450.12,10.80;5,71.99,224.20,450.04,10.80">Pour notre étude et les résultats de LifePaths qui en découlent, nous référons toujours aux concepts et à la terminologie sur les logements et ménages collectifs <ref type="bibr" coords="5,411.63,224.20,110.41,10.80">de Statistique Canada.</ref></s><s xml:id="_UDCPaXg" coords="5,525.45,224.20,14.36,10.80;5,71.99,239.20,467.63,10.80">Au recensement de 2011, on dénombrait 16 types de logements collectifs <ref type="bibr" coords="5,405.34,239.20,129.53,10.80">(Statistique Canada, 2012a)</ref>.</s><s xml:id="_XmZB6U6" coords="5,71.99,254.20,468.00,10.80">Parmi ceux-ci, deux regroupent un très grand nombre de personnes, surtout des personnes âgées.</s><s xml:id="_S4GCpKW" coords="5,71.99,269.20,468.12,10.80;5,71.99,284.20,468.02,10.80;5,71.99,299.20,74.13,10.80">Ce sont les « Établissements de soins infirmiers, hôpitaux pour personnes souffrant de maladies chroniques et hôpitaux de soins de longue durée » (57 %) et les « Résidences pour personnes âgées » (33 %).</s><s xml:id="_RfRQzsV" coords="5,149.94,299.20,390.03,10.80;5,71.98,314.20,468.34,10.80;5,71.98,329.20,468.36,10.80;5,71.98,344.20,136.83,10.80">Nos résultats sur les personnes âgées vivant dans des « institutions de santé » concernent en grande majorité les personnes vivant dans les établissements de soins infirmiers, hôpitaux pour personnes souffrant de maladies chroniques et hôpitaux de soins de longue durée <ref type="bibr" coords="5,71.98,344.20,131.89,10.80">(Statistique Canada, 2012b)</ref>.</s><s xml:id="_zbAyPAt" coords="5,212.03,344.20,328.17,10.80;5,71.98,359.20,453.95,10.80">Cependant, ils ne concernent pas les personnes vivant en résidence pour personnes âgées, car ce type de résidences n'offre pas nécessairement des soins et services.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_wHZgbef" coords="5,72.00,390.21,93.20,10.91">Modèle LifePaths</head><p xml:id="_ehRK2qR"><s xml:id="_HD7atE2" coords="5,72.00,411.20,428.91,10.80">Notre objectif est de projeter les effectifs de personnes âgées vivant en institution de santé.</s><s xml:id="_pXvEmUF" coords="5,503.54,411.20,36.46,10.80;5,72.00,426.20,467.83,10.80;5,72.00,441.20,77.21,10.80">Pour ce faire, nous avons utilisé la dernière version du modèle de microsimulation LifePaths (version 5.1.4.1).</s><s xml:id="_3JN6feQ" coords="5,152.29,441.20,387.87,10.80;5,72.00,456.20,468.18,10.80;5,72.00,471.20,103.00,10.80">Celui-ci permet non seulement projeter les effectifs globaux des personnes âgées vivant en institution de santé, mais aussi de produire une ventilation selon différentes caractéristiques (voir encadré).</s></p><p xml:id="_XtcrMqn"><s xml:id="_hN62CNT" coords="5,90.00,486.20,449.60,10.80;5,72.00,501.20,467.62,10.80;5,72.00,516.20,468.00,10.80;5,72.00,531.20,159.24,10.80">La projection de la population vivant en institution de santé est faite à partir d'un module distinct du modèle LifePaths qui a été récemment mis à jour en partenariat avec Santé Canada pour répondre à certaines questions concernant les coûts des soins à domicile et d'institutionnalisation <ref type="bibr" coords="5,104.02,531.20,122.52,10.80">(Samvura et Vladès, 2014)</ref>.</s><s xml:id="_G9nen8Z" coords="5,234.12,531.20,305.88,10.80">Ce module est basé sur les données des différents recensements.</s><s xml:id="_GXRSezd" coords="5,72.00,546.20,467.74,10.80;5,72.00,561.20,467.61,10.80">La dernière année de calibration du module est 2011, et il produit un échantillon représentatif selon l'âge et le sexe de la population de 50 ans et plus vivant en institution de santé au Canada.</s><s xml:id="_T7fEAqN" coords="5,72.00,576.20,467.72,10.80;5,72.00,591.20,468.34,10.80;5,72.00,606.20,30.38,10.80">Une des différences majeures avec la version précédente de LifePaths est que le module institutionnalisation a été dissocié du module permettant de projeter l'incapacité <ref type="bibr" coords="5,439.45,591.20,100.89,10.80;5,72.00,606.20,25.32,10.80" target="#b24">(Wolfson and Rowe, 2004)</ref>.</s><s xml:id="_VSK5dJJ" coords="5,105.47,606.20,434.31,10.80;5,72.00,621.20,274.60,10.80">Par contre, comme ces personnes sont projetées comme vivant en institution de santé, on émet l'hypothèse qu'elles ont toutes une incapacité grave.</s></p><p xml:id="_fe4qFw3"><s xml:id="_Mb5UFVx" coords="6,281.65,97.40,48.71,9.60;6,216.32,111.40,175.95,9.60">encadré 1 Le modèle de microsimulation LifePaths<ref type="foot" coords="6,392.27,109.96,3.42,6.53" target="#foot_0">foot_0</ref></s></p><p xml:id="_7hdzGbe"><s xml:id="_AxTmvqW" coords="6,81.00,137.45,449.98,10.80;6,81.00,152.45,119.01,10.80">Selon <ref type="bibr" coords="6,110.29,137.45,119.63,10.80">Statistique Canada (2013)</ref>, LifePaths est un modèle de microsimulation dynamique de la population canadienne.</s><s xml:id="_JSBaZfa" coords="6,203.81,152.45,326.98,10.80;6,81.00,167.45,403.36,10.80">Il permet de simuler un échantillon représentatif, tant au niveau national que provincial, des parcours de vie synthétiques complets des Canadiens.</s><s xml:id="_aqBrQ4q" coords="6,487.62,167.45,43.23,10.80;6,81.00,182.45,450.00,10.80;6,81.00,197.45,159.47,10.80">Les individus sont simulés dans leur contexte familial, le conjoint et les enfants étant simulés de façon explicite et couplés aux familles.</s><s xml:id="_u9PN9Az" coords="6,243.84,197.45,286.78,10.80;6,81.00,212.45,449.98,10.80;6,81.00,227.45,393.26,10.80">Les parcours de vie simulés prennent en compte plusieurs variables qui sont structurées de la façon suivante : données démographiques de base et sur la famille, scolarité, santé, emploi, historique du revenu et des gains et logement.</s><s xml:id="_W4nWK5R" coords="6,477.83,227.45,53.06,10.80;6,81.00,242.45,450.00,10.80;6,81.00,257.45,54.95,10.80">De plus, le modèle permet de simuler l'historique du système de prestations fiscales et d'assurance sociale du Canada.</s></p><p xml:id="_YE6MxQG"><s xml:id="_GkBfwux" coords="6,99.00,272.45,431.99,10.80;6,81.00,287.45,450.12,10.80;6,81.00,302.45,265.10,10.80">LifePaths est un modèle à risques concurrents en temps continu qui suit une approche de population ouverte, car un individu supplémentaire (conjoint, enfant, etc.) sera créé chaque fois qu'il est décidé qu'une formation d'union aura lieu.</s><s xml:id="_Sz8HW7m" coords="6,348.53,302.45,182.47,10.80;6,81.00,317.45,450.34,10.80;6,81.00,332.45,171.58,10.80">Toutes les vies sont entièrement simulées à partir de la naissance jusqu'à la mort et donc, ne correspondent pas à des personnes réelles tirées d'une base de données.</s></p><p xml:id="_RTjupcX"><s xml:id="_zUgaVpr" coords="6,99.00,347.45,432.00,10.80;6,81.00,362.45,198.39,10.80">Lors d'une simulation, un temps d'attente est associé à chacun des événements en fonction des caractéristiques de l'individu simulé.</s><s xml:id="_wMRb9cp" coords="6,282.59,362.45,248.59,10.80;6,81.00,377.45,450.00,10.80;6,81.00,392.45,186.84,10.80">Lorsqu'un événement affectant ces caractéristiques survient, les temps d'attente sont automatiquement recalculés afin de tenir compte de la nouvelle situation de l'individu simulé.</s><s xml:id="_V6xfsfD" coords="6,270.49,392.45,260.52,10.80;6,81.00,407.45,138.25,10.80">Cette façon de faire permet de traiter la problématique des événements concurrents.</s></p><p xml:id="_XN9Ak9v"><s xml:id="_8Xf7QSp" coords="6,99.00,422.45,372.08,10.80">Une simulation est constituée de cas qui sont mutuellement indépendants.</s><s xml:id="_uUMxgeQ" coords="6,474.55,422.45,56.26,10.80;6,81.00,437.45,450.04,10.80;6,81.00,452.45,450.00,10.80;6,81.00,467.45,49.01,10.80">Chaque cas contient exactement une personne de référence et le ou la conjoint(e) ou les enfants de la personne sont simulés au besoin pour satisfaire les équations de formation des unions et de fécondité.</s><s xml:id="_mZ74Enq" coords="6,133.54,467.45,397.15,10.80;6,81.00,482.45,450.30,10.80;6,81.00,497.45,43.54,10.80">Par contre, elles sont soumises aux mêmes équations comportementales que les personnes de référence, c'est-à-dire que leur parcours de vie sera aussi simulé avec la même diversité.</s></p><p xml:id="_gkHZJhb"><s xml:id="_AvYHFke" coords="6,99.00,512.45,353.71,10.80">La plus ancienne cohorte qui est simulée par LifePaths est celle de 1872.</s><s xml:id="_bru8Vsa" coords="6,456.11,512.45,75.09,10.80;6,81.00,527.45,450.00,10.80;6,81.00,542.45,37.53,10.80">Cela permet de disposer d'une coupe transversale représentative de la population canadienne entre 0 et 100 ans en 1971.</s><s xml:id="_DFQxhE9" coords="6,122.06,542.45,408.62,10.80;6,81.00,557.45,450.18,10.80;6,81.00,572.45,105.06,10.80">Cette année a été sélectionnée, car elle est la première pour laquelle on dispose de données sociodémographiques provenant d'un recensement de conception moderne fondé sur l'auto déclaration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_y3A4zBa" coords="6,72.00,606.46,447.80,10.91">Réduction du nombre de personnes projetées comme vivant en institution de santé</head><p xml:id="_pMHVa4z"><s xml:id="_XszVUp3" coords="6,72.00,627.45,468.01,10.80;6,72.00,642.45,60.86,10.80">La réduction du nombre de personnes projetées comme vivant en institution de santé se fait en trois parties.</s><s xml:id="_ax7StTQ" coords="6,135.59,642.45,404.42,10.80;6,72.00,657.45,467.85,10.80;7,72.00,97.20,468.01,10.80">D'abord, sous hypothèse que la projection de la population vivant en institution de santé semble surestimer le nombre de places qui seraient disponibles, nous établissons quatre scénarios de réduction du nombre de personnes projetées comme vivant en institution de santé.</s><s xml:id="_4Ymk3xE" coords="7,72.00,112.20,468.01,10.80;7,72.00,127.20,88.07,10.80">Ces scénarios sont arbitraires et destinés à couvrir différentes possibilités quant à l'évolution du nombre de places.</s><s xml:id="_9KsxpMT" coords="7,162.68,127.20,377.33,10.80;7,72.00,142.20,323.81,10.80">Le scénario le plus pessimiste prévoit une stagnation du nombre de personnes projetées comme vivant en institution de santé au niveau de 2011.</s><s xml:id="_aDJmDNR" coords="7,399.12,142.20,141.07,10.80;7,72.00,157.20,467.82,10.80;7,72.00,172.20,87.09,10.80">Le scénario le plus optimiste prévoit une croissance atteignant 75 % de celle prévue dans le scénario de base de LifePaths entre 2011 et 2051.</s><s xml:id="_dCqsPNG" coords="7,162.39,172.20,377.60,10.80;7,72.00,187.20,63.23,10.80">Deux autres scénarios, prévoyant des croissances de 50 % et 25 %, sont aussi mis sur pied.</s></p><p xml:id="_vsA22g5"><s xml:id="_atATbNh" coords="7,90.00,202.20,450.01,10.80;7,72.00,217.20,467.71,10.80;7,72.00,232.20,379.19,10.80">En deuxième lieu, le nombre de personnes projetées par LifePaths comme vivant en institution de santé est découpé selon 30 combinaisons entre les différentes modalités des variables âge, niveau de scolarité, statut matrimonial et nombre d'enfants survivants.</s><s xml:id="_bx67Dea" coords="7,454.66,232.20,85.25,10.80;7,72.00,247.20,468.33,10.80;7,72.00,262.20,467.70,10.80;7,72.00,277.20,468.01,10.80;7,72.01,292.20,33.73,10.80">Ces variables ont été sélectionnées parmi celles disponibles dans le modèle, car elles affectent aussi bien le risque d'institutionnalisation <ref type="bibr" coords="7,186.24,262.20,123.80,10.80">(Trottier et collab. 2000)</ref> que le soutien à domicile des personnes âgées ayant des besoins de longue durée <ref type="bibr" coords="7,248.55,277.20,127.66,10.80">(Carrière et collab. 2007 ;</ref><ref type="bibr" coords="7,379.86,277.20,109.69,10.80">Penning et Wu, 2014 ;</ref><ref type="bibr" coords="7,493.20,277.20,46.81,10.80;7,72.01,292.20,25.89,10.80" target="#b22">Turcotte, 2014 ;</ref><ref type="bibr" coords="7,97.90,292.20,3.92,10.80">)</ref>.</s><s xml:id="_W7mssUG" coords="7,108.64,292.20,357.58,10.80">Les différentes modalités de ces quatre variables se déclinent comme suit.</s><s xml:id="_KEcxvrj" coords="7,469.12,292.20,70.90,10.80;7,72.01,307.20,295.37,10.80">Nous considérons les groupes d'âge 65-84 ans, 85-89 ans et 90 ans et plus.</s><s xml:id="_g8kQwaV" coords="7,370.66,307.20,169.14,10.80;7,72.01,322.20,434.90,10.80">La variable scolarité contient deux modalités indiquant si la personne a obtenu un diplôme d'études universitaires ou non.</s><s xml:id="_5yt2GFU" coords="7,510.23,322.20,30.08,10.80;7,72.01,337.20,468.06,10.80;7,72.02,352.20,468.01,10.80;7,72.02,367.20,468.00,10.80;7,72.02,382.20,118.97,10.80">Enfin, nous utilisons la variable « Nombre de proches survivants », laquelle se décline selon que la personne a trois proches et un conjoint âgé de moins de 75 ans, trois proches et un conjoint âgé de 75 ans ou plus, deux proches (avec ou sans conjoint), un seul proche (enfant ou conjoint) ou aucun proche survivant.</s></p><p xml:id="_ht8Dvtw"><s xml:id="_rT2yPh3" coords="7,90.02,397.20,450.00,10.80;7,72.02,412.20,329.32,10.80">En troisième lieu, nous déplaçons en ménage privé un certain nombre de personnes pour atteindre les cibles populationnelles liées aux différents scénarios.</s><s xml:id="_v4tcwrT" coords="7,404.69,412.20,135.34,10.80;7,72.02,427.20,468.18,10.80;7,72.02,442.20,319.90,10.80">Nous retirons de la projection, en ordre de priorité, les personnes les plus jeunes, les personnes avec un diplôme, puis les personnes avec un plus grand réseau de proches survivants.</s><s xml:id="_4Na9eAf" coords="7,395.56,442.20,144.46,10.80;7,72.02,457.20,246.57,10.80">Il s'agit d'un exercice et non d'un choix basé sur une grille d'analyse détaillée.</s><s xml:id="_GrnXJqB" coords="7,322.11,457.20,217.85,10.80;7,72.02,472.20,243.89,10.80">Cela a néanmoins valeur d'illustration avec une certaine gradation des situations possibles.</s><s xml:id="_S5WuEtE" coords="7,319.77,472.20,220.25,10.80;7,72.02,487.20,468.35,10.80;7,72.02,502.20,468.00,10.80;7,72.02,517.20,29.26,10.80">À défaut d'avoir l'état de santé détaillé des personnes déplacées, nous avons décidé arbitrairement que les plus jeunes ont une probabilité plus grande d'être en meilleure santé et qu'elles seraient plus faciles à intégrer en ménage privé.</s><s xml:id="_93PcF4H" coords="7,105.19,517.20,434.47,10.80;7,72.02,532.20,468.14,10.80;7,72.02,547.20,219.08,10.80">Par la suite, les personnes dans une meilleure situation économique risquent moins d'être vulnérables une fois en ménage privé ; on utilise le niveau de scolarité comme variable de substitution au statut socioéconomique.</s><s xml:id="_GYFm7JV" coords="7,294.69,547.20,245.00,10.80;7,72.02,562.20,452.91,10.80">Finalement, les personnes ayant un réseau familial plus grand ont aussi un degré moindre de vulnérabilité que celles démunies en ce sens.</s><s xml:id="_wqNEPnK" coords="7,528.18,562.20,11.84,10.80;7,72.02,577.20,467.97,10.80;7,72.02,592.20,467.86,10.80;7,72.02,607.20,381.64,10.80">La procédure suivie est illustrée à l'aide du Tableau 1. Le chiffre « 1 » indique que nous retirons d'abord les personnes âgées de moins de 85 ans, avec un diplôme d'études universitaires et avec au moins trois proches survivants et un époux âgé de moins de 75 ans.</s><s xml:id="_uPkhVa7" coords="7,457.23,607.20,82.65,10.80;7,72.02,622.20,467.79,10.80;7,72.02,637.20,328.57,10.80">Nous procédons en suivant l'ordre indiqué par les chiffres jusqu'à ce que le nombre de personnes ainsi écartées de la projection atteigne la cible établie par chaque scénario.</s><s xml:id="_H7WqTcX" coords="7,404.16,637.20,135.52,10.80;7,72.02,652.20,468.25,10.80;7,72.02,667.20,235.94,10.80">Dans le reste de cet article, nous appellerons « Profils » les combinaisons de caractéristiques permettant d'obtenir les différentes cibles de réduction de la projection.</s></p><p xml:id="_YaJjwJs"><s xml:id="_3xaqXuw" coords="8,282.47,97.40,47.07,9.60;8,87.37,111.40,437.27,9.60;8,131.24,125.40,349.52,9.60">tableau 1 Illustration de l'approche utilisée pour déplacer les personnes de la projection des personnes vivant en institution de santé vers la projection des personnes vivant en ménage privé</s></p><p xml:id="_kP8yTUe"><s xml:id="_FfhYPB2" coords="8,387.67,154.77,16.67,8.73;8,280.18,173.27,39.66,8.73;8,376.41,173.27,39.21,8.73;8,463.84,173.27,56.36,8.73;8,296.91,191.77,198.23,8.73;8,78.02,210.27,130.69,8.73;8,266.38,210.27,19.28,8.73;8,314.78,210.27,18.48,8.73;8,362.38,210.27,19.28,8.73;8,410.78,210.27,18.48,8.73;8,458.38,210.27,19.28,8.73;8,506.78,210.27,18.48,8.73;8,78.02,228.77,152.61,8.73;8,274.31,228.77,3.42,8.73;8,321.41,228.77,5.22,8.73;8,78.02,247.27,145.06,8.73;8,273.74,247.27,4.57,8.73;8,321.86,247.27,4.33,8.73;8,78.03,265.77,20.69,8.73;8,273.82,265.77,4.41,8.73;8,318.31,265.77,11.43,8.73">Âge 65-84 ans 85-89 ans 90 ans et plus Présence d'un diplôme d'études universitaires Nombre de proches survivants Avec Sans Avec Sans Avec Sans trois, conjoint âgé de moins de 75 ans 1 6 trois, conjoint âgé de 75 ans ou plus 2 7 deux 3 . . .</s><s xml:id="_H6sMkBZ" coords="8,78.02,284.27,30.06,8.73;8,273.26,284.27,5.52,8.73;8,78.02,302.77,25.59,8.73;8,273.72,302.77,4.60,8.73">un seul 4 Aucun 5</s></p><p xml:id="_5qpw4eb"><s xml:id="_fF7uGbu" coords="8,72.00,342.46,461.62,10.91;8,72.00,356.46,229.80,10.91">Ajout des personnes enlevées de la projection en institution de santé à la composante ménage privé de la projection de LifePaths</s></p><p xml:id="_U8nsgME"><s xml:id="_24cfyPW" coords="8,72.00,377.45,467.99,10.80;8,72.00,392.45,342.42,10.80">En troisième partie, nous présentons la projection de LifePaths de la population âgée de 65 ans et plus vivant en ménage privé selon les différents niveaux d'incapacité.</s><s xml:id="_a9sPXdF" coords="8,417.84,392.45,121.90,10.80;8,72.00,407.45,452.27,10.80">Ensuite, nous ajoutons à cette projection les personnes que nous aurons retirées de la projection en institution de santé.</s><s xml:id="_mDyhcP3" coords="8,527.05,407.45,12.95,10.80;8,72.00,422.45,468.00,10.80;8,72.00,437.45,161.51,10.80">Ce faisant, nous considérons que les personnes originellement projetées comme vivant en institution de santé ont une incapacité grave.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_mR9tgG9" coords="8,72.00,473.77,68.27,10.48;8,72.00,495.09,456.47,10.04;8,72.00,508.08,30.59,10.04">RÉSULTATS Projection du nombre de personnes vivant en institution de santé selon certaines caractéristiques</head><p xml:id="_rXYqxEF"><s xml:id="_cvNZWUR" coords="8,72.00,528.45,467.76,10.80;8,72.00,543.45,342.09,10.80">Le Tableau 2 montre les résultats des projections de LifePaths de la population vivant en ménage privé (gauche) et de la population vivant en institution de santé (droite</s></p><p xml:id="_BVHDvDY"><s xml:id="_B32v3sw" coords="8,414.09,543.45,125.82,10.80;8,72.00,558.45,467.81,10.80;8,72.00,573.45,297.54,10.80">). LifePaths prévoit que le nombre de personnes vivant en institution de santé va augmenter de près de 260 000 personnes entre 2011 et 2031 et de plus 750 000 personnes entre 2011 et 2051.</s><s xml:id="_heyyCfu" coords="8,371.94,573.45,168.07,10.80;8,72.00,588.45,269.88,10.80">Ces augmentations correspondent à des facteurs d'accroissement de 2,4 et 4,4, respectivement.</s><s xml:id="_rTumfGr" coords="8,344.50,588.45,195.50,10.80;8,72.00,603.45,163.32,10.80">Le risque de se retrouver en institution de santé varie grandement selon l'âge.</s><s xml:id="_tVvw7Y3" coords="8,237.92,603.45,302.09,10.80;8,72.00,618.45,468.15,10.80;8,72.00,633.45,50.01,10.80">En 2011 comme en 2031, le groupe d'âge le plus nombreux vivant en institution de santé est celui des 85-89 ans alors qu'en 2051, le groupe d'âge modal est celui des 90-94 ans.</s><s xml:id="_fJy778D" coords="8,125.31,633.45,414.72,10.80;8,72.00,648.45,81.57,10.80">On remarque un léger rajeunissement de la population vivant en institution de santé entre 2011 et 2031.</s><s xml:id="_vSnUvyT" coords="8,156.03,648.45,383.98,10.80;8,72.00,663.45,245.16,10.80">En effet, les proportions des groupes d'âge entre 70 ans et 84 ans augmentent entre 2011 et 2031, pendant que ceux plus vieux diminuent.</s><s xml:id="_HSPSDZX" coords="8,319.55,663.45,220.45,10.80;8,72.00,678.45,467.99,10.80;8,71.99,693.45,174.54,10.80">On assiste cependant à un fort vieillissement de cette population entre 2031 et 2051 ; la proportion du groupe d'âge 90-94 ans passe de 16,5 % à 24,0 %, celle des 95-99 ans, de 8,1 % à 12,9 %.</s><s xml:id="_J9MtSVV" coords="8,249.28,693.45,290.70,10.80;8,71.98,708.45,357.31,10.80">Ces changements correspondent à la montée en âge des babyboomers, lesquels seront âgés de 65 à 85 ans en 2031, et de 85 à 105 ans en 2051.</s><s xml:id="_PFnKjKX" coords="8,431.59,708.45,108.39,10.80;9,359.86,73.40,48.28,9.60;9,85.48,86.40,597.05,9.60;9,173.33,99.40,421.34,9.60;9,183.49,112.40,401.03,9.60;9,165.31,138.64,60.38,7.86;9,539.58,138.64,79.84,7.86;9,88.41,153.65,16.17,7.86;9,169.96,153.65,17.07,7.86;9,251.93,153.65,17.14,7.86;9,383.51,153.65,15.00,7.86;9,475.42,153.65,16.17,7.86;9,551.47,153.65,17.07,7.86;9,630.44,153.65,17.14,7.86;9,81.29,168.65,30.44,7.86;9,127.52,168.65,184.28,7.86;9,373.24,168.65,35.56,7.86;9,473.84,168.65,19.35,7.86;9,512.57,168.65,15.89,7.86;9,547.73,168.65,24.57,7.86;9,591.05,168.65,16.92,7.86;9,627.72,168.65,7.64,7.86;9,670.73,168.65,15.56,7.86;9,80.01,183.65,231.34,7.86;9,373.39,183.65,35.25,7.86;9,472.80,183.65,21.42,7.86;9,512.21,183.65,16.62,7.86;9,548.36,183.65,23.31,7.86;9,591.29,183.65,16.45,7.86;9,626.87,183.65,8.94,7.86;9,670.56,183.65,15.89,7.86;9,82.35,198.66,28.32,7.86;9,127.21,198.66,184.36,7.86;9,374.04,198.66,33.96,7.86;9,471.26,198.66,59.55,7.86;9,548.95,198.66,22.11,7.86;9,590.25,198.66,18.50,7.86;9,627.11,198.66,8.01,7.86;9,670.60,198.66,15.82,7.86;9,81.91,213.66,29.21,7.86;9,127.74,213.66,183.35,7.86;9,372.72,213.66,36.58,7.86;9,471.49,213.66,60.05,7.86;9,547.30,213.66,25.45,7.86;9,589.00,213.66,21.03,7.86;9,639.49,213.66,13.40,7.86;9,668.96,213.66,19.12,7.86;9,81.83,228.66,29.37,7.86;9,128.76,228.66,17.51,7.86;9,164.83,228.66,27.38,7.86;9,211.34,228.66,16.38,7.86;9,244.04,228.66,32.98,7.86;9,292.21,228.66,18.64,7.86;9,373.38,228.66,35.29,7.86;9,472.48,228.66,22.09,7.86;9,509.64,228.66,100.66,7.86;9,640.06,228.66,12.43,7.86;9,667.86,228.66,21.29,7.86;9,82.77,243.66,27.48,7.86;9,129.56,243.66,15.89,7.86;9,164.59,243.66,27.85,7.86;9,211.58,243.66,15.87,7.86;9,246.81,243.66,27.41,7.86;9,293.21,243.66,16.62,7.86;9,372.59,243.66,36.86,7.86;9,472.54,243.66,21.94,7.86;9,510.59,243.66,19.84,7.86;9,547.48,243.66,25.07,7.86;9,589.03,243.66,20.96,7.86;9,639.66,243.66,12.76,7.86;9,668.00,243.66,21.02,7.86;9,84.20,258.67,24.61,7.86;9,128.69,258.67,17.65,7.86;9,166.70,258.67,23.62,7.86;9,210.69,258.67,17.65,7.86;9,246.76,258.67,27.51,7.86;9,292.98,258.67,17.06,7.86;9,373.24,258.67,35.56,7.86;9,471.43,258.67,24.18,7.86;9,512.06,258.67,16.91,7.86;9,547.74,258.67,24.56,7.86;9,591.21,258.67,16.62,7.86;9,639.93,258.67,12.34,7.86;9,668.75,258.67,19.53,7.86;9,87.12,273.67,18.79,7.86;9,129.50,273.67,16.03,7.86;9,166.48,273.67,24.07,7.86;9,210.98,273.67,17.06,7.86;9,248.02,273.67,25.00,7.86;9,292.56,273.67,17.92,7.86;9,363.89,273.67,54.27,7.86;9,473.24,273.67,20.56,7.86;9,512.61,273.67,15.83,7.86;9,548.35,273.67,23.35,7.86;9,592.04,273.67,14.98,7.86;9,627.60,273.67,8.01,7.86;9,670.23,273.67,16.60,7.86;9,353.96,288.67,74.14,7.86;9,79.22,303.68,231.64,7.86;9,328.03,303.68,126.03,7.86;9,470.21,303.68,61.13,7.86;9,546.76,303.68,26.58,7.86;9,588.73,303.68,21.62,7.86;9,639.27,303.68,13.87,7.86;9,668.35,303.68,20.39,7.86;9,80.10,318.68,231.83,7.86;9,331.27,318.68,119.56,7.86;9,327.08,328.68,127.94,7.86;9,472.29,318.68,22.50,7.86;9,510.01,318.68,100.45,7.86;9,639.68,318.68,49.86,7.86;9,78.08,343.43,117.09,7.86;9,210.59,343.43,17.91,7.86;9,243.79,343.43,67.73,7.86;9,333.93,343.43,114.25,7.86;9,472.18,343.43,22.74,7.86;9,510.29,343.43,20.53,7.86;9,546.27,343.43,27.56,7.86;9,589.07,343.43,20.96,7.86;9,639.71,343.43,13.05,7.86;9,667.97,343.43,21.15,7.86;9,354.20,358.43,73.69,7.86;9,79.49,373.44,232.37,7.86;9,329.81,373.44,122.49,7.86;9,471.04,373.44,59.36,7.86;9,546.30,373.44,27.51,7.86;9,589.55,373.44,20.00,7.86;9,640.17,373.44,13.43,7.86;9,669.59,373.44,17.91,7.86;9,79.41,388.44,197.35,7.86;9,292.60,388.44,17.91,7.86;9,326.41,388.44,129.29,7.86;9,472.61,388.44,21.87,7.86;9,513.17,388.44,14.76,7.86;9,547.35,388.44,25.39,7.86;9,591.39,388.44,16.32,7.86;9,626.77,388.44,8.04,7.86;9,669.72,388.44,17.65,7.86;9,83.06,403.44,26.98,7.86;9,127.55,403.44,67.31,7.86;9,210.10,403.44,100.89,7.86;9,378.72,403.44,24.68,7.86;9,472.67,403.44,21.77,7.86;9,511.73,403.44,17.65,7.86;9,548.17,403.44,23.76,7.86;9,590.18,403.44,18.73,7.86;9,639.92,403.44,12.81,7.86;9,668.70,403.44,19.70,7.86;9,82.82,418.44,27.44,7.86;9,129.10,418.44,16.89,7.86;9,164.45,418.44,28.22,7.86;9,209.06,418.44,102.63,7.86;9,371.65,418.44,38.80,7.86;9,473.61,418.44,19.88,7.86;9,511.59,418.44,17.92,7.86;9,548.19,418.44,23.73,7.86;9,591.64,418.44,15.82,7.86;9,639.13,418.44,13.08,7.86;9,669.08,418.44,18.95,7.86;9,79.67,433.45,231.65,7.86;9,382.70,433.45,16.70,7.86;9,470.90,433.45,59.74,7.86;9,546.94,433.45,26.24,7.86;9,589.66,433.45,19.80,7.86;9,639.55,433.45,13.83,7.86;9,668.66,433.45,19.80,7.86;9,335.00,448.45,112.12,7.86;9,82.21,463.45,28.70,7.86;9,128.00,463.45,183.78,7.86;9,379.55,463.45,23.03,7.86;9,471.42,463.45,24.31,7.86;9,511.32,463.45,18.50,7.86;9,547.68,463.45,24.79,7.86;9,589.79,463.45,19.57,7.86;9,639.37,463.45,50.00,7.86;9,82.17,478.46,28.83,7.86;9,127.60,478.46,101.47,7.86;9,244.26,478.46,67.84,7.86;9,377.57,478.46,27.05,7.86;9,472.16,478.46,22.88,7.86;9,511.14,478.46,18.90,7.86;9,548.03,478.46,24.12,7.86;9,589.40,478.46,20.39,7.86;9,639.64,478.46,13.23,7.86;9,669.03,478.46,19.12,7.86;9,79.60,493.46,232.71,7.86;9,364.16,493.46,53.90,7.86;9,470.19,493.46,140.00,7.86;9,640.43,493.46,48.70,7.86;9,79.55,508.46,34.09,7.86;9,160.99,508.46,35.22,7.86;9,242.33,508.46,36.53,7.86;9,374.96,508.46,32.26,7.86;9,469.74,508.46,61.33,7.86;9,546.07,508.46,64.29,7.86;9,640.28,508.46,48.47,7.86;9,72.00,528.27,296.22,8.73;9,72.00,540.27,376.70,8.73">Comme on peut le voir tableau 2 Population âgée de 65 ans et plus vivant en ménage privé et population vivant en institution de santé telles que projetées par le logiciel de microsimulation LifePaths, selon différentes caractéristiques, aux horizons 2011, 2031 et 2051 (les nombres entre parenthèses représentent le pourcentage dans chaque type de ménage) Ménages privés Institutions de santé 2011 2031 2051 Âge 2011 2031 2051 1 614 511 (32,2) 2 554 788 (27,2) 2 704 844 (23,9) 65-69 ans 7 796 (3,5) 14 466 (3,0) 18 (1,9) 1 185 886 (23,7) 2 443 789 (26,0) 2 443 198 (21,6) 70-74 ans 13 031 (5,9) 30 143 (6,3) 34 (3,5) 902 514 (18,0) 1 911 629 (20,4) 2 107 393 (18,6) 75-79 ans 24 035 (10,8) 56 571 (11,8) 72 (7,5) 682 548 (13,6) 1 330 510 (14,2) 1 758 802 (15,5) 80-84 ans 45 228 (20,4) 97 408 (20,3) 958 (15,2) 400 727 (8,0) 745 031 (7,9) 1 310 963 (11,6) 85-89 ans 57 612 (26,0) 126 820 (26,4) 738 (26,6) 174 628 (3,5) 299 557 (3,2) 730 103 (6,5) 90-94 ans 51 673 (23,3) 99 266 (20,7) 477 (28,8) 42 862 (0,9) 82 326 (0,9) 222 441 (2,0) 95-99 ans 19 420 (8,8) 45 679 (9,5) 222 (13,9) 6 577 (0,1) 15 408 (0,2) 40 276 (0,4) 100 ans et plus 3 068 (1,4) 10 160 (2,1) 27 (2,9) Niveau de scolarité 2 265 023 (45,2) 2 076 576 (22,1) 1 309 301 (11,6) Sans diplôme d'études secondaires 121 894 (54,9) 146 971 (30,6) 580 (14,8) 1 736 226 (34,7) 4 388 674 (46,8) 5 346 539 (47,2) diplôme d'études secondaires ou post-secondaires non universitaires 67 631 (30,5) 203 879 (42,4) 044 (48,6) 1 009 005 (20,1) 2 917 789 (31,1) 4 662 181 (41,2) diplôme d'études universitaires 32 338 (14,6) 129 662 (27,0) 342 (36,6) Statut matrimonial 1 194 902 (23,8) 2 319 488 (24,7) 2 918 823 (25,8) Marié (conjoint de 75 ans ou plus) 61 440 (27,7) 148 941 (31,0) 487 (31,1) 1 788 474 (35,7) 3 165 024 (33,7) 3 522 815 (31,1) Marié (conjoint de moins de 75 ans) 15 677 (7,1) 39 909 (8,3) 57 (6,0) 513 943 (10,3) 1 322 788 (14,1) 1 434 489 (12,7) Séparé 13 397 (6,0) 65 774 (13,7) 180 (15,6) 226 210 (4,5) 976 747 (10,4) 1 873 570 (16,6) célibataire 8 978 (4,0) 27 497 (5,7) 354 (13,2) 1 286 724 (25,7) 1 598 992 (17,0) 1 568 323 (13,9) Veuf 122 373 (55,2) 198 391 (41,3) 447 (34,1) Nombre d'enfants survivants 763 026 (15,2) 1 938 788 (20,7) 3 198 427 (28,3) Aucun 40 134 (18,1) 76 047 (15,8) 949 (24,6) 728 884 (14,5) 1 996 098 (21,3) 2 877 291 (25,4) un seul 34 815 (15,7) 88 374 (18,4) 368 (25,1) 3 518 344 (70,2) 5 448 153 (58,1) 5 242 302 (46,3) Au moins deux 146 915 (66,2) 316 092 (65,8) 650 (50,3) 5 010 253 9 383 038 11 318 020 TOTAUX 221 864 (4,2)* 480 513 (4,9)* 967 (7,8)* * Pourcentage par rapport au total de la population âgée de 65 ans et plus a. Les totaux pour chaque catégorie peuvent varier d'un individu-année en raison des arrondis</s></p><p xml:id="_pUxJe6q"><s xml:id="_tZYX8E8" coords="10,72.00,97.20,468.18,10.80;10,72.00,112.20,291.95,10.80">dans la partie gauche du tableau, ces cohortes influencent aussi grandement la composition par âge de la population âgée de 65 ans et plus vivant en ménage privé.</s><s xml:id="_4WJYHVX" coords="10,90.00,127.20,450.00,10.80;10,72.00,142.20,468.01,10.80;10,72.00,157.20,468.05,10.80;10,72.00,172.20,467.71,10.80">Si l'on s'intéresse à la composition des deux populations selon le niveau de scolarité, nous remarquons l'importante augmentation de la proportion de personnes vivant en ménage privé et ayant un diplôme d'études secondaires ou postsecondaires mais non universitaires, ainsi que l'augmentation encore plus importante de la proportion de personnes ayant un diplôme d'études universitaires.</s><s xml:id="_4DhwT2Y" coords="10,72.00,187.20,467.70,10.80;10,72.00,202.20,131.92,10.80">Cette augmentation se remarque également parmi la population vivant en institution de santé, quoiqu'à un moindre degré.</s></p><p xml:id="_aeMY2p8"><s xml:id="_eCEvpDJ" coords="10,90.00,217.20,450.00,10.80;10,72.00,232.20,453.39,10.80">Concernant le statut matrimonial, alors que la majorité des personnes vivant en ménage privé est mariée, cela est le cas pour moins de la moitié des personnes vivant en institution de santé.</s><s xml:id="_xpGZaEK" coords="10,528.40,232.20,11.60,10.80;10,72.00,247.20,467.88,10.80;10,72.00,262.20,157.13,10.80">La proportion de personnes mariées à une personne de moins de 75 ans est quant à elle beaucoup plus basse en institution de santé.</s><s xml:id="_6sRM6NR" coords="10,231.26,262.20,308.74,10.80;10,72.00,277.20,468.21,10.80;10,72.00,292.20,228.18,10.80">La proportion de personnes séparées reste relativement constante au sein de la population vivant en ménage privé, alors qu'elle augmente considérablement en institution de santé pendant la période à l'étude.</s><s xml:id="_kjKw78K" coords="10,302.47,292.20,237.53,10.80;10,72.00,307.20,468.00,10.80;10,72.00,322.20,86.06,10.80">La proportion de personnes célibataires augmente sensiblement de la même façon dans les deux types de ménage, étant près du triple en 2051 comparativement à 2011.</s><s xml:id="_CpCDXZE" coords="10,161.15,322.20,378.85,10.80;10,72.00,337.20,169.11,10.80">La proportion de veufs diminue grandement pendant la période à l'étude dû à l'allongement de l'espérance de vie.</s><s xml:id="_SZ4QfkX" coords="10,243.91,337.20,296.09,10.80;10,72.00,352.20,209.12,10.80">Sans surprise, elle demeure supérieure de près du double chez la population vivant en institution de santé.</s></p><p xml:id="_ktKj9fv"><s xml:id="_wwBTMsv" coords="10,90.00,367.20,449.72,10.80;10,72.00,382.20,468.31,10.80;10,72.00,397.20,223.22,10.80">Enfin, les générations plus récentes ont donné naissance à un nombre significativement plus bas d'enfants que celles plus anciennes, ce qui est reflété dans la proportion grandissante de personnes sans enfants ou avec un seul enfant.</s><s xml:id="_jcvDFS8" coords="10,298.16,397.20,241.84,10.80;10,72.00,412.20,468.28,10.80;10,72.00,427.20,36.12,10.80">Le poids de ces deux groupes augmente de plus de 10 points de pourcentage en ménage privé comme en institution de santé pendant la période à l'étude.</s><s xml:id="_F6akCrk" coords="10,111.35,427.20,428.68,10.80;10,72.00,442.20,160.54,10.80">Pendant ce temps, la proportion des personnes avec au moins deux enfants diminue de plus de 20 points de pourcentage.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_hqGYhd8" coords="10,72.00,473.21,447.80,10.91">Réduction du nombre de personnes projetées comme vivant en institution de santé</head><p xml:id="_hfcka2G"><s xml:id="_xS7btk9" coords="10,72.00,494.20,468.15,10.80;10,72.00,509.20,344.42,10.80">Le Tableau 3 illustre les quatre scénarios de réduction du nombre de personnes projetées comme vivant en institution de santé, pour l'ensemble de la période 2011-2051.</s><s xml:id="_px6XMqK" coords="10,419.63,509.20,120.57,10.80;10,72.00,524.20,468.00,10.80;10,72.00,539.20,86.50,10.80">Le nombre de personnes originellement projetées comme vivant en institution de santé par LifePaths est illustré par la ligne nommée « Base ».</s><s xml:id="_cRuJVHR" coords="10,161.67,539.20,378.33,10.80;10,72.00,554.20,372.68,10.80">Afin d'établir des scénarios de réduction, nous avons pondéré le rythme d'accroissement des effectifs projetés par des facteurs de 75 %, 50 %, 25 % et 0 %.</s><s xml:id="_ztefacN" coords="10,447.70,554.20,92.30,10.80;10,72.00,569.20,467.87,10.80;10,72.00,584.20,142.08,10.80">Le dernier scénario est appelé « Constant » étant donné qu'il suppose une stagnation à travers le temps des effectifs vivant en institution de santé.</s></p><p xml:id="_RfSUXT6"><s xml:id="_Vu9Qzb5" coords="10,90.00,599.20,449.99,10.80;10,72.00,614.20,369.11,10.80">Nous présentons maintenant les profils des personnes correspondant aux cibles de réduction du nombre de personnes projetées comme vivant en institution de santé.</s><s xml:id="_x9Xp47P" coords="10,444.83,614.20,95.30,10.80;10,72.00,629.20,352.11,10.80">Les personnes sont « déplacées » selon la procédure décrite dans la section « Méthodologie ».</s><s xml:id="_H5ZpxQR" coords="10,427.19,629.20,112.84,10.80;10,71.99,644.20,307.88,10.80">Nous commençons par présenter nos résultats concernant l'année de projection 2031.</s><s xml:id="_4Gz6eKw" coords="10,383.43,644.20,156.92,10.80;10,71.99,659.20,467.86,10.80;10,71.99,674.20,170.30,10.80">Le Tableau 4 donne les effectifs projetés pour chaque combinaison des variables âge, présence de diplôme d'études universitaires et nombre de proches survivants.</s><s xml:id="_N2QN2n9" coords="10,246.28,674.20,293.89,10.80;10,71.99,689.20,468.23,10.80;10,71.99,704.20,152.40,10.80">Si nous éliminons de la projection de LifePaths toutes les personnes âgées de moins de 85 ans avec un diplôme d'études universitaires, nous obtenons une réduction de 62 143 personnes.</s><s xml:id="_hJseprr" coords="10,227.86,704.20,311.91,10.80;11,72.00,97.20,219.58,10.80">Cela correspond presque exactement à la cible de réduction de 64 663 personnes établie par le scénario 75 %.</s><s xml:id="_mQYvcCd" coords="11,294.64,97.20,245.35,10.80;11,72.00,112.20,82.99,10.80">Ce profil est illustré dans le Tableau 5 par le ton de gris le plus foncé.</s></p><p xml:id="_6r5Z5KQ"><s xml:id="_YtXF4yd" coords="11,281.92,150.35,48.17,9.60;11,94.43,164.35,423.15,9.60;11,240.52,194.72,18.97,8.73;11,424.48,194.72,19.04,8.73;11,92.00,214.22,40.90,8.73;11,178.29,214.22,31.43,8.73;11,241.88,214.22,88.25,8.73;11,362.29,214.22,31.43,8.73;11,425.88,214.22,88.25,8.73;11,92.00,233.72,20.09,8.73;11,178.42,233.72,31.16,8.73;11,361.91,233.72,32.18,8.73;11,92.00,253.22,19.71,8.73;11,178.33,253.22,31.35,8.73;11,273.72,253.22,27.99,8.73;11,363.38,253.22,29.25,8.73;11,455.20,253.22,29.61,8.73;11,92.00,272.72,20.77,8.73;11,179.81,272.72,28.39,8.73;11,271.41,272.72,29.19,8.73;11,362.84,272.72,30.33,8.73;11,454.68,272.72,30.65,8.73;11,92.00,292.22,19.72,8.73;11,178.18,292.22,31.65,8.73;11,270.97,292.22,30.07,8.73;11,361.67,292.22,32.67,8.73;11,454.92,292.22,30.17,8.73;11,92.00,311.72,38.40,8.73;11,178.62,311.72,30.77,8.73;11,269.70,311.72,32.60,8.73;11,362.61,311.72,30.77,8.73;11,455.37,311.72,29.24,8.73;11,281.22,371.35,49.56,9.60;11,154.39,385.35,303.21,9.60;11,202.39,399.35,207.21,9.60;11,387.66,429.72,16.67,8.73;11,280.17,449.22,39.66,8.73;11,376.40,449.22,39.21,8.73;11,463.83,449.22,56.36,8.73;11,296.90,468.72,198.23,8.73;11,78.01,488.22,130.69,8.73;11,266.37,488.22,19.28,8.73;11,314.77,488.22,18.48,8.73;11,362.37,488.22,19.28,8.73;11,410.77,488.22,18.48,8.73;11,458.37,488.22,19.28,8.73;11,506.77,488.22,18.48,8.73;11,78.01,507.72,152.61,8.73;11,267.12,507.72,20.89,8.73;11,309.14,507.72,26.87,8.73;11,370.15,507.72,13.86,8.73;11,412.98,507.72,19.03,8.73;11,470.19,507.72,9.82,8.73;11,514.27,507.72,13.74,8.73;11,78.01,527.22,145.06,8.73;11,262.71,527.22,25.30,8.73;11,309.53,527.22,26.48,8.73;11,361.98,527.22,22.03,8.73;11,403.99,527.22,28.02,8.73;11,456.83,527.22,23.18,8.73;11,503.23,527.22,24.78,8.73;11,78.01,546.72,20.69,8.73;11,264.39,546.72,23.62,8.73;11,308.26,546.72,27.75,8.73;11,357.82,546.72,26.19,8.73;11,403.80,546.72,28.21,8.73;11,454.40,546.72,25.61,8.73;11,502.34,546.72,25.67,8.73;11,78.01,566.22,30.06,8.73;11,263.10,566.22,24.91,8.73;11,310.03,566.22,25.98,8.73;11,361.97,566.22,22.04,8.73;11,405.77,566.22,26.24,8.73;11,456.53,566.22,23.48,8.73;11,502.85,566.22,25.16,8.73;11,78.01,585.72,25.59,8.73;11,268.30,585.72,19.71,8.73;11,315.60,585.72,20.41,8.73;11,362.86,585.72,21.15,8.73;11,410.51,585.72,21.50,8.73;11,457.82,585.72,22.19,8.73;11,502.55,585.72,25.46,8.73;12,281.88,97.40,48.25,9.60;12,74.20,111.40,463.61,9.60;12,387.67,141.77,16.67,8.73;12,280.18,161.27,39.66,8.73;12,376.41,161.27,39.21,8.73;12,463.84,161.27,56.36,8.73;12,296.91,180.77,198.23,8.73;12,78.02,200.27,130.69,8.73;12,266.38,200.27,19.28,8.73;12,314.78,200.27,18.48,8.73;12,362.38,200.27,19.28,8.73;12,410.78,200.27,18.48,8.73;12,458.38,200.27,19.28,8.73;12,506.78,200.27,18.48,8.73;12,78.02,219.77,152.61,8.73;12,78.02,239.27,144.72,8.73;12,78.02,258.77,20.69,8.73;12,78.02,278.27,30.06,8.73;12,78.02,297.77,25.59,8.73;12,72.25,321.52,34.02,8.73;12,79.11,342.52,271.15,8.73;12,95.72,362.02,25.54,8.73;12,159.32,362.02,30.94,8.73;12,229.15,362.02,30.11,8.73;12,300.58,362.02,32.68,8.73">tableau 3 Scénarios de réduction du nombre de personnes projetées comme vivant en institution de santé 2031 2051 Scénarios Projeté Vers ménages privés Projeté Vers ménages privés Base 480 513 962 967 75 % 415 850 64 663 777 691 185 276 50 % 351 188 129 325 592 415 370 552 25 % 286 526 193 987 407 140 555 827 Constant 221 864 258 649 221 864 741 103 tableau 4 Effectifs projetés par LifePaths comme vivant en institution de santé, horizon 2031, selon différentes caractéristiques Âge 65-84 ans 85-89 ans 90 ans et plus Présence d'un diplôme d'études universitaires Nombre de proches survivants Avec Sans Avec Sans Avec Sans trois, conjoint âgé de moins de 75 ans 7 149 16 042 619 1 126 56 225 trois, conjoint âgé de 75 ans ou plus 14 973 36 475 8 303 22 094 5 066 15 226 deux 21 277 52 096 14 663 46 467 15 845 75 343 un seul 10 413 20 714 5 995 14 100 5 460 19 279 Aucun 8 331 11 117 5 657 7 796 5 854 12 749 tableau 5 Profils des personnes correspondant aux cibles de réduction de la projection de LifePaths à l'horizon 2031 Âge 65-84 ans 85-89 ans 90 ans et plus Présence d'un diplôme d'études universitaires Nombre de proches survivants Avec Sans Avec Sans Avec Sans trois, conjoint âgé de moins de 75 ans trois, conjoint âgé de plus de 75 ans deux un seul Aucun Légende Scénario 75 % Scénario 50 % Scénario 25 % croissance nulle 62 143 114 660 198 587 257 044</s></p><p xml:id="_XxYTGvf"><s xml:id="_UvgGjJg" coords="12,90.00,403.70,450.02,10.80">Nous poursuivons avec le scénario 50 %, lequel prévoit une réduction de 129 325 personnes.</s><s xml:id="_cauhcwX" coords="12,72.00,418.70,467.71,10.80;12,72.00,433.70,468.00,10.80;12,72.00,448.70,261.78,10.80">Tel qu'illustré dans le Tableau 5, une telle réduction serait atteinte si on enlevait de la projection les personnes âgées de moins de 85 ans avec diplôme d'études universitaires ainsi que celles sans diplôme et ayant au moins deux proches survivants.</s><s xml:id="_rZEQ4tz" coords="12,337.40,448.70,202.70,10.80;12,72.00,463.70,153.04,10.80">Ce profil correspond à une réduction de 114 660 personnes exactement.</s><s xml:id="_vv6pSgz" coords="12,228.72,463.70,311.22,10.80;12,72.00,478.70,468.30,10.80;12,72.00,493.70,114.70,10.80">Le scénario 25 % est quant à lui atteint si l'on retire toutes les personnes âgées de moins de 85 ans (sans distinction selon le diplôme obtenu ou la composition du réseau de proches).</s><s xml:id="_HGsTttm" coords="12,190.53,493.70,211.04,10.80">Ce profil correspond à 198 587 personnes.</s><s xml:id="_rdHbWRF" coords="12,405.40,493.70,134.82,10.80;12,72.00,508.70,216.97,10.80">Enfin, le scénario constant suppose une réduction de 258 649 personnes.</s><s xml:id="_d7fV3ur" coords="12,291.93,508.70,248.07,10.80;12,72.00,523.70,468.00,10.80;12,72.00,538.70,468.00,10.80;12,72.00,553.70,150.07,10.80">Cette cible est atteinte si l'on exclut de la projection toutes les personnes âgées de moins de 85 ans, celles âgées de 85 à 89 ans ayant un diplôme d'études universitaires, ainsi que celles âgées de 85 à 89 ans sans diplôme, mais avec au moins trois proches survivants (257 044 personnes).</s></p><p xml:id="_AxtGNTE"><s xml:id="_M5JMAEN" coords="12,90.00,568.70,337.89,10.80">Les Tableaux 6 et 7 répètent l'exercice décrit ci-haut pour l'année 2051.</s><s xml:id="_VJYCJQm" coords="12,430.76,568.70,109.24,10.80;12,72.00,583.70,265.64,10.80">Selon le scénario 75 %, 185 276 personnes doivent être exclues de la projection.</s><s xml:id="_AaAx7UU" coords="12,340.72,583.70,199.51,10.80;12,72.00,598.70,467.89,10.80;12,72.00,613.70,408.51,10.80">Pour atteindre cette cible, on enlève de la projection les personnes âgées de moins de 85 ans avec diplôme d'études universitaires, ainsi que celles sans diplôme et avec au moins trois proches survivants (165 012 personnes).</s><s xml:id="_mj6uRW5" coords="12,484.06,613.70,56.29,10.80;12,72.00,628.70,234.53,10.80">Le scénario 50 % prévoit une réduction de 370 552 personnes.</s><s xml:id="_JtA2PeT" coords="12,309.02,628.70,230.98,10.80;12,72.00,643.70,468.27,10.80;12,72.00,658.70,468.36,10.80;12,72.00,673.70,160.52,10.80">Nous retirons 363 517 personnes de la projection, soit celles âgées de moins de 85 ans, celles âgées de 85 à 89 avec diplôme d'études universitaires, ainsi que celles âgées de 85 à 89 sans diplôme, mais avec au moins trois proches survivants et un conjoint âgé de moins de 75 ans.</s><s xml:id="_m4Fmk9A" coords="12,235.89,673.70,304.03,10.80;12,72.00,688.70,468.00,10.80;12,72.00,703.70,451.84,10.80">Pour une réduction atteignant 25 % de la croissance projetée, nous excluons de la projection toutes les personnes âgées de moins de 90 ans, ainsi que celles âgées de 90 ans et plus avec diplôme d'études universitaires et au moins trois proches survivants.</s><s xml:id="_nXYyjst" coords="12,527.24,703.70,13.09,10.80;13,72.00,97.20,383.49,10.80">Ce profil correspond à 541 954 personnes, alors que la cible à atteindre est de 555 827.</s><s xml:id="_tmJsJwt" coords="13,458.01,97.20,81.99,10.80;13,72.00,112.20,300.33,10.80">Pour terminer, le scénario Constant prévoit une réduction de 741 103 personnes.</s><s xml:id="_tJY6U3r" coords="13,375.37,112.20,164.62,10.80;13,72.00,127.20,468.00,10.80;13,72.00,142.20,228.71,10.80">Cette cible est atteinte en enlevant toutes les personnes de la projection, sauf celles âgées de 90 ans et plus, sans diplôme et avec moins de trois proches survivants (705 052 personnes).</s></p><p xml:id="_7A3xtvF"><s xml:id="_Y3KNmGF" coords="13,281.47,181.15,49.06,9.60;13,123.62,195.15,364.77,9.60;13,233.07,209.15,145.87,9.60;13,387.67,239.52,16.67,8.73;13,280.18,259.02,39.66,8.73;13,376.41,259.02,39.21,8.73;13,463.84,259.02,56.36,8.73;13,296.91,278.52,198.23,8.73;13,78.02,298.02,130.69,8.73;13,266.38,298.02,19.28,8.73;13,314.78,298.02,18.48,8.73;13,362.38,298.02,19.28,8.73;13,410.78,298.02,18.48,8.73;13,458.38,298.02,19.28,8.73;13,506.78,298.02,18.48,8.73;13,78.02,317.52,152.61,8.73;13,263.36,317.52,25.32,8.73;13,311.47,317.52,25.09,8.73;13,366.81,317.52,19.21,8.73;13,411.67,317.52,22.35,8.73;13,472.20,317.52,9.82,8.73;13,516.28,317.52,13.74,8.73;13,78.02,337.02,145.06,8.73;13,262.50,337.02,27.05,8.73;13,310.82,337.02,26.41,8.73;13,360.10,337.02,25.93,8.73;13,407.99,337.02,26.04,8.73;13,455.99,337.02,26.04,8.73;13,504.04,337.02,25.99,8.73;13,78.03,356.52,20.69,8.73;13,262.09,356.52,27.89,8.73;13,311.29,356.52,25.49,8.73;13,359.55,356.52,26.49,8.73;13,409.50,356.52,24.54,8.73;13,455.41,356.52,26.63,8.73;13,499.44,356.52,30.60,8.73;13,78.04,376.02,30.06,8.73;13,262.56,376.02,26.96,8.73;13,311.10,376.02,25.88,8.73;13,361.65,376.02,24.39,8.73;13,405.63,376.02,28.41,8.73;13,453.44,376.02,28.60,8.73;13,502.46,376.02,27.58,8.73;13,78.04,395.52,25.59,8.73;13,261.93,395.52,28.22,8.73;13,311.38,395.52,25.31,8.73;13,360.88,395.52,25.16,8.73;13,408.39,395.52,25.65,8.73;13,456.08,395.52,25.96,8.73;13,502.38,395.52,27.66,8.73;13,281.87,435.15,48.27,9.60;13,74.10,449.15,463.82,9.60;13,387.67,479.52,16.67,8.73;13,280.18,499.02,39.66,8.73;13,376.41,499.02,39.21,8.73;13,463.84,499.02,56.36,8.73;13,296.91,518.52,198.23,8.73;13,78.02,538.02,130.69,8.73;13,266.38,538.02,19.28,8.73;13,314.78,538.02,18.48,8.73;13,362.38,538.02,19.28,8.73;13,410.78,538.02,18.48,8.73;13,458.38,538.02,19.28,8.73;13,506.78,538.02,18.48,8.73;13,78.02,557.52,152.61,8.73;13,78.02,577.02,144.72,8.73;13,78.02,596.52,20.69,8.73;13,78.02,616.02,30.06,8.73;13,78.02,635.52,25.59,8.73;13,72.25,659.27,34.02,8.73;13,79.11,680.27,271.15,8.73;13,85.08,699.77,29.37,8.73;13,154.37,699.77,28.79,8.73;13,222.13,699.77,31.28,8.73;13,293.28,699.77,31.98,8.73">tableau 6 Effectifs projetés par LifePaths comme vivant en institution de santé, horizon 2051, selon différentes caractéristiques Âge 65-84 ans 85-89 ans 90 ans et plus Présence d'un diplôme d'études universitaires Nombre de proches survivants Avec Sans Avec Sans Avec Sans trois, conjoint âgé de moins de 75 ans 11 005 15 057 1 323 2 280 56 225 trois, conjoint âgé de 75 ans ou plus 23 304 31 606 16 859 34 168 18 463 37 939 deux 35 406 51 476 31 494 65 127 61 074 144 522 un seul 27 666 32 423 21 587 35 040 30 002 65 886 Aucun 20 968 21 784 19 279 25 583 33 858 47 508 tableau 7 Profils des personnes correspondant aux cibles de réduction de la projection de LifePaths à l'horizon 2051 Âge 65-84 ans 85-89 ans 90 ans et plus Présence d'un diplôme d'études universitaires Nombre de proches survivants Avec Sans Avec Sans Avec Sans trois, conjoint âgé de moins de 75 ans trois, conjoint âgé de plus de 75 ans deux un seul Aucun Légende Scénario 75 % Scénario 50 % Scénario 25 % croissance nulle 165 012 363 517 541 954 705 052</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fAU6rQM" coords="14,72.00,97.59,376.25,10.91">Transfert des personnes exclues vers la projection des ménages privés</head><p xml:id="_dnQumVY"><s xml:id="_vvR5syP" coords="14,72.00,118.58,468.00,10.80;14,72.00,133.58,468.02,10.80;14,72.00,148.58,103.02,10.80">Nous présentons maintenant l'impact du fait de retirer des personnes de la projection de la population en institution de santé sur la projection du nombre de personnes vivant en ménage privé avec incapacité grave.</s><s xml:id="_ayNKKjV" coords="14,177.64,148.58,185.09,10.80;14,107.03,645.10,4.59,6.98;14,164.31,645.10,2.74,6.98;14,221.59,645.10,3.66,6.98;14,278.87,645.10,3.53,6.98;14,336.15,645.10,4.42,6.98;14,393.43,645.10,3.68,6.98;14,450.71,645.10,4.18,6.98;14,507.99,645.10,3.46,6.98;14,88.34,585.78,14.66,6.98;14,88.34,486.97,14.51,6.98;14,88.34,388.16,13.72,6.98;14,281.22,656.96,58.10,6.98;14,75.61,478.80,6.98,20.60;14,410.18,380.72,62.30,6.98;14,410.18,393.58,52.50,6.98;14,410.18,405.76,63.28,6.98;14,410.18,417.95,54.66,6.98;14,410.18,430.13,49.36,6.98">Nous présentons d'abord, à l'aide de la 0 1 2 3 4 5 6 7 2051 2031 2011 Effectifs (millions) Année Institution de santé Incapacité grave Incapacité modérée Incapacité légère Sans incapacité</s></p><p xml:id="_7f99MxG"><s xml:id="_XyctTff" coords="14,90.00,680.78,449.65,10.80;14,72.00,695.78,28.51,10.80">La Figure <ref type="figure" coords="14,140.63,680.78,5.23,10.80" target="#fig_2">2</ref> se concentre sur la population vivant en ménage privé et ayant une incapacité grave.</s><s xml:id="_SS2dVTM" coords="14,103.23,695.78,436.77,10.80;14,72.00,710.78,372.54,10.80">Elle présente l'augmentation de cette population, selon les différents scénarios de réduction du nombre de personnes projetées comme vivant en institution de santé.</s><s xml:id="_VZmHR4d" coords="14,448.43,710.78,91.60,10.80;15,72.00,97.20,468.35,10.80;15,72.00,112.20,82.60,10.80">En 2031, LifePaths projette qu'environ 700 000 personnes de 65 ans et plus vivront en ménage privé et ayant une incapacité grave.</s><s xml:id="_qYn9QGG" coords="15,158.03,112.20,382.08,10.80;15,72.00,127.20,401.43,10.80">À ce nombre, le scénario 75 % ajoute environ 62 000 personnes tandis que le scénario le plus pessimiste, le scénario constant, ajoute près de 260 000 personnes.</s><s xml:id="_K5Rzmj5" coords="15,476.58,127.20,63.37,10.80;15,72.00,142.20,468.13,10.80;15,72.00,157.20,210.34,10.80">Ces nombres amènent respectivement une augmentation de 9 % et 36 % du nombre de personnes vivant en ménage privé et ayant une incapacité grave.</s><s xml:id="_F99xpHM" coords="15,285.40,157.20,254.24,10.80;15,72.00,172.20,468.18,10.80;15,72.01,187.20,103.28,10.80">Pour 2051, les deux mêmes scénarios impliquent une augmentation de 16 % et 67 % du nombre de personnes de 65 ans et plus vivant en ménage privé avec incapacité grave.</s><s xml:id="_fMEyere" coords="15,111.61,562.61,11.50,6.98;15,111.61,535.42,10.56,6.98;15,111.61,508.25,11.32,6.98;15,111.61,481.06,11.08,6.98;15,111.61,453.88,10.96,6.98;15,111.61,427.32,9.64,6.98;15,111.61,400.13,8.70,6.98;15,111.61,372.95,9.46,6.98;15,111.61,345.77,9.22,6.98;15,111.61,318.58,9.10,6.98;15,111.61,291.40,10.56,6.98;15,220.61,571.80,14.51,6.98;15,413.05,571.80,14.66,6.98;15,99.05,433.34,6.98,25.98;15,99.05,401.22,6.98,30.20;15,312.59,580.46,20.60,6.98;15,185.89,333.42,56.98,6.98;15,185.89,347.01,45.36,6.98;15,185.89,360.60,46.30,6.98;15,185.89,374.19,45.17,6.98;15,185.89,387.16,114.30,6.98">0,0 0,2 0,4 0,6 0,8 1,0 1,2 1,4 1,6 1,8 2,0 2031 2051 Effectifs (millions) Année Scénario constant Scénario 25 % Scénario 50 % Scénario 75 % Population initiale en ménage privé</s></p><p xml:id="_w7zTnga"><s xml:id="_5xQEW8n" coords="15,72.00,627.52,79.97,10.48;15,72.00,650.20,468.12,10.80;15,72.00,665.20,267.67,10.80">CONCLUSION Le présent article s'est donné pour but de discuter la problématique entourant la projection de la population canadienne vivant en institution de santé.</s><s xml:id="_4kV6K4u" coords="15,343.24,665.20,196.74,10.80;15,72.00,680.20,468.04,10.80;15,72.00,695.20,408.80,10.80">Cette discussion a été axée autour de la projection faite par LifePaths, un modèle de microsimulation de la population canadienne qui permet de projeter la population vivant en institution de santé jusqu'à l'horizon 2051.</s><s xml:id="_GxMMKgz" coords="15,483.62,695.20,56.38,10.80;15,72.00,710.20,468.28,10.80;16,72.00,97.20,468.00,10.80;16,72.00,112.20,273.39,10.80">Nous avons d'abord présenté les projections de LifePaths de la population âgée de 65 ans et plus vivant en institution de santé et en ménage privé, incluant une ventilation selon l'âge, le niveau de scolarité, le statut matrimonial et le nombre d'enfants survivants.</s><s xml:id="_EjzxwcZ" coords="16,348.62,112.20,191.36,10.80;16,72.00,127.20,411.10,10.80">Nous avons vu que LifePaths prédit un quadruplement des effectifs vivant en institution de santé pendant la période 2011-2051.</s><s xml:id="_ut72F7n" coords="16,485.35,127.20,54.65,10.80;16,72.00,142.20,468.00,10.80;16,72.00,157.20,292.52,10.80">Ce quadruplement a lieu dans un contexte de vieillissement de la population, spécialement avec la montée en âge des membres des cohortes nombreuses du baby-boom.</s><s xml:id="_R7VNDGG" coords="16,367.96,157.20,172.07,10.80;16,72.00,172.20,468.00,10.80;16,72.00,187.20,102.56,10.80">De plus, bien que la population de demain sera plus scolarisée, elle sera plus souvent sans enfants, ce qui joue un rôle important dans le soutien à domicile.</s><s xml:id="_Cg7Hzjt" coords="16,177.58,187.20,362.42,10.80;16,72.00,202.20,468.34,10.80;16,72.00,217.20,122.96,10.80">Comparativement à la population projetée comme vivant en ménage privé, celle projetée comme vivant en institution de santé est beaucoup plus âgée, moins éduquée et moins souvent en couple.</s><s xml:id="_4vfhSNU" coords="16,197.82,217.20,342.18,10.80;16,72.00,232.20,98.86,10.80">Nous avons cependant trouvé peu de différences concernant le nombre d'enfants survivants.</s></p><p xml:id="_ZN5wjBN"><s xml:id="_wHvy8CA" coords="16,90.00,247.20,450.00,10.80;16,72.00,262.20,163.74,10.80">Tel que discuté en introduction, le nombre de personnes vivant en institution de santé dépend largement de décisions politiques.</s><s xml:id="_ZnKAPZk" coords="16,238.80,262.20,301.31,10.80;16,72.00,277.20,468.00,10.80;16,72.00,292.20,468.00,10.80;16,72.00,307.20,41.72,10.80">Étant donné les coûts élevés associés aux séjours en institution de santé, et étant donné le désir grandissant des personnes vieillissantes de vieillir chez elles, nous avons émis des doutes quant à la réalisation d'un quadruplement des effectifs vivant en institution de santé.</s><s xml:id="_6PyfgaV" coords="16,116.40,307.20,423.60,10.80;16,72.00,322.20,227.86,10.80">La deuxième partie des résultats s'est donc employée à diminuer le nombre de personnes projetées comme vivant en institution de santé.</s><s xml:id="_3hc7CPd" coords="16,302.81,322.20,237.19,10.80;16,72.00,337.20,468.00,10.80;16,72.00,352.20,94.56,10.80">Les effectifs projetés ont été retirés sur la base des différentes modalités des variables âge, présence de diplôme d'études universitaires et nombre de proches survivants.</s><s xml:id="_4QzBdQV" coords="16,169.80,352.20,370.52,10.80;16,72.00,367.20,77.91,10.80">Les effectifs ont été retirés progressivement jusqu'à ce que différentes cibles soient atteintes.</s><s xml:id="_pqf52pj" coords="16,153.36,367.20,386.97,10.80;16,72.00,382.20,212.94,10.80">Une fois les cibles atteintes, nous avons présenté la combinaison de modalités obtenue, que nous avons appelée « Profils ».</s><s xml:id="_YtVSd6T" coords="16,288.03,382.20,251.88,10.80;16,72.00,397.20,468.00,10.80;16,72.00,412.20,468.00,10.80;16,72.00,427.20,468.00,10.80;16,72.00,442.20,53.38,10.80">Par exemple, pour maintenir constant par rapport à 2011 le nombre de personnes projetées comme vivant en institution de santé, nous avons exclu de la projection en 2031 toutes les personnes âgées de moins de 85 ans, celles âgées de 85 à 89 ans avec un diplôme d'études universitaires, ainsi que celles sans diplôme, mais avec au moins trois proches survivants.</s><s xml:id="_rF3uk3j" coords="16,128.77,442.20,411.52,10.80;16,72.00,457.20,468.00,10.80;16,72.00,472.20,348.14,10.80">Pour maintenir la même cible jusqu'en 2051, nous avons exclu toutes les personnes âgées de moins de 90 ans, celles âgées de 90 ans et plus avec diplôme d'études universitaires, ainsi que celles sans diplôme, mais avec au moins trois proches survivants.</s><s xml:id="_AxZFXpg" coords="16,423.76,472.20,116.38,10.80;16,72.00,487.20,468.00,10.80;16,72.00,502.20,180.86,10.80">En d'autres termes, des critères très restrictifs doivent être établis afin de maintenir à un bas niveau la population projetée comme vivant en institution de santé.</s></p><p xml:id="_aSyhhHg"><s xml:id="_hVGanEh" coords="16,90.00,517.20,449.64,10.80;16,72.00,532.20,468.00,10.80">Le fait de retirer des personnes de la projection en institution de santé signifie que des personnes avec incapacité grave sont déplacées vers la composante ménage privé de la projection.</s><s xml:id="_HWWveSP" coords="16,72.00,547.20,468.23,10.80;16,72.00,562.20,468.00,10.80;16,72.00,577.20,208.12,10.80">En troisième partie des résultats, nous avons montré, pour chacun de nos scénarios de réduction des effectifs en institution de santé, l'augmentation de la proportion de personnes vivant en ménage privé et ayant une incapacité grave.</s><s xml:id="_FRmpBas" coords="16,282.87,577.20,257.13,10.80;16,72.00,592.20,424.59,10.80">Selon les différents scénarios, le nombre de personnes vivant en ménage privé avec incapacité grave pourrait augmenter de 16 % à 67 % en 2051.</s><s xml:id="_KMMhJEF" coords="16,499.20,592.20,40.81,10.80;16,72.01,607.20,468.00,10.80;16,72.01,622.20,75.85,10.80">D'autres études ont projeté le nombre de personnes vivant en institution de santé (par exemple, Laliberté-Auger et collab.</s><s xml:id="_kkeffzF" coords="16,150.95,622.20,27.44,10.80">2015).</s><s xml:id="_QekCVpw" coords="16,181.47,622.20,358.91,10.80;16,72.01,637.20,119.58,10.80">Elles ont également émis des doutes sur l'augmentation projetée des effectifs vivant en institution.</s><s xml:id="_va2X2GM" coords="16,194.69,637.20,345.65,10.80;16,72.01,652.20,468.00,10.80;16,72.01,667.20,186.25,10.80">Cependant, elles n'ont jamais discuté les conséquences d'une réduction de l'admissibilité en institution de santé pour le nombre de personnes vivant en ménage privé avec des besoins en soins de longue durée.</s><s xml:id="_sBACXJa" coords="16,261.73,667.20,278.19,10.80;16,72.01,682.20,468.00,10.80;16,72.01,697.20,467.83,10.80;16,72.01,712.20,170.40,10.80">Nos résultats, inédits, suggèrent donc que les ressources mises à disposition pour les soins et services prodigués à domicile devront prendre en compte une augmentation des effectifs possiblement plus importante que prévue du nombre de personnes nécessitant des soins et des services.</s></p><p xml:id="_YAat6BF"><s xml:id="_PCWPsGK" coords="17,90.00,97.20,219.67,10.80">Notre étude a fait face à certaines limitations.</s><s xml:id="_5hk7vqv" coords="17,312.76,97.20,227.00,10.80;17,72.00,112.20,332.02,10.80">D'abord, le logiciel LifePaths ne permet que de projeter la population vivant dans une partie des logements collectifs.</s><s xml:id="_qB6MjqZ" coords="17,406.76,112.20,133.25,10.80;17,72.00,127.20,468.20,10.80;17,72.00,142.20,99.55,10.80">Les logements collectifs pris en compte par LifePaths hébergent actuellement un peu moins de la moitié des personnes vivant en ménage collectif.</s><s xml:id="_KK7JEU9" coords="17,175.17,142.20,364.93,10.80;17,72.00,157.20,468.06,10.80;17,72.00,172.20,340.97,10.80">Nous supposons cependant qu'une projection des personnes vivant dans d'autres types de logements collectifs et prodiguant des soins de longue durée produirait une augmentation semblable à celle concernant les institutions de santé.</s><s xml:id="_BC2Snpq" coords="17,416.60,172.20,123.23,10.80;17,72.00,187.20,467.71,10.80;17,72.00,202.20,38.52,10.80">Nous suggérons donc de porter attention à l'amplitude de l'augmentation prévue par LifePaths, plutôt qu'aux chiffres absolus.</s><s xml:id="_PHRN7FF" coords="17,113.56,202.20,426.31,10.80;17,72.00,217.20,282.75,10.80">Une autre limite concerne l'approche que nous avons utilisée pour réduire le nombre de personnes projetées comme vivant en institution de santé.</s><s xml:id="_zArpxQw" coords="17,357.88,217.20,182.11,10.80;17,72.00,232.20,360.86,10.80">Ce fut une approche reposant sur des hypothèses arbitraires, mais que nous considérons tout de même réalistes.</s><s xml:id="_jBsGBv3" coords="17,436.02,232.20,104.22,10.80;17,72.00,247.20,185.95,10.80">Aussi, il faut rappeler qu'il existe peu de travaux sur ce sujet.</s><s xml:id="_7M7yGba" coords="17,260.99,247.20,278.69,10.80;17,72.00,262.20,468.36,10.80;17,72.00,277.20,29.84,10.80">Notre approche simple s'est donc montrée utile afin d'explorer ce sujet et des travaux ultérieurs pourront développer des méthodologies plus sophistiquées.</s></p><p xml:id="_ER8D3wR"><s xml:id="_zzN9KS3" coords="17,90.00,292.20,450.01,10.80;17,72.00,307.20,259.76,10.80">Somme toute, nous croyons que le présent article a permis de donner un aperçu des défis à venir au Canada concernant les soins de longue durée.</s><s xml:id="_aSNEtJb" coords="17,334.45,307.20,205.55,10.80;17,72.00,322.20,467.96,10.80;17,72.00,337.20,467.70,10.80;17,72.00,352.20,413.69,10.80">Bien que nous soyons en mesure de statuer que les besoins de soins de longue durée vont inexorablement augmenter dû au vieillissement de la population, beaucoup de questions demeurent concernant les conditions sous lesquelles ils seront dispensés (ménage privé par rapport à institution de santé) et les coûts associés.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Hnkv4gW" coords="17,264.80,388.52,82.39,10.48">BIBLIOGRAPHIE</head><p xml:id="_9rfMdpH"><s xml:id="_bSrKeTw" coords="17,72.00,411.20,441.22,10.80">ASSOCIATION CANADIENNE DES COMPAGNIES D'ASSURANCES DE PERSONNES.</s><s xml:id="_cHCcjre" coords="17,516.42,411.20,23.70,10.80">2012.</s><s xml:id="_SNDr6dC" coords="17,84.00,426.20,198.42,10.80">Guide de l'assurance soins de longue durée.</s><s xml:id="_8q7MVYK" coords="17,285.18,426.20,92.88,10.80">Rapport technique.</s><s xml:id="_atH5ZjC" coords="17,72.00,441.20,468.00,10.80">BERGMAN, H., M. ARCAND, C. BUREAU, H. CHERTKOV, F. DUCHARME et Y. JOANETTE.</s><s xml:id="_RWAth3r" coords="17,84.00,456.20,25.88,10.80">2009.</s><s xml:id="_6SU3Ndx" coords="17,112.81,456.20,427.18,10.80;17,83.99,471.20,456.00,10.80;17,83.99,486.20,206.67,10.80">Relever le défi de la maladie d'Alzheimer et des maladies apparentées : une vision centrée sur la personne, l'humanisme et l'excellence-Rapport du comité d'experts en vue de l'élaboration d'un plan d'action pour la maladie d'Alzheimer.</s><s xml:id="_PpycXUw" coords="17,294.06,486.20,246.07,10.80;17,83.99,501.20,222.80,10.80;17,71.99,516.20,146.36,10.80">Direction des communications du ministère de la Santé et des Services sociaux du Québec, 143 p. BLOMQVIST, A et C. BUSBY.</s><s xml:id="_TGD2GED" coords="17,221.00,516.20,23.75,10.80">2014.</s><s xml:id="_8qbDjQx" coords="17,247.41,516.20,292.59,10.80;17,83.99,531.20,249.36,10.80">« Paying for the Boomers : Long-Term Care and Intergenerational Equity », C.D. Howe Institute Commentary 415.</s><s xml:id="_d6DmfXW" coords="17,335.54,531.20,21.03,10.80">doi : <ref type="url" coords="17,358.75,531.20,181.24,10.80" target="http://dx.doi.org/10.2139/ssrn.2498537">http://dx.doi.org/10.2139/ssrn.2498537</ref></s><s xml:id="_ZtH8nYD" coords="17,71.99,546.20,201.62,10.80">BOHNERT, N., J. CHAGNON et P. DION.</s><s xml:id="_BaQrrrm" coords="17,276.16,546.20,22.79,10.80">2014.</s><s xml:id="_bwUKueq" coords="17,301.49,546.20,238.50,10.80;17,83.99,561.20,446.69,10.80;17,71.99,576.20,286.11,10.80">« Projections démographiques pour le Canada (2013 à 2063), provinces et territoires (2013 à 2038) », Statistique Canada, No 91-520-X au catalogue, 52 p. CARRIÈRE, Y., J. KEEFE, J. LÉGARÉ, X. LIN et G. ROWE.</s><s xml:id="_SfyFA4M" coords="17,361.16,576.20,25.32,10.80">2007.</s><s xml:id="_cRg8V2J" coords="17,389.54,576.20,150.48,10.80;17,83.99,591.20,455.50,10.80">« Population Aging and Immediate Family Composition : Implications for Future Home Care Services », Genus, 63, 1-2 : 11-31.</s><s xml:id="_arz8h6R" coords="17,72.00,606.20,145.26,10.80">CARRIÈRE, Y. et J. LÉGARÉ.</s><s xml:id="_xvfdf2K" coords="17,220.56,606.20,23.46,10.80">1993.</s><s xml:id="_dDkVrgY" coords="17,247.31,606.20,292.74,10.80;17,84.00,621.20,456.00,10.80;17,84.00,636.20,56.84,10.80">« Vieillissement démographique et institutionnalisation des personnes âgées : des projections nuancées pour le Canada », Cahiers québécois de démographie, 22, 1 : 63-92.</s><s xml:id="_RrWmzVJ" coords="17,72.00,651.20,184.61,10.80">CHRISTIANSEN, S. et N. KEILMAN.</s><s xml:id="_Gkz2PN9" coords="17,259.77,651.20,23.15,10.80">2013.</s><s xml:id="_Ta6h5Ym" coords="17,286.08,651.20,253.86,10.80;17,84.00,666.20,370.98,10.80">« Probabilistic household forecasts based on register data-the case of Denmark and Finland », Demographic research, 28 : 1263-1302.</s><s xml:id="_V4eDx3X" coords="17,71.99,681.20,106.00,10.80">COLOMBO, F. 2011.</s><s xml:id="_xqvxs9Y" coords="17,182.45,681.20,73.36,10.80">Besoin d'aide ?</s><s xml:id="_D2vJJ2S" coords="17,260.20,681.20,279.59,10.80;17,83.99,696.20,353.53,10.80">La prestation de services et le financement de la dépendance, Études de l'OCDE sur les politiques de santé, Éditions OCDE.</s><s xml:id="_KBDNPa2" coords="17,441.98,696.20,22.55,10.80;17,534.95,696.20,5.07,10.80">doi : <ref type="url" coords="17,468.99,696.20,65.95,10.80" target="http://dx.doi">http://dx.doi</ref>.</s><s xml:id="_DH3Q66z" coords="17,84.00,711.20,140.21,10.80">org/10.1787/9789264097766-fr</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="14,286.22,292.52,39.56,9.60;14,108.98,306.53,394.04,9.60;14,164.67,320.53,282.64,9.60"><figDesc><div><p xml:id="_bu2vqDA"><s xml:id="_hJVTmf7" coords="14,286.22,292.52,39.56,9.60;14,108.98,306.53,394.04,9.60;14,164.67,320.53,282.64,9.60">figure 1 Projection de LifePaths de la population âgée de 65 ans et plus aux horizons 2031 et 2051, selon le degré d'incapacité et la présence en institution de santé</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="15,285.62,226.15,40.77,9.60;15,141.72,240.15,328.57,9.60;15,101.33,254.15,409.33,9.60;15,157.95,268.16,296.11,9.60"><head>figure 2</head><label>2</label><figDesc><div><p xml:id="_fADP7G9"><s xml:id="_dnhX4Vk" coords="15,285.62,226.15,40.77,9.60;15,141.72,240.15,328.57,9.60;15,101.33,254.15,409.33,9.60;15,157.95,268.16,296.11,9.60">figure 2Projection de LifePaths de la population de 65 ans et plus en ménage privé et ayant une incapacité grave et impact du transfert de la projection des institutions de santé vers les ménages privés selon les différents scénarios, 2031 et 2051.</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p xml:id="_AUGFP4f"><s xml:id="_Sj9bxw4" coords="6,84.00,699.85,456.00,9.90;6,84.00,712.85,61.05,9.90">Ce texte est une adaptation d'une présentation générale de l'ensemble du modèle LifePaths(Statistique  Canada, 2013)</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xml:id="_4EJ9BPu"><p xml:id="_WHbXnHe"><s xml:id="_2GrepuK" coords="19,84.00,277.20,105.13,10.80"><rs type="person">Ageing &amp; Society</rs>, <rs type="grantNumber">1-23</rs>.</s><s xml:id="_MRBQeTw" coords="19,72.00,292.20,341.19,10.80">MARTIKAINEN, P., <rs type="person">H. MOUSTGAARD</rs>, <rs type="person">E. EINIO</rs> et M. MURPHY.</s><s xml:id="_QyaMMWR" coords="19,416.49,292.20,23.39,10.80">2013.</s><s xml:id="_fnY9fDd" coords="19,443.17,292.20,96.85,10.80;19,84.00,307.20,455.99,10.80;19,84.00,322.20,456.19,10.80;19,84.00,337.20,67.73,10.80"><rs type="person">« Life</rs> expectancy in long-term institutional care by marital status : multistate life table estimates for older Finnish men and women », Journals of Gerontology Series B : Psychological Sciences and Social Sciences, 69, 2 : <rs type="grantNumber">303-310</rs>.</s><s xml:id="_TA5eQNN" coords="19,72.00,352.20,185.14,10.80">MÉNARD, F.-P. et C. LE BOURDAIS.</s><s xml:id="_yzpPWxv" coords="19,260.18,352.20,23.36,10.80">2012.</s><s xml:id="_pGrZatP" coords="19,286.58,352.20,253.35,10.80;19,84.00,367.20,456.00,10.80;19,84.00,382.20,126.54,10.80">« Diversification des trajectoires familiales des <rs type="funder">Canadiens âgés de demain et conséquences prévisibles sur le réseau de soutien », Cahiers québécois de démographie, 41</rs>, 1 : <rs type="grantNumber">131-161</rs>.</s><s xml:id="_XePCuVZ" coords="19,72.00,397.20,181.65,10.80">MILAN, A., I. WONG et M. VÉZINA.</s><s xml:id="_xSsdtx9" coords="19,256.20,397.20,23.75,10.80">2014.</s><s xml:id="_DcC2dMC" coords="19,282.50,397.20,257.50,10.80;19,84.00,412.20,456.00,10.80;19,84.00,427.20,220.50,10.80">« <rs type="projectName">Nouvelles tendances dans le mode de vie et la conjugalité des personnes âgées d'aujourd'hui et de demain », Regards sur la société canadienne</rs>, <rs type="person">Statistique Canada</rs>, No <rs type="grantNumber">75-006</rs>-X au catalogue, 13 p.</s><s xml:id="_eknVg8T" coords="19,72.00,442.20,231.73,10.80">MOORE, K., ROBSON, W. et LAURIN, A. 2010.</s><s xml:id="_dS84v22" coords="19,306.41,442.20,233.60,10.80;19,84.00,457.20,388.72,10.80"><rs type="person">« Canada</rs>'s <rs type="projectName">Looming Retirement Challenge : Will Future Retirees Be Able</rs> to <rs type="person">Maintain Their Living Standards</rs> upon Retirement ?</s><s xml:id="_ntrXHTX" coords="19,473.46,457.20,66.50,10.80;19,83.99,472.20,149.80,10.80">», C.D. Howe Institute Commentary, 317 : 25p.</s><s xml:id="_9qYWEuW" coords="19,71.99,487.20,58.41,10.80">OCDE 2017.</s><s xml:id="_RRKqsXA" coords="19,133.36,487.20,362.13,10.80">« <rs type="funder">Ressources et utilisation des soins de longue durée », Tableau de données</rs>.</s><s xml:id="_nZqePkT" coords="19,498.46,487.20,41.52,10.80">Repéré à <ref type="url" coords="19,83.98,502.20,153.98,10.80" target="http://stats.oecd.org/Index.aspx">http://stats.oecd.org/Index.aspx</ref></s><s xml:id="_fW6fFF6" coords="19,238.45,502.20,5.42,10.80">?</s><s xml:id="_NYCHQ4Y" coords="19,246.64,502.20,221.04,10.80">QueryId=30140#, consulté le 9 décembre 2017.</s><s xml:id="_rdfHMZQ" coords="19,71.98,517.20,304.21,10.80">ORDRE <rs type="institution" subtype="infrastructure">DES INFIRMIÈRES ET INFIRMIERS DU QUÉBEC</rs>.</s><s xml:id="_EUKeGZM" coords="19,379.69,517.20,23.87,10.80">2017.</s><s xml:id="_ptmfbb3" coords="19,407.04,517.20,132.96,10.80;19,83.98,532.20,76.56,10.80">Réflexion sur le soutien aux aînés à domicile.</s><s xml:id="_wxDxTAP" coords="19,163.17,532.20,376.81,10.80;19,83.98,547.20,153.83,10.80">Consultation des ordres professionnels : <rs type="projectName">Priorités du ministre de la Santé et des Services</rs> sociaux 2016-2017, 24 p.</s><s xml:id="_xtHCYgM" coords="19,71.98,562.20,100.01,10.80">PELLETIER, L. 1992.</s><s xml:id="_vKJFJUP" coords="19,175.05,562.20,184.54,10.80">« Vieillir en institution ou à domicile ?</s><s xml:id="_x8ubKMZ" coords="19,362.64,562.20,177.32,10.80;19,83.98,577.20,298.76,10.80">Les facteurs associés à l'hébergement des personnes âgées », Espace, populations, sociétés, 10, 1 : <rs type="grantNumber">71-86</rs>.</s><s xml:id="_jVAq5My" coords="19,71.98,592.20,151.23,10.80">PENNING, M. et Z. WU. 2014.</s><s xml:id="_BBXgBnf" coords="19,226.36,592.20,313.45,10.80;19,83.98,607.20,456.01,10.80"><rs type="affiliation">« Marital Status, Childlessness, and Social Support among Older Canadians », Canadian Journal on Aging / La Revue Canadienne Du Vieillissement</rs>, 33, 4 : <rs type="grantNumber">426-447</rs>.</s><s xml:id="_DNRFX3e" coords="19,71.99,622.20,147.06,10.80">SAMVURA, F. et N. VLADÈS.</s><s xml:id="_5tdaFhp" coords="19,222.11,622.20,23.78,10.80">2014.</s><s xml:id="_amPZbzh" coords="19,248.94,622.20,291.04,10.80;19,83.98,637.20,337.92,10.80">« Projecting home care and long-term care needs using Life-Paths », <rs type="person">Colloque de Santé Canada</rs> sur l'Assurance santé sociale, Ottawa.</s><s xml:id="_8mCK7UC" coords="19,71.98,652.20,147.84,10.80">SINHA, M. et A. BLEAKNEY.</s><s xml:id="_uffARNr" coords="19,223.14,652.20,24.23,10.80">2014.</s><s xml:id="_aza9CzE" coords="19,250.68,652.20,289.22,10.80;19,83.98,667.20,455.89,10.80;19,83.98,682.20,55.12,10.80;19,71.98,697.20,130.51,10.80">« <rs type="projectName">Les bénéficiaires de soins à domicile », Mettre l'accent sur les Canadiens : Résultats de l'Enquête sociale générale</rs>, <rs type="person">Statistique Canada</rs>, No 89-652-X au catalogue, 20 p. STATISTIQUE CANADA.</s><s xml:id="_XNc93CN" coords="19,205.85,697.20,23.44,10.80">2013.</s><s xml:id="_sB4cWeu" coords="19,232.65,697.20,307.32,10.80;19,83.98,712.20,65.05,10.80"><rs type="person">« Le</rs> modèle de microsimulation LifePaths : <rs type="person">Vue d'ensemble ».Ottawa</rs>, ON : <ref type="url" coords="19,152.03,712.20,350.44,10.80" target="https://www.statcan.gc.ca/fra/microsimulation/lifepaths/vuedensemble">https://www.statcan.gc.ca/fra/microsimulation/lifepaths/vuedensemble</ref></s></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HE7cAD9">
+					<idno type="grant-number">1-23</idno>
+				</org>
+				<org type="funding" xml:id="_5UmmHBt">
+					<idno type="grant-number">303-310</idno>
+				</org>
+				<org type="funded-project" xml:id="_mJ54UKQ">
+					<idno type="grant-number">131-161</idno>
+					<orgName type="project" subtype="full">Nouvelles tendances dans le mode de vie et la conjugalité des personnes âgées d&apos;aujourd&apos;hui et de demain », Regards sur la société canadienne</orgName>
+				</org>
+				<org type="funded-project" xml:id="_RSrNn67">
+					<idno type="grant-number">75-006</idno>
+					<orgName type="project" subtype="full">Looming Retirement Challenge : Will Future Retirees Be Able</orgName>
+				</org>
+				<org type="funded-project" xml:id="_VGJ2Ksp">
+					<idno type="grant-number">71-86</idno>
+					<orgName type="project" subtype="full">Priorités du ministre de la Santé et des Services</orgName>
+				</org>
+				<org type="funded-project" xml:id="_6qW4bG9">
+					<idno type="grant-number">426-447</idno>
+					<orgName type="project" subtype="full">Les bénéficiaires de soins à domicile », Mettre l&apos;accent sur les Canadiens : Résultats de l&apos;Enquête sociale générale</orgName>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">DES INFIRMIÈRES ET INFIRMIERS DU QUÉBEC</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="18,72.00,143.00,468.02,10.80;18,84.00,158.00,287.88,10.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_Dkjt6xk">Canadian Academy of Sport and Exercise Medicine, Ottawa 2015, CASEM Annual Scientific Conference, February 11-14, 2015, Ottawa, Ontario, Canada</title>
+		<author>
+			<persName coords=""><forename type="first">Conference</forename><surname>Board</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Canada</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/jsm.0000000000000181</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XmmKJDM">Clinical Journal of Sport Medicine</title>
+		<idno type="ISSN">1050-642X</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="e1" to="e8" />
+			<date type="published" when="2015-01">2015. 2026</date>
+			<publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+			<pubPlace>Ottawa</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CONFERENCE BOARD OF CANADA. 2015. Future Care For Canadian Seniors : Demand And Expenditures Expected To Rise Dramatically By 2026, Ottawa.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.00,173.81,468.01,10.80;18,84.00,188.81,456.00,10.80;18,84.00,203.81,278.54,10.80" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_b3YXUrK">An inventory of Canadian microsimulation models</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Décarie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Boisonneault</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Légaré</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wSPtGea">Social and Economic Dimensions of an Aging Population (SEDAP)</title>
+		<meeting><address><addrLine>Hamilton, Ontario</addrLine></address></meeting>
+		<imprint>
+			<publisher>SEDAP Research Paper</publisher>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>McMaster University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">DÉCARIE, Y., M. BOISONNEAULT et J. LÉGARÉ. 2012. « An inventory of Canadian microsimu- lation models », Hamilton, Ontario : McMaster University, Social and Economic Dimensions of an Aging Population (SEDAP), SEDAP Research Paper, (298).</note>
+</biblStruct>
+
+<biblStruct coords="18,72.00,219.61,468.14,10.80;18,84.00,234.61,299.48,10.80" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_58w9Asf">The Family Networks of People aged 60 and over Living at Home or in an Institution</title>
+		<author>
+			<persName><forename type="first">Aline</forename><surname>Désesquelles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Brouard</surname></persName>
+		</author>
+		<idno type="DOI">10.3917/pope.302.0181</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hRDQ9bh">Population (english edition)</title>
+		<idno type="ISSN">1634-2941</idno>
+		<idno type="ISSNe">1958-9190</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">181</biblScope>
+			<date type="published" when="2003">2003</date>
+			<publisher>CAIRN</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DÉSESQUELLES, A. et N. BROUARD. 2003. « The family networks of people aged 60 and over living at home or in an institution », Population, 58, 2 : 181-206.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.00,250.42,468.06,10.80;18,84.00,265.42,451.78,10.80" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_x2QQ59H">Le recours aux maisons de retraite pour les hommes et femmes âgés en Finlande et en Belgique</title>
+		<author>
+			<persName><forename type="first">Elina</forename><forename type="middle">K</forename><surname>Einiö</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><surname>Guilbault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pekka</forename><surname>Martikainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Poulain</surname></persName>
+		</author>
+		<idno type="DOI">10.3917/popu.1201.0075</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KpS7R5Y">Population</title>
+		<idno type="ISSN">0032-4663</idno>
+		<imprint>
+			<biblScope unit="volume">Vol. 67</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="101" />
+			<date type="published" when="2012-07-30">2012</date>
+			<publisher>CAIRN</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">EINIO, E., C. GUILBAULT, P. MARTIKAINEN et M. POULAIN. 2012. « Le recours aux maisons de retraite pour les hommes et femmes âgés en Finlande et en Belgique », Population, 67, 1 : 75-101.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.01,281.22,468.08,10.80;18,84.01,296.22,272.50,10.80" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_QAd6TuQ">Predicting nursing home admission in the U.S: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">E</forename><surname>Gaugler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sue</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Kane</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2318-7-13</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zs8bHUG">BMC Geriatrics</title>
+		<title level="j" type="abbrev">BMC Geriatr</title>
+		<idno type="ISSNe">1471-2318</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2007-06-19">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GAUGLER, J., S. DUVAL, K. ANDERSON et R. KANE. 2007. « Predicting nursing home admis- sion in the US : a meta-analysis », BMC geriatrics, 7, 1 : 13.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,312.02,468.00,10.80;18,84.02,327.02,455.88,10.80;18,84.02,342.02,429.70,10.80" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_CAmhPQd">What Will the Family Composition of Older Persons Be Like Tomorrow? A Comparison of Canada and France</title>
+		<author>
+			<persName><forename type="first">Joëlle</forename><surname>Gaymu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc-Antoine</forename><surname>Busque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Légaré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yann</forename><surname>Décarie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Vézina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janice</forename><surname>Keefe</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0714980809990419</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4S4MuQF">Canadian Journal on Aging / La Revue canadienne du vieillissement</title>
+		<title level="j" type="abbrev">Can. J. Aging</title>
+		<idno type="ISSN">0714-9808</idno>
+		<idno type="ISSNe">1710-1107</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="71" />
+			<date type="published" when="2010-03">2010</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GAYMU, J., M.A. BUSQUE, J. LÉGARÉ, Y. DÉCARIE, S. VÉZINA et J. KEEFE. 2010. « What Will the Family Composition of Older Persons Be Like Tomorrow ? A Comparison of Canada and France », Canadian Journal on Aging / La Revue Canadienne Du Vieillissement, 29, 1 : 57-71.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,357.83,468.00,10.80;18,84.02,372.83,206.38,10.80" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_FnGyv2f">Musculoskeletal Point-of-Care Ultrasonography Training Among Canadian Postgraduate Rheumatology Programs</title>
+		<author>
+			<persName><forename type="first">Tenneille</forename><surname>Tana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Noura</forename><surname>Al Osaimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ummugulsum</forename><surname>Gazel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sibel</forename><forename type="middle">Zehra</forename><surname>Aydin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><surname>Humphrey-Murto</surname></persName>
+		</author>
+		<idno type="DOI">10.5152/eurjrheum.2022.21081</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mpazx63">European Journal of Rheumatology</title>
+		<title level="j" type="abbrev">Eur J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8" to="11" />
+			<date type="published" when="2017">2017</date>
+			<publisher>AVES YAYINCILIK A.Ş.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GIBBARD, R. 2017. Sizing up the Challenge : Meeting the Demand for Long-Term Care in Canada. Ottawa : The Conference Board of Canada.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,388.63,468.24,10.80;18,84.02,403.63,456.00,10.80;18,84.02,418.63,49.99,10.80" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_DYupeFr">Trends in, and transitions to, institutional residence among older people in England and Wales, 1971-91.</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Grundy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Glaser</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/jech.51.5.531</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NYEVWNy">Journal of Epidemiology &amp; Community Health</title>
+		<title level="j" type="abbrev">Journal of Epidemiology &amp; Community Health</title>
+		<idno type="ISSN">0143-005X</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="531" to="540" />
+			<date type="published" when="1997-10-01">1997</date>
+			<publisher>BMJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GRUNDY. E. et K. GLASER. 1997. « Trends in, and transitions to, institutional residence among older people in England and Wales, 1971-91 », Journal of Epidemiology &amp; Community Health, 51, 5 : 531-540.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,434.44,468.01,10.80;18,84.02,449.44,248.75,10.80;18,72.02,465.24,468.00,10.80;18,84.02,480.24,263.71,10.80" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_abAznuZ">Indicateurs des dépenses de santé</title>
+		<author>
+			<persName coords=""><forename type="first">Institut</forename><surname>Canadien</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D'information</forename><surname>Sur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">A</forename><surname>Santé</surname></persName>
+		</author>
+		<idno type="DOI">10.1787/data-00349-fr</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZzmxMMe">tableaux données, série A. INSTITUT CANADIEN D&apos;INFORMATION SUR LA SANTÉ. 2017b. Tendances des dépenses nationales de santé</title>
+		<imprint>
+			<publisher>OECD</publisher>
+			<date type="published" when="1975">2017. 1975 à 2017. 1975 à 2017</date>
+		</imprint>
+	</monogr>
+	<note>notes méthodologiques</note>
+	<note type="raw_reference">INSTITUT CANADIEN D&apos;INFORMATION SUR LA SANTÉ. 2017a. Tendances des dépenses natio- nales de santé, 1975 à 2017, tableaux données, série A. INSTITUT CANADIEN D&apos;INFORMATION SUR LA SANTÉ. 2017b. Tendances des dépenses nationales de santé, 1975 à 2017, notes méthodologiques.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,496.04,468.00,10.80;18,84.02,511.04,418.19,10.80;18,72.02,526.85,468.33,10.80;18,84.02,541.85,109.43,10.80" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" xml:id="_A9h45qE">Élaborer une stratégie nationale pour les ainés, Groupe de travail de l&apos;IRPP sur le vieillissement</title>
+		<author>
+			<persName coords=""><forename type="first">Institut De Recherche En Politiques</forename><surname>Publiques</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2015. 7 octobre 2015, 4 p. KEEFE, J. 2011</date>
+			<publisher>Institute for Research on Public Policy</publisher>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1" to="40" />
+		</imprint>
+	</monogr>
+	<note>Supporting caregivers and caregiving in an aging Canada</note>
+	<note type="raw_reference">INSTITUT DE RECHERCHE EN POLITIQUES PUBLIQUES. 2015. Élaborer une stratégie natio- nale pour les ainés, Groupe de travail de l&apos;IRPP sur le vieillissement, 7 octobre 2015, 4 p. KEEFE, J. 2011. Supporting caregivers and caregiving in an aging Canada. Institute for Research on Public Policy, 23 : 1-40.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,557.65,468.00,10.80;18,84.02,572.65,456.00,10.80;18,84.02,587.65,182.26,10.80" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_mBgmWFm">Developing New Strategies to Support Future Caregivers of Older Canadians with Disabilities: Projections of Need and their Policy Implications</title>
+		<author>
+			<persName><forename type="first">Janice</forename><surname>Keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Légaré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yves</forename><surname>Carrière</surname></persName>
+		</author>
+		<idno type="DOI">10.3138/q326-4625-5753-k683</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5QUE4b2">Canadian Public Policy</title>
+		<title level="j" type="abbrev">Canadian Public Policy</title>
+		<idno type="ISSN">0317-0861</idno>
+		<idno type="ISSNe">1911-9917</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">Supplement 1</biblScope>
+			<biblScope unit="page" from="S65" to="S80" />
+			<date type="published" when="2007-01-01">2007</date>
+			<publisher>University of Toronto Press Inc. (UTPress)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">KEEFE, J., J. LÉGARÉ et Y. CARRIÈRE. 2007. « Developing new strategies to support future care- givers of older Canadians with disabilities : Projections of need and their policy implications », Canadian Public Policy, 33, 1 : S65-S80.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,603.46,468.00,10.80;18,84.02,618.46,456.00,10.80;18,84.02,633.46,219.30,10.80" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_qYdCefT">UTILISATION ET COÛT DE L’HÉBERGEMENT AVEC SOINS DE LONGUE DURÉE AU QUÉBEC, 2010 À 2050</title>
+		<author>
+			<persName><forename type="first">François</forename><surname>Laliberté-Auger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aurélie</forename><surname>Côté-Sergent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Boisclair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yann</forename><surname>Décarie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Yves</forename><surname>Duclos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Carl</forename><surname>Michaud</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/1091769ar</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7gVArVC">Assurances et gestion des risques</title>
+		<title level="j" type="abbrev">Assurances et gestion des risques</title>
+		<idno type="ISSN">1705-7299</idno>
+		<idno type="ISSNe">2371-4913</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2010">2015. 2010 à 2050</date>
+			<publisher>Consortium Erudit</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LALIBERTÉ-AUGER, F., A. CÔTÉ-SERGENT, Y. DÉCARIE, J.-Y. DUCLOS et P.-C. MICHAUD. 2015. « Utilisation et coût de l&apos;hébergement avec soins de longue durée au Québec, 2010 à 2050 », Assurances et gestion des risques, 82, 3-4 : 23-41.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,649.26,467.71,10.80;18,84.02,664.26,382.68,10.80" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" xml:id="_hSU6Wu2">Un défi non-étudié pour les baby-boomers, relié à une éventuelle non-disponibilité de soins et services</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Légaré</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Rapport de recherche No. 4500311833 soumis à Santé Canada</note>
+	<note type="raw_reference">LÉGARÉ, J. 2014. Un défi non-étudié pour les baby-boomers, relié à une éventuelle non-disponibilité de soins et services, Rapport de recherche No. 4500311833 soumis à Santé Canada.</note>
+</biblStruct>
+
+<biblStruct coords="18,72.02,680.06,468.06,10.80;18,84.02,695.06,455.95,10.80;18,84.02,710.06,73.55,10.80" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_DYTtt7j">Vivre en institution : l&apos;offre pourrat-elle suivre la demande des baby-boomers</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Légaré</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Boissonneault</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Décarie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hundARQ">Colloque de Santé Canada sur l&apos;Assurance santé sociale</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<pubPlace>Ottawa</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LÉGARÉ, J., M. BOISSONNEAULT et Y. DÉCARIE. 2014. « Vivre en institution : l&apos;offre pourra- t-elle suivre la demande des baby-boomers », Colloque de Santé Canada sur l&apos;Assurance santé sociale, Ottawa.</note>
+</biblStruct>
+
+<biblStruct coords="19,72.00,97.20,467.98,10.80;19,84.00,112.20,456.14,10.80;19,84.00,127.20,455.92,10.80;19,84.00,142.20,124.04,10.80" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_FSNyXSP">Les mutations démographiques de la famille et leurs répercussions sur l&apos;entourage des personnes âgées au Canada</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Légaré</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Décarie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZsftXKN">Le vieillissement démographique : de nombreux enjeux à déchiffrer</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Rheault</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Poirier</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Québec</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="147" to="156" />
+		</imprint>
+	</monogr>
+	<note>Institut de la statistique du Québec</note>
+	<note type="raw_reference">LÉGARÉ J. et Y. DÉCARIE 2012. « Les mutations démographiques de la famille et leurs répercus- sions sur l&apos;entourage des personnes âgées au Canada » dans S. RHEAULT et J. POIRIER (dir.), Le vieillissement démographique : de nombreux enjeux à déchiffrer, Québec, Institut de la statis- tique du Québec : 147-156.</note>
+</biblStruct>
+
+<biblStruct coords="19,72.00,157.20,467.74,10.80;19,84.00,172.20,456.00,10.80;19,84.00,187.20,28.75,10.80" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_c5eDNHT">Using Statistics Canada LifePaths Microsimulation Model to Project the Disability Status of Canadian Elderly</title>
+		<author>
+			<persName coords=""><forename type="first">Jacques</forename><surname>Légaré</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Décarie</surname></persName>
+		</author>
+		<idno type="DOI">10.34196/ijm.00060</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NJk7VUM">International Journal of Microsimulation</title>
+		<title level="j" type="abbrev">IJM</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="48" to="56" />
+			<date type="published" when="2011">2011</date>
+			<publisher>International Microsimulation Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LÉGARÉ J. et Y. DÉCARIE. 2011. « Using statistics Canada LifePaths microsimulation model to project the disability status of Canadian elderly », International Journal of Microsimulation, 4, 3 : 48-56.</note>
+</biblStruct>
+
+<biblStruct coords="19,72.00,202.20,467.76,10.80;19,84.00,217.20,455.95,10.80;19,84.00,232.20,44.66,10.80" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_NKHthHm">Prediction of institutionalization in the elderly. A systematic review</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Luppa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Luck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Weyerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-H</forename><surname>Konig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brahler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">G</forename><surname>Riedel-Heller</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ageing/afp202</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RfFtXXV">Age and Ageing</title>
+		<title level="j" type="abbrev">Age and Ageing</title>
+		<idno type="ISSN">0002-0729</idno>
+		<idno type="ISSNe">1468-2834</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="38" />
+			<date type="published" when="2009-11-23">2009</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">LUPPA, M., T. LUCK, S. WEYERER, H.-H. KÖNIG, E. BRÄHLER et S.G. RIEDEL-HELLER. 2009. « Prediction of institutionalization in the elderly. A systematic review », Age and Ageing, 39 : 31-38.</note>
+</biblStruct>
+
+<biblStruct coords="19,72.00,247.20,468.00,10.80;19,84.00,262.20,456.00,10.80;20,72.00,97.20,468.00,10.80;20,84.00,112.20,455.76,10.80;20,84.00,127.20,268.99,10.80" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_U6xZktr">Living arrangements of older persons in 1987–2035 in Finland: trends by age, sex and educational attainment</title>
+		<author>
+			<persName><forename type="first">Pekka</forename><surname>Martikainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heta</forename><surname>Moustgaard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Janne</forename><surname>Mikkonen</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0144686x17001003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jnhQU8n">Ageing and Society</title>
+		<title level="j" type="abbrev">Ageing and Society</title>
+		<idno type="ISSN">0144-686X</idno>
+		<idno type="ISSNe">1469-1779</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="358" to="380" />
+			<date type="published" when="2017-09-19">2017. 2017</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note>Living arrangements of older persons in 1987-2035 in Finland : trends by age, sex and educational attainment Recensement de 2016 -Données intégrales (100 %) », Nº au catalogue</note>
+	<note type="raw_reference">MARTIKAINEN P., M. MURPHY, H. MOUSTGAARD et J. MIKKONEN 2017. « Living arrange- ments of older persons in 1987-2035 in Finland : trends by age, sex and educational attainment », STATISTIQUE CANADA. 2017. « Type de logement collectif, âge et sexe pour la population dans les logements collectifs du Canada, provinces et territoires, Recensement de 2016 -Données intégrales (100 %) », Nº au catalogue : 98-400-X2016018.</note>
+</biblStruct>
+
+<biblStruct coords="20,72.01,142.20,75.54,10.80" xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><surname>Statistique</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">STATISTIQUE</note>
+</biblStruct>
+
+<biblStruct coords="20,84.01,172.20,448.18,10.80" xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Recensement</forename><surname>Canada</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="98" to="313" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Canada, provinces et territoires, Recensement de 2011 », Nº au catalogue : 98-313-XCB2011024.</note>
+</biblStruct>
+
+<biblStruct coords="20,72.01,187.20,467.94,10.80;20,84.01,202.20,252.70,10.80" xml:id="b20">
+	<monogr>
+		<title level="m" type="main" xml:id="_6M3Rb2K">Logement collectif ». Dictionnaire du recensement, Année de recensement 2011</title>
+		<author>
+			<persName coords=""><forename type="first">Canada</forename><surname>Statistique</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="98" to="301" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">STATISTIQUE CANADA. 2012b. « Logement collectif ». Dictionnaire du recensement, Année de recensement 2011, Nº au catalogue : 98-301-X2011001.</note>
+</biblStruct>
+
+<biblStruct coords="20,72.01,217.20,468.01,10.80;20,84.01,232.20,455.84,10.80;20,84.01,247.20,97.28,10.80" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_TdZFP42">Vieillir chez soi</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Trottier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Martel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Houle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J.-M</forename><surname>Berthelot</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Légaré</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9782763702377-012</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_fJ2JRUf">Vieillissement: santé et société</title>
+		<imprint>
+			<publisher>Les Presses de l’Université de Laval</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="183" to="190" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TROTTIER, H., L. MARTEL, C. HOULE, J.-M. BERTHELOT et J. LÉGARÉ. 2000. « Vieillir chez soi ou en établissement : à quoi cela tient-il ? », Rapport sur la santé/Health Reports, Statistique Canada, 11, 4 : 55-68.</note>
+</biblStruct>
+
+<biblStruct coords="20,72.01,262.20,467.99,10.80;20,84.00,277.20,407.78,10.80" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_NjDaVZN">Les Canadiens dont les besoins en soins à domicile sont non comblés</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Turcotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tgdttBF">Regards sur la société canadienne</title>
+		<imprint>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Statistique Canada No 75-006-X au catalogue</note>
+	<note type="raw_reference">TURCOTTE, M. 2014. « Les Canadiens dont les besoins en soins à domicile sont non comblés », Regards sur la société canadienne, Statistique Canada, No 75-006-X au catalogue, 14 p.</note>
+</biblStruct>
+
+<biblStruct coords="20,72.00,292.20,468.00,10.80;20,84.00,307.20,455.67,10.80;20,84.00,322.20,150.66,10.80;20,234.65,320.74,3.43,7.34;20,240.84,322.20,136.00,10.80" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_BBrFTAJ">Population Aging and Fiscal Sustainability -The Intersection of Retirement Income Adequacy and Health Care Costs Associated with Disability</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Wolfson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B-J</forename><surname>Macdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_JJC6Qyh">General Conference</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">WOLFSON M. et B-J. MACDONALD. 2016. « Population Aging and Fiscal Sustainability -The Intersection of Retirement Income Adequacy and Health Care Costs Associated with Disabi- lity », Article préparé pour la 34 e IARIW General Conference.</note>
+</biblStruct>
+
+<biblStruct coords="20,72.00,337.20,468.00,10.80;20,84.00,352.20,456.00,10.80;20,84.00,367.20,339.00,10.80" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_SmKhUxZ">Health hazard evaluation report: HETA-81-333-935, National Center for Health Statistics, Hyattsville, Maryland.</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Wolfson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Rowe</surname></persName>
+		</author>
+		<idno type="DOI">10.26616/nioshheta81333935</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_bdqz4aT">Eight Conference on Health Survey Research Methods</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Cochen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lepkowski</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Hyattsville, MD</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Department of Health and Human Services, Public Health Service, Centers for Disease Control, National Institute for Occupational Safety and Health</publisher>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="15" to="22" />
+		</imprint>
+		<respStmt>
+			<orgName>National Center for Health Statistics</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">WOLFSON, M. et ROWE, G. 2004. « Disability and informal support : Prospects for Canada », dans S. B. COCHEN et J. M. LEPKOWSKI (dir.), Eight Conference on Health Survey Research Methods, Hyattsville, MD : National Center for Health Statistics : 15-22.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
