@@ -149,25 +149,36 @@ def convert_to_base(data):
             base["editorial_team"].append(personne)
 
 
-    base["body"] = [convert_section(s) for s in data.get("body_sections", [])]
+    base["body"] = []
+    for s in data.get("body_sections", []):
+        if isinstance(s, dict):
+            base["body"].append({
+                "title": normalize_text(s.get("title", "")),
+                "paragraphs": [normalize_text(p) for p in s.get("paragraphs", [])],
+                "parent": normalize_text(s["parent"]) if s.get("parent") else None
+            })
+
 
     base["figures"] = []
     for f in data.get("figures", []):
         if isinstance(f, dict):
             base["figures"].append({
-                "label": normalize_text(f.get("label", "")),
-                "caption": normalize_text(f.get("caption", "")),
-                "legends" : f.get("legends", []),
-                "subfigures": f.get("subfigures", [])
+                "number": normalize_text(f.get("number", "")),
+                "title": normalize_text(f.get("title", "")),
+                "source": normalize_text(f.get("source", "")),
             })
+
 
     base["tables"] = []
     for t in data.get("tables", []):
         if isinstance(t, dict):
             base["tables"].append({
-                "label": normalize_text(t.get("label", "")),
-                "caption": normalize_text(t.get("caption", "")),
-                "rows": t.get("rows", [])
+                "number": normalize_text(t.get("number", "")),
+                "title": normalize_text(t.get("title", "")),
+                "content": normalize_text(t.get("content", "")),
+                "note": normalize_text(t.get("note", "")),
+                "parent": normalize_text(t.get("parent", "")) if t.get("parent") else None
             })
+
 
     return base

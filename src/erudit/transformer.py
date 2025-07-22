@@ -133,21 +133,18 @@ def extract_erudit_editorial_team(root):
 
     return team_flat
 
-def extract_erudit_body_sections(root):
-
+def extract_body(root):
     """
-    Extrait les sections du corps de texte de l’article (section1, section2...).
-    Pour chaque section :
-    - titre
-    - paragraphes
-    - formules (équations avec image)
-    - objets médias (images, vidéos)
-    - sous-sections récursives
-    
-    Retourne une liste structurée reflétant la hiérarchie du texte.
+    Transforme le corps de texte en une liste plate de sections.
+    Chaque section contient :
+    - title : titre de la section
+    - paragraphs : liste des textes des paragraphes
+    - parents : liste des titres de ses sections parentes (ordre hiérarchique)
     """
 
-    def parse_section(sec):
+    sections = []
+
+    def parse_section(sec, parent_title=None):
         titre_node = sec.find("er:titre", namespaces=ns_erudit)
         titre = normalize_text("".join(titre_node.itertext())) if titre_node is not None else ""
 
@@ -159,171 +156,168 @@ def extract_erudit_body_sections(root):
             if texte:
                 paras.append(texte)
 
-        """# Figures
-        figures_data = []
-        for fig in sec.findall(".//er:figure", namespaces=ns_erudit):
-            fig_id = fig.attrib.get("id", "")
-            fig_label = fig.findtext("er:no", default="", namespaces=ns_erudit)
-            alinea_node = fig.find(".//er:legende/er:alinea", namespaces=ns_erudit)
-            fig_caption = "".join(alinea_node.itertext()) if alinea_node is not None else ""
-            fig_source = fig.findtext("er:source", default="", namespaces=ns_erudit)
-            figures_data.append({
-                "id": fig_id,
-                "label": normalize_text(fig_label),
-                "caption": normalize_text(fig_caption),
-                "source": normalize_text(fig_source),
-            })
-        """
-        formulas = []
-        for eq in sec.xpath(".//er:equation", namespaces=ns_erudit):
-            label_node = eq.find("er:no", namespaces=ns_erudit)
-            image_node = eq.find("er:objetmedia/er:image", namespaces=ns_erudit)
-            if image_node is not None:
-                label = label_node.text.strip() if label_node is not None and label_node.text else ""
-                href = image_node.attrib.get("{http://www.w3.org/1999/xlink}href", "")
-                formulas.append({
-                    "label": normalize_text(label),
-                    "image_href": href
-                })
-
-
-        # Médias
-        media_objects = []
-        for obj in sec.xpath(".//er:objetmedia", namespaces=ns_erudit):
-            img = obj.find("er:image", namespaces=ns_erudit)
-            if img is not None:
-                href = img.attrib.get("{http://www.w3.org/1999/xlink}href", "")
-                media_type = img.attrib.get("typeimage", "")
-                title = img.attrib.get("{http://www.w3.org/1999/xlink}title", "")
-                if href:
-                    media_objects.append({
-                        "type": media_type,
-                        "href": href,
-                        "title": title
-                    })
-
-        # Sous-sections récursives (section2, section3, etc.)
-        subsections = []
-        for level in range(2, 6):  # tu peux ajuster la profondeur
-            for sub in sec.findall(f"er:section{level}", namespaces=ns_erudit):
-                subsections.append(parse_section(sub))
-
-        return {
+        sections.append({
             "title": titre,
             "paragraphs": paras,
-            "formulas": formulas,
-            "media_objects": media_objects,
-            "subsections": subsections,
-        }
+            "parent": parent_title
+        })
 
-    # Lancer l’analyse depuis section1
-    return [parse_section(sec) for sec in root.xpath("er:corps/er:section1", namespaces=ns_erudit)]
+        # Sous-sections (section2 à section5)
+        for level in range(2, 6):
+            for sub in sec.findall(f"er:section{level}", namespaces=ns_erudit):
+                parse_section(sub, parent_title=titre)
+
+    # Lancer depuis les <section1>
+    for sec1 in root.xpath("er:corps/er:section1", namespaces=ns_erudit):
+        parse_section(sec1, parent_title=None)
+
+    return sections
 
 
-def extract_erudit_global_figures(root):
 
+def extract_source(fig_node, ns):
     """
-    Extrait toutes les figures globales dans le document :
-    - Groupes de figures (<grfigure>) avec sous-figures, label, caption, legends
-    - Figures simples (<figure>) en dehors des groupes
-    
-    Chaque figure retourne :
-    - label (ex. "Figure 1")
-    - caption (titre général)
-    - legends (listes d’annotations ou descriptions)
-    - subfigures (sous-figures avec label et caption)
+    Extrait la source depuis <source><marquage> ou <source> directement.
     """
+    src_node = fig_node.find("er:source/er:marquage", namespaces=ns)
+    if src_node is None:
+        src_node = fig_node.find("er:source", namespaces=ns)
+    return src_node.text.strip() if src_node is not None and src_node.text else ""
 
+def extract_figures(root):
+    """
+    Extrait toutes les figures (simples et groupées) avec :
+    - number (ex. "Figure 5")
+    - title (texte de <titre>)
+    - source (texte de <source>)
+    """
     ns = {"er": "http://www.erudit.org/xsd/article"}
     figures = []
 
-    # Cas 1 : groupes de figures (grfigure)
+    # Cas 1 : groupes de figures <grfigure>
     for grfig in root.findall(".//er:grfigure", namespaces=ns):
-        group_label = grfig.findtext("er:no", default="", namespaces=ns)
-        titre = grfig.findtext("er:legende/er:titre", default="", namespaces=ns)
-        # Légendes de l'ensemble du groupe
-        alineas = grfig.findall("er:legende/er:alinea", namespaces=ns)
-        legends = []
-        for alinea in alineas:
-            texte = "".join(alinea.itertext()).strip()
-            if texte:
-                legends.append(normalize_text(texte))
-
-        # Sous-figures
-        subfigures = []
-        for subfig in grfig.findall(".//er:figure", namespaces=ns):
-            sub_label = subfig.findtext("er:no", default="", namespaces=ns)
-            sub_titre = subfig.findtext("er:legende/er:titre", default="", namespaces=ns)
-
-            subfigures.append({
-                "label": normalize_text(sub_label),
-                "caption": normalize_text(sub_titre),
-            })
+        group_number = grfig.findtext("er:no", default="", namespaces=ns)
+        group_title = grfig.findtext("er:legende/er:titre", default="", namespaces=ns)
+        group_source = extract_source(grfig, ns)
 
         figures.append({
-            "label": normalize_text(group_label),
-            "caption": normalize_text(titre),
-            "legends": legends,
-            "subfigures": subfigures,
+            "number": normalize_text(group_number),
+            "title": normalize_text(group_title),
+            "source": group_source
         })
 
-    # Cas 2 : figures simples hors des groupes
+    # Cas 2 : figures simples hors <grfigure>
     for fig in root.findall(".//er:figure", namespaces=ns):
-        if fig.getparent().tag.endswith("grfigure"):
+        # Éviter les sous-figures dans les <grfigure>
+        parent = fig.getparent()
+        if parent is not None and parent.tag.endswith("grfigure"):
             continue
 
-        fig_label = fig.findtext("er:no", default="", namespaces=ns)
-        titre = fig.findtext("er:legende/er:titre", default="", namespaces=ns)
+        fig_number = fig.findtext("er:no", default="", namespaces=ns)
+        fig_title = fig.findtext("er:legende/er:titre", default="", namespaces=ns)
+        fig_source = extract_source(fig, ns)
 
-        alineas = fig.findall("er:legende/er:alinea", namespaces=ns)
-        legends = []
-        for alinea in alineas:
-            for media in alinea.findall("er:objetmedia", namespaces=ns):
-                if media.tail:
-                    texte = normalize_text(media.tail)
-                    if texte:
-                        legends.append(texte)
         figures.append({
-            "label": normalize_text(fig_label),
-            "caption": normalize_text(titre),
-            "legends": legends,
-            "subfigures": []
+            "number": normalize_text(fig_number),
+            "title": normalize_text(fig_title),
+            "source": fig_source
         })
 
     return figures
 
 
-
-def extract_erudit_global_tables(root):
-
-    """
-    Extrait toutes les tables (<tableau>) du document.
-    Pour chaque tableau :
-    - label (numéro)
-    - caption (titre)
-    - source (chemin de l’image s’il y en a une)
-    - lignes de contenu (texte principal + note)
+def get_table_data_from_objetmedia(table_node):
+    text_nodes = table_node.findall(".//er:objetmedia/er:texte", namespaces=ns_erudit)
+    raw_blocks = [node.text for node in text_nodes if node.text and node.text.strip()]
+    if not raw_blocks:
+        return ""
     
-    Retourne une liste de dictionnaires.
+    # On garde les blocs tels quels, on fusionne avec un espace entre chaque
+    return " ".join(block.strip() for block in raw_blocks)
+
+def extract_table_notes_and_source(table_elem, ns):
     """
+    Concatène toutes les notes (alinea + notetabl + source) en une seule chaîne.
+    Inclut aussi les éventuelles sources situées dans une balise <source>.
+    """
+    notes = []
+
+    # Texte dans <source>
+    source_node = table_elem.find("er:source", namespaces=ns)
+    if source_node is not None:
+        texte = normalize_text("".join(source_node.itertext()))
+        if texte:
+            notes.append(texte)
+
+    # alinéas dans <legende>
+    for alinea in table_elem.findall(".//er:legende/er:alinea", namespaces=ns):
+        texte = normalize_text("".join(alinea.itertext()))
+        if texte:
+            notes.append(texte)
+
+    # notes dans <notetabl>
+    for note in table_elem.findall(".//er:notetabl", namespaces=ns):
+        for alinea in note.findall("er:alinea", namespaces=ns):
+            texte = normalize_text("".join(alinea.itertext()))
+            if texte:
+                notes.append(texte)
+
+    return " ".join(notes) if notes else None
 
 
+
+def extract_tables(root):
+    """
+    Extrait les tableaux simples et ceux contenus dans des groupes <grtableau>.
+    Retourne :
+    - number : numéro du tableau (ex. "Tableau 1" ou "a)")
+    - title : titre textuel complet
+    - content : contenu brut de <objetmedia><texte>
+    - note : notes éventuelles (alinea, notetabl)
+    - parent : None ou "numéro - titre" du groupe
+    """
     ns = {"er": "http://www.erudit.org/xsd/article"}
-
     tables = []
-    for tab in root.findall(".//er:tableau", namespaces=ns):
-        no = tab.findtext("er:no", default="", namespaces=ns)
-        titre = tab.findtext("er:legende/er:titre", default="", namespaces=ns)
-        image_node = tab.find(".//er:image", namespaces=ns)
-        texte = tab.findtext(".//er:texte", default="", namespaces=ns)
-        note = tab.findtext(".//er:notetabl", default="", namespaces=ns)
-        image_href = image_node.get("{http://www.w3.org/1999/xlink}href", "") if image_node is not None else ""
+
+    # Cas 1 : groupes de tableaux
+    for grtab in root.findall(".//er:grtableau", namespaces=ns):
+        parent_number = grtab.findtext("er:no", default="", namespaces=ns)
+        parent_title_node = grtab.find("er:legende/er:titre", namespaces=ns)
+        parent_title = normalize_text("".join(parent_title_node.itertext()) if parent_title_node is not None else "")
+        parent_label = f"{normalize_text(parent_number)} - {parent_title}" if parent_title else normalize_text(parent_number)
+
+        for table in grtab.findall("er:tableau", namespaces=ns):
+            number = normalize_text(table.findtext("er:no", default="", namespaces=ns))
+            titre_node = table.find("er:legende/er:titre", namespaces=ns)
+            title = normalize_text("".join(titre_node.itertext()) if titre_node is not None else "")
+            content = get_table_data_from_objetmedia(table)
+            note = extract_table_notes_and_source(table, ns)
+
+            tables.append({
+                "number": number,
+                "title": title,
+                "content": content,
+                "note": note,
+                "parent": parent_label
+            })
+
+    # Cas 2 : tableaux simples (pas dans un grtableau)
+    for table in root.findall(".//er:tableau", namespaces=ns):
+        if table.getparent().tag.endswith("grtableau"):
+            continue  # déjà traité
+
+        number = normalize_text(table.findtext("er:no", default="", namespaces=ns))
+        titre_node = table.find("er:legende/er:titre", namespaces=ns)
+        title = normalize_text("".join(titre_node.itertext()) if titre_node is not None else "")
+        content = get_table_data_from_objetmedia(table)
+        note = extract_table_notes_and_source(table, ns)
 
         tables.append({
-            "label": normalize_text(no),
-            "caption": normalize_text(titre),
-            "source": normalize_text(image_href),
-            "rows": [[normalize_text(texte), normalize_text(note)]]
+            "number": number,
+            "title": title,
+            "content": content,
+            "note": note,
+            "parent": None
         })
 
     return tables
@@ -382,9 +376,9 @@ def parse_erudit_xml(root):
             resultats[champ] = []
             
     # Extraction du body structuré (sections)
-    resultats["body_sections"] = extract_erudit_body_sections(root)
-    resultats["figures"] = extract_erudit_global_figures(root)
-    resultats["tables"] = extract_erudit_global_tables(root)
+    resultats["body_sections"] = extract_body(root)
+    resultats["figures"] = extract_figures(root)
+    resultats["tables"] = extract_tables(root)
     return resultats
 
 
