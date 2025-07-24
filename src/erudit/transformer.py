@@ -337,12 +337,12 @@ def parse_erudit_xml(root):
             #print(resultats[champ])
             continue
         
-        elif champ.startswith("author_"):
-            author_fields = extract_erudit_author_fields(root)
-            for key, values in author_fields.items():
-                resultats[key] = values
-            #resultats["authors"] = author_fields
-            continue
+        # elif champ.startswith("author_"):
+        #     author_fields = extract_erudit_author_fields(root)
+        #     for key, values in author_fields.items():
+        #         resultats[key] = values
+        #     #resultats["authors"] = author_fields
+        #     continue
 
         elif champ == "bibliographies":
             resultats[champ] = []
@@ -376,6 +376,25 @@ def parse_erudit_xml(root):
             resultats[champ] = []
             
     # Extraction du body structuré (sections)
+
+    author_fields = extract_erudit_author_fields(root)
+
+    # Recombine les champs en liste de dicts
+    nb_authors = max(len(v) for v in author_fields.values())
+    authors = []
+
+    for i in range(nb_authors):
+        author = {
+            "first_name": normalize_text(author_fields["author_first_name"][i]) if i < len(author_fields["author_first_name"]) else "",
+            "last_name": normalize_text(author_fields["author_last_name"][i]) if i < len(author_fields["author_last_name"]) else "",
+            "affiliation": normalize_text(author_fields["author_affiliation"][i]) if i < len(author_fields["author_affiliation"]) else "",
+            "email": normalize_text(author_fields["author_email"][i]) if i < len(author_fields["author_email"]) else "",
+            "website": normalize_text(author_fields["author_website"][i]) if i < len(author_fields["author_website"]) else "",
+            "orcid": normalize_text(author_fields["author_orcid"][i]) if i < len(author_fields["author_orcid"]) else "",
+        }
+        authors.append(author)
+
+    resultats["authors"] = authors
     resultats["body_sections"] = extract_body(root)
     resultats["figures"] = extract_figures(root)
     resultats["tables"] = extract_tables(root)

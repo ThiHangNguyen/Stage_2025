@@ -6,8 +6,8 @@
     {
       "first_name": "alain",
       "last_name": "",
-      "affiliation": "",
       "email": "",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     }
@@ -351,8 +351,7 @@
         "en presence de chocs reposant sur des changements danticipations, il existe deux sources possibles pouvant creer un probleme de representation non fondamentale. la premiere source resulte des chocs de nouvelles. on peut montrer quen general, les innovations du var ne permettent pas de recuperer les chocs structurels. le probleme provient dun ensemble dinformation trop limite de leconometre. la deuxieme source apparait en presence dun probleme dinformation; lagent economique nobserve pas parfaitement le choc. dans ce cas, lagent ne peut identifier correctement les chocs structurels, il fait face a un probleme dextraction de signal. a fortiori, leconometre ne pourra pas non plus identifier ces chocs.",
         "une solution apparait naturelle pour resoudre le probleme de representation fondamentale en presence de chocs de nouvelles. cette solution consiste a augmenter lensemble dinformation de leconometre en introduisant, par exemple, des facteurs macroeconomiques dans le var (forni et gambetti, 2014). en ce qui a trait a la deuxieme source, le probleme est plus serieux et laugmentation de lensemble dinformation ne le resout pas. la solution passerait donc par lestimation de modeles structurels (voir blanchard, lhuillier et lorenzoni, 2013; barsky et sims, 2012).",
         "la premiere section de cet article presente a laide dun exemple simple les problemes de representations non fondamentales occasionnees par la presence de chocs danticipations et de problemes dinformation1. cette presentation permet denoncer la condition suffisante pour obtenir une representation dite fondamentale a partir dun var. la section suivante introduit un critere de distance qui permettrait devaluer la severite du probleme de representations non fondamentales. la troisieme section est devolue a des exercices de simulations a partir dun modele des cycles reels (rbc selon lacronyme anglais) augmente de chocs anticipations pour examiner la performance des var struturels en presence de representations non fondamentales. la derniere section conclut."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. le probleme de representations non fondamentales",
@@ -376,8 +375,7 @@
         "examinons maintenant notre exemple en incorporant le probleme dinformation sur lobservation du choc de nouvelles en introduisant un bruit. lagent observe donc un signal st et le prix pt. comme on la vu precedemment, dans le cas ou θ0 = 0, ces deux variables sont donnees par :",
         "la matrice dimpact d des chocs structurels sur st et pt nest pas inversible. en effet, cette matrice est alors :",
         "dans ce casci, on ne peut resoudre le probleme en augmentant lensemble dinformation."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2. representations abcd et akcς",
@@ -390,8 +388,7 @@
         "le r2 de la projection des innovations (standardises) de la representation akcς sur des facteurs pouvant capter lerreur de prevision (xt 1 t 1) est alors donne par lelement (i, i) de :",
         "lorsque la condition de stabilite est respectee, les observables yt sont un predicteur parfait du vecteur des variables detats xt et σxx = 0. tous les r2 sont alors egaux a zero. inversement, si les observables predisent plutot mal le vecteur des variables detats xt, donc on est en presence dune matrice σxx relativement importante, les r2 seront alors eleves.",
         "comment implanter en pratique ce critere du r2? si on considere que les facteurs sur plusieurs series macroeconomiques approximent bien les etats de la nature, on peut sen servir pour porter un diagnostic sur le var. on peut alors faire une regression des chocs structurels du var structurel sur les retards des facteurs. forni et gambetti (2014) ont propose un test de causalite base sur cette regression. si on rejette la noncausailte des retards des facteurs sur les chocs structurels, la representation var serait alors non fondamentale. beaudry et al. (2015) arguent plutot que le r2 est une mesure plus pertinente. en effet, le test de causalite peut rejeter la noncausalite mais les retards des facteurs peuvent avoir un pouvoir explicatif tres faible des chocs structurels de telle sorte que le var donne une approximation pas trop mauvaise de lidentification des chocs structurels et de la dynamique engendree par ces chocs. le r2 des regressions des chocs structurels du var sur les retards des facteurs serait donc un indicateur de la distance entre la mesure des chocs structurels et de leur dynamique identifiee a laide du var sur les observables et les vrais chocs structurels et leur dynamique respective."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3. simulations",
@@ -408,15 +405,13 @@
         "cest seulement a la realisation du choc sur la tfp (donc en t + q) que lagent connait parfaitement lampleur du choc. on suppose que suit une normale n(0, σ2bruit). on fixe lecarttype de ce choc a la meme valeur que lecarttype du choc de nouvelles. on considere egalement que les chocs de nouvelles et de bruit influencent la confiance. pour ce cas, on considere que le choc de bruit est le choc de sentiments. on utilise comme hypothese didentification du choc de sentiments, donc de bruit, quil est celui qui explique la plus grande partie de la variance de la confiance jusqua un certain horizon conditionnellement a lidentification des chocs de surprise et de nouvelles. en pratique, on fixe cet horizon a 40 trimestres.",
         "les resultats des simulations apparaissent aux graphiques 9 a 14 pour q = 2, 4, 8. examinons le cas ou q = 2. lorsque lagent observe le signal en t, il attribue une partie de ce signal au choc qui va se materialiser sur la tfp en t + 2 et lautre partie a un choc de bruit selon la resolution du probleme dextraction de signal. on constate pour le modele, a laide de la fonction de reponses theorique, que le choc de nouvelles entraine une hausse de la consommation en t et t + 1 qui est moins marquee que sans le probleme dinformation (voir le graphique 4). a t + 2, lagent observe la realisation du choc, le probleme dinformation est alors resolu et il augmente sa consommation en consequence. on constate la meme chose pour les heures travaillees. limpact negatif est plus faible que dans le cas sans probleme dinformation (voir graphique 4) et lagent ajuste son comportement a la realisation du choc en t + 2. examinons maintenant limpact du choc de sentiments, donc leffet du choc de bruit du signal, sur les differentes variables. suite a un choc positif, lagent augmente sa consommation et diminue ses heures travaillees en t et en t + 1 puisquil ne peut distinguer ce choc dun choc de nouvelles. il reagit donc comme pour un choc de nouvelles. lorsquen t + 2, il realise que ce choc nest pas un choc qui affecte la productivite, il ajuste sa consommation et ces heures travaillees aux quantites precedent le signal, donc les fonctions reponses retournent a zero.",
         "examinons maintenant les fonctions de reponses empiriques pour q = 2. la fonction de reponses de la tfp evalue adequatement le delai de deux periodes pour la realisation du choc de nouvelles mais sousevalue son impact mais pas de facon significative. la reponse de la consommation a limpact et a la periode suivante est tres bien captee mais elle est par la suite legerement sousevaluee. on constate que la fonction de reponses empirique est lisse et quelle ne capte pas le fait que lagent observe le choc de nouvelles en t + 2. cependant, ces differences ne sont pas significatives. en contrepartie, la reponse des heures travaillees colle presque parfaitement a la reponse theorique. enfin, limpact du choc de nouvelles sur la confiance est bien mesure. pour le choc de sentiments, donc le bruit dans le signal, la fonction de reponses de la consommation est sousevaluee a limpact et au trimestre suivant et elle retourne graduellement a son niveau dequilibre. la reponse empirique negative des heures est un peu plus forte a limpact et au trimestre suivant pour revenir rapidement a zero. on remarque que les fonctions de reponses de la consommation et des heures sont plus lisses que les fonctions de reponses theoriques. cependant, ces differences sont loin detre significatives. finalement, la reponse de la confiance au choc de sentiments est sousevaluee, mais encore ici, cette difference nest pas significative. pour q = 4 et q = 8, on observe le meme type de comportement que pour q = 2. on peut noter que la reponse des heures travaillees suite au choc de nouvelles est tres bien reproduite tandis que la reponse de la consommation est beaucoup plus lisse. en resume, meme avec un agent faisant face a un probleme dextraction de signal, les reponses du var structurel ne sont pas significativement differentes des reponses theoriques, et dans certains cas, elles sont fidelement reproduites (pour les heures travaillees)."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "conclusion",
       "paragraphs": [
         "il savere important de mesurer la contribution des changements danticipations pour lexplication du cycle economique. cependant, cet exercice souleve des difficultes qui peuvent etre importantes. levaluation de la pertinence empirique des changements dans les anticipations a laide de var structurels souleve le probleme de representations non fondamentales. on a maintenant certains outils pour mesurer limportance du probleme dans le cas dun choc de nouvelles mais ce nest pas le cas quand celuici est jumele a un probleme dextraction de signal. on doit donc developper des mesures empiriques pour evaluer limportance que pose le probleme dextraction de signal dans lidentification des chocs danticipations."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [

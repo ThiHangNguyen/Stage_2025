@@ -119,25 +119,42 @@ def convert_to_base(data):
     }
 
     # Traitement des auteurs (prénom, nom, affiliation, etc.)
-    first_names = data.get("author_first_name", [])
-    last_names = data.get("author_last_name", [])
-    affiliations = data.get("author_affiliation", [])
-    emails = data.get("author_email", [])
-    websites = data.get("author_website", [])
-    orcids = data.get("author_orcid", [])
+    # first_names = data.get("author_first_name", [])
+    # last_names = data.get("author_last_name", [])
+    # affiliations = data.get("author_affiliation", [])
+    # emails = data.get("author_email", [])
+    # websites = data.get("author_website", [])
+    # orcids = data.get("author_orcid", [])
 
-    nb_authors = max(len(first_names), len(last_names), len(affiliations), len(emails), len(websites), len(orcids))
+    # nb_authors = max(len(first_names), len(last_names), len(affiliations), len(emails), len(websites), len(orcids))
 
-    for i in range(nb_authors):
-        author = {
-            "first_name": normalize_text(first_names[i]) if i < len(first_names) else "",
-            "last_name": normalize_text(last_names[i]) if i < len(last_names) else "",
-            "affiliation": normalize_text(affiliations[i]) if i < len(affiliations) else "",
-            "email": normalize_text(emails[i]) if i < len(emails) else "",
-            "website": normalize_text(websites[i]) if i < len(websites) else "",
-            "orcid": normalize_text(orcids[i]) if i < len(orcids) else "",
-        }
-        base["authors"].append(author)
+    # for i in range(nb_authors):
+    #     author = {
+    #         "first_name": normalize_text(first_names[i]) if i < len(first_names) else "",
+    #         "last_name": normalize_text(last_names[i]) if i < len(last_names) else "",
+    #         "affiliation": normalize_text(affiliations[i]) if i < len(affiliations) else "",
+    #         "email": normalize_text(emails[i]) if i < len(emails) else "",
+    #         "website": normalize_text(websites[i]) if i < len(websites) else "",
+    #         "orcid": normalize_text(orcids[i]) if i < len(orcids) else "",
+    #     }
+    #     base["authors"].append(author)
+
+    authors = data.get("authors", [])
+    print(authors)
+    if isinstance(authors, list):
+        base["authors"] = []
+        for author in authors:
+            personne = {
+                "first_name": normalize_text(author.get("first_name", "")),
+                "last_name": normalize_text(author.get("last_name", "")),
+                "email": normalize_text(author.get("email", "")),
+                "affiliation": normalize_text(author.get("affiliation", "")),
+                "website": normalize_text(author.get("website", "")),
+                "orcid": normalize_text(author.get("orcid", ""))
+            }
+            base["authors"].append(personne)
+
+
 
     editorial_team = data.get("editorial_team", [])
     if isinstance(editorial_team, list):
@@ -155,7 +172,7 @@ def convert_to_base(data):
             base["body"].append({
                 "title": normalize_text(s.get("title", "")),
                 "paragraphs": [normalize_text(p) for p in s.get("paragraphs", [])],
-                "parent": normalize_text(s["parent"]) if s.get("parent") else None
+                #"parent": normalize_text(s["parent"]) if s.get("parent") else None
             })
 
 

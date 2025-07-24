@@ -124,7 +124,9 @@ def main():
     commençant par article_ids_* dans data/csv/.
     """
     input_dir = "data/csv"
-    csv_files = [f for f in os.listdir(input_dir) if f.startswith("article_ids_") and f.endswith(".csv")]
+    #csv_files = [f for f in os.listdir(input_dir) if f.startswith("article_ids_") and f.endswith(".csv")]
+
+    csv_files = ["article_ids_ae49f.csv"]
 
     for file in csv_files:
         journal_id = file.replace("article_ids_", "").replace(".csv", "")

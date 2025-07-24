@@ -6,8 +6,8 @@
     {
       "first_name": "thierry",
       "last_name": "magnac",
-      "affiliation": "ecole deconomie de toulouse (tse)",
       "email": "thierry.magnac@tsefr.eu",
+      "affiliation": "ecole deconomie de toulouse (tse)",
       "website": "",
       "orcid": ""
     }
@@ -1336,8 +1336,7 @@
   "body": [
     {
       "title": "",
-      "paragraphs": [],
-      "parent": null
+      "paragraphs": []
     },
     {
       "title": "introduction",
@@ -1350,8 +1349,7 @@
         "cette demarche fournit pourtant lintuition premiere de lidentification partielle. lanalyse des donnees se conduit en examinant toutes les hypotheses arbitraires acceptables, cestadire compatibles avec nos a priori, et en rassemblant dans un ensemble identifie toutes les valeurs des parametres ponctuellement identifiees auxquelles chacune de ces hypotheses conduit. lacceptabilite dune hypothese dependra des applications et ces hypotheses seront ensemblistes (par exemple, une probabilite de selection dequilibre appartient a lintervalle [0,1], ou des valeurs censurees sont bornees) ou fonctionnelles (monotonicite, concavite, etc.). la puissance identifiante de differentes hypotheses pourra etre comparee en termes de taille de lensemble identifie.",
         "lidentification partielle semble donc etre fort differente du cadre traditionnel. neanmoins, quand on revient aux autres etapes du travail empirique destimation et de construction dintervalles de confiance, cette construction sadapte naturellement. pour lestimation, on remplace des estimateurs ponctuels du parametre dinteret par des estimateurs ensemblistes par exemple batis a partir de lestimation de la frontiere de lensemble. pour linference, la presentation des intervalles de confiance ne change pas puisque les resultats sexpriment naturellement en termes dintervalles ou regions de confiance. seule leur interpretation change puisque ces regions de confiance ne sont plus uniquement le resultat de la variabilite de lechantillonnage mais aussi de lincertitude radicale sousjacente quant a lidentification des parametres.",
         "cette presentation restera peu technique et sappuiera sur des exemples du mieux quelle pourra. le but de cet article est de passer en revue les articles presentant les methodes (mais certains restent assez arides) pour en extraire les principes generaux et les articles rapportant les resultats dapplications empiriques dont je fais une liste partielle et breve. je reviens dabord sur la question de lidentification dans la section 1 pour definir plus precisement les notions evoquees dans cette introduction. les methodes dinference sont presentees dans la section 2 qui est la plus technique de cette revue. jetudie a la fin de la section 2 des cas plus simples dinference quand les ensembles identifies sont convexes, puis je donne un catalogue bien incomplet dapplications empiriques dans la section 3. la derniere section conclut cette presentation."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. identification",
@@ -1388,8 +1386,7 @@
         "ces extensions necessitent pourtant des outils plus sophistiques que ceux que nous avons utilises. dans les modeles structurels et en particulier ceux derives de la theorie des jeux, galichon et henry (2009, 2011) expliquent comment utiliser des outils comme les capacites de choquet et les methodes de transport optimal pour resoudre la question didentification exacte et construire lensemble des inegalites de moment qui sont necessaires et suffisantes pour lidentification exacte des parametres. alternativement, beresteanu, molchanov et molinari (2012) expliquent comment des methodes densembles aleatoires convexes permettent aussi la resolution de ces questions. ces outils sont aussi applicables aux modeles reduits tenant compte de la censure des variables comme ceux developpes dans horowitz et manski (1995), manski et pepper (2000) ou plus generalement le livre de revue par manski (2003). dautres encore, combinent modeles structurels et censure des donnees (galichon et henry, 2013).",
         "dans un cadre dinegalites de moment, les methodes destimation sont derivees par analogie ou en construisant des criteres de distance a lensemble identifie (qui seront presentes plus loin) puisquils servent aussi dans les methodes dinference. pour estimer un intervalle comme celui presente dans lexemple 1, on peut se contenter destimer directement les deux bornes, superieure et inferieure de lintervalle (par exemple, imbens et manski, 2004). pour un ensemble, cest plus difficile sauf si cet ensemble est convexe et ce cas sera analyse dans la section 2.3.",
         "certains auteurs omettent lestimation ensembliste et passent directement a lestimation par regions de confiance et donc a linference que nous presentons maintenant. notons toutefois un point final relatif a lidentification. de maniere generale, il semble important pour linference de controler la dimension de la fonction inconnue a qui sapplique la restriction ensembliste. nous en verrons des exemples plus loin."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1.1 definition",
@@ -1404,8 +1401,7 @@
         "en labsence dautres restrictions, il semble difficile de progresser. on fera donc des restrictions ensemblistes du type, t ∈ , un intervalle par exemple, qui entraine des restrictions ensemblistes pour η, η ∈ n. la probabilite conditionnelle (a toutes les variables exogenes) de selection dun equilibre dans un jeu a equilibres multiples sera bornee entre 0 et 1 par exemple. on peut alors definir lensemble identifie par toutes les valeurs possibles du parametre ponctuellement identifie quand la completion des donnees est decrite par η :",
         "on peut alors analyser differentes restrictions suivant leur degre de credibilite :",
         "les deux exemples qui suivent permettent de mettre en pratique cette construction."
-      ],
-      "parent": "1. identification"
+      ]
     },
     {
       "title": "1.2 exemple 1 : censure par intervalles",
@@ -1420,8 +1416,7 @@
         "or si ti ∈ [0, 1]:",
         "lintervalle identifie pour β1 est donc lunion de toutes les valeurs possibles et on obtient :",
         "notons finalement que le parametre β1 se definit de facon equivalente par des inegalites de moment :"
-      ],
-      "parent": "1. identification"
+      ]
     },
     {
       "title": "1.3 exemple 2 : jeu dentree a information complete",
@@ -1433,8 +1428,7 @@
         "certaines probabilites sont independantes de η :",
         "sans restrictions sur la fonction de repartition des variables εi en fonction de covariables (par exemple lindependance) les parametres β1 et β0 et les fonctions de repartitions des ε ne peuvent etre identifiees et pour affirmer que le modele est complet on raisonnera directement sur les probabilites des regions definies par le graphique 1. ces probabilites sont identifiees par les equations cidessus si le parametre η est donne. il nous faut alors identifier quatre probabilites, par exemple : , , et 7. les deux premieres sont directement identifiees par les deux premieres equations (3) et les deux dernieres obeissent aux contraintes derivees des equations (4) sous les contraintes, η ∈ [0, 1] et 0 ≤ pr(carre central, graphique 1), .",
         "de la meme facon que dans lexemple precedent, ces contraintes secrivent comme des inegalites de moment. de plus, tout vecteur de probabilites appartenant a lensemble identifie correspond a une probabilite de selection dequilibres realisables, η ∈ [0, 1], ce qui permet de dire que cet intervalle est identifie de maniere exacte. ces resultats setendent aussi a des jeux a plusieurs joueurs (voir par exemple, galichon et henry, 2011) mais dune facon plus sophistiquee dont nous discutons maintenant."
-      ],
-      "parent": "1. identification"
+      ]
     },
     {
       "title": "1.4 discussion",
@@ -1443,8 +1437,7 @@
         "ces extensions necessitent pourtant des outils plus sophistiques que ceux que nous avons utilises. dans les modeles structurels et en particulier ceux derives de la theorie des jeux, galichon et henry (2009, 2011) expliquent comment utiliser des outils comme les capacites de choquet et les methodes de transport optimal pour resoudre la question didentification exacte et construire lensemble des inegalites de moment qui sont necessaires et suffisantes pour lidentification exacte des parametres. alternativement, beresteanu, molchanov et molinari (2012) expliquent comment des methodes densembles aleatoires convexes permettent aussi la resolution de ces questions. ces outils sont aussi applicables aux modeles reduits tenant compte de la censure des variables comme ceux developpes dans horowitz et manski (1995), manski et pepper (2000) ou plus generalement le livre de revue par manski (2003). dautres encore, combinent modeles structurels et censure des donnees (galichon et henry, 2013).",
         "dans un cadre dinegalites de moment, les methodes destimation sont derivees par analogie ou en construisant des criteres de distance a lensemble identifie (qui seront presentes plus loin) puisquils servent aussi dans les methodes dinference. pour estimer un intervalle comme celui presente dans lexemple 1, on peut se contenter destimer directement les deux bornes, superieure et inferieure de lintervalle (par exemple, imbens et manski, 2004). pour un ensemble, cest plus difficile sauf si cet ensemble est convexe et ce cas sera analyse dans la section 2.3.",
         "certains auteurs omettent lestimation ensembliste et passent directement a lestimation par regions de confiance et donc a linference que nous presentons maintenant. notons toutefois un point final relatif a lidentification. de maniere generale, il semble important pour linference de controler la dimension de la fonction inconnue a qui sapplique la restriction ensembliste. nous en verrons des exemples plus loin."
-      ],
-      "parent": "1. identification"
+      ]
     },
     {
       "title": "2. methodes dinference",
@@ -1484,8 +1477,7 @@
         "un estimateur de cette quantite peut etre exprime comme un estimateur mco dans chaque direction q. en effet, lexpression du point de la frontiere tangent a lensemble identifie et perpendiculaire a la direction q (voir le graphique 2) secrit :",
         "les methodes dinference sont developpees par beresteanu et molinari (2008) et bontemps et al. (2012). sous certaines hypotheses de regularite de la frontiere (qui exclut en particulier des variables discretes), ces auteurs montrent que le processus stochastique tend uniformement en distribution quand n tend vers linfini vers un processus stochastique gaussien. bontemps et al. (2012) montrent comment loperateur de covariance, cestadire la covariance entre les estimateurs de la fonction support concernant des directions differentes sobtient simplement en utilisant les residus des regressions dans chaque direction que nous avons decrites plus haut pour la construction de q. les tests et donc les intervalles de confiance sont ecrits pour chaque direction q. sous certaines conditions techniques, linference est efficace (kaido et santos, 2011).",
         "on peut etendre ces resultats au cas des variables discretes mais les resultats asymptotiques font apparaitre un processus additionnel dans la loi asymptotique de lestimateur de la frontiere precedente meme si ceci ne semble pas avoir dimportance a distance finie dans des experiences de montecarlo (bontemps et al., 2012). ce dernier article etend aussi le cadre de prediction lineaire en etudiant des restrictions generales de moments lineaires en nombre fini mais superieur au nombre de parametres a estimer (moments surnumeraires) et lestimation et les methodes dinference associees."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2.1 couverture dun point ou dun ensemble et uniformite de linference",
@@ -1498,8 +1490,7 @@
         "dautre part, la question de luniformite peut saborder dans un cadre simple dinference a une seule dimension comme dans lexemple 1. lintervalle identifie est decrit par une borne superieure et par une borne inferieure comme dans lequation (1) et on suppose que ces bornes sont des fonctions de moments dans les donnees. comme nous lavons dit plus haut, lestimation de ces bornes est effectuee directement par la construction de contreparties empiriques a ces fonctions des moments. les intervalles de confiance pour les bornes inferieures et superieures combinent alors des elements tenant compte de la distribution jointe des estimateurs des bornes. neanmoins, les deux bornes estimees peuvent etre suffisamment proches (au sens de la metrique donnees par leurs ecartstypes) et leurs intervalles de confiance peuvent se chevaucher. la resolution de cette difficulte fut proposee par imbens et manski (2004) et etendue par stoye (2009). les auteurs construisent des intervalles de confiance dont les proprietes statistiques sont robustes au fait que le vrai intervalle identifie est aussi petit que lon veut (y compris un point).",
         "en retournant au cas general, admettons que nous voulions couvrir un point de facon uniforme. supposons que le vrai processus generateur de donnees appartient a une famille . dans lexemple 1 de variable dependante censuree par intervalles, on inclura par exemple dans cette famille les cas ou il ny a pas de censure ce qui fait que la largeur des intervalles dobservation peut etre nulle, δi = 0. dans ce cas, le parametre β1 est identifie. puis on cherchera un intervalle de confiance in a un niveau de confiance asymptotique au moins egal a 1 α qui satisfait a :",
         "ici aussi, la condition est plus contraignante que dans le cas non uniforme et les intervalles de confiance uniformes sont donc plus grands que ceux quon avait definis auparavant. cest pourtant ce cas qui parait le plus interessant puisquon na pas toujours une idee bien precise sur la vraie loi des donnees p et son domaine de variation . luniformite a dailleurs des definitions aussi variees que la variation de ."
-      ],
-      "parent": "2. methodes dinference"
+      ]
     },
     {
       "title": "2.2 techniques generales dinference",
@@ -1519,8 +1510,7 @@
         "quand il y a des moments surnumeraires, on peut exploiter plusieurs ou une infinite de conditions de moments. par exemple, il existe de nombreux exemples (par exemple, manski et pepper, 2000) ou les conditions estimantes sont ecrites comme :",
         "si on note hn(z) un estimateur dans un echantillon de taille n, par exemple un estimateur non parametrique, de , estimer cette borne par la contrepartie empirique :",
         "chernozhukov, lee et rosen (2013) proposent de resoudre ce probleme en construisant lintervalle de confiance de la borne en utilisant lestimateur :"
-      ],
-      "parent": "2. methodes dinference"
+      ]
     },
     {
       "title": "2.2.1 utilisation dune fonction critere",
@@ -1533,8 +1523,7 @@
         "chernozhukov et al. (2007) proposent alors la construction de lestimateur de lensemble comme :",
         "ils proposent aussi directement lestimation dune region de confiance :",
         "le point delicat est le calcul de la valeur critique cn qui se fait par sousechantillonnage ( subsampling , chernozhukov et al., 2007; romano et shaik, 2010) ou par bootstrap (bugni, 2010) en montrant que la region de confiance ainsi construite respecte la condition de couverture asymptotique donnee par lequation (5) ou lequation (6). la difficulte de ces papiers vient de la technicite des demonstrations asymptotiques."
-      ],
-      "parent": "2.2 techniques generales dinference"
+      ]
     },
     {
       "title": "2.2.2 selection de moments",
@@ -1542,8 +1531,7 @@
         "quand on teste une vraie valeur du parametre θ0, on peut ameliorer linference, cestadire le pouvoir du test conduisant a la construction de la region de confiance pour la vraie valeur (ou du vrai ensemble) du parametre au niveau 1 α si on reconnait que les conditions de moments a linegalite peuvent ne pas etre toutes saturees en meme temps. les moments dindice j tels que",
         "andrews et soares (2010) dans un cadre de conditions en nombre fini et son extension, andrews et shi (2013), dans le cadre dun systeme de conditions de moments conditionnels proposent la methode suivante quils appellent selection generalisee de moments (gms). pour le test dappartenance du parametre θ a lensemble identifie θi on nutilisera pour la construction de la valeur critique cn associee a ce test que les conditions de moments qui sont proches de la saturation. les auteurs proposent que ce soient les donnees qui decident en fonction de la distance a la saturation de chaque moment. pour calculer cn, ces auteurs comparent aussi differentes techniques asymptotiques, par calcul de la variance asymptotique, bootstrap ou par subsampling. la derniere technique proposee en premier par chernozhukov et al. (2007) et reprise par romano et shaikh (2010) semble dominee par les autres propositions qui ont un meilleur comportement a distance finie, comme le montrent les travaux plus recents de andrews et coauteurs.",
         "dautre part, pour assurer la aussi, un meilleur comportement a distance fini (mais dont les proprietes ne reposent pour linstant que sur des experiences de montecarlo), andrews et barwick (2012) construisent une selection affinee de moments (refined moment selection). la selection de moments se fait alors en utilisant un critere plus lache de selection et qui ne varie pas avec le nombre dobservations tout en corrigeant le niveau du test a cause du caractere conservateur dune telle methode. une simplification de cette methode tres intensive numeriquement et en particulier dans le cas ou le nombre de moments est important est proposee par romano, shaikh et wolf (2012) au prix dun caractere legerement conservateur de la procedure et donc dune legere perte de puissance."
-      ],
-      "parent": "2.2 techniques generales dinference"
+      ]
     },
     {
       "title": "2.2.3 intersection de bornes",
@@ -1551,8 +1539,7 @@
         "quand il y a des moments surnumeraires, on peut exploiter plusieurs ou une infinite de conditions de moments. par exemple, il existe de nombreux exemples (par exemple, manski et pepper, 2000) ou les conditions estimantes sont ecrites comme :",
         "si on note hn(z) un estimateur dans un echantillon de taille n, par exemple un estimateur non parametrique, de , estimer cette borne par la contrepartie empirique :",
         "chernozhukov, lee et rosen (2013) proposent de resoudre ce probleme en construisant lintervalle de confiance de la borne en utilisant lestimateur :"
-      ],
-      "parent": "2.2 techniques generales dinference"
+      ]
     },
     {
       "title": "2.3 structure additionnelle : convexite",
@@ -1566,8 +1553,7 @@
         "un estimateur de cette quantite peut etre exprime comme un estimateur mco dans chaque direction q. en effet, lexpression du point de la frontiere tangent a lensemble identifie et perpendiculaire a la direction q (voir le graphique 2) secrit :",
         "les methodes dinference sont developpees par beresteanu et molinari (2008) et bontemps et al. (2012). sous certaines hypotheses de regularite de la frontiere (qui exclut en particulier des variables discretes), ces auteurs montrent que le processus stochastique tend uniformement en distribution quand n tend vers linfini vers un processus stochastique gaussien. bontemps et al. (2012) montrent comment loperateur de covariance, cestadire la covariance entre les estimateurs de la fonction support concernant des directions differentes sobtient simplement en utilisant les residus des regressions dans chaque direction que nous avons decrites plus haut pour la construction de q. les tests et donc les intervalles de confiance sont ecrits pour chaque direction q. sous certaines conditions techniques, linference est efficace (kaido et santos, 2011).",
         "on peut etendre ces resultats au cas des variables discretes mais les resultats asymptotiques font apparaitre un processus additionnel dans la loi asymptotique de lestimateur de la frontiere precedente meme si ceci ne semble pas avoir dimportance a distance finie dans des experiences de montecarlo (bontemps et al., 2012). ce dernier article etend aussi le cadre de prediction lineaire en etudiant des restrictions generales de moments lineaires en nombre fini mais superieur au nombre de parametres a estimer (moments surnumeraires) et lestimation et les methodes dinference associees."
-      ],
-      "parent": "2. methodes dinference"
+      ]
     },
     {
       "title": "3. un echantillon dapplications empiriques et autres sujets connexes",
@@ -1579,8 +1565,7 @@
         "plus rares sont les applications structurelles. lun des premiers exemples est celui presente par haile et tamer (2003). les auteurs developpent un modele structurel dans des encheres ascendantes qui sont un cadre dencheres dont les parametres sont notoirement difficiles a identifier car linformation observee y est particulierement reduite. les auteurs nexploitent que certaines contraintes de rationalite sur le comportement des agents et ne font pas dhypotheses distributionnelles pour estimer les valeurs privees des encherisseurs. les auteurs supposent que les acheteurs potentiels nencherissent que jusqua la valeur quils conferent a lobjet et ne laissent pas lobjet etre vendu a un prix inferieur a cette valeur.",
         "un autre exemple est fourni par pakes, porter, ho et ishii (2006) et son extension dans pakes (2010). ce dernier developpe lestimation de modeles structurels sous des contraintes de rationalite tres generales sur des choix ordonnes (comme le nombre de comptoirs de retraits bancaires, atm) ou dans des jeux non cooperatifs entre hopitaux et hmos. ces contraintes a linegalite sappuient sur des restrictions sur les choix observes des entreprises et les parametres dinteret sont les fonctions de profit des agents. les choix faits par les entreprises doivent leur rapporter des profits qui sont superieurs a ceux quelles obtiendraient si elles prenaient dautres decisions. de la meme facon, ciliberto et tamer (2009) estiment un modele structurel derive dun jeu dentree sur des lignes aeriennes reliant deux aeroports en utilisant des donnees americaines et des restrictions derivees de la rationalite des entreprises. ce modele generalise le deuxieme exemple introduit plus haut et cet article utilise une methode destimation derivee de chernozhukov, hong et tamer (2007). henry et mourifie (2012) etudient la concurrence politique et le modele spatial de vote et montrent comment, malgre lidentification partielle, tester ce modele. les auteurs le rejettent dailleurs en utilisant des donnees americaines.",
         "de nombreux sujets connexes se rattachent au cadre didentification partielle. ridder et moffitt (2007) offrent un panorama complet de modelisations de donnees venant de sources multiples comme dans deux enquetes, par exemple, ou deux etats du monde mutuellement exclusifs. les modeles a variation discrete dans un cadre dequations simultanees ont fait lobjet de recherches par chesher (2005, 2010) et chesher et rosen (2013), des modeles discrets polytomiques sont traites par chesher et smolinski (2012) et les modeles binaires a regresseur tres exogene dont lobservation est discrete ou censuree par intervalles par magnac et maurin (2008). par ailleurs davezies et dhaultfoeuille (2012) traitent de lattrition. lidentification partielle de parametres de variance et covariance est etudiee par horowitz et manski (2005), fan et park (2010), fan et wu (2010) et gomez et pacini (2012). nevo et rosen (2012) et conley, hansen et rossi (2011) introduisent ce que sont des instruments imparfaits. lextension de methodes de vraisemblance empirique fait lobjet dun article par canay (2010). on peut ainsi voir que les domaines dapplication de telles methodes sont tres larges et de nombreux autres articles que nous navons pas cites ici en sont la preuve."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "conclusion",
@@ -1590,8 +1575,7 @@
         "cest pourquoi il faut interpreter cette demarche autrement. une direction naturelle suggeree par manski est de comparer des hypotheses de plus en plus contraignantes et qui permettent de reduire la taille de lensemble identifie (par exemple, la strategie empirique utilisee dans manski et pepper, 2000). ce ne seront pas les donnees qui justifieront la credibilite de chaque resultat puisque les donnees restent les memes. ce sont les hypotheses que les chercheurs doivent justifier. si la demarche est suffisamment ouverte pour que les lecteurs evaluent la credibilite de ces restrictions, ils auront le choix de mener des raisonnements empiriques assez riches pour dire que telle hypothese entraine telle conclusion empirique ou absence de conclusion empirique. en effet, les bornes des intervalles ou regions identifiees peuvent etre larges sous des hypotheses faibles. labsence de conclusion doit alors provoquer la recherche dhypotheses credibles ou la construction de nouvelles donnees qui devraient permettre de rendre plus precis les resultats des demarches empiriques en economie.",
         "il faut aussi noter en passant les difficultes pratiques de linference. celleci est assez facile dans le cas convexe et certains programmes en stata commencent a etre ecrits, par exemple par francesca molinari et ses coauteurs (http://economics.cornell.edu/fmolinari/#stata_setblp). cela est aussi vrai pour lapplication des methodes dans larticle de chernozhukov et al. (2013) (http://www.cemmap.ac.uk/wps/cwp381313.pdf). dans le cadre des inegalites de moment, les methodes generales dinference sont innovantes mais elles prennent un certain temps. ceci nest quun probleme technique qui se resoudra par une augmentation de la puissance de calcul.",
         "il ne me reste donc qua formuler un souhait qui est celui de voir un nombre plus important dapplications empiriques qui seul permettra devaluer la pertinence et la portee de ce courant recent de recherches theoriques pour la recherche empirique."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [

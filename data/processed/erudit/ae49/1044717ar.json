@@ -6,16 +6,16 @@
     {
       "first_name": "philippe",
       "last_name": "de donder",
-      "affiliation": "",
       "email": "de_donder.philippe@uqam.ca",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "maria",
       "last_name": "gallego",
-      "affiliation": "",
       "email": "mgallego@wlu.ca",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     }
@@ -1216,8 +1216,7 @@
         "comme le souligne roemer (2006), cette approche et les resultats quelle permet dobtenir sont problematiques a bien des egards. en effet, supposer que les partis ne se soucient pas des programmes politiques mais seulement de gagner les elections est en contradiction avec la realite historique de leur developpement. dans ce type de modele, les electeurs naccordent aucune importance a lidentite du parti qui remporte lelection (a linverse, toute leur attention se porte sur le programme politique quil propose). labsence dincertitude quant au resultat des elections lors du choix des programmes politiques est egalement une hypothese tres forte. sagissant des resultats produits par ce modele, la prediction dune convergence des partis vers des programmes politiques identiques ne se verifie pas dans la realite, et de surcroit, ces modeles ne presentent generalement pas dequilibre en strategies pures lorsquon travaille dans des espaces multidimensionnels.",
         "la litterature recente sur le positionnement des partis politiques sest emparee de ces problemes et lobjet de cette etude est de rendre compte de ses principales contributions. afin de respecter les contraintes de taille du document, nous faisons lhypothese tout au long de cet article que la concurrence electorale a lieu entre deux partis qui sengagent a tenir leurs promesses de campagne. nous rappelons limportance de trois hypotheses de modelisation : (i) linfluence du type dincertitude sur lissue electorale, (ii) lobjectif des partis politiques (objectif electoraliste qui consiste a maximiser lesperance du nombre de voix recues ou la probabilite de gagner les elections objectif ideologique, ou les deux), et (iii) les preferences des electeurs (dans quelle mesure ceuxci se soucient de lidentite des partis audela de la politique mise en place par le vainqueur).",
         "nous decrivons le cadre et les notations utilisees dans cet article dans la section 1. la section 2 traite du cas ou les partis sont mus par un objectif simple (electoraliste ou ideologique) tandis que la section 3 analyse la situation dans laquelle les partis ont des objectifs mixtes, soit parce que leur interet est a la fois electoraliste et ideologique, soit parce quils sont composes de differentes factions. dans la section 4, nous etudions lenvironnement dans lequel tous les electeurs accordent au meme parti un avantage independant de son programme politique et nous analysons comment cet avantage, aussi appele valence, influence lequilibre electoral. enfin, la derniere section conclut notre propos par quelques enseignements issus de ce survol."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. cadre general et notations",
@@ -1233,8 +1232,7 @@
         "a linverse, les partis peuvent etre preoccupes par le programme politique qui sera mis en place apres le vote. dans ce cas, nous supposons que leurs preferences visavis des programmes politiques peuvent etre representees par les fonctions ua et ub, derivables et strictement concaves sur x et auxquelles correspondent les programmes politiques preferes xa et xb. les preferences des partis qui sinteressent aux programmes politiques, dont nous qualifions lobjectif dideologique, peuvent etre representees par6",
         "dans la suite de ce survol, nous etudions les equilibres de nash en strategies pures du jeu de positionnement politique auquel les partis prennent part. en labsence dun tel equilibre, nous commentons brievement les equilibres de nash en strategies mixtes.",
         "nous presentons maintenant les resultats obtenus lorsque les partis ont des objectifs simples (cestadire lorsquils sont animes par des objectifs de victoire, de vote, ou bien ideologiques)."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2. objectifs simples",
@@ -1272,8 +1270,7 @@
         "les conditions suffisantes pour prouver lexistence dun equilibre sont plus difficiles a trouver lorsque d > 1 et il nexiste a notre connaissance aucune preuve generique permettant de prouver lexistence dun equilibre dans des espaces politiques multidimensionnels.",
         "des equilibres en strategies mixtes existent et sont continus dans le modele de downs (puisque le support de nimporte quel equilibre en strategies mixtes converge vers lequilibre downsien lorsque le bruit statistique disparait. se reporter a duggan, 2014).",
         "nous passons maintenant aux modeles ou les partis ont un objectif mixte, a la fois electoraliste et ideologique."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2.1 le cas deterministe",
@@ -1289,8 +1286,7 @@
         "malheureusement, duggan et fey (2005) prouvent quun equilibre en strategies pures nexiste pratiquement jamais lorsque d > 2. en particulier, ils etablissent des conditions semblables a celles de plott ou les electeurs dont les preferences sopposent parfaitement sont associes par paire dans lespace politique de dimension d. il est interessant de remarquer que dans le cas rarissime ou un tel equilibre existe pour d ≥ 2, duggan et fey (2005) et roemer (2001) montrent quune caracteristique quasi universelle de cet equilibre est que les partis proposent le meme programme, qui est le programme prefere dau moins un electeur. enfin, les resultats de duggan et jackson (2005) sappliquent aussi a ce cas de figure, de sorte quun equilibre en strategies mixtes existe si les electeurs indifferents entre les deux partis randomisent leur vote de maniere flexible (comme decrit precedemment).",
         "la conclusion de cette section nest pas tres encourageante : si d = 1, on obtient la convergence vers le programme prefere par lelecteur median quel que soit lobjectif (electoraliste ou ideologique) des partis, tandis quil nexiste pratiquement jamais dequilibre en strategies pures lorsque d > 2.",
         "nous introduisons maintenant de lincertitude, de sorte que le comportement des electeurs revet desormais pour les partis un caractere aleatoire. nous etudions dans un premier temps le cas ou les electeurs adoptent de maniere stochastique un parti pris en faveur dun des deux candidats, puis celui ou les preferences des electeurs deviennent stochastiques."
-      ],
-      "parent": "2. objectifs simples"
+      ]
     },
     {
       "title": "2.2 modele stochastique partisan",
@@ -1303,8 +1299,7 @@
         "nous renvoyons le lecteur a duggan (2014 : 2122) pour une intuition geometrique de cette proposition.",
         "les propositions 1 et 4 peuvent donner de prime abord limpression detre en contradiction, pour la raison suivante : sans incertitude et lorsque d = 1, le seul equilibre en strategies pures correspond a la situation ou les deux partis proposent le programme prefere par lelecteur median. en introduisant une faible dose dincertitude (dans laquelle les fonctions de distribution fi des partis pris convergent vers un point de masse en zero), le programme politique dequilibre devient alors x (loptimum utilitariste non pondere). cette contradiction apparente peut etre resolue grace aux travaux de laussel et le breton (2002) et banks et duggan (2005), qui ont prouve quil nexiste pas dequilibre en strategies pures dans un modele stochastique partisan lorsque le comportement des electeurs est quasi deterministe. en dautres termes, il faut que lincertitude soit assez forte pour que les conditions suffisantes de la proposition 5 soient remplies. ce point est important, car il montre que la theorie du vote probabiliste dans le cadre stochastique partisan peut generer des problemes dexistence alors meme quun equilibre deterministe downsien existe en strategies pures.",
         "grace a la continuite des fonctions de gain des partis, un equilibre en strategies mixtes existe dans les modeles stochastiques partisans. de plus, banks et duggan (2005) montrent que le support de cet equilibre converge vers le programme prefere par lelecteur median lorsque les bruits statistiques tendent vers zero. enfin, on observe que le probleme dexistence est encore plus important lorsque les partis ont pour objectif de remporter lelection, dans la mesure ou les conditions enoncees dans la proposition 5 ne sont plus suffisantes pour garantir lexistence dun equilibre de nash en strategies pures (voir patty, 2005; duggan, 2014 : section 4.2). en dautres termes, il est encore plus difficile de generer des fonctions de gain quasi concaves pour les partis politiques lorsque ceuxci sont uniquement interesses par la victoire a lelection que lorsquils ne se soucient que du nombre de voix recoltees15."
-      ],
-      "parent": "2. objectifs simples"
+      ]
     },
     {
       "title": "2.3 modele a preferences stochastiques",
@@ -1322,8 +1317,7 @@
         "les conditions suffisantes pour prouver lexistence dun equilibre sont plus difficiles a trouver lorsque d > 1 et il nexiste a notre connaissance aucune preuve generique permettant de prouver lexistence dun equilibre dans des espaces politiques multidimensionnels.",
         "des equilibres en strategies mixtes existent et sont continus dans le modele de downs (puisque le support de nimporte quel equilibre en strategies mixtes converge vers lequilibre downsien lorsque le bruit statistique disparait. se reporter a duggan, 2014).",
         "nous passons maintenant aux modeles ou les partis ont un objectif mixte, a la fois electoraliste et ideologique."
-      ],
-      "parent": "2. objectifs simples"
+      ]
     },
     {
       "title": "3. objectifs mixtes et partis politiques comme coalitions",
@@ -1348,8 +1342,7 @@
         "roemer (2001) demontre que les pune (lorsquils existent) representent une variete de dimension 2 quelle que soit la dimension de lespace politique d ≥ 1. en particulier, il montre quun pune peut secrire comme une paire de programmes politiques (xa, xb) qui est simultanement solution des equations (6) et (7) pour certaines valeurs de α, β ∈ [0, 1]. la variete de dimension 2 des pune peut etre indexee par le couple representant le pouvoir relatif des opportunistes dans les negociations (α, β). on note que lexistence dun equilibre nest pas necessairement garanti pour toute valeur donnee de α et β. roemer (2001) montre que le cas particulier ou les factions disposent dun poids identique dans la negociation dans les deux partis (α = β = 1/2) correspond a un equilibre de wittman. par ailleurs, lequilibre downsien classique (ou les partis ont un objectif purement electoraliste) correspond au cas ou α = β = 1. ce resultat donne egalement a voir pour quelle raison le concept de pune nest en general pas utile lorsque d = 1 : celuici nest pas assez discriminant dans un espace unidimensionnel.",
         "lanalyse qui precede fait lhypothese que les partis sont des structures exogenes ou lensemble des militants disposent de preferences bien definies. il est possible daller plus loin en endogeneisant les preferences politiques des militants au sein dun parti, et en supposant que ceuxci maximisent une variable agregee (telle que la moyenne) des utilites des individus qui votent pour ce parti a lequilibre. on obtient alors un equilibre de nash a lunanimite des partis avec des partis endogenes (ou puneep). le chapitre 13 de roemer (2001) donnera au lecteur loccasion de decouvrir les differentes applications de cette approche.",
         "dans la section 2.2 portant sur les modeles stochastiques partisans, nous avons examine le cas ou les electeurs avaient des biais differents en faveur dun parti, sur base des caracteristiques exogenes de ce parti et independamment de son programme politique. nous etudions dans la section qui suit le cas ou tous les electeurs ont le meme biais en faveur dun candidat."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3.1 objectif electoraliste et politique mixte",
@@ -1364,8 +1357,7 @@
         "la proposition 9 fait echo a lobservation de calvert (1985) qui stipule, quen labsence dincertitude lorsque lobjectif est pratiquement totalement electoral, le choix des programmes politiques est proche dune convergence vers le programme median. lintuition de limportance du rapport entre ξj et 2β peut etre decrite facilement. pour le parti j, seloigner de son programme politique favori vers le centre de lespace politique implique a la fois un cout marginal (egal a un dapres la definition de la fonction dutilite) et un benefice marginal qui est egal au produit de la rente de gouvernement ξj et de laccroissement marginal de la probabilite de gagner lelection. ce accroissement vaut 1/2β, puisque 2β correspond a la mesure du support de θm. les deux partis convergent logiquement si le benefice marginal est plus grand que le cout marginal cestadire, si 1 < ξj/2β pour j = a, b.",
         "drouvelis et al. (2014) demontrent egalement que les programmes des partis sont de plus en plus eloignes lun de lautre a mesure que β augmente. ce resultat est intuitif puisquune plus grande incertitude au sujet de la localisation du programme prefere par lelecteur median reduit le cout electoral associe au choix dune politique proche du programme favori des partis.",
         "enfin, drouvelis et al. (2014) etudient le cas ou les partis ont des objectifs asymetriques (cestadire ou ξa = ξb ). dans cette configuration, ils obtiennent comme equilibre, lorsque le niveau dincertitude β est suffisamment faible, une convergence vers le programme que les partis estiment etre prefere par lelecteur median. lorsque lincertitude depasse un seuil donne, il nexiste plus dequilibre en strategies pures, mais ils obtiennent un equilibre en strategies mixtes avec differenciation probabiliste, ou les deux partis choisissent leur programme de facon aleatoire du meme cote du spectre politique par rapport au programme de lelecteur median. lorsque β augmente davantage, un equilibre en strategies pures existe de nouveau ou les partis proposent des programmes differents. ces programmes se trouvent dans un premier temps du meme cote du spectre politique (differenciation programmatique unilaterale), puis du cote du spectre politique de chaque parti lorsque β continue daugmenter (differenciation bilaterale)."
-      ],
-      "parent": "3. objectifs mixtes et partis politiques comme coalitions"
+      ]
     },
     {
       "title": "3.2 partis et factions politiques",
@@ -1379,8 +1371,7 @@
         "roemer (2001) demontre que les pune (lorsquils existent) representent une variete de dimension 2 quelle que soit la dimension de lespace politique d ≥ 1. en particulier, il montre quun pune peut secrire comme une paire de programmes politiques (xa, xb) qui est simultanement solution des equations (6) et (7) pour certaines valeurs de α, β ∈ [0, 1]. la variete de dimension 2 des pune peut etre indexee par le couple representant le pouvoir relatif des opportunistes dans les negociations (α, β). on note que lexistence dun equilibre nest pas necessairement garanti pour toute valeur donnee de α et β. roemer (2001) montre que le cas particulier ou les factions disposent dun poids identique dans la negociation dans les deux partis (α = β = 1/2) correspond a un equilibre de wittman. par ailleurs, lequilibre downsien classique (ou les partis ont un objectif purement electoraliste) correspond au cas ou α = β = 1. ce resultat donne egalement a voir pour quelle raison le concept de pune nest en general pas utile lorsque d = 1 : celuici nest pas assez discriminant dans un espace unidimensionnel.",
         "lanalyse qui precede fait lhypothese que les partis sont des structures exogenes ou lensemble des militants disposent de preferences bien definies. il est possible daller plus loin en endogeneisant les preferences politiques des militants au sein dun parti, et en supposant que ceuxci maximisent une variable agregee (telle que la moyenne) des utilites des individus qui votent pour ce parti a lequilibre. on obtient alors un equilibre de nash a lunanimite des partis avec des partis endogenes (ou puneep). le chapitre 13 de roemer (2001) donnera au lecteur loccasion de decouvrir les differentes applications de cette approche.",
         "dans la section 2.2 portant sur les modeles stochastiques partisans, nous avons examine le cas ou les electeurs avaient des biais differents en faveur dun parti, sur base des caracteristiques exogenes de ce parti et independamment de son programme politique. nous etudions dans la section qui suit le cas ou tous les electeurs ont le meme biais en faveur dun candidat."
-      ],
-      "parent": "3. objectifs mixtes et partis politiques comme coalitions"
+      ]
     },
     {
       "title": "4. modeles de valence",
@@ -1406,8 +1397,7 @@
         "les resultats de schofield montrent que lexistence dun equilibre situe au niveau de la moyenne electorale depend de la valence des candidats, du poids accorde par les electeurs a la dimension politique (a linverse de celui pris par leur biais partisan individuel) et de la dispersion des preferences politiques des electeurs. plus precisement, la condition (8) est plus facilement satisfaite lorsque (i) le poids relatif β accorde par les electeurs a la dimension politique diminue, (ii) le nombre de dimensions de lespace politique d augmente, (iii) les programmes preferes des electeurs sont moins eloignes les uns des autres dans lespace politique (cestadire lorsque σ2 diminue), et (iv) la probabilite de voter pour le candidat qui souffre dun deficit de valence, 1 p(0, 0), augmente ce qui dapres (9) ne se produit que lorsque la difference de valence entre les candidats θ diminue26.",
         "bien quissu dune publication plus ancienne, schofield (2006) propose une extension du modele multidimensionnel avec plusieurs candidats de schofield (2007) en attribuant aux candidats des caracteristiques de valence a la fois exogenes et endogenes. la valence endogene est generee par la contribution (en temps et en argent) des militants du parti aupres du candidat en vue dinfluencer son programme politique. les candidats utilisent ces ressources afin de paraitre plus competents aupres des electeurs et augmentent ainsi leur valence endogene. dans cette extension, lutilite des electeurs est donnee par",
         "etant donne que les militants ont des positions politiques plus radicales que la moyenne des electeurs, les candidats doivent arbitrer entre adopter euxmemes une position plus radicale au profit des militants et abandonner une partie de leur electorat en seloignant du programme moyen prefere par les electeurs. schofield (2006) prouve quun enl existe (ou les candidats se positionnent au point dequilibre entre les deux forces de cet arbitrage), mais seulement lorsque la fonction qui represente la valence endogene generee par les militants, μj(xj), est suffisamment concave."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "4.1 modeles de valence dans des espaces unidimensionnels",
@@ -1420,8 +1410,7 @@
         "tout dabord, lorsque lavantage de valence de a augmente faiblement, le programme propose par a se rapproche du programme median (leffet moderateur du parti en tete ) tandis que b sen eloigne (leffet parti defavorise extremiste ). a lequilibre, les partis arbitrent entre des forces centripetes (qui les incitent a moderer leur programme en se rapprochant du centre pour augmenter leurs chances de victoire) et des forces centrifuges (qui les incitent a ne pas seloigner de leur programme prefere pour augmenter leur utilite en cas de victoire). en augmentant lavantage de valence de a, on deplace lelecteur pivot (celui qui est indifferent entre les deux partis) plus loin du programme de a et plus proche de celui de b lorsque les fonctions dutilite des electeurs sont suffisamment concaves, la valeur absolue de lutilite marginale de lelecteur pivot augmente pour le programme politique de a et diminue pour celui de b. cela renforce les incitations moderatrices pour a et les diminue pour b, et implique que les programmes proposes par les deux partis se rapprochent du programme prefere par b.",
         "cependant, lorsque lavantage du parti a depasse un certain seuil, le parti a adopte une position plus radicale, plus proche de son programme prefere. en fait, lorsque lavantage de valence de a est infiniment grand, a propose son programme prefere xa et gagne lelection a coup sur. pour toutes les valeurs prises par la valence de a, le programme propose par a est plus modere que celui de b. de plus, a mesure que cet avantage croit, la divergence entre les programmes des partis croit.",
         "groseclose prouve egalement un resultat contreintuitif : si a dispose dun avantage de valence important, alors le programme propose par le parti b peut etre plus radical encore que son programme prefere xb! intuitivement, lorsque θ est grand, lelecteur pivot a un programme prefere plus radical que celui du parti b (et ce meme lorsque a propose son programme prefere xa). dans ce cas, le parti b a interet a proposer un programme plus radical, afin daugmenter sa probabilite de gagner lelection au detriment de lutilite politique du programme quil devra mettre en oeuvre une fois elu."
-      ],
-      "parent": "4. modeles de valence"
+      ]
     },
     {
       "title": "4.2 modeles de valence dans des espaces multidimensionnels",
@@ -1434,16 +1423,14 @@
         "les resultats de schofield montrent que lexistence dun equilibre situe au niveau de la moyenne electorale depend de la valence des candidats, du poids accorde par les electeurs a la dimension politique (a linverse de celui pris par leur biais partisan individuel) et de la dispersion des preferences politiques des electeurs. plus precisement, la condition (8) est plus facilement satisfaite lorsque (i) le poids relatif β accorde par les electeurs a la dimension politique diminue, (ii) le nombre de dimensions de lespace politique d augmente, (iii) les programmes preferes des electeurs sont moins eloignes les uns des autres dans lespace politique (cestadire lorsque σ2 diminue), et (iv) la probabilite de voter pour le candidat qui souffre dun deficit de valence, 1 p(0, 0), augmente ce qui dapres (9) ne se produit que lorsque la difference de valence entre les candidats θ diminue26.",
         "bien quissu dune publication plus ancienne, schofield (2006) propose une extension du modele multidimensionnel avec plusieurs candidats de schofield (2007) en attribuant aux candidats des caracteristiques de valence a la fois exogenes et endogenes. la valence endogene est generee par la contribution (en temps et en argent) des militants du parti aupres du candidat en vue dinfluencer son programme politique. les candidats utilisent ces ressources afin de paraitre plus competents aupres des electeurs et augmentent ainsi leur valence endogene. dans cette extension, lutilite des electeurs est donnee par",
         "etant donne que les militants ont des positions politiques plus radicales que la moyenne des electeurs, les candidats doivent arbitrer entre adopter euxmemes une position plus radicale au profit des militants et abandonner une partie de leur electorat en seloignant du programme moyen prefere par les electeurs. schofield (2006) prouve quun enl existe (ou les candidats se positionnent au point dequilibre entre les deux forces de cet arbitrage), mais seulement lorsque la fonction qui represente la valence endogene generee par les militants, μj(xj), est suffisamment concave."
-      ],
-      "parent": "4. modeles de valence"
+      ]
     },
     {
       "title": "4.2.1 modele deterministe avec objectif de victoire",
       "paragraphs": [
         "dans le modele dansolabehere et snyder (2000), les electeurs ont des preferences euclidiennes",
         "en dautres termes, ansolabehere et snyder (2000) montrent que des equilibres en strategies pures existent lorsque a possede un avantage de valence suffisamment grand sur b22. le candidat a remporte lelection dans tous les equilibres en strategies pures. alors que ces equilibres nimposent aucune restriction sur les strategies du candidat desavantage (b), le programme propose par a doit se situer pres du yolk. aussi, pour quun equilibre existe, il est necessaire que les programmes preferes par les electeurs soient suffisamment proches de tous les hyperplans medians. ils en concluent que des equilibres de nash en strategies pures existent dans des modeles de valence en espace multidimensionnel, et que les modeles de valence et les modeles de concurrence spatiale sont indissociables dans la mesure ou la valence represente simplement une dimension particuliere de lelection qui influence le positionnement politique des candidats. alors que les candidats avantages optent pour des positions moderees, les candidats desavantages arbitrent entre positions moderees et extremes."
-      ],
-      "parent": "4.2 modeles de valence dans des espaces multidimensionnels"
+      ]
     },
     {
       "title": "4.2.2 modele stochastique avec objectif de vote",
@@ -1453,8 +1440,7 @@
         "les resultats de schofield montrent que lexistence dun equilibre situe au niveau de la moyenne electorale depend de la valence des candidats, du poids accorde par les electeurs a la dimension politique (a linverse de celui pris par leur biais partisan individuel) et de la dispersion des preferences politiques des electeurs. plus precisement, la condition (8) est plus facilement satisfaite lorsque (i) le poids relatif β accorde par les electeurs a la dimension politique diminue, (ii) le nombre de dimensions de lespace politique d augmente, (iii) les programmes preferes des electeurs sont moins eloignes les uns des autres dans lespace politique (cestadire lorsque σ2 diminue), et (iv) la probabilite de voter pour le candidat qui souffre dun deficit de valence, 1 p(0, 0), augmente ce qui dapres (9) ne se produit que lorsque la difference de valence entre les candidats θ diminue26.",
         "bien quissu dune publication plus ancienne, schofield (2006) propose une extension du modele multidimensionnel avec plusieurs candidats de schofield (2007) en attribuant aux candidats des caracteristiques de valence a la fois exogenes et endogenes. la valence endogene est generee par la contribution (en temps et en argent) des militants du parti aupres du candidat en vue dinfluencer son programme politique. les candidats utilisent ces ressources afin de paraitre plus competents aupres des electeurs et augmentent ainsi leur valence endogene. dans cette extension, lutilite des electeurs est donnee par",
         "etant donne que les militants ont des positions politiques plus radicales que la moyenne des electeurs, les candidats doivent arbitrer entre adopter euxmemes une position plus radicale au profit des militants et abandonner une partie de leur electorat en seloignant du programme moyen prefere par les electeurs. schofield (2006) prouve quun enl existe (ou les candidats se positionnent au point dequilibre entre les deux forces de cet arbitrage), mais seulement lorsque la fonction qui represente la valence endogene generee par les militants, μj(xj), est suffisamment concave."
-      ],
-      "parent": "4.2 modeles de valence dans des espaces multidimensionnels"
+      ]
     },
     {
       "title": "conclusion",
@@ -1466,8 +1452,7 @@
         "quatriemement, plusieurs modeles produisent un equilibre caracterise par la nonconvergence des programmes proposes par les deux partis, ce qui correspond a ce quon observe du point de vue empirique. un tel resultat exige cependant que les partis soient differents lun de lautre. cette asymetrie entre les partis apparait lorsque leur objectif est ideologique (avec des divergences de vue) comme dans la proposition 8, lorsque lobjectif des partis est mixte (comme dans la section 3.1 ou ceuxci naccordent pas la meme importance relative a la victoire a lelection et au programme politique mis en oeuvre), lorsque le poids dans la negociation entre les factions au sein dun parti nest pas le meme entre les deux partis (section 3.2), ou enfin lorsquun parti dispose dun avantage de valence sur lautre (section 4).",
         "cinquiemement, la section 4 montre que la valence est importante mais que la maniere dont elle est est introduite dans le modele peut produire des resultats tres differents, dont certains sont relativement contreintuitifs. par exemple, certains resultats de la section 4.1 sont, dapres groseclose (2001), relativement contreintuitifs, dans la mesure ou (...) on sattend a ce que le candidat avec un avantage de valence utilise celuici afin de proposer un programme proche de ce quil prefere tandis que le candidat defavorise fasse linverse (notre traduction), au lieu de quoi cest loppose qui se produit a lequilibre. toutefois, il est interessant dobserver que ces resultats contreintuitifs ont ete largement valides par les travaux empiriques27.",
         "enfin, la litterature theorique offre desormais de nombreux modeles alternatifs aux chercheurs qui veulent comprendre les ressorts des equilibres electoraux dans des cas particuliers. il nexiste evidemment pas de modele universel adapte a toutes les situations et il revient au chercheur de trouver celui qui est le mieux adapte a lobjet de son etude."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [],

@@ -3,10 +3,12 @@ chemins_grobid = {
     "title": "//tei:titleStmt/tei:title",
     "overline" : None,
     "subtitle": "//tei:titleStmt/tei:title[@level='a' and @type='sub']",
-    "author_first_name": "//tei:sourceDesc//tei:author/tei:persName/tei:forename[@type='first']",
-    "author_last_name": "//tei:sourceDesc//tei:author/tei:persName/tei:surname",
-    "author_email": "//tei:sourceDesc//tei:author/tei:email",
-    "author_affiliation": "//tei:author//tei:affiliation/tei:note",
+    # "author_first_name": "//tei:sourceDesc//tei:author/tei:persName/tei:forename[@type='first']",
+    # "author_last_name": "//tei:sourceDesc//tei:author/tei:persName/tei:surname",
+    # "author_email": "//tei:sourceDesc//tei:author/tei:email",
+    # "author_affiliation": "//tei:author//tei:affiliation/tei:note[@type='raw_affiliation']",
+    "authors": "//tei:sourceDesc//tei:author",
+
 
     "abstract": "//tei:profileDesc/tei:abstract//tei:p",
     "date": "//tei:sourceDesc//tei:date[@type='published']/@when",

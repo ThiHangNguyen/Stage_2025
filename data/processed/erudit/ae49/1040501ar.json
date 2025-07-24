@@ -6,8 +6,8 @@
     {
       "first_name": "james",
       "last_name": "m",
-      "affiliation": "",
       "email": "jgm@econ.queensu.ca",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     }
@@ -471,8 +471,7 @@
         "in practice, however, large samples may not have the desirable properties that we expect. in this paper, i point out that very large samples need to be used with care. they do indeed contain more information than small samples. but they may not contain nearly as much information as we think they do, and, if we are not careful, inferences based on them may actually be less reliable than inferences based on small samples.",
         "the fundamental problem is that, in practice, the observations in most samples are not entirely independent. although small levels of dependence have minimal consequences when samples are small, they may have very substantial consequences when samples are large. the objective of this paper is to illustrate those consequences.",
         "the theoretical implications of withinsample dependence have been studied in detail in andrews (2005). unlike that paper, this one is not concerned with econometric theory, except at a rather superficial level. instead, the paper attempts to see whether such dependence is actually a problem. to that end, it performs various estimations and simulations using a real dataset, which is quite large (more than 1.15 million observations), and it obtains some surprising results. of course, because the data are real, we do not really know how they were generated. but it seems clear that there is dependence and that it has profound consequences."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. the data and an earnings equation",
@@ -483,8 +482,7 @@
         "so far, everything looks good. i seem to have obtained a fairly precise estimate of the effect on earnings of having a postgraduate degree. however, equation (1) is a bit too simple. because the data have both a time dimension and a crosssection one, it makes sense to model the disturbances as",
         "it has been known for a very long time that ignoring error components can lead to severe errors of inference; see kloek (1981) and moulton (1986, 1990). the conventional approach is to use either a randomeffects or a fixedeffects specification. the former is a particular type of generalized least squares, and the latter involves adding dummy variables for the time and crosssection fixed effects. because the randomeffects specification requires the strong assumption that the vt and wi are uncorrelated with the regressors, it is safer to use the fixedeffects specification when possible. with a large sample like this one, and no regressors that would be explained by all the dummies, it is natural to use fixed effects.",
         "since equation (1) already contains time dummies, using fixed effects simply means adding 50 state dummies. when that is done, the ols estimate of β5 β4 is 0.10965. the implied percentage increase is 11.589% with an hc1 standard error of 0.222. the resulting 95% confidence interval is [11.155, 12.023]. adding the state dummy variables has caused our estimate of the value of a postgraduate degree to drop by almost a full percentage point, or more than four standard errors. however, the width of the confidence interval is almost unchanged."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2. clustered disturbances",
@@ -504,8 +502,7 @@
         "in order to investigate whether this phenomenon is important for the model and data used here, i created multiple subsamples of various sizes, ranging from 1/64 of the original sample to 1/2 of the original sample. let m denote the reduced sample size, where m ≅ n/m for m = 2, 3, 4, 6, 9, 16, 25, 36, 49, 64. then the subsamples of size m were created by retaining only observations m + j, 2m + j, and so on, for a number of values of j ≤ m.",
         "figure 1 graphs the inverse of the average of the reported standard errors of for three covariance matrix estimators against m, where the horizontal axis is proportional to the square root of m. for values of m less than about 30,000, the three standard errors are essentially the same. for larger values of m, the heteroskedasticityrobust standard errors remain proportional to , so the figure shows a straight line. however, the two clusterrobust standard errors decline more slowly than . in consequence, their inverses increase more slowly. for statelevel clustering, the inverse standard errors increase very slowly indeed beyond about m = 250,000.",
         "we cannot be at all sure that the statelevel clustered standard errors are reliable3, but we do know that the other two standard errors are too small. thus the lowest curve in figure 1 puts an (approximate) upper bound on the rate at which accuracy improves with sample size for the parameter φ with this dataset. as the theory suggests, this rate is very low for large sample sizes."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3. placebo law experiments",
@@ -521,8 +518,7 @@
         "figure 3 shows 5% rejection frequencies for hc1t statistics for five sample sizes. these decrease steadily and quite dramatically as the sample size drops. when m = n/20 = 57,829, they are never more than 22.4%. in contrast, when m = n = 1,156,597, they can be as large as 74.8%. thus it is evident that failing to account for clustered disturbances leads to increasingly serious errors of inference as the sample size increases.",
         "figure 4 shows 5% rejection frequencies for cv1(s, y) t statistics for the same five sample sizes. these also decrease quite dramatically as the sample size drops, but they are not as bad for large sample sizes as the ones in figure 3. for the very smallest sample, with m = 57,829, the cv1(s, y) and hc1 rejection frequencies are almost indistinguishable. this suggests that the consequences of whatever withinsample correlations clustering at the stateyear level picks up must be relatively small compared to those of the withinstate, crossyear correlations that clustering at the state level picks up.",
         "figure 5 shows 5% rejection frequencies for cv1(s) t statistics for the same five sample sizes. it looks very different from figures 3 and 4. in this case, sample size does not seem to matter. the five curves are almost on top of each other4. this suggests that the cv1(s) covariance matrices are taking proper account of whatever withinsample correlations there may be. clustering at the state level seems to be sufficient."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "4. the wild cluster bootstrap",
@@ -532,8 +528,7 @@
         "the dgp (9) is used to generate b bootstrap samples which satisfy the null hypothesis, say that βk = 0. in order to test that hypothesis, each of these is used to calculate a bootstrap test statistic",
         "figure 6 shows rejection frequencies for wild cluster bootstrap tests at the .01, .05, and .10 levels. these are based on 10,000 replications with b = 399. results are shown only for g1 = 1, ... , 24 and g1 = 25, 30, ... , 50 because each experiment took at least seven days of computer time. the bootstrap tests perform very well, although not quite perfectly, for g1 ≥ 25. they underreject severely when g1 is very small, and they overreject moderately for values of g1 that are quite small but not very small.",
         "mackinnon and webb (2017) explains why the bootstrap tests underreject to such an extreme extent when g1 is very small. an alternative form of the wild cluster bootstrap test, which uses unrestricted residuals and parameter estimates instead of restricted ones, would have overrejected very severely in the same cases. these features of the wild cluster bootstrap are very unfortunate. we cannot learn much from a test that almost never rejects (restricted wild cluster bootstrap) or from a test that very often rejects (unrestricted wild cluster bootstrap). a number of alternative methods have been proposed to handle the situation in which g1 is very small, but it appears that none of them can safely be relied upon to provide reliable inference in all cases; see conley and taber (2011) and mackinnon and webb (2016a, 2016b)."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "5. “canadian” data",
@@ -544,8 +539,7 @@
         "figure 7 shows rejection frequencies for four different tests at the .05 level of the coefficient on the placebolaw dummy variable. when we ignore intracluster correlation and simply use heteroskedasticityrobust standard errors, rejection frequencies are extremely high, always exceeding 84%. clustering at the stateyear level reduces these only modestly, to between 68% and 81%.",
         "clustering at the state level reduces the rejection frequencies dramatically, except when g1 is small. for g1 ≥ 4, the rejection frequencies are always between 12.1% and 13.3%. of course, these would have been substantially higher if i had used asymptotic critical values instead of ones based on the t(9) distribution. as before, the wild cluster bootstrap performs best. except for g1 = 1, where it never rejects, it performs quite well. for 3 ≤ g1 ≤ 10, it always rejects between 5.6% and 7.7% of the time.",
         "even though genuine canadian data would undoubtedly yield different results, this exercise is interesting. it suggests that the wild cluster bootstrap is not too unreliable when the number of clusters is as small as 10, provided the number of treated clusters is not extremely small. in contrast, methods that do not involve clustering at the jurisdiction level are likely to be highly unreliable, and clusterrobust t statistics are not reliable even when clustering at that level."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "6. why are the residuals clustered?",
@@ -558,8 +552,7 @@
         "unfortunately, the complex design of the c.p.s. also ensures that the observations are not entirely independent within states. for reasons of cost and feasibility, the basic unit of sample selection is the census tract, not the household. once a tract has been selected, it typically contributes a number of households to the surveys that are done over several adjacent years. any sort of dependence within census tracts will then lead to residuals that are correlated within states both within and across years.",
         "it is sometimes possible to take account of the features of the design of a particular survey. see, among others, fuller (1975), binder (1983), and rao and wu (1988). kolenikov (2010) provides an accessible introduction to this literature along with stata code for bootstrap inference when the survey design is known. when the survey design is very complex, however, it would be extremely difficult to implement this sort of procedure. when the design is unknown to the investigator, it would be impossible. in many cases, the best we can do is to cluster at the appropriate level.",
         "it may well be the case that other large datasets display less intracluster correlation than this one, or different patterns of it, perhaps because the survey design is different or the data do not come from a survey. data from online retailers or other websites probably have different characteristics than data from the current population survey. however, it seems unlikely that any large dataset will have observations that are entirely independent. even very low levels of intracluster correlation can have a substantial effect on inference when the sample size is very large. therefore, in the absence of evidence to the contrary, i conjecture that the results of this paper are potentially relevant for most large datasets in econometrics."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "conclusion",
@@ -568,8 +561,7 @@
         "the information content of a sample is not proportional to sample size, but, when we use standard errors that are not clustered, we pretend that it is. for very large samples, the loss of information from clustered disturbances may be very large.",
         "using standard errors clustered at the right level, together with the critical values from the t(g 1) distribution, where g is the number of clusters, helps a lot. using the wild cluster bootstrap helps even more, provided the number of treated clusters is not too small; see mackinnon and webb (2017). it is particularly important to use appropriately clustered standard errors when the sample size is large, because the severity of erroneous inference tends to increase with the sample size.",
         "there are special problems associated with regressions that focus on the effects of economic policies that vary across jurisdictions and possibly time periods. when the number of treated clusters is small, clusterrobust t statistics and bootstrap tests based on unrestricted estimates tend to overreject severely, and bootstrap tests based on restricted estimates tend to underreject severely."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [

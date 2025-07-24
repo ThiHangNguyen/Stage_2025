@@ -72,8 +72,6 @@ def plot_scores(df, field_name, method_name):
     plt.tight_layout()
     plt.show()
 
-
-
 def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
     """
     Compare plusieurs outils sur les scores moyens par champ (méthode donnée).
@@ -89,11 +87,12 @@ def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
             full_path = os.path.join(directory, file)
             if file.endswith(".csv") and os.path.isfile(full_path):
                 df = pd.read_csv(full_path, index_col="field")
-                if "has_ref" not in df.columns:
-                    print(f"[Avertissement] Colonne 'has_ref' manquante dans {file}, ignoré.")
+                if "has_ref" not in df.columns or "has_extractor" not in df.columns:
+                    print(f"[Avertissement] Colonnes nécessaires manquantes dans {file}, ignoré.")
                     continue
 
-                df_filtered = df[df["has_ref"] == 1]
+                # Filtrer uniquement les champs ayant au moins un has_ref et has_extractor
+                df_filtered = df[(df["has_ref"] == 1) & (df["has_extractor"] == 1)]
 
                 if method_name in df_filtered.columns:
                     all_dfs.append(df_filtered[[method_name]])
@@ -104,18 +103,28 @@ def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
 
         merged = pd.concat(all_dfs, axis=1)
         mean_scores = merged.mean(axis=1)
-        for field, score in mean_scores.items():
+        field_counts = merged.count(axis=1)
+
+        for field in mean_scores.index:
             combined.append({
                 "tool": tool,
                 "field": field,
-                "score": score
+                "score": mean_scores[field],
+                "count": field_counts[field]
             })
 
     df_combined = pd.DataFrame(combined)
+    if df_combined.empty:
+        print("[Erreur] Aucun champ n’a pu être affiché avec has_ref=1 et has_extractor=1.")
+        return
+
+    # Nom du répertoire (ex: ae49)
+    repertoire_name = os.path.basename(os.path.normpath(list(tool_dirs.values())[0]))
+    nb_fields = df_combined["field"].nunique()
 
     # Plot interactif
     fig, ax = plt.subplots(figsize=(12, 6))
-    colors = {"grobid": "blue", "autre": "orange"}  # à adapter si tu ajoutes d'autres outils
+    colors = {"grobid": "blue", "autre": "orange"}
 
     sc = []
     for tool in df_combined["tool"].unique():
@@ -130,10 +139,10 @@ def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
         )
         sc.append(scatter)
 
-    # Axe
-    ax.set_title(f"Moyenne des scores par champ ({method_name}) - comparaison outils")
+    ax.set_title(f"[{repertoire_name}] Moyenne des scores par champ ({method_name}) - {nb_fields} champs trouvés")
     ax.set_ylabel("Score moyen")
     ax.set_ylim(0, 1.05)
+    ax.set_xticks(range(len(df_combined["field"].unique())))
     ax.set_xticklabels(df_combined["field"].unique(), rotation=45, ha="right")
     ax.grid(axis='y', linestyle='--', alpha=0.5)
     ax.legend()
@@ -146,14 +155,14 @@ def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
 
     def update_annot(ind, scatter, tool):
         index = ind["ind"][0]
-        field = scatter.get_offsets()[index][0]
-        y_val = scatter.get_offsets()[index][1]
-        label = df_combined[
+        point = scatter.get_offsets()[index]
+        field = df_combined[
             (df_combined["tool"] == tool) &
-            (df_combined["score"] == y_val)
+            (df_combined["score"] == point[1]) &
+            (df_combined["field"] == point[0])
         ].iloc[0]
-        annot.xy = scatter.get_offsets()[index]
-        text = f"{label['field']}\n{tool}\nscore={label['score']:.3f}"
+        annot.xy = point
+        text = f"{field['field']}\n{tool}\nscore={field['score']:.3f}\nn={int(field['count'])}"
         annot.set_text(text)
         annot.get_bbox_patch().set_facecolor(colors.get(tool, "gray"))
         annot.get_bbox_patch().set_alpha(0.8)
@@ -176,6 +185,15 @@ def plot_mean_scores_per_field_comparative(tool_dirs: dict, method_name: str):
     plt.tight_layout()
     plt.show()
 
+    # Enregistrement CSV avec 'field', 'score', 'count'
+    means_dir = f"results/csv/grobid/means"
+    os.makedirs(means_dir, exist_ok=True)
+    output_file = os.path.join(means_dir, f"{repertoire_name}.csv")
+    df_combined_sorted = df_combined.sort_values("field")
+    df_combined_sorted[["field", "score", "count"]].drop_duplicates("field").to_csv(output_file, index=False)
+    print(f"[Info] Scores moyens enregistrés dans {output_file}")
+
+
 
 def main():
     parser = argparse.ArgumentParser(description="Visualise les scores de comparaison d’outils")
@@ -189,25 +207,23 @@ def main():
 
     args = parser.parse_args()
 
+    base_path = os.path.join("results", "csv", args.tool)
+    if args.dir:
+        base_path = os.path.join(base_path, args.dir)
+
+    if not os.path.isdir(base_path):
+        print(f"[ERREUR] Le répertoire {base_path} n'existe pas.")
+        return
+
     if args.compare:
-        # Comparaison multi-outils (hors Erudit)
+        # Pour l'instant, comparer uniquement grobid
         tool_dirs = {
-            "grobid": args.dir,
-            # ajouter ici d'autres outils si nécessaire :
-            # "autreoutil": "results/csv/autreoutil",
+            args.tool: base_path
         }
-
-        # Si --2cols est activé, on ajuste tous les chemins
-        if args.__dict__["2cols"]:
-            for tool in tool_dirs:
-                tool_dirs[tool] = os.path.join(tool_dirs[tool], "xml_2cols")
-
         plot_mean_scores_per_field_comparative(tool_dirs, args.method)
 
     elif args.field:
-        # Visualisation simple pour un seul champ
-        target_dir = os.path.join(args.dir, "xml_2cols") if args.__dict__["2cols"] else args.dir
-        df = collect_scores_by_field_and_method(target_dir, args.field, args.method)
+        df = collect_scores_by_field_and_method(base_path, args.field, args.method)
         print(df.round(3))
         plot_scores(df, args.field, args.method)
 

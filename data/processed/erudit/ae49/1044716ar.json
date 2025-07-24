@@ -6,16 +6,16 @@
     {
       "first_name": "jeanfrancois",
       "last_name": "laslier",
-      "affiliation": "",
       "email": "jeanfrancois.laslier@ens.fr",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "matias",
       "last_name": "nunez",
-      "affiliation": "",
       "email": "matias.nunez@dauphine.fr",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     }
@@ -1568,8 +1568,7 @@
         "bien quil semble raisonnable, pour cette majorite, de se coordonner de maniere collective, reste a savoir comment doit agir individuellement un electeur rationnel dans cette situation. doitil suivre lappel du ps ou au contraire voter de maniere sincere? ce comportement optimal de lelecteurdit rationneldepend de ses preferences et surtout de ses croyances par rapport aux chances de gagner des differents candidats.",
         "lexemple qui vient detre developpe nest quun exemple, mais il est clair que ce type de situation est frequent. les elections federales canadiennes de 2015 fournissent un autre exemple recent de majorite divisee . rappelons que, apres son score historiquement bas de 18,9 % en 2011, le parti liberal abordait les elections de 2015 en etat de crise alors que le nouveau parti democratique avait forme lopposition officielle au parti conservateur au pouvoir de 2011 a 2015. des lors, ceux qui voulaient voter contre le parti conservateur avaient un choix strategique a faire : le parti liberal ou le nouveau parti democratique. au debut de la campagne, le nouveau parti democratique etait annonce grand gagnant. mais cela sest renverse en cours de campagne et cest finalement le parti liberal qui a gagne avec 39,5 % des voix. son leader justin trudeau est donc devenu premier ministre. lhistoire de cette campagne est en bonne part lhistoire de la coordination dynamique des electeurs anticonservateurs.",
         "existetil des systemes electoraux qui permettent aux electeurs de se coordonner correctement ou, au contraire, tout systeme doitil mener inevitablement a des defaillances de coordination? autant de questions auxquelles nous tacherons de repondre en considerant principalement les elections a plus de deux candidats. a cet effet, la premiere partie de notre revue de litterature (section 1) sera consacre a ce que nous appelerons le modele de base qui reprend en grande partie celui de myerson et weber (1993). nous presenterons ensuite deux exemples simples pour illustrer les messages principaux de cette litterature (section 2). la troisieme partie, plus technique, sera consacree au calcul et a lestimation des probabilites pivots dans les modeles binomiaux et de poisson (sections 3.1 et 3.2). enfin, nous discuterons des quelques applications des modeles de grandes elections comme les problemes de coordination, le systeme a deux tours et les modeles dincertitude agregee, et des limites de ces modeles mises en evidence par leconomie experimentale (section 4)."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. le modele de myersonweber",
@@ -1597,8 +1596,7 @@
         "le support de la strategie σi de lelecteur i represente lensemble des strategies pures jouees avec probabilite positive dans σi : supp(σi) = {v ∈ v | σi(v) > 0}. une suite de vecteurs pivot {pε}ε→0 verifie la condition dordre par rapport au profil de strategies σ si, pour tout ε > 0, pε est un vecteur qui satisfait la condition dordre.",
         "definition 1.1 le profil de strategies σ est un equilibre si et seulement si :",
         "remarques :"
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1.1 structure du modele",
@@ -1608,8 +1606,7 @@
         "si la regle est le vote par assentiment (voir brams et fishburn, 1983; laslier et sanver, 2010, entre autres) chaque electeur a le droit de donner un point a nimporte quel sousensemble de candidats. lensemble de bulletins autorises sous cette regle, va, est lensemble de bulletins v tels que vx ∈ {0, 1}. a nouveau a trois candidats, va est tel que :",
         "si la regle de borda est utilisee, lelecteur doit classer les candidats. on peut donc la representer en definissant chaque bulletin par une liste de nombres b = (b1,...,bk) avec . lensemble vb de bulletins est lensemble des permutations de b et labstention. ceci implique quavec trois candidats, lensemble des bulletins est egal a :",
         "pour toute paire de candidats x, y ∈ χ, la relation majoritaire m est definie ainsi : x est mprefere a y, xmy, si et seulement si n(x, y) > n(y, x) , avec . le gagnant de condorcet (gc) est le candidat qui est mprefere a tout autre candidat : x est le gc si et seulement si xmy pour tout y ∈χ \\{x}. son existence nest pas garantie pour tout profil de preferences, cestadire quil existe des profils qui nen possedent pas (sauf si lon fait des hypotheses de restriction de domaines comme lunimodalite). de meme, sil existe un candidat x tel que tout autre candidat y est mprefere a x, on dit que ce candidat est le perdant de condorcet (pc)."
-      ],
-      "parent": "1. le modele de myersonweber"
+      ]
     },
     {
       "title": "1.2 comportement strategique des electeurs",
@@ -1623,8 +1620,7 @@
         "un profil de strategies σ = (σi, σ i) est une fonction de χ dans lensemble des distributions de probabilites sur v. chaque σi decrit la probabilite avec laquelle lelecteur i choisit chaque bulletin v dans lensemble v. le gain en utilite esperee pour lelecteur i lorsquil joue la strategie (mixte) σi est egale a . pour tout profil de strategies σ, la proportion de lelectorat qui choisit le bulletin v est representee par",
         "par consequent, le score du candidat x est egal a",
         "pour tout profil de strategies σ, lensemble des gagnants probablesw(σ) ⊆ χ contient les candidats dont le score s(x; σ) est maximal."
-      ],
-      "parent": "1. le modele de myersonweber"
+      ]
     },
     {
       "title": "1.3 scores et pivots : la condition dordre",
@@ -1633,8 +1629,7 @@
         "pour prendre en compte cette intuition, myerson et weber (1993) font deux hypotheses.",
         "la premiere de ces hypotheses porte sur les anticipations des electeurs a propos des probabilites des evenements pivots ou deux candidats arrivent premiers ex aequo. les electeurs anticipent que si le candidat y a un score plus bas que le candidat x et si lun des deux doit etre premier ex aequo contre un troisieme candidat z, il est nettement plus probable que ce soit x qui soit present a lex aequo. cestadire, ils imposent une correlation entre les scores des candidats et leurs probabilites pivot. mathematiquement, cette correlation implique que pour tout candidat z, le vecteur pivot p verifie la condition dordre par rapport a ε ∈ (0, 1) pour le profil de strategies σ si pour tout x, y ∈ χ,",
         "la deuxieme hypothese sur les probabilites pivot porte sur les evenements pivots avec plus de deux candidats. plus precisement, on suppose que les evenements ou plus de deux candidats sont premiers ex aequo ont une probabilite negligeable par rapport aux probabilites pivot des evenements ou deux candidats sont premiers ex aequo. un electeur peut donc simplement se concentrer sur les evenements pivots a deux candidats et ignorer les autres types de pivot."
-      ],
-      "parent": "1. le modele de myersonweber"
+      ]
     },
     {
       "title": "1.4 concept dequilibre",
@@ -1643,8 +1638,7 @@
         "le support de la strategie σi de lelecteur i represente lensemble des strategies pures jouees avec probabilite positive dans σi : supp(σi) = {v ∈ v | σi(v) > 0}. une suite de vecteurs pivot {pε}ε→0 verifie la condition dordre par rapport au profil de strategies σ si, pour tout ε > 0, pε est un vecteur qui satisfait la condition dordre.",
         "definition 1.1 le profil de strategies σ est un equilibre si et seulement si :",
         "remarques :"
-      ],
-      "parent": "1. le modele de myersonweber"
+      ]
     },
     {
       "title": "2. deux exemples simples",
@@ -1660,8 +1654,7 @@
         "de maniere plus precise, on suppose que les preferences de lelectorat sur les candidats {a, b, c} sont decrites par le tableau suivant :",
         "avec le vote par assentiment, il est facile de voir que toute strategie non dominee donne un point au candidat prefere de lelecteur et aucun au dernier place. il sensuit que, dans tout equilibre, le candidat c ne recoit aucun point et quil est donc exclu des gagnants de lelection. si la regle de vote utilisee est celle de pluralite, le meme raisonnement sapplique. toute strategie non dominee ne donnant pas de points au dernier place, le candidat c ne recoit pas de point a lequilibre et se trouve donc, en fait, exclu des gagnants probables de lelection.",
         "mais, cette fois, le probleme resulte de lapplication dautres regles de vote. par exemple, avec borda, on peut demontrer que le candidat c fait partie des gagnants probables, ce qui demontre que cette regle est loin detre ideale. en effet, supposons quil existe un equilibre σ sous la regle de borda ou les scores sont tels que s(a; σ) > s(b; σ) > s(c; σ). etant donne que le candidat c est classe dernier, la condition dordre implique que le pivot le plus probable a lieu entre les candidats a et b. ceci suffit a determiner la meilleure reponse des deux types delecteurs. ceux de type a votent (1,0,1/2) pour empecher b de gagner et ceux de type b votent (0,1,1/2) pour faire barrage au candidat a. or ceci implique que s(a; σ) = α, s(b; σ) = (1 α) et s(c; σ) = (1/2). or, nous avons suppose que α ≥ 1 α. si α > 1/2, alors s(c; σ) > s(b; σ) et si α = 1/2, les trois candidats sont ex aequo. ceci montre quil ny a donc pas dequilibre avec des scores s(a; σ) > s(b; σ) > s(c; σ). en appliquant de maniere iterative le meme raisonnement aux differents ordres des scores, on demontre que c doit toujours etre parmi les gagnants probables afin davoir un equilibre : sous la regle de borda, des candidats peu souhaitables peuvent se retrouver systematiquement parmi les gagnants a lequilibre."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2.1 audessus de la melee",
@@ -1671,8 +1664,7 @@
         "avec le vote par assentiment, toute strategie non dominee donne un point au candidat prefere de lelecteur et aucun au dernier place. la seule question qui se pose a lelecteur est de savoir sil va approuver ou non son second candidat. on en deduit immediatement que, dans tout equilibre, le candidat a est seul gagnant de lelection. sous borda, a est egalement elu a lequilibre.",
         "si la regle de vote utilisee est celle de pluralite, il existe aussi un equilibre ou le candidat a est bien elu. mais ce candidat nest pas forcement elu dans tout equilibre. par exemple, le profil de strategies σ suivant definit un equilibre ou il nest pas parmi les gagnants probables :",
         "ce profil σ induit les scores suivants . la condition dordre implique donc que la probabilite pivot pbc devient infiniment plus probable que les autres lorsque ε → 0 pour toute suite de vecteurs pivot {pε}. etant donne ce vecteur pivot, les electeurs de type a et b ont respectivement une unique meilleure reponse : voter pour b et pour c, ce qui demontre que σ est bien un equilibre. le candidat prefere par tous ne recoit aucune voix, tous les electeurs rationnels se basant sur la prophetie (autorealisee) quil na aucune chance."
-      ],
-      "parent": "2. deux exemples simples"
+      ]
     },
     {
       "title": "2.2 la pomme pourrie",
@@ -1681,8 +1673,7 @@
         "de maniere plus precise, on suppose que les preferences de lelectorat sur les candidats {a, b, c} sont decrites par le tableau suivant :",
         "avec le vote par assentiment, il est facile de voir que toute strategie non dominee donne un point au candidat prefere de lelecteur et aucun au dernier place. il sensuit que, dans tout equilibre, le candidat c ne recoit aucun point et quil est donc exclu des gagnants de lelection. si la regle de vote utilisee est celle de pluralite, le meme raisonnement sapplique. toute strategie non dominee ne donnant pas de points au dernier place, le candidat c ne recoit pas de point a lequilibre et se trouve donc, en fait, exclu des gagnants probables de lelection.",
         "mais, cette fois, le probleme resulte de lapplication dautres regles de vote. par exemple, avec borda, on peut demontrer que le candidat c fait partie des gagnants probables, ce qui demontre que cette regle est loin detre ideale. en effet, supposons quil existe un equilibre σ sous la regle de borda ou les scores sont tels que s(a; σ) > s(b; σ) > s(c; σ). etant donne que le candidat c est classe dernier, la condition dordre implique que le pivot le plus probable a lieu entre les candidats a et b. ceci suffit a determiner la meilleure reponse des deux types delecteurs. ceux de type a votent (1,0,1/2) pour empecher b de gagner et ceux de type b votent (0,1,1/2) pour faire barrage au candidat a. or ceci implique que s(a; σ) = α, s(b; σ) = (1 α) et s(c; σ) = (1/2). or, nous avons suppose que α ≥ 1 α. si α > 1/2, alors s(c; σ) > s(b; σ) et si α = 1/2, les trois candidats sont ex aequo. ceci montre quil ny a donc pas dequilibre avec des scores s(a; σ) > s(b; σ) > s(c; σ). en appliquant de maniere iterative le meme raisonnement aux differents ordres des scores, on demontre que c doit toujours etre parmi les gagnants probables afin davoir un equilibre : sous la regle de borda, des candidats peu souhaitables peuvent se retrouver systematiquement parmi les gagnants a lequilibre."
-      ],
-      "parent": "2. deux exemples simples"
+      ]
     },
     {
       "title": "3. estimation des probabilites pivots",
@@ -1720,8 +1711,7 @@
         "pour tout bulletin v et toute paire de candidats x et y, nous introduisons les notations suivantes :",
         "remarquons que les electeurs ne sinteressent quaux evenements precedemment decrits pour determiner leurs meilleures reponses.",
         "lorsque n tend vers linfini, la probabilite dun evenement pivot tend generalement exponentiellement vers zero. le concept dordre de grandeur (magnitude) dun evenement est souvent plus utile que celui de sa probabilite car il simplifie les calculs. un resultat a est un sousensemble de z(v) avec . pour une suite convergente dequilibres {σn}n → ∞, la magnitude μ[a] dun resultat a est definie par legalite suivante :"
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3.1 pivots endogenes : le modele binomial",
@@ -1742,8 +1732,7 @@
         "ce resultat nous permet de retourner a la notation plus simple et de parler simplement du vecteur pivot p = (pxy)xy∈h.",
         "pour tout profil de strategies σ, le vecteur pivot p satisfait la condition dordre limite si pour tout candidat z,",
         "theoreme 3.2 sil ny a pas dex aequo parmi les scores attendus des candidats, le vecteur pivot satisfait la condition dordre limite dans le modele binomial."
-      ],
-      "parent": "3. estimation des probabilites pivots"
+      ]
     },
     {
       "title": "3.2 pivots endogenes : le modele de poisson",
@@ -1764,8 +1753,7 @@
         "pour tout bulletin v et toute paire de candidats x et y, nous introduisons les notations suivantes :",
         "remarquons que les electeurs ne sinteressent quaux evenements precedemment decrits pour determiner leurs meilleures reponses.",
         "lorsque n tend vers linfini, la probabilite dun evenement pivot tend generalement exponentiellement vers zero. le concept dordre de grandeur (magnitude) dun evenement est souvent plus utile que celui de sa probabilite car il simplifie les calculs. un resultat a est un sousensemble de z(v) avec . pour une suite convergente dequilibres {σn}n → ∞, la magnitude μ[a] dun resultat a est definie par legalite suivante :"
-      ],
-      "parent": "3. estimation des probabilites pivots"
+      ]
     },
     {
       "title": "4. applications et limites des modeles delections de masse",
@@ -1822,8 +1810,7 @@
         "il sagit du phenomene suivant. la desertion des extremes fait se reporter les voix des electeurs dextreme droite sur un candidat de la droite modere et celles des electeurs dextreme gauche sur un candidat de la gauche moderee. ce gonflement des voix recoltees au premier tour par deux candidats moderes fait quun candidat centriste ne passe jamais lepreuve du premier tour. il ne gagne donc jamais lelection alors meme quil aurait gagne au second tour contre nimporte quel adversaire : il gagnerait face a un candidat de droite, avec lapport des voix de gauche et il gagnerait contre un candidat de gauche, avec lapport des voix de droite.",
         "ce phenomene paradoxal est typique du systeme a deux tours et a une importance reelle; il semble avoir structure la vie politique francaise pendant longtemps. on voit que la logique pretee aux electeurs est bien celle du vote rationnel et des evenements pivots, en fait assez semblable a celle decrite dans audessus de la melee . cette logique sapplique au vote alternatif comme au vote a deux tours 14. au contraire, les experiences montrent que cette logique na plus cours dans le vote par approbation et les systemes voisins.",
         "lensemble de ces travaux dresse un tableau nuance des comportements des electeurs, qui napparaissent ni naifs ni infiniment calculateurs."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "4.1 coordination et equilibres",
@@ -1837,8 +1824,7 @@
         "ce theoreme est un argument solide en faveur du vote par assentiment car il montre que cette methode aide les electeurs a se coordonner sur le bon candidat des quil existe. ce resultat est aussi verifie dans le modele binomial mais ne lest pas dans les jeux de poisson. les correlations entre les scores des candidats, inherentes aux jeux de poisson avec le vote par assentiment, empechent dobtenir la condition dordre (voir nunez, 2010).",
         "le comportement des electeurs dans lequilibre decrit par le theoreme 4.2 est decrit par la regle du leader (ou leaders rule, voir laslier, 2009), car chaque electeur se positionne par rapport au leader (ou parti avec un plus grand score attendu) pour decider de ses votes. cette regle de comportement peut etre enoncee comme suit. soit a le candidat considere par lelecteur comme le gagnant le plus probable (le leader ). lelecteur vote pour (ou approuve) tout candidat quil prefere a a et il napprouve aucun des candidats quil considere moins bien que a. finalement, pour decider dapprouver ou non le candidat a luimeme, il compare a au gagnant le plus probable parmi le reste des candidats (le challengerb), il ne vote pour a que sil prefere a a b. cette regle mene a un comportement sincere de la part de lelecteur et est relativement simple cognitivement : ce sont les candidats les plus serieux qui sont utilises comme benchmark dans la decision dapprobation.",
         "afin de lillustrer, nous considerons une election a quatre candidats {a, b, c, d}, ou σ est un profil de strategies qui genere les scores attendus suivants : s(a; σ) > s(b; σ) > s(c; σ) > s(d; σ). un electeur avec des preferences c ≻i a ≻i d ≻i b raisonne de la maniere suivante. comme a et b sont respectivement le leader et le challenger, il va voter pour a car il prefere a et b. comme il prefere c a a, il va voter pour c. et, finalement, il ne vote pas pour d car il prefere a a d. sa meilleure reponse est donc de voter {a, c}. de meme, un electeur avec des preferences c ≻i b ≻i d ≻i a a le bulletin {b ,c ,d}comme unique meilleure reponse."
-      ],
-      "parent": "4. applications et limites des modeles delections de masse"
+      ]
     },
     {
       "title": "4.2 sincerite et strategyproofness",
@@ -1850,8 +1836,7 @@
         "ce resultat peut sembler paradoxal et aller a lencontre des impossibilites deja mentionnees. afin dillustrer en quoi il ny a pas de paradoxe et de montrer comment les deux types de resultats peuvent coexister, nous presenterons une discussion sur la notion de sincerite et celle, beaucoup plus classique, de strategyproofness.",
         "demblee, nous ferons remarquer que la methode de vote par assentiment, a difference du vote a la pluralite ou a la borda, est hors du modele canonique du vote (voir sanver, 2010 et endriss, 2013 pour une discussion a ce sujet). en effet, pour toute regle a points, il existe une correspondance claire entre vote sincere et preference. afficher son meilleur candidat sous la regle de la pluralite est evidemment lunique message sincere alors que la sincerite oblige lelecteur a afficher son vrai classement sous borda. ni la pluralite ni la regle de borda ne garantissent un comportement sincere a lequilibre dans les modeles de grandes elections, ce qui ne nous surprend pas car le theoreme de gibbardsatterthwaite peut setendre au modele de poisson comme le montre mclennan (2011)9. mclennan (2011) demontre que toute fonction de choix social unanime et strategyproof est une dictature dans les jeux de poisson.",
         "le vote par assentiment, en revanche, ne sinscrit pas dans ce schema de pensee car il demande a lelecteur de choisir un ensemble dalternatives quil considere comme acceptables. il nest donc plus tout a fait clair ce que veut dire etre sincere . le concept de sincerite est en relation mais nest pas vraiment equivalent a celui de strategyproofness. en effet, on peut demontrer que les strategies non dominees avec le vote par assentiment avec trois candidats sont forcement sinceres. la difference cle entre ce resultat et le theoreme de gibbadsatterthwaite est la suivante. avec le vote par assentiment, il existe differents messages sinceres. si un electeur prefere le candidat 1 au candidat 2 et le candidat 2 au candidat 3, et vote pour les deux premiers, il peut preferer le candidat 2 au candidat 1 et ce dernier au candidat 3. il nexiste pas en consequence un unique message sincere pour toute preference10. si on accepte que la sincerite est un bon critere pour evaluer les systemes electoraux11, on doit remarquer quil existe dautres definitions de sincerite dans la litterature du vote par assentiment. la definition de sincerite utilisee dans le theoreme 4.3 est empruntee de brams et fishburn (2005). elle est la definition la plus commune et acceptee; elle est en outre intuitive. dautres definitions sont donnees dans merill et nagel (1987) et dowding et van hees (2008)."
-      ],
-      "parent": "4. applications et limites des modeles delections de masse"
+      ]
     },
     {
       "title": "4.3 le systeme a deux tours",
@@ -1860,8 +1845,7 @@
         "on pourrait sattendre a que ce systeme (i) soit plus performant que la regle de la pluralite quant a la revelation des preferences et de linformation, et (ii) donne plus de legimite democratique au gagnant, dans le sens ou tout gagnant est elu par la majorite des electeurs. a lappui de ces idees, on peut argumenter que, puisquil existe une possibilite de coordination au deuxieme tour, les electeurs vont voter au premier tour pour leurs candidats prefere (riker, 1982; cox, 1997; piketty, 2000; martinelli, 2002). dun autre cote, on peut aussi imaginer que le systeme a deux tours peut induire un comportement strategique au premier tour et mener au laminage du centre, comme discute plus loin dans la section 512.",
         "malgre sa popularite dans le monde reel, lapproche formelle de ce systeme est relativement recente et limitee. elle se cantonne au cas de trois candidats et, dans la plupart des cas, a des profils de preferences particuliers. lorsquon analyse ce systeme en utilisant les equilibres des jeux de poisson, il ressort que ses proprietes theoriques sont, au mieux, mitigees. bouton (2013) et bouton et gratton (2015) mettent en evidence une grande multiplicite dequilibres parmi lesquels on retrouve les equilibres duvergeriens (comme ceux decrits par le theoreme 4.1 avec la regle de la pluralite) ou deux candidats concentrent tous les votes. dans ce type dequilibres, un des candidats gagne directement au premier tour. on retrouve aussi des equilibres (dont lexistence nest pas assure pour tout profil de preferences) ou trois candidats sont viables. on peut donc conclure que la legitimite democratique du gagnant nest pas a priori assuree : on peut juste exclure que le perdant de condorcet soit elu a lequilibre, ce qui est bien la moindre des choses.",
         "la modelisation par les equilibres de poisson est donc peu conclusive, en particulier parce que ce modele ne permet pas de dire si certains equilibres sont plus plausibles que dautres. en prenant un example specifique (un profil de preferences particulier sous information prive), martinelli (2002) obtient des resultats plus precis sur la comparaison entre la regle de la pluralite et le systeme a deux tours. il demontre que le systeme a deux tours domine la regle de la pluralite dans le sens suivant : une majorite des electeurs obtient une plus grande utilite esperee des lors que linformation sur les candidats nest pas tres precise."
-      ],
-      "parent": "4. applications et limites des modeles delections de masse"
+      ]
     },
     {
       "title": "4.4 les modeles dincertitude agregee",
@@ -1872,8 +1856,7 @@
         "lautre choix principal de modelisation de lincertitude, qui est plus proche du modele dit du jury de condorcet, consiste a supposer que les electeurs sont incertains de leurs propres preferences. les contributions de austensmith (1996), feddersen et pesendorfer (1996) et myerson (1998a) font partie des papiers pionniers dans cette approche, qui suppose quune des composantes des preferences est commune a tous les electeurs (on parle de valeurs communes). la valeur de cette composante nest pas exogene, elle va dependre de letat du monde. par exemple, dans un jury, un jure preferera la condamnation ou la relaxe suivant letat du monde (culpabilite ou innocence) dont il nest pas certain.",
         "plus precisement, on suppose quil existe un certain nombre detats du monde mais aucun des electeurs ne peut lobserver directement. chaque electeur recoit juste un signal sur le veritable etat de monde (son information privee) qui est positivement correle avec la verite. son utilite esperee depend donc de ses croyances. les informations privees recues par chaque electeur lui sont propres. lobjectif de lelection est dorenavant dagreger les informations individuelles, ce qui contraste avec lagregation des preferences qui est lobjectif des modeles sans incertitude agregee. en utilisant cette approche, on obtient des predictions plus realistes sur la participation electorale a lequilibre comme montre par castanheira (2003) ou sur la coordination electorale comme un outil de communication de lelectorat (piketty, 2000). on peut observer egalement dans ces modeles lemergence, sous la regle de la pluralite, dequilibres stables non duvergeriens, ou les votes ne sont pas concentres sur uniquement deux candidats, comme le montrent bouton et castanheira (2012), et bouton, castanheira et llorentesaguer (2016a). en outre, cette incertitude agregee, alliee aux valeurs communes, peut parfois resoudre les problemes de coordination souvent presents dans les contextes electoraux. en effet, dans la situation de la majorite divisee, le vote par assentiment mene a une aggregation complete de linformation si les valeurs communes sont suffisament presentes. lidee selon laquelle le vote par assentiment mene a une nette amelioration de lagregation de linformation par rapport a la plupart des regles de vote emerge aussi de la comparaison des regles de vote etablie par goertz et maniquet (2011). ces resultats theoriques sont confirmes par bouton, castanheira et llorentesaguer (2016a) qui comparent les regles de pluralite et dassentiment dans un cadre experimental.",
         "pour conclure cette section, on se doit de mentionner letude des referendums multiples (ahn et oliveros, 2012), lextension du jury de condorcet a plusieurs jurys proposee par (ahn et oliveros, 2012) ainsi que le modele de bhattacharya (2013) qui donne des conditions pour lequivalence des predictions electorales des modeles sans et avec incertitude agregee, tous les trois se basant sur des techniques similaires a celles precedemment decrites."
-      ],
-      "parent": "4. applications et limites des modeles delections de masse"
+      ]
     },
     {
       "title": "4.5 le vote et leconomie experimentale",
@@ -1903,8 +1886,7 @@
         "il sagit du phenomene suivant. la desertion des extremes fait se reporter les voix des electeurs dextreme droite sur un candidat de la droite modere et celles des electeurs dextreme gauche sur un candidat de la gauche moderee. ce gonflement des voix recoltees au premier tour par deux candidats moderes fait quun candidat centriste ne passe jamais lepreuve du premier tour. il ne gagne donc jamais lelection alors meme quil aurait gagne au second tour contre nimporte quel adversaire : il gagnerait face a un candidat de droite, avec lapport des voix de gauche et il gagnerait contre un candidat de gauche, avec lapport des voix de droite.",
         "ce phenomene paradoxal est typique du systeme a deux tours et a une importance reelle; il semble avoir structure la vie politique francaise pendant longtemps. on voit que la logique pretee aux electeurs est bien celle du vote rationnel et des evenements pivots, en fait assez semblable a celle decrite dans audessus de la melee . cette logique sapplique au vote alternatif comme au vote a deux tours 14. au contraire, les experiences montrent que cette logique na plus cours dans le vote par approbation et les systemes voisins.",
         "lensemble de ces travaux dresse un tableau nuance des comportements des electeurs, qui napparaissent ni naifs ni infiniment calculateurs."
-      ],
-      "parent": "4. applications et limites des modeles delections de masse"
+      ]
     },
     {
       "title": "4.5.1 la participation",
@@ -1915,8 +1897,7 @@
         "un test plus rigoureux de la theorie economique de la participation peut se faire en laboratoire. il consiste a mettre les electeurs dans une situation dans laquelle les motifs politiques et sociaux sont effaces et seul reste linteressement au resultat. on donne ainsi toutes ses chances au raisonnement rationnel instrumental de se developper sans interference avec dautres normes. ceci est facilement realise en laboratoire. dans la version la plus simple (schram et sonnemans, 1996), on organise des jeux (le mot election nest pas prononce) au cours desquels les participants, repartis dans deux groupes, doivent payer pour acheter des jetons (le mot vote nest pas prononce). la decision dacheter un jeton est individuelle mais cest le groupe qui achete le plus de jetons qui gagne.",
         "de nombreuses variations sur ce theme ont ete realisees en laboratoire (schram et sonnemans, 1996; tyran, 2004; levine et palfrey, 2007; sauger et al., 2012; blais et al., 2014). on observe en laboratoire un phenomene similaire a ce qui est observe en realite. premierement, la participation est trop elevee par rapport aux predictions de la theorie rationnelle (qui sont ici precises et quantitatives). ceci constitue une refutation dautant plus forte que le protocole est destine a donner toutes ses chances a cette theorie : les sujets sont en quelque sorte payes pour cela et les effectifs etant faibles, les probabilites detre pivot sont reellement non negligeables, contrairement aux elections politiques reelles. deuxiemement, les variations observees pour la participation suivant les parametres du modele, par exemple le nombre de participants, sont qualitativement conformes a la theorie (et a lintuition aussi, dailleurs).",
         "de nombreuses experiences ont ete realisees sur le terrain, destinees a comprendre les determinants de la participation. ces experiences se placent dans une longue tradition de la science politique, notamment americaine. en etudiant lefficacite relative des diverses manieres dappeler les electeurs a participer, on demontre limportance des effets de pression sociale. pourquoi les electeurs votentils? la reponse est souvent : parce que les voisins regardent. certaines de ces experiences sont tres spectaculaires et convaincantes. cependant, comme elles doivent assez peu a la science economique, nous ne les discutons pas ici. le lecteur interesse pourra lire par exemple green et gerber (2008)."
-      ],
-      "parent": "4.5 le vote et leconomie experimentale"
+      ]
     },
     {
       "title": "en laboratoire",
@@ -1926,15 +1907,13 @@
         "lanalyse coutbenefice ne permet donc pas dexpliquer pourquoi les electeurs participent aux elections reelles, mais ce qui peut etre compatible avec ces observations est lexistence dune frange de la population, qui obeisse aux predictions qualitatives de cette theorie et ne se deplace donc que pour les elections les plus disputees, lessentiel de la population obeissant a dautres motifs.",
         "un test plus rigoureux de la theorie economique de la participation peut se faire en laboratoire. il consiste a mettre les electeurs dans une situation dans laquelle les motifs politiques et sociaux sont effaces et seul reste linteressement au resultat. on donne ainsi toutes ses chances au raisonnement rationnel instrumental de se developper sans interference avec dautres normes. ceci est facilement realise en laboratoire. dans la version la plus simple (schram et sonnemans, 1996), on organise des jeux (le mot election nest pas prononce) au cours desquels les participants, repartis dans deux groupes, doivent payer pour acheter des jetons (le mot vote nest pas prononce). la decision dacheter un jeton est individuelle mais cest le groupe qui achete le plus de jetons qui gagne.",
         "de nombreuses variations sur ce theme ont ete realisees en laboratoire (schram et sonnemans, 1996; tyran, 2004; levine et palfrey, 2007; sauger et al., 2012; blais et al., 2014). on observe en laboratoire un phenomene similaire a ce qui est observe en realite. premierement, la participation est trop elevee par rapport aux predictions de la theorie rationnelle (qui sont ici precises et quantitatives). ceci constitue une refutation dautant plus forte que le protocole est destine a donner toutes ses chances a cette theorie : les sujets sont en quelque sorte payes pour cela et les effectifs etant faibles, les probabilites detre pivot sont reellement non negligeables, contrairement aux elections politiques reelles. deuxiemement, les variations observees pour la participation suivant les parametres du modele, par exemple le nombre de participants, sont qualitativement conformes a la theorie (et a lintuition aussi, dailleurs)."
-      ],
-      "parent": "4.5.1 la participation"
+      ]
     },
     {
       "title": "sur le terrain",
       "paragraphs": [
         "de nombreuses experiences ont ete realisees sur le terrain, destinees a comprendre les determinants de la participation. ces experiences se placent dans une longue tradition de la science politique, notamment americaine. en etudiant lefficacite relative des diverses manieres dappeler les electeurs a participer, on demontre limportance des effets de pression sociale. pourquoi les electeurs votentils? la reponse est souvent : parce que les voisins regardent. certaines de ces experiences sont tres spectaculaires et convaincantes. cependant, comme elles doivent assez peu a la science economique, nous ne les discutons pas ici. le lecteur interesse pourra lire par exemple green et gerber (2008)."
-      ],
-      "parent": "4.5.1 la participation"
+      ]
     },
     {
       "title": "4.5.2 le vote strategique",
@@ -1956,8 +1935,7 @@
         "il sagit du phenomene suivant. la desertion des extremes fait se reporter les voix des electeurs dextreme droite sur un candidat de la droite modere et celles des electeurs dextreme gauche sur un candidat de la gauche moderee. ce gonflement des voix recoltees au premier tour par deux candidats moderes fait quun candidat centriste ne passe jamais lepreuve du premier tour. il ne gagne donc jamais lelection alors meme quil aurait gagne au second tour contre nimporte quel adversaire : il gagnerait face a un candidat de droite, avec lapport des voix de gauche et il gagnerait contre un candidat de gauche, avec lapport des voix de droite.",
         "ce phenomene paradoxal est typique du systeme a deux tours et a une importance reelle; il semble avoir structure la vie politique francaise pendant longtemps. on voit que la logique pretee aux electeurs est bien celle du vote rationnel et des evenements pivots, en fait assez semblable a celle decrite dans audessus de la melee . cette logique sapplique au vote alternatif comme au vote a deux tours 14. au contraire, les experiences montrent que cette logique na plus cours dans le vote par approbation et les systemes voisins.",
         "lensemble de ces travaux dresse un tableau nuance des comportements des electeurs, qui napparaissent ni naifs ni infiniment calculateurs."
-      ],
-      "parent": "4.5 le vote et leconomie experimentale"
+      ]
     },
     {
       "title": "experiences hors du laboratoire",
@@ -1969,8 +1947,7 @@
         "il sagit du phenomene suivant. la desertion des extremes fait se reporter les voix des electeurs dextreme droite sur un candidat de la droite modere et celles des electeurs dextreme gauche sur un candidat de la gauche moderee. ce gonflement des voix recoltees au premier tour par deux candidats moderes fait quun candidat centriste ne passe jamais lepreuve du premier tour. il ne gagne donc jamais lelection alors meme quil aurait gagne au second tour contre nimporte quel adversaire : il gagnerait face a un candidat de droite, avec lapport des voix de gauche et il gagnerait contre un candidat de gauche, avec lapport des voix de droite.",
         "ce phenomene paradoxal est typique du systeme a deux tours et a une importance reelle; il semble avoir structure la vie politique francaise pendant longtemps. on voit que la logique pretee aux electeurs est bien celle du vote rationnel et des evenements pivots, en fait assez semblable a celle decrite dans audessus de la melee . cette logique sapplique au vote alternatif comme au vote a deux tours 14. au contraire, les experiences montrent que cette logique na plus cours dans le vote par approbation et les systemes voisins.",
         "lensemble de ces travaux dresse un tableau nuance des comportements des electeurs, qui napparaissent ni naifs ni infiniment calculateurs."
-      ],
-      "parent": "4.5.2 le vote strategique"
+      ]
     },
     {
       "title": "conclusion",
@@ -1979,8 +1956,7 @@
         "la premiere partie, la plus classique, sappuie sur le concept de pivot et de vote instrumental. son objectif est de comprendre les raisonnements strategiques dun electeur qui tient compte des probabilites des pivots et anticipe les consequences dans un cadre delection de masse. avec differents degres de sophistication mathematique, elle dresse une comparaison des regles de vote. il en ressort que, sous la plupart dentre elles, on peut sattendre a un grand nombre dequilibres et donc a une grande permeabilite des resultats electoraux a linformation dont disposent les electeurs. on remarquera que deux des regles les plus utilisees en pratique, comme la regle de la pluralite et le systeme a deux tours, appartiennent a cette categorie. par contraste, le vote par assentiment semble assurer une meilleure agregation des preferences dans le sens ou, sous des hypotheses raisonnables, le seul equilibre mene a lelection du gagnant de condorcet (sil en existe un).",
         "la deuxieme partie, plus recente et dite de lincertitude agregee, sattaque a une des faiblesses des premiers travaux. plus precisement, elle relache lhypothese selon laquelle, dans une election de masse, un electeur rationnel est presque certain des preferences des autres electeurs. ce faisant, elle obtient des resultats plus realistes et explique mieux des phenomenes souvent peu ou mal compris comme la participation electorale. ceci dit, etant donne quil sagit dune litterature en pleine expansion, on dispose pour linstant de peu de travaux et la plupart dentre eux portent sur des situations particulieres. on a donc du mal pour linstant a tirer des conclusions claires; en dautres termes, il sagit dune litterature prometteuse qui devrait permettre de resoudre certaines difficultes posees par le modele de lelecteur rationnel.",
         "la derniere partie a trait a lexperimentation. elle cherche a (in)valider le modele du vote rationnel et a proposer des alternatives qui decrivent, de maniere moins caricaturale, le comportement dans lisoloir. elle met en avant certaines difficultes du modele rationnel a propos de la participation electorale ou de la logique de linduction retrograde (souvent utilisee dans les approches theoriques des systemes de vote a plusieurs tours). par contre, elle semble valider certains aspects importants du vote strategique comme la desertion des extremes ou les problemes de coordination. cette litterature arrive, en dautres mots, a la conclusion que les electeurs ne sont ni naifs, ni trop sophistiques dans leurs raisonnements."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [],

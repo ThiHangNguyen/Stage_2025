@@ -6,8 +6,8 @@
     {
       "first_name": "marieclaude",
       "last_name": "beaulieu",
-      "affiliation": "",
       "email": "marieclaude.beaulieu@fsa.ulaval.ca",
+      "affiliation": "",
       "website": "",
       "orcid": ""
     }
@@ -678,8 +678,7 @@
         "pour les raisons invoquees en introduction, lidentification est un probleme serieux puisque dans un modele mal identifie, les intervalles de confiance de type wald utilises traditionnellement ne couvriront pas avec les probabilites desirables2 les valeurs appropriees des coefficients et les tests qui y sont associes surrejetteront les hypotheses nulles (dufour, 1997; beaulieu, dufour et khalaf, 2013; gospodinov, kan et robotti, 2013; kan, robotti et shanken, 2013; kleibergen et zhan, 2015; khalaf et schaller, 2016). les intervalles de confiance de type wald ou student sont des intervalles de la forme : {estime ± (erreur type) × point critique}. quand lidentification nest pas respectee, les estimes sont biaises et les erreurs types sousestiment severement lincertitude de lestimation, et ce, meme lorsque les echantillons sont de grande taille.",
         "la litterature financiere, depuis les travaux de merton (1973) et ceux de ross (1976), reconnait la valeur de facteurs autres que celui du marche pour evaluer les actifs, soit dans un contexte intertemporel ou encore dextraction de facteurs. cependant, cest depuis les articles de fama et french (1992 et 1993) que les travaux de recherche se sont ouverts fermement a lidee que lintroduction de facteurs supplementaires au rendement du portefeuille de marche est importante pour la qualite des modeles devaluation dactifs. cependant, tel que souligne par campbell, liu et zhu (2016), les chercheurs ont mis de lavant quelque 314 facteurs au cours des 20 dernieres annees pouvant expliquer les rendements boursiers. dans le but de selectionner les facteurs les plus importants, campbell, liu et zhu prechent pour une approche basee sur un cadre de tests multiples et une statistique significative lorsquelle est plus elevee que 3,0. le choix des facteurs a inclure dans un modele economique est un probleme important dans les etudes empiriques et lapproche presentee ici developpe un critere necessaire mais non suffisant dans la recherche du meilleur modele devaluation dactifs empirique a valider.",
         "le test inverse, developpe par beaulieu, dufour et khalaf (2013) represente une approche valide pour evaluer les facteurs a inclure pour lobtention dun modele identifie. il sagit de la seule methode disponible robuste aux problemes didentification definis plus haut et correcte en echantillons finis. les ensembles de confiance (par opposition aux intervalles de confiance de type wald) couvrent la vraie valeur des parametres estimes avec le niveau desire, que lidentification pose probleme ou non."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. modele devaluation dactifs et evidence empirique",
@@ -699,8 +698,7 @@
         "finalement, les travaux de merton (1973) permettent egalement de mettre en valeur un modele devaluation dactifs a plusieurs facteurs qui representent les changements dans lespace moyennevariance des titres accessibles a linvestisseur. si ce modele intertemporel prevoit lintroduction de facteurs supplementaires au modele empirique, il demeure imprecis quant a quels facteurs inclure au modele devaluation dactifs.",
         "ce sont les travaux de fama et french (1992 et 1993) qui marquent louverture de la profession a lidee que le modele du capm a un facteur ne suffit pas a modeliser les variations empiriques des rendements financiers. debute alors un courant de recherche qui vise a identifier des facteurs bases dans un premier temps sur les caracteristiques des firmes mais qui souvrira plus largement dans les annees suivantes.",
         "on pensait deja a des facteurs macroeconomiques (chen, roll et ross, 1986), mais la litterature se transporte tres rapidement sur des facteurs dautre nature dont les facteurs comportementaux (facteurs psychologiques dont linstinct gregaire) ou encore des facteurs de microstructure (par exemple, pastor et stambaugh, 2003). cependant dans la mesure ou les facteurs sont extraits des donnees tel que propose par lapt ou encore choisis de maniere plus ou moins ad hoc, les modeles theoriques nous sont jusqua maintenant dun support modeste. a ce stade, seule une procedure statistique rigoureuse peut nous etre utile puisque tel que discute en introduction, etant donne le recensement de campbell et al., la question qui demeure et qui en soi depasse celle posee par les modeles devaluation dactifs est : quels facteurs et combien? lidee dun test conjoint sur une hypothese donnee et lidentification dun modele fournissent un outil permettant de mieux cerner la reponse a cette question."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2. cadre methodologique",
@@ -722,8 +720,7 @@
         "linterpretation liee aux intervalles de confiance obtenus sont de quatre natures differentes. dans un premier cas, les intervalles de confiance sont bornes impliquant que les facteurs du modele sont informatifs et que le modele en soi ne pose pas de probleme didentification. dans un deuxieme cas, les intervalles de confiance sont non bornes ce qui implique que les facteurs sont informatifs, mais quil faut se soucier des problemes didentification du modele. dans le troisieme cas ou lintervalle de confiance comprend lensemble des reels, nous sommes en presence de problemes didentification severe du modele, bien que les facteurs apparaissent toujours pertinents. finalement, dans le quatrieme cas, les intervalles de confiance sont vides et le modele est rejete par les donnees, revelant ainsi que les facteurs ne sont pas adequats et naident pas a evaluer les actifs.",
         "lavantage de lapproche developpee par beaulieu, dufour et khalaf (2013) est que plutot que de se contraindre a un intervalle de confiance classique base sur une mesure de lecarttype par rapport a la moyenne du parametre qui, en presence de problemes didentification, se revele fallacieux, nous proposons linversion de la statistique qui caracterise lhypothese nulle du modele en fonction de toutes les valeurs possibles des parametres. cette approche donne de linformation simultanee sur (i) le modele, (ii) son identification et (iii) sa specification.",
         "afin dillustrer levidence presentee par cette approche dans differents contextes, jintroduis dans la prochaine section des resultats en provenance de trois etudes differentes, soit : (i) levaluation du prix du risque de divers facteurs dans leconomie americaine tires de beaulieu, dufour et khalaf (2017), (ii) du prix du risque des obligations catastrophes tires de beaulieu, khalaf et melin (2017) et (iii) du prix du risque de facteurs domestiques et internationaux dans le but de tester lintegration des marches financiers a linternational en provenance de letude de beaulieu, gagnon et khalaf (2016)."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3. etudes empiriques",
@@ -745,8 +742,7 @@
         "le modele dans ce contexte est defini comme suit :",
         "lanalyse empirique utilise un echantillon allant de 1987 a 2011 pour les modeles internationaux. les portefeuilles analyses sont les rendements de tous les titres canadiens listes en bourse sur la meme periode et les facteurs globaux, incluant le rendement du portefeuille de marche (mkt), le facteur de taille (smb), le facteur du ratio valeur au livre sur valeur de marche (hml) et le facteur de momentum (mom) sont tires du site de kenneth french. les facteurs domestiques qui pour notre exemple sont canadiens, sont construits suivant la meme demarche que fama et french (1993) avec des donnees extraites de worldscope. le rendement des facteurs domestiques est orthogonalise avec son homologue global suivant la demarche decrite dans beaulieu, gagnon et khalaf (2016).",
         "les resultats presentes au tableau 4 nous aident a apprecier limpact dun grand nombre de facteurs en termes didentification dun modele. en fait, levidence presentee montre que la presence de facteurs a la fois domestiques et globaux, meme lorsque le modele estime ne compte que deux facteurs, nest pas identifie. notre approche permet donc de mettre en valeur ces problemes dans un contexte devaluation dactifs mais comporte egalement des implications pour la finance internationale, suivant que plusieurs modeles comportent dans leur forme la plus large la presence de facteurs globaux et domestiques. la litterature na pas clairement statue sur le fait que les economies sont completement integrees et que seuls des facteurs globaux sont importants pour levaluation dactifs dans un contexte international. nous avons donc toujours besoin de modeles nous permettant destimer le prix du risque des facteurs domestiques ou globaux et de calculer sur cette base le cout du capital. levidence presentee ici nous suggere detre prudents lorsquil sagit de linterpretation des intervalles de confiance classiques dans un contexte devaluation dactifs a linternational."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3.1 economie americaine",
@@ -756,8 +752,7 @@
         "par ailleurs, le modele peut etre estime dans une forme plus large suivant :",
         "les resultats obtenus pour lestimation de ces deux modeles sont presentes dans les tableaux 1 et 2. au tableau 1, lorsque le modele est estime en exces du rendement zerobeta comme a lequation (11), sur des sousperiodes de 10 ans, les resultats montrent que sur la premiere sousperiode, allant de 1961 a 1970, les 3 facteurs de famafrench, soit le rendement du portefeuille de marche (mkt), le facteur de taille (smb) et celui de valeur (hml), sont bien identifies etant donne que les ensembles de confiance sont fermes. les facteurs apparaissent tous significativement differents de 0 puisque la moyenne de chacun de ces facteurs nest pas incluse dans leur ensemble de confiance respectif. le modele est rejete pendant la sousperiode suivante et celle de 1991 a 2000, les resultats montrant quaucune valeur de θ nest compatible avec lhypothese nulle. finalement, la sousperiode 2000 a 2010 revele des ensembles de confiance bornes mais recouvrant la moyenne du facteur dans 2 cas sur 3, montrant peu de pouvoir explicatif pour ces 2 facteurs.",
         "au tableau 2, lorsque le rendement zerobeta peut differer des deux cotes de lequation comme a lequation (12), levidence en faveur du facteur de marche est tres forte sur toutes les sousperiodes sauf la derniere montrant que les facteurs de taille et de valeur nont pas de pouvoir explicatif. cette evidence ouvre la porte a une autre vision du modele du capm qui serait plus performant lorsque lon permet aux rendements endogenes et au facteur negocie en bourse detre mesures en excedant de quantites qui peuvent differer empiriquement."
-      ],
-      "parent": "3. etudes empiriques"
+      ]
     },
     {
       "title": "3.2 obligations catastrophe",
@@ -768,8 +763,7 @@
         "les rendements quotidiens des fonds mutuels dobligations catastrophe sont evalues entre novembre 2004 et aout 2014 et sont extraits de bloomberg. le facteur de marche provient du site de kenneth french. les details sur les donnees sont fournis dans beaulieu, khalaf et melin (2017).",
         "empiriquement, nous considerons lensemble de la periode echantillonnee disponible allant de novembre 2004 a aout 2014 mais aussi trois sousperiodes couvrant les mois precedant, pendant et suivant la recession associee a la crise financiere de 2008, soit une premiere sousperiode (sousperiode 1) allant de novembre 2004 a novembre 2007, une seconde sousperiode (sousperiode 2) allant de decembre 2007 a mai 2009 et une derniere sousperiode (sousperiode 3) allant de juin 2009 a aout 2014.",
         "les resultats presentes au tableau 3 montrent que sur lensemble de la periode echantillonnee, le facteur de marche (mkt) nest pas identifie mais que le facteur dasymetrie est statistiquement important et relativement bien identifie. cela peut apparaitre surprenant dans la mesure ou ces actifs presentent en principe un prix du risque nul pour tout facteur. aussi, levidence en sousperiode estelle importante pour mieux cerner les explications a ce resultat. dans un premier temps, les resultats sur le prix du risque de la premiere sousperiode montrent que le modele estime est clairement rejete par les donnees. en fait, aucune valeur du prix du risque du facteur de marche ou du facteur dasymetrie nest compatible avec les donnees. ceci est bien conforme a nos attentes puisque les obligations catastrophe sont en principe insensibles a tout facteur de risque. pendant la seconde sousperiode, soit au plus fort de la crise financiere de 2008, les deux prix du risque sont identifies et statistiquement importants pour expliquer les rendements des obligations castastrophe. pendant la troisieme sousperiode, le prix du risque du facteur de marche nest pas identifie alors que cest le cas pour le facteur dasymetrie qui est par ailleurs statistiquement significatif. cette evidence suggere quen periode dacalmie, les obligations catastrophe sont effectivement insensibles aux facteurs de risque usuels mais quen periode de crise, elles ne comportent pas la diversification attendue par les detenteurs de ces obligations."
-      ],
-      "parent": "3. etudes empiriques"
+      ]
     },
     {
       "title": "3.3 economie internationale",
@@ -779,8 +773,7 @@
         "le modele dans ce contexte est defini comme suit :",
         "lanalyse empirique utilise un echantillon allant de 1987 a 2011 pour les modeles internationaux. les portefeuilles analyses sont les rendements de tous les titres canadiens listes en bourse sur la meme periode et les facteurs globaux, incluant le rendement du portefeuille de marche (mkt), le facteur de taille (smb), le facteur du ratio valeur au livre sur valeur de marche (hml) et le facteur de momentum (mom) sont tires du site de kenneth french. les facteurs domestiques qui pour notre exemple sont canadiens, sont construits suivant la meme demarche que fama et french (1993) avec des donnees extraites de worldscope. le rendement des facteurs domestiques est orthogonalise avec son homologue global suivant la demarche decrite dans beaulieu, gagnon et khalaf (2016).",
         "les resultats presentes au tableau 4 nous aident a apprecier limpact dun grand nombre de facteurs en termes didentification dun modele. en fait, levidence presentee montre que la presence de facteurs a la fois domestiques et globaux, meme lorsque le modele estime ne compte que deux facteurs, nest pas identifie. notre approche permet donc de mettre en valeur ces problemes dans un contexte devaluation dactifs mais comporte egalement des implications pour la finance internationale, suivant que plusieurs modeles comportent dans leur forme la plus large la presence de facteurs globaux et domestiques. la litterature na pas clairement statue sur le fait que les economies sont completement integrees et que seuls des facteurs globaux sont importants pour levaluation dactifs dans un contexte international. nous avons donc toujours besoin de modeles nous permettant destimer le prix du risque des facteurs domestiques ou globaux et de calculer sur cette base le cout du capital. levidence presentee ici nous suggere detre prudents lorsquil sagit de linterpretation des intervalles de confiance classiques dans un contexte devaluation dactifs a linternational."
-      ],
-      "parent": "3. etudes empiriques"
+      ]
     },
     {
       "title": "conclusion",
@@ -792,8 +785,7 @@
         "finalement, le cadre des modeles devaluation dactifs dans un contexte international remet en question lutilisation de modeles a plusieurs facteurs puisque dans ce cadre, les modeles etudies apparaissent tres mal identifies, ce qui souleve la question de comment tester des hypotheses relatives a lintegration des marches financiers qui sont dordinaire prises en compte avec des facteurs globaux et domestiques.",
         "dans lensemble, levidence empirique presentee dans cet article montre que la statistique de hotelling inversee, tel que developpee et implementee par beaulieu, dufour et khalaf (2013 et 2017) est un outil pertinent et interessant quand un chercheur doit decider des facteurs a inclure dans un modele. la significativite de ceuxci nest plus le seul critere. il faut egalement sassurer que le prix du risque de ces facteurs soit bien identifie.",
         "bien que plusieurs alternatives aient ete investiguees par beaulieu, dufour et khalaf (2017), soit : i) les composantes principales; ii) des tests conditionnels; iii) lempilement des portefeuilles du cote gauche de lequation, aucune de ces approches ne nous permet den arriver a des modeles mieux identifies ou mieux specifies que ceux dont jai discute ici. ce qui mapparait important de souligner est que le portefeuille de marche est un facteur informatif mais que dans lensemble de nos resultats ce nest pas le cas du facteur representant le ratio de la valeur au livre avec la valeur au marche, non plus que le facteur de momentum. il demeure que dans le contexte des modeles presentant plusieurs facteurs non identifies, lapproche presentee ici ne permet pas de discriminer a travers ces facteurs. la question qui se pose si les facteurs ne sont pas bien identifies mais quils sont cependant pertinents, est comment reorganiser linformation quils contiennent afin dobtenir, ultimement, des intervalles de confiance pour le prix du risque qui nous permettront de prendre des decisions dinvestissement et de financement eclairees."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [],

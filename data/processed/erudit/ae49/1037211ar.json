@@ -6,32 +6,32 @@
     {
       "first_name": "david",
       "last_name": "boisclair",
-      "affiliation": "esg uqam",
       "email": "",
+      "affiliation": "esg uqam",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "jeanyves",
       "last_name": "duclos",
-      "affiliation": "universite laval cirpee cirano",
       "email": "",
+      "affiliation": "universite laval cirpee cirano",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "steeve",
       "last_name": "marchand",
-      "affiliation": "universite laval",
       "email": "",
+      "affiliation": "universite laval",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "pierrecarl",
       "last_name": "michaud",
-      "affiliation": "esg uqam cirpee cirano rand",
       "email": "",
+      "affiliation": "esg uqam cirpee cirano rand",
       "website": "",
       "orcid": ""
     }
@@ -300,8 +300,7 @@
         "nous considerons ici trois propositions de reforme aux programmes publics du 2e pilier pour ameliorer la couverture du risque de longevite. nous traitons tout dabord de la proposition du comite sur lavenir des regimes de retraite preside par alban damours, qui consiste a introduire une rente longevite similaire a une bonification de la prestation du rrq a partir de lage de 75 ans (damours et al., 2013). cette rente serait financee par une cotisation additionnelle des travailleurs et employeurs et remplacerait au maximum 28,5 % des revenus de travail a partir de lage de 75 ans. une deuxieme proposition consiste a bonifier le regime actuel, une proposition faite par jack mintz de luniversite de calgary et thomas wilson de luniversite de toronto (mintz et wilson, 2013). cette proposition vise a augmenter le taux de remplacement de la prestation actuelle du rrq (et du rpc) a 35 % au lieu de 25 %. finalement, une derniere proposition, faite par michael wolfson de luniversite dottawa, ecarterait le principe dun taux de cotisation uniforme en modulant le taux de cotisation selon le revenu, tout en doublant a 105 000 $ le plafond des gains admissibles, par rapport au plafond actuel, qui est de 52 500 $ en 2014 (wolfson, 2013).",
         "afin dobtenir des alternatives comparables basees sur des vehicules depargne individuelle existants, nous considerons egalement deux possibilites simples depargne volontaire accrue, au sein du 3e pilier , avec des parametres et dans le cadre de vehicules precis. ainsi, nous modelisons un scenario utilisant un regime volontaire depargne retraite (rver), vehicule recemment cree au quebec et similaire au regime enregistre depargne retraite (reer); ainsi quun autre faisant appel au compte depargne libre dimpot, le celi. nous modelisons une contribution additionnelle faite dans chacun de ces vehicules par tous les travailleurs, en presumant que les sommes sont investies dans lachat dobligations canadiennes a long terme. dans ces scenarios, les individus achetent une rente sur le marche prive au moment ou ils prennent leur retraite, en utilisant la totalite du capital supplementaire accumule dans leur rver ou leur celi.",
         "la section 1 de larticle presente la structure de la modelisation. la section 2 presente les differents scenarios consideres. la section 3 quantifie le rendement des propositions considerees pour des menages possedant differentes caracteristiques, a la fois en termes de taux de remplacement du revenu et de rendement interne, et presente quelques analyses contrefactuelles. la section 4 conclut."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1. modelisation",
@@ -313,24 +312,21 @@
         "il nexiste pas de tables de mortalite prospective par niveau de revenu ou deducation. afin dobtenir des taux de mortalite par niveau deducation pour un individu ayant 25 ans en 2011, nous combinons les projections des taux agreges de mortalite et les differentiels actuels de taux de mortalite par niveau deducation. cette methode a ete utilisee par french (2005). elle suppose toutefois que les ecarts actuels de taux de mortalite entre des individus avec differents niveaux deducation se maintiendront dans le futur, ce qui nest pas assure.",
         "nous utilisons dabord la table de mortalite de 2009 de linstitut de la statistique du quebec (isq). en denotant lindicateur de deces entre lage t et lage t +1 par mt+1, nous obtenons une probabilite de deces donnee par . nous calculons ensuite , en utilisant le fait que",
         "on estime et a partir de lenquete nationale sur la sante de la population (ensp), cycles 19942010, pour ensuite calculer . lannexe b donne les details de lapplication de cette methode ainsi que les resultats. nous estimons que les ecarts de mortalite sont plus importants avant 65 ans et quils diminuent apres 65 ans. une des raisons probables est un effet de selection dynamique : les individus survivant jusqua 65 ans au sein du groupe ayant un risque de mortalite structurel plus eleve ont sans doute des caracteristiques inobservables qui rendent leur probabilite individuelle de deces plus faible que la probabilite de deces moyenne du groupe dindividus ayant un risque de mortalite structurel plus faible. lesperance de vie a la naissance ainsi estimee varie de 78,3 a 84,6 annees, selon le niveau deducation, conditionnellement au fait davoir survecu jusqua lage de 25 ans (puisque cest lage de nos agents au debut des simulations)."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "1.1 les agents",
       "paragraphs": [
         "nous considerons un travailleur debutant sa carriere en 2011 a lage de 25 ans. ce travailleur salarie peut avoir en debut de carriere un niveau variable deducation et de revenu initial, c.ad. de revenu a 25 ans. nous construisons des cas types en placant le travailleur dans chacune de 78 cellules possibles, definies par le niveau deducation e ∈ e (3 niveaux) et le revenu initial y25 ∈ {2 000 $,...,102 000 $} (soit 26 tranches de revenu de 4 000 $ chacune). ces deux sources dheterogeneite permettront de prendre en compte deux dimensions de la mortalite differenciee et les interactions possibles entre les nouvelles modalites proposees et les programmes existants.",
         "pour simplifier lanalyse et la presentation des resultats, le travailleur est presume celibataire et sans enfants pour toute sa vie. cette simplification nenleve rien a la pertinence de lanalyse, puisque le systeme quebecois de revenu de retraite est plutot neutre par rapport a la situation familiale a quelques exceptions pres : le srg verse des prestations par personne moins elevees aux couples afin de tenir compte des economies dechelle; et le rrq ne penalise pas les parents temporairement hors du marche du travail pour soccuper denfants en bas age. qui plus est, le celibat et labsence denfants ne sont pas des phenomenes marginaux au quebec : pres dune femme sur cinq y restera nullipare toute sa vie, tandis que pres de 60 % des individus nes a la fin des annees 1970 ne se seront jamais maries lorsquils auront 50 ans (institut de la statistique du quebec, 2014)."
-      ],
-      "parent": "1. modelisation"
+      ]
     },
     {
       "title": "1.2 revenu de travail",
       "paragraphs": [
         "nous utilisons la structure de salaire proposee par gourinchas et parker (2002). le modele de revenu de travail suppose que le salaire annuel est donne par",
         "a laide de ces parametres estimes nous simulons 100 fois, pour chaque combinaison de revenu initial et de niveau deducation, le parcours dynamique de revenus de travail (entre 26 et 64 ans). on prend ensuite pour chaque age la moyenne des revenus des 100 simulations pour determiner le revenu par age pour chaque castype."
-      ],
-      "parent": "1. modelisation"
+      ]
     },
     {
       "title": "1.3 mortalite",
@@ -338,8 +334,7 @@
         "il nexiste pas de tables de mortalite prospective par niveau de revenu ou deducation. afin dobtenir des taux de mortalite par niveau deducation pour un individu ayant 25 ans en 2011, nous combinons les projections des taux agreges de mortalite et les differentiels actuels de taux de mortalite par niveau deducation. cette methode a ete utilisee par french (2005). elle suppose toutefois que les ecarts actuels de taux de mortalite entre des individus avec differents niveaux deducation se maintiendront dans le futur, ce qui nest pas assure.",
         "nous utilisons dabord la table de mortalite de 2009 de linstitut de la statistique du quebec (isq). en denotant lindicateur de deces entre lage t et lage t +1 par mt+1, nous obtenons une probabilite de deces donnee par . nous calculons ensuite , en utilisant le fait que",
         "on estime et a partir de lenquete nationale sur la sante de la population (ensp), cycles 19942010, pour ensuite calculer . lannexe b donne les details de lapplication de cette methode ainsi que les resultats. nous estimons que les ecarts de mortalite sont plus importants avant 65 ans et quils diminuent apres 65 ans. une des raisons probables est un effet de selection dynamique : les individus survivant jusqua 65 ans au sein du groupe ayant un risque de mortalite structurel plus eleve ont sans doute des caracteristiques inobservables qui rendent leur probabilite individuelle de deces plus faible que la probabilite de deces moyenne du groupe dindividus ayant un risque de mortalite structurel plus faible. lesperance de vie a la naissance ainsi estimee varie de 78,3 a 84,6 annees, selon le niveau deducation, conditionnellement au fait davoir survecu jusqua lage de 25 ans (puisque cest lage de nos agents au debut des simulations)."
-      ],
-      "parent": "1. modelisation"
+      ]
     },
     {
       "title": "2. les scenarios",
@@ -369,8 +364,7 @@
         "chaque travailleur contribue donc 2 % de son revenu a chaque annee de travail, soit entre 25 et 64 ans inclusivement. au moment de la prise de retraite a 65 ans, la totalite du capital accumule contributions plus rendements est utilisee pour acheter une rente viagere simple, avec une garantie de paiement de 10 ans mais sans autre caracteristique optionnelle. le prix de cette rente est la moyenne du prix pour un homme et de celui pour une femme, et correspond au prix moyen exige mi2014 par 11 grandes institutions canadiennes, obtenu de la base donnees cannex6. puisque les sommes utilisees pour acheter la rente proviennent dun rver, les paiements de rente sont imposables. cet aspect est pris en compte par le calculateur simtax.",
         "le prix moyen utilise correspond a 15,83 $ pour chaque dollar de revenu annuel verse par linstitution financiere, calcule sur la base dun versement annuel de 6 316 $ par tranche de 100 000 $ (homme : 6 660 $; femme : 5 972 $) : . on note que ce prix semble, en moyenne, assez juste dun point de vue actuariel. en effet, en utilisant les tables de mortalite de lisq et un rendement sur actif attendu de 3 %, on obtient des versements annuels allant de 6 239 $ a 7 237 $ selon le niveau deducation de lindividu (et donc son esperance de vie). le diplome universitaire a donc un leger avantage a se procurer une telle rente, tandis que lindividu sans diplome recoit des versements 14 % plus faibles que la juste valeur actuarielle du montant quil a verse pour acheter sa rente. on voit ainsi que la justesse actuarielle varie significativement selon le niveau deducation, ce qui risquerait de creer des problemes dantiselection si les pouvoirs publics souhaitaient promouvoir un usage volontaire dune rente viagere. cependant, on voit egalement a partir de ce calcul tres approximatif que le prix moyen des rentes au canada semble competitif dun point de vue actuariel, un constat qui sapplique a la plupart des pays, sauf laustralie, selon milevsky (2013).",
         "le scenario alternatif 5 est en tous points identique au scenario 4, a lexception du vehicule utilise pour accumuler du capital a laide depargne personnelle. ce scenario suppose ainsi que lepargne additionnelle (le 2 % du scenario 4) est plutot dirigee vers un compte depargne libre dimpot (celi), un vehicule mis en oeuvre en 2009 par le gouvernement canadien. la principale difference qui en resulte est que le differentiel de taux dimposition entre les annees de travail et les annees de retraite na plus dimpact les contributions au celi sont faites apres impots (cestadire que cellesci ne donnent pas droit a une deduction) tandis que les retraits ne sont pas imposables. avec de lepargne personnelle accumulee dans un celi, la rente viagere est donc achetee et versee en franchise dimpots7."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "2.1 scenario de reference",
@@ -383,50 +377,43 @@
         "les prestations de retraite du rrq sont imposables et sont fonction de la moyenne des gains admissibles, apet. elles sont aussi fonction de lage lors du debut des prestations, mais puisque tous les agents prennent ici leur retraite a 65 ans, soit lage normal, ce parametre na pas dimpact. on denote la prestation par brrq.",
         "les individus peuvent recevoir des revenus de retraite prives, provenant par exemple de regimes complementaires, a prestations determinees (pd) ou a cotisations determinees (cd), ou encore provenant de regimes enregistres depargneretraite (reer) individuels ou collectifs ou depargne individuelle non enregistree. les comptes depargne libres dimpot (celi), dont le traitement fiscal differe, ne sont pas modelises dans le scenario de reference. tous ces revenus, agreges, sont denotes ensemble par bpp, et dependent notamment du dernier revenu de travail avant la retraite, y64. ils sont estimes de facon agregee, a laide de la methode decrite a lannexe c.",
         "le revenu net (ou revenu disponible) est donne par"
-      ],
-      "parent": "2. les scenarios"
+      ]
     },
     {
       "title": "2.1.1 pension de securite de la vieillesse",
       "paragraphs": [
         "la prestation de la psv est donnee par bpv. pour tout citoyen canadien ayant reside au pays durant au moins 40 annees depuis ses 18 ans (ce que nous supposons etre le cas pour les individus dans notre simulation), cette prestation imposable est de 6 368 $ en 2011. une recuperation fiscale sapplique cependant a un taux de 15 % a partir dun revenu de 67 700 $ apres deductions (mais incluant la psv)."
-      ],
-      "parent": "2.1 scenario de reference"
+      ]
     },
     {
       "title": "2.1.2 supplement de revenu garanti",
       "paragraphs": [
         "la prestation de srg est donnee par bsrg et elle est non imposable. en 2011, la prestation de base est de 8 039 $ pour un celibataire (le calcul pour les couples est different) et elle diminue a un taux de 50 % en fonction des autres revenus, hormis la psv et une exemption de 3 500 $ pour les revenus de travail. depuis 2011, le srg inclut egalement une prestation additionnelle de 600 $ pour les individus a tres faible revenu, qui est reduite a un taux de 20 % a partir dun revenu total de 2 000 $, excluant la psv. toutes ces particularites sont prises en compte dans simtax."
-      ],
-      "parent": "2.1 scenario de reference"
+      ]
     },
     {
       "title": "2.1.3 cotisations au rrq",
       "paragraphs": [
         "les cotisations au regime de rentes du quebec sont donnees par srrq. en 2011, elles correspondent a 9,90 % du revenu admissible, soit celui se situant entre lexemption generale de 3 500 $ et le maximum des gains admissibles (mga), soit 48 300 $. ce taux est toutefois partage moitiemoitie entre lemployeur et lemploye, a raison de 4,95 % chacun.1 les cotisations sont nettes, cestadire quon en deduit le credit dimpot non remboursable federal qui y est rattache."
-      ],
-      "parent": "2.1 scenario de reference"
+      ]
     },
     {
       "title": "2.1.4 prestations de retraite du rrq",
       "paragraphs": [
         "les prestations de retraite du rrq sont imposables et sont fonction de la moyenne des gains admissibles, apet. elles sont aussi fonction de lage lors du debut des prestations, mais puisque tous les agents prennent ici leur retraite a 65 ans, soit lage normal, ce parametre na pas dimpact. on denote la prestation par brrq."
-      ],
-      "parent": "2.1 scenario de reference"
+      ]
     },
     {
       "title": "2.1.5 revenus de marche une fois a la retraite : prestations de regimes complementaires et revenus depargne personnelle",
       "paragraphs": [
         "les individus peuvent recevoir des revenus de retraite prives, provenant par exemple de regimes complementaires, a prestations determinees (pd) ou a cotisations determinees (cd), ou encore provenant de regimes enregistres depargneretraite (reer) individuels ou collectifs ou depargne individuelle non enregistree. les comptes depargne libres dimpot (celi), dont le traitement fiscal differe, ne sont pas modelises dans le scenario de reference. tous ces revenus, agreges, sont denotes ensemble par bpp, et dependent notamment du dernier revenu de travail avant la retraite, y64. ils sont estimes de facon agregee, a laide de la methode decrite a lannexe c."
-      ],
-      "parent": "2.1 scenario de reference"
+      ]
     },
     {
       "title": "2.1.6 imposition des revenus de travail et de retraite",
       "paragraphs": [
         "le revenu net (ou revenu disponible) est donne par"
-      ],
-      "parent": "2.1 scenario de reference"
+      ]
     },
     {
       "title": "2.2 scenario alternatif 1 : ajout dune rente longevite",
@@ -435,16 +422,14 @@
         "nous supposons donc un taux de cotisation de 3,3 % jusquau plafond fixe par le mga. ce taux est partage moitiemoitie entre lemployeur et lemploye, de sorte que lagent paie, aux fins fiscales, un taux de 1,65 %. a des fins de simplicite, un credit dimpot non remboursable est rattache a cette cotisation, selon les memes modalites que pour les cotisations au rrq. cest la principale difference avec le programme propose par le comite damours, qui recommandait plutot une deduction fiscale, potentiellement plus avantageuse pour le travailleur. la cotisation nette est denotee srl et est soustraite du revenu disponible.",
         "nous considerons que la cotisation de lemployeur est en partie supportee par les travailleurs par le biais de salaires plus faibles. en nous basant sur roycesar et vaillancourt (2010), nous supposons que la moitie de la cotisation employeur est refilee aux travailleurs. ainsi, la cotisation totale du travailleur seleve a 1,65 %*1,5, soit 2,475 % du salaire. seule la cotisation directe de lemploye est toutefois prise en compte pour le calcul du credit dimpot non remboursable. ces memes hypotheses seront aussi faites pour les autres propositions de reforme du 2e pilier.",
         "la prestation est fonction de la meme base que la prestation du rrq, apet. le taux de remplacement depend toutefois du nombre dannees de cotisations. il est de 0,5 % par annee de cotisation, de sorte quil est de 20 % pour nos simulations, dans lesquelles les agents travaillent durant 40 ans. la prestation est denotee brl et elle sajoute au revenu disponible (donc a linterieur de la fonction τ() cidessus)."
-      ],
-      "parent": "2. les scenarios"
+      ]
     },
     {
       "title": "2.3 scenario alternatif 2 : bonification du rrq (proposition de mintzwilson)",
       "paragraphs": [
         "pour plusieurs raisons, mintz et wilson (2013) proposent de hausser simplement et modestement le taux de remplacement du revenu offert par le rrq/rpc en le faisant passer de 25 % a 35 %. ils recommandent de laisser le mga inchange, dans la mesure ou les individus gagnant un revenu superieur au mga ont plusieurs autres options a leur disposition pour preparer leur retraite.",
         "en contrepartie de la hausse des prestations, mintz et wilson suggerent daugmenter le taux de cotisation de 2,5 points de pourcentage, hausse payee a parts egales par les employeurs et employes mais supportee aux 3/4 par les travailleurs, comme dans le cas de la rente longevite, ce qui donne un taux effectif de 1,875 % pour les travailleurs aux fins du calcul de taux de rendement (voir section 4). dans le cas du rrq de 2011, le taux de cotisation total passe donc de 9,9 % a 12,4 %. il faut noter que les auteurs nont pas quantifie de facon detaillee le cout de la hausse de prestations quils proposent, de sorte que la hausse des cotisations quils suggerent pourrait bien, dans la realite comme dans nos simulations, saverer trop faible ou trop forte pour financer la hausse proposee des prestations. toutefois, dans la mesure ou les prestations de retraite du rrq/rpc a leur niveau actuel coutent environ 5,2 % du revenu de travail (wolfson, 2013), il semble probable quune hausse des prestations de 40 % [soit (35 % 25 %)/25 %] puisse effectivement etre financee par la hausse de cotisations proposee de 2,5 points de pourcentage."
-      ],
-      "parent": "2. les scenarios"
+      ]
     },
     {
       "title": "2.4 scenario alternatif 3 : bonification du rrq (proposition de wolfson)",
@@ -453,8 +438,7 @@
         "lautre partie de la proposition consiste a introduire des taux de cotisations et de prestations differencies selon le niveau de revenu. ainsi, pour un revenu nexcedant pas la moitie du revenu moyen (cestadire 50 % du mga prereforme), le taux de cotisation reste le meme, soit 9,9 %. puis, entre la moitie du revenu moyen et une fois le revenu moyen, donc entre 50 % et 100 % du mga prereforme, le taux de cotisation augmente denviron 3,1 points de pourcentage, sur la base du cout estime du service courant mentionne plus haut2. enfin, entre une fois et deux fois le revenu moyen, soit entre 100 % et 200 % du mga prereforme, le taux de cotisation setablit a 8,3 % (il est de 0 % dans le scenario de reference). les taux de cotisation postreforme sont donc de 9,9 % jusqua la moitie du revenu moyen; de 13,0 % ensuite, jusquau revenu moyen; puis de 8,3 % entre une fois et deux fois le revenu moyen.",
         "du cote des prestations de retraite, cette structure de cotisations permet un taux de remplacement du revenu inchange (soit de 25 %) pour les individus ayant gagne en deca de 50 % du mga prereforme, et un taux de remplacement de 40 % pour ceux ayant gagne entre 50 % et 200 % du mga prereforme3. selon lauteur, cette structure vise a cibler le plus possible les besoins constates dans son analyse prospective des revenus des futurs retraites. le graphique 1 montre le taux de cotisation et le taux de remplacement provenant des prestations du rrq/rpc dans le scenario de reference et avec la proposition de wolfson, (2013).",
         "les caracteristiques principales des scenarios consideres de reforme du 2e pilier sont resumees dans le tableau 1."
-      ],
-      "parent": "2. les scenarios"
+      ]
     },
     {
       "title": "2.5 scenario alternatif 4 : epargne personnelle dans un rver et achat dune rente viagere",
@@ -463,15 +447,13 @@
         "plus precisement, nous modelisons une contribution annuelle de 2 % du revenu de travail (avant impots) pour chaque travailleurtype. ce taux de cotisation correspond au taux par defaut dans les rver jusqua la fin de 2017. nous supposons que le capitalepargne est investi dans des obligations gouvernementales de long terme fournissant un rendement de 3 %, soit le rendement approximatif dune obligation canadienne a 30 ans5. le choix du produit financier nous est dicte par un besoin de faible risque et de rendement stable afin de faciliter la comparaison avec les reformes aux programmes publics, mais il serait possible de modeliser des strategies differentes dinvestissement du capital.",
         "chaque travailleur contribue donc 2 % de son revenu a chaque annee de travail, soit entre 25 et 64 ans inclusivement. au moment de la prise de retraite a 65 ans, la totalite du capital accumule contributions plus rendements est utilisee pour acheter une rente viagere simple, avec une garantie de paiement de 10 ans mais sans autre caracteristique optionnelle. le prix de cette rente est la moyenne du prix pour un homme et de celui pour une femme, et correspond au prix moyen exige mi2014 par 11 grandes institutions canadiennes, obtenu de la base donnees cannex6. puisque les sommes utilisees pour acheter la rente proviennent dun rver, les paiements de rente sont imposables. cet aspect est pris en compte par le calculateur simtax.",
         "le prix moyen utilise correspond a 15,83 $ pour chaque dollar de revenu annuel verse par linstitution financiere, calcule sur la base dun versement annuel de 6 316 $ par tranche de 100 000 $ (homme : 6 660 $; femme : 5 972 $) : . on note que ce prix semble, en moyenne, assez juste dun point de vue actuariel. en effet, en utilisant les tables de mortalite de lisq et un rendement sur actif attendu de 3 %, on obtient des versements annuels allant de 6 239 $ a 7 237 $ selon le niveau deducation de lindividu (et donc son esperance de vie). le diplome universitaire a donc un leger avantage a se procurer une telle rente, tandis que lindividu sans diplome recoit des versements 14 % plus faibles que la juste valeur actuarielle du montant quil a verse pour acheter sa rente. on voit ainsi que la justesse actuarielle varie significativement selon le niveau deducation, ce qui risquerait de creer des problemes dantiselection si les pouvoirs publics souhaitaient promouvoir un usage volontaire dune rente viagere. cependant, on voit egalement a partir de ce calcul tres approximatif que le prix moyen des rentes au canada semble competitif dun point de vue actuariel, un constat qui sapplique a la plupart des pays, sauf laustralie, selon milevsky (2013)."
-      ],
-      "parent": "2. les scenarios"
+      ]
     },
     {
       "title": "2.6 scenario alternatif 5 : epargne personnelle dans un celi et achat dune rente viagere",
       "paragraphs": [
         "le scenario alternatif 5 est en tous points identique au scenario 4, a lexception du vehicule utilise pour accumuler du capital a laide depargne personnelle. ce scenario suppose ainsi que lepargne additionnelle (le 2 % du scenario 4) est plutot dirigee vers un compte depargne libre dimpot (celi), un vehicule mis en oeuvre en 2009 par le gouvernement canadien. la principale difference qui en resulte est que le differentiel de taux dimposition entre les annees de travail et les annees de retraite na plus dimpact les contributions au celi sont faites apres impots (cestadire que cellesci ne donnent pas droit a une deduction) tandis que les retraits ne sont pas imposables. avec de lepargne personnelle accumulee dans un celi, la rente viagere est donc achetee et versee en franchise dimpots7."
-      ],
-      "parent": "2. les scenarios"
+      ]
     },
     {
       "title": "3. remplacement du revenu et rendement interne",
@@ -498,8 +480,7 @@
         "une critique possible de notre analyse tient au mode dimputation des revenus de retraite prives avant toute reforme. nous explorons donc leffet sur les taux de rendement des differents scenarios de reforme de supprimer completement ces revenus de retraite prives, autres que ceux generes par les propositions de reforme ellesmemes, bien entendu. le graphique 6 montre ces taux de rendement en labsence de revenus de retraite prives (reer ou regimes complementaires de retraite).",
         "on voit que toutes les reformes, sauf a nouveau le celirente, offrent un rendement plus faible en labsence de revenus prives de retraite. dans le cas de la rente longevite, ce constat sapplique surtout aux individus gagnant moins de 75 000 $. mintzwilson offre un rendement tres faible, voire negatif, a partir du milieu de la distribution des revenus de travail; la proposition de wolfson voit toutes ses courbes de rendement deplacees vers le bas de facon marquee pour les individus gagnant moins de 65 000 $; et le scenario rverrente offre desormais des rendements inferieurs pour les individus gagnant moins de 85 000 $. pour comprendre ces differences, il faut faire appel a linteraction des differentes propositions avec le srg.",
         "en effet, dans un monde sans revenus de retraite prives, tous les individus dans notre simulation sont admissibles au srg avant reforme puisque des revenus de retraite provenant uniquement de la psv et du rrq donnent droit a de petites prestations de srg. avec lintroduction dune reforme, plusieurs perdent lacces aux prestations du srg, ce qui se traduit par une baisse marquee du rendement quils obtiennent de chaque reforme, surtout pour les individus a revenu de travail moyeneleve (qui, eux, ne recoivent pas de srg dans la realite, avec revenus de retraite prives). les differences de baisse de rendement refletent les differences de structure des cotisationsprestations des differents scenarios de reforme."
-      ],
-      "parent": null
+      ]
     },
     {
       "title": "3.1 taux de remplacement du revenu",
@@ -509,8 +490,7 @@
         "ces taux de remplacement ne tiennent pas compte de lesperance de vie ou du risque de mortalite, et sont donc conditionnels a ce que lindividu atteigne effectivement lage pour lequel le taux de remplacement est calcule. le graphique 2 presente les taux de remplacement a 75 ans pour chacun des scenarios alternatifs, ainsi que pour le scenario de reference (soit la situation qui prevalait effectivement en 2011)9. on constate que cest la rente longevite qui hausse le plus les taux de remplacement pour les individus avec un faible revenu moyen, et ce jusqua un revenu annuel de 60 000 $ environ. a loppose, la proposition wolfson laisse les taux de remplacement largement inchanges pour les individus gagnant en moyenne 20 000 $ ou moins, et devient a partir dun revenu brut (donc avant impots) moyen de 60 000 $ la proposition de reforme qui hausse le plus les taux de remplacement. la hausse generee par la rente longevite, elle, est surtout concentree entre des revenus initiaux de 15 000 $ et de 45 000 $, et cest a partir dun revenu moyen de 60 000 $ quelle cesse de hausser les taux de remplacement davantage que les autres reformes. il faut rappeler toutefois que les hausses de taux de remplacement engendrees par lintroduction de la rente longevite, bien quelles soient les plus genereuses pour plusieurs tranches de revenu, ne sappliquent qua partir de 75 ans, offrant donc jusqua 10 annees de prestations de moins que les autres propositions.",
         "la proposition mintzwilson, elle, se situe entre les deux et offre une hausse modeste des taux de remplacement pour tous les niveaux de revenu, mais davantage pour les individus gagnant entre 20 000 $ et 85 000 $ en moyenne. on note que le profil de taux de remplacement de la proposition mintzwilson est tres similaire a celui du scenario rverrente, surtout jusqua un revenu moyen en carriere de 60 000 $. la difference entre les deux scenarios saccroit par la suite mais reste faible. on voit enfin que le scenario celirente performe assez bien selon la mesure du taux de remplacement, netant surpasse que par la rente longevite en deca de 60 000 $ et par la proposition wolfson audela.",
         "on voit par ailleurs clairement que dans tous les cas les taux de remplacement sont tres eleves pour des revenus faibles et quils decroissent a mesure que ceuxci augmentent. les taux depassent les 150 % a 10 000 $, et restent superieurs a 125 % a un revenu moyen de 20 000 $. a partir de ce niveau de revenu, la pente devient graduellement moins abrupte et le taux decroit lentement pour atteindre tout de meme 75 % a 95 % a 100 000 $, selon le scenario. lecart de taux de remplacement entre les scenarios saccroit donc a mesure que le revenu de travail moyen des individus augmente, ce qui temoigne du fait que les differentes reformes analysees visent dabord les individus a revenu moyen ou eleve. ainsi, toutes les reformes analysees ici haussent les taux de remplacement par rapport au scenario de reference, et ce, de facon plus marquee pour les individus gagnant plus de 20 000 $ par annee en moyenne."
-      ],
-      "parent": "3. remplacement du revenu et rendement interne"
+      ]
     },
     {
       "title": "3.2 taux de rendement interne",
@@ -523,8 +503,7 @@
         "la rente longevite offre des rendements assez faibles, surtout pour les individus ayant le moins deducation. les diplomes universitaires gagnant 35 000 $ a 55 000 $ environ obtiennent, eux, 2 %; tous les autres individus obtiennent un rendement inferieur. on note cependant que les diplomes universitaires obtiennent toujours un rendement superieur a 1,5 % grace a leur longevite plus grande. le profil de rendement de la rente longevite est similaire a celui du scenario rverrente, ce dernier offrant toutefois un rendement plus faible aux individus a faible revenu qui sont fortement desavantages par un tel scenario en raison de linteraction avec le srg et un rendement plus eleve aux individus gagnant plus de 35 000 $. ce rendement identique de 2 % a 3 % pour tous ceux gagnant audela de ce seuil est aussi le rendement offert par le scenario celirente, qui ne depend pas du niveau de revenu. la neutralite fiscale du scenario celirente genere un profil de rendement en fonction du revenu parfaitement horizontal ce qui questionne la pertinence du rver par rapport au celi pour les individus a revenu faible ou moyen.",
         "la proposition mintzwilson differe de la rente longevite et du scenario rverrente quant au taux de rendement quil offre, qui est comparable a celui du scenario rverrente pour les revenus moyenseleves, mais egalement en raison de lexemption de cotisation au rrq pour des revenus allant jusqua 3 500 $. cette exemption est unique a mintzwilson, puisque wolfson ne hausse les cotisations qua partir de 0,5*mga, tandis que les trois autres scenarios ne prevoient aucune exemption de cotisation. cette exemption explique la difference de profil de rendement aux niveaux de revenu plus faibles.",
         "enfin, la proposition de wolfson semble offrir des rendements tres eleves, de lordre de 4 % a 6 %, pour les individus gagnant entre 20 000 $ et 65 000 $ environ. ceux gagnant davantage obtiennent tout de meme entre 2 % et 4 %. on note que les individus gagnant 15 000 $ ou moins obtiennent des rendements bien plus faibles, voire negatifs. bien quils ne devraient pas etre affectes par la reforme wolfson, la variation des revenus en cours de carriere fait en sorte quils sont affectes malgre tout (voir la soussection suivante). les dernieres observations permettent neanmoins de conclure que la proposition wolfson semble le mieux cibler les groupes souvent definis comme etant les plus a risque en termes de revenu a la retraite, soit les individus au milieu de la distribution des revenus de travail avec un possible effet indesirable au bas de la distribution. le scenario celirente, qui serait sans doute difficile a mettre en oeuvre de facon volontaire, offre toutefois le rendement le plus neutre du point de vue des revenus de travail et de la fiscalite existante, et maintient un ecart constant entre les groupes deducation."
-      ],
-      "parent": "3. remplacement du revenu et rendement interne"
+      ]
     },
     {
       "title": "3.3 decomposition des taux de rendement interne",
@@ -534,8 +513,7 @@
         "dans le cas de la rente longevite, la presence du srg a aussi pour effet de diminuer le taux de rendement chez les moins fortunes mais de facon un peu moins importante. la difference avec les autres scenarios tient surtout au fait que la rente longevite nest versee qua partir de 75 ans, ce qui vient en quelque sorte reduire le desavantage dont souffrent les individus a faible revenu. malgre cette difference, la rente longevite connait un rendement rehausse de 2 points de pourcentage en labsence de srg pour les individus gagnant 5 000 $, et toujours de 1,5 point de pourcentage environ a un revenu moyen de 15 000 $.",
         "avec la proposition wolfson, le srg devrait avoir peu dimpact puisque les faibles revenus sont exclus de la reforme. or on observe un certain effet, generalement plus faible que pour les autres scenarios de reforme. cet effet est principalement du a la variation des revenus en cours de carriere : notre processus de generation des revenus de travail inclut plusieurs chocs au fil des ans, ce qui fait en sorte que meme un individu gagnant un tres faible revenu moyen en carriere est susceptible de connaitre quelques annees lors desquelles son revenu sera suffisamment eleve pour quil soit touche par la hausse des taux de cotisation avec seulement une contrepartie partielle en termes de prestations une fois a la retraite, son revenu moyen en carriere ne le rendant pas admissible a des prestations supplementaires. cet aspect illustre la grande importance de prendre en compte la trajectoire complete des revenus de travail sur lensemble dune carriere, particulierement lorsque des reformes a la wolfson sont envisagees, cestadire avec des taux de cotisation et des prestations differencies selon le revenu.",
         "une autre source potentielle de variation du rendement des differents scenarios de reforme est la mortalite ou lesperance de vie differenciee par niveau deducation. or le graphique 5 indique que ce facteur a un impact plus limite sur le rendement des differentes propositions, qui setablit a environ 0,4 point de pourcentage pour les individus sans diplome secondaire. dit autrement, dans un monde ou ces individus auraient un risque de mortalite identique a la moyenne, le rendement supplementaire quils obtiendraient dans chaque scenario de reforme serait superieur de 0,4 point de pourcentage. cet effet est loin detre insignifiant, mais on voit quil est beaucoup plus petit que leffet du srg pour les individus a plus faible revenu. ce sont les individus gagnant plus de 30 000 $ par an qui sont davantage desavantages par la mortalite differenciee que par la presence du srg, ce qui est attendu puisque ce dernier sadresse aux individus a plus faible revenu."
-      ],
-      "parent": "3. remplacement du revenu et rendement interne"
+      ]
     },
     {
       "title": "3.4 simulation des rendements internes en labsence de revenus de retraite prives",
@@ -543,8 +521,7 @@
         "une critique possible de notre analyse tient au mode dimputation des revenus de retraite prives avant toute reforme. nous explorons donc leffet sur les taux de rendement des differents scenarios de reforme de supprimer completement ces revenus de retraite prives, autres que ceux generes par les propositions de reforme ellesmemes, bien entendu. le graphique 6 montre ces taux de rendement en labsence de revenus de retraite prives (reer ou regimes complementaires de retraite).",
         "on voit que toutes les reformes, sauf a nouveau le celirente, offrent un rendement plus faible en labsence de revenus prives de retraite. dans le cas de la rente longevite, ce constat sapplique surtout aux individus gagnant moins de 75 000 $. mintzwilson offre un rendement tres faible, voire negatif, a partir du milieu de la distribution des revenus de travail; la proposition de wolfson voit toutes ses courbes de rendement deplacees vers le bas de facon marquee pour les individus gagnant moins de 65 000 $; et le scenario rverrente offre desormais des rendements inferieurs pour les individus gagnant moins de 85 000 $. pour comprendre ces differences, il faut faire appel a linteraction des differentes propositions avec le srg.",
         "en effet, dans un monde sans revenus de retraite prives, tous les individus dans notre simulation sont admissibles au srg avant reforme puisque des revenus de retraite provenant uniquement de la psv et du rrq donnent droit a de petites prestations de srg. avec lintroduction dune reforme, plusieurs perdent lacces aux prestations du srg, ce qui se traduit par une baisse marquee du rendement quils obtiennent de chaque reforme, surtout pour les individus a revenu de travail moyeneleve (qui, eux, ne recoivent pas de srg dans la realite, avec revenus de retraite prives). les differences de baisse de rendement refletent les differences de structure des cotisationsprestations des differents scenarios de reforme."
-      ],
-      "parent": "3. remplacement du revenu et rendement interne"
+      ]
     },
     {
       "title": "conclusion",
@@ -554,8 +531,7 @@
         "on note par ailleurs que le profil de rendement en fonction du revenu varie considerablement dun scenario a lautre, tout comme le niveau du rendement. si la rente longevite offre un rendement assez faible pour tous, le celirente offre un rendement moyen pour tous, de lordre de 2 % a 3 %. on peut donc penser que la rente longevite serait moins attrayante que certaines alternatives privees, ce qui nest pas necessairement le cas des propositions de mintzwilson et de wolfson. mintzwilson offre des rendements moyens pour tous, a un niveau semblable au celirente, tandis que wolfson offre des rendements eleves aux individus gagnant plus de 20 000 $ par an, mais avec des effets negatifs au bas de la distribution. le scenario rverrente genere egalement des rendements negatifs au bas de la distribution des revenus de travail en raison, comme pour tous les scenarios, de linteraction avec le srg. ainsi, la rente longevite et le rverrente semblent etre supplantes par dautres scenarios analyses, wolfson offrant le meilleur rendement a un groupe cible de classe moyenne et le celirente offrant un rendement neutre par rapport au revenu et a la fiscalite (cestadire ne dependant pas des differences entre les taux dimposition marginaux durant la vie active et a la retraite).",
         "enfin, il convient de souligner que notre modelisation, par construction, ne permet de tenir compte daucun effet de comportement. bien que de tels effets seraient peu susceptibles de varier entre les differents scenarios, ils pourraient saverer non negligeables. par exemple, les travailleurs beneficiant dune prestation accrue du rrq, ou meme dune rente longevite a compter de 75 ans, pourraient tres bien decider de prendre leur retraite plus tot. or, une retraite hative se traduirait par des cotisations ou de lepargne totales plus faibles que dans nos scenarios, prenant possiblement la forme de penalites actuarielles. ces changements pourraient par la suite venir modifier les taux de remplacement et les taux de rendement obtenus pour les differents scenarios. de tels effets ne modifieraient cependant les resultats de notre analyse que sils different selon le niveau de revenu ou deducation des individus, ce qui reste possible etant donne notamment la presence de programmes conditionnels au revenu comme le srg.",
         "nous avons calcule dans cet article les taux de remplacement du revenu et les taux de rendement interne associes a differents scenarios de reforme, soit trois modifiant les programmes publics du 2e pilier et deux scenarios de comparaison faisant appel a des vehicules depargne privee existants. nous avons illustre leffet quont sur le rendement de ces reformes potentielles i) les variations de revenu de travail; ii) la presence et la structure du srg; et iii) la presence de differentiels de mortalite par niveau deducation. nos conclusions nont cependant trait quau rendement financier des differents scenarios analyses. un autre aspect qui meriterait detre inclus dans une analyse future concerne la valeur dassurance des differentes propositions et, par extension, la valeur de cellesci en termes dutilite pour les individus touches. ces considerations seront integrees a nos travaux futurs."
-      ],
-      "parent": null
+      ]
     }
   ],
   "figures": [

@@ -1,36 +1,37 @@
 {
   "title": "gestion supervisee dune unite de coagulation pour la potabilisation des eaux a partir dune methodologie dapprentissage et dexpertise",
+  "overline": "",
   "subtitle": "",
   "authors": [
     {
       "first_name": "bouchra",
       "last_name": "lamrini",
-      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
       "email": "blamrini@yahoo.fr",
+      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "marieveronique",
       "last_name": "le lann",
-      "affiliation": "laascnrs, universite de toulouse, 7, avenue du colonel roche, 31077 toulouse cedex 4, france",
       "email": "mvlelann@laas.fr",
+      "affiliation": "laascnrs, universite de toulouse, 7, avenue du colonel roche, 31077 toulouse cedex 4, france",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "el khadir",
       "last_name": "lakhal",
-      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
       "email": "",
+      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
       "website": "",
       "orcid": ""
     },
     {
       "first_name": "ahmed",
       "last_name": "benhammou",
-      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
       "email": "",
+      "affiliation": "laboratoire dautomatique, de lenvironnement et de procedes de transfert (laept), faculte de sciences semlalia, bp 2390, 40000 marrakech, maroc",
       "website": "",
       "orcid": ""
     }
@@ -89,7 +90,6 @@
   ],
   "themes": [],
   "language": "fr",
-  "annexes": [],
   "acknowledgements": "",
   "biographical_notes": [],
   "bibliographies": [
@@ -494,30 +494,14 @@
         "depuis plusieurs decennies, les etudes publiees sur la coagulation ont mis en evidence des mecanismes fortement complexes dependant dun nombre important de variables. ainsi, dimportants efforts et differentes approches ont ete developpes pour construire et mettre en oeuvre des modeles de controle automatique de la dose de coagulant (bazerbachi et al., 1986; evans et enoch, 1998; gagnon et al., 1997; lamrini et al., 2005; valentin et al., 1999) et des outils de supervision permettant doptimiser ce procede de traitement (kan et huang, 1998; liu et wu, 1997; standen et al., 1997). en ce qui concerne les outils dits de supervision, dans le cas des travaux de kan et huang (1998), meme si on parle de supervision ou de suivi, lessentiel du developpement porte sur la determination automatique de la dose de coagulant grace a un suivi optique. de meme dans le cas des travaux de standen et al. (1997), la modification automatique de la dose de coagulant se fait en rapport a la mesure de la turbidite et au nombre de particules colloidales mesurees au prealable par diffraction laser lors de jartests. les travaux de liu et wu (1997) sont quant a eux directement relies au developpement dun controleur flou allie a un detecteur de courant permettant dameliorer loperation de coagulation. on voit donc que, plus quun suivi de fonctionnement dune operation, il sagit plutot dun controle automatique de la dose de coagulant, lobjectif etant de determiner la dose a appliquer en fonction des parametres de leau brute observes. cependant, cette structure de controle automatique ne permet pas de diagnostiquer une derive ou un mauvais fonctionnement a elle seule. pour cela, il faut lui adjoindre une structure de supervision/diagnostic permettant de determiner letat de fonctionnement de lunite (cet etat de fonctionnement pouvant etre une defaillance).",
         "pour assurer une bonne gestion et contribuer au bon fonctionnement de ce procede, il semble necessaire dexploiter simultanement toutes les informations disponibles sur le procede (les caracteristiques de leau brute et leurs evolutions provenant des anomalies imprevues), et de son environnement, ainsi que les connaissances de lexpert. pour ces raisons, nous proposons de realiser la conduite supervisee de ce procede en utilisant une technique de classification par apprentissage, la technique lamda. une telle technique permet dexploiter et dagreger toute information sur le procede afin de reconnaitre des situations specifiques et agir, si possible, sur ce procede. lidee generale de la classification est levaluation des signaux significatifs du systeme (caracteristiques de leau brute, taux de coagulant, etc.), afin de reconnaitre les facteurs lies a une quelconque situation et daider loperateur a prendre une decision lors de lapparition de dysfonctionnement.",
         "le travail presente dans le cadre de cet article est structure de la maniere suivante : la premiere section presente le site dapplication choisi pour identifier les etats fonctionnels. dans la deuxieme section, on presente une breve description de la methode lamda. finalement, dans la troisieme section, des resultats experimentaux seront presentes et discutes. comme le montrent ces resultats obtenus lors de lapplication de la methodologie lamda aux donnees experimentales couvrant 4 annees de fonctionnement de la station de production deau potable de marrakech, ils ouvrent la possibilite dappliquer cette methode a la surveillance en temps reel de ce procede."
-      ],
-      "citations": [],
-      "figures": [],
-      "formulas": [],
-      "tables": [],
-      "urls": [],
-      "media_objects": [],
-      "references": [],
-      "subsections": []
+      ]
     },
     {
       "title": "2. presentation du site dapplication",
       "paragraphs": [
         "linstallation de traitement concernee par cette etude est la station de production deau potable rocade de la ville de marrakech. elle alimente en eau potable, de facon variable dans le temps, une population de 1,5 millions habitants. leau a lentree de la station provient dune prise situee dans le canal rocade. en cas de defaillance de la ressource (crues, pollution accidentelle, travaux de maintenance, etc.), la station peut etre alimentee a partir dun reservoir de mise en charge situe pres de la station de pompage takerkoust. en se referant aux historiques de la station, soixante pour cent des besoins de la ville de marrakech sont assures par la station rocade et les quarante pour cent restants sont fournis par leau des ressources souterraines (puits, forages, etc.). a noter que la capacite maximale de traitement de la station etudiee est denviron 1 400 l s‐1.",
         "compte tenu des caracteristiques de leau brute acheminee vers la station, les decideurs (office national de leau potable, onep) utilisent le procede physicochimique classique illustre par la figure 1. ce procede comporte les phases suivantes : la prechloration, la coagulationfloculation, la decantation, la filtration et la desinfection. cependant, la station presente des limites de fonctionnement au niveau du traitement des matieres en suspension (mes) presentes dans leau brute. ainsi, les limites de fonctionnement se presentent comme suit :"
-      ],
-      "citations": [],
-      "figures": [],
-      "formulas": [],
-      "tables": [],
-      "urls": [],
-      "media_objects": [],
-      "references": [],
-      "subsections": []
+      ]
     },
     {
       "title": "3. la methode de classification lamda",
@@ -532,72 +516,7 @@
         "dans le cas de lautoapprentissage, toute classe a du etre initialisee par la classe nic, cest pourquoi la formule de la mise a jour doit contenir ce parametre fictif n0 et elle devient :",
         "le parametre n0 > 0 determine linitialisation de lapprentissage. sa valeur peut etre choisie arbitrairement mais elle influe sur le pouvoir dabsorption de chaque classe nouvelle; plus n0 est grand, moins la classe nouvelle sera influencee par le premier element. par contre, en apprentissage dirige, ce parametre na pas dinfluence sur le resultat de la classification.",
         "dans le cas de la reconnaissance de formes, lelement est attribue a une classe significative ou rejete dans la classe residuelle nic. dans le cas de lapprentissage, sil est affecte a une classe significative, il y a modification des parametres de cette classe. en revanche, si la classe vide a la plus grande adequation, une nouvelle classe doit etre creee pour contenir cet element. il y a rejet si la classe vide est la plus proche et quil ny a pas possibilite de creation de nouvelles classes parce que le nombre maximum de classes creees est atteint."
-      ],
-      "citations": [],
-      "figures": [],
-      "formulas": [
-        {
-          "content": "",
-          "image_href": "016908are004n.png"
-        },
-        {
-          "content": "",
-          "image_href": "016908are006n.png"
-        },
-        {
-          "content": "",
-          "image_href": "016908are007n.png"
-        },
-        {
-          "content": "",
-          "image_href": "016908are008n.png"
-        },
-        {
-          "content": "",
-          "image_href": "016908are009n.png"
-        }
-      ],
-      "tables": [],
-      "urls": [],
-      "media_objects": [
-        {
-          "type": "equation",
-          "href": "016908are002n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are003n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are004n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are006n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are007n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are008n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are009n.png",
-          "title": "equation pleine grandeur"
-        }
-      ],
-      "references": [],
-      "subsections": []
+      ]
     },
     {
       "title": "4. resultats de la classification",
@@ -620,31 +539,7 @@
         "il a ete demontre que ces trois reseaux donnaient des resultats similaires et quil etait possible de passer du reseau 2 au reseau 1 par exemple.",
         "la demarche adoptee a ete deffectuer un apprentissage supervise et dadapter la classification realisee en fonction de levolution des nouvelles donnees. la figure 9 presente les resultats de la classification obtenus apres un apprentissage supervise en adoptant les memes parametres de classification que ceux initialement utilises. les resultats de classification montrent que lintroduction de la dose de coagulant comme descripteur supplementaire fait apparaitre un nouvel etat de fonctionnement degrade. les classes 7 et 8 identifiant cet etat de dysfonctionnement ont ete associees a letat coagulantalarme . il correspond a un fonctionnement en basse saison ou la qualite de leau ne necessite que de faibles taux de coagulant (10 a 45 mg l‐1). de plus, lintroduction de la dose de coagulant a permis daffiner letat de fonctionnement normal par la creation dune classe supplementaire.",
         "les memes etats fonctionnels identifies precedemment sont retrouves par les classes suivantes :"
-      ],
-      "citations": [],
-      "figures": [],
-      "formulas": [
-        {
-          "content": "",
-          "image_href": "016908are013n.png"
-        }
-      ],
-      "tables": [],
-      "urls": [],
-      "media_objects": [
-        {
-          "type": "equation",
-          "href": "016908are013n.png",
-          "title": "equation pleine grandeur"
-        },
-        {
-          "type": "equation",
-          "href": "016908are018n.png",
-          "title": "equation pleine grandeur"
-        }
-      ],
-      "references": [],
-      "subsections": []
+      ]
     },
     {
       "title": "5. conclusion",
@@ -652,113 +547,84 @@
         "dans ce travail, la technique de classification par apprentissage lamda a ete appliquee dans le but de realiser une conduite supervisee du procede de coagulation. nous avons montre les performances de la methode pour detecter les differentes sequences detats fonctionnels decrivant le comportement de ce procede. les principaux avantages de cette methode sont de permettre un apprentissage sequentiel supervise et non supervise et dadapter la classification realisee en fonction de levolution des donnees a classer. en outre, cette methode se differencie des autres techniques par la notation de ladequation nulle et lincidence de celleci sur la classification. dans la base de donnees, trois types detats fonctionnels ont ete reconnus : des etats de fonctionnement normal (la station se trouve la majorite du temps dans des conditions doperation normales), des etats de fonctionnement degrade identifies hors operation normale et dautres etats fonctionnels vers lesquels il est possible de transiter, en revenant toujours apres un temps plus ou moins long, a letat doperation normal. a noter que les resultats obtenus peuvent servir de base pour le suivi et la detection des defaillances au niveau des procedes de coagulation. une reconnaissance en ligne peut etre envisagee a partir de ce modele de reference pour determiner letat fonctionnel representant le procede une fois quune nouvelle observation se presente. en effet, le modele de reference nest pas toujours exhaustif du fait que, pour certaines situations, soit le recueil des donnees na pas ete possible ou quil existe des situations dont loccurrence est peu frequente. il est donc possible de faire evoluer la base dapprentissage au fur et a mesure de lapparition de nouveaux cas, en realisant des apprentissages dits specialises permettant de creer de nouvelles classes a partir delements non reconnus.",
         "des travaux sont actuellement realises pour permettre la validation automatique de la classification obtenue. jusqua present, seul lexpert etait juge de la validite de la classification obtenue. a laide dindices de mesure de compacite et de separation des classes exploitant le concept dentropies intraclasse et interclasse, il est possible de faire evoluer lindice dexigence, par exemple, afin dobtenir de maniere quasi automatique la classification avec les meilleures caracteristiques en matiere de compacite et de separation des classes. de plus, pour eviter des transitions vers des classes non representatives (lorsque lelement en question a des dam a deux classes tres peu differents par exemple), des etudes sont menees actuellement pour ne prendre en compte que des transitions significatives. ces deux modifications permettront a terme dobtenir plus facilement une classification plus compacte et deviter davoir des transitions non representatives.",
         "en se referant aux travaux realises dans ce domaine, il semble que lapplication de lapproche, realisee dans le cadre de cette etude, est la premiere de son genre qui ait pu montrer lutilite des techniques de classification dans le suivi et la surveillance de ce type de procede. il est clair que lobjectif final de letude est de pouvoir etendre cette surveillance a lensemble de la station de traitement rocade, de traiter toutes les informations issues des differents procedes de traitement (decantation, filtration, etc.) et de detecter le plus tot possible les derives de fonctionnement. de telles informations peuvent aider a identifier les pannes sur une unite situee en amont de la station mais aussi servir a la maintenance preventive des appareils comme les filtres ou les decanteurs."
-      ],
-      "citations": [],
-      "figures": [],
-      "formulas": [],
-      "tables": [],
-      "urls": [],
-      "media_objects": [],
-      "references": [],
-      "subsections": []
+      ]
     }
   ],
   "figures": [
     {
-      "label": "figure 1",
-      "caption": "",
+      "number": "figure 4",
+      "title": "",
       "source": ""
     },
     {
-      "label": "figure 2",
-      "caption": "",
+      "number": "figure 1",
+      "title": "chaine de traitement de la station rocade.",
       "source": ""
     },
     {
-      "label": "figure 3",
-      "caption": "",
+      "number": "figure 2",
+      "title": "degres dadequation marginale et globale.",
       "source": ""
     },
     {
-      "label": "(a)",
-      "caption": "",
+      "number": "figure 3",
+      "title": "caracteristiques de leau brute.",
       "source": ""
     },
     {
-      "label": "(b)",
-      "caption": "",
+      "number": "figure 5",
+      "title": "profil des classes issues de lautoapprentissage.",
       "source": ""
     },
     {
-      "label": "figure 5",
-      "caption": "",
+      "number": "figure 6",
+      "title": "resultats de la reconnaissance de formes.",
       "source": ""
     },
     {
-      "label": "figure 6",
-      "caption": "",
+      "number": "figure 7",
+      "title": "creation et modification des classes par apprentissage supervise.",
       "source": ""
     },
     {
-      "label": "figure 7",
-      "caption": "",
+      "number": "figure 8",
+      "title": "profil de classes issues de lapprentissage supervise.",
       "source": ""
     },
     {
-      "label": "figure 8",
-      "caption": "",
-      "source": ""
-    },
-    {
-      "label": "figure 9",
-      "caption": "",
+      "number": "figure 9",
+      "title": "classes issues de lapprentissage supervise avec la dose de coagulant",
       "source": ""
     }
   ],
   "tables": [
     {
-      "label": "tableau 1",
-      "caption": "frequence de contribution de chaque descripteur aux classes creees.",
-      "source": "",
-      "rows": [
-        [
-          "",
-          ""
-        ]
-      ]
+      "number": "tableau 1",
+      "title": "frequence de contribution de chaque descripteur aux classes creees.",
+      "content": "",
+      "note": "",
+      "parent": null
     },
     {
-      "label": "tableau 2",
-      "caption": "les etats fonctionnels associes aux classes issues de lautoapprentissage.",
-      "source": "",
-      "rows": [
-        [
-          "",
-          ""
-        ]
-      ]
+      "number": "tableau 2",
+      "title": "les etats fonctionnels associes aux classes issues de lautoapprentissage.",
+      "content": "",
+      "note": "",
+      "parent": null
     },
     {
-      "label": "tableau 3",
-      "caption": "les elements associes aux classes issues de lautoapprentissage et de la reconnaissance de formes.",
-      "source": "",
-      "rows": [
-        [
-          "",
-          ""
-        ]
-      ]
+      "number": "tableau 3",
+      "title": "les elements associes aux classes issues de lautoapprentissage et de la reconnaissance de formes.",
+      "content": "",
+      "note": "",
+      "parent": null
     },
     {
-      "label": "tableau 4",
-      "caption": "matrice de contingence (distance entre les deux classifications de 0.26).",
-      "source": "",
-      "rows": [
-        [
-          "",
-          ""
-        ]
-      ]
+      "number": "tableau 4",
+      "title": "matrice de contingence (distance entre les deux classifications de 0.26).",
+      "content": "",
+      "note": "",
+      "parent": null
     }
   ]
 }
