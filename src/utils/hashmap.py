@@ -3,9 +3,8 @@ from typing import Dict, List
 STRUCTURED_KEYS = {
     "authors": ["first_name", "last_name"],
     "editorial_team": ["first_name", "category"],  
-    "figures": ["label"],
-    "tables": ["label"],
-    "body": ["title"],
+    "figures": ["number", "title"],
+    "tables": ["number", "title"],
 }
 
 def make_hash_key(obj: Dict, type_: str) -> str:

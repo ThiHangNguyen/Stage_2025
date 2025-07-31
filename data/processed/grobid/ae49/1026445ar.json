@@ -1,0 +1,1201 @@
+{
+  "title": "un modele natrex synthetique pour une petite economie developpee ouverte contrainte sur les marches internationaux de capitaux",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "jeanfrancois",
+      "last_name": "hoarau",
+      "email": "jfhoarau@univreunion.fr",
+      "affiliation": "centre deconomie et de management de locean indien (cemoi), faculte de droit et de sciences economiques et politiques, universite de la reunion",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "lobjectif de cet article est de presenter un modele synthetique de taux de change reel dequilibre de type natural real exchange rate pour une petite economie developpee et ouverte mais confrontee a des marches de capitaux imparfaits.conformement a la tradition natrex, le taux de change reel dequilibre depend de lhorizon temporel considere.a moyen terme, il est determine, dans le cadre dun equilibre de flux, conjointement par un ensemble de fondamentaux reels (la productivite globale, la demande etrangere, les termes de lechange, le taux dinteret reel, la preference pour le present et les depenses publiques) et de variables predeterminees (le capital productif et la dette externe).a long terme, par contre, des ajustements de nature stockflux, lies aux mouvements endogenes des variables predeterminees, entrent en jeu.le taux de change reel dequilibre ne depend plus alors que des seuls fondamentaux reels.par ailleurs, cette presentation fait ressortir limportance de certains parametres structurels du modele, a savoir leffet richesse, lelasticite des importations par rapport a linvestissement national et le degre de mobilite internationale des capitaux.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "5.",
+    "la structure du modele natrex",
+    "equilibre fondamental et balance des paiements",
+    "la production domestique",
+    "consommation privee et consommation publique",
+    "9.",
+    "investissement domestique et activite economique",
+    "une demande nette dexportations",
+    "les relations dynamiques",
+    "variables predeterminees et dynamique de leconomie",
+    "taux dinteret reel, equilibre de portefeuille et imparfaite mobilite des capitaux",
+    "•",
+    "equilibre stationnaire et instabilite dynamique du change reel",
+    "limpact des determinants fondamentaux : les effets directs",
+    "la demande etrangere",
+    "la productivite globale des facteurs",
+    "le stock de capital productif",
+    "la preference pour le present et les depenses publiques",
+    "le taux dinteret reel mondial",
+    "les termes de lechange",
+    "la dette exterieure",
+    "les effets induits via limparfaite mobilite des capitaux",
+    "equilibre de long terme et parfaite mobilite des capitaux",
+    "une solution analytique",
+    "limpact de la demande etrangere",
+    "limpact de la productivite globale des facteurs",
+    "la preference pour le present",
+    "les depenses publiques",
+    "les termes de lechange",
+    "le taux dinteret reel mondial",
+    "equilibre de long terme et absence de mobilite des capitaux",
+    "une solution analytique",
+    "limpact de la demande etrangere",
+    "limpact de la productivite globale des facteurs",
+    "la preference pour le present et les depenses publiques",
+    "les termes de lechange",
+    "la construction du systeme dynamique",
+    "lanalyse dynamique de differents chocs",
+    "un du cote demande",
+    "_"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "agenor, p"
+      ],
+      "title": "structural adjustment and the washington consensus are not abandoned in 2000",
+      "monograph_title": "the world bank",
+      "editors": [],
+      "publisher": "pluto press",
+      "place": "washington, d.c",
+      "date": "2000",
+      "pages": "227233",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/jj.5938919.28",
+      "raw_reference": "agenor, p.r. (2000), the economics of adjustment and growth, the world bank, washington, d.c."
+    },
+    {
+      "authors": [
+        "allen, polly",
+        "stein, j",
+        "allen, polly"
+      ],
+      "title": "the economic and policy implications of the natrex approach",
+      "monograph_title": "fundamental determinants of exchange rates",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "",
+      "date": "1995",
+      "pages": "137",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/0198293062.003.0001",
+      "raw_reference": "allen, p. r. (1995), the economic and policy implications of the natrex approach, in stein, j. l., p. r. allen et alii, fundamental determinants of exchange rates, oxford clarendon press, p. 137."
+    },
+    {
+      "authors": [
+        "artus, p"
+      ],
+      "title": "le taux de change reel dequilibre : un modele general",
+      "monograph_title": "document de travail de la caisse des depots et consignations, janvier",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1998",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "artus, p. (1998), le taux de change reel dequilibre : un modele general, document de travail de la caisse des depots et consignations, janvier, no 199817/ei."
+    },
+    {
+      "authors": [
+        "asea, patrick",
+        "mendoza, enrique"
+      ],
+      "title": "the balassa‐samuelson model: a general‐equilibrium appraisal*",
+      "monograph_title": "review of international economics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1994",
+      "pages": "244267",
+      "volume": "2",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14679396.1994.tb00043.x",
+      "raw_reference": "asea, p. et e. mendoza (1994), the balassasamuelson model : a general equilibrium appraisal, review of international economics, 2(3) : 244267."
+    },
+    {
+      "authors": [
+        "balassa, bela"
+      ],
+      "title": "the purchasingpower parity doctrine: a reappraisal",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1964",
+      "pages": "584596",
+      "volume": "72",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/258965",
+      "raw_reference": "balassa, b. (1964), the purchasing power parity doctrine : a reappraisal, journal of political economy, 72 : 584596."
+    },
+    {
+      "authors": [
+        "balvers, ronald",
+        "bergstrand, jeffrey"
+      ],
+      "title": "government expenditure and equilibrium real exchange rates",
+      "monograph_title": "journal of international money and finance",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "667692",
+      "volume": "21",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s02615606(02)000153",
+      "raw_reference": "balvers, r. j. et j. h. bergstrand (2002), government expenditure and equilibrium real exchange rates, journal of international money and finance, 21 : 667692."
+    },
+    {
+      "authors": [
+        "bayoumi, t",
+        "clark, p",
+        "symansky, s",
+        "taylor, m"
+      ],
+      "title": "the robustness of equilibrium exchange rate calculations to alternative assumptions and methodologies",
+      "monograph_title": "estimating equilibrium exchange rates",
+      "editors": [
+        "williamson, j"
+      ],
+      "publisher": "institute for international economics",
+      "place": "washington, d.c.",
+      "date": "1994",
+      "pages": "1960",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bayoumi, t., p. clark, s. symansky et m. taylor (1994), the robustness of equilibrium exchange rate calculations to alternative assumptions and methodologies, in williamson j. (ed.), estimating equilibrium exchange rates, washington, d.c., institute for international economics, p.1960."
+    },
+    {
+      "authors": [
+        "belloc, marianna",
+        "federici, daniela"
+      ],
+      "title": "a twocountry natrex model for the euro/dollar",
+      "monograph_title": "journal of international money and finance",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "315335",
+      "volume": "29",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jimonfin.2008.12.013",
+      "raw_reference": "belloc, m. et d. federici (2010), a twocountry natrex model for the euro/dollar, journal of international money and finance, 29(2) : 315335."
+    },
+    {
+      "authors": [
+        "bergsten, f",
+        "davanne, o",
+        "jacquet, p"
+      ],
+      "title": "",
+      "monograph_title": "the case for joint management of exchange rate flexibility",
+      "editors": [],
+      "publisher": "institute for international economics",
+      "place": "",
+      "date": "1999",
+      "pages": "9999",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bergsten, f., o. davanne et p. jacquet (1999), the case for joint management of exchange rate flexibility, working paper no 999, institute for international economics."
+    },
+    {
+      "authors": [
+        "black, s"
+      ],
+      "title": "equilibrium exchange rate hedging",
+      "monograph_title": "estimating equilibrium exchange rate",
+      "editors": [
+        "williamson, j"
+      ],
+      "publisher": "national bureau of economic research",
+      "place": "washington",
+      "date": "1994",
+      "pages": "279292",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w2947",
+      "raw_reference": "black, s. (1994), on the concept and usefulness of the equilibrium rate of exchange, in williamson, j. (ed.)., estimating equilibrium exchange rate, institute for international economics, washington, p. 279292."
+    },
+    {
+      "authors": [
+        "burda, m",
+        "wyplosz, c"
+      ],
+      "title": "",
+      "monograph_title": "macroeconomics : a european text",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "",
+      "date": "1998",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "burda, m. et c. wyplosz (1998), macroeconomics : a european text, oxford university press."
+    },
+    {
+      "authors": [
+        "cartapanis, andre"
+      ],
+      "title": "le declenchement des crises de change : quavonsnous appris depuis dix ans?",
+      "monograph_title": "economie internationale",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2004",
+      "pages": "548",
+      "volume": "n o 97",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/ecoi.097.0005",
+      "raw_reference": "cartapanis, a. (2004), le declenchement des crises de change : quavons nous appris depuis dix ans?, economie internationale, 1 : 548."
+    },
+    {
+      "authors": [
+        "cassel, g"
+      ],
+      "title": "rates of exchange and purchasingpower parity",
+      "monograph_title": "scandinaviska kreditaktiebolaget quarterly report",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1925",
+      "pages": "1721",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "cassel, g. (1925), rates of exchange and purchasingpower parity, scandinaviska kreditaktiebolaget quarterly report, avril : 1721."
+    },
+    {
+      "authors": [
+        "clark, peter",
+        "macdonald, ronald"
+      ],
+      "title": "exchange rates and economic fundamentals: a methodological comparison of beers and feers",
+      "monograph_title": "equilibrium exchange rates",
+      "editors": [
+        "macdonald, r",
+        "stein, j"
+      ],
+      "publisher": "springer netherlands",
+      "place": "",
+      "date": "1999",
+      "pages": "285322",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9789401144117_10",
+      "raw_reference": "clark, p. b. et r. macdonald (1999), exchange rates and economic fundamentals : methodological comparison of beers and feers, in macdonald, r. et j. stein (eds), equilibrium exchange rate, kluwer acamedic publishers, p. 285322."
+    },
+    {
+      "authors": [
+        "clark, peter",
+        "macdonald, ronald"
+      ],
+      "title": "filtering the beer: a permanent and transitory decomposition",
+      "monograph_title": "imf working papers",
+      "editors": [],
+      "publisher": "international monetary fund (imf)",
+      "place": "",
+      "date": "2000",
+      "pages": "1",
+      "volume": "00",
+      "issue": "144",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.5089/9781451856439.001",
+      "raw_reference": "clark, p. b. et r. macdonald (2000), filtering the beer : a permanent and transitory decomposition, imf working paper, no 144."
+    },
+    {
+      "authors": [
+        "crouhy‐veyrac, liliane",
+        "saint marc, michele"
+      ],
+      "title": "the natural real exchange rate between the french franc and the deutschmark: implications for monetary union",
+      "monograph_title": "fundamental determinants of exchange rates",
+      "editors": [
+        "stein, j",
+        "allen, p"
+      ],
+      "publisher": "oxford university press",
+      "place": "oxford",
+      "date": "1995",
+      "pages": "126153",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/0198293062.003.0004",
+      "raw_reference": "crouhyveyrac, l. et m. saintmarc (1995), the natural real exchange rate between the franc and the deutsche mark : implications for monetary union in stein, j. et p. allen (eds), fundamental determinants of exchange rates, oxford, oxford university press, p. 126153."
+    },
+    {
+      "authors": [
+        "darne, olivier",
+        "hoarau, jeanfrancois"
+      ],
+      "title": "la parite des pouvoirs dachat pour leconomie chinoise : une nouvelle analyse par les tests de racine unitaire",
+      "monograph_title": "recherches economiques de louvain",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2008",
+      "pages": "219236",
+      "volume": "vol. 74",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/rel.742.0219",
+      "raw_reference": "darne, o. et j. f. hoarau ( 2008), tester la validite de la parite des pouvoirs dachat pour leconomie chinoise : une nouvelle analyse par les tests de racine unitaire, recherches economiques de louvain, 72(2) : 219236."
+    },
+    {
+      "authors": [
+        "de gregorio, jose",
+        "wolf, holger"
+      ],
+      "title": "terms of trade, productivity, and the real exchange rate",
+      "monograph_title": "nber working paper",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1994",
+      "pages": "4807",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w4807",
+      "raw_reference": "de gregorio, j. et h. g. wolf (1994), terms of trade, productivity and the real exchange rate, nber working paper, no 4807."
+    },
+    {
+      "authors": [
+        "detken, carsten",
+        "dieppe, alistair",
+        "henry, jerome",
+        "smets, frank",
+        "marin, carmen"
+      ],
+      "title": "determinants of the effective real exchange rate of the synthetic euro: alternative methodological approaches",
+      "monograph_title": "australian economic papers",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2002",
+      "pages": "404436",
+      "volume": "41",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14678454.00173",
+      "raw_reference": "detken, c., a. dieppe, j. henry, c. marin et f. smets (2002), determinants of the effective real exchange rate of the synthetic euro : alternative methodological approaches, australian economic papers, 41(4) : 404436."
+    },
+    {
+      "authors": [
+        "duval, r"
+      ],
+      "title": "",
+      "monograph_title": "les determinants de long terme du taux de change reel",
+      "editors": [],
+      "publisher": "",
+      "place": "paris",
+      "date": "2001",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "duval, r. (2001), les determinants de long terme du taux de change reel, these de doctorat, paris i."
+    },
+    {
+      "authors": [
+        "edwards, sebastian"
+      ],
+      "title": "openness, outward orientation, trade liberalization and economic performance in developing countries",
+      "monograph_title": "journal of economic literature",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1993",
+      "pages": "13581393",
+      "volume": "31",
+      "issue": "septembre",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w2908",
+      "raw_reference": "edwards, s. (1993), openness, trade liberalization, and growth in developing countries, journal of economic literature, 31(septembre) : 13581393."
+    },
+    {
+      "authors": [
+        "edwards, sebastian"
+      ],
+      "title": "real and monetary determinants of real exchange rate behavior: theory and evidence from developing countries",
+      "monograph_title": "estimating equilibrium exchange rates",
+      "editors": [
+        "williamson, j"
+      ],
+      "publisher": "national bureau of economic research",
+      "place": "washington, d.c.",
+      "date": "1994",
+      "pages": "6192",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w2721",
+      "raw_reference": "edwards, s. (1994), real and monetary determinants of real exchange rate behavior : theory and evidence from developing countries, in williamson, j. (ed.), estimating equilibrium exchange rates, washington, d.c., institute for international economics, p. 6192."
+    },
+    {
+      "authors": [
+        "elbadawi, i"
+      ],
+      "title": "estimating longrun equilibrium real exchange rates",
+      "monograph_title": "estimating equilibrium exchange rates",
+      "editors": [
+        "williamson, j"
+      ],
+      "publisher": "institute for international economics",
+      "place": "washington, d.c.",
+      "date": "1994",
+      "pages": "93132",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "elbadawi, i. (1994), estimating longrun equilibrium real exchange rates, in williamson, j. (ed.), estimating equilibrium exchange rates, washington, d.c., institute for international economics, p. 93132."
+    },
+    {
+      "authors": [
+        "faruqee, hamid",
+        "isard, peter",
+        "masson, paul"
+      ],
+      "title": "a macroeconomic balance framework for estimating equilibrium exchange rates",
+      "monograph_title": "equilibrium exchange rates",
+      "editors": [
+        "macdonald, r",
+        "stein, j"
+      ],
+      "publisher": "springer netherlands",
+      "place": "",
+      "date": "1999",
+      "pages": "103133",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9789401144117_4",
+      "raw_reference": "faruqee, h. p. isard et p. r. masson (1999), a macroeconomic balance framework for estimating equilibrium exchange rates, in macdonald, r. et j. stein (eds), equilibrium exchange rate, kluwer acamedic publishers, p.103134."
+    },
+    {
+      "authors": [
+        "fleming, wendell",
+        "zariphopoulou, thaleia"
+      ],
+      "title": "an optimal investment/consumption model with borrowing",
+      "monograph_title": "mathematics of operations research",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "1991",
+      "pages": "802822",
+      "volume": "16",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/moor.16.4.802",
+      "raw_reference": "fleming, w. h. et t. zariphopoulou (1991), an optimal investment/ consumption model with borrowing, mathematics of operations research, 16(4) : 802822."
+    },
+    {
+      "authors": [
+        "la russa, francesca",
+        "dalessio, veronica",
+        "suadoni, anna"
+      ],
+      "title": "designing a corpusbased syllabus of italian collocations: criteria, methods and procedures",
+      "monograph_title": "revue roumaine de linguistique",
+      "editors": [],
+      "publisher": "editura academiei romane",
+      "place": "la sapienza",
+      "date": "1998",
+      "pages": "377389",
+      "volume": "2023",
+      "issue": "4",
+      "organization": "universita di roma",
+      "notes": "",
+      "url": "",
+      "doi": "10.59277/rrl.2023.4.03",
+      "raw_reference": "gandolfo, g. et a. felettigh (1998), the natrex : an alternative approach. theory and empirical verifications, cidei working paper, no 52, universita di roma, la sapienza."
+    },
+    {
+      "authors": [
+        "hinkle, l",
+        "montiel, p"
+      ],
+      "title": "",
+      "monograph_title": "exchange rate misalignment : concepts and measurement for developing countries",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "new york",
+      "date": "1999",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "hinkle, l. e. et p. montiel (1999), exchange rate misalignment : concepts and measurement for developing countries, oxford university press, new york."
+    },
+    {
+      "authors": [
+        "hoarau, j"
+      ],
+      "title": "le mesalignement du taux de change reel dans le cadre dune petite economie ouverte : causes, procedures destimation et politiques de correction",
+      "monograph_title": "une application a leconomie australienne",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "universite de la reunion",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "hoarau, j.f. (2004), le mesalignement du taux de change reel dans le cadre dune petite economie ouverte : causes, procedures destimation et politiques de correction. une application a leconomie australienne, these de doctorat, universite de la reunion."
+    },
+    {
+      "authors": [
+        "hoarau, j.f"
+      ],
+      "title": "les regimes monetaires en australie, 19772000: une mise en perspective a laide dun indicateur de distorsion du taux de change reel",
+      "monograph_title": "economie internationale",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2006",
+      "pages": "85112",
+      "volume": "n o 105",
+      "issue": "1",
+      "organization": "",
+      "notes": "premier trimestre",
+      "url": "",
+      "doi": "10.3917/ecoi.105.0085",
+      "raw_reference": "hoarau, j.f. (2006), les regimes monetaires en australie, 19772000 : une mise en perspective a laide dun indicateur de distorsion du taux de change reel, economie internationale, 105(premier trimestre) : 85112."
+    },
+    {
+      "authors": [
+        "hoarau, jeanfrancois",
+        "nurbel, alain",
+        "latchimy, nelson"
+      ],
+      "title": "foreign demand, investment and trade balance: the case of australia",
+      "monograph_title": "journal of business & economics research (jber)",
+      "editors": [],
+      "publisher": "clute institute",
+      "place": "",
+      "date": "2003",
+      "pages": "4959",
+      "volume": "1",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.19030/jber.v1i4.2998",
+      "raw_reference": "hoarau, j.f., n. latchimy et a. nurbel (2003), foreign demand, domestic investment and trade balance : the case of australia, journal of business and economic research, 1(4) : 4959."
+    },
+    {
+      "authors": [
+        "isard, p"
+      ],
+      "title": "",
+      "monograph_title": "exchange rate economics, cambridge surveys of economic literature",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "isard, p. (1997), exchange rate economics, cambridge surveys of economic literature."
+    },
+    {
+      "authors": [
+        "isard, peter",
+        "faruqee, hamid"
+      ],
+      "title": "exchange rate assessment: extension of the macroeconomic balance approach",
+      "monograph_title": "occasional paper",
+      "editors": [],
+      "publisher": "international monetary fund",
+      "place": "washington d. c",
+      "date": "1998",
+      "pages": "",
+      "volume": "167",
+      "issue": "",
+      "organization": "",
+      "notes": "imf",
+      "url": "",
+      "doi": "10.5089/9781557757319.084",
+      "raw_reference": "isard, p. et h. faruqee (1998), exchange rate assessment : extensions of the macroeconomic balance approach, occasional paper 167, imf, washington d. c."
+    },
+    {
+      "authors": [
+        "joly, herve",
+        "prigent, celine",
+        "sobczak, nicolas"
+      ],
+      "title": "le taux de change reel dequilibre : une introduction",
+      "monograph_title": "economie & prevision",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "1996",
+      "pages": "121",
+      "volume": "123",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ecop.1996.5787",
+      "raw_reference": "joly, c. prigent et n. sobczak (1996), le taux de change reel dequilibre : une introduction, economie et prevision, 123124 : 121."
+    },
+    {
+      "authors": [
+        "lim, guay",
+        "stein, jerome"
+      ],
+      "title": "the dynamics of the real exchange rate and current account in a small open economy: australia",
+      "monograph_title": "fundamental determinants of exchange rates",
+      "editors": [
+        "stein, j",
+        "allen, p"
+      ],
+      "publisher": "oxford university press",
+      "place": "oxford",
+      "date": "1995",
+      "pages": "85125",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "fundamental determinants of exchange rates",
+      "url": "",
+      "doi": "10.1093/0198293062.003.0003",
+      "raw_reference": "lim, g. et j. stein (1995), the dynamics of the real exchange rate and foreign debt in a small open economy : australia, in stein, j., p. allen et alii (eds), fundamental determinants of exchange rates, oxford, oxford university press, p. 85125."
+    },
+    {
+      "authors": [
+        "macdonald, ronald"
+      ],
+      "title": "what do we really know about real exchange rates?",
+      "monograph_title": "equilibrium exchange rates",
+      "editors": [
+        "macdonald, r",
+        "stein, j"
+      ],
+      "publisher": "springer netherlands",
+      "place": "",
+      "date": "1999",
+      "pages": "1965",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9789401144117_2",
+      "raw_reference": "macdonald, r. (1999), what do we really know about real exchange rates, in macdonald, r. et j. stein (eds), equilibrium exchange rate, kluwer acamedic publishers, kluwer academic publisher, p. 1966."
+    },
+    {
+      "authors": [
+        "macdonald, ronald",
+        "stein, jerome"
+      ],
+      "title": "introduction: equilibrium exchange rates",
+      "monograph_title": "equilibrium exchange rates",
+      "editors": [],
+      "publisher": "springer netherlands",
+      "place": "",
+      "date": "1999",
+      "pages": "117",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9789401144117_1",
+      "raw_reference": "macdonald, r. et j. l. stein (1999), equilibrium exchange rates, kluwer academic publishers."
+    },
+    {
+      "authors": [
+        "malinvaud, e"
+      ],
+      "title": "capital productif, incertitudes et profitabilite",
+      "monograph_title": "annales deconomie et de statistique",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1987",
+      "pages": "1",
+      "volume": "5",
+      "issue": "5",
+      "organization": "",
+      "notes": "janviermars",
+      "url": "",
+      "doi": "10.2307/20075634",
+      "raw_reference": "malinvaud, e. (1987), capital productif, incertitudes et profitabilite, annales deconomie et de statistiques, 5(janviermars) : 136."
+    },
+    {
+      "authors": [
+        "martinez, marin",
+        "c"
+      ],
+      "title": "the structural approach of natrex model on equilibrium exchange rates",
+      "monograph_title": "documentos de economia finanzas internacionales",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "octobre",
+      "url": "",
+      "doi": "",
+      "raw_reference": "marin martinez, c. (2003), the structural approach of natrex model on equilibrium exchange rates, documentos de economia finanzas internacionales, 03/03(octobre)."
+    },
+    {
+      "authors": [
+        "montiel, p",
+        "hinkle, l",
+        "montiel, p"
+      ],
+      "title": "",
+      "monograph_title": "the longrun equilibrium real exchange rate : conceptual issues and empirical research",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "new york",
+      "date": "1999",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "exchange rate misalignment : concepts and measurement for developing countries",
+      "url": "",
+      "doi": "",
+      "raw_reference": "montiel, p. (1999), the longrun equilibrium real exchange rate : conceptual issues and empirical research, in hinkle, l. e. et p. montiel, exchange rate misalignment : concepts and measurement for developing countries, oxford university press, new york."
+    },
+    {
+      "authors": [
+        "rey, serge"
+      ],
+      "title": "lapport du natrex a la modelisation des taux de change dequilibre : theorie et application au dollar canadien",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2009",
+      "pages": "131181",
+      "volume": "85",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/044252ar",
+      "raw_reference": "rey, s. (2009), lapport du natrex a la modelisation des taux de change dequilibre : theorie et application au dollar canadien, lactualite economique, revue danalyse economique, 85(2) : 131181."
+    },
+    {
+      "authors": [
+        "samuelson, paul"
+      ],
+      "title": "theoretical notes on trade problems",
+      "monograph_title": "the review of economics and statistics",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1964",
+      "pages": "145",
+      "volume": "46",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1928178",
+      "raw_reference": "samuelson, p. (1964), theoretical problems on trade problems, review of economics and statistics, 46 : 145154."
+    },
+    {
+      "authors": [
+        "song, chiyoung"
+      ],
+      "title": "the real exchange rate and the current account balance in japan",
+      "monograph_title": "journal of the japanese and international economies",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1997",
+      "pages": "143184",
+      "volume": "11",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jjie.1997.0378",
+      "raw_reference": "song, c. y. (1997), the real exchange rate and the current account balance in japan, journal of the japanese and international economies, 11(2) : 143184."
+    },
+    {
+      "authors": [
+        "stein, jerome"
+      ],
+      "title": "the natural real exchange rate of the united states dollar, and determinants of capital flows",
+      "monograph_title": "fundamental determinants of exchange rates",
+      "editors": [
+        "stein, j",
+        "allen, p"
+      ],
+      "publisher": "oxford university press",
+      "place": "oxford",
+      "date": "1995",
+      "pages": "3884",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/0198293062.003.0002",
+      "raw_reference": "stein, j. (1995), the natural exchange rate of the us dollar and determinants of capital flows, in stein, j., p. r. allen et alii (eds), fundamental determinants of exchange rate, oxford, clarendon press, p. 3884."
+    },
+    {
+      "authors": [
+        "stein, jerome"
+      ],
+      "title": "the evolution of the real value of the us dollar relative to the g7 currencies",
+      "monograph_title": "equilibrium exchange rates",
+      "editors": [
+        "macdonald, r",
+        "stein, j"
+      ],
+      "publisher": "springer netherlands",
+      "place": "",
+      "date": "1999",
+      "pages": "67101",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9789401144117_3",
+      "raw_reference": "stein, j. (1999), the evolution of the real value of the us dollar relative to the g7 currencies, in macdonald, r. et j. stein (eds), equilibrium exchange rate, kluwer acamedic publishers, kluwer academic publisher, p. 67102."
+    },
+    {
+      "authors": [
+        "stein, jerome"
+      ],
+      "title": "stochastic optimal control, international finance, and debt crises",
+      "monograph_title": "stochastic optimal control, intemational finance, and debt crisis",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "new york",
+      "date": "2006",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/0199280576.001.0001",
+      "raw_reference": "stein, j. (2006), stochastic optimal control, intemational finance, and debt crisis, oxford university press, new york."
+    },
+    {
+      "authors": [
+        "stein, jerome",
+        "allen, polly"
+      ],
+      "title": "fundamental determinants of exchange rates",
+      "monograph_title": "fundamental determinants of exchange rates",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "oxford",
+      "date": "1995",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/0198293062.001.0001",
+      "raw_reference": "stein, j., p.r. allen et alii (1995), fundamental determinants of exchange rates, oxford, clarendon press."
+    },
+    {
+      "authors": [
+        "stein, jerome",
+        "paladino, giovanna"
+      ],
+      "title": "exchange rate misalignments and crises",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "111151",
+      "volume": "52",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.272608",
+      "raw_reference": "stein, j. et g. paladino (2001), exchange rate misalignments and crises, review of economics, 52(2) : 111151."
+    },
+    {
+      "authors": [
+        "stein, jerome",
+        "sauernheimer, karlhans"
+      ],
+      "title": "the equilibrium real exchange rate of germany",
+      "monograph_title": "the globalization of markets",
+      "editors": [],
+      "publisher": "physicaverlag hd",
+      "place": "",
+      "date": "1995",
+      "pages": "1347",
+      "volume": "",
+      "issue": "",
+      "organization": "brown university department of economics working paper ; brown university",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783642592461_3",
+      "raw_reference": "stein, j. et k. sauernheimer (1995), the real exchange rate of germany, brown university department of economics working paper, no 9613, brown university."
+    },
+    {
+      "authors": [
+        "stemitsiotis, l"
+      ],
+      "title": "taux de change de reference et systeme monetaire international",
+      "monograph_title": "economica",
+      "editors": [],
+      "publisher": "",
+      "place": "paris",
+      "date": "1992",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "stemitsiotis, l. (1992), taux de change de reference et systeme monetaire international, economica, paris."
+    },
+    {
+      "authors": [
+        "tobin, james"
+      ],
+      "title": "a general equilibrium approach to monetary theory",
+      "monograph_title": "journal of money, credit and banking",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1969",
+      "pages": "15",
+      "volume": "1",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1991374",
+      "raw_reference": "tobin, j. (1969), a equilibrium approach to monetary theory, journal of money credit and banking, 1 : 1529."
+    },
+    {
+      "authors": [
+        "williamson, john"
+      ],
+      "title": "more on choosing the right rules for exchange‐rate management",
+      "monograph_title": "the world economy",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1985",
+      "pages": "8183",
+      "volume": "8",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14679701.1985.tb00379.x",
+      "raw_reference": "williamson, j. (1985), the exchange rate system, mit press."
+    },
+    {
+      "authors": [
+        "williamson, john"
+      ],
+      "title": "exchange rate economics",
+      "monograph_title": "estimating equilibrium exchange rate",
+      "editors": [],
+      "publisher": "world bank, washington, dc",
+      "place": "washington, d.c.",
+      "date": "1994",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1596/28039",
+      "raw_reference": "williamson, j. (1994), estimating equilibrium exchange rate, washington, d.c., institute for international economics."
+    },
+    {
+      "authors": [
+        "shrestha, sony",
+        "white, kenneth",
+        "minelli, caterina",
+        "tewfik, ihab",
+        "thapa, panna",
+        "tewfik, sundus"
+      ],
+      "title": "a perspective on nanomedicine: focus on cardiovascular diseases",
+      "monograph_title": "international journal of food, nutrition and public health",
+      "editors": [],
+      "publisher": "world association for sustainable development (wasd)",
+      "place": "",
+      "date": "2008. 2008",
+      "pages": "110118",
+      "volume": "11",
+      "issue": "12",
+      "organization": "centre for international capital markets, london metropolitan business school, london metropolitan university",
+      "notes": "",
+      "url": "",
+      "doi": "10.47556/j.ijfnph.11.1.2019.6",
+      "raw_reference": "you, f.k. et n. sarantis (2008a), an extended natrex model for china, discussion paper, no 20082, centre for international capital markets, london metropolitan business school, london metropolitan university."
+    },
+    {
+      "authors": [
+        "you, kefei",
+        "sarantis, nicholas"
+      ],
+      "title": "structural breaks and the equilibrium real effective exchange rate of china: a natrex approach",
+      "monograph_title": "china economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "11461163",
+      "volume": "23",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.chieco.2012.08.002",
+      "raw_reference": "you, f.k. et n. sarantis (2012), structural breaks and the equilibrium real effective exchange rate of china : a natrex approach, china economic review, 23(4) : 11461163."
+    }
+  ],
+  "notes": [
+    "[2] dans la version absolue, le taux de change nominal est determine par le rapport entre les niveaux de prix entre deux pays. le niveau dequilibre du taux de change reel se deduit alors facilement de cette relation puisquil est finalement egal a lunite. dans la version relative, le taux de change nominal evolue de maniere a effacer les ecarts dinflation entre pays. le taux de change reel est donc constant et nest plus forcement unitaire.",
+    "[10] nous supposons que les consommateurs prives considerent leur revenu sur la base du pib plutot que du pnb. cela permet devacuer une source de complexite liee au terme des paiements dinterets sur la dette.",
+    "[11] nous montrons par la suite que cet effet richesse, conformement a la tradition des modeles natrex, occupe une place determinante dans notre approche, notamment dans le mecanisme de stabilisation de la dette exterieure. il constitue egalement une des principales limites des approches natrex. en effet, le fait de stipuler que la fonction de consommation globale des menages integre un tel effet richesse implique que les agents prives de leconomie domestique incorporent dans leur comportement de consommation la position exterieure nette de la nation, ce qui est rarement le cas dans la realite. stein (1995) reconnait luimeme ce defaut et indique que ce mecanisme tient encore si la position exterieure nette constitue une variable explicative du comportement budgetaire de letat.",
+    "[12] la formulation de la contrainte budgetaire de letat est tres reductrice. en effet, elle evacue demblee les sources de financement hors impot et la dimension intertemporelle. toutefois, puisque le modele est ecrit en termes reels et quil se place directement dans une optique de moyenlong terme, cette simplification ne pose pas de probleme majeur.",
+    "[13] pour formaliser la relation existant entre linvestissement et la situation sur les marches boursiers, tobin definit le coefficient q comme le rapport entre la valeur boursiere de la firme et sa valeur comptable, cestadire la valeur de remplacement du capital. ensuite, linvestissement est traite comme une fonction positive de q. si q est inferieur a lunite, le capital nouveau coute trop cher par rapport a la valorisation boursiere du capital existant. il est donc preferable dacheter une entreprise sur le marche plutot que dinvestir. si, au contraire, q est superieur a lunite, il devient rentable dinvestir, puisque les anticipations de profit incorporees dans les cours boursiers depassent le cout dachat du capital.",
+    "[14] nous faisons lhypothese que le pays produit un bien qui est consomme et exporte au meme prix p x.",
+    "[15] le taux de change reel peut aussi influencer le coefficient q. neanmoins, sa prise en compte ne bouleverse pas les resultats densemble (duval, 2001).",
+    "[16] cf. note de bas de page 3.",
+    "[33] la baisse de la productivite marginale et la hausse du taux dinteret reel dominent lamelioration des anticipations de demande."
+  ],
+  "figures": [
+    {
+      "number": "3",
+      "title": "la dynamique du capital productif f k i > 0 i < 0 k.",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

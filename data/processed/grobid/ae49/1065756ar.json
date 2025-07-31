@@ -1,0 +1,1939 @@
+{
+  "title": "democratie, stabilite politique et croissance economique : estimation a partir dun modele en panel dynamique",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "ben",
+      "last_name": "makrem",
+      "email": "",
+      "affiliation": "faculte des sciences economiques et de gestion de mahdia universite de monastir faculte des sciences economiques et de gestion de mahdia universite de monastir",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "",
+      "last_name": "doudou",
+      "email": "",
+      "affiliation": "faculte des sciences economiques et de gestion de mahdia universite de monastir faculte des sciences economiques et de gestion de mahdia universite de monastir",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "faycel",
+      "last_name": "rahali",
+      "email": "",
+      "affiliation": "faculte des sciences economiques et de gestion de mahdia universite de monastir faculte des sciences economiques et de gestion de mahdia universite de monastir",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "la revue de la litterature suggere que la relation entre democratie et croissance est ambigue.dune part les etudes theoriques sont divisees sur limpact de la nature du regime politique sur la croissance.dautre part, les travaux empiriques sur la question aboutissent a des resultats qui restent souvent perplexes sur lexistence dune correlation entre les deux concepts.lobjectif de ce travail est dexaminer la nature de cette relation sur un echantillon de 79 pays sur la periode 19842008 et de verifier si elle depend de la stabilite politique.ce travail debouche sur les principaux resultats suivants : (i) la stabilite politique est une variable cle determinant de la croissance, (ii) leffet de la democratie sur la croissance est statistiquement insignifiant en labsence dun cadre politique stable, (iii) finalement, la democratie menee dans un environnement politiquement stable est deffet significativement positif sur la croissance.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "revue de la litterature",
+    "democratie et croissance",
+    "role de la stabilite politique",
+    "donnees et methodologie",
+    "modele et methode destimation",
+    "definition et mesure des variables",
+    "variable dependante",
+    "variables institutionnelles a) les indicateurs de democratie",
+    "6.",
+    "b) lindice de stabilite politique",
+    "variables de controle",
+    "analyse descriptive",
+    "analyse graphique",
+    "graphique 1",
+    "9.",
+    "estimations et interpretations",
+    "resultats pour lechantillon total",
+    "resultats pour chaque groupe de pays"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "acemoglu, daron",
+        "johnson, simon",
+        "robinson, james",
+        "yared, pierre"
+      ],
+      "title": "income and democracy",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2008",
+      "pages": "808842",
+      "volume": "98",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.98.3.808",
+      "raw_reference": "acemoglu, d., s. johnson, j.a. robinson, j.a. et p. yared (2008), income and democracy, american economic review, 98 (3) : 808842."
+    },
+    {
+      "authors": [
+        "acemoglu, daron",
+        "johnson, simon",
+        "robinson, james",
+        "yared, pierre"
+      ],
+      "title": "reevaluating the modernization hypothesis",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "10431058",
+      "volume": "56",
+      "issue": "8",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmoneco.2009.10.002",
+      "raw_reference": "acemoglu, d., s. johnson, j.a. robinson et p. yared (2009), reevaluating the modernization hypothesis, journal of monetary economics, 56 : 10431058."
+    },
+    {
+      "authors": [
+        "acemoglu, daron",
+        "naidu, suresh",
+        "restrepo, pascual",
+        "robinson, james"
+      ],
+      "title": "democracy does cause growth",
+      "monograph_title": "nber working paper",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2014. 20004",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w20004",
+      "raw_reference": "acemoglu, d., s. naidu, p. restrepo et j.a. robinson (2014), democracy does cause growth, nber working paper 20004, national bureau of economic research, inc."
+    },
+    {
+      "authors": [
+        "acemoglu, d",
+        "robinson, s"
+      ],
+      "title": "",
+      "monograph_title": "economic origins of dictatorship and democracy",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "cambridge",
+      "date": "2006",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "acemoglu, d. et s. robinson (2006), economic origins of dictatorship and democracy, cambridge: cambridge university press."
+    },
+    {
+      "authors": [
+        "aisen, ari",
+        "veiga, francisco"
+      ],
+      "title": "how does political instability affect economic growth?",
+      "monograph_title": "european journal of political economy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "151167",
+      "volume": "29",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.ejpoleco.2012.11.001",
+      "raw_reference": "aisen, a. et f. j. veiga (2013), how does political instability affect economic growth?, european journal of political economy, 29(1) : 151167."
+    },
+    {
+      "authors": [
+        "alesina, alberto",
+        "perotti, roberto"
+      ],
+      "title": "income distribution, political instability, and investment",
+      "monograph_title": "european economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1996",
+      "pages": "12031228",
+      "volume": "40",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/00142921(95)000305",
+      "raw_reference": "alesina, a. et r. perotti (1996), income distribution, political instability and investment, european economic review, 40 : 12031228."
+    },
+    {
+      "authors": [
+        "alesina, alberto",
+        "ozler, sule",
+        "roubini, nouriel",
+        "swagel, phillip"
+      ],
+      "title": "political instability and economic growth",
+      "monograph_title": "journal of economic growth",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1996",
+      "pages": "189211",
+      "volume": "1",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w4173",
+      "raw_reference": "alesina, a., s. ozler, n. roubini et p. swagel (1996), political instability and economic growth, journal of economic growth, 1(2) : 189211."
+    },
+    {
+      "authors": [
+        "alesina, a",
+        "rodrik, d"
+      ],
+      "title": "distributive politics and economic growth",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1994",
+      "pages": "465490",
+      "volume": "109",
+      "issue": "2",
+      "organization": "",
+      "notes": "cix",
+      "url": "",
+      "doi": "10.2307/2118470",
+      "raw_reference": "alesina, a. et d. rodrik (1994), distributive politics and economic growth, quarterly journal of economics, cix (2) : 465490."
+    },
+    {
+      "authors": [
+        "alesina, alberto",
+        "tabellini, guido"
+      ],
+      "title": "external debt, capital flight and political risk",
+      "monograph_title": "journal of international economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1989",
+      "pages": "199220",
+      "volume": "27",
+      "issue": "34",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/00221996(89)900524",
+      "raw_reference": "alesina, a. et g tabellini (1989), external debt, capital flight and political risk, journal of international economics, 27(34) : 199220."
+    },
+    {
+      "authors": [
+        "arellano, manuel",
+        "bond, stephen"
+      ],
+      "title": "some tests of specification for panel data: monte carlo evidence and an application to employment equations",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1991",
+      "pages": "277",
+      "volume": "58",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2297968",
+      "raw_reference": "arellano, m. et s. bond (1991), some tests of specification for panel data: monte carlo evidence and an application to employment equations, the review of economic studies, 58 : 277297."
+    },
+    {
+      "authors": [
+        "arellano, manuel",
+        "bover, olympia"
+      ],
+      "title": "another look at the instrumental variable estimation of errorcomponents models",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1995",
+      "pages": "2951",
+      "volume": "68",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03044076(94)01642d",
+      "raw_reference": "arellano, m. et o. bover (1995), another look at the instrumental variable estimation of errorcomponent models, journal of econometrics, 68 : 2951."
+    },
+    {
+      "authors": [
+        "asiedu, elizabeth",
+        "lien, donald"
+      ],
+      "title": "democracy, foreign direct investment and natural resources",
+      "monograph_title": "journal of international economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "99111",
+      "volume": "84",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jinteco.2010.12.001",
+      "raw_reference": "asiedu, e. et d. lien (2011), democracy, foreign direct investment and natural resources, journal of international economics, 84 : 99111"
+    },
+    {
+      "authors": [
+        "b"
+      ],
+      "title": "",
+      "monograph_title": "econometric analysis of panel data, 4e edition",
+      "editors": [],
+      "publisher": "john wiley & sons",
+      "place": "chichester",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "baltagi, b.h. (2008), econometric analysis of panel data, 4e edition, chichester: john wiley & sons."
+    },
+    {
+      "authors": [
+        "a",
+        "slesman, l",
+        "wohar, m"
+      ],
+      "title": "inflation",
+      "monograph_title": "inflation uncertainty, and economic growth in emerging and developing countries: panel data evidence",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2016",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://dx.doi.org/10.1016/j.ecosys.2016.02.009",
+      "doi": "10.1016/j.ecosys.2016.02.009",
+      "raw_reference": "baharumshah, a. z., l. slesman et m. e. wohar (2016), inflation, inflation uncertainty, and economic growth in emerging and developing countries: panel data evidence, economic systems, http://dx.doi.org/10.1016/j. ecosys.2016.02.009."
+    },
+    {
+      "authors": [
+        "j"
+      ],
+      "title": "democracy & growth",
+      "monograph_title": "nber working paper",
+      "editors": [],
+      "publisher": "national bureau of economic research, inc",
+      "place": "",
+      "date": "1994",
+      "pages": "",
+      "volume": "4909",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barro, j.r. (1994), democracy & growth, nber working paper no. 4909, national bureau of economic research, inc."
+    },
+    {
+      "authors": [
+        "r"
+      ],
+      "title": "democracy and growth",
+      "monograph_title": "journal of economic growth",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1996",
+      "pages": "127",
+      "volume": "1",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barro, r. j. (1996), democracy and growth, journal of economic growth, 1(1) : 127."
+    },
+    {
+      "authors": [
+        "r"
+      ],
+      "title": "",
+      "monograph_title": "determinants of economic growth: a crosscountry empirical studies",
+      "editors": [],
+      "publisher": "mit press",
+      "place": "cambridge, mass",
+      "date": "1997",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barro, r. (1997), determinants of economic growth: a crosscountry empirical studies, cambridge, mass, mit press."
+    },
+    {
+      "authors": [
+        "r"
+      ],
+      "title": "",
+      "monograph_title": "determinant of democracy journal of political economy",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1999",
+      "pages": "158183",
+      "volume": "107",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barro, r. j. (1999), determinant of democracy journal of political economy, 107 : 158183."
+    },
+    {
+      "authors": [
+        "baum, matthew",
+        "lake, david"
+      ],
+      "title": "the<i>political</i>economy of growth: democracy and human capital",
+      "monograph_title": "american journal of political science",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2003",
+      "pages": "333347",
+      "volume": "47",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/15405907.00023",
+      "raw_reference": "baum, m. a., et d.a. lake (2003), the political economy of growth: democracy and human capital, american journal of political science, 47(2) : 333347."
+    },
+    {
+      "authors": [
+        "beck, thorsten"
+      ],
+      "title": "the econometrics of finance and growth",
+      "monograph_title": "policy research working paper",
+      "editors": [],
+      "publisher": "world bank, washington, dc",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "4608",
+      "issue": "",
+      "organization": "",
+      "notes": "wps",
+      "url": "",
+      "doi": "10.1596/181394504608",
+      "raw_reference": "beck, t. (2008), the econometrics of finance and growth, policy research working paper, wps4608, world bank."
+    },
+    {
+      "authors": [
+        "r",
+        "bond, s"
+      ],
+      "title": "initial conditions and moment restrictions in dynamic panel data models",
+      "monograph_title": "journal of econometrics",
+      "editors": [
+        "b",
+        "kudamatsu, m"
+      ],
+      "publisher": "harvard university press",
+      "place": "",
+      "date": "1998. 2008",
+      "pages": "452510",
+      "volume": "87",
+      "issue": "1",
+      "organization": "",
+      "notes": "making autocracy work",
+      "url": "",
+      "doi": "",
+      "raw_reference": "blundell, r.s. et s. bond (1998), initial conditions and moment restrictions in dynamic panel data models, journal of econometrics, 87 (1) : 115143. besley, b. et m. kudamatsu (2008), making autocracy work, harvard university press : 452510."
+    },
+    {
+      "authors": [
+        "borner, silvio",
+        "brunetti, aymo",
+        "weder, beatrice"
+      ],
+      "title": "measuring political credibility",
+      "monograph_title": "political credibility and economic development",
+      "editors": [],
+      "publisher": "palgrave macmillan uk",
+      "place": "new york",
+      "date": "1995",
+      "pages": "3761",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9781349240494_3",
+      "raw_reference": "borner, s. et b. weder (1995), political credibility and economic development, new york: macmillan press."
+    },
+    {
+      "authors": [
+        "a"
+      ],
+      "title": "political variables in crosscountry growth analysis",
+      "monograph_title": "journal of economic survey",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "163190",
+      "volume": "11",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "brunetti, a. (1997), political variables in crosscountry growth analysis, journal of economic survey, 11 : 163190."
+    },
+    {
+      "authors": [
+        "caselli, francesco",
+        "esquivel, gerardo",
+        "lefort, fernando"
+      ],
+      "title": "reopening the convergence debate: a new look at crosscountry growth empirics",
+      "monograph_title": "journal of economic growth",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1996",
+      "pages": "363389",
+      "volume": "1",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00141044",
+      "raw_reference": "caselli, f., g. esquivel et f. le fort (1996), reopening the convergence debate: a new look at crosscountry growth empirics, journal of economic growth, 1 : 363389."
+    },
+    {
+      "authors": [
+        "c",
+        "keefer, p",
+        "knack, s",
+        "olson, m"
+      ],
+      "title": "property and contract rights in autocracies and democracies",
+      "monograph_title": "journal of economic growth",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1996",
+      "pages": "243276",
+      "volume": "1",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "clague, c., p. keefer, s. knack et m. olson (1996), property and contract rights in autocracies and democracies, journal of economic growth, 1(2) : 243276."
+    },
+    {
+      "authors": [
+        "cukierman, alex",
+        "edwards, sebastian",
+        "tabellini, guido"
+      ],
+      "title": "seigniorage and political instability",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1992",
+      "pages": "537555",
+      "volume": "82",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w3199",
+      "raw_reference": "cukierman, a., s. edwards et g. tabellini (1992), seignorage and political instability, american economic review, 82 (3) : 537555."
+    },
+    {
+      "authors": [
+        "de haan, jakob"
+      ],
+      "title": "political institutions and economic growth reconsidered",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2007",
+      "pages": "281292",
+      "volume": "131",
+      "issue": "34",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s111270079172y",
+      "raw_reference": "de haan, j. (2007), political institutions and economic growth reconsidered, public choice, 131 : 281292."
+    },
+    {
+      "authors": [
+        "doucouliagos, hristos",
+        "ulubasoglu, mehmet"
+      ],
+      "title": "democracy and economic growth: a meta‐analysis",
+      "monograph_title": "american journal of political science",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2008",
+      "pages": "6183",
+      "volume": "52",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15405907.2007.00299.x",
+      "raw_reference": "doucouliagos, h. et m.a. ulubasoglu (2008), democracy and economic growth: a metaanalysis, american journal of political science, 52(1) : 6183."
+    },
+    {
+      "authors": [
+        "du, julan",
+        "fang, hongsheng",
+        "jin, xiangrong"
+      ],
+      "title": "the “growthfirst strategy” and the imbalance between consumption and investment in china",
+      "monograph_title": "china economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "441458",
+      "volume": "31",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.chieco.2014.09.002",
+      "raw_reference": "du, j., h. fang et x. jin (2014), the growthfirst strategy and the imbalance between consumption and investment in china, china economic review, 31 : 441458."
+    },
+    {
+      "authors": [
+        "durlauf, steven",
+        "johnson, paul",
+        "temple, jonathan"
+      ],
+      "title": "chapter 8 growth econometrics",
+      "monograph_title": "handbook of economic growth",
+      "editors": [
+        "aghion, p",
+        "et, a",
+        "durlauf"
+      ],
+      "publisher": "elsevier",
+      "place": "amsterdam",
+      "date": "2005",
+      "pages": "555677",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "growth econometrics",
+      "url": "",
+      "doi": "10.1016/s15740684(05)010087",
+      "raw_reference": "durlauf, s., p. johnson et j. temple (2005), growth econometrics in aghion, p., et a. durlauf (eds), handbook of economic growth, amsterdam : north holland, p. 555677."
+    },
+    {
+      "authors": [
+        "erkelrousse, h"
+      ],
+      "title": "",
+      "monograph_title": "detection de la multicolinearite dans un modele lineaire ordinaire : quelques elements pour un usage averti des indicateurs de belsley",
+      "editors": [],
+      "publisher": "kuh et welsch",
+      "place": "",
+      "date": "1995",
+      "pages": "1942",
+      "volume": "43",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "erkelrousse, h. (1995), detection de la multicolinearite dans un modele lineaire ordinaire : quelques elements pour un usage averti des indicateurs de belsley, kuh et welsch, revue de statistique appliquee, 43(4) : 1942."
+    },
+    {
+      "authors": [
+        "y"
+      ],
+      "title": "democracy, political stability and economic growth",
+      "monograph_title": "british journal of political science",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "391418",
+      "volume": "27",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "feng, y. (1997), democracy, political stability and economic growth, british journal of political science, 27(3) : 391418."
+    },
+    {
+      "authors": [
+        "y"
+      ],
+      "title": "democracy, governance and economic performance: theory and evidence",
+      "monograph_title": "journal of economic literature",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "pages": "11201121",
+      "volume": "42",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "feng, y. (2004), democracy, governance and economic performance: theory and evidence, journal of economic literature, 42(4) : 11201121."
+    },
+    {
+      "authors": [
+        "fosu, a.k"
+      ],
+      "title": "political instability and economic growth: evidence from subsaharan africa",
+      "monograph_title": "economic development and cultural change",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1992",
+      "pages": "829841",
+      "volume": "40",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/451979",
+      "raw_reference": "fosu, a.k. (1992), political instability and economic growth: evidence from subsaharan africa economic development and cultural change, 40 : 829841."
+    },
+    {
+      "authors": [
+        "fosu, a.k"
+      ],
+      "title": "democracy and growth in africa: implications of increasing electoral competitiveness",
+      "monograph_title": "economics letters",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2008",
+      "pages": "442444",
+      "volume": "100",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.econlet.2008.03.016",
+      "raw_reference": "fosu, a.k. (2008), democracy and growth in africa: implications of increasing electoral competitiveness, economics letters,100(3) : 442444."
+    },
+    {
+      "authors": [
+        "freund, c",
+        "jaud, m",
+        "r"
+      ],
+      "title": "regime change, democracy, and growth",
+      "monograph_title": "freedom in the world: political rights and civil liberties 19881989",
+      "editors": [],
+      "publisher": "freedom house",
+      "place": "new york",
+      "date": "2014. 1989",
+      "pages": "",
+      "volume": "14",
+      "issue": "",
+      "organization": "peterson institute for international economics. gastil,",
+      "notes": "wp",
+      "url": "",
+      "doi": "",
+      "raw_reference": "freund, c. et m. jaud (2014), regime change, democracy, and growth, working paper series n° wp141, peterson institute for international economics. gastil, r.d. (1989), freedom in the world: political rights and civil liberties 19881989, new york: freedom house."
+    },
+    {
+      "authors": [
+        "gaitan, beatriz",
+        "roe, terry"
+      ],
+      "title": "international trade, exhaustibleresource abundance and economic growth",
+      "monograph_title": "review of economic dynamics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "7293",
+      "volume": "15",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.red.2011.08.002",
+      "raw_reference": "gaitan, b. et t. l. roe (2012), international trade, exhaustibleresource abundance and economic growth, review of economic dynamics, 15(1) : 7293."
+    },
+    {
+      "authors": [
+        "giavazzi, francesco",
+        "tabellini, guido"
+      ],
+      "title": "economic and political liberalizations",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2005",
+      "pages": "12971330",
+      "volume": "52",
+      "issue": "7",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmoneco.2005.05.002",
+      "raw_reference": "giavazzi, f. et g. tabellini (2005), economic and political liberalizations, journal of monetary economics, 52 : 12971330."
+    },
+    {
+      "authors": [
+        "gupta, d"
+      ],
+      "title": "on the methodology of constructing a composite indicator for political instability: a cross national study",
+      "monograph_title": "handbook of behavioral economics",
+      "editors": [
+        "frantz, r",
+        "singh, h",
+        "gerber, j"
+      ],
+      "publisher": "jai press",
+      "place": "",
+      "date": "1991",
+      "pages": "151178",
+      "volume": "2",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gupta, d.k. (1991), on the methodology of constructing a composite indicator for political instability: a cross national study, in frantz, r., h. singh et j. gerber (eds), handbook of behavioral economics, vol. 2a. jai press, p. 151178."
+    },
+    {
+      "authors": [
+        "hamilton, l"
+      ],
+      "title": "how robust is robust regression?",
+      "monograph_title": "stata technical bulletin",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1991",
+      "pages": "2126",
+      "volume": "2",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "hamilton, l.c. (1991), how robust is robust regression?, stata technical bulletin. 2 : 2126"
+    },
+    {
+      "authors": [
+        "helliwell, john"
+      ],
+      "title": "empirical linkages between democracy and economic growth",
+      "monograph_title": "british journal of political science",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1994",
+      "pages": "225248",
+      "volume": "24",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0007123400009790",
+      "raw_reference": "helliwell, j. (1994), empirical linkages between democracy and economic growth, british journal of political science, 24 : 225248."
+    },
+    {
+      "authors": [
+        "heo, uk",
+        "tan, alexander"
+      ],
+      "title": "democracy and economic growth: a causal analysis",
+      "monograph_title": "comparative politics",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "2001",
+      "pages": "463",
+      "volume": "33",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/422444",
+      "raw_reference": "heo, u. et a. c. tan (2001), democracy and economic growth: a causal analysis, comparative politics, 33(4) : 463473."
+    },
+    {
+      "authors": [
+        "holtzeakin, douglas",
+        "newey, whitney",
+        "rosen, harvey"
+      ],
+      "title": "estimating vector autoregressions with panel data",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1988",
+      "pages": "1371",
+      "volume": "56",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1913103",
+      "raw_reference": "holtzeakin, d., w. newey et h. s. rosen (1988), estimating vector autoregressions with panel data, econometrica, 56 : 13711395."
+    },
+    {
+      "authors": [
+        "huber, evelyne",
+        "rueschemeyer, dietrich",
+        "stephens, john"
+      ],
+      "title": "the impact of economic development on democracy",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [
+        "claes, d",
+        "knutsen, c"
+      ],
+      "publisher": "american economic association",
+      "place": "london",
+      "date": "1993. 2011",
+      "pages": "7186",
+      "volume": "7",
+      "issue": "3",
+      "organization": "",
+      "notes": "the impact of economic development on democracy journal of economic pespectives",
+      "url": "",
+      "doi": "10.1257/jep.7.3.71",
+      "raw_reference": "huber, e., d. rueschemeyer et j. d. stephens (1993), the impact of economic development on democracy, journal of economic pespectives, 7(3) : 7185. knutsen, c.h. (2011), democracy and economic growth: a changing relationship?, in claes, d. h. et c. h. knutsen (eds), governing the global economy: politics, institutions, and economic development, london: routledge, p. 171188."
+    },
+    {
+      "authors": [
+        "kurzman, charles",
+        "werum, regina",
+        "burkhart, ross"
+      ],
+      "title": "democracys effect on economic growth: a pooled timeseries analysis, 19511980",
+      "monograph_title": "studies in comparative international development",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2002",
+      "pages": "333",
+      "volume": "37",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf02686336",
+      "raw_reference": "kurzman, c., r. werum et r. e. burkhart (2002), democracys effect on economic growth: a pooled timeseries analysis, 19511980, studies in comparative international development, 37(1) : 333."
+    },
+    {
+      "authors": [
+        "levine, ross",
+        "loayza, norman",
+        "beck, thorsten"
+      ],
+      "title": "financial intermediation and growth: causality and causes",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2000",
+      "pages": "3177",
+      "volume": "46",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s03043932(00)000179",
+      "raw_reference": "levine, r., n. loayza et t. beck (2000), financial intermediation and growth: causality and causes, journal of monetary economics, 46 : 3177."
+    },
+    {
+      "authors": [
+        "londregan, john",
+        "poole, keith"
+      ],
+      "title": "poverty, the coup trap, and the seizure of executive power",
+      "monograph_title": "world politics",
+      "editors": [],
+      "publisher": "project muse",
+      "place": "",
+      "date": "1990",
+      "pages": "151183",
+      "volume": "42",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2010462",
+      "raw_reference": "londregan, j. et k. poole (1990), poverty, the coup trap and the seizure of executive power, world politics, 42 : 151183."
+    },
+    {
+      "authors": [
+        "madsen, jakob",
+        "raschky, paul",
+        "skali, ahmed"
+      ],
+      "title": "does democracy drive income in the world, 15002000?",
+      "monograph_title": "european economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2015",
+      "pages": "175195",
+      "volume": "78",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.euroecorev.2015.05.005",
+      "raw_reference": "madsen, b.j., p.a. raschky et a. skali (2015), does democracy drive income in the world, 15002000?, european economic review, 78 : 175195."
+    },
+    {
+      "authors": [
+        "mesquita, b",
+        "morrow, j",
+        "randolph, s",
+        "smith, a"
+      ],
+      "title": "politcal competition and economic growth",
+      "monograph_title": "journal of democracy",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "pages": "5872",
+      "volume": "12",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mesquita, b., j. d. morrow, s. randolph et a. smith (2001), politcal competition and economic growth, journal of democracy, 12 : 5872."
+    },
+    {
+      "authors": [
+        "miljkovic, dragan",
+        "rimal, arbindra"
+      ],
+      "title": "the impact of socioeconomic factors on political instability: a crosscountry analysis",
+      "monograph_title": "the journal of socioeconomics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2008",
+      "pages": "24542463",
+      "volume": "37",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.socec.2008.04.007",
+      "raw_reference": "miljkovic, d. et r. arbindra (2008), political instability and development, journal of socioeconomics, 37(6) : 24542463."
+    },
+    {
+      "authors": [
+        "minier, jenny"
+      ],
+      "title": "democracy and growth: alternative approaches",
+      "monograph_title": "journal of economic growth",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1998",
+      "pages": "241266",
+      "volume": "3",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1009714821770",
+      "raw_reference": "minier, j.a. (1998), democracy and growth: alternative approaches, journal of economic growth, 3 : 241266."
+    },
+    {
+      "authors": [
+        "narayan, paresh",
+        "narayan, seema",
+        "smyth, russell"
+      ],
+      "title": "does democracy facilitate economic growth or does economic growth facilitate democracy? an empirical study of subsaharan africa",
+      "monograph_title": "economic modelling",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "900910",
+      "volume": "28",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.econmod.2010.11.004",
+      "raw_reference": "narayan, p.k., s. narayan et r smyth (2011), does democracy facilitate economic growth or does economic growth facilitate democracy? an empirical study of subsaharan africa, economic modelling, 28 : 900910."
+    },
+    {
+      "authors": [
+        "neanidis, kyriakos",
+        "varvarigos, dimitrios"
+      ],
+      "title": "the allocation of volatile aid and economic growth: theory and evidence",
+      "monograph_title": "european journal of political economy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "447462",
+      "volume": "25",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.ejpoleco.2009.05.001",
+      "raw_reference": "neanidis, k.c. et d. varvarigos (2009), the allocation of volatile aid and economic growth: theory and evidence, european journal of political economy, 25 : 447462."
+    },
+    {
+      "authors": [
+        "nelson, j"
+      ],
+      "title": "political development",
+      "monograph_title": "understanding political development",
+      "editors": [
+        "weiner, m",
+        "huntington, s"
+      ],
+      "publisher": "little brown",
+      "place": "boston",
+      "date": "1987",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "nelson, j. (1987), political development, in weiner, m. et s. p. huntington (eds), understanding political development, boston: little brown."
+    },
+    {
+      "authors": [
+        "north, d"
+      ],
+      "title": "",
+      "monograph_title": "institutions, institutional change, and economic performance",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "cambridge",
+      "date": "1990",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "north, d. c. (1990), institutions, institutional change, and economic performance, cambridge: cambridge university press."
+    },
+    {
+      "authors": [
+        "ozler, sule",
+        "tabellini, guido"
+      ],
+      "title": "external debt and political instability",
+      "monograph_title": "nber working paper",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1991",
+      "pages": "",
+      "volume": "3772",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w3772",
+      "raw_reference": "ozler, s. et g. tabellini (1991), external debt and political instability, nber working paper 3772, national bureau of economic research, inc."
+    },
+    {
+      "authors": [
+        "papaioannou, elias",
+        "siourounis, gregorios"
+      ],
+      "title": "democratisation and growth",
+      "monograph_title": "the economic journal",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2008",
+      "pages": "15201551",
+      "volume": "118",
+      "issue": "532",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680297.2008.02189.x",
+      "raw_reference": "papaioannou, e. et g. siourounis (2008), democratisation and growth, the economic journal, 118(532) : 15201551."
+    },
+    {
+      "authors": [
+        "persson, torsten",
+        "tabellini, guido"
+      ],
+      "title": "is inequality harmful for growth? theory and evidence",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1994",
+      "pages": "600621",
+      "volume": "84",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w3599",
+      "raw_reference": "persson, t. et g. tabellini (1994), is inequality harmful for growth? theory and evidence, american economic review, 84(3) : 600621."
+    },
+    {
+      "authors": [
+        "persson, t",
+        "tabellini ; przeworski, g",
+        "a",
+        "alvarez, m",
+        "cheibub, j",
+        "limongi, f"
+      ],
+      "title": "democratic capital: the nexus of political and economic change",
+      "monograph_title": "democracy and development: political institutions and wellbeing in the world",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "2009. 2000",
+      "pages": "19501990",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "persson, t. et g. tabellini (2009), democratic capital: the nexus of political and economic change, american economic journal, macroeconomics, 1(2) : 88126. przeworski, a., m.e. alvarez, j. a. cheibub et f. limongi (2000), democracy and development: political institutions and wellbeing in the world, 19501990, cambridge university press."
+    },
+    {
+      "authors": [
+        "przeworski, adam",
+        "limongi, fernando"
+      ],
+      "title": "political regimes and economic growth",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1993",
+      "pages": "5169",
+      "volume": "7",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.7.3.51",
+      "raw_reference": "przeworski, a. et f. limongi (1993), political regimes and economic growth, the journal of economic perspectives, 7(3) : 5169."
+    },
+    {
+      "authors": [
+        "pye, l"
+      ],
+      "title": "",
+      "monograph_title": "aspects of political development",
+      "editors": [],
+      "publisher": "",
+      "place": "boston: little, brown",
+      "date": "1966",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "pye, l. w. (1966), aspects of political development, boston: little, brown."
+    },
+    {
+      "authors": [
+        "rock, michael"
+      ],
+      "title": "has democracy slowed growth in asia?",
+      "monograph_title": "world development",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "941952",
+      "volume": "37",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.worlddev.2008.09.002",
+      "raw_reference": "rock, m.t. (2009), has democracy slowed growth in asia?, world development, 37(5) : 941952."
+    },
+    {
+      "authors": [
+        "rodrik, dani"
+      ],
+      "title": "globalisation, social conflict and economic growth",
+      "monograph_title": "the world economy",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1998",
+      "pages": "143158",
+      "volume": "21",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14679701.00124",
+      "raw_reference": "rodrik, d. (1998), globalisation, social conflict and economic growth, the world economy, 21(2) : 143158."
+    },
+    {
+      "authors": [
+        "rodrik, d"
+      ],
+      "title": "democracies pay higher wages",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1999",
+      "pages": "707738",
+      "volume": "114",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/003355399556115",
+      "raw_reference": "rodrik, d. (1999), democracies pay higher wages, quarterly journal of economics, 114(3) : 70738."
+    },
+    {
+      "authors": [
+        "rodrik, dani"
+      ],
+      "title": "institutions for highquality growth: what they are and how to acquire them",
+      "monograph_title": "nber working paper series",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2000",
+      "pages": "",
+      "volume": "7540",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w7540",
+      "raw_reference": "rodrik, d. (2000), institutions for high quality growth: what they are and how to acquire them?, nber working paper series 7540, national bureau of research, inc."
+    },
+    {
+      "authors": [
+        "rodrik, dani",
+        "wacziarg, romain"
+      ],
+      "title": "do democratic transitions produce bad economic outcomes?",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2005",
+      "pages": "5055",
+      "volume": "95",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/000282805774670059",
+      "raw_reference": "rodrik, d. et r. wacziarg (2005), do democratic transitions produce bad economic outcomes?, american economic review, 95(2) : 5055."
+    },
+    {
+      "authors": [
+        "roodman, david"
+      ],
+      "title": "the anarchy of numbers: aid, development, and crosscountry empirics",
+      "monograph_title": "the world bank economic review",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2007",
+      "pages": "255277",
+      "volume": "21",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/wber/lhm004",
+      "raw_reference": "roodman, d. (2007), the anarchy of numbers: aid, development, and cross country empirics, world bank review, 21 : 255277."
+    },
+    {
+      "authors": [
+        "roodman, david"
+      ],
+      "title": "a note on the theme of too many instruments<sup>*</sup>",
+      "monograph_title": "oxford bulletin of economics and statistics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2009",
+      "pages": "135158",
+      "volume": "71",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680084.2008.00542.x",
+      "raw_reference": "roodman, d. (2009), a note on the theme of too many instruments, oxford bulletin of economics and statistics, 71 (1) : 135158."
+    },
+    {
+      "authors": [
+        "r"
+      ],
+      "title": "democracy and economic growth: the role of intelligence in crosscountry regressions",
+      "monograph_title": "intelligence",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2015",
+      "pages": "228234",
+      "volume": "50",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "salahodjaev, r. (2015), democracy and economic growth: the role of intelligence in crosscountry regressions, intelligence, 50 : 228234."
+    },
+    {
+      "authors": [
+        "a",
+        "l",
+        "inkeles, a"
+      ],
+      "title": "the effect of democracy on economic growth and inequality: a review",
+      "monograph_title": "american international journal of contemporary research",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2013. 1990",
+      "pages": "126157",
+      "volume": "3",
+      "issue": "1",
+      "organization": "",
+      "notes": "democracy and growth: evidence from transition economies studies in comparative international development",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sandalcilar, a.r. (2013), democracy and growth: evidence from transition economies, american international journal of contemporary research, 3(1) : 6375. sirowy, l. et a. inkeles (1990), the effect of democracy on economic growth and inequality: a review, studies in comparative international development, 25 : 126157."
+    },
+    {
+      "authors": [
+        "l",
+        "baharumshah, a",
+        "raees, w"
+      ],
+      "title": "institutional infrastructure and economic growth in member countries of the organization of islamic cooperation (oic)",
+      "monograph_title": "econ model",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2015",
+      "pages": "214226",
+      "volume": "51",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "slesman, l., a. z. baharumshah et w. raees (2015), institutional infrastructure and economic growth in member countries of the organization of islamic cooperation (oic), econ model, 51 : 214226."
+    },
+    {
+      "authors": [
+        "solow, robert"
+      ],
+      "title": "a contribution to the theory of economic growth",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1956",
+      "pages": "65",
+      "volume": "70",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1884513",
+      "raw_reference": "solow, r.m. (1956), a contribution to the theory of economic growth, the quarterly journal of economics, 70(1) : 6594."
+    },
+    {
+      "authors": [
+        "tavares, jose",
+        "wacziarg, romain"
+      ],
+      "title": "how democracy affects growth",
+      "monograph_title": "european economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "13411378",
+      "volume": "45",
+      "issue": "8",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00142921(00)000933",
+      "raw_reference": "tavares, j. et r. wacziarg (2001), how democracy affects growth?, european economic review, 45 : 13411378."
+    },
+    {
+      "authors": [
+        "teixeira, aurora",
+        "queiros, anabela"
+      ],
+      "title": "economic growth, human capital and structural change: a dynamic panel data analysis",
+      "monograph_title": "research policy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "16361648",
+      "volume": "45",
+      "issue": "8",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.respol.2016.04.006",
+      "raw_reference": "teixeira, a.a.c. et a.s.s. queiros (2016), economic growth, human capital and structural change: a dynamic panel data analysis, research policy, 45(8)."
+    },
+    {
+      "authors": [
+        "venieris, yiannis",
+        "gupta, dipak"
+      ],
+      "title": "income distribution and sociopolitical instability as determinants of savings: a crosssectional model",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1986",
+      "pages": "873883",
+      "volume": "94",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/261412",
+      "raw_reference": "venieris, y.p. et d. k. gupta (1986), income distribution and sociopolitical instability as determinants of savings: acrosssectional model, journal of political economy, 94 : 873883."
+    },
+    {
+      "authors": [
+        "f"
+      ],
+      "title": "a finite sample correction for the variance of linear efficient twostep gmm estimators",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "2551",
+      "volume": "126",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "windmeijer, f. (2005), a finite sample correction for the variance of linear efficient twostep gmm estimators, journal of econometrics, 126(1) : 2551."
+    },
+    {
+      "authors": [
+        "wade, r"
+      ],
+      "title": "",
+      "monograph_title": "governing the market: economic theory and the role of government in east asian industrialization",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "princeton",
+      "date": "1990",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "wade, r. (1990), governing the market: economic theory and the role of government in east asian industrialization, princeton: princeton university press."
+    },
+    {
+      "authors": [
+        "allemagne"
+      ],
+      "title": "",
+      "monograph_title": "allemagne : depenses de rd en allemagne",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/462546778004",
+      "raw_reference": "allemagne"
+    },
+    {
+      "authors": [
+        "argentine"
+      ],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "argentine"
+    },
+    {
+      "authors": [
+        "bengladesh"
+      ],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bengladesh"
+    },
+    {
+      "authors": [
+        "bolivie"
+      ],
+      "title": "",
+      "monograph_title": "bolivie: notes pays",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888932686672",
+      "raw_reference": "bolivie"
+    },
+    {
+      "authors": [
+        "bulgarie"
+      ],
+      "title": "",
+      "monograph_title": "bulgarie note pays",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888933304591",
+      "raw_reference": "bulgarie"
+    },
+    {
+      "authors": [
+        "bresil"
+      ],
+      "title": "",
+      "monograph_title": "bresil science et innovation : profil du bresil",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888932360974",
+      "raw_reference": "bresil"
+    },
+    {
+      "authors": [
+        "equateur"
+      ],
+      "title": "",
+      "monograph_title": "equateur",
+      "editors": [],
+      "publisher": "walter de gruyter gmbh",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1163/9789004206106_eifo_dum_1191",
+      "raw_reference": "equateur"
+    },
+    {
+      "authors": [
+        "pestman, p"
+      ],
+      "title": "egypte en de constitutio antoniniana",
+      "monograph_title": "over vrouwen en voogden in het oude egypte",
+      "editors": [],
+      "publisher": "brill",
+      "place": "",
+      "date": "",
+      "pages": "2935",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1163/9789004615328_007",
+      "raw_reference": "egypte"
+    },
+    {
+      "authors": [
+        "allemagne"
+      ],
+      "title": "",
+      "monograph_title": "allemagne : depenses de rd en allemagne",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/462546778004",
+      "raw_reference": "allemagne"
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "arabie saoudite",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888932548409",
+      "raw_reference": "arabie saoudite"
+    },
+    {
+      "authors": [
+        "australie"
+      ],
+      "title": "",
+      "monograph_title": "australie australie articles scientifiques publies",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888932360822",
+      "raw_reference": "australie"
+    },
+    {
+      "authors": [
+        "autriche"
+      ],
+      "title": "",
+      "monograph_title": "autriche",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/526744685337",
+      "raw_reference": "autriche"
+    },
+    {
+      "authors": [
+        "belgique"
+      ],
+      "title": "",
+      "monograph_title": "belgique : science et innovation : profil de la belgique",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/462775800035",
+      "raw_reference": "belgique"
+    },
+    {
+      "authors": [
+        "farhana abdul latiff, eis",
+        "amilin tengah, khairul",
+        "shahrill, masitah",
+        "leong, elvynna"
+      ],
+      "title": "using concrete model to enhance conceptual knowledge of low ability students in factorising quadratic expression",
+      "monograph_title": "international conference on education",
+      "editors": [],
+      "publisher": "tiikm",
+      "place": "",
+      "date": "",
+      "pages": "166173",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.17501/icedu.2017.3118",
+      "raw_reference": "brunei"
+    },
+    {
+      "authors": [
+        "cameroun"
+      ],
+      "title": "",
+      "monograph_title": "cameroun",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/081382055510",
+      "raw_reference": "cameroun"
+    }
+  ],
+  "notes": [
+    "[1] selongastil (1989), la democratie est un systeme politique caracterise par la liberte politique et civil.",
+    "[2] sirowy et inkeles (1990) et przeworski et limongi (1993) ont fourni une excellente revue theorique sur la democratie et la croissance."
+  ],
+  "figures": [
+    {
+      "number": "2",
+      "title": "relation entre mesure de democratie polity iv et croissance economique dans les pays stables cameroun colombie congo costa rica gabon indonesie kenya coree du sud maroc pakistan arabie saoudite thailande venezuela jordanie botswana slovenie chypre irlande luxembourg singapore espagne suede turquie royaumeuni etatsunis autriche australie italie nouvellezelande japan finlande france norvege belgique canada portugal danemark allemagne.02 0.02",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "1",
+      "title": "resume de la revue de la litterature",
+      "content": "",
+      "note": ""
+    }
+  ]
+}

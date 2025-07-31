@@ -90,6 +90,7 @@ def convert_to_base(data):
         "keywords": [normalize_text(k) for k in data.get("keywords", []) if isinstance(k, str)],
         "themes": [normalize_text(t) for t in data.get("themes", []) if isinstance(t, str)],
         "language": first_or_empty(data.get("language")),
+        "body": [normalize_text(k) for k in data.get("body", []) if isinstance(k, str)],
 
         "acknowledgements": first_or_empty(data.get("acknowledgements")),
         "biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
@@ -166,14 +167,14 @@ def convert_to_base(data):
             base["editorial_team"].append(personne)
 
 
-    base["body"] = []
-    for s in data.get("body_sections", []):
-        if isinstance(s, dict):
-            base["body"].append({
-                "title": normalize_text(s.get("title", "")),
-                "paragraphs": [normalize_text(p) for p in s.get("paragraphs", [])],
+    # base["body"] = []
+    # for s in data.get("body_sections", []):
+    #     if isinstance(s, dict):
+    #         base["body"].append({
+    #             "title": normalize_text(s.get("title", "")),
+                #"paragraphs": [normalize_text(p) for p in s.get("paragraphs", [])],
                 #"parent": normalize_text(s["parent"]) if s.get("parent") else None
-            })
+    #        })
 
 
     base["figures"] = []
@@ -183,6 +184,7 @@ def convert_to_base(data):
                 "number": normalize_text(f.get("number", "")),
                 "title": normalize_text(f.get("title", "")),
                 "source": normalize_text(f.get("source", "")),
+                #"full_text": normalize_text(f.get("full_text", "")),
             })
 
 
@@ -194,7 +196,9 @@ def convert_to_base(data):
                 "title": normalize_text(t.get("title", "")),
                 "content": normalize_text(t.get("content", "")),
                 "note": normalize_text(t.get("note", "")),
-                "parent": normalize_text(t.get("parent", "")) if t.get("parent") else None
+                #"parent": normalize_text(t.get("parent", "")) if t.get("parent") else None,
+                #"full_text" : normalize_text(t.get("full_text", "")) if t.get("full_text") else None,
+            
             })
 
 

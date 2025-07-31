@@ -1,0 +1,308 @@
+{
+  "title": "",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "universite",
+      "last_name": "laval",
+      "email": "",
+      "affiliation": "* universite laval,",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "universite",
+      "last_name": "laval",
+      "email": "",
+      "affiliation": "** universite laval,",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "universite",
+      "last_name": "laval",
+      "email": "",
+      "affiliation": "*** universite laval,",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "projections stochastiques de la fecondite et des adoptions dans le contexte du regime quebecois dassurance parentale 1 denis latulippe*, hanaa boughal** et claire bilodeau*** resume cet article presente des modeles stochastiques de projection des taux de fecondite et du nombre dadoptions.le modele de fecondite developpe utilise les taux de fecondite les plus recents comme point de depart des projections et permet de faire evoluer la fecondite moyenne attendue dans le futur, en plus de prevoir des fluctuations aleatoires des taux de fecondite au fil des ans.cette approche est complementaire a lutilisation dune enquete dopinion aupres dexperts comme celle utilisee recemment par statistique canada pour des projections de population.en ce qui a trait a ladoption, il sagit plutot de refleter la realite de changements de regime vecus dans les dernieres annees, cestadire des periodes pluriannuelles successives de forte et de faible adoption.a titre dillustration, les modeles developpes sont utilises pour realiser des projections stochastiques de la situation financiere du regime quebecois dassurance parentale.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "revue de lexperience quebecoise",
+    "revue de modeles de fecondite 3",
+    "modele pour la fecondite de myrskyla et collaborateurs (2013)",
+    "projection stochastique controlee de la fecondite",
+    "projection stochastique controlee des adoptions",
+    "le financement du regime quebecois dassurance parentale",
+    "conclusion"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "de, institut",
+        "quebec, la statistique du"
+      ],
+      "title": "",
+      "monograph_title": "le bilan demographique du quebec. isq",
+      "editors": [],
+      "publisher": "stefoy",
+      "place": "",
+      "date": "2018",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "institut de la statistique du quebec. 2018. le bilan demographique du quebec. isq, stefoy."
+    },
+    {
+      "authors": [
+        "de, institut",
+        "quebec, la statistique du"
+      ],
+      "title": "chapitre 1 la chute de la fecondite au quebec : pourquoi sen preoccuper ?",
+      "monograph_title": "egalite, fecondite et maternite",
+      "editors": [],
+      "publisher": "les presses de luniversite de montreal",
+      "place": "quebec; quebec",
+      "date": "2019. 19512019",
+      "pages": "2338",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://www.stat.gouv.qc.ca/statistiques/populationdemographie/naissancefecondite/402.htm",
+      "doi": "10.1515/9782760648029002",
+      "raw_reference": "institut de la statistique du quebec. 2019. taux de fecondite selon le groupe dage de la mere, indice synthetique de fecondite et age moyen a la maternite, quebec, 19512019, quebec, disponible a la page : http://www.stat.gouv.qc.ca/statistiques/populationdemographie/ naissancefecondite/402.htm."
+    },
+    {
+      "authors": [
+        "latulippe, d",
+        "michaud, p",
+        "lacroix, g"
+      ],
+      "title": "",
+      "monograph_title": "etude stochastique sur le financement a long terme du regime quebecois dassurance parentale rapport de recherche",
+      "editors": [],
+      "publisher": "",
+      "place": "quebec",
+      "date": "2019",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://www.cgap.gouv.qc.ca/publications/pdf/rqap_etude_shoch_financement.pdf",
+      "doi": "",
+      "raw_reference": "latulippe, d., p.c. michaud et g. lacroix. 2019. etude stochastique sur le financement a long terme du regime quebecois dassurance parentale rapport de recherche, quebec, disponible a la page : http://www.cgap.gouv.qc.ca/publications/pdf/rqap_etude_shoch_ financement.pdf."
+    },
+    {
+      "authors": [
+        "lee, ronald"
+      ],
+      "title": "modeling and forecasting the time series of us fertility: age distribution, range, and ultimate level",
+      "monograph_title": "international journal of forecasting",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1993",
+      "pages": "187202",
+      "volume": "9",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01692070(93)900047",
+      "raw_reference": "lee, r.d. 1993. modeling and forecasting the time series of us fertility : age distribution, range, and ultimate level, international journal of forecasting, 9, 2 : 187202."
+    },
+    {
+      "authors": [
+        "lee, ronald"
+      ],
+      "title": "probabilistic approaches to population forecasting",
+      "monograph_title": "population and development review",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1998",
+      "pages": "156",
+      "volume": "24",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2808055",
+      "raw_reference": "lee, r. 1998. probabilistic approaches to population forecasting, population and development review, 24, supplement : frontiers of population forecasting : 156190."
+    },
+    {
+      "authors": [
+        "myrskyla, mikko",
+        "goldstein, joshua",
+        "cheng, yen‐hsin"
+      ],
+      "title": "new cohort fertility forecasts for the developed world: rises, falls, and reversals",
+      "monograph_title": "population and development review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2013",
+      "pages": "3156",
+      "volume": "39",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.17284457.2013.00572.x",
+      "raw_reference": "myrskyla m., j.r. goldstein et y.a. cheng. 2013. new cohort fertility forecasts for the developed world : rises, falls, and reversals, population and development review, 39, 1 : 3156."
+    },
+    {
+      "authors": [
+        "secretariat, ladoption",
+        "internationale"
+      ],
+      "title": "",
+      "monograph_title": "site officiel sur ladoption internationale au quebec statistiques dadoption",
+      "editors": [],
+      "publisher": "fonds de recherche du quebec",
+      "place": "quebec",
+      "date": "2019",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://adoption.gouv.qc.ca/fr_statistiquesdadoption",
+      "doi": "10.69777/273601",
+      "raw_reference": "secretariat a ladoption internationale. 2019. site officiel sur ladoption interna tionale au quebec statistiques dadoption, quebec, disponible a la page : http://adoption. gouv.qc.ca/fr_statistiquesdadoption."
+    },
+    {
+      "authors": [
+        "therrien, j",
+        "guevremont, p",
+        "carrier, v",
+        "poulin, e"
+      ],
+      "title": "evaluation actuarielle du regime de rentes du quebec au 31 decembre",
+      "monograph_title": "old and new perspectives on mortality forecasting",
+      "editors": [
+        "bengtsson, n",
+        "keilman"
+      ],
+      "publisher": "max planck institute for demographic research",
+      "place": "quebec, retraite quebec",
+      "date": "2016. 2015. 2019",
+      "pages": "145156",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "stochastic forecasts of mortality, population and pension systems",
+      "url": "",
+      "doi": "",
+      "raw_reference": "therrien, j.f., p. guevremont, v. carrier et e. poulin. 2016. evaluation actuarielle du regime de rentes du quebec au 31 decembre 2015. quebec, retraite quebec, 133 p. tuljapurkar, s. 2019. stochastic forecasts of mortality, population and pension systems, dans t. bengtsson et n. keilman (dir.), old and new perspectives on mortality forecas ting, springer open, max planck institute for demographic research : 145156"
+    },
+    {
+      "authors": [],
+      "title": "figure 1.a1.3. total fertility rate (tfr) per woman and under5 mortality rate per 1 000 in african countries, 2014",
+      "monograph_title": "data. fertility rate, total (births per woman), disponible a la page",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "2019",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "https://data.worldbank.org/indicator/sp.dyn.tfrt.in",
+      "doi": "10.1787/888933350087",
+      "raw_reference": "world bank. 2019. data. fertility rate, total (births per woman), disponible a la page : https:// data.worldbank.org/indicator/sp.dyn.tfrt.in."
+    },
+    {
+      "authors": [],
+      "title": "graphique 10.11. anticorps anti tnf alpha et erythropoietine, part de marche des biosimilaires, en nombre de jours de traitement, par rapport au marche accessible, 2017 (ou annee la plus proche), dans les pays europeens",
+      "monograph_title": "annexe des trajectoires de levolution de lindice synthetique de fecondite ont ete generees avec un nombre variable de simulations afin devaluer la sensibilite des resultats au nombre de simulations et la robustesse des resultats sur la base dun nombre de 2000 simulations. les resultats sont presentes cidessous",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050. 200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050. 200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050. 200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations 1 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations figure a2 isf simules : valeurs extremes selon le nombre de trajectoires simulees 1 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations 1 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations il en ressort que les resultats sont tres similaires en ce qui a trait a l intervalle de confiance a 95 %. des ecarts quelque peu plus importants sont generes pour les valeurs extremes, un nombre plus grand de simulations etant plus susceptibles de generer des valeurs particulierement eloignees de la moyenne",
+      "url": "",
+      "doi": "10.1787/888934070700",
+      "raw_reference": "annexe des trajectoires de levolution de lindice synthetique de fecondite ont ete generees avec un nombre variable de simulations afin devaluer la sensibilite des resultats au nombre de simulations et la robus tesse des resultats sur la base dun nombre de 2000 simulations. les resultats sont presentes cidessous. ils ont ete obtenus en supposant successivement 1 000, 2 000, 5 000 et 10 000 simulations. figure a1 isf simules : intervalle de confiance a 95 % selon le nombre de trajectoires simulees 1,200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations 1,200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations figure a2 isf simules : valeurs extremes selon le nombre de trajectoires simulees 1,200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations 1,200 1,300 1,400 1,500 1,600 1,700 1,800 1,900 2,000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 isf: nombre moyen denfants par femme annee 1000 simulations 2000 simulations 5000 simulations 10000 simulations il en ressort que les resultats sont tres similaires en ce qui a trait a lintervalle de confiance a 95 %. des ecarts quelque peu plus importants sont generes pour les valeurs extremes, un nombre plus grand de simulations etant plus susceptibles de generer des valeurs particulierement eloignees de la moyenne."
+    }
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "3",
+      "title": "nombre dadoptions au quebec entre 1990 et 2017 0 200 400 600 800 1000 1200 1990 1993 1996 1999 2002 2005 2008 2011 2014 2017 nombre dadoptions annees internationales enfants quebecois",
+      "source": ""
+    },
+    {
+      "number": "4",
+      "title": "projection de lisf avec le modele de myrskyla et collaborateurs (2013) pour le quebec et differentes periodes de reference 1 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 2 2016 2020 2024 2028 2032 2036 2040 2044 2048 isf: nombre moyen denfants par femme annees 20112015 20062015 19912015 19962015 20012015 figure 5 projection de la descendance finale de differentes cohortes avec le modele de myrskyla et collaborateurs (2013) pour le quebec et differentes periodes de reference 1,40 1,50 1,60 1,70 1,80 1,90 2,00 2018 2022 2026 2030 2034 2038 2042 2046 2050 descendance finale de la cohorte cohorte atteignant 49 ans dans lannee 20112015 19912015 19962015 20012015",
+      "source": ""
+    },
+    {
+      "number": "6",
+      "title": "distribution des isf simules, quebec 20172050 1,00 1,10 1,20 1,30 1,40 1,50 1,60 1,70 1,80 1,90 2,00 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 isf: nombre moyen denfants par femme annees intervalle 95 % moyenne min et max",
+      "source": ""
+    },
+    {
+      "number": "1",
+      "title": "indice synthetique de fecondite (isf),quebec, 19912017",
+      "source": ""
+    },
+    {
+      "number": "2comparaison",
+      "title": "de lindice synthetique de fecondite du quebec par rapport a ceux de pays developpes",
+      "source": ""
+    },
+    {
+      "number": "7",
+      "title": "distribution des trajectoires du nombre de naissances,quebec, 20172050",
+      "source": ""
+    },
+    {
+      "number": "9",
+      "title": "distribution des durees de regimes dadoption selon les probabilites de changement de regime15",
+      "source": ""
+    },
+    {
+      "number": "12",
+      "title": "projection du fonds dassurance parentale sur la base des taux de cotisation 2019 et 2020",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

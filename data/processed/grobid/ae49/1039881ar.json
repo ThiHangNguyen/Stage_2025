@@ -1,0 +1,2476 @@
+{
+  "title": "ambiguite, comportements et marches financiers*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "meglena",
+      "last_name": "jeleva",
+      "email": "meglena.jeleva@uparis10.fr",
+      "affiliation": "economix universite de nanterre paris ouest paris school of economics cnrs",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "jeanmarc",
+      "last_name": "tallon",
+      "email": "jeanmarc.tallon@univparis1.fr",
+      "affiliation": "economix universite de nanterre paris ouest paris school of economics cnrs",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "nous proposons une revue de la litterature recente centree sur les effets de lambiguite (ou incertitude non probabilisee) sur les comportements des acteurs sur les marches financiers et sur le fonctionnement de ces derniers.nous exposons les mecanismes theoriques de choix de portefeuille et de formation de prix dactifs essentiellement, qui different de ceux reposant sur des modelisations usuelles en termes desperance dutilite.nous proposons aussi une revue des resultats empiriques et experimentaux qui viennent illustrer voire etayer les predictions theoriques decrites.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "choix de portefeuille",
+    "achat ou vente dun actif",
+    "5.",
+    "6.",
+    "niveau dinvestissement optimal",
+    "diversification",
+    "choix de portefeuille et modele maxmineu",
+    "un actif ambigu et un actif sans risque",
+    "un actif risque et un actif ambigu",
+    "plusieurs actifs ambigus",
+    "choix de portefeuille sur plusieurs periodes",
+    "quelques elements empiriques",
+    "conclusion detape",
+    "choix de portefeuille et incertitude de modele",
+    "8.",
+    "choix de portefeuille et croyances de second ordre",
+    "ambiguite et lequilibre des marches financiers",
+    "indetermination de lequilibre, incompletude des marches et absence de revelation de linformation",
+    "prix dequilibre avec ambiguite",
+    "absence dechange et incompletude des marches",
+    "information et ambiguite sur les marches",
+    "etudes experimentales",
+    "conclusion detape",
+    "prix du risque et de lambiguite",
+    "robustesse, erreurs de specification et prix dactifs",
+    "identifier les sources dambiguite"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "anderson, evan",
+        "hansen, lars",
+        "sargent, thomas"
+      ],
+      "title": "a quartet of semigroups for model specification, robustness, prices of risk, and model detection",
+      "monograph_title": "journal of the european economic association",
+      "editors": [
+        "zeldes"
+      ],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2004. 1999. 2003",
+      "pages": "68123",
+      "volume": "1",
+      "issue": "1",
+      "organization": "",
+      "notes": "robustness detection and the price of risk working paper, university of chicago. anderson, e., l. p. hansen et t. sargent",
+      "url": "",
+      "doi": "10.1162/154247603322256774",
+      "raw_reference": "j. et s. zeldes (2004), how do household portfolio shares vary with age?, working paper, columbia business school. anderson, e., l. hansen et t. sargent (1999), robustness detection and the price of risk, working paper, university of chicago. anderson, e., l. p. hansen et t. sargent (2003), a quartet of semigroups for model specification, robustness, prices of risk, and model detection, journal of the european economic association, 1(1) : 68123."
+    },
+    {
+      "authors": [
+        "anderson, evan",
+        "ghysels, eric",
+        "juergens, jennifer"
+      ],
+      "title": "the impact of risk and uncertainty on expected returns☆",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "233263",
+      "volume": "94",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jfineco.2008.11.001",
+      "raw_reference": "anderson, e. w., e. ghysels et j. l. juergens (2009), the impact of risk and uncertainty on expected returns, journal of financial economics, 94 (2) : 233263."
+    },
+    {
+      "authors": [],
+      "title": "market ambiguity and the equity premium",
+      "monograph_title": "measuring economic policy uncertainty",
+      "editors": [
+        "maio, d",
+        "philip"
+      ],
+      "publisher": "",
+      "place": "chicago booth research paper",
+      "date": "2014. 2013",
+      "pages": "",
+      "volume": "13",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://dx.doi.org/10.2139/ssrn.2198490",
+      "doi": "10.2139/ssrn.2379606.baker,s.r.,n.bloomn.ets.j.davis",
+      "raw_reference": "andreou, p. c., a. kagkadis, p. maio et d. philip (2014), market ambiguity and the equity premium, en ligne, http://dx.doi.org/10.2139/ssrn.2379606. baker, s. r., n. bloom n. et s. j. davis (2013), measuring economic policy uncertainty, chicago booth research paper n° 1302, en ligne, http://dx.doi. org/10.2139/ssrn.2198490."
+    },
+    {
+      "authors": [
+        "bansal, ravi",
+        "yaron, amir"
+      ],
+      "title": "risks for the long run: a potential resolution of asset pricing puzzles",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2004",
+      "pages": "14811509",
+      "volume": "59",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.2004.00670.x",
+      "raw_reference": "bansal, r. et a. yaron (2004), risks for the long run: a potential resolution of asset pricing puzzles, journal of finance, 59(4) : 14811509."
+    },
+    {
+      "authors": [
+        "thaler, n"
+      ],
+      "title": "a survey of behavioral finance",
+      "monograph_title": "constantinides, g. m., m. harris et r. m. stulz (eds), handbook of the economics of finance",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "10531128",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barberis, n. et r. thaler (2003), a survey of behavioral finance, in constan tinides, g. m., m. harris et r. m. stulz (eds), handbook of the economics of finance, edition 1, volume 1, chapter 18, p. 10531128."
+    },
+    {
+      "authors": [
+        "barillas, francisco",
+        "hansen, lars",
+        "sargent, thomas"
+      ],
+      "title": "doubts or variability?",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "23882418",
+      "volume": "144",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2008.11.014",
+      "raw_reference": "barillas, f., l. p. hansen et t. sargent (2009), doubts or variability?, jour nal of economic theory, 144 : 23882418."
+    },
+    {
+      "authors": [
+        "nistico"
+      ],
+      "title": "",
+      "monograph_title": "international portfolio allocation under model uncertainty",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2012",
+      "pages": "144189",
+      "volume": "4",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "benigno, p. et s. nistico (2012), international portfolio allocation under model uncertainty, american economic journal: macroeconomics, 4(1) : 14489."
+    },
+    {
+      "authors": [
+        "bewley, truman"
+      ],
+      "title": "knightian decision theory. part i",
+      "monograph_title": "decisions in economics and finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2002",
+      "pages": "79110",
+      "volume": "25",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s102030200006",
+      "raw_reference": "bewley, t. (2002), knightian decision theory: part i, decisions in econo mics and finance, 25(2) : 79110."
+    },
+    {
+      "authors": [
+        "bianchi, milo",
+        "tallon, jeanmarc"
+      ],
+      "title": "ambiguity preferences and portfolio choices: evidence from the field",
+      "monograph_title": "management science",
+      "editors": [
+        "bianchi, m",
+        "et j.m. tallon"
+      ],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "2014",
+      "pages": "14861501",
+      "volume": "65",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/mnsc.2017.3006",
+      "raw_reference": "bianchi, m. et j.m. tallon (2014), ambiguity preferences and portfolio choices: evidence from the field, mimeo."
+    },
+    {
+      "authors": [
+        "billot, antoine",
+        "chateauneuf, alain",
+        "gilboa, itzhak",
+        "tallon, jeanmarc"
+      ],
+      "title": "sharing beliefs: between agreeing and disagreeing",
+      "monograph_title": "econometrica",
+      "editors": [
+        "gilboa et j.m. tallon, i"
+      ],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2000",
+      "pages": "685694",
+      "volume": "68",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680262.00127",
+      "raw_reference": "billot, a., a. chateauneuf, i. gilboa et j.m. tallon (2000), sharing beliefs: between agreeing and disagreeing, econometrica, 68(3) : 685694."
+    },
+    {
+      "authors": [
+        "bossaerts, peter",
+        "ghirardato, paolo",
+        "guarnaschelli, serena",
+        "zame, william"
+      ],
+      "title": "ambiguity in asset markets: theory and experiment",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2010",
+      "pages": "13251359",
+      "volume": "23",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhp106",
+      "raw_reference": "bossaerts, p., p. ghirardato, s. guarnaschelli et w. zame (2010), ambiguity in asset markets: theory and experiments, review of financial studies, 23(4) : 13251359."
+    },
+    {
+      "authors": [
+        "boyarchenko, nina"
+      ],
+      "title": "ambiguity shifts and the 20072008 financial crisis",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "493507",
+      "volume": "59",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmoneco.2012.04.002",
+      "raw_reference": "boyarchenko, n. (2012), ambiguity shifts and the 20072008 financial crisis, journal of monetary economics, 59(5) : 493507."
+    },
+    {
+      "authors": [
+        "boyle, phelim",
+        "garlappi, lorenzo",
+        "uppal, raman",
+        "wang, tan"
+      ],
+      "title": "keynes meets markowitz: the tradeoff between familiarity and diversification",
+      "monograph_title": "management science",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "2012",
+      "pages": "253272",
+      "volume": "58",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/mnsc.1110.1349",
+      "raw_reference": "boyle, p., l. garlappi, r. uppal et t. wang (2012), keynes meets markowitz: the tradeoff between familiarity and diversification, management science, 58(2) : 253272."
+    },
+    {
+      "authors": [
+        "broihanne, mariehelene",
+        "merli, maxime",
+        "roger, patrick"
+      ],
+      "title": "le comportement des investisseurs individuels",
+      "monograph_title": "revue francaise de gestion",
+      "editors": [],
+      "publisher": "jle",
+      "place": "",
+      "date": "2005",
+      "pages": "145168",
+      "volume": "31",
+      "issue": "157",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3166/rfg.157.145168",
+      "raw_reference": "broihanne, m. h., m. merli et p. roger (2005), le comportement des investis seurs individuels, revue francaise de gestion, 4 : 145168."
+    },
+    {
+      "authors": [
+        "caballero, ricardo",
+        "krishnamurthy, arvind"
+      ],
+      "title": "collective risk management in a flight to quality episode",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2008",
+      "pages": "21952230",
+      "volume": "63",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.2008.01394.x",
+      "raw_reference": "caballero, r. et a. krishnamurthy (2008), collective risk management in a flight to quality episode. journal of finance. 63(5) : 21952236."
+    },
+    {
+      "authors": [
+        "campbell, john",
+        "jackson, howell",
+        "madrian, brigitte",
+        "tufano, peter"
+      ],
+      "title": "consumer financial protection",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2011",
+      "pages": "91114",
+      "volume": "25",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.25.1.91",
+      "raw_reference": "campbell, j., h. jackson, b. madrian et p. tufano (2011), consumer financial protection, journal of economic perspectives, 25(1) : 91114."
+    },
+    {
+      "authors": [
+        "campbell, j",
+        "viceira, l"
+      ],
+      "title": "consumption and portfolio decisions when expected returns are time varying",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1999",
+      "pages": "433495",
+      "volume": "114",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/003355399556043",
+      "raw_reference": "campbell, j. y. et l. m. viceira (1999), consumption and portfolio decisions when expected returns are time varying, the quarterly journal of eco nomics, 114(2) : 433495."
+    },
+    {
+      "authors": [
+        "cao, h",
+        "wang, tan",
+        "zhang, harold"
+      ],
+      "title": "model uncertainty, limited market participation, and asset prices",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2005",
+      "pages": "12191251",
+      "volume": "18",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhi034",
+      "raw_reference": "cao, h., t., t. wang et h. zhang (2005), model uncertainty, limited market participation, and asset prices, review of financial studies, 18(4) : 12191251."
+    },
+    {
+      "authors": [
+        "carlier, g",
+        "dana, ra"
+      ],
+      "title": "pareto optima and equilibria when preferences are incompletely known",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "16061623",
+      "volume": "148",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2013.04.014",
+      "raw_reference": "carlier, g. et r.a. dana (2013), pareto optima and equilibria when preferences are incompletely known, journal of economic theory, 148(4) : 16061623."
+    },
+    {
+      "authors": [
+        "caskey, judson"
+      ],
+      "title": "information in equity markets with ambiguityaverse investors",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2009",
+      "pages": "35953627",
+      "volume": "22",
+      "issue": "9",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhn062",
+      "raw_reference": "caskey, j. (2009), information in equity markets with ambiguity averse invest ors, review of financial studies, 22(9) : 35953627."
+    },
+    {
+      "authors": [
+        "chateauneuf, alain",
+        "dana, roseanne",
+        "tallon, jeanmarc"
+      ],
+      "title": "optimal risksharing rules and equilibria with choquetexpectedutility",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2000",
+      "pages": "191214",
+      "volume": "34",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s03044068(00)000410",
+      "raw_reference": "chateauneuf, a., r. a. dana et j.m. tallon (2000), optimal risksharing rules and equilibria with nonadditive expected utility, journal of mathema tical economics, 34(2) : 191214."
+    },
+    {
+      "authors": [
+        "chen, zengjing",
+        "epstein, larry"
+      ],
+      "title": "ambiguity, risk, and asset returns in continuous time",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2002",
+      "pages": "14031443",
+      "volume": "70",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680262.00337",
+      "raw_reference": "chen, z. et l. epstein (2002), ambiguity, risk, and asset returns in continuous time, econometrica, 70(4) : 14031443."
+    },
+    {
+      "authors": [
+        "chen, hui",
+        "ju, nengjiu",
+        "miao, jianjun"
+      ],
+      "title": "dynamic asset allocation with ambiguous return predictability",
+      "monograph_title": "review of economic dynamics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "799823",
+      "volume": "17",
+      "issue": "4",
+      "organization": "",
+      "notes": "a paraitre",
+      "url": "",
+      "doi": "10.1016/j.red.2013.12.001",
+      "raw_reference": "chen, h., n. ju et j. miao (2014), dynamic asset allocation with ambiguous return predictability, review of economic dynamics, a paraitre."
+    },
+    {
+      "authors": [
+        "collard, fabrice",
+        "mukerji, sujoy",
+        "sheppard, kevin",
+        "tallon, j"
+      ],
+      "title": "ambiguity and the historical equity premium",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper",
+      "url": "",
+      "doi": "10.2139/ssrn.1836297",
+      "raw_reference": "collard, f., s. mukerji. k. sheppard et j.m. tallon (2011), ambiguity and the historical equity premium, working paper."
+    },
+    {
+      "authors": [
+        "condie, s",
+        "ganguli, j"
+      ],
+      "title": "ambiguity and rational expectations equilibria",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2011",
+      "pages": "821845",
+      "volume": "78",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/restud/rdq032",
+      "raw_reference": "condie, s. et j. ganguli (2011a), ambiguity and partiallyrevealing rational expectations equilibria, review of economic studies, 78 : 821845."
+    },
+    {
+      "authors": [
+        "condie, scott",
+        "ganguli, jayant"
+      ],
+      "title": "informational efficiency with ambiguous information",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2011",
+      "pages": "229242",
+      "volume": "48",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019901106462",
+      "raw_reference": "condie, s. et j. ganguli (2011b), informational efficiency with ambiguous information, economic theory, 48(2) : 229242."
+    },
+    {
+      "authors": [
+        "condie, scott",
+        "ganguli, jayant"
+      ],
+      "title": "the pricing effects of ambiguous private information",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "720",
+      "issue": "",
+      "organization": "university of essex",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2154383",
+      "raw_reference": "condie, s. et j. ganguli (2012), the pricing effects of ambiguous private onformation, economics discussion papers 720, university of essex, de partment of economics."
+    },
+    {
+      "authors": [
+        "condie, scott",
+        "ganguli, jayant",
+        "illeditsch, philipp"
+      ],
+      "title": "information inertia",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "719",
+      "issue": "",
+      "organization": "university of essex, department of economics",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2023802",
+      "raw_reference": "condie, s., j. ganguli et p. k. illeditsch (2012), information inertia, eco nomics discussion papers 719, university of essex, department of economics."
+    },
+    {
+      "authors": [
+        "connolly, robert",
+        "stivers, chris",
+        "sun, licheng"
+      ],
+      "title": "stock market uncertainty and the stockbond return relation",
+      "monograph_title": "journal of financial and quantitative analysis",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2005",
+      "pages": "161194",
+      "volume": "40",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0022109000001782",
+      "raw_reference": "connolly, r., c. stivers et l. sun (2005), stock market uncertainty and the stockbond return relation, the journal of financial and quantitative analysis, 40(1) : 161194."
+    },
+    {
+      "authors": [
+        "corgnet, brice",
+        "kujal, praveen",
+        "porter, david"
+      ],
+      "title": "reaction to public information in markets: how much does ambiguity matter?",
+      "monograph_title": "the economic journal",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2012",
+      "pages": "699737",
+      "volume": "123",
+      "issue": "569",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680297.2012.02557.x",
+      "raw_reference": "corgnet, b., k. kujal et d. porter, (2012), reaction to public information in markets: how much does ambiguity matter?, the economic journal, 123(569) : 699737."
+    },
+    {
+      "authors": [
+        "coval, joshua",
+        "moskowitz, tobias"
+      ],
+      "title": "home bias at home: local equity preference in domestic portfolios",
+      "monograph_title": "the journal of finance",
+      "editors": [
+        "coval j, d",
+        "et t, j",
+        "moskowitz"
+      ],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1999",
+      "pages": "20452073",
+      "volume": "54",
+      "issue": "6",
+      "organization": "",
+      "notes": "liv",
+      "url": "",
+      "doi": "10.1111/00221082.00181",
+      "raw_reference": "coval j. d., et t. j. moskowitz (1999), home bias at home : local equity pref erence in domestic portfolios, the journal of finance, liv(6) : 20452072."
+    },
+    {
+      "authors": [
+        "dana, r.a"
+      ],
+      "title": "ambiguity, uncertainty aversion and equilibrium welfare",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2004",
+      "pages": "5691",
+      "volume": "23",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019900303832",
+      "raw_reference": "dana, r.a. (2004), ambiguity, uncertainty aversion and equilibrium wel fare, economic theory, 23(3) : 569587."
+    },
+    {
+      "authors": [
+        "dana, roseanne",
+        "riedel, frank"
+      ],
+      "title": "intertemporal equilibria with knightian uncertainty",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "15821605",
+      "volume": "148",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2013.04.005",
+      "raw_reference": "dana, r.a. et f. riedel (2013), intertemporal equilibria with knightian uncertainty?, journal of economic theory, 148(4) : 15821605."
+    },
+    {
+      "authors": [
+        "de castro, luciano",
+        "chateauneuf, alain"
+      ],
+      "title": "ambiguity aversion and trade",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2011",
+      "pages": "243273",
+      "volume": "48",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019901106426",
+      "raw_reference": "de castro, l. et a. chateauneuf (2011), ambiguity aversion and trade, economic theory, 48(2) : 243273."
+    },
+    {
+      "authors": [
+        "de castro, luciano",
+        "pesce, marialaura",
+        "yannelis, nicholas"
+      ],
+      "title": "a new approach to the rational expectations equilibrium: existence, optimality and incentive compatibility",
+      "monograph_title": "annals of finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2011",
+      "pages": "161",
+      "volume": "16",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1043601900349w",
+      "raw_reference": "de castro, l., m. pesce et n. yannelis (2011), a new perspective to rational expectations: maximin rational expectations, mimeo."
+    },
+    {
+      "authors": [
+        "de castro, luciano",
+        "yannelis, nicholas"
+      ],
+      "title": "uncertainty, efficiency and incentive compatibility: ambiguity solves the conflict between efficiency and incentive compatibility",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "678707",
+      "volume": "177",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2018.02.008",
+      "raw_reference": "de castro, l. et n. yannelis (2010), uncertainty, efficiency and incentive compatibility, mimeo."
+    },
+    {
+      "authors": [
+        "diether, karl",
+        "malloy, christopher",
+        "scherbina, anna"
+      ],
+      "title": "differences of opinion and the cross section of stock returns",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2002",
+      "pages": "21132141",
+      "volume": "57",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/00221082.00490",
+      "raw_reference": "diether, k. b., c. j. malloy et a. scherbina (2002), differences of opinion and the cross section of stock returns, the journal of finance, 57(5) : 21132141."
+    },
+    {
+      "authors": [
+        "dimmock, stephen",
+        "kouwenberg, roy",
+        "mitchell, olivia",
+        "peijnenburg, kim"
+      ],
+      "title": "ambiguity aversion and household portfolio choice: empirical evidence",
+      "monograph_title": "nber working paper",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2013. 18743",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w18743",
+      "raw_reference": "dimmock, s. g., r. kouwenberg, o. s. mitchell et k. peijnenburg (2013), ambiguity aversion and household portfolio choice: empirical evidence, nber working paper n° 18743."
+    },
+    {
+      "authors": [
+        "dlugosch, dennis",
+        "wang, mei"
+      ],
+      "title": "relation between equity home bias and ambiguity aversion: an international study",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2431335",
+      "raw_reference": "dlugosch, d. et m. wang (2014), relation between equity home bias and ambiguity aversion: an international study, mimeo."
+    },
+    {
+      "authors": [
+        "dow, james",
+        "da costa werlang, sergio"
+      ],
+      "title": "uncertainty aversion, risk aversion, and the optimal choice of portfolio",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1992",
+      "pages": "197",
+      "volume": "60",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2951685",
+      "raw_reference": "dow, j. et c. werlang (1992), uncertainty aversion, risk aversion and the opti mal choice portfolio, econometrica, 60(1) : 197207."
+    },
+    {
+      "authors": [
+        "easley, david",
+        "ohara, maureen"
+      ],
+      "title": "ambiguity and nonparticipation: the role of regulation",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2009",
+      "pages": "18171843",
+      "volume": "22",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhn100",
+      "raw_reference": "easley, d. et m. ohara (2009), ambiguity and nonparticipation: the role of regulation, review of financial studies, 22 : 18181843."
+    },
+    {
+      "authors": [
+        "easley, david",
+        "ohara, maureen"
+      ],
+      "title": "microstructure and ambiguity",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2010",
+      "pages": "18171846",
+      "volume": "65",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.2010.01595.x",
+      "raw_reference": "easley, d. et m. ohara (2010a), microstructure and ambiguity, journal of finance, 65(5) : 18171846."
+    },
+    {
+      "authors": [
+        "easley, david",
+        "ohara, maureen"
+      ],
+      "title": "liquidity and valuation in an uncertain world☆",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010b",
+      "pages": "111",
+      "volume": "97",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jfineco.2010.03.004",
+      "raw_reference": "easley, d. et m. ohara (2010b), liquidity and valuation in an uncertain world, journal of financial economics, 97(1) : 111."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "risk, ambiguity, and the savage axioms",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1961",
+      "pages": "643669",
+      "volume": "75",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ellsberg, d. (1961), risk, ambiguity, and the savage axioms, quarterly jour nal of economics, 75 : 643669."
+    },
+    {
+      "authors": [
+        "epstein, larry",
+        "ji, shaolin"
+      ],
+      "title": "ambiguous volatility and asset pricing in continuous time",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2013",
+      "pages": "17401786",
+      "volume": "26",
+      "issue": "7",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hht018",
+      "raw_reference": "epstein, l. et s. ji (2013), ambiguous volatility and asset pricing in continuous time, review financial studies, 26(7) : 17401786."
+    },
+    {
+      "authors": [
+        "epstein, larry",
+        "ji, shaolin"
+      ],
+      "title": "ambiguous volatility, possibility and utility in continuous time",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "269282",
+      "volume": "50",
+      "issue": "c",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmateco.2013.09.005",
+      "raw_reference": "epstein, l. et s. ji (2014), ambiguous volatility, possibility and utility in con tinuous time, journal of mathematical economics, 50(c) : 269282."
+    },
+    {
+      "authors": [
+        "epstein, larry",
+        "schneider, martin"
+      ],
+      "title": "ambiguity, information quality, and asset pricing",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2008",
+      "pages": "197228",
+      "volume": "63",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.2008.01314.x",
+      "raw_reference": "epstein, l. et m. schneider (2008), ambiguity, information quality, and asset pricing, journal of finance, 63(1) : 197228."
+    },
+    {
+      "authors": [
+        "epstein, larry",
+        "schneider, martin"
+      ],
+      "title": "ambiguity and asset markets",
+      "monograph_title": "annual review of financial economics",
+      "editors": [],
+      "publisher": "annual reviews",
+      "place": "",
+      "date": "2010",
+      "pages": "315346",
+      "volume": "2",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1146/annurevfinancial120209133940",
+      "raw_reference": "epstein, l. et m. schneider (2010), ambiguity and asset markets, annual review of financial economics, 2(1) : 315346."
+    },
+    {
+      "authors": [
+        "epstein, larry",
+        "wang, tan"
+      ],
+      "title": "intertemporal asset pricing under knightian uncertainty",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1994",
+      "pages": "283",
+      "volume": "62",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2951614",
+      "raw_reference": "epstein, l. et t. wang (1994), intertemporal asset pricing under knightian uncertainty, econometrica, 62(2) : 283322."
+    },
+    {
+      "authors": [
+        "etner, johanna",
+        "jeleva, meglena",
+        "tallon, jean‐marc"
+      ],
+      "title": "decision theory under ambiguity",
+      "monograph_title": "journal of economic surveys",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2012",
+      "pages": "234270",
+      "volume": "26",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14676419.2010.00641.x",
+      "raw_reference": "etner, j., m. jeleva et j.m. tallon (2012), decision theory under ambiguity, journal of economic surveys, 26(2) : 234270."
+    },
+    {
+      "authors": [
+        "faria, goncalo",
+        "correiadasilva, joao"
+      ],
+      "title": "the price of risk and ambiguity in an intertemporal general equilibrium model of asset prices",
+      "monograph_title": "annals of finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2012",
+      "pages": "507531",
+      "volume": "8",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s104360120197y",
+      "raw_reference": "faria, g. et j. correiadasilva (2012), the price of risk and ambiguity in an intertemporal general equilibrium model of asset prices, annals of finance, 8(4) : 507531."
+    },
+    {
+      "authors": [
+        "fullbrunn, sascha",
+        "rau, holger",
+        "weitzel, utz"
+      ],
+      "title": "does ambiguity aversion survive in experimental asset markets?",
+      "monograph_title": "journal of economic behavior & organization",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "810826",
+      "volume": "107",
+      "issue": "b",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jebo.2014.03.013",
+      "raw_reference": "fullbrunn, s, h., a rau et u. weitzel (2014), does ambiguity aversion survive in experimental asset markets, journal of economic behavior and organization, 107(b) : 810826."
+    },
+    {
+      "authors": [
+        "gagliardini, patrick",
+        "porchia, paolo",
+        "trojani, fabio"
+      ],
+      "title": "ambiguity aversion and the term structure of interest rates",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2009",
+      "pages": "41574188",
+      "volume": "22",
+      "issue": "10",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhn092",
+      "raw_reference": "gagliardini, p., p. porchia et f. trojani (2009), ambiguity aversion and the term structure of interest rates, review of financial studies, 22(10) : 41574188."
+    },
+    {
+      "authors": [
+        "gajdos, t",
+        "hayashi, t",
+        "tallon, jm",
+        "vergnaud, jc"
+      ],
+      "title": "attitude toward imprecise information",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2008",
+      "pages": "2765",
+      "volume": "140",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2007.09.002",
+      "raw_reference": "gajdos, t., t. hayashi, j.m. tallon et j.c. vergnaud (2008), attitude toward imprecise information, journal of economic theory, 140 : 2765."
+    },
+    {
+      "authors": [
+        "galichon, a",
+        "henry, m"
+      ],
+      "title": "set identification in models with multiple equilibria",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2011",
+      "pages": "12641298",
+      "volume": "78",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/restud/rdr008",
+      "raw_reference": "galichon, a. et m. henry (2011), set identification in models with multiple equilibria, review of economic studies, 78(4) : 12641298."
+    },
+    {
+      "authors": [
+        "galichon, alfred",
+        "henry, marc"
+      ],
+      "title": "dilation bootstrap",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "109115",
+      "volume": "177",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jeconom.2013.07.001",
+      "raw_reference": "galichon, a. et m. henry (2013), dilation bootstrap, journal of econometrics, 177(1) : 109115."
+    },
+    {
+      "authors": [
+        "garlappi, lorenzo",
+        "uppal, raman",
+        "wang, tan"
+      ],
+      "title": "portfolio selection with parameter and model uncertainty: a multiprior approach",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2007",
+      "pages": "4181",
+      "volume": "20",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhl003",
+      "raw_reference": "garlappi, l., r. uppal et t. wang (2007), portfolio selection with parameter and model uncertainty: a multiprior approach, review of financial studies, 20(1) : 4181."
+    },
+    {
+      "authors": [
+        "gilboa, itzhak",
+        "schmeidler, david"
+      ],
+      "title": "maxmin expected utility with nonunique prior",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1989",
+      "pages": "141153",
+      "volume": "18",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03044068(89)900189",
+      "raw_reference": "gilboa, i. et d. schmeidler (1989), maxmin expected utility with nonunique prior, journal of mathematical economics, 18(2) : 141153."
+    },
+    {
+      "authors": [
+        "gilboa, i",
+        "schmeidler, d"
+      ],
+      "title": "casebased decision theory",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1995",
+      "pages": "605639",
+      "volume": "110",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2946694",
+      "raw_reference": "gilboa, i. et d. schmeidler (1995), casebased decision theory, quarterly journal of economics, 110(3) : 605639."
+    },
+    {
+      "authors": [
+        "gilboa, itzhak",
+        "schmeidler, david"
+      ],
+      "title": "",
+      "monograph_title": "a theory of casebased decisions",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "cambridge, uk",
+      "date": "2001",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511493539",
+      "raw_reference": "gilboa, i. et d, schmeidler (2001), a theory of casebased decisions, cambridge, uk, cambridge university press."
+    },
+    {
+      "authors": [
+        "gollier, christian"
+      ],
+      "title": "portfolio choices and asset prices: the comparative statics of ambiguity aversion",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2011",
+      "pages": "13291344",
+      "volume": "78",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/restud/rdr013",
+      "raw_reference": "gollier, c. (2011), portfolio choices and asset prices: the comparative statics of ambiguity aversion, review of economic studies, 78(4) : 13291344."
+    },
+    {
+      "authors": [
+        "golosnoy, vasyl",
+        "okhrin, yarema"
+      ],
+      "title": "general uncertainty in portfolio selection: a casebased decision approach",
+      "monograph_title": "journal of economic behavior & organization",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2008",
+      "pages": "718734",
+      "volume": "67",
+      "issue": "34",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jebo.2007.08.004",
+      "raw_reference": "golosnoy, v. et y. okhrin (2008), general uncertainty in portfolio selection: a casebased decision approach, journal of economic behavior & organisa tion, 67(34) : 718734."
+    },
+    {
+      "authors": [
+        "guerdjikova, ani"
+      ],
+      "title": "portfolio choice and asset prices in an economy populated by casebased decision makers",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006",
+      "pages": "613",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.956062",
+      "raw_reference": "guerdjikova, a. (2006), portfolio choice and asset prices in an economy popu lated by casebased decision makers, cae working paper 0613."
+    },
+    {
+      "authors": [
+        "guidolin, massimo",
+        "liu, hening"
+      ],
+      "title": "ambiguity aversion and underdiversification",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "483",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2384222",
+      "raw_reference": "guidolin, m. et h. liu (2013), ambiguity aversion and underdiversification, igier working paper n o 483."
+    },
+    {
+      "authors": [
+        "guidolin, massimo",
+        "rinaldi, francesca"
+      ],
+      "title": "",
+      "monograph_title": "a simple model of trading and pricing risky assets under ambiguity: any lessons for policymakers?",
+      "editors": [],
+      "publisher": "federal reserve bank of st. louis",
+      "place": "020a, federal reserve bank of st. louis",
+      "date": "2009. 2009",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.20955/wp.2009.020",
+      "raw_reference": "guidolin, m. et f. rinaldi (2009), a simple model of trading and pricing risky assets under ambiguity: any lessons for policymakers?, working paper n o 2009020a, federal reserve bank of st. louis."
+    },
+    {
+      "authors": [
+        "guidolin, massimo",
+        "rinaldi, francesca"
+      ],
+      "title": "ambiguity in asset pricing and portfolio choice: a review of the literature",
+      "monograph_title": "theory and decision",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "183217",
+      "volume": "74",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1123801293432",
+      "raw_reference": "guidolin, m. et f. rinaldi (2013), ambiguity in asset pricing and portfolio choice: a review of the literature, theory and decision, 74(2) : 183217."
+    },
+    {
+      "authors": [
+        "haliassos, michael",
+        "bertaut, carol"
+      ],
+      "title": "why do so few hold stocks?",
+      "monograph_title": "the economic journal",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1995",
+      "pages": "1110",
+      "volume": "105",
+      "issue": "432",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2235407",
+      "raw_reference": "haliassos, m. et c. c. bertaut (1995), why do so few hold stocks?, the economic journal, 105(432) : 11101129;"
+    },
+    {
+      "authors": [
+        "hansen, lars",
+        "sargent, thomas"
+      ],
+      "title": "robust control and model uncertainty",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2001",
+      "pages": "6066",
+      "volume": "91",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.91.2.60",
+      "raw_reference": "hansen, l. p. et t. j. sargent (2001), robust control and model uncertainty, american economic review, 91(2) : 6066."
+    },
+    {
+      "authors": [
+        "henry, m",
+        "galichon, a"
+      ],
+      "title": "set identification in models with multiple equilibria",
+      "monograph_title": "review of economic studies",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "12641298",
+      "volume": "78",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "henry, m. et a. galichon (2011), set identification in models with multiple equilibria, review of economic studies, 78(4) : 12641298."
+    },
+    {
+      "authors": [
+        "henry, m",
+        "galichon, a"
+      ],
+      "title": "ambiguite, identification partielle et politique environnementale",
+      "monograph_title": "revue economique",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2013",
+      "pages": "603613",
+      "volume": "64",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "henry, m. et a. galichon (2013), ambiguite, identification partielle et politique environnementale, revue economique, 64(4) : 603613."
+    },
+    {
+      "authors": [
+        "hsu, ming",
+        "bhatt, meghana",
+        "adolphs, ralph",
+        "tranel, daniel",
+        "camerer, colin"
+      ],
+      "title": "neural systems responding to degrees of uncertainty in human decisionmaking",
+      "monograph_title": "science",
+      "editors": [],
+      "publisher": "american association for the advancement of science (aaas)",
+      "place": "",
+      "date": "2005",
+      "pages": "16801683",
+      "volume": "310",
+      "issue": "5754",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1126/science.1115327",
+      "raw_reference": "hsu, m., m. bhatt, r. adolphs, d. tranel et c. camerer (2005), neural systems responding to degrees of uncertainty in human decisionmaking, science, 310(5754) : 16803."
+    },
+    {
+      "authors": [
+        "illeditsch, philipp"
+      ],
+      "title": "ambiguous information, portfolio inertia, and excess volatility",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2011",
+      "pages": "22132247",
+      "volume": "66",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.2011.01693.x",
+      "raw_reference": "illeditsch, p.k. (2011), ambiguity information, portfolio inertia, and excess volatility, the journal of finance, 66(6) : 22132247."
+    },
+    {
+      "authors": [
+        "ilut, cosmin"
+      ],
+      "title": "ambiguity aversion: implications for the uncovered interest rate parity puzzle",
+      "monograph_title": "american economic journal: macroeconomics",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2012",
+      "pages": "3365",
+      "volume": "4",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/mac.4.3.33",
+      "raw_reference": "ilut, c. (2012), ambiguity aversion: implications for the uncovered interest rate parity puzzle, american economic journal : macroeconomics, 4(3) : 3365."
+    },
+    {
+      "authors": [
+        "ilut, cosmin",
+        "schneider, martin"
+      ],
+      "title": "",
+      "monograph_title": "ambiguous business cycles",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w17900",
+      "raw_reference": "ilut, c. et m. schneider (2012), ambiguous business cycles, nber working paper 17900."
+    },
+    {
+      "authors": [
+        "jeong, daehee",
+        "kim, hwagyun",
+        "park, joon"
+      ],
+      "title": "does ambiguity matter? estimating asset pricing models with a multiplepriors recursive utility",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "361382",
+      "volume": "115",
+      "issue": "2",
+      "organization": "",
+      "notes": "a paraitre",
+      "url": "",
+      "doi": "10.1016/j.jfineco.2014.10.003",
+      "raw_reference": "jeong, d., h. kim et j. park (2014), does ambiguity matter? estimating asset pricing models with a multiplepriors recursive utility, journal of financial economics, a paraitre."
+    },
+    {
+      "authors": [
+        "ju, n",
+        "miao, j"
+      ],
+      "title": "ambiguity, learning, and asset returns",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2012",
+      "pages": "559591",
+      "volume": "80",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta7618",
+      "raw_reference": "ju, n. et j. miao (2012), ambiguity, learning, and asset returns, econome trica, 80(2) : 559591."
+    },
+    {
+      "authors": [
+        "jurado, kyle",
+        "ludvigson, sydney",
+        "ng, serena"
+      ],
+      "title": "measuring uncertainty",
+      "monograph_title": "measuring uncertainty, nber working paper",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2013. 19456",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w19456",
+      "raw_reference": "jurado, k., s. ludvigson et s. ng (2013), measuring uncertainty, nber working paper, n o 19456."
+    },
+    {
+      "authors": [
+        "kahneman, daniel",
+        "tversky, amos"
+      ],
+      "title": "prospect theory: an analysis of decision under risk",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1979",
+      "pages": "263",
+      "volume": "47",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1914185",
+      "raw_reference": "kahneman, d. et a. tversky (1979), prospect theory: an analysis of decision under risk, econometrica, 47(2) : 263291."
+    },
+    {
+      "authors": [
+        "klibanoff, peter",
+        "marinacci, massimo",
+        "mukerji, sujoy"
+      ],
+      "title": "a smooth model of decision making under ambiguity",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2005",
+      "pages": "18491892",
+      "volume": "73",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680262.2005.00640.x",
+      "raw_reference": "klibanoff, p., m. marinacci et s. mukerji (2005), a smooth model of decision making under ambiguity, econometrica, 73(6) : 18491892."
+    },
+    {
+      "authors": [
+        "kogan, l",
+        "wang, t"
+      ],
+      "title": "intertemporal asset pricing under knightian uncertainty",
+      "monograph_title": "uncertainty in economic theory",
+      "editors": [],
+      "publisher": "routledge",
+      "place": "",
+      "date": "2003",
+      "pages": "445487",
+      "volume": "",
+      "issue": "",
+      "organization": "massachusetts institute of technology, working paper",
+      "notes": "",
+      "url": "",
+      "doi": "10.4324/978020335806124",
+      "raw_reference": "kogan, l. et t. wang (2003, a simple theory of asset pricing under model uncertainty, massachusetts institute of technology, working paper."
+    },
+    {
+      "authors": [
+        "koufopoulos, kostas",
+        "kozhan, roman"
+      ],
+      "title": "welfareimproving ambiguity in insurance markets with asymmetric information",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "551560",
+      "volume": "151",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2013.11.003",
+      "raw_reference": "koufopoulos, k. et r. kozhan (2014), welfareimproving ambiguity in insur ance markets with asymmetric information, journal of economic theory, 151 : 551560."
+    },
+    {
+      "authors": [
+        "leippold, markus",
+        "trojani, fabio",
+        "vanini, paolo"
+      ],
+      "title": "learning and asset prices under ambiguous information",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2008",
+      "pages": "25652597",
+      "volume": "21",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhm035",
+      "raw_reference": "leippold, m., f. trojani et p. vanini (2008), learning and asset prices under ambiguous information, review of financial studies, 21(6) : 25652597."
+    },
+    {
+      "authors": [
+        "lin, qian",
+        "riedel, frank"
+      ],
+      "title": "optimal consumption and portfolio choice with ambiguity",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "",
+      "volume": "497",
+      "issue": "",
+      "organization": "center for mathematical economics, u. bielefeld",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2377452",
+      "raw_reference": "lin, q. et f. riedel (2014), optimal consumption and portfolio choice with ambiguity, working paper n o 497, center for mathematical economics, u. bielefeld."
+    },
+    {
+      "authors": [
+        "lioui, abraham",
+        "poncet, patrice"
+      ],
+      "title": "on model ambiguity and money neutrality",
+      "monograph_title": "journal of macroeconomics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "10201033",
+      "volume": "34",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmacro.2012.08.003",
+      "raw_reference": "lioui, a. et p. poncet (2012), on model ambiguity and money neutrality, journal of macroeconomics, 34(4) : 10201033."
+    },
+    {
+      "authors": [
+        "liu, hening"
+      ],
+      "title": "robust consumption and portfolio choice for time varying investment opportunities",
+      "monograph_title": "annals of finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2010",
+      "pages": "435454",
+      "volume": "6",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1043601001644",
+      "raw_reference": "liu, h. (2010), robust consumption and portfolio choice for time varying investment opportunities, annals of finance, 6(4) : 435454."
+    },
+    {
+      "authors": [
+        "liu, hening"
+      ],
+      "title": "dynamic portfolio choice under ambiguity and regime switching mean returns",
+      "monograph_title": "journal of economic dynamics and control",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "623640",
+      "volume": "35",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jedc.2010.12.012",
+      "raw_reference": "liu, h. (2011), dynamic portfolio choice under ambiguity and regime switch ing mean returns, journal of economic dynamics and control, 35 : 623640."
+    },
+    {
+      "authors": [
+        "machina, mark",
+        "siniscalchi, marciano"
+      ],
+      "title": "ambiguity and ambiguity aversion",
+      "monograph_title": "handbook of the economics of risk and uncertainty",
+      "editors": [
+        "machina, m",
+        "viscusi, w"
+      ],
+      "publisher": "elsevier",
+      "place": "north holland",
+      "date": "2013",
+      "pages": "729807",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/b9780444536853.000131",
+      "raw_reference": "machina. m. et m. siniscalchi (2013), ambiguity and ambiguity aversion, in machina m. j. et w. k. viscusi (eds), economics of risk and uncertainty, handbook in economics, north holland."
+    },
+    {
+      "authors": [
+        "maccheroni, f",
+        "marinacci, m",
+        "ruffino, d"
+      ],
+      "title": "alpha as ambiguity: robust meanvariance portfolio analysis",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2013",
+      "pages": "10751113",
+      "volume": "81",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta9678",
+      "raw_reference": "maccheroni, f., m. marinacci et d. ruffino (2013), alpha as ambiguity: robust mean variance portfolio analysis, econometrica, 81(3) : 10751113."
+    },
+    {
+      "authors": [
+        "maenhout, pascal"
+      ],
+      "title": "robust portfolio rules and asset pricing",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2000",
+      "pages": "951983",
+      "volume": "17",
+      "issue": "4",
+      "organization": "harvard university",
+      "notes": "unpublished ph.d. thesis",
+      "url": "",
+      "doi": "10.1093/rfs/hhh003",
+      "raw_reference": "maenhout, p. (2000), robust portfolio rules, chapitre 1 in essays on port folio choice and asset pricing, unpublished ph.d. thesis, harvard university."
+    },
+    {
+      "authors": [
+        "maenhout, pascal"
+      ],
+      "title": "robust portfolio rules and asset pricing",
+      "monograph_title": "review of financial studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2004",
+      "pages": "951983",
+      "volume": "17",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/rfs/hhh003",
+      "raw_reference": "maenhout, p. (2004), robust portfolio rules and asset pricing, review of financial studies, 17(4) : 951983."
+    },
+    {
+      "authors": [
+        "mandler, m"
+      ],
+      "title": "endogenous indeterminacy and volatility of asset prices under ambiguity",
+      "monograph_title": "theoretical economics",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2013",
+      "pages": "729750",
+      "volume": "8",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/te1068",
+      "raw_reference": "mandler, m. (2013), endogenous indeterminacy and volatility of asset prices under ambiguity, theoretical economics, 8(3) : 729750."
+    },
+    {
+      "authors": [
+        "manski, charles"
+      ],
+      "title": "partial identification with missing data: concepts and findings",
+      "monograph_title": "international journal of approximate reasoning",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2005",
+      "pages": "151165",
+      "volume": "39",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.ijar.2004.10.006",
+      "raw_reference": "manski, c. (2005), partial identification with missing data: concepts and find ings, international journal of approximate reasoning, 39(23) : 151165."
+    },
+    {
+      "authors": [
+        "mehra, rajnish",
+        "prescott, edward"
+      ],
+      "title": "the equity premium: a puzzle",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1985",
+      "pages": "145161",
+      "volume": "15",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03043932(85)900613",
+      "raw_reference": "mehra, r. et e. c. prescott (1985), the equity premium: a puzzle, journal of monetary economics, 15 : 145161."
+    },
+    {
+      "authors": [
+        "mele, antonio",
+        "sangiorgi, francesco"
+      ],
+      "title": "uncertainty, information acquisition and price swings in asset markets",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper",
+      "url": "",
+      "doi": "10.2139/ssrn.1398870",
+      "raw_reference": "mele, a. et f. sangiorgi (2013), uncertainty, information acquisition and price swings in asset markets, working paper."
+    },
+    {
+      "authors": [
+        "meyer, jack",
+        "ormiston, michael"
+      ],
+      "title": "strong increases in risk and their comparative statics",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1985",
+      "pages": "425",
+      "volume": "26",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2526593",
+      "raw_reference": "meyer, j. et m. b. ormiston (1985), strong increase in risk and their compara tive statics?, international economic review, 26 : 425437."
+    },
+    {
+      "authors": [
+        "miao, jianjun",
+        "wei, bin",
+        "zhou, hao"
+      ],
+      "title": "ambiguity aversion and variance premium",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper",
+      "url": "",
+      "doi": "10.2139/ssrn.2029296",
+      "raw_reference": "miao, j., b. wei et h. zhou (2012), ambiguity aversion and variance premium, working paper."
+    },
+    {
+      "authors": [
+        "mukerji, s",
+        "tallon, jm"
+      ],
+      "title": "ambiguity aversion and incompleteness of financial markets",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2001",
+      "pages": "883904",
+      "volume": "68",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/1467937x.00194",
+      "raw_reference": "mukerji, s. et j.m. tallon (2001), ambiguity aversion and incompleteness of financial markets, review of economic studies, 68 : 883904."
+    },
+    {
+      "authors": [
+        "oh, j.y"
+      ],
+      "title": "ambiguity aversion, funding liquidity, and liquidation dynamics",
+      "monograph_title": "journal of financial markets",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "4976",
+      "volume": "18",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.finmar.2013.07.003",
+      "raw_reference": "oh, j.y. (2014), ambiguity aversion, funding liquidity, and liquidation dynamics, journal of financial markets, 18 : 4976."
+    },
+    {
+      "authors": [
+        "ozsoylev, han",
+        "werner, jan"
+      ],
+      "title": "liquidity and asset prices in rational expectations equilibrium with ambiguous information",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2009",
+      "pages": "469491",
+      "volume": "48",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019901106480",
+      "raw_reference": "ozsoylev, h. et j. werner (2009), liquidity and asset prices in rational expect ations equilibrium with ambiguous information, journal of economic theory, 48(2) : 469491."
+    },
+    {
+      "authors": [
+        "pinar, m"
+      ],
+      "title": "equilibrium in an ambiguityaverse meanvariance investors market",
+      "monograph_title": "european journal of operational research",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "957965",
+      "volume": "237",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.ejor.2014.02.016",
+      "raw_reference": "pinar, m. (2014), equilibrium in an ambiguityaverse mean? variance investors market, european journal of operational research, 237(3) : 957965."
+    },
+    {
+      "authors": [
+        "potamites, elizabeth",
+        "zhang, bei"
+      ],
+      "title": "heterogeneous ambiguity attitudes: a field experiment among smallscale stock investors in china",
+      "monograph_title": "review of economic design",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2012",
+      "pages": "193213",
+      "volume": "16",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1005801201257",
+      "raw_reference": "potamites, e. et b. zhang (2012), heterogeneous ambiguity attitudes: a field experiment among smallscale stock investors in china, review of econo mics design, 16(2) : 193213."
+    },
+    {
+      "authors": [
+        "rieger, marc",
+        "wang, mei"
+      ],
+      "title": "can ambiguity aversion solve the equity premium puzzle? survey evidence from international data",
+      "monograph_title": "finance research letters",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "6372",
+      "volume": "9",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.frl.2012.02.001",
+      "raw_reference": "rieger, m.o. et m. wang (2012), can ambiguity aversion solve the equity premium puzzle? survey evidence from international data, finance research letters, 9 : 6372."
+    },
+    {
+      "authors": [
+        "rigotti, luca",
+        "shannon, chris"
+      ],
+      "title": "uncertainty and risk in financial markets",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "",
+      "pages": "203243",
+      "volume": "73",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680262.2005.00569.x",
+      "raw_reference": "rigotti, l. et c. shannon, uncertainty and risk in financial markets, econo metrica, 73(1) : 203243."
+    },
+    {
+      "authors": [
+        "rigotti, l",
+        "shannon, c",
+        "strzalecki, t"
+      ],
+      "title": "subjective beliefs and ex ante trade",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2008",
+      "pages": "11671190",
+      "volume": "76",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta7660",
+      "raw_reference": "rigotti, l., c. shannon et t. strzalecki (2008), subjective beliefs and ex ante trade, econometrica, 76(5) : 11761190."
+    },
+    {
+      "authors": [
+        "rothschild, michael",
+        "stiglitz, joseph"
+      ],
+      "title": "increasing risk ii: its economic consequences",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1971",
+      "pages": "6684",
+      "volume": "3",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/00220531(71)900342",
+      "raw_reference": "rothschild, m. et j. e. stiglitz (1971), increasing risk ii: its economic conse quences, journal of economic theory, 3 : 225243."
+    },
+    {
+      "authors": [
+        "ruffino, doriana"
+      ],
+      "title": "a robust capital asset pricing model",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2355950",
+      "raw_reference": "ruffino, d. (2013), a robust capital asset pricing model, mimeo."
+    },
+    {
+      "authors": [
+        "schmeidler, david"
+      ],
+      "title": "subjective probability and expected utility without additivity",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1989",
+      "pages": "571",
+      "volume": "57",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1911053",
+      "raw_reference": "schmeidler, d. (1989), subjective probability and expected utility without additivity, econometrica, 57(3) : 571587."
+    },
+    {
+      "authors": [
+        "sejourne, b"
+      ],
+      "title": "pourquoi le chaos estil si passionnant ?",
+      "monograph_title": "la theorie du chaos en images",
+      "editors": [],
+      "publisher": "edp sciences",
+      "place": "",
+      "date": "2006",
+      "pages": "66",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1051/9782759823529.c004",
+      "raw_reference": "sejourne, b. (2006), pourquoi le comportement des epargnants francais estil si peu conforme a la theorie traditionnelle du portefeuille?, cahiers scientifiques, n o 2, amf."
+    },
+    {
+      "authors": [
+        "smith, kip",
+        "dickhaut, john",
+        "mccabe, kevin",
+        "pardo, jose"
+      ],
+      "title": "neuronal substrates for choice under ambiguity, risk, gains, and losses",
+      "monograph_title": "management science",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "2002",
+      "pages": "711718",
+      "volume": "48",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/mnsc.48.6.711.194",
+      "raw_reference": "smith k., j. dickhaut, k. mccabe et j. pardo (2002), neuronal substrates for choice under ambiguity, risk, gains, and losses, management science, 48(6) : 711718."
+    },
+    {
+      "authors": [
+        "tallon, j.m"
+      ],
+      "title": "asymmetric information, nonadditive expected utility, and the information revealed by prices: an example",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1998",
+      "pages": "329",
+      "volume": "39",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2527296",
+      "raw_reference": "tallon, j.m. (1998), asymetric information, nonadditive expected utility and the information revealed by prices: an example, international economic review, 39 : 329342."
+    },
+    {
+      "authors": [
+        "l",
+        "werner, i"
+      ],
+      "title": "home bias and high turnover",
+      "monograph_title": "journal of international money and finance",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1995",
+      "pages": "467492",
+      "volume": "14",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "l. i. et i. m. werner (1995), home bias and high turnover, journal of international money and finance, 14(4) : 467492."
+    },
+    {
+      "authors": [
+        "trojani, fabio",
+        "vanini, paolo"
+      ],
+      "title": "a note on robustness in mertons model of intertemporal consumption and portfolio choice",
+      "monograph_title": "journal of economic dynamics and control",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "423435",
+      "volume": "26",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01651889(00)000543",
+      "raw_reference": "trojani, f. et p. vanini (2002), a note on robustness in mertons model of inter temporal consumption and portfolio choice, journal of economic dynamics and control, 26(3) : 423435."
+    },
+    {
+      "authors": [
+        "trojani, fabio",
+        "vanini, paolo"
+      ],
+      "title": "robustness and ambiguity aversion in general equilibrium *",
+      "monograph_title": "review of finance",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2004",
+      "pages": "279324",
+      "volume": "8",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/b:eufi.0000035193.29969.40",
+      "raw_reference": "trojani, f. et p. vanini (2004), robustness and ambiguity aversion in general equilibrium, review of finance, 8(2) : 279324."
+    },
+    {
+      "authors": [
+        "ulrich, maxim"
+      ],
+      "title": "inflation ambiguity and the term structure of u.s. government bonds",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "295309",
+      "volume": "60",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmoneco.2012.10.015",
+      "raw_reference": "ulrich, m. (2013), inflation ambiguity and the term of u.s. govern ment bonds, journal of monetary economics, 60(2) : 295309."
+    },
+    {
+      "authors": [
+        "uppal, raman",
+        "wang, tan"
+      ],
+      "title": "model misspecification and underdiversification",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2003",
+      "pages": "24652486",
+      "volume": "58",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1046/j.15406261.2003.00612.x",
+      "raw_reference": "uppal, r. et t. wang (2003), model misspecification and underdiversification, the journal of finance, lviii(6) : 24652486."
+    },
+    {
+      "authors": [
+        "werner, jan"
+      ],
+      "title": "speculative trade under ambiguity",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "105200",
+      "volume": "199",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2021.105200",
+      "raw_reference": "werner, j. (2014), speculative trade under ambiguity. mimeo."
+    },
+    {
+      "authors": [
+        "zhu, wenge"
+      ],
+      "title": "ambiguity aversion and an intertemporal equilibrium model of catastrophelinked securities pricing",
+      "monograph_title": "insurance: mathematics and economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "3846",
+      "volume": "49",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.insmatheco.2011.02.001",
+      "raw_reference": "zhu, w. (2011), ambiguity aversion and an intertemporal equilibrium model of catastrophelinked securities pricing, insurance: mathematics and eco nomics, 49(1) : 3846."
+    },
+    {
+      "authors": [
+        "zhu, wenge",
+        "kunreuther, howard",
+        "michelkerjan, erwann"
+      ],
+      "title": "ambiguity types, robust learning and natural catastrophe insurance: how longterm contracts may help",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://dx.doi.org/10.2139/ssrn.2113828",
+      "doi": "10.2139/ssrn.2113828",
+      "raw_reference": "zhu, w., h. kunreuther et e. michelkerjan (2012) ambiguity types, robust learning and natural catastrophe insurance: how longterm contracts may help?, mimeo, http://dx.doi.org/10.2139/ssrn.2113828."
+    }
+  ],
+  "notes": [
+    "[4] temoins de limportance qua prise cette litterature recemment, deux revues de la litterature, epstein et schneider (2010) et guidolin et rinaldi (2013), sont recemment parues.",
+    "[10] ce modele, tres utilise en finance, comporte un agent representatif qui detient un arbre soit lactif risque dont il consomme les fruits (les dividendes) en quantite incertaine a chaque periode",
+    "[13] voir egalement de castro, pesce, et yannelis (2011 ) et de castro et yannelis (2010).",
+    "[14] voir egalement alonso et prado (2013) qui trouvent un cout des fluctuations de lordre de 10 % de la consommation permanente.",
+    "[15] garlappi, uppal et wang (2012) developpent un modele dans lequel les portefeuilles des investisseurs ayant le plus daversion pour lambiguite sont plus stables au cours du temps.",
+    "[16] voir aussi alonso et prado (2013) qui mettent aussi en evidence limportance de lheterogeneite des preferences des acteurs par rapport a lambiguite dans les proprietes des prix dequilibre.",
+    "[19] voir aussi connolly, stivers et sun (2005) pour une mesure basee sur la volatilite de prix doptions."
+  ],
+  "figures": [],
+  "tables": []
+}

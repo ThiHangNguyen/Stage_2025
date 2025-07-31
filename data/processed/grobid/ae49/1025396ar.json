@@ -1,0 +1,791 @@
+{
+  "title": "synchronisation des chocs doffre et de demande en europe un apreseuro ou une aprescrise des subprimes?*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "natacha",
+      "last_name": "gilson",
+      "email": "nathalie.gilson@uclouvain.be",
+      "affiliation": "universite catholique de louvain louvain school of management ofcesciencespo",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "fabien",
+      "last_name": "labondance",
+      "email": "fabien.labondance@sciencespo.fr",
+      "affiliation": "universite catholique de louvain louvain school of management ofcesciencespo",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "cette etude porte sur la synchronisation des chocs doffre et de demande observes au sein des etats membres de la zone euro et dans certains pays voisins.base sur la methodologie de blanchard et quah (1989), cet article montre que la synchronisation des chocs sest accrue au sein de la zone euro apres leclatement de la crise des subprimes.toutefois, une diminution de cette synchronisation apparait sur la fin de la periode analysee.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "revue de litterature et questions de recherche",
+    "methodologie",
+    "considerations theoriques",
+    "donnees",
+    "5.",
+    "synchronisation des chocs doffre et de demande",
+    "le cas des pays nonmembres de la zone euro",
+    "le cas des pays membres de la zone euro",
+    "une analyse dynamique",
+    "it",
+    "pt",
+    "it",
+    "pt",
+    "ie",
+    "it",
+    "pt",
+    "it",
+    "lu",
+    "annexe 1",
+    "presentation du modele"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "artis, m",
+        "zhang, w"
+      ],
+      "title": "international business cycles and the erm: is there a european business cycle?",
+      "monograph_title": "international journal of finance & economics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1997",
+      "pages": "116",
+      "volume": "2",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/(sici)10991158(199701)2:1<1::aidijfe31>3.0.co;27",
+      "raw_reference": "artis, m. et w. zhang (1997), international business cycles and the erm: is there a european business cycle?, international journal of finance and economics, 2 : 10991158."
+    },
+    {
+      "authors": [
+        "babetskii, ian"
+      ],
+      "title": "trade integration and synchronization of shocks*",
+      "monograph_title": "economics of transition",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2005",
+      "pages": "105138",
+      "volume": "13",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680351.2005.00209.x",
+      "raw_reference": "babetskii, i (2005), trade integration and synchronization of shocks, eco nomics of transition, 13(1) : 105138."
+    },
+    {
+      "authors": [
+        "babetskii, ian",
+        "boone, laurence",
+        "maurel, mathilde"
+      ],
+      "title": "exchange rate regimes and shocks asymmetry: the case of the accession countries",
+      "monograph_title": "journal of comparative economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004",
+      "pages": "212229",
+      "volume": "32",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jce.2004.02.010",
+      "raw_reference": "babetskii, i, j. boone et m. maurel (2004), exchange rate regimes and supply shocks asymetry: the case of the accession countries, journal of comparative economics, 32(2) : 221229."
+    },
+    {
+      "authors": [
+        "ballabriga, fernando",
+        "sebastian, miguel",
+        "valles, javier"
+      ],
+      "title": "european asymmetries",
+      "monograph_title": "journal of international economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1999",
+      "pages": "233253",
+      "volume": "48",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00221996(98)00049x",
+      "raw_reference": "ballabriga, f., m. sebastian et j. valles (1999), european asymmetries, journal of international economics, 48 : 233253."
+    },
+    {
+      "authors": [
+        "bayoumi, tamim",
+        "eichengreen, barry"
+      ],
+      "title": "",
+      "monograph_title": "shocking aspects of european monetary unification",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1992",
+      "pages": "3949",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w3949",
+      "raw_reference": "bayoumi, t. et b. eichengreen (1992), shocking aspects of european monetary unification, nber working paper n° 3949."
+    },
+    {
+      "authors": [
+        "bayoumi, t",
+        "eichengreen, b"
+      ],
+      "title": "one money or many? analyzing the prospects for monetary unification in various parts of the world",
+      "monograph_title": "princeton studies in international finance",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1994",
+      "pages": "76",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bayoumi, t et b. eichengreen (1994), one money or many? analyzing the prospects for monetary unification in various parts of the world, princeton studies in international finance, n° 76."
+    },
+    {
+      "authors": [
+        "blanchard, olivier",
+        "quah, danny"
+      ],
+      "title": "the dynamic effects of aggregate demand and supply disturbances",
+      "monograph_title": "the american economic review",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1989",
+      "pages": "655673",
+      "volume": "79",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w2737",
+      "raw_reference": "blanchard, o et d. quah (1989), the dynamic effects of aggregate demand and supply disturbances, the american economic review, 79(4) : 655673."
+    },
+    {
+      "authors": [
+        "boone, l"
+      ],
+      "title": "symetrie des chocs en union europeenne : une analyse dynamique",
+      "monograph_title": "economie internationale",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "734",
+      "volume": "70",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "boone, l (1997), symetrie des chocs en union europeenne : une analyse dynamique, economie internationale, 70 : 734."
+    },
+    {
+      "authors": [
+        "broz, tanja"
+      ],
+      "title": "introduction of the euro in cee countries is it economically justifiable? the croatian case",
+      "monograph_title": "postcommunist economies",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2008",
+      "pages": "427447",
+      "volume": "22",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/14631377.2010.518449",
+      "raw_reference": "broz, t (2008), the introduction of the euro in central and eastern european countries. is it economically justifiable?, ekonomski institut zagreb working paper, n° 1."
+    },
+    {
+      "authors": [
+        "burda, m",
+        "wyplosz, c"
+      ],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "bruxelles",
+      "date": "2009",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "5 e edition",
+      "url": "",
+      "doi": "",
+      "raw_reference": "burda, m et c. wyplosz (2009), macroeconomie. de boeck, bruxelles, 5 e edition."
+    },
+    {
+      "authors": [
+        "camacho, maximo",
+        "perezquiros, gabriel",
+        "saiz, lorena"
+      ],
+      "title": "are european business cycles close enough to be just one?",
+      "monograph_title": "journal of economic dynamics and control",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2005",
+      "pages": "16871706",
+      "volume": "30",
+      "issue": "910",
+      "organization": "",
+      "notes": "cepr discussion paper",
+      "url": "",
+      "doi": "10.1016/j.jedc.2005.08.012",
+      "raw_reference": "camacho, m. g. perezquiros et l. saiz (2005), are european business cycles close enough to be just one?, cepr discussion paper."
+    },
+    {
+      "authors": [
+        "csajbok, a",
+        "csermely, a"
+      ],
+      "title": "",
+      "monograph_title": "adopting the euro in hungary: expected costs, benefits and timing",
+      "editors": [],
+      "publisher": "nbh occasional papers",
+      "place": "",
+      "date": "2002",
+      "pages": "24",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "csajbok, a et a. csermely (2002), adopting the euro in hungary: expected costs, benefits and timing, nbh occasional papers n° 24."
+    },
+    {
+      "authors": [
+        "darvas, zsolt",
+        "szapary, gyorgy"
+      ],
+      "title": "business cycle synchronization in the enlarged eu: comovements in the new and old members",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004",
+      "pages": "",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.508564",
+      "raw_reference": "darvas, z. et g. szapary (2004), business cycle synchronisation in the enlarged eu: comovements in the new and old members, nbh working papers n° 1."
+    },
+    {
+      "authors": [
+        "de haan, jakob",
+        "inklaar, robert",
+        "jong‐a‐pin, richard"
+      ],
+      "title": "will business cycles in the euro area converge? a critical survey of empirical research",
+      "monograph_title": "journal of economic surveys",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2008",
+      "pages": "234273",
+      "volume": "22",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14676419.2007.00529.x",
+      "raw_reference": "de haan, j. r. inklaar et r. jongapin (2008), will business cycles in the euro area converge? a critical survey of empirical research, journal of economic suveys, 22(2) : 234273."
+    },
+    {
+      "authors": [
+        "eickmeier, sandra",
+        "breitung, jorg"
+      ],
+      "title": "how synchronized are new eu member states with the euro area? evidence from a structural factor model",
+      "monograph_title": "journal of comparative economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006",
+      "pages": "538563",
+      "volume": "34",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jce.2006.06.003",
+      "raw_reference": "eickmeier, s. et j. breitung (2006), how synchronised are central and east european economies with the euro area? evidence from a structural factor model, journal of comparative economics, 34(3) : 538563."
+    },
+    {
+      "authors": [
+        "korhonen, i"
+      ],
+      "title": "similarity of supply and demand shock between the euro area and the ceecs",
+      "monograph_title": "economic systems",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "313334",
+      "volume": "27",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fidrmuc, j. et i. korhonen (2003), similarity of supply and demand shock between the euro area and the ceecs, economic systems, 27 : 313334."
+    },
+    {
+      "authors": [
+        "fidrmuc, jarko",
+        "korhonen, iikka"
+      ],
+      "title": "metaanalysis of the business cycle correlation between the euro area and the ceecs",
+      "monograph_title": "journal of comparative economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006",
+      "pages": "518537",
+      "volume": "34",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jce.2006.06.007",
+      "raw_reference": "fidrmuc, j et i. korhonen (2006), metaanalysis of the business cycle cor relation between the euro area and the ceecs, journal of comparative economics, 34(3) : 518537."
+    },
+    {
+      "authors": [
+        "frankel, jeffrey",
+        "rose, andrew"
+      ],
+      "title": "the endogenity of the optimum currency area criteria",
+      "monograph_title": "the economic journal",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1998",
+      "pages": "10091025",
+      "volume": "108",
+      "issue": "449",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680297.00327",
+      "raw_reference": "frankel, j. et a. rose (1998), the endogeneity of the optimum currency area criteria the economic journal, 108 : 10091025."
+    },
+    {
+      "authors": [
+        "frenkel, michael",
+        "nickel, christiane"
+      ],
+      "title": "how symmetric are the shocks and the shock adjustment dynamics between the euro area and central and eastern european countries?*",
+      "monograph_title": "jcms: journal of common market studies",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2005",
+      "pages": "5374",
+      "volume": "43",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.00219886.2005.00546.x",
+      "raw_reference": "frenkel, m. et c. nickel (2005), how symetric are the shocks and the shocks adjustment dynamics between the euro area and central and eastern euro pean countries?, journal of common market studies, 43(1) : 5374."
+    },
+    {
+      "authors": [
+        "funke, michael"
+      ],
+      "title": "the nature of shocks in europe and in germany",
+      "monograph_title": "economica",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1997",
+      "pages": "461469",
+      "volume": "64",
+      "issue": "255",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680335.00090",
+      "raw_reference": "funke, m. (1997), the nature of shocks in europe and in germany, economica, 64 : 461469."
+    },
+    {
+      "authors": [
+        "gilson, natacha"
+      ],
+      "title": "how to be well shod to absorb shocks? shock synchronization and joining the euro zone",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006. 1878. december",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.956271",
+      "raw_reference": "gilson, n. (2006), how to be well shod to absorb shocks? shock synchronisa tion and joining the euro zone, cesifo working paper n° 1878, december."
+    },
+    {
+      "authors": [
+        "gilson, n"
+      ],
+      "title": "development and international economics",
+      "monograph_title": "essays in memory of michel norro",
+      "editors": [
+        "nyembwe, a"
+      ],
+      "publisher": "presses universitaires de louvain",
+      "place": "",
+      "date": "2008",
+      "pages": "171195",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "about the future of emu",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gilson, n. (2008), about the future of emu, in nyembwe, a., development and international economics, essays in memory of michel norro, presses universitaires de louvain, p.171195."
+    },
+    {
+      "authors": [
+        "gilson, natacha",
+        "labondance, fabien"
+      ],
+      "title": "les consequences de la crise sur la politique monetaire commune : un point sur la synchronisation des chocs dans la zone euro",
+      "monograph_title": "la crise dans tous ses etats",
+      "editors": [
+        "echinard, y",
+        "labondance, f"
+      ],
+      "publisher": "presses universitaires de grenoble",
+      "place": "",
+      "date": "2011",
+      "pages": "5774",
+      "volume": "",
+      "issue": "",
+      "organization": "presses universitaires de grenoble",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/pug.echin.2015.01.0057",
+      "raw_reference": "gilson, n. et f. labondance (2011), les consequences de la crise sur la poli tique monetaire commune, un point sur la synchronisation des chocs dans la zone euro, in echinard, y. et f. labondance, la crise dans tous ses etats, presses universitaires de grenoble."
+    },
+    {
+      "authors": [
+        "guillaumin, g"
+      ],
+      "title": "(a)symetrie et convergence des chocs macroeconomiques en asie de lest : une analyse dynamique",
+      "monograph_title": "economie internationale",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2008",
+      "pages": "2968",
+      "volume": "n° 114",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/ecoi.114.0029",
+      "raw_reference": "guillaumin, g. (2008), (a)symetrie et convergence des chocs macroecono miques en asie de lest, une analyse dynamique, economie internationale, 214(2) : 2968."
+    },
+    {
+      "authors": [
+        "horvath, j",
+        "ratfai, a"
+      ],
+      "title": "supply and demand shocks in accession countries to the economic and monetary union",
+      "monograph_title": "journal of comparative economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004",
+      "pages": "202211",
+      "volume": "32",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01475967(04)000186",
+      "raw_reference": "horvath, j. et a. ratfai (2004), supply and demand schocks in accession countries to the economic and monetary union, journal of comparative economics, 32(2) : 202211."
+    },
+    {
+      "authors": [
+        "huchetbourdon, marilyne",
+        "pentecote, jeansebastien"
+      ],
+      "title": "elargissement de la zone euro et mesure des asymetries",
+      "monograph_title": "revue economique",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2008",
+      "pages": "341358",
+      "volume": "vol. 59",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/reco.592.0341",
+      "raw_reference": "huchetbourdon, m. et js. pentecote (2008), elargissement de la zone euro et mesure des asymetries. un bilan empirique, revue economique, 59(2) : 341358."
+    },
+    {
+      "authors": [
+        "ingram, j"
+      ],
+      "title": "",
+      "monograph_title": "regional payments mechanisms : the case of puerto rico",
+      "editors": [],
+      "publisher": "chapel hill, university of north carolina press",
+      "place": "",
+      "date": "1962",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ingram, j. (1962), regional payments mechanisms : the case of puerto rico, chapel hill, university of north carolina press."
+    },
+    {
+      "authors": [
+        "kenen, peter",
+        "mundell, r",
+        "swoboda, a"
+      ],
+      "title": "the theory of optimum currency areas: an eclectic view",
+      "monograph_title": "exchange rates and the monetary system",
+      "editors": [],
+      "publisher": "edward elgar publishing",
+      "place": "chicago",
+      "date": "1969",
+      "pages": "322",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4337/9781035351718.00007",
+      "raw_reference": "kenen, p. (1969), the theory of optimum currency areas, an eclectic view, in mundell, r. et a. k. swoboda, monetary problems of the international economy. chicago, university of chicago press, p. 4160."
+    },
+    {
+      "authors": [
+        "krugman, paul",
+        "torres, f",
+        "et, f",
+        "giavazzi"
+      ],
+      "title": "lessons of massachusetts for emu",
+      "monograph_title": "adjustment and growth in the european monetary union",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "cambridge",
+      "date": "1993",
+      "pages": "241266",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "lessons of massachussetts for emu",
+      "url": "",
+      "doi": "10.1017/cbo9780511599231.016",
+      "raw_reference": "krugman, p. (1993), lessons of massachussetts for emu, in torres, f., et f. giavazzi, adjustment and growth in the european monetary union, cambridge, cambridge university press, p. 241269."
+    },
+    {
+      "authors": [
+        "levasseur, s"
+      ],
+      "title": "updating empirical evidence on business cycles synchronisation between ceecs and the euro area, how important is the recent period?",
+      "monograph_title": "ofce",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "11",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "levasseur, s. (2008), updating empirical evidence on business cycles syn chronisation between ceecs and the euro area, how important is the recent period?, document de travail de lofce n° 11."
+    },
+    {
+      "authors": [
+        "mankiw"
+      ],
+      "title": "",
+      "monograph_title": "",
+      "editors": [],
+      "publisher": "",
+      "place": "bruxelles",
+      "date": "2010",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "5 e edition",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mankiw, g. n. (2010), macroeconomie, de boeck, bruxelles, 5 e edition."
+    },
+    {
+      "authors": [
+        "mongelli, francesco"
+      ],
+      "title": "what is european economic and monetary union telling us about the properties of optimum currency areas?*",
+      "monograph_title": "jcms: journal of common market studies",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2005",
+      "pages": "607635",
+      "volume": "43",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.00219886.2005.00571.x",
+      "raw_reference": "mongelli, f. (2005), what is european economic and monetary union telling us about the properties of optimum currency areas?, journal of common market studies, 43(139) : 607625."
+    },
+    {
+      "authors": [
+        "mundell, r"
+      ],
+      "title": "a theory of optimum currency area",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1961",
+      "pages": "657664",
+      "volume": "51",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mundell, r. (1961), a theory of optimum currency area, american eco nomic review, 51(4) : 657664."
+    },
+    {
+      "authors": [
+        "ramos, raul",
+        "suriach, jordi"
+      ],
+      "title": "shocking aspects of european enlargement",
+      "monograph_title": "eastern european economics",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2004",
+      "pages": "3657",
+      "volume": "42",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/00128775.2004.11041088",
+      "raw_reference": "ramos, r. et j. surinach (2004), shocking aspects of european enlargement, eastern european economics, 42(5) : 3657."
+    },
+    {
+      "authors": [
+        "valentinaite, m",
+        "snieska, v"
+      ],
+      "title": "baltic states busines cycle symmetry, schock correlation approach",
+      "monograph_title": "engineering economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "2430",
+      "volume": "44",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "valentinaite, m. et v. snieska (2005), baltic states busines cycle symmetry, schock correlation approach, engineering economics, 44(4) : 2430."
+    },
+    {
+      "authors": [
+        "weimann, m"
+      ],
+      "title": "oca theory and emu eastern enlargement : an empirical application",
+      "monograph_title": "research notes working paper series",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "",
+      "volume": "8",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "weimann, m. (2003), oca theory and emu eastern enlargement : an empirical application, research notes working paper series n° 8."
+    }
+  ],
+  "notes": [],
+  "figures": [],
+  "tables": []
+}

@@ -1,0 +1,2141 @@
+{
+  "title": "le mecanisme optimal de vote au sein du conseil des representants dun systeme federal*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "michel",
+      "last_name": "le breton",
+      "email": "",
+      "affiliation": "institut universitaire de france, toulouse school of economics dominique lepelley cemoi universite de la reunion aixmarseille universite cnrs, ehess centrale marseille, universite de normandie unicaen, cnrs",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "antonin",
+      "last_name": "mace",
+      "email": "",
+      "affiliation": "institut universitaire de france, toulouse school of economics dominique lepelley cemoi universite de la reunion aixmarseille universite cnrs, ehess centrale marseille, universite de normandie unicaen, cnrs",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "vincent",
+      "last_name": "merlin",
+      "email": "",
+      "affiliation": "institut universitaire de france, toulouse school of economics dominique lepelley cemoi universite de la reunion aixmarseille universite cnrs, ehess centrale marseille, universite de normandie unicaen, cnrs",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "lobjet principal de cet article est doffrir une approche du probleme de la selection du mecanisme de vote au sein du conseil des representants dune union federale.nous postulons sans expliquer pourquoi (dans cet article) que plusieurs entites autonomes (des pays, des regions, des communes,...) renoncent (on parle alors pudiquement de transferts de competences) a exercer unilateralement leur autorite sur tout ou partie des questions de politique economique, societale, militaire, diplomatique qui etaient ou qui pourraient relever de leur souverainete exclusive.cet article nest donc pas un article sur le federalisme et par consequent le lecteur ne doit pas sattendre a y trouver une analyse des gains et benefices dune union federale.nous supposons que lunion federale et les questions relevant de ses lactualite economique, revue danalyse economique, vol.93, n os 12, marsjuin 2017 ___________ * nous tenons a remercier chaleureusement les trois rapporteurs anonymes ainsi que lediteur, arnaud dellis, de leurs commentaires et remarques constructifs et pertinents.ils ont aussi identifie des lacunes et des insuffisances serieuses dans la version precedente.nous exprimons aussi notre gratitude a karine van der straeten de nous avoir autorises a reproduire dans la section 2 de nombreux developpements contenus dans un article en preparation, mais non encore diffuse, coecrit avec le premier auteur de cet article (2015a).vincent merlin remercie le programme anr14ce24000701 cocoricocodec pour son soutien financier.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "2.",
+    "3.",
+    "4.",
+    "6.",
+    "7.",
+    "le mecanisme optimal dans le cas de lutilitarisme",
+    "le contexte : electorat aleatoire et mecanisme de vote",
+    "9.",
+    "le theoreme de barbera et jackson",
+    "comparaison des mecanismes a laide des poids de barberajackson dans le cas neutre",
+    "poids et marge de victoire electorale",
+    "dans le cas ou",
+    "le cas des etats composes de blocs",
+    "le cas de representants utilitaristes",
+    "robustesse aux changements de criteres",
+    "les objectifs egalitaristes",
+    "la validite du theoreme limite de penrose",
+    "voir aussi",
+    "utilitarisme et egalitarisme",
+    "criteres de succes, de deficit majoritaire espere et defficacite majoritaire",
+    "mentionnons egalement",
+    "des modeles alternatifs : le cadre du choix public",
+    "limpact du nombre de decisions a prendre",
+    "voir egalement",
+    "dun choix dichotomique au choix sur un intervalle"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "alon, noga",
+        "edelman, paul"
+      ],
+      "title": "the inverse banzhaf problem",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2010",
+      "pages": "371377",
+      "volume": "34",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500904028",
+      "raw_reference": "alon, n. et p. h. edelman (2010), the inverse banzhaf problem, social choice and welfare, 34 : 371377."
+    },
+    {
+      "authors": [
+        "azrieli, yaron",
+        "kim, semin"
+      ],
+      "title": "pareto efficiency and weighted majority rules",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2014",
+      "pages": "10671088",
+      "volume": "55",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/iere.12083",
+      "raw_reference": "azrieli, y. et s. kim (2014), pareto efficiency and optimal voting rules, international economic review, 55 : 10671088."
+    },
+    {
+      "authors": [
+        "balinski, m",
+        "young, p"
+      ],
+      "title": "",
+      "monograph_title": "fair representation",
+      "editors": [],
+      "publisher": "yale university press",
+      "place": "new haven",
+      "date": "1982",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "balinski, m. et p. young (1982), fair representation, new haven, yale university press."
+    },
+    {
+      "authors": [
+        "banzhaf, j"
+      ],
+      "title": "weighted voting: a mathematical analysis for instrumental judgments",
+      "monograph_title": "weighted voting does not work: a mathematical analysis",
+      "editors": [],
+      "publisher": "rand corporation",
+      "place": "",
+      "date": "1965",
+      "pages": "317343",
+      "volume": "19",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7249/p3318",
+      "raw_reference": "banzhaf, j.f. (1965), weighted voting does not work: a mathematical analysis, rutgers law review, 19, 317343."
+    },
+    {
+      "authors": [
+        "barber�, salvador",
+        "jackson, matthew"
+      ],
+      "title": "on the weights of nations: assigning voting weights in a heterogeneous union",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004. 2004",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://www.feem.it/feem/pub/publications/wpapers/default.htm",
+      "doi": "10.2139/ssrn.546583",
+      "raw_reference": "barbera, s. et m.o. jackson (2004), on the weights of nations: assigning voting weights in a heterogeneous union, nota di lavoro 76.2004. the fondazione eni enrico mattei. http://www.feem.it/feem/pub/publications/ wpapers/default.htm"
+    },
+    {
+      "authors": [
+        "barbera, salvador",
+        "jackson, matthew"
+      ],
+      "title": "on the weights of nations: assigning voting weights in a heterogeneous union",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2006",
+      "pages": "317339",
+      "volume": "114",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/501172",
+      "raw_reference": "barbera, s. et m.o. jackson (2006), on the weights of nations: assigning voting weights in a heterogeneous union, journal of political economy, 114 : 317339."
+    },
+    {
+      "authors": [
+        "baron, david",
+        "ferejohn, john"
+      ],
+      "title": "bargaining in legislatures",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1989",
+      "pages": "11811206",
+      "volume": "83",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1961664",
+      "raw_reference": "baron, d. et ferejohn, j. (1989), bargaining in legislature, american political science review, 83 : 11811206."
+    },
+    {
+      "authors": [
+        "beisbart, claus",
+        "bovens, luc"
+      ],
+      "title": "welfarist evaluations of decision rules for boards of representatives",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2007",
+      "pages": "581608",
+      "volume": "29",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550070246z",
+      "raw_reference": "beisbart, c. et l. bovens (2007), welfarist evaluations of decision rules for board of representatives, social choice and welfare, 29 : 581608."
+    },
+    {
+      "authors": [
+        "beisbart, claus",
+        "bovens, luc"
+      ],
+      "title": "a power measure analysis of amendment 36 in colorado",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2008",
+      "pages": "231246",
+      "volume": "134",
+      "issue": "34",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1112700792207",
+      "raw_reference": "beisbart, c. et l. bovens (2008), a power measure analysis of amendment 36 in colorado, public choice, 124 : 231246."
+    },
+    {
+      "authors": [
+        "beisbart, claus",
+        "bovens, luc"
+      ],
+      "title": "minimizing the threat of a positive majority deficit in twotier voting systems with equipopulous units",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "7594",
+      "volume": "154",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1112701198102",
+      "raw_reference": "beisbart, c. et l. bovens (2013), minimizing the threat of a positive majority deficit in twotier voting systems with equipopulous units, public choice, 145 : 7594."
+    },
+    {
+      "authors": [
+        "beisbart, claus",
+        "bovens, luc",
+        "hartmann, stephan"
+      ],
+      "title": "a utilitarian assessment of alternative decision rules in the council of ministers",
+      "monograph_title": "european union politics",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2005",
+      "pages": "395418",
+      "volume": "6",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/1465116505057814",
+      "raw_reference": "beisbart, c., l. bovens et s. hartmann (2005), welfarist foundations of alternative decision rules in the council of ministers, european union politics, 6 : 395419."
+    },
+    {
+      "authors": [
+        "beisbart, claus",
+        "hartmann, stephan"
+      ],
+      "title": "welfarist evaluations of decision rules under interstate utility dependencies",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2010",
+      "pages": "315344",
+      "volume": "34",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550090399z",
+      "raw_reference": "beisbart, c. et s. hartmann (2010), welfarist evaluations of decision rules under interstate utility dependencies, social choice and welfare, 34 : 315344."
+    },
+    {
+      "authors": [
+        "berg, sven"
+      ],
+      "title": "the probability of casting a decisive vote: the effects of a caucus",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1990",
+      "pages": "7392",
+      "volume": "64",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00125918",
+      "raw_reference": "berg, s. (1990), the probability of casting a decisive vote : the effects of a caucus, public choice, 64 : 7392."
+    },
+    {
+      "authors": [
+        "billingsley, p"
+      ],
+      "title": "",
+      "monograph_title": "probability",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1995",
+      "pages": "2138",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "third edition",
+      "url": "",
+      "doi": "10.1002/9781119243830.ch2",
+      "raw_reference": "billingsley, p. (1995), probability and measure, third edition, john wiley."
+    },
+    {
+      "authors": [
+        "bisson, franck",
+        "bonnet, jean",
+        "lepelley, dominique"
+      ],
+      "title": "la determination du nombre des delegues au sein des structures intercommunales : une application de lindice de pouvoir de banzhaf",
+      "monograph_title": "revue deconomie regionale & urbaine",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2004",
+      "pages": "259281",
+      "volume": "avril",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/reru.042.0259",
+      "raw_reference": "bisson, f., j. bonnet et d. lepelley (2004), la determination du nombre des delegues au sein des structures intercommunales : une application de lindice de pouvoir de banzhaf, revue deconomie regionale et urbaine, 2 : 259282."
+    },
+    {
+      "authors": [
+        "brighouse, harry",
+        "fleurbaey, marc"
+      ],
+      "title": "democracy and proportionality",
+      "monograph_title": "journal of political philosophy",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2010",
+      "pages": "137155",
+      "volume": "18",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14679760.2008.00316.x",
+      "raw_reference": "brighhouse, h. et m. fleurbaey (2010), democracy and proportionality, journal of political philosophy, 18 : 137155."
+    },
+    {
+      "authors": [
+        "chang, paoli",
+        "chua, vincent",
+        "machover, moshe"
+      ],
+      "title": "l s penroses limit theorem: tests by simulation",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006",
+      "pages": "90106",
+      "volume": "51",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2005.06.001",
+      "raw_reference": "chang, p.l. chua, v.c.h. et m. machover (2006), ls penroses limit theorem: test by simulation, mathematical social sciences, 51 : 90106."
+    },
+    {
+      "authors": [
+        "curtis, r"
+      ],
+      "title": "decision rules and collective values in constitutional choice",
+      "monograph_title": "probability models of collective decision making",
+      "editors": [
+        "niemi, r",
+        "weisberg, h"
+      ],
+      "publisher": "",
+      "place": "merrill, columbus, ohio",
+      "date": "1972",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "curtis, r.b. (1972), decision rules and collective values in constitutional choice, in niemi, r. et h. weisberg (eds), probability models of collective decision making, merrill, columbus, ohio."
+    },
+    {
+      "authors": [
+        "de nijs, f",
+        "wilmer, d"
+      ],
+      "title": "",
+      "monograph_title": "evaluation and improvement of laruellewidgren inverse banzhaf approximation",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://arxiv.org/abs/1206.1145",
+      "doi": "",
+      "raw_reference": "de nijs, f. et d. wilmer (2012), evaluation and improvement of laruellewidgren inverse banzhaf approximation, mimeo. available at http://arxiv.org/ abs/1206.1145."
+    },
+    {
+      "authors": [
+        "de keijzer, b",
+        "klos, t",
+        "zhang, y"
+      ],
+      "title": "finding optimal solutions for voting game design problems",
+      "monograph_title": "journal of artificial intelligence research",
+      "editors": [],
+      "publisher": "ai access foundation",
+      "place": "",
+      "date": "2014",
+      "pages": "105140",
+      "volume": "50",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1613/jair.4109",
+      "raw_reference": "de keijzer, b., t. klos et y. zhang (2014), finding optimal solutions for voting game design problems, journal of artificial intelligence research, 50 : 105140."
+    },
+    {
+      "authors": [
+        "dubey, pradeep",
+        "shapley, lloyd"
+      ],
+      "title": "mathematical properties of the banzhaf power index",
+      "monograph_title": "mathematics of operations research",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "1979",
+      "pages": "99131",
+      "volume": "4",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/moor.4.2.99",
+      "raw_reference": "dubey, p. et l.s. shapley (1979), mathematical properties of the banzhaf power index, mathematics of operations research, 4 : 99131."
+    },
+    {
+      "authors": [
+        "feix, marc",
+        "lepelley, dominique",
+        "merlin, vincent",
+        "rouet, jeanlouis"
+      ],
+      "title": "the probability of conflicts in a u.s. presidential type election",
+      "monograph_title": "economic theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2004",
+      "pages": "2271",
+      "volume": "23",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0019900303752",
+      "raw_reference": "feix, m.r., d. lepelley, v. merlin et j.l. rouet (2004), the probability of conflicts in a u.s. presidential type election, economic theory, 23 : 227257."
+    },
+    {
+      "authors": [
+        "feix, marc",
+        "lepelley, dominique",
+        "merlin, vincent",
+        "rouet, jeanlouis"
+      ],
+      "title": "on the voting power of an alliance and the subsequent power of its members",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2007",
+      "pages": "181207",
+      "volume": "28",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500601716",
+      "raw_reference": "feix, m.r., d. lepelley, merlin et j.l. rouet (2007), on the voting power of an alliance and the subsequent power of its members, social choice and welfare, 28 : 181207."
+    },
+    {
+      "authors": [
+        "feix, marc",
+        "lepelley, dominique",
+        "merlin, vincent",
+        "rouet, jeanlouis",
+        "vidu, laurent"
+      ],
+      "title": "majority efficient representation of the citizens in a federal union",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [],
+      "publisher": "springer international publishing",
+      "place": "",
+      "date": "2008",
+      "pages": "163187",
+      "volume": "",
+      "issue": "",
+      "organization": "universite de caen",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783030485986_8",
+      "raw_reference": "feix, m.r., d. lepelley, v. merlin, j.l. rouet et l. vidu (2008), majority efficient representation of the citizens in a federal union, mimeo, universite de caen."
+    },
+    {
+      "authors": [
+        "felsenthal, dan",
+        "machover, moshe"
+      ],
+      "title": "",
+      "monograph_title": "the measurement of voting power",
+      "editors": [],
+      "publisher": "edward elgar publishing",
+      "place": "edward edgar, northampton",
+      "date": "1998",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4337/9781840647761",
+      "raw_reference": "felsenthal, d.s. et m. machover (1998), the measurement of voting power, edward edgar, northampton."
+    },
+    {
+      "authors": [
+        "felsenthal, dan",
+        "machover, moshe"
+      ],
+      "title": "minimizing the mean majority deficit: the second squareroot rule",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1999",
+      "pages": "2537",
+      "volume": "37",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01654896(98)000110",
+      "raw_reference": "felsenthal, d.s. et m. machover (1999), minimizing the mean majority deficit: the second square root rule, mathematical social sciences, 37 : 2537."
+    },
+    {
+      "authors": [
+        "felsenthal, dan",
+        "machover, mosh&#x000e9;"
+      ],
+      "title": "the treaty of nice and qualified majority voting",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2001",
+      "pages": "431464",
+      "volume": "18",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550100137",
+      "raw_reference": "felsenthal, d.s. et m. machover, m. (2001), the treaty of nice and qualified majority voting, social choice and welfare, 18 : 431464."
+    },
+    {
+      "authors": [
+        "felsenthal, dan",
+        "machover, mosh�"
+      ],
+      "title": "analysis of qm rules in the draft constitution for europe proposed by the european convention, 2003",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2003",
+      "pages": "120",
+      "volume": "23",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500403173",
+      "raw_reference": "felsenthal, d.s. et m. machover (2003), analysis of qm rules in the draft constitution for europe proposed by the european convention, social choice and welfare, 23 : 120."
+    },
+    {
+      "authors": [
+        "fleurbaey, m"
+      ],
+      "title": "",
+      "monograph_title": "one person, one vote",
+      "editors": [],
+      "publisher": "cq press",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4135/9781483300528.n162",
+      "raw_reference": "fleurbaey, m. (2008), one stake, one vote, mimeo."
+    },
+    {
+      "authors": [
+        "gelman, andrew",
+        "katz, jonathan",
+        "bafumi, joseph"
+      ],
+      "title": "standard voting power indexes do not work: an empirical analysis",
+      "monograph_title": "british journal of political science",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2004",
+      "pages": "657674",
+      "volume": "34",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0007123404000237",
+      "raw_reference": "gelman, a., j.n. katz et j. bafumi (2004), stetard voting power indexes dont work: an empirical analysis, british journal of political sciences, 34 : 657674."
+    },
+    {
+      "authors": [
+        "gerhlein, w"
+      ],
+      "title": "",
+      "monograph_title": "condorcets paradox",
+      "editors": [],
+      "publisher": "springer",
+      "place": "",
+      "date": "2006",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gerhlein, w. (2006), condorcets paradox, springer."
+    },
+    {
+      "authors": [
+        "gehrlein, william",
+        "lepelley, dominique"
+      ],
+      "title": "condorcet efficiency and social homogeneity",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [],
+      "publisher": "springer berlin heidelberg",
+      "place": "",
+      "date": "2010",
+      "pages": "157198",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783642031076_5",
+      "raw_reference": "gerhlein, w. et d. lepelley (2010), voting paradox and group coherence : the condorcet efficiency of voting rules, springer."
+    },
+    {
+      "authors": [
+        "gurk, h",
+        "isbell, j"
+      ],
+      "title": "13. simple solutions",
+      "monograph_title": "contributions to the theory of games (am40), volume iv",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "",
+      "date": "1959",
+      "pages": "247266",
+      "volume": "40",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1515/9781400882168015",
+      "raw_reference": "gurk, h.m. et j.r. isbell (1959), simple solutions, in annals of mathematics studies, contributions to the theory of games iv, volume 40, princeton university press, p. 247265."
+    },
+    {
+      "authors": [
+        "hinich, melvin",
+        "mickelsen, richard",
+        "ordeshook, peter"
+      ],
+      "title": "the electoral college vs. a direct vote: policy bias, reversals, and indeterminate outcomes†",
+      "monograph_title": "the journal of mathematical sociology",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1972",
+      "pages": "335",
+      "volume": "4",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/0022250x.1975.9989842",
+      "raw_reference": "hinich, m.j., r. mickelsen et p.c. ordeshook (1972), the electoral college versus a direct vote: policy bias, reversals, and indeterminate outcomes, journal of mathematical sociology, 4 : 335."
+    },
+    {
+      "authors": [
+        "isbell, john"
+      ],
+      "title": "on the enumeration of majority games",
+      "monograph_title": "mathematical tables and other aids to computation",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1959",
+      "pages": "21",
+      "volume": "13",
+      "issue": "65",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2002191",
+      "raw_reference": "isbell, j.r. (1959), on the enumeration of majority games, mathematical tables and other aids to computation, 13 : 2128."
+    },
+    {
+      "authors": [
+        "t"
+      ],
+      "title": "proposal rights and political power",
+      "monograph_title": "american journal of political science",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "441448",
+      "volume": "50",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kalandrakis, t. (2006), proposal rights and political power, american journal of political science, 50 : 441448."
+    },
+    {
+      "authors": [
+        "kauppi, h",
+        "widgren, m"
+      ],
+      "title": "what determines eu decision making? needs, power or both?",
+      "monograph_title": "economic policy",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2004",
+      "pages": "222266",
+      "volume": "19",
+      "issue": "39",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680327.2004.00123.x",
+      "raw_reference": "kauppi, h. et m. widgren (2004), what determines eu decision making: needs, power or both ?, economic policy, 19 : 221266."
+    },
+    {
+      "authors": [
+        "kirsch, werner",
+        "langner, jessica"
+      ],
+      "title": "the fate of the square root law for correlated voting",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [
+        "fara, r",
+        "leech, d",
+        "salles, m"
+      ],
+      "publisher": "springer international publishing",
+      "place": "",
+      "date": "2014",
+      "pages": "147158",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783319051581_9",
+      "raw_reference": "kirsch, w. et j. langner (2014), the fate of the square root law for correlated voting, in fara, r, d. leech et m. salles (eds), voting power and procedures, studies in social choice and welfare, springer, p. 159176."
+    },
+    {
+      "authors": [
+        "kirsch, w",
+        "slomczynski, w",
+        "buczkowski, k"
+      ],
+      "title": "",
+      "monograph_title": "getting the policy right",
+      "editors": [],
+      "publisher": "commonwealth secretariat",
+      "place": "",
+      "date": "2007",
+      "pages": "12",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.14217/97818485987516en",
+      "raw_reference": "kirsch, w., w. slomczynski et k. buczkowski (2007), getting the votes right, european voice, 12."
+    },
+    {
+      "authors": [
+        "koriyama, yukio",
+        "laslier, jeanfrancois",
+        "mace, antonin",
+        "treibich, rafael"
+      ],
+      "title": "optimal apportionment",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2013",
+      "pages": "584608",
+      "volume": "121",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/670380",
+      "raw_reference": "koriyama, y., j.f. laslier, a. mace et r. treibich (2013), optimal apportionment, journal of political economy, 121 : 584608."
+    },
+    {
+      "authors": [
+        "krohn, i",
+        "sudh�lter, p"
+      ],
+      "title": "directed and weighted majority games",
+      "monograph_title": "zor zeitschrift f�r operations research methods and models of operations research",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1995",
+      "pages": "189216",
+      "volume": "42",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01415753",
+      "raw_reference": "krohn, i. et p. sudholter (1995), directed and weighted majority games, mathematical methods of operations research, 42 : 189216."
+    },
+    {
+      "authors": [
+        "kurth, m"
+      ],
+      "title": "",
+      "monograph_title": "square root voting in the council of the european union: rounding effects and the jagiellonian compromise",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://arxiv.org/abs/0712.2699",
+      "doi": "",
+      "raw_reference": "kurth, m. (2008), square root voting in the council of the european union: rounding effects and the jagiellonian compromise, available at http://arxiv. org/abs/0712.2699."
+    },
+    {
+      "authors": [
+        "kurz, sascha"
+      ],
+      "title": "on the inverse power index problem",
+      "monograph_title": "optimization",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2012",
+      "pages": "9891011",
+      "volume": "61",
+      "issue": "8",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/02331934.2011.587008",
+      "raw_reference": "kurz, s. (2012a), on the inverse power index problem, optimization, 61 : 9891011."
+    },
+    {
+      "authors": [
+        "kurz, sascha"
+      ],
+      "title": "on minimum sum representations for weighted voting games",
+      "monograph_title": "annals of operations research",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2012",
+      "pages": "361369",
+      "volume": "196",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1047901211083",
+      "raw_reference": "kurz, s. (2012b), on minimum sum representations for weighted voting games, annals of operations research, 196 : 361369."
+    },
+    {
+      "authors": [
+        "kurz, sascha",
+        "napel, stefan"
+      ],
+      "title": "heuristic and exact solutions to the inverse power index problem for small voting bodies",
+      "monograph_title": "annals of operations research",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2014",
+      "pages": "137163",
+      "volume": "215",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1047901212930",
+      "raw_reference": "kurz, s et j.f napel (2014), heuristic and exact solutions to the inverse power index problem for small voting bodies, annals of operations research, 215 : 137163."
+    },
+    {
+      "authors": [
+        "kurz, sascha",
+        "napel, stefan"
+      ],
+      "title": "dimension of the lisbon voting rules in the eu council: a challenge and new world record",
+      "monograph_title": "optimization letters",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2015",
+      "pages": "12451256",
+      "volume": "10",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1159001509170",
+      "raw_reference": "kurz, s. et s. napel (2015), dimension of the lisbon voting rules in the eu council a challenge and new world record, optimization letters, doi : 10.1007/s1159001509170"
+    },
+    {
+      "authors": [
+        "kurz, sascha",
+        "maaser, nicola",
+        "napel, stefan",
+        "weber, matthias"
+      ],
+      "title": "mostly sunny: a forecast of tomorrows power index research",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2015",
+      "pages": "133146",
+      "volume": "32",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.2435041",
+      "raw_reference": "kurz, s., n. maaser, s. napel et m. weber (2015), mostly sunny: a forecast of tomorrows power index research, homo oeconomicus, 32 : 133146."
+    },
+    {
+      "authors": [
+        "kurz, sascha",
+        "maaser, nicola",
+        "napel, stefan"
+      ],
+      "title": "on the democratic weights of nations",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2016",
+      "pages": "15991634",
+      "volume": "125",
+      "issue": "5",
+      "organization": "",
+      "notes": "a paraitre",
+      "url": "",
+      "doi": "10.1086/693039",
+      "raw_reference": "kurz, s., n. maaser et s. napel (2016), on the democratic weights of nations, journal of political economy, a paraitre."
+    },
+    {
+      "authors": [
+        "kurz, sascha",
+        "napel, stefan",
+        "nohn, andreas"
+      ],
+      "title": "the nucleolus of large majority games",
+      "monograph_title": "economics letters",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "139143",
+      "volume": "123",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.econlet.2014.01.041",
+      "raw_reference": "kurz, s., a. nohn et s. napel (2014), the nucleolus of large majority games, economics letters, 123 : 139143."
+    },
+    {
+      "authors": [
+        "lahrach, rahhal",
+        "merlin, vincent"
+      ],
+      "title": "which voting rule minimizes the probability of the referendum paradox? lessons from french data",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [
+        "felsenthal, d",
+        "machover, m"
+      ],
+      "publisher": "springer berlin heidelberg",
+      "place": "",
+      "date": "2012",
+      "pages": "129150",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783642204418_5",
+      "raw_reference": "lahrach, r. et v. merlin (2012), which voting rule minimizes the probability of the referendum paradox? lessons from french data, in felsenthal, d.s. et m. machover (eds), electoral systems, paradoxes, assumptions and procedures, studies in choice and welfare, springer, 129150."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "martınez, ricardo",
+        "valenciano, federico"
+      ],
+      "title": "success versus decisiveness",
+      "monograph_title": "journal of theoretical politics",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2006",
+      "pages": "185205",
+      "volume": "18",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0951629806061866",
+      "raw_reference": "laruelle, a., r. martinez et f. valenciano (2006), success versus decisiveness: conceptual discussion and case study, journal of theoretical politics, 18(2) : 185205."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "valenciano, federico"
+      ],
+      "title": "assessing success and decisiveness in voting situations",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2005",
+      "pages": "171197",
+      "volume": "24",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500302987",
+      "raw_reference": "laruelle, a. et f. valenciano (2005), assessing success and decisiveness in voting situations, social choice and welfare, 24 : 171197."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "valenciano, federico"
+      ],
+      "title": "bargaining in committees as an extension of nashs bargaining theory",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "291305",
+      "volume": "132",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2005.05.004",
+      "raw_reference": "laruelle, a. et f. valenciano (2007), bargaining in committees as an extension of nashs bargaining theory, journal of economic theory, 132 : 291305."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "valenciano, federico"
+      ],
+      "title": "bargaining in committees of representatives",
+      "monograph_title": "journal of theoretical politics",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2008",
+      "pages": "93106",
+      "volume": "20",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0951629807084041",
+      "raw_reference": "laruelle, a. et f. valenciano (2008a), bargaining in committees of representatives: the neutrals voting rule, journal of theoretical politics, 20 : 93106."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "valenciano, federico"
+      ],
+      "title": "noncooperative foundations of bargaining power in committees and the shapleyshubik index",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2008b",
+      "pages": "341353",
+      "volume": "63",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2007.09.003",
+      "raw_reference": "laruelle, a. et f. valenciano (2008b), noncooperative foundations of bargaining power in committees, games and economic behavior, 63 : 341353."
+    },
+    {
+      "authors": [
+        "laruelle, a",
+        "valenciano, f"
+      ],
+      "title": "",
+      "monograph_title": "voting and collective decisionmaking : bargaining power",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "cambridge",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "laruelle, a. et f. valenciano (2008c), voting and collective decisionmaking : bargaining power, cambridge university press, cambridge."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "valenciano, federico"
+      ],
+      "title": "egalitarianism and utilitarianism in committees of representatives",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2010",
+      "pages": "221243",
+      "volume": "35",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500904389",
+      "raw_reference": "laruelle, a. et f. valenciano (2010), egalitarianism and utilitarianism in committes of representatives, social choice and welfare, 35 : 221243."
+    },
+    {
+      "authors": [
+        "laruelle, annick",
+        "widgren, mika"
+      ],
+      "title": "is the allocation of power among eu states fair?",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1998",
+      "pages": "317339",
+      "volume": "94",
+      "issue": "3/4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1004965310450",
+      "raw_reference": "laruelle, a. et m. widgren (1998), is the allocation of power among eu states fair?, public choice, 94 : 317340."
+    },
+    {
+      "authors": [
+        "laslier, jeanfrancois"
+      ],
+      "title": "why not proportional?",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "9093",
+      "volume": "63",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2011.10.012",
+      "raw_reference": "laslier, j.f. (2012), why not proportional?, mathematical social sciences, 63 : 9093."
+    },
+    {
+      "authors": [
+        "le breton, michel",
+        "lepelley, dominique",
+        "smaoui, hatem"
+      ],
+      "title": "correlation, partitioning and the probability of casting a decisive vote under the majority rule",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "1122",
+      "volume": "64",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmateco.2016.03.001",
+      "raw_reference": "le breton m., d. lepelley et h. smaoui (2016), correlation, partitioning and the probability of casting a decisive vote, journal of mathematical economics, 64 : 1122."
+    },
+    {
+      "authors": [
+        "le breton, michel",
+        "montero, maria",
+        "zaporozhets, vera"
+      ],
+      "title": "voting power in the eu council of ministers and fair decision making in distributive politics",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "159173",
+      "volume": "63",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2011.11.004",
+      "raw_reference": "le breton, m., m. montero et v. zaporozhets (2012), voting power in the eu council of ministers and fair decision making in distributive politics, mathematical social sciences, 63 : 159173."
+    },
+    {
+      "authors": [
+        "le breton, michel",
+        "van der straeten, karine"
+      ],
+      "title": "alliances electorales et gouvernementales : la contribution de la theorie des jeux cooperatifs a la science politique",
+      "monograph_title": "revue deconomie politique",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2015",
+      "pages": "637736",
+      "volume": "vol. 127",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/redp.274.0637",
+      "raw_reference": "le breton, m. et k. van der straeten (2015a), the social cost of districting, toulouse school of economics, en preparation."
+    },
+    {
+      "authors": [
+        "le breton, michel",
+        "van der straeten, karine"
+      ],
+      "title": "influence versus utility in the evaluation of voting rules: a new look at the penrose formula",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2015b",
+      "pages": "103122",
+      "volume": "165",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1112701502961",
+      "raw_reference": "le breton, m. et k. van der straeten (2015b), influence versus utility in the evaluation of voting rules: a new look at the penrose formula, public choice, 165 : 103122."
+    },
+    {
+      "authors": [
+        "leech, dennis"
+      ],
+      "title": "designing the voting system for the eu council of ministers",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2002",
+      "pages": "437464",
+      "volume": "113",
+      "issue": "3/4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1020877015060",
+      "raw_reference": "leech, d. (2002a), designing the voting system for the eu council of ministers, public choice, 113 : 437464."
+    },
+    {
+      "authors": [
+        "leech, dennis"
+      ],
+      "title": "voting power in the governance of the international monetary fund",
+      "monograph_title": "annals of operations research",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2002b",
+      "pages": "375397",
+      "volume": "109",
+      "issue": "14",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1016324824094",
+      "raw_reference": "leech, d. (2002b), voting power in the governance of the international monetary fund, annals of operations research, 109 : 375397."
+    },
+    {
+      "authors": [
+        "leech, d"
+      ],
+      "title": "f. lutz das problem der wirtschaftsprognosen. recht und staat, 185. tubingen, j. c. b. mohr, (paul siebeck), 1955, 20 p., dm 1.90.",
+      "monograph_title": "bulletin de linstitut de recherches economiques et sociales",
+      "editors": [
+        "holler, m",
+        "kliemt, h",
+        "schmidtchen, d",
+        "streit, m"
+      ],
+      "publisher": "cambridge university press (cup)",
+      "place": "tubingen",
+      "date": "2003",
+      "pages": "102103",
+      "volume": "22",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s137397190007222x",
+      "raw_reference": "leech, d. (2003), power indices as an aid to institutional design: the generalised apportionment problem, in holler, m.j., h. kliemt, d. schmidtchen et m. e. streit (eds), jahrbuch fur neue politische okonomie, tubingen : mohr siebeck, p. 22."
+    },
+    {
+      "authors": [
+        "lepelley, dominique",
+        "merlin, vincent",
+        "rouet, jeanlouis"
+      ],
+      "title": "three ways to compute accurately the probability of the referendum paradox",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "2833",
+      "volume": "62",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2011.04.006",
+      "raw_reference": "lepelley, d., v. merlin et j.l. rouet (2011), three ways to compute accurately the probability of the referendum paradox, mathematical social sciences, 62 : 2833."
+    },
+    {
+      "authors": [
+        "lepelley, dominique",
+        "merlin, vincent",
+        "rouet, jeanlouis"
+      ],
+      "title": "three ways to compute accurately the probability of the referendum paradox",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "2833",
+      "volume": "62",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2011.04.006",
+      "raw_reference": "lepelley, d., v. merlin, j.l. rouet et l. vidu (2014), referendum paradox in a federal union with unequal populations: the three state case, economics bulletin, 34 : 22012207."
+    },
+    {
+      "authors": [
+        "lindner, ines",
+        "machover, moshe"
+      ],
+      "title": "l.s. penroses limit theorem: proof of some special cases",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004",
+      "pages": "3749",
+      "volume": "47",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01654896(03)000696",
+      "raw_reference": "lindner, i. et m. machover (2004), l.s. penroses limit theorem: proof of some special cases, mathematical social sciences, 47 : 3749."
+    },
+    {
+      "authors": [
+        "lindner, ines",
+        "owen, guillermo"
+      ],
+      "title": "cases where the penrose limit theorem does not hold",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "232238",
+      "volume": "53",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2007.01.005",
+      "raw_reference": "lindner, i. et m. machover (2007), cases where the penrose limit theorem does not hold, mathematical social sciences, 53 : 232238."
+    },
+    {
+      "authors": [
+        "loeb, daniel",
+        "conway, andrew"
+      ],
+      "title": "voting fairly: transitive maximal intersecting families of sets",
+      "monograph_title": "journal of combinatorial theory, series a",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2000",
+      "pages": "386410",
+      "volume": "91",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jcta.2000.3103",
+      "raw_reference": "loeb, d.e. et a.r. conway (2000), voting fairly: transitive maximal intersecting family of sets, journal of combinatorial theory, series a, 91 : 386410."
+    },
+    {
+      "authors": [
+        "maaser, nicola",
+        "napel, stefan"
+      ],
+      "title": "equal representation in twotier voting systems",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2007",
+      "pages": "401420",
+      "volume": "28",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550060186z",
+      "raw_reference": "maaser, n. et s. napel (2007), equal representation in twotier voting systems, social choice and welfare, 28 : 401420."
+    },
+    {
+      "authors": [
+        "maaser, nicola",
+        "napel, stefan"
+      ],
+      "title": "a note on the direct democracy deficit in twotier voting",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "174180",
+      "volume": "63",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2011.10.008",
+      "raw_reference": "maaser, n. et s. napel (2012), a note on the direct democracy deficit in twotier voting, mathematical social sciences, 63 : 174180."
+    },
+    {
+      "authors": [
+        "maaser, nicola",
+        "napel, stefan"
+      ],
+      "title": "the mean voter, the median voter, and welfaremaximizing voting weights",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [
+        "fara, r",
+        "leech, d",
+        "salles, m"
+      ],
+      "publisher": "springer international publishing",
+      "place": "",
+      "date": "2014",
+      "pages": "159176",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783319051581_10",
+      "raw_reference": "maaser, n. et s. napel (2014), the mean voter, the median voter and welfare maximizing voting weights, in fara, r., d. leech and m. salles (eds), voting power and procedures, studies in social choice and welfare, springer, p. 159176."
+    },
+    {
+      "authors": [
+        "mace, antonin",
+        "treibich, rafael"
+      ],
+      "title": "computing the optimal weights in a utilitarian model of apportionment",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "141151",
+      "volume": "63",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2011.10.007",
+      "raw_reference": "mace, a. et r. treibich (2012), computing the optimal weights in a utilitarian model of apportionment, mathematical social sciences, 63 : 4151."
+    },
+    {
+      "authors": [
+        "maggi, giovanni",
+        "morelli, massimo"
+      ],
+      "title": "selfenforcing voting in international organizations",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2006",
+      "pages": "11371158",
+      "volume": "96",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.96.4.1137",
+      "raw_reference": "maggi, g. et m. morelli (2006), selfenforcing voting in international organizations, american economic review, 96 : 11371158."
+    },
+    {
+      "authors": [
+        "may, kenneth"
+      ],
+      "title": "probabilities of certain election results",
+      "monograph_title": "the american mathematical monthly",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1949",
+      "pages": "203209",
+      "volume": "55",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/00029890.1948.11999218",
+      "raw_reference": "may, k. (1949), probabilities of certain election results, american mathematical monthly, 55 : 203209."
+    },
+    {
+      "authors": [
+        "montero, m"
+      ],
+      "title": "on the nucleolus as a power index",
+      "monograph_title": "homo oeconomicus",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "551567",
+      "volume": "22",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "montero, m. (2005), on the nucleolus as a power index, homo oeconomicus, 22 : 551567."
+    },
+    {
+      "authors": [
+        "montero, maria"
+      ],
+      "title": "noncooperative foundations of the nucleolus in majority games",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006",
+      "pages": "380397",
+      "volume": "54",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2005.01.001",
+      "raw_reference": "montero, m. (2006), noncooperative foundations of the nucleolus in majority games, games and economic behavior, 54 : 380397."
+    },
+    {
+      "authors": [
+        "miller, nicholas"
+      ],
+      "title": "election inversions by the u.s. electoral college",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [
+        "felsenthal, d",
+        "machover, m"
+      ],
+      "publisher": "springer berlin heidelberg",
+      "place": "berlin heidelberg",
+      "date": "2012",
+      "pages": "93127",
+      "volume": "4",
+      "issue": "",
+      "organization": "",
+      "notes": "election inversions by the u.s. electoral college",
+      "url": "",
+      "doi": "10.1007/9783642204418_4",
+      "raw_reference": "miller, n.r. (2012), election inversions by the u.s. electoral college, chapitre 4, in felsenthal, d.s. et m. machover (eds), electoral systems, studies in social choice and welfare, springerverlag, berlin heidelberg."
+    },
+    {
+      "authors": [
+        "napel, stefan",
+        "widgren, mika"
+      ],
+      "title": "the interinstitutional distribution of power in eu codecision",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2006",
+      "pages": "129154",
+      "volume": "27",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500601133",
+      "raw_reference": "napel, s. et m. widgren (2006), the interinstitutional distribution of power in european union codecision, social choice and welfare, 27 : 129154."
+    },
+    {
+      "authors": [
+        "nurmi, hannu"
+      ],
+      "title": "",
+      "monograph_title": "voting paradoxes and how to deal with them",
+      "editors": [],
+      "publisher": "springer berlin heidelberg",
+      "place": "berlin heidelberg",
+      "date": "1999",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783662037829",
+      "raw_reference": "nurmi, h., (1999), voting paradoxes and how to deal with them?, springerverlag, berlin heidelberg."
+    },
+    {
+      "authors": [
+        "penrose, l"
+      ],
+      "title": "the elementary statistics of majority voting",
+      "monograph_title": "journal of the royal statistical society",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1946",
+      "pages": "53",
+      "volume": "109",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2981392",
+      "raw_reference": "penrose, l.s. (1946), the elementary statistics of majority voting, journal of the royal statistical society, 109 : 5357."
+    },
+    {
+      "authors": [
+        "penrose, l"
+      ],
+      "title": "",
+      "monograph_title": "on the objective study of crowd behavior",
+      "editors": [],
+      "publisher": "h.k. lewis et co",
+      "place": "london",
+      "date": "1952",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "penrose, l.s., (1952), on the objective study of crowd behavior, h.k. lewis et co, london."
+    },
+    {
+      "authors": [
+        "pukelsheim, friedrich"
+      ],
+      "title": "",
+      "monograph_title": "proportional representation",
+      "editors": [],
+      "publisher": "springer international publishing",
+      "place": "berlin heidelberg",
+      "date": "2014",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783319038568",
+      "raw_reference": "pukelsheim, f. (2014), proportional representation, springerverlag, berlin heidelberg."
+    },
+    {
+      "authors": [
+        "rae, douglas"
+      ],
+      "title": "decisionrules and individual values in constitutional choice",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1969",
+      "pages": "4056",
+      "volume": "63",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1954283",
+      "raw_reference": "rae, d.w. (1969), decision rules and individual values in constitutional choice, american political science review, 63 : 4056."
+    },
+    {
+      "authors": [
+        "van roozendaal, peter",
+        "hosli, madeleine",
+        "heetman, caspar"
+      ],
+      "title": "coalition formation on major policy dimensions: the council of the european union 1998 to 2004",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2012. 1998. 2004",
+      "pages": "447467",
+      "volume": "153",
+      "issue": "34",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1112701198022",
+      "raw_reference": "van roozendaal, p., m.o. hosli et c. heetman (2012), coalition formation on major policy dimensions: the council of the european union 1998 to 2004, public choice, 153 : 447467."
+    },
+    {
+      "authors": [
+        "schofield, n"
+      ],
+      "title": "is majority rule special?",
+      "monograph_title": "probability models of collective decision making",
+      "editors": [
+        "niemi, r",
+        "weisberg, h"
+      ],
+      "publisher": "",
+      "place": "merrill, columbus, ohio",
+      "date": "1972",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "schofield, n. (1972), is majority rule special?, in niemi, r. et h. weisberg (eds), probability models of collective decision making, merrill, columbus, ohio."
+    },
+    {
+      "authors": [
+        "shapley, l"
+      ],
+      "title": "simple games: an outline of the descriptive theory",
+      "monograph_title": "behavioral science",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1962",
+      "pages": "5966",
+      "volume": "7",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/bs.3830070104",
+      "raw_reference": "shapley, l.s. (1962), simple games: an outline of the descriptive theory, behavioral science, 7 : 5966."
+    },
+    {
+      "authors": [
+        "shapley, l",
+        "shubik, martin"
+      ],
+      "title": "a method for evaluating the distribution of power in a committee system",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1954",
+      "pages": "787792",
+      "volume": "48",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1951053",
+      "raw_reference": "shapley, l.s. et m. shubik (1954), a method for evaluating the distribution of power in a committee system, american political science review, 48 : 787792."
+    },
+    {
+      "authors": [
+        "schmitz, patrick",
+        "troger, thomas"
+      ],
+      "title": "the (sub)optimality of the majority rule",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "651665",
+      "volume": "74",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2011.08.002",
+      "raw_reference": "schmitz, p.w. et t. troger (2012), the (sub) optimality of the majority rule, games and economic behavior, 74 : 651665."
+    },
+    {
+      "authors": [
+        "słomczynski, w",
+        "zyczkowski, k"
+      ],
+      "title": "penrose voting system and optimal quota",
+      "monograph_title": "acta physica polonica",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "31333143",
+      "volume": "37",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "słomczynski, w. et k. zyczkowski (2006), penrose voting system and optimal quota, acta physica polonica, 37 : 31333143."
+    },
+    {
+      "authors": [
+        "słomczynski, w",
+        "zyczkowski, k"
+      ],
+      "title": "",
+      "monograph_title": "from a toy model to the double squareroot voting system",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "381399",
+      "volume": "24",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "słomczynski, w. et k. zyczkowski (2008), from a toy model to the double squareroot voting system, homo oeconomicus, 24 : 381399."
+    },
+    {
+      "authors": [
+        "słomczynski, w",
+        "zyczkowski, k"
+      ],
+      "title": "square root voting system, optimal threshold and p",
+      "monograph_title": "leech et m. salles (eds), voting power and procedures",
+      "editors": [
+        "fara, r"
+      ],
+      "publisher": "springer",
+      "place": "",
+      "date": "2014",
+      "pages": "127146",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "słomczynski, w. et k. zyczkowski (2014), square root voting system, optimal threshold and p, in fara, r. d. leech et m. salles (eds), voting power and procedures, studies in social choice and welfare, springer, p. 127146."
+    },
+    {
+      "authors": [
+        "straffin, philip"
+      ],
+      "title": "homogeneity, independence, and power indices",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1977",
+      "pages": "107118",
+      "volume": "30",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01718820",
+      "raw_reference": "straffin, p.d. (1977), homogeneity, independence and power indices, public choice, 30 : 107118."
+    },
+    {
+      "authors": [
+        "straffin, p",
+        "davis, m",
+        "brams, s"
+      ],
+      "title": "power and satisfaction in an ideologically divided voting body",
+      "monograph_title": "power, voting, and voting power",
+      "editors": [
+        "holler, m"
+      ],
+      "publisher": "physicaverlag hd",
+      "place": "wurzburg",
+      "date": "1981",
+      "pages": "239255",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783662004111_18",
+      "raw_reference": "straffin, p.d., m.d. davis et s.j. brams (1981), power and satisfaction in an ideologically divided voting body, in holler, m.j. (ed.), power, voting and voting power, physicaverlag, wurzburg."
+    },
+    {
+      "authors": [
+        "taylor, a",
+        "zwicker, w"
+      ],
+      "title": "",
+      "monograph_title": "simple games",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "princeton",
+      "date": "1999",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "taylor, a.d. et w.s. zwicker (1999), simple games, princeton, princeton university press."
+    },
+    {
+      "authors": [
+        "theil, henri",
+        "schrage, linus"
+      ],
+      "title": "the apportionment problem and the european parliament",
+      "monograph_title": "european economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1977",
+      "pages": "247263",
+      "volume": "9",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00142921(77)800287",
+      "raw_reference": "theil, h. et l. schrage (1977), the apportionment problem and the european parliament, european economic review, 9 : 247263."
+    },
+    {
+      "authors": [
+        "von neumann, j",
+        "morgenstern, o"
+      ],
+      "title": "",
+      "monograph_title": "theory of games and economic behavior",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "princeton",
+      "date": "1944",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "von neumann, j. et o. morgenstern (1944), theory of games and economic behavior, princeton : princeton university press."
+    },
+    {
+      "authors": [
+        "weber, r"
+      ],
+      "title": "cowles foundation for research in economics at yale university",
+      "monograph_title": "metroeconomica",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "yale university",
+      "date": "1978",
+      "pages": "8383",
+      "volume": "17",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.1467999x.1965.tb00328.x",
+      "raw_reference": "weber, r.j. (1978), comparison of public choice systems, cowles foundation discussion paper n 498, yale university."
+    },
+    {
+      "authors": [
+        "weber, robert"
+      ],
+      "title": "approval voting",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1995",
+      "pages": "3949",
+      "volume": "9",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.9.1.39",
+      "raw_reference": "weber, r.j. (1995), approval voting, journal of economic perspectives, 9 : 3949."
+    }
+  ],
+  "notes": [
+    "[25] voir egalement kirsch et langner (2014).",
+    "[26] nous avons deja cite quelques references importantes dans lintroduction generale.",
+    "[27] cette conjecture generale est formulee dans le breton etvan der straeten (2015a).",
+    "[28] citons aussi le breton, lepelley et smaoui (2016) ou la notion de bloc est construite sur la base de correlations locales de type iac.",
+    "[29] notons quon peut aussi, dans ce contexte, introduire lidee dantagonisme (straffin, davis et brams, 1981), a savoir que les correlations sont parfois negatives au lieu detre positives.",
+    "[30] nous presentons les jeux simples et lindice de banzhaf plus en detail dans lannexe. le lecteur pourra trouver ces notions clefs dans de nombreux ouvrages de theorie des jeux (felsenthal et machover, 1998) ou encore consulter lexcellente introductionde gelman, katz et bafumi (2004).",
+    "[31] pour sur, elles ne le sont pas systematiquement(lindner et owen, 2007).",
+    "[51] voir annexe."
+  ],
+  "figures": [],
+  "tables": []
+}

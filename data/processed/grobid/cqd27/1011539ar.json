@@ -1,0 +1,1214 @@
+{
+  "title": "",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "institut",
+      "last_name": "national detudes demographiques (ined)",
+      "email": "",
+      "affiliation": "* institut national detudes demographiques (ined), paris, france",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "la duree de lisolement conjugal et de la vie en couple chez les personnes agees en france : quelles evolutions entre hommes et femmes au fil des generations ?sophie pennec* et joelle gaymu* lobjectif essentiel de cet article est de quantifier levolution de la duree de lisolement matrimonial (annees vecues dans le celibat, le veuvage ou le divorce), periode durant laquelle les personnes agees sont plus vulnerables surtout en cas de dependance.nos analyses sappuient sur un modele de microsimulation qui a permis devaluer levolution des durees de vie dans les differents etats matrimoniaux pour les generations de personnes agees de 60 ans et plus nees entre 1900 a 1950.au fil des generations, les durees passees dans le mariage des hommes et des femmes se sont allongees et rapprochees.toutefois, ce sont, pour lessentiel, les generations passees et presentes daines qui ont beneficie de cette tendance.a partir de la generation 1930, le temps passe dans le mariage devrait davantage sallonger chez les femmes que chez les hommes, linverse valant pour lisolement matrimonial.english abstract, p. 208",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "methode et sources",
+    "principales evolutions passees et futures",
+    "hommes femmes",
+    "generations",
+    "figure 4",
+    "generations",
+    "levolution de la duree de vie selon les parcours matrimoniaux",
+    "etre marie de 60 ans au deces",
+    "etre veuf de 60 ans au deces",
+    "etre divorce de 60 ans au deces",
+    "figure 8",
+    "discussion",
+    "annexe methodologique",
+    "population de depart",
+    "sources de donnees et hypotheses relatives aux calculs des taux",
+    "hypotheses devolutions futures",
+    "mortalite et veuvage",
+    "mariage, divorce, union de fait",
+    "formation et dissolution des unions non mariees",
+    "lissage des indices"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "angel, ronald",
+        "angel, jacqueline",
+        "himes, christine"
+      ],
+      "title": "minority group status, health transitions, and community living arrangements among the elderly",
+      "monograph_title": "research on aging",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1992",
+      "pages": "496521",
+      "volume": "14",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0164027592144004",
+      "raw_reference": "angel, r. j., j. l. angel et c. l. himes. 1992. minority group status, health tran sitions, and community living arrangements among the elderly, research on aging, 14, 4 : 496521."
+    },
+    {
+      "authors": [
+        "arber, sara",
+        "gilbert, g",
+        "evandrou, maria"
+      ],
+      "title": "gender, household composition and receipt of domiciliary services by elderly disabled people",
+      "monograph_title": "journal of social policy",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1988",
+      "pages": "153175",
+      "volume": "17",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0047279400016615",
+      "raw_reference": "arber, s., g. n. gilber et m. evandrou. 1988. gender, household composition and receipt of domiciliary services by elderly disabled people, journal of social policy, 17 : 153175."
+    },
+    {
+      "authors": [
+        "attiasdonfut, c"
+      ],
+      "title": "",
+      "monograph_title": "les solidarites entre les generations. coll. essais et recherches",
+      "editors": [],
+      "publisher": "",
+      "place": "paris, nathan",
+      "date": "1995",
+      "pages": "352",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "attiasdonfut, c. (dir.). 1995. les solidarites entre les generations. coll. essais et recherches. paris, nathan, 352 p."
+    },
+    {
+      "authors": [
+        "bacon, b",
+        "pennec, s"
+      ],
+      "title": "appsim modelling family formation and dissolution",
+      "monograph_title": "wp",
+      "editors": [],
+      "publisher": "verlag barbara budrich gmbh",
+      "place": "",
+      "date": "2007",
+      "pages": "30",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3224/v1",
+      "raw_reference": "bacon, b. et s. pennec. 2007. appsim modelling family formation and dissolu tion. natsem/canberra, 30 p. (natsem online working paper, wp 4)."
+    },
+    {
+      "authors": [
+        "barre, c",
+        "vanderschelden, m"
+      ],
+      "title": "lenquete etude de lhistoire familiale de 1999 resultats detailles",
+      "monograph_title": "la dependance des personnes agees : recours aux proches et aux aides professionnelles",
+      "editors": [],
+      "publisher": "portrait social",
+      "place": "france",
+      "date": "2004. 1998",
+      "pages": "91107",
+      "volume": "33",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barre, c. et m. vanderschelden. 2004. lenquete etude de lhistoire familiale de 1999 resultats detailles. insee resultats, 33, 47 p. breuilgenier, p. 1998. la dependance des personnes agees : recours aux proches et aux aides professionnelles, dans france : portrait social, insee : 91107."
+    },
+    {
+      "authors": [
+        "bouffard, n",
+        "easther, r",
+        "johnson, t",
+        "morrison, r",
+        "vink, j"
+      ],
+      "title": "matchmaker, matchmaker, make me a match",
+      "monograph_title": "brazilian electronic journal of economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "pages": "22",
+      "volume": "4",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bouffard, n., r. easther, t. johnson, r. j. morrison et j. vink. 2001. match maker, matchmaker, make me a match, brazilian electronic journal of econo mics, 4, 22."
+    },
+    {
+      "authors": [
+        "caradec, vincent"
+      ],
+      "title": "les formes de la vie conjugale des jeunes couples ages",
+      "monograph_title": "population",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "1996",
+      "pages": "897927",
+      "volume": "vol. 51",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/popu.p1996.51n45.0927",
+      "raw_reference": "caradec, v. 1996. les formes de la vie conjugale des jeunes couples ages, population, 45 : 897928."
+    },
+    {
+      "authors": [
+        "cassan, francine",
+        "mazuy, magali",
+        "clanche, francois"
+      ],
+      "title": "refaire sa vie de couple est plus frequent pour les hommes",
+      "monograph_title": "histoire de familles, histoires familiales",
+      "editors": [],
+      "publisher": "ined editions",
+      "place": "",
+      "date": "2001",
+      "pages": "223231",
+      "volume": "797",
+      "issue": "",
+      "organization": "",
+      "notes": "juillet",
+      "url": "",
+      "doi": "10.4000/books.ined.6002",
+      "raw_reference": "cassan, f., m. mazuy et f. clanche. 2001. refaire sa vie de couple est plus frequent pour les hommes, insee premiere, 797, juillet."
+    },
+    {
+      "authors": [
+        "chappell, n"
+      ],
+      "title": "living arrangements and sources of caregiving",
+      "monograph_title": "journal of gerontology",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1991",
+      "pages": "s1s8",
+      "volume": "46",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/geronj/46.1.s1",
+      "raw_reference": "chappell, n. l. 1991. living arrangements and sources of care giving, journal of gerontology, 46 : s1s8."
+    },
+    {
+      "authors": [
+        "colin, c",
+        "coutton, v"
+      ],
+      "title": "le nombre de personnes agees dependantes dapres lenquete handicapsincapacitesdependance",
+      "monograph_title": "etudes et resultats",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "pages": "7",
+      "volume": "94",
+      "issue": "",
+      "organization": "",
+      "notes": "dress",
+      "url": "",
+      "doi": "",
+      "raw_reference": "colin, c. et v. coutton. 2000. le nombre de personnes agees dependantes dapres lenquete handicapsincapacitesdependance, dress, etudes et resultats, 94, 7 p."
+    },
+    {
+      "authors": [
+        "cooney, teresa",
+        "uhlenberg, peter"
+      ],
+      "title": "the role of divorce in mens relations with their adult children after midlife",
+      "monograph_title": "journal of marriage and the family",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1990",
+      "pages": "677",
+      "volume": "52",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/352933",
+      "raw_reference": "cooney, t. et p. uhlenberg. 1990. the role of divorce in mens relations with adult children after midlife, journal of marriage and the family, 52 : 67788."
+    },
+    {
+      "authors": [
+        "daguet, f"
+      ],
+      "title": "un siecle de demographie francaise : structure et evolution de la population de 1901 a 1993",
+      "monograph_title": "insee, insee demographiesociete",
+      "editors": [],
+      "publisher": "",
+      "place": "paris",
+      "date": "1995",
+      "pages": "306",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "daguet, f. 1995. un siecle de demographie francaise : structure et evolution de la popu lation de 1901 a 1993. paris, insee, insee demographiesociete, 4748, 306 p."
+    },
+    {
+      "authors": [
+        "daguet, f"
+      ],
+      "title": "un siecle de fecondite francaise : caracteristiques et evolution de la fecondite de",
+      "monograph_title": "insee resultatssociete",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2002. 1901 a 1999",
+      "pages": "305",
+      "volume": "8",
+      "issue": "",
+      "organization": "",
+      "notes": "insee",
+      "url": "",
+      "doi": "",
+      "raw_reference": "daguet, f. 2002. un siecle de fecondite francaise : caracteristiques et evolution de la fecondite de 1901 a 1999. insee, insee resultatssociete, 8, 305 p."
+    },
+    {
+      "authors": [
+        "david, mariegabrielle",
+        "starzec, christophe"
+      ],
+      "title": "les revenus des personnes de soixante ans et plus : structure et disparites",
+      "monograph_title": "gerontologie et societe",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "1996",
+      "pages": "181197",
+      "volume": "vol. 17 / n° 71",
+      "issue": "4",
+      "organization": "",
+      "notes": "avril",
+      "url": "",
+      "doi": "10.3917/gs.071.0181",
+      "raw_reference": "david, m.g. et c. starzec. 1996. aisance a 60 ans, dependance et isolement a 80 ans, insee premiere, 447, avril."
+    },
+    {
+      "authors": [
+        "jong gierveld, de",
+        "j",
+        "van tilburg, t",
+        "lecchini, l"
+      ],
+      "title": "socioeconomic resources, household composition and social network as determinants of wellbeing among dutch and tuscan older adults",
+      "monograph_title": "genus",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "75100",
+      "volume": "iii",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "de jong gierveld, j., t. van tilburg et l. lecchini. 1997. socioeconomic resources, household composition and social network as determinants of well being among dutch and tuscan older adults, genus, iii, 34 : 75100."
+    },
+    {
+      "authors": [
+        "delbes, c",
+        "gaymu, j"
+      ],
+      "title": "",
+      "monograph_title": "la retraite, 15 ans apres",
+      "editors": [],
+      "publisher": "",
+      "place": "paris, ined",
+      "date": "2003",
+      "pages": "223",
+      "volume": "154",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "delbes, c. et j. gaymu. 2003a. la retraite, 15 ans apres. paris, ined, les cahiers de lined, 154, 223 p."
+    },
+    {
+      "authors": [
+        "delbes, christiane",
+        "gaymu, joelle"
+      ],
+      "title": "passe 60 ans : de plus en plus souvent en couple ?",
+      "monograph_title": "population & societes",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2003",
+      "pages": "14",
+      "volume": "n° 389",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/popsoc.389.0001",
+      "raw_reference": "delbes, c. et j. gaymu. 2003b. passe 60 ans, de plus en plus souvent en couple ? population et societes, 389, 4 p."
+    },
+    {
+      "authors": [
+        "delbes, christiane",
+        "gaymu, joelle"
+      ],
+      "title": "lhistoire conjugale des 50 ans et plus",
+      "monograph_title": "histoire de familles, histoires familiales",
+      "editors": [
+        "lefevre, c",
+        "filhon, a"
+      ],
+      "publisher": "ined editions",
+      "place": "paris",
+      "date": "2004",
+      "pages": "339356",
+      "volume": "156",
+      "issue": "",
+      "organization": "",
+      "notes": "lhistoire conjugale des 50 ans et plus",
+      "url": "",
+      "doi": "10.4000/books.ined.6067",
+      "raw_reference": "delbes, c. et j. gaymu. 2004. lhistoire conjugale des 50 ans et plus, dans c. lefevre et a. filhon (dir.), histoires de familles, histoires familiales, paris, ined, les cahiers de lined, 156 : 339356."
+    },
+    {
+      "authors": [
+        "delbes, christiane",
+        "gaymu, joelle",
+        "springer, sabine"
+      ],
+      "title": "les femmes vieillissent seules, les hommes vieillissent a deux. un bilan europeen",
+      "monograph_title": "population & societes",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2006. 2003",
+      "pages": "14",
+      "volume": "n° 419",
+      "issue": "1",
+      "organization": "",
+      "notes": "population",
+      "url": "",
+      "doi": "10.3917/popsoc.419.0001",
+      "raw_reference": "delbes, c., j. gaymu et s. springer. 2006. les femmes vieillissent seules et les hommes vieillissent a deux. un bilan europeen, population et societes, 419, 4 p. desesquelles, a. et n. brouard. 2003. le reseau familial des personnes agees de 60 ans et plus vivant a domicile ou en institution, population, 2 : 200227."
+    },
+    {
+      "authors": [
+        "dolinsky, arthur",
+        "rosenwaike, ira"
+      ],
+      "title": "the role of demographic factors in the institutionalization of the elderly",
+      "monograph_title": "research on aging",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1988",
+      "pages": "235257",
+      "volume": "10",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0164027588102006",
+      "raw_reference": "dolinsky, a. l. et i. rosenwaike. 1988. the role of demographic factors in the institutionalization of the elderly, research on aging, 10, 2 : 235257."
+    },
+    {
+      "authors": [
+        "duee, m",
+        "rebillard, c",
+        "pennec, s"
+      ],
+      "title": "les personnes dependantes en france : evolution et prise en charge",
+      "monograph_title": "iussp international population conference",
+      "editors": [],
+      "publisher": "",
+      "place": "tours (france)",
+      "date": "2005",
+      "pages": "1824",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "juillet",
+      "url": "",
+      "doi": "",
+      "raw_reference": "duee, m., c. rebillard et s. pennec. 2005. les personnes dependantes en france : evolution et prise en charge, iussp international population confer ence, tours (france), 1824 juillet."
+    },
+    {
+      "authors": [
+        "ettner, susan"
+      ],
+      "title": "the impact of “parent care” on female labor supply decisions",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "1995",
+      "pages": "6380",
+      "volume": "32",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2061897",
+      "raw_reference": "ettner, s. l. 1995. the impact of parent care on female labor supply deci sions, demography, 32, 1 : 6380."
+    },
+    {
+      "authors": [
+        "furstenberg, frank",
+        "hoffman, saul",
+        "shrestha, laura"
+      ],
+      "title": "the effect of divorce on intergenerational transfers: new evidence",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "1995",
+      "pages": "319333",
+      "volume": "32",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2061683",
+      "raw_reference": "furstenberg, f. jr., s.d. hoffman et l. shrestha. 1995. the effect of divorce on intergenerational transfers : new evidence, demography, 32, 3 : 319332."
+    },
+    {
+      "authors": [
+        "glaser, karen",
+        "murphy, mike",
+        "grundy, emily"
+      ],
+      "title": "limiting longterm illness and household structure among people aged 45 and over, great britain 1991",
+      "monograph_title": "ageing and society",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "great britain",
+      "date": "1997. 1991",
+      "pages": "319",
+      "volume": "17",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0144686x96006277",
+      "raw_reference": "glaser, k., m. murphy et e. grundy. 1997. limiting longterm illness and household structure among people aged 45 and over, great britain 1991, ageing and society, 17 : 319."
+    },
+    {
+      "authors": [
+        "grundy, e",
+        "glaser, k"
+      ],
+      "title": "trends in, and transitions to, institutional residence among older people in england and wales, 197191.",
+      "monograph_title": "journal of epidemiology & community health",
+      "editors": [],
+      "publisher": "bmj",
+      "place": "",
+      "date": "1997",
+      "pages": "531540",
+      "volume": "51",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1136/jech.51.5.531",
+      "raw_reference": "grundy, e. et k. glaser. 1997. trends in, and transitions to, institutional resi dence among older people in england and wales 19711991, journal of epide miology and community health, 51 : 531540."
+    },
+    {
+      "authors": [
+        "grundy, emily"
+      ],
+      "title": "ageing and vulnerable elderly people: european perspectives",
+      "monograph_title": "ageing and society",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2006",
+      "pages": "105134",
+      "volume": "26",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0144686x05004484",
+      "raw_reference": "grundy, e. 2006. ageing and vulnerable people : european perspectives, ageing and society, 26 : 105134."
+    },
+    {
+      "authors": [
+        "hammel, e",
+        "a",
+        "wachter, k",
+        "mcdaniel, c",
+        "morgan, ;",
+        "oppenheimer, v",
+        "kiesler, s"
+      ],
+      "title": "the kin of the aged in 2000",
+      "monograph_title": "social change",
+      "editors": [],
+      "publisher": "academic press",
+      "place": "new york",
+      "date": "1981",
+      "pages": "1139",
+      "volume": "2",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "hammel, e., a., k. w. wachter et c. k. mcdaniel. 1981. the kin of the aged in 2000, dans j. morgan, v. oppenheimer et s. kiesler, social change, vol. 2, new york, academic press : 1139."
+    },
+    {
+      "authors": [
+        "hammel, e",
+        "wachter, kenneth"
+      ],
+      "title": "evaluating the slavonian census of 1698 part ii: a microsimulation test and extension of the evidence",
+      "monograph_title": "european journal of population",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1990",
+      "pages": "295326",
+      "volume": "12",
+      "issue": "4",
+      "organization": "",
+      "notes": "rev. 1.0., operating manual",
+      "url": "",
+      "doi": "10.1007/bf01796911",
+      "raw_reference": "hammel, e. a, c. mason et k. w. wachter. 1990. socsim ii, a sociodemogra phic microsimulation program, rev. 1.0., operating manual, 29 : 76(5)."
+    },
+    {
+      "authors": [
+        "hyrenius, h",
+        "adolfsson, i"
+      ],
+      "title": "",
+      "monograph_title": "a fertility simulation model",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1964",
+      "pages": "31",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "hyrenius, h. et i. adolfsson. 1964. a fertility simulation model. goteborg, almqvist & wiksell (distr.), 31 p."
+    },
+    {
+      "authors": [
+        "kalogirou, stamatis",
+        "murphy, michael"
+      ],
+      "title": "marital status of people aged 75 and over in nine eu countries in the period 20002030",
+      "monograph_title": "european journal of ageing",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2006",
+      "pages": "7481",
+      "volume": "3",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1043300600304",
+      "raw_reference": "kalogirou, s. et m. murphy. 2006. marital status of people aged 75 and over in nine eu countries in the period 20002030, european journal of ageing, 3 : 7481."
+    },
+    {
+      "authors": [
+        "bras, le",
+        "h"
+      ],
+      "title": "parents, grandsparents, bisaieux",
+      "monograph_title": "population",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1973",
+      "pages": "938",
+      "volume": "28",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "le bras, h. 1973. parents, grandsparents, bisaieux, population, 28, 1 : 938."
+    },
+    {
+      "authors": [
+        "leridon, h"
+      ],
+      "title": "[1] martha beckwith (trans.). the kumvlipo: a hawaiian creation chant. chicago: university of chicago press, 1951; honolulu: university press of hawaii, 1972",
+      "monograph_title": "books about hawaii",
+      "editors": [],
+      "publisher": "university of hawaii press",
+      "place": "chicago",
+      "date": "1977",
+      "pages": "12",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1515/9780824887506002",
+      "raw_reference": "leridon, h. 1977. human fertility : the basic components. chicago, university of chicago press, 202 p."
+    },
+    {
+      "authors": [
+        "manzoli, lamberto",
+        "villari, paolo",
+        "m pirone, giovanni",
+        "boccia, antonio"
+      ],
+      "title": "marital status and mortality in the elderly: a systematic review and metaanalysis",
+      "monograph_title": "social science & medicine",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "7794",
+      "volume": "64",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.socscimed.2006.08.031",
+      "raw_reference": "manzoli, l., p. villari, g. m. pirone et a. boccia. 2007. marital status and mortality in the elderly : a systematic review and metaanalysis, social science and medicine, 64 : 7794."
+    },
+    {
+      "authors": [
+        "martel, laurent",
+        "legare, jacques"
+      ],
+      "title": "avec ou sans famille proche a la vieillesse : une description du reseau de soutien informel des personnes agees selon la presence du conjoint et des enfants",
+      "monograph_title": "cahiers quebecois de demographie",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2001",
+      "pages": "89114",
+      "volume": "30",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/010300ar",
+      "raw_reference": "martel, l. et j. legare. 2001. avec ou sans famille proche a la vieillesse : une description du reseau de soutien informel des personnes agees selon la presence du conjoint et des enfants, cahiers quebecois de demographie, 30, 1 : 89114."
+    },
+    {
+      "authors": [
+        "murphy, michael",
+        "grundy, emily",
+        "kalogirou, stamatis"
+      ],
+      "title": "the increase in marital status differences in mortality up to the oldest age in seven european countries, 199099",
+      "monograph_title": "population studies",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2007. 1990",
+      "pages": "287298",
+      "volume": "61",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/00324720701524466",
+      "raw_reference": "murphy, m., e. grundy et s. kalogirou. 2007. the increase in marital status differences in mortality up to the oldest age in seven european countries, 199099, population studies, 61, 3 : 287298."
+    },
+    {
+      "authors": [
+        "orcutt, g",
+        "greenberger, m",
+        "korbel, j",
+        "rivlin, a"
+      ],
+      "title": "microanalysis of socioeconomic systems ; a simulation study",
+      "monograph_title": "la place des familles a quatre generations en france",
+      "editors": [],
+      "publisher": "",
+      "place": "new york, harper",
+      "date": "1961. 1996",
+      "pages": "3160",
+      "volume": "51",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "orcutt, g. h., m. greenberger, j. korbel et a. m. rivlin.1961. microanalysis of socioeconomic systems ; a simulation study. new york, harper, 425 p. pennec, s. 1996. la place des familles a quatre generations en france, popula tion, 51, 1 : 3160."
+    },
+    {
+      "authors": [
+        "perese, k"
+      ],
+      "title": "",
+      "monograph_title": "fy 1996 congressional budget request: budget highlights",
+      "editors": [],
+      "publisher": "office of scientific and technical information (osti)",
+      "place": "washington (dc",
+      "date": "2002",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2172/10115180",
+      "raw_reference": "perese, k. 2002. mate matching for microsimulation models, technical paper 3. washington (dc), congressional budget office."
+    },
+    {
+      "authors": [
+        "pezzin, liliana",
+        "schone, barbara"
+      ],
+      "title": "parental marital disruption and intergenerational transfers: an analysis of lone elderly parents and their children",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "1999",
+      "pages": "287297",
+      "volume": "36",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2648053",
+      "raw_reference": "pezzin, l. e. et b. s. shone. 1999. parental marital disruption and intergenera tional transfers : an analysis of lone elderly parents and their children, demo graphy, 36, 3 : 287297."
+    },
+    {
+      "authors": [
+        "pickard, linda",
+        "wittenberg, raphael",
+        "comasherrera, adelina",
+        "davies, bleddyn",
+        "darton, robin"
+      ],
+      "title": "relying on informal care in the new century? informal care for elderly people in england to 2031",
+      "monograph_title": "ageing and society",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2000",
+      "pages": "745772",
+      "volume": "20",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0144686x01007978",
+      "raw_reference": "pickard, l., r. wittenberg, a. comasherrera, b. davies et r. darton. 2000. relying on informal care in the new century ? informal care for elderly people in england to 2031, ageing and society, 20 : 745772."
+    },
+    {
+      "authors": [
+        "ricci, m"
+      ],
+      "title": "figure 3.7. regional differences in the share of elderly population",
+      "monograph_title": "european population conference",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "paris",
+      "date": "1991",
+      "pages": "2125",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "octobre",
+      "url": "",
+      "doi": "10.1787/888933817466",
+      "raw_reference": "ricci, m. 1991. residential care for the elderly in italy : recent trends and regional differences, european population conference, paris, 2125 octobre."
+    },
+    {
+      "authors": [
+        "robine, jean‐marie",
+        "romieu, isabelle",
+        "michel, jean‐pierre"
+      ],
+      "title": "trends in health expectancies",
+      "monograph_title": "determining health expectancies",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "chichester (west sussex), wiley",
+      "date": "2003",
+      "pages": "75101",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/0470858885.ch4",
+      "raw_reference": "robine, j.m., i. romieu et j.p. michel. 2003. trends in health expectancies, dans j.m. robine, c. jagger, c. d. mathers, e. m. crimmins et r. m. suzman (dir.), determining health expectancies, chichester (west sussex), wiley : 75101."
+    },
+    {
+      "authors": [
+        "ruggles, s"
+      ],
+      "title": "",
+      "monograph_title": "prolonged connections : the rise of the extended family in nineteenthcentury england and america",
+      "editors": [],
+      "publisher": "the university of wisconsin press",
+      "place": "",
+      "date": "1987",
+      "pages": "283",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ruggles, s. 1987. prolonged connections : the rise of the extended family in nineteen thcentury england and america. madison/london, the university of wisconsin press, 283 p."
+    },
+    {
+      "authors": [
+        "schulz, r",
+        "obrien, a",
+        "bookwala, j",
+        "fleissner, k"
+      ],
+      "title": "psychiatric and physical morbidity effects of dementia caregiving: prevalence, correlates, and causes",
+      "monograph_title": "the gerontologist",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1995",
+      "pages": "771791",
+      "volume": "35",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/geront/35.6.771",
+      "raw_reference": "schulz, r., a. t. obrien, j. bookwala et k. fleissner. 1995. psychiatric and physical morbidity effects of dementia caregiving : prevalence, correlates and causes, the gerontologist, 35, 6 : 771791."
+    },
+    {
+      "authors": [
+        "sheps, m",
+        "menken, j",
+        "radick, a"
+      ],
+      "title": "",
+      "monograph_title": "mathematical models of conception and birth",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "chicago",
+      "date": "1973",
+      "pages": "428",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sheps, m. c., j. a. menken et a. p. radick. 1973. mathematical models of concep tion and birth. chicago, university of chicago press, 428 p."
+    },
+    {
+      "authors": [
+        "smith, j",
+        "oeppen, j"
+      ],
+      "title": "",
+      "monograph_title": "estimating numbers of kin in historical england using demographic microsimulation",
+      "editors": [
+        "reher, d",
+        "schofield, d"
+      ],
+      "publisher": "clarendon press",
+      "place": "oxford",
+      "date": "1993",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "old and new methods in historical demography",
+      "url": "",
+      "doi": "",
+      "raw_reference": "smith, j. e et j. oeppen. 1993. estimating numbers of kin in historical england using demographic microsimulation, dans d. s. reher et d. schofield (dir.), old and new methods in historical demography, oxford, clarendon press."
+    },
+    {
+      "authors": [
+        "spiess, c",
+        "schneider, a"
+      ],
+      "title": "interactions between caregiving and paid work hours among european midlife women, 1994 to 1996",
+      "monograph_title": "ageing and society",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2003. 1994 to 1996",
+      "pages": "4168",
+      "volume": "23",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0144686x02001010",
+      "raw_reference": "spiess, c.k. et a.u. schneider. 2003. interactions between caregiving and paid work hours among european midlife women, 1994 to 1996, ageing and society, 23 : 4168."
+    },
+    {
+      "authors": [
+        "soldo, b",
+        "wolf, d",
+        "agree, e"
+      ],
+      "title": "family, households, and care arrangements of frail older women: a structural analysis",
+      "monograph_title": "journal of gerontology",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1990",
+      "pages": "s238s249",
+      "volume": "45",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/geronj/45.6.s238",
+      "raw_reference": "soldo, b. j., d. a. wolf et e. m. agree. 1990. family, households, and care arrangements of frail older women : a structural analysis, journal of geronto logy, 45 : s238249."
+    },
+    {
+      "authors": [
+        "tomassini, cecilia",
+        "wolf, douglas"
+      ],
+      "title": "shrinking kin networks in italy due to sustained low low fertility",
+      "monograph_title": "european journal of population/ revue europenne de dmographie",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2000",
+      "pages": "353372",
+      "volume": "16",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1006408331594",
+      "raw_reference": "tomassini, c. et d. a. wolf. 2000. shrinking kin networks in italy due to sustained low low fertility, european journal of population, 16, 4 : 353372."
+    },
+    {
+      "authors": [],
+      "title": "",
+      "monograph_title": "world population ageing 2020: highlights",
+      "editors": [],
+      "publisher": "united nations",
+      "place": "new york",
+      "date": "2005",
+      "pages": "138",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "united nations",
+      "url": "",
+      "doi": "10.18356/9789210051934",
+      "raw_reference": "united nations. 2005. living arrangements of older persons around the world. new york : department of economic and social affairs, population division, united nations, 138 p."
+    },
+    {
+      "authors": [
+        "vallin, j",
+        "mesle, f"
+      ],
+      "title": "",
+      "monograph_title": "tables de mortalite francaises pour les xix e et xx e siecles et projections pour le xxi e siecle. ined, donnees statistiques 4",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "pages": "102",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "vallin, j. et f. mesle. 2001. tables de mortalite francaises pour les xix e et xx e siecles et projections pour le xxi e siecle. ined, donnees statistiques 4, 102 p. + cd rom."
+    },
+    {
+      "authors": [
+        "vallin, j",
+        "mesle, f"
+      ],
+      "title": "comment ameliorer la precision des tables de mortalite aux grands ages ?",
+      "monograph_title": "population",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2002",
+      "pages": "45",
+      "volume": "57",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "vallin, j. et f. mesle. 2002. comment ameliorer la precision des tables de mortalite aux grands ages ?, population, 57, 45 : 603632."
+    },
+    {
+      "authors": [
+        "van imhoff, e",
+        "keilman, n"
+      ],
+      "title": "",
+      "monograph_title": "lipro 2.0 : an application of a dynamic demographic projection model to household structure in the netherlands, nidi cbgs publications 23",
+      "editors": [],
+      "publisher": "swets & zeitlinger",
+      "place": "amsterdam/lisse",
+      "date": "1991",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "van imhoff, e. et n. w. keilman. 1991. lipro 2.0 : an application of a dynamic demographic projection model to household structure in the netherlands, nidi cbgs publications 23. amsterdam/lisse : swets & zeitlinger."
+    },
+    {
+      "authors": [
+        "van imhoff, e",
+        "post, w"
+      ],
+      "title": "methodes de microsimulation pour des projections de population",
+      "monograph_title": "population",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "889932",
+      "volume": "52",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "van imhoff, e. et w. post. 1997. methodes de microsimulation pour des projections de population, population, 52, 4 : 889932."
+    },
+    {
+      "authors": [
+        "walker, a",
+        "alber, j",
+        "guillemard, a"
+      ],
+      "title": "",
+      "monograph_title": "older people in europe, social and economic policies. the 1993 report of the european observatory, commission of the european communities",
+      "editors": [],
+      "publisher": "directorate general v, employment, social affairs, industrial relations",
+      "place": "",
+      "date": "1993",
+      "pages": "36",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "walker, a., j. alber et a. m. guillemard. 1993. older people in europe, social and economic policies. the 1993 report of the european observatory, commis sion of the european communities, directorate general v, employment, social affairs, industrial relations, 36 p."
+    },
+    {
+      "authors": [
+        "wilson, b",
+        "smallwood, s"
+      ],
+      "title": "the proportion of marriages ending in divorce",
+      "monograph_title": "population trends",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "2836",
+      "volume": "131",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "wilson, b. et s. smallwood 2008. the proportion of marriages ending in divorce, population trends, 131 : 2836."
+    }
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "3",
+      "title": "distribution des situations matrimoniales (%) a 60 ans et au deces selon le sexe et la generation 83 84 83 81 74 62 66 68 70 71 68 7 5 4 4 3 2 24 21 20 17 13 7 8 9 10 9 11 11 9 8 7 7 9 3 3 3 4 8 13 3 4 4 5 9 16 100 % 80 % 60 % 40 % 20 % 0 % 100 % 80 % 60 % 40 % 20 % 0 % 1900 1910 1920 1930 1940 1950 1900 1910 1920 1930 1940 1950 divorce celibat veuvage mariage hommes femmes etat matrimonial a 60 ans generations 58 58 59 57 55 52 16 16 16 16 17 17 32 30 29 28 27 23 70 71 71 70 66 57 7 8 8 9 8 10 11 9 8 7 6 8 3 4 5 10 15 3 4 5 6 11 18 1900 1910 1920 1930 1940 1950 1900 1910 1920 1930 1940 1950 divorce celibat veuvage mariage",
+      "source": ""
+    },
+    {
+      "number": "6",
+      "title": "duree de vie a 60 ans des maries a 60 ans ayant connu le veuvage entre 60 ans et leur deces selon le sexe et la generation duree de vie (en annees) duree de vie (en annees) 13,7 15,1 17,2 19,2 20,9 22,2 10,9 11,8 13,3 14,9 16,6 18,0 7,8 8,6 9,1 9,3 9,3 9,2 13,4 14,7 15,2 15,4 15,0 14,8",
+      "source": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "source": ""
+    },
+    {
+      "number": "7",
+      "title": "",
+      "source": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

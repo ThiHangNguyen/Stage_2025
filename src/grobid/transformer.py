@@ -183,117 +183,96 @@ def extract_body(root):
 
     return sections
 
-
-def extract_grobid_global_tables(root):
+#title section - body
+def extract_section_titles(root):
     """
-    Extrait les tables globales du body TEI généré par GROBID.
+    Extrait uniquement les titres des sections (<head>) du corps (<body>) du document TEI GROBID.
+    Retourne une liste de chaînes de caractères.
     """
-    from lxml import etree
-    ns = {"tei": "http://www.tei-c.org/ns/1.0"}
-    tables = []
+    section_titles = []
 
-    body = root.find(".//tei:text/tei:body", namespaces=ns)
+    body = root.find(".//tei:text/tei:body", namespaces=ns_grobid)
     if body is None:
         return []
 
-    for table_node in body.findall(".//tei:table", namespaces=ns):
-        rows = []
-        for row in table_node.findall("tei:row", namespaces=ns):
-            cells = [normalize_text("".join(cell.itertext())) for cell in row.findall("tei:cell", namespaces=ns)]
-            rows.append(cells)
+    for div in body.findall("tei:div", namespaces=ns_grobid):
+        head_node = div.find("tei:head", namespaces=ns_grobid)
+        title = " ".join(head_node.itertext()).strip() if head_node is not None else ""
+        if title:
+            section_titles.append(title)
 
-        caption = ""
-        label = ""
-
-        parent = table_node.getparent()
-        if parent is not None and parent.tag.endswith("figure"):
-            fig_type = parent.attrib.get("type", "")
-            fig_desc = parent.find("tei:figDesc", namespaces=ns)
-            if fig_desc is not None:
-                caption = normalize_text(" ".join(fig_desc.itertext()))
-            label_node = parent.find("tei:label", namespaces=ns)
-            if label_node is not None:
-                label = normalize_text(" ".join(label_node.itertext()))
-
-        tables.append({
-            "label": label,
-            "caption": caption,
-            "rows": rows
-        })
-   # print(tables)
-    return tables
+    return section_titles
 
 
-def extract_tables(root):
-    """
-    Extrait les tableaux globaux (<figure type='table'>) depuis GROBID,
-    au format attendu par base["tables"].
-    """
+def extract_grobid_tables(root):
+    ns = {"tei": "http://www.tei-c.org/ns/1.0"}
     tables = []
 
-    figures = root.findall(".//tei:figure[@type='table']", namespaces=ns_grobid)
-    for fig in figures:
-        # label -> number
-        label_node = fig.find("tei:label", namespaces=ns_grobid)
+    for figure in root.findall(".//tei:figure", namespaces=ns):
+        print("Found <figure>")
+
+        table_node = figure.find("tei:table", namespaces=ns)
+        if table_node is None:
+            print("  -> No <tei:table> inside.")
+            continue
+
+        label_node = figure.find("tei:label", namespaces=ns)
         number = normalize_text(" ".join(label_node.itertext())) if label_node is not None else ""
 
-        # figDesc -> title
-        fig_desc = fig.find("tei:figDesc", namespaces=ns_grobid)
-        title = normalize_text(" ".join(fig_desc.itertext())) if fig_desc is not None else ""
+        figdesc_node = figure.find("tei:figDesc", namespaces=ns)
+        title = normalize_text(" ".join(figdesc_node.itertext())) if figdesc_node is not None else ""
 
-        # note -> note
-        note_node = fig.find("tei:note", namespaces=ns_grobid)
-        note = normalize_text(" ".join(note_node.itertext())) if note_node is not None else ""
+        rows = []
+        for row in table_node.findall("tei:row", namespaces=ns):
+            cells = [normalize_text(" ".join(cell.itertext())) for cell in row.findall("tei:cell", namespaces=ns)]
+            rows.append(cells)
 
-        # table content
-        content_lines = []
-        table_node = fig.find("tei:table", namespaces=ns_grobid)
-        if table_node is not None:
-            for row in table_node.findall("tei:row", namespaces=ns_grobid):
-                cells = [
-                    normalize_text(" ".join(cell.itertext()))
-                    for cell in row.findall("tei:cell", namespaces=ns_grobid)
-                ]
-                content_lines.append(" | ".join(cells))
-        content = "\n".join(content_lines)
-
+        full_text = f"{number} {title}".strip()
         tables.append({
             "number": number,
             "title": title,
-            "content": content,
-            "note": note,
-            "parent": None  
+            "rows": rows,
+            "full_text": full_text if full_text else None
         })
 
+    print(f"{len(tables)} tables found")
     return tables
 
 
-def extract_grobid_figures(root):
+def extract_grobid_figures_from_text(root):
+    """
+    Extrait uniquement les titres de figures détectés dans le texte OCR GROBID.
+    Ne récupère que les phrases commençant par "GRAPHIQUE" ou "FIGURE".
+    Ajoute un champ "type" et "full_text" sans récupérer le contenu de la figure.
+    """
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
-    body = root.find(".//tei:text/tei:body", namespaces=ns)
-    if body is None:
-        return []
-
     figures = []
-    for figure in body.xpath(".//tei:figure[not(@type)]", namespaces=ns):
-        caption = ""
-        fig_desc = figure.find("tei:figDesc", namespaces=ns)
-        if fig_desc is not None:
-            caption = normalize_text(" ".join(fig_desc.itertext()))
-            if not caption.strip():
-                inner_div = fig_desc.find(".//tei:div", namespaces=ns)
-                if inner_div is not None:
-                    caption = normalize_text(" ".join(inner_div.itertext()))
 
-        label_node = figure.find("tei:label", namespaces=ns)
-        label = normalize_text(" ".join(label_node.itertext())) if label_node is not None else ""
+    for s in root.xpath(".//tei:s", namespaces=ns):
+        raw_text = " ".join(s.itertext()).strip()
+        text = normalize_text(raw_text)
 
-        figures.append({
-            "label": label,
-            "caption": caption,
-        })
+        upper_text = text.upper()
+        if upper_text.startswith("GRAPHIQUE") or upper_text.startswith("FIGURE"):
+            words = text.split()
+            if not words:
+                continue
+
+            first_word = words[0].upper()
+            figure_type = "graphique" if first_word == "GRAPHIQUE" else "figure"
+            number = words[1] if len(words) > 1 else ""
+            title = " ".join(words[2:]) if len(words) > 2 else ""
+
+            figures.append({
+                "type": figure_type,
+                "number": number,
+                "title": title,
+                "source": "",
+                "full_text": text
+            })
 
     return figures
+
 
 
 import re
@@ -378,7 +357,6 @@ def extract_grobid_author_dicts(root):
                         current_author["last_name"] = guess_last
 
         current_author["affiliation"] = " ; ".join(affiliation_texts)
-        authors.append(current_author)
 
         # Ajouter l’auteur même si minimal (si au moins une info)
         if any(current_author.values()):
@@ -440,11 +418,10 @@ def parse_grobid_xml(root):
         elif isinstance(resultats[champ], str):
             resultats[champ] = normalize_text(resultats[champ])
 
-
     resultats["authors"] = extract_grobid_author_dicts(root)
-    resultats["body_sections"] = extract_body(root)
-    resultats["figures"] = extract_grobid_figures(root)
-    resultats["tables"] = extract_tables(root)
+    resultats["body"] = extract_section_titles(root)
+    resultats["figures"] = extract_grobid_figures_from_text(root)
+    resultats["tables"] = extract_grobid_tables(root)
 
 
     resultats["tool"] = "grobid"

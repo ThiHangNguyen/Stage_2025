@@ -51,21 +51,25 @@ def extract_erudit_author_fields(root):
 
     for auteur in auteurs:
         first_name = auteur.xpath("er:nompers/er:prenom/text()", namespaces=ns)
-        last_name = auteur.xpath("er:nompers/er:nomfamille/text()", namespaces=ns)
+        last_name_raw = auteur.xpath("er:nompers/er:nomfamille//text()", namespaces=ns)
+        last_name_text = "".join(last_name_raw).strip()  # ← ce nom est correct
+
         email = auteur.xpath("er:courriel/er:liensimple/text()", namespaces=ns)
         orcid = auteur.xpath("er:idno[@type='orcid']/text()", namespaces=ns)
         website = auteur.xpath("er:liensimple[@type='web']/text()", namespaces=ns)
         affiliations = auteur.xpath("er:affiliation/er:alinea/text()", namespaces=ns)
-
         aff_clean = [a.strip() for a in affiliations if a.strip()]
-        #print(f"[DEBUG] Affiliations auteur : {aff_clean}")
+
+        if not aff_clean:
+            alt_aff = auteur.xpath("er:affiliation/er:alinea//text()", namespaces=ns)
+            aff_clean = [a.strip() for a in alt_aff if a.strip()]
 
         result["author_first_name"].append(first_name[0] if first_name else "")
-        result["author_last_name"].append(last_name[0] if last_name else "")
+        result["author_last_name"].append(last_name_text if last_name_text else "")
         result["author_email"].append(email[0] if email else "")
         result["author_orcid"].append(orcid[0] if orcid else "")
         result["author_website"].append(website[0] if website else "")
-        result["author_affiliation"].append(aff_clean if aff_clean else [""])
+        result["author_affiliation"].append(" ".join(aff_clean) if aff_clean else "")
 
     # Optionnel : transformer les listes d'affiliations en chaînes pour export CSV
     for i in range(len(result["author_affiliation"])):
@@ -174,15 +178,17 @@ def extract_body(root):
     return sections
 
 
-
-def extract_source(fig_node, ns):
+def extract_source(element, ns):
     """
-    Extrait la source depuis <source><marquage> ou <source> directement.
+    Extrait tout le texte contenu dans <source>, y compris les balises imbriquées.
+    Retourne une chaîne propre et normalisée.
     """
-    src_node = fig_node.find("er:source/er:marquage", namespaces=ns)
-    if src_node is None:
-        src_node = fig_node.find("er:source", namespaces=ns)
-    return src_node.text.strip() if src_node is not None and src_node.text else ""
+    source_elem = element.find("er:source", namespaces=ns)
+    if source_elem is not None:
+        # Récupère tout le texte récursivement, y compris dans les <marquage>, <liensimple>, etc.
+        full_text = "".join(source_elem.itertext())
+        return normalize_text(full_text)
+    return ""
 
 def extract_figures(root):
     """
@@ -190,6 +196,7 @@ def extract_figures(root):
     - number (ex. "Figure 5")
     - title (texte de <titre>)
     - source (texte de <source>)
+    - full_text (tout le texte brut de la figure normalisé)
     """
     ns = {"er": "http://www.erudit.org/xsd/article"}
     figures = []
@@ -199,11 +206,13 @@ def extract_figures(root):
         group_number = grfig.findtext("er:no", default="", namespaces=ns)
         group_title = grfig.findtext("er:legende/er:titre", default="", namespaces=ns)
         group_source = extract_source(grfig, ns)
+        group_text = normalize_text(" ".join(grfig.itertext()))
 
         figures.append({
             "number": normalize_text(group_number),
             "title": normalize_text(group_title),
-            "source": group_source
+            "source": group_source,
+            "full_text": group_text
         })
 
     # Cas 2 : figures simples hors <grfigure>
@@ -216,14 +225,17 @@ def extract_figures(root):
         fig_number = fig.findtext("er:no", default="", namespaces=ns)
         fig_title = fig.findtext("er:legende/er:titre", default="", namespaces=ns)
         fig_source = extract_source(fig, ns)
+        fig_text = normalize_text(" ".join(fig.itertext()))
 
         figures.append({
             "number": normalize_text(fig_number),
             "title": normalize_text(fig_title),
-            "source": fig_source
+            "source": fig_source,
+            "full_text": fig_text
         })
 
     return figures
+
 
 
 def get_table_data_from_objetmedia(table_node):
@@ -275,6 +287,7 @@ def extract_tables(root):
     - content : contenu brut de <objetmedia><texte>
     - note : notes éventuelles (alinea, notetabl)
     - parent : None ou "numéro - titre" du groupe
+    - full_text : concaténation du contenu textuel
     """
     ns = {"er": "http://www.erudit.org/xsd/article"}
     tables = []
@@ -293,12 +306,15 @@ def extract_tables(root):
             content = get_table_data_from_objetmedia(table)
             note = extract_table_notes_and_source(table, ns)
 
+            full_text = " ".join([str(x).strip() for x in [number, title, note, content] if x]).strip()
+
             tables.append({
                 "number": number,
                 "title": title,
                 "content": content,
                 "note": note,
-                "parent": parent_label
+                "parent": parent_label,
+                "full_text": full_text
             })
 
     # Cas 2 : tableaux simples (pas dans un grtableau)
@@ -312,16 +328,58 @@ def extract_tables(root):
         content = get_table_data_from_objetmedia(table)
         note = extract_table_notes_and_source(table, ns)
 
+        full_text = " ".join([str(x).strip() for x in [number, title, note, content] if x]).strip()
+
         tables.append({
             "number": number,
             "title": title,
             "content": content,
             "note": note,
-            "parent": None
+            "parent": None,
+            "full_text": full_text
         })
 
     return tables
 
+def extract_section_titles_erudit(root):
+    """
+    Retourne une liste plate des titres de toutes les sections (section1 à section5) dans le corps,
+    sous forme de chaînes de caractères.
+    """
+
+    titles = []
+
+    def collect_titles(sec):
+        titre_node = sec.find("er:titre", namespaces=ns_erudit)
+        titre = normalize_text("".join(titre_node.itertext())) if titre_node is not None else ""
+        if titre:
+            titles.append(titre)
+
+        # Chercher récursivement les sous-sections (section2 à section5)
+        for level in range(2, 6):
+            for sub in sec.findall(f"er:section{level}", namespaces=ns_erudit):
+                collect_titles(sub)
+
+    for sec1 in root.xpath("er:corps/er:section1", namespaces=ns_erudit):
+        collect_titles(sec1)
+
+    return titles
+
+
+def extract_erudit_keywords_by_lang(root):
+    ns = {"er": "http://www.erudit.org/xsd/article"}
+
+    # Si root est un ElementTree, on récupère son élément racine
+    if hasattr(root, "getroot"):
+        root = root.getroot()
+
+    lang = root.get("{http://www.w3.org/XML/1998/namespace}lang") or root.get("lang")
+
+    if not lang:
+        return []
+
+    xpath_expr = f".//er:grmotcle[@lang='{lang}']/er:motcle"
+    return [normalize_text(elem.text) for elem in root.xpath(xpath_expr, namespaces=ns) if elem.text]
 
 
 def parse_erudit_xml(root):
@@ -343,6 +401,9 @@ def parse_erudit_xml(root):
         #         resultats[key] = values
         #     #resultats["authors"] = author_fields
         #     continue
+        elif champ =="keywords" :
+           resultats[champ] =  extract_erudit_keywords_by_lang(root)
+           continue
 
         elif champ == "bibliographies":
             resultats[champ] = []
@@ -395,7 +456,8 @@ def parse_erudit_xml(root):
         authors.append(author)
 
     resultats["authors"] = authors
-    resultats["body_sections"] = extract_body(root)
+    #resultats["body_sections"] = extract_body(root)
+    resultats["body"] = extract_section_titles_erudit(root)
     resultats["figures"] = extract_figures(root)
     resultats["tables"] = extract_tables(root)
     return resultats

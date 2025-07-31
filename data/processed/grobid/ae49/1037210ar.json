@@ -1,0 +1,1222 @@
+{
+  "title": "longevite differentielle et redistribution : enjeux theoriques et empiriques*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "marielouise",
+      "last_name": "leroux",
+      "email": "leroux.marielouise@uqam.ca",
+      "affiliation": "esguqam cirpee cesifo university of liege crepp core tse cepr gregory ponthiere university paris east creteil paris school of economics",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "pierre",
+      "last_name": "pestieau",
+      "email": "",
+      "affiliation": "esguqam cirpee cesifo university of liege crepp core tse cepr gregory ponthiere university paris east creteil paris school of economics",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "dans cet article, nous etudions limpact des differences de longevite sur la conception des politiques publiques, en particulier celles liees au depart a la retraite.nous montrons premierement qualors meme que lesperance de vie a augmente de maniere tres importante tout au long du siecle dernier, il subsiste encore de fortes disparites.deuxiemement, nous etudions dun point de vue normatif comment les differences de longevite sont generalement prises en compte dans les modeles de cycle de vie et montrons que certaines hypotheses peuvent avoir des implications fortes en terme de redistribution intragenerationnelle. nous identifions au moins trois arguments en faveur dune redistribution vers les agents a faible longevite : laversion a linegalite multiperiodes, laversion au risque de mortalite et la compensation pour des caracteristiques dont les agents ne sont pas responsables.nous etendons ensuite notre analyse de maniere a tenir compte du fait que les individus puissent etre en partie responsables de leur longevite.lactualite economique, revue danalyse economique, vol.91, n o 4, decembre 2015 ___________ * nous souhaiterions remercier notre rapporteur pour les commentaires tres utiles faits sur ce papier.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "2.",
+    "3.",
+    "4.",
+    "5.",
+    "6.",
+    "8.",
+    "modelisation de la longevite",
+    "modelisation des preferences individuelles et sociales lorsque",
+    "le probleme de base",
+    "introduction de laversion a linegalite multiperiodes",
+    "17.",
+    "aversion au risque sur les durees de vie",
+    "compensation ex ante",
+    "compensation ex post pour les differences de longevite",
+    "tenir compte de la responsabilite individuelle dans la redistribution",
+    "intragenerationnelle",
+    "section, ∂π(m",
+    "implications politiques et avenues de reformes",
+    "implications des differences de longevite sur les politiques publiques",
+    "reforme des retraites et penibilite du travail",
+    "mortalite differentielle et pauvrete",
+    "sortie en rente obligatoire et myopie",
+    "longevite et perte dautonomie aux grands ages"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "atkinson, a",
+        "bourguignon, f"
+      ],
+      "title": "the comparison of multidimensioned distributions of economic status",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1982",
+      "pages": "183",
+      "volume": "49",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2297269",
+      "raw_reference": "atkinson, a.b. et f. bourguignon (1982), the comparison of multi dimensioned distributions of economic status, the review of economic studies, 49(2) : 183201."
+    },
+    {
+      "authors": [
+        "balia, silvia",
+        "jones, andrew"
+      ],
+      "title": "mortality, lifestyle and socioeconomic status",
+      "monograph_title": "journal of health economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2008",
+      "pages": "126",
+      "volume": "27",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jhealeco.2007.03.001",
+      "raw_reference": "balia, s. et a. jones (2008), mortality, lifestyles and socioeconomic status, journal of health economics, 27 : 126."
+    },
+    {
+      "authors": [
+        "bommier, antoine"
+      ],
+      "title": "uncertain lifetime and intertemporal choice: risk aversion as a rationale for time discounting*",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2006",
+      "pages": "12231246",
+      "volume": "47",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14682354.2006.00411.x",
+      "raw_reference": "bommier, a. (2006), uncertain lifetime and intertemporal choice: risk aver sion as a rationale for time discounting, international economic review, 47(4) : 12231246."
+    },
+    {
+      "authors": [
+        "bommier, a",
+        "magnac, t",
+        "rapoport, b",
+        "roger, m"
+      ],
+      "title": "",
+      "monograph_title": "droit a la retraite et mortalite differentielle",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "116",
+      "volume": "168",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bommier, a., t. magnac, b. rapoport et m. roger (2006), droit a la retraite et mortalite differentielle, economie et prevision, 168 : 116."
+    },
+    {
+      "authors": [
+        "bommier, antoine",
+        "leroux, marie‐louise",
+        "lozachmeur, jean‐marie"
+      ],
+      "title": "differential mortality and social security",
+      "monograph_title": "canadian journal of economics/revue canadienne deconomique",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2011",
+      "pages": "273289",
+      "volume": "44",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15405982.2010.01632.x",
+      "raw_reference": "bommier, a., m.l. leroux et j.m. lozachmeur (2011a), differential morta lity and social security, canadian journal of economics, 44(1) : 273289."
+    },
+    {
+      "authors": [
+        "bommier, antoine",
+        "leroux, marielouise",
+        "lozachmeur, jeanmarie"
+      ],
+      "title": "on the public economics of annuities with differential mortality",
+      "monograph_title": "journal of public economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "612623",
+      "volume": "95",
+      "issue": "78",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jpubeco.2010.11.020",
+      "raw_reference": "bommier, a., m.l. leroux et j.m. lozachmeur (2011b), on the public econo mics of annuities with differential mortality, journal of public economics, 95 (78) : 612623."
+    },
+    {
+      "authors": [
+        "broome, john"
+      ],
+      "title": "weighing lives",
+      "monograph_title": "weighing lives",
+      "editors": [],
+      "publisher": "oxford university pressoxford",
+      "place": "",
+      "date": "2004",
+      "pages": "119",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/019924376x.003.0001",
+      "raw_reference": "broome, j. (2004), weighing lives, oxford university press."
+    },
+    {
+      "authors": [
+        "brown, jeffrey"
+      ],
+      "title": "differential mortality and the value of individual account retirement annuities",
+      "monograph_title": "the distributional aspects of social security and social security reform",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2002",
+      "pages": "401440",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7208/chicago/9780226241890.003.0011",
+      "raw_reference": "brown, j. (2002), differential mortality and the value of individual account retirement annuities in the distributional aspects of social security and social security reform, university of chicago press."
+    },
+    {
+      "authors": [
+        "brown, jeffrey"
+      ],
+      "title": "redistribution and insurance: mandatory annuitization with mortality heterogeneity",
+      "monograph_title": "journal of risk and insurance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2003",
+      "pages": "1741",
+      "volume": "70",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/15396975.00045",
+      "raw_reference": "brown, j. (2003), redistribution and insurance: mandatory annuitization with mortality heterogeneity, journal of risk and insurance, 70(1) : 1741."
+    },
+    {
+      "authors": [
+        "brown, jeffrey",
+        "finkelstein, amy"
+      ],
+      "title": "<scp>the private market for long‐term care insurance in the united states: a review of the evidence</scp>",
+      "monograph_title": "journal of risk and insurance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2009",
+      "pages": "529",
+      "volume": "76",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15396975.2009.01286.x",
+      "raw_reference": "brown, j.r. et a. finkelstein (2009), the private market for longterm care insurance in the united states: a review of the evidence, journal of risk and insurance, 76 : 529"
+    },
+    {
+      "authors": [
+        "coronado, julia",
+        "fullerton, don",
+        "glass, thomas"
+      ],
+      "title": "the progressivity of social security",
+      "monograph_title": "the progressivity of social security",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2000",
+      "pages": "",
+      "volume": "7520",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w7520",
+      "raw_reference": "coronado, j.l., d. fullerton et t. glass (2000), the progressivity of social security, nber working paper 7520."
+    },
+    {
+      "authors": [
+        "christensen, kaare",
+        "johnson, thomas",
+        "vaupel, james"
+      ],
+      "title": "the quest for genetic determinants of human longevity: challenges and insights",
+      "monograph_title": "nature reviews genetics",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2006",
+      "pages": "436448",
+      "volume": "7",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1038/nrg1871",
+      "raw_reference": "christensen, k., t. johnson et j. vaupel (2006), the quest for genetic deter minants of human longevity : challenges and insights, nature reviews of genetics, 7 : 436448."
+    },
+    {
+      "authors": [
+        "cremer, helmuth",
+        "roeder, kerstin"
+      ],
+      "title": "longterm care policy, myopia and redistribution",
+      "monograph_title": "journal of public economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "3343",
+      "volume": "108",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jpubeco.2013.09.004",
+      "raw_reference": "cremer, h. et k. roeder (2013), longterm care policy, myopia and redistri bution, journal of public economics, 108 : 343."
+    },
+    {
+      "authors": [
+        "cremer, helmuth",
+        "pestieau, pierre"
+      ],
+      "title": "social longterm care insurance and redistribution",
+      "monograph_title": "international tax and public finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2014",
+      "pages": "955974",
+      "volume": "21",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1079701392895",
+      "raw_reference": "cremer, h. et p. pestieau (2014), social longterm care insurance and redis tribution, international tax and public finance, 21 : 955974."
+    },
+    {
+      "authors": [
+        "cristia, julian"
+      ],
+      "title": "rising mortality and life expectancy differentials by lifetime earnings in the united states",
+      "monograph_title": "journal of health economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "984995",
+      "volume": "28",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jhealeco.2009.06.003",
+      "raw_reference": "cristia, j. (2009), rising mortality and life expectancy differentials by life time earning in the united states, journal of health economics, 28 : 984995."
+    },
+    {
+      "authors": [
+        "delavande, adeline",
+        "rohwedder, susann"
+      ],
+      "title": "differential survival in europe and the united states: estimates based on subjective probabilities of survival",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "2011",
+      "pages": "13771400",
+      "volume": "48",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1352401100668",
+      "raw_reference": "delavande, a. et s. rohwedder (2011), differential survival in europe and the united states: estimates based on subjective probabilities of survival, demography, 48 : 13771400."
+    },
+    {
+      "authors": [
+        "delprat, g",
+        "leroux, ml",
+        "michaud, pc"
+      ],
+      "title": "evidence on individual preferences for longevity risk",
+      "monograph_title": "journal of pension economics and finance",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2013",
+      "pages": "160179",
+      "volume": "15",
+      "issue": "2",
+      "organization": "",
+      "notes": "a paraitre",
+      "url": "",
+      "doi": "10.1017/s1474747214000523",
+      "raw_reference": "delprat, g., m.l. leroux et pc michaud (2013), evidence on individual preferences for longevity risks, a paraitre journal of pension economics and finance."
+    },
+    {
+      "authors": [
+        "duleep, harriet"
+      ],
+      "title": "measuring the effect of income on adult mortality using longitudinal administrative record data",
+      "monograph_title": "the journal of human resources",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1986",
+      "pages": "238",
+      "volume": "21",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/145800",
+      "raw_reference": "duleep, h.o. (1986), measuring the effect of income on adult mortality using longi tudinal administrative record data, journal of human resources, 21(2) : 238251."
+    },
+    {
+      "authors": [
+        "finkelstein, amy",
+        "mcgarry, kathleen"
+      ],
+      "title": "multiple dimensions of private information: evidence from the longterm care insurance market",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2006",
+      "pages": "938958",
+      "volume": "96",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.96.4.938",
+      "raw_reference": "finkelstein, a. et k. mcgarry (2006), multiple dimensions of private infor mation: evidence from the longterm care insurance market, the american economic review, 96 : 93858."
+    },
+    {
+      "authors": [
+        "fleurbaey, m"
+      ],
+      "title": "",
+      "monograph_title": "fairness, responsibility and welfare",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fleurbaey, m. (2008), fairness, responsibility and welfare, oxford university press."
+    },
+    {
+      "authors": [
+        "fleurbaey, marc",
+        "ponthiere, gregory"
+      ],
+      "title": "prevention against equality?",
+      "monograph_title": "journal of public economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "6884",
+      "volume": "103",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jpubeco.2013.03.008",
+      "raw_reference": "fleurbaey, m. et g. ponthiere (2013), prevention against equality, journal of public economics, 103(1) : 6884."
+    },
+    {
+      "authors": [
+        "fleurbaey, marc",
+        "leroux, marielouise",
+        "ponthiere, gregory"
+      ],
+      "title": "compensating the dead",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "2841",
+      "volume": "51",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmateco.2014.02.003",
+      "raw_reference": "fleurbaey, m., ml leroux et g. ponthiere (2014a), compensating the dead, journal of mathematical economics, 51 : 2841."
+    },
+    {
+      "authors": [
+        "fleurbaey, marc",
+        "leroux, marie‐louise",
+        "pestieau, pierre",
+        "ponthiere, gregory"
+      ],
+      "title": "fair retirement under risky lifetime*",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2014",
+      "pages": "177210",
+      "volume": "57",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/iere.12152",
+      "raw_reference": "fleurbaey, m., ml leroux, g. ponthiere et p. pestieau (2014b), fair reti rement under risky lifetime, a paraitre international economic review."
+    },
+    {
+      "authors": [
+        "gan, li",
+        "hurd, michael",
+        "mcfadden, daniel"
+      ],
+      "title": "individual subjective survival curves",
+      "monograph_title": "analyses in the economics of aging",
+      "editors": [
+        "wise, d"
+      ],
+      "publisher": "university of chicago press",
+      "place": "cambridge",
+      "date": "2005",
+      "pages": "377412",
+      "volume": "",
+      "issue": "",
+      "organization": "national bureau of economic research",
+      "notes": "",
+      "url": "",
+      "doi": "10.7208/chicago/9780226903217.003.0013",
+      "raw_reference": "gan, l., m. hurd et d. mcfadden (2005), individual subjective survival curves, in d.wise (ed.), analyses in the economics of aging, cambridge: nber books, national bureau of economic research"
+    },
+    {
+      "authors": [
+        "hammermesh, d"
+      ],
+      "title": "expectations, life expectancy, and economic behavior",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1985",
+      "pages": "389",
+      "volume": "100",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1885388",
+      "raw_reference": "hammermesh, d. s. (1985), expectations, life expectancy, and economic be havior, quarterly journal of economics, 100(2) : 389408."
+    },
+    {
+      "authors": [
+        "herskind, a",
+        "mcgue, matthew",
+        "holm, niels",
+        "sørensen, thorkild",
+        "harvald, bent",
+        "vaupel, james"
+      ],
+      "title": "the heritability of human longevity: a populationbased study of 2872 danish twin pairs born 18701900",
+      "monograph_title": "human genetics",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1996",
+      "pages": "319323",
+      "volume": "97",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s004390050042",
+      "raw_reference": "herskind, a. m., m. mcgue, n.v. holm, t.i. sorensen, b. harvald et j. w. vaupel (1996), the heritability of human longevity: a populationbased study of 2872 danish twin pairs born 18701900, human genetics, 97 : 319323."
+    },
+    {
+      "authors": [
+        "hurd, michael",
+        "mcgarry, kathleen"
+      ],
+      "title": "evaluation of the subjective probabilities of survival in the health and retirement study",
+      "monograph_title": "the journal of human resources",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1995",
+      "pages": "s268",
+      "volume": "30",
+      "issue": "0",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/146285",
+      "raw_reference": "hurd, m. d. et k. mcgarry (1995), evaluation of the subjective probabilities of survival in the health and retirement study, journal of human resources, 30(0) : 268s292."
+    },
+    {
+      "authors": [
+        "bignami, simona"
+      ],
+      "title": "chantal girard, le bilan demographique du quebec. edition 2008, quebec, institut de la statistique du quebec, 2008, 79 p.",
+      "monograph_title": "recherches sociographiques",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2012",
+      "pages": "271",
+      "volume": "51",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/044731ar",
+      "raw_reference": "institut de la statistique du quebec (2012), le vieillissement demographique : de nombreux enjeux a dechiffrer."
+    },
+    {
+      "authors": [
+        "insee"
+      ],
+      "title": "dans quelles regions meurton le plus tard au debut du xxi e siecle?",
+      "monograph_title": "insee premiere",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006. 1114",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "insee (2006), dans quelles regions meurton le plus tard au debut du xxi e siecle?, insee premiere, 1114."
+    },
+    {
+      "authors": [
+        "insee"
+      ],
+      "title": "lesperance de vie saccroit, les inegalites sociales face a la mort demeurent",
+      "monograph_title": "insee premiere",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "1372",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "insee (2011), lesperance de vie saccroit, les inegalites sociales face a la mort demeurent, insee premiere, 1372."
+    },
+    {
+      "authors": [
+        "jusot, f"
+      ],
+      "title": "",
+      "monograph_title": "inegalites sociales de mortalite : effet de la pauvrete ou de la richesse",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "jusot, f. (2003), inegalites sociales de mortalite : effet de la pauvrete ou de la richesse, mimeo."
+    },
+    {
+      "authors": [
+        "kanbur, ravi",
+        "mukherjee, diganta"
+      ],
+      "title": "premature mortality and poverty measurement",
+      "monograph_title": "bulletin of economic research",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2007",
+      "pages": "339359",
+      "volume": "59",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.03073378.2007.00265.x",
+      "raw_reference": "kanbur, r. et d.mukherjee (2007), premature mortality and poverty measu rement, bulletin of economic research, 59 : 339359."
+    },
+    {
+      "authors": [
+        "kaplan, g",
+        "seeman, t",
+        "cohen, r",
+        "knudsen, l",
+        "guralnik, j"
+      ],
+      "title": "mortality among the elderly in the alameda county study: behavioral and demographic risk factors.",
+      "monograph_title": "american journal of public health",
+      "editors": [],
+      "publisher": "american public health association",
+      "place": "",
+      "date": "1987",
+      "pages": "307312",
+      "volume": "77",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2105/ajph.77.3.307",
+      "raw_reference": "kaplan, g.a, t.e. seeman, r.d. cohen, l.p. knudsen et j. guralnik (1987), mortality among the elderly in the alameda county study: behavioral and demographic risk factors, american journal of public health, 77(3) : 307312"
+    },
+    {
+      "authors": [
+        "lefebvre, mathieu",
+        "pestieau, pierre",
+        "ponthiere, gregory"
+      ],
+      "title": "measuring poverty without the mortality paradox",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "285316",
+      "volume": "40",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035501207102",
+      "raw_reference": "lefebvre, m., p. pestieau et g. ponthiere (2013), measuring poverty without the mortality paradox, social choice and welfare, 40 : 285316."
+    },
+    {
+      "authors": [
+        "lefebvre, mathieu",
+        "pestieau, pierre",
+        "ponthiere, gregory"
+      ],
+      "title": "fgt old‐age poverty measures and the mortality paradox: theory and evidence",
+      "monograph_title": "review of income and wealth",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2014",
+      "pages": "428458",
+      "volume": "64",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/roiw.12277",
+      "raw_reference": "lefebvre, m., p. pestieau et g. ponthiere (2014), fgt poverty measures and the mortality paradox: theory and evidence, mimeo, paris school of economics."
+    },
+    {
+      "authors": [
+        "leroux, ml"
+      ],
+      "title": "endogenous differential mortality, noncontractible effort and nonlinear taxation",
+      "monograph_title": "international tax and public finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2011",
+      "pages": "5673",
+      "volume": "18",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1079701091477",
+      "raw_reference": "leroux, ml. (2011), endogenous differential mortality, noncontractible effort and nonlinear taxation, international tax and public finance, 18(1) : 5673."
+    },
+    {
+      "authors": [
+        "leroux, ml",
+        "pestieau, p",
+        "ponthiere, g"
+      ],
+      "title": "longevity, genes and efforts: an optimal taxation approach to prevention",
+      "monograph_title": "journal of health economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "6276",
+      "volume": "30",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jhealeco.2010.10.003",
+      "raw_reference": "leroux, ml., p. pestieau et g. ponthiere (2011), longevity, genes and ef forts: an optimal taxation approach to prevention, journal of health eco nomics, 30(1) : 6276."
+    },
+    {
+      "authors": [
+        "leroux, marielouise",
+        "ponthiere, gregory"
+      ],
+      "title": "optimal tax policy and expected longevity: a mean and variance utility approach",
+      "monograph_title": "international tax and public finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2009",
+      "pages": "514537",
+      "volume": "16",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1079700991063",
+      "raw_reference": "leroux, m.l. et g. ponthiere (2009), optimal tax policy and expected longe vity. a mean and variance utility approach, international tax and public finance, 16(4) : 514537."
+    },
+    {
+      "authors": [
+        "liebman, jeffrey"
+      ],
+      "title": "redistribution in the current u.s. social security system",
+      "monograph_title": "redistribution in the current u.s social security system",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2001",
+      "pages": "",
+      "volume": "8625",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w8625",
+      "raw_reference": "liebman, j.b. (2001), redistribution in the current u.s social security sys tem, nber working paper 8625."
+    },
+    {
+      "authors": [
+        "ludwig, a",
+        "zimper, a"
+      ],
+      "title": "a parsimonious model of subjective life expectancy",
+      "monograph_title": "theory and decision",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "519541",
+      "volume": "75",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1123801393556",
+      "raw_reference": "ludwig, a. et a. zimper (2013), a parsimonious model of subjective life ex pectancy, theory and decision, 75 : 519541."
+    },
+    {
+      "authors": [
+        "malthus, t"
+      ],
+      "title": "thomas malthus: an essay on the principle of population year: 1798",
+      "monograph_title": "historic documents of the enlightenment",
+      "editors": [],
+      "publisher": "schlager group inc.",
+      "place": "london",
+      "date": "1798",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3735/9781961844230.bookpart019",
+      "raw_reference": "malthus, t. (1798), an essay on the principle of population, london."
+    },
+    {
+      "authors": [
+        "ocde"
+      ],
+      "title": "panorama des pensions 2011",
+      "monograph_title": "ocde et du g",
+      "editors": [],
+      "publisher": "oecd",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "20",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/pension_glance2011fr",
+      "raw_reference": "ocde (2011), panorama des pensions 2011, les systemes de retraites dans les pays de locde et du g20."
+    },
+    {
+      "authors": [
+        "oecd"
+      ],
+      "title": "",
+      "monograph_title": "help wanted? providing and paying for longterm care",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011. 2014",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://www.oecd.org/health/healthsystems/helpwantedprovidingandpayingforlongtermcare.htm",
+      "doi": "",
+      "raw_reference": "oecd (2011), help wanted? providing and paying for longterm care, http:// www.oecd.org/health/healthsystems/helpwantedprovidingandpayingforlong termcare.htm, dernier acces en aout 2014."
+    },
+    {
+      "authors": [
+        "pamuk, elsie"
+      ],
+      "title": "social class inequality in mortality from 1921 to 1972 in england and wales",
+      "monograph_title": "population studies",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1985",
+      "pages": "1731",
+      "volume": "39",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/0032472031000141256",
+      "raw_reference": "pamuk, e.r. (1985), social class inequality in mortality from 1921 to 1972 in england and wales, population studies, 39 : 1731."
+    },
+    {
+      "authors": [
+        "payeur, f"
+      ],
+      "title": "la mortalite et lesperance de vie au quebec en",
+      "monograph_title": "institut de la statistique du quebec",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2013. 2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "payeur, f. (2013), la mortalite et lesperance de vie au quebec en 2012, ins titut de la statistique du quebec."
+    },
+    {
+      "authors": [
+        "perls, thomas",
+        "levenson, robin",
+        "regan, meredith",
+        "puca, annibale"
+      ],
+      "title": "what does it take to live to 100?",
+      "monograph_title": "mechanisms of ageing and development",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "231242",
+      "volume": "123",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00476374(01)003487",
+      "raw_reference": "perls, t., r. levenson, m. regan et a. puca (2002), what does it take to live to 100, mechanisms of ageing and development, 123 : 231242."
+    },
+    {
+      "authors": [
+        "pestieau, pierre",
+        "ponthiere, gregory"
+      ],
+      "title": "myopia, regrets, and risky behaviors",
+      "monograph_title": "international tax and public finance",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2012",
+      "pages": "288317",
+      "volume": "19",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1079701191886",
+      "raw_reference": "pestieau, p. et g. ponthiere (2012), myopia, regrets and risky behaviors, international tax and public finance, 19 (2) : 288317."
+    },
+    {
+      "authors": [
+        "pestieau, pierre",
+        "racionero, maria"
+      ],
+      "title": "harsh occupations, life expectancy and social security",
+      "monograph_title": "economic modelling",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "194202",
+      "volume": "58",
+      "issue": "",
+      "organization": "",
+      "notes": "cepr discussion papers",
+      "url": "",
+      "doi": "10.1016/j.econmod.2016.05.030",
+      "raw_reference": "pestieau, p. et m. racionero (2013a), harsh occupations, life expectancy and social security, cepr discussion papers 678."
+    },
+    {
+      "authors": [
+        "pestieau, p",
+        "racionero, m"
+      ],
+      "title": "harsh occupations, health status and social security",
+      "monograph_title": "evaluation du systeme quebecois de securite financiere a la retraite par rapport a celui dautres pays industrialises",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2013. 2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "a paraitre",
+      "url": "",
+      "doi": "",
+      "raw_reference": "pestieau p. et m. racionero (2013b), harsh occupations, health status and social security, a paraitre journal of economics. regie des rentes du quebec (2012), evaluation du systeme quebecois de secu rite financiere a la retraite par rapport a celui dautres pays industrialises."
+    },
+    {
+      "authors": [
+        "roemer, j"
+      ],
+      "title": "a pragmatic theory of responsibility for the egalitarian planner",
+      "monograph_title": "egalitarian perspectives",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "1993",
+      "pages": "179196",
+      "volume": "22",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511528293.011",
+      "raw_reference": "roemer, j. (1993), a pragmatic theory of responsibility for the egalitarian planner, philosophy and public affairs, 22(2) : 146166."
+    },
+    {
+      "authors": [
+        "sen, amartya"
+      ],
+      "title": "mortality as an indicator of economic success and failure",
+      "monograph_title": "the economic journal",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1998",
+      "pages": "125",
+      "volume": "108",
+      "issue": "446",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680297.00270",
+      "raw_reference": "sen, a. (1998), mortality as an indicator of economic success and failure, economic journal, 108 : 125."
+    },
+    {
+      "authors": [
+        "skytthe, axel",
+        "pedersen, nancy",
+        "kaprio, jaakko",
+        "stazi, maria",
+        "hjelmborg, jacob",
+        "iachine, ivan",
+        "vaupel, james",
+        "christensen, kaare"
+      ],
+      "title": "longevity studies in genomeutwin",
+      "monograph_title": "twin research",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2003",
+      "pages": "448454",
+      "volume": "6",
+      "issue": "05",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1375/twin.6.5.448",
+      "raw_reference": "skytthe, a., l. nancy, j. kaprio, m.a. stazi, j. v.b. hjelmborg, i. lachine, j. w. vaupel et k. christensen (2003), longevity studies in genomeutwin, twin research, 6 (5) : 448454."
+    },
+    {
+      "authors": [
+        "hoffmann, vivian",
+        "rao, vijayendra",
+        "datta, upamanyu",
+        "sanyal, paromita",
+        "surendra, vaishnavi",
+        "majumdar, shruti"
+      ],
+      "title": "http://www.3ieimpact.org/en/publications/3ieimpactevaluationreports/3ieimpactevaluations/impactevaluationreport71/",
+      "monograph_title": "disponible sur",
+      "editors": [],
+      "publisher": "international initiative for impact evaluation (3ie)",
+      "place": "",
+      "date": "2014. 2014",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "human mortality database",
+      "url": "www.mortality.orgouwww.humanmortality.de",
+      "doi": "10.23846/ow3.ie71",
+      "raw_reference": "university of california, berkeley (usa), et max planck institute for demo graphic research (allemagne) (2014), human mortality database, dis ponible sur www.mortality.org ou www.humanmortality.de (donnees telechar gees en juillet 2014)."
+    },
+    {
+      "authors": [
+        "walraet, emmanuelle",
+        "vincent, alexandre",
+        "dupuis, jeanmarc",
+        "el moudden, claire"
+      ],
+      "title": "la redistribution intragenerationnelle dans le systeme de retraite des salaries du prive : une approche par microsimulation ; suivi dun commentaire de jeanmarc dupuis et claire el moudden",
+      "monograph_title": "economie et statistique",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "2003",
+      "pages": "3161",
+      "volume": "366",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/estat.2003.7314",
+      "raw_reference": "walraet, e. et a. vincent (2003), la redistribution intragenerationnelle dans le systeme de retraite des salaries du prive : une approche par microsimulation, economie et statistique, 366 : 3161."
+    },
+    {
+      "authors": [
+        "wise, david"
+      ],
+      "title": "",
+      "monograph_title": "social security programs and retirement around the world",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7208/chicago/9780226921952.001.0001",
+      "raw_reference": "wise, d. (2012), social security and retirement around the world: historical trends in mortality and health, employment, and disability insurance partici pation and reforms, nber and university of chicago press."
+    },
+    {
+      "authors": [
+        "woods, l",
+        "rachet, b",
+        "riga, m",
+        "stone, n",
+        "shah, a",
+        "coleman, m"
+      ],
+      "title": "geographical variation in life expectancy at birth in england and wales is largely explained by deprivation",
+      "monograph_title": "journal of epidemiology & community health",
+      "editors": [],
+      "publisher": "bmj",
+      "place": "",
+      "date": "2005",
+      "pages": "115120",
+      "volume": "59",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1136/jech.2003.013003",
+      "raw_reference": "woods, l., b. rachet, m. riga, n. stone, a. shah et m. coleman (2005), geographical variation in life expectancy at birth in england and wales is largely explained by deprivation, journal of epidemiology & community health, 59 : 115120."
+    }
+  ],
+  "notes": [
+    "[16] comme nous lavons defini plus haut, esperance de vie et duree de vie sont deux concepts distincts. le premier concept est une notion ex ante qui peut etre differente de sa realisation ex post,",
+    "[19] voir leroux et al. (2011) qui utilisent le meme type dobjectif social dans un modele ou les agents ont des probabilites de survie differentes en fonction de facteurs exogenes et endogenes differents",
+    "[20] par preferences pures, nous voulons dire une preference pour le present ou le futur independamment des conditions de survie. il est clair quune probabilite positive de deceder dans un futur proche agit, dans le cadre de la theorie de lutilite esperee, comme un facteur descompte.",
+    "[23] fleurbaey et al. (2014) etudient aussi comment les resultats sont modifies quand les ressources sont insuffisantes pour garantir quune duree de vie plus grande soit toujours souhaitable. dans ce cas, il faudrait compenser les individus qui ont eu le malheur de vivre longtemps.",
+    "[28] puisque cet effort est non monetaire, il napparait pas dans la contrainte budgetaire de lagent.",
+    "[32] si ces tests etaient effectues par dautres instances que le gouvernement (par exemple, un medecin de famille), des problemes dagence pourraient alors survenir."
+  ],
+  "figures": [],
+  "tables": []
+}

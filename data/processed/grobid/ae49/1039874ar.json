@@ -1,0 +1,1834 @@
+{
+  "title": "rationalite limitee et interactions strategiques dans les jeux experimentaux*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "antoine",
+      "last_name": "terracol",
+      "email": "antoine.terracol@univparis8.fr",
+      "affiliation": "led universite paris gains, universite du maine centre deconomie de la sorbonne universite paris pantheonsorbonne",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "jonathan",
+      "last_name": "vaksmann",
+      "email": "jonathan.vaksmann@univlemans.fr",
+      "affiliation": "led universite paris gains, universite du maine centre deconomie de la sorbonne universite paris pantheonsorbonne",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "la theorie microeconomique standard suppose la rationalite des agents, cestadire que ces derniers vont faire des choix dans le but de maximiser leur utilite 1.cependant, dans une situation dinteractions strategiques, ce qui est optimal pour un agent va dependre des choix faits par les autres agents.il est des lors impossible de considerer le choix dun agent pris isolement et la resolution du probleme passe par lanalyse jointe du probleme de decision de tous les agents impliques.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "modeles de reaction initiale hors equilibre",
+    "equilibre plus bruit",
+    "rationalisabilite et elimination des strategies dominees",
+    "modeles levelk et modeles de hierarchie cognitive",
+    "remarques conclusives",
+    "apprentissage",
+    "apprentissage par renforcement",
+    "(",
+    "modeles dapprentissage par les croyances",
+    "modele hybride dapprentissage : modele dexperience weighted attraction",
+    "le terme de paiements ponderes",
+    "vers une approche plus sophistiquee du comportement des joueurs",
+    "remarques conclusives"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "morange, michel"
+      ],
+      "title": "commentaire sur larticle divan brissaud",
+      "monograph_title": "histoire de la recherche contemporaine",
+      "editors": [],
+      "publisher": "openedition",
+      "place": "",
+      "date": "",
+      "pages": "8082",
+      "volume": "tome ivn°1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4000/hrc.1033",
+      "raw_reference": "la vision de lagent economique comme etant a meme deffectuer les calculs permettant darriver a cette maximisation de lutilite a ete mise en cause par simon (1955), qui propose de fonder la theorie du comportement individuel sur des bases plus realistes."
+    },
+    {
+      "authors": [
+        "economique, lactualite"
+      ],
+      "title": "naive play and the process of choice in guessing games",
+      "monograph_title": "revue danalyse economique",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2016 agranov, m., a. caplin et c. tergiman (2015",
+      "pages": "146157",
+      "volume": "92",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lactualite economique, revue danalyse economique, vol. 92, n os 12, marsjuin 2016 agranov, m., a. caplin et c. tergiman (2015), naive play and the process of choice in guessing games journal of the economic science association, 1(2): 146157"
+    },
+    {
+      "authors": [
+        "tergiman"
+      ],
+      "title": "experienceweighted attraction learning in senderreceiver signaling games",
+      "monograph_title": "journal of political economy",
+      "editors": [
+        "anderson, s",
+        "holt,."
+      ],
+      "publisher": "",
+      "place": "",
+      "date": "2012. 2000. 1998",
+      "pages": "828853",
+      "volume": "75",
+      "issue": "2",
+      "organization": "",
+      "notes": "beliefs and endogenous cognitive levels: an experimental study economic theory rent seeking with bounded rationality: an analysis of the allpay auction games and economic behavior",
+      "url": "",
+      "doi": "",
+      "raw_reference": "agranov, m., e. potamites, a. schotter et c. tergiman (2012), beliefs and endogenous cognitive levels: an experimental study, games and econom ic behavior, 75(2) : 449 463. anderson, c. m. et c. f. camerer (2000), experienceweighted attraction learning in senderreceiver signaling games, economic theory, 16(3) : 689718. anderson, s. p., j. k. goeree et c. a. holt (1998), rent seeking with bounded rationality: an analysis of the allpay auction, journal of political economy, 106 (4) : 828853."
+    },
+    {
+      "authors": [
+        "anderson, simon",
+        "goeree, jacob",
+        "holt, charles"
+      ],
+      "title": "minimumeffort coordination games: stochastic potential and logit equilibrium",
+      "monograph_title": "games and economic behavior",
+      "editors": [
+        "anderson, s",
+        "holt,."
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "177199",
+      "volume": "34",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.2000.0800",
+      "raw_reference": "anderson, s. p., j. k. goeree et c. a. holt (2001), minimumeffort coordina tion games: stochastic potential and logit equilibrium, games and econom ic behavior, 34 (2) : 177199."
+    },
+    {
+      "authors": [
+        "arad, ayala",
+        "rubinstein, ariel"
+      ],
+      "title": "the 1120 money request game: a level<i>k</i> reasoning study",
+      "monograph_title": "american economic review",
+      "editors": [
+        "rubinstein"
+      ],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2012",
+      "pages": "35613573",
+      "volume": "102",
+      "issue": "7",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.102.7.3561",
+      "raw_reference": "arad, a. et a. rubinstein (2012), the 1120 money request game: a levelk reasoning study, american economic review, 102(7) : 35613573."
+    },
+    {
+      "authors": [
+        "arthur, w"
+      ],
+      "title": "on designing economic agents that behave like human agents",
+      "monograph_title": "journal of evolutionary economics",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1991",
+      "pages": "122",
+      "volume": "3",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01199986",
+      "raw_reference": "arthur, w. b. (1991), designing economic agents that act like human agents: a behavioral approach to bounded rationality, american economic review, 81(2) : 353359."
+    },
+    {
+      "authors": [
+        "arthur, w"
+      ],
+      "title": "on designing economic agents that behave like human agents",
+      "monograph_title": "journal of evolutionary economics",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1994",
+      "pages": "122",
+      "volume": "3",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01199986",
+      "raw_reference": "arthur, w. b. (1994). on designing economic agents that behave like human agents, journal of evolutionary economics, 3 : 122."
+    },
+    {
+      "authors": [
+        "brandenburger"
+      ],
+      "title": "epistemic conditions for nash equilibrium",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1995",
+      "pages": "11611180",
+      "volume": "63",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "aumann, r. et a. brandenburger (1995), epistemic conditions for nash equi librium, econometrica, 63(5) : 11611180."
+    },
+    {
+      "authors": [
+        "van huyck, l"
+      ],
+      "title": "",
+      "monograph_title": "optimization incentives and coordination failure in laboratory stag hunt games",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "pages": "749764",
+      "volume": "69",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "battalio, r., l. samuelson et j. van huyck (2001), optimization incentives and coordination failure in laboratory stag hunt games, econometrica, 69(3) : 749764."
+    },
+    {
+      "authors": [],
+      "title": "the problem of waldegrave",
+      "monograph_title": "journal electronique dhistoire des probabilites et de la statistique",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2007",
+      "pages": "",
+      "volume": "3",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bellhouse, d. (2007), the problem of waldegrave, journal electronique dhistoire des probabilites et de la statistique, 3(2)."
+    },
+    {
+      "authors": [
+        "b"
+      ],
+      "title": "rationalizable strategic behavior",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1984",
+      "pages": "10071028",
+      "volume": "52",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bernheim, b. d. (1984), rationalizable strategic behavior, econometrica, 52(4) : 10071028."
+    },
+    {
+      "authors": [
+        "boylan, richard",
+        "elgamal, mahmoud"
+      ],
+      "title": "fictitious play: a statistical study of multiple economic experiments",
+      "monograph_title": "games and economic behavior",
+      "editors": [
+        "boylan, r",
+        "et m. a. elgamal"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1993",
+      "pages": "205222",
+      "volume": "5",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1993.1011",
+      "raw_reference": "boylan, r. t. et m. a. elgamal (1993), fictitious play: a statistical study of mul tiple economic experiments, games and economic behavior, 5(2) : 205222."
+    },
+    {
+      "authors": [
+        "holt"
+      ],
+      "title": "iterative solution of games by fictitious play, in t. c. koopmans (ed.), activity analysis of production and allocation, cowles commission for",
+      "monograph_title": "out of your mind: eliciting individual reasoning in one shot games",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "new york",
+      "date": "1996. 1951. 2014",
+      "pages": "3957",
+      "volume": "84",
+      "issue": "",
+      "organization": "university of virginia",
+      "notes": "discussion paper. brown, g. naive bayesian learning and adjustment to equilibrium in signaling games burchardi, k. b. et s. p. penczynski research in economics",
+      "url": "",
+      "doi": "",
+      "raw_reference": "brandts, j. et c. holt (1996), naive bayesian learning and adjustment to equilibrium in signaling games, university of virginia, discussion paper. brown, g. (1951), iterative solution of games by fictitious play, in t. c. koop mans (ed.), activity analysis of production and allocation, cowles commis sion for research in economics, new york : wiley, 404 p. burchardi, k. b. et s. p. penczynski (2014), out of your mind: eliciting individual reasoning in one shot games, games and economic behavior, 84(c) : 3957."
+    },
+    {
+      "authors": [
+        "burnham, terence",
+        "cesarini, david",
+        "johannesson, magnus",
+        "lichtenstein, paul",
+        "wallace, bjorn"
+      ],
+      "title": "higher cognitive ability is associated with lower entries in a pbeauty contest",
+      "monograph_title": "journal of economic behavior & organization",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "171175",
+      "volume": "72",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jebo.2009.05.015",
+      "raw_reference": "burnham, t. c., d. cesarini, m. johannesson, p. lichtenstein et b. wallace (2009), higher cognitive ability is associated with lower entries in a pbeauty contest, journal of economic behavior and organization, 72(1) : 171175."
+    },
+    {
+      "authors": [
+        "bush, r",
+        "mosteller, f"
+      ],
+      "title": "ewa learning in coordination games: probability rules, heterogeneity, and time variation",
+      "monograph_title": "stochastic models for learning",
+      "editors": [
+        "camerer, c",
+        "et t.h",
+        "ho"
+      ],
+      "publisher": "wiley",
+      "place": "new york",
+      "date": "1955. 1998",
+      "pages": "305326",
+      "volume": "42",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bush, r. r. et f. mosteller (1955), stochastic models for learning, new york : wiley. camerer, c. et t.h. ho (1998), ewa learning in coordination games: prob ability rules, heterogeneity, and time variation, journal of mathematical psychology, 42 : 305326."
+    },
+    {
+      "authors": [
+        "camerer, colin",
+        "hua ho, teck"
+      ],
+      "title": "experienceweighted attraction learning in normal form games",
+      "monograph_title": "econometrica",
+      "editors": [
+        "camerer, c",
+        "et t.h",
+        "ho"
+      ],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "1999",
+      "pages": "827874",
+      "volume": "67",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680262.00054",
+      "raw_reference": "camerer, c. et t.h. ho (1999), experienceweighted attraction learning in normal form games, econometrica, 67(4) : 827874."
+    },
+    {
+      "authors": [
+        "camerer, colin",
+        "ho, teckhua",
+        "chong, juinkuan"
+      ],
+      "title": "sophisticated experienceweighted attraction learning and strategic teaching in repeated games",
+      "monograph_title": "journal of economic theory",
+      "editors": [
+        "h. ho et j.k",
+        "chong"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "137188",
+      "volume": "104",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jeth.2002.2927",
+      "raw_reference": "camerer, c., t.h. ho et j.k. chong (2002a), sophisticated ewa learning and strategic teaching in repeated games, journal of economic theory, 104 : 137188."
+    },
+    {
+      "authors": [
+        "camerer, colin",
+        "karjalainen, risto"
+      ],
+      "title": "ambiguityaversion and nonadditive beliefs in noncooperative games: experimental evidence",
+      "monograph_title": "models and experiments in risk and rationality",
+      "editors": [],
+      "publisher": "springer netherlands",
+      "place": "dordrecht",
+      "date": "1994",
+      "pages": "325358",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9789401722988_17",
+      "raw_reference": "camerer, c. et r. karjalainen (1994), ambiguityaversion and nonadditive beliefs in noncooperative games: experimental evidence, in b. munier et m. machina (eds), models and experiments on risk and rationality, dordrecht : kluwer, p. 325358."
+    },
+    {
+      "authors": [
+        "weigelt, c"
+      ],
+      "title": "experimental tests of a sequential equilibrium reputation model",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1988",
+      "pages": "136",
+      "volume": "56",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "camerer, c. f. et k. weigelt (1988), experimental tests of a sequential equi librium reputation model, econometrica, 56(1) : 136."
+    },
+    {
+      "authors": [
+        "camerer, colin",
+        "ho, teckhua",
+        "chong, juinkuan"
+      ],
+      "title": "sophisticated experienceweighted attraction learning and strategic teaching in repeated games",
+      "monograph_title": "journal of economic theory",
+      "editors": [
+        "h. ho et j.k, c",
+        "chong"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002b",
+      "pages": "137188",
+      "volume": "104",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jeth.2002.2927",
+      "raw_reference": "camerer, c.f., t.h. ho et j.k. chong (2002b), sophisticated experi enceweighted attraction learning and strategic teaching in repeated games, journal of economic theory, 104(1) : 137188."
+    },
+    {
+      "authors": [
+        "camerer, colin",
+        "ho, teckhua",
+        "chong, juin"
+      ],
+      "title": "behavioural game theory: thinking, learning and teaching",
+      "monograph_title": "advances in understanding strategic behaviour",
+      "editors": [
+        "h. ho, c",
+        "chong, j"
+      ],
+      "publisher": "palgrave macmillan uk",
+      "place": "london",
+      "date": "2004",
+      "pages": "120180",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "behavioral game theory: thinking, learning, and teaching in s. huck (ed)",
+      "url": "",
+      "doi": "10.1057/9780230523371_8",
+      "raw_reference": "camerer, c. f., t.h. ho et j. k. chong (2004a), behavioral game theory: thinking, learning, and teaching in s. huck (ed), advances in understand ing strategic behavior, essays in honor of werner guth, london : palgrave macmillan, p. 120180."
+    },
+    {
+      "authors": [
+        "camerer, c",
+        "ho, th",
+        "chong, jk"
+      ],
+      "title": "a cognitive hierarchy model of games",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [
+        "h. ho, c",
+        "chong, j"
+      ],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2004",
+      "pages": "861898",
+      "volume": "119",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/0033553041502225",
+      "raw_reference": "camerer, c. f., t.h. ho et j. k. chong (2004b), a cognitive hierarchy model of games, the quarterly journal of economics, 119(3) : 861898."
+    },
+    {
+      "authors": [
+        "capra, c",
+        "goeree, jacob",
+        "gomez, rosario",
+        "holt, charles"
+      ],
+      "title": "anomalous behavior in a travelers dilemma?",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1999",
+      "pages": "678690",
+      "volume": "89",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.89.3.678",
+      "raw_reference": "capra, c. m. (1999), anomalous behavior in a travelers dilemma?, amer ican economic review, 89(3) : 678690."
+    },
+    {
+      "authors": [
+        "chen, h.c,.",
+        "friedman et j.f. thisse"
+      ],
+      "title": "boundedly rational nash equilibrium: a probabilistic choice approach",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "3254",
+      "volume": "18",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "chen, h.c., j. w. friedman et j.f. thisse (1997), boundedly rational nash equilibrium: a probabilistic choice approach, games and eco nomic behavior, 18(1) : 3254."
+    },
+    {
+      "authors": [
+        "cheung, yinwong",
+        "friedman, daniel"
+      ],
+      "title": "individual learning in normal form games: some laboratory results",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1997",
+      "pages": "4676",
+      "volume": "19",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1997.0544",
+      "raw_reference": "cheung, y.w. et d. friedman (1997), individual learning in normal form games: some laboratory results, games and economic behavior, 19(1) : 4676."
+    },
+    {
+      "authors": [
+        "cooper, david",
+        "garvin, susan",
+        "kagel, john"
+      ],
+      "title": "adaptive learning vs. equilibrium refinements in an entry limit pricing game*",
+      "monograph_title": "the economic journal",
+      "editors": [
+        "cooper, d",
+        "garvin, j",
+        "kagel"
+      ],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1997",
+      "pages": "553575",
+      "volume": "107",
+      "issue": "442",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680297.1997.tb00027.x",
+      "raw_reference": "cooper, d.j., s. garvin et j.h. kagel (1997), adaptive learning vs. equi librium refinements in an entry limit pricing game, economic journal, 107(442) : 553575."
+    },
+    {
+      "authors": [
+        "nagel"
+      ],
+      "title": "neural correlates of depth of strategic reasoning in medial prefrontal cortex",
+      "monograph_title": "proceedings of the national academy of science",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2009",
+      "pages": "91639168",
+      "volume": "106",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "coricelli, g. et r. nagel (2009), neural correlates of depth of strategic rea soning in medial prefrontal cortex, proceedings of the national academy of science, 106(23) : 91639168."
+    },
+    {
+      "authors": [
+        "costagomes, miguel",
+        "crawford, vincent",
+        "broseta, bruno"
+      ],
+      "title": "cognition and behavior in normalform games: an experimental study",
+      "monograph_title": "econometrica",
+      "editors": [
+        "crawford, b",
+        "broseta"
+      ],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2001",
+      "pages": "11931235",
+      "volume": "69",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680262.00239",
+      "raw_reference": "costagomes, m., v. p. crawford et b. broseta (2001), cognition and behav ior in normalform games: an experimental study, econometrica, 69(5) : 11931235."
+    },
+    {
+      "authors": [
+        "costagomes, miguel",
+        "crawford, vincent"
+      ],
+      "title": "cognition and behavior in twoperson guessing games: an experimental study",
+      "monograph_title": "american economic review",
+      "editors": [
+        "costagomes, m",
+        "et v, p",
+        "crawford"
+      ],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2006",
+      "pages": "17371768",
+      "volume": "96",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.96.5.1737",
+      "raw_reference": "costagomes, m. a. et v. p. crawford (2006), cognition and behavior in twoperson guessing games : an experimental study, american economic review, 96(5) : 17371768."
+    },
+    {
+      "authors": [
+        "costagomes, miguel",
+        "crawford, vincent",
+        "iriberri, nagore"
+      ],
+      "title": "comparing models of strategic thinking in van huyck, battalio, and beils coordination games",
+      "monograph_title": "journal of the european economic association",
+      "editors": [
+        "crawford, n",
+        "iriberri"
+      ],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2009",
+      "pages": "365376",
+      "volume": "7",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/jeea.2009.7.23.365",
+      "raw_reference": "costagomes, m. a., v. p. crawford et n. iriberri (2009), comparing models of strategic thinking in van huyck, battalio, and beils coordination games, journal of the european economic association, 7(23) : 365376."
+    },
+    {
+      "authors": [
+        "costagomes, miguel",
+        "weizsacker, georg"
+      ],
+      "title": "stated beliefs and play in normalform games",
+      "monograph_title": "review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2008",
+      "pages": "729762",
+      "volume": "75",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.1467937x.2008.00498.x",
+      "raw_reference": "costagomes, m. a. et g. weizsacker (2008), stated beliefs and play in normalform games, review of economic studies, 75(3) : 729762."
+    },
+    {
+      "authors": [
+        "crawford, vincent",
+        "costagomes, miguel",
+        "iriberri, nagore"
+      ],
+      "title": "structural models of nonequilibrium strategic thinking: theory, evidence, and applications",
+      "monograph_title": "journal of economic literature",
+      "editors": [
+        "haffner",
+        "costagomes et n",
+        "iriberri"
+      ],
+      "publisher": "american economic association",
+      "place": "london",
+      "date": "1838. 2013",
+      "pages": "562",
+      "volume": "51",
+      "issue": "1",
+      "organization": "",
+      "notes": "translated into english by n. bacon (1960) as researches in the mathematical principles of the theory of the wealth",
+      "url": "",
+      "doi": "10.1257/jel.51.1.5",
+      "raw_reference": "cournot, a. (1838), recherches sur les principes mathematiques de la theorie des richesses, translated into english by n. bacon (1960) as researches in the mathematical principles of the theory of the wealth, london : haffner. crawford, v. p., m.a. costagomes et n. iriberri (2013), structural models of nonequilibrium strategic thinking: theory, evidence, and applications, journal of economic literature, 51(1) : 562."
+    },
+    {
+      "authors": [
+        "crawford, vincent",
+        "iriberri, nagore"
+      ],
+      "title": "fatal attraction: salience, naivete, and sophistication in experimental “hideandseek” games",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2007",
+      "pages": "17311750",
+      "volume": "97",
+      "issue": "5",
+      "organization": "",
+      "notes": "games",
+      "url": "",
+      "doi": "10.1257/aer.97.5.1731",
+      "raw_reference": "crawford, v. p. et n. iriberri (2007), fatal attraction: salience, naivete, and sophistication in experimental hideandseek games, american economic review, 97(5) : 17311750."
+    },
+    {
+      "authors": [
+        "cross, john"
+      ],
+      "title": "a stochastic learning model of economic behavior",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1973",
+      "pages": "239",
+      "volume": "87",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1882186",
+      "raw_reference": "cross, j. g. (1973), a stochastic learning model of economic behavior, the quaterly journal of economics, 87(2) : 239266."
+    },
+    {
+      "authors": [
+        "cross, john"
+      ],
+      "title": "a theory of adaptive economic behavior",
+      "monograph_title": "a theory of adaptive economic behavior",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "newyork/london",
+      "date": "1983",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511983856",
+      "raw_reference": "cross, j. g. (1983), a theory of adaptive economic behavior, newyork/london : cambridge university press."
+    },
+    {
+      "authors": [
+        "roth, i"
+      ],
+      "title": "predicting how people play games: reinforcement learning in experimental games with unique, mixed strategy equilibria",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1998",
+      "pages": "848881",
+      "volume": "88",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "erev, i. et a. e. roth (1998), predicting how people play games: reinforcement learning in experimental games with unique, mixed strategy equilibria, american economic review, 88(4) : 84881."
+    },
+    {
+      "authors": [
+        "flood, m"
+      ],
+      "title": "some experimental games",
+      "monograph_title": "research memorandum rm",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1952",
+      "pages": "",
+      "volume": "",
+      "issue": "789",
+      "organization": "rand corporation",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "flood, m. m. (1952), some experimental games, research memorandum rm789, rand corporation."
+    },
+    {
+      "authors": [
+        "flood, merrill"
+      ],
+      "title": "some experimental games",
+      "monograph_title": "management science",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "1958",
+      "pages": "526",
+      "volume": "5",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/mnsc.5.1.5",
+      "raw_reference": "flood, m. m. (1958), some experimental games, management science, 5(1) : 526."
+    },
+    {
+      "authors": [
+        "foster, dean",
+        "vohra, rakesh"
+      ],
+      "title": "calibrated learning and correlated equilibrium",
+      "monograph_title": "games and economic behavior",
+      "editors": [
+        "foster, d",
+        "et r, v",
+        "vohra"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1997",
+      "pages": "4055",
+      "volume": "21",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1997.0595",
+      "raw_reference": "foster, d. p. et r. v. vohra (1997), calibrated learning and correlated equi librium, games and economic behavior, 21(12) : 4055."
+    },
+    {
+      "authors": [
+        "fudenberg, drew",
+        "kreps, david"
+      ],
+      "title": "learning mixed equilibria",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1993",
+      "pages": "320367",
+      "volume": "5",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1993.1021",
+      "raw_reference": "fudenberg, d. et d. m. kreps (1993), learning mixed equilibria, games and economic behavior, 5(3) : 320367."
+    },
+    {
+      "authors": [
+        "fudenberg, drew",
+        "kreps, david"
+      ],
+      "title": "learning in extensiveform games i. selfconfirming equilibria",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1995",
+      "pages": "2055",
+      "volume": "8",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s08998256(05)800168",
+      "raw_reference": "fudenberg, d. et d. m. kreps (1995), learning in extensiveform games i. selfconfirming equilibria, games and economic behavior, 8(1) : 2055."
+    },
+    {
+      "authors": [
+        "fudenberg, drew",
+        "levine, david"
+      ],
+      "title": "learning in games",
+      "monograph_title": "european economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "ma",
+      "date": "1998",
+      "pages": "631639",
+      "volume": "42",
+      "issue": "35",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00142921(98)000117",
+      "raw_reference": "fudenberg, d. et d. levine (1998), the theory of learning in games, mit press, ma : cambridge."
+    },
+    {
+      "authors": [
+        "gonzalez, r"
+      ],
+      "title": "cognitive effort in the beauty contest game",
+      "monograph_title": "journal of economic behavior and organization",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2012",
+      "pages": "254260",
+      "volume": "83",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "branas garza, p., t. garciamunoz et r. h. gonzalez (2012), cognitive effort in the beauty contest game, journal of economic behavior and organiza tion, 83(2) : 254260."
+    },
+    {
+      "authors": [
+        "palfrey"
+      ],
+      "title": "regular quantal response equilibrium",
+      "monograph_title": "experimental economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "347367",
+      "volume": "8",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "goeree, j., c. holt et t. palfrey (2005), regular quantal response equilib rium, experimental economics, 8(4) : 347367."
+    },
+    {
+      "authors": [
+        "goeree, jacob",
+        "holt, charles"
+      ],
+      "title": "ten little treasures of game theory and ten intuitive contradictions",
+      "monograph_title": "american economic review",
+      "editors": [
+        "et c, j",
+        "holt"
+      ],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2001",
+      "pages": "14021422",
+      "volume": "91",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.91.5.1402",
+      "raw_reference": "goeree, j. k. et c. a. holt (2001), ten little treasures of game theory and ten intuitive contradictions, american economic review, 91(5) : 14021422."
+    },
+    {
+      "authors": [
+        "goeree, jacob",
+        "holt, charles"
+      ],
+      "title": "a model of noisy introspection",
+      "monograph_title": "games and economic behavior",
+      "editors": [
+        "et c, j",
+        "holt"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2004",
+      "pages": "365382",
+      "volume": "46",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s08998256(03)001453",
+      "raw_reference": "goeree, j. k. et c. a. holt (2004), a model of noisy introspection, games and economic behavior, 46 (2) : 365382."
+    },
+    {
+      "authors": [
+        "goeree, jacob",
+        "holt, charles"
+      ],
+      "title": "an explanation of anomalous behavior in models of political participation",
+      "monograph_title": "american political science review",
+      "editors": [
+        "et c, j",
+        "holt"
+      ],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2005",
+      "pages": "201213",
+      "volume": "99",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0003055405051609",
+      "raw_reference": "goeree, j. k. et c. a. holt (2005), an explanation of anomalous behavior in models of political participation, the american political science review, 99(2) : 201213."
+    },
+    {
+      "authors": [
+        "goeree, jacob",
+        "holt, charles",
+        "palfrey, thomas"
+      ],
+      "title": "quantal response equilibrium and overbidding in privatevalue auctions",
+      "monograph_title": "journal of economic theory",
+      "editors": [
+        "holt, j",
+        "palfrey, t"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "247272",
+      "volume": "104",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jeth.2001.2914",
+      "raw_reference": "goeree, j. k., c. a. holt et t. r. palfrey (2002), quantal response equi librium and overbidding in privatevalue auctions, journal of economic theory, 104(1) : 247272."
+    },
+    {
+      "authors": [
+        "haile, philip",
+        "hortacsu, ali",
+        "kosenok, grigory"
+      ],
+      "title": "on the empirical content of quantal response equilibrium",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2008",
+      "pages": "180200",
+      "volume": "98",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.98.1.180",
+      "raw_reference": "haile, p. a., a. hortacsu et g. kosenok (2008), on the empirical content of quantal response equilibrium, american economic review, 98(1) : 180200."
+    },
+    {
+      "authors": [
+        "harley, calvin"
+      ],
+      "title": "learning the evolutionarily stable strategy",
+      "monograph_title": "journal of theoretical biology",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1981",
+      "pages": "611633",
+      "volume": "89",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/00225193(81)900321",
+      "raw_reference": "harley, c. (1981), learning in evolutionary stable strategies, journal of theoretical biology, 13 : 611633."
+    },
+    {
+      "authors": [
+        "j"
+      ],
+      "title": "on the law of effect",
+      "monograph_title": "journal of experimental analysis of behavior",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1970",
+      "pages": "342366",
+      "volume": "13",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "herrnstein, j. r. (1970), on the law of effect, journal of experimental analysis of behavior, 13 : 342366."
+    },
+    {
+      "authors": [
+        "ho, teck",
+        "camerer, colin",
+        "chong, juinkuan"
+      ],
+      "title": "selftuning experience weighted attraction learning in games",
+      "monograph_title": "journal of economic theory",
+      "editors": [
+        "ho, t",
+        "camerer et j.k,.",
+        "chong"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "177198",
+      "volume": "133",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2005.12.008",
+      "raw_reference": "ho, t. h., c. f. camerer et j.k. chong (2007), selftuning experience weighted attraction learning in games, journal of economic theory, 133(1) : 177198."
+    },
+    {
+      "authors": [
+        "ho, t.h",
+        "wang",
+        "camerer"
+      ],
+      "title": "individual differences in the ewa learning with partial payoff information",
+      "monograph_title": "the economic journal",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "3759",
+      "volume": "118",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ho, t.h., x. wang et c. camerer (2008), individual differences in the ewa learning with partial payoff information, the economic journal, 118 : 3759."
+    },
+    {
+      "authors": [
+        "ho, t.h. et k",
+        "weigelt"
+      ],
+      "title": "task complexity, equilibrium selection, and learning: an experimental study",
+      "monograph_title": "management science",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1996",
+      "pages": "659679",
+      "volume": "42",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ho, t.h. et k. weigelt (1996), task complexity, equilibrium selection, and learning: an experimental study, management science, 42(5) : 659679."
+    },
+    {
+      "authors": [
+        "hyndman, kyle",
+        "ozbay, erkut",
+        "schotter, andrew",
+        "ehrblatt, wolf"
+      ],
+      "title": "convergence: an experimental study of teaching and learning in repeated games",
+      "monograph_title": "journal of the european economic association",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2012",
+      "pages": "573604",
+      "volume": "10",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15424774.2011.01063.x",
+      "raw_reference": "hyndman, k., e. y. ozbay, a. schotter et w. z. ehrblatt (2012), convergence: an experimental study of teaching and learning in repeated games, journal of the european economic association, 10(3) : 573604."
+    },
+    {
+      "authors": [
+        "hyndman, kyle",
+        "terracol, antoine",
+        "vaksmann, jonathan"
+      ],
+      "title": "learning and sophistication in coordination games",
+      "monograph_title": "experimental economics",
+      "editors": [
+        "hyndman, k",
+        "vaksmann"
+      ],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2009",
+      "pages": "450472",
+      "volume": "12",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s106830099223y",
+      "raw_reference": "hyndman, k., a. terracol et j. vaksmann (2009), learning and sophistication in coordination games, experimental economics, 12(4) : 450472."
+    },
+    {
+      "authors": [
+        "ivanov",
+        "levin et m. niederle"
+      ],
+      "title": "can relaxation of beliefs rationalize the winners curse?: an experimental study",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2010",
+      "pages": "14351452",
+      "volume": "78",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta8112",
+      "raw_reference": "ivanov, a., d. levin et m. niederle (2010), can relaxation of beliefs ration alize the winners curse?: an experimental study, econometrica, 78(4) : 14351452."
+    },
+    {
+      "authors": [
+        "reddaway, w"
+      ],
+      "title": "the general theory of employment, interest, and money [1936]",
+      "monograph_title": "keynes general theory",
+      "editors": [],
+      "publisher": "palgrave macmillan uk",
+      "place": "new york",
+      "date": "1936",
+      "pages": "99108",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9781349818075_4",
+      "raw_reference": "keynes, j. m. (1936), the general theory of employment, interest and money, new york : harcourt brace and co."
+    },
+    {
+      "authors": [],
+      "title": "adaptive approaches to stochastic programming",
+      "monograph_title": "annals of operations research",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1991",
+      "pages": "4562",
+      "volume": "30",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mc allister, p. (1991), adaptive approaches to stochastic programming, annals of operations research, 30 : 4562."
+    },
+    {
+      "authors": [
+        "page, d"
+      ],
+      "title": "public and private information: an experimental study of information pooling",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1990",
+      "pages": "13211339",
+      "volume": "58",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mckelvey, d. r. et r. page (1990), public and private information: an experi mental study of information pooling, econometrica, 58 : 13211339."
+    },
+    {
+      "authors": [
+        "mckelvey, richard",
+        "palfrey, thomas"
+      ],
+      "title": "quantal response equilibria for normal form games",
+      "monograph_title": "games and economic behavior",
+      "editors": [
+        "et t, d",
+        "palfrey"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1995",
+      "pages": "638",
+      "volume": "10",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1995.1023",
+      "raw_reference": "mckelvey, d. r. et t. r. palfrey (1995), quantal response equilibria for nor mal form games, games and economic behavior, 10(1) : 638."
+    },
+    {
+      "authors": [
+        "et t, d",
+        "palfrey"
+      ],
+      "title": "quantal response equilibria for extensive form games",
+      "monograph_title": "experimental economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1998",
+      "pages": "941",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mckelvey, d. r. et t. r. palfrey (1998), quantal response equilibria for exten sive form games, experimental economics, 1 : 941."
+    },
+    {
+      "authors": [
+        "pouget"
+      ],
+      "title": "the bubble game: an experimental study of speculation",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2013",
+      "pages": "15071539",
+      "volume": "81",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3982/ecta9433",
+      "raw_reference": "moinas, s. et s. pouget (2013). the bubble game: an experimental study of speculation, econometrica, : 15071539."
+    },
+    {
+      "authors": [
+        "sopher"
+      ],
+      "title": "learning behavior in an experimental matching pennies game",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1994",
+      "pages": "6291",
+      "volume": "7",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mookherjee, d. et b. sopher (1994), learning behavior in an experimental matching pennies game, games and economic behavior, 7(1) : 6291."
+    },
+    {
+      "authors": [
+        "sopher"
+      ],
+      "title": "learning and decision costs in experimental constant sum games",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "97132",
+      "volume": "19",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mookherjee, d. et b. sopher (1997), learning and decision costs in experi mental constant sum games, games and economic behavior, 19(1) : 97132."
+    },
+    {
+      "authors": [
+        "kagel, john",
+        "penta, antonio"
+      ],
+      "title": "unraveling in guessing games: an experimental study (by rosemarie nagel)",
+      "monograph_title": "the art of experimental economics",
+      "editors": [],
+      "publisher": "routledge",
+      "place": "",
+      "date": "1995",
+      "pages": "109118",
+      "volume": "85",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4324/978100301912110",
+      "raw_reference": "nagel, r. (1995), unraveling in guessing games: an experimental study, american economic review, 85(5) : 13131326."
+    },
+    {
+      "authors": [
+        "nash, john"
+      ],
+      "title": "equilibrium points in <i>n</i> person games",
+      "monograph_title": "proceedings of the national academy of sciences",
+      "editors": [],
+      "publisher": "proceedings of the national academy of sciences",
+      "place": "",
+      "date": "1950",
+      "pages": "4849",
+      "volume": "36",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1073/pnas.36.1.48",
+      "raw_reference": "nash, j. f. (1950), equilibrium points in nperson games, proceedings of the national academy of science, 36(1) : 4849."
+    },
+    {
+      "authors": [],
+      "title": "zur theorie der gesellschaftsspiele",
+      "monograph_title": "mathematische annalen",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1928",
+      "pages": "295320",
+      "volume": "100",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "von neumann, j. (1928), zur theorie der gesellschaftsspiele, mathematische annalen, 100(1) : 295320."
+    },
+    {
+      "authors": [
+        "von neumann, j. et o. morgenstern"
+      ],
+      "title": "",
+      "monograph_title": "theory of games and economic behavior",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "",
+      "date": "1944",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "von neumann, j. et o. morgenstern (1944), theory of games and economic behavior, princeton university press."
+    },
+    {
+      "authors": [
+        "schotter"
+      ],
+      "title": "an experimental study of belief learning using elicited beliefs",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2002",
+      "pages": "9711005",
+      "volume": "70",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "nyarko, y. et a. schotter (2002), an experimental study of belief learning using elicited beliefs, econometrica, 70(3) : 9711005."
+    },
+    {
+      "authors": [
+        "wang, j",
+        "chou, e",
+        "camerer,."
+      ],
+      "title": "testing game theory in the field: swedish lupi lottery games",
+      "monograph_title": "american economic journal: microeconomics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "133",
+      "volume": "3",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ostling, r., j. t. wang, e. y. chou et c.f. camerer, (2011), testing game theory in the field: swedish lupi lottery games, american economic journal: microeconomics, 3(3): 133."
+    },
+    {
+      "authors": [
+        "pearce, david"
+      ],
+      "title": "rationalizable strategic behavior and the problem of perfection",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1984",
+      "pages": "1029",
+      "volume": "52",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1911197",
+      "raw_reference": "pearce, d. g. (1984), rationalizable strategic behavior and the problem of per fection, econometrica, 52(4) : 102950."
+    },
+    {
+      "authors": [
+        "polak, ben"
+      ],
+      "title": "epistemic conditions for nash equilibrium, and common knowledge of rationality",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "1999",
+      "pages": "673676",
+      "volume": "67",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680262.00043",
+      "raw_reference": "polak, b. (1999), epistemic conditions for nash equilibrium, and common knowledge of rationality, econometrica, 67(3) : 673676."
+    },
+    {
+      "authors": [
+        "robinson, julia"
+      ],
+      "title": "4. an iterative method of solving a game. annals of mathematics 54 (1951) 296301.",
+      "monograph_title": "classics in game theory",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "",
+      "date": "1951",
+      "pages": "2735",
+      "volume": "54",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1515/9781400829156009",
+      "raw_reference": "robinson, j. (1951), an iterative method of solving a game, annals of mathematics, 54 : 296301."
+    },
+    {
+      "authors": [
+        "roth, alvin",
+        "erev, ido"
+      ],
+      "title": "learning in extensiveform games: experimental data and simple dynamic models in the intermediate term",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1995",
+      "pages": "164212",
+      "volume": "8",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s08998256(05)80020x",
+      "raw_reference": "roth, a. e. et i. erev (1995), learning in extensiveform games: experimental data and simple dynamic models in the intermediate term, games and economic behavior, 8(1) : 164212."
+    },
+    {
+      "authors": [
+        "sargent, thomas"
+      ],
+      "title": "a primer on monetary and fiscal policy",
+      "monograph_title": "journal of banking & finance",
+      "editors": [
+        "sargent, t"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1999",
+      "pages": "14631482",
+      "volume": "23",
+      "issue": "10",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s03784266(99)000266",
+      "raw_reference": "sargent, t. j. (1999), a primer on monetary and fiscal policy, journal of banking and finance, 23(10) : 14631482."
+    },
+    {
+      "authors": [
+        "sarin, rajiv",
+        "vahid, farshid"
+      ],
+      "title": "payoff assessments without probabilities: a simple dynamic model of choice",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1999",
+      "pages": "294309",
+      "volume": "28",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1998.0702",
+      "raw_reference": "sarin, r. et f. vahid (1999), payoff assessments without probabilities: a simple dynamic model of choice, games and economic behavior, 28(2) : 294309."
+    },
+    {
+      "authors": [
+        "sarin, rajiv",
+        "vahid, farshid"
+      ],
+      "title": "predicting how people play games: a simple dynamic model of choice",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "104122",
+      "volume": "34",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/game.1999.0783",
+      "raw_reference": "sarin, r. et f. vahid (2001), predicting how people play games: a simple dynamic model of choice, games and economic behavior, 34(1) : 104122."
+    },
+    {
+      "authors": [],
+      "title": "evolution, learning, and economic behavior",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1991",
+      "pages": "324",
+      "volume": "3",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "selten, r. (1991), evolution, learning, and economic behavior, games and economic behavior, 3(1) : 324."
+    },
+    {
+      "authors": [
+        "l"
+      ],
+      "title": "some topics in twoperson games",
+      "monograph_title": "of mathematical studies",
+      "editors": [
+        "dresher, m",
+        "shapley, l",
+        "tucker, a"
+      ],
+      "publisher": "princeton university press",
+      "place": "",
+      "date": "1964",
+      "pages": "128",
+      "volume": "52",
+      "issue": "",
+      "organization": "",
+      "notes": "advances in game theory",
+      "url": "",
+      "doi": "",
+      "raw_reference": "shapley, l. (1964), some topics in twoperson games in m. dresher, l.s. shapley et a.w. tucker (eds), advances in game theory, of math ematical studies 52, princeton university press, p. 128."
+    },
+    {
+      "authors": [
+        "simon, herbert"
+      ],
+      "title": "a behavioral model of rational choice",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1955",
+      "pages": "99",
+      "volume": "69",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1884852",
+      "raw_reference": "simon, h. a. (1955), a behavioral model of rational choice, the quarterly journal of economics, 64(1) : 99118."
+    },
+    {
+      "authors": [
+        "stahl, dale",
+        "wilson, paul"
+      ],
+      "title": "experimental evidence on players models of other players",
+      "monograph_title": "journal of economic behavior & organization",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1994",
+      "pages": "309327",
+      "volume": "25",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01672681(94)901031",
+      "raw_reference": "stahl, d. o. et p. w. wilson (1994), experimental evidence on players models of other players, journal of economic behavior and organization, 25(3) : 309327."
+    },
+    {
+      "authors": [
+        "stahl, d",
+        "wilson,."
+      ],
+      "title": "dumbing down rational players: learning and teaching in an experimental game",
+      "monograph_title": "journal of economic behavior and organization",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1995. 2009",
+      "pages": "5471",
+      "volume": "10",
+      "issue": "1",
+      "organization": "",
+      "notes": "on players models of other players : theory and experimental evidence games and economic behavior",
+      "url": "",
+      "doi": "",
+      "raw_reference": "stahl, d. o. et p. w. wilson (1995), on players models of other players : theory and experimental evidence, games and economic behavior, 10(1) : 218254. terracol, a. et j. vaksmann (2009), dumbing down rational players: learn ing and teaching in an experimental game, journal of economic behavior and organization, 70(12) : 5471."
+    },
+    {
+      "authors": [
+        "e"
+      ],
+      "title": "",
+      "monograph_title": "animal intelligence",
+      "editors": [],
+      "publisher": "macmillan",
+      "place": "new york",
+      "date": "1911",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "thorndike, e. l. (1911), animal intelligence, new york : macmillan."
+    },
+    {
+      "authors": [
+        "weizsacker, georg"
+      ],
+      "title": "ignoring the rationality of others: evidence from experimental normalform games",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2003",
+      "pages": "145171",
+      "volume": "44",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s08998256(03)000174",
+      "raw_reference": "weizsacker, g. (2003), ignoring the rationality of others : evidence from experi mental normalform games, games and economic behavior, 44(1) : 145171."
+    }
+  ],
+  "notes": [
+    "[13] le modele de fictitous play pondere est egalement appele modele de croyances γponderees.",
+    "[16] voirsargent (1999)."
+  ],
+  "figures": [
+    {
+      "number": "1",
+      "title": "exemples de jeux g1 l m r t 75,90 27,31 55,43 m 90,40 28,35 31,51 b 63,42 65,86 78,26 g2 l m r t 68,62 65,26 61,42 m 34,54 82,70 66,69 b 84,47 26,88 76,84 g3 l m r t 80,10 15,17 22,10 m 15,24 20,28 25,32 b 20,35 14,38 21,72 1.3 equilibre avec bruit, quantal response equilibrium, noisy introspection les modeles dequilibre plus bruit presentes dans la section 1.1 permettent dexpliquer les deviations non systematiques de lequilibre de nash observees dans les jeux experimentaux.",
+      "source": ""
+    },
+    {
+      "number": "3",
+      "title": "qre, jeu g3 du graphique 1 l equilibre avec bruit du qre differe de l equilibre plus bruit de la section 1.1 dans la mesure ou le qre integre les erreurs des adversaires dans la fonction de reponse de chaque joueur.",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

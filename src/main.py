@@ -149,13 +149,9 @@ def main():
     # --- Cas : ÉVALUATION uniquement ---
     if args.evaluation:
         if args.id:
-            evaluate("erudit", "grobid", args.id)
+            evaluate("grobid", "erudit", args.id)
         elif args.journals:
-            evaluate_subfolder("erudit", "grobid", journals=args.journals)
-        elif args.xml_2cols:
-            evaluate_subfolder("erudit", "grobid", subfolder="xml_2cols")
-        elif args.batch:
-            evaluate_subfolder("erudit", "grobid")
+            evaluate_subfolder("grobid", "erudit", journals=args.journals)
         else:
             print("[ERREUR] Pour l’évaluation, utilisez --id, --journals, --batch ou --xml_2cols")
             return

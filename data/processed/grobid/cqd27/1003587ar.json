@@ -1,0 +1,725 @@
+{
+  "title": "",
+  "overline": "",
+  "subtitle": "",
+  "authors": [],
+  "abstract": "migrations secondaires des nouveaux immigrants au cours de leurs quatre premieres annees au canada : motivations et trajectoires patrice dion * se basant sur les donnees de lenquete longitudinale aupres des immigrants du canada, cette etude examine dabord les raisons pour lesquelles les nouveaux immigrants ont quitte leur region detablissement, et cherche a mieux comprendre les mecanismes par lesquels les migrations secondaires agissent sur la repartition des immigrants sur le territoire.les resultats montrent que les motivations en lien avec le travail ou les etudes priment, mais que la presence damis et de membres de la famille est un facteur important dans le choix dun lieu de destination.les migrants des regions traditionnellement moins prisees par les immigrants sont proportionnellement plus nombreux a partir pour trouver un emploi ou de meilleures possibilites demploi que ceux en provenance dautres regions.de plus, les migrants motives par cette meme raison ont une propension plus faible a setablir dans une region a faible densite dimmigrants, comparativement a ceux ayant migre pour dautres raisons.english abstract, p. 273 * statistique canada, division de la demographie.les points de vue exprimes dans le present article sont ceux de lauteur et nengagent nullement statistique canada.lauteur tient a remercier eric caronmalenfant, laurent martel, ainsi que trois evaluateurs anonymes pour leurs commentaires sur la premiere version de cet article.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "breve revue de la litterature propension a migrer et repartition geographique des nouveaux immigrants",
+    "les motivations des migrations secondaires",
+    "cadre conceptuel et description des donnees",
+    "definition des concepts",
+    "les motivations de la migration",
+    "avantages et limites de letude de motivations",
+    "description des donnees utilisees",
+    "presentation des resultats",
+    "portrait general des migrations secondaires",
+    "raisons du choix dune ville de destination dans les premiers six mois",
+    "motifs invoques pour avoir migre au cours des quatre premieres annees au canada",
+    "motivations selon lorigine et la destination",
+    "des grands centres vers les regions a faible densite",
+    "specifications des modeles de regression",
+    "discussion et conclusion",
+    "bibliographie"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "chui, t"
+      ],
+      "title": "",
+      "monograph_title": "enquete longitudinale aupres des immigrants du canada : le processus, le progres et les perspectives. ottawa, statistique canada",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "89611",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "chui, t. 2003. enquete longitudinale aupres des immigrants du canada : le processus, le progres et les perspectives. ottawa, statistique canada, n o 89611x."
+    },
+    {
+      "authors": [
+        "chui, t",
+        "maheux, h",
+        "tran, k"
+      ],
+      "title": "",
+      "monograph_title": "immigration au canada : un portrait de la population nee a letranger",
+      "editors": [],
+      "publisher": "",
+      "place": "ottawa, statistique canada",
+      "date": "2007. 2006",
+      "pages": "97557",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "recensement de",
+      "url": "",
+      "doi": "",
+      "raw_reference": "chui, t, h. maheux, et k. tran. 2007. immigration au canada : un portrait de la population nee a letranger, recensement de 2006. ottawa, statistique canada, n o 97557x."
+    },
+    {
+      "authors": [
+        "cross, p",
+        "et, g",
+        "bowlby"
+      ],
+      "title": "etude speciale, lirrepressible poussee economique de lalberta : leclosion de la rose de louest",
+      "monograph_title": "ottawa, statistique canada, lobservateur economique canadien",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "",
+      "volume": "19",
+      "issue": "9",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "cross, p., et g. bowlby. 2006. etude speciale, lirrepressible poussee econo mique de lalberta : leclosion de la rose de louest, ottawa, statistique canada, lobservateur economique canadien, 19, 9 (n o 11010xwb2006009)."
+    },
+    {
+      "authors": [
+        "davanzo, julie"
+      ],
+      "title": "microeconomic approaches to studying migration decisions",
+      "monograph_title": "migration decision making",
+      "editors": [
+        "de, g",
+        "jong",
+        "gardner, r"
+      ],
+      "publisher": "elsevier",
+      "place": "new york, pergamon",
+      "date": "1981",
+      "pages": "90129",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/b9780080263052.500103",
+      "raw_reference": "davanzo, j. 1981. microeconomic approaches to studying migration decisions, dans g. f. de jong et r.w. gardner (dir.), migration decision making, new york, pergamon : 90129."
+    },
+    {
+      "authors": [
+        "de, jong",
+        "g",
+        "fawcett, j"
+      ],
+      "title": "motivations for migration : an assesment and a valueexpectancy research model",
+      "monograph_title": "migration decision making",
+      "editors": [
+        "de, g",
+        "jong",
+        "gardner, r"
+      ],
+      "publisher": "",
+      "place": "new york : pergamon",
+      "date": "1981",
+      "pages": "1358",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "de jong, g.f. et j.t. fawcett, 1981. motivations for migration : an assesment and a valueexpectancy research model, dans g.f. de jong et r.w. gardner (dir.), migration decision making, new york : pergamon : 1358."
+    },
+    {
+      "authors": [
+        "dion, p",
+        "et, s",
+        "coulombe"
+      ],
+      "title": "portrait de la mobilite des canadiens en 2006 : trajectoires et caracteristiques des migrants",
+      "monograph_title": "rapport sur letat de la population du canada",
+      "editors": [],
+      "publisher": "",
+      "place": "ottawa, statistique canada",
+      "date": "2008. 2005 et 2006",
+      "pages": "91209",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "au catalogue",
+      "url": "",
+      "doi": "",
+      "raw_reference": "dion, p., et s. coulombe. 2008. portrait de la mobilite des canadiens en 2006 : trajectoires et caracteristiques des migrants, rapport sur letat de la population du canada, 2005 et 2006, ottawa, statistique canada, n o 91209 au catalogue."
+    },
+    {
+      "authors": [
+        "edmonston, b"
+      ],
+      "title": "interprovincial migration of canadian immigrants. vancouver center of excellence, research on immigration and integration in the metropolis",
+      "monograph_title": "working paper series",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2002",
+      "pages": "210",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "edmonston, b. 2002. interprovincial migration of canadian immigrants. vancouver center of excellence, research on immigration and integration in the metropolis, working paper series, 0210."
+    },
+    {
+      "authors": [
+        "greenwood, michael"
+      ],
+      "title": "introduction",
+      "monograph_title": "migration and economic growth in the united states",
+      "editors": [],
+      "publisher": "elsevier",
+      "place": "",
+      "date": "1975",
+      "pages": "16",
+      "volume": "8",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/b9780123006509.500060",
+      "raw_reference": "greenwood, m. j. 1975. research on internal migration in the united states : a survey, journal of economic literature, 8 : 397433."
+    },
+    {
+      "authors": [
+        "grenier, gilles"
+      ],
+      "title": "the internal migration of the immigrant and nativeborn populations in canada between 1976 and 1996",
+      "monograph_title": "the journal of socioeconomics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2003. 1976. 1996",
+      "pages": "736756",
+      "volume": "37",
+      "issue": "2",
+      "organization": "",
+      "notes": "working papers #0301e",
+      "url": "",
+      "doi": "10.1016/j.socec.2006.12.046",
+      "raw_reference": "grenier, g. 2003. the internal migration of the immigrant and nativeborn populations in canada between 1976 and 1996, working papers #0301e."
+    },
+    {
+      "authors": [
+        "hou, f"
+      ],
+      "title": "destinations initiales et redistribution des principaux groupes dimmigrants au canada : changements au cours des deux dernieres decennies, direction des etudes analytiques : documents de recherche, ottawa, statistique canada",
+      "monograph_title": "division de lanalyse des entreprises et du marche du travail",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "38",
+      "volume": "254",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "hou, f. 2005. destinations initiales et redistribution des principaux groupes dimmigrants au canada : changements au cours des deux dernieres decen nies, direction des etudes analytiques : documents de recherche, ottawa, statis tique canada, division de lanalyse des entreprises et du marche du travail, n o 254, n o 11f0019mie, 38 p."
+    },
+    {
+      "authors": [
+        "krahn, harvey",
+        "derwing, tracey",
+        "abulaban, baha"
+      ],
+      "title": "the retention of newcomers in second and thirdtier canadian cities",
+      "monograph_title": "international migration review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "edmonton",
+      "date": "2003",
+      "pages": "872894",
+      "volume": "39",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.17477379.2005.tb00292.x",
+      "raw_reference": "krahn, h., t. derwing et b. abulaban. 2003. the retention of newcomers in secondand thirdtier cities. edmonton, pcerii working paper series, wp 0103."
+    },
+    {
+      "authors": [
+        "landale, nancy",
+        "guest, avery"
+      ],
+      "title": "constraints, satisfaction and residential mobility: speares model reconsidered",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "1985",
+      "pages": "199222",
+      "volume": "22",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2061178",
+      "raw_reference": "landale, n.s., et a.m. guest. 1985. constraints, satisfaction and residential mobility : speares model reconsidered, demography, 22, 2 : 199222."
+    },
+    {
+      "authors": [
+        "lansing, john",
+        "mueller, eva"
+      ],
+      "title": "",
+      "monograph_title": "geographic mobility of labor, 19621963",
+      "editors": [],
+      "publisher": "interuniversity consortium for political and social research (icpsr)",
+      "place": "ann arbor",
+      "date": "1967",
+      "pages": "421",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3886/icpsr07434",
+      "raw_reference": "lansing, j. v. et e. mueller. 1967. the geographic mobility of labor. ann arbor, institute for social research : 421 p."
+    },
+    {
+      "authors": [
+        "mcdonald, j"
+      ],
+      "title": "toronto and vancouver bound : the location choice of new immigrants to canada",
+      "monograph_title": "canadian journal of urban research",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "pages": "85101",
+      "volume": "13",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mcdonald, j.t. 2004. toronto and vancouver bound : the location choice of new immigrants to canada, canadian journal of urban research, 13,1 : 85101."
+    },
+    {
+      "authors": [
+        "aa, eneh",
+        "kd, schweitzer"
+      ],
+      "title": "effect of induced refractive error and nuclear sclerotic cataracts on ishihara colour plate testing",
+      "monograph_title": "international journal of ophthalmology & eye science",
+      "editors": [],
+      "publisher": "scidoc publishers llc",
+      "place": "kingston, ontario",
+      "date": "1991",
+      "pages": "1416",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.19070/2332290x140003",
+      "raw_reference": "moore, e.g., et m.w. rosenberg. 1991. factors influencing the redistribution of immigrant groups in canada, discussion paper. queens university.kingston, ontario."
+    },
+    {
+      "authors": [
+        "nagelkerke, n"
+      ],
+      "title": "a note on a general definition of the coefficient of determination",
+      "monograph_title": "biometrika",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1991",
+      "pages": "691692",
+      "volume": "78",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/biomet/78.3.691",
+      "raw_reference": "nagelkerke, n. j. d., 1991. a note on a general definition of the coefficient of determination, biometrika, 78, 3 : 691692."
+    },
+    {
+      "authors": [
+        "newbold, bruce"
+      ],
+      "title": "secondary migration of immigrants to canada: an analysis of lsic wave 1 data",
+      "monograph_title": "canadian geographies / geographies canadiennes",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2007",
+      "pages": "5871",
+      "volume": "51",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15410064.2007.00165.x",
+      "raw_reference": "newbold, b. 2007. secondary migration of immigrants to canada : an analysis of lsic wave 1 data, the canadian geographer, 51, 1 : 5871."
+    },
+    {
+      "authors": [
+        "newbold, k"
+      ],
+      "title": "internal migration of the foreignborn in canada",
+      "monograph_title": "international migration review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1996",
+      "pages": "728747",
+      "volume": "30",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/019791839603000304",
+      "raw_reference": "newbold, k.b. 1996. internal migration of the foreignborn in canada, inter national migration review, 30, 3 : 728747."
+    },
+    {
+      "authors": [
+        "nogle, june"
+      ],
+      "title": "internal migration for recent immigrants to canada",
+      "monograph_title": "international migration review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1994",
+      "pages": "3148",
+      "volume": "28",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/019791839402800102",
+      "raw_reference": "nogle, j.m. 1994. internal migration for recent immigrants to canada, inter national migration review, 28, 1 : 3148."
+    },
+    {
+      "authors": [
+        "ostrovsky, y",
+        "hou, f",
+        "picot, g"
+      ],
+      "title": "",
+      "monograph_title": "migration interne des immigrants : les immigrants reagissentils aux variations brusques de la demande de maindoeuvre regionale ?",
+      "editors": [],
+      "publisher": "",
+      "place": "ottawa, statistique canada",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "n o 11f0019m au catalogue",
+      "url": "",
+      "doi": "",
+      "raw_reference": "ostrovsky, y.,f. hou et g. picot. 2008. migration interne des immigrants : les immigrants reagissentils aux variations brusques de la demande de maindoeuvre regionale ?, ottawa, statistique canada, n o 11f0019m au catalogue."
+    },
+    {
+      "authors": [
+        "plane, d",
+        "rogerson, p"
+      ],
+      "title": "",
+      "monograph_title": "the geographical analysis of population with applications to planning and business",
+      "editors": [],
+      "publisher": "john wiley & sons inc",
+      "place": "",
+      "date": "1994",
+      "pages": "417",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "plane, d. a, et p. a. rogerson. 1994. the geographical analysis of population with applications to planning and business, john wiley & sons inc., 417 p."
+    },
+    {
+      "authors": [
+        "renaud, j",
+        "begin, k",
+        "ferreira, v",
+        "rose, d"
+      ],
+      "title": "la mobilite residentielle des immigrants au canada : les premiers mois",
+      "monograph_title": "canadian journal of urban research",
+      "editors": [],
+      "publisher": "fonds de recherche du quebec",
+      "place": "",
+      "date": "2006",
+      "pages": "7995",
+      "volume": "15",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.69777/368706",
+      "raw_reference": "renaud, j., k. begin, v. ferreira et d. rose. 2006. la mobilite residentielle des immigrants au canada : les premiers mois, canadian journal of urban research, 15, 2 : 7995."
+    },
+    {
+      "authors": [
+        "ritchey, p"
+      ],
+      "title": "explanations of migration",
+      "monograph_title": "annual review of sociology",
+      "editors": [],
+      "publisher": "annual reviews",
+      "place": "",
+      "date": "1976",
+      "pages": "363404",
+      "volume": "2",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1146/annurev.so.02.080176.002051",
+      "raw_reference": "ritchey, p.n. 1976. explanations of migration, annual review of sociology, 2 : 363404."
+    },
+    {
+      "authors": [
+        "roseman, curtis"
+      ],
+      "title": "a framework for the study of migration destination selection",
+      "monograph_title": "population and environment",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1983",
+      "pages": "151165",
+      "volume": "6",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01258957",
+      "raw_reference": "roseman, c. c., 1983. a framework for the study of migration destination selec tion, population and environment, 3 : 151165."
+    },
+    {
+      "authors": [
+        "shaw, r"
+      ],
+      "title": "",
+      "monograph_title": "migration theory and fact",
+      "editors": [],
+      "publisher": "",
+      "place": "philadelphia",
+      "date": "1975",
+      "pages": "203",
+      "volume": "",
+      "issue": "",
+      "organization": "regional science research institute",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "shaw, r.p. 1975. migration theory and fact. philadelphia, regional science research institute, 203 p."
+    },
+    {
+      "authors": [
+        "shaw, r"
+      ],
+      "title": "",
+      "monograph_title": "migrations intermetropolitaines au canada : evolution des causes au cours de trois decennies",
+      "editors": [],
+      "publisher": "nc press limited",
+      "place": "toronto",
+      "date": "1985",
+      "pages": "228",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "shaw, r. p. 1985. migrations intermetropolitaines au canada : evolution des causes au cours de trois decennies. toronto, nc press limited, 228 p."
+    },
+    {
+      "authors": [
+        "simich, l",
+        "beiser, m",
+        "mawani, f",
+        "ohare, j"
+      ],
+      "title": "",
+      "monograph_title": "pave de bonnes intentions, les itineraires de migration secondaire des refugies pris en charge par le gouvernement en ontario",
+      "editors": [],
+      "publisher": "",
+      "place": "toronto",
+      "date": "2001",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "centre de toxicomanie et de sante mentale, universite de toronto",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "simich, l., m. beiser, f. mawani et j. ohare. 2001. pave de bonnes intentions, les itineraires de migration secondaire des refugies pris en charge par le gouverne ment en ontario. toronto, centre de toxicomanie et de sante mentale, univer site de toronto."
+    },
+    {
+      "authors": [
+        "stamour, martine",
+        "ledent, jacques"
+      ],
+      "title": "attraction et retention des immigrants recents hors montreal : une analyse longitudinale par cohorte darrivee au quebec (1992, 1996, 2000 et 2004)",
+      "monograph_title": "cahiers quebecois de demographie",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2010. 1992. 1996, 2000 et 2004",
+      "pages": "5990",
+      "volume": "39",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/045056ar",
+      "raw_reference": "stamour, m., et j. ledent. 2010. attraction et retention des immigrants recents hors montreal : une analyse longitudinale par cohorte darrivee au quebec (1992, 1996, 2000 et 2004), cahiers quebecois de demographie, 39, 1 : 5990."
+    },
+    {
+      "authors": [
+        "canada, statistique"
+      ],
+      "title": "",
+      "monograph_title": "gains et revenus des canadiens durant le dernier quart de siecle. ottawa, statistique canada, serie analyses",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008. 2006",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "recensement de no 97563x au catalogue",
+      "url": "",
+      "doi": "",
+      "raw_reference": "statistique canada. 2008. gains et revenus des canadiens durant le dernier quart de siecle. ottawa, statistique canada, serie analyses, recensement de 2006, no 97563x au catalogue."
+    },
+    {
+      "authors": [
+        "taylor, r"
+      ],
+      "title": "migration and motivation : a study of determinants and types",
+      "monograph_title": "migration",
+      "editors": [
+        "jackson, j"
+      ],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "1969",
+      "pages": "99133",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "taylor, r.c. 1969. migration and motivation : a study of determinants and types, dans j.a. jackson (dir.), migration, cambridge university press : 99133."
+    },
+    {
+      "authors": [
+        "trovato, frank",
+        "halli, s"
+      ],
+      "title": "ethnicity and migration in canada",
+      "monograph_title": "international migration review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1983",
+      "pages": "245267",
+      "volume": "17",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/019791838301700203",
+      "raw_reference": "trovato, f., et s.s. halli. 1983. ethnicity and migration in canada, interna tional migration review, 17, 2 : 245267."
+    },
+    {
+      "authors": [
+        "williams, james",
+        "sofranko, andrew"
+      ],
+      "title": "motivations for the inmigration component of population turnaround in nonmetropolitan areas",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "1979",
+      "pages": "239255",
+      "volume": "16",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2061141",
+      "raw_reference": "williams, j. d. et a. j. sofranko. 1979. motivations for the inmigration component of population turnaround in nonmetropolitan areas, demo graphy, 16, 2 : 239256."
+    },
+    {
+      "authors": [
+        "wolpert, julian"
+      ],
+      "title": "behavioral aspects of the decision to migrate",
+      "monograph_title": "papers of the regional science association",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1965",
+      "pages": "159169",
+      "volume": "15",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01947871",
+      "raw_reference": "wolpert, j. 1965. behavioral aspects of the decision to migrate, papers and proceedings of the regional science association, 15 : 159169."
+    }
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "",
+      "title": "",
+      "source": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

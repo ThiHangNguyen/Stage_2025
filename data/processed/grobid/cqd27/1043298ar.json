@@ -1,0 +1,1003 @@
+{
+  "title": "",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "world",
+      "last_name": "population program",
+      "email": "",
+      "affiliation": "* world population program, international institute for applied systems analysis. au moment de rediger cet article,",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "guillaume",
+      "last_name": "marois etait a lecole durbanisme et darchitecture de paysage",
+      "email": "",
+      "affiliation": "guillaume marois etait a lecole durbanisme et darchitecture de paysage, universite de montreal",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "ecole",
+      "last_name": "durbanisme et darchitecture de paysage",
+      "email": "",
+      "affiliation": "** ecole durbanisme et darchitecture de paysage, universite de montreal",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "centre",
+      "last_name": "urbanisation culture societe",
+      "email": "",
+      "affiliation": "*** centre urbanisation culture societe, institut national de la recherche scientifique",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "analyse de la cohabitation spatiale des communautes immigrantes avec les francophones et les anglophones de la region metropolitaine de montreal guillaume marois*, sebastien lord** et alain belanger*** resume au cours des 20 e et 21 e siecles, la region metropolitaine de montreal a connu plusieurs vagues successives dimmigration provenant de plusieurs pays et abrite aujourdhui nombre de communautes dorigines diverses.si la theorie de lassimilation spatiale prevoit que peu a peu, les immigrants tendent a avoir des comportements comparables a ceux des natifs en matiere de localisation residentielle, ce processus peut suivre differentes dynamiques dans la region metropolitaine de montreal, puisquelle est historiquement peuplee de deux grandes communautes natives, les francophones et les anglophones, qui ont chacun des comportements residentiels distincts.lobjectif de cet article est de mesurer et danalyser la cohabitation residentielle des personnes issues de limmigration avec les communautes daccueil francophone et anglophone.la population etudiee est selectionnee dans lenquete nationale aupres des menages de 2011 et est constituee de la population vivant dans un menage dont le principal soutien est soit luimeme ne a letranger, soit a un parent ne a letranger.pour chacune des quinze plus importantes communautes immigrantes, nous avons construit deux modeles de regressions ayant comme variables dependantes respectivement la proportion de francophones de 3 e generation vivant dans le quartier et la proportion danglophones de 3 e generation, de maniere a calculer des indices dinteraction standardises selon une serie de variables independantes (age, sexe, duree de residence, scolarite, revenu et connaissances linguistiques).il en ressort que dans lensemble, lassimilation spatiale des communautes immigrantes ne se fait pas en reference aux francophones majoritaires, mais plutot en reference a la minorite anglophone.une forte heterogeneite sobserve toutefois entre les communautes et au sein de cellesci.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "methode et donnees",
+    "analyse descriptive des communautes immigrantes",
+    "analyse statistique de linteraction residentielle",
+    "les determinants socioeconomiques de linteraction residentielle aux francophones et anglophones",
+    "discussion et conclusion"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "alba, richard",
+        "logan, john"
+      ],
+      "title": "analyzing locational attainments",
+      "monograph_title": "sociological methods & research",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1992",
+      "pages": "367397",
+      "volume": "20",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0049124192020003005",
+      "raw_reference": "alba, r. d. et j. logan. 1992. analyzing locational attainments : constructing individuallevel regression models using aggregate data, sociological methods & research, 20, 3 : 367397."
+    },
+    {
+      "authors": [
+        "andersen, hans"
+      ],
+      "title": "spatial assimilation in denmark? why do immigrants move to and from multiethnic neighbourhoods?",
+      "monograph_title": "housing studies",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2010",
+      "pages": "281300",
+      "volume": "25",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/02673031003711451",
+      "raw_reference": "andersen, h. s. 2010. spatial assimilation in denmark ? why do immigrants move to and from multiethnic neighbourhoods ?, housing studies, 25, 3 : 281300."
+    },
+    {
+      "authors": [
+        "apparicio, philippe"
+      ],
+      "title": "les indices de segregation residentielle : un outil integre dans un systeme dinformation geographique",
+      "monograph_title": "cybergeo",
+      "editors": [],
+      "publisher": "openedition",
+      "place": "",
+      "date": "2000",
+      "pages": "",
+      "volume": "134",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4000/cybergeo.12063",
+      "raw_reference": "apparicio, p. 2000. les indices de segregation residentielle : un outil integre dans un systeme dinformation geographique, cybergeo : european journal of geography, 134."
+    },
+    {
+      "authors": [
+        "apparicio, philippe",
+        "leloup, xavier",
+        "rivet, philippe"
+      ],
+      "title": "la diversite montrealaise a lepreuve de la segregation : pluralisme et insertion residentielle des immigrants",
+      "monograph_title": "journal of international migration and integration / revue de lintegration et de la migration internationale",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2006",
+      "pages": "6387",
+      "volume": "8",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1213400700041",
+      "raw_reference": "apparicio, p., x. leloup et p. rivet. 2006. la repartition spatiale des immigrants a montreal : apport des indices de segregation residentielle. centre de recherche interuniversitaire de mont real sur limmigration, lintegration et la dynamique urbaine."
+    },
+    {
+      "authors": [
+        "apparicio, p",
+        "seguin, a"
+      ],
+      "title": "tableau 1.3 populations nees a letranger en fonction de la distance, de la langue et des liens coloniaux",
+      "monograph_title": "canadian journal of urban research",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "2002",
+      "pages": "265297",
+      "volume": "11",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/148270206638",
+      "raw_reference": "apparicio, p. et a. m. seguin. 2002. la division de lespace residentiel montrealais en fonction de la langue maternelle : apport des indices de segregation residentielle, canadian journal of urban research, 11, 2 : 265297."
+    },
+    {
+      "authors": [
+        "belanger, a",
+        "lachapelle, r",
+        "sabourin, p"
+      ],
+      "title": "",
+      "monograph_title": "persistance et orientation linguistiques de divers groupes dallophones au quebec, portrait demolinguistique, office quebecois de la langue francaise",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "belanger, a., r. lachapelle et p. sabourin. 2011. persistance et orientation linguistiques de divers groupes dallophones au quebec, portrait demolinguistique, office quebecois de la langue francaise."
+    },
+    {
+      "authors": [
+        "belanger, alain",
+        "sabourin, patrick",
+        "lachapelle, rejean"
+      ],
+      "title": "une analyse des determinants de la mobilite linguistique intergenerationnelle des immigrants allophones au quebec",
+      "monograph_title": "cahiers quebecois de demographie",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2011",
+      "pages": "113138",
+      "volume": "40",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/1006634ar",
+      "raw_reference": "belanger, a., p. sabourin et r. lachapelle. 2011. une analyse des determinants de la mobilite linguistique intergenerationnelle des immigrants allophones au quebec, cahiers quebecois de demographie, 40, 1 : 113138."
+    },
+    {
+      "authors": [
+        "bell, w"
+      ],
+      "title": "a probability model for the measurement of ecological segregation",
+      "monograph_title": "social forces",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1954",
+      "pages": "357364",
+      "volume": "32",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2574118",
+      "raw_reference": "bell, w. 1954. a probability model for the measurement of ecological segregation, social forces, 32, 4 : 357364."
+    },
+    {
+      "authors": [
+        "bohnert, n",
+        "chagnon, j",
+        "dion, p"
+      ],
+      "title": "commentaires sur les projections demographiques pour le canada et les provinces de statistique canada",
+      "monograph_title": "bulletin de lassociation des demographes du quebec",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "ottawa",
+      "date": "2015. 2013 a 2063. 2013 a 2038",
+      "pages": "29",
+      "volume": "3",
+      "issue": "2",
+      "organization": "",
+      "notes": "les provinces et les territoires",
+      "url": "",
+      "doi": "10.7202/305756ar",
+      "raw_reference": "bohnert, n., j. chagnon et p. dion. 2015. projections demographiques pour le canada (2013 a 2063), les provinces et les territoires (2013 a 2038). ottawa : statistique canada."
+    },
+    {
+      "authors": [
+        "bourbeau, r",
+        "robitaille, n",
+        "ouellet, r"
+      ],
+      "title": "",
+      "monograph_title": "caracteristiques du quartier de residence et comportements linguistiques des immigrants allophones de la rmr de montreal",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "portrait demolinguistique : office quebecois de la langue francaise",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bourbeau, r., n. robitaille et r. ouellet. 2011. caracteristiques du quartier de residence et comportements linguistiques des immigrants allophones de la rmr de montreal. in portrait demolinguistique : office quebecois de la langue francaise."
+    },
+    {
+      "authors": [
+        "brown, lawrence",
+        "chung, su‐yeul"
+      ],
+      "title": "spatial segregation, segregation indices and the geographical perspective",
+      "monograph_title": "population, space and place",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2006",
+      "pages": "125143",
+      "volume": "12",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/psp.403",
+      "raw_reference": "brown, l. a. et s.y. chung. 2006. spatial segregation, segregation indices and the geographical perspective, population, space and place, 12, 2 : 125143."
+    },
+    {
+      "authors": [
+        "brown, lawrence",
+        "chung, suyuel"
+      ],
+      "title": "marketled pluralism: rethinking our understanding of racial/ethnic spatial patterning in u.s. cities",
+      "monograph_title": "annals of the association of american geographers",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "u.s. cities",
+      "date": "2008",
+      "pages": "180212",
+      "volume": "98",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/00045600701734612",
+      "raw_reference": "brown, l. a. et s.y. chung. 2008. marketled pluralism : rethinking our understanding of racial/ethnic spatial patterning in u.s. cities, annals of the association of american geogra phers, 98, 1 : 180212."
+    },
+    {
+      "authors": [
+        "brunet, m"
+      ],
+      "title": "",
+      "monograph_title": "canadians et canadiens. etude sur lhistoire et la pensee des deux canada",
+      "editors": [],
+      "publisher": "fides",
+      "place": "",
+      "date": "1955",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "brunet, m. 1955. canadians et canadiens. etude sur lhistoire et la pensee des deux canada. montreal et paris, fides."
+    },
+    {
+      "authors": [
+        "carpentier, a"
+      ],
+      "title": "",
+      "monograph_title": "tout estil joue avant larrivee ? etude de facteurs associes a un usage predominant du francais ou de langlais chez les immigrants allophones arrives au quebec adultes. conseil superieur de la langue francaise",
+      "editors": [],
+      "publisher": "fonds de recherche du quebec",
+      "place": "",
+      "date": "2004",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.69777/350211",
+      "raw_reference": "carpentier, a. 2004. tout estil joue avant larrivee ? etude de facteurs associes a un usage predo minant du francais ou de langlais chez les immigrants allophones arrives au quebec adultes. conseil superieur de la langue francaise."
+    },
+    {
+      "authors": [
+        "charles, camille"
+      ],
+      "title": "the dynamics of racial residential segregation",
+      "monograph_title": "annual review of sociology",
+      "editors": [],
+      "publisher": "annual reviews",
+      "place": "",
+      "date": "2003",
+      "pages": "167207",
+      "volume": "29",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1146/annurev.soc.29.010202.100002",
+      "raw_reference": "charles, c. z. 2003. the dynamics of racial residential segregation, annual review of socio logy, 29, 1 : 167207."
+    },
+    {
+      "authors": [
+        "chung, suyeul",
+        "brown, lawrence"
+      ],
+      "title": "racial/ethnic residential sorting in spatial context: testing the explanatory frameworks<sup>1</sup>",
+      "monograph_title": "urban geography",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2007",
+      "pages": "312339",
+      "volume": "28",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2747/02723638.28.4.312",
+      "raw_reference": "chung, s.y. et l. a. brown. 2007. racial/ethnic residential sorting in spatial context : testing the explanatory frameworks1, urban geography, 28, 4 : 312339."
+    },
+    {
+      "authors": [
+        "cort, david"
+      ],
+      "title": "reexamining the ethnic hierarchy of locational attainment: evidence from los angeles",
+      "monograph_title": "social science research",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "15211533",
+      "volume": "40",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.ssresearch.2011.07.003",
+      "raw_reference": "cort, d. a. 2011. reexamining the ethnic hierarchy of locational attainment : evidence from los angeles, social science research, 40, 6 : 15211533."
+    },
+    {
+      "authors": [
+        "dubreuil, b",
+        "marois, g"
+      ],
+      "title": "",
+      "monograph_title": "une penurie de domestique ed. le remede imaginaire. pourquoi limmigration ne sauvera pas le quebec",
+      "editors": [],
+      "publisher": "",
+      "place": "montreal, boreal",
+      "date": "2011",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "dubreuil, b. et g. marois. 2011. une penurie de domestique ed. le remede imaginaire. pour quoi limmigration ne sauvera pas le quebec. montreal, boreal."
+    },
+    {
+      "authors": [
+        "fitoussi, j.p",
+        "laurent, e",
+        "joel, m"
+      ],
+      "title": "",
+      "monograph_title": "segregation urbaine et integration sociale",
+      "editors": [],
+      "publisher": "la documentation francaise",
+      "place": "paris",
+      "date": "2004",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fitoussi, j.p., e. laurent et m. joel. 2004. segregation urbaine et integration sociale. paris, la documentation francaise."
+    },
+    {
+      "authors": [
+        "fong, eric",
+        "gulia, milena"
+      ],
+      "title": "differences in neighborhood qualities among racial and ethnic groups in canada",
+      "monograph_title": "sociological inquiry",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1999",
+      "pages": "575598",
+      "volume": "69",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.1475682x.1999.tb00887.x",
+      "raw_reference": "fong, e. et m. gulia. 1999. differences in neighborhood qualities among racial and ethnic groups in canada, sociological inquiry, 69, 4 : 575598."
+    },
+    {
+      "authors": [
+        "frey, w",
+        "rose, d",
+        "richard, m"
+      ],
+      "title": "",
+      "monograph_title": "americas regional demographics in the 00s decade : the role of seniors, boomers and new minorities",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006. 2012",
+      "pages": "11071142",
+      "volume": "",
+      "issue": "",
+      "organization": "research institute for housing america research paper germain, ; d. fougere, ed. histoire de montreal et de sa region. quebec, presses de luniversite laval",
+      "notes": "les banlieues de limmigration ou quand les immigrants refont les banlieues",
+      "url": "",
+      "doi": "",
+      "raw_reference": "frey, w. h. 2006. americas regional demographics in the 00s decade : the role of seniors, boomers and new minorities. research institute for housing america research paper germain, a., d. rose et m. richard. 2012. les banlieues de limmigration ou quand les immi grants refont les banlieues, dans d. fougere, ed. histoire de montreal et de sa region. quebec, presses de luniversite laval : 11071142."
+    },
+    {
+      "authors": [
+        "glikman, anya",
+        "semyonov, moshe"
+      ],
+      "title": "ethnic origin and residential attainment of immigrants in european countries",
+      "monograph_title": "city & community",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2012",
+      "pages": "198219",
+      "volume": "11",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406040.2012.01398.x",
+      "raw_reference": "glikman, a. et m. semyonov. 2012. ethnic origin and residential attainment of immigrants in european countries, city & community, 11, 2 : 198219."
+    },
+    {
+      "authors": [
+        "xhardez, catherine"
+      ],
+      "title": "la politique quebecoise et canadienne : acteurs, institutions, societes, sous la dir. dalaing. gagnon et david sanschagrin, quebec, presses de luniversite du quebec, [2 ed.], 2017, 509 p.",
+      "monograph_title": "politique et societes",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2015",
+      "pages": "202",
+      "volume": "39",
+      "issue": "1",
+      "organization": "",
+      "notes": "sous la dir. de d. l. d. e. d. l. i. ministere de limmigration",
+      "url": "",
+      "doi": "10.7202/1068381ar",
+      "raw_reference": "gouvernement du quebec. 2015. politique quebecoise en matiere dimmigration, de participa tion et dinclusion. ensemble, nous sommes le quebec. sous la dir. de d. l. d. e. d. l. i. minis tere de limmigration."
+    },
+    {
+      "authors": [
+        "greene, w"
+      ],
+      "title": "econometric analysis. upper saddle river",
+      "monograph_title": "migrations internationales et interprovinciales, quebec, par region metropolitaine",
+      "editors": [],
+      "publisher": "prentice hall",
+      "place": "",
+      "date": "1997. 2015",
+      "pages": "20012014",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "institut de la statistique du quebec",
+      "url": "",
+      "doi": "",
+      "raw_reference": "greene, w. h. 1997. econometric analysis. upper saddle river, n.j., prentice hall. institut de la statistique du quebec. 2015. migrations internationales et interprovinciales, quebec, par region metropolitaine, 20012014."
+    },
+    {
+      "authors": [
+        "karsten, sjoerd",
+        "felix, charles",
+        "ledoux, guuske",
+        "meijnen, wim",
+        "roeleveld, jaap",
+        "van schooten, erik"
+      ],
+      "title": "choosing segregation or integration?",
+      "monograph_title": "education and urban society",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2006",
+      "pages": "228247",
+      "volume": "38",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0013124505282606",
+      "raw_reference": "karsten, s., c. felix, g. ledoux, w. meijnen, j. roeleveld et e. van schooten. 2006. choosing segregation or integration ? : the extent and effects of ethnic segregation in dutch cities, education and urban society, 38, 2 : 228247."
+    },
+    {
+      "authors": [
+        "logan, john",
+        "alba, richard",
+        "mcnulty, tom",
+        "fisher, brian"
+      ],
+      "title": "making a place in the metropolis: locational attainment in cities and suburbs",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "1996",
+      "pages": "443453",
+      "volume": "33",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2061779",
+      "raw_reference": "logan, j., r. d. alba, t. mcnulty et b. fisher. 1996. making a place in the metropolis : loca tional attainment in cities and suburbs, demography, 33, 4 : 443453."
+    },
+    {
+      "authors": [
+        "logan, john",
+        "zhang, wenquan",
+        "alba, richard"
+      ],
+      "title": "immigrant enclaves and ethnic communities in new york and los angeles",
+      "monograph_title": "american sociological review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2002",
+      "pages": "299",
+      "volume": "67",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/3088897",
+      "raw_reference": "logan, j., w. zhang et r. d. alba. 2002. immigrant enclaves and ethnic communities in new york and los angeles, american sociological review, 67, 2 : 299322."
+    },
+    {
+      "authors": [
+        "marois, guillaume",
+        "belanger, alain"
+      ],
+      "title": "de montreal vers la banlieue : determinants du choix du lieu de residence",
+      "monograph_title": "cahiers quebecois de demographie",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2014",
+      "pages": "439468",
+      "volume": "43",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/1027985ar",
+      "raw_reference": "marois, g. et a. belanger. 2014a. de montreal vers la banlieue : determinants du choix du lieu de residence, cahiers quebecois de demographie, 43, 2 : 439468."
+    },
+    {
+      "authors": [
+        "marois, g",
+        "belanger, a"
+      ],
+      "title": "lurbanisme et la banlieue (1945→)",
+      "monograph_title": "banlieue, ditesvous ? la suburbanisation dans la region metropolitaine de montreal",
+      "editors": [],
+      "publisher": "presses de luniversite laval",
+      "place": "",
+      "date": "2014",
+      "pages": "87140",
+      "volume": "58",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/j.ctv1x676n5.6",
+      "raw_reference": "marois, g. et a. belanger. 2014b. determinants de la migration residentielle de la ville centre vers la banlieue dans la region metropolitaine de montreal : clivage linguistique et fuite des francophones, the canadian geographer / le geographe canadien, 58, 2 : 141159."
+    },
+    {
+      "authors": [
+        "marois, guillaume",
+        "lord, sebastien"
+      ],
+      "title": "a statistical approach for analyzing residential isolation and its determinants for immigrant communities: an application to the montreal metropolitan region",
+      "monograph_title": "applied spatial analysis and policy",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2017",
+      "pages": "227255",
+      "volume": "11",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "https://doi.org/10.1007/s1206101792239",
+      "doi": "10.1007/s1206101792239",
+      "raw_reference": "marois, g. et s. lord. 2017. a statistical approach for analyzing residential isolation and its determinants for immigrant communities : an application to the montreal metropolitan region, applied spacial analysis and policy, doi : https://doi.org/10.1007/s1206101792239."
+    },
+    {
+      "authors": [
+        "massey, douglas",
+        "denton, nancy"
+      ],
+      "title": "spatial assimilation as a socioeconomic outcome",
+      "monograph_title": "american sociological review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1985",
+      "pages": "94",
+      "volume": "50",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2095343",
+      "raw_reference": "massey, d. s. et n. a. denton. 1985. spatial assimilation as a socioeconomic outcome, american sociological review, 50, 1 : 94106."
+    },
+    {
+      "authors": [
+        "myles, j",
+        "hou, f"
+      ],
+      "title": "",
+      "monograph_title": "etablissement reussi et segregation residentielle parmi les minorites visibles de toronto",
+      "editors": [],
+      "publisher": "statistique canada",
+      "place": "ottawa",
+      "date": "2003",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "myles, j. et f. hou. 2003. etablissement reussi et segregation residentielle parmi les minorites visibles de toronto. ottawa : statistique canada."
+    },
+    {
+      "authors": [
+        "paille, michel"
+      ],
+      "title": "migrations interieures des quebecois dexpression francaise, 19811986 et 19861991",
+      "monograph_title": "cahiers quebecois de demographie",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2000. 19811986 et 19861991",
+      "pages": "147167",
+      "volume": "29",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/010279ar",
+      "raw_reference": "paille, m. 2000. migrations interieures des quebecois dexpression francaise, 19811986 et 1986 1991, cahiers quebecois de demographie, 29, 1 : 147167."
+    },
+    {
+      "authors": [
+        "park, r",
+        "burgess, e"
+      ],
+      "title": "",
+      "monograph_title": "the city",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1925",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "park, r. e. et e. w. burgess. 1925. the city. university of chicago press."
+    },
+    {
+      "authors": [
+        "pelletier, david"
+      ],
+      "title": "acceder au meilleur quartier possible : types de famille et segregation residentielle croisee a montreal",
+      "monograph_title": "cahiers quebecois de demographie",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2012",
+      "pages": "257298",
+      "volume": "41",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/1013493ar",
+      "raw_reference": "pelletier, d. 2012. acceder au meilleur quartier possible : types de famille et segregation resi dentielle croisee a montreal, cahiers quebecois de demographie, 41, 2 : 257298."
+    },
+    {
+      "authors": [
+        "rosenbaum, emily",
+        "friedman, samantha"
+      ],
+      "title": "differences in the locational attainment of immigrant and nativeborn households with children in new york city",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "new york city",
+      "date": "2001",
+      "pages": "337348",
+      "volume": "38",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1353/dem.2001.0030",
+      "raw_reference": "rosenbaum, e. et s. friedman. 2001. differences in the locational attainment of immigrant and nativeborn households with children in new york city, demography, 38, 3 : 337348."
+    },
+    {
+      "authors": [
+        "seguin, a.m",
+        "rose, d",
+        "mongeau, j"
+      ],
+      "title": "linsertion residentielle des jeunes issus de limmigration a montreal",
+      "monograph_title": "rapport de recherche dans le cadre dimmigration et metropoles",
+      "editors": [],
+      "publisher": "schl",
+      "place": "",
+      "date": "2003",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "seguin, a.m., d. rose et j. mongeau. 2003. linsertion residentielle des jeunes issus de limmi gration a montreal, rapport de recherche dans le cadre dimmigration et metropoles, schl."
+    },
+    {
+      "authors": [
+        "seguin, m"
+      ],
+      "title": "",
+      "monograph_title": "historien du pays quebecois vu par ses contemporains",
+      "editors": [],
+      "publisher": "",
+      "place": "montreal, vlb",
+      "date": "1987",
+      "pages": "81220",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "les normes",
+      "url": "",
+      "doi": "",
+      "raw_reference": "seguin, m. 1987. les normes, dans r. comeau, ed. maurice seguin, historien du pays quebe cois vu par ses contemporains. montreal, vlb : 81220."
+    },
+    {
+      "authors": [
+        "selimanovski, c"
+      ],
+      "title": "",
+      "monograph_title": "la frontiere de la pauvrete",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "presses universitaires de rennes",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "selimanovski, c. 2008. la frontiere de la pauvrete. rennes, presses universitaires de rennes."
+    },
+    {
+      "authors": [
+        "shihadeh, edward",
+        "flynn, nicole"
+      ],
+      "title": "segregation and crime: the effect of black social isolation on the rates of black urban violence",
+      "monograph_title": "social forces",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1996",
+      "pages": "1325",
+      "volume": "74",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2580353",
+      "raw_reference": "shihadeh, e. s. et n. flynn. 1996. segregation and crime : the effect of black social isolation on the rates of black urban violence, social forces, 74, 4 : 13251352."
+    },
+    {
+      "authors": [
+        "raymondaud, hubert"
+      ],
+      "title": "le logiciel r comme outil dinitiation a la statistique descriptive : enquete sur les depenses des menages",
+      "monograph_title": "statistique et enseignement",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "ottawa, statistique canada",
+      "date": "2011. 2013",
+      "pages": "4962",
+      "volume": "2",
+      "issue": "2",
+      "organization": "",
+      "notes": "enquete nationale aupres des menages 2011",
+      "url": "",
+      "doi": "10.3406/staso.2011.1227",
+      "raw_reference": "statistique canada. 2011. enquete nationale sur les menages. statistique canada. 2013. enquete nationale aupres des menages 2011. ottawa, statistique canada."
+    },
+    {
+      "authors": [
+        "vaillancourt, f"
+      ],
+      "title": "",
+      "monograph_title": "economie et langue : recueil de textes. center de recherche en developpement economique",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1985",
+      "pages": "302",
+      "volume": "",
+      "issue": "",
+      "organization": "universite de montreal",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "vaillancourt, f. 1985. economie et langue : recueil de textes. center de recherche en developpe ment economique, universite de montreal, 302 p."
+    },
+    {
+      "authors": [
+        "van kempen, ronald",
+        "sule ozuekren, a"
+      ],
+      "title": "ethnic segregation in cities: new forms and explanations in a dynamic world",
+      "monograph_title": "urban studies",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1998",
+      "pages": "16311656",
+      "volume": "35",
+      "issue": "10",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/0042098984088",
+      "raw_reference": "van kempen, r. et a. sule ozuekren. 1998. ethnic segregation in cities : new forms and explanations in a dynamic world, urban studies, 35, 10 : 16311656."
+    },
+    {
+      "authors": [
+        "walton, emily"
+      ],
+      "title": "resurgent ethnicity among asian americans",
+      "monograph_title": "journal of health and social behavior",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "2012",
+      "pages": "378394",
+      "volume": "53",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1177/0022146512455426",
+      "raw_reference": "walton, e. 2012. resurgent ethnicity among asian americans : ethnic neighborhood context and health, journal of health and social behavior, 53, 3 : 378394."
+    },
+    {
+      "authors": [
+        "wen, m",
+        "lauderdale, d",
+        "kandula, n"
+      ],
+      "title": "ethnic neighborhoods in multiethnic america, 19902000: resurgent ethnicity in the ethnoburbs?",
+      "monograph_title": "social forces",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2009",
+      "pages": "425460",
+      "volume": "88",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1353/sof.0.0244",
+      "raw_reference": "wen, m., d. s. lauderdale et n. r. kandula. 2009. ethnic neighborhoods in multiethnic america, 19902000 : resurgent ethnicity in the ethnoburbs ?, social forces, 88, 1 : 425460."
+    }
+  ],
+  "notes": [
+    "[5] 2 $ = 2 $ /",
+    "[4] plus richesx x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x 0,020,01 0,00 0,01 0,02 0,03"
+  ],
+  "figures": [
+    {
+      "number": "1indice",
+      "title": "dinteraction (brut et standardise) avec les francophones et anglophones, rmrde montreal, 2011",
+      "source": ""
+    },
+    {
+      "number": "2",
+      "title": "indice dinteraction modifie (brut et standardise) avec les francophones et anglophones, rmr de montreal, 2011",
+      "source": ""
+    },
+    {
+      "number": "3effet",
+      "title": "du statut de generation sur lindice dinteraction avec les francophones et anglophones, rmrde montreal, 2011",
+      "source": ""
+    },
+    {
+      "number": "4effet",
+      "title": "du quintile de revenu sur lindice dinteraction avec les francophones et anglophones, rmr de montreal, 2011",
+      "source": ""
+    },
+    {
+      "number": "5",
+      "title": "effet de la scolarite sur lindice dinteraction avec les francophones et anglophones, rmr de montreal, 2011",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

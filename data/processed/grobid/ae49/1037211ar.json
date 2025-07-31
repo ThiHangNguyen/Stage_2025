@@ -1,0 +1,242 @@
+{
+  "title": "une analyse economique de propositions visant a bonifier la couverture du risque de longevite*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "david",
+      "last_name": "boisclair",
+      "email": "",
+      "affiliation": "",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "jeanyves",
+      "last_name": "duclos",
+      "email": "",
+      "affiliation": "",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "steeve",
+      "last_name": "marchand",
+      "email": "",
+      "affiliation": "",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "pierrecarl",
+      "last_name": "michaud",
+      "email": "",
+      "affiliation": "",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "esg",
+      "last_name": "uqam universite laval",
+      "email": "",
+      "affiliation": "esg uqam universite laval, cirpee, cirano",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "universite",
+      "last_name": "laval esg uqam",
+      "email": "",
+      "affiliation": "universite laval esg uqam, cirpee, cirano, rand",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "nous utilisons des methodes de simulation pour analyser les impacts de certaines propositions de reforme visant a ameliorer la couverture du risque de longevite.ce risque, qui peut en principe etre adequatement couvert par les regimes de retraite classiques a prestations determinees, fait lobjet dune attention particuliere au quebec depuis quelques annees, notamment en raison du declin de la participation a de tels regimes.les propositions recentes visant a bonifier la couverture du risque de longevite se concentrent en grande partie sur lexpansion du 2 e pilier du systeme de revenu de retraite, actuellement constitue du regime de rentes du quebec.nous considerons a ce titre une propositioncle du comite damours (la rente longevite), ainsi que deux autres propositions : celle de mintz et wilson, qui vise a augmenter la generosite du regime actuel, et celle de wolfson, qui introduit une notion de taux de cotisation et de prestations differencies selon le revenu.a laide de donnees provenant des enquetes de statistique canada, nous analysons pour plusieurs types dindividus le taux de rendement interne (tri) de ces propositions en prenant en consideration linegalite desperance de vie, la variabilite temporelle des revenus ainsi que les interactions avec la fiscalite et les differents programmes de soutien du revenu a la retraite.nous lactualite economique, revue danalyse economique, vol.91, n o 4, decembre 2015 ___________ * nous remercions pour leurs commentaires et suggestions les participants au congres 2014 de la societe canadienne de science economique et a la grande conference cirpee 2014, ainsi quoscar becerra, richard guay et un evaluateur anonyme.cet article sen est trouve fortement bonifie.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "modelisation",
+    "les agents",
+    "revenu de travail",
+    "mortalite",
+    "les scenarios",
+    "scenario de reference",
+    "pension de securite de la vieillesse",
+    "supplement de revenu garanti",
+    "cotisations au rrq",
+    "prestations de retraite du rrq",
+    "revenus de marche une fois a la retraite : prestations de regimes complementaires et revenus depargne personnelle",
+    "imposition des revenus de travail et de retraite",
+    "scenario alternatif 1 : ajout dune rente longevite",
+    "scenario alternatif 2 : bonification du rrq (proposition de mintzwilson)",
+    "scenario alternatif 3 : bonification du rrq (proposition de wolfson)",
+    "5.",
+    "6.",
+    "scenario alternatif 5 : epargne personnelle dans un celi et achat dune rente viagere",
+    "remplacement du revenu et rendement interne",
+    "taux de remplacement du revenu",
+    "7.",
+    "8.",
+    "9.",
+    "decomposition des taux de rendement interne",
+    "simulation des rendements internes en labsence de revenus de retraite prives",
+    "annexe a revenus de travail avant la retraite"
+  ],
+  "acknowledgements": "bibliographie adam, l. (2012), the canadian pensioners mortality table, rapport technique, institut canadien des actuaires.damours, a., r. beaudry, l. godbout, c. lamoureux, m. n. marchon, b. morency et m. rochette (2013), innover pour perenniser le systeme de retraite : un contrat social pour renforcer la securite financiere de tous les travailleurs quebecois, rapport technique, comite dexperts sur lavenir du systeme de retraite quebecois.french, e. (2005), the effects of health, wealth, and wages on labour supply and retirement behaviour, the review of economic studies, 72(2) : 395427.gourinchas, p. o. et j. parker (2002), consumption over the life cycle, econometrica, 59 : 779813.institut de la statistique du quebec (2014), le bilan demographique du quebec, gouvernement du quebec.judd, k. l. (1998), numerical methods in economics, mit press.",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "milevsky, m"
+      ],
+      "title": "",
+      "monograph_title": "life annuities: an optimal product for retirement income",
+      "editors": [],
+      "publisher": "cfa institute research foundation",
+      "place": "",
+      "date": "2013",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "rapport technique research foundation of cfa institute",
+      "url": "",
+      "doi": "10.2470/rf.v2013.n1.1",
+      "raw_reference": "milevsky, m. a. (2013), life annuities : an optimal product for retirement income, rapport technique, research foundation of cfa institute."
+    },
+    {
+      "authors": [
+        "milligan, kevin",
+        "schirle, tammy"
+      ],
+      "title": "simulated replacement rates for cpp reform options",
+      "monograph_title": "the school of public policy publications",
+      "editors": [],
+      "publisher": "university of calgary",
+      "place": "",
+      "date": "2014",
+      "pages": "",
+      "volume": "7",
+      "issue": "7",
+      "organization": "social science research network",
+      "notes": "",
+      "url": "",
+      "doi": "10.55016/ojs/sppp.v7i1.42459",
+      "raw_reference": "milligan, k. et t. schirle (2014), simulated replacement rates for cpp re form options, spp research papers 77, social science research network."
+    },
+    {
+      "authors": [
+        "mintz, jack",
+        "wilson, thomas"
+      ],
+      "title": "reform proposals for replenishing retirement savings",
+      "monograph_title": "the school of public policy publications",
+      "editors": [],
+      "publisher": "university of calgary",
+      "place": "",
+      "date": "2013",
+      "pages": "",
+      "volume": "6",
+      "issue": "9",
+      "organization": "university of calgary school of public policy",
+      "notes": "",
+      "url": "",
+      "doi": "10.55016/ojs/sppp.v6i1.42420",
+      "raw_reference": "mintz, j. et wilson, t. (2013), reform proposals for replenishing retirement savings, spp research papers 69, university of calgary school of public policy."
+    },
+    {
+      "authors": [
+        "roycesar, edison",
+        "vaillancourt, francois"
+      ],
+      "title": "the incidence of payroll taxes in ontario and quebec; evidence from collective agreements for 19852007",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.1682041",
+      "raw_reference": "roycesar, e. et vaillancourt, f. (2010), the incidence of payroll taxes in ontario and quebec; evidence from collective agreements for 19852007, cahier scientifique 2010s36, cirano."
+    },
+    {
+      "authors": [
+        "wolfson, m"
+      ],
+      "title": "tableau d.15. part des declarations par canal : irpp",
+      "monograph_title": "etude irpp",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "2013",
+      "pages": "",
+      "volume": "41",
+      "issue": "",
+      "organization": "",
+      "notes": "irpp",
+      "url": "",
+      "doi": "10.1787/888934313083",
+      "raw_reference": "wolfson, m. (2013), notsomodest options for expanding the cpp/qpp, etude irpp 41, irpp."
+    },
+    {
+      "authors": [
+        "yaari, menahem"
+      ],
+      "title": "uncertain lifetime, life insurance, and the theory of the consumer",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1965",
+      "pages": "137",
+      "volume": "32",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2296058",
+      "raw_reference": "yaari, m. e. (1965), uncertain lifetime, life insurance, and the theory of the consumer, the review of economic studies, 32(2) : 137150."
+    }
+  ],
+  "notes": [
+    "[1] la question de savoir si une portion de la cotisation employeur est supportee par les employes sous la forme de salaires plus faibles nest pas pertinente ici, contrairement aux scenarios alternatifs envisages plus bas, puisquil sagit dun element commun du scenario de reference auquel sajoutent les autres. nous ne considerons donc que les cotisations payees par lemploye.",
+    "[3] malgre un taux de remplacement uniforme de 40 % a partir de la moitie du mga prereforme, le taux de cotisation entre 50 % et 100 % du mga prereforme est de 4,7 points de pourcentage plus eleve. cette difference sert a financer les autres types de prestations du rrq, mais aussi et surtout a compenser le sousfinancement passe du regime, entraine par des taux de cotisation historiquement trop faibles."
+  ],
+  "figures": [
+    {
+      "number": "4",
+      "title": "augmentation du taux de rendement implicite dans un monde sans srg rente longevite mintzwilson revenu annuel moyen entre 25 et 64 ans (en milliers de $) augmentation du taux de rendement (points de %) 0 5 10 15 20 25 30 35 40 3 2 1 wolfson rverrente celirente",
+      "source": ""
+    },
+    {
+      "number": "10",
+      "title": "probabilite de survie jusqua lage t de marche une fois a la retraite nous selectionnons dans les cycles 2 a 5 de ledtr les individus ayant cesse de travailler une seule fois, sans recommencer, entre 50 et 70 ans.",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,780 @@
+{
+  "title": "le prix du risque*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "marieclaude",
+      "last_name": "beaulieu",
+      "email": "marieclaude.beaulieu@fsa.ulaval.ca",
+      "affiliation": "departement de finance, assurance et immobilier, faculte des sciences de ladministration, centre de recherche sur le risque, les enjeux economiques et les politiques publiques (crrep), universite laval",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "dans cet article, jexploite lapproche developpee par beaulieu, dufour et khalaf (2013, 2017) pour montrer comment une methode robuste aux problemes didentification et correcte en echantillons finis peut etre utilisee afin didentifier les facteurs a incorporer dans un modele devaluation dactifs dans le but de mieux estimer le prix du risque.en fait, lorsque lincertitude entourant les parametres du modele du calcul du prix du risque est importante, elle peut changer de facon significative les decisions dinvestissement et de financement.lapproche developpee par beaulieu, dufour et khalaf (2013, 2017) permet detablir conjointement si un modele est rejete ou non et sil est identifie ou non.trois cadres danalyse mesurant le prix du risque sont compares.* cet article a beneficie du support financier du conseil de recherche en sciences humaines du canada et de la chaire rbc en innovations financieres.lauteur remercie jeanmarie dufour, mariehelene gagnon, lynda khalaf, richard luger et olena melin ainsi que les participants a la session pleniere intitulee le prix du risque pour leurs commentaires et suggestions.les erreurs sont la seule responsabilite de lauteur.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "modele devaluation dactifs et evidence empirique",
+    "cadre methodologique",
+    "lactualite economique",
+    "etudes empiriques",
+    "economie americaine",
+    "mkt smb hml",
+    "periode",
+    "obligations catastrophe",
+    "economie internationale"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "beaulieu, marieclaude",
+        "dufour, jeanmarie",
+        "khalaf, lynda"
+      ],
+      "title": "multivariate tests of meanvariance efficiency with possibly nongaussian errors",
+      "monograph_title": "journal of business & economic statistics",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2007",
+      "pages": "398410",
+      "volume": "25",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1198/073500106000000468",
+      "raw_reference": "beaulieu, m.c., j.m. dufour et l. khalaf (2007), multivariate tests of mean variance efficiency with possibly nongaussian errors : an exact simulation based approach, journal of business and economic statistics, 25 : 398410."
+    },
+    {
+      "authors": [
+        "beaulieu, mc",
+        "dufour, jm",
+        "khalaf, l"
+      ],
+      "title": "identificationrobust estimation and testing of the zerobeta capm",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2013",
+      "pages": "892924",
+      "volume": "80",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/restud/rds044",
+      "raw_reference": "beaulieu, m.c., j.m. dufour et l. khalaf (2013), identificationrobust estimation and testing of the zerobeta capm, the review of economics studies, 80 : 892924."
+    },
+    {
+      "authors": [
+        "beaulieu, marieclaude",
+        "dufour, jeanmarie",
+        "khalaf, lynda",
+        "melin, olena"
+      ],
+      "title": "identificationrobust beta pricing, spanning, mimicking portfolios, and the benchmark neutrality of catastrophe bonds",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2017",
+      "pages": "105464",
+      "volume": "236",
+      "issue": "1",
+      "organization": "",
+      "notes": "document de travail",
+      "url": "",
+      "doi": "10.1016/j.jeconom.2023.04.008",
+      "raw_reference": "beaulieu, m.c., j.m. dufour et l. khalaf (2017), weak beta, strong beta: multifactor pricing and rank restriction, document de travail."
+    },
+    {
+      "authors": [
+        "beaulieu, marieclaude",
+        "gagnon, mariehelene",
+        "khalaf, lynda"
+      ],
+      "title": "less is more: testing financial integration using identificationrobust asset pricing models",
+      "monograph_title": "journal of international financial markets, institutions and money",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "171190",
+      "volume": "45",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.intfin.2016.07.007",
+      "raw_reference": "beaulieu, m.c., j.m. dufour et l. khalaf (2016), less is more: testing financial integration using identificationrobust asset pricing models, journal of international financial markets, institutions & money, 45 : 171190."
+    },
+    {
+      "authors": [
+        "beaulieu, marieclaude",
+        "dufour, jeanmarie",
+        "khalaf, lynda",
+        "melin, olena"
+      ],
+      "title": "identificationrobust beta pricing, spanning, mimicking portfolios, and the benchmark neutrality of catastrophe bonds",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2017",
+      "pages": "105464",
+      "volume": "236",
+      "issue": "1",
+      "organization": "",
+      "notes": "document de travail",
+      "url": "",
+      "doi": "10.1016/j.jeconom.2023.04.008",
+      "raw_reference": "beaulieu, m.c., l. khalaf et o. melin (2017), do catastrophe bond mutual funds constitute zerobeta investments? : identificationrobust evidence, document de travail."
+    },
+    {
+      "authors": [
+        "f"
+      ],
+      "title": "capital market equilibrium with restricted borrowing",
+      "monograph_title": "the journal of business",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1972",
+      "pages": "444455",
+      "volume": "45",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "f. (1972), capital market equilibrium with restricted borrowing, the journal of business, 45 : 444455."
+    },
+    {
+      "authors": [
+        "black, f",
+        "jensen, m",
+        "scholes, m"
+      ],
+      "title": "chapter iii : interest rate futures markets in the context of the capital asset pricing model",
+      "monograph_title": "interest rate futures markets and capital market theory",
+      "editors": [
+        "jensen, m"
+      ],
+      "publisher": "de gruyter",
+      "place": "",
+      "date": "1972",
+      "pages": "215289",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "studies in the theory of capital markets",
+      "url": "",
+      "doi": "10.1515/9783110903300.215",
+      "raw_reference": "black, f., m. c. jensen et m. s. scholes (1972), the capital asset pricing model: some empirical tests, in jensen, m. c., studies in the theory of capital markets, p. 79121."
+    },
+    {
+      "authors": [
+        "blume, marshall",
+        "friend, irwin"
+      ],
+      "title": "a new look at the capital asset pricing model",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1973",
+      "pages": "1934",
+      "volume": "28",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.1973.tb01342.x",
+      "raw_reference": "blume, m. e. et i. friend (1973), a new look at the capital asset pricing model, the journal of finance, 28 : 1934."
+    },
+    {
+      "authors": [
+        "campbell, r",
+        "liu, y",
+        "zhu, h"
+      ],
+      "title": "...and the crosssection of expected returns",
+      "monograph_title": "the review of financial studies",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2016",
+      "pages": "568",
+      "volume": "29",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "campbell, r. h., y. liu et h. zhu (2016),...and the crosssection of expected returns, the review of financial studies, 29 : 568."
+    },
+    {
+      "authors": [
+        "chen, naifu",
+        "roll, richard",
+        "ross, stephen"
+      ],
+      "title": "economic forces and the stock market",
+      "monograph_title": "the journal of business",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1986",
+      "pages": "383",
+      "volume": "59",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/296344",
+      "raw_reference": "chen, n.f., r. roll et s. a. ross (1986), economic forces and the stock market, the journal of business, 59 : 383403."
+    },
+    {
+      "authors": [
+        "cummins, j",
+        "weiss, mary"
+      ],
+      "title": "<scp>convergence of insurance and financial markets: hybrid and securitized risk‐transfer solutions</scp>",
+      "monograph_title": "journal of risk and insurance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2009",
+      "pages": "493545",
+      "volume": "76",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15396975.2009.01311.x",
+      "raw_reference": "cummins, j. d. et m. a. weiss 2009), convergence of insurance and financial markets: hybrids and securitized risktransfer solutions, journal of risk and insurance, 76 : 493545."
+    },
+    {
+      "authors": [
+        "dufour, j.m"
+      ],
+      "title": "some impossibility theorems in econometrics with applications to structural and dynamic models",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1997",
+      "pages": "1365",
+      "volume": "65",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2171740",
+      "raw_reference": "dufour, j.m. (1997), some impossibility theorems in econometrics, with applications to structural and dynamic models, econometrica, 65 : 13651389."
+    },
+    {
+      "authors": [
+        "dufour, jeanmarie",
+        "hsiao, cheng"
+      ],
+      "title": "identification",
+      "monograph_title": "the new palgrave dictionary of economics",
+      "editors": [],
+      "publisher": "palgrave macmillan uk",
+      "place": "",
+      "date": "2008",
+      "pages": "111",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "2e edition",
+      "url": "",
+      "doi": "10.1057/9781349951215_10002",
+      "raw_reference": "dufour, j.m. et c. hsiao (2008), identification, the new palgrave dictionary of economics, 2e edition."
+    },
+    {
+      "authors": [
+        "e",
+        "french, k"
+      ],
+      "title": "the crosssection of expected stock returns",
+      "monograph_title": "journal of finance",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1992",
+      "pages": "427465",
+      "volume": "47",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fama, e. f. et k. r. french (1992), the crosssection of expected stock returns, journal of finance, 47 : 427465."
+    },
+    {
+      "authors": [
+        "e",
+        "french, k"
+      ],
+      "title": "common risk factors in the returns on stocks and bonds",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1993",
+      "pages": "356",
+      "volume": "33",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fama, e. f. et k. r. french (1993), common risk factors in the returns on stocks and bonds, journal of financial economics, 33 : 356."
+    },
+    {
+      "authors": [
+        "fama, eugene",
+        "macbeth, james"
+      ],
+      "title": "risk, return, and equilibrium: empirical tests",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1973",
+      "pages": "607636",
+      "volume": "81",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/260061",
+      "raw_reference": "fama, e. f. et j. d. macbeth (1973), risk, return, and equilibrium: empirical tests, the journal of political economy, 81 : 607636."
+    },
+    {
+      "authors": [
+        "gibbons, michael"
+      ],
+      "title": "multivariate tests of financial models",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1982",
+      "pages": "327",
+      "volume": "10",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/0304405x(82)900289",
+      "raw_reference": "gibbons, m. r. (1982), multivariate tests of financial models, journal of financial economics, 10 : 327."
+    },
+    {
+      "authors": [
+        "gibbons, michael",
+        "ross, stephen",
+        "shanken, jay"
+      ],
+      "title": "a test of the efficiency of a given portfolio",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1989",
+      "pages": "1121",
+      "volume": "57",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1913625",
+      "raw_reference": "gibbons, m. r., s. a. rosset et j. shanken (1989), a test of the efficiency of a given portfolio, econometrica, 57 : 11211152."
+    },
+    {
+      "authors": [
+        "c"
+      ],
+      "title": "valorisation des investissements ultralongs et developpement durable",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2016",
+      "pages": "667701",
+      "volume": "92",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gollier, c. (2016), valorisation des investissements ultralongs et developpement durable, lactualite economique, 92 : 667701."
+    },
+    {
+      "authors": [
+        "gospodinov, nikolay",
+        "kan, raymond",
+        "robotti, cesare"
+      ],
+      "title": "misspecificationrobust inference in linear asset pricing models with irrelevant risk factors",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "federal reserve bank of stlouis",
+      "date": "2013",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper no 1698076877",
+      "url": "",
+      "doi": "10.2139/ssrn.2579821",
+      "raw_reference": "gospodinov, n., r. kanet et c. robotti (2013), misspecificationrobust inference in linear asset pricing models with irrelevant risk factors, federal reserve bank of stlouis, working paper no 1698076877."
+    },
+    {
+      "authors": [
+        "jensen, michael"
+      ],
+      "title": "the performance of mutual funds in the period 19451964",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1968",
+      "pages": "389416",
+      "volume": "23",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.1968.tb00815.x",
+      "raw_reference": "jensen, m. c. (1968), the performance of mutual funds in the period 1945 1964, the journal of finance, 23 : 389416."
+    },
+    {
+      "authors": [
+        "kan, raymond",
+        "robotti, cesare",
+        "shanken, jay"
+      ],
+      "title": "pricing model performance and the two‐pass cross‐sectional regression methodology",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2013",
+      "pages": "26172649",
+      "volume": "68",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/jofi.12035",
+      "raw_reference": "kan, r., c. robotti et j. shanken (2013), pricing model performance and the twopass crosssectional regression methodology, the journal of finance, 68 : 26172649."
+    },
+    {
+      "authors": [
+        "khalaf, lynda",
+        "schaller, huntley"
+      ],
+      "title": "identification and inference in twopass asset pricing models",
+      "monograph_title": "journal of economic dynamics and control",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "165177",
+      "volume": "70",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jedc.2016.07.002",
+      "raw_reference": "khalaf, l. et h. schaller (2016), identification and inference in twopass asset pricing models, journal of economic dynamic and control, 70 : 165177."
+    },
+    {
+      "authors": [
+        "kleibergen, frank",
+        "zhan, zhaoguo"
+      ],
+      "title": "unexplained factors and their effects on second pass <mml:math xmlns:mml=http://www.w3.org/1998/math/mathml altimg=si87.gif display=inline overflow=scroll><mml:mi>r</mml:mi></mml:math>squareds",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2015",
+      "pages": "101116",
+      "volume": "189",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jeconom.2014.11.006",
+      "raw_reference": "kleibergen, f. et z. zhan (2015), unexplained factors and their effects on second pass rsquareds, journal of econometrics, 1 : 101116."
+    },
+    {
+      "authors": [
+        "kraus, alan",
+        "litzenberger, robert"
+      ],
+      "title": "skewness preference and the valuation of risk assets*",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1976",
+      "pages": "10851100",
+      "volume": "31",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.1976.tb01961.x",
+      "raw_reference": "kraus, a. et r. h. litzenberger (1976), skewness preference and the valuation of risk assets, the journal of finance, 31 : 10851100."
+    },
+    {
+      "authors": [
+        "lewellen, jonathan",
+        "nagel, stefan",
+        "shanken, jay"
+      ],
+      "title": "a skeptical appraisal of asset pricing tests☆",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "175194",
+      "volume": "96",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jfineco.2009.09.001",
+      "raw_reference": "lewellen, j., nagel, s. et j. shanken (2010), a skeptical appraisal of asset pricing tests, journal of financial economics, 92 : 175194."
+    },
+    {
+      "authors": [
+        "lintner, john"
+      ],
+      "title": "the valuation of risk assets and the selection of risky investments in stock portfolios and capital budgets",
+      "monograph_title": "the review of economics and statistics",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1965",
+      "pages": "13",
+      "volume": "47",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1924119",
+      "raw_reference": "lintner, j. (1965), the valuation of risk assets and the selection of risky investments in stock portfolios and capital budgets, the review of economics and statistics, 47 : 1337."
+    },
+    {
+      "authors": [
+        "mackinlay, a"
+      ],
+      "title": "on multivariate tests of the capm",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1985",
+      "pages": "341371",
+      "volume": "18",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/0304405x(87)900444",
+      "raw_reference": "mackinlay, a. c. (1985), on multivariate tests of the capm, journal of financial economics, 18 : 341371."
+    },
+    {
+      "authors": [
+        "merton, robert"
+      ],
+      "title": "an intertemporal capital asset pricing model",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1973",
+      "pages": "867",
+      "volume": "41",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1913811",
+      "raw_reference": "merton, r. (1973), an intertemporal capital asset pricing model, econometrica, 41 : 867887."
+    },
+    {
+      "authors": [
+        "mossin, jan"
+      ],
+      "title": "equilibrium in a capital asset market",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1966",
+      "pages": "768",
+      "volume": "34",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1910098",
+      "raw_reference": "mossin, j. (1966), equilibrium in a capital asset market, econometrica, 34 : 768783."
+    },
+    {
+      "authors": [
+        "pastor, lubos",
+        "stambaugh, robert"
+      ],
+      "title": "liquidity risk and expected stock returns",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2003",
+      "pages": "642685",
+      "volume": "111",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/374184",
+      "raw_reference": "pastor, l. et r. f. stambaugh (2003), liquidity risk and expected stock returns, the journal of political economy, 111 : 642685."
+    },
+    {
+      "authors": [
+        "shanken, j",
+        "zhou, g"
+      ],
+      "title": "estimating and testing beta pricing models: alternative methods and their performance in simulations☆",
+      "monograph_title": "journal of financial economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "4086",
+      "volume": "84",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jfineco.2006.02.003",
+      "raw_reference": "shanken, j. et g. zhou (2007), estimating and testing beta pricing models: alternative methods and their performance in simulations, journal of financial economics, 84 : 4086."
+    },
+    {
+      "authors": [
+        "sharpe, william"
+      ],
+      "title": "capital asset prices: a theory of market equilibrium under conditions of risk*",
+      "monograph_title": "the journal of finance",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1964",
+      "pages": "425442",
+      "volume": "19",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.15406261.1964.tb02865.x",
+      "raw_reference": "sharpe, w. f. (1964), capital asset prices: a theory of market equilibrium under conditions of risk, the journal of finance, 19 : 425442."
+    },
+    {
+      "authors": [
+        "ross, stephen"
+      ],
+      "title": "the arbitrage theory of capital asset pricing",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1976",
+      "pages": "341360",
+      "volume": "13",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/00220531(76)900466",
+      "raw_reference": "ross, s. a. (1976), the arbitrage theory of capital asset pricing, journal of economic theory, 13 : 341360."
+    },
+    {
+      "authors": [
+        "treynor, jack"
+      ],
+      "title": "market value, time, and risk",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "time, and risk",
+      "date": "1961",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "document de travail",
+      "url": "",
+      "doi": "10.2139/ssrn.2600356",
+      "raw_reference": "treynor, j. l. (1961), market value, time, and risk, document de travail."
+    },
+    {
+      "authors": [
+        "treynor, j"
+      ],
+      "title": "",
+      "monograph_title": "toward a theory of market value of risky assets",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1962",
+      "pages": "4959",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "document de travail",
+      "url": "",
+      "doi": "10.1002/9781119196679.ch6",
+      "raw_reference": "treynor, j. l. (1962), toward a theory of market value of risky assets, document de travail."
+    }
+  ],
+  "notes": [
+    "[2] en fait, en presence de problemes didentification, la probabilite de couverture est de beaucoup inferieure a 95 % et peut meme etre nulle.",
+    "[3] a noter que, tel que nous le montrerons plus bas, ce modele tres flexible devaluation dactifs peut inclure des restrictions non lineaires impliquant le taux zerobeta et les primes de risque."
+  ],
+  "figures": [],
+  "tables": []
+}

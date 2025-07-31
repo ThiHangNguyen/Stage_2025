@@ -12,22 +12,6 @@
       "orcid": ""
     },
     {
-      "first_name": "rachid",
-      "last_name": "sabbahi",
-      "email": "rachid.sabbahi@nrcanrncan.gc.ca",
-      "affiliation": ". inrsinstitut armandfrappier, 531, boul. des prairies, laval ( quebec ), canada h7v 1b7",
-      "website": "",
-      "orcid": ""
-    },
-    {
-      "first_name": "robert",
-      "last_name": "lavallee",
-      "email": "",
-      "affiliation": "corner brook (newfoundland and labrador), canada a2h. natural resources canada,",
-      "website": "",
-      "orcid": ""
-    },
-    {
       "first_name": "robert",
       "last_name": "lavallee",
       "email": "",
@@ -38,22 +22,6 @@
     {
       "first_name": "abderrazzak",
       "last_name": "merzouki",
-      "email": "",
-      "affiliation": ". inrsinstitut armandfrappier, 531, boul. des prairies, laval ( quebec ), canada h7v 1b7",
-      "website": "",
-      "orcid": ""
-    },
-    {
-      "first_name": "abderrazzak",
-      "last_name": "merzouki",
-      "email": "",
-      "affiliation": ". inrsinstitut armandfrappier, 531, boul. des prairies, laval ( quebec ), canada h7v 1b7",
-      "website": "",
-      "orcid": ""
-    },
-    {
-      "first_name": "claude",
-      "last_name": "guertin",
       "email": "",
       "affiliation": ". inrsinstitut armandfrappier, 531, boul. des prairies, laval ( quebec ), canada h7v 1b7",
       "website": "",
@@ -76,22 +44,6 @@
       "orcid": ""
     },
     {
-      "first_name": "natural",
-      "last_name": "resources canada",
-      "email": "",
-      "affiliation": "natural resources canada, atlantic forestry centre, p.o. box 960,",
-      "website": "",
-      "orcid": ""
-    },
-    {
-      "first_name": "laurentian",
-      "last_name": "forestry centre",
-      "email": "",
-      "affiliation": "laurentian forestry centre, 1055 du p.e.p.s., p.o. box 10380,",
-      "website": "",
-      "orcid": ""
-    },
-    {
       "first_name": "laurentian",
       "last_name": "forestry centre",
       "email": "",
@@ -104,22 +56,6 @@
       "last_name": "saintefoy",
       "email": "",
       "affiliation": "stn. saintefoy, quebec ( quebec ), canada g1v 4c7 4.",
-      "website": "",
-      "orcid": ""
-    },
-    {
-      "first_name": "stn.",
-      "last_name": "saintefoy",
-      "email": "",
-      "affiliation": "stn. saintefoy, quebec ( quebec ), canada g1v 4c7 4.",
-      "website": "",
-      "orcid": ""
-    },
-    {
-      "first_name": "ecole",
-      "last_name": "polytechnique de montreal",
-      "email": "",
-      "affiliation": "ecole polytechnique de montreal, c.p. 6079, succ. centreville, montreal ( quebec ), canada h3c 3a7",
       "website": "",
       "orcid": ""
     },
@@ -164,6 +100,17 @@
   ],
   "themes": [],
   "language": "en",
+  "body": [
+    "introduction",
+    "materials and methods",
+    "fungal isolates and culture conditions",
+    "dna extraction from infected insects",
+    "amplification of ssu and lsu of rdna",
+    "dna sequencing and data analysis",
+    "rflp analysis of the 3 end28s rrna region",
+    "results",
+    "discussion"
+  ],
   "acknowledgements": "acknowledgementsthanks are extended to m. moussadak and a. forget for laboratory assistance.this project was supported by mapaq and fqrnt research grants nos.102075 and 2004fo101761, respectively, to c. guertin.this research was conducted in partial fulfillment of the requirement for a ph.d. degree for r. sabbahi at the inrsinstitut armandfrappier.",
   "biographical_notes": [],
   "bibliographies": [
@@ -1226,83 +1173,6 @@
     }
   ],
   "notes": [],
-  "body": [
-    {
-      "title": "introduction",
-      "paragraphs": [
-        "the entomopathogenic fungus beauveria bassiana (balsamo) vuillemin is a ubiquitous soilborne pathogen isolated from a wide range of insect species, mostly pests of economic importance (faria and wraight 2001; inglis et al. 2001; jaronski and goettel 1997). there is considerable interest in the development of this fungus for the control of insect pests because it is considered an environmentally benign alternative to chemical insecticides (ludwig and oetting 2002; padjama and kaur 2001; wright and chandler 1991). the potential of this fungus for biocontrol has been exploited by using local isolates collected from either the soil or dead insect hosts found in different geographical areas.",
-        "as it is the case with most mitosporic fungi, little is known about the basic genetics and/or genome organization of b. bassiana. one of the groups of genes that are most frequently targeted for phylogenetic studies is the one that codes for ribosomal rna (destefano et al. 2004 ). however, there is concern about the release of b. bassiana isolates in the field, primarily because little is known about the fate of the inoculum and its impact on nontarget organisms. this concern is exacerbated by the difficulty of tracking the released fungus in the field. in order to overcome this problem, a method needs to be devised that would discriminate between isolates and also allow the screening of large numbers of samples and detect the pathogen in infected hosts (hajek et al. 1991). in turn, this should lead to a more efficacious use of entomopathogens in pest control programs. highly specific markers would also be extremely useful for the patenting of commercially viable isolates.",
-        "current methods (e.g. allozyme electrophoresis) only partly fulfil these requirements. they may fail because they can only distinguish between species (e.g. hajek et al. 1991; wilding et al. 1992) or require large quantities of purified fungal dna (e.g. hegedus and khachatourians 1993), a timeconsuming process that is unrealistic if large numbers of samples are to be processed. polymerase chain reactionrandom amplified polymorphic dna (pcrrapd) has been used to characterize isolates of b. bassiana and has been shown to be highly discriminatory (berretta et al. 1998; castrillo and brooks 1998; urtz and rice 1997). however, this method is very susceptible to contamination and depends on purified dna extracted from axenic cultures.",
-        "very similar problems to those encountered when identifying entomopathogenic fungi in infected insects are found when identifying plant pathogenic fungi from infected plants. specific primers for pcr have been used effectively to detect and differentiate plant pathogenic fungi (e.g. henson et al. 1993; ouellet and seifert 1993).",
-        "genetic markers such as pcrrestriction fragment length polymorphism (pcrrflp) are much exploited in plants, in particular for the construction of genetic charts (devey et al. 1994) or for the localization of qtls (qualitative trait loci) related to resistance genes (kicherer et al. 2000; lubberstedt et al. 1999). in hyphomycetes, the pcrrflp technique makes it possible to differentiate, for example, isolates of metarhizium anisopliae (metsch.) soroko (destefano et al. 2004 ), beauveria brongniartii (sacc.) petch (wada et al. 2003), paecilomyces farinosus (holmsk.) a.h.s. br. & g. sm. (chew et al. 1997), and entomophaga maimaiga humber, shimazu & r.s. soper (hajek et al. 1991).",
-        "our work consisted in identifying the 18s, its1, 5.8s, its2 and 28s regions of b. bassiana ribosomal dna. we describe a new method for the identification/characterization of b. bassiana isolates that are relevant to current research on the biocontrol potential of this fungus. the pcrrflp method is based on the amplification of a portion of the gene encoding the 28s rrna from b. bassiana followed by restriction digestion of this pcr product."
-      ]
-    },
-    {
-      "title": "materials and methods",
-      "paragraphs": []
-    },
-    {
-      "title": "fungal isolates and culture conditions",
-      "paragraphs": [
-        "six b. bassiana isolates came from the inrsinstitut armandfrappier (laval, qc, canada) collection and were derived from a variety of hosts and geographical origins (table 1 ). stock cultures of each isolate were kept frozen at 70°c in 70% glycerol. isolates were growing on sabouraud dextose agar (sda) (10% neopeptone, 40% dextrose, 15% agar, ph 5.6) (difco laboratories, germany) under controlled conditions in a growth chamber (mlr350, sanyo, japan) at 25°c, 80% rh, in darkness.",
-        "table 1. host and geographical origin of the tested isolates of beauveria bassiana isolate a host geographical origin inrscfl tomicus piniperda (coleoptera: scolytidae) quebec, canada inrsip lygus sp. (heteroptera: miridae) quebec, canada arsef2991 leptinotarsa decemlineata (coleoptera: chrysomelidae) quebec, canada daom195005 choristoneura fumiferana (lepidoptera: tortricidae) quebec, canada daom210087 leptinotarsa decemlineata (coleoptera: chrysomelidae) quebec, canada daom216540 reticulitermes flavipes (isoptera: rhinotermitidae) ontario, canada a inrs: institut national de la recherche scientifique, institut armandfrappier, collection de champignons entomopathogenes, laval, quebec, canada; arsef: agriculture research service of entomopathogenic fungi, usda, ithaca, new york, usa; daom: eastern cereal and oilseed research centre, ottawa, ontario, canada."
-      ]
-    },
-    {
-      "title": "dna extraction from infected insects",
-      "paragraphs": [
-        "the tarnished plant bug lygus lineolaris (p. de b.) was infected with isolates of b. bassiana that have already been established as being highly virulent under laboratory conditions (sabbahi et al. 2008 ). in our bioassays, the fungushost contact was maximized by immersion of the host in a conidial suspension. the inoculation of insects was then performed by dipping 20 adults of l. lineolaris individually for 5 s in a 50 ml suspension at 1 x 10 7 conidia ml 1 (butt et al. 1994 ).",
-        "the insects were then kept individually on wet filter paper (whatman international ltd., maidstone, england, uk) in a 9 cm diam petri dish for incubation in a growth chamber at 25°c, 70% rh, and 16:8 h (l:d) photoperiod. the experiment was repeated three times. the replicated treatments were made from different stock cultures. upon death, insects were kept in a growth chamber at 25°c, 90% rh, and darkness for 2 wk to promote fungal emergence and conidiation. fungal isolates were reselected from the dead individuals after sporulation on the surface of the cadavers using sterile sticks and spread on a b. bassiana selective medium (17.5 g oatmeal agar, 0.45 g dodine, 2.5 mg crystal violet, 0.2 g penicillin g, and 0.5 g streptomycin) (chase et al. 1986). each reselected isolate was isolated by taking a singleconidium with sterile sticks and inoculated in sabouraud dextrose broth (neopeptone 1%, dextrose 2%), and incubated at 25°c for 7 d at 160 rpm to produce spores. details of the production of sterile spores and dna extraction procedures are described by pfeifer and khachatourians (1993) ; 100 mg of aspergillus niger tiegh. cellulase and 50 mg of trichoderma harzianum rifai cellulase were used instead of 100 mg of trichoderma viride pers. cellulase and 100 mg of penicillium funiculosum thom cellulase. extracted dna was dissolved in 50 μl sterile distilled water and stored at 20°c until needed."
-      ]
-    },
-    {
-      "title": "amplification of ssu and lsu of rdna",
-      "paragraphs": [
-        "amplification of specific portions of the rdna small subunit (ssu) and large subunit (lsu) of six b. bassiana isolates was done by pcr in a dna thermal cycler (gene amp ® pcr system 9700, applied biosystems, foster city, ca). the specific primers used to amplify the 18sits region and 28s rrna gene are shown in table 2. amplification was done in a 50 μl reaction mixture containing 100 ng of genomic dna, 40 pmol of each primer, 1 x taq polymerase buffer, 200 μmol l 1 deoxynucleotide triphosphate (dntps), and 2.5 u taq polymerase. all pcr reagents were purchased from sigma aldrich (oakville, on). amplification cycles were completed as follows: initial denaturation at 94°c for 5 min, followed by 35 cycles of denaturation at 94°c for 30 s, annealing at 53°c for 1 min, extention at 72°c for 40 s, and final extension at 72°c for 10 min. tubes were placed in the thermocycler once it had reached 60°c. reaction products were analyzed by electrophoresis in 0.8% agarose gels in 0.5 x tae buffer (40 mm tris acetate, 1 mm edta, ph 8.0). we used 1 kb plus dna ladder (gibco brl, burlington, on, canada) to reveal the pcr product size. nucleic acids were visualised with ethidium bromide using biorad gel doc 1000 apparatus (biorad laboratories inc., canada)."
-      ]
-    },
-    {
-      "title": "dna sequencing and data analysis",
-      "paragraphs": [
-        "pcr products were cloned in vector pcr ® 2.1 using the ta cloning kit (invitrogen, canada). doublestranded dna obtained by pcr amplification was used as template for sequence reactions. the reactions were performed by using either universal forward or reverse sequencing primers. in all cases, sequencing was performed in both directions for the entire sequence to avoid misreading. sequence reactions were performed at the genome quebec innovation centre of mcgill university (montreal, canada). the ends of the pcr products were identified by using internal primers based on the sequences obtained. dna similarity searches were performed using basic local alignment search tool (blast 1.4 10mp; altschul et al. 1990), while dna sequence alignment and pairing of the resulting nucleotide sequences were made using the bioedit program package v. 7.0.9 (ibis biosciences, carlsbad, ca). these sequences were also compared with the published rdna fragments of other hyphomycete species by conducting multiple sequence alignments using the blast program."
-      ]
-    },
-    {
-      "title": "rflp analysis of the 3 end28s rrna region",
-      "paragraphs": [
-        "ten restriction endonucleases (newengland biolabs inc., on, canada) were screened to detect polymorphic restriction sites within the 3 end of the 28s rdna product amplified from six different isolates of b. bassiana. digestion of the pcr products was carried out as follows: 5 μl of the pcr mixture containing about 100 ng of pcr product was digested by the addition of 5 units of restriction enzyme, 1 μl of appropriate buffer and 13.5 μl of distilled water.",
-        "reactions were incubated according to the manufacturers instructions (newengland biolabs",
-        "table 2. primers used in rdna amplification of beauveria bassiana isolates primer a sequence (5>3) references 18sits fw1 gtagtcatatgcttgtctc white et al. 1990 18sits rv1 tcctccgcttattgatatgc white et al. 1990 5 end28s fw1 cggaggaaaagaaaccaacaggat a 5 end28s rv1 ctcgagtcatagttactccc a 3 end28s fw1 ctgcccagtgctctgaatgtcaaag neuveglise and brygoo 1994 3 end28s rv1 cctctccgcaatggtaattcagc neuveglise and brygoo 1994",
-        "a these primers were designed based on the nucleotide sequences obtained after sequencing the cloned pcr products. two pairs of primers were used to amplify the complete 28s rdna gene (this gene was divided into two regions: 5 and 3 end 28s).",
-        "inc., on, canada). after digestion, the restriction fragments produced were separated by electrophoresis in 1.2% agarose gels as described above. we included 1 kb plus dna ladder as dna size markers."
-      ]
-    },
-    {
-      "title": "results",
-      "paragraphs": [
-        "we studied the rdna of b. bassiana in order to identify variations in the 18s gene, its1, 5.8s gene, its2, and 28s gene. a method was used to detect the isolates from insect sampling. we used pcr, rdna sequence data comparisons and rflp analysis to confirm the identity of the isolates after bioassays.",
-        "our research made it possible to amplify and sequence, for the first time, the complete sequences of the rdna of six isolates of b. bassiana (table 3 ). these isolates were recorded in genbank under the following accession numbers: eu334674, eu334675, eu334676, eu334677, eu334678 and eu334679.",
-        "we demonstrated that the rdna contains preserved and variable areas. precisely, the ssu of the rdna was the most preserved unit, with a homology higher than 99.5% between the six studied isolates (table 4 ). the analysis of the nucleotidic sequences of the 18s gene revealed some substitutions and deletions or insertions for the six isolates, and the presence of an intron of 387 bp only for isolate daom210087 (table 4 ). however, when compared with other genbank nucleotide sequences of some hyphomycete species such as b. brongniartii, m. anisopliae and tolypocladium cylindrosporum w. gams, the internal transcribed spacers (its1 and its2) and the 5.8s gene sequences make it possible to distinguish b. bassiana from these hyphomycete species.",
-        "our results demonstrated for the first time that the 5 end of the rrna 28s gene was 100% homologous among the six isolates studied. however, the 3 end of this gene accumulated much variability. in an attempt to explain the nature of the lsu rrna gene size polymorphism of certain b. bassiana isolates, we analyzed the pcr products of the 3 end of this gene region and we can report the presence of four groupi introns (table 5 ). their presence or absence in the isolates could explain the variation in the size of the amplified fragments of the rrna 28s gene. this variation made it possible to establish the techniques of an approach based on the comparison of the profiles following digestion by the restriction enzymes, which will cross to specific sites in the variable areas of the 28s gene (table 6 ). the use of the pcrrflp technique made it possible to discriminate the studied isolates according to their genetic profiles (table 6 ). results were reproducible when the dna was extracted from conidia taken from axenic cultures.",
-        "the pcrrflp method, which includes pcr of primers at the 3end of the 28s rrna gene, was used with six b. bassiana isolates that produced different bands varying from 822 to 1754 bp (table 3 ). half of the endonucleases studied were able to digest the 328spcr product and exhibited polymorphism between the six isolates (table 6 ). restriction patterns obtained using the endonucleases sal i, acc i and afl ii poorly discriminated between isolates while those produced using cla i, sma i and ecor i were",
-        "table 4. genomic analysis of the rdna ssu of beauveria bassiana isolates (letters indicate substitutions, deletions or insertions) inrsinrsarsef daom daom daom ssu position ip cfl 2991 216540 195005 210087 1 8 s 4 0 9",
-        "table 3. size (bp) of rdna pcr products of beauveria bassiana isolates isolate 18sits 5 end28s 3 end28s inrsip 2315 2178 2178 inrscfl 2315 2178 1265 arsef2991 2315 2178 1623 daom216540 2315 2178 1623 daom195005 2315 2178 822 daom210087 2703 2178 1754 table 5. genomic analysis of the rdna lsu of beauveria bassiana (data represents the position, size and type of introns observed in b. bassiana isolates) type and position of groupi introns type 1 type 2 type 3 isolate (388 bp) (505 bp) (358 bp) inrsip 73461 11831571 inrscfl 73461 arsef2991 73461 6611019 daom216540 73461 6611019 daom195005 daom210087 73461 10501555 table 6. size (bp) of dna fragments obtained after endonuclease digestion of the 3 end28s of rdna from beauveria bassiana isolates size of the fragments for each enzyme acc i afl ii afl iii ava i bgl i bst xi cla i ecor i sal i sma i isolate inrsip 705 916 1333 759 1260 1027 1366 1152 1262 834 486 474 321 515 377 627 257 502 392 820 284 216 307 17 107 48 73 72 inrscfl 781 745 944 757 873 640 1008 1150 832 484 473 321 435 392 625 257 115 433 48 73 arsef2991 668 745 1302 1115 1231 998 1010 1508 929 1190 484 473 321 435 392 625 627 115 668 433 231 48 73 25 215 25 daom216540 668 745 1302 1115 1231 998 1010 1508 929 1190 484 473 321 435 392 625 627 115 668 433 231 48 73 25 215 25 daom195005 745 435 640 565 707 433 77 387 182 257 115 389 daom210087 1022 1325 658 1290 1146 991 1638 939 467 320 376 464 608 763 116 450 265 109 365 365 253 72",
-        "moderately to highly discriminatory (table 6 ). the restriction patterns of all isolates predominated. however, similar patterns for the arsef2991 and daom216540 isolates were noted."
-      ]
-    },
-    {
-      "title": "discussion",
-      "paragraphs": [
-        "comparisons of the 18s rrna sequences have been performed to assess the relationships between the major groups of living organisms (coates et al. 2002a; woese et al. 1990). for phylogeny of filamentous fungi, the 18s sequence is mostly used (bruns et al. 1992 ). in the 18s gene, the variable domains mostly provide insufficient information for diagnostic purposes (de hoog and gerrits van den ende 1998). the its regions are much more variable, but sequences can be aligned with confidence only between closely related taxa. these regions are generally used for species differentiation (guarro et al. 1999). for example, strains of beauveria were identified by pcrrflp of nuclear rrna internal transcribed spacer regions (coates et al. 2002b; glare and inwood 1998). in our study, the its region did not show any polymorphism within the b. bassiana isolates, but only differentiated b. bassiana from the other hyphomycete species. in contrast, 5.8s rdna is too small and has the least variability and is therefore also inadequate for use in isolate differentiation.",
-        "recently, several molecular approaches have been used in a number of reports to detect polymorphisms within the beauveria species, e.g. rflp analysis (chew et al. 1997; maurer et al. 1997; pfeifer et al. 1993), rdna sequence data comparisons (destefano et al. 2004; rakotonirainy et al. 1991), and rapd (berretta et al. 1998; castrillo and brooks 1998; urtz and rice 1997). all these approaches undoubtedly helped to detect some polymorphism among isolates of the species and the genus but, in general, it was evident that the rrna gene complex repeat region was rather conserved.",
-        "in this study, pcrrflp analysis of the 28s rrna gene provided some levels of polymorphism indicating size differences in this region among the six b. bassiana isolates tested. the detection of groupi introns within the 28s region of b. bassiana, in combination with our observation of size enlargements of the relevant amplified region, led us to conduct an investigation into the nature of the recorded polymorphism in six b. bassiana isolates. polymorphisms in the rdna gene region have been attributed to small insertions/deletions, multiple duplications or, most often, to the presence of groupi introns. these introns are found in a diverse range of higher organisms, including fungi, protists and green algae, where they occur in the nuclear, mitochondrial and chloroplast genomes (belshaw and bensasson 2006; bhattacharya et al. 2005; haugen et al. 2005; kupfer et al. 2004; mattick 1994).",
-        "considerably fewer cases are reported where groupi introns have been identified in the nuclear lsu rdna genes, e.g. b. brongniartii (neuveglise et al. 1994, 1997). in many cases, the introns appear in a limited number of discrete dna sequence positions, as reported for nuclear ssu rdna genes (gargas et al. 1995) or lsu rdna genes (neuveglise et al. 1997). the distribution of groupi introns is, in general, extremely irregular, with introns being optional, i.e. present in some isolates and absent from others (haugen et al. 2005). in an attempt to explain the nature of lsu rrna gene size polymorphism of certain b. bassiana isolates, we analyzed their pcr products at the 3 end of this gene region and discovered four groupi introns. the possible mobility of these introns as a source of molecular genetic variation should be discussed in future studies.",
-        "although it is not the only tool for detecting absolute genetic relatedness, the pcrrflp technique can be used to get a rough estimate of the genetic relatedness of groups of b. bassiana isolates. recent papers have used microsatellite and minisatellite markers to uncover both interand intraspecific variation within beauveria (enkerli et al. 2004 ). specifically, coates et al. (2002c) identified one polymorphic minisatellite locus, and rehner and buckley (2003) characterized eight highly polymorphic microsatellite loci for b. bassiana. in addition to suggesting relatedness, the markers will also be useful for conducting field tests to determine the impact of various isolates regarding the mortality and infection of insects. for example, takatsuka (2007) developed molecular markers based on a sequencecharacterized amplified region (scar) to monitor the presence of the b. bassiana f263 strain, which is used to control the japanese pine sawyer, monochamus alternatus hope.",
-        "we describe a robust method, pcrrflp, for the identification of b. bassiana isolates. however, in this study, two isolates were found to have similar profiles; this should not lead to an underestimation of the potential of this method because some isolates collected from the same or different locations could be clones and, therefore, might have been inadvertently replicated. for instance, the two canadian isolates (arsef2991 and daom216540), which had similar pcrrflp profiles, were isolated from leptinotarsa decemlineata (say) [coleoptera: chrysomelidae] and reticulitermes flavipes (koll.) [isoptera: rhinotermitidae] in quebec and ontario, respectively. this highlights the need for caution: exotic and native isolates should not automatically be assumed to possess different types of profile. future studies should consider a larger sample number of b. bassiana isolates from different host and geographical origins to examine the genetic diversity between them."
-      ]
-    }
-  ],
   "figures": [],
   "tables": []
 }

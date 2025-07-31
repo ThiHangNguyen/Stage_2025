@@ -1,0 +1,675 @@
+{
+  "title": "le niveau des prix en tunisie estil determine par la politique budgetaire?*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "mouldi",
+      "last_name": "djelassi",
+      "email": "djelassimouldi@yahoo.fr",
+      "affiliation": "ecole superieure des sciences economiques et commerciales de tunis, laboratoire deconomie dorleans et laboratoire de recherche en economie unite de recherche en economie monetaire et financiere, faculte des sciences economiques et de gestion de tunis",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "lobna",
+      "last_name": "essid",
+      "email": "lobnadmission@yahoo.fr",
+      "affiliation": "ecole superieure des sciences economiques et commerciales de tunis, laboratoire deconomie dorleans et laboratoire de recherche en economie unite de recherche en economie monetaire et financiere, faculte des sciences economiques et de gestion de tunis",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "leconomie tunisienne a connu une inflation faible et stable sans precedent suite aux reformes du programme dajustement structurel (pas).lobjectif de cet article consiste a trouver des contacts entre les pratiques des politiques monetaire et budgetaire tunisiennes avec la litterature economique.afin de prendre en compte les effets reciproques entre le passif et lactif du budget de letat, nous adoptons une demarche en terme du modele var ainsi que des tests de causalites de granger.la theorie budgetaire du niveau des prix sapplique au cas de leconomie tunisienne ou le surplus est exogene.nous attribuons le niveau faible et stable de linflation a une politique budgetaire dominante et une politique monetaire qui cible le taux dinteret.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "origines theoriques",
+    "estimation empirique de la theorie budgetaire du niveau des prix",
+    "les donnees",
+    "stationnarite",
+    "3.",
+    "reponse a un choc du surplus primaire y compris les revenus de seigneuriage (ordre dette titriseesurplus)",
+    "reponse du surplus, y compris les",
+    "reponses a un choc du surplus primaire (ordre surplus y compris les revenus de seigneuriagedette titrisee)",
+    "test de causalite de granger : resultats empiriques",
+    "lien de causalite entre ratio du passif et ratio de lactif dans le cadre du pas",
+    "hypothese nulle",
+    "lien de causalite entre depenses et ratio de la dette",
+    "politique budgetaire exogene",
+    "revision du role de la politique monetaire de la bct",
+    "5."
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "alstadheim, r"
+      ],
+      "title": "",
+      "monograph_title": "is the price level in norway determined by fiscal policy?",
+      "editors": [],
+      "publisher": "norges bank",
+      "place": "",
+      "date": "2005",
+      "pages": "118",
+      "volume": "5",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "alstadheim, r. (2005), is the price level in norway determined by fiscal policy?, working paper, norges bank, 5 : 118."
+    },
+    {
+      "authors": [
+        "ayoub, hassan",
+        "creel, jerome",
+        "farvaque, etienne"
+      ],
+      "title": "determination du niveau des prix et finances publiques : le cas du liban, 1965 2005",
+      "monograph_title": "revue deconomie du developpement",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2008. 19652005",
+      "pages": "115141",
+      "volume": "vol. 16",
+      "issue": "3",
+      "organization": "",
+      "notes": "revue de lofce",
+      "url": "",
+      "doi": "10.3917/edd.223.0115",
+      "raw_reference": "ayoub, h., j. creel et e. farvaque (2008), determination du niveau des prix et finances publiques : le cas du liban, 19652005, revue de lofce, document de travail, 14 : 122."
+    },
+    {
+      "authors": [
+        "baldini, a",
+        "ribeiro, m"
+      ],
+      "title": "",
+      "monograph_title": "fiscal and monetary anchors for price stability: evidence from subsaharan africa., imf working paper",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2008",
+      "pages": "8121",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "baldini, a. et m. p. ribeiro (2008), fiscal and monetary anchors for price stability: evidence from subsaharan africa., imf working paper, 08121."
+    },
+    {
+      "authors": [
+        "blancheton, bertrand",
+        "senegas, marcalexandre"
+      ],
+      "title": "la theorie budgetaire du niveau general des prix face a lhistoire monetaire francaise : assise empirique et eclairages theoriques",
+      "monograph_title": "economie appliquee",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "2003",
+      "pages": "1943",
+      "volume": "56",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ecoap.2003.3092",
+      "raw_reference": "blancheton, b. et m.a. senegas (2003), la theorie budgetaire du niveau general des prix face a lhistoire monetaire francaise : assise empirique et eclairages theoriques, economie appliquee, 56 : 1943."
+    },
+    {
+      "authors": [
+        "ch, ;",
+        "cumby, r",
+        "diba, b"
+      ],
+      "title": "is the price level determined by the needs of fiscal solvency?",
+      "monograph_title": "the monetary policy of the central bank of tunisia: an assessment, 9 th annual conference of the economic research forum, uae. canzoneri",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2007. 2002. 2001",
+      "pages": "12261238",
+      "volume": "91",
+      "issue": "",
+      "organization": "",
+      "notes": "la politique monetaire edition la decouverte american economic review",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bordes, ch. (2007), la politique monetaire, edition la decouverte, collections. reperes. boughrara, a. (2002), the monetary policy of the central bank of tunisia: an assessment, 9 th annual conference of the economic research forum, uae. canzoneri, m., r. cumby et b. diba( 2001), is the price level determined by the needs of fiscal solvency?, american economic review, 91 : 12261238."
+    },
+    {
+      "authors": [
+        "cochrane, john"
+      ],
+      "title": "longterm debt and optimal policy in the fiscal theory of the price level",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "1998. 2001",
+      "pages": "69116",
+      "volume": "69",
+      "issue": "1",
+      "organization": "center for research in security prices, graduate school of business, university of chicago. cochrane",
+      "notes": "j. longterm debt and optimal policy in the fiscal theory of the price level econometrica",
+      "url": "",
+      "doi": "10.1111/14680262.00179",
+      "raw_reference": "cochrane, j. h. (1998), longterm debt and optimal policy in the fiscal theory of the price level, crsp working papers, 478, center for research in security prices, graduate school of business, university of chicago. cochrane, j. (2001), longterm debt and optimal policy in the fiscal theory of the price level, econometrica, 69 : 69116."
+    },
+    {
+      "authors": [
+        "creel, jerome",
+        "sterdyniak, henri"
+      ],
+      "title": "la politique monetaire sans monnaie",
+      "monograph_title": "revue de lofce",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "1999",
+      "pages": "111153",
+      "volume": "70",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ofce.1999.1693",
+      "raw_reference": "creel, j. et m. sterdyniak (1999), la politique monetaire sans monnaie, revue de lofce, 70 : 111153."
+    },
+    {
+      "authors": [
+        "creel, j"
+      ],
+      "title": "",
+      "monograph_title": "strategic interactions between monetary and fiscal policies: a case study for the european stability pact",
+      "editors": [],
+      "publisher": "royal economic society",
+      "place": "",
+      "date": "2001. 2001",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "university of durham",
+      "notes": "royal economic conference, paper presented at the",
+      "url": "",
+      "doi": "",
+      "raw_reference": "creel, j. (2001), strategic interactions between monetary and fiscal policies: a case study for the european stability pact, royal economic conference, paper presented at the 2001 royal economic society, conference held at the university of durham."
+    },
+    {
+      "authors": [
+        "creel, jerome",
+        "sterdyniak, henri"
+      ],
+      "title": "la theorie budgetaire du niveau des prix, un bilan critique",
+      "monograph_title": "revue deconomie politique",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2001",
+      "pages": "909939",
+      "volume": "vol. 111",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/redp.116.0909",
+      "raw_reference": "creel, j. et m. sterdyniak(2001), la theorie budgetaire du niveau des prix, un bilan critique, revue deconomie politique, 111 : 909939."
+    },
+    {
+      "authors": [
+        "creel, jerome",
+        "kamber, gunes"
+      ],
+      "title": "debt, deficits and inflation on the road to the eu: the case of turkey",
+      "monograph_title": "revue de lofce",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2004",
+      "pages": "157",
+      "volume": "91 bis",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/reof.075.0157",
+      "raw_reference": "creel, j. et g. kamber (2004), debt, deficit and inflation on the road to the eu: the case of turkey, revue de lofce, special issue, 157174."
+    },
+    {
+      "authors": [
+        "creel, jerome",
+        "bihan, herve"
+      ],
+      "title": "using structural balance data to test the fiscal theory of the price level: some international evidence",
+      "monograph_title": "journal of macroeconomics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2006",
+      "pages": "338360",
+      "volume": "28",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmacro.2004.07.009",
+      "raw_reference": "creel, j. et h. le bihan, (2006), using structural balance data to test the fiscal theory of the price level: some international evidence, journal of macroeconomics, 23 : 338360."
+    },
+    {
+      "authors": [
+        "fanizza, d",
+        "soderling, l"
+      ],
+      "title": "fiscal determinant of inflation: a primer for the middle east and north africa",
+      "monograph_title": "imf working paper",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "6216",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "fanizza, d. et l. soderling (2006), fiscal determinant of inflation: a primer for the middle east and north africa, imf working paper, 06216 : 115."
+    },
+    {
+      "authors": [
+        "a"
+      ],
+      "title": "",
+      "monograph_title": "greenspan, alan, (born 6 march 1926), president, greenspan associates llc, since 2006; chairman, board of governors of the federal reserve system, usa, 19872006",
+      "editors": [],
+      "publisher": "oxford university press",
+      "place": "",
+      "date": "1997",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/ww/9780199540884.013.u18085",
+      "raw_reference": "greenspan, a. (1997), rules versus discretionary policy, remarks by alan greenspan, the federal reserve board."
+    },
+    {
+      "authors": [
+        "haddou, samira"
+      ],
+      "title": "regles de retroaction et reformes monetaires : quelques propos sur le cas tunisien",
+      "monograph_title": "mondes en developpement",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2002",
+      "pages": "79",
+      "volume": "118",
+      "issue": "2",
+      "organization": "",
+      "notes": "tome 30",
+      "url": "",
+      "doi": "10.3917/med.118.0079",
+      "raw_reference": "haddou, s. (2002), regles de retroaction et reformes monetaires : quelques propos sur le cas tunisien, mondes en developpement, tome 30."
+    },
+    {
+      "authors": [
+        "haddou, s"
+      ],
+      "title": "regle de taylor et efficacite de la politique monetaire en tunisie",
+      "monograph_title": "africain review of money finance and banking",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "4764",
+      "volume": "34",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "haddou, s. (2003), regle de taylor et efficacite de la politique monetaire en tunisie, africain review of money finance and banking, 34(3) : 4764."
+    },
+    {
+      "authors": [
+        "hamilton, james",
+        "flavin, marjorie"
+      ],
+      "title": "on the limitations of government borrowing: a framework for empirical testing",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1986",
+      "pages": "808819",
+      "volume": "76",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w1632",
+      "raw_reference": "hamilton, j. d. et m. a. flavlin (1986), on the limitations of government borrowing : a framework for empirical testing, american economic review, 76 : 808819."
+    },
+    {
+      "authors": [
+        "kim, soyoung"
+      ],
+      "title": "monetary instrument problem revisited: the role of fiscal policy",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "10102",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2139/ssrn.303761",
+      "raw_reference": "kim, s. (2001), monetary instrument problem revisited: the role of fiscal policy, working paper series, 010102."
+    },
+    {
+      "authors": [
+        "a"
+      ],
+      "title": "comparative macroeconomic dynamics in the arab world: a panel var approach",
+      "monograph_title": "imf working paper",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "pages": "54",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kireyev, a. (2000), comparative macroeconomic dynamics in the arab world: a panel var approach, imf working paper, 0054."
+    },
+    {
+      "authors": [
+        "leeper, eric"
+      ],
+      "title": "equilibria under active and passive monetary and fiscal policies",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1991",
+      "pages": "129147",
+      "volume": "27",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03043932(91)90007b",
+      "raw_reference": "leeper, e.(1991), equilibria under active and passive monetary and fiscal policies, journal of monetary economics, 27 : 129147."
+    },
+    {
+      "authors": [
+        "c",
+        "lewis, s"
+      ],
+      "title": "interaction between monetary and fiscal policy",
+      "monograph_title": "journal of economic literature",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2000",
+      "pages": "93108",
+      "volume": "110",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "c. et s. wren lewis (2000), interaction between monetary and fiscal policy, journal of economic literature, 110 : 93108."
+    },
+    {
+      "authors": [
+        "mccallum, bennett"
+      ],
+      "title": "indeterminacy, bubbles, and the fiscal theory of price level determination",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1998",
+      "pages": "1930",
+      "volume": "47",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s03043932(00)000489",
+      "raw_reference": "mccallum, b. t. (1998), indeterminacy, bubbles, and the fiscal theory of price level determination, journal of monetary economics, 47 : 1930."
+    },
+    {
+      "authors": [
+        "nunes de nunes, a",
+        "portugal, m"
+      ],
+      "title": "a simple model for study of the determination of price level and the interaction of monetary and fiscal policy",
+      "monograph_title": "proceedings of the 37 th brazilian economics meeting. sims, c",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2010. 1994",
+      "pages": "381399",
+      "volume": "4",
+      "issue": "",
+      "organization": "",
+      "notes": "active and passive fiscal and monetary policies: an analysis for brazil after the inflation targeting regime",
+      "url": "",
+      "doi": "",
+      "raw_reference": "nunes de nunes, a.f. n. et m.s. portugal ( 2010), active and passive fiscal and monetary policies: an analysis for brazil after the inflation targeting regime, proceedings of the 37 th brazilian economics meeting. sims, c. (1994), a simple model for study of the determination of price level and the interaction of monetary and fiscal policy, economic theory, 4 : 381399."
+    },
+    {
+      "authors": [
+        "sims, c"
+      ],
+      "title": "",
+      "monograph_title": "stability and instability in us monetary policy behavior",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sims, c. (2001), stability and instability in us monetary policy behavior, article non publie."
+    },
+    {
+      "authors": [
+        "sims, christopher",
+        "stock, james",
+        "watson, mark"
+      ],
+      "title": "inference in linear time series models with some unit roots",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1990",
+      "pages": "113",
+      "volume": "58",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2938337",
+      "raw_reference": "sims, ch., j. h. stock et m. w. watson (1990), inference in linear times series models with some unit roots, econometrica, 58 : 11344."
+    },
+    {
+      "authors": [
+        "tanner, evan",
+        "ramos, alberto"
+      ],
+      "title": "fiscal sustainability and monetary versus fiscal dominance: evidence from brazil, 19912000",
+      "monograph_title": "applied economics",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2003. 19912000",
+      "pages": "859873",
+      "volume": "35",
+      "issue": "7",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/0003684032000056832",
+      "raw_reference": "tanner, e. et a. ramos (2003), fiscal sustainability and monetary versus fiscal dominance: evidence from brazil, 19912000, applied economics, 35 : 859873."
+    },
+    {
+      "authors": [
+        "woodford, michael"
+      ],
+      "title": "pricelevel determinacy without control of a monetary aggregate",
+      "monograph_title": "carnegierochester conference series on public policy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1995",
+      "pages": "146",
+      "volume": "43",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01672231(95)900330",
+      "raw_reference": "woodford, m. (1995) price level determinacy without control of a monetary aggregate, carnegie rochester series on public policy, 43 : 146."
+    },
+    {
+      "authors": [
+        "woodford, m"
+      ],
+      "title": "pricelevel determination under interestrate rules",
+      "monograph_title": "interest and prices",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "",
+      "date": "1999",
+      "pages": "61138",
+      "volume": "",
+      "issue": "",
+      "organization": "manuscrit princeston university",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/j.ctv30pnvmf.5",
+      "raw_reference": "woodford, m. (1999), price level determination under interest rate rule, manuscrit princeston university."
+    },
+    {
+      "authors": [
+        "woodford, michael"
+      ],
+      "title": "fiscal requirements for price stability",
+      "monograph_title": "journal of money, credit and banking",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "2001",
+      "pages": "669",
+      "volume": "33",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2673890",
+      "raw_reference": "woodford, m. (2001), fiscal requirement for price stability, journal of money credit and banking, 33 : 669728."
+    },
+    {
+      "authors": [
+        "woodford, michael"
+      ],
+      "title": "comment on: multiplesolution indeterminacies in monetary policy analysis",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2003",
+      "pages": "11771188",
+      "volume": "50",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s03043932(03)00062x",
+      "raw_reference": "woodford, m. (2003a), comment on multiple solution indeterminacies in monetary policy analysis, journal of monetary economics, 50(6) : 11771188."
+    },
+    {
+      "authors": [
+        "zivot, eric",
+        "andrews, donald"
+      ],
+      "title": "further evidence on the great crash, the oilprice shock, and the unitroot hypothesis",
+      "monograph_title": "journal of business & economic statistics",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1992",
+      "pages": "251270",
+      "volume": "10",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/07350015.1992.10509904",
+      "raw_reference": "zivot, e. et d.w.k. andrews (1992), further evidence on the great crash, the oilprice shock, and the unitroot hypothesis, journal of business & economic statistics, 10(3) : 251270."
+    },
+    {
+      "authors": [
+        "e"
+      ],
+      "title": "",
+      "monograph_title": "how does fiscal policy affect monetary policy in emerging market countries?, bis working paper",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "174",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "zoli, e. (2005), how does fiscal policy affect monetary policy in emerging market countries?, bis working paper, 174."
+    }
+  ],
+  "notes": [],
+  "figures": [],
+  "tables": []
+}

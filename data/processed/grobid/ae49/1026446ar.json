@@ -1,0 +1,1434 @@
+{
+  "title": "",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "jeanbaptiste",
+      "last_name": "gosse",
+      "email": "",
+      "affiliation": "lapport de la representation var de christopher a. sims a la science economique* cfap, university of cambridge creg, universite grenoble alpes",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "cyriac",
+      "last_name": "guillaumin",
+      "email": "cyriac.guillaumin@upmfgrenoble.fr",
+      "affiliation": "lapport de la representation var de christopher a. sims a la science economique* cfap, university of cambridge creg, universite grenoble alpes",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "lacademie royale des sciences de suede a attribue le prix 2011 de la banque de suede en sciences economiques institue en memoire dalfred nobel a thomas sargent et christopher sims pour leurs recherches empiriques sur la cause et leffet en macroeconomie.cet article se propose de presenter les travaux pour lesquels sims a ete prime.face aux insuffisances des modeles macroeconometriques dinspiration keynesienne, sims (1980) emet la fameuse critique de sims et propose une modelisation multivariee qui va profondement influencer la science economique.apres avoir retrace les principaux apports de cette approche, nous proposons un panorama des nombreuses recherches suscitees par les travaux pionniers de sims.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "les apports de la modelisation var",
+    "une reponse aux grands modeles",
+    "3.",
+    "4.",
+    "la question du choix des retards",
+    "6.",
+    "7.",
+    "analyse de la politique economique",
+    "8.",
+    "9.",
+    "la prevision a laide des modeles var",
+    "les prolongements",
+    "perfectionnement de la methode de decomposition",
+    "contributions a lanalyse empirique",
+    "applications et apports a la science economique"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "angeloni, i",
+        "kashyap, a",
+        "mojon, b"
+      ],
+      "title": "monetary policy transmission in the euro area",
+      "monograph_title": "monetary policy transmission in the euro area",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "2003",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511492372",
+      "raw_reference": "angeloni, i., a. kashyap et b. mojon (2003), monetary policy transmission in the euro area, cambridge university press."
+    },
+    {
+      "authors": [
+        "barran, fernando",
+        "coudert, virginie",
+        "mojon, benoit",
+        "mojon, benoit"
+      ],
+      "title": "transmission de la politique monetaire et credit bancaire une application a trois pays de locde",
+      "monograph_title": "revue economique",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1996",
+      "pages": "393",
+      "volume": "46",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/3502196",
+      "raw_reference": "barran, f., v. coudert et b. mojon (1996), lunion europeenne estelle une zone homogene pour la politique monetaire?, economie internationale, 65 : 93122."
+    },
+    {
+      "authors": [
+        "bernanke, ben"
+      ],
+      "title": "alternative explanations of the moneyincome correlation",
+      "monograph_title": "carnegierochester conference series on public policy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1986",
+      "pages": "4999",
+      "volume": "25",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01672231(86)900370",
+      "raw_reference": "bernanke, b. (1986), alternative explanations of the moneyincome correlation, carnegierochester conference series on public policy, 25(1) : 4999."
+    },
+    {
+      "authors": [
+        "bernanke, ben",
+        "gertler, mark",
+        "watson, mark",
+        "sims, christopher",
+        "friedman, benjamin"
+      ],
+      "title": "systematic monetary policy and the effects of oil price shocks",
+      "monograph_title": "brookings papers on economic activity",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1997",
+      "pages": "91",
+      "volume": "1997",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2534702",
+      "raw_reference": "bernanke, b., m. gertler et m. watson (1997), systematic monetary policy and the effects of oil price shocks, brookings papers on economic activity, 1 : 91142."
+    },
+    {
+      "authors": [
+        "bernanke, ben",
+        "boivin, jean",
+        "eliasz, piotr"
+      ],
+      "title": "measuring the effects of monetary policy: a factoraugmented vector autoregressive (favar) approach*",
+      "monograph_title": "quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2005",
+      "pages": "387422",
+      "volume": "120",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/qjec.2005.120.1.387",
+      "raw_reference": "bernanke, b., j. boivin et p. eliasz (2005), measuring the effects of monetary policy : a factoraugmented vector autoregressive (favar) approach, quarterly journal of economics, 120(1) : 387422."
+    },
+    {
+      "authors": [
+        "blanchard, o"
+      ],
+      "title": "a traditional interpretation of macroeconomic fluctuations",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1989",
+      "pages": "11461164",
+      "volume": "79",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "blanchard, o. (1989), a traditional interpretation of macroeconomic fluctuations, american economic review, 79(5) : 11461164."
+    },
+    {
+      "authors": [
+        "blanchard, o"
+      ],
+      "title": "suggestions for a new set of fiscal indicators",
+      "monograph_title": "oecd working paper",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "1990",
+      "pages": "79",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/435618162862",
+      "raw_reference": "blanchard, o. (1990), suggestions for a new set of fiscal indicators, oecd working paper, no 79."
+    },
+    {
+      "authors": [
+        "blanchard, olivier",
+        "watson, mark"
+      ],
+      "title": "are business cycles all alike?",
+      "monograph_title": "the american business cycle : continuity and change",
+      "editors": [
+        "gordon, r"
+      ],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1986",
+      "pages": "123156",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w1392",
+      "raw_reference": "blanchard, o. et m. watson (1986), are business cycles all alike?, in r. j. gordon (ed.), the american business cycle : continuity and change, university of chicago press, p. 123156."
+    },
+    {
+      "authors": [
+        "blanchard, olivier",
+        "quah, danny"
+      ],
+      "title": "the dynamic effects of aggregate demand and supply disturbances",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "1989",
+      "pages": "655673",
+      "volume": "79",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3386/w2737",
+      "raw_reference": "blanchard, o. et d. quah (1989), the dynamic effects of aggregate demand and supply disturbances, american economic review, 79(4) : 655673."
+    },
+    {
+      "authors": [
+        "blanchard, o",
+        "perotti, r"
+      ],
+      "title": "an empirical characterization of the dynamic effects of changes in government spending and taxes on output",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2002",
+      "pages": "13291368",
+      "volume": "117",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/003355302320935043",
+      "raw_reference": "blanchard, o. et r. perotti (2002), an empirical characterization of the dynamic effects of changes in government spending and taxes on output, quarterly journal of economics, 107(4) : 13291368."
+    },
+    {
+      "authors": [
+        "bruneau, catherine",
+        "de bandt, olivier"
+      ],
+      "title": "la modelisation var structurel : application a la politique monetaire en france",
+      "monograph_title": "economie & prevision",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "1999",
+      "pages": "6794",
+      "volume": "137",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ecop.1999.5948",
+      "raw_reference": "bruneau, c. et o. de bandt (1999), la modelisation var structurel : application a la politique monetaire en france, economie et prevision, 137 : 6794."
+    },
+    {
+      "authors": [
+        "bruneau, catherine",
+        "jondeau, eric"
+      ],
+      "title": "long‐run causality, with an application to international links between long‐term interest rates",
+      "monograph_title": "oxford bulletin of economics and statistics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1999",
+      "pages": "545568",
+      "volume": "61",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14680084.00143",
+      "raw_reference": "bruneau, c. et e. jondeau (1999), longrun causality, with application to international links between longterm interest rates, oxford bulletin of economics and statistics, 61(4) : 545568."
+    },
+    {
+      "authors": [
+        "canova, fabio"
+      ],
+      "title": "forecasting time series with common seasonal patterns",
+      "monograph_title": "journal of econometrics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1993",
+      "pages": "173200",
+      "volume": "55",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03044076(93)900103",
+      "raw_reference": "canova, f. (1993), forecasting time series with common seasonal patterns, journal of econometrics, 55(1) : 173200."
+    },
+    {
+      "authors": [
+        "canova, fabio",
+        "nicolo, gianni"
+      ],
+      "title": "monetary disturbances matter for business fluctuations in the g7",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "11311159",
+      "volume": "49",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s03043932(02)001459",
+      "raw_reference": "canova, f. et g. de nicolo (2002), monetary disturbances matter for business fluctuations in the g7, journal of monetary economics, 49(6) : 11311159."
+    },
+    {
+      "authors": [
+        "christiano, lawrence",
+        "eichenbaum, martin",
+        "evans, charles"
+      ],
+      "title": "the effects of monetary policy shocks: evidence from the flow of funds",
+      "monograph_title": "the review of economics and statistics",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1996",
+      "pages": "16",
+      "volume": "78",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2109845",
+      "raw_reference": "christiano, l., m. eichenbaum et c. evans (1996), the effects of monetary policy shocks : evidence from the flow of funds, review of economics and statistics, 78(1) : 1634."
+    },
+    {
+      "authors": [
+        "clement",
+        "germain"
+      ],
+      "title": "var et previsions conjoncturelles",
+      "monograph_title": "annales deconomie et de statistique",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1993",
+      "pages": "113",
+      "volume": "32",
+      "issue": "32",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/20075928",
+      "raw_reference": "clement, e. et j.m. germain (1993), var et previsions conjoncturelles, annales deconomie et de statistique, 32(6) : 113135."
+    },
+    {
+      "authors": [
+        "cogley, timothy",
+        "sargent, thomas"
+      ],
+      "title": "drifts and volatilities: monetary policies and outcomes in the post wwii us",
+      "monograph_title": "review of economic dynamics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2005",
+      "pages": "262302",
+      "volume": "8",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.red.2004.10.009",
+      "raw_reference": "cogley, t. et t. j. sargent (2005), drifts and volatilities : monetary policies and outcomes in the post wwii u.s, review of economic dynamics, 8(2) : 262302."
+    },
+    {
+      "authors": [
+        "colander, david",
+        "howitt, peter",
+        "kirman, alan",
+        "leijonhufvud, axel",
+        "mehrling, perry"
+      ],
+      "title": "beyond dsge models: toward an empirically based macroeconomics",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2008",
+      "pages": "236240",
+      "volume": "98",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.98.2.236",
+      "raw_reference": "colander, d., p. howitt, a. kirman, a. leijonhufvud et p. mehrling (2008), beyond dsge models : toward an empirically based macroeconomics, american economic review, 98(2) : 236240."
+    },
+    {
+      "authors": [
+        "collard, fabrice",
+        "feve, patrick"
+      ],
+      "title": "modeles var ou dsge : que choisir ?",
+      "monograph_title": "economie & prevision",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "2008",
+      "pages": "153174",
+      "volume": "n° 183184",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3917/ecop.183.0153",
+      "raw_reference": "collard, f. et p. feve (2008), modeles var ou dgse : que choisir?, economie et prevision, 183184 : 153174."
+    },
+    {
+      "authors": [
+        "cooley, thomas",
+        "leroy, stephen"
+      ],
+      "title": "atheoretical macroeconometrics: a critique",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1985",
+      "pages": "283308",
+      "volume": "16",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03043932(85)900388",
+      "raw_reference": "cooley, t. f. et s. f. leroy (1985), atheoretical macroeconometrics : a critique, journal of monetary economics, 16(3) : 283308."
+    },
+    {
+      "authors": [
+        "del negro, marco",
+        "schorfheide, frank"
+      ],
+      "title": "priors from general equilibrium models for vars*",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2004",
+      "pages": "643673",
+      "volume": "45",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14682354.2004.00139.x",
+      "raw_reference": "del negro, m. et f. schorfheide (2004), priors from general equilibrium models for vars, international economic review, 45(2) : 643673."
+    },
+    {
+      "authors": [
+        "deniau, claude",
+        "fiori, georges",
+        "mathis, alexandre"
+      ],
+      "title": "selection du nombre de retards dans un modele var : consequences eventuelles du choix des criteres",
+      "monograph_title": "economie & prevision",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "1992",
+      "pages": "6169",
+      "volume": "106",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ecop.1992.5315",
+      "raw_reference": "deniau, g., g. fiori et a. mathis (1992), selection du nombre de retards dans un modele var, consequences eventuelles du choix des criteres, economie et prevision, 106 : 6169."
+    },
+    {
+      "authors": [
+        "deserres, alain",
+        "lalonde, rene"
+      ],
+      "title": "les sources des fluctuations des taux de change en europe et leurs implications pour lunion monetaire",
+      "monograph_title": "recherches economiques de louvain",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "1995",
+      "pages": "342",
+      "volume": "61",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0770451800010940",
+      "raw_reference": "deserres, a. et r. lalonde (1995), les sources des fluctuations des taux de change en europe et leurs implications pour lunion monetaire, recherches economiques de louvain/louvain economic review : 342."
+    },
+    {
+      "authors": [
+        "de vroey, m",
+        "malgrange, p"
+      ],
+      "title": "",
+      "monograph_title": "from the keynesian revolution to the kleingoldberger model : klein and the dynamization of keynesian theory",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2010",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "discussion paper ires",
+      "url": "",
+      "doi": "",
+      "raw_reference": "de vroey, m. et p. malgrange (2010), from the keynesian revolution to the kleingoldberger model : klein and the dynamization of keynesian theory, discussion paper ires."
+    },
+    {
+      "authors": [
+        "doan, t"
+      ],
+      "title": "",
+      "monograph_title": "rats users guide",
+      "editors": [],
+      "publisher": "",
+      "place": "estima, evanston, il",
+      "date": "2010",
+      "pages": "",
+      "volume": "8",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "doan, t. (2010), rats users guide, version 8, estima, evanston, il."
+    },
+    {
+      "authors": [
+        "doan, thomas",
+        "litterman, robert",
+        "sims, christopher"
+      ],
+      "title": "forecasting and conditional projection using realistic prior distributions",
+      "monograph_title": "econometric reviews",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1984",
+      "pages": "1100",
+      "volume": "3",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/07474938408800053",
+      "raw_reference": "doan, t., r. litterman et c. a. sims (1984), forecasting and conditional projection using realistic prior distributions, econometric reviews, 3(1) : 1100."
+    },
+    {
+      "authors": [
+        "doz, catherine",
+        "malgrange, pierre"
+      ],
+      "title": "modeles var et previsions a court terme",
+      "monograph_title": "economie & prevision",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "1992",
+      "pages": "109122",
+      "volume": "106",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ecop.1992.5319",
+      "raw_reference": "doz, c. et p. malgrange (1992), modeles var et previsions a court terme, economie et prevision, 106 : 109122."
+    },
+    {
+      "authors": [
+        "duo, qin"
+      ],
+      "title": "the probability foundations of econometrics",
+      "monograph_title": "the formation of econometrics",
+      "editors": [],
+      "publisher": "oxford university pressoxford",
+      "place": "",
+      "date": "1993",
+      "pages": "736",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/0198292872.003.0002",
+      "raw_reference": "duo, q. (1993), the formation of econometrics : a historical perspective, oxford university press."
+    },
+    {
+      "authors": [
+        "engle, robert",
+        "granger, c"
+      ],
+      "title": "cointegration and error correction: representation, estimation, and testing",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1987",
+      "pages": "251",
+      "volume": "55",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1913236",
+      "raw_reference": "engle, r. f. et c. w. granger (1987), cointegration and error correction : representation, estimation, and testing, econometrica, 55(2) : 251276."
+    },
+    {
+      "authors": [
+        "engle, robert",
+        "hendry, david",
+        "richard, jeanfrancois"
+      ],
+      "title": "exogeneity",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1983",
+      "pages": "277",
+      "volume": "51",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1911990",
+      "raw_reference": "engle, r. f., d. f. hendry et j.f. richard (1983), exogeneity, econometrica, 51(2) : 277304."
+    },
+    {
+      "authors": [
+        "faust, jon"
+      ],
+      "title": "the robustness of identified var conclusions about money",
+      "monograph_title": "carnegierochester conference series on public policy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1998",
+      "pages": "207244",
+      "volume": "49",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01672231(99)000093",
+      "raw_reference": "faust, j. (1998), the robustness of identified var conclusions about money, carnegierochester conference series on public policy, 49(1) : 207244."
+    },
+    {
+      "authors": [
+        "fong, p",
+        "li, w",
+        "yau, c",
+        "wong, c"
+      ],
+      "title": "on a mixture vector autoregressive model",
+      "monograph_title": "canadian journal of statistics",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2007",
+      "pages": "135150",
+      "volume": "35",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/cjs.5550350112",
+      "raw_reference": "fong, p. w., w. k. li, c. w. yau et c. s. wong (2007), on a mixture vector autoregressive model, canadian journal of statistics, 35(1) : 135150."
+    },
+    {
+      "authors": [
+        "friedman, m"
+      ],
+      "title": "the role of monetary policy american economic review (1968) 58, march, pp. 117",
+      "monograph_title": "a macroeconomics reader",
+      "editors": [],
+      "publisher": "routledge",
+      "place": "",
+      "date": "1968",
+      "pages": "176191",
+      "volume": "58",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4324/978020344396515",
+      "raw_reference": "friedman, m. (1968), the role of monetary policy, american economic review, 58(1) : 117."
+    },
+    {
+      "authors": [
+        "gali, j"
+      ],
+      "title": "how well does the islm model fit postwar u.s. data?",
+      "monograph_title": "quarterly journal of economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1992",
+      "pages": "709735",
+      "volume": "107",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gali, j. (1992), how well does the islm model fit postwar u.s. data?, quarterly journal of economics, 107(2) : 709735."
+    },
+    {
+      "authors": [
+        "gerlach, stefan",
+        "smets, frank"
+      ],
+      "title": "the monetary transmission mechanism: evidence from the g7 countries",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1995",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "cepr discussion paper 1219",
+      "url": "",
+      "doi": "10.2139/ssrn.868427",
+      "raw_reference": "gerlach, s. et f. smets (1995), the monetary transmission mechanism : evidence from the g7 countries, cepr discussion paper 1219."
+    },
+    {
+      "authors": [
+        "gosse, jeanbaptiste",
+        "guillaumin, cyriac"
+      ],
+      "title": "limpact des chocs externes sur et a linterieur de la zone euro : les enseignements dun modele vectoriel autoregressif structurel",
+      "monograph_title": "economie & prevision",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "2010",
+      "pages": "1533",
+      "volume": "195",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.3406/ecop.2010.8058",
+      "raw_reference": "gosse, j. b. et c. guillaumin (2010), limpact des chocs externes sur et a linte rieur de la zone euro : les enseignements dun modele vectoriel autoregressif structurel, economie et prevision, 195196 : 1533."
+    },
+    {
+      "authors": [
+        "granger, c"
+      ],
+      "title": "investigating causal relations by econometric models and crossspectral methods",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1969",
+      "pages": "424",
+      "volume": "37",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1912791",
+      "raw_reference": "granger, c. j. (1969), investigating causal relations by econometric models and crossspectral methods, econometrica, 37(3) : 424438."
+    },
+    {
+      "authors": [
+        "guarda, paolo",
+        "rouabah, abdelaziz",
+        "theal, john"
+      ],
+      "title": "an mvar framework to capture extreme events in macroprudential stress tests",
+      "monograph_title": "ssrn electronic journal",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper 63",
+      "url": "",
+      "doi": "10.2139/ssrn.2128483",
+      "raw_reference": "guarda, p., a. rouabah et j. theal (2012), an mvar framework to capture extreme events in macroprudential stress tests, bcl working paper 63."
+    },
+    {
+      "authors": [
+        "hoffmaister, alexander",
+        "roldos, jorge"
+      ],
+      "title": "the sources of macroeconomic fluctuations in developing countries: brazil and korea",
+      "monograph_title": "journal of macroeconomics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "213239",
+      "volume": "23",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01640704(01)001628",
+      "raw_reference": "hoffmaister, a. w. et j. e. roldos (2001), the sources of macroeconomic fluctuations in developing countries : brazil and korea, journal of macroeconomics, 23(2) : 213239."
+    },
+    {
+      "authors": [
+        "hoover, kevin",
+        "johansen, søren",
+        "juselius, katarina"
+      ],
+      "title": "allowing the data to speak freely: the macroeconometrics of the cointegrated vector autoregression",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2008",
+      "pages": "251255",
+      "volume": "98",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.98.2.251",
+      "raw_reference": "hoover, k. d., s. johansen et k. juselius (2008), allowing the data to speak freely : the macroeconometrics of the cointegrated vector autoregression, american economic review, 98(2) : 251255."
+    },
+    {
+      "authors": [
+        "howrey, e"
+      ],
+      "title": "stochastic properties of the kleingoldberger model",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1971",
+      "pages": "73",
+      "volume": "39",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1909141",
+      "raw_reference": "howrey, e. p. (1971), stochastic properties of the kleingoldberger model, econometrica, 39(1) : 7387."
+    },
+    {
+      "authors": [
+        "johansen, søren"
+      ],
+      "title": "statistical analysis of cointegration vectors",
+      "monograph_title": "journal of economic dynamics and control",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1988",
+      "pages": "231254",
+      "volume": "12",
+      "issue": "23",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01651889(88)900413",
+      "raw_reference": "johansen, s. (1988), statistical analysis of cointegration vectors, journal of economic dynamics and control, 12(2) : 231254."
+    },
+    {
+      "authors": [
+        "lardic, s",
+        "mignon, v"
+      ],
+      "title": "",
+      "monograph_title": "econometrie des series temporelles macroeconomiques et financieres",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2002",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lardic, s. et v. mignon (2002), econometrie des series temporelles macroeco nomiques et financieres, economica."
+    },
+    {
+      "authors": [
+        "leamer, edward"
+      ],
+      "title": "vector autoregressions for causal inference?",
+      "monograph_title": "carnegierochester conference series on public policy",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1985",
+      "pages": "255304",
+      "volume": "22",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01672231(85)900351",
+      "raw_reference": "leamer, e. (1985), vector autoregressions for causal inference?, carnegie rochester conference series on public policy, 22(1) : 255304."
+    },
+    {
+      "authors": [
+        "leeper, eric",
+        "sims, christopher",
+        "zha, tao",
+        "hall, robert",
+        "bernanke, ben"
+      ],
+      "title": "what does monetary policy do?",
+      "monograph_title": "brookings papers on economic activity",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1996",
+      "pages": "1",
+      "volume": "1996",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2534619",
+      "raw_reference": "leeper, e., c. a. sims et t. zha (1996), what does monetary policy do?, brookings papers on economic activity, 2 : 163."
+    },
+    {
+      "authors": [
+        "litterman, robert"
+      ],
+      "title": "forecasting with bayesian vector autoregressionsfive years of experience",
+      "monograph_title": "journal of business & economic statistics",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1986",
+      "pages": "2538",
+      "volume": "4",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/07350015.1986.10509491",
+      "raw_reference": "litterman, r. b. (1986), forecasting with bayesian vector autoregressions five years of experience, journal of business & economic statistics, 4(1) : 2538."
+    },
+    {
+      "authors": [
+        "lutkepohl, h",
+        "kratzig, m"
+      ],
+      "title": "applied time series econometrics",
+      "monograph_title": "applied time series econometrics",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "2009",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511606885",
+      "raw_reference": "lutkepohl, h. et m. kratzig (2009), applied time series econometrics, cambridge university press."
+    },
+    {
+      "authors": [
+        "mackowiak, bartosz"
+      ],
+      "title": "external shocks, u.s. monetary policy and macroeconomic fluctuations in emerging markets",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "25122520",
+      "volume": "54",
+      "issue": "8",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmoneco.2007.06.021",
+      "raw_reference": "mackowiak, b. (2007), external shocks, u.s. monetary policy and macroeconomic fluctuations in emerging markets, journal of monetary economics, 54 : 25122520."
+    },
+    {
+      "authors": [
+        "mankiw, n"
+      ],
+      "title": "the macroeconomist as scientist and engineer",
+      "monograph_title": "the macroeconomist as scientist and engineer",
+      "editors": [],
+      "publisher": "national bureau of economic research",
+      "place": "",
+      "date": "2006",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper 12349",
+      "url": "",
+      "doi": "10.3386/w12349",
+      "raw_reference": "mankiw, n. g. (2006). the macroeconomist as scientist and engineer, nber working paper 12349."
+    },
+    {
+      "authors": [
+        "melitz, j",
+        "weber, a"
+      ],
+      "title": "graphique 3.1. couts et avantages moyens par alternant durant une formation en alternance en allemagne (eur)",
+      "monograph_title": "economie internationale",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "1996",
+      "pages": "6392",
+      "volume": "65",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888933869317",
+      "raw_reference": "melitz, j. et a. weber (1996), couts et avantages dune politique monetaire commune en france et en allemagne, economie internationale, 65 : 6392"
+    },
+    {
+      "authors": [
+        "paul, satya"
+      ],
+      "title": "defence spending and unemployment rates",
+      "monograph_title": "journal of economic studies",
+      "editors": [],
+      "publisher": "emerald",
+      "place": "",
+      "date": "1996",
+      "pages": "4454",
+      "volume": "23",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1108/01443589610109667",
+      "raw_reference": "paul, s. (1996), defence spending and unemployment rates : an empirical analysis for the oecd, journal of economic studies, 23(2) : 4454."
+    },
+    {
+      "authors": [
+        "pesaran, m",
+        "schuermann, til",
+        "weiner, scott"
+      ],
+      "title": "modeling regional interdependencies using a global errorcorrecting macroeconometric model",
+      "monograph_title": "journal of business & economic statistics",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "2004",
+      "pages": "129162",
+      "volume": "22",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1198/073500104000000019",
+      "raw_reference": "pesaran, m. h., t. schuermann et s. m. weiner (2004), modelling regional interdependencies using a global errorcorrecting macroeconometric model, journal of business and economic statistics, 22 : 129162."
+    },
+    {
+      "authors": [
+        "phillips, a"
+      ],
+      "title": "the relation between unemployment and the rate of change of money wage rates in the united kingdom, 18611957",
+      "monograph_title": "economica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1958",
+      "pages": "283",
+      "volume": "25",
+      "issue": "100",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2550759",
+      "raw_reference": "phillips, a. (1958), the relationship between unemployment and the rate of change of money wage rates in the united kingdom, 18611957, economica, 26(104) : 299315."
+    },
+    {
+      "authors": [
+        "braun, r",
+        "ikeda, daisuke"
+      ],
+      "title": "monetary policy over the life cycle",
+      "monograph_title": "federal reserve bank of atlanta, working paper",
+      "editors": [],
+      "publisher": "federal reserve bank of atlanta",
+      "place": "",
+      "date": "1999",
+      "pages": "99102",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.29338/wp202120a",
+      "raw_reference": "robertson, j. c. et e. w. tallman (1999), improving forecasts of the federal funds rate in a policy model, federal reserve bank of atlanta working paper 993."
+    },
+    {
+      "authors": [
+        "runstler, g",
+        "sedillot, f"
+      ],
+      "title": "",
+      "monograph_title": "shortterm estimates of gdp by means of monthly data",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2003",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "working paper 76",
+      "url": "",
+      "doi": "",
+      "raw_reference": "runstler, g. et f. sedillot (2003), shortterm estimates of gdp by means of monthly data, ecb working paper 76."
+    },
+    {
+      "authors": [
+        "sato, kiyotaka",
+        "zhang, zhaoyong",
+        "mcaleer, michael"
+      ],
+      "title": "identifying shocks in regionally integrated east asian economies with structural var and block exogeneity",
+      "monograph_title": "mathematics and computers in simulation",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011",
+      "pages": "13531364",
+      "volume": "81",
+      "issue": "7",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.matcom.2010.06.009",
+      "raw_reference": "sato, k., z. zhang et m. mcaleer (2011), identifying shocks in regionally integrated east asian economies with structural var and block exogeneity, mathematics and computers in simulation, 81 : 13531364."
+    },
+    {
+      "authors": [
+        "sedillot, f",
+        "pain, n"
+      ],
+      "title": "les sources de la croissance economique dans les pays de locde",
+      "monograph_title": "revue economique de locde",
+      "editors": [],
+      "publisher": "oecd",
+      "place": "",
+      "date": "2005",
+      "pages": "185246",
+      "volume": "40",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/9789264299429fr",
+      "raw_reference": "sedillot, f. et n. pain (2005), modeles dindicateurs de la croissance du pib reel dans les principales economies de locde, revue economique de locde, 40 : 185246."
+    },
+    {
+      "authors": [
+        "shapiro, matthew",
+        "watson, mark"
+      ],
+      "title": "sources of business cycle fluctuations",
+      "monograph_title": "nber macroeconomics annual",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1988",
+      "pages": "111148",
+      "volume": "3",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/654078",
+      "raw_reference": "shapiro, m. et m. watson (1988), sources of business cycles fluctuations, nber macroeconomics annual, 3 : 111148."
+    },
+    {
+      "authors": [
+        "sims, c"
+      ],
+      "title": "money, income, and causality",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1972",
+      "pages": "540552",
+      "volume": "62",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sims, c. a. (1972), money, income, and causality, american economic review, 62(4) : 540552."
+    },
+    {
+      "authors": [
+        "sims, christopher"
+      ],
+      "title": "macroeconomics and reality",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1980",
+      "pages": "1",
+      "volume": "48",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1912017",
+      "raw_reference": "sims, c. a. (1980), macroeconomics and reality, econometrica, 48(1) : 148."
+    },
+    {
+      "authors": [
+        "sims, christopher"
+      ],
+      "title": "are forecasting models usable for policy analysis?",
+      "monograph_title": "quarterly review",
+      "editors": [],
+      "publisher": "federal reserve bank of minneapolis",
+      "place": "",
+      "date": "1986",
+      "pages": "216",
+      "volume": "10",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.21034/qr.1011",
+      "raw_reference": "sims, c. a. (1986), are forecasting models usable for policy analysis?, minneapolis federal reserve bank quarterly review, 10 : 216."
+    },
+    {
+      "authors": [
+        "sims, christopher"
+      ],
+      "title": "a nine variable probabilistic macroeconomic forecasting model",
+      "monograph_title": "a nine variable probabilistic macroeconomic forecasting model",
+      "editors": [],
+      "publisher": "federal reserve bank of minneapolis",
+      "place": "federal reserve bank of minneapolis",
+      "date": "1989",
+      "pages": "",
+      "volume": "14",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.21034/dp.14",
+      "raw_reference": "sims, c. a. (1989), a nine variable probabilistic macroeconomic forecasting model, discussion paper 14, federal reserve bank of minneapolis."
+    },
+    {
+      "authors": [
+        "sims, christopher"
+      ],
+      "title": "macroeconomics and methodology",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1996",
+      "pages": "105120",
+      "volume": "10",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.10.1.105",
+      "raw_reference": "sims, c. a. (1996), macroeconomics and methodology, journal of economic perspectives, 10(1) : 105120."
+    },
+    {
+      "authors": [
+        "sims, christopher",
+        "zha, tao"
+      ],
+      "title": "were there regime switches in u.s. monetary policy?",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2006",
+      "pages": "5481",
+      "volume": "96",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/000282806776157678",
+      "raw_reference": "sims, c. a. et t. zha (2006), were there regime switches in u.s. monetary policy?, american economic review, 96(1) : 5481."
+    },
+    {
+      "authors": [
+        "smets, frank",
+        "wouters, raf"
+      ],
+      "title": "an estimated dynamic stochastic general equilibrium model of the euro area",
+      "monograph_title": "journal of the european economic association",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2003",
+      "pages": "11231175",
+      "volume": "1",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/154247603770383415",
+      "raw_reference": "smets, f. et r. wouters (2003), an estimated dynamic stochastic general equilibrium model for the euro area, journal of the european economic association, 1(5) : 11231175."
+    },
+    {
+      "authors": [
+        "stock, james",
+        "watson, mark"
+      ],
+      "title": "vector autoregressions",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2001",
+      "pages": "101115",
+      "volume": "15",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.15.4.101",
+      "raw_reference": "stock, j. h. et m. w. watson (2001), vector autoregressions, journal of economic perspectives, 15(4) : 101115."
+    },
+    {
+      "authors": [
+        "uhlig, harald"
+      ],
+      "title": "what are the effects of monetary policy on output? results from an agnostic identification procedure",
+      "monograph_title": "journal of monetary economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2005",
+      "pages": "381419",
+      "volume": "52",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jmoneco.2004.05.007",
+      "raw_reference": "uhlig, h. (2005), what are the effects of monetary policy on output? results from an agnostic identification procedure, journal of monetary economics, 52(2) : 381419."
+    },
+    {
+      "authors": [
+        "zha, tao",
+        "kopecky, karen"
+      ],
+      "title": "impacts of covid19: mitigation efforts versus herd immunity",
+      "monograph_title": "federal reserve bank of atlanta, policy hub",
+      "editors": [],
+      "publisher": "federal reserve bank of atlanta",
+      "place": "",
+      "date": "1998",
+      "pages": "1629",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.29338/ph202003",
+      "raw_reference": "zha, t. (1998), a dynamic multivariate model for use in formulating policy, economic review, federal reserve bank of atlanta, 1 : 1629."
+    }
+  ],
+  "notes": [
+    "[10] on peut egalement signaler les travauxde shapiro et watson (1988).",
+    "[11] si la politique budgetaire reste decentralisee, maintenant ainsi une souverainete budgetaire, elle est encadree par le pacte de stabilite et de croissance qui a pour but dencourager la coordination des politiques budgetaires.",
+    "[12] voir notamment smets et wouters (2003).",
+    "[13] les auteurs font echo a larticle de mankiw (2006) en prenant partie pour une approche dingenieur de la macroeconomie plutot que pour une approche parfois trop theorique."
+  ],
+  "figures": [],
+  "tables": []
+}

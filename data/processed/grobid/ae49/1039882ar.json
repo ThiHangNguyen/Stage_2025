@@ -1,0 +1,1213 @@
+{
+  "title": "combiner les experiences de terrain et la modelisation structurelle : le cas de la reciprocite en milieu de travail*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "charles",
+      "last_name": "bellemare",
+      "email": "cbellemare@ecn.ulaval.ca",
+      "affiliation": "departement deconomique universite laval cirpee iza departement deconomique universite laval departement deconomique universite laval cirpee iza",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "steeve",
+      "last_name": "marchand",
+      "email": "steeve.marchand@ecn.ulaval.ca",
+      "affiliation": "departement deconomique universite laval cirpee iza departement deconomique universite laval departement deconomique universite laval cirpee iza",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "bruce",
+      "last_name": "shearer",
+      "email": "bruce.shearer@ecn.ulaval.ca",
+      "affiliation": "departement deconomique universite laval cirpee iza departement deconomique universite laval departement deconomique universite laval cirpee iza",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "nous considerons le role que leconometrie structurelle peut apporter a la generalisation des resultats dexperiences de terrain.nous illustrons cette valeur ajoutee dans le contexte de la recherche sur la reciprocite en milieu de travail.nous y considerons la reaction des travailleurs a une augmentation de salaire (la reciprocite positive) ainsi qua une reduction de salaire (la reciprocite negative).les entreprises peuvent ne pas vouloir effectuer des experiences dans lesquelles elles coupent le salaire de leurs employes, ce qui limite notre capacite a mesurer la reciprocite negative.nous montrons que des resultats dexperiences qui impliquent une augmentation de salaire peuvent servir a estimer les parametres structurels qui generent les reactions des travailleurs aux cadeaux.ces parametres permettent ensuite de predire la reaction a une reduction de salaire.lactualite economique, revue danalyse economique, vol.92, n os 12, marsjuin 2016 ___________ * nous remercions les editeurs ainsi que deux arbitres pour leurs commentaires.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "mise en contexte",
+    "5.",
+    "litterature empirique",
+    "lapport de la modelisation economique aux experiences sur la reciprocite",
+    "6.",
+    "7.",
+    "simulations"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "adams, j"
+      ],
+      "title": "towards an understanding of inequity.",
+      "monograph_title": "the journal of abnormal and social psychology",
+      "editors": [],
+      "publisher": "american psychological association (apa)",
+      "place": "",
+      "date": "1963",
+      "pages": "422436",
+      "volume": "67",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1037/h0040968",
+      "raw_reference": "adams, j. s. (1963), towards an understanding of inequity, the journal of abnormal and social psychology, 67(5) : 422436."
+    },
+    {
+      "authors": [
+        "akerlof, george"
+      ],
+      "title": "labor contracts as partial gift exchange",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1982",
+      "pages": "543",
+      "volume": "97",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1885099",
+      "raw_reference": "akerlof, g. a. (1982), labor contracts as partial gift exchange, the quarterly journal of economics, 97(4) : 543569."
+    },
+    {
+      "authors": [
+        "akerlof, george"
+      ],
+      "title": "labor contracts as partial gift exchange",
+      "monograph_title": "efficiency wage models of the labor market",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "1984",
+      "pages": "6692",
+      "volume": "74",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511559594.006",
+      "raw_reference": "akerlof, g. a. (1984), gift exchange and efficiencywage theory: four views, the american economic review, 74(2) : 7983."
+    },
+    {
+      "authors": [
+        "akerlof, g",
+        "yellen, j"
+      ],
+      "title": "fairness and unemployment",
+      "monograph_title": "the american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1988",
+      "pages": "4449",
+      "volume": "78",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "akerlof, g. a. et j. l. yellen (1988), fairness and unemployment, the american economic review, 78 : 4449."
+    },
+    {
+      "authors": [
+        "akerlof, george",
+        "yellen, janet"
+      ],
+      "title": "the fair wageeffort hypothesis and unemployment",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1990",
+      "pages": "255",
+      "volume": "105",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2937787",
+      "raw_reference": "akerlof, g. a. et j. l. yellen (1990), the fair wageeffort hypothesis and unemployment, the quarterly journal of economics, 105(2) : 255283."
+    },
+    {
+      "authors": [
+        "andreoni, j"
+      ],
+      "title": "warmglow versus coldprickle: the effects of positive and negative framing on cooperation in experiments",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1995",
+      "pages": "121",
+      "volume": "110",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2118508",
+      "raw_reference": "andreoni, j. (1995), warmglow versus coldprickle: the effects of positive and negative framing on cooperation in experiments, quarterly journal of economics, 110 : 121."
+    },
+    {
+      "authors": [
+        "andreoni, james",
+        "harbaugh, william",
+        "vesterlund, lise"
+      ],
+      "title": "the carrot or the stick: rewards, punishments, and cooperation",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2003",
+      "pages": "893902",
+      "volume": "93",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/000282803322157142",
+      "raw_reference": "andreoni, j., w. t. harbaugh et l. vesterlund (2003), the carrot or the stick: rewards, punishments and cooperation, american economic review, 93 : 893902."
+    },
+    {
+      "authors": [
+        "angrist, j",
+        "pischke, j"
+      ],
+      "title": "",
+      "monograph_title": "mostly harmless econometrics",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "princeton, new jersey",
+      "date": "2009",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "angrist, j. et j. pischke (2009), mostly harmless econometrics. princeton university press, princeton, new jersey."
+    },
+    {
+      "authors": [
+        "bajari, patrick",
+        "hortacsu, ali"
+      ],
+      "title": "are structural estimates of auction models reasonable? evidence from experimental data",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "2005",
+      "pages": "703741",
+      "volume": "113",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/432138",
+      "raw_reference": "bajari, p. et a. hortacsu (2005), are structural estimates of auction models reasonable? evidence from experimental data, the journal of political economy, 113 : 703741."
+    },
+    {
+      "authors": [
+        "betiera, o",
+        "barankay, i",
+        "rasul, i"
+      ],
+      "title": "incentives for managers and inequality among workers: evidence from a firm level experiment",
+      "monograph_title": "quarterly journal of economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2007",
+      "pages": "729773",
+      "volume": "122",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "betiera, o., i. barankay et i. rasul (2007), incentives for managers and inequality among workers: evidence from a firm level experiment, quarterly journal of economics, 122(2) : 729773."
+    },
+    {
+      "authors": [
+        "bellemare, charles",
+        "krger, sabine",
+        "van soest, arthur"
+      ],
+      "title": "measuring inequity aversion in a heterogeneous population using experimental decisions and subjective probabilities",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2008",
+      "pages": "815839",
+      "volume": "76",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680262.2008.00860.x",
+      "raw_reference": "bellemare, c., s. kroger et a. van soest (2008), measuring inequity aversion in a heterogeneous population using experimental decisions and subjective probabilities, econometrica, 76 : 815839."
+    },
+    {
+      "authors": [
+        "bellemare, charles",
+        "shearer, bruce"
+      ],
+      "title": "gift giving and worker productivity: evidence from a firmlevel experiment",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "233244",
+      "volume": "67",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2008.12.001",
+      "raw_reference": "bellemare, c. et b. shearer (2009), gift giving and worker productivity: evidence from a firmlevel experiment, games and economic behavior, 67(1) : 233244."
+    },
+    {
+      "authors": [
+        "bellemare, charles",
+        "shearer, bruce"
+      ],
+      "title": "on the relevance and composition of gifts within the firm: evidence from field experiments*",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2011",
+      "pages": "855882",
+      "volume": "52",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14682354.2011.00652.x",
+      "raw_reference": "bellemare, c. et b. shearer (2011), on the relevance and composition of gifts within the firm: evidence from field experiments, international economic review, 52(3) : 855882."
+    },
+    {
+      "authors": [
+        "brown, meta",
+        "flinn, christopher",
+        "schotter, andrew"
+      ],
+      "title": "realtime search in the laboratory and the market",
+      "monograph_title": "american economic review",
+      "editors": [
+        "brown, m",
+        "flinn",
+        "schotter"
+      ],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2011",
+      "pages": "948974",
+      "volume": "101",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.101.2.948",
+      "raw_reference": "brown, m., c. flinn et a. schotter (2011), realtime search in the laboratory and the market, american economic review, 101(2) : 948974."
+    },
+    {
+      "authors": [
+        "burtless, gary"
+      ],
+      "title": "the case for randomized field trials in economic and policy research",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1995",
+      "pages": "6384",
+      "volume": "9",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.9.2.63",
+      "raw_reference": "burtless, g. (1995), the case for retomized field trials in economic and policy research, the journal of economic perspectives, 9(2) : 6384."
+    },
+    {
+      "authors": [
+        "campbell, c",
+        "kamlani, k"
+      ],
+      "title": "the reasons for wage rigidity: evidence from a survey of firms",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1997",
+      "pages": "759789",
+      "volume": "112",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1162/003355397555343",
+      "raw_reference": "campbell iii, c. m. et k. s. kamlani (1997), the reasons for wage rigidity: evidence from a survey of firms, the quarterly journal of economics, 112(3) : 759789."
+    },
+    {
+      "authors": [
+        "chiappori, pierreandre",
+        "salanie, bernard"
+      ],
+      "title": "testing contract theory: a survey of some recent work",
+      "monograph_title": "advances in economics and econometrics",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "2003",
+      "pages": "115149",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511610240.005",
+      "raw_reference": "chiappori, p.a. et b. salanie (2003), testing contract theory: a survey of some recent work, in advances in economics and econometrics: theory and applications, eighth world congress, volume 1, cambridge university press, p. 115149."
+    },
+    {
+      "authors": [
+        "ellingsen, tore",
+        "johannesson, magnus"
+      ],
+      "title": "pride and prejudice: the human side of incentive theory",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2008",
+      "pages": "9901008",
+      "volume": "98",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.98.3.990",
+      "raw_reference": "ellingsen, t. et m. johannesson (2008), pride and prejudice : the human side of incentive theory, american economic review, 98 : 9901008."
+    },
+    {
+      "authors": [
+        "fehr, ernst",
+        "gachter, simon"
+      ],
+      "title": "reciprocity and economics: the economic implications of homo reciprocans",
+      "monograph_title": "european economic review",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1998",
+      "pages": "845859",
+      "volume": "42",
+      "issue": "35",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s00142921(97)001311",
+      "raw_reference": "fehr, e. et s. gachter (1998), fairness and retaliation: the economic implications of homo reciprocans, european economic review, 42 : 845859."
+    },
+    {
+      "authors": [
+        "fehr, ernst",
+        "gachter, simon"
+      ],
+      "title": "fairness and retaliation: the economics of reciprocity",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2000",
+      "pages": "159182",
+      "volume": "14",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.14.3.159",
+      "raw_reference": "fehr, e. et s. gachter (2000), fairness and retaliation: the economics of reciprocity, the journal of economic perspectives, 14(3) : 159181."
+    },
+    {
+      "authors": [
+        "fehr, ernst",
+        "gachter, simon",
+        "kirchsteiger, georg"
+      ],
+      "title": "reciprocity as a contract enforcement device: experimental evidence",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1997",
+      "pages": "833",
+      "volume": "65",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2171941",
+      "raw_reference": "fehr, e., s. gachter et g. kirchsteiger (1997), reciprocity as a contract enforcement device: experimental evidence, econometrica, 65(4) : 833860."
+    },
+    {
+      "authors": [
+        "fehr, ernst",
+        "goette, lorenz"
+      ],
+      "title": "do workers work more if wages are high? evidence from a randomized field experiment",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2007",
+      "pages": "298317",
+      "volume": "97",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.97.1.298",
+      "raw_reference": "fehr, e. et l. goette (2007), do workers work more if wages are high? evidence from a retomized field experiment, the american economic review, 97(1) : 298317."
+    },
+    {
+      "authors": [
+        "fehr, e",
+        "kirchsteiger, g",
+        "riedl, a"
+      ],
+      "title": "does fairness prevent market clearing? an experimental investigation",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1993",
+      "pages": "437459",
+      "volume": "108",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2118338",
+      "raw_reference": "fehr, e., g. kirchsteiger et a. riedl (1993), does fairness prevent markand clearing? an experimental investigation, the quarterly journal of economics, 108(2) : 437459."
+    },
+    {
+      "authors": [
+        "ferrall, christopher",
+        "shearer, bruce"
+      ],
+      "title": "incentives and transactions costs within the firm: estimating an agency model using payroll records",
+      "monograph_title": "review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1999",
+      "pages": "309338",
+      "volume": "66",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/1467937x.00089",
+      "raw_reference": "ferrall, c. et b. shearer (1999), incentives and transactions costs within the firm: estimating and agency model using payroll records, review of economic studies, 66 : 309338."
+    },
+    {
+      "authors": [
+        "flinn, christopher"
+      ],
+      "title": "minimum wage effects on labor market outcomes under search, matching, and endogenous contact rates",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2006",
+      "pages": "10131062",
+      "volume": "74",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680262.2006.00693.x",
+      "raw_reference": "flinn, c. j. (2006), minimum wage effects on labor market outcomes under search, matching, and endogenous contact rates, econometrica, 74(4) : 10131062."
+    },
+    {
+      "authors": [
+        "flinn, christopher"
+      ],
+      "title": "minimum wage effects on labor market outcomes: a selective survey",
+      "monograph_title": "the minimum wage and labor market outcomes",
+      "editors": [],
+      "publisher": "the mit press",
+      "place": "cambridge, mass",
+      "date": "2010",
+      "pages": "95116",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7551/mitpress/9780262013239.003.0005",
+      "raw_reference": "flinn, c. j. (2010), the minimum wage and labor market outcomes, the mit press. cambridge, mass."
+    },
+    {
+      "authors": [
+        "gachter, simon",
+        "thoni, christian"
+      ],
+      "title": "social comparison and performance: experimental evidence on the fair wageeffort hypothesis",
+      "monograph_title": "journal of economic behavior & organization",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "531543",
+      "volume": "76",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jebo.2010.08.008",
+      "raw_reference": "gaechter, s. et c. thoni (2010), social comparison and performance: experimental evidence on the fair wageeffort hypothesis, journal of economic behavior and organization, 76 : 531543."
+    },
+    {
+      "authors": [
+        "gneezy, uri",
+        "list, john"
+      ],
+      "title": "putting behavioral economics to work: testing for gift exchange in labor markets using field experiments",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2006",
+      "pages": "13651384",
+      "volume": "74",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680262.2006.00707.x",
+      "raw_reference": "gneezy, u. et j. a. list (2006), putting behavioral economics to work: testing for gift exchange in labor markets using field experiments, econometrica, 74(5) : 13651384."
+    },
+    {
+      "authors": [
+        "harrison, glenn",
+        "list, john"
+      ],
+      "title": "field experiments",
+      "monograph_title": "journal of economic literature",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2004",
+      "pages": "10091055",
+      "volume": "42",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/0022051043004577",
+      "raw_reference": "harrison, g. w. et j. a. list (2004), field experiments, journal of economic literature, 42 : 10091055."
+    },
+    {
+      "authors": [
+        "heckman, james",
+        "smith, jeffrey"
+      ],
+      "title": "assessing the case for social experiments",
+      "monograph_title": "journal of economic perspectives",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1995",
+      "pages": "85110",
+      "volume": "9",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jep.9.2.85",
+      "raw_reference": "heckman, j. j. et j. a. smith (1995), assessing the case for social experiments, the journal of economic perspectives, 9(2) : 85110."
+    },
+    {
+      "authors": [
+        "homans, george"
+      ],
+      "title": "the cash posters: a study of a group of working girls",
+      "monograph_title": "american sociological review",
+      "editors": [],
+      "publisher": "sage publications",
+      "place": "",
+      "date": "1954",
+      "pages": "724",
+      "volume": "19",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2087919",
+      "raw_reference": "homans, g. c. (1954), the cash posters : a study of a group of working girls, american sociological review, 19(6) : 724733."
+    },
+    {
+      "authors": [
+        "katz, lawrence"
+      ],
+      "title": "efficiency wage theories: a partial evaluation",
+      "monograph_title": "nber macroeconomics annual",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1986. 1986",
+      "pages": "235",
+      "volume": "1",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/3585171",
+      "raw_reference": "katz, l. f. (1986), efficiency wage theories: a partial evaluation, in nber macroeconomics annual 1986, volume 1, p. 235290. mit press."
+    },
+    {
+      "authors": [
+        "kreps, d"
+      ],
+      "title": "the provision of incentives in firms",
+      "monograph_title": "american economic review papers and proceedings",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1997",
+      "pages": "359364",
+      "volume": "87",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "kreps, d. m. (1997), the provision of incentives in firms, american economic review papers and proceedings, 87 : 359364."
+    },
+    {
+      "authors": [
+        "kube, sebastian",
+        "marechal, michel",
+        "puppe, clemens"
+      ],
+      "title": "the currency of reciprocity: gift exchange in the workplace",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2012",
+      "pages": "16441662",
+      "volume": "102",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.102.4.1644",
+      "raw_reference": "kube, s., m. e. marechal et c. puppe (2012), the currency of reciprocity: gift exchange in the workplace, american economic review, 102(4) : 16441662."
+    },
+    {
+      "authors": [
+        "kube, sebastian",
+        "marechal, michel",
+        "puppe, clemens"
+      ],
+      "title": "do wage cuts damage work morale? evidence from a natural field experiment",
+      "monograph_title": "journal of the european economic association",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2013",
+      "pages": "853870",
+      "volume": "11",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/jeea.12022",
+      "raw_reference": "kube, s., m. e. marechal et c. puppe (2013), do wage cuts damage work morale? evidence from a natural field experiment, journal of the european economic association, 11(4) : 853870."
+    },
+    {
+      "authors": [
+        "lazear, edward"
+      ],
+      "title": "performance pay and productivity",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2000",
+      "pages": "13461361",
+      "volume": "90",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.90.5.1346",
+      "raw_reference": "lazear, e. (2000), performance pay and productivity, american economic review, 90 : 13461361."
+    },
+    {
+      "authors": [
+        "list, john",
+        "rasul, imran"
+      ],
+      "title": "field experiments in labor economics",
+      "monograph_title": "handbook of labor economics",
+      "editors": [],
+      "publisher": "elsevier",
+      "place": "",
+      "date": "2011",
+      "pages": "103228",
+      "volume": "4",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01697218(11)004084",
+      "raw_reference": "list, j. a. et i. rasul (2011), field experiments in labor economics, handbook of labor economics, 4 : 103228."
+    },
+    {
+      "authors": [
+        "lucas, r"
+      ],
+      "title": "unemployment policy",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1978",
+      "pages": "353357",
+      "volume": "68",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lucas, r. (1978), unemployment policy, american economic review, 68 : 353357."
+    },
+    {
+      "authors": [
+        "mauss, m"
+      ],
+      "title": "essai sur le don. forme et raison de lechange dans les societes archaques",
+      "monograph_title": "lannee sociologique",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1923. 1896/18971924/1925",
+      "pages": "30186",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "mauss, m. (1923), essai sur le don. forme et raison de lechange dans les societes archaques, lannee sociologique (1896/18971924/1925) : 30186."
+    },
+    {
+      "authors": [
+        "murphy, k",
+        "topel, r"
+      ],
+      "title": "unemployment, risk, and earnings: testing for equalizing wage differences in the labor market",
+      "monograph_title": "unemployment and the structure of labor markets",
+      "editors": [
+        "lang, k",
+        "leonard, j"
+      ],
+      "publisher": "basil blackwell",
+      "place": "new york",
+      "date": "1987",
+      "pages": "103140",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "murphy, k. m. et r. h. topel (1987), unemployment, risk, and earnings: testing for equalizing wage differences in the labor market, in lang, k. et j. s. leonard (eds), unemployment and the structure of labor markets, new york: basil blackwell, p. 103140."
+    },
+    {
+      "authors": [
+        "oyer, p",
+        "schaefer, s"
+      ],
+      "title": "",
+      "monograph_title": "personnel economics: hiring and incentives",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "17691823",
+      "volume": "4",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "oyer, p. et s. schaefer (2011), personnel economics: hiring and incentives, handook of labor economics, 4 : 17691823."
+    },
+    {
+      "authors": [
+        "paarsch, harry",
+        "shearer, bruce"
+      ],
+      "title": "the response of worker effort to piece rates: evidence from the british columbia treeplanting industry",
+      "monograph_title": "the journal of human resources",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1999",
+      "pages": "643",
+      "volume": "34",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/146411",
+      "raw_reference": "paarsch, h. et b. shearer (1999), the response of worker effort to piece rates, journal of human resources, 34(4) : 643667."
+    },
+    {
+      "authors": [
+        "paarsch, harry",
+        "shearer, bruce"
+      ],
+      "title": "piece rates, fixed wages, and incentive effects: statistical evidence from payroll records",
+      "monograph_title": "international economic review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2000",
+      "pages": "5992",
+      "volume": "41",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/14682354.00055",
+      "raw_reference": "paarsch, h. et b. shearer (2000), piece rates, fixed wages and incentive effects: statistical evidence from payroll records, the international economic review, 41(1) : 5992."
+    },
+    {
+      "authors": [
+        "prendergast, canice"
+      ],
+      "title": "the provision of incentives in firms",
+      "monograph_title": "journal of economic literature",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "1999",
+      "pages": "763",
+      "volume": "37",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/jel.37.1.7",
+      "raw_reference": "prendergast, c. (1999), the provision of incentives in firms, journal of economic literature, 37(1) : 763."
+    },
+    {
+      "authors": [
+        "rabin, matthew"
+      ],
+      "title": "incorporating fairness into game theory and economics",
+      "monograph_title": "advances in behavioral economics",
+      "editors": [],
+      "publisher": "princeton university press",
+      "place": "",
+      "date": "1993",
+      "pages": "297325",
+      "volume": "83",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/j.ctvcm4j8j.15",
+      "raw_reference": "rabin, m. (1993), incorporating fairness into game theory and economics, the american economic review, 83(5) : 12811302."
+    },
+    {
+      "authors": [
+        "salop, steven"
+      ],
+      "title": "a model of the natural rate of unemployment",
+      "monograph_title": "efficiency wage models of the labor market",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "1979",
+      "pages": "93101",
+      "volume": "69",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511559594.007",
+      "raw_reference": "salop, s. (1979), a model of the natural rate of unemployment, the american economic review, 69 : 117125."
+    },
+    {
+      "authors": [
+        "sefton, martin",
+        "shupp, robert",
+        "walker, james"
+      ],
+      "title": "the effect of rewards and sanctions in provision of public goods",
+      "monograph_title": "economic inquiry",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2007",
+      "pages": "671690",
+      "volume": "45",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14657295.2007.00051.x",
+      "raw_reference": "sefton, m. r. shupp et j. walker (2007), the effect of rewards and sanctions in provision of public goods, economic inquiry, 45 : 671690."
+    },
+    {
+      "authors": [
+        "shapiro, carl",
+        "stiglitz, joseph"
+      ],
+      "title": "equilibrium unemployment as a worker discipline device",
+      "monograph_title": "efficiency wage models of the labor market",
+      "editors": [],
+      "publisher": "cambridge university press",
+      "place": "",
+      "date": "1984",
+      "pages": "4556",
+      "volume": "74",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/cbo9780511559594.004",
+      "raw_reference": "shapiro, c. et j. e stiglitz (1984), equilibrium unemployment as a worker discipline device, the american economic review, 74(3) : 433444."
+    },
+    {
+      "authors": [
+        "shearer, bruce"
+      ],
+      "title": "piece rates, fixed wages and incentives: evidence from a field experiment",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2004",
+      "pages": "513534",
+      "volume": "71",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/00346527.00294",
+      "raw_reference": "shearer, b. (2004), piece rates, fixed wages and incentives: evidence from a field experiment, the review of economic studies, 71(2) : 513534."
+    },
+    {
+      "authors": [
+        "shearer, bruce"
+      ],
+      "title": "leconometrie des contrats : le role des archives de paie, des experiences et des modeles economiques",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2014",
+      "pages": "289",
+      "volume": "90",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/1035110ar",
+      "raw_reference": "shearer, b. (2014), leconometrie des contrats: le role des archives de paie, des experiences, et des modeles economiques, lactualite economique, 90 (4) : 289302."
+    },
+    {
+      "authors": [
+        "solow, robert"
+      ],
+      "title": "another possible source of wage stickiness",
+      "monograph_title": "journal of macroeconomics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1980",
+      "pages": "7982",
+      "volume": "1",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01640704(79)900223",
+      "raw_reference": "solow, r. m. (1980), another possible source of wage stickiness, journal of macroeconomics, 1(1) : 7982."
+    },
+    {
+      "authors": [
+        "stiglitz, joseph"
+      ],
+      "title": "alternative theories of wage determination and unemployment in ldcs: the labor turnover model",
+      "monograph_title": "the quarterly journal of economics",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "1974",
+      "pages": "194",
+      "volume": "88",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1883069",
+      "raw_reference": "stiglitz, j. e. (1974), alternative theories of wage determination and unemploy ment in ldcs: the labor turnover model, the quarterly journal of economics, 88(2) : 194227."
+    },
+    {
+      "authors": [
+        "stiglitz, j",
+        "butkiewicz, j",
+        "koford, k",
+        "miller, j",
+        "praeger"
+      ],
+      "title": "theories of wage rigidity",
+      "monograph_title": "keynes economic legacy: contemporary economic theories",
+      "editors": [],
+      "publisher": "praeger publishers",
+      "place": "",
+      "date": "1986",
+      "pages": "153206",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "stiglitz, j. e. (1986), theories of wage rigidity, in butkiewicz, j. l., k. j. koford et j. miller, keynes economic legacy: contemporary economic theories, praeger et al. : praeger publishers, p. 153206."
+    },
+    {
+      "authors": [
+        "weiss, e"
+      ],
+      "title": "job queues and layoffs in labor markets with flexible wages",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "university of chicago press",
+      "place": "",
+      "date": "1980",
+      "pages": "526538",
+      "volume": "88",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1086/260884",
+      "raw_reference": "weiss, e. (1980), job queues and layoffs in labor markets with flexible wages, the journal of political economy, 88(3) : 526538."
+    },
+    {
+      "authors": [
+        "willinger, marc",
+        "ziegelmeyer, anthony"
+      ],
+      "title": "framing and cooperation in public good games: an experiment with an interior solution",
+      "monograph_title": "economics letters",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1999",
+      "pages": "323328",
+      "volume": "65",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01651765(99)001779",
+      "raw_reference": "willinger, m. et a. ziegelmeyer (1999), framing and cooperation in public good games: an experiment with an interior solution, economics letters, 65 : 323328."
+    },
+    {
+      "authors": [
+        "wolpin, kenneth"
+      ],
+      "title": "ex ante policy evaluation, structural estimation, and model selection",
+      "monograph_title": "american economic review",
+      "editors": [],
+      "publisher": "american economic association",
+      "place": "",
+      "date": "2007",
+      "pages": "4852",
+      "volume": "97",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1257/aer.97.2.48",
+      "raw_reference": "wolpin, k. i. (2007), ex ante policy evaluation, structural estimation, and model selection, the american economic review, 97(2) : 4852."
+    },
+    {
+      "authors": [
+        "wolpin, kenneth"
+      ],
+      "title": "the limits of inference without theory",
+      "monograph_title": "the limits of inference without theory",
+      "editors": [],
+      "publisher": "the mit press",
+      "place": "yellen, j",
+      "date": "2013. 1984",
+      "pages": "200205",
+      "volume": "74",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7551/mitpress/9258.001.0001",
+      "raw_reference": "wolpin, k. i. (2013), the limits of inference without theory. the mit press, yellen, j. (1984), efficiency wage models of unemployment, the american economic review, 74 : 200205."
+    }
+  ],
+  "notes": [
+    "[2] voir shearer (2014) pour une discussion de lhistorique recente de lestimation de leffet de differents systemes de remuneration sur la productivite des travailleurs et du role des experiences dans cette litterature.",
+    "[3] on pourrait egalement investiguer ces effets par lentremise des experiences en laboratoire. les experiences en laboratoire permettent typiquement au chercheur dexercer plus de controle sur lexperience. en revanche il risque de perdre le realisme du marche de lemploi; voir harrison et list (2004). les modeles structurels peuvent etre appliques aux donnees de laboratoire pour identifier les parametres de preferences des participants (voir par exemple bellemare, kroger, et van soest, 2008). la generalisation des resultats obtenus par une telle approche aux environnements hors laboratoire est un sujet de recherche courant et important. pour des exemples et discussions sur leur generalisabilite, voir bajari et hortacsu (2005),brown, flinn, et schotter (2011)."
+  ],
+  "figures": [
+    {
+      "number": "1",
+      "title": "ajustement de leffort suite a une variation du cadeau",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

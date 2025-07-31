@@ -1,0 +1,1167 @@
+{
+  "title": "evaluation et comparaison des regles de vote derriere le voile de lignorance : tour dhorizon selectif et analyse des regles de scores a deux parametres*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "peter",
+      "last_name": "postl",
+      "email": "p.postl@bath.ac.uk",
+      "affiliation": "department of economics university of bath royaumeuni",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "nous proposons un cadre general pour letude et levaluation des regles de vote derriere le voile dignorance.nous montrerons comment de nombreuses contributions recensees dans notre revue de la litterature sur le vote peuvent etre considerees comme des cas particuliers de ce modele general.lanalyse se concentre ensuite sur loptimisation utilitariste dans le cas delections a trois candidats et une specification bayesienne ou les preferences cardinales des electeurs entre trois options sont de linformation privee.dans ce contexte specifique, nous etudions les regles de vote qui sont des regles de score a deux parametres, telles quintroduites par myerson (2002).nous montrons que tous les equilibres bayesiens symetriques induits par ces regles de vote sont des equilibres sinceres et ont une forme particuliere.ces equilibres sont uniques pour une vaste gamme de parametres, ce qui nous permet de comparer la performance a lequilibre de differentes regles de vote.les resultats de nos calculs relatifs a lefficacite des diverses regles de score (ou lefficacite est evaluee a laide dune variation de la mesure proposee par weber, 1978) permettent de conclure que les regles qui representent le plus efficacement les preferences des electeurs permettent lexpression de lintensite de ces preferences, contrairement aux regles plus couramment utilisees telles que la regle de pluralite et celle de borda.alors que la regle de vote par assentiment permet lexpression de lintensite des preferences, elle ne maximise pas lefficacite, car elle ne parvient pas a rendre sans ambiguite les preferences ordinales des electeurs.lactualite economique, revue danalyse economique, vol.93, n os 12, marsjuin 2017 ___________ * je remercie michel le breton de mavoir aide dans ce projet, ainsi que les deux arbitres anonymes qui mont offert leurs commentaires.toutes les erreurs qui restent sont miennes.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "1.",
+    "4.",
+    "5.",
+    "7.",
+    "8.",
+    "9.",
+    "le modele",
+    "structure de base et sequence du jeu",
+    "electeurs, candidats et preferences",
+    "regles de vote",
+    "structure de linformation",
+    "criteres devaluation",
+    "robustesse de la manipulation :",
+    "un tour dhorizon selectif",
+    "approche statistique en choix social",
+    "culture impartiale",
+    "culture impartiale anonyme",
+    "vote rationnel en information complete",
+    "approche bayesienne et approche de mechanism design appliquees au vote",
+    "une comparaison bayesienne detaillee des regles de score a deux",
+    "modele de base",
+    "regles de score a deux parametres",
+    "strategies de vote dequilibre",
+    "lensemble σ m",
+    ", designent les scores attribues par v a loption la mieux et la moins bien classee de i lorsque son type est t i.",
+    "(",
+    "(",
+    "notions de bienetre et efficacite",
+    "simulations numeriques"
+  ],
+  "acknowledgements": "confiance les performances de differentes regles de score pour ces distributions.a titre de mesure de performance, nous avons repris la notion defficacite proposee dans weber (1978).nos resultats montrent que la regle de pluralite et le vote negatif sont les moins efficaces pour representer les preferences de lelectorat.alors que le vote par assentiment surpasse de beaucoup ces deux regles, il nest pas aussi performant que les regles de score optimales (x, y), qui comportent une valeur x relativement petite et une valeur y relativement grande.nos simulations numeriques suggerent que les regles de vote qui permettent aux electeurs dexprimer lintensite de leurs preferences donnent de meilleurs resultats que celles qui ne le font pas.dans nos travaux futurs, nous avons lintention detudier davantage les caracteristiques des mecanismes de vote optimaux de la classe des mecanismes integrant les contraintes dincitation (cestadire les regles de decision d optimum de second rang ).cependant, de tels travaux devront resoudre des difficultes mathematiques considerables posees par une approche analytique de la conception des mecanismes dans ce contexte.",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [],
+      "title": "tableau c1.4. effectifs de lenseignement primaire et secondaire, selon le type detablissement et le mode de scolarisation (2009)",
+      "monograph_title": "observons que le type declare t ˆi et le type secondaire correspondant t i donnent lieu tous les deux au type normalise : (1, q i, 0)",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "null",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1787/888932471231",
+      "raw_reference": "observons que le type declare t ˆi et le type secondaire correspondant t i donnent lieu tous les deux au type normalise : (1, q i, 0)."
+    },
+    {
+      "authors": [
+        "notons, toutefois"
+      ],
+      "title": "les points que nous nabordons pas",
+      "monograph_title": "vers une technologie de la conscience ?",
+      "editors": [],
+      "publisher": "edp sciences",
+      "place": "",
+      "date": "",
+      "pages": "1516",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1051/9782759811311.c005",
+      "raw_reference": "notons, toutefois, que nous nalleguons pas que f * possede pleinement la propriete de compatibilite dincitation. les electeurs pourraient encore etre incites a dissimuler leurs types de bien dautres manieres quen les multipliant simplement par une constante."
+    },
+    {
+      "authors": [],
+      "title": "chap. xliii. des paraboles prophetiques. les visions des prophetes ont souvent un sens parabolique, qui leur est explique, ou dans la vision meme, ou apres quils sont sortis de leur etat extatique. parfois le sens de la vision parabolique ne doit pas etre cherche dans la chose vue, mais seulement dans le nom que porte cette chose, et qui, par son etymologie, indique le veritable sens de la vision",
+      "monograph_title": "dalalat al hairin",
+      "editors": [],
+      "publisher": "gorgias press",
+      "place": "",
+      "date": "",
+      "pages": "324329",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "avait pas de types proportionnels pouvant etre regroupes dans leur modele",
+      "url": "",
+      "doi": "10.31826/9781463225346046",
+      "raw_reference": "cette observation concorde avec les tres petites pertes de bienetre constatees par borgers et postl (2009), qui ont etudie un modele ou lutilite de bernoulli de loption preferee de chaque agent etait normalisee a 1 et ou loption la moins souhaitee etait normalisee a 0. par consequent, il ny avait pas de types proportionnels pouvant etre regroupes dans leur modele. bibliographie"
+    },
+    {
+      "authors": [
+        "ahn, david",
+        "oliveros, santiago"
+      ],
+      "title": "approval voting and scoring rules with common values",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "304310",
+      "volume": "166",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2016.09.002",
+      "raw_reference": "ahn, d. s. et s. oliveros (2016), approval voting and scoring rules with common values, journal of economic theory, 166 : 304310."
+    },
+    {
+      "authors": [
+        "apesteguia, j",
+        "ballester, m",
+        "ferrer, r"
+      ],
+      "title": "on the justice of decision rules",
+      "monograph_title": "the review of economic studies",
+      "editors": [],
+      "publisher": "oxford university press (oup)",
+      "place": "",
+      "date": "2011",
+      "pages": "116",
+      "volume": "78",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1093/restud/rdq023",
+      "raw_reference": "apesteguia, j., m. a. ballester et r. ferrer (2011), on the justice of decision rules, review of economic studies, 78 : 116."
+    },
+    {
+      "authors": [
+        "barbera, s",
+        "jackson, m"
+      ],
+      "title": "on the weights of nations: assigning voting weights in a heterogeneous union",
+      "monograph_title": "journal of political economy",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "317339",
+      "volume": "114",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "barbera, s. et m. o. jackson (2006), on the weights of nations: assigning voting weights in a heterogeneous union, journal of political economy, 114 : 317339."
+    },
+    {
+      "authors": [
+        "blais, andre",
+        "degan, arianna"
+      ],
+      "title": "letude empirique du vote strategique",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2017",
+      "pages": "47",
+      "volume": "93",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/1044715ar",
+      "raw_reference": "blais, a. et a. degan (2017), letude du vote strategique, dans ce numero."
+    },
+    {
+      "authors": [
+        "bordley, robert"
+      ],
+      "title": "a pragmatic method for evaluating election schemes through simulation",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1983",
+      "pages": "123141",
+      "volume": "77",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1956015",
+      "raw_reference": "bordley, r. f. (1983), a pragmatic method for evaluating election schemes through simulation, american political science review, 77 : 123141."
+    },
+    {
+      "authors": [
+        "borgers, tilman",
+        "postl, peter"
+      ],
+      "title": "efficient compromising",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2009",
+      "pages": "20572076",
+      "volume": "144",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2009.01.011",
+      "raw_reference": "borgers, t. et p. postl (2009), efficient compromising, journal of economic theory, 144 : 20572076."
+    },
+    {
+      "authors": [
+        "brams, steven",
+        "fishburn, peter"
+      ],
+      "title": "approval voting",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1978",
+      "pages": "831847",
+      "volume": "72",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1955105",
+      "raw_reference": "brams, s. j. et p. c. fishburn (1978), approval voting, american political science review, 72 : 831847."
+    },
+    {
+      "authors": [
+        "brams, steven",
+        "fishburn, peter"
+      ],
+      "title": "chapter 4 voting procedures",
+      "monograph_title": "handbook of social choice and welfare",
+      "editors": [
+        "arrow, k",
+        "sen, a",
+        "suzumura, k"
+      ],
+      "publisher": "elsevier",
+      "place": "amsterdam",
+      "date": "1978. 2002",
+      "pages": "173236",
+      "volume": "i",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s15740110(02)80008x",
+      "raw_reference": "brams, s. j. et p. c. fishburn (1978): (2002), voting procedures, in k. j. arrow, a. k. sen, et k. suzumura (eds), handbook of same choice and welfare, vol. i, elsevier north holland, amsterdam, chap. 4, p.173236."
+    },
+    {
+      "authors": [
+        "buenrostro, lucia",
+        "dhillon, amrita",
+        "vida, peter"
+      ],
+      "title": "scoring rule voting games and dominance solvability",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2013",
+      "pages": "329352",
+      "volume": "40",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550110602x",
+      "raw_reference": "buenrostro, l., a. dhillon et p. vida (2013), scoring rule voting games and dominance solvability, social choice and welfare, 40 : 329352."
+    },
+    {
+      "authors": [
+        "carmona, g"
+      ],
+      "title": "",
+      "monograph_title": "a voting model generically yielding sincere voting in large elections",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2012",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "university of cambridge, mimeo",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "carmona, g. (2012), a voting model generically yielding sincere voting in large elections, university of cambridge, mimeo."
+    },
+    {
+      "authors": [
+        "carroll, g"
+      ],
+      "title": "voting agreement or voting trust? a quandary for corporate shareholders: corporations. voting trusts. intercorporate voting agreement",
+      "monograph_title": "stanford law review",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "2013",
+      "pages": "565",
+      "volume": "10",
+      "issue": "3",
+      "organization": "stanford university",
+      "notes": "mimeo",
+      "url": "",
+      "doi": "10.2307/1226828",
+      "raw_reference": "carroll, g. (2013), a quantitative approach to incentives: application to voting, stanford university, mimeo."
+    },
+    {
+      "authors": [
+        "cervone, davide",
+        "gehrlein, william",
+        "zwicker, william"
+      ],
+      "title": "which scoring rule maximizes condorcet efficiency under iac?",
+      "monograph_title": "theory and decision",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2005",
+      "pages": "145185",
+      "volume": "58",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s1123800565941",
+      "raw_reference": "cervone, d. p., w. v. gehrlein et w. s. zwicker (2005), which scoring rule maximizes condorcet efficiency under iac?, theory and decision, 58 : 145185."
+    },
+    {
+      "authors": [
+        "chamberlin, john",
+        "cohen, michael"
+      ],
+      "title": "toward applicable social choice theory: a comparison of social choice functions under spatial model assumptions",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1978",
+      "pages": "13411356",
+      "volume": "72",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1954543",
+      "raw_reference": "chamberlin, j. r. et m. d. cohen (1978), toward applicable social choice theory: a comparison of social choice functions under spatial model assumptions, american political science review, 72 : 13411356."
+    },
+    {
+      "authors": [
+        "cook, wade",
+        "kress, moshe"
+      ],
+      "title": "ordinal ranking with intensity of preference",
+      "monograph_title": "management science",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "1985",
+      "pages": "2632",
+      "volume": "31",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/mnsc.31.1.26",
+      "raw_reference": "cook, w. d. et m. kress (1985), ordinal ranking with intensity of preference, management science, 31 : 2632."
+    },
+    {
+      "authors": [
+        "de sinopoli, francesco"
+      ],
+      "title": "sophisticated voting and equilibrium refinements under plurality rule",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2001",
+      "pages": "655672",
+      "volume": "17",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550000049",
+      "raw_reference": "de sinopoli, f. (2001), sophisticated voting and equilibrium refinements under plurality rule, social choice and welfare, 17 : 655672."
+    },
+    {
+      "authors": [
+        "de sinopoli, francesco",
+        "dutta, bhaskar",
+        "laslier, jeanfrancois"
+      ],
+      "title": "approval voting: three examples",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2006",
+      "pages": "2738",
+      "volume": "35",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0018200600532",
+      "raw_reference": "de sinopoli, f., b. dutta et j.f. laslier (2006), approval voting: three examples, international journal of game theory, 35 : 2738."
+    },
+    {
+      "authors": [
+        "de sinopoli, francesco",
+        "iannantuoni, giovanna",
+        "pimienta, carlos"
+      ],
+      "title": "counterexamples on the superiority of approval versus plurality",
+      "monograph_title": "journal of public economic theory",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2014",
+      "pages": "824834",
+      "volume": "16",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/jpet.12080",
+      "raw_reference": "de sinopoli, f., g. iannantuoni et c. pimienta (2014), counterexamples on the superiority of approval versus plurality, journal of public economic theory, 16 : 824834."
+    },
+    {
+      "authors": [
+        "feddersen, timothy",
+        "pesendorfer, wolfgang"
+      ],
+      "title": "voting behavior and information aggregation in elections with private information",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1997",
+      "pages": "1029",
+      "volume": "65",
+      "issue": "5",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2171878",
+      "raw_reference": "feddersen, t. et w. pesendorfer (1997), voting behavior and information aggregation in elections with private information, econometrica, 65 : 10291058."
+    },
+    {
+      "authors": [
+        "fishburn, peterc.",
+        "brams, stevenj."
+      ],
+      "title": "approval voting, condorcets principle, and runoff elections",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1981",
+      "pages": "89114",
+      "volume": "36",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00163773",
+      "raw_reference": "fishburn, p. c. et s. j. brams (1981), approval voting, condorcets principle, and runoff elections, public choice, 36 : 89114."
+    },
+    {
+      "authors": [
+        "fishburn, peter",
+        "gehrlein, william"
+      ],
+      "title": "an analysis of simple twostage voting systems",
+      "monograph_title": "behavioral science",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "1976",
+      "pages": "112",
+      "volume": "21",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1002/bs.3830210102",
+      "raw_reference": "fishburn, p. c. et w. v. gehrlein (1976), an analysis of simple twostage voting systems, behavioral science, 21 : 112."
+    },
+    {
+      "authors": [
+        "gehrlein, william",
+        "lepelley, dominique"
+      ],
+      "title": "the condorcet efficiency of borda rule with anonymous voters",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2001",
+      "pages": "3950",
+      "volume": "41",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01654896(00)000470",
+      "raw_reference": "gehrlein, w. v. et d. lepelley (2001), the condorcet efficiency of borda rule with anonymous voters, mathematical social sciences, 41 : 3950."
+    },
+    {
+      "authors": [
+        "gehrlein, william",
+        "lepelley, dominique"
+      ],
+      "title": "condorcet efficiency and social homogeneity",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [],
+      "publisher": "springer berlin heidelberg",
+      "place": "heidelberg",
+      "date": "2011",
+      "pages": "157198",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/9783642031076_5",
+      "raw_reference": "gehrlein, w. v. et d. lepelley (2011), voting paradoxes and group coherence: the condorcet efficiency of voting rules, springer verlag, heidelberg."
+    },
+    {
+      "authors": [
+        "gehrlein, william",
+        "lepelley, dominique",
+        "plassmann, florenz"
+      ],
+      "title": "should voters be required to rank candidates in an election?",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2016",
+      "pages": "707747",
+      "volume": "46",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035501509205",
+      "raw_reference": "gehrlein, w. v., d. lepelley et f. plassmann (2016), should voters be required to rank candidates in an election?, mathematical social sciences, 46 : 707747."
+    },
+    {
+      "authors": [
+        "giles, adam",
+        "postl, peter"
+      ],
+      "title": "equilibrium and effectiveness of twoparameter scoring rules",
+      "monograph_title": "mathematical social sciences",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2014",
+      "pages": "3152",
+      "volume": "68",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.mathsocsci.2013.12.003",
+      "raw_reference": "giles, a. et p. postl (2014), equilibrium and effectiveness of twoparameter scoring rules, mathematical social sciences, 68 : 3152."
+    },
+    {
+      "authors": [
+        "greenarmytage, james",
+        "tideman, t",
+        "cosman, rafael"
+      ],
+      "title": "statistical evaluation of voting rules",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2016",
+      "pages": "183212",
+      "volume": "46",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035501509090",
+      "raw_reference": "greenarmytage, j., t. n. tideman et r. cosman (2016), statistical evaluation of voting rules, mathematical social sciences, 46 : 183212."
+    },
+    {
+      "authors": [
+        "holmstrom, bengt",
+        "myerson, roger"
+      ],
+      "title": "efficient and durable decision rules with incomplete information",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1983",
+      "pages": "1799",
+      "volume": "51",
+      "issue": "6",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/1912117",
+      "raw_reference": "holmstrom, b. et r. b. myerson (1983), efficient and durable decision rules with incomplete information, econometrica, 51 : 17991819."
+    },
+    {
+      "authors": [
+        "hortalavallve, rafael"
+      ],
+      "title": "inefficiencies on linking decisions",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2009",
+      "pages": "471486",
+      "volume": "34",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035500904126",
+      "raw_reference": "hortalavallve, r. (2009), inefficiencies on linking decision, social choice and welfare, 34 : 471486."
+    },
+    {
+      "authors": [
+        "jackson, matthew",
+        "sonnenschein, hugo"
+      ],
+      "title": "overcoming incentive constraints by linking decisions",
+      "monograph_title": "econometrica",
+      "editors": [],
+      "publisher": "the econometric society",
+      "place": "",
+      "date": "2007",
+      "pages": "241257",
+      "volume": "75",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/j.14680262.2007.00737.x",
+      "raw_reference": "jackson, m. o. et h. f. sonnenschein (2007), overcoming incentive constraints by linking decision, econometrica, 75 : 241257."
+    },
+    {
+      "authors": [
+        "kim, semin"
+      ],
+      "title": "ordinal versus cardinal voting rules: a mechanism design approach",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2016",
+      "pages": "350371",
+      "volume": "104",
+      "issue": "",
+      "organization": "national taiwan university",
+      "notes": "mimeo",
+      "url": "",
+      "doi": "10.1016/j.geb.2017.04.012",
+      "raw_reference": "kim, s. (2016), ordinal versus cardinal voting rules: a mechanism design approach, national taiwan university, mimeo."
+    },
+    {
+      "authors": [
+        "laslier, j.f"
+      ],
+      "title": "and the loser is... plurality voting",
+      "monograph_title": "studies in choice and welfare",
+      "editors": [
+        "d",
+        "machover, m"
+      ],
+      "publisher": "springer berlin heidelberg",
+      "place": "heidelberg",
+      "date": "2012",
+      "pages": "327351",
+      "volume": "13",
+      "issue": "",
+      "organization": "",
+      "notes": "plurality voting",
+      "url": "",
+      "doi": "10.1007/9783642204418_13",
+      "raw_reference": "laslier, j.f. (2012), and the loser is...plurality voting, in d. s. felsenthal, et m. machover (eds), electoral systems, springer verlag, heidelberg, chap. 13, p. 327351."
+    },
+    {
+      "authors": [
+        "le breton, michel",
+        "lepelley, dominique",
+        "mace, antonin",
+        "merlin, vincent"
+      ],
+      "title": "le mecanisme optimal de vote au sein du conseil des representants dun systeme federal",
+      "monograph_title": "lactualite economique",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2017",
+      "pages": "203",
+      "volume": "93",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/1044720ar",
+      "raw_reference": "le breton, m., d. lepelley, a. mace et v. merlin (2017), le mecanisme optimal de vote au sein du conseil des representants dans un systeme federal, dans ce numero."
+    },
+    {
+      "authors": [
+        "lepelley, dominique",
+        "valognes, fabrice"
+      ],
+      "title": "voting rules",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2003",
+      "pages": "165184",
+      "volume": "116",
+      "issue": "1/2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1023/a:1024221816507",
+      "raw_reference": "lepelley, d. et f. valognes (2003), voting rules, manipulability and social homogeneity, public choice, 116 : 165184."
+    },
+    {
+      "authors": [
+        "maus, stefan",
+        "peters, hans",
+        "storcken, ton"
+      ],
+      "title": "anonymous voting and minimal manipulability",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "533544",
+      "volume": "135",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2006.04.002",
+      "raw_reference": "maus, s., h. peters et t. storcken (2007), anonymous voting and minimal manipulability, journal of economic theory, 135 : 533544."
+    },
+    {
+      "authors": [
+        "meek, b"
+      ],
+      "title": "a transferable voting system including intensity of preference",
+      "monograph_title": "mathematique et sciences humaines",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1975",
+      "pages": "2329",
+      "volume": "50",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "meek, b. l. (1975), a transferable voting system including intensity of preference, mathematique et sciences humaines, 50 : 2329."
+    },
+    {
+      "authors": [
+        "merrill, samuel"
+      ],
+      "title": "a comparison of efficiency of multicandidate electoral systems",
+      "monograph_title": "american journal of political science",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1984",
+      "pages": "23",
+      "volume": "28",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2110786",
+      "raw_reference": "merrill, s. (1984), a comparison of efficiency of multicandidate electoral systems, american journal of political science, 28 : 2348."
+    },
+    {
+      "authors": [
+        "merrill, samuel"
+      ],
+      "title": "a statistical model for condorcet efficiency based on simulation under spatial model assumptions",
+      "monograph_title": "public choice",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1985",
+      "pages": "389403",
+      "volume": "47",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00127534",
+      "raw_reference": "merrill, s. (1985), a statistical model for condorcet efficiency based on simulation under spatial model assumptions, public choice, 47 : 389403."
+    },
+    {
+      "authors": [
+        "mertens, j.f"
+      ],
+      "title": "stable equilibriaa reformulation",
+      "monograph_title": "mathematics of operations research",
+      "editors": [],
+      "publisher": "institute for operations research and the management sciences (informs)",
+      "place": "",
+      "date": "1989",
+      "pages": "575625",
+      "volume": "14",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1287/moor.14.4.575",
+      "raw_reference": "mertens, j.f. (1989), stable equilibria a reformulation. part i: definition and basic properties, mathematics of operations research, 14 : 575625."
+    },
+    {
+      "authors": [
+        "miralles, antonio"
+      ],
+      "title": "cardinal bayesian allocation mechanisms without transfers",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "179206",
+      "volume": "147",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.jet.2011.11.002",
+      "raw_reference": "miralles, a. (2012), cardinal bayesian allocation mechanisms without transfers, journal of economic theory, 147 : 179206."
+    },
+    {
+      "authors": [
+        "myerson, r"
+      ],
+      "title": "refinements of the nash equilibrium concept",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1978",
+      "pages": "7380",
+      "volume": "7",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01753236",
+      "raw_reference": "myerson, r. b. (1978), refinements of the nash equilibrium concept, international journal of game theory, 15 : 133154."
+    },
+    {
+      "authors": [
+        "myerson, roger"
+      ],
+      "title": "comparison of scoring rules in poisson voting games",
+      "monograph_title": "journal of economic theory",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2002",
+      "pages": "219251",
+      "volume": "103",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1006/jeth.2001.2830",
+      "raw_reference": "myerson, r. b. (2002), comparison of scoring rules in poisson voting games, journal of economic theory, 103 : 219251."
+    },
+    {
+      "authors": [
+        "myerson, roger",
+        "weber, robert"
+      ],
+      "title": "a theory of voting equilibria",
+      "monograph_title": "american political science review",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1993",
+      "pages": "102114",
+      "volume": "87",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/2938959",
+      "raw_reference": "myerson, r. b et r. j. weber (1993), a theory of voting equilibria, american political science review, 87 : 102114."
+    },
+    {
+      "authors": [
+        "niemi, r",
+        "weisberg, h"
+      ],
+      "title": "",
+      "monograph_title": "probability models of collective decision making",
+      "editors": [],
+      "publisher": "c.e. merrill publishing company",
+      "place": "michigan, usa",
+      "date": "1972",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "niemi, r. g et h. f. weisberg (eds) (1972), probability models of collective decision making, c.e. merrill publishing company, michigan, usa."
+    },
+    {
+      "authors": [
+        "nurmi, hannu"
+      ],
+      "title": "approaches to collective decision making with fuzzy preference relations",
+      "monograph_title": "fuzzy sets and systems",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1981",
+      "pages": "249259",
+      "volume": "6",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/01650114(81)900038",
+      "raw_reference": "nurmi, h. (1981), approaches to collective decision making with fuzzy preference relations, fuzzy sets and systems, 6 : 249259."
+    },
+    {
+      "authors": [
+        "nurmi, hannu"
+      ],
+      "title": "fuzzy social choice: a selective retrospect",
+      "monograph_title": "soft computing",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1993",
+      "pages": "281288",
+      "volume": "12",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0050000701965",
+      "raw_reference": "nurmi, h. (1993), fuzzy social choice: a selective retrospect, soft computing, 12 : 281288."
+    },
+    {
+      "authors": [
+        "pivato, marcus"
+      ],
+      "title": "asymptotic utilitarianism in scoring rules",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2016",
+      "pages": "431458",
+      "volume": "47",
+      "issue": "2",
+      "organization": "universite de cergypontoise mimeo",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0035501609712",
+      "raw_reference": "pivato, m. (2016), asymptotic utilitarianism in scoring rules, thema, universite de cergypontoise mimeo."
+    },
+    {
+      "authors": [
+        "postl, peter"
+      ],
+      "title": "strategyproof compromises",
+      "monograph_title": "the b.e. journal of theoretical economics",
+      "editors": [],
+      "publisher": "walter de gruyter gmbh",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "11",
+      "issue": "1",
+      "organization": "",
+      "notes": "article 20",
+      "url": "",
+      "doi": "10.2202/19351704.1684",
+      "raw_reference": "postl, p. (2011), strategyproof compromises, the b.e. journal of theoretical economics, 11 : article 20."
+    },
+    {
+      "authors": [
+        "rochet, j.c"
+      ],
+      "title": "a necessary and sufficient condition for rationalizability in a quasilinear context",
+      "monograph_title": "journal of mathematical economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "1987",
+      "pages": "191200",
+      "volume": "16",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/03044068(87)900073",
+      "raw_reference": "rochet, j.c. (1987), a necessary and sufficient condition for rationalizability in a quasilinear context, journal of mathematical economics, 16 : 191200."
+    },
+    {
+      "authors": [
+        "schmitz, patrick",
+        "troger, thomas"
+      ],
+      "title": "the (sub)optimality of the majority rule",
+      "monograph_title": "games and economic behavior",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2012",
+      "pages": "651665",
+      "volume": "74",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.geb.2011.08.002",
+      "raw_reference": "schmitz, p. w. et t. troger (2012), the (sub)optimality of the majority rule, games and economic behavior, 74 : 651665."
+    },
+    {
+      "authors": [
+        "selten, r"
+      ],
+      "title": "reexamination of the perfectness concept for equilibrium points in extensive games",
+      "monograph_title": "international journal of game theory",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1975",
+      "pages": "2555",
+      "volume": "4",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf01766400",
+      "raw_reference": "selten, r. (1975), a reexamination of the perfectness concept for equilibrium points in extensive games, international journal of game theory, 4 : 2555."
+    },
+    {
+      "authors": [
+        "smith, david"
+      ],
+      "title": "manipulability measures of common social choice functions",
+      "monograph_title": "social choice and welfare",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1999",
+      "pages": "639661",
+      "volume": "16",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s003550050166",
+      "raw_reference": "smith, d. a. (1999), manipulability measures of common social choice functions, social choice and welfare, 16 : 639661."
+    },
+    {
+      "authors": [
+        "weber, r"
+      ],
+      "title": "comparison of public choice systems",
+      "monograph_title": "cowles foundation discussion paper",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1978",
+      "pages": "",
+      "volume": "",
+      "issue": "498",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "weber, r. j. (1978), comparison of public choice systems, cowles foundation discussion paper, no. 498."
+    }
+  ],
+  "notes": [
+    "[2] voir par exemple, la section 6 de borgers et postl (2009) et notons la difficulte supplementaire qui se pose dans les environnements de vote caracterises par la nature multidimensionnelle de linformation privee des electeurs.",
+    "[22] de sinopoli (2001) etudie lequilibre de nash et ses raffinements dans le jeu en information complete induit par la regle de pluralite.",
+    "[23] voir egalement la revue de litterature de le breton, lepelley, mace et merlin (2017) dans ce numero special, qui est dedie aux difficultes de conception du mecanisme traitant du cas de deux candidats, lorsque la categorie des regles de vote a la disposition du concepteur est limitee.",
+    "[24] pour avoir une idee de la difficulte a concevoir des regles de vote optimales a lepreuve des strategies dans les cas ou il y a trois options, voir postl (2011) qui analyse un cadre connexe, mais plus simple.",
+    "[25] la preuve est constructive et sappuie sur le mecanisme direct qui est lequivalent du bne de la regle de vote que nous caracterisons dans le present article.",
+    "[26] notre tentative dexplorer la regle de vote qui constitue un optimum de second rang est en lien avec les travaux de hortalavallve (2009) qui, quoique dans un cadre different, caracterise la categorie des regles de choix social a lepreuve des strategies qui satisfont a une condition de derivabilite appropriee.",
+    "[37] comme dans le graphique 2, nous montrons les niveaux defficacite de seulement 20 classes dequivalence associees aux interieurs des divers polygones.",
+    "[38] de toutes les regles avec x = y, celle ou x = y = 0,6 genere lefficacite moyenne la plus elevee pour toutes les 25 distributions beta."
+  ],
+  "figures": [
+    {
+      "number": "2",
+      "title": "valeurs dequilibre de a * pour trois electeurs et une distribution g uniforme 0 0,0 0,2 0,4 0,6 0,8 1,0 0,2 0,4 0,6 0,8 1,0 x y.647",
+      "source": ""
+    },
+    {
+      "number": "3",
+      "title": "efficacite moyenne en % pour 25 distributions beta 0 0,0 0,2 0,4 0,6 0,8 1,0 0,2 0,4 0,6 0,8 1,0 x y 87.89 87.51 88.14 88.20 88.12 88.56 87.54 88.25 88.60 88.60 88.68 87.87 87.57",
+      "source": ""
+    },
+    {
+      "number": "1",
+      "title": "ensemble de toutes les regles de selection a parametres(x, y)",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

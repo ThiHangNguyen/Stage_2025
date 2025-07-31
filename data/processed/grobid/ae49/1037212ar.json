@@ -1,0 +1,763 @@
+{
+  "title": "les modeles factoriels et la gestion du risque de longevite*",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "martin",
+      "last_name": "boyer",
+      "email": "",
+      "affiliation": "departement de finance hec montreal cirano departement de finance hec montreal chaire de recherche du canada departement de statistiques et dactuariat departement deconomie",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "christian",
+      "last_name": "dorion",
+      "email": "",
+      "affiliation": "universite western ontario",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "lars",
+      "last_name": "stentoft",
+      "email": "",
+      "affiliation": "* cette recherche est financee par le conseil de recherche en sciences humaines du canada, l institut de la finance structuree et des instruments derives de montreal et le cirano.",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "resume laugmentation constante de lesperance de vie engendre lheureux risque de vivre audela de nos actifs.ce risque nest non seulement pas diversifiable pour les individus, mais il ne lest que difficilement pour les fonds de pension et les assureurs.nous illustrons comment differents modeles a facteurs peuvent etre utilises afin de valoriser les titres financiers qui permettraient aux fonds de pension de transferer ce risque a dautres parties.nous montrons que le risque de longevite, bien que mesurable au moyen dun modele en composantes principales, est mieux mesure au moyen de modeles plus structurels.neanmoins, le risque de modele associe a ces modeles structurels demeure tel quil est fort possible que la prime que demanderait un assureur pour assumer le risque de longevite soit superieure a la volonte a payer des promoteurs de fonds de pension.cet ecart pourrait expliquer la quasiabsence de marche pour la gestion du risque de longevite.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "2.",
+    "les modeles stochastiques de mortalite",
+    "modele leecarter",
+    "6.",
+    "7.",
+    "8.",
+    "modele cbd",
+    "9.",
+    "le cadre economique",
+    "le marche incomplet de la longevite et les modeles factoriels",
+    "quels sont les montants en jeu?",
+    "predictions hors echantillon des probabilites de deces",
+    "(",
+    "gerer le risque de longevite pour la population et pour un fonds de pension",
+    "le forward de longevite",
+    "[",
+    "borne inferieure sur la prime de risque dun modele biaise",
+    "la gestion du risque de longevite pour un fonds de pension"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [],
+      "title": "depuis le debut des annees quatrevingtdix, la societe regulierement des concentres a lhopital necker, dautres francaise dans sa totalite, et pas seulement les hemophiles uniquement des cryoprecipites a lhopital saintantoine. ou les transfuses, la presse et les politiques, les medecins les derniers etaient belges et avaient recu des produits et les chercheurs, tous individuellement, ont ete nationaux. il y avait moins de 5 % de contamination chez bouleverses par le drame du sang contamine. il est apparu les hemophiles belges, 10 % chez ceux de saintantoine, au grand jour que plusieurs centaines dhemophiles et de et presque 60 % chez ceux traites a necker. ces resultats transfuses ont ete contamines par le virus du sida entre furent pour nous un choc. ils mettaient en evidence des 1983 et 1985. le docteur michel garetta, ancien directeur taux de contamination importants et tres differents selon du centre national de transfusion sanguine (cnts) et le le type de traitement des hemophiles. docteur jeanpierre allain, chef du departement de cependant leur interpretation netait pas simple [...] recherche et de developpement du cnts, ont ete accuses tous ces resultats ne sont pas restes un secret de de tromperies sur les qualites substantielles dun laboratoire, mais ils ont rencontre lincredulite ou produit. il sagissait de lecoulement de produits non lindifference. chauffes destines aux hemophiles entre juin et octobre une decision energique, qui aurait pu suivre notre 1985. le professeur jacques roux, ancien directeur enquete de 1984, aurait pu etre darreter des 1984 tout general de la sante, et le docteur robert netter, ancien traitement prophylactique des hemophiles avec des directeur du laboratoire national de la sante ont ete concentres. elle aurait ete fort impopulaire chez les accuses de nonassistance a personnes en danger [1]. medecins transfuseurs et les hemophiles euxmemes. ces personnes ont ete jugees. des condamnations avertir dun danger de mort ceux qui netaient pas encore penales ont ete prononcees. infectes, cetait en meme temps annoncer aux 60 % deja ces contaminations auraientelles pu etre evitees ? seropositifs la probabilite dune mort prematuree. comment les decouvertes scientifiques ontelles interagi en 1985, les connaissances etaient plus avancees et la avec les decisions de sante publique ? ces questions recommandation dutiliser des produits chauffes se continuent a agiter bien des esprits. generalisait. notre etude sur les hemophiles italiens parue le sida a ete identifie pour la premiere fois aux en fevrier 1985, bien quimparfaite et fragmentaire, etatsunis en 1981 comme maladie transmissible chez pouvait contribuer a lever les doutes a la fois sur des homosexuels. lefficacite du chauffage et sur le risque des effets des 1982, le meme syndrome a ete reconnu chez des secondaires. les dirigeants du cnts ont continue a hemophiles : cette observation etait fondamentale, car ces diffuser entre juillet et octobre 1985 des produits quils hemophiles avaient recu des produits derives du sang savaient potentiellement contamines. la restriction de des concentres qui avaient ete filtres leur usage aux hemophiles infectes (seropositifs) na sans bacteriologiquement, ce qui montrait que lagent doute ete quimparfaitement suivie. habituellement, infectieux etait present dans le sang et relativement lorsquun produit savere dangereux, il est retire resistant puisquil avait supporte les differentes etapes de immediatement du circuit des utilisateurs par la purification partielle de ces produits. compagnie qui le fabrique. [...] lerreur des autorites de sante publique fut de ne pas des le debut de nos recherches sur le sida, nous nous avoir considere ces produits comme des medicaments et sommes interesses aux hemophiles, en effet certains den avoir confie le monopole a une entreprise qui navait dentre eux etaient infectes, nous avons donc suspecte que pas le statut dune entreprise pharmaceutique. de maniere le virus pouvait se transmettre par le sang. nous avons generale, les fabriquants ne peuvent etre leur propre dailleurs effectue des 1983 un premier isolement de controle. aujourdhui, ceci a ete pris en ligne de compte virus a partir du sang dun jeune hemophile. dans la nouvelle organisation de la transfusion et de la en 19831984, nous avons commence une etude fabrication des produits sanguins. serologique comparant les taux de seropositivite en fonction des differents produits de substitution que les hemophiles avaient recus. certains avaient recu",
+      "monograph_title": "francotheque: a resource for french studies",
+      "editors": [],
+      "publisher": "routledge",
+      "place": "",
+      "date": "1921 a 2009. 2013",
+      "pages": "179211",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "$ cp(1) 1042 $ 945 $ 1121 $ 1009 $ 1249 $ 1114 $ cp(2) 1042 $ 944 $ 1120 $ 1009 $ 1249 $ 1113 $ cp(3) 1042 $ 945 $ 1120 $ 1009 $ 1249 $ 1114 $ primes correspondant a une annuite de 100 $ pour un nouveau retraite de 65 ans, basees sur les differents modeles estimes a laide des donnees canadiennes de mortalite de rapport du basel committee on banking supervision",
+      "url": "",
+      "doi": "10.4324/97802037841634",
+      "raw_reference": "lc 1041 $ 944 $ 1120 $ 1008 $ 1248 $ 1112 $ cbd 1028 $ 941 $ 1105 $ 1005 $ 1230 $ 1109 $ cbdvar 1031 $ 996 $ 1108 $ 1070 $ 1235 $ 1192 $ cp(1) 1042 $ 945 $ 1121 $ 1009 $ 1249 $ 1114 $ cp(2) 1042 $ 944 $ 1120 $ 1009 $ 1249 $ 1113 $ cp(3) 1042 $ 945 $ 1120 $ 1009 $ 1249 $ 1114 $ primes correspondant a une annuite de 100 $ pour un nouveau retraite de 65 ans, basees sur les differents modeles estimes a laide des donnees canadiennes de mortalite de 1921 a 2009. un taux de 6,75 % est utilise par plusieurs fonds de pension. le rapport damours suggere plutot dutiliser un taux provenant dindices dobligations de tres grandes qualites. les taux de 5,98 % et 4,89 % correspondent aux rendements de tels indices sur obligations corporatives et gouvernementales, respectivement, depuis novembre 2006. plus precisement, les indices utilises sont les suivants : (i) ftse tmx canada all corporate bond index, (ii) ftse tmx canada all government bond index. bibliographie bank for international settlement (2013), longevity risk transfer markets : market structure, growth drivers and impediments, and potential risks, rapport du basel committee on banking supervision."
+    },
+    {
+      "authors": [
+        "e"
+      ],
+      "title": "affine processes for dynamic mortality and actuarial valuation",
+      "monograph_title": "insurance : mathematics and economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2005",
+      "pages": "443468",
+      "volume": "37",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "biffis, e. (2005), affine processes for dynamic mortality and actuarial valua tion, insurance : mathematics and economics, 37 : 443468."
+    },
+    {
+      "authors": [
+        "j"
+      ],
+      "title": "population aging and the rising cost of public pensions",
+      "monograph_title": "population and development review",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "pages": "123",
+      "volume": "30",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "bongaarts, j. (2004), population aging and the rising cost of public pen sions, population and development review, 30 : 123."
+    },
+    {
+      "authors": [
+        "booth, h",
+        "tickle, l"
+      ],
+      "title": "mortality modelling and forecasting: a review of methods",
+      "monograph_title": "annals of actuarial science",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2008",
+      "pages": "343",
+      "volume": "3",
+      "issue": "12",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s1748499500000440",
+      "raw_reference": "booth, h. et l. tickle (2008), mortality modelling and forecasting : a review of methods, the australian demographic and social research institute, do cument de travail no 3."
+    },
+    {
+      "authors": [
+        "boyer, m",
+        "mejza, joanna",
+        "stentoft, lars"
+      ],
+      "title": "measuring longevity risk: an application to the royal canadian mounted police pension plan",
+      "monograph_title": "risk management and insurance review",
+      "editors": [],
+      "publisher": "wiley",
+      "place": "",
+      "date": "2014",
+      "pages": "3759",
+      "volume": "17",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1111/rmir.12018",
+      "raw_reference": "boyer, m.m., j. mejza et l. stentoft (2014), measuring longevity risk for a canadian public pension fund, risk management and insurance review, 17 : 3759."
+    },
+    {
+      "authors": [
+        "boyer, m",
+        "stentoft, lars"
+      ],
+      "title": "if we can simulate it, we can insure it: an application to longevity risk management",
+      "monograph_title": "insurance: mathematics and economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "3545",
+      "volume": "52",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.insmatheco.2012.10.003",
+      "raw_reference": "boyer, m.m. et l. stentoft (2013), if we can simulate it, we can insure it : an application to longevity risk management, insurance : mathematics and economics, 52 : 3545."
+    },
+    {
+      "authors": [
+        "cairns, andrew",
+        "blake, david",
+        "dowd, kevin"
+      ],
+      "title": "pricing death: frameworks for the valuation and securitization of mortality risk",
+      "monograph_title": "astin bulletin",
+      "editors": [
+        "cairns, a",
+        "d",
+        "dowd, k"
+      ],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "2006. 2006",
+      "pages": "79120",
+      "volume": "36",
+      "issue": "1",
+      "organization": "",
+      "notes": "astin bulletin",
+      "url": "",
+      "doi": "10.2143/ast.36.1.2014145",
+      "raw_reference": "cairns, a.j.g., d. blake, et k. dowd (2006a), pricing death : frameworks for the valuation and securitization of mortality risk, astin bulletin, 36 : 79120. cairns, a.j.g., d. blake, et k. dowd (2006b), a twofactor model for sto chastic mortality with parameter uncertainty : theory and calibration, jour nal of risk and insurance, 73 : 687718."
+    },
+    {
+      "authors": [
+        "cairns, andrew",
+        "blake, david",
+        "dowd, kevin",
+        "coughlan, guy",
+        "epstein, david",
+        "khalafallah, marwa"
+      ],
+      "title": "mortality density forecasts: an analysis of six stochastic mortality models",
+      "monograph_title": "insurance: mathematics and economics",
+      "editors": [
+        "cairns, a",
+        "ong, i",
+        "balevich"
+      ],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2011. 2009",
+      "pages": "355367",
+      "volume": "48",
+      "issue": "3",
+      "organization": "",
+      "notes": "mortality density forecasts : an analysis of six stochastic mortality models north american actuarial journal",
+      "url": "",
+      "doi": "10.1016/j.insmatheco.2010.12.005",
+      "raw_reference": "cairns, a.j.g., d. blake, k. dowd, g.d. coughlan, d. epstein et m. khalafallah (2011), mortality density forecasts : an analysis of six stochastic mortality models, insurance : mathematics and economics, 48 : 355367. cairns, a.j.g., d. blake, k. dowd, g.d. coughlan, d. epstein, a. ong et i. balevich (2009), a quantitative comparison of stochastic mortality models using data from england and wales and the united states, north american actuarial journal, 13 : 135."
+    },
+    {
+      "authors": [
+        "chan, w",
+        "li, j",
+        "li, j"
+      ],
+      "title": "",
+      "monograph_title": "stochastic mortality in life insurance : market reserves and mortalitylinked insurance contracts",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2014. 2004",
+      "pages": "113136",
+      "volume": "35",
+      "issue": "",
+      "organization": "universite de waterloo",
+      "notes": "the cbd mortality indexes : modeling and applications",
+      "url": "",
+      "doi": "",
+      "raw_reference": "chan, w.s., j.s.h. li et j. li (2014), the cbd mortality indexes : modeling and applications, universite de waterloo, document de travail. dahl, m. (2004), stochastic mortality in life insurance : market reserves and mortalitylinked insurance contracts, insurance : mathematics and econo mics, 35 : 113136."
+    },
+    {
+      "authors": [
+        "de, jong",
+        "tickle, l"
+      ],
+      "title": "extending leecarter mortality forecasting",
+      "monograph_title": "mathematical population studies",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "118",
+      "volume": "13",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "de jong p. et l. tickle (2006), extending leecarter mortality forecasting, mathematical population studies, 13 : 118."
+    },
+    {
+      "authors": [
+        "denton, frank",
+        "feaver, christine",
+        "spencer, byron"
+      ],
+      "title": "time series analysis and stochastic forecasting: an econometric study of mortality and life expectancy",
+      "monograph_title": "journal of population economics",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "2005",
+      "pages": "203227",
+      "volume": "18",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/s0014800502292",
+      "raw_reference": "denton, f.t., c.h. feaver et b.g. spencer (2005), time series analysis and stochastic forecasting : an econometric study of mortality and life expec tancy, journal of population economics, 18 : 203227."
+    },
+    {
+      "authors": [
+        "dowd, kevin",
+        "blake, david",
+        "cairns, andrew"
+      ],
+      "title": "facing up to uncertain life expectancy: the longevity fan charts",
+      "monograph_title": "demography",
+      "editors": [],
+      "publisher": "duke university press",
+      "place": "",
+      "date": "2010",
+      "pages": "6778",
+      "volume": "47",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1353/dem.0.0083",
+      "raw_reference": "dowd, k., d. blake et a.j.g. cairns (2010), facing up to uncertain life ex pectancy : the longevity fan charts, demography, 47 : 6778."
+    },
+    {
+      "authors": [
+        "dowd, kevin",
+        "cairns, andrew",
+        "blake, david",
+        "coughlan, guy",
+        "epstein, david",
+        "khalafallah, marwa"
+      ],
+      "title": "evaluating the goodness of fit of stochastic mortality models",
+      "monograph_title": "insurance: mathematics and economics",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2010",
+      "pages": "255265",
+      "volume": "47",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.insmatheco.2010.06.006",
+      "raw_reference": "dowd, k., a.j.g. cairns, d. blake, g.d. coughlan, d. epstein, et m. khalaf allah (2010), evaluating the goodness of fit of stochastic mortality mo dels, insurance : mathematics and economics, 47 : 255265."
+    },
+    {
+      "authors": [
+        "s"
+      ],
+      "title": "forecasting mortality : when academia meets practice",
+      "monograph_title": "european actuarial journal",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2012",
+      "pages": "4976",
+      "volume": "2",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "gaille s. (2012), forecasting mortality : when academia meets practice, european actuarial journal, 2 : 4976."
+    },
+    {
+      "authors": [
+        "s",
+        "sherris, m"
+      ],
+      "title": "xxiv. on the nature of the function expressive of the law of human mortality, and on a new mode of determining the value of life contingencies. in a letter to francis baily, esq. f. r. s. &c",
+      "monograph_title": "philosophical transactions of the royal society of london",
+      "editors": [],
+      "publisher": "the royal society",
+      "place": "",
+      "date": "2012. 1825. 2009",
+      "pages": "513583",
+      "volume": "115",
+      "issue": "",
+      "organization": "",
+      "notes": "on the nature of the function of the law of human mortality sfb 649 discussion paper",
+      "url": "",
+      "doi": "10.1098/rstl.1825.0026",
+      "raw_reference": "gaille, s. et m. sherris (2012), causesofdeath mortality : what can be learned from cointegration, document de travail. gompertz, b. (1825), on the nature of the function of the law of human morta lity, philosophical transactions of the royal society of london, 115, : 513583. hanewald, k. (2009), mortality modeling : leecarter and the macroeco nomy, sfb 649 discussion paper."
+    },
+    {
+      "authors": [
+        "l",
+        "pollard, j"
+      ],
+      "title": "the age pattern of mortality",
+      "monograph_title": "journal of the institute of actuaries",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1980",
+      "pages": "4980",
+      "volume": "107",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "heligman, l. et j. h. pollard (1980), the age pattern of mortality, journal of the institute of actuaries, 107 : 4980."
+    },
+    {
+      "authors": [
+        "perrin, thomas"
+      ],
+      "title": "bda : une base de donnees archeologique collaborative en ligne",
+      "monograph_title": "bulletin de la societe prehistorique francaise",
+      "editors": [],
+      "publisher": "persee program",
+      "place": "",
+      "date": "",
+      "pages": "159162",
+      "volume": "116",
+      "issue": "1",
+      "organization": "",
+      "notes": "base de donnees en ligne",
+      "url": "http://www.mortality.org/",
+      "doi": "10.3406/bspf.2019.14988",
+      "raw_reference": "human mortality database, [base de donnees en ligne]. http://www.mortality.org/."
+    },
+    {
+      "authors": [
+        "hyndman, rob",
+        "shahid ullah, m"
+      ],
+      "title": "robust forecasting of mortality and fertility rates: a functional data approach",
+      "monograph_title": "computational statistics & data analysis",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2007",
+      "pages": "49424956",
+      "volume": "51",
+      "issue": "10",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/j.csda.2006.07.028",
+      "raw_reference": "hyndman r., j. et m. s. ullah (2007), robust forecasting of mortality and fertility rates : a functional data approach, computational statistics and data analysis, 51 : 49424956."
+    },
+    {
+      "authors": [
+        "lee, r",
+        "nault, f"
+      ],
+      "title": "quebec et montreal",
+      "monograph_title": "world congress of the iussp",
+      "editors": [],
+      "publisher": "natural resources canada/cmss/information management",
+      "place": "montreal, canada",
+      "date": "1993",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.4095/294284",
+      "raw_reference": "lee, r.d. et f. nault (1993), modeling and forecasting provincial mortality in canada, world congress of the iussp, montreal, canada."
+    },
+    {
+      "authors": [
+        "lee, ronald",
+        "carter, lawrence"
+      ],
+      "title": "modeling and forecasting u.s. mortality",
+      "monograph_title": "journal of the american statistical association",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1992",
+      "pages": "659671",
+      "volume": "87",
+      "issue": "419",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/01621459.1992.10475265",
+      "raw_reference": "lee, r.d et l. carter (1992), modeling and forecasting u.s. mortality, jour nal of the american statistical association, 87 : 659671."
+    },
+    {
+      "authors": [
+        "t",
+        "k",
+        "patrick, c",
+        "stallard, e"
+      ],
+      "title": "ouvrage initialement publie en anglais en 1798 sous le titre an essay on the principle of population",
+      "monograph_title": "mortality model based on delays in progression of chronic diseases : alternative to cause elimination model",
+      "editors": [],
+      "publisher": "",
+      "place": "paris",
+      "date": "1992. 1980",
+      "pages": "580588",
+      "volume": "95",
+      "issue": "",
+      "organization": "",
+      "notes": "flammarion essai sur le principe de population",
+      "url": "",
+      "doi": "",
+      "raw_reference": "malthus, t.r. (1992), essai sur le principe de population, paris, flammarion. ouvrage initialement publie en anglais en 1798 sous le titre an essay on the principle of population. manton, k.g., c.h. patrick et e. stallard (1980), mortality model based on delays in progression of chronic diseases : alternative to cause elimination model, public health reports, 95 : 580588."
+    },
+    {
+      "authors": [
+        "k",
+        "wrigley, j",
+        "cohen, h",
+        "woodburgy, m"
+      ],
+      "title": "cancer mortality, aging, and patterns of comorbidity in the united states : 1968 to",
+      "monograph_title": "journal of gerontology",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "1991. 1986",
+      "pages": "225234",
+      "volume": "46",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "manton, k.g., j.m. wrigley, h.j. cohen et m.a. woodburgy (1991), cancer mortality, aging, and patterns of comorbidity in the united states : 1968 to 1986, journal of gerontology, 46 : 225234."
+    },
+    {
+      "authors": [
+        "a"
+      ],
+      "title": "uncertainty in mortality projections : an actuarial perspective",
+      "monograph_title": "insurance : mathematics and economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2001",
+      "pages": "231245",
+      "volume": "29",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "olivieri, a. (2001), uncertainty in mortality projections : an actuarial pers pective, insurance : mathematics and economics, 29 : 231245."
+    },
+    {
+      "authors": [
+        "planchet, frederic",
+        "faucillon, laurent",
+        "juillard, marc"
+      ],
+      "title": "quantification du risque systematique de mortalite pour un regime de rentes en cours de service",
+      "monograph_title": "assurances et gestion des risques",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "2006. 2007",
+      "pages": "377",
+      "volume": "74",
+      "issue": "3",
+      "organization": "",
+      "notes": "quantification du risque systematique de mortalite pour un regime de rentes en cours de service",
+      "url": "",
+      "doi": "10.7202/1091628ar",
+      "raw_reference": "planchet, f., m. juillard et l. faucillon (2006), quantification du risque systematique de mortalite pour un regime de rentes en cours de service, assu rance et gestion des risques 75. planchet, f. et v. lelieur (2007), utilisation des methodes de leecarter et logpoisson pour lajustement de tables de mortalite dans le cas de petits echantillons, bulletin francais dactuariat, 8 : 118146."
+    },
+    {
+      "authors": [
+        "a",
+        "haberman, s"
+      ],
+      "title": "cohortbased extension to the leecarter model for mortality reduction factors",
+      "monograph_title": "insurance : mathematics and economics",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "556570",
+      "volume": "38",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "renshaw, a.e. et s. haberman (2006), cohortbased extension to the lee carter model for mortality reduction factors, insurance : mathematics and economics, 38 : 556570."
+    },
+    {
+      "authors": [
+        "rechel, bernd",
+        "grundy, emily",
+        "robine, jeanmarie",
+        "cylus, jonathan",
+        "mackenbach, johan",
+        "knai, cecile",
+        "mckee, martin"
+      ],
+      "title": "ageing in the european union",
+      "monograph_title": "the lancet",
+      "editors": [],
+      "publisher": "elsevier bv",
+      "place": "",
+      "date": "2013",
+      "pages": "13121322",
+      "volume": "381",
+      "issue": "9874",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1016/s01406736(12)62087x",
+      "raw_reference": "rechel, b., e. grundy, j.m. robine, j. cylus, j.p. mackenbach, c. knai et m. mckee (2013), ageing in the european union, the lancet, 381 : 13121322."
+    },
+    {
+      "authors": [
+        "j",
+        "michel, j"
+      ],
+      "title": "looking forward to a general theory on population aging",
+      "monograph_title": "journal of gerontoly",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2004",
+      "pages": "590597",
+      "volume": "59",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "robine j.m. et j.p. michel (2004), looking forward to a general theory on population aging, journal of gerontoly, 59 : 590597."
+    },
+    {
+      "authors": [
+        "d"
+      ],
+      "title": "",
+      "monograph_title": "modeling the age pattern of human mortality : mathematical and tabular representations of the risk of death",
+      "editors": [],
+      "publisher": "",
+      "place": "university of washington",
+      "date": "2013",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "sharrow, d.j. (2013), modeling the age pattern of human mortality : mathe matical and tabular representations of the risk of death, these de doctorat, university of washington."
+    },
+    {
+      "authors": [
+        "thatcher, a"
+      ],
+      "title": "mortality at the highest ages",
+      "monograph_title": "journal of the institute of actuaries",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1987",
+      "pages": "327338",
+      "volume": "114",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0020268100019089",
+      "raw_reference": "thatcher, a. r. (1987), mortality at the highest ages, journal of the institute of actuaries, 114 : 327338."
+    },
+    {
+      "authors": [
+        "thatcher, a"
+      ],
+      "title": "some results on the gompertz and heligman and pollard laws of mortality",
+      "monograph_title": "journal of the institute of actuaries",
+      "editors": [],
+      "publisher": "cambridge university press (cup)",
+      "place": "",
+      "date": "1990",
+      "pages": "135149",
+      "volume": "117",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1017/s0020268100043043",
+      "raw_reference": "thatcher, a. r. (1990), some results on the gompertz and heligman and pollard laws of mortality, journal of the institute of actuaries, 117 : 135149."
+    },
+    {
+      "authors": [
+        "wang, shaun"
+      ],
+      "title": "a class of distortion operators for pricing financial and insurance risks",
+      "monograph_title": "the journal of risk and insurance",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "2000",
+      "pages": "15",
+      "volume": "67",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/253675",
+      "raw_reference": "wang, s. (2000), a class of distorsion operators for pricing financial and insurance risks, the journal of risk and insurance, 67 : 1536."
+    },
+    {
+      "authors": [
+        "wilmoth, john"
+      ],
+      "title": "are mortality projections always more pessimistic when disaggregated by cause of death?",
+      "monograph_title": "mathematical population studies",
+      "editors": [],
+      "publisher": "informa uk limited",
+      "place": "",
+      "date": "1995",
+      "pages": "293319",
+      "volume": "5",
+      "issue": "4",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1080/08898489509525409",
+      "raw_reference": "wilmoth, j.r. (1995), are mortality projections always more pessimistic when disaggregated by cause of death?, mathematical populations stu dies, 5 : 293319."
+    }
+  ],
+  "notes": [
+    "[1] un retour sur les contributions recentes1.1 les modele demographiques de mortalitela modelisation des taux de mortalite, et leur importance pour la sante financiere des regimes de retraite publics et prives, a donne naissance a une nouvelle litterature en economie financiere, en assurance et en demographie. la majorite des etudes en demographie sentendent pour dire que la croissance demographique de la population des aines (65 ans et plus) depassera largement la croissance de la population en general. ainsi, alors que la population agee de 65 ans et plus represente aujourdhui environ 13,5 % de la population canadienne, elle atteindra vraisemblablement un plateau a pres de 24 % en 2035. la proportion des ainessimes, soit ceux ages de 80 ans et plus, connaitra une augmentation encore plus importante pendant cette periode. ne representant que 3 % de la population aujourdhui, on sattend a ce que les ainessimes representent 8 % de la population en 2035. pour mettre cette proportion en contexte, notons que la population agee de 65 ans et plus representait environ 8 % de la population canadienne au milieu des annees soixantedix. ainsi, le poids demographique (et politique a fortiori) des ainessimes dans vingt ans sera approximativement celui des aines dil y a quarante ans. il3.plusieurs produits derives de la longevite ont deja ete suggeres, mais la longevite a proprement parler nest pas et ne sera probablement jamais transigee de maniere dynamique. dit autrement, si jamais il arrivait que les produits derives de la longevite soient transiges activement, ce ne sera certainement que dans le cadre dun marche financier incomplet.",
+    "[13] les donnees ici sont les donnees moyennes pour lensemble de la population et ne tiennent pas compte des specificites de chaque individu (fumeur ou non, antecedents medicaux, poids et indice de masse corporelle) qui chercherait a obtenir de telles rentes.",
+    "[14] etant donne le manque de donnees apres lage de 105 ans, on presume pour le calcul de ses primes que tous les retraites decedent avant leur 106 e anniversaire. ces primes sont donc legerement conservatrices.",
+    "[22] http://www.mercer.ca/content/mercer/northamerica/ca/fr/insights/point/2014/mercercanadapensionbuyoutindex.html, en date du 29 octobre 2014."
+  ],
+  "figures": [
+    {
+      "number": "1",
+      "title": "probabilite de deces a travers le temps 1920 1930 1940 1950 1960 1970 1980 1990 2000 2010 probabilite de deces dans lannee 0 0,02 0,04 0,06 0,08 0,1 0,12 0,14 0,16 0,18 0,2 femmes 65 ans 75 ans 85 ans 1920 1930 1940 1950 1960 1970 1980 1990 2000 2010 probabilite de deces dans lannee 0 0,02 0,04 0,06 0,08 0,1 0,12 0,14 0,16 0,18 0,2 hommes 65 ans 75 ans 85 ans evolution au canada de la probabilite de deces, au cours des annees 1921 a 2009, pour les femmes et les hommes de differents ages.",
+      "source": ""
+    },
+    {
+      "number": "3",
+      "title": "composantes principales des probabilites de deces 1920 1940 1960 1980 2000 2020 30 20 10 0 10 20 30 premiere composante pricipale femmes hommes 1920 1940 1960 1980 2000 2020 3 2 1 0 1 2 3 deuxieme composante pricipale",
+      "source": ""
+    },
+    {
+      "number": "5",
+      "title": "donne les poids associes a chaque age dans le calcul de lindice q(t).",
+      "source": ""
+    },
+    {
+      "number": "6",
+      "title": "primes forward sur lindice qevolution des primes obtenues en utilisant le modele cbd pour des forwards de maturite dun an sur lindice q pour les femmes et pour les hommes canadiens.",
+      "source": ""
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,493 @@
+{
+  "title": "",
+  "overline": "",
+  "subtitle": "",
+  "authors": [
+    {
+      "first_name": "",
+      "last_name": "138",
+      "email": "",
+      "affiliation": "138",
+      "website": "",
+      "orcid": ""
+    },
+    {
+      "first_name": "institut",
+      "last_name": "national de la recherche scientifique",
+      "email": "",
+      "affiliation": "* institut national de la recherche scientifique, centre urbanisationculturesociete.",
+      "website": "",
+      "orcid": ""
+    }
+  ],
+  "abstract": "une analyse des determinants de la mobilite linguistique intergenerationnelle des immigrants allophones au quebec alain belanger*, patrick sabourin* et rejean lachapelle* limmigration prend une importance accrue dans la croissance demographique quebecoise et, selon statistique canada, 30 % des residents de la region metropolitaine de recensement de montreal pourraient etre nes a letranger en 2031.les allophones sont appeles a prendre une place plus importante numeriquement et leurs choix linguistiques auront donc un effet accru sur lequilibre du quebec.lobjectif de cet article est danalyser les facteurs demographiques, ethnoculturels et socioeconomiques associes a une transition linguistique intergenerationnelle vers lune ou lautre des deux langues officielles, au moyen dune regression logistique appliquee aux microdonnees du recensement canadien de 2006.lanalyse porte sur les familles composees de deux parents de sexe oppose et au moins dun enfant age de moins de 15 ans.les resultats mettent en evidence leffet des dispositions de la charte de la langue francaise (loi 101) pour expliquer les choix linguistiques des allophones, ainsi que limportance de la selection dimmigrants francotropes.neanmoins, lattrait de langlais demeure important pour les allophones setablissant au quebec, surtout chez les plus eduques et parmi les classes socioprofessionnelles les plus favorisees.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "editorial_team": [],
+  "issue_number": "",
+  "volume": "",
+  "keywords": [
+    "les termes francophone",
+    "anglophone",
+    "allophone",
+    "francotrope",
+    "substitution linguistique intergenerationnelle",
+    "persistance linguistique et rmr de montreal sont definis en annexe"
+  ],
+  "themes": [],
+  "language": "fr",
+  "body": [
+    "introduction",
+    "objectifs",
+    "persistance et orientation linguistiques des allophones",
+    "source des donnees",
+    "methode et hypothese de recherche",
+    "les facteurs demographiques",
+    "les facteurs socioeconomiques",
+    "resultats caracteristiques de lechantillon",
+    "proportion de repondants anglicises",
+    "interpretation de la regression logistique",
+    "origine ethnoculturelle de la mere",
+    "niveau deducation de la mere",
+    "niveau de competence du pere",
+    "exogamie",
+    "discussion et conclusion",
+    "importance des choix linguistiques des allophones"
+  ],
+  "acknowledgements": "",
+  "biographical_notes": [],
+  "bibliographies": [
+    {
+      "authors": [
+        "gardes, francois",
+        "alpman, anil"
+      ],
+      "title": "il est temps danalyser la loi dokun et le bienetre des menages en termes de production domestique",
+      "monograph_title": "revue economique",
+      "editors": [],
+      "publisher": "cairn",
+      "place": "",
+      "date": "",
+      "pages": "963971",
+      "volume": "vol. 71",
+      "issue": "6",
+      "organization": "",
+      "notes": "il nest peutetre",
+      "url": "",
+      "doi": "10.3917/reco.716.0963",
+      "raw_reference": "linguistiques sont, en fait, en partie responsables de ladoption de la loi 101. il nest peutetre"
+    },
+    {
+      "authors": [
+        "anctil, pierre"
+      ],
+      "title": "double majorite et multiplicite et ethnoculturelle a montreal",
+      "monograph_title": "recherches sociographiques",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "1984",
+      "pages": "441",
+      "volume": "25",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/056117ar",
+      "raw_reference": "anctil, p. 1984. double majorite et multiplicite ethnoculturelle a montreal, recherches sociographiques, 25, 3 : 441456."
+    },
+    {
+      "authors": [
+        "beland, p"
+      ],
+      "title": "dismoi dou tu viens, je te dirai quelle est ta langue de travail",
+      "monograph_title": "lannuaire du quebec",
+      "editors": [
+        "venne, m"
+      ],
+      "publisher": "",
+      "place": "",
+      "date": "2004. 2005",
+      "pages": "200207",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "beland, p. 2004. dismoi dou tu viens, je te dirai quelle est ta langue de travail, dans m. venne (dir.), lannuaire du quebec 2005 : 200207."
+    },
+    {
+      "authors": [
+        "belanger, a",
+        "lachapelle, r",
+        "sabourin, p"
+      ],
+      "title": "",
+      "monograph_title": "persistance et orientation linguistiques de divers groupes dallophones au quebec. office quebecois de la langue francaise",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "http://www.oqlf.gouv.qc.ca/etudes2011/20110909_persistance_orientation.pdf",
+      "doi": "",
+      "raw_reference": "belanger, a., r. lachapelle et p. sabourin. 2011. persistance et orientation linguistiques de divers groupes dallophones au quebec. office quebecois de la langue francaise. document telechargeable en ligne a partir du lien : http:// www.oqlf.gouv.qc.ca/etudes2011/20110909_persistance_orientation.pdf"
+    },
+    {
+      "authors": [
+        "malenfant, caron",
+        "e",
+        "lebel, a",
+        "martel, l"
+      ],
+      "title": "",
+      "monograph_title": "projections de la diversite de la population canadienne",
+      "editors": [],
+      "publisher": "statistique canada",
+      "place": "ottawa",
+      "date": "2010",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "caron malenfant, e., a. lebel et l. martel (2010). projections de la diversite de la population canadienne. ottawa : statistique canada."
+    },
+    {
+      "authors": [
+        "carpentier, a"
+      ],
+      "title": "",
+      "monograph_title": "tout estil joue avant larrivee ? etude des facteurs associes a un usage predominant du francais ou de langlais chez les immigrants allophones arrives au quebec adultes",
+      "editors": [],
+      "publisher": "fonds de recherche du quebec",
+      "place": "quebec",
+      "date": "2004",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.69777/350211",
+      "raw_reference": "carpentier, a. 2004. tout estil joue avant larrivee ? etude des facteurs associes a un usage predominant du francais ou de langlais chez les immigrants allophones arrives au quebec adultes. quebec : conseil de la langue francaise."
+    },
+    {
+      "authors": [
+        "castonguay, charles"
+      ],
+      "title": "evolution de lassimilation linguistique au quebec et au canada entre 1971 et 1991",
+      "monograph_title": "recherches sociographiques",
+      "editors": [],
+      "publisher": "consortium erudit",
+      "place": "",
+      "date": "1997. 1971 et 1991",
+      "pages": "469490",
+      "volume": "38",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.7202/057150ar",
+      "raw_reference": "castonguay, c. 1997. evolution de lassimilation linguistique au quebec et au canada entre 1971 et 1991, recherches sociographiques, 38, 3 : 469490."
+    },
+    {
+      "authors": [
+        "chiswick, barryr.",
+        "miller, paulw."
+      ],
+      "title": "language choice among immigrants in a multilingual destination",
+      "monograph_title": "journal of population economics",
+      "editors": [],
+      "publisher": "springer science and business media llc",
+      "place": "",
+      "date": "1994",
+      "pages": "119131",
+      "volume": "7",
+      "issue": "2",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1007/bf00173615",
+      "raw_reference": "chiswick, b. r. et p. w. miller. 1994. language choice among immigrants in a multilingual destination, journal of population economics, 7 : 119131."
+    },
+    {
+      "authors": [
+        "fournier, h"
+      ],
+      "title": "graphique 13.11. ecarts en points de score (pisa) en comprehension de lecrit entre les eleves immigres qui parlent habituellement la langue du test a la maison et ceux qui ne la parlent pas, 2012",
+      "monograph_title": "tendances sociales canadiennes",
+      "editors": [],
+      "publisher": "organisation for economic cooperation and development (oecd)",
+      "place": "",
+      "date": "1994",
+      "pages": "",
+      "volume": "35",
+      "issue": "",
+      "organization": "",
+      "notes": "publication de statistique canada disponible en ligne, no 11008 au catalogue",
+      "url": "",
+      "doi": "10.1787/888933217645",
+      "raw_reference": "fournier, h. 1994. les immigrants allophones : la langue quils parlent a la maison, tendances sociales canadiennes, 35 (publication de statistique canada disponible en ligne, no 11008 au catalogue)."
+    },
+    {
+      "authors": [
+        "grondin, c"
+      ],
+      "title": "",
+      "monograph_title": "connaissance des langues officielles chez les nouveaux immigrants : a quel point estce important sur le marche du travail ?",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2007",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "no 89624xif au catalogue",
+      "url": "",
+      "doi": "",
+      "raw_reference": "grondin, c. 2007. connaissance des langues officielles chez les nouveaux immi grants : a quel point estce important sur le marche du travail ? ottawa, statistique canada (no 89624xif au catalogue)."
+    },
+    {
+      "authors": [
+        "houle, r"
+      ],
+      "title": "evolution recente de la transmission des langues immigrantes au canada",
+      "monograph_title": "tendances sociales canadiennes",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "pages": "",
+      "volume": "92",
+      "issue": "",
+      "organization": "",
+      "notes": "publication de statistique canada disponible en ligne, no 11008 au catalogue",
+      "url": "",
+      "doi": "",
+      "raw_reference": "houle, r. 2011. evolution recente de la transmission des langues immigrantes au canada, tendances sociales canadiennes, 92 (publication de statistique canada disponible en ligne, no 11008 au catalogue)."
+    },
+    {
+      "authors": [
+        "lachapelle, r",
+        "breton, r",
+        "reitz, j",
+        "valentine, v"
+      ],
+      "title": "levolution de la composition ethnique et linguistique",
+      "monograph_title": "les frontieres culturelles et la cohesion du canada",
+      "editors": [],
+      "publisher": "",
+      "place": "montreal",
+      "date": "1981",
+      "pages": "3361",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "institut de recherches politiques",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lachapelle, r. 1981. levolution de la composition ethnique et linguistique, dans r. breton, j. g. reitz et v. valentine, les frontieres culturelles et la cohesion du canada, montreal, institut de recherches politiques : 3361."
+    },
+    {
+      "authors": [
+        "lachapelle, r"
+      ],
+      "title": "actes du seminaire scientifique sur les tendances migratoires actuelles et linsertion des migrants dans les pays de la francophonie",
+      "monograph_title": "ministere de limmigration",
+      "editors": [],
+      "publisher": "",
+      "place": "quebec, gouvernement du quebec",
+      "date": "1989",
+      "pages": "159177",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "limmigration et le caractere ethnolinguistique du canada et du quebec",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lachapelle, r. 1989. limmigration et le caractere ethnolinguistique du canada et du quebec, dans ministere de limmigration, actes du seminaire scienti fique sur les tendances migratoires actuelles et linsertion des migrants dans les pays de la francophonie, quebec, gouvernement du quebec : 159177."
+    },
+    {
+      "authors": [
+        "lachapelle, r",
+        "henripin, j"
+      ],
+      "title": "",
+      "monograph_title": "la situation demolinguistique au canada : evolution passee et prospective",
+      "editors": [],
+      "publisher": "institut de recherches politiques",
+      "place": "montreal",
+      "date": "1980",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "lachapelle, r. et j. henripin. 1980. la situation demolinguistique au canada : evolution passee et prospective. montreal : institut de recherches politiques."
+    },
+    {
+      "authors": [
+        "marmen, l",
+        "corbeil,.p"
+      ],
+      "title": "",
+      "monograph_title": "les langues au canada",
+      "editors": [],
+      "publisher": "patrimoine canadien et statistique canada",
+      "place": "ottawa",
+      "date": "2004. 2001",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "recensement de",
+      "url": "",
+      "doi": "",
+      "raw_reference": "marmen, l. et j.p. corbeil. 2004. les langues au canada. recensement de 2001. ottawa : patrimoine canadien et statistique canada."
+    },
+    {
+      "authors": [
+        "monnier, d"
+      ],
+      "title": "",
+      "monograph_title": "les choix linguistiques des travailleurs immigrants et allophones. rapport dune enquete realisee en",
+      "editors": [],
+      "publisher": "les publications du quebec",
+      "place": "quebec",
+      "date": "1993. 1991",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "dossiers du conseil de la langue francaise no 37",
+      "url": "",
+      "doi": "",
+      "raw_reference": "monnier, d. 1993. les choix linguistiques des travailleurs immigrants et allophones. rapport dune enquete realisee en 1991. quebec, les publications du quebec, dossiers du conseil de la langue francaise no 37."
+    },
+    {
+      "authors": [
+        "obryan, k",
+        "reitz, j",
+        "kuplowska, o"
+      ],
+      "title": "",
+      "monograph_title": "les langues non officielles : etude sur le multiculturalisme au canada",
+      "editors": [],
+      "publisher": "approvisionnements et services canada",
+      "place": "ottawa",
+      "date": "1976",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "obryan, k. g., j. g. reitz et o. m. kuplowska. 1976. les langues non officielles : etude sur le multiculturalisme au canada. ottawa : approvisionnements et services canada."
+    },
+    {
+      "authors": [
+        "termote, m"
+      ],
+      "title": "",
+      "monograph_title": "perspectives demolinguistiques du quebec et de la region de montreal",
+      "editors": [],
+      "publisher": "office quebecois de la langue francaise",
+      "place": "",
+      "date": "2011. 20062056",
+      "pages": "",
+      "volume": "",
+      "issue": "",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "",
+      "raw_reference": "termote, m. 2011. perspectives demolinguistiques du quebec et de la region de montreal (20062056). office quebecois de la langue francaise."
+    },
+    {
+      "authors": [
+        "turcotte, m"
+      ],
+      "title": "la transmission de la langue ancestrale",
+      "monograph_title": "tendances sociales canadiennes",
+      "editors": [],
+      "publisher": "",
+      "place": "",
+      "date": "2006",
+      "pages": "2330",
+      "volume": "80",
+      "issue": "",
+      "organization": "",
+      "notes": "publication de statistique canada disponible en ligne, no 11008 au catalogue",
+      "url": "",
+      "doi": "",
+      "raw_reference": "turcotte, m. 2006. la transmission de la langue ancestrale, tendances sociales canadiennes, 80 : 2330 (publication de statistique canada disponible en ligne, no 11008 au catalogue)."
+    },
+    {
+      "authors": [
+        "veltman, calvin",
+        "boulet, jacandre",
+        "castonguay, charles"
+      ],
+      "title": "the economic context of bilingualism and language transfer in the montreal metropolitan area",
+      "monograph_title": "the canadian journal of economics",
+      "editors": [],
+      "publisher": "jstor",
+      "place": "",
+      "date": "1979",
+      "pages": "468",
+      "volume": "12",
+      "issue": "3",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.2307/134735",
+      "raw_reference": "veltman, c. j., j.a.boulet et c. castonguay. 1979. the economic context of bilingualism and language transfer in the montreal metropolitan area, cana dian economic journal : 468479."
+    },
+    {
+      "authors": [
+        "waters, mary",
+        "jimenez, tomas"
+      ],
+      "title": "assessing immigrant assimilation: new empirical and theoretical challenges",
+      "monograph_title": "annual review of sociology",
+      "editors": [],
+      "publisher": "annual reviews",
+      "place": "",
+      "date": "2005",
+      "pages": "105125",
+      "volume": "31",
+      "issue": "1",
+      "organization": "",
+      "notes": "",
+      "url": "",
+      "doi": "10.1146/annurev.soc.29.010202.100026",
+      "raw_reference": "waters, m. c. et t. jimenez. 2005. assessing immigrant assimilation : new empirical and theoretical challenges, annual review of sociology : 105125."
+    }
+  ],
+  "notes": [],
+  "figures": [],
+  "tables": []
+}

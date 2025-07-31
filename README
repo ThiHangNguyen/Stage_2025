@@ -1,10 +1,9 @@
 transformer - il faut changer nom d'outil:
-python3 src/main.py --tool grobid --id 1013496ar
+python3 src/main.py --tool grobid --id test/1013496ar
 sur un répertoire : ( --batch ou --xml_2cols)
 python3 src/main.py --tool grobid --batch
 
 
-python3 src/main.py --tool erudit --journals cqd27 ae49 haf18
 
 
 évaluation sur un répertoire:
@@ -14,15 +13,19 @@ python3 src/main.py --tool grobid --xml_2cols --evaluation
 
 
 
-visualisation:
-python3 src/evaluation/visualisation.py --field body --method levenshtein
-ou 
-python3 src/evaluation/visualisation.py --field body --method levenshtein --2cols
+python3 src/main.py --tool erudit  --id ae49/1039880ar
+python3 src/main.py --tool erudit --journals cqd27 ae49 haf18 xml_2cols // transformer
+python3 src/main.py --evaluation --journals cqd27 ae49 haf18 xml_2cols   // evaluer
 
-tous les champs:
-python3 src/evaluation/visualisation.py --method levenshtein --compare
-ou
-python3 src/evaluation/visualisation.py --method levenshtein --compare --2cols
+
+####visualiser
+#python3 src/evaluation/plot.py --dir haf18 --type structured --method soft
+#python3 src/evaluation/plot.py --type structured --method soft --metric recall
+#python3 src/evaluation/plot.py --dir haf18 --type simple
+#python3 src/evaluation/plot.py --type simple --method soft
+
+python3 src/evaluation/visualisation.py --field title --method strict --tool grobid --dir ae49 --compare
+
 
 
 sh pour grobid
