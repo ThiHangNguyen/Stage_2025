@@ -1,0 +1,266 @@
+Cartographic de la Vulnerabilite a la pollution des eaux Souterraines : Application a la plane du ghab (Maroc)
+
+_Cartography of the vulnerability to pollution of groundwater : Application to the Gharb's plain (Morocco)_
+
+Mina Ambarre\({}^{f}\), Saadia Aassine\({}^{2}\), Ables Samed Bernoussi\({}^{f}\) et Ben Younes Haddonbi\({}^{3}\)
+
+\({}^{1}\)Laboratoire M\(\rm{MPPRN}\), Favulle des S\(\rm{\acute{a}}\)auas et Techniques, BP 416, Tanger Marc\({}^{2}\)Laboratoire LTS, Universite de Perpignan, France
+
+\({}^{3}\)Ecole Mohammedia des Ingeniurs, Universite Mohamed V, Rabat, Marc
+
+###### Abstract
+
+Here we present a method for the evaluation and mapping of groundwater vulnerability to pollution. For this purpose, we introduce a vulnerability index, IV, as a linear function of three parameters: 1) time of transit, T, via the unsaturated zone, 2) degree of purge, C'p/Cp (the ratio of the pollutant concentration, C'p, reaching the water table and the initial pollutant concentration in the aquifer, Cp) and 3) the degree of recharge R'/R (the ratio of the effective recharge and the potential recharge). The vulnerability index thus takes into account the weighted sum of all three parameters, which characterize the transfer of a pollutant from the soil surface to the water table. In our study, the transit time and the degree of purge were estimated by the infiltration rate, purge power and thickness, which characterize the various layers of the unsaturated zone. The degree of recharge was estimated by the water balance. The weighting coefficients of the above parameters were estimated by sensitivity tests and analyzed by linear regression using pilot wells. This method was applied to the Gharb plain in Morocco, known for its complex hydraulic system and intense agricultural activity. Intrinsic vulnerability and parametric maps were established for this area using a Geographical Information System.
+
+**Keyword: Groundwater, pollution, vulnerability, mapping, GIS, Gharb, Morocco.**
+
+## 1 Introduction
+
+Les problemes lies a la pollution des eaux souterraines constituent acruellement une source d'un quieit requiert un interet universel. Cette pollution, generee par les activites anthropiques, peut, en atteignant des niveaux critiques, presenter un danger grave pour la sante publique. Pour la sauvegarde de ces ressources, il est necessaire de previoir des moyens de protection. Face aux difficultes liees aux techniques de depollution et au cout de celles-ci, la protection impose en premier lieu des mesures preventes. Celles-ci passent par la cartographie des zones de l'auqifere susceptibles d'etre atteintes par des pollunants que l'on qualifera de vulnerables. La notion de vulnerabilite des eaux souterraines a _ete_ initialement introduite par MARGAT dans les annees soixante (ALBINET et MARGAT, 1970; MARGAT, 1968). Vu la complexite des mecanismes regissant le transfert d'un polluant, la multitude et la variabilite des facteurs mis en cause, diverses approches ont ete proposes. Certains auteurs ont defini la vulnerabilite comme etant une propriete intrinseque des aquifres. D'autres estiment qu'elle est lice aux proprietes specifiques du contaminant. Cependant, d'autres auteurs l'associent aux activites humaties et a la nature des sols (GOGU et DASSARGUES, 1998; LALEMAND-BARRES, 1994; VRBA et ZAPOROZEC, 1994).
+
+Dans ce travail nous presentons la cartographie de la vulnerabilite de la plane du Gharb au Maroc a l'aide d'un indice Iv qui est fonction de trois parametres intervenant dans le transfert du polluant : le temps de transit (T) d'un polluant dans la zone non sautree, le degre d'epuration (C'p/Cp) et le degre de recharge (R'/R). Lindice de vulnerabilite est defini comme etant la somme ponderee de l'effet de ces trois parametres (AMHARREF _et al._, 2001a; 2002).
+
+## 2 Indice de Vulnerabilite et Cartographie
+
+### Principe et methodologie
+
+La vulnerabilite des eaux souterraines est definie en partant d'une evaluation qualitative des mecanismes de transfert d'un polluant qui repose sur une conceptualisation multicouche du milieu traverse. Ce milieu est subdivise en couches horizontales dans lesquelles des processus physiques, chimiques et biologiques ont lieu simultanement. La migration d'une substance polluante emprunte naturellement les zones suivantes (Figure 1) :
+
+* la Zone de l'Interface Sol (ZIS), qui constitue le domaine des activites polluantes;
+* la Zone Non Saturee (ZNS), qui est le domaine du transfert vertical;
+* la Zone Saturee (ZS), qui est le lieu de la propagation et de la dilution de la pollution.
+
+Figure 1: Schéma de la contaminatin des caux souterraines.
+
+La troisieme zone (ZS) est caracterisee par un pouoir de dilution et de transfert lateral. Les deux premieres zones sont caracterisees par un pouoir de recharge et d'epuration naturelles. Cette specificite bien particuliere leur confere le role d'un filtre naturel. Selon son degre de protection, cette couche de couverture (ZIS + ZNS) pourrait attenuer, voire empecher totalement le contaminant d'atteindre la nappe. Avec cette optique, dans l'adaptation de cette methode, nous n'avons priis en compte que les deux premieres zones. La vulnerabilite (AMHARREF _et al._, 2001a) est evaluee en partant d'un principe simple et communement admis qu'une zone est dite vulnerable si un produit polluant atteint la nappe en un temps tres court et avec une concentration elevee (depassant les limites de potabilite). Le degre de vulnerabilite est alors lie a la concentration Cp avec laquelle une eau chargee en polluant atteint la nappe et a son temps de transit T. Cette concentration Cp est influuece significativement par le pouoir epurateur (Md) de la couche traversee. Le temps de transit du polluant est lie a la vitesse de filtration dans la zone non sarture. Bien entendu et a l'exception des polluants jetes directement dans la nappe, la contamination ne pourrait avoir lieu que lorsqu'il y a recharge de la nappe par infiltration. Cette recharge R' constitue le vecteur de transport. Il sagit donc de ne prendre en compte que les facteurs permettant de favoriser ou de nelentir l'inflation vers la nappe d'une eau chargee en polluant (LALLEMAND-BARRES et ROUX, 1989). Nous retiendrons trois parametres : le temps de transit, le degre d'epuration et le degre de recharge. La vulnerabilite est quantifiee par l'indice Iv (Indice de vulnerabilite) suivant :
+
+\[\mathrm{Iv}=\alpha\frac{1}{\mathrm{T}}+\beta\frac{\mathrm{Cp}}{\mathrm{Cp}}+ \gamma\frac{\mathrm{R}^{\prime}}{\mathrm{R}} \tag{1}\]
+
+ou T est le temps de transit des eaux dans la zone non sarturee qui depend de la vitesse de filtration et par suite de la nature des couches traverses. Le facteur 1/T est suppose sans unite, car la valeur 1 represente l'unite de temps 1 jour qui pourra etre modifiee en heures, en mois ou meme en annees, selon les cas etudies;
+
+Cp/Cp est le rapport de la concentration Cp de l'eau en polluant a l'arrivee au niveau de la nappe par rapport a la concentration initiale Cp de l'eau polluant. Il nous renseigne sur le taux de reduction de la pollution et depend des caracteristiques du milieu traverse, en particulier du pouoir epurateur (Md) et de la nature du polluant;
+
+R'R est le degre de recharge, rapport de la recharge efficace R' par rapport a la recharge potentielle R. Il represente le degre d'alimentation de l'aquifre. La recharge potentielle R correspond notamment aux precipitations, dans le cas de la recharge diffuse, aux eaux d'irrigation en zones agricoles et aux debits des cours d'eau dans les zones des echanges preferentiels entre les eaux de surface et les eaux souterraines;
+
+\(\alpha,\beta\) et \(\tau\) sont des coefficients ponderateurs positifs. Il s'efferent l'importance de l'effet de chacun des facteurs sur l'indice de vulnerabilite. Le choix de ces coefficients a ete fait suite a des tests de sensibilite (voir paragraphe 2.3). La vulnerabilite est d'autant plus forete que l'indice Iv est plus eleve.
+
+Pour des temps de transit supereiurs ou egaux a un jour, les valeurs de lv normalise (Iv/Iv max) par rapport a l'indice maximum Iv max (Iv max = \(\alpha+\beta+\gamma\)) se repartissent dans l'intervalle [0-1]. Toutefois, pour des temps de transit faibles (\(<1\) jour), l'indice Iv va etre tres eleve (\(\geq 1\)) montrant ainsi une extreme vulnerabilite. Cet indice permet donc la comparaison de la vulnerabilite d'une zone par rapport a une autre. En effet, une zone Z1 est dite plus vulnerabilite qu'une zone Z2 si l'indice de vulnerabilite Iv1 est superieur a l'indice Iv2 (AMHARREF _et al._, 2001b). Le choix des classes des degres de vulnerableite (faible, forte, tres forete et extreme) est fait globalement par une analyse des temps de transit, du degre d'epuration et leur confrontation avec les donnees geologiques et hydrogeologiques de la zone.
+
+L'indice de vulnerabilite depend, en plus de la nature des couches traverses, des caracteristiques physico-chimiques du polluant. Cependant, nous pouvons elaborer des cartes de vulnerabilite intrinsues en considerant les caracteristiques des polluants comme equivalentes a celles de l'eau qui represente l'element le plus mobile et le plus persistant qui puisse exister (CRIVERT, 2003). Par contre, dans l'estimation de la vulnerabilite specifique, on tient compte des caracteristiques specifiques d'un contaminant donne ou d'un groupe de contaminants particulier.
+
+Cette approche, appelee TCR, (le temps de transit T, la concentration C et la recharge R) est inspire des approches anterieures, et en particulier des methodes DRASTIC et REHSE (ALLER _et al._, 1987; REHSE, 1977). Elle a l'evantage de considerer une combinaison lineaire de l'effet des trois parametres ponderes qui, aux memes, dependent de plusieurs facteurs lies au milieu physique (nature lithologique, epaisseur, peuvert vegetal, etc.), au lieu d'une combinaison lineaire directe de ces differents facteurs. Aussi, la redundance de certains facteurs, signale dans certaines methodes, a ete evitee dans l'approche proposee ici.
+
+Le principe de la methode consiste a approcher les trois parametres T, Cp/Cp et R'/R pour pouoir calculer et cartographier l'indice de vulnerabilite Iv en tout point de la zone d'etude. Cette cartographie se fait comme suit :
+
+* L'acquisition des donnees necessaires a l'evaluation des parametres T et Cp/Cp. La nature lithologique et l'epuisseur des sous-couches, constituant la zone non sarturee, couplees avec les donnees des vitseses de filtration (Vi) et des indices d'epuration (Ii) (Tableau 1), caracterisant chaque type de materiau, permettent d'evaluer le temps de transit T a travers la zone non saturee et son degre d'epuration (C'p/Cp);
+* Levaluation des conditions de recharge et le calcul du degre de recharge, dans le cas de la recharge diffuse, par le bilan hydrique et/ou par l'intermediaire des facteurs pente et occupation du sol;
+* Le calcul de l'indice Iv par la relation 1.
+
+Les valeurs calculees de l'indice sont reparties en classes de degres de vulnerabilite dont les limites sont fixees en fonction des caracteristiques de la zone d'etude. Le calcul de l'indice de vulnerabilite et la cartographie des differents parametres, sur toute la zone, ont ete enormement facilites par l'utilisation d'un systeme d'information geographique (Arcview dans notre cas).
+
+### Evaluation des parametres R?R, Cp/Cp et \(T\)
+
+#### 2.2.1 Le parametre degr de recharge R?R
+
+L'evaluation du degre de recharge (R'/R) se fait en se basant sur l'identification des zones d'inflation concentre (zones d'alimentation priviveligeie de la nappe par les eaux de surface, zones d'irrigation intensive) et l'appreciation des surfaces d'infiltration diffuse des precipitations. Cependant, la quantification de la recharge d'un aquifere n'est pas toujours simple; elle depend aussi bien des caracteristiques du sol (nature, pente et couvert vegetal) que de la distribution des precipitations dans le temps ainsi que d'autres variables climatiques (temperature et humidite). Il n'est donc pas possible de donner un pourcentage absolu de la recharge (LERNER _et al._, 1990). Cette recharge est d'autant plus difficile a evaluer dans les climats arides et semi-arides ou les precipitations sont relativement rares et sporadiques et ou les processus d'evaporation et d'evapotranspirationion sont tres importants. Toutefois, l'inflation des precipitations predomine particulierement dans la recharge des nappes superficielles et elle peut etre estimee par plusieurs methodes dont le bilan hydrique est la plus couramment utilisee.
+
+#### 2.2.2 Le degre d'epuration Cp/Cp et le temps de transit \(T\)
+
+La concentration Cp peut etre calculee par resolution de l'equation de dispersion en milieu non sature. Cependant, et pour rendre la methode d'usage simple, nous pouvons, dans un premier temps, approcher le degre d'epuration (C'p/Cp) a l'aide du pouvoir epurateur Md de la couche de couverture (BERNOUSSI et AMHARREF, 2003). En effet, nous pouvons considerer que:
+
+\[\ce{Cp}^{\prime}/\ce{Cp}=\begin{cases}1-\ce{M}\ce{si}\ce{M}\ce{<}1\ce{cas de l'epuration partielle}\\ 0\ce{si}\ce{Md}\ce{\geq}1\ce{cas de l'epuration totale}\end{cases}\]
+
+Le pouvoir epurateur Md depend de l'epaisseur et de la nature des materiaux traverses en condition non saturee. Il est calcule le long du trajet vertical (LALLEMAND-BARRES et ROUX, 1989; REHSE, 1977) par:
+
+\[\ce{Md}=\ce{\sum_{i=1}^{n}hi}^{i}\ce{Ii} \tag{2}\]
+
+\begin{table}
+\begin{tabular}{l l c c} \hline \hline
+**Granulométrie** & **Materiaux** & **Indice d’epuration** & 
+\begin{tabular}{c} **Vitesse de filtration** \\ **(m/j)** \\ \end{tabular} \\ \hline
+**Roches ayant des proprietes d’adsorption** & Argile, limon argleux, sable tres argleux, agile & 0,5 & 0,003-0,025 \\
+**d’adsorption** & Silt argleux à silt, limon fin & 0,4 & 0,16 \\  & Silt, sable silteux, sable peu silteux et peu argleux, & 0,22-0,33 & 0,54-4,32 \\  & Sable fin à moyen & 0,17 & 8,23-10 \\
+**Roches sabluses** & Sable moyen à grossier & 0,1 & 19,2 \\  & Sable grossier & 0,07 & 27 \\  & Gravier silteux, riche en sable et en argle & 0,13 & 0,72 \\  & Gravier peu silteux, beaucoup de sable & 0,08 & 144 \\
+**Gravier** & Gravier fin à moyen riche en sable & 0,04 & 201 \\  & Gravier moyen à grossier, peu de sable & 0,03 & 480 \\  & Galets & & 0,02 & 4 320 \\ \hline \hline \end{tabular}
+\end{table}
+Table 1: **Purge index and infiltration rates of different rocks (REHSE, 1977).**Md : pouvoir epurateur de la zone de couverture (REHSE, 1977);
+
+hi : epaisseur de chaque sous-couche constituant la zone non sature;
+
+Ii : indice d'epuration defini par REHSE en fonction des parametres physiques et hydrodynamiques pour differents types de materiaux en condition non sature. Il est lie a la permeabilite et au pouvoir de retention des constituants du materiaux considere;
+
+n : le nombre de sous-couches constituant la zone non sature.
+
+Le temps de transit T d'un polluant depuis la surface sol jusqu'a la nappe depend de plusieurs facteurs et la difficulte de l'estimation de ce parametre ne reside pas seulement dans la multitude des facteurs mis en cause et la complexite de leur obtention, mais aussi dans le choix de la vitesse a considere. En milieu poreux non sature, cette viteses 'exprime par l'equation de Richards et sa resolution donne la vitesse d'ecoulement. Cependant, dans ce travail nous avons utilise la vitesse moyenne de filtration (Vi) caracteristique des differents types de roche. Celle-ci est synthetisee dans le tableau 1 a partir d'etudes anterieures (MAXE et JOHANSSON, 1998; REHSE, 1977). Ainsi le temps de transit Ti, pour une couche donnee, pourra etre calcule par : Ti = hi / Vi, ou hi est l'epaisseur de la couche traversee. A la traversee de la zone non sature, ce temps de transit T va etre approche par :
+
+\[\mathrm{T}=\sum_{i=1}^{n}\mathrm{hi}\,/\,\mathrm{Vi} \tag{3}\]
+
+Vi : vitesse moyenne caracterisant chaque type de roche traversee par le produit polluant;
+
+hi : epaisseur de chaque sous-couche constituant la zone non sature;
+
+n : le nombre de sous-couches.
+
+La protection de la nappe est d'autant meilleure que ce temps T est plus eleve.
+
+### Ajutement de la methode : Test de sensibilite
+
+Pour evaluer les valeurs des ponderateurs \(\alpha\), \(\beta\) et \(\gamma\) de l'indice de vulnerabilite Iv, nous avons procede a des tests de sensibilite suivis d'analyses de regression lineaire multiples de l'indice Iv et des trois parametres (1/T, C'p/Cp et R'/R). Cette analyse est realise sur 12 puits temoins de la plane du Gharb (Tableau 2) representant des variations importantes des trois parametres (temps de transit, degre d'epuration et degre de recharge). En plus de ces petits temoins, nous avons pris en compte un puits de reference (puits N\({}^{*}\) 1111 : puts fictif avec T = 1, C'p/Cp = 1 et R'/R = 1). Ces petits ont ete ordonnes qualitativement selon une vulnerabilite croissante en se basant sur l'analyse du temps de transit T, du raux d'epuration C'p/Cp et du degre de recharge en plus des donnees geologiques et hydrogeologiques.
+
+Ce classement a ete facilite par la determination du signe de la variation de l'indice Iv pour deux puits consecutifs (I\({}_{V_{1,1}}\) - I\({}_{V}\)) et cela en ayant les ponderateurs inconnus. Toutefois, pour determiner l'intervalle de variation des ponderateurs et de l'indice Iv, pour des temps de transit superieurs ou egaux a un jour, nous avons considere des indices normalises (Iv/Ivmax) par rapport a l'indice maximum Ivmax (Ivmax = \(\alpha\) + \(\beta\) + \(\gamma\)). Ainsi, pour le puits de reference, on aura Iv/Ivmax = 1.
+
+Lin dice Iv normalise varie donc entre 0 et 1 pour des temps de transit supereiurs ou egaux a un jour. Cependant, il sera evidemment superieur a 1 dans des situations extremes correspondant a des temps de transit T inferieurs a un jour (vulnerabilite extreme).
+
+Avec cette normalisation, nous pouvons en consequence considerer que les ponderateurs normalises \(\alpha\), \(\beta\) et \(\gamma\) varient dans l'intervalle [0-1] et que \(\alpha\) + \(\beta\) + \(\gamma\) = 1. Ainsi, et avec un pas de 0,1 pour chaque ponderateur, nous avons considere toutes les combinaisons possibles de simulations de l'indice Iv. Lin dice Iv, calcule pour chaque combinaison, nous a permis de classer les puits temoins et d'eliminer les combinaisons qui
+
+\begin{table}
+\begin{tabular}{l c c c c c c c c c c c c} \hline \hline Numéro des & & & & & & & & & & & & & & & \\ points & & & & & & & & & & & & & & & \\ \hline
+**T** & 160 & 140 & 80 & 72 & 46,25 & 52 & 46,95 & 42,04 & 28,1 & 26 & 1 & 0,16 & 0,15 \\
+**C/C** & 0 & 0 & 0 & 0,29 & 0,3 & 0,41 & 0,46 & 0,55 & 0,61 & 0,68 & 1 & 0,84 & 0,72 \\
+**R/R** & 0,2 & 0,2 & 0,2 & 0,15 & 0,2 & 0,15 & 0,2 & 0,15 & 0,15 & 0,2 & 1 & 0,15 & 0,2 \\
+**Classement** & & & & & & & & & & & & & & & \\
+**par ordre de** & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 \\ vulnerabilite & & & & & & & & & & & & & & \\ \hline \hline \end{tabular}
+\end{table}
+Table 2. Données et classification des puits émoins. Table 2. Data and classification of the pilot wells.
+
+donnent des resultats aberrants (non conformes au classement qualitatif des puits temoins). La combinaison qui s'ajuste au mieux, au sens du critere des moindres carres, a l'indice de vulnerabilite est donnee par :
+
+\[\text{Iv}=0,400.\ (1/\text{T})+0,428.\ (\text{C}\text{p}/\text{Cp})+0,172.\ (\text{R}^{ /}\text{R}).\]
+
+Ce modele decrit une relation tres significative entre l'indice de vulnerabilite et les trois parametres. Il montre que ce sont les facteurs degre d'epuration et temps de transit qui conditionnent le plus, et ce de maniere quasi similaire, l'indice l'v et que la rechargel'influence moins. D'autre part, les valeurs approchees que nous avons affectees aux coefficients \(\alpha\), \(\beta\) et \(\gamma\) (\(\alpha=\beta=2\) et \(\gamma=1\)) sont aussi coherentes et judicieuses. En pratique, les coefficients de ponderations proposes sont des constantes applicables de maniere generale. Par contre, les intervalles des degres de vulnerabilite (faible, forte et tres forte), pour des temps de transit superieurs ou egaux a un jour, peuvent etre raffines en fonction des caracteristiques geologiques et hydrogeologiques de la zone etudiee. L'application de ce modele a la plane du Gharb donne des resultats qui concordant bien avec ceux des puits temoins.
+
+## 3 Application a la plane du Gharb (Maroc)
+
+### Description de la plane du Gharb
+
+La plaine du Gharb est situee au nord-ouest du Maroc. Elle s'etend dans la basse vallee de l'oued Sebou sur une superficie de 3 000 km\({}^{2}\) (Figure 2). Elle est formee d'une epaisse serie sedimentaire de depots tres heterogenes depuis les marnes du Miocenee jusquaux limons du Quaternaire recent (Figure 3). Son climat passe de sub-humide a hiver tempere en zone cotiere et a semi-aride a hiver chaud a l'interieur de la plane. Les precipitations moyennes annuelles sont de 460 mm. Le drainage superficiel est assure principalement par l'oued Sebou avec un apport de 6 milliards m\({}^{3}\)/an. La zone est a vocation agricole et a fait l'objet d'amenagements hydrauliques considerables et de mise en valeur agricole depuis 1933. Le mode d'irrigation le plus pratique est le gravitaire. Les fourrages, la canne a sucere et la betterave sont les cultures irriguees les plus frequentes. La plaine renferme un systeme aquifere complex constitue de deux principales nappes (Figure 4) superposes qui sont : la nappe phreatique au centre de la plaine et la nappe profonde qui affleure sur les pourrours sud et ouest et plonge au centre sous la nappe superficielle. Laquifere profond, d'une epaisseur variant de 60 a 200 m, se trouve dans un complex hetoregne du Plio-Villafranchien forme de sables, de gres, de calcarenites et de conglomerats. Il est dote de bonnes caracteristiques hydrodynamiques, dont la permabilite varie de 10\({}^{-4}\) a 6,10\({}^{-3}\) m/s et la transmissivite varie de 3 10\({}^{-4}\) a 1,5 10\({}^{-2}\) m\({}^{-2}\)/s (DRPE, 1994; El MANSOURI, 1999). Laquifere superieur, d'une puissance variant de 20 a 100 m, est forme de materiaux quaternaires heterogenes d'argiles, de limons et de passages sableux et /ou sablo-limoneux. Il renferme une nappe libre localise au centre de la plane. Sa permeabilite est comprise entre 10\({}^{-7}\) et 2 10\({}^{-5}\) m/s. La recharge de la nappe se fait principalement par l'infiltration des plus et le retour des eaux d'irrigation. Lecoulement general est du sud-est vers le nord-ouest dans la partie sud de la plane et devient sensiblement est-ouest dans les parties centre et ouest (Figure 4). La nappe se decharge essentiellement par evaporation et par drainage naturel par des oueds, et artificiel par des canaux. La ligne de partage des eaux qui jalonne par endroit le Sebou est a mettre en relation avec une zone d'alimentation privilegeie par cet oued.
+
+### Donnees relatives a la plane du Gharb
+
+#### La recharge
+
+La recharge concentree, predominee par les retours d'irrigation, est estimee a 25 % (DRPE, 1994) et les echanges avec l'oued Sebou qui sont tres localises, en particulier dans la partie centre-ouest de la plane. La recharge diffuse se fait par infiltration de 15 % des precipitations (estimee par le bilan hybridique). La plaine montre (Figure 5) un degre de recharge important sur l'ensemble de la region qui est a mettre en relation avec l'irrigation intensive que connaissent la plaine et les faibles pentes qui favorisent l'infiltration.
+
+#### 3.2.2 Le temps de transit et le taux d'epuration
+
+La nature et l'epaisseur des differentes couches qui constituent la zone non saturee ont ete d'etermines essentiellement a partir des donnees fournies par l'Office de Mise en Valeur Agricole du Gharb (ORMVAG) et par la Direction des Travaux Publics. Il s'agit de donnees extraites des profils des puits realises au cours de l'etude pedologique (ORMVAG, 1996), de donnees des fiches de puits et de forages realises par la Direction de l'Hydraulique, et de donnees de suivi des piezometres captant la nappe superficielle (Figure 2). L'epaisseur de la zone non saturee varie entre 0,7 m dans la partie nord et 10 m au centre et au sud-est de la plane. L'utilisation de ces donnees, des indices d'epuration et des viteses (Tableau 1) nous a permis de calculer le temps de transit et le degre d'epuration de la couche de couverture. La repartition du temps de transit et du degre d'epuration (Figure 6 et Figure 7) est a mettre en relation avec les epaisseurs et la nature des couches constituuant la zone non saturee. Ces couches sont a dominance argiluse au nord et a l'ouest etFigure 3: Coupe géologique NO-SE dans la plaine du Gharb (ORMVAG, 1996).
+
+_NW-SE geological section of the Gharb plain (ORMVAG, 1996)._
+
+Figure 2: Carte de repartition des points de mesure et des zones irrigues.
+
+_Distribution of data points and irrigated areas._Figure 4: Carte piezomérique de la nappe superficielle du Gharb (1997).
+
+_Piezoméric map of the Gharb shallow aquifer (1997)._
+
+Figure 5: Carte de répartition du degré de recharge de la nappe superficielle du Gharb.
+
+_Distribution of the recharge intensity of the Gharb shallow aquifer._Figure 6: Carte de répartition de Finverse du temps de transit à la nappe superficielle du Gharb.
+
+_Distribution of the inverse transit time of the Gharb shallow aquifer._
+
+Figure 7: Carte de répartition du degré d’éééuration de la nappe superficielle du Gharb.
+
+_Distribution of the degree of purge of the Gharb shallow aquifer._presentent des intercalations sableuses au sud est. Elles ont aussi des epaiseurs faibles a l'ouest et au nord de la plane.
+
+### Cartographie de la vulnerabilite et interpretation
+
+Les valeurs de l'indice normalise qui ont ete calculees pour la plane du Gharp par la relation 1 sont reparties en classes correspondant a une vulnerabilite faible (0 < Iv < 0,15), forete (0,15 < Iv < 0,35), tres forete (0,35 < Iv < 1) et extreme (Iv > 1). Le choix de ces intervalles est base sur une analyse des temps de transit et du degre d'epuration de tous les puits et leur confrontation avec les donnees geologiques et hydrogeologiques. La carte obtenue (Figure 8) montre en general une forte vulnerabilite au niveau des parties nord et centre qui est peut etre liee a la faible epaiseur de la zone non saturee de l'aquifere. Les parties nord-est et sud-est de la plane presentent une faible vulnerabilite qui pourrait s'expliquer en 'Documente par la puissance de la zone de couverture. Les aux souterraines y sont localement mieux protegees. Par contre, cette protection n'est pas assuree dans les zones nord-ouest (au nord Sidi Allal Tazi) et au nord de Sidi Sliman, presentant une vulnerabilite tres forete a extreme localement. Cette situation est inquietante, car cette derniere zone presente une densite devee des puits captant la nappe phreatique et les utilisateurs de l'eau souterraine y sont nombreux. Par ailleurs, les zones a forte et a tres forte vulnerabilite necessitent un controle et une limitation des activites potentiellement polluantes, car ces zones sont, d'une part, susceptibles d'etre polluaces et, d'autre part, les ecoulements souverrains peuvent entrainer le polulant vers d'autres zones peu vulnerables. Des echanges sont aussi possibles entre les deux nappes et avec l'oued Sebou. Ces echanges sont probables, en particulier dans la partie centre-ouest (au nordest de Sidi Allal Tazi) qui est une zone d'alimentation privilegee de la nappe par l'oued. La situation est preoccupante sachant que l'oued Sebou est le collecteur principal des rejets des deux grandes villes de Fes et Meknes situees en amont de la plane. Le probleme atteint plus le milieu rural dont la population utilise directement l'eau souterraine sans aucun traitement prealable. Dans ces zones, des mesures preventives adequates sont necessaires afin de limiter les risques.
+
+## 4 Conclusion
+
+La cartographie de la vulnerabilite des eaux souterraines est une methodologie qui est devenue imperative afin d'assurer la gestion qualitative des ressources en eau et la protection des capages d'eau potable. Elle apparait donc necessaire et incontournable, car elle permet d'identifier facilement les zones sensibles a des pollutions potentielles. Elle permet aussi d'orienter l'amenagement du territiore. Cependant, l'usage de ces cartes pour la limitation efficace de la protection des eaux souterraines doit tenir compte du contexte hydrodynamique de l'aquifere qui ne compromet pas inuuliement la planification et la gestion du territoire. L'originalite de ce travail reside
+
+Figure 8: Carte de vulnerabilité intrinseque de la nappe superficielle du Gharp.
+
+dans la realisation d'une cartographie de la valnreabilite de la plaine du Gharb qui, jusqu'a ce jour, n'avair pas ete dressee, et cela en utilisant un indice de valnreabilite recemment introulit (AMHARREF _et al._, 2001a). D'autres etudes doivent etre poursuivies afin d'elaborer des cartes plus precises et tenant compte d'un nombre important de donnees. Par ailleurs l'utilisation d'un systeme d'information geographique faciliterai la mise a jour de ces cartes.
+
+## 6 Remerciement
+
+Nous tenons a remercier M. Abdeloiahid El Moussaoui, professeur de statistiques a la Faculte des Sciences et Techniques a Tanger, pour son aide a la realisation des tests de sensibilite.
+
+## 7 References Bibliographiques
+
+[MISSING_PAGE_POST]
+
+## 1. _Evaluation de l'uulieurabilite a la pollution_
+
+Pour determiner une valeur approchee de l'v pour certains puits dirs << temoins >>, on a procede en quatre etapes :
+
+_Etape 1. Choix des puits temoins_
+
+A partir de l'analyse des donnees recueillies sur la plane du Gharb, on a selectionne 12 puits temoins (Tableau 1) representant des variations importantes des differents parametres (temps de transit, degre d'epuration et degre de recharge). En plus de ces puits temoins, on a considere un puits de reference, points N\({}^{*}\) 1111, qui est un puits fictif avec T = 1, C'p/Cp = 1 et R'/R = 1.
+
+_Etape 2. Classification qualitative de la vuhenabilite des puits temoins_
+
+En utilisant les donnees du tableau ci-dessous, les vitesses d'inflation et les indices d'epuration caracterisant chaque macriau d'apres REHSE (Tableau 1, voir papier), on a
+
+\begin{table}
+\begin{tabular}{c c c c c} \hline N\({}^{o}\) puits & X & Y & Epaisseur (m) & Lithologic \\ \hline  & & & \(0-0,10\) & Limon argileux \\
+**1697** & 446,240 & 412,640 & 0,10 \(-0,90\) & Argile \\  & & & 0,90 \(-4,0\) & Limon argileux \\ \hline
+**1261** & 463,00 & 418,500 & \(0-3,5\) & Angle \\ \hline
+**893** & 458,300 & 422,500 & \(0-2,0\) & Argile limoneuse \\ \hline
+**329** & 424,00 & 426,400 & \(0,12-1,30\) & Argile \\  & & & 1,30 \(-1,80\) & Limon argileux \\ \hline
+**733** & 452,00 & 421,50 & \(0-1,00\) & Argile \\  & & & 1,00 \(-2,0\) & Limon \\ \hline
+**89** & 426,00 & 431,200 & \(0-0,20\) & Limon argileux \\  & & & \(0,20-1,30\) & argile \\ \hline
+**139** & 438,700 & 433,700 & \(0-0,15\) & Limon fin \\  & & & \(0,45-1,3\) & Argile \\ \hline
+**414** & 442,600 & 431,200 & \(0,50-0,75\) & Argile limoneuse \\  & & & \(0,75-1,10\) & Sable \\  & & & \(1,10-1,40\) & Argile \\ \hline
+**255** & 436,700 & 230,800 & \(0,12-0,70\) & Argile \\  & & & \(0,70-0,90\) & Sable limoneux \\  & & & \(0,90-1,15\) & Argile sablecuse \\ \hline
+**1819** & 409,800 & 433,700 & \(0-0,65\) & Argile \\ \hline
+**1817** & 441,700 & 412,200 & \(0-0,50\) & Sable \\  & & & \(0,50-1,10\) & Angle sablecuse \\ \hline
+**1621** & 446,400 & 408,760 & \(0-4,0\) & sable \\ \hline \end{tabular}
+\end{table}
+Table 1. _Characteristics and properties of the pilot wells._pu calculer les parametres temps de transit (T) et le degre d'epuration (Cp/Cp) des puits temoins (Tableau 2).
+
+En se basant sur ces donnees on a pu ordonner qualitativement les puits temoins selon leur vulnerabilite. Ce d'assement a 'ete facilite par la determination du signe de la variation de l'indice de vulnerabilite pour deux puits consecutifs en ayant les ponderateurs inconnus, \((\mathrm{I}_{\mathrm{V}_{\mathrm{1},\mathrm{1}}}-\mathrm{I}_{\mathrm{V}_{ \mathrm{2}}})\). Les resultats obtenus donnent le classement selon l'ordre donne dans le tableau 2 (le puits N" 1 est le moins vulnerable).
+
+_Etape 3. Analyse de l'effet de la variation des differents parammeres_
+
+A partir de cc classement on a effectue une premiere analyse de l'effet de la variation des differents parametres (1/T, C'p/Cp et R'/R) sur la vulnerabilite. Ainsi, il apparait globalement que ce sont les parametres 1/T et C'p/Cp qui agissent le plus sur la vulnerabilite, alors que la recharge est de moindre effet.
+
+Pour pouvoir determiner l'intervalle de variation de Iv (Iv = \(\alpha\) 1/T + \(\beta\) C'p/Cp + \(\gamma\) R'/R), on a considere des indices normalises (Iv/Ivmax) par rapport a l'indice maximal Ivmax (Ivmax = \(\alpha+\beta+\gamma\)). Lindice normalise Iv varie donc entre 0 et 1 pour des temps de transit superieurs ou eaux a un jour. Cependant, il sera evidemment superieur a 1 dans des situations extremes correspondant a des temps de transit T inferieurs a un jour (vulnerabilite extreme). Ainsi, pour le puits de reference (puits N" 1111), on a Iv /Ivmax = 1.
+
+Avec cette normalisation, on peut alors considerer que les ponderateurs normalises \(\alpha,\beta\) et \(\gamma\) varient dans l'intervalle [0,1] et que \(\alpha+\beta+\gamma=1\). On a procede ensuite a une serie de simulations pour differentes valeurs de \(\alpha,\beta\) et \(\gamma\) dans l'intervalle [0,1] avec un pas de 0,1 pour chaque ponderateur. Le choix de 0,1 est fait a partir du classement qualitatif, car un pas de 0,01 signifieur que l'effet du parametre en question est negligeable par rapport aux autres. Pour chaque combinaison et a l'aide de l'indice Iv calcule, on a classe les puits temoins et on a limine les combinaisons qui donnent des resultats aberrants (pas le meme classement obtenu au tableau 2).
+
+Les combinaisons retenues ont fait l'objet de comparaisons graphiques et on a remarque que (voir courbes) :
+
+1. Elles donnent graphiquement le meme classement qualitatif;
+2. Les proportions des valeurs de Iv varient d'une combinaison a une autre selon la classe de vulnareabilite (classe 1, note S1, formee par les trois premiers puits (puits N" 1697, 1261 et 893), la classe 2, note S2, formee par les huit puits suivants (329, 733, 89, 139, 414, 255 et 1819), et la classe 3, notce S3, formee par les deux derniers puits (1817 et 1621).
+
+Les courbes << moyennes << qui se degagent de l'ensemble des graphiques sont donnces par les combinaisons dont les ponderateurs varient autour de 0,4 \(\leq\) \(\alpha,\beta\) \(\leq\) 0,6 et 0,1 \(\leq\)\(\gamma\)\(\leq\) 0,2 (Figure 1, Figure 2 e Figure 3).
+
+\begin{table}
+\begin{tabular}{c c c c c c} \hline N\({}^{\mathrm{o}}\) puits & T & C/C & R’/R & \multicolumn{2}{c}{**Ordre de**} & \multicolumn{1}{c}{**Iv moyen**} \\ \hline
+**1697** & 160 & 0 & 0,2 & 1 & 0,037 \\
+**1261** & 140 & 0 & 0,2 & 2 & 0,037 \\
+**893** & 80 & 0 & 0,2 & 3 & 0,039 \\
+**329** & 72 & 0,29 & 0,15 & 4 & 0,156 \\
+**733** & 46,25 & 0,3 & 0,2 & 5 & 0,172 \\
+**89** & 52 & 0,41 & 0,15 & 6 & 0,209 \\
+**139** & 46,94 & 0,46 & 0,2 & 7 & 0,240 \\
+**414** & 42,04 & 0,55 & 0,15 & 8 & 0,271 \\
+**255** & 28,1 & 0,61 & 0,15 & 9 & 0,301 \\
+**1819** & 26 & 0,68 & 0,2 & 10 & 0,341 \\
+**1111** & 1 & 1 & 11 & 11 & 1,000 \\
+**1817** & 0,16 & 0,84 & 0,15 & 12 & 2,886 \\
+**1621** & 0,15 & 0,72 & 0,2 & 13 & 3,010 \\ \hline \end{tabular}
+\end{table}
+Table 2: Données et classification des puits temoins.
+
+Figure 3: Representation de lv moyen pour differentes combinaisons.
+
+_Representation of Ir means for various combinations._
+
+Figure 2: Courbes representant lv pour differentes combinaisons des coefficients de pondération dans ”intervalle [0-1] et avec un pas de 0,1.
+
+_Plots representing Ir for different combinations of weighing coefficients in the interval [0-1] with a step of 0.1._
+
+Figure 1: Courbes representant lv pour differentes combinaisons des coefficients de pondération dans ”intervalle [0-1] et avec un pas de 0,1.
+
+_Plots representing Ir for different combinations of weighing coefficients in the interval [0-1] with a step of 0.1.__Etape 4. Estimation de l'indice Iv pour les puits temoins_
+
+On a remarque que, d'une combinaison a une autre, il y a soit une surevaluation de l'indice Iv sur S3 et une sous-evaluation de l'uv sur S1, soit l'inverse (de meme que sur S2). Cela est du au fait que les parametres 1/T, C/C et R'/R ne varient pas lineairement mais que la combinaison des effets de ces trois parametres est lineaire. A cause de ces variations, antagonistes et compensatrices, et aussi pour avoir une valeur approchee de Iv avec une erreur minimale sur les trois paliers de variation de Iv (S1 U S2 U S3), on a envisage une valeur moyenne de Iv qui est la moyenne des resultats obtenus par les combinaisons retenues, ce qui a permis d'avoir des valeurs approchees de Iv pour les puits temoins. Ces resultats sont donnes dans le tableau 2.
+
+La figure 3 donne une representation graphique de differentes combinaisons et de << Iv moyen >>. Ivm7, Ivm8 et Iv9 correspondent respectivement a une moyenne de 7, 8 et 9 combinaisons; nous avons considere Ivm7. 
+
+

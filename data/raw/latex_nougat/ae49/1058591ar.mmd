@@ -1,0 +1,279 @@
+LE PRIX DU RISQUE*
+
+Marie-Claude BEAULIEU
+
+_Departement de finance, assurance et immobilier, Faculte des sciences de l'administration, Centre de recherche sur le risque, les enjeux economiques et les politiques publiques (CRREP), Universite Laval_
+
+marie-claude.beaulieu@fsa.ulaval.ca
+
+Resume - Dans cet article, j'exploite l'approche developee par Beaulieu, Dufour et Khalaf (2013, 2017) pour montrer comment une methode robuste aux problemes d'identification et correcte en echantillons finis peut etre utilisee afin d'identifier les facteurs a incorporer dans un modele d'evaluation d'actifs dans le but de mieux estimer le prix du risque. En fait, lorsque l'incertitude entourant les parametres du modele du calcul du prix du risque est importante, elle peut changer de facon significative les decisions d'investissement et de financement. L'approche developpee par Beaulieu, Dufour et Khalaf (2013, 2017) permet d'etablir conjointement si un modele est rejete ou non et s'il est identifie ou non. Trois cadres d'analyse mesurant le prix du risque sont compares.
+
+Introduction
+
+La base de la decision de l'investissement et du financement depend directement du prix du risque. Ce dernier est defini comme la sensibilite du rendement d'un actif au changement dans le beta1 d'un facteur, c'est-a-dire la part des fluctuations du rendement des actifs due au changement dans la part du risque systematique liee a un facteur donne. Les mesures financieres de ce risque sont deployees le plus souvent dans les modeles d'evaluation d'actifs dont le plus connu est le _Capital__Asset Pricing Model_ (CAPM). Depuis son developpement dans les annees 1960, les assises empiriques de ce modele ont ete remises en question a plusieurs reprises nommement depuis les travaux de Fama et French (1992, 1993), ces derniers ouvrant la porte a un debat recurrent dans les travaux empiriques: quels facteurs doit-on inclure dans nos modeles?
+
+Pris ensemble, les modeles d'evaluation d'actifs servent a calculer le cout du capital d'un projet en fonction du prix du risque. Dans la forme classique du CAPM, on utilise la somme du taux sans risque et de la prime de risque multipliee par le beta d'une firme pour mesurer le cout d'opportunite d'investir dans un projet plutot que dans un autre ou encore on utilise ce meme cout d'opportunite pour motiver le choix d'un mode de financement plutot qu'un autre. L'importance de ce cout dans les modeles d'affaires est connue et enseignee depuis longtemps. Les travaux recents de Gollier (2016) montrent comment cette question de mesure du cout du capital est importante quand on en vient a qualifier le choix d'un projet qu'il soit de nature sociale ou completement entrepreneuriale. Gollier (2016) reprend le vieux dilemme de l'allocation intertemporelle optimale des ressources lorsque l'horizon d'investissement depasse l'esperance de vie d'un agent representatif.
+
+Un element cle dans la mesure du prix du risque concerne l'incertitude entourant les parametres du modele du calcul du cout du capital. En sa presence, les decisions d'investissement peuvent etre influencees meme dans un cadre tres simple ou les decisions de financement et d'investissement sont sur un horizon tres court. Les problemes d'identification lies a cette imprecision se traduisent souvent non pas par un rejet du modele mais plutot par une validation du modele pour n'importe quelle valeur de l'ensemble des reels. Cette situation pose des problemes d'implementation puisque le calcul du cout du capital implique souvent les couts minimal et maximal pour un decideur. Si l'intervalle de confiance de ce cout n'est pas borne, il en resulte une prise de decision pas plus informee a l'aide des donnees que dans l'ignorance du cout du capital a proprement parler. L'approche developpee par Beaulieu, Dufour et Khalaf (2013, 2017) permet de mettre en lumiere ces modeles non rejetes mais mal identififes afin d'informer le decideur de l'incertitude entourant les parametres du modele et d'ainsi en arriver ultimement a des mesures plus utiles et mieux comprises du cout du capital.
+
+De facon stricte, un modele est identifie lorsqu'il est possible d'en tirer une inference a partir de la distribution des probabilites des variables observees qui sont liees a une structure theorique latente (Dufour et Hsiao, 2008). Dans ce cas, un modele bien identifie au sens statistique est un modele pour lequel les donnees relatent des informations fiables quant aux parametres estimes. Dans les modeles d'evaluation d'actifs, deux traits qui leur sont relatifs peuvent miner l'identification du modele, soit: (i) les facteurs redondants c'est-a-dire des betas ou encore des combinaisons lineaires des betas proches de zero, et (ii) le regroupement dit _clustering_, c'est-a-dire, les betas qui ne different que de peu a l'interieur d'un groupe d'actifs testes, qui sont par exemple, pres de un.
+
+Pour les raisons invoquees en introduction, l'identification est un probleme serieux puisque dans un modele mal identifie, les intervalles de confiance de type Wald utilises traditionnellement ne couvriront pas avec les probabilites desisables2 les valeurs appropriees des coefficients et les tests qui y sont associes sur-rejetteront les hypotheses nulles (Dufour, 1997; Beaulieu, Dufour et Khalaf, 2013; Gospodinov, Kan et Robotti, 2013; Kan, Robotti et Shanken, 2013; Kleibergen et Zhan, 2015; Khalaf et Schaller, 2016). Les intervalles de confiance de type Wald ou Student sont des intervalles de la forme : {estime \(\pm\) (erreur type) \(\times\) point critique}. Quand l'identification n'est pas respectee, les estimes sont biaises et les erreurs types sous-estiment severement l'incertitude de l'estimation, et ce, meme lorsque les echantillons sont de grande taille.
+
+Footnote 2: En fait, en présence de problemes d’identification, la probabilité de couverture est de beaucoup inférieure à 95 % et peut memé ê nulle.
+
+La litterature financiere, depuis les travaux de Merton (1973) et ceux de Ross (1976), reconnant la valeur de facteurs autres que celui du marche pour evaluer les actifs, soit dans un contexte intertemporel ou encore d'extraction de facteurs. Cependant, c'est depuis les articles de Fama et French (1992 et 1993) que les travaux de recherche se sont ouverts fermement a l'idee que l'introduction de facteurs supplementaires au rendement du portefeuille de marche est importante pour la qualite des modeles d'evaluation d'actifs. Cependant, tel que souligne par Campbell, Liu et Zhu (2016), les chercheurs ont mis de l'avant quelque 314 facteurs au cours des 20 dernieres annees pouvant expliquer les rendements boursiers. Dans le but de selectionner les facteurs les plus importants, Campbell, Liu et Zhu prechent pour une approche basee sur un cadre de tests multiples et une statistique significative lorsqu'elle est plus elevee que 3,0. Le choix des facteurs a inclure dans un modele economique est un probleme important dans les etudes empiriques et l'approche presentee ici developpe un critere necessaire mais non suffisant dans la recherche du meilleur modele d'evaluation d'actifs empirique a valider.
+
+Le test inverse, developpe par Beaulieu, Dufour et Khalaf (2013) represente une approche valide pour evaluer les facteurs a inclure pour l'obtention d'un modele identifie. Il s'agit de la seule methode disponible robuste aux problemes d'identification definis plus haut et correcte en echantillons finis. Les _ensembles_ de confiance (par opposition aux _intervalles_ de confiance de type Wald) couvrent la vraie valeur des parametres estimes avec le niveau desire, que l'identification pose probleme ou non.
+
+## 1 Modele d'evaluation d'actifs et evidence empirique
+
+Le modele du CAPM developpe par Trevnor (1961, 1962), Sharpe (1964), Lintner (1965) et Mossin (1966) repose sur le principe de la diversification de portefeuille et lie
+
+\[E(R_{i}-r_{j})=\beta_{i}E(R_{m}-r_{j})\quad i=1,\ldots,\,n \tag{1}\]ou \(E\) est l'operateur d'esperance,
+
+\(R_{i}-r_{f}\) la prime de risque d'un actif \(i\) representant la difference entre le rendement
+
+\(R_{i}\) d'un actif \(i\) et le taux d'interet sans risque \(r_{f}\)
+
+et
+
+\(R_{m}-r_{f}\), la prime de risque du marche correspondant a la difference entre le rendement du portefeuille de marche \(R_{m}\) et le taux d'interet sans risque.
+
+Dans ce contexte, l'estimation du beta (\(\beta_{i}\)) est un enjeu important qui puise a meme la relation risque-rendement revelant la hauteur de la sensibilite d'un actif au risque de marche.
+
+Ce modele a meme aux premiers tests d'evaluation d'actifs qui furent developpes en coupe transversale par Black, Jensen et Scholes (1972), Fama et MacBeth (1973) et Blume et Friend (1973). Pour une discussion plus recente des forces, faiblesses et defis relatifs a cette approche, voir Lewellen, Nagel et Shanken (2010).
+
+En coupe transversale, on cherche a etablir si le beta du facteur est important statistiquement a travers un grand nombre d'actifs. Pour ce faire, le modele estime est le suivant :
+
+\[R_{i}=\gamma+\beta_{i}\lambda+\varepsilon_{i}\quad i=1,...,\,n. \tag{2}\]
+
+Le test du modele afin d'estimer l'importance du beta a travers un ensemble de titres financiers revient alors a valider :
+
+\(H_{0}:\lambda=0\)
+
+ou \(\lambda\) est le prix du risque.
+
+Dans cette premiere approche pour tester l'equation (1) en coupe transversale, on cherche donc a savoir si a travers differents portefeuilles d'actifs, le beta de ces portefeuilles varie suffisamment pour que le prix du facteur de risque justifie qu'on lui attribue un prix au sens statistique.
+
+Bien que tres intuitive, cette approche pose _a priori_ que les \(\beta_{i}\) soient connus alors qu'empiiquement, lis doivent etre estimes dans une premiere etape en utilisant par exemple le modele donne par l'equation (1), impliquant des erreurs de mesure. La formation de portefeuilles pour mesurer la variable endogene dans le but de regrouper les actifs vise a minimiser l'impact de ces erreurs de mesure sur les estimes des \(\beta_{i}\).
+
+Par ailleurs, l'estimation des modeles d'evaluation d'actifs fait une nouvelle avancee lorsque Jensen (1968) introduit l'idee de tester la performance d'actifs en series chronologiques. Cette idee est reprise par Gibbons (1982) qui teste, a partir du modele suivant :
+
+\[R_{i_{i}}-r_{f}=\alpha_{i}+\beta_{i}(R_{mt}-r_{f})+\varepsilon_{i_{a}}\,t=1,...,\,T;\,i=1,...,\,n \tag{3}\]
+###### Abstract
+
+In this thesis we present a new method for constructing the \(\alpha_{i}\)-\(\beta_{i,\,icourant de recherche qui vise a identifier des facteurs bases dans un premier temps sur les caracteristiques des firmes mais qui s'ouvrira plus largement dans les annees suivantes.
+
+On pensait deja a des facteurs macroeconomiques (Chen, Roll et Ross, 1986), mais la litterature se transporte tres rapidement sur des facteurs d'autre nature dont les facteurs comportementaux (facteurs psychologiques dont l'instinct greaire) ou encore des facteurs de microstructure (par exemple, Pastor et Stambaugh, 2003). Cependant dans la mesure ou les facteurs sont extraits des donnees tel que propose par l'APT ou encore choisis de maniere plus ou moins _ad hoc_, les modeles theoriques nous sont jusqu'a maintenant d'un support modeste. A ce stade, seule une procedure statistique rigoureuse peut nous etre utile puisque tel que discute en introduction, etant donne le recensement de Campbell _et al._, la question qui demeure et qui en soi depasse celle posee par les modeles d'evaluation d'actifs est : quels facteurs et combien? L'idee d'un test conjoint sur une hypothese donnee et l'identification d'un modele fournissent un outil permettant de mieux cerner la reponse a cette question.
+
+2. Cadre methodologique
+
+Le modele d'evaluation d'actifs le moins contraint3 auquel on peut penser prend la forme suivante :
+
+Footnote 3: A noter que, tel que nous le montrerons plus bas, ce modele tres flexible d’evaluation d’actifs peut inclure des restrictions non lineaires impliquant le taux zéro-bêta et les primes de risque.
+
+\[r_{i}=a_{i}\,\mbox{${}_{T}$}+Rb_{i}+u_{i}\ \ \,i=1,...,\,n \tag{5}\]
+
+ou \(r_{i}\), \(i=1,...,\,n\), represente un vecteur de \(T\) rendements sur le titre (ou porteteuille) \(i\). \(R=[R_{i},\)..., \(R_{q}]\) est une matrice \(T\times q\) observations sur \(q\) facteurs ou _benchmarks_ et
+
+\(\mbox{${}_{T}$}=\) un vecteur de 1 de dimension \(T\times 1\);
+
+\(a_{i}\) : represente un vecteur d'interceptes pour chaque actif \(i\), \(i=1,...,\,n\) et
+
+\(b_{i}\) : represente un vecteur \(q\times 1\) de coefficients betas mesurant la sensibilite de chaque actif \(i\) aux variations dans chacun des \(q\) facteurs ou _benchmarks_.
+
+Le modele de l'equation (5) est une representation en series chronologiques d'une interpretation en coupe transversale suivant la restriction developpee par Shanken et Zhou (2007) pour estimer la coupe transversale en une seule etape.
+
+Si l'on reprend l'equation (5) en permettant la distinction entre les facteurs \(R\) selon leur nature, le modele presente a l'equation (6) inclut des facteurs negociales en bourse (\(R_{i}\)) et des facteurs non negociales en bourse (\(F\)). De plus, pour modeliser la prime de risque, on mesure dans une premiere etape les rendements endogenes et les facteurs en deviation par rapport au taux zero-bêta (\(\mbox{${}_{0}$}\)) dans le cas des actifs negociales en bourse ou au rendement attendu de chaque facteur(\(\gamma_{F}^{*}\)) si celui-ci n'est pas negociable en bourse. Dans l'ensemble, le modele prend la forme suivante :
+
+\[r_{i}-\iota_{T}\gamma_{0}=(R_{1}-\gamma_{0})b_{i1}+(F-\iota_{T}\gamma_{F}^{*})b_ {iF}+u_{i},\;\;i=1,\ldots,n. \tag{6}\]
+
+Empiriquement, l'estimation mais surtout l'inference a partir de ce modele impliquent des defis importants puisqu'il se trouve qu'ici, \(\gamma_{0}\) et \(\gamma_{F}\) sont non observables, de meme que \(b_{i1}\) et \(b_{iF}\). Etant donne que seulement \(R_{1}\) et \(F\) sont observables du cote droit de l'equation (6), nous expliquons plus bas comment cette difficulte sera contournee. Par ailleurs, a noter que le prix du risque ici correspond toujours au coefficient sur les differents \(b_{i1}\) et \(b_{iF}\) qui s'exprime dans ce nouveau modele non plus par \(\lambda\) comme a la section 2, mais plutot par \(R_{1}-\gamma_{0}\) et \(F-\iota_{T}\gamma_{F}^{*}\)
+
+Dans un contexte encore plus general, il est egalement possible de relacher empiriquement l'hypothese que \(\gamma_{0}\) soit le meme des deux cotes de l'equation (6), c'est-a-dire que dans le cas des portefeuilles etudies et du portefeuille de marche, ceux-ci ne seraient pas mesures en excedant de la meme mesure, soit le rendement du portefeuille a zero-beta. Si c'etait le cas, c'est-a-dire que le gamma soit le meme de chaque cote de l'equation (6) pour les facteurs negocies en bourse et le rendement des actifs a l'etude, alors l'evidence empirique serait coherente avec le modele theorique.
+
+Afin de s'en tenir a l'estimation du modele presente a l'equation (5), qui ne comporte pas les memes defis que l'estimation du modele presente a l'equation (6), on peut reecrire l'equation (6) comme l'equation (5), en lui imposant la restriction non lineaire suivante :
+
+\[a_{i}=\Big{[}\gamma_{0}\left(1-b_{i1}\right)-\dot{\gamma_{F}}b_{iF}\Big{]}. \tag{7}\]
+
+Empiriquement, afin de valider l'adequation de l'equation (6), nous testons l'equation (7) qui constitue notre hypothese nulle. Celle-ci depend a la fois de \(\gamma_{0}\) et de \(\gamma_{F}\) ainsi que des betas qui sont traites comme inconnus, nous permettant d'eviter des erreurs de mesure lies a leur estimation. A noter qu'une caracteristique importante de notre approche est le traitement conjoint des facteurs de facon simultanee plutot que par etapes subsequentes.
+
+Pour tester la significativite du prix du risque des differents facteurs a l'etude, nous effectuons des tests simultanes afin d'evaluer si les ensembles de confiance robustes a l'identification (CS) de \(\gamma_{0}\) et de \(\gamma_{F}^{*}\) recoupent la moyenne de \(R_{1}\) et de \(F\). Precisons que nous nous concentrons sur la moyenne des facteurs afin d'evaluer la significativite du prix du risque des facteurs parce que lorsque l'equation (6) est reexprimee en moyenne, les coefficients \(\widetilde{R_{1}}-\gamma_{0}\) et \(\widetilde{F}-\gamma_{F}^{*}\) sont ceux que l'on obtient dans une regression en coupe transversale classique.
+
+Ainsi, si la moyenne du facteur est recoupee par l'intervalle de confiance, le prix du risque du facteur n'est pas significactif et ce facteur n'apporte rien au sens statistique au modele d'evaluation d'actifs.
+
+Une demarche classique viserait plutot la formation d'un intervalle de confiance de type Wald qui aurait la forme {valeur estimee \(\pm\) (erreur type asymptotique) X (point critique asymptotique)}. Dans l'approche developpee par Beaulieu, Dufour et Khalaf (2013, 2017) nous utilisons notre hypothese nulle pour inverser une statistique de Hotelling \(T^{2}\) et retenons les valeurs de \(\gamma_{{}_{0}}\) et de \(\gamma_{{}_{F}}^{\ast}\) dans l'intervalle de confiance conjoint qui sont coherentes avec l'hypothese nulle. L'approche utilisee ici est une generalisation de Beaulieu, Dufour et Khalaf (2013) dans un cadre multidimensionnel tel que developpee dans Beaulieu, Dufour et Khalaf (2017).
+
+Afin de presenter la statistique developpee dans Beaulieu, Dufour et Khalaf (2013), il faut d'abord presenter le modele de regression (5) dans un contexte general ou \(Y=XB+U\). Empiriquement, nous aurons \(\hat{U}=Y-X\hat{B}\) ou \(\hat{B}=(X^{\prime}X)^{-1}X\hat{Y}\).
+
+On definit egalement :
+
+\[\begin{split} S&=\hat{U}^{\prime}\hat{U}\\ \theta&=(\gamma_{{}_{0}},\gamma_{{}_{F}}^{\ast})^{ \ast}\\ \phi&=\gamma_{{}_{c}}\end{split}\]
+
+pour lesquelles la statistique4 est definie par
+
+Footnote 4: Cette statistique est pour le cas le plus simple ou \(\gamma_{{}_{0}}\)est égal à \(\gamma_{{}_{c}}\). Pour la generalisation de la statistique lorsque les deux gammas ne sont pas les mêmes, voir Beaulieu, Dufour et Khalaf (2017).
+
+\[\Lambda\big{(}\theta,\phi\big{)}\frac{\tau_{{}_{n}}}{n}\sim F\big{(}\tau_{{}_{ n}},n\big{)} \tag{9}\]
+
+ou \(\tau_{{}_{n}}=T-k-n+1\) et \(k\) represente le nombre de facteurs du modele et \(n\) le nombre de portefeuilles a l'etude (autrement dit le nombre d'equations de notre systeme).
+
+Plus generalement, pour inverser la statistique, nous devons resoudre
+
+\[\Lambda\big{(}\theta,\phi\big{)}\frac{\tau_{{}_{n}}}{n}\leq F_{{}_{n,\tau_{{}_ {n}},\alpha}} \tag{10}\]
+
+qui produit un intervalle de confiance conjoint pour \(\theta\) et \(\phi\) avec un seuil de confiance \(\alpha\) decoulant d'une generalisation multidimensionnelle d'une solution analytique proposee par Beaulieu, Dufour et Khalaf (2013) et presentee dans Beaulieu, Dufour et Khalaf (2017). Les ensembles de confiance individuels de \(\theta\) et \(\phi\) ainsi obtenus le sont par le biais des projections de la region de confiance conjointe. Notez que Beaulieu, Dufour et Khalaf (2017) montrent par simulations que les resultats sont robustes a des deviations a l'hypothese de normalite.
+
+L'interpretation liee aux intervalles de confiance obtenus sont de quatre natures differentes. Dans un premier cas, les intervalles de confiance sont bornes impliquant que les facteurs du modele sont informatifs et que le modele en soi ne pose pas de probleme d'identification. Dans un deuxieme cas, les intervalles de confiance sont non bornes ce qui implique que les facteurs sont informatifs, mais qu'il faut se soucier des problemes d'identification du modele. Dans le troisieme cas ou l'intervalle de confiance comprend l'ensemble des reels, nous sommes en presence de problemes d'identification severe du modele, bien que les facteurs apparaissent toujours pertinents. Finalement, dans le quatrieme cas, les intervalles de confiance sont vides et le modele est rejete par les donnees, revelant ainsi que les facteurs ne sont pas adequats et n'aident pas a evaluer les actifs.
+
+Lavantage de l'approche developpee par Beaulieu, Dufour et Khalaf (2013) est que plutot que de se contraindre a un intervalle de confiance classique base sur une mesure de l'ecart-type par rapport a la moyenne du parametre qui, en presence de problemes d'identification, se revele fallacieux, nous proposons l'inversion de la statistique qui caracterise l'hypothese nulle du modele en fonction de toutes les valeurs possibles des parametres. Cette approche donne de l'information simultanee sur (i) le modele, (ii) son identification et (iii) sa specification.
+
+Afin d'illustrer l'evidence presentee par cette approche dans differents contextes, j'introduis dans la prochaine section des resultats en provenance de trois etudes differentes, soit : (i) l'evaluation du prix du risque de divers facteurs dans l'economie americaine tres de Beaulieu, Dufour et Khalaf (2017), (ii) du prix du risque des obligations catastrophes tres de Beaulieu, Khalaf et Melin (2017) et (iii) du prix du risque de facteurs domestiques et internationaux dans le but de tester l'integration des marches financiers a l'international en provenance de l'etude de Beaulieu, Gagnon et Khalaf (2016).
+
+3Etudes empriques
+
+Afin de mieux comprendre les avantages de l'approche developpee par Beaulieu, Dufour et Khalaf (2013 et 2017), je propose ici de comparer trois cadres d'analyse utilisant des actifs financiers dans trois contextes differents. Cet exercice permet d'apprecier le type de resultats obtenus et de voir si certaines questions de recherche se pretent davantage a l'utilisation de cette approche ou non.
+
+3.1_Economie americaine_
+
+La premiere etude empirique discutee ici est celle de Beaulieu, Dufour et Khalaf (2017). Il s'agit de mesurer la significativite du prix du risque du modele a trois facteurs de Fama et French pour l'ensemble des titres americains regroupes en 12 portefeuilles tries par industrie. La periode echantillonnee s'etend de janvier 1961 a decembre 2010 et l'ensemble des donnees pour les portefeuilles tries par industrie ainsi que pour le rendement du portefeuille de marche (_MKT_), le facteur de taille (_SMB_) et celui du ratio de valeur au livre sur valeur au marche (_HML_) sont tires du site de Kenneth French. Les resultats sont presentes en sous-periodes de 10 ans afin de preserver des series relativement homogenes et non sujettes a des changements structurels importants.
+
+Le modele estime si l'on contraint le meme rendement excedentaire pour les facteurs negociables en bourse est le suivant :
+
+\[r_{i}-\iota_{T}\nu_{0}=\left(R_{1}-\gamma_{0}\right)b_{i1}+\left(F-\iota_{T} \dot{\nu}_{F}^{{}^{\prime}}\right)b_{iF}+u_{i}. \tag{11}\]
+
+Par ailleurs, le modele peut etre estime dans une forme plus large suivant :
+
+\[r_{i}-\iota_{T}\nu_{c}=\left(R_{1}-\gamma_{0}\right)b_{i1}+\left(F-\iota_{T} \dot{\nu}_{F}^{{}^{\prime}}\right)b_{iF}+u_{i}. \tag{12}\]
+
+Les resultats obtenus pour l'estimation de ces deux modeles sont presentes dans les tableaux 1 et 2. Au tableau 1, lorsque le modele est estime en exces du rendement zero-beta comme a l'equation (11), sur des sous-periodes de 10 ans, les resultats montrent que sur la premiere sous-periode, allant de 1961 a 1970, les 3 facteurs de Fama-French, soit le rendement du portefeuille de marche (_MKT_), le facteur de taille (_SMB_) et celui de valeur (_HML_), sont bien identifi es etant donne que les
+
+TABLEAU 1
+
+Economie americaine
+
+Intervalles de confiance du priv du risque des trois facteurs de Fama-French
+
+\begin{tabular}{l|c|c|c|c|c|c} \hline \hline  & \multicolumn{3}{c|}{\(\theta=(\gamma_{0},\gamma_{F}^{{}^{\prime}})^{\prime}=(\theta_{{}_{\textit{MKT}}}, \theta_{{}_{\textit{SMB}}},\theta_{{}_{\textit{HML}}})^{\prime}\)} \\ \hline  & \multicolumn{2}{c|}{_MKT_} & \multicolumn{2}{c|}{_SMB_} & \multicolumn{2}{c}{_HML_} \\ \hline \(\mathbf{\dot{P}}\mathbf{\dot{\textit{e}}}\mathbf{\dot{\textit{i}}}\mathbf{\dot{ \textit{e}}}\mathbf{\dot{\textit{f}}}\) & \(\theta_{{}_{\textit{MKT}}}\) & \(\overline{F}\) & \(\theta_{{}_{\textit{SMB}}}\) & \(\overline{F}\) & \(\theta_{{}_{\textit{HML}}}\) \\ \hline
+61-70 & 38* & (-437,-55) & 33* & (-17,14) & 53* & (-46,41) \\ \hline
+71-80 & 30 & \(\O\) & 43 & \(\O\) & 33 & \(\O\) \\ \hline
+81-90 & 44* & -\(\infty\),-194) U & -16 & R & 56* & -\(\infty\),-115) U (611,\(\infty\) \\ \hline
+91-00 & 103 & \(\O\) & 4 & \(\O\) & 29 & \(\O\) \\ \hline
+00-10 & 14 & (-79,245) & 57* & (-146,3) & 40 & (-41,178) \\ \hline \end{tabular}
+
+Note : Ce tableau \(\mathbf{\ddot{F}}\) l moyenne de chaque facteur du modele \(\mathbf{\dot{\textit{d}}}\mathbf{\dot{\textit{e}}}\mathbf{\dot{\textit{v}}}\mathbf{ \dot{\textit{a}}}\mathbf{\dot{\textit{t}}}\)s pour l'ensemble de l'economie americaine ainsi que l'ensemble de confiance obtenu par l'inversion de la statistique de Hotelling. Les donnees incluent 12 portefeuilles industrie pour le vecteur de variables endogenes ainsi que les facteurs de i) marche, ii) taille, iii) valeur au livre sur valeur de marche, toutes tires du site de Kenneth French allant de 1961 a 2010. Voir Beaulieu, Dufour et Khalaf (2017) pour l'ensemble des details concernant les donnees. Les prix du risque significatifs a un seuil de 5 % sont représentes par un asterisque.
+
+ensembles de confiance sont fermes. Les facteurs apparaissent tous significativement differents de 0 puisque la moyenne de chacun de ces facteurs n'est pas incluse dans leur ensemble de confiance respectif. Le modele est rejete pendant la sous-periode suivante et celle de 1991 a 2000, les resultats montrant qu'aucune valeur de 0 n'est compatible avec l'hypothese nulle. Finalement, la sous-periode 2000 a 2010 revele des ensembles de confiance bornes mais recouvrant la moyenne du facteur dans 2 cas sur 3, montrant peu de pouvoir explicatif pour ces 2 facteurs.
+
+Au tableau 2, lorsque le rendement zero-beta peut differeer des deux cotes de l'equation comme a l'equation (12), l'evidence en faveur du facteur de marche est tres forte sur toutes les sous-periodes sauf la derniere montrant que les facteurs de taille et de valeur n'ont pas de pouvoir explicatif. Cette evidence ouvre la porte a une autre vision du modele du CAPM qui serait plus performant lorsque l'on permet aux rendements endogenes et au facteur negocie en bourse d'etre mesures en excedant de quantites qui peuvent differeer empiriquement.
+
+TABLEAU 2
+
+Economie americaine
+
+Intervalles de confiance du prix du Risque des trois facteurs de Fama-French
+
+\begin{tabular}{l|c|c|c|c|c} \hline \hline  & \(0=(\gamma_{0},\gamma^{\prime}_{F})\)’ = (\(\theta_{MKT}\), \(\theta_{SMB}\), \(\theta_{HML}\))’ & \(\gamma_{c}\) different de \(\gamma_{0}\) \\ \hline  & \(MKT\) & \(SMB\) & \(HML\) \\ \hline
+**Periode P** & \(\bar{F}\) & \(\theta_{MKT}\) & \(\bar{F}\) & \(\theta_{SMB}\) & \(\bar{F}\) & \(\theta_{HML}\) \\ \hline
+61-70 & 38* & (-642,-14) & 33 & (-11,83) & 53 & (-64,74) \\ \hline
+71-80 & 30* & (-621,-54) & 43 & (-26,158) & 33 & (-137,160) \\ \hline
+81-90 & 44* & -\(\infty\),-198) U (807,\(\infty\) & -16 & R & 56 & R \\ \hline
+91-00 & 103* & -\(\infty\),-432) U (3087,\(\infty\) & 4* & -\(\infty\),-1499) U (97,\(\infty\) & 29 & -\(\infty\),-281) U (-24,\(\infty\) \\ \hline
+00-10 & 14 & (-100,1226) & 57 & (-1089,66) & 40 & (-137,192) \\ \hline \end{tabular}
+
+Note : Ce tableau présente \(\bar{F}\) la moyenne de chaque facteur du modèle d'evaluation d'actifs pour l'ensemble de l'economie americaine ainsi que l'intervalle de confiance obtenu par l'inversion de la statistique de Hotelling dans le cas ou les rendements du portefuille de marche et des rendements endogenes ne sont pas pour la même mesure excédentaire. Les données inculent 12 portefuille industrie pour le vecteur de variables endogenes ainsi que les facteurs de i) marché, ii) taille, iii) valeur au livre sur valeur de marche, toutes tires du site de Kenneth French allant de 1961 a 2010. Voir Beaulieu, Dufour et Khalaf (2017) pour l'ensemble des details concernant les données. Les prix du risque significatifs a un seuil de 5 % sont représentés par un asterisque.
+
+### Obligations catastrophe
+
+Les resultats de cette section sont tires de l'article de Beaulieu, Khalaf et Melin (2017) qui traite de l'analyse empirique des obligations catastrophe. De par leur nature, ces obligations devraient etre des actifs a zero-beta, c'est-a-dire que ces obligations ne devraient pas avoir un prix du risque significativement different de zero pour n'importe quel facteur de risque donne (Cummins et Weiss, 2009). Si ces actifs sont effectivement a zero-beta, ils presentent donc un potentiel de diversification important pour les investisseurs.
+
+Dans ce contexte, le modele contraint estime dans sa forme la plus large est le suivant :
+
+\[\tau_{i}-\tau_{T}\gamma_{0}=\left(R_{m}-\gamma_{0}\right)b_{i1}+\left(R_{m}^{2 }-\tau_{T}\gamma_{1}\right)b_{iF}+u_{i}. \tag{13}\]
+
+Un facteur de risque correspondant au rendement du portefeuille de marche est un facteur qui capture l'asymetrie du rendement du marche, tel que developpe dans le modele de Kraus et Litzenberger (1976). Il sagit de determiner ici si le prix du risque du portefeuille de marche et du facteur d'asymetrie recoupent leur moyenne echantilonne afin de convenir s'il sagit de facteurs importants a travers differents fonds mutuels d'obligations catastrophe. Notez que Cummins et Weiss (2009) testent la meme hypothese pour une periode echantillonnee differente et avec un test valide seulement asymptotiquement sans controle pour les problemes d'identification potentiels.
+
+Les rendements quotiiens des fonds mutuels d'obligations catastrophe sont evalues entre novembre 2004 et aout 2014 et sont extraits de Bloomberg. Le facteur de marche provient du site de Kenneth French. Les details sur les donnees sont fournis dans Beaulieu, Khalaf et Melin (2017).
+
+Empiriquement, nous considerons l'ensemble de la periode echantillonnee disponible allant de novembre 2004 a aout 2014 mais aussi trois sous-periodes couvrant les mois precedant, pendant et suivant la recession associee a la crise financiere de 2008, soit une premiere sous-periodic (sous-periode 1) allant de novembre 2004 a novembre 2007, une seconde sous-periode (sous-periodic 2) allant de decembre 2007 amai 2009 et une derniere sous-periodic (sous-periodic 3) allant de juin 2009 a aout 2014.
+
+Les resultats presentes au tableau 3 montrent que sur l'ensemble de la periode echantillonnee, le facteur de marche (_MKT_) n'est pas identifie mais que le facteur d'asymetrie est statistiquement important et relativement bien identifie. Cela peut apparaitre surprenant dans la mesure ou ces actifs presentent en principe un prix du risque nul pour tout facteur. Aussi, l'evidence en sous-periode est-elle importante pour mieux corner les explications a ce resultat. Dans un premier temps, les resultats sur le prix du risque de la premiere sous-periode montrent que le modele estime est clairement rejete par les donnees. En fait, aucune valeur du prix du risque du facteur de marche ou du facteur d'asymetrie n'est compatible avec les donnees. Ceci est bien conforme a nos attentes puisque les obligations catastrophe sont en principe insensibles a tout facteur de risque. Pendant la seconde sous-periodic, soit au plus fort de la crisefinanciere de 2008, les deux prix du risque sont identifies et statistiquement importants pour expliquer les rendements des obligations catastrophe. Pendant la troisieme sous-periode, le prix du risque du facteur de marche n'est pas identifie alors que c'est le cas pour le facteur d'asymetrie qui est par ailleurs statistiquement significatif. Cette evidence suggere qu'en periode d'acalmie, les obligations catastrophe sont effectivement insensibles aux facteurs de risque usuels mais qu'en periode de crise, elles ne comportent pas la diversification attendue par les detenteurs de ces obligations.
+
+### Economie internationale
+
+Dans cette derniere partie, je discute une partie des resultats de Beaulieu, Gagnon et Khalaf (2016) afin de montrer comment, dans un contexte international, le nombre de facteurs domestiques et globaux peuvent exacerber les problemesd'identification puisque dans une economie partiellement integree, on devra tenir compte de la double nature (domestique et internationale) des facteurs du modele d'evaluation d'actifs.
+
+Dans ce contexte, le modele international, integrrant des facteurs globaux et domestiques definis par leur prix du risque sont les suivants :
+
+\(\theta^{fG\ ou\ ID\bot}\)
+
+ou \(f\) represente le facteur qui peut etre \(MKT\) pour le facteur de marche, \(SMB\) pour le facteur de taile, \(HML\) pour le facteur de valeur ou \(MOM\) pour le facteur de \(momentum\);
+
+\(G\) _ou fD\(\bot\)_ representent soit la version globale du facteur ou encore la version domesticque orthogonalisee au facteur global dans une etape anterieure (voir Beaulieu, Gagnon et Khalaf, 2016 pour plus de details sur l'orthogonalisation).
+
+Le modele dans ce contexte est defini comme suit :
+
+\[\begin{split} r_{it}-r_{it}=&-\theta^{MKTG}\beta_{i}^{ MKTG}-\theta^{MKTD\bot}\beta_{i}^{MKTD\bot}-\theta^{SMBG}\beta_{i}^{SMBG}\\ &-\theta^{SMBD\bot}\beta_{i}^{SMBD\bot}-\theta^{HMLG}\beta_{i}^{ HMLG}-\theta^{HMLD\bot}\beta_{i}^{HMLD\bot}\\ &-\theta^{MOMO}\beta_{i}^{MOMO}-\theta^{MOMD\bot}\beta_{i}^{MOMD \bot}+\beta_{i}^{MKTG}r_{MKTG}\\ &+\beta_{i}^{MKTD\bot}r_{MKTD\bot}+\beta_{i}^{SMBG}r_{SMBG}+\beta _{i}^{SHBD\bot}r_{SMBD\bot}\\ &+\beta_{i}^{HMLG}r_{HMLG}+\beta_{i}^{HMLD\bot}r_{HMLD\bot}+\beta _{i}^{MOMG}r_{MOMG}\\ &+\beta_{i}^{MOMD\bot}r_{MOMD\bot}+e_{it}.\end{split} \tag{14}\]
+
+Lanalyse empirique utilise un echantillon allant de 1987 a 2011 pour les modeles internationaux. Les portefeuilles analyses sont les rendements de tous les titres canadiens listes en bourse sur la meme periode et les facteurs globaux, incluant le rendement du portefeuille de marche (\(MKT\)), le facteur de taile (\(SMB\)), le facteur du ratio valeur au livre sur valeur de marche (\(HML\)) et le facteur de \(momentum\) (\(MOM\)) sont tires du site de Kenneth French. Les facteurs domestiques qui pour notre exemple sont canadiens, sont construits suivant la meme demarche que Fama et French (1993) avec des donnees extraites de Worldscope. Le rendement des facteurs domestiques est orthogonalise avec son homologue global suivant la demarche decrite dans Beaulieu, Gagnon et Khalaf (2016).
+
+Les resultats presentes au tableau 4 nous aident a apprecier l'impact d'un grand nombre de facteurs en termes d'identification d'un modele. En fait, l'evidence presentee montre que la presence de facteurs a la fois domestiques et globaux, meme lorsque le modele estime ne compte que deux facteurs, n'est pas identifie. Notre approche permet donc de mettre en valeur ces problemes dans un contexte d'evaluation d'actifs mais comporte egalement des implications pour la finance internationale, suivant que plusieurs modeles comportent dans leur forme la plus large la presence de facteurs globaux et domestiques. La litterature n'a pas clairementstatue sur le fait que les economies sont completement integrees et que seuls des facteurs globaux sont importants pour l'evaluation d'actifs dans un contexte international. Nous avons donc toujours besoin de modeles nous permettant d'estimer le prix du risque des facteurs domestiques ou globaux et de calculer sur cette base le cout du capital. L'evidence presentee ici nous suggere d'etre prudents lorsqu'il s'agit de l'interpretation des intervalles de confiance classiques dans un contexte d'evaluation d'actifs a l'international.
+
+Conclusion
+
+Cet article nous a permis de mettre en valeur un cadre d'application large de la statistique Hotelling inversee, sachant que cette statistique est robuste aux problemes d'identification et valide en echantillons finis. Par ailleurs, son utilisation ne requiert aucune maximisation numerique et inclut une verification imbriquee dans la methode pour l'identification faible et la qualite de la specification. Finalement, et pour l'objet de notre propos, cette statistique permet d'obtenir de l'information quant a l'identification des facteurs utilises pour mesurer le prix du risque. Finalement cette statistique nous permet egalement de detecter les facteurs inutiles.
+
+De facon plus generale, nos resultats mettent en valeur le fait que les differents facteurs inclus dans nos modeles d'evaluation d'actifs sont importants, mais menent souvent a des modeles non identifi es dans des modeles lineaires additifs, meme lorsque les modeles comptent seulement deux facteurs.
+
+Le cas de l'economie americaine nous a permis de montrer qu'une forme moins stricte du modele du CAPM serait bien identifiee et permettrait au portefeuille de marche d'etre important statistiquement. Il s'agit d'un apport interessant puisque les facteurs de taille et de valeur perdent leur significativite dans le contexte de ce modele plus large. Et ce peu importe la sous-periode etudiee.
+
+Les modeles d'evaluation appliques aux obligations catastrophe montrent que des problemes d'identification surissent lorsque les marches financiers sont en crise, comme c'etait le cas en 2008 et que depuis lors, le prix du risque d'un facteur d'asymetrie est statistiquement significatif reduisant de facon importante le potentiel de diversification des obligations catastrophe.
+
+Finalement, le cadre des modeles d'evaluation d'actifs dans un contexte international remet en question l'utilisation de modeles a plusieurs facteurs puisque dans ce cadre, les modeles etudies apparaissent tres mal identifi es, ce qui souleve la question de comment tester des hypotheses relatives a l'integration des marches financiers qui sont d'ordinaire prises en compte avec des facteurs globaux et domestiques.
+
+Dans l'ensemble, l'evidence empirique presentee dans cet article montre que la statistique de Hotelling inversee, tel que developee et implementee par Beaulieu, Dufour et Khalaf (2013 et 2017) est un outil pertinent et interessant quand un chercheur doit decider des facteurs a inclure dans un modele. La significativite de ceux-ci n'est plus le seul critere. Il faut egalement s'assurer que le prix du risque de ces facteurs soit bien identifie.
+
+Bien que plusieurs alternatives aient ete investiguees par Beaulieu, Dufour et Khalaf (2017), soit : i) les composantes principales; ii) des tests conditionnels; iii) l'empilement des portefeuilles du cote gauche de l'equation, aucune de ces approches ne nous permet d'en arriver a des modeles mieux identifies ou mieux specifies que ceux dont j'ai discute ici. Ce qui m'apparait important de souligner est que le portefeuille de marche est un facteur informatif mais que dans l'ensemble de nos resultats ce n'est pas le cas du facteur representant le ratio de la valeur au livre avec la valeur au marche, non plus que le facteur de _momentum_. Il demeure que dans le contexte des modeles presentant plusieurs facteurs non identifi es, l'approche presentee ici ne permet pas de discrimininer a travers ces facteurs. La question qui se pose si les facteurs ne sont pas bien identifies mais qu'ils sont cependant pertinents, est comment reorganiser l'information qu'ils contiennent afin d'obtenir, ultimement, des intervalles de confiance pour le prix du risque qui nous permettront de prendre des decisions d'investissement et de financement eclairees.
+
+## Bibliographie
+
+* Beaulieu, M.-C., J.-M. Dufour et L. Khalaf (2007), << Multivariate Tests of Mean-variance Efficiency with Possibly Non-Gaussian Errors : An Exact Simulation-based Approach >>, _Journal of Business and Economic Statistics,_ 25 : 398-410.
+* Beaulieu, M.-C., J.-M. Dufour et L. Khalaf (2013), << Identification-robust Estimation and Testing of the Zero-beta CAPM >>, _The Review of Economics Studies,_ 80 : 892-924.
+* Beaulieu, M.-C., J.-M. Dufour et L. Khalaf (2017), << Weak Beta, Strong Beta: Multi-factor Pricing and Rank Restriction >>, Document de travail.
+* Beaulieu, M.-C., J.-M. Dufour et L. Khalaf (2016), << Less is More: Testing Financial Integration Using Identification-robust Asset Pricing Models >>, _Journal of International Financial Markets, Institutions & Money_, 45 : 171-190.
+* Beaulieu, M.-C., L. Khalaf et O. Melin (2017), << Do Catastrophe Bond Mutual Funds Constitute Zero-beta Investments? : Identification-robust Evidence >>, Document de travail.
+* Black, F. (1972), << Capital Market Equilibrium with Restricted Borrowing >>, _The Journal of Business,_ 45 : 444-455.
+* Black, F., M. C. Jensen et M. S. Scholes (1972), << The Capital Asset Pricing Model: Some Empirical Tests >>, _in_Jensen, M. C., _Studies in the Theory of Capital Markets_, p. 79-121.
+* Blume, M. E. et I. Friend (1973), << A New Look at the Capital Asset Pricing Model >>, _The Journal of Finance,_ 28 : 19-34.
+* Campbell, R. H., Y. Liu et H. Zhu (2016), <<...and the Cross-section of Expected Returns >>, _The Review of Financial Studies,_ 29 : 5-68.
+* Chen, N.-F., R. Roll et S. A. Ross (1986), << Economic Forces and the Stock Market >>, _The Journal of Business,_ 59 : 383-403.
+
+* [15]Cummins, J. D. et M. A. Weiss 2009), << Convergence of Insurance and Financial Markets: Hybrids and Securitized Risk-transfer Solutions >>, _Journal of Risk and Insurance_, 76 : 493-545.
+* [16]Dufour, J.-M. (1997), << Some Impossibility Theorems in Econometrics, with Applications to Structural and Dynamic Models >>, _Econometrica_, 65 : 1365-1389.
+* [17]Dufour, J.-M. et C. Hsiao (2008), << Identification >>, _The New Palgrave Dictionary of Economics_, 2e edition.
+* [18]Fama, E. F. et K. R. French (1992), << The Cross-section of Expected Stock Returns >>, _Journal of Finance_, 47 : 427-465.
+* [19]Fama, E. F. et K. R. French (1993), << Common Risk Factors in the Returns on Stocks and Bonds >>, _Journal of Financial Economics_, 33 : 3-56.
+* [20]Fama, E. F. et J. D. MacBeth (1973), << Risk, Return, and Equilibrium: Empirical Tests >>, _The Journal of Political Economy_, 81 : 607-636.
+* [21]Gibbons, M. R. (1982), << Multivariate Tests of Financial Models >>, _Journal of Financial Economics,_ 10 : 3-27.
+* [22]Gibbons, M. R., S. A. Rosset et J. Shanken (1989), << A Test of the Efficiency of a Given Portfolio >>, _Econometrica_, 57 : 1121-1152.
+* [23]Gollier, C. (2016), << Valorisation des investissements ultra-longs et developpement durable >>, _L'Actualite economique_, 92 : 667-701.
+* [24]Gospodinov, N., R. Kanet et C. Robotti (2013), << Misspecification-robust Inference in Linear Asset Pricing Models with Irrelevant Risk Factors >>, Federal Reserve Bank of St-Louis, Working paper no 1698076877.
+* [25]Jensen, M. C. (1968), << The Performance of Mutual Funds in the Period 1945-1964 >>, _The Journal of Finance,_ 23 : 389-416.
+* [26]Kan, R., C. Robotti et J. Shanken (2013), << Pricing Model Performance and the Two-pass Cross-sectional Regression Methodology >>, _The Journal of Finance_, 68 : 2617-2649.
+* [27]Khalaf, L. et H. Schaller (2016), << Identification and Inference in Two-pass Asset Pricing Models >>, _Journal of Economic Dynamic and Control,_ 70 : 165-177.
+* [28]Kleibergen, F. et Z. Zhan (2015), << Unexplained Factors and their Effects on Second Pass R-squared's >>, _Journal of Econometrics,_ 1 : 101-116.
+* [29]Kraus, A. et R. H. Litzenberger (1976), << Skewness Preference and the Valuation of Risk Assets >>, _The Journal of Finance,_ 31 : 1085-1100.
+* [30]Lewellen, J., Nagel, S. et J. Shanken (2010), << A Skeptical Appraisal of Asset-pricing Tests >>, _Journal of Financial Economics,_ 92 : 175-194.
+* [31]Lintner, J. (1965), << The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets >>, _The Review of Economics and Statistics,_ 47 : 13-37.
+* [32]MacKinlay, A. C. (1985), << On Multivariate Tests of the CAPM >>, _Journal of Financial Economics,_ 18 : 341-371.
+* [33]Merton, R. (1973), << An intertemporal Capital Asset Pricing Model >>, _Econometrica_, 41 : 867-887.
+* [34]* []Mossin, J. (1966), << Equilibrium in a Capital Asset Market >>, _Econometrica_, 34 : 768-783.
+* []Pastor, L. et R. F. Stambaugh (2003), << Liquidity Risk and Expected Stock Returns >>, _The Journal of Political Economy,_ 111 : 642-685.
+* []Shanken, J. et G. Zhou (2007), << Estimating and Testing Beta Pricing Models: Alternative Methods and their Performance in Simulations >>, _Journal of Financial Economics_, 84 : 40-86.
+* []Sharpe, W. F. (1964), << Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk >>, _The Journal of Finance_, 19 : 425-442.
+* []Ross, S. A. (1976), << The Arbitrage Theory of Capital Asset Pricing >>, _Journal of Economic Theory_, 13 : 341-360.
+* []Treynor, J. L. (1961), << Market Value, Time, and Risk >>, Document de travail.
+* []Treynor, J. L. (1962), << Toward a Theory of Market Value of Risky Assets >>, Document de travail. 
+
+

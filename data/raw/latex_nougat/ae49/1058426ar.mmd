@@ -1,0 +1,675 @@
+# Reforme Fiscale : Quel Role pour les Modeles d'equilibre general calculable?
+
+Andre LEMELIN
+
+_Centre Urbanisation Culture et Societe INRS_
+
+andre.lemelin@ucs.inrs.ca
+
+Luc SAVARD
+
+_GREDI_
+
+_Departement d'economie Universite de Sherbrooke_
+
+luc.savard@usherbrooke.ca
+
+Dans cet article, nous presentons les deux outils les plus utilises pour analyser l'impact de reiformes fiscales a savoir le cout marginal des fonds publics (CMFP) en equilibre partiel et les modeles d'equilibre general calculable (MEGC). Nous nous attardons ensuite aux MEGC et nous discutons leurs forces et faiblesses comme outils d'analyse economique. Puis, nous examinons quels comportements d'agents economiques sont principalement affectes par des reformes fiscales et comment ils peuvent etre pris en compte dans les MEGC. Finalement, nous passons en revue un echantillon d'applications de modeles EGC appliques a l'evaluation de l'impact de reformes fiscales sur l'efficacite et l'equite. Nous concluons avec quelques remarques sur la pertinence de la litterature quant aux politiques et nous formulons des recommandations sur la facon d'utiliser les modeles EGC pour apporter une contribution valide aux debats autour de reformes fiscales.
+
+###### Abstract
+
+In this paper, we present two of the methods most frequently used to analyze the impact of fiscal reform: the partial-equilibrium marginal cost of public funds (MCPF) approach, and computable general equilibrium (CGE) modelling. We then focus on CGE models, discussing their strengths and weaknesses as tools for economic analysis. Next we examine which behaviors of economic agents are mainly affected by fiscal reforms, and how these can be handled in CGE models. Finally, we review a sample of CGE models applied to the evaluation of impacts on efficiency and equity. We conclude with remarks on the policy-relevance of the literature, and recommendations on how to use CGE models to make a valid contribution to debates around fiscal reform.
+
+## Introduction
+
+La Commission d'examen sur la fiscalite quebecoise (CEFQ) a ete annoncee par le premier ministre dans son discours d'ouverture de la 41\({}^{\text{\text{\textdegree}}}\) legislature du Quebec et elle a ete lancee en juin 2014. Sous la direction de Luc Godbout, la Commission avait pour mission de << reflechir a une reforme devant rendre la fiscalite quebecoise plus competitive, plus efficace et plus equitable. Les buts poursuivis etaient de mieux inciter au travail, de mieux encouragement l'epargne, de mieux stimuler l'investigsement ainsi que de mieux favoriser la croissance economique et l'augmentation du niveau de vie >>1, tout en tenant compte des imperatifs politiques du retour a l'equilibre budgetaire. La commission a depose son rapport huit mois plus tard, en mars 2015. Resume trop sommairement, le rapport recommandait une reduction de l'impot sur le revenu des particuliers et des societes ainsi que de la taxe sur la masse salariale, compensee par une diminution des depenses fiscales et une hausse des taxes a la consommation et de la tarification, dont les effets redistributifs defavorables seraient temperes par des mesures d'accompagnement pour proteger les plus demunis. Lors de la mise a jour economique et financiere de l'automme 2015, le ministre des Finances du Quebec a confirme qu'il reportait les reformes proposees a une date indeterminee. La deliberation politique sur une reforme de la fiscalite est donc suspendue pour un certain temps et le moment est opportun pour s'interroger sur la facon de mener ces discussions.
+
+Le tres large mandat de la CEFQ couvrait rien de moins que l'ensemble des questions soulevees dans les ecrits sur la taxation optimale. C'est Mirrlees (1971)2 qui a lance le debat moderne sur la fiscalite en posant le dilemme efficacite-egalite : dans le but de redistribuer le revenu de maniere plus egalitaire, un systeme d'impot progressif sur le revenu du travail taxe plus lourdement a la marge les travailleurs les mieux remuneres; or si le taux de remuneration reflete la productivite (le talent, la contribution sociale), un impot progressif aura pour effet de reduire davantage l'effort (l'offre de travail) des plus talentueux, privant ainsi la societe d'une partie de leur apport. Mankiw, Wienzierl et Yagan (2009) enoncent huit << lecons >> qui, selon eux, ressortent des dernieres decennies de recherche sur la theorie de la taxation optimale; lis examinent aussi comment chacune de ces lecons trouve son application dans les politiques fiscales actuellement en vigueur. Leur conclusion generale est qu'a certains egards les pratiques fiscales tendent a se rapprocher des prescriptions de la theorie, avec l'objectif de minimiser les distorsions. Ainsi le revenu du capital est moins taxe et les taux d'imposition des plus hauts revenus diminuent tandis que la progressivite de l'impot sur le revenu se tempere. Les taxes sur les produits du type taxes a la valeur ajoutee (TVA), concues pour s'appliquer aux biens finaux et non aux biens intermediaires, sont de plus en plus repandues au sein de l'OCDE; leurs taux tendent a augmenter et elles representent une part croissante des recettes fiscales (a l'exception notoire des Etats-Unis d'Amerique). Par contre, certainesprescriptions plus contre-intuitives ne semblent pas pres d'etre appliquees, sans doute, selon Mankiw, Wienzierl et Yagan (2009) parce que la theorie de la taxation optimale est centree sur la notion d'efficacite economique, alors que d'autres principes sont pris en compte dans une vision plus large des finances publiques.
+
+Johansson _et al._ (2008) est exemplaire de l'orientation decrite par Mankiw, Wienzierl et Yagan (2009) : en vue d'avoir l'effet negatif le plus faible possible sur la croissance et ses determinants, la structure d'imposition devrait avoir un impact minimal sur les decisions de travail, d'epargne et investissement en capital humain des menages, ainsi que sur les decisions d'investigsement des entreprises dans les capacites de production et l'innovation, tout en evitant d'encourager l'evasion fiscale et l'evitement fiscal. Keen et Lockwood (2010) documentent l'importance croissante des taxes a la valeur ajoutee (TVA), non seulement dans les pays developpes, mais aussi bien dans les pays a plus faible revenu _per capita_. Certains (Ballard _et al._, 1985; Auerbach, 2006) attribuent ces tendances a l'influence du Meade Committee Report (Meade, 1978) en Grande Bretagne et des _Blueprints for Basic Tax Reform_ (U.S. Department of the Treasury, 1977) aux Etats-Unis3. Le Canada et le Quebec n'echappent pas a la tendance generale4 et la proposition principale de la CEFQ s'inscrit dans le meme mouvement.
+
+Footnote 3: Comme le soulignant Ballard _et al._ (1985), l’idée de taxer la consommation plutô que le revenu remonte même plus tôt à Fisher (1942) et Kaldor (1957).
+
+Entre la theorie et la pratique, le processus de decision politique passe par l'evaluation des impacts des reformes envisagees. Ainsi, dans le court d' elai qui lui etait imparti, la Commission a deploye des efforts considerables pour renforcer les fondements theoriques de ses recommandations a l'aide d'analyses factuelles et d'etudes empiriques. Elle a notamment eu recours au modele d'equilibre general calculable du ministere des Finances du Quebec (MEGFQ)5.
+
+Dans cet article, nous adoptons le point de vue methodologique. De quels outils disposent les economistes pour evaluer l'impact d'une reforme fiscale? Plus precisement, nous nous penchons sur deux approches : les etudes sur le cout marginal des fonds publics (CMFP) et les modeles d'equilibre general calculable (MEGC), auxquels nous nous attarderons davantage. La section suivante presente le concept de cout marginal des fonds publics, tel qu'il est utilise en relation avec l'elasticite de l'assiette fiscale par rapport au taux d'imposition. Ensuite, nous decrirons en termes generaux en quoi consiste la modelisation en equilibre general et quelles sont ses forces et ses faiblesses (section 2). Puis, nous passerons en revue de facon plus specifique les principaux enjeux d'une analyse de reforme fiscale au moyen d'un MEGC (section 3). Enfin, nous examinerons de maniere un peu plus detaillee quelques exemples de MEGC applique s a l'etude de la fiscalite.
+
+## 1 Le cout marginal des fonds publics
+
+L'expression << cout marginal des fonds publics >> designe une approche que Dahlby et Ferede (2011) presentent comme derivee de la courbe de Laffer. Il s'agit essentiellement d'un modele de forme reduite ou les recettes d'une taxe sont le produit du taux de la taxe par le montant de l'assiette fiscale. Puisque la taille de l'assiette fiscale n'est pas independante du taux de la taxe, a cause du comportement adaptatif d'evitement, il tombe sous le sens qu'a partir d'un certain taux, << la taxe que la taxe >>. La courbe de Laffer represente ce phenomene sous la forme d'une courbe en forme de << U >> inverse representant les recettes en fonction du taux de la taxe. Fullerton (2008) critique severement ce modele, principalement en reference a son application a l'impot sur le revenu de travail. D'abord, la forme de la courbe est determinee par l'elasticite de l'assiette fiscale, qui, selon Fullerton (2008), est difficile sinon impossible a etablir lorsque les agents sont heterogenes6. De plus, les systemes fiscaux sont complexes et il est quasi impossible de determiner << le >> taux, surtout s'agissant d'un impot sur le revenu, _a fortiori_ dans un regime d'imposition progressive7. Fullerton (2008) mentionne aussi que l'impact d'une variation des taux qui modifierait la progressivite de l'impot depend non seulement de l'elasticite par rapport au revenu marginal net (taux de salaire net, par exemple), mais aussi de l'elasticite par rapport au revenu total. Enfin, aux yeux de Fullerton (2008), la courbe de Laffer elle-meme est mal definie, puisqu'elle depend de ce que fait l'Etat avec les recettes et de la maniere dont ces depenses publiques sont prises en compte dans la fonction d'utilite des contribuables.
+
+Footnote 6: \(\quad\) Dans le contexte classique ou l’on examine l’effet d’un impot sur le revenu de travail, le paramètre critique est l’elasticité de l’offre de travail, qui peut varier considérablement d’un travailleur à l’autre.
+
+Footnote 7: \(\quad\) En pratique, la plupart des études empiriques utilisent le taux marginal de la tranche d’imposition la plus élevee, de sorte qu’elles ne disent rien des effets d’une modification des autres parametres du régime fiscal.
+
+Neanmoins, depuis le moment mythique en 1974 ou Arthur Laffer a trace sa fameuse courbe sur une serviette de papier dans un restaurant de Washington, il s'est developpe une abondante litterature sur les aspects theoriques et empiriques de l'elasticite des recettes fiscales par rapport au taux d'imposition (Feldstein, 1999; Creedy, 2009; Saez, Slemrod et Giertz, 2012). Reduit a sa plus simple expression - ce qui ne rend evidemment pas totalement justice aux auteurs mentionnes - le modele sur lequel s'appuient ces travaux peut se resumer a ce qui suit.
+
+Le consommateur contribuable maximise son utilite \(U(c,l)\), qui depend positivement de sa consommation \(c\) et negativement de son offre de travail \(l:\partial U/\partial c>0\), \(\partial^{2}U/\partial c^{2}<0\) et \(\partial U/\partial l<0\), \(\partial^{2}U/\partial l^{2}<0\). Sa contrainte budgetaire est donnee par \(c=(1-\tau)wl\), ou le prix de la consommation est normalise a 1, le taux de salaire est egal a \(w\) et le taux d'imposition du revenu de travail est de \(\tau\). A l'equilibre, \(\big{(}\partial U/\partial l\big{)}/\big{(}\partial U/\partial c\big{)}=-(1- \tau)w\). La differentielle de la fonction d'utilite est donnee par \(dU=\big{(}\partial U/\partial c\big{)}dc+\big{(}\partial U/\partial l\big{)}dl\); etant donne la condition d'equilibre, on a la relation de proportionnalite\[dU\propto dc-(1-\tau)\,wdl. \tag{1}\]
+
+On voit d'emblee par la condition d'equilibre qu'une augmentation du taux \(\tau\) reduit le taux de salaire net et incite le contribuable a travailler moins et a consommer moins, dans le respect de sa contrainte budgetaire. Considerons la differentielle de cette contrainte : \(dc=(1-\tau)\,wdl-wld\tau\), c'est-a-dire \(dc-(1-\tau)\,wdl=-wld\tau\). On substitue dans (1) et on obtient
+
+\[dU\propto dc-(1-\tau)\,wdl=-wld\tau. \tag{2}\]
+
+Lorsqu'on agrege tous les contribuables, l'assiette fiscale \(B\) est donnee par \(B=\sum wl\) et la consommation agregee \(C\) est \(C=\sum c\), de sorte que la contrainte budgetaire agregee s'ecrit
+
+\[dC=(1-\tau)\,dB-Bd\tau. \tag{3}\]
+
+et on peut interpreter \(dC-(1-\tau)\,dB=-Bd\tau\) comme une mesure monetaire de la variation du bien-etre (proportionnelle a\(\sum dU\)). Si l'on acceptive cette metrique, et advenant que la perte marginale de bien-etre soit egale a l'accroissement marginal des recettes publiques, il n'y aurait pas de perte nette. Mais tel n'est pas le cas : les recettes fiscales \(R\) sont egales a \(R=\tau\,B\), dont la differentielle est \(dR=d\left(\tau B\right)=Bd\tau+\tau dB\). Le premier terme de la differentielle est l'effet mecanique de la variation du taux d'imposition, egal en valeur absolue a la mesure de la perte de bien-etre; le second est l'effet du comportement adaptatif des contribuables. Puisque \(dB<0\), \(dR=Bd\tau+\tau dB<Bd\tau\): la variation marginale des recettes fiscales est inferieure a la valeur absolue de la perte de bien-etre \(Bd\tau\), qui est egale a l'accroissement marginal des recettes fiscales **sans** changement adaptatif de comportement. Tel est le raisonnement qui amene a definir le rapport \(\tau dB/\left(Bd\tau+\tau dB\right)\) comme le cout marginal d'eficience des fonds publics, ou le fardeau excedentaire marginal de l'impot (Saez, Slemrod et Giertz, 2012 : 8), une idee reprise par Dahlby et Ferede (2012).
+
+Dahlby et Ferede (2012) appliquent une version de ce modele qui est quelque peu elargie pour tenir compte d'interactions possibles entre les assiettes de differentes taxes. Il s'etudient le cout marginal des fonds publics dans les provinces canadiennes, selon qu'ils sont leves au moyen de l'impot sur le revenu des particuliers, de l'impot sur les societes ou de la taxe de vente, tout en essayant de prendre en compte les effets du taux de chaque type de taxe sur l'assiette des deux autres. Plus precisement, ils estiment econometriquement un modele de la forme
+
+\[\ln B_{j,g,t}=\alpha_{0,j}+\lambda_{j}\,\ln B_{j,g,t-1}+\eta_{j,\tau}\tau_{c, g,t}+\eta_{j,p}\tau_{p,g,t}+\eta_{j,s}\tau_{s,g,t}+X \tag{4}\]
+
+ou\(j\in\{c,p,s\}\) et l'indice \(c\) designe l'impot sur le revenu des societes, \(p\) l'impot sur le revenu des particuliers et \(s\) la taxe de vente, et \(\ln B_{j,g,t}\) est le logarithme de l'assiette fiscale \(j\) dans la province \(g\) pour l'annee \(t\); \(\tau_{j,g,t}\) est le taux de la taxe correspondante; \(X\) constitue le vecteur des variables de controle; \(\mu_{g}\) et \(\theta_{t}\) representent les effets fixes; et \(u_{j,t}\) est le terme aleatoire.
+
+Les auteurs interpretent les coefficients \(\eta_{j,h}\) comme la semi-elasticite de court terme de l'assiette fiscale \(j\) par rapport au taux de la taxe \(h\). Les parametres du modele sont estimes selon la methode des variables instrumentales, sur des donnees agreees par province et par annee : 10 provinces \(\times\) 35 ans (1972-2006). Les auteurs calculent ensuite des semi-elasticites de long terme en exploitant la presence de la variable retardee dans le modele econometrique (4). A partir d'un etat stationnaire, sous l'effet d'une augmentation permanente d'un taux \(\tau\), la semi-elasticite de l'assiette fiscale par rapport au taux d'imposition evolue de periode en periode et s'approche asymptotiquement de sa valeur de long terme; l'assiette fiscale s'erode donc progressivement. Les auteurs calculent un cout marginal \(\times\) dynamique \(\times\) des fonds publcs en prenant la valeur presente du flux croissant du \(\tau dB\) interprete comme le fardeau excedentaire, sur la valeur presente du supplement de recettes fiscales, pour chacune des trois taxes considerees.
+
+Wen, Dahlby et Ferede (2014), dans leur etude realisee pour la CEFQ, reprennent la meme approche, qu'ils completent avec une analyse descriptive des distorsions possibles dues a l'imposition des revenus du capital et du travail. Ils ont recours pour ce faire au concept de taux effectif marginal d'imposition (TEMI) des revenus du capital et de taux d'imposition effectif du travail (TIET). Il est interessant de souligner que la notion de TEMI definie par Wen, Dahlby et Ferede (2014 : annexe C, equation 1) correspond a celle qui est incorporee dans le MEGFQ, tel que rapporte dans Decaluwe \(et\) (2011 : 188, equations 7 et 8). Par contre, le TIET n'est pas un taux marginal, contrairement a ce qui est utilise dans l'equation d'offre du travail du MEGFQ, tel que rapporte dans Decaluwe, Lemelin et Bahan (2010 : 7, equation 2). Le TIET est calcule en combinant des taux d'imposition effectifs, c'est-a-dire calcules en divisant les recettes fiscales de chaque taxe prise en compte par la base d'imposition. Le TIET est defini au moyen de la formule \(1-TIET=\big{(}1-t_{1}-t_{2}\big{)}\big{/}\big{(}1+t_{3}\big{)}\), ou \(t_{1}\) est le taux d'imposition effectif du revenu; \(t_{2}\) est le taux effectif des cotisations sociales; \(t_{3}\) est le taux effectif des taxes sur les produits. On note qu'a l'instar de Feldstein (1999), Wen, Dahlby et Ferede (2014) considerent une taxe a la consommation comme equivalente a un impot sur le revenu. Mais a la difference de Feldstein, leur modele ne tient pas compte des exemptions fiscales qui mettent certains revenus et certaines depenses a l'abri de l'impot. D'ailleurs cet aspect de la question est d'autant plus important que Kesselman et Spiro (2014) montrent que le systeme canadien est deja fortement oriente vers la taxation de la consommation : non seulement les taxes sur les produits ne s'appliquent pas a l'epargne, mais il existe plusieurs dispositions fiscales qui reduisent ou reportent l'impot sur la fraction epargnee du revenu (REER, CELI, etc.).
+
+Globalement, on peut decidement appliquer les critiques de Fullerton (2008) a Dahlby et Ferede et a la plupart des autres etudes basees sur l'elasticite de l'assiette fiscale par rapport au taux d'imposition8: les etudes empiriques faites sur des donnees agregees ne tiennt pas compte de l'heterogeneite des agents economiques.
+
+A cela s'ajoute que le modele de Dahlby et Ferede (2012) et de Wen, Dahlby et Ferede (2014) est un modele de forme reduite ou les liens de causalite et les canaux de transmission des effets sont enfouis dans les parametres : << _In this paper, we do not explicitly model the determinants of each tax base. We simply allow for some general, but unspecified, complementarity or substitutability among the tax bases, which reflects taxpayers' responses to these tax rates_>> (Dahlby et Ferede, 2012 : 6).
+
+La formule derivee par Kleven et Kreiner (2006) fait exception parmi les estimations du CMFP, en ce qu'elle tient compte de la reaction de l'offre de travail, tant a la marge extensive (participation ou non au marche du travail) qu'a la marge intensive (heures travaillees), dans un contexte d'heterogeneite des travailleurs quant au taux de salaire, au taux d'imposition (impot sur le revenu progressif), aux transferts recus (notamment en situation de non-participation) et au cout fixe de la participation. La prise en compte de l'offre de travail a la marge extensive, en particulier, revet une grande importance a la lumiere des resultats empiriques selon lesquels l'elasticite de l'offre de travail a la marge intensive serait tres faible, alors que l'elasticite a la marge extensive serait au contraire substantielle. Dans le calcul, l'heterogeneite exige cependant que soient agregees les diverses categories de travailleurs, au prix de l'utilisation d'une fonction de bien-etre social additive (somme ponderee des utilites individuelles), ce qui repose fatalement sur un jugement de valeur. Des estimations empiriques fondees sur des microdonnees europeennes montrent que l'elasticite de l'offre de travail a la marge extensive peut faire gonfler considerablement le CMFP.
+
+Il n'en demeure pas moins que l'etude de Kleven et Kreiner (2006) est en equilibre partiel et que, de l'avis meme des auteurs, dans un MEGC ou la substituabilite entre les types de travail serait imparfaite, le CMFP pourrait etre plus, ou moins eleve que l'indiquent leurs estimations, selon les elasticites de substitution entre les types de travail. De meme, les analyses de Dahlby et Ferede (2012) et de Wen, Dahlby et Ferede (2014) sont en equilibre partiel, et elles ne tiennent compte que de la variation des recettes fiscales et de l'erosion possible de la base d'imposition. Certaines etudes etendent leur portee a l'utilisation qui est faite des recettes fiscales ou a l'impact sur le montant des investissements, sans toutefois prolonger l'analyse aux consequences sur la croissance. Car les modeles d'elasticite de l'assiette fiscale sont statiques9. Or l'un des themes recurrents du debat sur la taxation optimale est jugement l'impact de la fiscalite sur l'investigsement et la croissance.
+
+Footnote 9: Nous sommes tentés de dire qu’il est abusif de la part de Wen, Dahlby et Ferede (2014), (2014) de parler de réaction « dynamique >> pour designer les elasticites de long terme.
+
+Pour toutes ces raisons, nous croyons que les modeles d'equilibre general calculables, comme celui du ministere des Finances du Quebec, sont des outils bien plus puissants pour eclairer le debat public sur une reforme de la fiscalite.
+
+## 2 Les modeles d'equilibre general calculable
+
+Un modele d'equilibre general calculable (MEGC) est d'abord une representation mathematique de l'economie dans son ensemble : composantes, comportements, interactions. A la base, c'est un modele fonde sur la theorie microeconomique de l'equilibre general concurrentiel, bien qu'il existe des modeles avec concurrence imparfaite ou avec solutions de desequilibre. Comme l'indique l'adjectif << calculable >>, les MEGC se resolvent numeriquement. Leurs parametres sont souvent calibres a partir d'une matrice de comptabilite sociale (MCS). On les utilise le plus souvent pour faire des simulations, afin d'analyser les consequences de divers chocs exogenes sur une economie concrete. Une solution du modele reproduit les conditions de l'equilibre general concurrentiel, ainsi que les contraintes d'equilibre macroeconomique (notamment l'equilibre investissement-epargne).
+
+Selon la facon de traiter le temps, les MEGC sont statiques ou dynamiques. Parmi ces derniers, les modeles en dynamique sequentielle sont constitues d'une suite d'equilibres statiques ou chaque periode est liee a la precedente par des variables << heritees >> (au premier chef le stock de capital); ils peuvent se resoudre periode par periode. Dans les modeles en dynamique intertemporelle, au contraire, les agents ont un comportement d'optimisation intertemporelle, ce qui exige que le modele puisse etre resolu simultanement pour toutes les periodes. Les modeles en dynamique intertemporelle peuvent etre deterministes (auquel cas les anticipations des agents sont myopes ou parfaites, ou encore adaptatives), ou ils peuvent etre stochastiques. L'optimisation intertemporelle dans les modeles dynamiques stochastiques d'equilibre general (connus sous le sigle anglais _DSGE_) se fait sur l'espace mathematique des conditions futures, selon l'information disponible a chaque moment, alors que l'economie est soumise a des perturbations aleatoires. Dans cet article, nous nous attacherons principalement aux modeles statiques et en dynamique sequentielle, qui sont generalement plus detailles que les modeles intertemporells, a cause du tres fort volume de calcul que requierent ces derniers pour la resolution simultanee. Un modele plus detaille, en effet, permet de mieux representer la complexite du regime fiscal et l'heterogeneite des comportements.
+
+Nous affirmons que les MEGC sont des outils puissants, bien adaptes a l'examen des impacts d'une reforme fiscale. Ils s'appuient sur des fondements theoriques solides, et non seulement sur des correlations statistiques. Ils prennent en compte les interactions entre toutes les composantes d'une economie, en particulier les effets indirects resultant des reactions des agents. Parmi les interactions, les MEGC mettent au premier plan celles qui se transmettent par l'intermediaire des prix, comme l'erosion de l'assiette fiscale en reponse a l'augmentation d'une taxe. Globalement, les prix jouent dans ces modeles leur role microeconomique : par le jeu de l'offre et de la demande, transmettre aux agents l'information economique qui fonde leurs decisions. Ainsi, les MEGC permettent de voir par quels mecanismes se produisent les effets d'un choc exogene donne. Dans leur version dynamique, ils sont capables de simuler les consequences sur la croissance a long terme de changements dans le rythme d'accumulation du capital qui resulteraient de fluctuations de l'investissementdues a des modifications du comportement d'epargne (variations du montant d'epargne ou mobilite transfrontaliere des capitaux financiers).
+
+Les MEGC permettent en outre d'evaluer le cout marginal des fonds publics - et de facon bien plus fine - grace au calcul de la variation equivalente ou de la variation compensatoire de Hicks, comme cela est fait dans certains des modeles presentes plus loin. L'une et l'autre sont basees sur la fonction de depense, derivee de la fonction d'utilite (directe ou indirecte) : \(e(\mathbf{p},\ U)\) est la depense minimale necessaire, etant donne le vecteur de prix \(\mathbf{p}\), pour atteindre le niveau de bien-etre \(U\). La variation equivalente est donnee par
+
+\[VE=e\big{(}\mathbf{p}_{0},U_{1}\big{)}-e\big{(}\mathbf{p}_{0},U_{0}\big{)} \tag{5}\]
+
+et la variation compensatoire par
+
+\[VC=e\big{(}\mathbf{p}_{1},U_{1}\big{)}-e\big{(}\mathbf{p}_{1},U_{0}\big{)}. \tag{6}\]
+
+On aura compris que dans un cas comme dans l'autre, on mesure une variation discrete et non pas marginale au sens strict du terme. Dans ce contexte, le fardeau excedentaire marginal est calcule comme le rapport d'une variation hicksienne sur la variation des recettes publiques. Le calcul des variations hicksiennes est possible dans les MEGC parce que la forme de la fonction d'utilite est explicitement definie. Par contraste, dans le calcul du cout marginal des fonds publics presente precedement, la forme de la fonction d'utilite n'est pas definie: la variation de bien-etre est mesuree indirectement par \(dC-\big{(}1-\tau\big{)}dB=-Bd\tau\), ce qui conduit a definir le rapport \(\tau dB/dR=\tau dB/(Bd\tau+\tau dB)\) comme le cout marginal des fonds publics, comme nous l'avons vu precedemment. Il est a noter que, pour evaluuer le cout marginal des fonds publics dans un MEGC, l'utilite doit tenir compte du temps de travail et l'offre de travail doit etre endogene. S'il y a plusieurs categories de menages, il devient necessaire d'agreger les variations hicksiennes, ce qui suppose un jugement de valeur, tout comme la formulation d'une fonction d'utilite sociale. De plus, pour evaluuer l'impact a long terme (Ballard _et al._, 1985), il faut un modele dynamique, auquel cas les variations hicksiennes des periodes successives doivent etre agreees, ce qui exige de choisir un taux d'actualisation. Enfin, il y a plusieurs facons de prendre en consideration l'utilisation qui sera faite des fonds publics : l'une d'elles consiste a supposer que les recettes supplementaires sont redistribuees aux menages sous forme de paiement forfaitaire (_lump sum_); une autre, plus complexe, consiste a incorporer le produit des depenses publiques dans la fonction d'utilite; enfin, on peut proceder comme Ballard _et al._ (1985) et calculer le cout marginal des fonds publics comme critere de rendement minimum des depenses publiques.
+
+Enfin, les MEGC peuvent etre tres detailes, ce qui permet, entre autres, d'examiner la distribution du revenu entre groupes de menages10 et les impactssur chaque industrie. Pour toutes ces raisons, les MEGC ont ete beaucoup utilises pour simuler les impacts de reformes ou de modifications de politiques economiques: politique commerciale (liberalisation, traites de libre-echange), politiques environnementales (suites du Protocole de Kyoto et plus recement de la COP21) et, bien entendu, modifications ou reforme de la fiscalite11.
+
+Footnote 11: La revue classique de Shoven et Whalley (1984) a passablement vieilli. Plus recement, Bouet (2008) utilise le modele mondial MIRAGE pour evaluer l’impact de la liberalisation des échanges sur le bien-être global, pour ensuite passer en revue plusieurs études recentes et comparer leurs resultats aux siens. Par ailleurs, on ne compte plus les modeles d’un seul pays visant à evaluer l’impact de la liberalisation des échanges. Dans un chapite à paraître dans un _Handbook of Computational Economics and Finance_, Wing et Balistreri (2014) examinent les applications de MEGC à l’analyse de conséquences de politiques en general, et de conséquences des changements climatiques et de politiques de reduction du rechauffement ou de mitigation de ses effets. Enfin, nous donnons plus loin dans cet article des exemples d’analyse de reformes fiscales à l’aide de MEGC.
+
+Pour autant, les MEGC ne sont pas sans points faibles. Ainsi, les comportements economiques sont la plupart du temps decrits selon l'approche de l'agent representatif, le comportement d'un groupe d'agents etant modelise comme s'il s'agissait d'un seul agent. Ainsi chaque groupe de menages a une seule fonction d'utilite, dont derivent ses equations de demande de biens et d'offre de travail; de meme, chaque industrie (groupe d'etablissements) a une fonction de production et de transformation, dont derivent ses equations de demande de facteurs et d'offre de produits. On peut compenser en partie cette faiblesse en couplant un MEGC avec un modele de microsimulation.
+
+Par ailleurs, les MEGC sont en general des modeles walrasiens << reels >>, sans monnaie; dans les conditions d'equilibre des agents, seuls important les prix relatifs et, faute de monnaie, le niveau absolu des prix demeure indetermine; il n'y a dans ces modeles ni inflation, ni politique monetaire12. Rappelons aussi que la plupart des MEGC sont calibres a partir d'une MCS (une seule observation) et ne font pas l'objet d'estimation econometrique (sauf pour certains parametres dits << libres >>13, qui sont parfois estimes en dehors du modele, quand ils ne sont pas repris d'autres sources). Pour cette raison, il n'y a pas de marge d'erreur definie, ni pour les resultats du modele dans leur ensemble, ni meme pour la plupart des parametres pris individuellement. C'est pourquoi on utilise des tests sommaires de robustesse ou de sensibilite (refaire la meme simulation avec plusieurs jeux de valeurs des parametres juges critiques) ou, suivant une approche plus systematique, des testsde Monte Carlo14. De telles meta-analyses des modeles exigent cependant temps et efforts et ne sont pas generalisees. Un MEGC n'est donc pas a toute epreuve, mais il n'en demeure pas moins un outil puissant et pertinent pour l'evaluation des politiques economiques.
+
+Footnote 14: Hermeling et Mennel (2008) exposent la théorie de l’analyse de sensibilité et developpent des methodes d’application generiques. Hertel (2013) évoque la question des analyses systematiques de sensibilité, qui semble plus facile à automatiser dans GEMPACK que dans GAMS. Dans le contexte de l’analyse environnementnelle, Bohringer et Vogt (2003) et Böringer (2004) appliquent l’analyse systematique de sensibilité. Mentionons enfin Schürenberg-Frosch (2015), qui mêne des analyses de type Monte Carlo pour evaluer la robustesse des resultats de 28 simulations faités au moyen de 10 modeles differents par rapport aux elasticites dites d’Armington (elasticites de substitution entre les produits locaux et importés); elle conclut que oui, les resultats sont sensibles au choix des elasticites et qui'il faudrait y pérérérér davantage attention et mener des études de sensibilité.
+
+Encore faut-il qu'un modele soit utilise a bon escient.
+
+Mais d'abord, qu'est-ce qu'un modele? Disons pour les fins de la discussion qu'un modele est une representation mathematique, forcement simplifiee, d'un phenomene qu'on cherche a etudier. La modelisation peut avoir plusieurs objectifs: test d'une theorie ou d'une hypothese, prevision, simulation, optimisation... S'agissant de tester une theorie ou une hypothese, le modele est d'emblee concu pour que ses resultats soient confrontes a des donnees, selon le paradigme popperien; appelons ce type de modeles des modeles d'orientation empirique. Les MEGC ne sont pas de ce type. Ce sont des enonces theoriques quantifies, qui sont rarement confrontes de facon systematique aux donnees, en grande partie parce que cela est impossible. Les modeles detailes, calibres a partir de MCS, ne peuvent pas etre evalues au moyen des methodes de l'inference statistique qui exigent des observations reptees. Les resultats generes par les modeles ne sont pas des previsions qui pourraient etre comparees a des observations posterieures, parce que la realite est trop mouvante, alors qu'une solution du modele est une pseudo-experience controlee, ou seul un ensemble eroitement defini de valeurs exogenes est modifie. C'est pourquoi les MEGC ne sont pas considieres en general des modeles de prevision15. Ce sont plutot des modeles de simulation.
+
+Footnote 15: Les D_SGE_, cependant, sont historiquement associes à l’analyse des cycles economiques et à la prevision macroeconomicique.
+
+Un modele de simulation, au fond, c'est un **argument**; un argument complexe, soit, enonce dans le langage symbolique des mathematiques, quantifie a l'aide de donnees et traite numeriquement par ordinateur; mais neanmoins un argument, qui prend la forme generale << Si..., alors...>>. Les resultats obtenus sont la conclusion d'un argument, ils ne sont pas la realite, comme l'oublient trop de praticiens (lire Leijonhufvud, 1973). Pour evaluer la validite de l'argument, il faut examiner ses elements, c'est-a-dire se demander ce qu'il y a dans le << si >>. _Grosso modo_, on peut distinguer trois composantes du << si >>: a la base, la structure meme du modele et sa parametrisation; ensuite, la specification du scenario de reference (BAU - _Business As Usual_); enfin, la definition du choc dont on simule l'impact. Les detracteurs qui qualifient les MEGC de << boites noires >> ont parfois raison, helas! L'antidote par excellence a cette critique est de diffuser l'enonce mathematiquedu modele16. Mais ce n'est pas suffisant : la validite et la portee des resultats d'une simulation dependent aussi de la facon dont est formulee cette simulation - tous les modelisateurs sont d'accord sur ce point. Sans connaitre la specification des simulations, impossible de juger des resultats obtenus et de leur validite, que ce soit pour adherer a une reforme proposee ou pour la critique, ou encore pour proposer d'autres analyses.
+
+Footnote 16: L’étude de Baylor et Beausejour (2004), citee dans le rapport de la CEFQ (3 : 66) est exemplaire à cet égard.
+
+Cette vision de ce qu'est un MEGC nous situe a la frontiere entre la science economique et la philosophie politique, ou le modele est a la fois outil de developpement des connaissances et support a la prise de decisions collectives. Du point de vue de la philosophie politique, un argument n'est jamais qu'un moment dans une discussion en vue d'arriver a un consensus democratique ou, a defaut, a une decision partagee prise democratiquement. En ce sens, un modele-argument est a reprendre, a corriger, a elaborer, a detailler, idealement jusqu'a ce qu'il soit accepte par les parties au debat. D'ou la necessite absolue, dans le debat democratique, de la plus grande transparence quant aux modeles utilises. Car si l'on veut prendre une decision collective en s'approuvant sur un modele de simulation, il faut discuter du modele et de la formulation de la simulation autant que de ses resultats. Presenter les seuls resultats d'un modele, c'est donner la conclusion sans l'argument. C'est commander un acte de foi.
+
+Certains diront que c'est affaire de specialistes et que le grand public n'a pas a y etre mele. Mais jugement, la conversation democratique met en jeu des changes ouverts par lesquels des discours plus techniques sont relayes au grand public et discutes a travers les multiples mediatisations de vulgarisateurs, de journalistes et, bien entendu, d'hommes et de femmes politiques. C'est d'ailleurs selon ce principe de la democratie liberale que sont diffuses les comptes publics, dont la comprehension necessite pourtant des connaissances comptables poussees, et les jugements de Cour, qui s'appuient sur des notions de droit parfois fort complexes. Est-il besoin d'ajouter qu'une reforme de la fiscalite quebecoise de l'envergure de celle qui est preconisee dans le rapport de la CEFQ constitue un choix de societe fondamental et doit pouvoir faire l'objet d'un debat politique large et eclaire, sans precipitation. Aucun gouvernement respectueux de la democratie n'imposerait une telle reforme comme un fait accompli.
+
+Pour conclure cette reflexion, citons l'economiste Alfred Sauvy (1898-1998) : << Le chiffre est un etre delicat, sensible, qui, soumis a la torture, se livre a des aveux conformes au desir de son bourreau >> (1977 : 27). La modelisation peut faire de nous des tortionnaires - ne dit-on pas en anglais que nous faisons du _number crunching_? Gare a la torture des chiffres sous le couvert de modeles!Quels sont les principaux enjeux pour l\({}^{*}\)analyse de reformes fiscales dans les modeles EGC?
+
+Au-dela de la vision generale de l'utilite des MEGC pour l'analyse des reformes fiscales, deja enoncee, nous examinons ici les enjeux de modelisation specifiques qui se posent dans le contexte d'une reforme qui vise _grosso modo_ a modifier le _tax mix_ pour reduire le poids de l'impot sur le revenu par rapport a une taxe sur la consommation, comme le preconise le rapport Godbout. En effet, a l'exception d'une taxe forfaitaire17, toutes les taxes creent des distorsions de prix qui ont un impact negatif sur l'efficacite economique, ce qui se traduit par une perte de bientre que l'on peut mesurer par le cout marginal des fonds publics. Lobjectif poursuivi par une reforme fiscale est de reduire la perte d'efficacite, sans pour autant rendre le systeme moins equitable. Nous nous demandons donc quels sont les comportements cles des agents economiques qui sont susceptibles d'etre influences par ce type de modifications de la fiscalite et comment les representer adequatement dans un modele, de facon a ce que l'analyse d'impact soit la plus eclairante possible. Bien entendu, il y a toujours un arbitrage a faire entre le realisme de la simulation des comportements et la facilite de sa mise en evvre. Cela ne fait que renforcer la necessite de la plus grande transparence dans la specification du modele.
+
+Footnote 17: Et abstraction faite des taxes dites pigouviennes qui visent à compenser les externalites.
+
+### Arbitrage entre efficacite et equite
+
+Atkinson et Stiglitz (1976) proposent un cadre theorique elargi pour analyser le regime fiscal en tenant compte des interactions entre les diverses formes de taxes, notamment les taxes directes et indirectes, en regard des objectifs d'efficacite et d'equite horizontale et verticale. Ils concluent prudemment en disant << [...] _the theory may be more useful in illuminating the structure of the argument than in providing definite answers to policy issues_>>. D'ou la pertinence des etudes d'impact appliquees et l'importance que les modeles rendent compte correctement des effets de la fiscalite sur la distribution du revenu.
+
+Cela pose cependant un defi methodologique, bien defini par Bourguignon et Bussolo (2013) : _<< Studying the poverty and income distribution effects of macro-economic policies or shocks requires a methodology that accounts on the one hand for the nature of the policy or shock being studied and their aggregate impact on the economy and, on the other hand, the heterogeneity of their overall effects among individuals or households at the micro level._>> C'est pour relever ce defi qu'ont ete developpes les modeles macro-micro, qui combinent un modele d'equilibre general calculable avec un modele de microsimulation. C'est au moyen d'un modele de ce type que Savard (2005) fait la demonstration concrete qu'un MEGC constitue selon l'approche de l'agent representatif", bien qu'il permette d'evaluer adequatement les impacts macroeconomiques et sectoriels d'un choc, produit, quant a la distribution du revenu, des resultats contradicoires a ceux d'un modele utilise en tandem avec un modele de microsimulation.
+
+Sommairement, un modele de microsimulation est un modele du comportement des menages en reponse a un vecteur donne des prix des facteurs et des produits. Etant donne leur dotation en facteurs, les differents menages determinent leur offre de travail et leurs consommations19. Les prix, les dotations en facteurs et les offres de travail permettent de calculer le revenu de chaque menage et de la, examiner la distribution des revenus (indices de Gini, indicateurs de pauvrete Foster-Greer-Thorbecke, 1984, _etc._). Les parametres de ces modeles sont generalement estimes ou calibres a partir de donnees detaillees provenant d'enquetes aupres des menages. Le noeud du probleme, evidemment est l'articulation entre le MEGC macro et le modele de microsimulation. Depuis le debut des annees 2000, il s'est developpe une vaste litterature sur les methodes de couplage de la microsimulation et de la modelisation en EGC : Bourguignon et Bussolo (2013) et Cockburn, Savard et Tiberti (2014) font une revue exhaustive de ces ecrits. Suivant Cockburn, Savard et Tiberti, on peut distinguer trois approches principales20: une liaison de haut en bas (_top-down_), ou les resultats du MEGC servent d'intrants au modele de micro, les resultats de ce dernier pouvant ne pas etre compatibles avec eeux du MEGC (par exemple, l'offre agreee de travail calculee par le modele micro peut etre differente de celle du MEGC); une liaison de bas en haut (_bottom-up_), ou les resultats du modele micro sont agreges pour servir d'intrants au MEGC; enfin, une approche iterative, ou les deux modeles sont resolus en alternance.
+
+Footnote 19: \(\Pi\) existe aussi des modeles de microsimulation de nature comptable, ou l’on calcule mécatiquement les implications des variables exogenes, sans comportement adaptatif de la part des menages.
+
+Footnote 20: \(\Pi\) is a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_ a _not_not_ a _not_not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_ a _not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_ a _not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_ a _not_not_not_ a _not_not_not_ a _not_not_ _not_not_ a _not_not_ _not_not_ a _not_not_ _not_not_ a _not_not_not_ _not_ a _not_not_ _not_not_ a _not_not_ _not_not_ _not_not_ a _not_not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_not_ _not_ _not_ _not_not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_not_ _not_ _not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_not_ _not_ _not_ _not_not_ _not_not_ _not_ _not_not_ _not_ _not_not_ _not_ _not_not_ _not_ _not_not_ _not_not_ _not_not_ _not_ _not_ _not_not_ _not_ _not_not_ _not_ _not_ _not_ _not_ _not_not_ _not_ce qui concerne l'aspect equite des reformes fiscales; on peut surmonter ces limites grace au couplage avec un modele de microsimulation21.
+
+Footnote 21: L’utilisation jointe de MEGC et de modele microsimulation permet d’utiliser l’ensemble des indicateurs d’inegalites tel que l’Indice de Gini ou autres indices (Theil, Atkinson, _etc._). Pour deux exemples d’applications d’analyse d’impacts distributifs de reformes fiscales avec ce cadre d’analyse jointe voir Mussard et Savard (2010) et de Quatrebarbes, Boccanfuso et Savard (2016).
+
+### Fiscalite et incitation au travail
+
+La question des effets de la fiscalite sur l'incitation au travail etait au coeur meme des propos de Mirrlees (1971) et son importance s'est perpetuee jusque dans le mandat de la CEFQ. Dans les MEGC avec offre de travail endogene, comme dans la theorie microeconomique, le loisir fait partie des arguments de la fonction d'utilite du consommateur, et l'offre de travail est egale au loisir sacrifie en echange d'un revenu. Toute ponction fiscale qui reduit le taux de remuneration du travail a pour effet de reduire le prix relatif du loisir et de creer un effet de substitution en sa faveur et donc, de diminuer l'offre de travail22.
+
+Footnote 22: 1. L’utilisation jointe de MEGC et de modele microsimulation permet d’utiliser l’ensemble des indicateurs d’inegalites tel que l’Indice de Gini ou autres indices (Theil, Atkinson, _etc._). Pour deux exemples d’applications d’analyse d’impacts distributifs de reformes fiscales avec ce cadre d’analyse jointe voir Mussard et Savard (2010) et de Quatrebarbes, Boccanfuso et Savard (2016).
+
+Footnote 22: 22. Bien qui’il puisse arriver, à des taux de salaire élevés, que l’effet de revenu l’emporte sur l’effet de substitution (offre de travail rebrousée).
+
+Pour simuler correctement l'effet de la fiscalite sur l'incitation au travail, un MEGC doit donc (1) modeliser adequatement le comportement d'offre de travail et (2) capter le mieux possible l'effet de la fiscalite sur le taux de salaire net d'impot. Boeters et Savard (2013) presentent une revue detaillee des approches developpees pour integrer des comportements d'offre de travail dans les modeles EGC. Ils montrent comment certains raffinements sont difficiles, voire impossibles a realiser si l'on s'en tient a l'approche de l'agent representatif. Ainsi, l'etude realisee pour la CEFQ par Blancquaert _et al._ (2014) sur la fiscalite et l'incitation au travail fait etat de differences entre l'elasticite << a la marge extensive >> de l'offre de travail (participation ou non au marche du travail) et l'elasticite << a la marge intensive >> (nombre d'heures passes au travail); Boeters et Savard (2013) montrent comment cette distinction peut s'appliquer dans un modele de microsimulation utilise conjointement avec un MEGC. Au cours des 10 dernieres annees, cette combinaison de modeles a permis d'enrichir grandement la modelisation de l'offre de travail dans les modeles EGC (Boeters, Feil et. Gurtzen, 2005; Bourguignon, Robillard et Robinson, 2005; Bourguignon et Savard, 2008). Les possibilites offertes par l'approche micro-macro peuvent etre particulierement interessantes pour prendre en compte l'heterogeneite des individus et les differences de leurs reactions aux modifications fiscales selon leurs caracteristiques (age, education, niveau d'experience, niveau de revenu, _etc._).
+
+En plus de tout cela, il est important de prendre en consideration autant que possible l'existence de rigidites, institutionnelles ou autres, sur le marche du travail. Ainsi, plusieurs modelisateurs ont developpe des modeles de salaires negocies (par exemple, Boeters, Feil et Gurtzen, 2005). Les rigidites impliquent la plupartdu temps des desequilibres, du chomage entre autres. Dans plusieurs modeles, le chomage apparait a travers une _wage curve_ a la Blanchflower, une representation empirique des effets de rigidites non specifiees sur le taux de chomage en fonction du taux de salaire (Blanchflower et Oswald, 1995; Card, 1995). Se pose alors la question de savoir comment tenir compte de l'existence du chomage dans le comportement de l'offre de travail23.
+
+Footnote 23: Dans le MEGC du ministère des Finances du Québec, cette question a été résolute en remplacant le taux de salaire par son esperance mathématique définie comme : taux de salaire \(\times\) (l–taux de chomage) (Decaluwé, Lemelin et Bahan, 2010).
+
+Concernant l'effet de la fiscalite sur le taux de salaire net d'impot, il est evident qu'un impot sur le revenu a un impact direct. C'est toutefois le taux _marginal_ d'imposition qui compte pour le choix a la marge entre travail et loisir. Un modele qui ne tiendrait compte que des taux effectifs moyens ne repond pas a cette exigence. D'ou, par exemple, l'utilisation d'un _taux effectif marginal d'imposition_ dans le modele d'equilibre general calculable du ministere des Finances du Quebec (Decaluwe, Lemelin et Bahan, 2010); ce taux tient compte, non seulement des tranches successives de l'impot sur le revenu, mais egalement des eventuelles reductions de transferts sociaux qui peuvent decoueler d'un accroissement du revenu de travail. Par ailleurs, si tout revenu est eventuellement consomme, soit dans la periode courante, soit de facon differeee a travers l'eparne, il n'y a pas de difference theorique entre un impot sur le revenu et une taxe a la consommation du point de vue de l'incitation au travail24 (Ballard _et al._, 1985; Feldstein, 1999). En pratique cependant, il peut etre difficile de determiner quel taux d'imposition sur le revenu est equivalent a un taux donne de taxe a la consommation. Ces difficultes sont generalement evitees dans les MEGC suffisamment detailles, ou les prix des biens dans le modele de choix du consommateur incluent les taxes indirectes.
+
+Footnote 24: Nous verrons qu’il en est autrement de l’incitation à l’eparne.
+
+Il va sans dire que, quelle que soit la formulation d'un modele, sa validite depend tout autant de sa parametrisation. Idealement, le choix de parametres s'appuie sur des estimations econometriques appliquees a des donnees propres a l'economie modelisee; mais on utilise aussi des estimations realisees pour d'autres regions. Enfin, il faut garder a l'esprit la possibilite qu'une modification du taux de remuernation du travail par la fiscalite puisse produire un deplacement du travail vers l'economie souterraine. Cette problematique est analysee en profondeur dans Fortin _et al._ (1996). Nous y reviendrons ci-dessous car l'economie souterraine et l'evasion touchent pratiquement toutes les formes de taxations.
+
+### Fiscalite et _eparne des menages_
+
+Un regime fiscal qui voudrait inciter a l'eparne devrait s'appuyer davantage sur une taxe a la consommation que sur l'impot sur le revenu : alors qu'un impot sur le revenu s'applique uniformement a toute forme de revenu, quel que soit l'usagequ'on en fait, une taxe a la consommation s'applique uniquement aux depenses de consommation. Il est vrai que si l'on percoit l'epargne comme de la consommation differeee (Ballard _et al._, 1985), une taxe a la consommation frappe aussi l'epargne; mais l'impot sur le revenu sera egalement preleve sur le revenu futur qui pourra etre genere par l'epargne, ce qui, en quelque sorte, taxe l'epargne deux fois. En definitive, le remplacement d'un impot sur le revenu par une taxe a la consommation a pour effet de reduire le prix relatif de la consommation future par rapport a la consommation courante, c'est-a-dire d'encourager l'epargne.
+
+Une taxe a la consommation n'est pas necessairement une taxe indirecte : Ballard _et al._ (1985) representent une taxe a la consommation comme un impot sur le revenu avec deductibilite complete de l'epargne. Kesselman et Spiro (2014) montrent de facon convainante que dans le cadre fiscal canadien, le regime de l'impot sur le revenu des particuliers est deja tres proche d'une taxe a la consommation, grace aux dispositions suivantes : report de l'impot sur certaines formes d'epargne (REER, RPA, mais aussi certains placements qui engendrent un gain en capital qui n'est impose qu'au moment de sa realisation); methode de l'impot prepaye qui exempte les revenus futurs generes par l'epargne (CELI); imposition a taux reduit de certains types de revenus (dividendes25, gains en capital, loyer implicite des proprietaires-occupants), y compris l'exemption complete du gain en capital realise sur la vente de son habitation principale. Il s evaluent sommairement a environ 20 % la fraction des revenus du capital des particuliers qui est effectivement soumise a l'imposition.
+
+Footnote 25: Le credit d’impot pour dividendes n’a selon eux qu’un rapport tres loittain avec l’incidence réelle de l’impot sur le revenu des sociétés qu’il est censé compenser.
+
+Qu'en est-il de la capacite des MEGC a refletter le comportement d'epargne des agents et leur reaction aux changements fiscaux? Generalement, dans les modeles EGC, l'epargne est une part, fixe ou endogene, du revenu disponible d'un agent (les menages) ou encore un solde (entreprises et gouvernement). Cela ne facilite guere la prise en compte des phenomenes mis en evidence par Kesselman et Spiro, dont la representation ne pourrait probablement pas se faire autrement que par microsimulation. En outre, l'epargne - du moins l'epargne des menages - est une decision essentiellement intertemporelle, par laquelle l'agent economique cherche a repartir sa consommation dans le temps selon son taux de preference pour le present et le taux de rendement net anticipe de son epargne. Aussi la modelisation du comportement d'epargne fait-elle l'objet de toute une litterature sur les modeles dynamiques de generations imbriquees ou de cycle de vie. De plus, le recours aux modeles intertemporels pose un dilemme puisque, comme nous l'avons deja signale, ceux-ci doivent etre resolus simultanement pour toutes les periodes, ce qui exige une grande capacite de calcul et par le fait-meme impose des limites severes a leur niveau de detail. L'examen des impacts sur l'epargne des menages au moyen de MEGC autres qu'intemporels presente donc des defis qui ne n'ont pas encore et totalement surmontes.
+
+### Fiscalite et investissement
+
+Dans une economie fermee, inciter a l'epargne, c'est inciter _ipso facto_ a l'investigsement. Kesselman et Spiro (2014) remettent en question cette relation directe entre l'epargne des menages et l'investigsement dans l'economie canadienne. Ils rappellent les conclusions de Feldstein et Horioka (1980) qui montrent que, pour un groupe de pays de l'OCDE, la correlation entre l'epargne interieure et l'investigsement prive est significativement inferieure a 1, tout en etant plus proche de 1 que du zero que predirait l'hypothese de la mobilite parfaite du capital. Dans une petite economie ouverte avec mobilite du capital, comme le Canada dans le monde et _a fortiori_ le Quebec au sein du Canada, il faut s'attendre a une correlation encore plus faible entre l'epargne et l'investigsement. Dans une analyse empirique canadienne, Gouedard et Vaillancourt (2011), montrent que l'elasticite de l'investigsement prive par rapport a l'epargne des menages est tres faible (8,5 %) pour le Canada etils n'ont trouve aucune correlation au niveau des provinces, etant donne la forte integration du marche des capitaux au Canada.
+
+Dans ce contexte, il est utile de rappeler que les mouvements de capital entre pays ou regions sont la contrepartie des echanges de biens et services : en termes de comptabilite economique, le solde du compte capital et financier est egal a l'inverse du solde du compte courant. Or dans la plupart des MEGC, on ne represente que le compte courant, souvent fixe de facon exogene. Pourtant, ce que la these de Feldstein et Horioka implique pour les MEGC, c'est que l'epargne etrangere (= - solde du compte courant) n'est pas determinee uniquement par l'offre et la demande d'importations et d'exportations, mais aussi par de l'offre et la demande d'actifs et le comportement des epargnants. Seuls certains MEGC avec compte courant endogene et actifs financiers permettent de tenir compte de ce phenomene (Lemelin, Robichaud et Decaluwe, 2013).
+
+Par ailleurs, l'examen du lien entre l'epargne et la croissance par le biais de l'investigsement exige un MEGC dynamique. Dans un modele statique, l'investigsement n'est qu'une composante de la demande finale : il suffit que le modele puisse detailer de quels biens est constituee la demande pour fins d'investigsement. Dans un modele dynamique26, il faut pouvoir traduire l'investigsement de chaque periode en accroissement futur du capital productif. Or, selon les donnees de la comptabilite economique sous-jacentes aux MEGC, les utilisations de l'epargne comprennent, non seulement la formation brute de capital fixe (FBCF), mais aussi la variation des stocks d'inventaires. Pourtant, il est bien evident qu'il est invraisemblable de supposer que des variations de stocks, positives ou negatives, puissent se repeter d'annee en annee indefiniment. Un modele dynamique doit donc pouvoir neutraliser en quelque sorte les variations de stocks pour se concentrer sur la relation plus durable entre les depenses d'investigsement et la FBCF. Mais il y a plus : un MEGC dynamique doit simuler la repartition de la FBCF entre les activites productives. En plus, comme il s'agit d'un phenomene economique de nature plus volatile que, disons la demande de consommation, le calibrage a partir de donnees annuelles pose un defi.
+
+Enfin, on voudra pouvoir tenir compte des eventuels effets de distorsion de la fiscalite sur les decisions d'investissement, tel que preconise notamment par Fullerton et Henderson (1989a et b). C'est dans ce but que s'est developpee la methodologie des _taux effectifs marginaux d'imposition_ (TEMI - _marginal effective tax rates_, METR en anglais), d'abord concue pour des analyses en equilibre partiel (Daly et Jung, 1987; Jung, 1989; McKenzie, Mintz et Scharf, 1997; McKenzie, Mansur et Brule, 1998), mais utilisee dans certains MEGC, dont celui du ministere des Finances du Quebec (Decaluwe _et al._, 2011).
+
+3.5 _Taxe a la consommation ou taxe a la valeur ajoutee_
+
+Nous avons vu qu'une taxe a la consommation equivaut a un impot sur le revenu avec exemption complete de l'epargne (Ballard _et al._, 1985) et que, selon Kesselman et Spiro (2014), le regime fiscal canadien se rapproche d'une taxe a la consommation. Ce dont nous parlonsici sont ce que le systeme des comptes nationaux des Nations-Unies appelle les << taxes sur les produits >>27. Elles incluent les taxes d'accise (prelevees sur des produits specifiques), les taxes de vente generales et les taxes a la valeur ajoutee.
+
+Footnote 27: Inter-Secretariat Working Group on National Accounts (2009).
+
+Au milieu du siecle dernier, il n'y avait guere qu'en France qu'etait appliquee une taxe a la valeur ajoutee. On la retrouve maintenant dans plus de 130 pays a travers le monde, ou elle permet de colleceter en moyenne 20 % des recettes fiscales (Keen et Lockwood, 2010). Ce qui caracterise les taxes a la valeur ajoutee, ce sont les credits de taxe sur les intrants et la methode de perception correspondante. Le remboursement de la taxe sur les intrants, comme l'appelle Revenu Quebec, s'applique aux depenses d'exploitation, mais aussi aux depenses d'immobilisation (investigsements).
+
+La TPS/TVQ est par consequent, dans son principe, une taxe a la consommation. Or, si tout revenu est eventuellement consomme, soit dans la periode courante, soit de facon differeee a travers l'epargne, une taxe a la consommation, contrairement a un impot sur le revenu, evite d'introduire une distorsion du Prix relatif de la consommation presente par rapport a la consommation future; la TPS/TVQ ne reduit donc pas l'incitation a l'epargne. Par contre, comme toute taxe a la consommation ou impot sur le revenu, elle reduit l'incitation au travail parce qu'elle augmente le Prix de la consommation de biens et services par rapport a celui du loisir, induisant un effet de substitution en faveur de ce dernier. Enfin, comparee a l'impot sur le revenu a taux progressif, une taxe a la consommation comme l TPS/TVQ est consideree comme regressive, puisqu'elle s'applique au meme taux a tous les citoyens, quelle que soit leur situation socioeconomique28. D'ailleurs la CEFQ a d'emblee pris en compte ces considerations d'equite verticale en proposant des mesures d'accompagnement pour proteger les plus demunis de l'impact d'une augmentation de la TVQ.
+
+Une autre question liee a la notion de taxe a la consommation est de savoir s'il est preferable d'appliquer un taux unique ou des taux differencies. Beaucoup d'attention a ete accordee a cette question dans la litterature depuis pres d'un siecle (Ramsey,1927; Diamond et Mirrlees, 1971; Atkinson et Stiglitz, 1972; Sandmo, 1976, Saez, 2004, entre autres). Dans la foulee de Stiglitz (1982) et Naito (1999), Saez (2004) montre qu'a court terme (quand les travailleurs peuvent ajuster leur offre de travail, mais pas le type de travail offert, c'est-a-dire leur niveau de qualification) des taux de taxes differencies peuvent etre des instruments efficaces de redistribution; a long terme, par contre, les taux differencies introduisent des distorsions non optimales, tel qu'etabli par Diamond et Mirrlees (1971)29. La tendance actuelle semble etre a une certaine uniformisation des taux pour eviter les distorsions, sauf dans le cas d'externalites evidentes (taxes sur le carbone), considerant que les taxes pigouviennes ciselees sont quelque peu utopiques. Les modeles EGC offrent un cadre d'analyse tout a fait appropriie pour evaluer l'impact de differentes formes de taxes sur les produits et de differentes structures de taux, pourvu que soient respectees les specificites de l'application de ces taxes dans la formulation du modele30.
+
+Footnote 29: Dans le modele de Saez (2004), il s’agit de tarifs douaniers differenciés; Saez montre que l’imposition d’un tarif duanier est équivalente, dans son modele du court terme, de l’imposition d’une taxe à la consommation d’un produit, jumelee à une subvention sur les salaires des travailleurs qui produisent ce meme bien.
+
+30: Une attention particulière a ete portee à cet aspect du MEGC du ministère des Finances du Québec, comme en temoigne Decaluwe _et al._ (2003).
+
+31: Slemrod (2007) presente un article interessant sur l’evasion fiscale aux États-Unis ainsi que Slemrod et Yitzhaki (2002).
+
+3.6 _Fiscalite et evasion ou evitement fiscal_
+
+Le dernier enjeu de modelisation que nous voulons aborder dans le contexte d'une reforme fiscale est celui de l'evitement ou de l'evasion fiscale. Ce phenomene est multiforme et difficilement saisissable31.
+
+3.6.1 _Production au noir_
+
+Une premiere facon d'echapper a l'imposition consiste a deplacer les activites productives vers le secteur informel ou l'economie souterraine, c'est-a-dire produire des biens et services sans declaration formelle des activites au gouvernement. Selon le contexte, cette pratique peut etre legale ou illegale. Dans le contexte africain, le modele d'Auriol et Warlters (2012) inclut un secteur informel de l'economie, souvent exempte d'impot, mais qu'il est possible d'amener dans le giron du systeme fiscal moyennant des couts administratifs; ces auteurs estiment un CMFP assez faible pour le secteur informel, mais qui est plus eleve quand la taille du secteur informelest plus grande, ce qui suggere qu'il est alors plus facile d'echapper a la fiscalite. Dans une economie comme celle du Quebec, ou le secteur informel n'est pas exempute d'impot, le deplacement de l'activite vers le secteur informel s'accompagne generalement de la vente au marche noir ou dans l'economie souterraine, ce qui esquire a la fois l'impot sur le revenu et la TPS/TVQ32. Evidemment, certains secteurs de l'economie, comme le secteur des services, sont plus susceptibles de se deplacer vers l'economie informelle. On pourrait evoquer egalement la soi-disant << economie du partage >>, qu'on pourrait qualifier de semi-informelle.
+
+Footnote 32: Ici, ces activites peuvent inclure à la fois les secteurs legaux mais aussi les secteurs illegaux comme la prostitution, la vente de drogue, jeux illegaux, _etc_.
+
+Footnote 33: Pour le Québec, une consommation importante est faite outre-frontière (autres provinces, États-Unis ou ailleurs). L’importation de produits est autorisée sous certains seuils selon la durée du sejour à l’exterieur du pays. Le New Hampshire, voisin du Québec presente la particularité de ne pas avoir de taxe de vente. Par ailleurs, sauf pour les boissons alcoolisees, il n’y a pas de restrictions aux importations interprovinciales par des particuliers.
+
+#### 3.6.2 Importations non declarees et commerce electronique
+
+Les consommateurs peuvent eviter les taxes sur les produits en allant faire leurs achats dans les juridictions voisines3. Cette pratique depend donc de la geographie. C'est d'ailleurs pour cette raison que la taxe d'accise quebecoise sur l'essence est modulee selon la proximite de la frontiere internationale ou interprovinciale. Levitement des taxes locales sur les produits a pris une nouvelle forme avec le developpement du commerce electronique qui prend une place de plus en plus importante dans les economies. Selon une etude du CEFRIO (2014), la depense mensuelle par cyberconsommateur a progressive de 24 % entre 2009 et 2013 au Quebec pour atteindre une valeur estimee de 7,3 milliards de dollars en 2013. Le Quebec est particulierement touche par ce phenomene, parce que, si le gouvernement federal a suffisamment de poids pour exiger des Amazon de ce monde que soit prelevee la TPS, le gouvernement du Quebec ne semble pas avoir la meme efficacite.
+
+Footnote 33: Pour le Québec, une consommation importante est faite outre-frontière (autres provinces, États-Unis ou ailleurs). L’importation de produits est autorisée sous certains seuils selon la durée du sejour à l’exterieur du pays. Le New Hampshire, voisin du Québec presente la particularité de ne pas avoir de taxe de vente. Par ailleurs, sauf pour les boissons alcoolisees, il n’y a pas de restrictions aux importations interprovinciales par des particuliers.
+
+#### 3.6.3 Evasion fiscale et evitement fiscal
+
+Comme pour les autres taxes, la taxe sur le revenu du capital genere elle aussi de l'evitement et de l'evasion fiscale. Comme le capital est un des elements taxes les plus faciles a deplacer, il est previsible que des differences prononcees du taux d'imposition des revenus du capital provoquent un exode de capitaux a l'exterieur de la juridiction. Dans la foulee de la mobilite observee par Feldstein et Horioka (1980), les mouvements de capital en reponse a des ecarts fiscaux sont analyses depuis de nombreuses annees (Razin et Sadka, 1991; Gordon, 1992). A cela s'ajoute evidemment le cote noir des mouvements de capital, le glissement vers les paradis fiscaux, crees pour rendre legal localement ce qui est illegal ailleurs. L'evitement fiscal n'est cependant pas limite a la remuneration du capital. La remuneration du travail, particulierement au sommet de l'echelle, offre des possibilites d'evitement fiscal par le changement du mode de remuneration (par exemple, substituer des options d'achatd'actions a une partie du salaire). C'est ce que Saez, Slemrod et Giertz, (2012) appellent du deplacement de revenu (_income shifting_). Le deplacement de revenu donne lieu a des << externalites fiscales >>, definies comme toute variation des recettes fiscales tires d'une base d'imposition autre que celle dont le taux d'imposition est modifie, due au comportement adaptatif des agents au changement34.
+
+Footnote 34: Ces effets sont implicitement pris en compte dans Dahlby et Ferede (2012) par les elasticites croisees.
+
+Les problematiques d'evasion et d'evitement qui viennent d'etre evoquees ne sont pas systematiquement integrees aux modeles EGC appliques, mais certains auteurs ont tente de le faire en depit du manque de donnees (Fortin _et al._, 1997; Gordon et Neilson, 1997; Alm et Sennoga, 2010; Auriol et Warlters, 2012). Essentiellement, ces auteurs incluent dans leurs modeles des branches d'activites formelles soumises a la taxation et des branches informelles non taxees. En general les consommateurs peuvent acheter des biens taxes ou non taxes. Dans certains cas, les facteurs de production peuvent se deplacer des branches taxees vers les non taxees, mais pas en sens contraire. Fortin _et al._ (1997) permettent cette mobilite des entreprises en fonction des changements dans la fiscalite.
+
+Negliger ces mecanismes d'evitement et d'evasion fiscale dans une analyse d'impact de reformes fiscales pourrait generer des resultats biaises. Dans une economie comme le Quebec, ou il est relativement facile de deplacer la consommation soit vers une consommation non taxee/informelle ou dans d'autres marches, il devient important de prendre en compte ces mecanismes. Toutefois, il faut garder en tete que le traitement de ces questions dans un modele EGC n'est pas simple car l'acces a des donnees fiables est limite et les comportements des agents ouvrant dans le secteur informel a ete moins bien analyse. La question se pose alors de savoir s'il vaut mieux negligier l'existence de cette realite au vu de ces difficultes, ou en tenir compte malgre une plus grande inctitude sur les donnees et les comportements. En d'autres mots, l'analyste se trompe-t-il davantage s'il ignore le secteur informel, ou s'il essaie d'en tenir compte en utilisant des donnees et des comportements observres entaches d'une plus grande marge d'erreur? L'analyse de sensibilite peut alors s'averer une etape importante d'une analyse integrant le secteur informel et l'evasion fiscale dans un modele.
+
+## 4 Une revue d'un echantillon d'applications de modeles EGC
+
+Dans cette section nous passons en revue un echantillon d'applications de modeles EGC utilises pour evaluer les CMFP (ou changements de bien-etre) de differentes taxes. Nous avons selectionne des applications en fonction de differents criteres. Premierement, nous passons en revue le modele EGC du ministere des Finances car celui-ci a ete utilise dans le cadre de la CEFP. Notre presentation de ce modele repose sur la version publique disponible car nous n'avons pas les elements a notre disposition pour analyser la version specifique qui a ete utilisee dans le cadre de la CEFP. Par la suite, nous presentons le modele Baylor et Beausejour (2004) pour deux raisons principales. Premierement, c'est un modele de l'economie canadienne et donc quidevrait mieux refleter la situation quebecoise et deuxiemement, les resultats de ce modele ont ete cites dans le rapport de la CEFP. Puis, nous presentons brievement le modele de Ballard _et al._ (1985), car ce modele a jete les bases pour l'utilisation de modeles EGC pour l'evaluation du CMFP. Ce modele est presente de maniere detaillee dans un livre ou un chapitre porte sur l'analyse de reformes fiscales. Pour completer, nous avons retenu trois autres modeles. Les modeles d'Auriol et Warlters (2012) ont ete selectionnes parce que ces auteurs integrent la presence de secteurs informels (non taxes); et finalement une paire d'articles qui exploitent le meme modele pour la Norvege, a savoir ceux de d'Avitsland et Aasness (2004) et de Bye, Strom et Avitsland (2012). Nous avons retenu le premier modele parce que ces auteurs ont pris en compte les effets distributifs en plus des impacts sur l'efficacite de reforme fiscale.
+
+Avant de commencer cette revue, nous presentons un tableau extrait d'Auriol et Warlters (2012) presentant les fourchettes de CMFP mesure selon differentes etudes. Dans notre version du tableau, nous avons retenu uniquement les applications de modeles EGC.
+
+TABLEAU 1
+
+Estimation du CMFP selon differents modeles EGC
+
+\begin{tabular}{l|c|c|c} \hline \hline
+**Pays** & **Type de taxe** & **Estimes** & **Reference** \\ \hline Bangladesh & Vente & 0,95-1,07 & Devarajan, Thierfelder et \\  & & & Suthiwart-Narueput (2002) \\ Bangladesh & Importation & 1,17-2,18 & Devarajan, Thierfelder et \\  & & & Suthiwart-Narueput (2002) \\ Cameroun & Vente & 0,48-0,96 & Devarajan, Thierfelder et \\  & & & Suthiwart-Narueput (2002) \\ Cameroun & Importation & 1,05-1,37 & Devarajan, Thierfelder et \\  & & & Suthiwart-Narueput (2002) \\ Indonesia & Vente & 0,97-1,11 & Devarajan, Thierfelder et \\  & & & Suthiwart-Narueput (2002) \\ Indonesia & Importation & 0,99-1,18 & Devarajan, Thierfelder et \\  & & & Suthiwart-Narueput (2002) \\ Etats-Unis & Toutes & 1,17-1,33 & Ballard _et al_ (1985) \\ Etats-Unis & Toutes & 1,47 & Jorgenson et Yun (1990) \\ \hline \end{tabular}
+
+Source : Auriol et Warlters (2012)
+
+La premiere constatation au vu de ces chiffres est que les estimations sont en general plus faibles que celle obtenues avec des modeles d'equilibre partiel ou des modeles d'equilibre general theoriques. Avec les autres methodologies, les CMFPsont toujours superieurs a 1 et la borne inferieure est generalement autour de 1,25. Il faut noter ici que le modele utilie dans par Devarajan, Thierfelder et Suthiwart-Narueput (2002) est un modele EGC tres simple. Le modele de Ballard _et al._ (1985) que nous decirrons ci-dessous est un modele EGC avec dynamique recursive et le modele de Jorgenson et Yun (1990), un modele EGC dynamique avec anticipations rationnelles. Ce sont donc des modeles tres differents qui sont cites dans ce tableau.
+
+### Le modele du ministere des Finances du Quebec (MEGC-MFQ)
+
+Nous avons deja fait reference a certains aspects de ce modele, mais nous voudrions en faire une presentation un peu plus generale ici. La version statique du modele qui a d'abord ete developpee a ete presentee dans Decaluwe _et al._ (2002 et 2003). L'application du modele a l'examen de la << regle des 15 ans >> pour le remboursement des medicaments innovateurs a ete publiee dans Bahan _et al._ (2005). Decaluwe _et al._ (2010 et 2011) ont presente de maniere plus detaillee l'offre endogene de travail et l'imposition du capital dans le modele. Plus recemment, Bahan, Montelpare et Savard (2011) ont utilise le MEGC-MFQ pour examiner l'impact des depenses en infrastructures. Cet article contient un rappel des caracteristiques generales du modele statique, ainsi qu'une ebauche de ses aspects dynamiques; c'est, a notre connaissance, la seule source d'information publique sur la structure dynamique du modele.
+
+Le MEGC-MFQ est un modele biregional incluant l'economie du Quebec et celle du reste du Canada (RdC), tout en tenant compte de leurs relations mutuelles et avec le reste du monde. Les agents economiques sont classes en 4 categories : les entreprises, les menages, les gouvernements et l'etranger. Il s'agit d'un modele tres detaille, et ou la modelisation du RdC est aussi elaboree que celle du Quebec. On distingue dans chacune des deux regions : 56 secteurs productifs, 121 categories de biens et services et 48 categories de depenses personnelles de consommation. Les investissements sont repartis en 13 categories d'actifs. Il y a environ 150 types de menages, definis selon la composition du menage, le niveau de revenu et le groupe d'age. Cette classification tres fine des menages permet d'evaluer les impacts sociaux des politiques fiscales, selon l'approche de l'agent representatif. La demande de travail distingue dans chaque region 11 types de main-d'euvre. Enfin, on trouve dans le modele 2 types de capital, qui correspondent aux 2 agents entreprises : les societes et les entreprises individuelles.
+
+Un soin particulier a ete apporte a la representation de la fiscalite. Chaque taxe s'applique dans le modele a un flux qui represente d'aussi pres que possible l'assiette fiscale correspondante. C'est le cas notamment des taxes indirectes, qui s'appliquent pour ainsi dire en couches successives les unes sur les autres. De plus, le modele prevoit que les taux de taxes indirectes peuvent etre differents, selon qu'il s'agisse de depenses de consommation des menages, d'investissement ou de consommation intermediaire. L'impot sur le revenu des particuliers et des societes est represente par les taux effectifs marginaux d'imposition (TEMI).
+
+Le modele se distingue aussi par la presence d'une _wage curve_ pour determiner l'equilibre du marche du travail et par la specification novatrice de l'offre de travail. Comme dans les autres modeles avec offre de travail endogene, le MEGC-MFQ elargit la liste des biens de consommation pour y inclure le loisir, en supposant que celui-ci est un bien normal, dont le cout de renonciation est egal au taux de salaire. Mais dans ce modele, on distingue plusieurs types de travail, alors que chaque categorie de menages est un agent representatif constitue d'une grande diversite de menages qui exercent des professions differentes. L'approche adoptee pour resoudre cette contradiction consiste a supposer que chaque menage representatif dispose de differents types de temps de loisir, un par categorie professionnelle de travail; et chaque menage se comporte comme s'il etait compose d'autant de membres individuels qu'il y a de types de travail et que chacun d'eux maximisait son utilite independamment des autres, tout en ayant les memes preferences quant a la consommation de biens. Il en resulte un modele ou la demande de consommation de biens est la meme que dans un systeme lineaire de depenses standard, tandis que l'offre de travail de chaque categorie par un menage donne est independante du taux de salaire des autres categories (l'elasticite prix croisee de l'offre de travail entre les categories professionnelles est nulle).
+
+Pour le reste, sa structure generale est relativement standard : pour chaque region, le modele reproduit le circuit classique des revenus et depenses, ou les prix et les quantites d'equilibre sont determines par l'interaction de l'offre et de la demande sur les marches. La loi d'accumulation du capital est de forme classique : dans chaque industrie, le stock de capital en debut de periode, pour chaque type de capital, est egal au stock de la periode precedente apres depreciation, auquel s'ajoute le stock de nouveau capital cree par l'investissement de la periode precedente. La specification de l'investissement par industrie de destination est semblable a celle du modele PEP-1-t (Decaluwe _et al._, 2013) : le taux d'investissement (rapport du nouveau capital sur le stock existant) est une fonction a elasticite constante du rapport du taux de remuneration du capital sur son cout d'usage, qu'on peut interpreter comme le \(Q\) de Tobin.
+
+Le modele tient compte de l'accumulation de la richesse ou de la dette des agents. La dette nette des gouvernements evolue selon leur epargne nette, ce qui determine les paiements d'interet sur la dette. La richesse des menages s'accumule avec leur epargne et les revenus d'interet des differentes categories de menages sont distribues en fonction de leur richesse. La difference entre les depenses d'investissement prive et la somme de l'epargne des entreprises et de l'amortissement s'ajoute a la dette privee des entreprises, sur laquelle ces dernieres paient de l'interet.
+
+Plusieurs composantes du modele evoluent de periode en periode de maniere exogene. Ainsi, l'offre de travail est fonction du taux de croissance demographique etabli par l'Institut de la statistique du Quebec. La productivite multifactorielle d'une periode sur la precedente est la somme d'une fonction a elasticite constante du rapport entre le stock de capital courant et le stock initial, et d'une constante exogene. La productivite du travail d'une periode sur la precedente est une fonction a elasticiteconstante du rapport des depenses courantes en education sur les depenses de la periode de base. On n'a toutefois aucune indication sur la facon dont a ete simule l'impact de la reforme fiscale proposee par la CEFQ (le lecteur interesse pourra consulter Decaluwe et Lemelin, 2015).
+
+### Baylor et Beausejour (2004)
+
+Dans leur etude, Baylor et Beausejour (2004) utilisent un modele EGC dynamique avec anticipations rationnelles. Ceci implique que l'optimisation des agents est faite de maniere intertemporelle et par consequent requiert une resolution simultanee de toutes les periodes du modele. Comme la resolution des modeles de ce type est plus lourde, ceux-ci sont generalement moins detailes que les modeles EGC statiques ou en dynamique sequentielle. Le modele de Baylor et Beausejour integre les principales taxes de l'economie canadienne et il est plus detaille que d'autres auparavant (James, 1994; Macklem, Rose et Tetlow, 1994)35. Les auteurs soulignent qu'ils ne prennent pas en compte tous les mecanismes cles qui interviennent suite a une reforme fiscale mais se concentrent sur les decisions de consommer ou d'investir, d'investir localement ou a l'etranger, sur le choix entre le travail et le loisir et la composition du panier de consommation et des biens en capital. Ils indiquent qu'ils ne prennent pas en compte l'heterogeneite des menages, la progressivite de l'imposition, la migration et l'equite. Les auteurs supposent qu'il y a un menage representatif qui fait des arbitrages entre la consommation, l'epargne et le loisir avec des fonctions d'utilite de type CES.
+
+Footnote 35: \(\;\) De toute évidence, les specificité de la fiscalité provinciale et plus particulièrement la fiscalité québecoise sont perduees dans l’agregation des taxes des differents paliers de gouvernement.
+
+Les auteurs unobservant qu'il y a un menage representatif qui fait des arbitrages entre la consommation, l'epargne et le loisir avec des fonctions d'utilite de type CES.
+
+Les auteurs ont analyse 7 modifications de niveaux de taxes et ils trouvent que l'impact le plus faible sur les CMFP est obtenu avec la taxe a la consommation (1,13); pour l'impot sur le revenu, le CMFP est a 1,32. Les auteurs ne precisent pas la source des elasticites de substitution cles de leur modele mais realisent des analyses de sensibilite sur plusieurs parametres et ils soulignent que les resultats sont tres sensibles a la valeur de l'elasticite de substitution entre la consommation et le loisir. La fourchette pour les CMFP pour la taxe de vente avec l'analyse de sensibilite est de 1,08 a 1,20 et de 1,25 a 1,43 pour l'impot sur le revenu36. En general, le classement des CMFP est assez stable face a l'analyse de sensibilite a quelques exceptions pres, mais la taxe a la consommation demeure toujours la meilleure option.
+
+Footnote 36: \(\;\) La fourchette de valeur de parametres utilisee pour l’analyse de sensibilité par les auteurs est relativement modeste et ils ne justififient pas le choix des bornes.
+
+Il est important de souligner que la modelisation des taxes est tres simplifiee par rapport a la realite avec un seul menage representatif et 4 secteurs pour l'ensemble du pays. Comme le montrent bien Holtsmark et Bjerntaes (2015), l'impact sur les CMFP d'une reforme fiscale est tres sensible a la prise en compte des specificites de la structure de taxation et de la progressive des taxes. Selon eux, pour capter ces effets, il est essentiel d'avoir plusieurs types de menages dans le modele. Finalement, Baylor et Beausejour (2004) soulignent que leurs hypotheses ne captent sans doutepas tres bien les comportements d'epargne et d'investigsement en lien avec les agents domestiques et etrangers. Ils concluent que la thematique est complexe a analyser et qu'ils contribuent une pierre a l'edifice de la comprehension du probleme.
+
+### Ballard, Fullerton, Shoven et Whalley (1985)
+
+Ce modele est une reference quant a l'analyse d'impact economique de reformes fiscales a l'aide de modeles EGC. Ces auteurs ont construit, pour l'epoque, sans doute le modele EGC le plus riche pour l'analyse de reformes fiscales. Voici quelques caracteristiques de leur modele. Le modele contient 12 menages et 19 branches de production. Il est calibre avec des donnees de 1973 aux Etats-Unis et est dynamique de type sequentiel37. La fiscalite est detaillee en incluant l'impot sur le revenu des menages et les entreprises, les taxes a la propriete, la taxe sur la masse salariale, la taxe de vente, la taxe d'accise et plusieurs autres taxes moins importantes. Des taux marginaux d'impot moyens par categorie de menages sont calibres. La consommation, l'epargne et l'offre de travail des menages sont determinees par systeme de fonctions d'utilite emboitees CES/Cobb-Douglas. Les elasticites de substitution sont tires de la litterature econometrique. L'epargne des menages est convertie directement en bien d'investigement.
+
+Leur modele dynamique est assez standard mais avec quelques particularites comme une croissance exogene de la productivite de la main-d'euvre. Pour l'analyse de reformes fiscales, les auteurs pretent une attention particuliere a la conception de leurs simulations afin de pouvoir prendre en compte le mieux possible les distorsions generees par les differentes taxes. Par exemple, ils s'assurent que l'impot sur le revenu n'affecte pas les comportements d'epargne lorsque celle-ci beneficie d'un traitement differencie au niveau fiscal. Ils analysent 8 differents << _tax mix_>> dans un contexte de neutralite budgetaire. Ils trouvent que plusieurs << _tax mix_>> analyses offrent des gains de bien-etre pour toutes les categories de menages. Ils montrent que l'exemption des revenus du capital face a l'impot sur le revenu genere des gains de bien-etre importants pour l'economie americaine, meme si la moitie du revenu du capital est deja exemptee de l'impot sur le revenu. Il est interessant de souligner qu'ils effectuent de l'analyse de sensibilite sur quelques parametres cles ainsi que sur certaines hypotheses; une des particulares par rapport a d'autres est qu'ils font varier les elasticites davantage pour cette analyse de sensibilite. Ils evoquent que les resultats peuvent etre sensibles aux hypotheses et valeurs des elasticites retenus.
+
+Footnote 37: Les auteurs soulignent l’importance d’avoir de la dynamique afin d’analyser l’impact de reformes à la taxe à la consommation.
+
+### Auriol et Warlters (2012)
+
+Auriol et Warlters (2012) ont construit 38 modeles EGC pour des pays africains, afin d'analyser l'impact d'une augmentation de 5 differentes taxes a savoir les taxes a la consommation, les droits de douane, la taxe a l'exportation, l'impot sur le revenuet la taxe sur le capital. Ces auteurs utilisent des modeles simples inspires du modele EGC 1-2-3 de Devarajan _et al_. (1994). Le modele 1-2-3 integre 1 consommateur, 2 secteurs et 3 biens et Auriol et Warlters (2012) y ajoutent une composante informelle. Les producteurs utilisent de la main-d'oeuvre formelle et informelle, du capital formel et informel. Pour la consommation, il y a l'arbitrage entre la consommation totale et le loisir; puis, la consommation totale se decompose en bien taxe, non taxe et importe. Leur structure de production et de consommation permet de prendre en compte la reaction des agents en presence de secteur informel. De fait, ce type de structure permet de capter les comportements d'evasion associes a une modification de la fiscalite.
+
+Les moyennes des CMFP pour les 38 pays sont les suivantes : pour la taxe de vente, il est de 1,11; pour les droits de douane, 1,18; pour les taxes a l'exportation, 0,96; pour l'impot sur le revenu, 1,51; et pour la taxe sur le capital, 1,6. Ils ont realise de l'analyse de sensibilite et leur classement des meilleures options est relativement robuste a cette analyse de sensibilite. Ils concluent que la taxe de vente serait l'option la plus interessante et celle sur le capital la moins interessante. Ils concluent aussi qu'il est profitable d'investigur pour reduire l'evasion fiscale afin d'augmenter l'assiette fiscale en reduisant la part des biens non taxes.
+
+Les deux principales contributions des auteurs sont d'avoir introduit un secteur informel dans leur modele et aussi d'avoir applique le meme modele a plusieurs pays pour comparer les CMFP dans differents pays. Bien que cette contribution ne soit pas relevee par les auteurs, il est tres interessant de voir qu'un modele simple et identique (hypotheses, fermetures et elasticite de substitution), a l'exception des structures et parametres de taxation, donnent des resultats plutot differents selon les pays.
+
+### Le modele norvegien de Bye, Strom et Avisland (2012), et Avistland et Aasness (2004)
+
+Pour ce modele, nous utilisons deux articles car la mesure du changement de bien-etre/efficacite est effectuee dans l'article de Bye, Strom et Avisland (2012), tandis qu'Avistland et Aasness (2004) s'interessent a l'impact distributif des memes reformes fiscales. Ils utilisent le meme modele en le liant a un modele de microsimulation38. Bye, Strom et Avistland (2012) utilisent un modele EGC avec dynamique pour analyser des reformes de taxes indirectes avec, entre autres, l'analyse de l'application d'une TVA a taux unique, comparee a une TVA politique (TVA a taux differencies, avec des taux plus faibles, voire des exemptions completes pour des biens de base). Le modele utilise inclut 49 branches de production et 26 biens de consommation. La production est realisee avec un systeme de CES emboitees avec parfaite mobilite des facteurs. Le menage maximise son utilite intertemporelle avec anticipations parfaites. Ils analysent 3 scenarios dans un contexte de neutralite de la reforme quant aux recettes fiscales. Une reforme avec TVA a taux unique, une avec TVA politique et l'abolition de la taxe sur l'investissement. Leurs resultatsmontrent une amelioration du bien-etre mesure par la charge excedentaire marginale pour la TVA uniforme de 1,17; une amelioration de 0,14 pour l'abolition de la taxe a l'investissement; et une reduction du bien-etre de 0,15 pour la TVA politique39.
+
+Footnote 39: Dans cette étude, on ne peut utiliser le calcul du CMFP car il n’y a pas de variation de revenu du gouvernement et donc il y aurait une division par 0 dans le calcul du CMFP.
+
+Pour ce qui est d'avitsland et Aasness (2004), il s soulignent l'importance de prendre en compte les effets distriboutifs de reformes fiscales et veulent comparer l'impact distriboutif avec les resultats d'une analyse en equilibre partiel avec un modele de microsimulation seul (sans lien avec un modele EGC). Le modele de microsimulation utilise integre 15 000 menages representatifs avec des fonctions de consommation estimees econometriquement, mais avec offre de travail exogene40. Avisland et Aasness (2004) trouvent que le degre d'equite n'est pas affecte par la TVA a taux unique ou l'abolition de la taxe a l'investissement, mais qu'il y a une amelioration de l'equite avec la TVA politique. Cette utilisation jointe permet ainsi d'apporter un eclairage supplementaire lors d'une analyse d'impact de reforme fiscale. Dans ce cas, la combinaison des modeles apporte des arguments favorables a la TVA politique, ce qui peut contribuer au debat autour de telles propositions de reformes fiscales.
+
+Footnote 40: Ce type d’hypothese au niveau de l’offre de travail est limitatif, parce que les changements de bien-etre importants suite à une reforme fiscale surviennent en lien avec des changements dans le statut d’emploi (soit à la marge intensive ou la marge extensive). Pour plus de détails sur cette question, voir Bourguignon et Savard (2008) ou Cockburn, Savard et Tiberti (2014).
+
+#### Conclusion
+
+Lobjectif de notre article est de proposer une reflexion sur l'utilisation d'outils d'analyse economique comme l'estimation du CMFP et l'analyse d'impact plus detaillee au moyen de modeles EGC, pour alimenter le debat sur une reforme fiscale comme celle qui est proposee par la CEFQ. Dans un premier temps, nous situons le debat quebecois dans le contexte des tendances contemporaines en matiere de reforme fiscale. Puis, nous presentons les deux principales methodes d'analyse de l'impact de reformes fiscales, a savoir l'estimation du CMFP selon l'elasticite de l'assiette fiscale, et les modeles EGC, et nous evoquons les forces et faibleses de chacun d'eux. Ensuite, nous examinons les enjeux de modelisation specifiques des comportements d'agents economiques qui sont affectes par la mise en euvre de reformes fiscales. Nous completons avec une revue de quelques modeles EGC appliques a l'analyse d'impact de reformes fiscales. Chacun des modeles retenus apporte une contribution particuliere a la litterature. Dans ce qui suit, nous itrons les constats de cette etude.
+
+Le premier est que la litterature theorique offre un cadre de reflexion pertinent dont devraient s'inspirer a la fois les decideurs et les analystes. Nous avons evoque plusieurs exemples de travaux qui ont fait etat de l'importance de prendre en consideration certaines caracteristiques cles de l'economie. Parmi ces caracteristiques, l'heterogeneite des comportements des agents (Fullerton, 2008) et la progressive des taxes (Holtsmark et Bjertnaes, 2015), ainsi que les autres specificites du systeme fiscal, sont des themes recurrents. Force est de constater que la majorite des applications de modeles EGC ne repond pas a toutes ces exigences. De la nous tirons la lecon que les modeles sont utiles, mais qu'ils sont perfectibles, et par consequent de facon permanente en chantier.
+
+C'est pourquoi il importe tant, pour renforcer la credibilite d'une analyse economique de reformes fiscales, qu'elle soit parfaitement transparente et soumise a une analyse de sensibilite. Le lecteur, le citoyen doit pouroir comprendre pourquoi les analystes arrivent a une conclusion donnee, et pour cela, comprendre les implications liees aux choix des valeurs de parametres ou des fonctions de comportement retenues pour l'analyse. Conformement a ce principe, la grande majorite des etudes comporte une presentation des equations du modele et des resultats d'analyses de sensibilite. Toutefois, les analyses de sensibilite sont generalement realisees avec un peu trop de parcimonie; les analystes ne font souvent varier qu'un parametre a la fois, a l'interieur d'une fourchette restreinte. Il serait sans doute plus approprie d'y aller de maniere plus systematique, avec des methodes de type Monte Carlo. Par ailleurs, nous avons releve que certains auteurs s'en tienent a des classements de reformes plutot que de mettre de l'avant les resultats quantitatifs. En d'autres mots, l'accent est mis sur le classement des possibilites, plutot que sur la valeur specifique du CMFP dans chaque cas. Etant donne l'invertitude qui regne sur les valeurs de parametres et les hypotheses de comportement, cette approche plus conservatrice nous semble parfaitement appropriee.
+
+Un autre element interessant qui ressort de la litterature est que la majorite des auteurs d'analyses d'impact dit modestement vouloir apporter une contribution a la connnaissance, sans necessairement conclure un debat au moyen de resultats pretendument exacts et definitifs. Ainsi, Baylor et Beausejour (2004) concluent que leur etude apporte une pierre a l'edifice et ils prennent soin d'enumerer les forces et faiblesses de leur analyse. D'ailleurs, nous n'avons pas trouve d'application qui integre l'ensemble des comportements cles que nous avons passes en revue. Ceci est tout a fait comprehensible, etant donne, par exemple, la difficulte de bien modeliser la reaction de l'offre de travail en integrant a la fois la reaction a la marge intensive et a la marge extensive pour chaque type de travailleur. Si on ajoute, l'evasion fiscale, les comportements d'epargne/investigsement, _etc._, la tache devient d'autant plus complexe. Ce constat renforce notre opinion quant a l'importance d'une attitude de modestie de la part des modelisateurs quand vient le temps de formuler des recommandations relatives aux reformes fiscales.
+
+Enfin, la transparence et l'echange avec les intervenants sur les hypotheses et resultats devraient etre au ceeur meme d'un processus d'analyse d'impact de reforme fiscale. C'est d'ailleurs une recommandation fondamentale formulee par la Banque mondiale dans un contexte quelque peu different, mais neanmoins fondamentaleemblable (_A User's Guide to Poverty and Social Impact Analysis_, World Bank, 2003). Sans transparence et sans ouverture, les conclusions d'une analyse d'impact finiront leurs jours au cimetiere des travaux oublies. Mais justement a cause des possibilites de transparence qu'ils offrent, a cause de la souplesse qui permet d'ameliorer la formulation des simulations, malgre les defis et limites auxquels sont confrontes leurs concepteurs, les modeles EGC demeurent un des outils les plus performants pour effectuer une analyse d'impact de reformes fiscales et nourririr le debat democratique.
+
+## Bibliographie
+
+* [1]
+
+[MISSING_PAGE_POST]
+
+]* [
+* []
+* []
+* []
+* []
+* []
+* [
+]* [
+* []
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+] 
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+]
+
+[MISSING_PAGE_POST]
+
+] * [
+
+]
+
+[MISSING_PAGE_POST]
+
+] 
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+] 
+
+[MISSING_PAGE_POST]
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+] 
+
+[MISSING_PAGE_POST]
+
+]* [
+
+] * [
+
+]* [
+
+]* [
+
+]* [
+
+]* [
+
+] * [
+
+]* [
+
+]* [
+
+] * [
+
+]* [
+
+] * [
+
+] * [
+
+]* [
+
+]* [
+
+] * [
+
+] * [
+
+]* [
+
+] * [
+
+] * [
+
+] * [
+
+] * [
+
+] * [
+
+] * [
+
+]* [
+
+] * [
+
+] * [
+* [Boeters, S. et L. Savard (2013)] Boeters, S. et L. Savard (2013), << The Labor Market in Computable General Equilibrium Models >>, _in_ Dixon, P.B. et Jorgenson, D.W. (dir.), _Handbook of Computable General Equilibrium Modeling_, North Holland, Elsevier B.V., chap. 26, p. 1645-1718.
+* [Bohringer, C. (2004)] Bohringer, C. (2004), << Sustainability Impact Assessment: The Use of Computable General Equilibrium Models >>, _Economie internationale_, 99 : 9-26.
+* [Boehringer, C., S. Boeters et M. Feil (2005)] Boehringer, C., S. Boeters et M. Feil (2005), << Taxation and unemployment: An Applied General Equilibrium Approach for Germany >>, _Economic Modelling_, 22 : 81-108.
+* [Boehringer, C. et C. Vogt (2003)] Boehringer, C. et C. Vogt (2003), << Economic and Environmental Impacts of the Kyoto Protocol >>, _Canadian Journal of Economics, Revue canadienne d'economique_, 36(2) : 475-496
+* [Bouet, A. (2008)] Bouet, A. (2008), << The Expected Benefits of Trade Liberalization for World Income and Development. Opening the "Black Box" of Global Trade Modeling >>, _Food Policy Review_, 8, IFPRI, Washington D.C.
+* [Bourguignon, F. et A. Spadaro (2003)] Bourguignon, F. et A. Spadaro (2003), << Les modeles de microsimulation dans l'analyse de politiques de redistribution : une breve presentation >>, _Economie et Prevision_, 160-161(4) : 231-238.
+* [Bourguignon, F., A.S. Robillard et S. Robinson (2005)] Bourguignon, F., A.S. Robillard et S. Robinson (2005), << Representative versus Real Households in the Macroeconomic Modeling of Inequality >>, _in_ Kehoe, T.E., T. N. Srinivasan et J. Whalley (dir.), _Frontiers in Applied General Equilibrium Modeling_. Cambridge University Press, Cambridge, p. 219-254.
+* [Bourguignon, F. et L Savard (2008)] Bourguignon, F. et L Savard (2008), << Distributional Effects of Trade Reform: An Integrated Macro-micro Model Applied to the Philippines >>, _in_ Bourguignon, F., L. A. Pereira da Silva et M. Bussolo (dir.), _The Impact of Macroeconomic Policies on Poverty and Income Distribution: Macro-Micro Evaluation Techniques and Tools_, Palgrave-Macmillan, Basingstoke, p. 177-212.
+* [Bourguignon, F. et M. Bussolo (2013)] Bourguignon, F. et M. Bussolo (2013). << Income Distribution in Computable General Equilibrium Modeling >>, in Dixon, P.B. et D. W. Jorgenson (dir.), _Handbook of Computable General Equilibrium Modeling_, North Holland, Elsevier B.V., chap. 21, p. 1383-1438.
+* [Bye, B., Strom et T. Avitsland (2012)] Bye, B., B. Strom et T. Avitsland (2012), << Welfare Effects of VAT Reforms: A General Equilibrium Analysis >>, _International Tax and Public Finance_, 19 : 68-392.
+* [Card, D. (1995)] Card, D. (1995), << The Wage Curve : A Review >>, _Journal of Economic Literature_, 33 : 785-799.
+* [CEFRIO (2014)] CEFRIO (2014), << Le commerce electronique en pleine croissance au Quebec >>, [http://www.cefrio.qc.ca/netendances/commerce-electronique-croissance-quebec/](http://www.cefrio.qc.ca/netendances/commerce-electronique-croissance-quebec/)
+* [Cockburn, J., L. Savard et L. Tiberti (2014)] Cockburn, J., L. Savard et L. Tiberti (2014), << Macro-Micro Models >> in O'Donoghue, C. (dir.), _Handbook of Microsimulation Modelling, Contributions to Economic Analysis_, Volume 293, Emerald Group Publishing Ltd, Bingley, U.K., p. 275-304.
+
+* Commission d'Examen sur la riscalite quebecoise (2015), _Rapport final_, Gouvernement du Quebec, Quebec.
+* Creedy (2009)Creedy, J. (2009), _The Elasticity of Taxable Income : An Introduction_, University of Melbourne, Department of Economics Working Paper Series, Research Paper 1085.
+* Dahlby (2003)Dahlby, B. (2003), << Restructuring the Canadian Tax System by Changing the Mix of Direct and Indirect Taxes >>, _Tax Reform in Canada: Our Path to Greater Property_, Fraser Institute.
+* Dahlby et al. (2011)Dahlby, B. et E. Ferede (2011), << What Does it Cost Society to Raise a Dollar of Tax Revenue? The Marginal Cost of Public Funds >>, _Commentary_ no 324, Institut C.D. Howe.
+* Dahlby et al. (2012)Dahlby, B. et E. Ferede (2012), << The Effects of Tax Rate Changes on Tax Bases and the Marginal Cost of Public Funds for Canadian Provincial Governments >>, _International Tax and Public Finance_, 19(6) : 844-883.
+* Daly et al. (1987)Daly, M.J. et J. Jung (1987), << The Taxation of Corporate Investment Income in Canada: An Analysis of Marginal Effective Tax Rates >>, _The Canadian Journal of Economics_, 20(3) : 555-587.
+* Decaluwe et al. (2015)Decaluwe, B. et al. Lemelin (2015), << Lettre ouverte adressee a Raymond Bernier, president de la Commission des finances publiques >>, Assemblee nationale du Quebec, le 28 septembre 2015.
+* Decaluwe et al. (2013)Decaluwe, B., A. Lemelin, V. Robichaud et H. Maisonnave (2013), << PEP-1-t. The PEP Standard Single-Country, Recursive Dynamic CGE Model >>, PEP Research Network, Universite Laval, Quebec.
+* Decaluwe et al. (2010)Decaluwe, B., A. Lemelin et D. Bahan (2010), << Endogenous Labor Supply with Several Occupational Categories in a Bi-regional CGE Model >>. _Regional Studies_, 44(10) : 1401-1414.
+* Decaluwe et al. (2011)Decaluwe, B., A. Lemelin, D. Bahan et N. Annabi (2011), << Taxation et mobilite partielle du capital dans un MEGC statique biregional du Quebec et du reste du Canada >>, _L'Actualite economique_, 87(2) : 175-203.
+* Decaluwe et al. (2005)Decaluwe, B., A. Lemelin, D. Bahan et N. Annabi (2005), << Offre de travail endogene et mobilite du capital dans un MEGC biregional : la version statique du modele d'equilibre general calculable du ministere des Finances du Quebec >>, ministere des Finances du Quebec, collection _Feuille d'argent_, Travaux de recherche 2005-001, 62 pages.
+* Decaluwe et al. (2003)Decaluwe, B., A. Lemelin, V. Robichaud et D. Bahan (2003), << General Equilibrium Model of the Ministere des Finances du Quebec (GEMFQ) : Characteristics and Structure of the Model >>, ministere des Finances du Quebec, Collection _Feuille d'argent_, Travaux de recherche 2003-002.
+* Decaluwe et al. (2002)Decaluwe, B., A. Lemelin, V. Robichaud, C. A. Emini et N. Annabi (2002), << Main Features and Structure of the Bi-Regional CGE Model for Quebec and the Rest-of-Canada >>, ministere des Finances du Quebec, juillet 2002; Paper MSS/29.2, presented at the Fourteenth International Conference on Input-Output Techniques.
+
+* De Quatrebargbes et al. (2016)De Quatrebargbes, C., D. Boccanfuso et L. Savard (2016), << Beyond Representative Households: the Macro-micro Impact Analysis of VAT Designs Applied to Niger >>, _Economic Modelling_, 57 : 76-92.
+* Devarajan et al. (1994)Devarajan, S., D. Go, J. Lewis, S. Robinson et P. Sinko (1994), << Policy Lessons from a Simple Open-economy Model >>, Policy Research Working Paper no 1375, Banque mondiale.
+* Devarajan et al. (2002)Devarajan, S., K.E. ThiERFelder et S. Suthiwart-Narueput (2002), << The Marginal Cost of Public Funds in Developing Countries >>, _in_ Fossati et al. Wigaard (dir.), _Policy Evaluations with Computable General Equilibrum Models_, Routhledge Press, Londres et New York.
+* Diamond et al. (1971)Diamond, P. A. et J. A. Mirlees (1971), << Optimal Taxation and Public Production: I >>, _American Economic Review_, 61(1) : 8-27.
+* Feldstein (1999)Feldstein, M. (1999), << Tax Avoidance and the Deadweight Loss of the Income Tax >>, _The Review of Economics and Statistics_, 81 : 674-680.
+* Feldstein and Horioka (1980)Feldstein, M. et C. Horioka (1980), << Domestic Saving and International Capital Flows >>, _The Economic Journal_, 90 : 314-329.
+* Fisher (1942)Fisher, I. (1942), _Constructive Income Taxation_, Harper Publishing, New York, 277 pages.
+* Fortin et al. (1996)Fortin, B., G. Garneau, G. Lacroix, T. Lemieux et C. Montmarquette (1996), _Leconomie souterraine au Quebec : mythe et realites_, Les Presses de l'Universite Laval, Quebec, 115 pages.
+* Fortin et al. (1997)Fortin, B., N. Marceau et L. Savard (1997), << Taxation, Wage Controls, and the Informal Sector: An Applied General Equilibrium Approach >>, _Journal of Public Economics_, 66(2) : 293-312.
+* Foster et al. (1984)Foster, J., J. Greer et E. Thorbecke (1984), << A Class of Decomposable Poverty Measures >>, _Econometrica_, 52(3) : 761-766.
+* Fullerton et al. (1989a)Fullerton, D. et Y.K. Henderson (1989a), << A Disaggregate Equilibrium Model of the Tax Distorsions among Assets, Sectors, and Industries >>, _International Economic Review_, 30(2) : 391-413.
+* Fullerton et al. (1989b)Fullerton, D. et Y.K. Henderson (1989b), << The Marginal Excess Burden of Different Capital Tax instruments <<, _Review of Economics and Statistics_, 71(3) : 435-462.
+* Fullerton (2008)Fullerton, D. (2008), << Laffer curve >>, _in_ Durlauf, S. N. et L.E. Blume, _The New Palgrave Dictionnary of Economics_, Second Edition, Palgrave-MacMillan.
+* Gordon et al. (1997)Gordon, R.H. et S.B. Neilsen (1997), << Tax Evasion in an Open Economy, Value-added versus Income Taxation >>, _Journal of Public Economics_, 66 : 173-197.
+* Gordon (1992)Gordon, R.H (1992), << Can Capital Income Tax Survive in Open Economies? >>, _Journal of Finance_, 47(3), : 1159-1180.
+* Gouedard et al. (2011)Gouedard, P. et F. Vaillancourt (2011), << Taux d'investissement prive et epargne des menages des provinces canadiennes, 1990-2008; y a-t-il une relation? >>, Rapport de projet 2011RP-14, CIRANO.
+* Gudmund et al. (2011)- A Systematic Approach >>, Discussion Paper no. 08-068, Centre for European Economic Research,
+* [14]Hertel, T. (2013), << Global Applied General Equilibrium Analysis Using the Global Trade Analysis Project Framework >>, _in_ P.B. Dixon et D.W. Jorgenson (dir.), _Handbook of Computable General Equilibrium Modeling_, Chap. 12, Elsevier.
+* [15]Holtsmark, B. et G. H. M. Bjertnaes (2015), << The Size of the Marginal Cost of Public Funds : A Discussion with Special Relevance to Norway >>, _Rapporter Report_ no. 13, Statistics Norway.
+* [16]Inter-Secretariat Working Group on National Accounts (2009), << System of National Accounts 2008 >> (SNA2008), Eurostat, International Monetary Fund, OECD, United Nations, World Bank; Bruxelles-Luxembourg, New York, Paris, Washington (D.C.), 662 p.
+* [17]James, S. (1994), << The Interaction of Inflation with a Canadian-type Capital Tax System: A Dynamic General Equilibrium Analysis Incorporating Endogenous leverage and Heterogeneous Households >>, Department of Finance Working Paper no. 94-01.
+* [18]Johansson, A, C. Heady, J. Arnold, B. Brys et L. Varia (2008), << Tax and Economic Growth >>, OECD Economic Working Papers ECO/WKP(2008)28, Paris.
+* [19]Jorgenson, D. W. et K.Y. Yun (1990), << Tax Reform and U.S. Economic Growth >>. _Journal of Political Economy_, 88 : S151-S193.
+* [20]Jung, J. (1989), << The Calculation of Marginal Effective Corporate Tax Rates in the 1987 White Paper on Tax Reform >>, Working Paper no.89-6, Department of Finance, Tax Policy and Legislation, Ottawa.
+* [21]Kaldor, N. (1957), << _An Expenditure Tax_ >>, Allen and Unwin Ltd, Londres, 242 pages.
+* [22]Keen, M. et B. Lockwood (2010), << The Value Added Tax: Its Causes and Consequences >>, _Journal of Development Economics_, 92 : 138-151.
+* [23]Kesselman, J. R. et P. S. Spiro (2014), << Challenges in Shifting Canadian Taxation toward Consumption >>, _Canadian Tax Journal_, 62 : 1-41.
+* [24]Kleven, H.J. et C.T. Kreiner (2006), << The Marginal Cost of Public Funds: Hours of Work versus Labor Force Participation >>. _Journal of Public Economics_, 90 : 1955-1973.
+* [25]Leiounhufvud, A. (1973), << Life among the Econ >>, _Western Economic Journal_, 11 : 327-337.
+* [26]Lemelin, A., V. Robichaud et B. Decaluwe (2013), << Endogenous Current Account Balances in a World CGE Model with International Financial Assets >>, _Economic Modelling_, 32 : 146-160.
+* [27]Macklem, T., D. Rose et R. Tetlow (1994), << Government Debt and Deficits in Canada : A Macro Simulation Analysis >>, _in_ Robson, B.P. et M. Scarth (dir.), _Deficit Reduction : What Pain, What Gain_, C.D. Howe Institute, Toronto.
+
+* []Mankiw, N.G., M. Weinzierl et D. Yagan (2009), << Optimal Taxation in Theory and Practice >>, _Journal of Economic Perspectives_, 23(4) : 147-174.
+* []McKenzie, K.J., M. Mansur et A. Brule (1998), << The Calculation of Marginal Effective Tax Rates >>, Working paper 97-15, Department of Finance, Ottawa.
+* []McKenzie, K.J., J.M. Mintz et K.A. Scharf (1997), << Measuring Effetive Tax Rates in the Presence of Multiple Inputs: A Production Based Approach >>, _International Tax and Public Finance_, 4 : 337-359.
+* []Meade, J.E. (1978), _The Structure and Reform of Direct Taxation_, Allen & Unwin Ltd, Londres, 533 pages.
+* []Mirrlees, J.A. (1971), << An Exploration in the Theory of Optimum Income Taxation >>, _The Review of Economic Studies_, 38 : 175-208.
+* []Mussard, S. et L. Savard (2010), << Macro/micro-economic Modelling and Gini Multi-decomposition: An Application to the Philippines >>, _Journal of Income Distribution_, 19(2) : 51-78.
+* []Natto, H. (1999), << Re-Examination of Uniform Commodity Taxes under a Non-Linear Income Tax System and its Implication for Production Efficiency >>, _Journal of Public Economics_, 71 : 165-188.
+* []Ramsey, F. (1927), << A Contribution to the Theory of Taxation >>, _Economic Journal_, 37(145) : 47-61.
+* []Razin, A. et E. Sadka (1991), << International Tax Competition and Gains from Tax Harmonization >>, _Economics Letters_, 37(1) : 69-76.
+* []Saez, E., J. Slemrod et S.H. Giertz (2012), << The Elasticity of Taxable Income with Respect to Marginal Tax Rates : A Critical review >>, _Journal of Economic Literature_, 50 : 3-50.
+* []Saez, E. (2004), << Direct or Indirect Tax instruments for Redistribution: Short-run versus Long-run, _Journal of Public Economics_, 88(3-4) : 503-518.
+* []Sandmo, A. (1976), << Optimal Taxation: An Introduction to the Literature >>, _Journal of Public Economics_, 6(1-2) : 37-54.
+* []Sauvy, A. (1977), _Conjoncture et prevision economiques_, Coll. Que sais-je?, no 112, PUF, Paris.
+* []Savard, L. (2005), << Poverty and Inequality Analysis within a CGE Framework: A Comparative Analysis of the Representative Agent and Microsimulation Approaches >>, _Development Policy Review_, 23(3) : 313-332.
+* but Should We? A Systematic Analysis of the Influence of Armington Elasticity Misspecification on Model Results >>, GTAP Resource #4710.
+* []Shoven, J. et J. Whalley (1984), << Applied General-equilibrium Models of Taxation and International Trade: An Introduction and Survey >>, _Journal of Economic Literature_, 22(3) : 1007-1051.
+* []Slemrod, J. (2007), << Cheating Ourselves: The Economics of Tax Evasion >>, _Journal of Economic Perspective_, 21(1) : 25-48.
+* []S* [SlemrodSlemrodS. Yitzhaki2002]Slemrod, J. et S. Yitzhaki (2002), << Tax Avoidance, Evasion, and Administration>>, _in Auerbach, A.J. et M. Feldstein_ (dir.), _Handbook of Public Economics_, Vol. 3, Chap. 22, Elsevier.
+* [StiglitzStiglitz1982] Stiglitz, J.E. (1982), << Self-selection and Pareto Efficient Taxation >>, _Journal of Public Economics_, 17 : 213-240.
+* [U.S. Department of the Treasury Internal Revenue Service (IRS) Office of Tax Analysis. (1977), _Blueprints for Basic Tax Reform_, Government Printing Office, Washington D.C.
+* [Wen, DahlbyWen, E. FeredeWen, Dahlby, E. 
+
+

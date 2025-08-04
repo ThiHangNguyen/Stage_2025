@@ -1,0 +1,440 @@
+# Identification Partielle : Methodes Et Consequences Pour Les Applications Empiriques*
+
+Thierry MAGNAC
+
+Ecole d'Economie de Toulouse (TSE)
+
+thierry.magnac@tse-fr.eu
+
+Cette revue fait suite a une presentation invitee a la reunion de la Societe canadienne de science economique a Quebec en mai 2013. Je remercie Bruce Shearer, Christian Bottemps, Marc Henry, Eric Maurin et les participants a cette conference pour leurs remarques. La responsabilite des erreurs et omissions de ce texte m'incombe entierement.
+
+Charles Manski (2005),Partial Identification in Econometrics, New Palgrave Dictionary.
+
+The partial identification approach advocates a more fluid view of identification and hence provides the empirical researcher with methods to help study the spectrum of information that we can harness about a parameter of interest using a menu of assumptions. * Elie Tamer (2010), * Partial Identification in Econometrics *, Annual Review of Economics, 2 : 167-195
+
+## Introduction
+
+La demarche empirique (en economie et ailleurs) est une demarche interpretative puisque les donnees economiques observationnelles ou experimentales ne sont pas interpretables de facon brute. On interprete ces donnees tres couramment de facon implicite, ou plus rarement de facon explicite, en utilisant des modeles economiques. Ces modeles, qu'ils soient sous formre structurelle ou reduite, sont ecrits en fonction de _parametres_ qui peuvent inclure de facon generale des parametres fonctionnels comme des distributions de termes d'heterogeneite inobservable des agents. Dansla plupart des cas, seul un sous-ensemble de ces parametres est interpretable economiquement et constitue les parametres dits d'interet.
+
+Au niveau abstrait d'une population de taille infinie dans laquelle sont tires les echantillons de travail, les _donnees_ sont decrites sous forme reduite par des fonctions de repartition des variables economiques, ces variables etant choisies par l'econometre applique. La demarche d'_identification_ consiste alors en la mise en relation de ces fonctions de repartition avec celles qui sont construites a l'aide des modeles structurels pour en deduire les valeurs des parametres d'interet. Si cette relation est univoque, on dit que les parametres sont identifies ponctuellement et c'est cette presentation qu'on trouve dans les manuels avances d'econometrie (par exemple Greene, 2008).
+
+L'importance de cette notion d'identification s'est vue remise en cause dans les 20 dernieres annees par Manski et ses coauteurs (1989 et annees subsequences) dans des modeles de traitements, de selection ou de censure et cette remise en cause a donne lieu a une litterature qui'amplifie dans les annees recentes. Des travaux precurseurs sur l'identification ensembliste ou partielle avaient ete developpes des Gini (1921) et Frisch (1934) pour le modele de regression simple a erreurs de mesure, Marschak et Andrews (1944) pour les modeles a equations simultanees, Hoeffding (1943) et Frechet (1955) pour les bornes sur les distributions jointes de variables dont seules les distributions marginales sont observables (dans deux enquetes differentes par exemple) et par Klepper et Leamer (1984) et Leamer (1987), par exemple pour le modele de regression multiple a erreurs de mesure sur toutes les variables. Ces travaux etaient restes peu connus et peu utilises jusqu'aux travaux menes par Manski et que lui-meme a repris dans un livre (Manski, 2003) ou plus brievement dans un article dont la citation en exergue de cette revue est extraite. De nombreux etudiants de Manski contribueront a developper cette litterature et parmi eux, Elie Tamer et Francesca Molinari pour ne citer qu'eux (par exemple la revue de Tamer, 2010, et l'article fondateur de Beresteanu, Molinari et Molchanov, 2011).
+
+Le raisonnement general qui mene a l'_identification partielle_ part de la notion d'_incompletude_ des donnees ou des modeles. En premier lieu, les donnees peuvent etre _incompletes_ a cause de mecanismes de censure, de l'utilisation de deux bases de donnees differentes ou de deux etats exclusifs. Pour l'evaluation de politiques publiques, les donnees observationnelles sont incompletes puisque les individus ne peuvent jamais etre observes simultanement en traitement et hors du traitement. Les modeles structurels peuvent aussi etre _incomplets_ s'ils ne specifient pas de solutions univoques. Un exemple classique de ce cas de figure est fourni par les equilibres multiples dans les jeux (Tamer, 2003, par exemple). Le modele economique ne specifie pas quel est le mecanisme de selection (stochasticique ou non) du seul equilibre observe dans les donnees.
+
+La facon de proceder la plus commune dans la litterature appliquee est de faire des hypotheses pour completer les donnees ou pour rendre complets les modeles car par construction, leurs parametres deviennent alors identifiables ponctuellement.
+
+Par exemple, on specifiera des variables latentes complementaires ou leurs distributions, pour completer les donnees comme dans les modeles de censure ou de traitement, ou des mecanismes qui rendent univoque la solution des modeles economiques, comme un mecanisme de selection d'equilibre dans un jeu. Neanmoins, cette procedure est arbitraire et l'identification ponctuelle devient peu credible.
+
+Cette demarche fournit pourtant l'intuition premiere de l'identification partielle. L'analyse des donnees se conduit en examinant TOUTES les hypotheses arbitraires acceptables, c'est-a-dire compatibles avec nos _a priori_, et en rassembblant dans un _ensemble identifite_ toutes les valeurs des parametres ponctuellement identifiees auxquelles chacune de ces hypotheses conduit. L'acceptabilite d'une hypothese dependra des applications et ces hypotheses seront ensemblistes (par exemple, une probabilite de selection d'equilibre appartient a l'intervalle [0,1], ou des valeurs censurees sont bornees) ou fonctionnelles (monotonicite, concavite, _etc._). La puissance identifiante de differentes hypotheses pourra etre comparee en termes de taille de l'ensemble identifie.
+
+L'identification partielle semble donc etre fort differente du cadre traditionnel. Neanmoins, quand on revient aux autres etapes du travail empirique d'estimation et de construction d'intervalles de confiance, cette construction s'adapte naturellement. Pour l'estimation, on remplace des estimateurs ponctuels du parametre d'interet par des estimateurs ensemblistes par exemple batis a partir de l'estimation de la frontiere de l'ensemble. Pour l'inference, la presentation des intervalles de confiance ne change pas puisque les resultats s'expriment naturellement en termes d'intervalles ou regions de confiance. Seule leur interpretation change puisque ces regions de confiance ne sont plus uniquement le resultat de la variabilite de l'echanillonage mais aussi de l'incertitude radicale sous-jacente quant a l'identification des parametres.
+
+Cette presentation restera peu technique et s'appuiera sur des exemples du mieux qu'elle pourra. Le but de cet article est de passer en revue les articles presentant les methodes (mais certains restent assez arides) pour en extraire les principes generaux et les articles rapportant les resultats d'applications empiriques dont je fais une liste partielle et breve. Je reviens d'abord sur la question de l'identification dans la section 1 pour definir plus precisement les notions evoquees dans cette introduction. Les methodes d'inference sont presentees dans la section 2 qui est la plus technique de cette revue. J'etudie a la fin de la section 2 des cas plus simples d'inference quand les ensembles identifies sont convexes, puis je donne un catalogue bien incomplet d'applications empiriques dans la section 3. La derniere section conclut cette presentation.
+
+## 1. Identification
+
+Apres des definitions plus precises des concepts d'identification presentes dans l'introduction, je presente deux exemples, l'un concernant la prediction lineaire d'une variable dependante observee avec censure par intervalles (par exemple,Manski et Tamer, 2002), et un jeu d'entree entre deux entreprises dont les realisations sont observees sur plusieurs marches (Tamer, 2003). Il est important de souligner deux concepts generaux dans ces exemples. Premierement, l'identification partielle a pour consequence que les equations estimantes peuvent devenir des restrictions de moments a l'_inegalite_ au lieu d'etre uniquement des restrictions de moments a l'egalite. On definit aussi le concept d'identification << exacte >> qui permet d'affirmer que tous les points de l'ensemble identifie correspondent bien a des hypotheses acceptables ou credibles de completion du modele ou des donnees.
+
+### Definition
+
+A un niveau tres abstrait qui presuppose qu'on ait defini des variables economiques d'interet, \(Y\), qui sont bien sur multidimensionnelles, les donnees sont decrites en forme reduite par des fonctions de repartition de ces variables :
+
+\[\Pr(Y\leq y),\forall y\in\mathcal{Y}.\]
+
+Les modeles economiques sont decrits sous leur forme structurelle par des fonctions de repartition dependantes d'un parametre \(\theta\) qui peut etre aussi general que l'on veut (par exemple des fonctions de repartition) :
+
+\[F(y;\theta),\forall y\in\mathcal{Y}.\]
+
+Cette definition des fonctions de repartition structurelles peut << emprunter >> une partie deur construction aux distributions marginales des observations. Par exemple, on confondra souvent les formes structurelles ou reduites des fonctions de repartition de variables exogenes.
+
+On peut alors definir ce qu'est la notion d'equivalence observationnelle ponctuelle. On dit que les parametres \(\theta\) et \(\theta\)' sont observationnellement equivalents si et seulement si pour tout \(y\in\mathcal{Y}:^{2}\)
+
+\[F(y;\theta)=F(y;\theta^{\prime}).\]
+
+On fera aussi ici une hypothese de bonne specification qui suppose qu'il existe au moins une valeur du parametre \(\theta_{0}\) tel que pour tout \(y\in\mathcal{Y}:\)
+
+\[\Pr(Y\leq y)=F(y;\theta_{0}),\]
+
+meme s'il est facile d'etendre cette notion a des modeles mal specifies. Neanmoins la notion d'identification partielle se prete moins bien a cette extension (Ponomareva et Tamer, 2011) et c'est pourquoi la quasi-totalite de la litterature que nous passons en revue fait implicitement ou explicitement l'hypothese de bonne specification.
+
+L'hypothese d'identification ponctuelle de \(\theta_{0}\) s'ecrit alors comme :
+
+\[\forall\theta,\forall y;\Pr(Y\leq y)=F(y;\theta)=F(y;\theta_{0})\Rightarrow \theta=\theta_{0}\]et ceci de maniere globale ou locale suivant les hypotheses sur le domaine de variation des \(\theta\) dans cette definition3.
+
+Footnote 3: On peut aussi s’interesser uniquement à un sous-ensemble des parametres \(\theta\), par exemple dans le cas d’un modele de regression. Dans ce cas, on reformule l’identification en utilisant la fonction de répartition, par exemple par l’intermediaaire de moments.
+
+Quand ces notions sont remises en cause car les modeles sont _incomplets_, on peut adopter une demarche de completion ou d'augmentation des donnees en supposant que les observables sont maintenant \(z=(y,\,t)\). Comme on l'a evoque dans l'introduction, ces variables \(t\) completent les donnees de facon arbitraire et par exemple decrivent les censures c'est-a-dire la valeur exacte de la variable dependante dans le cas de censure par intervalle. Ces variables peuvent aussi decrire l'equilibre selectione dans le cas de jeux generant des equilibres multiples. Cette completion permet de recerire le modele au moyen d'une nouvelle fonction de repartition \(F_{\eta}(z;\,\theta)\) ecrite en fonction du parametre inconnu, \(\eta\) et qui est la distribution des variables \(t\) conditionnellement aux observables \(y\). Ce parametre n'est pas specifie par la theorie economique ou par le modele statistique. Par definition de la completion du modele, on supposera que dans le modele complet ou \(\eta\) est donne, le parametre \(\theta\) est identifie ponctuellement.
+
+En l'absence d'autres restrictions, il semble difficile de progresser. On fera donc des restrictions ensemblistes du type, \(t\in T\), un intervalle par exemple, qui entraine des restrictions ensemblistes pour \(\eta,\eta\in N\). La probabilite conditionnelle (a toutes les variables exogenes) de selection d'un equilibre dans un jeu a equilibres multiples sera bornee entre \(0\) et \(1\) par exemple. On peut alors definir l'ensemble identifie par toutes les valeurs possibles du parametre ponctuellement identifie quand la completion des donnees est decrite par \(\eta\) :
+
+\[\Theta_{I} =\left\{\theta;\exists\eta\in N,\Pr(Y\leq y,T\leq t)=F_{\eta}(z; \theta),\forall z=(y,t)\in\mathcal{Y}\times\mathcal{T}\right\}\] \[=\cup_{\eta\in N}\left\{\theta;\Pr(Z\leq z)=F_{\eta}(z;\theta), \forall z\in\mathcal{Z}\right\}\]
+
+c'est-a-dire, toute valeur du parametre d'interet qui peut etre reconcilee avec les donnees pour une valeur au moins du parametre qui decrit l'augmentation des donnees pour les rendre completes.
+
+On peut alors analyser differentes restrictions suivant leur degre de credibilite :
+
+\[\eta\in N_{1},\eta\in N_{2}\subset N_{1},...\]
+
+Les deux exemples qui suivent permettent de mettre en pratique cette construction.
+
+### Exemple 1 : censure par intervalles
+
+Manski et Tamer (2002) etudient parmi d'autres modeles, un modele de prediction lineaire
+
+\[y_{i}^{*}=\beta_{0}+\beta_{1}x_{i}+u_{i},\qquad E(u_{i})=E(u_{i}x_{i})=0,\]
+
+ou la variable dependante est censuree par intervalles :
+
+\[y_{i}^{*}\in\left[y_{iL},y_{iL}+\delta_{i}\right]\]
+
+ou seules les variables \(y_{iL}\), \(\delta_{i}>0\) et \(x_{i}\) sont observables4. C'est un cas de figure assez courant quand on utilise des donnees sur les revenus ou la richesse des menages car certaines enquetes procedent par une demarche en deux temps. On demandera d'abord aux menages ou aux individus, le niveau exact de leurs revenus ou patrimoines puis, si les menages ne veulent pas repondre pour des raisons de confidentialite, l'enqueueur reposera la meme question mais sous la forme d'intervalles. Votre revenu est-il entre 0 et 500 dollars? ou entre 500 et 1000 dollars? _etc._ On notera dans ce cas que le support des variables \(y_{iL}\) et \(\delta_{i}\) est discret et qu'il est construit en utilisant les bornes inferieures et les largeurs d'intervalles decidees par le concepteur de l'enqueue. On notera aussi que meme si 0 est une borne naturelle inferieure pour les revenus, une borne superieure n'est pas aussi clairement definie. La plupart des etudes font alors une hypothese arbitraire sur le montant maximum de la variable dependante, par exemple le revenu dans l'intervalle observe le plus eleve (par exemple Lee, 2009, quand il evalue les bornes les plus conservatrices).
+
+Footnote 4: L’ensemble est fermé à droite et à gauche par simplicité alors qu’il serait naturel par la convention CADLAG de l’ouvrir à droite. On néglige dans cette litterature ces distinctions topologiques ou on les traite dans les annexes techniques. On considère en general la fermeture des ensembles identifiés.
+
+Pour simplifier les notations, on supposera que \(Ex_{i}=0\) et on ne s'interessera qu'a l'identification du parametre \(\beta_{i}\). Pour les extensions au modele de prediction lineaire a plusieurs variables, on pourra se referer a la section 2.3 ou les resultats de Stoye (2007), Beresteanu et Molinari (2008) et Bontemps, Magnac et Murin (2012) sont brievement developpes.
+
+On complete maintenant les donnees pour se ramener au cas d'identification ponctuelle. Comme :
+
+\[y_{iL}\leq y_{i}^{*}\leq y_{iL}+\delta_{i},\]
+
+on augmente les donnees par :
+
+\[t_{i}\in E=[0,1],\]
+
+de telle maniere qu'on puisse ecrire :
+
+\[y_{i}^{*}=y_{iL}+\delta_{i}t_{i}.\]
+
+Le chercheur est agnostique quant aux valeurs de \(t_{i}\) dans cet intervalle.
+
+On remarquera que \(\eta\) est alors la distribution conditionnelle de \(t_{i}\), \(\eta=F(t_{i}\bigm{|}y_{iL},\delta_{i}x_{i})\). Le cas general inclut donc les cas d'imputation. Par exemple, dans un cas de Probit ou Logit ordonne, on speciferait que la variable inobservee, \(y_{i}^{*}\) est normale ou logistique conditionnellement a \(x_{i}\) et donc que \(\eta\) a une distribution normale ou logistique, tronquee a l'interieur de chaque intervalle. Sous l'une de ces hypotheses, le parametre d'interet \(\beta_{i}\) est identifie ainsi que \(\beta_{0}\) et la variance de \(u_{i}\) d'ailleurs5. Neanmoins, l'ensemble identifie est beaucoup plus grand que ce singleton donne par le Probit ou Logit multinomial puisqu'il correspond a toutes les distributions, \(\eta\), possibles.
+
+Footnote 5:   Il faut pour cela postulter une condition de stricte définie negativité sur le hessien de la log-vraisemblance en \(\theta_{0}=(\beta_{0^{*}},\beta_{1^{*}},\sigma^{5})\) (Rothenberg, 1971).
+
+Contrairement a l'intuition, une analyse directe du cas general est pourtant facile. On procede d'abord a l'identification dans le modele complet puis on considere l'union de toutes les valeurs identifiees.
+
+Comme :
+
+\[y_{i}^{*}=y_{iL}+\delta_{i}t_{i}=\beta_{0}+\beta_{1}x_{i}+u_{i},\]
+
+on peut deriver la valeur du parametre \(\beta_{1}\) comme 6 :
+
+Footnote 6:   Rappelons que \(Ex_{i}=0\) et donc la variance de \(x_{i}\) est \(E(x_{i}^{2})\).
+
+\[\beta_{1}=\frac{E((y_{iL}+\delta_{i}t_{i})x_{i})}{E(x_{i}^{2})}=\frac{E(y_{iL }x_{i})}{E(x_{i}^{2})}+\frac{E(\delta_{i}t_{i}x_{i})}{E(x_{i}^{2})}.\]
+
+Or si \(t_{i}\in[0,1]\):
+
+\[E\big{(}\delta_{i}t_{i}x_{i}\big{)}=E\big{(}\delta_{i}t_{i}x_{i} 1\big{\{}x_{i}>0\big{\}}\big{)}+E\big{(}\delta_{i}t_{i}x_{i}1\big{\{}x_{i}<0 \big{\}}\big{)}\] \[\leq E\big{(}\delta_{i}x_{i}1\big{\{}x_{i}>0\big{\}}\big{)},\]
+
+symetriquement, on obtient :
+
+\[E(\delta_{i}t_{i}x_{i})\geq E(\delta_{i}x_{i}1\big{\{}x_{i}<0\big{\}}).\]
+
+L'intervalle identifie pour \(\beta_{1}\) est donc l'union de toutes les valeurs possibles et on obtient :
+
+\[\beta_{1}\in\Bigg{[}\frac{E\big{(}y_{iL}x_{i}\big{)}+E\Big{[}\delta_{i}x_{i} 1\big{\{}x_{i}<0\big{\}}\Big{]}}{E\big{(}x_{i}^{2}\big{)}},\frac{E\big{(}y_{ iL}x_{i}\big{)}+E\Big{[}\delta_{i}x_{i}1\big{\{}x_{i}>0\big{\}}\big{]}}{E\big{(}x_{i}^{2} \big{)}}\Bigg{]}, \tag{1}\]
+
+dont la longueur est toujours positive car :
+
+\[\frac{E\big{(}\delta_{i}\big{|}x_{i}\big{|}\big{)}}{E\big{(}x_{i}^{2}\big{)}} >0\]si les intervalles de depart sont de longueur positive. Reciproquement, on peut montrer par un argument constructif que tout point de cet intervalle correspond bien a une distribution possible de \(t_{i}\in[0,1]\) ce qui permet d'affirmer que cet intervalle est identifie de maniere exacte (par exemple, Magnac et Maurin, 2008).
+
+Notons finalement que le parametre \(\beta_{1}\) se definit de facon equivalente par des inegalites de moment :
+
+\[\begin{split}& E\big{(}y_{iL}x_{i}\big{)}+E\big{(}\delta_{i}x_{i }1\big{\{}x_{i}<0\big{\}}\big{)}-\beta_{1}E\big{(}x_{i}^{2}\big{)}\leq 0,\\ &\beta_{1}E\big{(}x_{i}^{2}\big{)}-E\big{(}y_{iL}x_{i}\big{)}-E \big{(}\delta_{i}x_{i}1\big{\{}x_{i}>0\big{\}}\big{)}\leq 0.\end{split} \tag{2}\]
+
+### _Exemple 2 : jeu d'entree a information complete_
+
+Deux entreprises notees 1 et 2 jouent un jeu d'entree simultanee sur differents marches, \(m\), et leurs profits, \(\pi_{my}\), dependent negativement de l'entree sur le marche ou non, \(y_{my}\in\{0,1\}\), de leur rival :
+
+\[\pi_{my}=\beta_{0}-\beta_{1}y_{my}+\varepsilon_{j}\text{ pour }\big{(}j,j^{ \prime}\big{)}\in\big{\{}(1,2),(2,1)\big{\}},\beta_{1}>0.\]
+
+On suppose que les deux entreprises observent les variables \(\varepsilon_{1}\) et \(\varepsilon_{2}\) et le jeu est donc a information complete. L'econometre n'observe pas ces variables. Par simplicite, on s'abstiendra de considerer des variables explicatives qui permettent pourtant, sous des conditions de support infini et de restrictions d'exclusion de certaines variables, l'identification ponctuelle des parametres (Tamer, 2003).
+
+On etudie les resultats de ce jeu en _strategies pures_ mais ces resultats s'etendent facilement au cas de strategies mixtes. Le graphique 1 decrit les differentes regions du plan en fonction des equilibres du jeu. Dans cette figure, on voit qu'il existe une region du plan (\(\varepsilon_{1}\), \(\varepsilon_{2}\)), la region centrale, ou deux equilibres sont possibles (0, 1) et (1, 0). Le modele est dit _incoherent_ (Heckman, 1978; Gourieroux, Laffont et Monfort, 1980) car la vraisemblance du modele est mal definie a cause de la multiplicite des equilibres.
+
+On complete le modele par la donnee d'une variable additionnelle, la variable \(t_{m}\in E=[0,1]\) qui decrit la selection de l'equilibre (1, 0) dans la region centrale ou les equilibres du jeu sont (0, 1) ou (1, 0). Si cette variable etait observee, le modele serait complet et ses parametres sont identifiables sous certaines conditions (voir plus bas). La distribution de cette variable additionnelle est le parametre \(\eta\) qui decrit la probabilite de selection de l'equilibre (1, 0) dans la region centrale.
+
+Certaines probabilites sont independantes de \(\eta:\)
+
+\[\begin{split}& P\bigg{(}\bigg{(}y_{j},y_{j^{\prime}}\bigg{)}=(0,0) \bigg{)}=\Pr\big{(}\varepsilon_{1}\leq-\beta_{0},\varepsilon_{2}\leq-\beta_{0} \big{)}\\ & P\bigg{(}\bigg{(}y_{j},y_{j^{\prime}}\bigg{)}=(1,1)\bigg{)}=\Pr \big{(}\varepsilon_{1}>\beta_{1}-\beta_{0},\varepsilon_{2}>\beta_{1}-\beta_{0} \big{)}\end{split} \tag{3}\]
+
+mais d'autres en sont dependantes :\[\begin{array}{l}P\left(\left(y_{j},y_{j^{{}^{\prime}}}\right)=(0,1)\right)=\Pr \left(\varepsilon_{1}>-\beta_{0},\varepsilon_{2}\leq\beta_{1}-\beta_{0}\right)- \eta\Pr(\text{carr\'{e} central, graphique 1})\\ P\left(\left(y_{j},y_{j^{{}^{\prime}}}\right)=(1,0)\right)\\ =\Pr\left(\varepsilon_{1}\leq\beta_{1}-\beta_{0},\varepsilon_{2}>-\beta_{0} \right)-\left(1-\eta\right)\Pr\text{(carr\'{e} central, graphique 1})\end{array} \tag{4}\]
+
+ou le carre central, graphique 1 est determine par les contraintes :
+
+\[-\beta_{0}<\varepsilon_{1}\leq\beta_{1}-\beta_{0},-\beta_{0}<\varepsilon_{2} \leq\beta_{1}-\beta_{0}.\]
+
+Sans restrictions sur la fonction de repartition des variables \(\varepsilon_{i}\) en fonction de covariables (par exemple l'independance) les parametres \(\beta_{1}\) et \(\beta_{0}\) et les fonctions de repartitions des \(\varepsilon\) ne peuvent etre identifiees et pour affirmer que le modele est complet on raisonnera directement sur les probabilites des regions definies par le graphique 1. Ces probabilites sont identifiees par les equations ci-dessus si le parametre \(\eta\) est donne. Il nous faut alors identifier quatre probabilites, par exemple : \(\Pr\left(\varepsilon_{1}\leq-\beta_{0},\varepsilon_{2}\leq-\beta_{0}\right)\), \(\Pr\left(\varepsilon_{1}>\beta_{1}-\beta_{0},\varepsilon_{2}>\beta_{1}-\beta_{0 }\right)\), \(\Pr\left(\varepsilon_{1}>-\beta_{0},\varepsilon_{2}\leq\beta_{1}-\beta_{0}\right)\) et \(\Pr\left(\varepsilon_{1}\leq\beta_{1}-\beta_{0},\varepsilon_{2}>-\beta_{0} \right)\)7. Les deux premieres sont directement identifiees par les deux premieres equations (3) et les deux derniere s obissent aux contraintes derivees des equations (4) sous les contraintes, \(\eta\in[0,1]\) et \(0\leq\Pr(\text{carre central},\) graphique \(1)\!\!\leq\!\min\Bigl{(}\Pr\bigl{(}\varepsilon_{1}>-\beta_{0},\varepsilon_{2} \leq\beta_{1}-\beta_{0}\bigr{)},\Pr\bigl{(}\varepsilon_{1}\leq\beta_{1}-\beta_ {0},\varepsilon_{2}>-\beta_{0}\bigr{)}\Bigr{)}.\)
+
+De la meme facon que dans l'exemple precedent, ces contraintes s'ecrivent comme des inegalites de moment. De plus, tout vecteur de probabilites appartenant a l'ensemble identifie correspond a une probabilite de selection d'equilibres realisables, \(\eta\in[0,1]\), ce qui permet de dire que cet intervalle est identifie de maniere exacte. Ces resultats s'etendent aussi a des jeux a plusieurs joueurs (voir par exemple, Galichon et Henry, 2011) mais d'une facon plus sophistiquee dont nous discutons maintenant.
+
+### Discussion
+
+Les principaux resultats obtenus dans ces exemples s'etendent au cas d'ensembles identifies de dimension quelconque. Ces resultats experiment les restrictions identifiantes sur les parametres comme des contraintes a l'inegalite sur des fonctions lineaires ou non lineaires des coefficients et conduisent donc a un ensemble fini ou infini d'inegalites de moments. Une question plus difficile est de montrer que la caracterisation par ces inegalites de moment est equivalente a la caracterisation par les restrictions ensemblistes. Dans ce cas, le modele est identifie partiellement mais exactement (c'est-a-dire _sharply_).
+
+Ces extensions necessitent pourtant des outils plus sophistiques que ceux que nous avons utilises. Dans les modeles structurels et en particulier ceux derives de la theorie des jeux, Galichon et Henry (2009, 2011) expliquent comment utiliser des outils comme les capacites de Choquet et les methodes de transport optimal pour resoudre la question d'identification exacte et construire l'ensemble des inegalites de moment qui sont necessaires et suffisantes pour l'identification exacte des parametres. Alternativement, Beresteanu, Molchanov et Molinari (2012) expliquent comment des methodes d'ensembles aleatoires convexes permettent aussi la resolution de ces questions. Ces outils sont aussi applicables aux modeles reduits tenant compte de la censure des variables comme ceux developpes dans Horowitz et Manski (1995), Manski et Pepper (2000) ou plus generalement le livre de revue par Manski (2003). D'autres encore, combinent modeles structurels et censure des donnees (Galichon et Henry, 2013).
+
+Dans un cadre d'inegalites de moment, les methodes d'estimation sont derivees par analogie ou en construisant des criteres de distance a l'ensemble identifie (qui seront presentes plus loin) puisqu'ils servent aussi dans les methodes d'inference. Pour estimer un intervalle comme celui presente dans l'exemple \(1\), on peut se contenter d'estimer directement les deux bornes, superieure et inferieure de l'intervalle (par exemple, Imbens et Manski, 2004). Pour un ensemble, c'est plus difficile sauf si cet ensemble est convexe et ce cas sera analyse dans la section 2.3.
+
+Certains auteurs omettent l'estimation << ensembleliste >> et passent directement a l'estimation par regions de confiance et donc a l'inference que nous presentons maintenant. Notons toutefois un point final relatif a l'identification. De maniere generale, il semble important pour l'inference de controler la dimension de la fonction inconnue a qui s'applique la restriction ensembliste. Nous en verrons des exemples plus loin.
+
+## 2 Methodes d'inference
+
+Les techniques generales d'inference reposent soit sur la construction d'une fonction critere et l'inversion d'un test base sur cette fonction (Chernozhukov, Hong et Tamer, 2007) soit sur la caracterisation directe de la frontiere (Beresteanu et Molinari, 2008; Bontemps _et al._, 2012). On peut resumer ces deux methodes par :
+
+* En notant \(\Theta_{I}\) l'ensemble identifie, on construit un test de niveau \(\alpha\) pour toute valeur de \(\theta\) : \[H_{0}:\Theta_{I}\,\mathfrak{g},\qquad H_{a}:\mathfrak{g}\in\Theta_{I}\] et on inverse ce test. Tous les \(\mathfrak{g}\) qu'on ne rejette pas, appartiennent a l'ensemble de confiance de degre de confiance \(1-\alpha\).
+* On estime la frontiere de l'ensemble identifie \(\Theta_{I}\) et on utilise sa variabilite dans l'echantillon pour construire les regions ou intervalles de confiance. On remarquera que cette demarche repose aussi _in fine_ sur l'inversion d'un test comme la methode precedente mais elle est rendue plus facile par l'estimation de la frontiere. Cette demarche est typique quand l'ensemble est convexe (voir section 2.3).
+
+Dans le premier cas, on se posera aussi des questions sur la selection des moments a l'inegalite qui sont pertinents (Andrews et Soares, 2011; Andrews et Barwick, 2012; Andrews et Shi, 2013). D'autre part, les methodes caracterisant la frontiere peuvent amener a des inegalites de moment qui sont des intersections de bornes (Chernozhukov, Lee et Rosen, 2013).
+
+C'est cet ensemble de questions que nous etudions dans cette section. En guise de preliminaire, on discutera deux points qui distinguent les objets des recherches. D'abord, il semble souvent raisonnable d'imposer que l'inference soit robuste a la variation de la vraie loi de probabilite des donnees puisque celle-ci est inconnue. On considerera alors que la vraie loi de probabilite des donnees varie dans un ensemble large de lois de probabilites sous-jacentes et on construira la procedure d'inference en tenant compte de cette variation. On dira alors dans ce cas que l'inference est uniforme (par rapport a l'ensemble considere de lois de probabilites). Deuxiemement, on se demande si l'objet est de couvri par une region de confiance, soit un point, c'est-a-dire une seule vraie valeur des parametres, soit un ensemble de valeurs distinctes.
+
+### 2.1 _Couverture d'un point ou d'un ensemble et uniformite de l'inference_
+
+La question de la couverture d'un point ou d'un ensemble est la question la plus simple a exposer meme si elle necessite quelques notations. Supposons que la loi des donnees observables est \(P\) et denotons \(\Theta_{t}(P)\) l'ensemble identifie c'est-a-dire toutes les valeurs compatibles avec \(P\) (et implicitement toutes les autres restrictions structurelles que nous avons faites). Si nous voulons couvrir un point unique \(\theta\) par un intervalle ou une region de confiance \(I_{{}_{n}}\) a un niveau de confiance asymptotique au moins egal a \(1-\alpha\), il nous faut alors chercher \(I_{{}_{n}}\) comme solution de:
+
+\[\lim\inf_{n\to\infty}\Biggl{(}\inf_{\theta\in\Theta_{I}(P)}\Pr(\theta\in I_{n} )\Biggr{)}\geq 1-\alpha. \tag{5}\]
+
+On voit que l'identification partielle a consiste a remplacer dans cette expression la vraie valeur d'un parametre ponctuellement identifie \(\theta_{{}_{0}}(P)\) par toute les valeurs appartenant a l'ensemble identifie, \(\Theta_{t}(P)\).
+
+Dans le premier exemple developpe plus haut de censure de la variable dependante par intervalles, l'intervalle de confiance prendra la forme, \(I_{n}=\left[\hat{\beta}^{L}_{1,n}-\hat{c}^{L}_{n},\hat{\beta}^{U}_{1,n}+\hat{ c}^{U}_{n}\right]\) ou \(\hat{\beta}^{L}_{1,n}\) et \(\hat{\beta}^{U}_{1,n}\) sont les estimateurs, respectivement des bornes inferieure et superieure des quantites definies par l'equation (1) et ou \(\hat{c}^{L}_{n}\) et \(\hat{c}^{U}_{n}\) sont des estimateurs dependant de la loi jointe des estimateurs des bornes et d'une valeur critique qui s'ajuste par l'equation (5). Cet ajustement se fait pour toutes les valeurs possibles de \(\theta\) dans l'intervalle identifie defini dans l'equation (1) au lieu de ne le faire que pour une seule valeur du parametre comme dans le cas d'identification ponctuelle. Cette construction est exposee de maniere precise par Imbens et Manski (2004).
+
+Cette construction couvre un point, la supposee unique valeur vraie des parametres. Mais maintenant que l'ensemble identifie a une << epaisseur >>, on pourrait vouloir couvrir des regions ou intervalles \(I\) au lieu de singletons \(\{\theta\}\). On cherche alors des regions \(I_{{}_{n}}\) qui satisfont la condition de niveau de confiance asymptotique au moins egal a \(1-\alpha\),
+
+\[\lim\inf_{n\to\infty}\Biggl{(}\inf_{I\subset\Theta_{I}(P)}\Pr(I\subset I_{n}) \Biggr{)}\geq 1-\alpha\.\]
+
+La plupart des applications econometriques s'attachent a couvrir un point mais il y a un certain nombre d'opinions dissidentes et la litterature est partagee entre ces deux presentations. Par exemple, Romano et Shaikh (2008, 2011) etudient les deux cas dans deux articles differents. Remarquons pourtant que la deuxieme condition est plus contraignante que la premiere puisque les singletons sont des intervalles degeneres (voir par exemple, Henry et Onatski, 2012). Les regions de confiance couvrant des ensembles sont donc generalement plus grands que ceux couvrant des points, \(\theta\in\Theta_{t}(P)\).
+
+D'autre part, la question de l'_uniformite_ peut s'aborder dans un cadre simple d'inference a une seule dimension comme dans l'exemple 1. L'intervalle identifie est decrit par une borne superieure et par une borne inferieure comme dans l'equation (1) et on suppose que ces bornes sont des fonctions de moments dans les donnees. Comme nous l'avons dit plus haut, l'estimation de ces bornes est effectuee directement par la construction de contreparties empiriques a ces fonctions des moments. Les intervalles de confiance pour les bornes inferieures et superieures << combinent >> alors des elements tenant compte de la distribution jointe des estimateurs des bornes. Neanmoins, les deux bornes estimees peuvent etre suffisamment proches (au sens de la metrique donnees par leurs ecarts-types) et leurs intervalles de confiance peuvent se chevaucher. La resolution de cette difficulte fut proposee par Imbens et Manski (2004) et et etendue par Stoye (2009). Les auteurs construisent des intervalles de confiance dont les proprietes statistiques sont robustes au fait que le vrai intervalle identifie est aussi petit que l'on veut (y compris un point).
+
+En retournant au cas general, admettons que nous voulions couvrir un point de facon uniforme. Supposons que le vrai processus generateur de donnees appartient a une famille \(\mathcal{P}\). Dans l'exemple 1 de variable dependante censurce par intervalles, on inclura par exemple dans cette famille les cas ou il n'y a pas de censure ce qui fait que la largeur des intervalles d'observation peut etre nulle, \(\delta_{i}=0\). Dans ce cas, le parametre \(\beta_{1}\) est identifie. Puis on cherchera un intervalle de confiance \(I_{n}\) a un niveau de confiance asymptotique au moins egal a \(1-\alpha\) qui satisfait a:
+
+\[\lim\inf_{n\to\infty}\Biggl{(}\inf_{P\in\mathcal{P},\theta\in\Theta_{I}(P)} \Pr(\theta\in I_{n})\Biggr{)}\geq 1-\alpha\,. \tag{6}\]
+
+Ici aussi, la condition est plus contraignante que dans le cas non uniforme et les intervalles de confiance uniformes sont donc plus grands que ceux qu'on avait definis auparavant. C'est pourtant ce cas qui parait le plus interessant puisqu'on n'a pas toujours une idee bien precise sur la vraie loi des donnees \(P\) et son domaine de variation \(\mathcal{P}\). L'uniformite a d'ailleurs des definitions aussi variees que la variation de \(\mathcal{P}\).
+
+### Techniques generales d'inference
+
+On decrit rapidement ici differentes techniques d'inference proposees dans la litterature recente. Les premiers auteurs a utiliser une fonction critere positive qui prend une valeur nulle pour les points se situant a l'interieur de l'ensemble identifie, ont ete Chernozhukov _et al._ (2007) et ils ont ete suivis par Rosen (2008), Andrews et Soares (2010), Romano et Shaikh (2010) et bien d'autres. Le point de depart de cette litterature est l'etude d'un nombre fini de conditions de moment a l'inegalite. La litterature la plus recente l'etend a un cadre ou il y a une infinite de moments a l'inegalite. L'article d'Andrews et Shi (2013) s'interesse en particulier a la transformation de moments conditionnels a l'inegalite en un nombre fini mais croissant avec la taille d'echantillon, de moment non conditionnels. Une autre methode est fournie par Chernozhukov, Lee et Rosen (2013) qui developpent une methoded'inference pour une borne dans le cas ou il y a une infinite de conditions de moments contenant cette borne. D'autres auteurs comme Menzel (2008), Ponomareva (2010) ou Armstrong (2011) etudient aussi ces cas en detail. Notons que l'utilisation du _bootstrap_ a des aspects delicats puisque le _bootstrap_ aaf >> ne marche pas (Andrews et Guggenberger, 2010). Des _bootstraps_ sophistiques sont disponibles par exemple dans Bugni (2010), Andrews et Barwick (2012) et dans Henry, Meango et Queyranne (2013) ou Romano, Shaikh et Wolf (2013).
+
+#### 2.2.1 Utilisation d'une fonction critere
+
+On suppose qu'il existe une fonction critere \(Q(\theta)\geq 0\) qui decrit l'ensemble identifie \(\Theta_{l}\) par la condition :
+
+\[\theta\in\Theta_{l}\Leftrightarrow Q(\theta)=0.\]
+
+Par exemple, si on suppose que les restrictions forment un systeme fini de conditions de moments a l'inegalite :
+
+\[E\big{(}h_{j}\big{(}Y,X,\theta\big{)}\big{)}\leq 0\ \ \text{ pour }\ j=1,..,J\]
+
+alors on peut definir une version de la fonction \(Q(\theta)\) comme :
+
+\[Q(\theta)=\sum_{j=1}^{J}\big{[}Eh_{j}\big{(}Y,X,\theta\big{)}\big{]}^{2}1 \big{\{}Eh_{j}\big{(}Y,X,\theta\big{)}>0\big{\}}\,.\]
+
+La valeur du critere pour tout point hors de l'ensemble \(\Theta_{l}\) est ainsi quadratique en la distance a 0 des moments en ce point. Cette construction s'applique directement au premier exemple etudie plus haut. Les equations (2) utilisent en effet deux fonctions :
+
+\[h_{1}\big{(}y_{il},x_{i},\delta_{i},\beta_{1}\big{)}=y_{il}x_{i} +\delta_{i}x_{i}1\big{\{}x_{i}<0\big{\}}-\beta_{1}x_{i}^{2}\,,\] \[h_{2}\big{(}y_{il},x_{i},\delta_{i},\beta_{1}\big{)}=\beta_{1}x _{i}^{2}-y_{il}x_{i}-\delta_{i}x_{i}1\big{\{}x_{i}>0\big{\}}.\]
+
+Une infinite de telles fonctions critere s peuvent etre definies et leurs proprietes comparees (Andrews et Shi, 2013 par exemple). Ici on utilise une fonction du type Cramer-von Mises qui somme les ecarts quadratiques mais on pourrait utiliser une approche de type Kolmogorov en retenant le maximum de ces ecarts. D'apres les travaux d'Andrews et de ses coauteurs, la deuxieme construction semble domaine par la premiere (par exemple, Andrews et Barwick, 2012). Une ponderation des conditions de moments en fonction de leur matrice de covariance est aussi recommandee par ces auteurs comme dans une approche de methode generalisee de moments (GMM) pour des restrictions de moment a l'egalite.
+
+La contrepartie empirique de cette fonction critere dans un echantillon de taille \(n\) et d'observations \((y_{i},x_{j})_{i\ =\ 1,..,n}\) est construite a partir des contreparties empiriques des moments, par exemple \(h_{jn}(\theta)=\frac{1}{n}\sum_{i=1}^{n}h_{j}\big{(}y_{i},x_{i},\theta\big{)}\) et en notant :\[Q_{n}(\theta)=\sum_{j=1}^{J}h_{jn}(\theta)^{2}1\left\{h_{jn}(\theta)>0\right\}.\]
+
+Chernozhukov _et al._ (2007) proposed alors la construction de l'estimateur de l'ensemble comme :
+
+\[\hat{\Theta}_{n}=\left\{\theta;Q_{n}(\theta)<\tau_{n}\right\}\]
+
+ou \(\tau_{n}\) est un parametre de lissage qui respecte les conditions aux limites :
+
+\[\tau_{n}\mid\sqrt{n}\to 0,\sqrt{\ln\ln n}\mid\tau_{n}\to 0.\]
+
+Ils proposent aussi directement l'estimation d'une region de confiance :
+
+\[\hat{\Theta}_{n}^{C}=\left\{\theta;Q_{n}(\theta)<c_{n}\left(\hat{\Theta}_{n},1 -\alpha\right)\right\}\]
+
+a un niveau \(1-\alpha\). On peut voir cette construction comme l'inversion du test d'appartenance du parametre \(\theta\) a l'ensemble identifie \(\Theta_{t}\).
+
+Le _point delicat_ est le calcul de la valeur critique \(c_{n}\) qui se fait par sous-echantillonnage (<< _subsampling_>>, Chernozhukov _et al._, 2007; Romano et Shaik, 2010) ou par _bootstrap_ (Bugni, 2010) en montrant que la region de confiance ainsi construite respecte la condition de couverture asymptotique donnee par l'equation (5) ou l'equation (6). La difficulte de ces papiers vient de la technicite des demonstrations asymptotiques.
+
+#### 2.2.2 Selection de moments
+
+Quand on teste une vraie valeur du parametre \(\theta_{0}\), on peut ameliorer l'inference, c'est-a-dire le pouvoir du test conduisant a la construction de la region de confiance pour la vraie valeur (ou du vrai ensemble) du parametre au niveau \(1-\alpha\) si on reconnant que les conditions de moments a l'inegalite peuvent ne pas etre toutes saturees en meme temps. Les moments d'indice \(j\) tels que
+
+\[E(h_{j}(Y_{i},X_{i},\theta_{0}))<0\]
+
+ne << comptent >> pas. Seuls les moments d'indice \(k,\ E\left(h_{k}\left(Y_{i},X_{i},\theta_{0}\right)\right)=0\) comptent mais le point delicat est qu'on ne sait quels moments comptent ou ne comptent pas.
+
+Andrews et Soares (2010) dans un cadre de conditions en nombre fini et son extension, Andrews et Shi (2013), dans le cadre d'un systeme de conditions de moments conditionnels proposent la methode suivante qu'ils appellent _selection generalisee de moments_ (GMS). Pour le test d'appartenance du parametre \(\theta\) a l'ensemble identifie \(\Theta_{l}\) on n'utilisera pour la construction de la valeur critique \(c_{n}\) associee a ce test que les conditions de moments qui sont proches de la saturation. Les auteurs proposent que ce soient les donnees qui decident en fonction de la distance a la saturation de chaque moment. Pour calculer \(c_{n^{\prime}}\) ces auteurs apparent aussi differentes techniques asymptotiques, par calcul de la variance asymptotique, _bootstrap_ ou par _subsampling_. La derniere technique proposee en premier par Chernozhukov _et al._ (2007) et reprise par Romano et Shaikh (2010) semble dominee par les autres propositions qui ont un meilleur comportement a distance finie, comme le montrent les travaux plus recents de Andrews et coauteurs.
+
+D'autre part, pour assurer la aussi, un meilleur comportement a distance fini (mais dont les proprietes ne reposent pour l'instant que sur des experiences de Monte-Carlo), Andrews et Barwick (2012) construisent une _selection affinee de moments_ (_Refined Moment Selection_). La selection de moments se fait alors en utilisant un critere plus lache de selection et qui ne varie pas avec le nombre d'observations tout en corrigeant le niveau du test a cause du caractere conservateur d'une telle methode. Une simplification de cette methode tres intensive numeriquement et en particulier dans le cas ou le nombre de moments est important est proposee par Romano, Shaikh et Wolf (2012) au prix d'un caractere legerement conservateur de la procedure et donc d'une legere perte de puissance.
+
+#### 2.2.3 Intersection de bornes
+
+Quand il y a des moments surnumeraires, on peut exploiter plusieurs ou une infinite de conditions de moments. Par exemple, il existe de nombreux exemples (par exemple, Manski et Pepper, 2000) ou les conditions estimantes sont ecrites comme :
+
+\(\theta\leq E\left(h\left(Y_{i},X_{i},Z_{i}\right)\right|Z_{i}=z\right)\), pour tout \(z\)
+
+et donc satisfont necessairement :
+
+\(\theta\leq\inf_{z}\left[E\left(h\left(Y_{i},X_{i},Z_{i}\right)\right|Z_{i}=z \right)\right].\)
+
+Si on note \(h_{{}_{n}}(z)\) un estimateur dans un echantillon de taille \(n\), par exemple un estimateur non parametrique, de \(E\left(h\left(Y_{i},X_{i},Z_{i}\right)\right|Z_{i}=z\right)\), estimer cette borne par la contrepartie empirique :
+
+\[\inf_{z}\left(h_{n}\left(y_{i},x_{i},z\right)\right) \tag{7}\]
+
+est severement biaisee vers le bas a distance finie puisqu'on ne controle pas la variabilite de l'echantillonnage et donc la variation de la variance de \(h_{{}_{n}}(z)\) en fonction de \(z\). L'argument de l'infimum de la fonction estimee dans l'equation (7) a une forte tendance a etre un point \(z\) pour lequel l'estimation est tres bruitee.
+
+Chernozhukov, Lee et Rosen (2013) proposent de resoudre ce probleme en construisant l'intervalle de confiance de la borne en utilisant l'estimateur :
+
+\(\inf_{z}\left[h_{n}(z)+c_{n}v_{n}(z)\right]\)
+
+ou \(v_{n}\) est un estimateur de la variance de la contrepartie empirique en \(z\). On rajoute donc dans la fonction objectif un terme qui penalise les regions ou la variable par rapport a laquelle on prend l'infimum conduit a des variances importantes de l'objectif. La difficulte la-aussi est le calcul de la valeur critique \(c_{{}_{n}}\). La plus grande partie de l'article est consacree a cette construction et a la justification asymptotique de cette construction.
+
+### Structure additionnelle : convexite
+
+Dans certains cas et en particulier dans les cas ou les moments sont lineaires, I'ensemble identifie est convexe. L'idee est alors de remplacer l'estimation et l'inference construites pour un ensemble par l'estimation et l'inference pour une fonction, la fonction support. En effet, cette fonction caracterise completement l'ensemble identifie convexe par ses coordonnees polaires (par exemple, Rockafellar, 1970). Beresteanu, Molchanov et Molinari (2012) developpent le cadre general dans lequel la theorie des ensembles aleatoires peut etre utilisee et qui fournit une autre justification de la fonction support.
+
+La fonction support d'un ensemble convexe \(B\) est definie par :
+
+\[\delta^{*}\big{(}q\,|\,B\big{)}=\sup_{B\in B}\big{(}q^{T}\beta\big{)}\text{ pour toutes directions, }q\text{ telles que }\|\,q\,\|=1,\]
+
+qui caracterise l'ensemble convexe \(B\) :
+
+\[\beta\in B\Leftrightarrow\forall q,\|\,q\,\|=1,q^{T}\beta\leq\delta^{*}\big{(}q \,|\,B\big{)}.\]
+
+Cette construction est illustree dans le graphique 2.
+
+GRAPHique 2
+
+La fonction support d'un ensemble convexePar exemple, dans le cas de censure par intervalles etudie par Stoye (2007), dans un modele de prediction lineaire, extension de l'exemple 1 a un cadre multidimensionnel, on ecrit que:
+
+\[y_{i}^{*}=x_{i}\beta+\epsilon_{i},y_{i}^{*}\in\big{[}y_{iL},y_{iL}+\delta_{i} \big{]}.\]
+
+Par notre argumentation habituelle, le vecteur de parametres \(\beta\) appartient a l'ensemble identifie, \(\Theta_{i}\) si et seulement s'il existe une variable \(t_{i}\) de fonction de repartition \(\eta=F(.1x_{i},\delta_{i},y_{iL})\) sur [0,1] et qui complete les donnees par l'intermediaire de:
+
+\[y_{i}^{*}=y_{iL}+\delta_{i}t_{i},\]
+
+comme dans l'exemple 1. Ceci permet alors d'ecrire:
+
+\[\beta=\big{(}E(x_{i}^{T}x_{i})\big{)}^{-1}\,E\Big{(}x_{i}^{T}\,\big{(}y_{iL}+t _{i}\delta_{i}\big{)}\Big{)},\]
+
+ce qui permet d'affirmer d'abord que l'ensemble est convexe puisque l'intervalle auquel \(t_{i}\) appartient, [0,1] est convexe. Cela permet ensuite decrire la fonction support comme:
+
+\[\delta^{*}\big{(}q\,|\,B\big{)}=\sup_{\beta\in B}\Big{(}q^{T}\beta\Big{)}= \sup_{\eta_{i}\in 0,1]}\bigg{(}q^{T}\,\Big{(}E(x_{i}^{T}x_{i})\Big{)}^{-1}\,E \Big{(}x_{i}^{T}\,\big{(}y_{iL}+t_{i}\delta_{i}\big{)}\Big{)}\bigg{)}.\]
+
+Quelques calculs simples permettent d'obtenir la fonction support comme des moments des donnees (voir Bontemps _et al._, 2012):
+
+\[\delta^{*}\big{(}q\,|\,B\big{)}=E\Big{(}z_{q}w_{q}\Big{)}=q^{T}\,\Big{(}E\big{(} x^{T}x\big{)}\Big{)}^{-1}\,E\bigg{(}\,x^{T}\,\Big{(}1\Big{\{}q^{T}E\big{(}x^{T}x \big{)}^{-1}\,x^{T}>0\Big{\}}\delta+y_{L}\Big{)}\bigg{)}.\]
+
+Un estimateur de cette quantite peut etre exprime comme un estimateur MCO dans chaque direction \(q\). En effet, l'expression du point de la frontiere tangent a l'ensemble identifie et perpendiculaire a la direction \(q\) (voir le graphique 2) s'ecrit:
+
+\[\beta_{q}=\Big{(}E\big{(}x^{T}x\big{)}\Big{)}^{-1}\,E\bigg{(}\,x^{T}\,\Big{(}1 \Big{\{}x_{q}>0\Big{\}}\delta,+y_{L}\Big{)}\bigg{)}\]
+
+et est donc obtenu comme la limite en probabilite de l'estimateur MCO, \(\hat{\beta}_{q}\), dans la prediction lineaire de la variable dependante construite en fonction des observables \(\bigg{(}1\Big{\{}q^{T}E\big{(}x^{T}x\big{)}^{-1}\,x^{T}>0\Big{\}}\delta+y_{L} \bigg{)}\) en fonction des covariables \(x\). Notons alors l'estimateur de la frontiere comme:
+
+\[\hat{\delta}_{n}^{*}\big{(}q\,|\,B\big{)}=q^{T}\hat{\beta}_{q}.\]
+
+Les methodes d'inference sont developpees par Beresteanu et Molinari (2008) et Bontemps _et al._ (2012). Sous certaines hypotheses de regularite de la frontiere (qui exclut en particulier des variables discretes), ces auteurs montrent que le processus stochastique \(\sqrt{n}\,\Big{(}\hat{\delta}_{n}^{*}\big{(}q\,|\,B\big{)}-\delta^{*}\big{(}q \,|\,B\big{)}\Big{)}\) tend uniformement en distribution quand \(n\) tend vers l'infini vers un processus stochastique gaussien. Bontemps _et al._ (2012) montrent comment l'operateur de covariance, c'est-a-dire la covariance entre les estimateurs de la fonction support concernant des directions differentess'obtient simplement en utilisant les residus des regressions dans chaque direction que nous avons decrites plus haut pour la construction de \(\hat{\beta}_{q}\). Les tests et donc les intervalles de confiance sont ecrits pour chaque direction \(q\). Sous certaines conditions techniques, l'inference est efficace (Kaido et Santos, 2011).
+
+On peut etendre ces resultats au cas des variables discretes mais les resultats asymptotiques font apparaitre un processus additionnel dans la loi asymptotique de l'estimateur de la frontiere precedente meme si ceci ne semble pas avoir d'importance a distance finie dans des experiences de Monte-Carlo (Bontemps _et al._, 2012). Ce dernier article etend aussi le cadre de prediction lineaire en etudiant des restrictions generales de moments lineaires en nombre fini mais superieur au nombre de parametres a estimer (moments surnumeraires) et l'estimation et les methodes d'inference associees.
+
+3Un echantillon d'applications empriques et autres sujets connexes
+
+Le nombre d'applications empiriques de ces principes reste reduit et n'utilise pas toujours les resultats recents sur l'inference que nous venons de passer en revue. Nous en donnons ici un echantillon non exhaustif.
+
+Un des premiers articles utilisant des concepts d'identification partielle dans un cadre empirique est celui de Hotz, Mullin et Sanders (1997). C'est un modele sous forme reduite qui posent des questions d'evaluation d'un traitement dans un cadre ou la principale variable instrumentale ne respecte pas pleinement les conditions usuelles de validite. Le parametre d'interet est l'effet causal de l'age au premier enfant pendant l'adolescence sur les comportements et resultats ulterieurs et la variable instrumentale en question est le fait de subir une fausse couche au moment de la premiere grossesse. Les fausses couches ne fournissent en effet un instrument valide que pour un sous-echanillon dans la population et il est donc contamine dans le sens d'Horowitz et Manski (1995). Cette litterature de traitement et selection inclut aussi l'article de Manski et Pepper (2000) sur les rendements de l'education. Les auteurs analysent les rendements de l'education a chacun de ses niveaux et ces niveaux sont consideres comme un traitement multiple. De plus, ils utilisent des hypotheses de monotonicite sur l'effet du traitement ou sur l'existence d'une variable qui augmente les revenus. Les memes auteurs analysent les effets dissuasifs de la peine de mort aux Etats-Unis (Manski et Pepper, 2013) et montrent que differentes hypotheses conduisent a des conclusions diametralement opposees.
+
+Un autre exemple d'estimation sous forme reduite dans un cadre de selection inclut l'article de Honore et Lleras-Muney (2006). Ces deux auteurs estiment des bornes sur l'evolution au cours des 40 dernieres annees aux Etats-Unis des deux causes de mortalite principales que sont les maladies du coeur et le cancer. Ces causes sont traitees comme des risques concurrents dans un modele de duree et la correlation entre ces risques est le parametre qui n'est pas identifiable. Les auteurs montrent que les progres dans la lutte contre le cancer semblent avoir ete caches dans les analyses supposant des risques concurrents independants, par l'importance des progres contre les accidents cardiaques.
+
+L'evaluation de politiques publiques comme celles de stages offerts a certaines populations prend une place centrale dans la litterature recente en econometrie appliquee et a la suite de Manski, des auteurs ont developpe un certain nombre de resultats sur les bornes. Par exemple, Lee (2009) montre comment surmonter les problemes de selection dans l'emploi pour evaluer les effets d'un programme de formation, le _Job Corps_ aux Etats-Unis. Lee utilise des donnees d'experimitations controlees et une hypothese de monotonicite de l'effet du traitement sur l'emploi pour en inferer les effets du traitement sur les salaires _conditionnellement_ a l'emploi. Le cadre propose par Manski pour la selection est aussi applique par Blundell, Gosling, Ichimura et Meghir (2007) au cas de l'evolution des rendements de l'education et ceci en fonction de la non-participation pour les hommes et pour les femmes au Royaume-Uni sur les 30 dernieres annees. La litterature empirique dans ces cadres de traitement et de selection est donc assez bien developpee et d'autres references auraient pu etre donnees.
+
+Plus rares sont les applications structurelles. L'un des premiers exemples est celui presente par Haile et Tamer (2003). Les auteurs developpent un modele structurel dans des encheres ascendantes qui sont un cadre d'encheres dont les parametres sont notoirement difficiles a identifier car l'information observee y est particulierement reduite. Les auteurs n'exploitent que certaines contraintes de rationalite sur le comportement des agents et ne font pas d'hypotheses distributionnelles pour estimer les valeurs privees des encherisseurs. Les auteurs supposent que les acheteurs potentiels n'encherissent que jusqu'a la valeur qu'ils conferent a l'objet et ne laissent pas l'objet etre vendu a un prix inferieur a cette valeur.
+
+Un autre exemple est fourni par Pakes, Porter, Ho et Ishii (2006) et son extension dans Pakes (2010). Ce dernier developpe l'estimation de modeles structurels sous des contraintes de rationalite tres generales sur des choix ordonnes (comme le nombre de comptoirs de retraits bancaires, _ATM_) ou dans des jeux non cooperatifs entre hopitaux et _HMOs_. Ces contraintes a l'inegalite s'appuient sur des restrictions sur les choix observes des entreprises et les parametres d'interet sont les fonctions de profit des agents. Les choix faits par les entreprises doivent leur rapporter des profits qui sont superieurs a ceux qu'elles obtiendraient si elles prenaient d'autres decisions. De la meme facon, Ciliberto et Tamer (2009) estiment un modele structurel derive d'un jeu d'entree sur des lignes ariennes reliant deux aeroports en utilisant des donnees americaines et des restrictions derivees de la rationalite des entreprises. Ce modele generalise le deuxieme exemple introduit plus haut et cet article utilise une methode d'estimation derivee de Chernozhukov, Hong et Tamer (2007). Henry et Mourifie (2012) etudient la concurrence politique et le modele spatial de vote et montrent comment, malgre l'identification partielle, tester ce modele. Les auteurs le rejettent d'ailleurs en utilisant des donnees americaines.
+
+De nombreux sujets connexes se rattachent au cadre d'identification partielle. Ridder et Moffitt (2007) offrent un panorama complet de modelisations de donnees venant de sources multiples comme dans deux enquetes, par exemple, ou deux etats du mode mutuellement exclusifs. Les modeles a variation discrete dans un cadre d'equations simultanees ont fait l'objet de recherches par Chesher (2005, 2010) et Chesher et Rosen (2013), des modeles discrets polytomiques sont traites par Chesher et Smolinski (2012) et les modeles binaires a regresseur << tres exogene>> dont l'observation est discrete ou censuree par intervalles par Magnac et Maurin (2008). Par ailleurs Davezies et d'Haultfoeuille (2012) traitent de l'attrition. L'identification partielle de parametres de variance et covariance est etudiee par Horowitz et Manski (2005), Fan et Park (2010), Fan et Wu (2010) et Gomez et Pacini (2012). Nevo et Rosen (2012) et Conley, Hansen et Rossi (2011) introduisent ce que sont des instruments imparfaits. L'extension de methodes de vraisemblance empirique fait l'objet d'un article par Canay (2010). On peut ainsi voir que les domaines d'application de telles methodes sont tres larges et de nombreux autres articles que nous n'avons pas cites ici en sont la preuve.
+
+## Conclusion
+
+De facon generale, on peut decrire la demarche de l'econometre applique comme un choix d'hypotheses dite _structurelles_ qu'il ou elle applique a un ensemble de donnees pour en deriver des parametres economiques fondamentaux. La demarche traditionnelle est de chercher a completer l'ensemble d'hypotheses de telle maniere qu'un seul parametre soit le resultat de cette demarche. Par exemple en utilisant des donnees censurees, on peut identifier ponctuellement les parametres d'interet en faisant des hypotheses de normalite comme dans le cas d'un Probit ordonne dans le premier exemple expose dans cet article. Le concept d'identification partielle permet d'abandonner cette completion et admet que les structures credibles soient assez laches pour conduire seulement a l'identification d'un ensemble de valeurs des parametres d'interet. Au lieu de faire une hypothese de normalite, on fera des hypotheses d'independance vis-a-vis de variables explicatives ou d'independance en moyenne. Malgre cette extension du concept d'identification, la presentation des resultats de l'inference par regions de confiance ne change pas et les raisonnements empiriques habituels des econometres appliques restent les memes.
+
+Il est a noter pourtant que cette demarche semble anti-popperienne. Popper (2005) suggerait en effet qu'une des qualites d'une theorie est de faire des hypotheses suffisamment contraignantes pour qu'il soit facile de les falsifier ou rejeter. La demarche d'identification partielle semble au contraire se proteger contre tout rejet, en affaiblissant les hypotheses sur un certain nombre d'objets. L'assouplissement sans frein des restrictions semble donner lieu a un phenomene de regression a l'infini et le resultat en est assez peu encourageant puisque sans restrictions, on ne peut rien identifier. Des hypotheses faibles ont aussi le risque d'aboutir a des recommandations de politique economique peu precises au prix d'une robustesse qui pourrait paraitre extreme dans la plupart des domaines scientifiques.
+
+C'est pourquoi il faut interpreter cette demarche autrement. Une direction naturelle suggeree par Manski est de comparer des hypotheses de plus en plus contraignantes et qui permettent de reduire la taille de l'ensemble identifie (par exemple, la strategie empirique utilisee dans Manski et Pepper, 2000). Ce ne serontpas les donnees qui justifieront la credibilite de chaque resultat puisque les donnees restent les memes. Ce sont les hypotheses que les chercheurs doivent justifier. Si la demarche est suffisamment ouverte pour que les lecteurs evaluent la credibilite de ces restrictions, ils auront le choix de mener des raisonnements empiriques assez riches pour dire que telle hypothese entraine telle conclusion empirique ou absence de conclusion empirique. En effet, les bornes des intervalles ou regions identifiees peuvent etre larges sous des hypotheses faibles. L'absence de conclusion doit alors provoquer la recherche d'hypotheses credibles ou la construction de nouvelles donnees qui devraient permettre de rendre plus precis les resultats des demarches empiriques en economie.
+
+Il faut aussi noter en passant les difficultes pratiques de l'inference. Celle-ci est assez facile dans le cas convexe et certains programmes en Stata commence a etre ecrits, par exemple par Francesca Molinari et ses coauteurs (http://economics. cornell.edu/fmolinari/#Stata_SetBLP). Cela est aussi vrai pour l'application des methodes dans l'article de Chernozhukov _et al._ (2013) ([http://www.cemmap.ac.uk/](http://www.cemmap.ac.uk/) wps/cwp381313.pdf). Dans le cadre des inegalites de moment, les methodes generales d'inference sont innovantes mais elles prennent un certain temps. Ceci n'est qu'un probleme technique qui se resoudra par une augmentation de la puissance de calcul.
+
+Il ne me reste donc qu'a formuler un souhait qui est celui de voir un nombre plus important d'applications empiriques qui seul permettra d'evaluer la pertinence et la portee de ce courant recent de recherches theoriques pour la recherche empirique.
+
+BIBLIOGERPHIE
+
+Andrews, D.W.K et P.J. Barwick (2012), << Inference for Parameters Defined by Moment Inequalities : A Recommended Moment Selection Procedure >>, _Econometrica_, 80(6) : 2805-2826.
+
+Andrews, D.W.K. et P. Guggenberger (2009), << Validity of Subsampling and Plug-in Asymptotic Inference for Parameters Defined by Moment Inequalities >>, _Econometric Theory_, 25(3) : 669-709.
+
+Andrews, D.W.K. et P. Guggenberger (2010), << Assymptotic Size and a Problem with Subsampling and with the \(m\) out of \(n\) Bootstrap >>, _Econometric Theory_, 26(02) : 426 - 468.
+
+Andrews, D.W.K et X. Shi (2013), << Inference Based on Conditional Moment Inequalities >>, _Econometrica_, 81(2) : 609-666.
+
+Andrews, D.W.K et G. Soares (2010), << Inference for Parameters Defined by Moment Inequalities Using Generalized Moment Selection >>, _Econometrica_, 78(1) : 119-157
+
+Armstrong, T.B. (2011), << Asymptotically Exact Inference in Conditional Moment Inequality Models >>, unpublished manuscript.
+
+Beresteanu, A. et F. Molinari (2008), << Asymptotic Properties for a Class of Partially Identified Models >>, _Econometrica_, 76(4) : 763-814.
+
+Beresteanu, A., I. Molchanov et F. Molinari (2011), << Sharp Identification Regions in Models with Convex Moment Predictions >>, _Econometrica_, 79(6) : 1785-1821.
+* [Beresteanu, Molchanov et F. Molinari]Beresteanu, I. Molchanov et F. Molinari (2012), << Partial Identification Using Random Set Theory >>, _Journal of Econometrics_, 166(1) : 17-32.
+* [Blundell, Gosling, Ichimura, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meg, Meghir, Meghir, Meghir, Meghir, Meghir, Meghir, Meg,hir, Meghir, Meg,hir, Meghir, Meg,hir, Meghir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir, Meg,hir,, Meg,hir, Meg,hir, Meg,hir* [Frechet]Frechet]Frechet]M. (1951), << Sur les tableaux de correlation dont les marges sont donnees >>, _Annales de l'Universite de Lyon_, III\({}^{\circ}\) Serie Sci. A : 53-77.
+* [Frisch]Frisch]Frisch]R. (1934), _Statistical Confluence Analysis by Means of Complete Regression Systems_, Oslo, Norway : University Institute of Economics.
+* [Galichon]Galichon]Galichon]A., et M. Henry (2009), << A Test of Non-Identifying Restrictions and Confidence Regions for Partially Identified Parameters >>, _Journal of Econometrics,_ 152(2) : 186-196.
+* [Galichon]Galichon]Galichon]A. et M. Henry (2011), << Set Identification in Models with Multiple Equilibria >>, _Review of Economic Studies,_ 78(4) : 1264-1298.
+* [Galichon]Galichon]Galichon]A. et M. Henry (2013), << Dilatation Bootstrap : A Methodology for Constructing Confidence Regions with Partially Identified Models >>, _Journal of Econometrics,_ forthcoming.
+* [Gini]Gini]C. (1921), << Sull'interpololazone di una retta quando i valori della variabile indipendente sono affetti da errori accidental >>, _Metroeconomica,_ 1(1) : 63-82.
+* [Gomez]Gomez]F. et D. Pacini (2013), << Measuring Inequality from Contaminated Data >>, preprint Bristol U.
+* [Gourieroux]Gourieroux]C., J.J. Laffont et A. Monfort (1980), << Coherency Conditions in Simultaneous Linear Equation Models with Endogenous Switching Regime's >>, _Econometrica,_ 48 : 675-95.
+* [Greene]Greene]W.H. (2008), _Econometric Analysis_, Prentice Hall, 7th Edition.
+* [Haile]Haile]P. et E. Tamer (2003), << Inference with an Incomplete Model of English Auctions >>, _Journal of Political Economy_, 111(1) : 1-51.
+* [Heckman]Heckman]J.J (1978), << Dummy Endogenous Variables in a Simultaneous Equation System >>, _Econometrica,_ 46 : 931-960.
+* [Henry]Henry]H., R. Meango et M. Queyranne (2013), << Combinatorial Bootstrap Inference in Partially Identified Incomplete Structural Models >>, unpublished manuscript.
+* [Henry]Henry]M. et I. Mourifie (2012), << Set Coverage and Robust Policy >>, _Economics Letters,_ 115(2) : 256-257.
+* [Hoeffding]Hoeffding]W. (1940), << Masstabinvariante Korrelationstheorie >>, _Shriften des Mathematischen Instituts und des Instituts fur Angewandte Mathematik der Universitat Berlin,_ 5(3) : 179-233.
+* [Honore]Honore]B. et A. Lleras-Muney (2006), << Bounds in Competing Risks Models and the War on Cancer >>, _Econometrica,_ 74(6) : 1675-1698.
+* [Horowitz]Horowitz]J.L. et C.F. Manski (1995), << Identification and Robustness with Contaminated and Corrupted Data >>, _Econometrica_, 63(6) : 281-302.
+* [Hotz]Hotz]V. J., C. H. Mullin], et S. G. Sanders (1997), << Bounding Causal Effects using Data from a Contaminated Natural Experiment : Analysing the Effects of Teenage Childbearing >>, _The Review of Economic Studies_, 64(4) : 575-603.
+* [Imbens]Imbens]G. et C.F., Manski (2004), << Confidence Intervals for Partially Identified Parameters >>, _Econometrica,_ 72(6) : 1845-1859.
+* [Kaido]Kaido]H. et A. Santos (2011), << Asymptotically Efficient Estimation of Models Defined by Convex Moment Inequalities >>, preprint.
+
+* Kleper S. et E. E. Leamer (1984), << Consistent Sets of Estimates for Regressions with Errors in all Variables >>, _Econometrica,_ 52 : 163-183.
+* Leamer, E.E. (1987), << Errors in Variables in Linear Systems >>, _Econometrica,_ 55(4) : 893-909.
+* Lee, D.S. (2009), << Training, Wages, and Sample Selection : Estimating Sharp Bounds on Treatment Effects >>, _Review of Economic Studies_, 76(3) : 1071-1102.
+* Magnac, T. et E. Maurin (2008), << Partial Identification in Monotone Binary Models : Discrete Regressors and Interval Data >>, _Review of Economic Studies,_ 75(3) : 835-864.
+* Manski, C.F. (1989), << Anatomy of the Selection Problem >>, _Journal of Human Resources,_ 24(3) : 343-360.
+* Manski, C.F. (2003), _Partial Identification of Probability Distributions_, Springer-Verlag : Berlin.
+* Manski, C.F. (2005), << Partial Identification in Econometrics >>, _New Palgrave Dictionary of Economics._
+* Manski, C.F. et J.V. Pepper (2000), << Monotone Instrumental Variables : With an Application to the Returns to Schooling >>, _Econometrica,_ 68(4) : 997-1010.
+* Manski, C.F. et J.V. Pepper (2013), << Deterrence and the Death Penalty : Partial Identification Analysis Using Repeated Cross Sections >>, _Journal of Quantitative Criminology,_ 29(1) : 123-141.
+* Manski, C.F. et E. Tamer (2002), << Inference on Regressions with Interval Data on a Regressor or Outcome >>, _Econometrica,_ 70(2) : 519-546.
+* Marschak, J. et W.H. Andrews (1944), << Random Simultaneous Equations and the Theory of Production >>, _Econometrica_, 12 : 143-205.
+* McFadden, D. (1994), << Contingent Valuation and Social Choice >>, _American Journal of Agricultural Economics_, 76(4) : 689-708.
+* Menzel, K. (2008), << Estimation and Inference with many Moment Inequalities >>, Preprint, Massachussetts Institute of Technology.
+* Nevo, A. et A. M. Rosen (2012), << Identification with Imperfect Instruments >>, _Review of Economics and Statistics_, 94(3) : 659-671.
+* Pakes, A. (2010), << Alternative Models for Moment Inequalities >>, _Econometrica_, 78(6) : 1783-1822.
+* Pakes, A., J. Porter, K. Ho et J. Ishii (2006), << Moment Inequalities and Their Applications >>, working paper.
+* Ponomareva, M. (2010), << Inference in Models Defined by Conditional Moment Inequalities with Continuous Covariates >>, Unpublished manuscript, Department of Economics, University of Western Ontario.
+* Ponomareva, M. et E. Tamer (2011), << Misspecification in Moment Inequality Models : Back to Moment Equalities >>, _Econometrics Journal,_ 14(2) : 186-203.
+* Popper, K. (2005), _The Logic of Scientific Discovery_, London and New York : Routledge/Taylor & Francis.
+
+* Ridder et al. (2007)Ridder, G. E. et R. Moffitt (2007), << The Econometrics of Data Combination >>, _in_Heckman, J.J. et E. E. Leamer (eds), _Handbook of Econometrics_, vol. 6, North-Holland, Amsterdam, chap. 75.
+* Rockafellar (1970)Rockafellar, R.T. (1970), _Convex Analysis,_ Princeton University Press : Princeton.
+* Romano et al. (2008)Romano, J.P. et A.M. Shaikh (2008), << Inference for Identifiable Parameters in Partially Identified Econometric Models >>, _Journal of Statistical Planning and Inference_, 138(9) : 2786-2807.
+* Romano et al. (2010)Romano, J.P. et A.M. Shaikh (2010), << Inference for the Identified Set in Partially Identified Econometric Models >>, _Econometrica_, 78(1), 169-211.
+* Romano et al. (2012)Romano, J.P., A.M. Shaikh et M. Wolf (2012), << A Simple Two-step Method for Testing Moment Inequalities with an Application to Inference in Partially Identified Models >>, available at SSRN 2137550.
+* Rosen (2008)Rosen, A.M. (2008), << Confidence Sets for Partially Identified Parameters that Satisfy a Finite Number of Moment Inequalities >>, _Journal of Econometrics_, 146(1) : 107-117.
+* Rothenberg (1971)Rothenberg, T. J. (1971), << Identification in Parametric Models >>, _Econometrica_, 39 : 577-591.
+* Stoye (2007)Stoye, J. (2007), << Bounds on Generalized Linear Predictors with Incomplete Outcome Data >>, _Reliable Computing_, 13(3) : 293-302.
+* Stoye (2009)Stoye, J. (2009), << More on Confidence Intervals for Partially Identified Parameters >>, _Econometrica_, 77(4) : 1299-1315.
+* Tamer (2003)Tamer, E. (2003), << Incomplete Simultaneous Discrete Response Model with Multiple Equilibria >>, _The Review of Economic Studies_, 70(1) : 147-165.
+* Tamer (2010)Tamer, E. (2010), << Partial Identification in Econometrics >>, _Annual Review of Economics_, 2 : 167-195 
+
+

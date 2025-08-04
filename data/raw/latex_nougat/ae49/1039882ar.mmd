@@ -1,0 +1,230 @@
+Combiner les experiences de terrain et la modelisation structureelle : le cas de la reciprocite en milieu de travail.
+
+Charles BELLEMARE
+
+Departement d'economique
+
+Universite Laval
+
+CIRPE
+
+IZA
+
+cbellemare@ecn.ulaval.ca
+
+Steeeve MARCHAND
+
+Departement d'economique
+
+Universite Laval
+
+CIRPE
+
+steeeve.marchand@ecn.ulaval.ca
+
+Bruce SHEARER
+
+Departement d'economique
+
+Universite Laval
+
+CIRPE
+
+IZA
+
+CIRANO
+
+bruce.shearer@ecn.ulaval.ca
+
+###### Resume
+
+Nous considerons le role que l'econometrie structureelle peut apporter a la generalisation des resultats d'experiences de terrain. Nous illustrons cette valeur ajoutee dans le contexte de la recherche sur la reciprocite en milieu de travail. Nous y considerons la reaction des travailleurs a une augmentation de salaire (la reciprocite positive) ainsi qu'a une reduction de salaire (la reciprocite negative). Les entreprises peuvent ne pas vouloir effectuer des experiences dans lesquelles elles coupent le salaire de leurs employes, ce qui limite notre capacite a mesurer la reciprocite negative. Nous montrons que des resultats d'experiences qui impliquent une augmentation de salaire peuvent servir a estimer les parametres structureuels qui generent les reactions des travailleurs aux cadeaux. Ces parametres permettent ensuite de predire la reaction a une reduction de salaire.
+
+## Introduction
+
+Les experiences de terrain representent un outil de recherche puissant pour les chercheurs qui veulent tester la theorie economique et evaluer l'impact des politiques sociales ainsi que des contrats sur la performance des organisations. Les experiences permettent aux chercheurs de varier les traitements de maniere a reproduire directement les previsions theoriques (List et Rasul, 2011). Elles permettent egalement l'evaluation de l'impact des politiques sociales en l'absence de biais de selection (Burtless, 1995; Heckman et Smith, 1995). Dans le contexte de l'economie de l'entreprise, les experiences de terrain permettent aux chercheurs d'evaluer des politiques reliees a la remuneration des travailleurs dans les firmes en variant de maniere exogene la remuneration (Chiappori et Salanie, 2003). Des exemples d'experiences memees a terme a l'interieur des entreprises incluent Shearer (2004), Fehr et Goette (2007), Bandiera, Barankay et Rasul (2007). Cependant, chaque experience considere un nombre limite de traitements dans un etat du monde specifique, soit l'environement de l'experience. Ce fait souleve des questions sur le comportement possible des participants si ceux-ci avaient ete exposes a d'autres traitements ou a d'autres etats du monde. Bien que la repetition d'experiences avec d'autres traitements represente une maniere possible de generaliser les resultats, celle-ci est coiteuse et parfois meme impossible a realiser lorsque l'etat du monde est hors de controle du chercheur, ou encore en presence de contraintes institutionnelles. Une alternative permettant la generalisation des resultats dans ces circonstances est l'analyse de donnees experimentales par l'entremise de modeles structurels.
+
+Nous illustrons les beneficies de l'estimation structurele en nous appuyant sur des travaux experimentaux recents qui mesurent l'effet des cacheaux offerts par l'entreprise a ses employes sur leur niveau de productivite. Ces modeles sont bases sur le principe de reciprocite, selon lequel les individus qui recoivent un cadeau donnent un cadeau en retour. Ces modeles ont ete introduits en economie par Akerlof (1982)1 et font partie de l'ensemble des modeles de salaire d'efficience qui relient le salaire paye aux travailleurs a leur productivite; voir Yellen (1984) pour une revue de cette litterature. De plus, nous investiguons les concepts de reciprocite positive et negative (Fehr et Gachter, 1998) et l'approort de l'estimation structurelle a l'identification de ces effets. La reciprocite positive capte la reaction du travailleur aux actions positives de l'entreprise a son endroit, par exemple avec l'octroi d'une augmentation de salaire au-dela du salaire de marche. La reciprocite negative capte la reaction de la part du travailleur aux actions hostiles de l'entreprise le visant, par exemple avec une coupure injustifiee de salaire.
+
+Footnote 1: Les modeles de réciprocité ont éte développées en anthropologie et en sociologie (Mauss, 1923; Homans, 1954).
+
+Mesurer l'importance de la reciprocite est important pour notre comprehension des determinants de la productivite des travailleurs a l'interieur de l'entreprise et du fonctionnement du marche de l'emploi (Campbell III et Kamlani, 1997; Fehr et Gachter, 1998). Une litterature empirique s'est ainsi developpee au cours des20 dernieres annees ayant pour objectif principal de valider la presence de reciprote en laboratoire (par exemple, Fehr, Kirchsteiger et Riedl, 1993; Fehr, Gachter et Kirchsteiger, 1997) et sur le terrain (Gneezy et List, 2006; Bellemare et Shearer, 2009; Kube _et al._, 2012). Ces travaux font partie d'une litterature en plein essor sur la mesure des effets des systemes de remuneration sur la productivite des travilleurs; voir Prendergast (1999), Chiappori et Salanie (2003) et Oyer et Schaefer (2011) pour des syntheses de ces etudes. Les etudes dans cette litterature peuvent etre classees selon leur approche methodologique, soit de forme reduite ou de forme structurelle.
+
+Lapproche de forme reduite cherche principalement a mesurer la causalite du systeme de remuneration. Cette methode cherche a identifier un effet causal en exploitant les variations exogenes de la remuneration (Angrist et Pischke, 2009). Un exemple de cette approche appliquee a la mesure de l'effet des systemes de remuneration sur la productivite des travilleurs est Lazear (2000).
+
+L'experimentation permet aux chercheurs de varier le systeme de remuneration de maniere exogene2. Cependant, les methodes de formes reduites appliquees aux donnees experimentales ne permettent pas la generalisation des resultats a d'autres environnements. De plus, bien que les experiences de terrain soient bien adaptees pour mesurer la reciprocite positive dans le marche du travail, les entreprises peuvent hesiter a entreprendre des experiences sur la reciprocite negative qui pourraient affecter le moral des travailleurs. Nous demontrons que les methodes structurelles appliquees aux donnees provenant d'une experience de terrain mesurant la reciprocite positive peuvent etre utilisees pour predire de maniere _ex ante_ une reaction plus forte des travailleurs a une diminution du cadeau qu'a une augmentation3.
+
+Footnote 2:   Voir Shearer (2014) pour une discussion de l’historique récente de l’estimation de l’effet de differents systemes de remuneration sur la productivité des travilleurs et du fôle des experiences dans cette litterature.
+
+Footnote 3:   On pourrait également investiguer ces effets par l’entremise des experiences en laboratoire. Les experiences en laboratoire permettent typiquement au chercheur d’exercer plus de controle sur l’experience. En revanche il risque de perdre le réalisme du marche de l’emploi; voir Harrison et List (2004). Les modeles structurels peuvent ê appliquees aux donnees de laboratoire pour identifier les parametres de preferences des participants (voir par exemple Bellemare, Kroger, et van Soest, 2008). La generalisation des resultats obtenus par une telle approche aux environnements hors laboratoire est un sujet de recherche courant et important. Pour des exemples et discussions sur leur generalisabilite, voir Bajari et Hortacsu (2005), Brown, Flinn, et Schotter (2011).
+
+L'econometrie structurelle estime des parametres qui determinent le comportement optimal des participants dans le contexte experimental de l'etude mais egalement dans un contexte plus large, soit au-dela de l'environnement experimental. Ces parametres de la fonction d'utilite des travilleurs et de la fonction de production representent les parametres structurels du modele estime. En specifiant le modele complet, le chercheur peut deriver une expression de l'effort (et de la productivite) optimal des participants en fonction du systeme de remuneration et des parametres structurels. Les donnees experimentales representent une source d'identification essentielle permetant d'estimer les parametres structurels d'un modele. Les parametres estimes sont choisis pour rendre la productivite prde sa contrepartie observee dans l'experience. Des que les parametres sont estimes, des previsions _ex ante_ du comportement des participants dans des environments alternatifs sont faites en resolvant le modele pour le comportement optimal des participants dans le nouvel environnement. L'utilisation des modeles structures a des fins d'evaluation de politiques a une riche histoire en economique; voir, par exemple Wolpin (2007, 2012), Flinn (2006, 2014). Ferrall et Shearer (1999), Paarsch et Shearer (1999, 2000, 2009), et Bellemare et Shearer (2011) sont des exemples recents demontrant la pertinence de l'approche dans le contexte de l'evaluation du role joue par les systemes de remuneration.
+
+Nous illustrons la faisabilite et la pertinence de l'approche structurelle en utilisant le modele de reciprocite de Bellemare et Shearer (2011) qui a ete estime a partir d'une experience mesurant la reciprocite positive en milieu de travail. Nous utilisons les parametres estimes pour predire la reaction des travailleurs a des coupures de salaire qui n'ont pas ete administrees pendant l'experience. Dans ce modele, la reciprocite d'un travailleur depend du niveau de son effort en l'absence de cacheaux, du cout marginal de l'effort du travailleur ainsi que d'un parametre de gentillesse qui capte la reciprocite du travailleur a un cadeau. Les resultats recents de l'experience de terrain de Kube _et al._ (2013) suggerent que la baisse de productivite des travailleurs suite a une baisse de salaire peut etre beaucoup plus severe que l'augmentation de productivite qui resulte d'une augmentation de salaire. Nous demontrons que la stricte convexite de la fonction du cout marginal de l'effort est une condition suffisante pour generer un changement asymetrique de productivite en presence de cacheaux de valeurs positives ou negatives. Nos resultats suggerent en effet la presence de reactions asymetriques a des cadeaux de valeurs negatives et positives. Par exemple, le modele estime predit qu'une augmentation de salaire de 100 $ entrainerait une augmentation moyenne de la productivite de 15 % attribuable a la reciprocite. Un cadeau de valeur negative, impliquant une reduction de salaire de 100 $, entranerait une reduction de productivite de l'ordre de 20 %, soit une reaction 33 % plus forte. Ces resultats nuancent l'interpretation des differences observeees dans la litterature entre les effets de reciprocite positive et de reciprocite negative. Ils soulignent qu'un effet de reciprocite negative plus important ne provient pas necessairement de preferences pour punir l'employeur suite a un cadeau de valeur negative qui seraient differentes des preferences pour le recompenser suite a un cadeau de valeur positive.
+
+## 1 Mise en contexte
+
+Le modele neoclassique postule que tout chomage est volontaire en raison de l'ajustement du niveau de salaire concurnetiel qui resulterait du desequilibre de l'offre et de la demande de travail. La presence de chomage involontaire, largement documentee a travers plusieurs episodes historiques, entraina le developement de nouvelles theories. En particulier, la nouvelle economie classique a vu le jour et attribue le chomage involontaire aux rigidites sur le marche du travail provenant d'actions exogenes provenant nottament des gouvernements locaux et nationaux (voirLucas, 1978). Par la suite, la nouvelle economie keynesienne s'est developpee en insistant sur les consequences macroeconomiques que les imperfections et rigidites de marche peuvent avoir. La nouvelle economie keynesienne postule que les rigidites proviennent principalement des decisions des agents economiques (firmes et employes).
+
+Dans le contexte du chomage involontaire, certains economistes ont developpe des modeles de salaire d'efficience dans lesquels il peut etre optimal pour un employeur de payer ses employes un salaire superieur au salaire concurrentiel. Nous nous interessons ici particulierement aux modeles de salaires d'efficience qui concernent les effets de reciprocite par le biais de l'effort4. En particulier, Akerlof (1982) demontre qu'il peut etre optimal pour un employeur d'offrir un cadeau a ses employes quand ceux-ci repondent en augmentant leur niveau d'effort par reciprocite. Akerlof note que certains comportements individuels sur le marche du travail, bien connus et documentes en sociologie, sont incoherents avec le modele neoclassique. Il refere aux travaux du sociologue Georges Homans (Homans, 1954) sur le comportement au travail de 10 _Cash Posters_. Le travail de ces femmes consistait a enregistrer les paiements recus des clients dans les livres de l'entreprise. La seule contrainte a laquelle elles faisaient face etait d'enregistrer au moins 300 paiements par heure, sans quoi elles recevaient un avertissement de leur superieur. Leur salaire etait fixe et aucune mesure incitative n'etait en place pour les inciter a enregistrer plus de 300 paiements, pas meme la possibilite d'une promotion dans l'entreprise. Pourtant, les paiements enregistres excedaient en moyenne de 17,7 % le standard de 300 paiements exiges par l'entreprise5. On peut voir le travail excedentaire des _Cash Posters_ comme un cadeau a l'entreprise. En plus d'augmenter les revenus de la firme, le cadeau influence les normes sociales qui regent au sein de celle-ci et affectent tous les travailleurs. Ces normes dictent en particulier les standards dans l'echange de cadeaux entre l'employeur et les employes. Le travailleur qui fournit un effort supplementaire s'attend a une certaine reciprocite de la part de l'employeur. Cette reciprocite peut se traduire par un salaire individuel plus eleve ou, dans le cas ou l'employeur paie le meme salaire a tous ses employes, des salaires plus eleves dans toute la firme. Il existe alors un salaire que l'employe considere comme etant juste, superieur au salaire concurrentiel, dicte par les normes sociales qui regent dans la firme. On observera donc du chomage involontaire dans les industries ou l'effort sous forme de cadeau joue un role significatif.
+
+2Litterature Empirique
+
+Bien que le modele d'Akerlof ait suscite beaucoup d'interet parmi les economistes, peu de travail empirique a suivi immediatement en raison des difficultes que le modele presente en termes de mesure des variables d'interet. La difficulte principale est la mesure du cadeau. En l'absence de reciprocite, le salaire concurriel correspond a la valeur de la productivite marginale du travailleur. Le cadeau, s'il est donne sous forme de salaire, correspond a la part du salaire qui excede le salaire concurrentiel. On doit donc connaitre le salaire concurrentiel pour identifier le montant donne en cadeau et son effet sur la productivite. Bien qu'on puisse identifier des salaires plus eleves que la moyenne dans les bases de donnees, ceux-ci sont difficilement attribues a des cadeaux. Les salaires peuvent, par exemple, etre deleves a cause de l'habite non observable; voir, par exemple, Murphy and Topel (1987). Il est, dans ces circonsances, difficile d'identifier qui recoit et qui ne recoit pas de cadeau. Un deuxieme probleme est de mesurer l'effet du cadeau sur la productivite des travailleurs, ce qui permettrait un test direct du principe de reciprocite. Pour le faire, on doit observer la productivite des travailleurs separement des salaires, un element rare dans les bases de donnees d'enquete.
+
+Fehr, Kirchsteiger et Riedl (1993) parviennent a contourner ces problemes par une experience en laboratoire. Une experience permet au chercheur de controler l'environnement, d'identifier qui recoit un cadeau et l'effet du cadeau sur la productivite des travailleurs. L'experience de Fehr et de ses coauteurs divise les participants en employeurs et en travailleurs. Les employeurs offrent un salaire aux travailleurs qui sont libres de l'accepter ou non. Quand un travailleur acceptive l'offre, il choisit son niveau d'effort, ce qui implique un cout monetaire pour lui-meme et entraine un profit supplementaire pour l'employeur. Les formes fonctionnelles choisies par les chercheurs leur permetent de calculer le salaire et le niveau d'effort qui sont coherents avec un equilibre concurrentiel. Il s notent que l'effort ne peut etre contracte et donc que le niveau d'effort dans un equilibre concurrentiel devrait etre au minimum. En consequence, les employeurs devraient offrir aux travailleurs le salaire minimal qui compense les travailleurs pour leur cout d'opportunite lorsqu'ils acceptent une offre d'emploi. Cependant, les resultats montrent que les employeurs offrent des salaires au-dessus du salaire concurrentiel et qu'en retour, les travailleurs fournissent un effort supplementaire, ce qui est coherent avec les echanges de reciprocite entre employeurs et travailleurs. Plusieurs etudes ont confirme la robustese de ces conclusions a plusieurs manipulations, notamment lorsque des employes sont exposes conjointement a des variations de salaires ainsi qu'a des variations de salaires pour d'autres employes (voir Gaechter et Thoni, 2010).
+
+Les travaux de Fehr, Kirchsteiger et Riedl (1993) etablissent la reciprocite dans un contexte de laboratoire ce qui a souleve plusieurs questions reliees a ce contexte. Une question fondamentale demeure : est-ce que les resultats de laboratoire se generalisent au marche du travail? Gneezy et List (2006) elaberent la premiere experience de terrain permettant de tester la presence de reciprocite en milieu de travail. Les auteurs publient des offres d'emploi invitant les travilleurs potentiels a travailler dans une bibliotheque ou a faire du porte-a-porte. Les membres du groupe de controle recoivent le salaire prevu dans l'offre d'emploi, alors que les membres du groupe de traitement recoivent un salaire superieur a celui prevu.
+
+Gneezy et List (2006) trouvent que les travilleurs des groupes de traitements sont significativement plus productifs que ceux du groupe de controle pour les 90 premieres minutes de l'experience; l'effet du traitement sur la productivite apres cette periode est cependant negligeable. Les resultats suggerent une difference importante entre les comportements de reciprocite de court terme et de long terme. Ces resultats nuancent ceux des experiences en laboratoire sur la reciprocite, comme ceux de Fehr, Kirchsteiger et Riedl (1993), qui sont uniquement en mesure d'etudier les comportements de court terme etant donnee la duree relativement courte des experiences.
+
+L'experience de Gneezy et List (2006) est cependant limitee parce qu'elle est realisee dans un milieu de travail concu specialement pour l'experience (un marche _spot_). La difference entre les marches du travail reels et les _spots_ est tres importante dans le contexte de l'etude de la reciprocite. Le modele d'Akerlof (1982) suppose que la relation d'echange de cadeaux regnant dans l'entreprise vient des normes sociales issues d'interactions reptees entres employes et employeur. Cette hypothese semble peu envisageable dans un contexte ou les employes ne connaissent leur employeur que depuis une journee.
+
+Bellemare et Shearer (2009) testent la reponse des travilleurs a un cadeau monetaire de l'employeur dans un milieu de travail reel, plus precisement dans une firme embauchant des planteurs d'arbres. Les auteurs trouvent que la productivite des employes est significativement plus elevee la journee du cadeau. L'experience de terrain en milieu de travail reel permet aussi de tester l'idee d'Akerlof (1982) qui suggere que les effets de reciprocite viennent d'interactions sociales reptees entre les employeurs et les travilleurs. Bellemare et Shearer (2009) testent cette hypothese en incluant dans leur regression un effet d'interaction entre l'anciennete de l'employe et le cadeau. Il s trouvent que l'effet de reciprocite est significativement plus important pour les travilleurs qui ont plus d'anciennete; l'effet diminue cependant avec l'age du travailleur. Ces resultats soulignent une limite importante des experiences de terrain faites sur des marches _spots_ qui mesurent uniquement les effets de reciprocite sur des travilleurs n'ayant jamais eu d'interactions sociales avec leur employeur.
+
+Une autre question reliee a la reciprocite est la perception des travilleurs et comment elle affecte leur reaction. Evidemment, pour qu'une augmentation de salaire genere une reaction reciproque de la part des travilleurs, il faut que l'augmentation soit percue comme un cadeau. Kube _et al._ (2012) considerent cette question dans une experience de terrain ou ils publient des offres d'emplois pour travailler dans une bibliotheque. Il s divisent les travilleurs en trois groupes : le premier recevaitle salaire prevu dans l'offre d'emploi, le deuxieme recevait une prime de rendement en plus du salaire prevu, et le troisieme recevait le salaire prevu, ainsi qu'une bouteille thermos d'une valeur monetaire egale a la prime de rendement recu par le groupe precedent. Les resultats montrent que le cadeau monetaire n'entraine aucun effet significatif sur la productivite, alors que les travailleurs ayant recu la bouteille thermos ont ete en moyenne 25 % plus productifs. Les auteurs montrent ensuite que ce resultat ne vient pas des preferences des travailleurs pour le cadeau non monetaire. Ils donnent le choix a un quatrieme groupe d'individus entre l'argent et la bouteille thermos et trouvent que presque tous les travailleurs choisissent l'argent. Cela suggere que la perception des travailleurs de ce qui constitue un cadeau a un effet important sur leur reciprocite.
+
+Meme dans le cas ou un cadeau monetaire positif n'entrane pas d'effets de reciprocite, il ne va pas de soit qu'un cadeau monetaire negatif n'entranera pas d'effets negatifs sur la productivite. Kube _et al._ (2012) comparent les effets de reciprocite positive (augmentation de l'effort des travailleurs en reponse a une augmentation du salaire) aux effets de reciprocite negative (diminution de l'effort des travailleurs en reponse a une diminution du salaire). Les auteurs publient encore une fois des offres d'emplois pour cataloguer des informations de livres dans le systeme informatique d'une bibliotheque. L'offre stipule que le salaire horaire devrait etre autour de 15 euros de l'heure. A leur arrivee, on informe le premier groupe de travailleurs que le salaire horaire sera bien de 15 euros. On informe un deuxieme groupe que son salaire sera seulement de 10 euros de l'heure et un troisieme groupe que son salaire sera de 20 euros de l'heure. Les resultats montrent que le groupe ayant recu un salaire horaire de 10 euros a ete 20 % moins productif que les autres groupes, alors que les individus ayant ete payes 20 euros de l'heure n'ont pas etes significativement plus productifs que ceux ayant recu 15 euros de l'heure. Cela suggere que les effets de reciprocite negative sont considerablement plus importants que les effets de reciprocite positive. Ces resultats s'ajoutent a ceux existants documentant la reaction asymetrique des individus aux sanctions et aux reconpenses (voir par exemple Sefton, Shupp, et Walker, 2007; Andreoni _et al._, 2003). D'autres travaux ont egalement demontre que le mode de presentation des implications d'une decision, que ce soit sous forme de creation ou destruction de ressources, peut avoir un impact significatif sur les decisions (voir Andreoni, 1995; Willinger et Ziegelmeyer. 1999).
+
+3L'apport de la modelisation economique aux experiences sur la reciprocite
+
+Les experiences decrites dans la section precedente generent des cadeaux dans des environments specifiques et mesurent la reaction des travailleurs. La question se pose alors de savoir comment les travailleurs ragiraient a des cadeaux offerts en dehors du contexte precis d'une experience particuliere. Bellemare et Shearer (2011) considerent cette question et developpent un modele structurel permettant d'identifier la reaction optimale des travailleurs en retour d'un cadeau de l'employeur et d'evaluer comment d'autres cadeaux auraient affecte leur productivite.
+
+La productivite \(Y_{i}\) du travailleur \(i\) est fonction de son effort \(E_{i}\) et d'un choc aleatoire positif \(S_{i}\):
+
+\[Y_{i}=E_{i}S_{i} \tag{1}\]
+
+La fonction d'utilite des travailleurs est
+
+\[U_{i}(W_{i},E_{i})=W_{i}-C_{i}(E_{i})+\beta(Y_{i}-Y_{i}^{ng})G_{i} \tag{2}\]
+
+ou \(W_{i}\) est le salaire, \(Y^{ng}\) est le niveau de productivite qu'aurait le travailleur en l'absence de cadeau et \(G_{i}\) est la valeur du cadeau definie ici par le montant du salaire qui excede le salaire concurtiel. \(C_{i}(E_{i})\) est une fonction de cout croissante selon l'effort, avec \(C_{i}(E_{j})>0\) et \(C_{i}^{\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\Cette premiere experience a ete realisee par Paarsch et Shearer (2009). L'experience avait pour but de mesurer \(\gamma\), la convexite du cout de l'effort des travailleurs, ce qui determine leur reaction aux incitations monetaires. Pendant l'experience, des terrains homogenes ont ete divises en deux et presentes aux travailleurs comme deux terrains separes. Sur une partie du terrain (le controle), le taux paye aux travailleurs etait le taux habituel, selon les conditions du terrain. Sur l'autre partie du terrain (le traitement), le taux etait augmente de 20 % par rapport au taux habituel. Il est important de noter que l'augmentation du taux n'etait pas presente aux travailleurs comme un cadeau, ainsi la difference en productivite moyenne mesurree entre le groupe de traitement et le groupe de controle identifiiait la reaction des travailleurs aux incitations monetaires, au lieu de la reciprocite. Leur estimation de \(\gamma\) etait de 0,39, ce qui suggere qu'une augmentation d'un pour cent du taux a la piece meme a une augmentation de la productivite des travailleurs de 0,39 pour cent.
+
+La deuxieme experience est celle de Bellemare et Shearer (2009), concue pour mesurer l'effet d'un cadeau monetaire sur la productivite des travailleurs. L'experience consistait a donner un cadeau de 80 $ aux travailleurs une certaine journey de la semaine et a comparer la productivite de cette journee a celle des journees sans cadeau. Les resultats montrent que la productivite moyenne des travailleurs (mesuree en arbres plantes par jour) est significativement plus elevee le jour du cadeau'. L'application du modele structurel aux donnees experimentales permet d'estimer \(\beta\) = 0.00071. Le don de 80 $ a augmente l'utilite marginale de la plantation d'un arbre de 80 $ = 0,057 $. Les regressions tiennt compte des effets meteo, des effets du jour de la semaine, des effets fixes individuels et des effets aleatoires specifiques a la journee.
+
+Bellemare et Shearer (2011) utilisent les parametres structurels identifies par ces experiences afin de simuler comment l'effort des travailleurs s'ajusterait en reponse a d'autres cadeaux ou a des contextes differents du marche de l'emploi. Ici, nous adaptons leur modele pour investiguer les concepts de reciprocite positive et negative.
+
+L'ajustement de l'effort du travailleur selon la valeur du cadeau depend de la forme de la fonction du cout de l'effort. Pour un parametre de reciprocite \(\beta\) donne, les effets des cadeaux sur la productivite differenront selon la vitesse a laquelle le cout marginal de l'effort varie avec l'effort. Ceci a des implications importantes pour predire la reciprocite positive et negative.
+
+Plusieurs experiences de terrain ont souligne l'importance de distinguer la reciprocite positive de la reciprocite negative (voir Kube _et al._, 2013). L'idee souvent evoquee est que les travailleurs peuvent etre davantage enclins a vouloir punir l'employeur suite a une diminution de salaire qu'a le recompenser suite a une augmentation. Dans l'optique du modele presente plus haut, cela se traduirait par des valeurs differentes de \(\beta\) selon que \(G_{i}\) diminue ou que \(G_{i}\) augmente.
+
+Les etudes qui comparent simplement les effets d'une augmentation de \(G_{i}\) a ceux d'une diminution de \(G_{i}\) sur l'effort ne peuvent identifier si les effets observes proviennent de differences entre les preferences pour la reciprocite positive ou negative, ou de la forme de \(C_{i}(E_{i})\). Meme si l'utilite marginale de la reciprocite est identique pour un cadeau de valeur negative ou positive. (\(\beta\) constant \(\Psi\)\(G_{j}\)), il est possible que l'on trouve des effets differents suite a une variation positive ou negative de \(G_{i}\). En prenant la derivee totale de (3), on a
+
+\[\frac{\partial E_{i}^{*}}{\partial G_{i}}=\frac{\beta S_{i}}{C_{i}^{*}(E_{i}^ {*})}. \tag{4}\]
+
+Les travailleurs reagissent de maniere positive a un cadeau car \(C_{i}^{{}^{*}}(E_{i}^{*})>0\) (par hypothese). Limportance de cette reaction depend de la valeur de \(\beta\) et de la vitesse a laquelle le cout marginal de l'effort change : \(C_{i}^{{}^{*}}(E_{i}^{*})\).
+
+L'importance relative d'une augmentation ou d'une diminution de \(G_{i}\) est determinee par la derivee de (4) par rapport a \(G_{i}\) :
+
+\[\frac{\partial^{2}E_{i}^{*}}{\partial G_{i}^{2}}=-\frac{\beta S_{i}}{\left[C_ {i}^{{}^{*}}(E_{i}^{*})\right]^{2}}C_{i}^{{}^{*}}(E_{i}^{*})\frac{\partial E_ {i}^{*}}{\partial G}. \tag{5}\]
+
+Le signe de (5) depend du signe de \(C_{i}^{{}^{*}}(E_{i}^{*})\), la troisieme derivee du cout de l'effort par rapport a l'effort. Cette derivee capte la vitesse a laquelle change la deuxieme derivee du cout de l'effort. On peut voir cet effet dans le graphique 1, qui utilise la definition \(B^{\prime}(G_{i})=\beta G_{i}S_{i}\). Le graphique 1 montre comment l'effort optimal s'ajuste suite a une variation positive et a une variation negative du cadeau. \(G_{i0}\) represente la valeur initiale du cadeau, \(G_{i\alpha}\) sa valeur apres une variation positive et \(G_{i0}\) celle apres une variation negative equivalente. \(\Delta_{A}\) est la variation de l'effort entrainee par l'augmentation du cadeau et \(\Delta_{B}\) celle entrainee par la diminution du cadeau.
+
+GRAPHique 1Si \(C^{\prime\prime\prime}(E_{i})<0,\) le cout marginal de l'effort augmente de moins en moins rapidement avec l'effort. L'effort augmentera donc de plus en plus rapidement selon la valeur du cadeau. Ainsi, une diminution de la valeur du cadeau diminuera relativement peu l'effort, alors qu'une augmentation de la valeur du cadeau l'augmentera relativement fortement. Si \(C^{\prime\prime\prime}(E_{i})=0,\) l'effort augmentera pareillement suite a une variation positive ou negative. Si \(C^{\prime\prime\prime}(E_{i})>0,\) l'effort augmentera de moins en moins rapidement avec la valeur du cadeau.
+
+Bellemare et Shearer (2011) estiment une fonction de cout de l'effort de la forme suivante :
+
+\[C(E_{i})=\kappa_{i}\frac{\gamma}{(1+\gamma)}E_{i}^{\frac{(1+\gamma)}{\gamma}},\]
+
+ou \(\kappa_{i}\) est un parametre positif specifique a l'individu \(i\). Cela implique :
+
+\[C^{\prime}(E_{i})=\kappa_{i}E_{i}^{1/\gamma}>0\ \ \forall\ \ \gamma,\]
+
+\[C^{\prime\prime}(E_{i})=\frac{\kappa_{i}}{\gamma}E_{i}^{\frac{(1-\gamma)}{ \gamma}}>0\ \ \forall\ \ \gamma>0,\]
+
+\[C^{\prime\prime\prime}(E_{i})=\frac{\kappa_{i}(1-\gamma)}{\gamma^{2}}E_{i}^{ \frac{1-2\gamma}{\gamma}}>0\ \ \forall\ \ \gamma<1.\]
+
+Les auteurs estiment \(\gamma\) egal a 0,39 et hautement significatif. La derivee troisieme du cout de l'effort est dans ce cas positive et l'effort augmente de moins en moins rapidement quand la valeur du cadeau augmente. Les etudes qui negligent d'estimer les parametres de \(C(E_{i})\) risquent d'attribuer a tort des variations asymetriques de l'effort a des preferences pour punir l'employeur qui seraient differentes de celles pour le recompenser.
+
+### Simulations
+
+On peut illustrer l'importance de ce point par une simulation tres simple, basee sur des parametres estimes par Bellemare et Shearer (2011). En effet, l'estimation des parametres de la fonction d'utilite et de la fonction de cout de l'effort permet de simuler la productivite des travailleurs en dehors du cadre de l'experience pour differentes valeurs de cadeaux (positives ou negatives). A la difference du modele presente plus haut, les travailleurs de cette experience sont payes a la piece. Le taux de remuneration est de \(R_{i}=0.16\). Pour des fins de simplification, nous simulons les effets d'un cadeau donne sous forme de paiement fixe8. Le benefice marginal de l'effort demeure constant selon l'effort et la production resultant de l'effort optimal est donnee par :
+
+\[(Y_{i}^{*}\!\!\mid\!G_{i})=\frac{(R_{i}+\!\beta G_{i})^{\gamma}S_{i}^{\gamma+1}} {\kappa_{i}^{\gamma}}.\]
+
+On note que le salaire etant maintenant a la piecee, l'effort entraine un beneficie marginal meme en l'absence de cadeau. L'effort en l'absence de cadeau est donne par
+
+\[(Y_{i}^{*}\!\!\mid\!G_{i}=0)=\frac{R_{i}^{\gamma}S_{i}^{\gamma+1}}{\kappa_{i}^ {\gamma}}.\]
+
+Le ratio de la productivite avec cadeau par rapport a celui sans cadeau est :
+
+\[\frac{(Y_{i}^{*}\!\!\mid\!G_{i})}{(Y_{i}^{*}\!\!\mid\!G_{i}=0)}=\left[1+\frac{ \beta G_{i}}{R_{i}}\right]^{\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!lorsque l'utilite marginale de la reciprocite est identique pour un cadeau de valeur negative ou positive. La stricte convexite du cout marginal de l'effort est une condition suffisante pour generer une reaction asymetrique.
+
+La modelisation structurelle offre la possibilite de separer l'effet du cout marginal de l'effort de celui des preferences pour la reciprocite (positive ou negative). Si nous avions acces a des donnees experimentales testant les effets d'une diminution de salaire sur la productivite dans la meme firme, nous pourrions alors tester formellement si l'utilite marginale de la reciprocite est differente pour un cadeau de valeur negative ou positive, et ce en tenant compte de la variabilite du cout marginal de l'effort.
+
+Nos resultats montrent la valeur ajoutee que procure l'estimation de modeles structurels avec des donnees experimentales. Les modeles structurels permettent de generaliser les resultats des experiences au-dela de l'environnement particulier de l'experience en question. Ceci permet, entre autres, de prevoir les effets de politiques qui sont difficiles a generer de maniere experimentale dans une firme. Leconomie, et en particulier l'economie experimentale a beaucoup a gagner a appliquer ces methodes.
+
+BIBLIOGRAPHIE
+
+Adams, J. S. (1963), << Towards an Understanding of Inequity >>, _The Journal of Abnormal and Social Psychology_, 67(5) : 422-436.
+
+Akerlof, G. A. (1982), << Labor Contracts as Partial Gift Exchange >>, _The Quarterly Journal of Economics_, 97(4) : 543-569.
+
+Akerlof, G. A. (1984), << Gift Exchange and Efficiency-wage Theory: Four Views >>, _The American Economic Review_, 74(2) : 79-83.
+
+Akerlof, G. A. et J. L. Yellen (1988), << Fairness and Unemployment >>, _The American Economic Review_, 78 : 44-49.
+
+Akerlof, G. A. et J. L. Yellen (1990), << The Fair Wage-effort Hypothesis and Unemployment >>, _The Quarterly Journal of Economics_, 105(2) : 255-283.
+
+Andreoni, J. (1995), << Warm-glow Versus Cold-prickle: The Effects of Positive and Negative Framing on Cooperation in Experiments >>, _Quarterly Journal of Economics_, 110 : 1-21.
+
+Andreoni, J., W. T. Harbaugh et L. Vesterlund (2003), << The Carrot or the Stick: Rewards, Punishments and Cooperation >>, _American Economic Review_, 93 : 893-902.
+
+Angrist, J. et J. Pischke (2009), _Mostly Harmless Econometrics_. Princeton University Press, Princeton, New Jersey.
+
+Bajari, P. et A. Hortacsu (2005), << Are Structural Estimates of Auction Models Reasonable? Evidence from Experimental Data >>, _The Journal of Political Economy_, 113 : 703-741.
+
+Betiera, O., I. Barankay et I. Rasul (2007), << Incentives for Managers and Inequality among Workers: Evidence from a Firm Level Experiment >>, _Quarterly Journal of Economics_, 122(2) : 729-773.
+
+* [19]Bellemare, C., S. Kroger et A. van Soest (2008), << Measuring Inequity Aversion in a Heterogeneous Population using Experimental Decisions and Subjective Probabilities >>, _Econometrica_, 76 : 815-839.
+* [20]Bellemare, C. et B. Shearer (2009), << Gift Giving and Worker Productivity: Evidence from a Firm-level Experiment >>, _Games and Economic Behavior_, 67(1) : 233-244.
+* [21]Bellemare, C. et B. Shearer (2011), << On the Relevance and Composition of Gifts within the Firm: Evidence from field Experiments >>, _International Economic Review_, 52(3) : 855-882.
+* [22]Brown, M., C. Flinn et A. Schotter (2011), << Real-time Search in the Laboratory and the Market >>, _American Economic Review_, 101(2) : 948-974.
+* [23]Burtless, G. (1995), << The Case for Retomized Field Trials in Economic and Policy Research >>, _The Journal of Economic Perspectives_, 9(2) : 63-84.
+* [24]Campbell III, C. M. et K. S. Kamlani (1997), << The Reasons for Wage Rigidity: Evidence from a Survey of Firms >>, _The Quarterly Journal of Economics_, 112(3) : 759-789.
+* [25]Chappori, P.-A. et B. Salanie (2003), << Testing Contract Theory: A Survey of Some Recent Work, _in Advances in Economics and Econometrics: Theory and Applications, Eighth World Congress, Volume 1_, Cambridge University Press, p. 115-149.
+* [26]Ellingsen, T. et M. Johannesson (2008), << Pride and Prejudice : The Human Side of Incentive Theory >>, _American Economic Review_, 98 : 990-1008.
+* [27]Fehr, E. et S. Gachter (1998), << Fairness and Retaliation: The Economic Implications of Homo Reciprocans >>, _European Economic Review_, 42 : 845-859.
+* [28]Fehr, E. et S. Gachter (2000), << Fairness and Retaliation: The Economics of Reciprocity >>, _The Journal of Economic Perspectives_, 14(3) : 159-181.
+* [29]Fehr, E., S. Gachter et G. Kirchsteiger (1997), << Reciprocity as a Contract Enforcement Device: Experimental Evidence >>, _Econometrica_, 65(4) : 833-860.
+* [30]Fehr, E. et L. Goette (2007), << Do Workers Work more if Wages are High? Evidence from a Retomized Field Experiment >>, _The American Economic Review_, 97(1) : 298-317.
+* [31]Fehr, E., G. Kirchsteiger et A. Riedl (1993), << Does Fairness Prevent Markand Clearing? An Experimental Investigation >>, _The Quarterly Journal of Economics_, 108(2) : 437-459.
+* [32]Ferraall, C. et B. Shearer (1999), << Incentives and Transactions Costs Within the Firm: Estimating and Agency Model Using Payroll Records >>, _Review of Economic Studies_, 66 : 309-338.
+* [33]Flinn, C. J. (2006), << Minimum Wage Effects on Labor Market Outcomes Under Search, Matching, and Endogenous Contact Rates >>, _Econometrica_, 74(4) : 1013-1062.
+* [34]Flinn, C. J. (2010), _The Minimum Wage and Labor Market Outcomes_, The MIT Press. Cambridge, Mass.
+
+* []Gaechter, S. et C. Thoni (2010), << Social Comparison and Performance: Experimental Evidence on the Fair Wage-effort Hypothesis >>, _Journal of Economic Behavior and Organization_, 76 : 531-543.
+* []Gneezy, U. et J. A. List (2006), << Putting Behavioral Economics to Work: Testing for Gift Exchange in Labor Markets Using Fled Experiments >>, _Econometrica_, 74(5) : 1365-1384.
+* []Harrison, G. W. et J. A. List (2004), << Field Experiments >>, _Journal of Economic Literature_, 42 : 1009-1055.
+* []Heckman, J. J. et J. A. Smith (1995), << Assessing the Case for Social Experiments >>, _The Journal of Economic Perspectives_, 9(2) : 85-110.
+* []Homans, G. C. (1954), << The Cash Posters : A Study of a Group of Working Girls >>, _American Sociological Review_, 19(6) : 724-733.
+* []Katz, L. F. (1986), << Efficiency Wage Theories: A Partial Evaluation >>, _in NBER Macroeconomics Annual 1986, Volume 1_, p. 235-290. MIT Press.
+* []Kreps, D. M. (1997), << The Provision of Incentives in Firms >>, _American Economic Review Papers and Proceedings_, 87 : 359-364.
+* []Kube, S., M. E. Marechal et C. Puppe (2012), << The Currency of Reciprocity: Gift Exchange in the Workplace >>, _American Economic Review_, 102(4) : 1644-1662.
+* []Kube, S., M. E. Marechal et C. Puppe (2013), << Do Wage Cuts Damage Work Morale? Evidence from a Natural Field Experiment >>, _Journal of the European Economic Association_, 11(4) : 853-870.
+* []Lazear, E. (2000), << Performance Pay and Productivity >>, _American Economic Review_, 90 : 1346-1361.
+* []List, J. A. et I. Rasul (2011), << Field Experiments in Labor Economics >>, _Handbook of Labor Economics_, 4 : 103-228.
+* []Lucas, R. (1978), << Unemployment Policy >>, _American Economic Review_, 68 : 353-357.
+* []Mauss, M. (1923), << Essai sur le don. Forme et raison de l'echange dans les societes archiques >>, _L'Annee sociologique (1896/1897-1924/1925)_ : 30-186.
+* []Murphy, K. M. et R. H. Topel (1987), << Unemployment, Risk, and Earnings: Testing for Equalizing Wage Differences in the Labor Market >>, _in Lang_, K. et J. S. Leonard (eds), _Unemployment and the Structure of Labor Markets_, New York: Basil Blackwell, p. 103-140.
+* []Oyer, P. et S. Schaefer (2011), << Personnel Economics: Hiring and Incentives, _Handbook of Labor Economics_, 4 : 1769-1823.
+* []Paarsch, H. et B. Shearer (1999), << The Response of Worker Effort to Piece Rates >>, _Journal of Human Resources_, 34(4) : 643-667.
+* []Paarsch, H. et B. Shearer (2000), << Piece Rates, Fixed Wages and Incentive Effects: Statistical Evidence from Payroll Records >>, _The International Economic Review_, 41(1) : 59-92.
+
+* Prendergast (1999)Prendergast, C. (1999), << The Provision of Incentives in Firms >>, _Journal of Economic Literature_, 37(1) : 7-63.
+* Rabin (1993)Rabin, M. (1993), << Incorporating Fairness into Game Theory and Economics >>, _The American Economic Review_, 83(5) : 1281-1302.
+* Salop (1979)Salop, S. (1979), << A Model of the Natural Rate of Unemployment >>, _The American Economic Review_, 69 : 117-125.
+* Sefton et al. (2007)Seffon, M. R. Shupp et J. Walker (2007), << The Effect of Rewards and Sanctions in Provision of Public Goods >>, _Economic Inquiry_, 45 : 671-690.
+* Shapiro and Stiglitz (1984)Shapiro, C. et J. E Stiglitz (1984), << Equilibrium Unemployment as a Worker Discipline Device >>, _The American Economic Review_, 74(3) : 433-444.
+* Shearer (2004)Shearer, B. (2004), << Piece Rates, Fixed Wages and Incentives: Evidence from a Field Experiment >>, _The Review of Economic Studies_, 71(2) : 513-534.
+* Shearer (2014)Shearer, B. (2014), << Leconometrie des contrats: Le role des archives de paie, des experiences, et des modeles economiques >>, _L'Actualite economique_, 90 (4) : 289-302.
+* Solow (1980)Solow, R. M. (1980), << Another Possible Source of Wage Stickiness >>, _Journal of Macroeconomics_, 1(1) : 79-82.
+* Stiglitz (1974)Stiglitz, J. E. (1974), << Alternative Theories of Wage Determination and Unemployment in LDC's: The Labor Turnover Model >>, _The Quarterly Journal of Economics_, 88(2) : 194-227.
+* Stiglitz (1986)Stiglitz, J. E. (1986), _Theories of Wage Rigidity_, in Butkiewicz, J. L., K. J. Koford et J. Miller, _Keynes Economic Legacy: Contemporary Economic Theories_, Praeger _et al._ : Praeger Publishers, p. 153-206.
+* Weiss (1980)Weiss, E. (1980), << Job Queues and Layoffs in Labor Markets with Flexible Wages >>, _The Journal of Political Economy_, 88(3) : 526-538.
+* Willinger et al. (1999)Willinger, M. et A. Ziegelmeyer (1999), << Framing and Cooperation in Public Good Games: An Experiment with an Interior Solution >>, _Economics Letters_, 65 : 323-328.
+* Wolpin (2007)Wolpin, K. I. (2007), << Ex Ante Policy Evaluation, Structural Estimation, and Model Selection >>, _The American Economic Review_, 97(2) : 48-52.
+* Wolpin (2013)Wolpin, K. I. (2013), _The Limits of Inference without Theory._ The MIT Press,
+* Yellen (1984)Yellen, J. (1984), << Efficiency Wage Models of Unemployment >>, _The American Economic Review_, 74 : 200-205. 
+
+

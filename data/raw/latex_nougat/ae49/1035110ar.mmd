@@ -1,0 +1,219 @@
+# L'econometrie Des Contracts :
+
+Le Role Des Archives de Paie,
+
+Des Experiences Et Des
+
+Modeles Economiques*
+
+ Bruce SHEARER
+
+Departement d'economique
+
+Universite Laval
+
+IZA,
+
+CIRANO,
+
+CIRPEE
+
+_"Once a capitalist has hired capital, he is, over a fairly wide latitude, free to use it (or abuse it) as he wishes. (...) the willing cooperation of labor itself must usually be obtained for the firm to make the best use of the labor services."_
+
+ George Akerlof (1982), \(\ll\) Labor Contracts as Partial Gift Exchange *,
+
+_The Quarterly Journal of Economics_, 97(4) : 543-569
+
+* Ce texte est base sur le discours présidentiel de la Sociétéc canadienne de science economique, livre à Ottawa en mai 2014. Lauteur remercie Marie-Claude Beaulieu et Arnaud Dellis pour leurs commentaires.
+
+est portee a comment structurer les contrats salariaux dans le but de maximiser la profitabilite des entreprises dans ces circonstances. Parsons (1986), Hart et Holmstrom (1987) et Malcomson (1999) presentent des revues de cette litterature.
+
+Nous avons assiste, ces 20 dernieres annees au developpement d'une litterature empirique, appelee l'econometrie des contrats, qui teste ces modeles et mesure l'importance des asymetries d'information et des contrats. Cette litterature s'est developpee grace a la disponibilite de bases de donnees provenant d'archives de paies de compagnies et de certaines experiences. Dans cet article, je resume ces developpements en soulignant les questions empiriques que ces bases de donnees nous ont permis de considerer. Je mets l'embnase sur les avantages et les inconvenients de differents types de donnees ainsi que sur les methodes econometriques utilisees pour analyser ces donnees. Le fil conducteur de l'article est la complementarite entre les methodes econometriques dites structurelles et les methodes experimentales.
+
+La main-d'euvre est un facteur de production qui controle sa propre productivite par l'entremise de son effort. Ce constat, jumele avec le fait que les interets des travailleurs par rapport a leur choix d'effort n'est pas forcement aligne avec celui de l'entreprise, genere un conflit a l'interieur de l'entreprise, resume par la citation d'Akerlof qui debute ce texte. Ce conflit est genere par trois elements. Premierement, l'effort est couteux pour les travailleurs; _ceteris paribus_, lis preferent en fournir moins que plus. Deuxiemement, en presence d'asymetrie d'information sur la productivite potentielle du travailleur, ce dernier peut se servir de son avantage informationnel pour extraire des rentes et reduire le cout de son effort (et sa productivite). Troisiemement, l'effort ne peut pas etre le sujet d'un contrat explicite direct, il doit etre induit par les incitations en place dans l'entreprise. L'etude de ce conflit et les differentes manieres (ou politiques contractuelles) disponibles a l'entreprise pour aligner les interets des parties est le sujet de l'economie (et de l'econometrie) des contrats, appliquee a la relation entre travailleur et entreprise. Des exemples de differents contrats incluent : l'utilisation des incitations monetaires par le paiement a la piece (Stiglitz, 1975; Lazear 1986), le partage des profits (Alchian et Demsetz, 1972), l'utilisation des incitations implicites ou sociologiques (Akerlof, 1982; Baker, Gibbons et Murphy, 1994), les contrats de licenciement (Shapiro et Stiglitz, 1984; Macleod et Malcomson, 1989) et les incitations hierarchiques (Lazear et Rosen, 1981).
+
+L'econometrie des contrats mesure la performance de contrats alternatifs sur le comportement des travailleurs et sur les profits des entreprises. Comme l'econometrie appliquee en general, ce champ est divise entre l'approche en forme reduite et l'approche structurelle. L'approche en forme reduite favorise l'estimation des effets de causalite; on cherche a tester des theories, en imposant le moins de restrictions possibles sur les donnees. Angrist et Pischke, (2009) font une presentation generale de cette approche. Dans le contexte de l'econometrie des contrats, le but principal est de mesurer l'effet des contrats sur la productivite des travailleurs. Des exemples incluent Jones et Kato (1995) et Lazear (2000).
+
+L'approche structurelle applique des modeles economiques formels aux donnees dans le but d'estimer des parametres (dits structurelcomportement des agents economiques. Ces parametres peuvent servir a predire le comportement des agents, predire les effets des politiques _ex ante_, ou encore evaluer les effets des politiques sur le bien-etre. L'approche generale est resumee dans les ouvrages recents de Flinn (2010) et Wolpin (2013). Dans le contexte de l'econometrie des contrats, le but est de predire _ex ante_ les effets des contrats, ainsi que d'evaluer les effets des contrats sur le bien-etre des travailleurs et les profits de l'entreprise. Des exemples incluent Ferrell et Shearer (1999), Paarsch et Shearer (1999, 2000) et Copeland et Monet (2009).
+
+La complementarite des methodes econometriques structurelles et des donnees experimentales est relie a l'identification des parametres et de la generalisation des resultats. La variabilite experimentale permet d'identifier les parametres structurels avec un minimum de restrictions. En revanche, la modelisation structurelle augmente le rendement des experiences en permettant la generalisation des resultats experimentaux au-dela de l'environnement specifique de l'experience.
+
+Le reste de cet article est organise de la maniere suivante. La prochaine section expose les avancees permises par l'introduction de donnees d'archives de paie en econometrie des contrats. L'emphase est mise sur la possibilite d'observer la productivite des employes lorsqu'ils sont payes selon des contrats differents. Elle souligne egalement les problemes d'endogeneite du choix de contrats des entreprises observes dans les archives de paie. La section 2 presente differentes methodes traditionnellement disponibles pour resoudre le probleme d'endogeneite, telles que les donnees de panel, les variables instrumentales et l'estimation de modeles structurels. La section 3 introduit les experiences comme une avenue possible pour resoudre les problemes d'endogeneite en mettant l'emphase sur la capacite des experiences a reduire les hypotheses necessaires pour resoudre les problemes d'endogeneite. La section 4 presente les benefices d'appliquer des modeles structurels aux donnees experimentales et donnent des exemples. La derniere section conclut.
+
+## 1 Le role des Donnees d'archives de paie en Econometrie des contrats
+
+Avant l'utilisation des archives de paie, les economistes empiriques utilisaient des donnees en coupe transversale et longitudinale sur les salaires des travailleurs afin d'investiguer les contrats. Ces travaux ont permis aux chercheurs de caracteriser les salaires des individius selon qu'ils etaient remuenes par des contrats comportant ou non des incitations; voir, par exemple, Pencavel (1977), Seiler (1984) et Parent (1999). Cependant, leur interpretation etait limitee par le manque d'information sur les contrats et les politiques du personnel des entreprises. L'utilisation des archives de paie comme source de donnees a permis aux chercheurs de recueillir de l'information sur les contrats des travailleurs, leurs salaires et leur productivite. En observant la productivite des travailleurs sous des contrats differents, on peut mesurer leurs reactions selon les incitations. Par exemple, Asch (1990) a mesure la maniere dont les recruteurs pour les marins ont reagi aux incitations dans leur systeme de paie. Jones et Kato (1995) ont mesure l'impact de l'introduction d'un systeme de partage de profit sur la productivite des travailleurs au Japon. Paarschet Shearer (1999, 2000) ont considere comment la productivite des travailleurs est affectee par le contrat dans le secteur de la plantation d'arbres. Lazear (2000) a compare la productivite des travailleurs lorsqu'ils etaient payes a la piece plutot qu'a taux fixe dans une entreprise qui installe des parebrises automobiles.
+
+Le desavantage fondamental des archives de paie est l'endogeneite des contrats. Ce probleme est du au fait que le systeme de paie est une variable de choix de l'entreprise qui peut etre correlee avec des elements non observables a l'econometre mais qui pourraient affecter la productivite des travailleurs1. Dans ces circonstances, l'estimation des effets incitatifs des contrats sera non convergente. Soit \(\mu\), les elements non observables qui affectent la productivite \(Y\) et \(\overline{Y}^{c}\left(\mu^{c}\right)\) la productivite moyenne sous le contrat \(c\) en maintenant les elements non observables fixe a \(\mu^{c}\). De la meme facon que dans la litterature sur la mesure des effets de traitement (voir Heckman, Lalonde et Smith, 1999), l'effet de causalite d'un changement en contrat de \(c\) a \(\vec{c}\) sur la productivite se lit comme suit \(\overline{Y}^{c}\left(\mu^{c}\right)-\overline{Y}^{c}\left(\mu^{c}\right)\), soit la difference en resultats sous deux contrats, _en tenant les conditions fixes a_\(\mu^{c}\).
+
+Footnote 1: Le probleme d’endogeneite peut également ê génère par le choix du travailleur d’un systeme de rémunération. Ce choix peut ê correle avec son niveau d’habilet ou encore ses preferences pour le risque, des éléments qui peuvent ê correlees avec sa productivité.
+
+La variabilite des resultats _observes_ entre deux contrats et est alors
+
+\(\Lambda\left(\mu^{c},\mu^{c}\right)=\overline{Y}^{c}\left(\mu^{c}\right)- \overline{Y}^{c}\left(\mu^{c}\right)\).
+
+En ajoutant et en retranchant \(\overline{Y}^{c}\left(\mu^{c}\right)\), on obtient
+
+\(\Lambda\left(\mu^{c},\mu^{c}\right)=\underbrace{\overline{Y}^{c}\left(\mu^{c} \right)-\overline{Y}^{c}\left(\mu^{c}\right)}_{\mbox{\em Effet causal}}+ \overline{Y}^{c}\left(\mu^{c}\right)-\overline{Y}^{c}\left(\mu^{c}\right)\).
+
+L'estimation de l'effet de causalite est associee a l'effet de selection. Il existe plusieurs exemples de cet effet dans la litterature. Par exemple, la qualite ou productivite inherente de la main-d'oeuvre peut etre affectee par le contrat et le tri. Lazear (2000) a montre que le taux de roulement des travailleurs a augmente apres qu'une entreprise d'installation de parebrises automobiles a change son systeme de paie d'un taux fixe a un taux a la piece. De maniere plus generale, il peut y avoir un appariement entre les preferences des travailleurs et les contrats. Ackerberg et Botticinni (2002) s'interessent a la mesure de l'effet du risque sur les contrats agricoles en Italie pendant la Renaissance. Le modele du principal-agent specifie que les contrats representent un arbitrage entre le risque et les incitations. Fournir des incitations implique que le salaire est relie a la productivite, ce qui expose le locataire au risque. Pour les locataires qui sont averses au risque, ces incitations ont un prix : la prime de risque qui recompense le locataire d'accepter ce risque. Les augmentations exogenes en risque augmentent la prime et le prix des contrats d'incitations. La theorie predit alors que les contrats d'incitations seront moins utilises dans les environnements risques. L'endogeneite est presente si les locataires qui sont relativement risquophiles sont apparies a des terrains a risque eleve.
+
+Comme ces locataires aiment le risque, lis n'ont pas besoin de prime. La correlation observable entre le niveau de risque et le contrat ne reflete pas la prevision de la theorie de principal-agent. Cependant, ceci n'est pas du au fait que la theorie soit fausse, mais plutot au fait que les contrats sont endogenes.
+
+Une autre possibilite est que le contrat est choisi par l'entreprise en fonction des elements qui affectent la productivite des travailleurs. Paarsch et Shearer (1999, 2000) ont etudie l'effet du contrat sur la productivite des travailleurs en utilisant des donnees provenant du secteur de plantation d'arbres en Colombie-Britannique. Les travailleurs de ce secteur sont (typiquement) payes a la piece - leur salaire etant strictement proportionnel au nombre d'arbres plantes. Paarsch et Shearer (1999) ont montre qu'une regression de la productivite des travailleurs sur le taux qui leur est paye produit un coefficient negatif. Il s expliquent ce resultat contre-intuitif par le fait que le taux a la piece est choisi par l'entreprise en fonction des conditions du terrain sur lequel plante le travailleur.
+
+La productivite des travailleurs qui plantent des arbres est determinee par leurs efforts et les conditions du terrain. Il est plus facile de planter des arbres sur un terrain qui est plat et couvert d'un sol mou que sur un terrain qui est a pic et plein de roches. Les conditions difficiles ralentissent le travailleur pour un niveau d'effort donne. Pour convaincre les travailleurs de planter dans des conditions difficiles, l'entreprise augmente le taux a la piecee paye par arbre plante. La variabilite dans le taux a la piece observe dans les donnees est, alors, due a la variabilite dans les conditions non observables a l'econometre. Dans un modele de regression, les conditions non observables sont comprises dans le terme d'erreur qui est correle avec le taux a la piece par le comportement de l'entreprise et, par consequence, le taux a la piece est une variable endogene.
+
+Paarsch et Shearer (2000) montrent que le comportement de l'entreprise peut rendre endogene le systeme de remuneration en general. Une comparaison de la productivite sous differents systemes de paies a montre que des travailleurs sont 60 % plus productifs quand lis sont payes a la piecee que lorsqu'ils recoivent un taux fixe. Cependant, l'entreprise utilise un taux fixe seulement lorsque les conditions de plantation sont extremement mauvaises. Le paiement a la piece incite a la vitesse, ce qui compromet la qualite des arbres plantes et expose l'entreprise a des amendes. En se tournant vers un systeme de paie a taux fixe, l'entreprise elimine l'incitation a reduire la qualite, tout en diminuant egalement l'incitation a la quantite. La difference de productivite observee dans les donnees brutes n'est pas un effet causal dans ces circonsances car les conditions de terrain changent en meme temps que le systeme de paie.
+
+2Corriger pour l'endogeneite
+
+Pour mesurer l'effet incitatif, il faut controler pour l'endogeneite du systeme de paie qui est a la base du terme de selection. Il s'agit d'un probleme classique qui s'est merite beaucoup d'attention de la part des econometres. Plusieurs methodes ont eteproposees pour contrer ce probleme, chacune basee sur des hypotheses differentes et determinees par la source de l'endogeneite. Si la seule source d'endogeneite est la selection de travailleurs possedant des habiletes differentes a travers les contrats, les donnees panel peuvent resoudre le probleme d'endogeneite. Les donnees de panel, permettent de suivre les travailleurs a travers le temps et d'observer le meme travailleur sous differents contrats afin de controler pour la selection des travailleurs a un contrat. Par exemple, Lazear (2000) a observe les memes travailleurs avant et apres le changement du systeme de paie dans une entreprise qui installe des parebrises automobiles, ce qui lui a permis de decomposer le changement total de productivite entre la partie qui est due aux incitations et celle qui est due a la rotation (ou selection). Il a trouve qu'approximativement 50 % de l'augmentation de la productivite observee avec l'introduction du systeme de paie a la piece etait du a la rotation.
+
+La methode des variables instrumentales fait l'hypothese de l'existence d'une variable qui est correlee avec le contrat mais qui n'affecte pas directement la variable Y. L'utilisation des variables instrumentales est relativement rare en econometrie des contrats etant donnee l'importance de la productivite des travailleurs dans les decisions de l'entreprise. Un exemple issu d'Ackerberg et Botticinni (2002) developpe un modele d'appariement entre les proprietaires des terrains agricoles et leurs locataires. Dans ce modele, les locataires sont heterogenes quant a leur aversion au risque et les terrains sont heterogenes par rapport a leur niveau de risque. Ackerberg et Botticinni utilisent la region d'Italie a titre de variable instrumentale. Ils maintiennent que la region affecte le risque du terrain, sans toutefois etre correlee avec les preferences des locataires. Leur hypothese de base est que la variabilite dans le risque des terrains a travers les regions n'aura pas d'effet sur les preferences car, a cette epoque, la population etait peu mobile.
+
+L'estimation de modeles structurels presente une autre alternative pour controler l'endogeneite des contrats. Paarsch et Shearer (2000) est un exemple. Ils modelisent le choix du systeme de paie qui maximise les profits de l'entreprise en fonction des conditions non observables \(\mu\in\Omega\). Leur modele est base sur l'arbitrage entre la quantite et la qualite de la production des travailleurs. Il leur permet de decomposer les conditions \(\Omega\) en \(\mu^{fw}\), l'ensemble des conditions pour lesquelles l'entreprise choisit de payer ses travailleurs un salaire fixe, et \(\mu^{w}\), l'ensemble des conditions pour lesquelles l'entreprise choisit de payer ses travailleurs a la piece. Le modele permet egalement de calculer la productivite des travailleurs par rapport a \(\mu^{w}\) (\(\mu^{fw}\)) si les travailleurs etaient payes un taux fixe (a la piece). Le calcul de ces productivites contrefractuvelles leur permet de decomposer la difference en productivite observee pour calculer la part de cette difference qui est due aux changements d'incitations et la part qui est due aux changements de conditions. Leurs resultats suggerent qu'en tenant les conditions de terrain fixes, le changement du systeme de paie d'un taux fixe a un taux a la piece a augmente la productivite des travailleurs de 23 %.
+
+## 3 Le role des experiences de terrain dans l'econometrie des contrats
+
+Les methodes presentees a la section 2 impliquent des hypotheses de la part des chercheurs qui peuvent etre discutables. Par exemple, la modelisation structurelle est basee sur la theorie economique et le choix optimal de la part des acteurs economiques. Sa construction necessite que le chercheur specific l'environnement economique complet dans lequel l'entreprise et les travailleurs interagissent, incluant : la technologie, les preferences, la distribution des elements non observables, le partage de l'information et la sequence des choix entre l'entreprise et les travailleurs. Les experiences naturelles et les etudes utilisant des variables instrumentales sont egalement basees sur des hypotheses : que le changement observe dans un contrat soit exogene, ou que l'existence d'une variable instrumentale soit valide.
+
+Les experiences de terrain offrent aux chercheurs une approche pour resoudre le probleme d'endogeneite des contrats de maniere credible afin de minimiser le nombre des hypotheses. Elles offrent l'opportunite de varier le systeme de paie de maniere exogene, ce qui elimine la necessite de modeliser le choix du systeme de remuneration de la part de l'entreprise. Le design de l'experience change le systeme de remuneration de maniere exogene. Comme telle, l'experience tient les elements non observables fixes et la difference en productivite des travailleurs observee sous des contrats differents identifie directement l'effet causal du systeme de remuneration.
+
+Shearer (2004) realise une des premieres experiences de terrain en economie dans le domaine de l'econometrie des contrats. D'autres exemples incluent Gneezy et List (2006), Fehr et Goette (2007) et Bandiera, Barankay et Rasul (2007). L'experience de Shearer etait structuree afin de mesurer l'effet incitatif lorsque les travailleurs sont payes a la piece plutot qu'a taux fixe. Pendant l'experience, les travailleurs d'une entreprise de plantation d'arbres etaient remuneres a taux fixe ou a la piece de facon aleatoire _sous des conditions de terrain identiques_. Les resultats montrent que la productivite des travailleurs etait 20 % plus elevee lorsqu'ils etaient payes a la piece. Ce resultat est semblable a ceux de Paarsch et Shearer (l'effet y etait de 23 %) et de Lazear, qui a mesure l'effet a 20 %.
+
+Les experiences ont cependant leurs limites. Chaque experience est menee a terme dans unvironnement specifique et considere des traitements propres a cet environnement. Ainsi, les resultats qui en decoulent peuvent etre exclusifs a cet environnement ou a ces traitements. Nous sommes parfois interesses a predire la performance des contrats non observes dans l'experience ou dans unvironnement specifique qui ne se prete pas a l'analyse experimentale. Par exemple, les experiences representent forcement des changements de courte duree du contrat. Un changement permanent peut impliquer des incitations et un comportement differents (Orcutt et Orcutt, 1968). Pour predire l'effet des contrats non observes dans l'experience, il faut predire comment l'effort des travailleurs reagira aux contrats, ou a des environnements differents.
+
+L'estimation des modeles structurels est un outil qui nous permet de predire le comportement des travailleurs a l'exterieur de l'environnement specifique de l'experience, entrainant la generalisation des resultats de l'experience et bonifiant ainsi la valeur des etudes experimentales.
+
+L'estimation de ces modeles implique le choix des valeurs des parametres structurels qui repliquent le mieux possible les donnees experimentales. L'idee generale est de se servir du modele pour generer un _mapping_ entre les parametres structurels, \(\Gamma\), et les moments (ou la distribution) des donnees experimentales, \(Y^{\mbox{\tiny{\it b}}s}\). La resolution du modele donne un comportement des agents economiques optimal (ou d'equilibre), qui genere a son tour la distribution de \(Y\) predit par le modele, \(Y^{\mbox{\tiny{\it model}}}\). Pour estimer \(\Gamma\), on choisit le vecteur de \(\Gamma\) qui mene a \(Y^{\mbox{\tiny{\it model}}}\)le plus pres possible de \(Y^{\mbox{\tiny{\it obs}}}\) pour une metrique donnee. Etant donne que \(\Gamma\) contient des parametres de preferences des travailleurs, on peut se servir de son estime, \(\widehat{\Gamma}\), pour predire le comportement des travailleurs sous des contrats alternatifs, non observes pendant l'experience. De plus, les parametres \(\Gamma\), ont une interpretation directe en termes d'utilite et de profits, ce qui facilite l'analyse des changements du bien-etre des contrats. Ceci est d'autant plus important lorsque l'on se rappelle que les changements en productivite que nous observons dans les experiences peuvent refletter les changements en effort, mais ne sont pas l'equivalent des changements en bien-etre car ils ignorent les changements dans le cout de l'effort.
+
+Par exemple, dans l'experience de Shearer (2004), le comportement des travailleurs est determine par :
+
+i. les incitations (ou les contrats) :
+
+\(r\), le taux a la piece;
+
+\(W\), le salaire fixe;
+
+i. l'environnement economique :
+
+(\(\mu\), \(\sigma^{2}\)), les parametres de la distribution des chocs a la technologie non observables;
+
+\(\overline{U}\), l'utilite alternative des travailleurs;
+
+\(R\), la rente future des travailleurs gagnee dans l'entreprise;
+
+iii. Les parametres de la fonction d'utilite des travailleurs;
+
+\(\gamma\), l'elasticite de l'effort par rapport a \(r\);
+
+\(k\), le cout de l'effort des travailleurs.
+
+Shearer specific la fonction d'utilite des travailleurs comme
+
+\(U=\ \omega\ -\ C\left(E\right)\)ou o represente le contrat et \(C(E)=k\ \ \frac{\gamma}{\gamma+1}\ \ E^{\ \frac{\gamma}{\gamma+1}}\), represente le cout de l'effort.
+
+On peut, alors ecrire le vecteur des parametres structurels comme etant \(\Gamma=(\mu,\ \sigma^{\ 2},\ \widetilde{U},\ R,\gamma,\ k)\). La resolution du modele pour le comportement optimal des travailleurs permet d'ecrire la productivite des travailleurs, sous differents contrats, en fonction de \(\Gamma:\)
+
+\[Y^{PR^{model}}=\ \frac{r}{k}\ S^{\gamma+1};\]
+
+\[Y^{FW^{model}}=\left(\ \frac{\gamma+I}{\gamma k}\ \right)^{\frac{\gamma}{ \gamma+2}}\frac{\gamma}{k^{-3}};\]
+
+\[\Delta^{model}=f\ (r,\ W,\ \Gamma)\]
+
+ou \(S\) represente les chocs aleatoires (les conditions de terrain). Pour completer le modele, Shearer fait l'hypothese que le contrat doit satisfaire la contrainte de participation des travailleurs
+
+\[\int\limits_{s}[V(s;\ r,\ \mu,\ \sigma^{\ 2})]f(s;\ \mu,\ \sigma^{\ 2})dS= \widetilde{U}\]
+
+ou \(V(s;\ r,\ \mu,\ \sigma^{\ 2})\) represente l'utilite indirecte de travailler avec les conditions de terrain \(S\). Shearer estime \(\Gamma\) par maximum de vraisemblance, sous l'hypothese que \(\log S\sim N(\mu,\ \sigma^{\ 2})\).
+
+_Exemple 1 : Generalisation de l'effet incitatif a un changement permanent du mode de remuneration_
+
+Dans l'experience de Shearer (2004), l'entreprise a change le systeme de remuneration des travailleurs d'un taux a la piece a un taux fixe pour un periode temporaire (le changement experimental dure trois jours). Pour eviter les effets de Hawthorne2, ce changement a ete presente aux travailleurs dans un contexte naturel qui rejoint leur experience quotienne a l'interieur de l'entreprise. Les travailleurs etaient informes que la compagnie et le gouvernement (qui etait proprietaire des terrains de plantation) ne s'etaient pas entendu sur un prix (ou un taux a la piece) pour certains terrains et qu'en consequence les travailleurs seraient payes un taux fixe sur ces terrains3.
+
+Footnote 2: L’effet de Hawthorne fait réérence au fait que les travailleurs peuvent ajuster leurs comportement s’ils savent qu’ils participant à une experience.
+
+Footnote 3:.
+
+Les resultats confirment que les travailleurs ont change leur comportement suite au changement de leur systeme de remuneration; leur productivite quotienne etant reduite de 20 % pendant l'experience. Cependant, ces resultats ne sont pas forcement indicatifs de ce que l'on observerait si l'entreprise adoptait un taux fixe de maniere permanente. Orcutt et Orcutt (1968) ont souleve ce point en reference a l'interpretation des resultats des experiences sociales sur le bien-etre social auxEtats-Unis. Dans notre cas, la difference entre les incitations depend des incitations a fournir de l'effort quand les travailleurs sont payes a taux fixe. Dans plusieurs modeles economiques, les incitations sous taux fixe dependent de la rente future que le travailleur gagne en demeurant a l'emploi de l'entreprise. Ces contrats, dits contrats de licenciement (traduction de l'anglais _termination_), ont ete developpe par Shapiro et Stiglitz (1984) et Macleod et Malcolmson (1989) et forment une partie des classes de modeles appeeles les modeles de salaire efficient. Comme son salaire a la periode \(t\) est par definition independant de son effort, le travailleur sera incite a travailler fort seulement si son effort affecte la probabilite qu'il garde son travail et le cas echeant, qu'il gagne des rentes.
+
+Le point clef est que le salaire fixe paye pendant l'experience n'a aucun effet sur la rente future des travailleurs car l'experience n'est maintenue qu'a court terme. Cette rente est generee par la politique de remuneration qui reprend lorsque l'experience prend fin : le paiement a la piece. De plus, il n'y a rien qui garantit que le niveau de salaire fixe qui etait paye pendant l'experience aurait genere le meme niveau de rente et par consequent le meme niveau d'effort, s'il etait adopte de maniere permanente.
+
+Afin de prevoir l'effet de l'adoption permanente d'un salaire fixe, Shearer (2004) utilise \(\widehat{\Gamma}\), les parametres estimes de l'application de son modele aux donnees experimentales. Il utilise un modele de type salaire efficient de Shapiro et Stiglitz (1984) pour calculer le taux fixe permanent qui donnerait le meme surplus que lorsque les travailleurs sont remunees a la piece. Il montre qu'un taux fixe permanent augmenterait les couts unitaires (le salaire paye par arbre plante) de 2,1 % vis-a-vis le paiement a la piece. Ceci en depit du fait que la productivite baisse de 20 %. Le faible effet de la reduction en productivite sur les couts de l'entreprise s'explique par le fait qu'a effort reduit, les travailleurs n'ont pas besoin de salaires aussi genereux. Ce dernier resultat sert a nous rappeler que les effets de traitement estimes dans les experiences ne conduisent pas directement a une mesure du bien-etre.
+
+_Exemple 2 : Generalisation de l'effet incitatif : l'effet bien-etre des contrats alternatifs_
+
+Un element frappant des contrats dans l'industrie de la plantation d'arbres est leur simplicite. Ils ont une forme lineaire, restreinte :
+
+\(W\) = \(rY\).
+
+Comme tel, le contrat inclut un instrument (le taux a la piece) pour accomplir deux taches : fournir les incitations et assurer la participation des travailleurs. Ces limites sont exacerbes par le fait que les travailleurs sont heterogenes quant a leurs habiletes. Bien que le contrat soit ajuste aux conditions de terrain observables pour assurer la participation des travailleurs, cet ajustement laisse des rentes chez certains des travailleurs. Un contrat plus general, incluant un salaire de base (potentiellement specifique a l'individu) permettrait de fournir des incitations, tout en eliminant les rentes aux travailleurs. Paarsch et Shearer (2009) ont investigue ces idees en utilisant des donnees experimentales afin d'identifier la reaction destravailleurs a une augmentation du taux a la piece qu'ils recoivent. Leur experience etait menee a terme dans une compagnie de plantation d'arbres qui payaient ses employes a la piece. Pendant l'experience, des terrains identiques etaient divises en deux parties. Sur une partie du terrain, les travailleurs recevaient leur taux a la piece habituel. Sur l'autre partie du terrain, le taux a la piece paye aux travailleurs avait ete augmente de l'ordre de 20 %.
+
+Les resultats demontrent que la productivite des travailleurs etait plus elevee lorsque le taux a la piece etait augmente : une augmentation du taux a la piece d'un pourcent faisant augmenter la productivite des travailleurs de 0,4 %. Paarsch et Shearer utilisent leurs resultats pour calculer l'elasticite de l'effort des travailleurs par rapport au taux a la piece (la reaction aux incitations) et pour comparer les profits que l'entreprise gagne, sur des terrains de plantation donnes sous differents contrats. Ils comparent le contrat actuel, \(W=rY\), avec les profits que l'entreprise aurait gagnes en ajoutant un salaire de base au contrat, \(W=B+RY\). Paarsch et Shearer montrent que les profits sous les deux contrats dependent de :
+
+* l'elasticite de l'effort par rapport au taux a la piece, \(\gamma\);
+* la distribution de l'habilite des travailleurs, \(k_{i}\);
+* la distribution des chocs de productivite, \(S\).
+
+Tous ces elements peuvent etre estimes a partir de donnees experimentales.
+
+Les resultats de Paarsch et Shearer suggerent que l'ajout d'un salaire de base independant de l'habilete du travailleur aurait tres peu d'effet sur les profits de l'entreprise qui seraient augmente de moins de 1 %. La distribution des habiletes ne donne pas beaucoup de marge a l'entreprise pour recuperer les rentes des travailleurs, tout en respectant les contraintes de participation. L'ajout d'un salaire de base qui depend de l'habilite des travailleurs aurait un effet plus important, augmentant les profits de 15 %. Ce dernier resultat suggere que d'autres facteurs empechent l'entreprise de mettre en place un tel contrat. Une possibilite est que l'entreprise s'engage a ne pas utiliser d'information sur l'habilite des travailleurs pour eviter les effets pervers associes avec l'engagement dynamique des contrats (l'effet _ratchet_). Les travaux recents montrent l'importance de l'engagement dynamique des contrats dans la determination de la productivite des travailleurs dans ce contexte; voir Bellemare et Shearer (2014).
+
+Conclusion
+
+L'utilisation de donnees experimentales devient de plus en plus courante en economie. Dans le domaine de l'econometrie des contrats, les experiences presentent un outil puissant pour analyser empiriquement les predictions des modeles economiques des contrats. L'environnement experimental offre aux chercheurs la possibilite d'induire de la variabilite exogene dans les contrats, ce qui permet de mesurer les effets des contrats sur le comportement des travailleurs. Les experiences fournissent egalement de la variabilite exogene pour identifier des modeles structurels,I'estimation desquels permet la generalisation des resultats experimentaux au-dela de l'environnement specifique de l'experience.
+
+Bien que plusieurs economistes demeurent divises par l'application des approches forme reduite ou structurelle aux donnees, cette division semble superficielle en contexte experimental : Shearer (2004), Paarsch et Shearer (2009) demontrent la complementarite des deux approches. Ils presentent, dans un premier temps, les resultats en forme reduite pour mesurer l'effet de traitement des contrats impliques par des donnees experimentales. Ensuite, ils presentent des resultats de l'estimation structurelle afin de generaliser les resultats experimentaux au-dela de l'experience specifique.
+
+La realisation continuelle de ces complementarites necessite que les chercheurs colligent davantage de donnees experimentales et y appliquent des modeles structurels. L'econometrie des contrats a pour tradition le fait que les chercheurs colligent leurs propres donnees a partir des archives de paie d'entreprises. Les experiences de terrain representent une extension naturelle et logique de cette tradition. Le developpement et l'application de modeles structurels a ces donnees avanceront nos connaissances en economie (et econometrie) des contrats.
+
+Convaincre la profession de la valeur ajoutee de cette methodologie reste encore un defi pour les structuralistes. Bien que le developpement de modeles qui peuvent prevoir et generaliser les resultats experimentaux montre le potentiel de cette approche, la realisation de ce potentiel necessite la demonstration que ces modeles font des predictions precises. Ceci est un defi de taille et ne sera accomplique graduellement. Les situations qui nous interessent sont parfois inobservables. Il n'est pas probable qu'une entreprise dans laquelle une experience est completee decide de changer son systeme de paie de maniere permanente. Cependant, nous pouvons etre plus confiants quant a notre capacite a predire ces effets en comparant les previsions des politiques observables a leurs propres realisations. Les experiences ont donc un role important a jouer dans cette dimension egalement : les traitements supplementaires pouvant etre inclus dans une experience afin de tester les previsions des modeles estimes.
+
+Bien que la modelisation et l'estimation des modeles structurels impliquent un effort de la part des chercheurs au-dela de l'estimation en forme reduite, les economistes beneficieront tous des efforts qui contribueront a developper des modeles de qualite qui nous permettront de faire des predictions justes.
+
+## Bibliographie
+
+Ackerberg, D, A, et M. Botticnini (2002), << Endogenous Matching and the Empirical Determinants of Contract Form >>, _Journal of Political Economy_, 110(3) : 564-591.
+
+Akerlof, G. (1982), << Labor Contracts as Partial Gift Exchange >>, _The Quarterly Journal of Economics_, 97(4) : 543-569.
+
+* [19][] Alchhan, A et H. Demsetz (1972), << Production, Information Costs, and Economic Organization >>, _The American Economic Review_, 62(5) : 777-795.
+* [20] Asch, B. J. (1990), << Do Incentives Matter? The Case of Navy Recruiters >>, _Industrial and Labor Relations Review_, 43(3), Special Issue: Do Compensation Policies Matter? : 89S-106S.
+* [21] Angrist, J. et Pischke (2009), _Mostly Harmless Econometrics: An Empiricist's Companion,_ Princeton University Press, Princeton, New Jersey.
+* [22] Baker, G., R. Gibbons et K. Murphy (1994), << Subjective Performance Measures in Optimal Incentive Contracts >>, _The Quarterly Journal of Economics_, 109(4) : 1125-1156.
+* [23] Bandiera, O., I. Barankay et I. Rasul (2007), << Incentives for Managers and Inequality among Workers: Evidence from a Firm-Level Experiment >>, _The Quarterly Journal of Economics_, mai : 729-773.
+* [24] Bellemare, C. et B. Shearer (2014), << Measuring Ratchet Effects within a Firm: Evidence from a Field Experiment Varying Contractual Commitment >>, IZA Working Paper 8214.
+* [25] Bolton, P. et M. Dewatripont (2004), _Contract Theory,_ The MIT Press.
+* [26] Copeland, A. et C. Monnet (2009), << The Welfare Effects of Incentive Schemes >>, _Review of Economic Studies,_ 76 : 93-113,
+* [27] Fehr, E et L. Goette (2007), << Do Workers Work More if Wages Are High? Evidence from a Randomized Field Experiment >>, _The American Economic Review_, 97(1) : 298-317.
+* [28] Ferrall, C. et B. Shearer (1999), << Incentives and Transactions Costs within the firm: Estimating an Agency Model using Payroll Records >>, _Review of Economic Studies,_ 66 : 309-338.
+* [29] Flinn, C. J. (2010), _The Minimum Wage and Labor Market Outcomes,_ The MIT Press.
+* [30] Gneezy, U. et J. A. List (2006), << Putting Behavioral Economics to Work: Testing for Gift Exchange in Labor Markets Using Field Experiments >>, _Econometrica_, 74 (5) : 1365-1384
+* [31] Hart, O, et B. Holmstrom (1987), << The Theory of Contracts >>, _in_ T. F. Bewley (ed.), _Advances in Economic Theory: Fifth World Congress_, p. 71-55.
+* [32] Heckman, J., R. Lalonde et J. Smith (1999), << The Economics and Econometrics of Active Labor Market Programs >>, _in_ O. Ashenfelter et D. Card (eds) _Handbook of Labor Economics_, volume 3A, chapitre 31.
+* [33] Jones D. et T. Kato (1995), << The Productivity Effects of Employee Stock-Ownership Plans and Bonuses: Evidence from Japanese Panel Data >>, _The American Economic Review_, 85(3) : 391-414.
+* [34] Laffont, J.-J. et D. Martinort (2002), _The Theory of Incentives: The Principal-Agent Model,_ Princeton University Press.
+* [35] Laffont, J.-J. et J. Tirole (1993), _A Theory of Incentives in Procurement and Regulation,_ The MIT Press.
+* [36] Lazear, E. (1986), << Salaries and Piece Rates >> _The Journal of Business_, 59(3) : 405-431.
+* [37]* Lazear (2000)Lazear, E. (2000), << Performance Pay and Productivity >>, _The American Economic Review_, 90(5) : 1346-1361.
+* Lazear and Rosen (1981)Lazear, E. et S. Rosen (1981), << Rank-Order Tournaments as Optimum Labor Contracts >>, _Journal of Political Economy_, 89(5) : 841-864
+* Macleod and Malcolmson (1989)Macleod, B. et J. Malcolmson (1989), << Implicit Contracts, Incentive Compatibility, and Involuntary Unemployment >> _Econometrica_, 57(2) : 447-480.
+* Malcomson (1999)Malcomson, J. M. (1999), << Individual Employment Contracts >>, _in_ O. Ashenfelter et D. Card (eds) _Handbook of Labor Economics_, p. 2291-2372.
+* Orcutt (1968)Orcutt, G. H. et A. G. Orcutt (1968), << Incentive and Disincentive Experimentation for Income Maintenance Policy Purposes >>, _The American Economic Review_, 58(4) : 754-772.
+* Paarsch and Shearer (1999)Paarsch, H. et B. Shearer (1999), << The Response of Worker Effort to Piece Rates >>, _Journal of Human Resources_, 34(4) : 643-667.
+* Paarsch and Shearer (2000)Paarsch, H. et B. Shearer (2000), << Piece Rates, Fixed Wages and Incentive Effects: Statistical Evidence from Payroll Records >>, _The International Economic Review_, 41(1) : 59-92.
+* Paarsch and Shearer (2009)Paarsch, H. et B. Shearer (2009), << The Response to Incentives and Contractual Efficiency: Evidence from a Field Experiment >>, _European Economic Review_, 53(5) : 481-494
+* Parent (1999)Parent, D. (1999), << Method of Pay and Earnings: A Longitudinal Analysis >>, _Industrial and Labor Relations Review_, 53(1) : 71-86.
+* Parsons (1986)Parsons, D. O. (1986), << The Employment Relationship: Job Attachment, Work Effort and the Nature of Contracts >>, _in_ Ashenfelter, O. C. et D. Layard (eds), _Handbook of Labor Economics_, vol. 2, p. 789-848.
+* Pencavel (1977)Pencavel, J. (1977), << Work Effort, On the Job Screening and Alternative Methods of Remuneration >>, _in_ R. Ehrenberg (ed.), _Research in Labor Economics_, volume 1.
+* Salanie (2005)Salanie, B. (2005), _The Economics of Contracts_, Deuxieme edition, The MIT Press.
+* Seiler (1984)Seiler, E. (1984), << Piece Rate vs. Time Rate: The Effect of Incentives on Earnings >>, _Re-view of Economics and Statistics_, 66(3) : 363-76.
+* Shapiro and Stiglitz (1984)Shapiro, C. et J.,E. Stiglitz (1984), << Equilibrium Unemployment as a Worker Discipline Device >>, _The American Economic Review_, 74(3) : 433-444.
+* Shearer (2004)Shearer, B. (2004), << Piece Rates, Fixed Wages and Incentives: Evidence from a Field Experiment >>, _The Review of Economic Studies_, 71(2) : 513-534
+* Stiglitz (1975)Stiglitz, J.E. (1975), << Incentives, Risk, and Information: Notes Towards a Theory of Hierarchy >>, _The Bell Journal of Economics_, 6(2) : 552-579.
+* Wolpin (2013)Wolpin, K. I., (2013), _The Limits of Inference without Theory_, The MIT Press.
+
+[MISSING_PAGE_POST] 
+
+

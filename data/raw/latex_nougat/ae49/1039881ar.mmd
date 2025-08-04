@@ -1,0 +1,503 @@
+AMBIGUTE, COMPORTEMENTS
+
+ET MARCHES FINANCIERS*
+
+Meglena JELEVA
+
+_EconomiX_
+
+_Universite de Nanterre Paris Ouest_
+
+meglena.jeleva@u-paris10.fr
+
+Jean-Marc TALLON
+
+_Paris School of Economics_
+
+_CNRS_
+
+jean-marc.tallon@univ-paris1.fr
+
+Resume - Nous proposons une revue de la litterature recente centree sur les effets de l'ambiguite (ou incertitude non probabilisee) sur les comportements des acteurs sur les marches financiers et sur le fonctionnement de ces derniers. Nous exposons les mecanismes theoriques de choix de portefeuille et de formation de prix d'actifs essentiellement, qui different de ceux reposant sur des modelisations usuelles en termes d'esperance d'utilite. Nous proposons aussi une revue des resultats empiriques et experimentaux qui viennent illustrer voire etayer les predictions theoriques decrites.
+
+## Introduction
+
+Le monde financier regorge de donnees. Et pourtant, force est de constater que, que ce soit pour le particulier qui cherche a se constituer un capital pour sa retraite, l'education de ses enfants, un projet immobilier ou tout autre projet, ou pour des investisseurs institutionnels ou encore pour le regulateur, il n'est pas simple de prendre des decisions eclaires1. Former des anticipations precises sur les determinants des cours futurs et leur probabilite d'occurrence n'est pas chose aisee. La complexite du monde dans lequel nous evoluons, la complexite des produits financiers auxquels nous faisons face et les changements de regime (lies par exemple a des evenements catastrophiques, ou a des changements structurels - on peut penser a la mondialisation des economies, a la revolution numerique, _etc._ - ou encore a des changements de legislation), conjugues a nos propres limites cognitives rendent illusoires le fait de pouvoir prevoir finement les aleas susceptibles de nous toucher et d'agir comme si ces aleas etaient gouvernes par une loi de probabilite qu'il suffisai d'estimer.
+
+Prendre en compte cette complexite et ces limitations dans les modeles economiques n'est pas toujours chose simple et de multiples options ont ete suivies, regroupees, lorsqu'elles traitent de phenomenes financiers, dans un ensemble tres heterogene qualifie de << finance comportementale >>>>. L'option que nous avons choisie dans cet article est de nous concentrer sur un aspect specifique du comportement des acteurs economiques et financiers, a savoir leur comportement face a l'invertitude qui entoure le fonctionnement des marches financiers et qui traduit l'idee que la plupart des decisions financieres que nous prenons ont des consequences dont il est excessivement difficile de connaitre la probabilite exacte d'occurrence. Dans un tel contexte, les modeles usuels d'esperance d'utilite ne suffisent plus pour representer les choix des agents. Que les individus se comportent differenment dans un environnement risque, ou l'on dispose d'une information frequentiste, et dans un environnement ou l'information disponible n'est pas de cette nature, a ete releve par de nombreuses etudes depuis les travaux de Daniel Ellsberg (1961). Plus receemment, ces observations comportementales ont trouve un debut de fondement neuronal puisque plusieurs etudes (par exemple Smith _et al._, 2002 ou Hsu _et al._, 2005) mettent en evidence des circuits neuronaux, vraisemblablement associes aux decisions prises dans l'invertitude, differents de ceux associes aux decisions prises dans un environnement risque.
+
+La litterature sur la prise de decision en presence d'ambiguite3 cherche a saisir ceci en affaiblissant les hypotheses du modele usuel de decision dans le risque, le modele d'esperance d'utilite de Von Neumann et Morgenstern etendu au cas de l'inertain par Savage. Il existe une pluralite de modeles (decrits par Baillon et l'Haridon dans ce numero) qui propose de tels affaiblissements. Ces modeles proposent de nouveaux criteres fonctionnels de decision, axiomatiquement fondes et on peut dater un nouveau depart pour cette litterature a l'annee 1989, date de publication des deux articles pionniers (Schmeidler, 1989 et Gilboa et Schmeidler, 1989). Ils ont ete appliques avec un succes croissant aux modeles de choix de portefeuille et de prix d'actifs. Les premieres applications de ces modeles aux choix de portefeuille remontent a l'article pionnier de Dow et Werlang (1992) et se sont multiplies depuis. Les modeles d'equilibre avec agent representatif se sont aussi developpes rapidement avec une contribution originale d'Epstein et Wang (1994).
+
+Les contributions empiriques ont ete un peu plus longues a voir le jour, mais se developpent aussi rapidement. Ce sont ces 25 annees de recherche dans le domaine que nous souhaitons proposer birevement et partiellement dans cet article4.
+
+L'article est compose de deux parties, l'une concernant les choix de portefeuille, la seconde se concentrant sur les implications sur le fonctionnement des marches (notamment les prix d'actifs). Dans chaque partie, nous avons divise les approches theoriques en trois grands groupes, a savoir les modeles dits _Maxmin_ esperance d'utilite (_MaxMin_Eu), les modeles dits d'incertitude et enfin les modeles differentiables. Nous nous sommes efforces de decrire le plus simplement les mecanismes a l'oeuvre dans ces modeles, ce en quoi lis different des mecanismes provenant du modele d'esperance d'utilite et avons presente les developpements empiriques et experimentaux qui illustrent ou, parfois, contredisent les mecanismes theoriques decrits.
+
+## 1. Choir de portefeuille
+
+Lambiguite, combinee avec l'aversion pour l'ambiguite, affectent les choix de portefeuille et permet d'expliquer des comportements qui peuvent etre significativement differents des comportements en presence de risque, tout en correspondant a des choix observes sur les marches. Ces comportements concernent essentiellement :
+
+* la faible participation : le pourcentage des m enages detenant des portefeuilles d'actions est au-dessous de celui attendu compte tenu des rendements et de l'attitude estimee vis-a-vis du risque (Haliassos et Bertaut, 1995);
+* l'inertie des portefeuilles : la trop faible modification de la composition des portefeuilles suite a l'arrivee de nouvelles informations (Ameriks et Zeldes, 2004).
+
+A ces deux principaux phenomenes observes peuvent en etre associes deux autres, qui peuvent en etre des consequences : la sous-diversification et le biais domestique. Les portefeuilles detenus par les m enages sont moins diversifies et comportent plus de titres domestiques que ce qui est optimal d'apres la theorie classique (Tesar et Werner, 1995; Coval et Moskowitz, 1999).
+
+Il apparait plus precisement que si le risque pousse les investisseurs a la mise en place de strategies complexes de couverture et a l'adaptation permanente de ces strategies aux nouvelles conditions de marche et aux nouvelles informations, l'ambiguite va plutot etre a l'origine de non-participation et de manque de reaction aux modifications des conditions de marche.
+
+Les premiers a avoir etudie l'impact de l'ambiguite et de l'aversion pour l'ambiguite sur les decisions concernant l'achat ou la vente d'actifs financiers sont Dow et Werlang (1992). Leur resultat le plus marquant est l'existence, pour les individus ayant de l'aversion pour l'ambiguite, d'un intervalle pour le prix d'un actif danslequel la decision optimale est de ne pas prendre position sur cet actif, c'est-a-dire de ne pas acheter, ni de vendre. Un tel intervalle de non-participation n'existe pas pour les investisseurs qui maximisent une esperance objective ou subjective d'utilite et donc qui sont noutres vis-a-vis de l'ambiguite.
+
+Lexistence d'un tel intervalle est a l'origine d'une inertie de portefeuille, certaines modifications de prix n'ayant pas d'impact sur les choix de portefeuille5. Le modele de Dow et Werlang est utile pour construire un certain nombre d'intuitions concernant la maniere dont l'ambiguite affecte le comportement des individus. Nous presentons donc ce modele et en tirons quelques enseignements dans une premiere section avant d'enrichir l'analyse puis, dans une seconde section, d'envisager des modeles dont les mecanismes sont quelque peu differents.
+
+Footnote 5: L’inertie peut ê observee (Ameriks et Zeldes, 2004) et théoriquement mise en évidence en dehors du cas de non-participation. Illéditsch (2011) par exemple met en evidence des comportements d’inertie informationnelle: en presence d’ambiguite, si les agents observer une variation des prix inattendue (ou surprenante) ils peuvent ne pas reagir en modifiant la composition de leur portefeuille comme ils le feraient dans un environmenten risque.
+
+1.1 _Quelques resultats a partir d'un modele simple de choix de portefeuille (Dow et Werlang, 1992)_
+
+L'intuition du resultat de Dow et Werlang (1992) et ses consequences pour les choix de portefeuilles d'actifs peut etre presentee a partir d'un exemple tres simple6. Considerons un actif qui rapporte \(X\) en valeur actualisee. Le prix unitaire de cet actif est \(\Pi\). \(X\) peut prendre deux valeurs: \(H\), si l'etat de la nature \(\omega_{{}_{H}}\) se realise ou \(B\), si l'etat de la nature \(\omega_{{}_{B}}\) se realise avec \(H>B\). L'espace des etats de la nature est donc dans ce cas tres simple \(\Omega=\{\omega_{{}_{H}},\omega_{{}_{B}}\}\).
+
+Footnote 6: Dow et Werlang supposent que les preferences des investisseurs sont representées par le modele d’eséérance d’utilité à la Choquet (modele CEU). Dans ce qui suit, pour decrire plus simplement les intuitions de leurs resultats, nous considérerons des investisseurs dont les croyances sont representées par un ensemble de distributions de probabilité avec des preferences _MaxMin_Eu.
+
+#### 1.1.1 _Achat ou vente d'un actif_
+
+Un investisseur doit choisir sa position sur cet actif. Trois decisions sont possibles: acheter une unite de cet actif (decision \(D_{{}_{A}}\)), vendre une unite de cet actif (decision \(D_{{}_{V}}\)), ne pas prendre position sur cet actif (decision \(D_{{}_{O}}\)). Nous supposerons que la fonction d'utilite pour la richesse de cet investisseur est lineaire: \(u(x)=x\). Considerons d'abord le cas sans ambiguite et determinons la meilleure decision \(D^{*}\) en fonction du prix de l'actif. Si la probabilite de l'etat de la nature \(\omega_{{}_{H}}\) est connue et egale a \(p\) (ce qui implique \(P(\omega_{{}_{B}})=1-p\)), le decideur evalue les differentes decisions comme suit:
+
+\[V(D_{{}_{A}}) =p(H-\Pi)+(1-p)(B-\Pi)=pH+(1-p)B-\Pi,\] \[V(D_{{}_{V}}) =p(\Pi-H)+(1-p)(\Pi-B)=\Pi-[pH+(1-p)B], \tag{1}\] \[V(D_{{}_{0}}) =0.\]Ainsi, si P <\(pH+(1-p)B\) et si P >\(pH+(1-p)B\). L'investisseur est indifferent entre, et si P = \(pH+(1-p)B\). Il n'existe donc qu'un seul priz pour lequel la decision est optimale. En effet, si le prix de l'actif est inferieur a son esperance de gain, l'investisseur achete l'actif et, dans le cas contraire, il le vend.
+
+Ce raisonnement est independant du statut particulier que nous avons donne a la distribution \(p\), a savoir que cette probabilite est connue. Si le decideur ne connait pas la probabilite, mais que ses preferences sont donnees par le modele de l'esperance subjective d'utilite (il est neutre vis-a-vis de l'ambiguite), alors il choisit une decision en maximisant l'esperance de gain par rapport a une probabilite subjective \(p\) qu'il utilise dans l'evaluation de toutes les decisions possibles. Les choix optimaux sont les memes que dans le cas sans ambiguite, avec un prix seuil donne par l'esperance de gain calcule avec la probabilite subjective \(p\). La nature objective (risque) ou subjective (incertain) de la probabilite \(p\) n'affecte pas le resultat qu'une position nulle sur l'actif n'est optimale que pour un prix particulier.
+
+Considerons maintenant une situation particuliere d'ambiguite. Les croyances de l'investisseur situent la probabilite de \(H\) dans un intervalle : \(P(\omega_{H})\in\left[\underline{p,p}\right]\). L'ambiguite est donc caracterisee par un ensemble de distributions de probabilite
+
+\[\mathcal{P}=\left\{P:P(\omega_{H})\in\left[\underline{p,p}\right],\ P(\omega_ {B})\in\left[1-\overline{p},1-\underline{p}\right]\right\}\]
+
+Supposons que les preferences de l'investisseur sont representees par le modele _MaxMin_Eu. Cet investigseur a donc de l'aversion a l'egard de l'ambiguite car il evalue toute decision par l'esperance d'utilite la plus faible compatible avec ses croyances. Par consequent, un elargissement symetrique de l'ensemble des croyances de cet investisseur (correspondant intuitivement a une augmentation de l'ambiguite) va diminuer la valeur associee a toute decision.
+
+Pour bien mettre en evidence l'impact de l'ambiguite sur les decisions, nous considerons, comme dans le cas precedent, sans ambiguite que \(u(x)=x\). Les evaluations des decisions sont dans ce cas les suivantes :
+
+\[\begin{array}{l}V(D_{A})=Min_{p\in\left[\underline{p,p}\right]}p(H-\Pi)+(1-p )(B-\Pi)=\underline{p}(H-\Pi)+(1-\underline{p})(B-\Pi)\\ =\underline{p}H+(1-\underline{p})B-\Pi=E_{\underline{p}}X-\Pi,\\ V(D_{V})=Min_{p\in\left[\underline{p,p}\right]}p(\Pi-H)+(1-p)(\Pi-B)= \overline{p}(\Pi-H)+(1-\overline{p})(\Pi-B)\\ =\Pi-\overline{p}H+(1-\overline{p})B=\Pi-E_{\overline{p}}X,\\ V(D_{0})=0.\end{array} \tag{2}\]
+
+Dans ce cas :
+
+\[\begin{array}{l}D^{*}=D_{A}\ \ \text{si}\ \Pi<E_{\underline{p}}X,\\ D^{*}=D_{V}\ \ \text{si}\ \Pi>E_{\overline{p}}X,\\ D^{*}=D_{0}\ \ \text{si}\ E_{\underline{p}}X<\Pi<E_{\overline{p}}X.\end{array}\]
+Il existe donc un intervalle pour le prix dans lequel l'investisseur decide de ne pas prendre position sur le titre. L'existence de cet intervalle est due a l'ambigeute et a l'aversion pour l'ambigeute. En presence d'un ensemble de croyances, l'investisseur choisit une croyance en fonction de la decision qu'il a a evaluer. Un investisseur qui a de l'aversion pour l'ambigeute utilisera, par prudence, la croyance qui donne l'evaluation la plus defavorable de la decision consideree. Ainsi, la probabilite utilisee pour evaluer la decision d'achat est \(p\), et celle utilisee pour la decision de vente est \(\overline{p}\). Pour acheter, le prix doit etre suffisamment faible pour que, meme si la probabilite de \(H\) est la plus faible possible, l'esperance de gain soit superieure au prix. De meme, pour decider de vendre, le prix doit etre suffisamment eleve pour que, meme si la probabilite est la plus elevee, l'esperance de gain soit inferieure a ce prix. Lorsque le prix ne verifie aucune de ces conditions, l'investisseur ne prend pas position. L'intervalle de prix pour lequel l'agent ne prend pas position est d'autant plus grand que l'ensemble de probabilites possibles est grand. Ainsi, plus il y a d'ambiguite, plus la non-participation est frequente.
+
+#### 1.1.2 Niveau d'investissement optimal
+
+Generalisons un peu le modele precedent en supposant que l'investisseur a une fonction d'utilite concave et determinons le nombre d'unites de l'actif qu'il va acheter ou vendre a decouvert. Nous supposons qu'il a une richesse initiale \(W\). Notons que \(\theta\) correspond au nombre d'unites a acheter (\(\theta>0\)) ou vendre (\(\theta<0\)).
+
+Considerons d'abord le cas sans ambiguite. Les preferences de l'investisseur sont representees par le modele d'esperance d'utilite (EU) avec une fonction \(u\) concave. Le nombre optimal d'unites, \(\theta\)* que l'investisseur achetera correspond alors a la solution de :
+
+\[Max_{\theta}\ V(\theta)\ \text{ avec }\ V(\theta)=E_{p}u(W+\theta(X-\Pi)). \tag{3}\]
+
+La condition d'optimalite de premier ordre s'ecrit :
+
+\[V^{{}^{\prime}}(\theta)=0\Leftrightarrow E_{p}\left[(X-\Pi)u^{{}^{\prime}}(W+ \theta(X-\Pi))\right]=0. \tag{4}\]
+
+La condition de second ordre est verifiee a cause de l'hypothese de concavite de \(u\).
+
+L'investisseur decide d'acheter (\(\theta\)* \(>0\)) si et seulement si \(V^{{}^{\prime}}(0)>0\Leftrightarrow E_{p}X>\Pi\), et de vendre (\(\theta\)* \(<0\)) si et seulement si \(E_{p}X<\Pi\). Comme dans la section 1.1.1., il n'existe qu'un seul prix (\(\Pi=E_{p}X\)) pour lequel l'investisseur ne prend pas position sur l'actif. Notons que ce prix seuil ne depend pas de l'aversion pour le risque de l'investisseur, mais seulement de l'esperance de gain du titre (l'aversion pour le risque est de second ordre dans le modele EU).
+
+Considerons maintenant le nombre optimal de titres achetes lorsqu'il est different de zero (le meme raisonnement s'applique pour le nombre de titres vendus). Une forme simple pour \(\theta\)* peut etre obtenue dans le cas de petits risques, c'est-a-dire lorsque les gains (ou pertes) du titre sont peu eloignes de P. Posons \(\widetilde{X}=X-\Pi=k\mu+Y\) avec \(ZY=0\) et \(\mu>0\). Un petit risque correspond au cas ou \(k\) est proche de \(0\). \(\theta\)* \((k)\) est la solution de :
+
+\[E_{P}\left[(k\mu+Y)u^{\cdot}(W+\theta(k)(k\mu+Y))\right]=0.\]
+
+En derivant cette condition par rapport a \(k\), on obtient :
+
+\[\mu E_{P}u^{\cdot}(.)+\theta(k)\mu E_{P}\left[(k\mu+Y)u^{\cdot}(.)\right]+ \theta^{\cdot}(k)E_{P}\left[(k\mu+Y)^{2}u^{\cdot}(.)\right]=0\]
+
+ce qui donne, en \(k=0\) :
+
+\[\theta^{\cdot}(0)=\frac{\mu}{E_{P}(Y^{2})}\times\left(-\frac{u^{\cdot}(W)}{u^ {\cdot}(W)}\right).\]
+
+Un developpement limite d'ordre \(1\) de \(\theta(k)\) au voisinage de \(k=0\) permet d'ecrire :
+
+\[\theta(k)\simeq k\times\frac{\mu}{E_{P}(Y^{2})}\times\left(-\frac{u^{\cdot}(W )}{u^{\cdot}(W)}\right).\]
+
+Par definition, \(k\mu=E_{P}\widetilde{X}\) et \(Y=\widetilde{X}-E_{P}\widetilde{X}\) et donc :
+
+\[\frac{\theta(k)}{W}\simeq\frac{E_{P}\widetilde{X}}{\alpha_{\widetilde{X}}^{2 }\ R(W)}\]
+
+ce qui peut aussi s'ecrire comme :
+
+\[\frac{\theta^{*}}{W}\simeq\frac{(E_{P}X-\Pi)}{\alpha_{X}^{2}}\times\frac{1}{ R(W)} \tag{5}\]
+
+ou \(R(W)=-W\frac{u^{\cdot}(W)}{u^{\cdot}(W)}\) est l'indice relatif d'aversion pour le risque. Le nombre d'actifs achetes est proportionnel a l'ecart entre le gain espere et le prix (prime de risque) et inversement proportionnel au risque, mesure ici par la variance, et au coefficient relatif d'aversion pour le risque. Ce resultat est exact si \(u\) est une fonction d'utilite CRRA (_constant relative risk aversion_ : \(R(W)=\gamma\) pour tout \(W\)), et si \(X\) suit une loi normale.
+
+Introduisons maintenant de l'ambiguite, caracterisee comme dans la section 1.1.1, par un ensemble de cryosances \(\mathcal{P}\). Pour l'investisseur dont les preferences sont _MaxMin_Eu, est la solution de :
+
+\[Max_{\theta}\quad Min_{P\in\mathcal{P}}\quad E_{P}u(W+\theta(X-\Pi)). \tag{6}\]D'apres la section precedente, suivant le signe de \(\theta\), la valeur minimale de l'esprance d'utilite ne sera pas atteinte pour la meme probabilite et la fonction a maximiser pour determiner \(\theta\)* ne s'ecrira pas de la meme facon. Plus precisement,
+
+1. Si l'investisseur achete des unites de l'actif, ce qui correspond a \(\theta>0\), alors \(\theta\)* est la solution de :
+
+\[Max_{\theta}\quad\underline{\rho}u(W+\theta(H-\Pi))+(1-\underline{\rho})u(W+ \theta(B-\Pi))=Max_{\theta}\ E_{\underline{\rho}}u(W+\theta(X-\Pi)).\]
+
+La condition d'optimalite de premier ordre s'ecrit :
+
+\[E_{\underline{\rho}}\Big{[}(X-\Pi)\dot{u^{\prime}}(W+\theta(X-\Pi))\Big{]}=0.\]
+
+Ici aussi, la condition de second ordre est verifiee a cause de la concavite de \(u\).
+
+2. Si l'investisseur vend a decouvert des unites de l'actif, ce qui correspond a \(\theta<0\), alors \(\theta\)* est la solution de :
+
+\[Max_{\theta}\quad\overline{\rho}u(W+\theta(H-\Pi))+(1-\overline{\rho})u(W+ \theta(B-\Pi))=Max_{\theta}\ E_{\overline{\rho}}u(W+\theta(X-\Pi)).\]
+
+La condition d'optimalite de premier ordre s'ecrit :
+
+\[E_{\overline{\rho}}\Big{[}(X-\Pi)\dot{u^{\prime}}(W+\theta(X-\Pi))\Big{]}=0.\]
+
+L'investisseur decide d'acheter si et seulement si \(\Pi<E_{\underline{\rho}}X\), et de vendre, si \(\Pi>E_{\overline{\rho}}X\). L'ambiguite est, ici aussi, a l'origine d'un intervalle de prix pour lequel l'investisseur ne souhaite pas prendre position sur l'actif.
+
+L'utilisation de la meme demarche et de la meme approximation que pour le cas sans ambiguite pour les distributions \(\underline{P}\) et \(\overline{P}\) permet d'obtenir les valeurs approchees suivantes pour \(\theta\)* :
+
+\[\begin{array}{rcl}\theta^{*}&=&\frac{E_{\underline{P}}X-\Pi}{\underline{ \sigma}_{X}^{2}R(W)}W&\mbox{si}&\Pi<E_{\underline{P}}X\\ &=&0&\mbox{si}&E_{\underline{P}}X<\Pi<E_{\overline{\rho}}X\\ &=&\frac{E_{\overline{\rho}}X-\Pi}{\underline{\sigma}_{X}^{2}R(W)}W&\mbox{si}& \Pi>E_{\overline{\rho}}X\end{array} \tag{7}\]
+
+ou \(\overline{\sigma}_{X}^{2}\) et \(\underline{\sigma}_{X}^{2}\) sont les variances de \(X\) obtenues respectivement avec les distributions \(\overline{P}\) et \(\underline{P}\).
+
+En comparant les resultats ci-dessus avec ceux obtenus en l'absence d'ambiguite, on retrouve une part du revenu consacree a l'achat (ou a la vente) d'actif risque proportionnelle a l'ecart entre le gain espere et le prix et inversement proportionnel au risque, mesure ici par la variance, et au coefficient relatif d'aversion pour le risque.
+
+Cependant, la prime de risque est differente dans le cas d'un achat et d'une vente (calculee avec une probabilite differente) ce qui est a l'origine d'un intervalle de prix pour lequel l'actif n'est ni achete, ni vendu. Notons que la largeur de cet intervalle depend uniquement de la largeur de l'intervalle \([\underline{p},\overline{p}]\), l'intensite de l'aversion pour le risque n'intervenant pas.
+
+#### 1.1.3 Diversification
+
+Considerons maintenant la composition optimale d'un portefeuille compose de deux actifs risques, \(X_{i}\) et \(X_{z}\), dont les caracteristiques sont les memes que celles de l'actif \(X\), y compris le prix II, et dont les rendements sont independants. On note \(\theta_{i}\), \(i=1\), 2 comme etant le nombre d'unites achetees de l'actif \(i\) et on suppose que l'investisseur repartit tout son revenu entre les deux actifs, ce qui implique que \((\theta_{1}+\theta_{2})\Pi=W\). \(\theta_{1}^{*}\) et \(\theta_{2}^{*}\) sont les solutions de :
+
+\[\begin{array}{l}Max_{\theta_{1},\theta_{2}}Min_{p\in\left[\frac{p}{p}\right] }p^{2}u((\theta_{1}+\theta_{2})H)+p(1-p)\left[u(\theta_{1}H+\theta_{2}B)+u( \theta_{1}B+\theta_{2}H)\right]\\ +(1-p)^{2}u((\theta_{1}+\theta_{2})B)\\ \mbox{sous la contrainte }\theta_{1}+\theta_{2}=\frac{W}{\Pi}\,.\end{array} \tag{8}\]
+
+Il est facile de montrer que \(\theta_{1}^{*}=\theta_{2}^{*}=\frac{W}{2\Pi}\). La presence d'ambiguite ne modifie donc pas sensiblement les strategies simples de diversification des portefeuilles d'actifs. Cependant, il faut remarquer que si la diversification reduit le risque (le portefeuille diversifie domine, pour chacune des probabilites de l'intervalle chacun des titres qui le composent au sens de la dominance stochastique d'ordre 2), elle ne diminue pas l'ambiguite.
+
+Si l'intuition presente dans le modele de Dow et Werlang sous-tend de nombreux articles posterieurs, ces modeles de choix de portefeuille en presence d'ambiguite permettent de preciser les conditions plus generales sous lesquelles la non-participation et l'inertie peuvent apparaitre. Nous presentons ci-dessous quelques extensions representatives de cette litterature, tout d'abord au sein du modele _MaxMin_Eu, mais en permettant une structure financiere et temporelle plus riche, puis au sein de modeles dans lesquels l'investisseur est soucieux de la robustesse de ses decisions par rapport a de possibles mauvaises specifications du modele stochastique sousjacent. Enfin, nous considerons un modele dans lequel la reaction des investisseurs a l'ambiguite n'obeit plus a une logique de minimisation d'une esperance d'utilite par rapport a un ensemble de cryosances (ce qui revient a retenir une croyance par decision evaluee) et prend en compte toutes les cryances possibles.
+
+#### 1.2 Choix de portefeuille et modele
+
+La majorite des modeles qui generalisent celui de Dow et Werlang (1992) se placent dans le cadre du modele _MaxMin_Eu de Gilboa et Schmeidler (1989). Les investisseurs doivent composer un portefeuille a partir d'un actif sans risque et d'un ou plusieurs actifs dont les rendements sont ambigus. Les rendements de ces actifs sont supposes suivre des lois normales (ou log-normales) et l'ambiguite porte sur les esperances et, eventuellement, les variances de ces lois qui peuvent prendre plusieurs valeurs. On suppose que les preferences dans le risque des investisseurs sont de type CARA (Easley et O'Hara, 2009) ou CRRA (Epstein et Schneider, 2010; Bianchi et Tallon, 2014). Dans certains de ces modeles, une distinction estfaite entre les risques systemiques et les risques specifiques (Mukerji et Tallon, 2001; Guidolin et Rinaldi, 2009).
+
+Le modele de choix de consommation et d'epargne sur deux periodes d'Epstein et Schneider (2010) que nous presentons brievement ci-dessous est representatif de cette litterature. Un agent recoit a la date 1 un revenu \(W_{1}\) et a la possibilite d'investir dans un actif sans risque (rendement \(R_{p}\)) et dans \(n\) actifs ambigus dont les rendements sont \(R_{i}\), \(i=1..n\). Lambiguite sur les rendements des actifs est representee par un ensemble de croyances, note \(\mathcal{P}\). Le niveau d'investissement dans chacun des actifs ambigus est note par \(\theta_{i}\), \(i=1..n\).
+
+Les hypotheses de fonction d'utilite logarithmique (\(u(x)=lnx\)) et de rendements des actifs suivant des lois log-normales permettent une simplification du probleme de decision. La fonction d'utilite permet la separation du probleme de choix d'epargne de celui de choix de portefeuille, et la lognormalite des rendements (\(r=log(1+R)\) suit une loi normale) permet de caracteriser l'ensemble des croyances uniquement par un vecteur de rendements esperes (\(\mu\)) et une matrice de variance-covariance (\(V\)). De plus, l'utilisation de l'approximation pour les logarithmes des rendements du portefeuille proposee par Campbell et Viceira (1999) permet de reduire le probleme de decision a une forme proche d'un modele esperance-variance :
+
+\[Max_{\theta}\quad Min_{(u^{e},V)\in Q}\quad r^{f}+\theta^{e}-\frac{1}{2}\theta ^{i}V\theta \tag{9}\]
+
+ou \(u^{e}\) est une mesure de la prime de risque associee au vecteur des differents actifs (pour un actif \(i\), \(u^{e}_{i}=u^{r}_{i}+\frac{1}{2}(Var(r_{i})-r^{f})\)), \(Q\) est l'ensemble des parametres (\(u^{e}\), \(V\)) associes aux croyances dans \(\mathcal{P}\).
+
+Differentes hypotheses sur le nombre et le type des actifs ambigus, ainsi que sur le nombre de periodes permettent de verifier la robustesse et d'enrichir les resultats du modele simple presente dans la section 1.1.
+
+#### 1.2.1 _Un actif ambigu et un actif sans risque_
+
+Supposons, comme Epstein et Schneider (2010) que l'ambiguite ne porte que sur l'esperance des rendements, plus precisement, \(u^{e}\in\left[\frac{-e}{u}-\frac{1}{x},\frac{-e}{u}+\frac{-e}{x}\right]\) (\(u^{e}\) est une valeur de reference et \(\overline{x}>0\), une constante qui mesure l'ambiguite autour de la valeur de reference). La variance est connue et egale a \(\sigma^{2}\).
+
+Le montant \(\theta^{e}\) investi dans l'actif ambigu est dans ce cas la solution de :
+
+\[Max_{\theta}\quad Min_{u^{e}\in\left[\frac{-e}{u}-\frac{-e}{x},\frac{-e}{u}+ \frac{-e}{x}\right]}\quad\left\{r^{f}+\theta u^{e}-\frac{1}{2}\theta^{2}\sigma ^{2}\right\}. \tag{10}\]
+
+Et on obtient :
+
+\[\theta^{e}\quad=\quad\frac{\overline{u}^{e}-\overline{x}}{\sigma^{2}}\quad \mathrm{si}\qquad\overline{u}^{e}-\overline{x}>0 \tag{11}\]\[\theta^{*} = 0\] si \[\overline{\mu}^{e}-\overline{x}<0<\overline{\mu}^{e}+\overline{x}\] \[\theta^{*} = \frac{\overline{\mu}^{e}+\overline{x}}{\alpha^{2}}\] si \[\overline{\mu}^{e}+\overline{x}<0.\]
+
+La forme de la fonction a maximiser permet de bien comprendre la difference entre l'impact du risque et de l'ambiguite sur le choix de portefeuille et sur la decision de participation. Une augmentation de l'ambiguite, qui correspondici a une augmentation du parametre \(\overline{x}\) est percue comme une variation defavorable du rendement moyen, et non comme une variation du risque. Une telle augmentation accroit l'intervalle de non-participation. De meme, pour toute valeur de reference \(\mu^{e}\), une augmentation suffisante de l'ambiguite peut inciter les adversaires a l'ambiguite a quitter le marche des actifs ambigus. En revanche, une augmentation du risque, qui correspondici a une augmentation de \(\alpha^{2}\) n'a pas d'impact sur la participation, mais uniquement sur le niveau d'investigsement dans l'actif ambigu. Ce resultat est lie au fait que la decision de prendre position sur un actif risque depend uniquement de l'ecart entre l'esperance de rendement et le prix de cet actif, et non pas de son risque (voir debut de la section 1.1.2)
+
+#### Un actif risque et un actif ambigu
+
+Dans le cas precedent, l'alternative a l'actif ambigu est un actif non risque et non ambigu : tout placement dans cet actif protege l'investisseur en meme temps de l'ambiguite et du risque. Retrouve-t-on un resultat de non-participation s'il n'y a pas d'actif sans risque et si le choix doit se faire entre un actif risque et un actif ambigu? La reponse est positive dans le cas de rendements continus, meme si, pour un rendement de reference \(\overline{\mu}^{e}\)le niveau d'ambiguite \(\overline{x}\) necessaire pour generer la non- participation est plus elev car l'actif non ambigu permet desormais de se proteger contre l'ambiguite mais ne permet pas d'euter le risque.
+
+Si on considere, comme Epstein et Schneider (2010) que l'actif non ambigu \(r_{{}_{f}}\) est risque, avec une esperance \(\mu^{\prime}\), une variance \(\sigma_{{}_{f}}^{2}\) et si \(cov(r_{{}_{f}},r)=s\), \(\theta^{*}\) devient solution de :
+
+\[\begin{array}{l}Max_{\theta}\quad Min_{\mu^{e}\in\left[\overline{u}^{e}- \overline{x}_{\overline{x}}^{e}+\overline{x}\right]}\end{array}\]
+
+\[\begin{array}{l}\left\{\mu^{f}+\theta(\mu^{e}-s)-\frac{1}{2}(\theta^{2} \sigma^{2}+\sigma_{{}_{r}}^{2})\right\}.\end{array}\]
+
+L'investisseur ne participe pas lorsque \(\overline{\mu}^{e}-\overline{x}-s<0<\overline{\mu}^{e}+\overline{x}-s\). L'intervalle de non-participation dependici de la correlation entre l'actif risque et l'actif ambigu. Si celle-ci est negative, il y a possibilite de couverture entre l'actif risque et ambigu et pour un \(\overline{\mu}^{e}\) donne, le niveau d'ambiguite qui aboutit a la non-participation est plus eleve.
+
+#### Plusieurs actifs ambigus
+
+Lorsque plusieurs actifs ont des rendements ambigus, la participation va dependre de l'ambiguite sur chacun des actifs et aussi de la correlation de leurs rendementset de la relation entre leurs ambiguites. Si les rendements sont independants (matrice \(V\) diagonale), certains actifs seront echanges et d'autres non, en fonction de leurs rendements moyens et de l'ambiguite sur ces rendements.
+
+La diversification est-elle dans un tel contexte une strategie optimale et quel est son impact sur l'ambiguite? La reponse a cette question depend de l'independance entre l'ambiguite des differents rendements, ou plus precisement, de la relation eventuelle entre les parametres \(\overline{x}_{i}\) associes aux differents actifs. Si l'ambiguite est independante entre actifs, c'est-a-dire si un rendement moyen tres eloigne du rendement de reference pour un actif ne nous apprend rien sur les rendements moyens des autres actifs, alors la diversification est une strategie optimale, mais l'ambiguite du portefeuille ne diminue pas lorsque le nombre d'actifs augmente. En revanche, si un facteur commun influence l'ensemble des rendements et si un rendement tres eloigne du rendement moyen pour un actif implique un rendement peu eloigne du rendement moyen pour les autres actifs, une augmentation du nombre d'actifs reduit l'ambiguite (un effet de premier ordre se rajoute a l'effet de second ordre). A la limite, dans des situations tres particulieres, des portefeuilles non ambigus peuvent etre construits par diversification.
+
+#### 1.2.4 _Choix de portefeuille sur plusieurs periodes_
+
+Lorsque le choix de portefeuille est etudie sur plusieurs periodes, les investisseurs recoivent de l'information sur les rendements des actifs et peuvent mettre en place des strategies de couverture ou de diversification intertemporelle du risque ou de l'ambiguite. Dans un modele _MaxMin_Eu recursif, Epstein et Schneider (2010) mettent en evidence deux nouveaux effets de l'ambiguite sur le choix de portefeuille : (i) la politique optimale de gestion de portefeuille comporte des regles d'entree et sortie resultant de l'impact de nouvelles informations sur l'ambiguite des rendements qui peuvent entrainer, par le mecanisme de non-participation sur une periode, le retrait des investisseurs du marche de certains titres, puis leur retour; (ii) dans ce contexte apparait une nouvelle demande de couverture, contre le risque de non-participation dans les periodes futures resultant de l'observation d'un rendement faible.
+
+#### 1.2.5 _Quelques elements empiriques_
+
+Une litterature empirique et experimentale s'est developpee autour de la question de l'impact de l'ambiguite et de l'aversion pour l'ambiguite sur les choix de portefeuille. Cependant, ces travaux se sont heurtes a des difficultes aussi bien methodologiques (comment isoler l'impact de l'ambiguite et de l'aversion pour l'ambiguite sur les choix?, quelle est la forme d'ambiguite pertinente en choix de portefeuille?,...), que plus pratiques (acces a des bases de donnees exploitables, recruitment de sujets d'experimentation en dehors des etudiants,...). Les travaux existants different par le mode de recueil des donnees (experience controlee avec remuneration des sujets (Bossaerts _et al._, 2010) ou choix declares recueillis par enquetes et questionnaires (Dimmock _et al._, 2013) ou encore choix observes par l'utilisation de donneesbancaires). Certains travaux combinent les differentes approches, comme Bianchi et Tallon (2014). Les principaux resultats de ces travaux sont :
+
+ une forte heterogeneite dans l'attitude vis-a-vis de l'ambiguite (Bossaerts _et al._, 2010; Ahn _et al._, 2011; Potamites et Zhang, 2012);
+
+ une correlation indeterminee entre attitude vis-a-vis du risque et de l'ambiguite. Par exemple, Potamites et Zhang (2012) concluent a une faible correlation positive, alors que dans Bianchi et Tallon (2014), la correlation est tres proche de zero;
+
+ des decisions frequentes de non-participation et une faible detention d'actifs ambigus (voir par exemple Dimmock _et al_, 2013).
+
+#### 1.2.6 Conclusion d'etape
+
+Le modele _MaxMin_Eu a ete critique pour son utilisation partielle de l'ensemble des cryosances (et la difficulte qu'il y a a mesurer l'attitude vis-a-vis de l'ambiguite dans ce modele), seule la distribution de probabilite donnant l'evaluation la plus defavorable etant prise en compte. Cette conception de l'attitude vis-a-vis de l'ambiguite est a l'origine des effets de premier ordre de l'ambiguite dans le modele _MaxMin_Eu, de la discontinuite dans les evaluations des rendements des portefeuilles d'actifs au voisinage de la certitude et explique notamment les intervalles de non-participation et l'inertie de portefeuille que nous avons presentes precedemment.
+
+Ces phenomenes ne peuvent pas apparaitre lorsque les preferences des agents en presence d'ambiguite sont representees par le modele d'esperance d'utilite ou par des modeles lisses (differentiables en tout point). On retrouve cependant dans ces modeles des comportements de diversification propres a la presence d'ambiguite et ils permettent d'etudier l'impact de l'ambiguite et de l'aversion pour l'ambiguite sur les choix de portefeuille. Les modeles nes soit des critiques du modele _MaxMin_Eu, soit d'une vision de l'ambiguite differente de celle de ce modele, qui ont donne lieu au plus d'applications aux decisions de choix de portefeuille sont les modeles robustes, prenant en compte explicitement la presence d'une incertitude de modele, et les modeles avec croyances de second ordre7.
+
+Footnote 7:   Baillon et L’Haridon dans ce numéro pour plus de détails sur ces modeles; Machina et Siniscalchi (2013) proposent un panorama assez complet des fonctionnelles qui ont éte proposeés comme modeles de décision en présence d’ambiguite.
+
+### Choix de portefeuille et incertitude de modele
+
+Hansen et Sargent, dans une serie d'articles consacree aux modeles macroconomiques8 consistent l'ambiguite comme resultant d'une incertitude de modele. Ills parten de l'hypothese que les agents disposent d'une distribution de probabilite de reference sur l'espace des etats de la nature (un modele), mais sont conscientsdes erreurs de specification possibles. L'objectif d'Hansen et Sargent est de proposer, dans ce contexte, un critere de decision robuste, qui soit aussi peu sensible que possible aux erreurs de specification. Pour prendre en compte les erreurs de specification, ils considerent l'ensemble des modeles possibles en evaluant leur distance par rapport au modele de reference en utilisant le concept d'entropie. Pour determiner la decision optimale, il s'agit alors de maximiser l'evaluation (ou l'esperance d'utilite) minimale sur un ensemble de distributions de probabilites auquel appartiennent le modele de reference ainsi que les autres modeles possibles, pris en compte en fonction de leur distance par rapport au modele de reference.
+
+La distance entre chaque modele possible et le modele de reference est ponderee par un parametre d'ambiguite ou d'incertitude qui reflete le niveau de confiance dans le modele de reference. Ce parametre est propre a chaque probleme de decision. Ce modele de decision est parfois appele modele avec penalite, la penalite associee a chaque distribution de probabilite (ou modele) possible etant egale a sa distance par rapport au modele de reference multipliee par le parametre d'ambiguite. Si ce parametre tend vers l'infini, la penalite associee a toute distribution autre que la distribution de reference est infinie, seule compte la distribution de reference. Si en revanche le parametre d'ambiguite est proche de zero, la distance compte peu, tous les modeles possibles sont pris en compte et on retrouve des preferences de type _MaxMin_Eu. Une variante de ce modele appelee modele avec contrainte consiste a considerer l'evaluation minimale des decisions sur un ensemble de modeles qui regroupe tous les modeles dont la distance par rapport au modele de reference est inferieure a un seuil.
+
+Le choix de portefeuille en presence d'incertitude de modele a ete etudie d'abord par Anderson _et al_. (1999) et Maenhout (2000) dans le cadre d'un modele avec penalties, et approfondi ensuite par Trojani et Vanini (2002, 2004) et Maenhout (2004). Le message principal de ces travaux est que l'incertitude de modele reduit l'investissement dans l'actif ambigu et augmente la consommation par rapport au contexte sans incertitude, l'incertitude agissant comme une augmentation de l'aversion pour risque9.
+
+Footnote 9: En modifiant l’hypothese de mouvement brownien geometrique de Maenhout (2004), Liu (2010) montre que l’aversion à l’ambiguite peut augmenter l’investissement dans l’actif ambigu si l’elasticité de substitution inter temporelle est proche de 1.
+
+Plus precisement, notons \(\psi\) comme le parametre de penalite qui est tel que si \(\psi\to\infty\), le niveau d'ambiguite est faible et les agents sont tres confiants dans le modele de reference et ne prennent pas en consideration les modeles alternatifs. Si, \(\psi\to 0\), le niveau d'ambiguite est tres eleve et les agents ne font pas du tout confiance au modele de reference. Maenhout (2000) montre que lorsque la fonction d'utilite d'un agent est CRRA de parametre \(\gamma\), la part de l'actif ambigu dans un portefeuille compose d'un actif sans risque de rendement \(r\) et l'actif ambigu \(X\) est :
+
+\[\theta^{*}=\left(\frac{\psi}{1+\psi}\right)\frac{EX-r}{\sigma_{X}^{2}\gamma}. \tag{13}\]Ce resultat est a rapprocher des resultats du debut de la section 1.1.2 dans le cas d'absence d'ambiguute et pour \(R(W)=\gamma\).
+
+Considerons d'abord les valeurs extremes pour \(\psi\). Pour \(\psi\to\infty\) ce qui correspond a l'absence d'ambiguute, on retrouve bien la composition de portefeuille standard du modele de Merton et pour \(\psi\to 0\), (ambiguite maximale), l'agent n'investit pas dans l'actif ambigu. Pour toutes les valeurs finies non nulles de \(\psi\), l'investissement dans l'actif ambigu est plus faible que ce qu'il aurait ete si l'actif avait ete simplement risque, ou si l'investisseur avait des preferences de type esperance d'utilite (correspondant ici a une neutralite vis-a-vis de l'incertitude de modele). En comparant ce resultat avec celui de l'equation (5) de la section 1.1.2., il apparait que l'ambiguite est equivalente ici a une augmentation de l'aversion pour le risque car la valeur de \(\theta\)* est la meme que celle obtenue dans le risque avec \(R(W)=\gamma\left(1+\frac{1}{\psi}\right)\).
+
+En considerant deux actifs ambigus, il existe trois sources d'ambiguite possibles : les distributions des rendements marginaux (evaluees par \(\psi_{1}\), \(\psi_{2}\), et la distribution jointe (\(\psi_{0}\))). En supposant que \(\psi_{1}=\psi_{2}=0\), on obtient :
+
+\[\theta_{1}^{*}=\theta_{2}^{*}=\left(\frac{\psi_{0}}{1+\psi_{0}}\right)\frac{ EX-r}{\sigma_{X}^{2}\gamma}. \tag{14}\]
+
+On retrouve ainsi une diversification parfaite et, comme dans le cas avec un seul actif, une reduction de la demande d'actifs ambigus resultant d'un renforcement de l'aversion pour le risque, due a la presence d'incertitude de modele.
+
+Une analyse plus fine des decisions de diversification est menee par Uppal et Wang (2003). Leur principal apport par rapport aux travaux precedents (Maenhout, 2000; Anderson _et al._, 1999) est d'introduire des niveaux d'ambiguite differents pour les rendements marginaux des differents actifs ambigus ce qui leur permet d'expliquer l'existence de portefeuilles sous-diversifies dont la composition est biaisee en faveur de l'actif le moins ambigu et le biais domesticque (_home bias puzzle_). Notons que le role de l'ambiguite comme source du biais domesticque dans les choix de portefeuille est aussi etudie par Benigno et Nistico (2012).
+
+En reprenant le cas avec deux actifs, il est facile de voir qu'en supposant \(\psi_{1}\neq\psi_{2}\) et \(\psi_{0}\neq 0\), on obtient :
+
+\[\theta_{i}^{*}=\left(\frac{\psi_{i}}{1+\psi_{i}}\right)\frac{EX-r}{\sigma_{X} ^{2}\gamma},\ i=1,2. \tag{15}\]
+
+Le niveau d'ambiguite etant different pour les deux actifs, il n'est plus possible d'interpreter la demande d'actifs ambigus comme resultant d'un coefficient d'aversion relatif pour le risque transforme. On peut aussi noter que si \(\psi_{1}>\psi_{2}\), le portefeuille sera biaise en faveur de l'actif 1 aussi bien par rapport au portefeuille a la Merton que par rapport au portefeuille de Maenhout (2000) avec un seul parametre refletant l'ambiguite du modele.
+
+### Choix de portefeuille et croyances de second ordre
+
+Le modele de Klibanoff _et al._ (2005) propose une autre facon d'introduire de l'ambiguite et de prendre en compte l'incertitude de modele. En absence d'ambiguite, si la distribution de probabilite sur les etats de la nature est connue, les agents evaluent les decisions par une esperance d'utilite, la fonction \(u\) caracterisant l'attitude vis-a-vis du risque. L'incertitude de modele se traduit ici par un ensemble subjectif de distributions de probabilites possibles muni d'une distribution a priori, notee \(\mu\). L'evaluation d une decision dans un tel contexte fait intervenir une deuxieme fonction dutilite, notee f qui caracterise l'attitude vis-a-vis de l'ambiguite. Un agent est caracterise dans ce modele par un triplet (\(u\), \(\phi\), \(\mu\)).
+
+L'avantage de ce modele est sa capacite a separer l'attitude vis-a-vis du risque et de l'ambiguite et de permettre une definition claire de l'accroissement de l'ambiguite. Par ailleurs, les proprietes de continuite et de differentiation de la fonction representant les preferences, qui a la forme d'une esperance d'utilite a deux niveaux, permettent la transposition assez directe des techniques de calcul utilisees dans le modele d'esperance d'utilite dans le risque. Ce modele a ete tres rapidement utilise pour l'analyse des choix de portefeuille.
+
+Un exemple numerique simple, propose dans l'article etablissant les fondements axiomatiques du modele (Klibanoff _et al._, 2005), donne de premiers elements sur la relation entre aversion pour le risque, aversion a l'egard de l'ambiguite et montant place dans les actifs risques et ambigus. Dans cet exemple, l'aversion pour l'ambiguite semble jouer un role similaire et renforcer l'aversion pour le risque contrairement a ce qui se produit dans le modele _MaxMin_Eu ou les deux jouent des roles qui peuvent etre differents. Ainsi, lorsqu'il s'agit de composer un portefeuille d'un actif ambigu et d'un actif sans risque, une augmentation de l'aversion pour l'ambiguite (a aversion pour le risque constante) diminue la part d'actifs ambigus dans le portefeuille.
+
+Ce resultat est a nuancer notamment lorsqu'on introduit, en plus de l'actif ambigu et de l'actif sans risque, un actif risque non correle avec l'actif ambigu. Dans ce cas, l'impact d'un accroissement de l'aversion pour le risque et de l'ambiguite sur la composition du portefeuille differe. Plus precisement, un accroissement de l'aversion pour le risque, tout en diminuant l'investissement dans les actifs non surs (risque et actif ambigu) augmente l'ineret de la diversification entre les deux actifs non surs et accroit le ratio actif ambigu/actif risque que l'agent detient. En revanche, un accroissement de l'aversion pour l'ambiguite d'imine fortement l'attrait de l'actif ambigu comme placement et comme outil de diversification. Par consequent, l'investissement dans l'actif ambigu diminue, celui dans l'actif risque augmente et le ratio actif ambigu/actif risque diminue.
+
+Si dans l'exemple simple traite dans Klibanoff _et al._ (2005) un accroissement de l'aversion pour l'ambiguite entraine toujours une reduction de l'investissement en actif ambigu, ce resultat ne se generalise pas a tous les types de croyances et toutes les fonctions d'utilite. La raison est qu'un accroissement de l'aversion aI'egard de l'ambiguite dans ce modele (augmentation de la concavite de la fonction f) agit comme une distorsion des croyances (des lois composees) ressemblant a une augmentation du risque. Or, il est bien connu (Rothschild et Stiglitz, 1971; Meyer et Ormiston, 1985) qu'un accroissement du risque n'entraine pas toujours une reduction de l'investigsement en actifs risques. Gollier (2011) met en evidence les conditions sur les croyances et sur les fonctions d'utilite qui garantissent qu'un accroissement de l'aversion pour l'ambiguite diminue l'investigsement dans l'actif ambigu dans le cas d'un portefeuille compose d'un actif certain et d'un actif ambigu.
+
+Une analyse plus approfondie de la composition d'un portefeuille d'un actif risque, d'un actif ambigu et d'un actif sans risque est menee dans le cadre d'une approche moyenne-variance etendue au modele differentiable de Klibanoff _et al._ (2005) par Maccheroni _et al._ (2013). Ils identifier une caracteristique de l'actif ambigu qu'ils appellent mesure _alpha_ et dont le signe determine le niveau d'investigsement d'un adversaire de l'ambiguite dans l'actif ambigu.
+
+Les decisions de choix de portefeuille avec des preferences a la Klibanoff _et al._ (2005) ont aussi ete etudiees dans un cadre dynamique, notamment par Liu (2011) et Chen _et al._ (2014). Liu (2011) caracterise les decisions optimales de consommation et de choix de portefeuille d'un investigseur qui a de l'aversion pour l'ambiguite lorsque les rendements des actifs suivent une dynamique avec changement de regime. Lorsque les fonctions d'utilite sont de type CRRA, il montre que la demande d'actifs peut etre decompose en quatre termes, dont deux correspondent a une demande myope (dependant de l'esperance de rendement de la periode \(t+1\)) ajustee pour prendre en compte l'ambiguite, et les deux autres termes refletent la demande pour une couverture inter-temporelle resultant notamment de la presence d'ambiguite. Chen _et al._ (2014) retrouvent le meme type de resultats, ainsi qu'un sous-investigement dans les actifs ambigus par rapport a un modele bayesien (esperance d'utilite inter-temporelle) en considerant un modele differentiable recursif dans un cadre a temps discret et a horizon infini.
+
+2Ambiguite et l'equilibre des marches financiers
+
+Dans cette seconde partie, nous explorons les consequences de la prise en compte de l'ambiguite sur l'equilibre des marches. Comme dans la litterature plus traditionnelle, les modeles d'equilibre peuvent etre de nature differente, avec soit une optique macro-dynamique dans la lignee du modele de prix d'actif de Lucas, soit une optique privilegiant l'heterogeneite des acteurs. Dans les deux cas, l'introduction de l'ambiguite a des effets riches et varies conduisant a des differences qualitatives et quantitatives entre modeles d'equilibre avec et sans ambiguite.
+
+Nous organisms la discussion dans cette section en distinguant deux grandes classes d'approches du comportement des investisseurs en presence d'ambiguite. Les modeles presentes dans la premiere section reposent sur les intuitions d'inertie des choix developpes dans la section 1.1 et dont le modele de Gilboa et Schmeidler(1989) est un exemple. La seconde section quant a elle repose sur une vision plus lisse du comportement, telle que discutee dans les sections 1.3 et 1.4. Au-dela de ces differences d'approches dans la modelisation, les proprietes etudiees sont parfois differentes et, sans raison majeure, la seconde approche a suscite un peu plus de recherches empiriques.
+
+2.1 _Indetermination de l'equilibre, incompletude des marches et absence de revelation de l'information_
+
+Les intuitions donnees dans la premiere partie sur la maniere dont l'aversion pour l'ambiguite affecte les choix financiers des investisseurs vont nous permettre de deduire un certain nombre de caracteristiques nouvelles des prix et allocations d'equilibre. Nous organiserons la discussion dans cette premiere section autour de trois proprietes de l'equilibre general : l'ambiguite comme source d'indetermination des prix d'actifs, l'ambiguite comme source d'absence d'echange et d'incompletude des marches financiers, l'ambiguite comme source de non-revelation des informations privees a l'equilibre. Ces trois proprietes seront presentees dans le cadre de modelisations qui reposent souvent sur les intuitions que l'on pourrait avoir dans le cadre d'un modele simple reposant sur les proprietes des choix de portefeuilles expliquees dans la section 1.1.
+
+2.1.1 _Prix d'equilibre avec ambiguite_
+
+Le modele de Dow et Werlang (1992) a un actif certain et un actif risque a permis de mettre en evidence une plage de prix pour laquelle l'investisseur prefere ne pas detenir d'actif risque. Il n'est pas a priori evident que plongee dans un modele d'equilibre general, cette propriete ait des consequences majeures : le prix d'equilibre pourrait se trouver en dehors de cette plage d'inertie, auquel cas les proprietes de l'equilibre ne seraient pas differentes de celles d'un modele avec des acteurs neutres vis-a-vis de l'ambiguite.
+
+Il est un cas trivial ou l'inertie mise en evidence par Dow et Werlang se traduit par une indetermination des prix d'equilibre. Considerons un modele avec un seul agent representatif, qui aurait des dotations independantes des etats de la nature, et qui aurait la possibilite d'echanger des actifs risques. Dans ce cas, l'allocation d'equilibre est, par hypothese, que l'agent ne detient aucun actif risque. Cette allocation est soutenue par un continuum de prix : il s'agit de tous les prix pour lesquels l'investisseur de Dow et Werlang ne souhaitair pas prendre une position differente de zero sur l'actif risque.
+
+Epstein et Wang (1994) generalisent considerablement cette intuition dans un modele de prix d'actif a la Lucas10. Dans ce modele, par construction, l'agent doit a l'equilibre detenir l'actif. L'allocation d'equilibre est donc fixee et le volume des echanges est nul. Le prix d'equilibre est celui qui soutient cette allocation comme une allocation d'equilibre, c'est-a-dire que l'agent, lorsqu'il prend les prix d'equilibre comme donnes et maximise son utilite, souhaite precisement detenir l'actif (l'arbre). Epstein et Wang donnent dans le cadre d'un modele dynamique, a horizon infini, avec des processus stochastiques generaux, les conditions pour que l'indetermination du prix des actifs soit possible a l'equilibre. Cette indetermination conduit naturellement a une volatilite possiblement importante, la selection des prix parmi tous les prix possibles etant arbitraire et laissant la place pour des << esprits animaux >> et des equilibres a taches solaires.
+
+Une litterature relativement abondante fait suite a ce modele pionnier. Epstein et Schneider (2008) proposed un modele dynamique avec apprentissage et etudient les proprietes des prix d'actifs. Ilut (2012) propose un modele semblable applique au taux de change. Chen et Epstein (2002) donnent les fondements d'un modele de prix d'actifs en temps continu, generalise receemment par Epstein et Ji (2013, 2014) et Lin et Riedel (2014), qui permettent notamment de faire porter l'ambiguite non seulement sur la moyenne du processus, mais aussi sur sa volatilite. Jeong, Kim et Park (2014) proposent des techniques d'estimation de ces modeles en temps continu avec ambiguite. Leurs resultats suggerent qu'une prime d'ambiguite existe bel et bien, a cote de la prime de risque. Enfin, toujours dans cette meme veine de modeles bases sur des croyances multiples, Ilut et Schneider (2012) proposent un modele de cycle en presence d'ambiguite.
+
+#### Absence d'echange et incompletude des marches
+
+Lorsque l'heterogeneite des investisseurs est prise en compte, l'allocation d'equilibre n'est pas fixee a l'avance (c'est-a-dire qu'elle n'est pas egale aux dotations initiales), et le processus d'echange prend un role central. Une premiere generalisation de l'inertie des portefeuilles a un modele d'equilibre general est assez directe (Dow et Werlang, 1992). Considerons un modele dans lequel le risque agreee est inexistant : chaque agent fait face a un risque microeconomique, qui peut etre parfaitement mutualise puisque les dotations agreees ne dependent pas des etats du monde. Dans ce cas, et si les ensembles de croyances des agents ont une intersection non vide, l'allocation d'equilibre sera precisement une allocation ou aucun agent ne supporte plus aucun risque. A cet equilibre, il est possible de montrer que les prix seront indetermines, du fait de l'attrait particulier qu'a cette allocation sans risque pour des agents adversaires de l'ambiguite, attrait qui se traduit par une non-differentiabilite des courbes d'indifference au point de certitude.
+
+Cette meme intuition sous-tend les resultats de Billot _et al._ (2000) et Rigotti, Shannon et Strzalecki (2008) qui s'interessent aux echanges purement speculatifs, c'est-a-dire ne reposant que sur des differences de croyances. Dans un cadre probabiliste, les differences de croyances conduisent immediatement a des echanges sur la base de ce d'esaccord. En revanche, lorsque les croyances sont representeespar des ensembles de croyances, il suffit que l'intersection de ces ensembles soit non vide pour que l'equilibre ne permette pas d'echange speculatif. En revanche, l'allocation d'equilibre (d'assurance complete pour les agents) peut etre indeterminee dans ce cas. A l'inverse, Werner (2014) developpe un modele dynamique dans lequel l'ambigique permet la presence d'echanges speculatifs dans le long terme. Alors que l'apprentissage conduit a une convergence des croyances dans le cas probabiliste, l'ambigiute peut amener, et ce meme dans le long terme, les agents a garder un desaccord sur les distributions. Dans ce cas, des bulles speculatives peuvent perdurer.
+
+Les cas d'indetermination de l'equilibre dans un cadre d'aversion pour l'ambigiute reposent sur le fait que les non-differentiabilites des courbes d'indifference se produisent pour tous les agents en une meme allocation. C'est l'une des caracteristiques des economies sans risque agrege. Ceci peut sembler peu robuste. Pourtant, Mandler (2013) montre, dans un modele avec production, que ce type de situation peut se produire de maniere robuste.
+
+Mukerji et Tallon (2001) developpent un modele dans lequel coexistent une incertitude sur les dotations et une incertitude (idiosyncrasique) sur les paiements des actifs permettant des changes entre etats du monde. Si l'incretitude idiosyncrasique est suffisamment elevee, les agents ne desireront pas utiliser les actifs pour s'assurer. Si l'ambigiute et l'aversion pour l'ambigiute sont suffisamment grandes, l'allocation d'equilibre est identique a une allocation d'equilibre d'une economie ou ces actifs avec incertitude idiosyncrasique ne seraient pas presents. Qui plus est, alors que multiplier ou dupliquer les actifs permettrait d'atteindre l'allocation d'equilibre de marches financiers complets si les agents etaient neutres vis-a-vis de l'ambigiute (par un argument standard de loi des grands nombres), ceci n'est plus le cas en presence d'aversion pour l'ambigiute. Dans ce dernier cas, une incertitude demeure a la limite, c'est-a-dire lorsque les actifs sont dupliques. A l'inverse du modele en esperance d'utilite, cette operation de duplication ne rend pas necessairement les marches financiers complets11. Cao, Wang et Zang (2005) derivent egalement la non-participation aux marches financiers du fait de la presence d'ambigiute. Ils en concluent que, puisque les individus les plus adversaires de l'ambigiute ne detiendront pas d'actifs dont les paiements sont ambigus, il n'est pas toujours assure que la prime de risque a payer sur ces actifs soit plus elevee que sur des actifs moins ambigus pour lesquels la participation est plus large.
+
+Footnote 11: \(\quad\).: Pour des variations et généralisations autour de ce theme, voir De Castro et Chateauneuf (2011), Dana (2004), Chateauneuf, Dana, Tallon (2000).
+
+Les proprietes de l'equilibre en presence d'ambigiute peuvent justifier l'intervention publique, si celle-ci permet d'aller a l'encontre des effets de l'ambigiute, par exemple en proposant des garanties aux agents. Caballero et Krishnamurthy (2008) fondent ainsi une politique d'intervention de preteur en dernier ressort : chaque agent souhaitant se couvrir contre l'ambigiute surpondere les etats du mondequi lui sont nefastes. Mais ces scenarios ne sont pas tous compatibles au niveau agrege. Ainsi, un preteur de dernier ressort, sans avoir necessairement plus d'informations que les acteurs prives, aura une vision globale de l'economie et des etats collectifs les plus nefastes et pourra agir en consequence. Easley et O'Hara (2009) proposent egalement un modele de non-participation et en derive des recommendations en matiere de regimentation des depots bancaires12.
+
+Footnote 12: D’autres éudes mettent de l’avant la possibilité d’une liquidité réduite des marchés en presence d’aversion à l’ambigüüté comme Easley et O’Hara (2010a, 2010b) et Oh (2014).
+
+Dans un cadre different, Rigotti et Shannon (2005) montrent un resultat d'indetermination de l'allocation d'equilibre allant de pair avec une absence d'ecchange, reposant des preferences incompletes. Ces preferences, a la Bewley (2002) creent une non-differentiabilite au point de dotations initiales. Ceci genere des proprietes d'equilibre differentes du modele usuel, en particulier concernant l'indetermination de l'equilibre (Carlier et Dana, 2013). Dana et Riedel (2013) proposent un modele dynamique dans ce cadre et montrent que les equilibres interieurs sont identiques a ceux d'economies peuplees d'agents ayant des preferences de type esperance d'utilite.
+
+#### 2.1.3 Information et ambiguite sur les marches
+
+La propriete d'inertie peut aussi aider a comprendre pourquoi les mecanismes de transmission d'information par les marches peuvent etre affectes en presence d'ambiguite. Tallon (1998) propose un exemple dans lequel les investisseurs peuvent acheter une information deja revelee par le systeme de prix si celui-ci est considere comme ambigu. Condie et Ganguli (2011a) etudient la revelation de l'information privee par le marche en presence d'ambiguite : l'ambiguite peut generer une forme d'inertie dans la reponse des demandes d'actifs a des changements dans l'information. Cette inertie de la demande par rapport a l'information signifie a son tour que le systeme de prix peut ne pas refleter toute l'information privee detenue. Des equilibres partiellement non revelateurs peuvent exister de maniere robuste. Condie et Ganguli (2011b) montrent qu'il existe aussi, comme dans le modele EU, des equilibres revelateurs generiquement. Il existe donc des economies pour lesquels ces deux types d'equilibre coexistent. Condie, Ganguli et Illeditsch (2012) poursuivent cette investigation en precisant davantage les proprietes d'inertie informationnelle des choix de portefeuille et comment elles se traduisent dans les proprietes informationnelles des prix d'equilibre13.
+
+Footnote 13: Voir également De Castro, Pesce, et Yannelis (2011) et De Castro et Yannelis (2010).
+
+Ozsoylev et Werner (2009) etudient un marche ou coexistent un investisseur dont les preferences sont representees par une esperance d'utilite, informe et un investisseur ayant de l'aversion pour l'ambiguite et ne possedant pas d'information particuliere. La revelation d'information est par ailleurs empechee par la presence d'investigseurs impredictibles (_noise traders_), selon une hypothese usuelle en finance. Dans ce cas, les marches sont non liquides et de petits chocs d'informationpeuvent avoir des consequences importantes sur les prix d'actifs, conduisant a une volatilite excessive. Mele et Sangiorgi (2013) montrent de leur cote que la presence d'informations privees dans un monde ambigu peut conduire a des equilibres multiples.
+
+Condie et Ganguli (2012) montrent qu'une revelation publique de l'information detenue de maniere privee peut conduire a des changements draconiens dans les prix d'equilibre, entrainant aussi une volatilite excessive des prix. Caskey (2009) etudie aussi les proprietes informationnelles de l'equilibre avec des investisseurs ayant de l'aversion pour l'ambiguite, dans un cadre ou les mecanismes sous-jacents sont qualitativement differents puisqu'il se place dans un cadre de _smooth ambiguity preferences_. Il montre que les investisseurs peuvent preferer une information agreee, resumee, plutot que l'information brute et explore les consequences de ce fait sur les prix d'equilibre.
+
+#### Etudes experimentales
+
+Les proprietes que nous avons presentees dans cette section sont essentiellement de nature theorique. Il est interessant de noter qu'une partie d'entre elles ont pu faire l'objet d'une etude experimentale, controlee. Bossaerts _et al._ (2010) proposent une experience de marche, dans laquelle les sujets font face a trois etats du monde et echangent des actifs financiers dont les paiements sont contingents a ces etats du monde. L'information donnee aux sujets sur les probabilites des etats est calquee sur l'exemple d'Ellsberg (1961) : un etat a probabilite 1/3, les deux autres etats ont une probabilite de 2/3 sans qu'il ne soit possible de raffiner cette information. Les resultats experimentaux suggerent que les agents ayant le plus d'aversion a l'egard de l'ambiguite ne detiendront pas de portefeuille aux paiements ambigus pour une plage de prix, conformement a l'intuition developpee par Dow et Werlang (1992). Bossaerts _et al._ (2010) trouvent aussi que les prix d'actifs a l'equilibre sont differents de ceux d'une economie sans ambiguite. Les investisseurs, meme lorsqu'ils ont une aversion pour l'ambiguite elevee, affectent les prix d'equilibre en modifiant la repartition du risque dans l'economie. Fullbrun, Rau, et Weitzelc (2014) trouvent que les effets de l'ambiguite sur les marches experimentaux dependent grandement de la retroaction dont beneficient ou non les sujets. Corgnet, Kujal et Porter (2012) proposent un protocole experimental dans lequel l'information arrive de maniere sequentielle. Les resultats de leur experience vont a l'encontre d'un certain nombre de theories evoquees ci-dessus : il n'existe pas de prime d'ambiguite dans le prix des actifs, le volume d'ecchange n'est pas affecte par l'ambiguite et les prix d'actifs ne sont pas plus volatiles en presence d'ambiguite. Enfin, les marches reagissent a une information publique de maniere similaire dans le traitement avec et dans le traitement sans ambiguite. Ce petit nombre d'investigations experimentales peut paraitre etonnant au regard de l'utilisation de plus en plus repandue de la methode experimentale en economie. Au vu des resultats contrastes relates ci-dessus, d'autres etudes devraient voir rapidement le jour.
+
+#### 2.1.5 Conclusion d'etape
+
+Le grand nombre de contributions recensees dans cette section montre a quel point la litterature sur la prise en compte de l'ambiguite dans le fonctionnement des marches est riche et variee. Des etudes les plus techniquement ardues aux recommandations de politiques economiques, des modeles avec heterogeneite aux modeles a agents representatifs, avec ou sans asymetrie d'information, nous avons pu constater que l'aversion pour l'ambiguite telle que prise en compte dans les modeles presentes ici donne un eclairage nouveau sur les trois grands sujets que nous avons identifies. Dans cette section, les modeles presentes sont essentiellement de la famille _maxmin_ d'esperance d'utilite. L'intuition generale qui sous-tend nombre des mecanismes auxquels nous avons fait allusion est que l'aversion pour l'ambiguite va, d'une maniere ou d'une autre, conduire a des echanges moindres et donc une liquidite des marches financiers plus faible qu'en presence de simples risques. Cette liquidite restreinte conduit alors a une volatilite superieure des prix, qui auront tendance a reagir de facon plus draconienne a des chocs (d'information, de dotations, _etc._).
+
+#### 2.2.2 Prix du risque et de l'ambiguite
+
+2.2.1 _Ambiguite et enigme de la prime de risque_
+
+L'idee que l'introduction d'une aversion pour l'ambiguite puisse contribuer a expliquer en partie l'enigme de la prime de risque (Mehra et Prescott, 1985) est naturelle et a ete avancee des les premieres applications des modeles de decision en univers incertain a des modeles de prix d'actifs. Rieger et Wang (2012) suggerent d'ailleurs une correlation entre prime de risque et aversion pour l'ambiguite a l'aide d'un questionnaire administre dans 27 pays dont le Canada. Toutefois, cette reference est restee longtemps essentiellement qualitative, alors meme que l'enigme de la prime de risque est une enigme avant tout quantitative. Ju et Miao (2012) etudient un modele de prix d'actif a la Lucas avec une fonction d'utilite recursive dans laquelle sont presents deux ingredients. Tout d'abord de l'aversion pour l'ambiguite (du type Klibanoff, Marinacci et Mukerji, 2005) et, deuxiemement, un decouplage entre l'elasticite de substitution intertemporelle et l'aversion pour le risque. Ils montrent alors qu'une part substantielle de la prime de risque peut etre prise en compte par l'aversion pour l'ambiguite. L'aversion pour l'ambiguite contribue aussi a propager et amplifier les chocs de consommation pour generer une prime de risque fluctuant au cours du temps. L'apprentissage, combine a l'aversion pour l'ambiguite, contribue aussi a ameliorer la capacite du modele a reproduire la dynamique des prix d'actifs. Collard _et al._ (2011) se basent sur l'approche de Bansal et Yaron (2004) pour introduire une ambiguite sur l'esperance de la loi gouvernant la croissance de la consommation ainsi que sur la persistance des chocs sur cette esperance. Ces processus sont estimes pour la periode 1936-1977. Le modele est ensuite resolu numeriquement en utilisant les donnees de 1978 a 2011 et fournit une serie de prix d'actifs qui peut etre comparee aux prix observes. Le modele produit une dynamique interessante, dans laquelle l'ambiguite et l'apprentissage jouent un role preponderant,generant des reponses asymetriques a des chocs positifs et negatifs. Miao, Wei et Zhou (2012) se concentrent quant a eux sur la prime de variance et montrent que celle-ci peut s'expliquer a 96 % par l'aversion pour l'ambiguite.
+
+#### 2.2.2 _Robustesse, erreurs de specification et prix d'actifs_
+
+Les criteres de decision robuste, proposes par Hansen et Sargent, et dont les consequences pour les choix de portefeuille ont ete presentees dans la section 1.3., ont aussi ete mobilises pour l'explication de la prime de risque (Barillas, Hansen et Sargent, 2009) et ont permis de considerer sous un jour nouveau les estimations du cout des fluctuations economiques14.
+
+Footnote 14: Voir également Alonso et Prado (2013) qui trouvent un cout des fluctuations de l’ordre de 10 % de la consommation permanente.
+
+Liee a cette approche, une serie d'articles propose une etude detaillee des caracteristiques des rendements d'equilibre des actifs en presence d'investisseurs mettant en couvre des regles d'investissement robustes. Kogan et Wang (2003) etablissent, dans un modele statique, qu'il existe a l'equilibre, une prime d'ambiguite sur les actifs et que celle-ci varie entre ces actifs, a l'encontre des resultats du modele d'evaluation usual des prix d'actifs. Uppal et Wang (2003) ment quant a eux une analyse dynamique en presence de possibles erreurs de specification du modele des investisseurs et montrent que de faibles differences dans l'ambiguite des rendements peuvent conduire a des portefeuilles tres largement sous-diversifies (par rapport a des portefeuilles provenant par exemple d'un modele moyenne-variance habituel)15. Boyle, Garlappi, Uppal et Wang (2012) introduisent une heterogeneite dans les investisseurs16, selon leur degre de familiarite avec tel ou tel actif. Les rendements d'equilibre dependent alors a la fois du risque systematique et du risque idiosyncrasique, ainsi que d'une prime d'ambiguite. Ces developpements montrent les limites du modele d'evaluation de prix d'actifs financiers (CAPM) traditionnel lorsque l'ambiguite est presente. Roccment, Pinar (2014) et Ruffino (2013) ont developpe des modeles de CAPM dans un cadre robuste ainsi que dans le cadre de cryances de second ordre (voir aussi Guidolin et Liu, 2013).
+
+Footnote 15: Garlappi, Uppal et Wang (2012) développent un modele dans lequel les portefeuilles des investisseurs ayant le plus d’aversion pour l’ambiguite sont plus stables au cours du temps.
+
+Leippold, Trojani et Vanini (2008) etudient un modele de prix d'actif a la Lucas en temps continu et montrent que la presence conjointe d'ambiguite et d'apprentissage conduit a generer une prime de risque elevee, un taux certain faible et une volatilite excessive. Gagliardini, Porchia et Trojani (2009) mettent en evidence, dans un cadre similaire, les differences que l'ambiguite genere pour la structure a terme des taux d'interet. Faria et Correia-da-Silva (2012) etendent le modele de Cox a ce cadre robuste et d'rivent des equations explicites de prix d'actifs.
+
+D'autres applications de cette approche en termes d'erreurs de specification et de robustesse incluent : (i) Ulrich (2013), qui traite de l'impact de l'ambiguite sur l'evolution de l'inflation et des taux d'interet sur les bons du Tresor americains, (ii) Zhu (2011) qui considere l'impact de l'ambiguite sur le prix des actifs dont les paiements dependent d'evenements catastrophiques, (iii) Benigno et Nistico (2012) et Dlugosch et Wang (2014) qui etudient les liens entre ambiguite et phenomenes de biais domestiques que nous avons deja evoques dans la section 1.3.
+
+#### 2.2.3 Identifier les sources d'ambiguite
+
+Une litterature recente s'est interessee aux developpements des techniques permettant d'extraire l'ambiguite des donnees. Manski (2005) fait du traitement des donnees manuales une source d'ambiguite et propose differents criteres pour y remedier17. Anderson, Hansen, et Sargent (2003) introduisent en economie la theorie statistique de la detection qui permet de quantifier, etant donne des donnees de series temporelles, quel degre d'erreurs de specification un decideur pourrait ou devrait redouter.
+
+Footnote 17: Voir aussi Galichon et Henry (2011) pour l’utilisation de techniques en provenance des modeles d’ambiguite pour aborder le probleme de l’identification économétrique des parametères ainsi qu’un exemple dans Galichon et Henry (2013).
+
+Empiriquement, plusieurs approches ont vu le jour pour distinguuer risque et ambiguite dans les donnees. Diether, Malloy et Scherbina (2002) montrent que les titres dont les previsions de paiements par des analystes professionnels sont tres dispersees ont un rendement futur plus bas que celui de titres similaires mais dont les previsions de paiement sont plus concentrees. Anderson, Ghysels et Juergens (2009) assimilent risque et volatileit passee tandis que l'ambiguite est apprehendee par le biais du d'esaccord entre previsionnistes professionnels. Ilst trouvent a l'aide de donnees americaines qu'il existe un arbitrage entre rendements et ambiguite plus fort qu'entre rendements et risque. Boyarchenko (2012) revient sur la crise financiere de 2007-2008 et montre que l'envolee des ecarts (_spreads_) sur les _Credit defaut swap_ durant cette periode peut s'expliquer par un accroissement soudain du doute que les investisseurs pouvaient entretenir sur leur modele de fixation des prix et sur la qualite des signaux disponibles sur le marche. L'annonce de la BNP Paribas en aout 2007 est identifiee comme le point de depart de cet accroissement de l'ambiguite18. Andreou, Kagkadis, Maio et Philip (2014) proposent un indice d'ambiguite base sur la dispersion des prix d'exercice d'options indicees sur le S&P 50019. Jurado, Ludvigson et Ng (2013) proposent une serie temporelle d'incertitude macroeconomique basee sur 140 series statistiques aux Etats-Unis, distincte du risque macroeconomique. Enfin, Baker, Bloom et Davis (2013) considerent un indice d'ambiguite de la politique economique menee par le gouvernement americainbase sur la frequence avec laquelle la presse fait reference a une telle incertitude ainsi que sur le desaccord dans les previsions des experts. Le nombre de dispositions fiscales venant a echeance est aussi integre dans cet indice. Cet indice connait des hauts lors d'evenements majeurs tels que les elections presidentielles, les guerres du Golfe ou encore l'attaque terroriste du l1 septembre 2001. Il a aussi beaucoup augmente depuis 2008 du fait d'une incertitude sur la politique budgetaire et sociale americaine.
+
+## Conclusion
+
+Au terme de ce survol, nous esperons avoir fait decouvrir au lecteur la richesse d'une litterature recente reliant attitudes face a une incertitude difficilement probabilisable et comportements sur les marches financiers. Nombre de modelisations proches (par exemple la _prospect theory_ de Kahneman et Tversky, 1979, generalisee ensuite a l'incertain et dans laquelle un element nouveau intervient, avec l'aversion a l'egard de la perte) ont aussi donne lieu a des avancees significatives que nous n'avons pas pu presenter faute de place. Par ailleurs, nous nous sommes limites a un sous ensemble de la litterature, ignorant les comportements d'assurance (par exemple, Koufopulos et Kozhan, 2014; Zhu, Kunrheuter et Michel-Kerjan, 2012), et les modeles monetaires (Lioui et Poncet, 2012). Enfin, dans le traitement de l'ambiguite, nous avons suppose que l'ensemble des evenements possibles etait connu, que des cryances, plus ou moins precises pouvaient etre associees a ces evenements et que chaque decision permettrait d'associer une consequence bien identifiee a chaque evenement. Ces hypotheses sont relachees dans les modeles de type _case-based_ (Gilboa et Schmeidler, 1995, 2001) dans lesquels la seule information disponible pour le decideur a une date donnee est un ensemble de cas passes dont chacun est compose d'un probleme a resoudre, d'un choix effectue et d'une consequence observee. Une decision sera donc choisie a une date \(t\) si elle est proche (au sens d'un indice de similarite) de decisions qui, par le passe, ont donne de bons resultats (au-dessus d'un niveau d'aspiration donne). Ce modele, tout en etant prometteur, a ete pour le moment, peu applique aux choix financiers (Guerdjikova, 2006 et Golosnoy et Okhrin, 2008-pour de premiers resultats).
+
+La richesse et la nouveaute de les litteratures theoriques et empirique, que nous avons passees en revue sont frappantes. Allant de modelisations sophistiquees a la construction pragmatique d'indices d'ambiguite sur les marches, en passant par des predictions de prix d'actifs ou des comportements individuels, les contributions presentees brievement ici auront, nous l'esperons, convaincu le lecteur que la boite autils de l'economiste souhaitant etudier les marches financiers se doit maintenant d'inclure le traitement de l'ambiguite.
+
+## Bibliographie
+
+* Ahn et al. (2014) Ahn, D., S. Choi, D. Gale et S. Kariv (2014), << Estimating Ambiguity Aversion in a Portfolio Choice Experiment >>, _Quantitative Economics_, 5(2) : 195-223.
+* Alonso et al. (2013) Alonso, I. et M. Prado (2013), << Equity Trading Under Heterogeneity in Ambiguity Aversion >>, mimeo.
+
+* [13]Ameriks, J. et S. Zeldes (2004), << How do Household Portfolio Shares Vary with Age? >>, working paper, Columbia Business School.
+* [14]Anderson, E., L. Hansen et T. Sargent (1999), << Robustness Detection and the Price of Risk >>, working paper, University of Chicago.
+* [15]Anderson, E., L. P. Hansen et T. Sargent (2003), << A Quartet of Semi-groups for Model Specification, Robustness, Prices of Risk, and Model Detection >>, _Journal of the European Economic Association_, 1(1) : 68-123.
+* [16]Anderson, E. W., E. Ghysels et J. L. Juergens (2009), << The Impact of Risk and Uncertainty on Expected Returns >>, _Journal of Financial Economics_, 94 (2) : 233-263.
+* [17]Andreou, P. C., A. Kagkadis, P. Maio et D. Philip (2014), << Market Ambiguity and the Equity Premium >>, en ligne, [http://dx.doi.org/10.2139/ssrn.2379606](http://dx.doi.org/10.2139/ssrn.2379606).
+* [18]Baker, S. R., N. Bloom N. et S. J. Davis (2013), << Measuring Economic Policy Uncertainty >>, Chicago Booth Research Paper n\({}^{\circ}\) 13-02, en ligne, [http://dx.doi.org/10.2139/ssrn.2198490](http://dx.doi.org/10.2139/ssrn.2198490).
+* [19]Bansal, R. et A. Yaron (2004), << Risks for the Long Run: A Potential Resolution of Asset Pricing Puzzles >>, _Journal of Finance_, 59(4) : 1481-1509.
+* [20]Barberis, N. et R. Thaler (2003), << A Survey of Behavioral Finance >>, _in_ Constantinides, G. M., M. Harris et R. M. Stulz (eds), _Handbook of the Economics of Finance_, edition 1, volume 1, chapter 18, p. 1053-1128.
+* [21]Barillas, F., L. P. Hansen et T. Sargent (2009), << Doubts or Variability? >>, _Journal of Economic Theory_, 144 : 2388-2418.
+* [22]Benigno, P. et S. Nistico (2012), << International Portfolio Allocation Under Model Uncertainty >>, _American Economic Journal: Macroeconomics_, 4(1) : 144-89.
+* [23]Bewley, T. (2002), << Knightian Decision Theory: Part I >>, _Decisions in Economics and Finance_, 25(2) : 79-110.
+* [24]Bianchi, M. et J.M. Tallon (2014), << Ambiguity Preferences and Portfolio Choices: Evidence from the Field >>, mimeo.
+* [25]Billot, A., A. Chateauneuf, I. Gilboa et J.-M. Tallon (2000), << Sharing Beliefs: Between Agreeing and Disagreeing >>, _Econometrica_, 68(3) : 685-694.
+* [26]Bossaerts, P., P. Ghirardato, S. Guarnaschelli et W. Zame (2010), << Ambiguity in Asset Markets: Theory and Experiments >>, _Review of Financial Studies_, 23(4) : 1325-1359.
+* [27]Boyarchenko, N. (2012), << Ambiguity Shifts and the 2007-2008 Financial Crisis >>, _Journal of Monetary Economics_, 59(5) : 493-507.
+* [28]Boyle, P., L. Garlappi, R. Uppal et T. Wang (2012), << Keynes Meets Markowitz: The Trade-off Between Familiarity and Diversification >>, _Management Science_, 58(2) : 253-272.
+* [29]Broihanne, M. H., M. Merli et P. Roger (2005), << Le comportement des investig-seurs individuels >>, _Revue francaise de gestion_, 4 : 145-168.
+* [30]Caballero, R. et A. Krishnamurthy (2008), << Collective Risk Management in a Flight to Quality Episode >>. _Journal of Finance_. 63(5) : 2195-2236.
+* [31]* [13] Campbell, J., H. Jackson, B. Madrian et P. Tufano (2011), << Consumer Financial Protection >>, _Journal of Economic Perspectives_, 25(1) : 91-114.
+* [14] Campbell, J. Y. et L. M. Viceira (1999), << Consumption And Portfolio Decisions When Expected Returns Are Time Varying >>, _The Quarterly Journal of Economics_, 114(2) : 433-495.
+* [15] Cao, H., T., T. Wang et H. Zhang (2005), << Model Uncertainty, Limited Market Participation, and Asset Prices >>, _Review of Financial Studies_, 18(4) : 1219-1251.
+* [16] Carlier, G. et R.-A. Dana (2013), << Pareto Optima and Equilibria when Preferences are Incompletely Known >>, _Journal of Economic Theory_, 148(4) : 1606-1623.
+* [17] Caskey, J. (2009), << Information in Equity Markets with Ambiguity Averse Investors >>, _Review of Financial Studies_, 22(9) : 3595-3627.
+* [18] Chateauneuf, A., R. A. Dana et J.-M. Tallon (2000), << Optimal Risk-Sharing Rules and Equilibria with Non-additive Expected Utility >>, _Journal of Mathematical Economics_, 34(2) : 191-214.
+* [19] Chen, Z. et L. Epstein (2002), << Ambiguity, Risk, and Asset Returns in Continuous Time >>, _Econometrica_, 70(4) : 1403-1443.
+* [20] Chen, H., N. Ju et J. Miao (2014), << Dynamic Asset Allocation with Ambiguous Return Predictability >>, _Review of Economic Dynamics_, a paraitre.
+* [21] Collard, F., S. Mukerji. K. Sheppard et J.-M. Tallon (2011), << Ambiguity and the Historical Equity Premium >>, working paper.
+* [22] Condie, S. et J. Ganguli (2011a), << Ambiguity and Partially-revealing Rational Expectations Equilibria >>, _Review of Economic Studies_, 78 : 821-845.
+* [23] Condie, S. et J. Ganguli (2011b), << Informational Efficiency with Ambiguous Information >>, _Economic Theory_, 48(2) : 229-242.
+* [24] Condie, S. et J. Ganguli (2012), << The Pricing Effects of Ambiguous Private Onformation >>, Economics Discussion Papers 720, University of Essex, Department of Economics.
+* [25] Condie, S., J. Ganguli et P. K. Iileditsch (2012), << Information Inertia >>, Economics Discussion Papers 719, University of Essex, Department of Economics.
+* [26] Connolly, R., C. Stivers et L. Sun (2005), << Stock Market Uncertainty and the Stock-Bond Return Relation >>, _The Journal of Financial and Quantitative Analysis_, 40(1) : 161-194.
+* [27] Corgnet, B., K. Kujal et D. Porter, (2012), << Reaction to Public Information in Markets: How Much does Ambiguity Matter? >>, _The Economic Journal_, 123(569) : 699-737.
+* [28] Coval J. D., et T. J. Moskowitz (1999), << Home Bias at Home : Local Equity Preference in Domestic Portfolios >>, _The Journal of Finance_, LIV(6) : 2045-2072.
+* [29] Dana, R.-A. (2004), << Ambiguity, Uncertainty Aversion and Equilibrium Welfare >>, _Economic Theory_, 23(3) : 569-587.
+* [30] Dana, R.-A. et F. Riedel (2013), << Intertemporal Equilibria with Knightian Uncertainty? >>, _Journal of Economic Theory_, 148(4) : 1582-1605.
+
+* De Castro et al. (2011)De Castro, L. et A. Chateauneuf (2011), << Ambiguity Aversion and Trade >>, _Economic Theory_, 48(2) : 243-273.
+* De Castro et al. (2011)De Castro, L., M. Pesce et N. Yannelis (2011), << A New Perspective to Rational Expectations: Maximin Rational Expectations >>, mimeo.
+* De Castro et al. (2010)De Castro, L. et N. Yannelis (2010), << Uncertainty, Efficiency and Incentive Compatibility >>, mimeo.
+* Diether et al. (2002)Diether, K. B., C. J. Malloy et A. Scherbina (2002), << Differences of Opinion and the Cross Section of Stock Returns >>, _The Journal of Finance_, 57(5) : 2113-2141.
+* Dimmock et al. (2013)Dimmock, S. G., R. Kouwenberg, O. S. Mitchell et K. Pejunenburg (2013), << Ambiguity Aversion and Household Portfolio Choice: Empirical Evidence >>, NBER Working Paper n\({}^{\circ}\) 18743.
+* Dlugosch et al. (2014)Dlugosch, D. et M. Wang (2014), << Relation between Equity Home Bias and Ambiguity Aversion: An International Study >>, mimeo.
+* Dow et al. (1992)Dow, J. et C. Werlang (1992), << Uncertainty Aversion, Risk Aversion and the Optimal Choice Portfolio >>, _Econometrica_, 60(1) : 197-207.
+* Easley et al. (2009)Easley, D. et M. O'Hara (2009), << Ambiguity and Non-participation: The role of Regulation >>, _Review of Financial Studies_, 22 : 1818-1843.
+* Easley et al. (2010)Easley, D. et M. O'Hara (2010a), << Microstructure and Ambiguity >>, _Journal of Finance_, 65(5) : 1817-1846.
+* Easley et al. (2010)Easley, D. et M. O'Hara (2010b), << Liquidity and Valuation in an Uncertain World >>, _Journal of Financial Economics_, 97(1) : 1-11.
+* Ellsberg (1961)Ellsberg, D. (1961), << Risk, Ambiguity, and the Savage Axioms >>, _Quarterly Journal of Economics_, 75 : 643-669.
+* Epstein et al. (2013)Epstein, L. et S. Ji (2013), << Ambiguous Volatility and Asset Pricing in Continuous Time >>, _Review Financial Studies_, 26(7) : 1740-1786.
+* Epstein et al. (2014)Epstein, L. et S. Ji (2014), << Ambiguous Volatility, Possibility and Utility in Continuous Time >>, _Journal of Mathematical Economics_, 50(C) : 269-282.
+* Epstein et al. (2008)Epstein, L. et M. Schneider (2008), << Ambiguity, Information Quality, and Asset Pricing >>, _Journal of Finance_, 63(1) : 197-228.
+* Epstein et al. (2010)Epstein, L. et M. Schneider (2010), << Ambiguity and Asset Markets >>, _Annual Review of Financial Economics_, 2(1) : 315-346.
+* Epstein et al. (1994)Epstein, L. et T. Wang (1994), << Intertemporal Asset Pricing Under Knightian Uncertainty >>, _Econometrica_, 62(2) : 283-322.
+* Etner et al. (2012)Etner, J., M. Jeleva et J.-M. Tallon (2012), << Decision Theory Under Ambiguity >>, _Journal of Economic Surveys_, 26(2) : 234-270.
+* Faria et al. (2012)Faria, G. et J. Correia-da-Silva (2012), << The Price of Risk and Ambiguity in an Intertemporal General Equilibrium Model of Asset Prices >>, _Annals of Finance_, 8(4) : 507-531.
+* Fullburn et al. (2014)Fullburn, S, H., A Rau et U. Weitzel (2014), << Does Ambiguity Aversion Survive in Experimental Asset Markets >>, _Journal of Economic Behavior and Organization_, 107(B) : 810-826.
+
+* Gagliardini et al. (2009)Gagliardini, P., P. Porchia et F. Troiani (2009), << Ambiguity Aversion and the Term Structure of Interest Rates >>, _Review of Financial Studies_, 22(10) : 4157-4188.
+* Gajdos et al. (2008)Gajdos, T., T. Hayashi, J.-M. Tallon et J.-C. Vergnaud (2008), << Attitude Toward Imprecise Information >>, _Journal of Economic Theory_, 140 : 27-65.
+* Galichon and Henry (2011)Galichon, A. et M. Henry (2011), << Set Identification in Models with Multiple Equilibria >>, _Review of Economic Studies_, 78(4) : 1264-1298.
+* Galichon and Henry (2013)Galichon, A. et M. Henry (2013), << Dilation Bootstrap >>, _Journal of Econometrics_, 177(1) : 109-115.
+* Garlappi et al. (2007)Garlappi, L., R. Uppal et T. Wang (2007), << Portfolio Selection with Parameter and Model Uncertainty: A Multi-prior Approach >>, _Review of Financial Studies_, 20(1) : 41-81.
+* Gilboa et al. (1989)Gilboa, I. et D. Schmeidler (1989), << Maxmin Expected Utility with Non-Unique Prior >>, _Journal of Mathematical Economics_, 18(2) : 141-153.
+* Gilboa et al. (1995)Gilboa, I. et D. Schmeidler (1995), << Case-based Decision Theory >>, _Quarterly Journal of Economics_, 110(3) : 605-639.
+* Gilboa et al. (2001)Gilboa, I. et D, Schmeidler (2001), _A Theory of Case-based Decisions_, Cambridge, UK, Cambridge University Press.
+* Gollier (2011)Gollier, C. (2011), << Portfolio Choices and Asset Prices: The Comparative Statics of Ambiguity Aversion >>, _Review of Economic Studies_, 78(4) : 1329-1344.
+* Golosnov and Okhrin (2008)Golosnov, V. et Y. Okhrin (2008), << General Uncertainty in Portfolio Selection: A Case-based Decision Approach >>, _Journal of Economic Behavior & Organisation_, 67(3-4) : 718-734.
+* Guerdjikova (2006)Guerdjikova, A. (2006), << Portfolio Choice and Asset Prices in an Economy Populated by Case-Based Decision Makers >>, CAE Working Paper 06-13.
+* Guidolin et al. (2013)Guidolin, M. et H. Liu (2013), << Ambiguity Aversion and Under-diversification >>, IGIER working paper n\({}^{\text{o}}\) 483.
+* Guidolin et al. (2009)Guidolin, M. et F. Rinaldi (2009), << A Simple Model of Trading and Pricing Risky Assets Under Ambiguity: Any Lessons for Policy-Makers? >>, Working paper n\({}^{\text{o}}\) 2009-020A, Federal Reserve Bank of St. Louis.
+* Guidolin et al. (2013)Guidolin, M. et F. Rinaldi (2013), << Ambiguity in Asset Pricing and Portfolio Choice: A Review of the Literature >>, _Theory and Decision_, 74(2) : 183-217.
+* Haliassos et al. (1995)Haliassos, M. et C. C. Bertau (1995), << Why Do So Few Hold Stocks? >>, _The Economic Journal_, 105(432) : 1110-1129;
+* Hansen et al. (2001)Hansen, L. P. et T. J. Sargent (2001), << Robust Control and Model Uncertainty >>, _American Economic Review_, 91(2) : 60-66.
+* Henry et al. (2011)Henry, M. et A. Galichon (2011), << Set Identification in Models with Multiple Equilibria >>, _Review of Economic Studies_, 78(4) : 1264-1298.
+* Henry et al. (2013)Henry, M. et A. Galichon (2013), << Ambiguite, identification partielle et politique environnementale >>, _Revue economique_, 64(4) : 603-613.
+* Hsu et al. (2005)Hsu, M., M. Bhatt, R. Adolphs, D. Tranel et C. Camerer (2005), << Neural Systems Responding to Degrees of Uncertainty in Human Decision-making >>, _Science_, 310(5754) : 1680-3.
+
+* [11][] Ilieditsch, P.K. (2011), << Ambiguity Information, Portfolio Inertia, and Excess Volatility >>, _The Journal of Finance_, 66(6) : 2213-2247.
+* [12] Iliut, C. (2012), << Ambiguity Aversion: Implications for the Uncovered Interest Rate Parity Puzzle >>, _American Economic Journal : Macroeconomics_, 4(3) : 33-65.
+* [13] Iliut, C. et M. Schneider (2012), << Ambiguous Business Cycles >>, NBER Working Paper 17900.
+* [14] Jeong, D., H. Kim et J. Park (2014), << Does Ambiguity Matter? Estimating Asset Pricing Models with a Multiple-priors Recursive Utility >>, _Journal of Financial Economics_, a paraitre.
+* [15] Ju, N. et J. Miao (2012), << Ambiguity, Learning, and Asset Returns >>, _Econometrica_, 80(2) : 559-591.
+* [16] Jurado, K., S. Ludvigson et S. Ng (2013), << Measuring Uncertainty >>, NBER working paper, n\({}^{\circ}\) 19456.
+* [17] Kahneman, D. et A. Tversky (1979), << Prospect Theory: An Analysis of Decision Under Risk >>, _Econometrica_, 47(2) : 263-291.
+* [18] Klibanoff, P., M. Marinacci et S. Mukerji (2005), << A Smooth Model of Decision Making Under Ambiguity >>, _Econometrica_, 73(6) : 1849-1892.
+* [19] Kogan, L. et T. Wang (2003, << A Simple Theory of Asset Pricing Under Model Uncertainty >>, Massachusetts Institute of Technology, working Paper.
+* [20] Koufopoulos, K. et R. Kozhan (2014), << Welfare-improving Ambiguity in Insurance Markets with Asymmetric Information >>, _Journal of Economic Theory_, 151 : 551-560.
+* [21] Leippold, M., F. Trojani et P. Vanini (2008), << Learning and Asset Prices Under Ambiguous Information >>, _Review of Financial Studies_, 21(6) : 2565-2597.
+* [22] Lin, Q. et F. Riedel (2014), << Optimal Consumption and Portfolio Choice with Ambiguity >>, working paper n\({}^{\circ}\) 497, Center for Mathematical Economics, U. Bielefeld.
+* [23] Lioui, A. et P. Poncet (2012), << On Model Ambiguity and Money Neutrality >>, _Journal of Macroeconomics_, 34(4) : 1020-1033.
+* [24] Liu, H. (2010), << Robust Consumption and Portfolio Choice for Time Varying Investment Opportunities >>, _Annals of Finance_, 6(4) : 435-454.
+* [25] Liu, H. (2011), << Dynamic Portfolio Choice Under Ambiguity and Regime Switching Mean Returns >>, _Journal of Economic Dynamics and Control_, 35 : 623-640.
+* [26] Machina. et M. Siniscalchi (2013), << Ambiguity and Ambiguity Aversion >>, _in_ Machina M. J. et W. K. Viscusi (eds), _Economics of Risk and Uncertainty_, Handbook in Economics, North Holland.
+* [27] Maccheroni, F., M. Marinacci et D. Ruffino (2013), << Alpha as Ambiguity: Robust Mean Variance Portfolio Analysis >>, _Econometrica_, 81(3) : 1075-113.
+* [28] Maehhout, P. (2000), << Robust Portfolio Rules >>, Chapitre 1 _in Essays on Portfolio Choice and Asset Pricing_, unpublished Ph.D. Thesis, Harvard University.
+* [29][] Maehhout, P. (2004), << Robust Portfolio Rules and Asset Pricing >>, _Review of Financial Studies_, 17(4) : 951-983.
+
+* []Mandler, M. (2013), << Endogenous Indeterminacy and Volatility of Asset Prices Under Ambiguity >>, _Theoretical Economics_, 8(3) : 729-750.
+* []Manski, C. (2005), << Partial Identification with Missing Data: Concepts and Findings >>, _International Journal of Approximate Reasoning_, 39(2-3) : 151-165.
+* []Mehra, R. et E. C. Prescott (1985), << The Equity Premium: A Puzzle >>, _Journal of Monetary Economics_, 15 : 145-161.
+* []Mele, A. et F. Sangiorgi (2013), << Uncertainty, Information Acquisition and Price Swings in Asset Markets >>, working paper.
+* []Meyer, J. et M. B. Ormiston (1985), << Strong Increase in Risk and Their Comparative Statics? >>, _International Economic Review_, 26 : 425-437.
+* []Miao, J., B. Wei et H. Zhou (2012), << Ambiguity Aversion and Variance Premium >>, working paper.
+* []Mukerji, S. et J.-M. Tallon (2001), << Ambiguity Aversion and Incompleteness of Financial Markets >>, _Review of Economic Studies_, 68 : 883-904.
+* []Oh, J.-Y. (2014), << Ambiguity Aversion, Funding Liquidity, and Liquidation Dynamics >>, _Journal of Financial Markets_, 18 : 49-76.
+* []Ozsoylev, H. et J. Werner (2009), << Liquidity and Asset Prices in Rational Expectations Equilibrium with Ambiguous Information >>, _Journal of Economic Theory_, 48(2) : 469-491.
+* []Pinar, M. (2014), << Equilibrium in an Ambiguity-averse Mean? Variance Investors Market >>, _European Journal of Operational Research_, 237(3) : 957-965.
+* []Potamites, E. et B. Zhang (2012), << Heterogeneous Ambiguity Attitudes: A Field Experiment Among Small-scale Stock Investors in China >>, _Review of Economics Design_, 16(2) : 193-213.
+* []Rieger, M.-O. et M. Wang (2012), << Can Ambiguity Aversion Solve the Equity Premium Puzzle? Survey Evidence from International Data >>, _Finance Research Letters_, 9 : 63-72.
+* []Rigotti, L. et C. Shannon, << Uncertainty and Risk in Financial Markets >>, _Econometrica_, 73(1) : 203-243.
+* []Rigotti, L., C. Shannon et T. Strzalecki (2008), << Subjective Beliefs and Ex Ante Trade >>, _Econometrica_, 76(5) : 1176-1190.
+* []Rothschild, M. et J. E. Stiglitz (1971), << Increasing Risk II: Its Economic Consequences >>, _Journal of Economic Theory_, 3 : 225-243.
+* []Ruffino, D. (2013), << A Robust Capital Asset Pricing Model >>, mimeo.
+* []Schmeidler, D. (1989), << Subjective Probability and Expected Utility Without Additivity >>, _Econometrica_, 57(3) : 571-587.
+* []Sejourne, B. (2006), << Pourquoi le comportement des epigranants francais est-il si peu conforme a la theorie traditionnelle du portefeuille? >>, Cahiers scientifiques, n\({}^{\text{o}}\) 2, AMF.
+* []Smith K., J. Dickhaut, K. McCabe et J. Pardo (2002), << Neuronal Substrates for Choice Under Ambiguity, Risk, Gains, and Losses >>, _Management Science_, 48(6) : 711-718.
+
+* Tallon (1998)Tallon, J.-M. (1998), << Asymmetric Information, Non-Additive Expected Utility and the Information Revealed by Prices: An Example >>, _International Economic Review_, 39 : 329-342.
+* Tesar et al. (1995)Tesar L. I. et I. M. Werner (1995), << Home Bias and High Turnover >>, _Journal of International Money and Finance_, 14(4) : 467-492.
+* Troiani et al. (2002)Troiani, F. et P. Vanini (2002), << A Note on Robustness in Merton's Model of Intertemporal Consumption and Portfolio Choice >>, _Journal of Economic Dynamics and Control_, 26(3) : 423-435.
+* Troiani et al. (2004)Troiani, F. et P. Vanini (2004), << Robustness and Ambiguity Aversion in General Equilibrium >>, _Review of Finance_, 8(2) : 279-324.
+* Ulrich (2013)Ulrich, M. (2013), << Inflation Ambiguity and the Term Structure of U.S. Government Bonds >>, _Journal of Monetary Economics_, 60(2) : 295-309.
+* Uppal et al. (2003)Uppal, R. et T. Wang (2003), << Model Misspecification and Underdiversification >>, _The Journal of Finance_, LVIII(6) : 2465-2486.
+* Werner (2014)Werner, J. (2014), << Speculative Trade Under Ambiguity >>. mimeo.
+* Zhu (2011)Zhu, W. (2011), << Ambiguity Aversion and an Intertemporal Equilibrium Model of Catastrophe-linked Securities Pricing >>, _Insurance: Mathematics and Economics_, 49(1) : 38-46.
+* Zhu et al. (2012)Zhu, W., H. Kunreuther et E. Michel-Kerjan (2012) << Ambiguity Types, Robust Learning and Natural Catastrophe Insurance: How Long-Term Contracts May Help? >>, mimeo, [http://dx.doi.org/10.2139/ssrn.2113828](http://dx.doi.org/10.2139/ssrn.2113828). 
+
+

@@ -1,0 +1,349 @@
+INFO: likely hallucinated title at the end of the page: ## 3.1.
+CONFANCE, METACOSITION
+
+ET PERCEPTION
+
+Sebastien MASSONI
+
+_QuBE - School of Economics and Finance and ACE Queensland University of Technology_
+
+sebastien.massoni@gmail.com
+
+Resume - Les probabilites subjectives ont un role central dans la prise de decision. Si les modeles theoriques et les donnees experimentales sont relativement silencieux en economie sur la facon dont se forment ces croyances lors du processus decisionnel, il n'est pas de meme en sciences cognitives. Nous proposons ici une revue de litterature de l'etude de la metacognition au travers de modeles computationnels de detection du signal. Cette methodologie est ensuite importee a la decision non perceptive et nous montrons comment son utilisation ouvre de nouvelles pistes de recherche dans l'etude des croyances subjectives en economie experimentale.
+
+Introduction
+
+Les croyances subjectives sont au coeur de la theorie de la decision depuis l'ouvrage fondateur de Savage (1954). En effet, la plupart des modeles de decision en univers risque ou incertain supposent que les individus attribuent un poids a chaque evenement possible a l'aide de probabilites subjectives (ou d'une transformation interne de celles-ci). Cependant rien n'est dit au sujet de la nature meme de ces croyances. Cette absence d'analyse provient de la contrainte methodologique propre a la theorie economique que sont les preferences revelees. Ainsi l'utilisation de modeles << comme si >> (_as if_) permet d'etudier les comportements sans avoir besoin de connaissances sur leurs fondements psychologiques et biologiques. A partir de la seule observation des choix effectues, les comportements sont representes par des fonctions de preference. Les individus se comportent _comme s_'ils maximisaient leurs fonctions d'utilite. L'etude du processus de decision en lui-meme est donc exclue de l'analyse. A l'inverse, les sciences cognitives se basent sur des modeles << en l'etat >> (_as is_) et etudient le veritable processus de decision qui conduit aux choix. Dans le cas des croyances subjectives, la theorie de detection du signal (TDS) fournit un modele computationnel permettant d'etudier le processus de formation des croyances dans une tache perceptive. Cet outil permet donc de confronter les probabilites reellement utilisees par les individus lors de leur prise de decision avec les donnees comportementales recueillies experimentalement. Deux processus de decision sont analyses : comment l'individu prend une decision perceptive (_decision de type I_) et quel est son jugement de confiance sur la justesse de ce choix (_decision de type II_). Les modeles de detection du signal offrant des predictions sur le comportement optimal, il est possible de definir des criteres de qualite des probabilites subjectives observees. Cette etude de la metacognition (litteralement la cognition sur sa propre cognition, c'est-a-dire la comprehension de ses propres processus cognitifs) est un champ en pleine expansion en sciences cognitives.1 Du point de vue de l'etude de la decision, il semble evident qu'une comprehension de la facon dont se forment les cryosances subjectives permettrait de mieux comprendre et expliquer les comportements observes. Si le potentiel methodologique est indienable pour l'economie experimentale, nous allons voir que l'application a des decisions non perceptives n'est pas sans poser differents problemes et qu'il faut donc considerer l'etude de la metacognition comme une piste de recherche prometteuse plutot qu'une solution d'analyse toute faite. Dans cet article, nous allons tout d'abord presenter les bases methodologiques de la theorie de detection du signal pour des choix perceptifs et des jugements de confiance. Nous verrons ensuite comment la qualite metacognitive peut etre mesuree par les deux principaux criteres que sont la calibration et la discrimination. Dans une derniere partie, nous resumerons les resultats issus des sciences cognitives sur ce qui affecte la metacognition et nous proposerons differentes applications de l'analyse de la metacognition a des choix non perceptifs (decision de valeurs, choix de groupe et comportements assurantiels). Si la portee et l'apport potentiel de ce champ de recherche ne font aucun doute, nous verrons que son application en economie est encore loin d'etre evidente et que de nombreuses etapes restent a franchir. Nous proposerons ainsi certaines pistes de recherche potentielles couvrant divers champs de l'analyse economique.
+
+Footnote 1: Nous renvoyons le lecteur à l’ouvrage collectif de Fleming et Frith (2014) pour un aperç des travaux les plus récents.
+
+###### Contents
+
+* 1 Theorie de la detection du signal offre un cadre general d'analyse de la prise de decision en univers incertain. Son point de depart est que toute decision se prend en presence d'invertitude. Considerons le cas d'un individu qui doit decider si un evenement est survenu ou non. Il utilisera toute l'information disponible pour faire son choix mais cette information restera insuffisante ou trop bruitee pour determiner completement la reponse correcte. Il s'en suit la presence inevitable d'erreurs. La frequence et la forme de ces erreurs sont liees a la nature de l'evenement et aux processus utilises par l'individu pour former son choix. La TDS offre un cadre pour analyser de telles situations en separant les caracteristiques des evenements et les processus de decision. Si le cadre le plus naturel pour appliquer la TDS est la decision perceptive2, son raisonnement peut s'etendre a de nombreuses prises de decision de la vie reelle. Imagions par exemple un medecin cherchant a determiner la presence ou non d'une maladie pour un de ses patients. Il basera son diagnostic sur des preuves empiriques, par essence bruitees, et son jugement final sera donc fait en presence d'incertitude. Nous pouvons egalement prendre le cas d'un negociateur qui doit decider d'acheter ou de vendre des actions en reaction a une variation du prix dans les marches. Il doit alors determiner si ces fluctuations sont juste dues a des fruits ou alors si elles revelent une vraie tendance. D'une maniere generale, il s'agit pour l'individu de determiner s'il observe un signal ou un bruit. Le signal est suffisamment faible et le bruit suffisamment fort pour que la decision soit incertaine. Il en resulte quatre situations possibles : une << detection correcte >> dans le cas d'une presence du signal effectivement detectee; un << reject correct >> si la presence d'un bruit n'a pas ete interpretee comme un signal; une << fausse alarme >> quand le bruit a ete interprete comme un signal; et enfin une << omission >> quand la presence du signal n'a pas ete reportee. La distribution de chaque cas depend de la nature du signal et de la facon dont l'individu prend sa decision. Avant de presenter le cadre formel de l'analyse, notons que la TDS peut faire l'objet de trois utilisations differentes (Wickens, 2002) : un puissant outil d'analyse proposant une description precise des comportements observes; une identification des effets de traitements jouant sur les parametres des conditions experimentales et enfin un modele psychologique decrivant comment l'individu prend ses decisions. Ce dernier point est evidemment sujet a debat, mais depuis l'ouvrage initial de Green et Swets (1966), la TDS a ete confortee par des resultats en neurosciences montrant que le cerveau semble effectivement se compporter de facon similaire a ce qui est prevu dans la modelisation par TDS (par exemple dans le cas d'une tache de numerosite, c'est-a-dire impliquant la capacite a discerner des quantites d'objets dans un espace donne - Piazza _et al._, 2004; Pica _et al._, 2004; Nieder et Dehaene, 2009). Cette section vise a presenter les bases de la TDS dans l'analyse des choix (TDS de type I) puis a voir comment l'etendre au cas de la confiance (TDS de type II).
+
+### Le choix ou la TDS de type I
+
+Considerons le cas d'un individu devant determiner si le stimulus percu est un signal ou non. Quatre types de reponse sont possibles en fonction de la realite {signal; bruit} et de la decision {presence; absence} :
+
+\begin{tabular}{l|c|c} \hline \hline  & **Signal** & **Bruit** \\ \hline Pr\(\!\!\)sence & d\(\!\!\)tection correcte & fausse alarme \\ Absence & omission & rejet correct \\ \hline \end{tabular}
+
+L'information sur la pertinence de la d\(\!\) decision est reduite a deux probabilites : le taux de detections correctes (\(h\)) et le taux de fausses alarmes (\(f\)) calculees respectivement comme le nombre de detections correctes sur le nombre d'essais en presence du signal et le nombre de fausses alarmes sur le nombre d'essais en presence du bruit. Si ces probabilites permettent de nous donner une idee de la facon d'agir de l'individu, elles sont insuffisantes pour caracteriser completement la prise de decision. La TDS va plus loin et permet de mesurer la capacite de l'individu a detecter un signal, c'est-a-dire sa sensibilite. L'analyse repose sur trois hypotheses : (_i_) l'individu accumule de l'information sur le signal, des << _evidences_>>, qui peuvent etre representees par une valeur unique; (_ii_) ces evidences suivent un processus aleatoire; (_iii_) le choix est pris en appliquant un critere de decision base sur la quantite d'evidences obtenues. La premiere hypothese repose sur l'idee qu'il existe une reponse interne au signal qui va determiner si l'individu pense avoir observe le signal ou non. Cette reponse codee de maniere continue par une unique valeur reflete l'activite neuronale du cerveau. Cette activite est bruitee et peut etre representee graphiquement par la probabilite d'occurrence du signal en fonction de l'intensite de la reponse interne. Ainsi le graphique 1 represente la distribution du signal et du bruit lors de deux cas hypothetiques.
+
+GRAPHique 1
+
+Note : La figure de gauche (A) présente un cas d'intensite de signal elevé et donc une d'ecision facile avec un \(d^{\prime}\) elevé. Dans la figure de droite (B) on observe un chevauchement du signal et du bruit et donc une d'ecision très incertaine avec un \(d^{\prime}\) faible.
+
+Notons que les deux distributions peuvent differeer en termes de moyennes et de variances permettant ainsi de discriminer le signal du bruit. Par ailleurs la distribution du signal est situee plus a droite et implique donc des valeurs plus elevees en presence du signal. Cependant le chevauchement des deux courbes montre bien que dans certains cas, le bruit implique de plus larges valeurs et confirme donc que la justesse de la decision est incertaine. La possibilite de discriminer le signal correspond donc a la separation et a l'ecart entre les deux distributions. Si l'intensite du signal est suffisamment forte, l'ecart entre les deux distributions est important et le signal est facilement distingue du bruit (graphique 1A). Dans le cas contraire, le chevauchement des deux distributions rend le signal peu discernable du bruit (graphique 1B). La difference entre le mode des deux distributions donne une mesure de la possibilite de discriminer le signal et est notee \(d^{\prime}\). A partir de cette information incertaine,I'individu prend une decision a l'aide d'un critere decisionnel qui coupe chacune des distributions en un point precis. Si la quantite d'evidences est superieure a ce critere l'individu declare le signal present, sinon il considere faire face a un bruit.
+
+GRAPHIQUE 2
+
+Deux types de criteres decisionnels
+
+\(\beta_{1}\)\(\beta_{2}\)
+
+## Graphique 3 Relations entre les differents types de reponse et le placement du critere decisionnelUne derniere mesure peut etre utilisee pour caracteriser le comportement de l'individu : son biais, c'est-a-dire sa tendance a choisir une reponse plus souvent qu'une autre quelle que soit la distribution du signal. Ce biais se mesure comme la difference entre le critere et la moitie de la distance entre les deux distributions.
+
+La TDS offre donc un outil puissant d'analyse de la prise de decision. En estimant la sensibilite du signal, le critere decisionnel et le biais, elle permet de definir la performance maximale d'un individu face a une tache incertaine.3
+
+Footnote 3: Le lecteur interesse par la formalisation de la TDS peut se réérer à l’annexe ou aux ouvrages de Green et Swets (1966) et Wickens (2002).
+
+### La confiance ou la TDS de type II
+
+Etant donne le succes de la TDS de type I, il est naturel d'essayer de l'appliquer a la decision de type II c'est-a-dire les jugements de confiance. Ainsi apres avoir effectue son choix de type I, l'individu va estimer la confiance dans l'exactitude de cette reponse. Ce report de confiance peut s'effectuer sous de multiples formes : un simple report verbal, un choix binaire, des echelles de Likert ou un jugement de probabilites. Autrement dit, il sagit pour l'individu de classer ses reponses de premier ordre en fonction de differents niveaux de confiance. Cette approche permet de mesurer la capacite d'un individu a discriminer entre ses bonnes et ses mauvaises reponses. En prenant par simplification une confiance binaire, les differentes reponses possibles sont les suivantes :Le cadre analytique est donc similaire a celui de la decision de type I et des mesures identiques de la sensibilite de type II sont estimables. Par ailleurs, la TDS de type II fait l'hypothese que les jugements de confiance sont base s sur les memes evidences utilisees pour la prise de decision de type I.4 Le choix du niveau de confiance se fait donc en fonction des evidences recues et des differents niveaux de criteres individuels (graphique 5). L'ensemble des mesures utilisees pour la decision de type I peut ainsi etre estime pour la decision de type II.
+
+GRAPHIQUE 5
+
+Criteres decisionnels de la confiance en fonction des distributions
+
+du signal et du bruit
+
+Note : Les memes evidences sont utilisees pour prendre la decision de type I et de type II. Chaque critere represente ici un niveau de confiance avec une symetrie de ces niveaux par rapport au critere de type I cest-a-dire (S1,1) et (S2,1) correspondent a une confiance de 1 (sur une celle de 1 a 4) respectivement pour le stimulus 1 et le stimulus 2.
+
+A partir des taux de detections correctes et de fausses alarmes de type II, il est possible de calculer un \(d^{\prime}\) de type II, des criteres decisionnels pour chaque niveau de confiance ainsi que des courbes ROC de type II.5 Bien qu'il soit analytiquement possible d'estimer la sensibilite de type II a l'aide du \(d^{\prime}\) de type II ou du ROC de type II, ces deux approches presentent des lacunes les rendant plus ou moins inutilisables.
+
+Footnote 5: Nous renvoyons le lecteur à l’anexe et aux travaux de Barett, Dienes et Seth (2013) et Massoni (2013) pour une presentation détailée.
+
+Ainsi l'approche la plus naturelle est de calculer la sensibilite de type II comme le \(d^{\prime}\) de type II et de l'exprimer en fonction des taux de detections correctes et de fausses alarmes de type II (Kunimoto, Miller et Pashler, 2001). Ce \(d^{\prime}\) de type II s'exprime _in fine_ en fonction du \(d^{\prime}\) de type I ainsi que des criteres decisionnels de type I et II. Cependant calquer le cadre analytique de la TDS du choix sur celui de la confiance pose differents problemes qui rendent cette approche peu pertinente.6
+
+Footnote 6: Ainsi les hypotheses concernant la distribution des signaux ne sont valables que pour les reponses de type I et non de type II (gaussiennes avec variances egales - Galvin _et al._, 2003; Evans et Azzopardi, 2007). Il existe aussi une dependance empirique au bias de types I et II (Evans et Azzopardi, 2007) et on observe un \(d^{\prime}\) de type II maximal pour un niveau de sous-confiance maximale (Barett, Dienes et Seth, 2013). Enfin la possibilite d'obtenir un \(d^{\prime}\) de type II superieur à celui de type I (Galvin _et al._, 2003) pose probleme.
+
+L'utilisation de courbes ROC de type II permet de surmonter ces problemes en ayant recours a une approche non-parametrique (Galvin _et al._, 2003; Macmillan et Creelman, 2005). Ce ROC de type II offre donc une caracterisation de la sensibilite de la confiance. Cependant son defaut majeur est sa dependance a la sensibilite de type I et donc aux differents biais de decision.7 Il est possible d'utiliser des techniques psychophysiques (calibration de la difficulte par des escaliers psychometriques a la Levit, 1971) pour s'assurer que le niveau de performance est constant et identique entre sujets.8 Cependant la difficulte a obtenir des resultats empiriques fiables joue en faveur d'une modelisation explicite du lien entre sensibilite et performance. Ainsi l'application directe de la TDS de type I a la decision de type II pose de nombreux problemes et nous verrons dans la partie suivante comment estimer cette sensibilite de type II de maniere plus efficace.
+
+Footnote 7: Un autre probèème reside dans l’utilisation de criteres multiples de confiance conduisant à une multitude de courbes ROC. Ce probleme peu ê surmonte en calculant un critere unique base sur la vraisemblance d’etre correct (Galvin _et al._, 2003) ou sur le calcul de taux de detections correctes de type II maximal en fonction des fausses alarmes de type II et du critere de type I (Barett, Dienes et Seth, 2013).
+
+Footnote 8: Par exemple, Fleming _et al._ (2010); Massoni (2013); Fleming _et al._ (2014).
+
+### Exemple illustratif : decision perceptive en choix force et confiance probabiliste
+
+En guise d'illustration des choix perceptifs de type I et II, nous presentons ici un design classique d'experience en choix force avec elicitation de la confiance de maniere probabiliste (graphique 6C et Massoni, 2013).
+
+La tache perceptive est un choix force entre deux alternatives (2AFC) qui est connu pour etre un paradigme pertinent pour l'analyse par TDS (Bogacz _et al._, 2006). Lors de cette tache, les sujets doivent comparer le nombre de points contenus dans deux cercles de diametres identiques (graphique 6A). Les deux cercles sont presentes apres un ceran de fixation de maniere rapide (700 ms) afin qu'il ne soit pas possible de compter le nombre de points. Les sujets doivent indiquer quel cercle contient le plus de points puis donner leur niveau de confiance dans le succes de ce choix. Nous presentons ici une confiance probabiliste ou les individus doivent donner leurs probabilites d'avoir correctement repondu entre 0 et 100. Le mecanisme incitatif est la regle de _matching probabilities_ qui incite les sujets a donner leur veritable confiance quelle que soit leur preference vis-a-vis du risque (nous renvoyons le lecteur a la partie 3.1 pour plus d'explications).
+
+Un avantage de ce type de stimuli est qu'il permet de calibrer la difficulte de la tache en fonction des capacites individuelles des individidus. Ainsi en utilisant un escalier psychophysique (Levitt, 1971), il est possible de determiner de maniere individuelle le nombre de points d'ecarts entre les deux cercles pour obtenir une reussite moyenne de 71 % lors de l'experience. Il convient alors de faire varier la difficulte, c'est-a-dire augmenter ou diminuer l'ecart de points entre les deux cercles, lors d'une phase d'entrainement avec une variation du nombre de points apres chaque eche ou apres deux reussites consecutives. Le niveau de difficulte convergera alors assez rapidement (une trentaine de renversements) pour identifier l'ecart de points entre les deux cercles permettant une reussite identique entre tous les sujets lors de l'experience. Cette approche offre la possibilite de figer la reussite et donc d'etudier les croyances subjectives avec un plus grand controle et en disposant d'un critere objectif de performance.
+
+Ce design experimental permet de recueillir les choix des individus (droite ou gauche), leurs niveaux de confiance (entre 0 et 100 par pas de 5) et leur temps de reponse en fonction des stimuli presentes. La tache s'effectuant de maniere assez rapide, il est possible de faire environ 200 essais sans fatigue excessive du sujet. L'ensemble de donnees permet alors d'estimer les parametres de la TDS pour le choix de type I et de type II. Ainsi, les stimuli droit et gauche (c'est-a-dire les cercles) produisent les reponses internes suivantes : \(X_{L}\sim\mathcal{N}(x_{l},\sigma_{i}^{2})\) et \(X_{R}\sim\mathcal{N}(x_{R},\sigma_{i}^{2})\).
+
+Comme nous connaissons les vraies valeurs \(x_{l}\) et \(x_{r}\), c'est-a-dire le nombre de points dans chaque cercle, nous pouvons estimer l'habilete a discriminier de chaque sujets, \(\sigma_{i}^{2}\). Ensuite, le sujet doit determiner si le signal percu \(x\) provient de \(X=X_{L}-X_{R}\) positif (et donc repondre gauche) ou negatif (repondre droite). De plus, sa probabilite subjective peut etre facilement deduite par une regle bayesienne (Massoni, Gajdos et Vergnaud, 2014). Il est alors possible d'estimer l'ensemble des parametres de detection du signal du choix et de la confiance (criteres decisionnels, \(d\)', ROC que ce soit pour le type I ou le type II).
+
+Ainsi en utilisant une tache perceptive et la TDS, nous pouvons mesurer et estimer la facon dont un individu agit lors de son processus decisionnel. Ce qui ouvre la voie a l'etude des capacites metacognitives et l'identification de certains facteurs jouant sur la formation des probabilites subjectives.
+
+## 2 Mesures de la metacognition
+
+Au-dela de la TDS, la question se pose de savoir comment mesurer la qualite de la confiance, c'est-a-dire les capacites metacognitives d'un individu. Deux aspects sont a prendre en compte : la sensibilite de la metacognition et son biais.
+La premiere reflete la capacite de discrimination, c'est-a-dire la facon dont s'ajuste la confiance en fonction des performances; la seconde, la capacite de calibration, c'est-a-dire comment la confiance se rapproche de la reussite en moyenne. Nous presentons dans cette section les principales mesures utilisees.9 Notons que si la calibration et la surconfiance sont etudiees quasi systematiquement en economie, la discrimination est quant a elle tres peu analysee. Ces deux mesures captent pourtant deux aspects differents de la qualite de la confiance. Ainsi, telle qu'elle est presentee dans le graphique 7, la sensibilite depend de l'ecart entre les distributions de confiance pour les essais reussis et les essais rates alors que la calibration ne concerne que le niveau de confiance moyen. Un exemple simple pour comprendre cette difference est le suivant (Liberman et Tversky, 1993) : un medecin predisant le sexe d'un nouveau-ne avec une probabilite de 0,5 sera parfaitement calibre (le sexe etant equiprobable) mais aura une discrimination nulle (ne pouvant discriminer entre les deux sexes possibles).
+
+Une premiere mesure de performance globale de la confiance est le _Brier Score_ (Brier, 1950). Considerons un individu qui donne sa confiance sur \(n\) evenements, \(p_{i}\) etant sa confiance dans l'evenement \(E_{i}\) et \(x_{i}\) une indicatrice valant 1 si l'evenement \(E_{i}\) est correctement predit. Le _Brier Score_ est calcule comme suit :
+
+\[BS=\frac{1}{n}\sum_{i=1}^{n}(p_{i}-x_{i})^{2}.\]
+
+Comme ce score est un score d'erreur, plus il est faible plus la confiance moyenne est correcte. La decomposition de Murphy (Murphy, 1972; Yates, 1982) montre que ce score agrege un indice de calibration et un indice de discrimination. On peut en effet le decomposer comme suit :
+
+\[BS =f(1-f)-\frac{1}{n}\sum_{p\in P}N_{p}(f_{p}-f)^{2}+\frac{1}{n}\sum_ {p\in P}N_{p}(p-f_{p})^{2}\] \[BS =UNC-DI+CI\] avec \[f=\frac{1}{n}\sum_{i=1}^{n}(x_{i})\]
+
+ le taux de succes, \(P\) l'ensemble des niveaux de confiances possibles, \(N_{p}\) le nombre de fois ou le niveau de confiance \(p\) est utilise et \(f_{p}\) le taux de succes au sein de ce niveau de confiance. Le premier terme, _UNC_, represente la variance de la variable de succes qui est independante de la confiance; le second terme, _DI_, est l'indice de discrimination mesurant la qualite du taux de detections correctes au niveau du taux global, \(f\); le dernier terme, _CI_, est l'indice de calibration qui mesure la difference entre le taux observe de detections correctes (\(f_{p}\)) et la confiance elicitee. Cette decomposition donne donc deux premieres mesures de la calibration et de la discrimination.
+
+En plus de cet indice de calibration, le biais est aussi caracterise par le niveau de surconfiance. Lu utilisation de cette mesure est largement repandue en economie(Camerer et Lovallo, 1999) et en psychologie (voir les revues de litterature de Lichtenstein, Fischho et Phillips, 1982; Wallsten et Budescu (1983); Harvey, 1997). Pour mesurer le niveau de calibration, la distance entre le taux de succes et la confiance moyenne est utilisee. Une mesure de la sur/sous confiance est la suivante :
+
+Sur/sous - confiance = \(\frac{1}{n}\sum_{i=1}^{n}(p_{i}-x_{i})\)
+
+Une valeur nulle reflete une parfaite calibration alors qu'une valeur negative (respectivement positive) traduit une sous-confiance (respectivement surconfiance). La sur/sous-confiance et l'indice de calibration saisssent deux aspects differents du biais : le premier mesure la tendance a un optimisme ou pessimisme excessif alors que le second etudie la difference entre confiance et taux de succes pour chaque niveau de confiance.
+
+Si la methode utilisee pour mesurer le biais n'est pas sujette a debat, il n'en est pas de meme pour la mesure de la sensibilite. Ainsi une multitude de mesures est proposee dans la litterature (Fleming et Lau, 2014). La mesure la plus simple est l'etude des correlations entre reussite et confiance : la \(\phi\)-correlation correspond a la correlation de Pearson entre les reussites essai par essai et la confiance binarisee alors que la \(\gamma\)-correlation est la correlation de Goodman-Kruskal pour des niveaux de confiance multiples. Cette methode fournit un premier apercu de la sensibilite mais presente le principal defaut d'etre dependante du niveau de calibration tant pour la \(\phi\)-correlation (Nelson, 1984) que la \(\gamma\)-correlation (Masson et Rotello, 2009). L'utilisation de la TDS permet de resoudre ce probleme de dependance de la discrimination au biais. Ainsi les mesures precedemment presentees (\(d\)' de type II, ROC de type II) sont independantes du niveau de calibration. Cependant, nous avons vu que ces mesures sont elles aussi sujettes a caution. La necessite d'une modelisation explicite du lien entre sensibilite et performance a conduit au developpement d'une nouvelle mesure introduite par Maniscalco et Lau (2012, 2014), le _meta-d'_ et son utilisation est de plus en plus frequente dans la litterature.10 Le concept de _meta-d'_ repose sur l'idee de mesurer le signal disponible pour effectuer la tache de type II. Ainsi le _meta-d'_ est le \(d^{\prime}\) de type I qu'un observateur ideal de TDS (en termes de choix et de confiance) aurait besoin pour atteindre la sensibilite de type II observee. La comparaison entre _meta-d'_ et \(d^{\prime}\) offre une mesure de la capacite a discriminier entre ses niveaux de confiance : une egalite des deux valeurs signifie que l'individu utilise toute l'information disponible lors du choix pour former sa confiance et a donc une metacognition optimale au sens de la TDS. Si le _meta-d'_ est inferieur, sa sensibilite de type II est sous-optimale. Le cas d'un _meta-d'_ superieur peut etre envisage si l'on considere que toute l'information n'a pas ete utilisee pour le choix et que de nouvelles evidences ont ete accumulees entre les decisions de types I et II. Cette nouvelle mesure est clairement superieure aux deux precedentes et les questions relatives a son estimation sont detaillees dansManiscalco et Lau (2012, 2014) et Barett, Dienes et Seth (2013).11 Cependant deux principaux problemes peuvent etre relies a cette mesure : la prise en compte du biais et de la variance semblent problematiques sous certaines conditions (Barett, Dienes et Seth, 2013); de meme le probleme des criteres decisionnels multiples en cas de niveaux de confiance non-binaire pose le probleme d'une lecture multiple du _meta-d'_ et reste pour le moment une question ouverte. Malgre ces difficultes techniques, cette methode offre actuellement la meilleure mesure de la sensibilite en permettant de la dissocier des aspects decisionnels de type I. Notons qu'une autre mesure propose egalement un indice de discrimination controle pour l'effet de la performance : Yaniv, Yates et Smith (1991) proposent d'ajuster et de normaliser l'indice de discrimination du _Brier Score._ En normalisant par la performance et en ajustant par le nombre de niveaux de confiance utilise, la mesure obtenue (ANDI) permet de mesurer la discrimination independamment de la performance.
+
+Footnote 11: Un script MATLAB pour calculer le _meta-d'_ est disponible à l’adresse suivante : [http://www.columbia.edu/bsm2105/type2std/](http://www.columbia.edu/bsm2105/type2std/).
+
+Nous avons vu les principaux outils de mesures de la metacognition. Si les mesures de la calibration sont bien etbelies et peu sujettes a debat, le lien entre performance et capacite de discrimination rend l'analyse de cette derniere plus complexe. Notons cependant que les modeles de type _meta-d'_ et ANDI, qui prennent explicitement en compte cette relation et proposent une mesure corrigee de ce facteur, semblent les plus pertinents et les plus a meme d'offrir une veritable estimation de la discrimination.
+
+## 3 Principaux Resultats
+
+Dans cette section nous presentons tout d'abord les principaux resultats permettant de caracteriser la metacognition, puis nous proposerons plusieurs applications de son utilisation a des questions d'ordre economique. Notons que nous choisissons de nous concentrer essentiellement sur la capacite de discrimination plutot que celle de calibration en raison de sa faible couverture dans la litterature economique. Le lecteur peut se referer aux differentes revues de litterature de Lichtenstein, Fischho et Phillips (1982); Wallsten et Budescu (1983) et Harvey (1997) pour une analyse detaillee de la calibration.
+
+### Capacites metacognitives
+
+Nous cherchons ici a savoir comment se forme la qualite metacognitive et quels sont les facteurs pouvant l'influencer. D'un point de vue neuronal, les evidences sont encore recentes et non definitives. Si les etudes au niveau d'un unique neurone commencent a donner certains resultats, il est trop tot pour identifier precisement ce qui a trait a la metacognition et ce qui concerne la cognition en general. Middlebrooks, Abzug et Sommer (2014) recensent les principaux travaux de cette litterature et montrent que l'activite metacognitive active des connexions neuronales chez lesanimaux dans les regions suivantes : le cortex orbitofrontal (OFC) chez le rat (Kepecs _et al._, 2008); le cortex lateral intraparietal (LIP) chez les macaques rhesus (Kiani et Shalden, 2009) et le cortex dorsolateral prefrontal (SEF) chez le singe. Si ces etudes nous donnent un point de depart, elles ne permettent pas de conclure que leurs activites sont necessaires a la metacognition. Des etudes par microsimulation ou sur des patients souffrant de liaisons cerebrales precises sont necessaires (par exemple, David _et al._, 2012, sur la metacognition de patients schizophreniaiques ou Fleming _et al._, 2014, sur des patients souffrant de lesions cerebrales). A defaut de pouvoir actuellement comprendre les mecanismes de formation de la metacognition, les etudes d'imageries montrent le role primordial du cortex lateral prefrontal (PFC) dans les capacites metacognitives. Letude de Fleming _et al._ (2010) montre par exemple que les differences individuelles en termes de facultes de discrimination peuvent s'expliquer par la taille de la matiere grise dans le PFC dorsolateral. Nous renvoyons le lecteur a la revue de litterature de Fleming et Dolan (2012) sur les bases neuronales de la metacognition.
+
+Si la metacognition n'est pas encore bien comprise au niveau cerebral, les facteurs l'influencant au niveau comportemental sont mieux observes. Une premiere question cherche a comprendre comment reveler les differents niveaux de confiance et quelle methode d'elicitation doit etre privilegiee. Overgaard et Sandberg (2012) comparent differentes methodes de report et montrent que les reports favorisant l'introspection donnent les meilleurs resultats. Holland, Massoni et Vergnaud (2016) et Massoni, Gajdos et Vergnaud (2014) comparent trois types de regles d'elicitation12: une regle libre sans incitation, une regle empruntee a l'economie exprimentale (_quadratic scoring rule_) avec incitation mais faisant appel a des choix de montants de remunerations plutot qu'a des probabilites de confiance et en enfin une regle de _matching probabilities_ disposant a la fois d'incitations et d'une echelle en termes de pourcentage de confiance.
+
+Footnote 12: Ces régles peuvent ê considérées comme des extensions de celles téstees par Dienes et Seth (2010).
+
+Deux resultats sont a retenir : les performances en termes de calibration et discrimination sont dependantes de la nature de la regle et d'un point de vue methodologique, seules les confiances issues du mecanisme de _matching probabilities_ sont conformes aux hypotheses emises sur le choix de type II par la TDS. Si la facon de demander son niveau de confiance affecte la decision, il en va de meme pour la nature de la tache. Ainsi Fleming _et al._ (2016) etudient les decisions en termes de jugements prospectifs et retrospectifs. Ils montrent que si la calibration est stable pour les deux taches, il n'en est pas de meme pour la discrimination. Cette etude ouvre la question de l'analyse des jugements prospectifs et en particulier les difficultes a utiliser un modele de detection du signal sur des predictions de choix perceptifs. Enfin les facteurs internes commence a etre etudies et ils semblent jouer un role preponderant dans le niveau de capacites metacognitives a un moment donne. Garfinkel _et al._ (2013) montrent que la metacognition est affectee par les processus internes et en particulier les battements cardiiques. De son cote Massoni (2014) montre que l'etat emotionnel affecte la metacognition avec uneamelioration a la fois de la calibration et de la discrimination dans le cas d'un sentiment d'anxiete vis-a-vis de la decision.
+
+Globalement, l'etude des capacites metacognitives est encore un champ recent en neurosciences et en psychologie cognitive. Bien que la comprehension de ces mecanismes s'ameliore au fil des experiences, il reste encore beaucoup a faire pour reellement comprendre le fonctionnement metacognitif humain.
+
+### Metacognition et decision
+
+En raison de l'aspect recent de ce champ de recherche, peu d'etudes ont pour l'instant tente d'utiliser le cadre metacognitif pour comprendre les decisions economiques. Nous allons presenter ici trois groupes d'etudes portant sur les decisions economiques en termes de valeurs, la decision collective et les choix assurantiels.
+
+Une premiere application de la metacognition dans des decisions de nature economique peut etre trouvee dans l'etude de De Martino _et al._ (2013). Utilisant une tache d'evaluation (choix entre deux casse-croutes et elicitation du consentement a payer par un mecanisme a la Becker-DeGroot-Marschak) et une tache de revelation de la confiance, leur protocole experimental permet de separer le mecanisme d'evaluation des choix de celui de la formation de la confiance dans ce choix. Il est ainsi possible de dissocier les variations de la confiance des autres processus cognitifs et ainsi obtenir des mesures separees des choix et de la confiance dans une decision de nature economique. Leurs principaux resultats montrent tout d'abord que la confiance varie bien en fonction de la variable de decision en s'adaptant a la justesse de la decision et a la valeur des differentes options. Au-dela de ce resultat comportemental, les donnees d'imagerie apportent des indications sur la facon dont la confiance se forme et son lien avec l'evaluation des choix possibles. Ainsi une meme aire cerebrale represente la difference montaire entre les differentes options et la confiance associee a cette comparaison des valeurs (cortex prefrontal ventro medial - vmPFC). Le report de cette confiance s'effectue au niveau du cortex prefrontal rostrolateral (rlPFC) montrant un transfert d'information au sein du cerveau. La relation entre ce report de confiance et l'evaluation des options, c'est-a-dire la capacite metacognitive, est mise en evidence par un lien systematique entre ces deux aires cerebrales. Ainsi cette etude montre que les individidus ont acces au bruit de leur prise de decision et que des changements dans le niveau de ce bruit se refletent dans le niveau de confiance revele. L'acces a ce bruit decisionnel permet alors d'identifier et de corriger les decisions erronees (voir egalement Yeung et Summerfield, 2012, pour une analyse de la prise en compte des erreurs par la confiance). L'etude de la metacognition permet ainsi de quantifier le bruit de la decision, de mieux comprendre les changements de decision et meme, comme nous allons le voir, de communiquer entre individus.
+
+Ainsi une deuxieme application de la metacognition peut etre trouvee dans la decision de groupe. Dans un cadre perceptif, un interet recent s'est porte sur la facon dont deux individus agregent l'information disponible pour prendre une decision commune (Bahrami _et al._, 2010, 2012; Koriat, 2012; Sorkin, Hays et West, 2001).
+
+En particulier il a ete montre que << deux tetes ne sont pas toujours meilleures qu'une >>. La principale raison avancee a cette inefficience de la decision de groupe est l'heterogeneite des performances des membres du groupe. Ainsi Bahrami _et al._ (2010) montrent que plus les performances des deux individus sont eloignees, plus la decision de groupe sera differente de la decision optimale. Au contraire, Massoni et Roux (2014) prouvent que ce n'est pas l'heterogeneite des performances qui est en cause mais la difference de calibration des confiances. Leur design experimental propose aux sujets de regarder individuellement un stimulus perceptif de discrimination visuel, de donner leur reponse ainsi que leur confiance puis de comparer avec un binome qui aura vu le meme stimulus pour trouver une decision commune a la fois sur la reponse et sur le niveau de confiance. En proposant aux individus d'echanger a la fois leur choix et leur confiance, les auteurs montrent que l'heterogeneite de performances n'a plus d'effet sur la decision sous-optimale du groupe une fois prise en compte l'heterogeneite en termes de calibration. Ce resultat montre bien l'importance de la capacite metacognitive dans la prise de decision commune et le partage d'information. Ce role de la metacognition est confirme par une etude recente de Bang _et al._ (2014) montrant que l'heterogeneite en termes de discrimination joue un role dans l'efficacite d'heuristiques de decision en groupe.
+
+Nous presentons une derniere application visant a etudier dans un meme cadre experimental et analytique des decisions de type perceptif et des decisions purement economiques d'assurance vis-a vis du risque dans un cadre de confiance a la fois prospective et retrospective. Les trois derniers chapitres de la these de Massoni (2013b) detailent un protocole experimental dans lequel les individus doivent faire des choix de loteries bases sur leur reussite a une tache perceptive tout en ayant la possibilite de s'assurer contre cette incertitude. La capacite metacognitive est egalement calculee pour les decisions perceptives et pour les predictions de succes.13 Les resultats montrent que si les capacites metacognitives (calibration et discrimination) sont liees entre la tache de prediction et d'assurance ce n'est pas le cas pour la metacognition perceptive. Ce resultat insiste sur la difficulte d'appliquer un modele general metacognitif independant du type de choix. La question de la prediction est egalement centrale et renvoie aux resultats de Flemming _et al._ (2016) sur la dissociation entre discrimination de jugements prospectifs et retrospectifs. Ainsi, si les modeles de formation de cryances, et en particulier ceux issus de la TDS, reposent sur des hypotheses realistes pour estimer une confiance passee, ce n'est pas le cas pour les jugements predictibles au sein desquels le signal utilise pour former cette croyance n'est pas determine. Lextension de modeles de formation des jugements probabilistes a la prediction est une etape cruciale pour l'analyse de la metacognition des decisions economiques. Si les apports de la psychologie cognitive sont certains pour la comprehension de la confiance, il convient d'appliquer et d'amender ces modeles pour permettre d'analyser le principal champ d'application des economistes qu'est la prediction.
+
+Malgre cette limitation, la TDS, en proposant un modele theorique permettant de definir les decisions et les croyances optimales, offre un cadre d'analyse potentiellement fecond des comportements economiques. On peut par exemple penser a l'analyse des croyances dans un contexte assurantiel avec une mesure des distorsions en presence de risque de faibles probabilites mais aux consequences majeures (par exemple, risques catastrophiques: risques naturels, terrorisme ou catastrophe industrielle). Une autre application se trouve dans la possibilite de faire varier les gains et couts des 4 types de reponses possibles. Il est alors possible d'observer les deviances des comportements et des croyances par rapport aux comportements optimaux. On peut penser ici a des applications evidentes en termes de decisions medicales ou financieres avec une reelle asymetrie des couts des omissions et des fausses alarmes ainsi que des benefices des detections et des rejections correctes. Ces exemples sont loin d'etre exhaustifs et de multiples applications sont possibles.
+
+Ainsi, meme si les predictions sont difficiles a analyser dans un cadre de TDS, un apport immediat a l'analyse economique reside dans la possibilite de comparer les comportements et les croyances des individus vis-a-vis des predictions d'un modele theorique robuste et d'analyser la facon dont des changements dans les consequences des actions et/ou les niveaux objectifs de probabilites ont un effet sur les comportements observes. On peut donc envisager des applications multiples de ce cadre d'analyse a la comprehension des phenomenes economiques.
+
+Conclusion
+
+Dans cette revue de litterature nous avons presente la maniere dont la confiance peut etre analysee a l'aide d'outils issus des sciences cognitives et en particulier par la TDS. En prenant en compte le fait que les travaux issus de ce champ sont encore non definitifs et que de nombreux mecanismes restent a comprendre et a modeliser, on peut tirer plusieurs conclusions de cette analyse. Tout d'abord, la TDS offre une modelisation du processus de decision utilise par l'individu pour faire ses choix et determiner sa confiance en ceux-ci. Face a une tache perceptive il est possible de modeliser et d'estimer la maniere d'agir d'un individu. Ces modeles computationnels offrent donc un puissant outil d'analyse et de comprehension des comportements observes. Notons cependant que nous avons ici choisi d'analyser la decision perceptive uniquement a l'aide de la TDS mais des theories alternatives existent dans la litterature. Il est ainsi possible de proposer differentes modelisations du processus de decision et nous renvoyons les lecteurs vers les trois alternatives que sont les theories de seuil (Luce, 1963b; Krantz, 1969), la theorie du choix (Luce, 1959, 1963a) et la TDS non parametrique (Egan, 1975; Metz et Pan, 1999).
+
+Une autre approche plus complementaire consiste a ne plus considerer la decision comme statique mais a integrer sa composante dynamique, c'est-a-dire les temps de reponse. L'idee principale est que l'individu accumule des evidences vis-a-vis du stimulus et doit decider quand arreter ce processus d'accumulation pour prendre sa decision (Ratcliff, 1978; Ratcliff et McKoon, 2008; Busemeyer et Townsend, 1993; Diederich, 2003). Ces modeles sequentiels de la TDS offrent un cadre d'analyse particulierement pertinent pour les decisions sous contraintes temporelles et l'analyse de l'arbitrage temps de decision / performance. Notons que l'analyse des temps de reponse commence a devenir de plus en plus repandue en economie experimentale.14 Cette approche dynamique a recement ete appliquee a l'etude de la confiance avec des processus d'accumulation de type II (Ratcliff et Starns, 2009; Pleskac et Busemyer, 2010). Au-dela de leurs capacites a analyser les donnees experimentales, ces modeles sont renforces par des evidences neuronales montrant une activite de type modele de diffusion des circuits neuronaux (Gold et Shadlen, 2007). Bien que cette approche semble particulierement prometteuse, des difficultes computationnelles ainsi que l'absence d'evidence quant a la nature des signaux de deuxieme ordre ne permettent pas actuellement de la considerer comme une modelisation definitive mais plutot comme une piste de recherche en cours.
+
+Footnote 14: Nous renvoyons le lecteur à la revue de litterature de Fehr et Rangel (2011) pour l’analyse des temps de réaction en économie.
+
+Si la modelisation de la TDS est particulierement puissante pour analyser et comprendre la decision perceptive, nous avons vu que son application a des questions economiques est plus delicate. La confiance joue clairement un role dans la prise de decision et elle peut nous fournir un bon indicateur des erreurs de decision et donc d'explication des choix observes. De plus elle semble primordiale pour permettre aux individidus de communiquer et de prendre des decisions communes. Cependant l'application directe de la metacognition aux decisions economiques est encore difficile. Savoir en quoi la capacite a discriminer d'un individu l'aide a prendre une decision economique optimale est une question ouverte. Comme nous l'avons vu, l'absence de modelisation des processus predictibles ne permet pas actuellement d'appliquer directement la TDS aux choix de nature economiques.
+
+Il convient cependant de nuancer cette conclusion negative en insistant sur l'aspect tres recent des travaux dans ce domaine et qui doivent donc etre consideres comme un processus de decouverte en cours plutot qu'un cadre d'analyse fige. L'absence d'analyse de la metacognition et en particulier de la discrimination en economie experimentale laisse penser que son utilisation future pourrait offrir de nouvelles pistes de comprehension des comportements. En particulier l'heterogeneite individuelle observee dans toutes les etudes semble jouer en faveur d'une vision de la metacognition comme d'un nouveau facteur explicatif de la decision : la metacognition servant alors a detecter ses erreurs et a corriger sa decision. Cependant, ce passage de la decision perceptive a la decision economique necessite des avancees theoriques dans la TDS : le passage aux jugements predictibles en est une mais aussi et surtout une modelisation de l'heterogeneite metacognitive au sein meme du modele semble necessaire. Ainsi l'utilisation de la TDS et l'analyse de la metacognition ne doivent pas etre vues comme un outil definitif mais plutot comme une piste de recherche en cours offrant des perspectives d'analyses nouvelles et un important potentiel d'explication du processus decisionnel.
+
+Annexe
+
+Theorie de la Detection du Signal:
+
+bases des modelisations du choix de type I et II
+
+Nous presentons ici les bases de la modelisation du choix de type I par la TDS et les premices de la modelisation du choix de type II.
+
+La quantite d'evidence est representee par une variable aleatoire \(X_{S}\) pour le signal et \(X_{N}\) pour le bruit. Nous supposons qu'elles suivent toutes les deux une distribution gaussienne avec
+
+\(X_{S}\sim\mathcal{N}(d^{\prime},\sigma^{2})\) et \(X_{N}\sim\mathcal{N}(0,1)\).
+
+Les taux de detections correctes
+
+\(h=\)
+
+Nombre de detections correctes
+
+Nombre d'essais en presence du signal,
+
+et de fausses alarmes,
+
+\(f=\)
+
+Nombre de fausses alarmes
+
+Nombre d'essais en presence du bruit,
+
+'expriment comme suit:
+
+\(h=P(X_{S}>\beta)=1-P(X_{S}\leq\beta)=1-\Phi(\frac{\beta-d^{\prime}}{\sigma})\)
+
+et
+
+\(f=P(X_{N}>\beta)=1-P(X_{N}\leq\beta)=1-\Phi(\beta)\),
+
+avec \(\beta\) le critere decisionnel de l'individu. En pratique le parametre s est fixe a 1 et nous utilisons un modele a variance egale par la suite.15 A partir de ces deux taux nous pouvons calculer le critere, \(\beta\), et le \(d^{\prime}\). Le critere est determine par le taux de fausses alarmes calcule sur la distribution du bruit:
+
+Footnote 15: Cette hypothèse permet de simplifier la presentation tout en ne changeant pès l’esprit de la modelisation. Nous renvoyons le lecteur à Wickens (2002) pour les calculs des parametères de la TDS sans cette hypothèse.
+
+\(\beta=\Phi^{-1}(1-f)=-\Phi^{-1}(f)\).
+
+Le taux de detections correctes et la distribution du signal nous donne la distance entre le critere et le \(d^{\prime}\):
+
+\(\Phi^{-1}(1-h)=\beta-d^{\prime}\Leftrightarrow\Phi^{-1}(h)=d^{\prime}-\beta\).
+
+En combinant ces deux resultats nous obtenons une estimation du \(d^{\prime}\):
+
+\(d^{\prime}=\Phi^{-1}(h)-\Phi^{-1}(f)\).
+
+Ainsi en se basant uniquement sur les comportements observes nous pouvons estimer la sensibilite des individus en fonction de la nature des stimuli. II est egalement interessant d'estimer le biais en faveur d'une reponse, c'est-a-dire la tendance a choisir plus souvent une reponse quelle que soit la distribution du signal.
+
+Ce biais se mesure comme la difference entre le critere et la moitie de la distance entre les deux distributions (\(d^{\prime}/2\)).16 Son calcul est le suivant :
+
+Footnote 16: Une mesure alternative est la hauteur relative des deux distributions au niveau du critère : \(\beta_{c}=\frac{f_{S}(\beta)}{f_{N}(\beta)}\frac{\phi(\beta-d^{\prime})}{\phi( \beta)}\).
+
+\[\beta=\beta-\frac{1}{2}d^{\prime}=-\frac{1}{2}[\Phi^{-1}(f)+\Phi^{-1}(h)].\]
+
+Enfin une mesure complementaire de la sensibilite est l'aire sous la courbe ROC (AUROC). Les taux de detections correctes et des fausses alarmes sont dependants du choix du critere. La courbe ROC saisit graphiquement l'ensemble des alternatives disponibles en fonction du choix de placement du critere. En notant le taux de detections correctes (respectivement fausses alarmes) comme l'aire en dessous de la courbe de distribution du signal (respectivement du bruit) au niveau du critere :
+
+\(h=\int_{\beta}^{\infty}f_{S}(x)dx=H(\beta)\) et \(f=\int_{\beta}^{\infty}f_{N}(x)dx=F(\beta)\),
+
+I'AUROC se calcule comme suit :
+
+\(AUROC=\int_{0}^{1}\!\!H[F^{-1}(p)]dp\).
+
+Notons qu'une majorite d'experiences n'utilise pas une tache de type signal/ bruit mais une tache de choix force a deux alternatives (2AFC). L'individu recoit alors deux stimuli et doit determiner lequel contient un signal specifique. Ce cadre analytique change le calcul des parametres de la TDS. Face a deux stimuli et devant choisir si celui de droite ou de gauche contient le signal en question, l'individu note les evidences en faveur du signal a chaque position (\(X_{{}_{D}}\) a droite et \(X_{{}_{G}}\) a gauche provenant de \(X_{{}_{S}}\) et \(X_{{}_{N}}\)). Il compare ensuite ces deux quantites d'evidence pour determiner celle qui est la plus importante. Notons \(Y=X_{{}_{G}}-X_{{}_{D}}\) la difference entre ceux-ci. Au cours des essais \(SN\) (i.e. signal a gauche, bruit a droite), \(X_{{}_{G}}\) provient de \(X_{{}_{S}}\) et \(X_{{}_{R}}\) de \(X_{{}_{N^{\ast}}}\) ainsi
+
+\(Y_{SN}=X_{{}_{S}}-X_{{}_{N}}\sim\mathcal{N}(d^{\prime},1+\alpha^{2})\);
+
+et dans le cas des essais \(NS\) nous avons
+
+\(Y_{NS}=X_{{}_{N}}-X_{{}_{S}}\sim\mathcal{N}(-d^{\prime},1+\alpha^{2})\).
+
+Lors des essais \(SN\), le choix est fait en fonction du critere \(\beta_{{}_{FC}}\), avec une reponse gauche si \(Y\succeq\beta_{{}_{FC}}\) et droite sinon. Comme \(Y_{{}_{SN}}\) et \(Y_{{}_{NS}}\) sont les differences de deux variables aleatoires identiques, nous sommes automatiquement dans le cadre d'un modele a variances egales. Dans ce cas, le \(d^{\prime}_{{}_{FC}}\) est calcule comme la distance entre les moyennes des variables en termes d'unite de deviation standard. Le calcul des parametres s'obtient ici directement a partir du taux de succes pour les deux types d'essais. En notant ces taux \(P_{C\{SN\}}=P(Gauche\,|\,SN)\) et \(P_{C\{NS\}}=P(Droite\,|\,NS)\), nous avons les mesures suivantes :
+
+\(d^{\prime}_{FC}=[\Phi^{-1}(P_{C\{SN\}})+\Phi^{-1}(P_{C\{NS\}})]\),
+
+\(\beta_{FC}=\frac{1}{2}[\Phi^{-1}(P_{C\{NS\}})-\Phi^{-1}(P_{C\{SN\}})]\).
+
+Avec le taux de succes global, \(P_{c}\), defini comme la probabilite de succes a chaque essai ponderee par la probabilite d'occurrence de deux types d'essais, la formule devient :
+
+\[d^{\prime}_{FC}=2\Phi^{-1}(P_{C}).\]
+
+Notons que ce \(d^{\prime}_{FC}\) en choix force est different du \(d^{\prime}\) precedent avec la relation suivante : \(d^{\prime}_{FC}=\surd^{\prime}\). Enfin, un resultat interessant montre que I'AUROC correspondici a la probabilite de repondre correctement. Ainsi l'utilisation d'une tache de choix forces permet de calculer les parametres de la TDS uniquement en observant les taux de succes.
+
+Pour une presentation detaillee de l'application de la TDS au choix de type II nous renvoyons le lecteur aux presentations de Barett, Dienes et Seth (2013) et Massoni (2013). Nous ne presentons ici que les bases de la modelisation avec l'introduction des taux de fausses alarmes et de detections correctes ainsi que le \(d^{\prime}\) de type II. En se basant sur l'hypothese que les jugements de confiance sont bases sur les memes evidences que les reponses de type I, il est possible de definir des taux de detections correctes et de fausses alarmes de type II. En supposant que la reponse prend deux valeurs, \(R\) si elle est correcte et \(W\) si elle est fausse, et que la confiance est binaire, \(C\) pour confiant et \(U\) pour non-confiant, les criteres de type II se definissent comme suit : \(\beta_{-}\) et \(\beta_{+}\). Si les evidences sont inferieures a \(\beta_{-}\) ou superieures a \(\beta_{+}\) l'individu est confiant, autrement il est non-confiant.17 Les taux de detections correctes et de fausses alarmes de type II sont donc \(H=P(C|R)\) et \(F=P(U|W)\). Etant donnees les notations precedentes, ce taux de detections correctes se calcule de la maniere suivante :
+
+Footnote 17: Les criteres de type II sont restreints à \(\beta_{-}<\beta<\beta_{+}\).
+
+\[H=P(C\,|\,R)=P(C\,|\,X_{N}\,,Non).P(X_{N}\,,Non\,|\,R)+P(C\,|\,X_{S}\,,Oui).P(X_ {S}\,,Oui\,|\,R).\]
+
+Chaque terme pouvant s'exprimer par la fonction de densite gaussienne nous obtenons au final la formule suivante :
+
+\[H=\frac{1+\Phi(\beta_{-})-\Phi(\beta_{+}-d^{\prime})}{1+\Phi(\beta)-\Phi(\beta -d^{\prime})}.\]
+
+De la meme maniere, le taux de fausses alarmes est donne par :
+
+\[F=\frac{1-\Phi(\beta_{+})+\Phi(\beta_{-}-d^{\prime})}{1-\Phi(\beta)+\Phi(\beta -d^{\prime})}.\]
+
+Le \(d^{\prime}\) de type II (\(D^{\prime}\)) est une application directe du \(d^{\prime}\) de type I a la decision de type II (Kunimoto, Miller et Pashler, 2001) :
+
+\[D^{\prime}=\Phi^{-1}(H)-\Phi^{-1}(F)\]
+
+\[=\Phi^{-1}\Bigg{(}\frac{1+\Phi(\beta_{-})-\Phi(\beta_{+}-d^{\prime})}{1+\Phi( \beta)-\Phi(\beta-d^{\prime})}\Bigg{)}-\Phi^{-1}\Bigg{(}\frac{1-\Phi(\beta_{+}) +\Phi(\beta_{-}-d^{\prime})}{1-\Phi(\beta)+\Phi(\beta-d^{\prime})}\Bigg{)}.\]
+
+Ainsi le \(D^{\prime}\) est defini par les valeurs du \(d^{\prime}\) et les criteres de type I et de type II.
+
+## Bibliographie
+
+* Bahrami _et al._ (2012)Bahrami, B., K. Olsen, D. Bang, A. Roepstorff, G. Rees et D. Frith (2012), << What Failure in Collective Decision-Making Tells us about Metacognition >>, _Philosophical Transactions of the Royal Society B: Biological Sciences_, 367 (1594) : 1350-1365.
+* Bahrami _et al._ (2010)Bahrami, B., K. Olsen, P.E. Latham, A. Roepstorff, G. Rees et C.D. Frith (2010), << Optimally Interacting Minds >>, _Science_, 329 (5995) : 1081-1085.
+* Baird _et al._ (2013)Baird, B., J. Smallwood, K.J. Gorgolewski et D.S. Margulies (2013), << Medial and Lateral Networks in Anterior Prefrontal Cortex Support Metacognitive Ability for Memory and Perception >>, _Journal of Neuroscience_, 33 : 16657-16665.
+* Bang _et al._ (2014)Bang, D., R. Fusaroli, K. Tylen, K. Olsen, P.E. Latham, J.Y.F. Lau, A. Roepstorff, G. Rees, C.D. Frith et B. Bahrami (2014), << Does Interaction Matter? Testing whether a Confidence Heuristic can Replace Interaction in Collective Decision-Making >>, _Consciousness and Cognition_, 26 : 13-23.
+* Barett _et al._ (2013)Barett, A.B., Z. Dienes et A.K. Seth (2013), << Measures of Metacognition on Signal-Detection Theoretic Models >>, _Psychological Methods_, 18 (4) : 535-552.
+* Bogacz _et al._ (2006)Bogacz, R., E. Brown, J. Moehlis, P. Holmes et J.D. Cohen (2006), << The Physics of Optimal Decision Making: a Formal Analysis of Models of Performance in Two-Alternative Forced Choice Tasks >>, _Psychological Review_, 113 (4) : 700-765.
+* Brier (1950)Brier, G.W. (1950), << Verification of Forecasts Expressed in Terms of Probability >>, _Monthly Weather Review_, 78 (1) : 1-3.
+* Busemeyer _et al._ (1993)Busemeyer, J.R. et J.T. Townsend (1993), << Decision Field Theory: a Dynamic-Cognitive Approach to Decision Making in an Uncertain Environment >>, _Psychological Review_, 100 (3) : 432-459.
+* Camerer _et al._ (1999)Camerer, C. et D. Lovallo (1999), << Overconfidence and Excess Entry: an Experimental Approach >>, _The American Economic Review_, 89 (1) : 306-318.
+* Charles _et al._ (2013)Charles, L., F. Van Opstal, S. Marti et S. Dehaene (2013), << Distinct Brain Mechanisms for Conscious versus Subliminal Error Detection >>, _NeuroImage_, 73 : 80-94.
+* David _et al._ (2012)David, A.S., N. Bedford, B. Wiffen et J. Gilleen (2012), << Failures of Metacognition and Lack of Insight in Neuropsychiatric Disorders >>, _Philosophical Transactions of the Royal Society B: Biological Sciences_, 367 (1594) : 1379-1390.
+* Del Cul _et al._ (2009)Del Cul, A., S. Dehaene, P. Reyes, E. Bravo et A. Slachevsky (2009), << Causal Role of Prefrontal Cortex in the Threshold for Access to Consciousness >>, _Brain_, 132 (9) : 2531-2540.
+* De Martino _et al._ (2013)De Martino, B., S.M. Fleming, N. Garrett et R.J. Dolan (2013), << Confidence in Value-Based Choice >>, _Nature Neuroscience_, 16 (5787) : 105-110.
+* Diederich (2003)Diederich, A. (2003), << MDFT Account of Decision Making under Time Pressure >>, _Psychonomic Bulletin and Review_, 10 (1) : 157-166.
+
+* Dienes Z. et A.K. Seth (2010), << Gambling on the Unconscious: a Comparison of Wagering and Confidence Ratings as Measures of Awareness in an Artificial Grammar Task >>, _Consciousness and Cognition_, 19 (2) : 674-681.
+* Egan (1975)Egan, J.P. (1975), _Signal Detection Theory and ROC Analysis_, New York, NY : Academic Press, 277 p.
+* Evans, S. et P. Azzopardi (2007), << Evaluation of a "Bias-Free" Measure of Awareness >>, _Spatial Vision_, 20 (1-2) : 61-77.
+* Recent Advances >>, _Journal of Economic Perspectives_, 25 (4) : 3-30.
+* Fleming, S.M. et R.J. Dolan (2012), << The Neural Basis of Accurate Metacognition >>, _Philosophical Transactions of the Royal Society B: Biological Sciences_, 367 (1594) : 1338-1349.
+* Fleming, S.M. et C. Frith (2014), _The Cognitive Neuroscience of Metacognition_, Springer-Verlag : Berlin, Heidelberg.
+* Fleming, S.M. et H.C. Lau (2014), << How to Measure Metacognition >>, _Frontiers in Human Neuroscience_, 8 : 443, 2014.
+* Fleming, S.M., J. Ryu, J.G. Golfinos et K. Blackmon (2014), << A Domain-Specific Impairment in Metacognitive Accuracy Following Anterior Prefrontal Lesions >>, _Brain_, 137 (10) : 2811-2822.
+* Fleming, S.M., S. Massoni, T. Gajdos et J.-C. Vergnaud (2016), << Metacognition about the Past and Future: Quantifying Common and Distinct Influences on Prospective and Retrospective Judgments of Self-Performance >>, _Neuroscience of Consciousness_, 2016 (1) : niw018.
+* Fleming, S.M., R.S. Weil, Z. Nagy, R.J. Dolan et G. Rees (2010), << Relating Introspective Accuracy to Individual Differences in Brain Structure >>, _Science_, 329 (5998) : 1541-1543.
+* Galvin, S.J., J.V. Podd, V. Draga et J. Whitmore (2003), << Type 2 Tasks in the Theory of Signal Detectability: Discrimination between Correct and Incorrect Decisions >>, _Psychonomic Bulletin and Review_, 10 : 843-876.
+* Garfinkel, S.N., A.B. Barrett, L. Minati, R.J. Dolan, A.K. Seth et H.D. Critchley (2013), << What the Heart Forgets: Cardiac Timing Influence Memory for Words and is Modulated by Metacognition and Introspective Sensitivity >>, _Psychophysiology_, 50 (6) : 505-512.
+* Gold, J.I. et M.N. Shadlen (2007), << The Neural Basis of Decision Making >>, _Annual Review of Neuroscience_, 30 : 535-574.
+* Green, D. M. et J. A. Swets (1966), _Signal Detection Theory and Psychophysics_, John Wiley and Sons.
+* Harvey, N. (1997), << Confidence in Judgment >>, _Trends in Cognitive Sciences_, 1 (2) : 78-82.
+* Holland, G., S. Massoni et J.-C. Vergnaud (2016), << In Search of Good Probability Assessors: An Experimental Comparison of Elicitation Rules for Confidence Judgments >>, _Theory and Decision_, 80 (3) : 363-387.
+
+* [14]Kepecs, A., N. Uchida, H. Zariwala et Z.F. Mainen (2008), << Neural Correlates, Computation and Behavioural Impact of Decision Confidence >>, _Nature_, 455 (7210) : 227-231.
+* [15]Kiani, R. et M. Shalden (2009), << Representation of Confidence Associated with a Decision by Neurons in Partical Cortex Knowledge: Some Calibration Studies >>, _Science_, 324 (5928) : 759-764.
+* [16]Koriat, A. (2012), << When are Two Heads Better than one and Why? >>, _Science_, 336 (6079) : 360-362.
+* [17]Krantz, D.H. (1969), << Threshold Theories of Signal Detection >>, _Psychological Review_, 76 (3) : 308-324.
+* [18]Kuinimoto, C., J. Miller et H. Pashler (2001), << Confidence and Accuracy of Near-Threshold Discrimination Responses >>, _Consciousness and Cognition_, 10 (3) : 294-340.
+* [19]Lee, T.G., R.S. Blumenfeld et M. D'Esposito (2013), << Disruption of Dorsolateral but not Ventrolateral Prefrontal Cortex Improves Unconscious Perceptual Memories >>, _Journal of Neuroscience_, 33 : 13233-13237.
+* [20]Levitt, H. (1971), << Transformed Up-Down Methods in Psychoacoustics >>, _Journal of the Acoustical Society of America_, 49 (2) : 467-477.
+* [21]Liberman, V. et A. Tversky (1993), << On the Evaluation of Probability Judgments: Calibration, Resolution, and Monotonicity >>, _Psychological Bulletin_, 114 : 162-173.
+* [22]Lichtenstein, S., B. Fischhoff et L. Phillips (1982), << Calibration of Probabilities: the State of the Art to 1980 >>, _in_ D. Kahneman, P. Slovic et A. Tversky (eds), _Judgment under Uncertainty: Heuristic and Biases_, Cambridge, UK : Cambridge University Press, p. 306-334.
+* [23]Luce, R.D. (1959), _Individual Choice Behavior: A Theoretical Analysis_, New York, NY : Wiley.
+* [24]Luce, R.D. (1963), << Detection and Recognition >>, _in_ R.D. Luce, R.R. Bush et E. Galenter (eds), _Handbook of Mathematical Psychology,_ volume 1, New York, NY : Wiley, p. 103-189.
+* [25]Luce, R.D. (1963), << A Threshold Theory for Simple Detection Experiments >>, _Psychological Review_, 70 (1) : 71-79.
+* [26]Macmillan, N.A. et C.D. Creelman (2005), _Detection Theory: A User's Guide (2nd edition)_, Hove, UK : Psychology Press.
+* [27]Maniscalco, B. et H. Lau (2012), << A Signal Detection Theoretic Approach for Estimating Metacognitive Sensitivity from Confidence Ratings >>, _Consciousness and Cognition_, 21 (1) : 422-430.
+* [28]Maniscalco, B. et H. Lau (2014), << Signal Detection Theory Analysis of Type 1 and Type 2 Data: Meta-\(d\)', Response-Specific Meta-\(d\)', and the Unequal Variance SDT Model >>, _in_ S.M. Fleming et C. Frith (eds), _The Cognitive Neuroscience of Metacognition_, Springer : Berlin, Heidelberg, p. 25-66.
+
+* []Massoni, S., T. Gajdos et J.-C. Vergnaud (2014), << Confidence Measurement in the Light of Signal Detection Theory >>, _Frontiers in Psychology_, 5 : 1455.
+* []Massoni, S. et N. Roux (2014), << Optimal Group Decision: a Matter of Confidence Calibration >>, Mimeo.
+* []Massoni, S. (2013), _Essays on Subjective Probabilities and Metacognition_, these de doctorat, University of Paris 1.
+* []Massoni, S., << Emotion as a Boost to Metacognition: How Worry Enhances the Quality of Confidence >>, _Consciousness and Cognition_, 29 : 189-198.
+* []Masson, M.E.J. et C.M. Rotello (2009), << Sources of Bias in the Goodman-Kruskal Gamma Coefficient Measure of Association: Implications for Studies of Metacognitive Processes >>, _Journal of Experimental Psychology: Learning, Memory and Cognition_, 35 : 509-527.
+* []McCurdy, L.Y., B. Maniscalco, J. Metcalfe, K.Y. Liu, F.P. de Lange et H. Lau (2013), << Anatomical Coupling Between Distinct Metacognitive Systems for Memory and Visual Perception >>, _The Journal of Neuroscience_, 33 (5) : 1897-1906.
+* []Merkle, E.C., M. Smithson et J. Verkuilen (2011), << Hierarchical Models of Simple Mechanisms Underlying Confidence in Decision Making >>, _Journal of Mathematical Psychology_, 55 (1) : 57-67.
+* []Metz, C.E. et X. Pan (1999), << Proper Binormal ROCCurves: Theory and Maximum-Likelihood Estimation >>, _Journal of Mathematical Psychology_, 43 (1) : 1-33.
+* []Middlebrooks, P.G., Z. Abzug et M.A. Sommer (2014), << Studying Metacognitive Processes at the Single-Neuron Level >>, _in_ Fleming, S.M. et C.D. Frith (eds), _The Cognitive Neuroscience of Metacognition_, Springer : Berlin, Heidelberg, p. 225-244.
+* []Murphy, A.H. (1972), << Scalar and Vector Partitions of the Probability Score: Part I. Two-State Situation >>, _Journal of Applied Meteorology_, 11 : 273-282.
+* []Nelson, T.O. (1984), << A Comparison of Current Measures of the Accuracy of Feeling-of-Knowing Predictions >>, _Psychological Bulletin_, 95 : 109-133.
+* []Nieder, A. et S. Dehaene (2009), << Representation of Number in the Brain >>, _Annual Review of Neuroscience_, 32 (1) : 185-208.
+* []Overgaard, M. et K. Sandberg (2012), << Kinds of Access: Different Methods for Report Reveal Different Kinds of Metacognitive Access >>, _Philosophical Transactions of the Royal Society B: Biological Sciences_, 367 (1594) : 1287-1296.
+* []Piazza, M., V. Izard, P. Pinel, D. Le Bihan et S. Dehaene (2004), << Tuning Curves for Approximate Numerosity in the Human Intraparietal Sulcus >>, _Neuron_, 44 (3) : 547-555.
+* []Pica, P., C. Lemer, V. Izard et S. Dehaene (2004), << Exact and Approximate Arithmetic in Amazonian Indigene Group >>, _Science_, 306 (5695) : 499-503.
+* []Pleskac, T.J. et J.R. Busemyer (2010), << Two-Stage Dynamic Signal Detection: A Theory of Choice, Decision Time, and Confidence >>, _Psychological Review_, 117 (3) : 864-901.
+
+* Ratcliff et al. (2008)Ratcliff, R. et G. McKoon (2008), << The Diffusion Decision Model: Theory and Data for Two-Choice Decision Tasks >>, _Neural Computation_, 20 (4) : 873-922.
+* Ratcliff et al. (2009)Ratcliff, R. et J.J. Starns (2009), << Modeling Confidence and Response Time in Recognition Memory >>, _Psychological Review_, 116 (1) : 59-83.
+* Ratcliff (1978)Ratcliff, R. (1978), << A Theory of Memory Retrieval >>, _Psychological Review_, 85 (2) : 59-108.
+* Rounis et al. (2010)Rounis, E., B. Maniscalco, J.C. Rothwell, R.E. Passingham et H. Lau (2010), << Theta-Burst Transcranial Magnetic Stimulation to the Prefrontal Cortex Impairs Metacognitive Visual Awareness >>, _Cognitive Neuroscience_, 9 (8) : 165-175.
+* Savage (1954)Savage, L.J. (1954), _The Foundations of Statistics_, New York, NY : John Wiley and Sons.
+* Sorkin et al. (2001)Sorkin, R.D., C. J. Hays et R. West (2001), << Signal Detection Analysis of Group Decision Making >>, _Psychological Review_, 108 : 183-203.
+* Summerfield et al. (2012)Summerfield, C. et K. Tsetsos (2012), << Building Bridges between Perceptual and Economic Decision-Making: Neural and Computational Mechanisms >>, _Frontiers in Neuroscience_, 6 (70) : 1-20.
+* Wallsten et al. (1983)Wallsten, T.S. et D.V. Budescu (1983), << Encoding Subjective Probabilities: a Psychological and Psychometric Review >>, _Management Science_, 29 (2) : 151-173.
+* Wickens (2002)Wickens, T.D. (2002), _Elementary Signal Detection Theory_, New-York, NY : Oxford University Press.
+* Yaniv et al. (1991)Yaniv, I., F. Yates et K. Smith (1991), << Measures of Discrimination Skill in Probabilistic Judgment >>, _Psychological Bulletin_, 110 (3) : 611-617.
+* Yates (1982)Yates, J.F. (1982), << External Correspondence: Decompositions of the Mean Probability Score >>, _Organizational Behavior and Human Performance_, 30 (1) : 132-156.
+* Yeung et al. (2012)Yeung, N. et C. Summerfield (2012), << Metacognition in Human Decision-Making; Confidence and Error Monitoring >>, _Philosophical Transactions of the Royal Society B: Biological Sciences_, 367 (1594) : 1310-1321. 
+
+

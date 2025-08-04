@@ -1,0 +1,383 @@
+INFO: likely hallucinated title at the end of the page: ## Graphique 3
+L'Actualite economique, Revue d'analyse economique, vol. 91, n\({}^{\rm o}\) 4, decembre 2015
+
+LES MODELES FACTORIELS ET LA GESTION
+
+DU RISQUE DE LONGEVITE\({}^{\ast}\)
+
+Martin BOYER
+
+_Departement de finance_
+
+_HEC Montreal_
+
+_CIRANO_
+
+Christian DORION
+
+_Departement de finance_
+
+_HEC Montreal_
+
+Lars STENTOFT
+
+_Chaire de recherche du Canada_
+
+_Departement de statistiques et d'actuariat_
+
+_Departement d'economie_
+
+_Universite Western Ontario_
+
+Resume - L'augmentation constante de l'esperance de vie engendre l'heureux risque de vivre au-dela de nos actifs. Ce risque n'est non seulement pas diversifiable pour les individus, mais il ne l'est que difficilement pour les fonds de pension et les assureurs. Nous illustrons comment differents modeles a facteurs peuvent etre utilises afin de valoriser les titres financiers qui permettraient aux fonds de pension de transferer ce risque a d'autres parties. Nous montrons que le risque de longevite, bien que mesurable au moyen d'un modele en composantes principales, est mieux mesure au moyen de modeles plus structurels. Neanmoins, le risque de modele associe a ces modeles structurels demeure tel qu'il est fort possible que la prime que demanderait un assureur pour assumer le risque de longevite soit superieure a la volonte a payer des promoteurs de fonds de pension. Cet ecart pourrait expliquer la quasi-absence de marche pour la gestion du risque de longevite.
+
+#### Introduction
+
+L'interet pour la modelisation de l'esperance de vie d'une population n'est pas une affaire recente1. Ce qui est plus recent toutefois est l'interet de modeliser l'esperance de vie a un age relativement avance, en particulier a l'age normal de la retraite (voir Robine et Michel, 2004; Rechel _et al._, 2013). Plusieurs se sont penches sur les multiples facettes de la demographie de l'apres-guerre (voir Cairns _et al._, 2011, pour plus de details), et beaucoup s'accordent pour dire que le vieillissement de la population est un probleme imminent et potentiellement catastrophique si aucun changement n'est apporte au filet social des pays de l'OCDE. En l'absence d'une gestion appropriee des risques associes a ce phenomene, l'augmentation de la longevite necessitera que les travailleurs actuels accumulent davantage de capital financier pour subvenir a leurs besoins au moment ou ils quitteront le marche du travail.
+
+Footnote 1: Malthus (1992) en parlait meme à la fin du XVIII\({}^{\rm e}\) siecle dans un ouvrage initialement publie en 1798.
+
+Le << risque de longevite >> peut donc etre defini comme etant le risque financier decoulant de la possibilite que l'esperance de vie anticipee pour les rentiers soit inferieure a leur esperance de vie reelle. Or, ce risque de longevite est, pour l'industrie des assurances et des regimes de pension, un risque difficilement diversifiable; il est systematique de par sa nature puisqu'il touc l'ensemble de la population. Plusieurs outils financiers ont ete proposes pour faciliter la redistribution de ce risque sur les marches de capitaux. Toutefois, le nombre de transactions, la liquidite et la profondeur de ces marches n'ont aucune commune mesure avec l'importance des pertes financieres potentielles liees au risque de longevite2. Consequemment, l'objectif de ce document est de mieux comprendre comment l'etat actuel des connaissances sur la dynamique de survie des populations avancees en age affecte le developpement de ces outils financiers.
+
+Le risque de longevite revet une grande importance pour la rentabilite et la perennite du marche des rentes viagrees. Or, les tables actuarielles ont historiquement sous-estime l'esperance de vie conditionnelle a avoir atteint l'age de 65 ans. Ces erreurs d'estimation passees forment un plaidoyer serieux pour une mortalite stochastique (c'est-a-dire que l'esperance de vie augmente d'une maniere improvisible), tel qu'argumente par Olivieri (2001), Dahl (2004), Biffis (2005), Cairns _et al._ (2006a, 2006b), et Planchet _et al._ (2006). Il s'ensuit que les vendeurs d'annuite qui utilisent des modeles ou la mortalite suit un processus deterministe sous-estiment grossierement leurs provisions, surestimant ainsi leur ratio de solvabilite.
+
+Bien qu'on ne s'entende pas encore sur l'outil exact qui permettrait la gestion la plus efficace du risque de longevite, plusieurs produits derives ont ete proposes. Afin de mieux comprendre leur insucces sur les marches, nous ferons l'examen d'un contrat a terme (_forward_) de longevite sur la population canadienne. Grace a la modelisation et a la valorisation du plus simple des outils de gestion du risquede longevite qui aient ete proposes, nos resultats mettent en exergue certaines causes vraisemblables de l'absence de transactions sur ces marches3. Nous demontrons de plus que l'incertitude associee au << meilleur >> modele pour decrire le processus statistique de la longevite est telle que la prime _forward_ est problemement trop elevee par rapport a la volonte a payer du promoteur du fonds. Si on ajoute a ce risque de modele le risque de base auquel s'expose un fonds de pension pour lequel la distribution demographique de ses participants a tres peu de chance d'etre la meme que pour l'indice sous-jacent au contrat _forward_ de longevite, il est peutre comprehensible que le marche du transfert de risque de longevite au moyen d'outils financiers soit pratiquement inexistant.
+
+Footnote 3: Plusieurs produits dérives de la longevite ont déja été suggéres, mais la longevite à proprement parler n’est pas et ne sera probablement jamais transigée de manière dynamique. Dit autrement, si jamais il arrivait que les produits dérives de la longevite soient transigés activement, ce ne sera certainement que dans le cadre d’un marche financier incomplet.
+
+Le reste du document est divise comme suit. La premiere section presente une courte revue de la litterature pertinente en demographie qui s'est penchee sur la question de la modelisation des taux de mortalite dans les pays developpe en general, et au Canada en particulier. La section 2 est dediee a la presentation du probleme economique important que represente le risque de longevite et sa gestion. Nous presentons ensuite, dans la section 3, un outil de gestion du risque de longevite, nommement un contrat a terme (_forward_) sur la longevite qui aurait ete vendu par un investisseur (ou un assureur) desireux de s'exposer a ce risque, et nous y presentons les resultats de notre recherche. Finalement, nous discutons de nos resultats et concluons avec la derniere section.
+
+## 1. Un retour sur les contributions recentes
+
+### Les modele demographiques de mortalite
+
+La modelisation des taux de mortalite, et leur importance pour la sante financiere des regimes de retraite publics et prives, a donne naissance a une nouvelle litterature en economie financiere, en assurance et en demographie. La majorite des etudes en demographie s'entendent pour dire que la croissance demographique de la population des aines (65 ans et plus) depassera largement la croissance de la population en general. Ainsi, alors que la population agee de 65 ans et plus represente aujourd'hui environ 13,5 % de la population canadienne, elle atteindra vraisemblablement un plateau a pres de 24 % en 2035. La proportion des ainessimes >>, soit ceux ages de 80 ans et plus, connaitra une augmentation encore plus importante pendant cette periode. Ne representant que 3 % de la population aujourd'hui, on s'attend a ce que les ainessimes representent 8 % de la population en 2035. Pour mettre cette proportion en contexte, notons que la population agee de 65 ans et plus representait environ 8 % de la population canadienne au milieu des annees soixante-dix. Ainsi, le poids demographique (et politique _a fortiori_) des ainessimes dans vingt ans sera approximativement celui des aines d'il \(y\) a quarantte ans. Ilapparait donc essentiel d'etre capable d'anticiper correctement le taux de mortalite de la population actuelle dans le futur.
+
+Pour ce faire, Booth et Tickle (2008) definissent trois grandes classes de modeles de mortalite : les modeles anticipatifs, les modeles explicatifs, et les modeles stochastiques. Dans le cadre des modeles anticipatifs, les experts demographiques donnent leurs previsions sur l'evolution de la mortalite. Celles-ci continement generalement une cible d'esperance vie, ainsi qu'un scenario pessimiste et optimiste. Par exemple, _The US Social Security Trustees_ fournit ses anticipations d'amelioration de l'esperance de vie pour chaque age. Cette methode a l'avantage d'incorporrer plusieurs sources de donnees, qu'elles soient qualitatives ou quantitatives. Cependant, elle est aussi tres subjective ce qui fait en sorte que le biais conservateur des experts les amene souvent a sous-estimer l'amelioration de l'esperance de vie.
+
+Les modeles explicatifs, quant a eux, cherchent a determiner quelles sont les causes de mortalite, comment celles-ci vont evoluer, et quel en sera l'impact sur l'esperance de vie (voir Manton _et al._, 1991 et 1992; Wilmoth, 1995; Hanewald, 2009; Gaille, 2012). Cette approche demande que nous comprenions quel est l'impact des avances medicales et meccanales sur l'esperance de vie de la population, et que nous comprenions egalement l'interdependance et les interractions entre les differentes causes de deces. Le probleme avec cette approche est qu'il est difficile de mesurer exactement quelle est la contribution reelle des causes de mortalite et ce, particulierement aupres des aines qui sont souvent touches par plus d'une maladie a la fois. L'ambiguite qu'on observe ainsi quant aux causes reelles d'un deces augmente la difficulte de mesurer correctement la contribution a la longevite humaine de telle ou telle avancee medicale. Qui plus est, les previsions que nous pouvons faire basees sur les causes de deces ne semblent bonnes qu'a tres court terme, ce qui en reduit la portee dans un contexte ou nous cherchons a prevoir la croissance du passif actuariel des fonds de pension4. En pratique ces modeles ne sont donc pas utilises tant pour predire la mortalite que pour expliquer son evolution passee.
+
+Footnote 4: \(\Pi\) est particulièrement difficile de faire des previsions à partir de ces modeles. Tout d’abord, les facteurs de decès doivent ê restreints à ceux qui sont possiblement previsibles. Idéalement, ils devraient aussi êre indépendants, ce qui est rarement le cas. \(\Pi\) faut également avoir accès à suffrisamment de donnees sur ces factents pour obtenir une certaine robustesse des resultats. Un dernier probleme se pose enfin, et non le moindre : il faut déterminer comment une évolution du facteur va impacter concrétement le taux de mortalite.
+
+### Les modeles stochastiques de mortalite
+
+Les modeles stochastiques de mortalite forment une famille de modeles d'un interet particulier dans un cadre de gestion du risque. Ils reposent sur l'hypothese d'une continuite entre l'evolution passee de la mortalite et son evolution future. Dans le cadre de ces modeles, on suppose que l'evolution des taux de mortalite, comme ceux presentes dans le graphique 1, suit un processus stochastique. Grace a cette hypothese, il est possible de produire une distribution de previsions, et non plus uniquement une valeur deterministe. Il est par consequent possible d'obtenir une certaine mesure du risque de longevite en regardant la distribution de la longevite future au moyen de simulations de Monte-Carlo. Ces mesures de distribution demeurent evidemment specifiques au modele stochastique sous-jacent. Cairns _et al._ (2008) livre une interessante revue de la litterature sur ces modeles.
+
+Nous pouvons tracer les debuts modernes des tentatives de parametrisation des series temporelles de mortalite aux travaux de Heligman et Pollard (1980). Leur approche se resumait a diviser la vie d'une cohorte d'individus en des groupes distincts qui dependent de leur age (disons un groupe de jeunes, de matures et de vieux). Les dynamiques de mortalite particulieres a ces trois groupes d'age sont par la suite modelisees en utilisant huit variables (qui prennent le nom de A, B, C, D, E, F, G, H) qui representent l'ensemble des causes de deces aux differents ages, soit la mortalite infantile, les risques de deces accidentels lors des annees matures, et les deces attribuables a la maladie lors du vieil age. Un probleme potentiel du modele de mortalite propose par Heligman et Pollard (1980) est de surexpliquer les donnees en echantillon, ce qui risque alors de generer de mauvaises predictions hors-echanillon. Lorsqu'on ne s'interesse qu'au cas des personnes agees, comme ce devrait etre le cas lorsque nous parlons du risque de longevite pour un fonds de pension, le modele de Heligman et Pollard (1980) se resume a modeliser le taux de survie comme \(\ln\!\left(\frac{q_{{}_{x}}}{1-q_{{}_{x}}}\right)\!=\ln G_{{}_{t}}+x\ln H_{{}_ {t}}\), avec \(x>50\) (voir Thatcher, 1990) et \(q_{{}_{x}}\) la probabilite de deces. Dans Sharrow _et al._ (2013), les parametres G et H sont respectivement l'ordonnee a l'origine d'une loi de Gompertz a la naissance (voir Gompertz, 1825) et de la pente de cette meme distribution (pour plus de details, voir Thatcher, 1987). La complexite du modele a 8 facteurs de Heligman et Pollard (1980) contraste grandement avec le modele parcimonieux de Lee et Carter (1992) qui suit, et qui est vraisemblablement le modele de mortalite le plus connu.
+
+#### 1.2.1 Modele Lee-Carter
+
+Le modele de Lee et Carter (1992) s'interesse a la variable \(\tilde{m}_{x}(t)\) qui represente le taux de mortalite entre les ages \(x\) et \(x+1\) mesure a l'an \(t\). Le modele de Lee-Carter, s'ecrit ainsi comme suit
+
+\[\log\tilde{m}_{x}(t)=a_{x}+b_{x}k(t)+\epsilon_{x}(t) \tag{1}\]
+
+ou les \(\epsilon_{x}(t)\) sont independants de moyenne 0 et de variance \(\sigma_{\epsilon}^{2}\). Ce systeme d'equations stipule ainsi que le taux de mortalite mesure pour chaque age \(x\) est une realisation bruitee d'un processus qui ne depend que d'un facteur commun, soit \(k(t)\), et de parametres de niveau (\(a_{x}\)) et de sensibilite au facteur commun (\(b_{x}\)) specifique a chaque age. Pour identifier le facteur commun, Lee et Carter (1992) presume qu'il s'agit du facteur qui explique un maximum de variation dans les series de log-mortalite; on peut donc demontrer que \(k(t)\) correspond a la premiere composante principale des series \(\log\tilde{m}_{x}(t)\)5. Le modele Lee-Carter n'est par consequent qu'une application d'un modele a composantes principales.
+
+Footnote 5: Le systeme d’equations en est tel que \(k\) n’est identifie qu’à une transformation lineaire pres (Lee et Carter, 1992). Il est donc d’usage de normaliser ce systeme en imposant \(\sum_{x}b_{x}=1\) et \(\sum k(t)=0\).
+
+Le plus grand avantage du modele Lee-Carter est qu'il est particulierement simple, qu'il explique << bien >> (c'est-a-dire retroactivement et en echantillon) une grande partie de la variance des taux de mortalite et que ses parametres ont une interpretation bien definie6. Bien que le modele Lee-Carter s'interesse a la modelisation de la mortalite, l'objet d'interet est plutot, de maniere generale, la probabilite de deces. Denotons \(q_{x}(t)\) la probabilite qu'un individu age de \(x\) a l'an \(t\) decede avant d'atteindre l’age \(x+1\). Au temps \(t+1\), on pourra mesurer la realisation \(\tilde{q}_{x}(t)=1-\exp(-\tilde{m}_{x}(t))\) a l'aide du taux de mortalite correspondant. Afin d'evaluer la valeur esprece de flux monetaires futurs a l'aide du modele Lee-Carter, nous devons d'abord prevoir le taux de mortalite dans le futur, \(\tilde{m}_{x}(t+s)\), puis transformer ces taux en probabilite de deces \(\tilde{q}_{x}(t+s)\). Puisque les parametres specifiques a l'age (\(a_{x},b_{x}\)) sont des constantes, il suffit donc de prevoir l'evolution du facteur commun \(k\). Pour ce faire, dans le cadre du modele Lee-Carter, il est d'usage de supposer que \(k\) suit une marche aleatoire avec derive,
+
+Footnote 7: Notons que les equations (1) et (2) pourraient aussi ê considérees respectivement comme les equations d’observation et de transition d’un systeme lineaire qui pourrait ê estimé à l’aide d’un filtre de Kalman. Hyndman et Ullah (2007) et De Jong et Tickle (2006) ainsi que Hyndman et Ullah (2007) proposent des extensions en ce sens. Dans le cadre de notre étude, toutefois, nous nous limitons à l’estimation classique basee sur la composante principale des series de log-mortalite.
+
+\[k(t)=0\]
+
+ ou \(\mu\) et \(\sigma\) sont des parametres a estimer et \(u(t+1)\) est presumee etre une variable aleatoire titee d'une loi normale centrere reduite7. En se basant sur les donnees canadiennes de mortalite entre 1921 et 2009, nous trouvons que le modele Lee-Carter explique pres de 98 % de la mortalite chez les femmes et pres de 94 % chez les hommes8, Un autre avantage du modele Lee-Carter est qu'il permet de faire des previsions a long-terme hors-echantillon tout en offrant des intervalles de confiance qui sont associes a la nature stochastique des ameliorations dans la mortalite d'une population ou d'une partie de la population.
+
+Le modele Lee-Carter n'a pas que des avantages. En particulier, il est rebarbatif au lissage de donnees entre les ages, et la structure lineaire de ses parametres est presumee invariable dans le temps. D'autre part, les erreurs sont presumees etre distribuees de maniere homoscedastique. Or, cette hypothese d'homoscedasticite implique que les termes d'erreurs sont independants de l'age de la cohorte, ce qui ne correspond pas vraiment a la realite selon Planchet et Lelieur (2007). En effet, les termes d'erreurs sont beaucoup plus importants aux ages avances, ce qui cause des problemes de validation economique quand le but est de mesurer, par exemple, la valeur presente des promesses faites aux futurs retraites (c'est-a-dire le passif actuariel). Le modele Lee-Carter de base consiere qu'il n'y a aucune difference dans la sensibilite des differents ages a l'evolution de la mortalite agreee. Nous pourrion meme dire que le modele Lee-Carter ne prend nullement en consideration la possibilite qu'il puisse y avoir un effet de cohorte dans les donnees de la mortalite. Cette absence d'un effet de cohorte est ainsi associee a un autre probleme du modele Lee-Carter puisqu'on y suppose une evolution de la mortalite qui est la meme pour toutes les cohortes. Toutefois, Bongaarts (2004) trouve que la mortalite decroit plus lentement pour les jeunes cohortes et plus rapidement pour les cohortes plus vieilles. De maniere a corriger les differents problemes associes au modele Lee-Carter de base, Renshaw et Haberman (2006) ont propose d'ajouter tout simplement un parametre qui prendrait en compte l'effet de la cohorte, soit l'annee de naissance d'un groupe d'individus.
+
+#### 1.2.2 Modele Cbd
+
+Le modele de Renshaw et Haberman (2006) n'est pas tant un nouveau modele qu'un ajout de parametres au modele Lee-Carter. Un modele de mortalite qui sort du paradigme Lee-Carter est celui de Cairns, Blake et Dowd (2006b), ou _modele CBD_ ci-apres. Le modele CBD considere les realisations des probabilites de deces selon la structure suivante :
+
+\[\log{it}\ \tilde{q}_{x}(t)=\log\left(\frac{\tilde{q}_{x}(t)}{1-\tilde{q}_{x}(t)} \right)=K_{1}(t)+K_{2}(t)(x-\overline{x})+\varepsilon_{x}(t) \tag{3}\]
+
+ou les \(\varepsilon_{x}(t)\) sont independants de moyenne 0 et de variance \(\sigma_{t}^{2}\). Ainsi, un premier facteur capture la tendance generale dans l'evolution (du logit) des probabilites de deces, alors qu'un second facteur permet de laisser evoluer les probabilites de deces a travers le temps en fonction de variables specifiques de chaque tranche d'age. Pour estimer les \(K_{i}(t)\) etant donnee les probabilites de deces estimees pour l'annee \(t\), il suffit ainsi de regresser lineairement leur logit sur une l'age centre, \(x-\overline{x}\); la constante et la pente fournissent des estimateurs des facteurs au temps \(t\).
+
+Pour prevoir les probabilites de deces futures, il faut ensuite prevoir l'evolution de \(K_{1}\) et \(K_{2}\). Le modele predictif suggere par CBD est une marche aleatoire avec derive bidimensionnelle
+
+\[K(t+1)=\left(\begin{array}{c}K_{1}(t+1)\\ K_{2}(t+1)\end{array}\right)=\left(\begin{array}{c}\mu_{1}\\ \mu_{2}\end{array}\right)+\left(\begin{array}{c}K_{1}(t)\\ K_{2}(t)\end{array}\right)+\left(\begin{array}{c}c_{11}&c_{12}\\ 0&c_{22}\end{array}\right)\left(\begin{array}{c}u_{1,t+1}\\ u_{2,t+1}\end{array}\right) \tag{4}\]ou \(C\) est la Choleski de la matrice de covariance du systeme et ou les \(u(t)\) sont des erreurs independantes de distribution normale centree reduite 9. L'hypothese de marche aleatoire peut aussi etre relaxee,
+
+Footnote 9:  Ici, par Choleski on entend la matrice triangulaire supérieure telle que \(C^{`}C=\Sigma\), ou \(\Sigma\) est la matrice de covariance du systeme.
+
+\[K(t+1)=\mu+BK(t)+C^{`}u(t+1) \tag{5}\]
+
+un modele que nous denoterons CBD-VAR, ou \(B\) est une matrice \(2\times 2\) de parametres. Le modele en n'est qu'un cas particulier du modele en, ou \(B=\left(\begin{array}{cc}1&0\\ 0&1\end{array}\right)\). L'utilisation du modele VAR pour les facteurs CBD est un cas particulier du VARIMA etudie par Chan, Li et Li (2014). Nous suivons la pratique standard et estimons les systemes par maximum de vraisemblance.
+
+L'avantage du modele CBD sur l'ensemble de ses concurrents est qu'il nous permet d'obtenir des facteurs qui, par construction, ne varient pas quand nous ajoutons des observations. Ceci contraste avec les modeles de type Lee-Carter (ou a composantes principales) dont la valeur des facteurs change a chaque fois que nous ajoutons une annee de donnees. Plus precisement, pour le modele de Lee-Carter, a l'ajout d'une nouvelle donnee au temps \(t\), les valeurs estimees de \(k(s)\),\(s<t\), changent.
+
+Un autre avantage du modele CBD est qu'il utilise des mesures des probabilites de survie (\(q\)) plutot que des mesures dutau de mortalite (\(m\)) comme dans les modeles de la famille Lee-Carter. Or les actuaires semblent largement plus a l'aise de travailler sur la serie \(\ll q\) >> que sur la serie \(\ll m\) >>, qui n'est qu'une approximation du taux instantane de survie. Le plus grand probleme du modele CBD est qu'il nous donne une serie associee non pas a \(q\), ce qui aurait ete plus intuitif, mais au logit(\(q\))10. Bien qu'il soit un peu moins intuitif d'utiliser la fonction logit(\(q\)), elle est tres proche de la distribution de Gompertz qui a ete utilisee par Heligman et Pollard (1980) pour modeliser l'esperance de vie a un age avance.
+
+Footnote 10:  I est bon de noter que (i) le log de Lee-Carter n’est pas beaucoup plus intuitif et (ii) pour les valeurs d’erreurs qui nous interessent, la distorsion de la distribution des erreurs est négligeable.
+
+Le modele CBD est par consequent particulierement utile lorsqu'on s'interesse aux predictions de mortalite des populations qui ont atteint l'age normal de la retraite. Pour ces population, le modele performe assez bien lorsqu'on s'interesse aux projections des taux de survie pour les 10 prochaines annees (voir Cairns _et al._, 2011). La performance du modele tombe rapidement toutefois lorsqu'on tente de project encore plus loin les probabilites de deces a cause essentiellement d'un risque de modele.
+
+## 2 Le cadre economique
+
+### Le marche incomplet de la longevite et les modeles factoriels
+
+Comme nous l'avons deja mentionne, le modele de Lee-Carter extrait essentiellement la premiere composante principale, dans le domaine du logarithme, des series de mortalites realisees. Le modele CBD travaille plutot avec le logit des series de probabilites de deces. Le graphique 2 presente l'evolution dans le temps du facteur \(k\) de Lee-Carter et des facteurs \(K_{1}\) et \(K_{2}\) de CBD pour la population canadienne. Que nous mettions l'accent sur \(k\) ou \(K_{1}\), nous remarquons un declin marque des probabilites de deces, ce qui met en evidence l'amelioration significative de l'esperance de vie au cours du dernier siecle. Malgre les differences methodologiques entre les deux modeles, la correlation entre le facteur \(k\) de Lee-Carter et le facteur \(K_{1}\) de CBD, rapportee dans le tableau 1, est de 99,86 % pour les femmes et de 99,36 % pour les hommes
+
+GRAPHique 2
+
+Facteurs des modeles Lee-Carter et Cairns, Blake et Dowd (CBD)
+
+### Le marche incomplet de la longevite et les modeles factoriels
+
+Comme nous l'avons deja mentionne, le modele de Lee-Carter extrait essentiellement la premiere composante principale, dans le domaine du logarithme, des series de mortalites realisees. Le modele CBD travaille plutot avec le logit des series de probabilites de deces. Le graphique 2 presente l'evolution dans le temps du facteur \(k\) de Lee-Carter et des facteurs \(K_{1}\) et \(K_{2}\) de CBD pour la population canadienne. Que nous mettions l'accent sur \(k\) ou \(K_{1}\), nous remarquons un declin marque des probabilites de deces, ce qui met en evidence l'amelioration significative de l'esperance de vie au cours du dernier siecle. Malgre les differences methodologiques entre les deux modeles, la correlation entre le facteur \(k\) de Lee-Carter et le facteur \(K_{1}\) de CBD, rapportee dans le tableau 1, est de 99,86 % pour les femmes et de 99,36 % pour les hommesSuivant la logique du modele Lee-Carter ou le facteur \(k\) n'est ni plus ni moins que la premiere composante principale de log-mortalite, nous pouvons extraire les composantes principales du logit des probabilites de deces. Ceci equivaut essentiellement a appliquer la technique de base du modele Lee-Carter sur une differente transformation des series de mortalite. Ainsi, a l'extraction des trois premieres composantes principales \(CP_{i}\) qui expliquent lineairement un maximum de variation dans les donnees considerees par CBD, on obtient :
+
+\[\begin{array}{ccccccccc}\log{it}&\tilde{q}_{x}(t)=a_{x}&+&b_{x,1}CP_{1}(t)&+&b_ {x,2}CP_{2}(t)&+&b_{x,3}CP_{3}(t)&+&\ldots\\ \mbox{Femmes:}&&97,30\,\%&+&1,40\,\%&+&0,19\,\%&=&98,89\,\%\\ \mbox{Hommes:}&&91,24\,\%&+&4,69\,\%&+&1,40\,\%&=&97,32\,\%\end{array}\]
+
+ou l'on rapporte le pourcentage de la variance expliquee par chacune de composante ainsi que la somme pour les trois composantes. Le graphique 3 presente les proprietes longitudinales de ces trois composantes principales dans le temps11.
+
+Footnote 11: \(\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; D'autre part, le second facteur CBD, \(K_{2}\), met en evidence le fait que l'esperance de vie des jeunes retraites, ceux qui toucheront des rentes pour une plus grande periode, s'ameliore plus rapidement que celle des retraites les plus ages. Cette interpretation du second facteur CBD decoule directement de la structure imposee aux facteurs de ce modele. Plusieurs etudes ont demontre la superiorite, en echantillon, du modele CBD sur le modele de Lee-Carter12 et il est admis que la structure choisie, refletant explicitement l'effet de l'age sur la mortalite, contribue a cette superiorite. Toutefois, les facteurs CBD ont une forte correlation entre eux : -93,81 % chez les femmes et -84,55 % chez les hommes. Cette correlation elevee soulevera des questions importantes lorsqu'il sera question d'evaluer des produits derives en marche incomplet.
+
+Footnote 12: Voir Cairns _et al._ (2009), Dowd, Blake et Cairns (2010) et Chan, Li et Li (2014).
+
+Il est important de rappeler et d'insister sur le fait que la longevite n'etant pas explicitement transigee, tout produit derive tirant sa valeur de l'evolution de la longevite des individus sera transige en marche dit << incomplet >>. En marche incomplet, il est impossible de construire un portefeuille repliquant les flux mone-taires du produit derive a l'aide du produit sous-jacent. Lorsqu'il est possible de construire un tel portefeuille de replication, le prix du produit derive peut etre obtenu en evaluant le prix dudit portefeuille, en supposant l'absence d'opportunite d'arbitrage. En marche incomplet, chaque source de risque qui a un impact sur les flux monetaires du produit derive aura un impact sur son Prix. La magnitude de cet impact dependera du prix du risque associe a chaque source de risque. Dans ce contexte, la forte correlation entre \(K_{1}\) et \(K_{2}\) indique que ces facteurs sont touches par au moins une source de risque commune, ce qui pourrait compliquer l'identification des prix associes aux differentes sources de risque.
+
+Dans ce contexte, un avantage de l'approche en composantes principales est que ces composantes sont orthogonales par construction. Il serait donc possible de les considerer comme des sources de risque independantes les unes des autres. Il est donc interessant de constater que le second facteur CBD est significativement correle avec la seconde composante principale: 30,27 % chez les femmes et 44,97 % chez les hommes. Etant donne le tres fort lien entre la premiere composante principale (\(CP_{i}\)), le facteur \(k\) de Lee-Carter et le facteur \(K_{1}\) de CBD, la superiorite documentee du modele CBD vis-a-vis du modele de Lee-Carter doit provenir de cette correlation entre \(K_{2}\) et la deuxieme composante principale (\(CP_{2}\)). Cette observation est d'autant plus interessante que la seconde composante n'explique que 1,40 % de la variance des probabilites de deces chez les femmes (4,69 % chez les hommes) contre 97,30 % (91,24 %) pour la premiere composante. Ainsi, en depit du grand pouvoir explicatif de \(CP_{i}\), le pouvoir explicatif de la seconde composante, et meme de la troisieme chez les hommes, est non negligeable.
+
+### Quels sont les montants en jeu?
+
+En utilisant les modeles presentes, nous sommes capables de modeliser le risque de mortalite de la population canadienne13 a l'age de la retraite a partir des tables de survie disponibles publiquement. Ceci nous permet de calculer dans le tableau 2, pour l'annee 2009, quelle prime actuarielle un fonds de pension devrait prevoir afin de distribuer a ses membres retraites une rente pleinement indexee au cout de la vie de 100 $ par annee a partir de 65 ans et ce, pour le reste de leur vie en fonction de differents taux d'actualisation des rentes futures14.
+
+Footnote 13: Les donnees ici sont les donnees moyennes pour l’ensemble de la population et ne tienment pas compte des specificites de chaque individu (fumeur ou non, antecedents medicaux, poids et indice de masse corporelle) qui chercherrait à obtenir de telles rentes.
+
+Nous voyons donc qu'un homme age de 65 ans qui voudrait une rente annuelle de 100 $ doit avoir accumule dans son fonds de pension 941 $ si on utilise le modele CBD et un taux d'actualisation de 6,75 %. Dans le cas d'une femme du meme age, le modele Lee-Carter demande qu'elle ait accumule 1 248 $ au taux d'actualisationde 4,89 %. Il est interessant de noter que le modele CBD, qui est souvent peru comme etant le meilleur modele de prevision de la mortalite aux ages avances, est celui avec lequel est associe le plus faible paiement de prime pour une annuite immediate de 100 $. Pour un meme taux d'actualisation, la difference entre la prime la plus faible et la prime la plus elevee est de plus de 5 % pour les hommes, et d'environ 1,5 % pour les femmes.
+
+Ces differences sont significatives et peuvent peser sur la viabilite a long terme d'un fonds de pension. De plus, comme il n'est question ici que de moyennes, nous sous-estimons grandement l'incertitude autour de l'evolution des facteurs ou autour des parametres d'un modele. Cette incertitude quant a la valeur de l'evolution des facteurs et des parametres s'ajoutera au risque de modele. Pour un fonds de pension, une sous-estimation systematique de la longevit telle qu'observe dans l'histoire recente, combinee aux risques de modele, de parametres ou d'avances medicales majeures, pourrait se traduire en un sous-financement colossal des fonds de pension.
+
+### Predictions hors echantillon des probabilites de deces
+
+Bien que les modeles a composantes principales puissent etre attrayants theoriquement, il reste a savoir s'ils sont attrayants en pratique. Pour en juger, il faut d'abord specifier sur quelle dimension nous voulons mesurer la qualite de la performance d'un modele de mortalite. Nous choisirons dans le cas present l'erreur quadratique de prediction qui se calcule comme
+
+\[MSE_{h}(t)=\frac{1}{51}\sum_{x=55}^{105}(\hat{q}_{x}(t+h)-\tilde{q}_{x}(t+h))^{2} \tag{6}\]
+
+sur un horizon de \(h\) annees. Afin d'obtenir cette statistique, chaque modele est d'abord estime sur la base des donnees disponibles de 1921 a 1961. A l'aide de chaque modele, des predictions de mortalite (\(\hat{q}_{x}(t+h)\)) par ages (\(x\)) sont obtenus a des horizons (\(h\)) allant de 1 a 10 ans. On peut ensuite comparer ces predictions aux realisations \(\tilde{q}_{x}(t+h)\). On repete la procedure annuellement, jusqu'en 2009-\(h\), en augmentant l'echantillon utilise pour l'estimation.
+
+Les deux tableaux suivants resument les resultats de ces predictions basees sur six modeles possibles: le modele Lee-Carter (\(LC\)), le modele CBD (\(CBD\)), le modele CBD ou le modele predictif est un VAR (\(CBD-VAR\)), et les modeles avec une, deux et trois composantes principales (\(CP(1)\), \(CP(2)\), et \(CP(3)\), respectivement) et ce, pour les femmes (tableau 3) et pour les hommes (tableau 4)15.
+
+Footnote 15: Pour le modele CP(\(n\)), basé sur les \(n\) premières composantes, nous utilisons le modele predictif suivant:
+
+\(CP(t+1)=\mu+B\times CP(t)+C\times u(t+1)\) ou, pour le modele CP(\(n\)), les matrices \(B\) et \(C\) sont diagonales \(n\times n\). Bien que les composantes principales soient orthogonales au temps \(t\), leurs dynamiques pourraient être interreliees. Toutefois, nous avons teste un modele predictif ou les matrices \(B\) et \(C\) ne sont pas diagonales et les predictions resultantes sont systematiquement moins precises.
+
+Le panneau superieur des tableaux 3 et 4 rapporte la racine de la moyenne de l'erreur quadratique de prediction
+
+\[RMSE_{h}=\sqrt{\frac{1}{(2009-h)-1961+1}\sum_{t}MSE_{h}(t)}.\]
+
+Cette statistique donne un appercu de l'erreur moyenne de prediction a travers les temps, tous ages confondus. La \(RMSE\) du modele le plus precis a chaque horizon est en caractere gras. Clairement, le modele qui performe le mieux pour predire les probabilites de deces a court et moyen terme, pour les femmes comme pour les hommes, est le modele de base de CBD. La qualite du modele CBD en comparaison des autres modeles est la plus marquante dans le cas des projections a plus d'un an pour les hommes. Le seul horizon sur lequel le modele CBD n'est pas le plus performant pour les hommes est lorsqu'on projette sur un an.
+
+D'ailleurs, la partie inferieure des tableaux 3 et 4 rapporte les statistiques de Diebold-Mariano (DM). Cette statistique est distribuee \(N(0,1)\); suivant cette
+
+\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c} \hline \hline  & \multicolumn{10}{c}{**RMSE (\%)**} \\ \cline{2-11}  & **H=1** & **H=2** & **H=3** & **H=4** & **H=5** & **H=6** & **H=7** & **H=8** & **H=9** & **H=10** \\ \hline LC & 0,86 & 0,92 & 1,00 & 1,06 & 1,14 & 1,21 & 1,28 & 1,35 & 1,42 & 1,48 \\ CBD & 0,81 & 0,86 & 0,88 & 0,99 & 1,07 & 1,16 & 1,26 & 1,34 & 1,43 & 1,51 \\ CBD-VAR & 0,91 & 1,07 & 1,20 & 1,29 & 1,38 & 1,47 & 1,52 & 1,60 & 1,66 & 1,71 \\ CP(1) & 0,85 & 0,91 & 0,98 & 1,05 & 1,13 & 1,20 & 1,27 & 1,34 & 1,41 & 1,47 \\ CP(2) & 0,58 & 0,76 & 0,90 & 1,01 & 1,11 & 1,20 & 1,27 & 1,35 & 1,42 & 1,48 \\ CP(3) & 0,58 & 0,76 & 0,90 & 1,01 & 1,11 & 1,20 & 1,27 & 1,35 & 1,42 & 1,48 \\ \hline \hline \end{tabular}
+
+**Test Diebold-Mariano - Reference: CBD**
+
+\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c} \hline \hline  & \multicolumn{10}{c}{**Test Diebold-Mariano - Reference: CBD**} \\ \cline{2-11}  & **H=1** & **H=2** & **H=3** & **H=4** & **H=5** & **H=6** & **H=7** & **H=8** & **H=9** & **H=10** \\ \hline LC & 0,38 & 0,42 & 0,69 & 0,38 & 0,36 & 0,32 & 0,12 & 0,08 & -0,09 & -0,28 \\  & (-0,703) & (-0,673) & (-0,490) & (-0,704) & (-0,722) & (-0,747) & (-0,906) & (-0,935) & (-0,925) & (-0,779) \\ \hline CBD-VAR & 2,53 & 2,30 & 2,39 & 1,88 & 1,98 & 2,02 & 1,76 & 1,73 & 1,68 & 1,54 \\  & (-0,011) & (-0,021) & (-0,017) & (-0,061) & (-0,048) & (-0,044) & (-0,078) & (-0,084) & (-0,093) & (-0,123) \\ \hline CP(1) & 0,30 & 0,36 & 0,64 & 0,33 & 0,30 & 0,27 & 0,06 & 0,02 & -0,17 & -0,38 \\  & (-0,765) & (-0,719) & (-0,523) & (-0,741) & (-0,762) & (-0,789) & (-0,953) & (-0,986) & (-0,861) & (-0,702) \\ \hline CP(2) & -3,57 & -0,89 & 0,15 & 0,12 & 0,21 & 0,25 & 0,09 & 0,07 & -0,08 & -0,24 \\  & (-0,000) & (-0,373) & (-0,879) & (-0,903) & (-0,834) & (-0,806) & (-0,929) & (-0,942) & (-0,938) & (-0,809) \\ \hline CP(3) & -3,64 & -0,90 & 0,15 & 0,12 & 0,21 & 0,24 & 0,08 & 0,07 & -0,08 & -0,25 \\  & (-0,000) & (-0,370) & (-0,882) & (-0,905) & (-0,836) & (-0,808) & (-0,933) & (-0,945) & (-0,934) & (-0,805) \\ \hline \end{tabular}
+
+_Nous estimations les differents modeles en utilisant les donn es annuelles sur la mortalite des femmes canadiennes de 1921 a 1961. A Taide de chaque modale, des predictions de mortalite \(\left(\hat{q}_{i},(t+h)\right)\) par d'ages (s) sont obtenus a des horizons (h) allant de 1 a 10 ans. La procedure est r'eptee annuellement en augmentant l'echanillon utilise pour l'estimation._
+
+_La racine de la moyenne des erreurs cartees, \(\mathsf{RMSE}_{n}=\sqrt[1]{\sum_{i,s_{i}(t)}\sum_{i,s_{i}(t+h)-\tilde{q}_{i}(t+h )}^{2}}\), est rapportee en pourcentage pour chaque horizon dans la partie superieure de la table. La partie inferieure de la table rapporte les statistiques de Diebold-Mariano (et leurs valeurs p, entre parnahses) obtenues en comparant les differents modeles au modale de CDB sur la base des series chronologiques d'erreurs quadratiques a chaque horizon, \(\mathsf{MSE}_{i,n}=\frac{1}{N_{x,h}(t)}\sum_{i}\left(\hat{q}_{i}(t+h)-\tilde{q}_ {i}(t+h)\right)^{2}\)._
+
+_Lorsque la statistique de Diebold-Mariano est positive, la prediction du modele CBD est plus precise que celle du modele considere. L'inverse est vrai lorsque la statistique est negative._
+
+TABLEU 4
+
+Prediction hors \(\mathsf{echanillon}\) : moyenne des erreurs cartees et tests de Diebold-Mariano pour les hommes canadiennes
+
+TABLEAU 4 (suite)distribution, les valeurs \(p\) (deux cotes) des statistiques obtenues sont rapportees entre parentheses. Pour les hommes, les previsions du modele CBD sont presque systematiquement significativement plus precises que celles des autres modeles. Dans le cas des femmes, le modele CBD est de maniere generale celui qui fournit les previsions les plus precises, mais les differences avec les modeles Lee-Carter et CP(1) ne sont pas statistiquement significatives.
+
+Un constat s'impose donc. Malgre l'attrait theorique de l'approche par composantes principales, la structure imposee aux facteurs CBD semble lui conferer un meilleur pouvoir predictif en ce qui a trait aux probabilites de deces. Comme ces probabilites sont centrales au calcul de l'esperance des valeurs actualisees des rentes a payer par un fonds de pension, il faudra s'accommoder du fait que le modele CBD ne distingue pas clairement quelles sont les sources de risques qui touchent le prix de produits derives sur l'evolution future de la longevite.
+
+3. Gerer le Risque de longevite pour la population et pour un fonds de pension
+
+3.1_Le_ forward _de longevite_
+
+Il existe plusieurs produits dans les marches financiers qui permettent aux investisseurs de gerer leur risque soit en le tranferant a autrui, soit en l'assumant contre compensation. Un exemple des plus simples est celui des contrats a terme (_forwards_ ci-apres) sur un indice boursier, un taux d'interet ou un taux de change. Ces produits permettent de gerer le risque associe a des positions longues sur ces marches, ou encore de prendre des positions speculatives quant a la direction future de ces marches. Or, contrairement aux contrats a terme sur titres financiers, les contrats a terme qui permettent de se couvrir contre des mouvements soudains de la mortalite ne sont que tres peu transieges. Nous mettons en lumiere certaines raisons pouvant potentiellement expliquer ce faible volume de transactions.
+
+Plusieurs indices de mortalite ont ete suggere s dans la derniere decennie. Theoriquement, chacun d'entre eux pourrait servir d'indice de reference sur lequel un _forward_ pourrait etre quote et transiere de maniere analogue aux _forwards_ sur indices financiers. Dans l'ensemble l'indice qui a recu le plus d'attention est probablement celui publie par _LifeMetrics_, une initiative de JP Morgan qui est maintenant chapeautee par la _Life and Longevity Markets Association_ (LLMA)16. JP Morgan a suggere deux types de _forwards_ bases sur les indices _LifeMetrics_ : les q-_forwards_ et les S-_forwards_. Les q-_forwards_, par exemple, offre un paiement de la forme
+
+Footnote 16: La LLMA est un regroupement d’institutions financieres qui ont un interet à voir emerger un marche écredible et liquide de la longevite : Aviva, AXA, Deutsche Bank, J.P. Morgan, Munich Re, Legal & General, Morgan Stanley, Pension Corporation, Prudential PLC, RBS, Swiss Re et UBS.
+
+\[\Pi(t,T)=Notionnel\times(\tilde{q}_{x}(T)-\tilde{q}_{x}(t:T))\]
+
+ou \(T\) est l'echeance du _forward_, \(\tilde{q}_{x}(T)\) est la realisation du taux de mortalite sur lequel le _forward_ est ecrit et \(\tilde{q}_{x}(t:T)\) est le \(\ll\) prix \(\gg\)_forward_ d'echeance \(T\) sur lequel s'entendraient, au temps \(t\), les contreparties. Conceptuellement, un q-_forward_ pourrait etre ecrit sur une cohorte de gens de differents ages. Les S-_forwards_ sont plutot bases sur la survie de la cohorte, reliee a (1-\(\tilde{q}\)).
+
+Un des problemes de ces _forwards_ vient peut-etre justement du fait qu'ils sont ecrits sur differentes cohortes, entrainant une multiplicite d'instruments. Dans un marche qui peine a demarrer, il pourrait etre profitable de concentrer le volume de transaction sur un nombre restreint d'instruments permettant aux fonds de pensions, par exemple, de se couvrir contre les principales sources de risque auxquelles ils sont exposes. Par exemple, Chan, Li et Li (2014) suggere d'utiliser un indice base sur la moyenne du logit des probabilites de deces
+
+\[K_{1}(t)=\frac{1}{51}\sum_{x=55}^{105}\log\left(\frac{\tilde{q}_{x}(t)}{1- \tilde{q}_{x}(t)}\right). \tag{7}\]
+
+Notons que cette moyenne correspond au premier facteur CBD17. Comme tout fonds de pension detient naturellement une position longue sur la mortalite mesuree par \(K_{1}\), une position courte sur un \(K_{1}\)-_forward_ permettrait aux divers fonds de se couvrir contre une partie substantielle du risque de longevite.
+
+Footnote 17: En fait, Chan, Li et Li (2014) sont d’avis que les indices de longevité gagneraient à ê extraits de modeles et c’est pourquoi ils suggérent d’ecrère des produits dérivés sur les deux facteurs du modele CBD. Bien que nous ne soyons pas convaincus que d’ancrver un indice dans un modele soit necessairement une approche pérenne, il n’en demeure pas moins que le premier facteur CBD n’est qu’une simple moyenne, un concept relativement peu dépendant du modele.
+
+Nous analyserons le prix _forward_ du point de vue de la contrepartie de cette transaction, que nous nommerons << l'assureur >>. Le gain de la position longue de l'assureur sur un \(K_{1}\)-_forward_ d'echeance \(T\) est
+
+\[\Pi(t,T)=Notionnel\times(K_{1}(T)-K_{1}(t:T)).\]
+
+Si l'assureur n'etait pas riscophobe, il suffirait que le gain espere soit 0 pour que le _forward_ soit juste pour les deux parties. Ainsi le prix _forward_ au temps \(t\) devrait etre: 18
+
+Footnote 18: Il est à noter que, tant que la probabilité de decès moyenne sera inférieure à 50 %, cet indice sera negatif. Ainsi, en pratique, \(K_{1}(t)\) sera systématiquement negatif. Les prix _forwards_ associes le seront donc aussi; la mortalite est un passif et non un actif.
+
+\[\mathrm{E}_{t}\big{[}Notionnel\times(K_{1}(T)-K_{1}(t:T))\big{]}=0\ \ \ \Leftrightarrow\ \ K_{1}(t:T)=\mathrm{E}_{t}\big{[}K_{1}(T)\big{]}. \tag{8}\]
+
+Comme l'assureur est riscophobe et ne peut couvrir sa position _forward_ a l'aide d'une position sur le sous-jacent, nous aurons \(K_{1}(t:T)<\mathrm{E}_{t}\big{[}K_{1}(T)\big{]}<0\)19. Cette inegalite signifie essentiellement que l'assureur exige un paiement superieur a \(K_{1}(t:T)\) pour compenser pour le risque de sa position.
+
+Footnote 19: Si l’indice \(K_{1}\) sous-jacent au _forward_ était transige, la relation de _cash & carry_ usuelle s’appliquerait et on obtiendrait \(K_{1}(t:T)=e^{r(T-t)}K_{1}(t)\). Ici, le sous-jacent n’est pas transige.
+
+Ainsi, le _forward_ contiendra une prime
+
+\[\mathit{Prime}_{t}=\mathrm{E}_{t}\big{[}K_{1}(T)\big{]}-\mathrm{E}_{t}^{*} \big{[}K_{1}(T)\big{]}=\mathrm{E}_{t}\big{[}K_{1}(T)\big{]}-K_{1}(t:T)>0 \tag{9}\]\[\Leftrightarrow\ K_{1}(t:T)\ =\mathrm{E}_{t}^{*}\big{[}K_{1}(T)\big{]}\!<\mathrm{E}_{t} \big{[}K_{1}(T)\big{]} \tag{10}\]
+
+ou \(\mathrm{E}_{t}^{*}\big{[}K_{1}(T)\big{]}\) denote l'esperance de \(K_{1}(T)\) sous une mesure de probabilite ajustee pour le risque. Ainsi, \(\mathrm{E}^{*}\)tient compte des differentes sources de risque auxquelles I'assureur est expose et du prix du risque associe a chacune de ces sources. Notons toutefois que \(\mathrm{E}^{*}\) dependra du modele choisi.
+
+Nous nous concentrerons ici sur le cas d'un _forward_ sur la longevite ayant une echeance d'un an. Ainsi, un fonds de pension qui voudrait se departir du risque d'amelioration non anticipee de l'esperance de vie a la retraite pourrait s'entendre avec une contrepartie de maniere a ce que cette derniere assume le risque d'ameliorations non anticipees des taux de survie sur l'annee a venir. Le contrat venant a echeance a la fin de l'annee, le fonds de pension recevra une compensation monetaire si l'esperance de vie s'est significativement amelioree (c'est-a-dire \(K_{1}(1)\!<\!\mathrm{E}_{0}^{*}\big{[}K_{1}(1)\big{]}\)) ou paiera sa contrepartie si l'esperance de vie s'est amelioree moins rapidement que prevue, ou si elle s'est deterioree20. Les parties pourront par la suite s'entendre sur une nouvelle position _forward_ pour l'annee qui suit.
+
+Chaque annee, pour chaque dollar de notionnel, le gain de l'assureur peut s'ecrire comme suit :
+
+\[Gain_{t}=K_{1}(t)-\mathrm{E}_{t-1}^{*}\big{[}K_{1}(t)\big{]} \tag{11}\] \[=(K_{1}(t)-\hat{\mathrm{E}}_{t-1}\big{[}K_{1}(t)\big{]})+(\hat{ \mathrm{E}}_{t-1}\big{[}K_{1}(t)\big{]}-\mathrm{E}_{t-1}^{*}\big{[}K_{1}(t) \big{]}) \tag{12}\]
+
+ou \(\hat{\mathrm{E}}_{t-1}\big{[}K_{1}(t)\big{]}\) est un estimateur de l'esperance de \(K_{1}(t)\) qui depend du modele choisi, tout comme \(\mathrm{E}_{t-1}^{*}\big{[}K_{1}(t)\big{]}\). L'esperance de gain de l'assureur est donc :
+
+\[\mathrm{E}_{t-1}\big{[}Gain_{t}\big{]}=\underbrace{\Big{(}\mathrm{E}_{t-1} \big{[}K_{1}(t)\big{]}-\hat{\mathrm{E}}_{t-1}\big{[}K_{1}(t)\big{]}\!\Big{]} \!+\!\big{(}\hat{\mathrm{E}}_{t-1}\big{[}K_{1}(t)\big{]}\!-\mathrm{E}_{t-1}^{ *}\big{[}K_{1}(t)\big{]}\!\Big{)}}_{\text{Biais du modele}}+\underbrace{\Big{(}\hat{ \mathrm{E}}_{t-1}\big{[}K_{1}(t)\big{]}-\mathrm{E}_{t-1}^{*}\big{[}K_{1}(t) \big{]}\!\Big{)}}_{\text{Prime de risque sous le modele}}. \tag{13}\]
+
+Bref, si le modele de prevision de la longevite utilise par l'assureur est fortement negativement biaise ( \(\mathrm{E}_{t-1}\big{[}K_{1}(t)\big{]}-\hat{\mathrm{E}}_{t-1}\big{[}K_{1}(t) \big{]}\!<\!<\!0\)), la prime de risque demandee sur la base de ce modele pourrait etre insuffisante pour garantir a l'assureur qu'il ne cumulera pas systematiquement des pertes. Or, la sous-estimation systematique de la longevite observee dans l'histoire recente laisse croire qu'un tel scenario n'est pas improbable.
+
+### Borne inferieure sur la prime de risque d'un modele biaise
+
+Etant donne la superiorite du modele CBD pour ce qui est des predictions a differents horizons (cf. tableaux 3 et 4), nous nous concentrreons sur les primes de risque chargees par un assureur qui utiliserat ce modele pour tarifer des _forwards_. Rappelons qu'a l'annee \(t\), le fonds de pension et l'assureur peuvent observer \[K(s)=\left(\begin{array}{c}K_{1}(s)\\ K_{2}(s)\end{array}\right),\qquad s=1,...,t.\]
+
+Sur la base de ces observations, ils peuvent estimer les parametres du modele predictif
+
+\[K(t)=\mu+K(t-1)+C^{`}u(t) \tag{14}\]
+
+puis se baser sur ce modele pour prevoir l'esperance de \(K(t+1)\) et, consequemment, de l'indice \(K_{1}(t+1)\).
+
+Pour trouver le prix _forward_ demande par un agent riscophobe, il faudra tenir compte de l'evaluation de la prime de risque que cet agent demande pour l'assumer. Une approche simple est d'ajuster la distribution conditionnelle de \(K(t+1)\) (voir Wang, 2000; Boyer et Stentoft, 2013). En somme, alors que l'equation implique que \(K(t+1)!_{t}-N(\mu,C^{`}C)\), l'ajustement pour le risque est tel que \(K(t+1)!_{t}^{*}-N(\mu-C^{`}\Lambda,C^{`}C)\). Le vecteur \(\Lambda=\left(\begin{array}{c}\lambda_{1}\\ \lambda_{2}\end{array}\right)\) represente le prix de marche du risque et generalise en quelque sorte le concept du ratio de Sharpe : \(\Lambda\) est le prix associe a chaque << unite >> de risque \(C\). Comme il y a deux facteurs imparfaitement correles dans le modele, il doit y avoir deux sources de risque, dont \(\lambda_{1}\) et \(\lambda_{2}\) sont leur prix de marche respectifs.
+
+En marche incomplet, \(\lambda_{1}\) et \(\lambda_{2}\) sont habituellement estimees a l'aide des prix passes de produits derives qui dependent des differentes sources de risque. Etant donne l'absence de liquidite sur les marches de _forward_ sur longevite - et donc de prix historiques relativement peu biaises - on se propose plutoi ici d'extraire une borne inferieure pour la prime de risque demandee par l'assureur.
+
+Considerons un assureur qui serait conscient du biais systematique du modele CBD, mais qui serait autrement indifferent au risque de mortalite. Ne desirant pas encourir systematiquement les pertes reliees au biais du modele cet assureur pourrait demander, sous les hypotheses du modele, une prime _forward_ qui soit tout juste suffisante pour couvrir ce biais, mais sans plus. Conceptuellement, cette approche est strictement equivalente a la recherche d'un prix de marche du risque tel que l'esperance de gain dans l'equation ou egale a zero. Ainsi, la prime obtenue ne compensant que pour le biais du modele, elle representera une borne inferieure a la prime que pourrait demander un assureur riscophobe.
+
+Le graphique 4 illustre le comportement dans le temps de la borne inferieure de la prime _forward_ (en dollars) ayant une echeance d'une annee redige sur \(K_{1}(t)\) dont le notionnel est de 100 $. Le panneau du haut (bas) illustre le comportement de la prime _forward_ dans le temps pour les femmes (hommes). Nous ne representons les primes _forward_ que pour les annees 1960 a 2010 puisque les premieres decennies sont utilisees pour estimer les premieres valeurs des parametres du modele CBD.
+
+## Graphique 4
+
+Primes _forward_ sur l'indice \(K_{1}\)
+
+**Prime _forward_ 1 an en utilisant CBD - Femmes
+
+_Evolution des primes obtenues en utilisant le modele CBD pour des_ forwards _de maturite d'un an sur l'indice \(K_{1}\) pour les femmes et pour les hommes canadiens. Le trace marque de \(x\) est obtenue en supposant que le prix de marche du risque associe au deuxieme facteur CBD est nul (2 = 0) et en recherchant le prix de marche du risque 1 tel que l'assureur aurait realise un profit nul en prenant sequentiellement position sur ce_ forward _entre 1961 et 2008. Ce graphique rapporte aussi des traces correspondants a des hypotheses alternatives sur la relation entre les prix de marche sur les deux facteurs \(\lambda_{i}\) et \(\lambda_{i}\)_; ces traces ne sont a toute fin pratique pas visibles parce que la seconde source de risque (touchee par \(\lambda_{i}\)) n'a pas d'impact sur \(K_{1}\)._**II est clair dans le graphique precedent que la prime _forward_ pour les femmes est bien inferieure a celle pour les hommes et ce, pour un meme niveau de notionnel. Nous constatons egalement que la valeur de \(\lambda_{2}\) n'a aucun impact sur les primes _forward_. En effet, la structure triangulaire superieure de \(C\) est telle que
+
+\[\mu-C^{\prime}\Lambda=\left(\begin{array}{c}\mu_{1}\\ \mu_{2}\end{array}\right)-\left(\begin{array}{cc}C_{11}&C_{12}\\ 0&C_{22}\end{array}\right)\left(\begin{array}{c}\lambda_{1}\\ \lambda_{2}\end{array}\right)=\left(\begin{array}{c}\mu_{1}-C_{11}\lambda_{1 }\\ \mu_{2}-C_{12}\lambda_{1}-C_{22}\lambda_{2}\end{array}\right).\]
+
+Ainsi, le premier facteur CBD sous-jacent au contrat _forward_ qui nous interesse, ne depend que de la premiere source de risque. D'un cote, cette propriete a l'avantage de simplifier l'identification des prix de marches du risque. Nous avons note precedemment que le modele CBD surperformait nettement le modele a un facteur de Lee-Carter et ce, malgre la tres forte correlation entre le facteur de Lee-Carter et le premier facteur CBD. Le second facteur CBD est donc important pour decrire adequatement l'evolution des probabilite de deces dans le temps. Or, comme la correlation entre ce second facteur et le premier est (evidemment) imparfaite, il s'ensuit qu'une seconde source de risque d'importance touc directement les fonds de pension. Consequemment, un contrat _forward_ sur \(K_{1}(t)\) uniquement ne peut permettre a un fonds de pension de se couvrir adequatement contre cette seconde source de risque.
+
+### La gestion du risque de longevite pour un fonds de pension
+
+L'exercice precedent illustre pourquoi un _forward_ sur l'indice \(K_{1}\) ne suffirait, a lui seul, a un fonds de pension de parfaitement couvrir son risque de longevite. Une autre consideration d'importance lorsque l'on considere une couverture a l'aide de _forward_ est le risque de base, que nous definissons comme le risque que le produit de gestion que nous nous procurons pour limiter notre exposition a une variation de la longevite ait une correlation imparfaite (voire nulle) avec notre exposition au risque. En d'autres termes, le risque de base est le risque que notre outil de gestion du risque ne fonctionne pas pour gerer le risque.
+
+Pour des fins d'analyse et pour simplifier le probleme sans en toucher l'essentiel, supposons un fonds de pension ne versant des rentes de retraite qu'une fois par annee a la fin de l'annee. Supposons aussi que le meme montant \(P\) est verse a tous les rentiers. En debut d'annee, la valeur actualisee des primes totales (\(PT_{t}\)) que devra verser un tel fonds a la fin de l'annee \(t\) est donnee par
+
+\[PT_{t}=\sum_{x}N_{x}(1-\tilde{q}_{x}(t))VA(P)=VA(P)\left(\begin{array}{c} \sum_{x}N_{x}-\sum_{x}N_{x}\tilde{q}_{x}(t)\end{array}\right) \tag{15}\]
+
+ou \(N_{x}\) est le nombre de pensionnaires d'age \(x\) et \(VA(P)\) est la valeur actualisee de \(P\). La prime moyenne par individu (\(PM\)) sera ainsi
+
+\[PM_{t}=\frac{PT_{t}}{\sum_{x}N_{x}}=VA(P)\left(1-\sum_{x}w_{x}\tilde{q}_{x}(t)\right) \tag{16}\]ou \(w_{x}=N_{x}\)/\(\sum_{x}N_{x}\) est la proportion des pensionnaires d'age \(x\). Le fonds a donc une position courte sur \(\sum_{x}w_{x}\tilde{q}_{x}(t)\) plutot qu'une position longue sur la moyenne equiponderee du logit de probabilites de deces. Ainsi, le fonds s'expose a un risque de base s'il se couvre a l'aide de _forwards_ sur \(K_{1}\).
+
+De plus, un fonds de pension donne peut avoir une population de rentiers aux caracteristiques particulieres. Par exemple, considerons un fonds qui ne compterait que des rentiers presentement ages entre 65 et 74 ans et dont le poids demographique correspondrait celui de la population canadienne. Ce fonds prefererait probablement se couvrir a l'aide d'un _forward_ ecrit sur
+
+\[Q(t)=100\sum_{x=65}^{74}w_{x}\tilde{q}_{x}(t) \tag{17}\]
+
+ou les \(w_{x}\in 0,1]\) representent la proportion des 65-74 ans ages de \(x\) annees exactement21. Levolution des indices \(K_{1}(t)\) et \(Q(t)\) pour les hommes et les femmes est representee dans les panneaux 1 et 2 du graphique 5. Le troisieme panneau dans leGRAPHIQUE 5 (suite)
+
+[MISSING_PAGE_POST]
+
+[5graphique 5 donne les poids associes a chaque age dans le calcul de l'indice \(Q(t)\).
+
+Les indices \(K_{1}(t)\) et \(Q(t)\) sont de magnitudes comparables (au signe pres) et sont fortement correles; a 98,0 % chez les femmes et a 98,8 % chez les hommes.
+
+En reprenant l'analyse de la section precedente, nous extrayons les bornes inferieures sur les primes de risques que demanderait un assureur pour vendre un _forward_ sur \(Q(t)\). De maniere similaire a ce que nous avons presente au graphique 5, le graphique 6 illustre le comportement dans le temps de la prime _forward_ (en dollars)d'un contrat ecrit sur \(Q(t)\) dont le notionnel est de 100 $. Le panneau du haut (bas) illustre le comportement de la prime forward dans le temps pour les femmes (hommes).
+
+En comparaison avec les resultats que nous avons presentes dans le graphique 4, ceux du graphique 6 mettent en exergue quelques problemes importants quand vient le temps de trouver la prime adequate d'un contrat _forward_ sur \(Q(t)\). Premierement, les primes _forward_ sur \(Q(t)\) sont largement plus grandes que sur \(K_{1}(t)\). Alors que nous avions des primes _forward_ sur l'indice \(K_{1}(t)\) d'environ 0,54 $ (avec \(\lambda_{2}=0\)) pour les femmes en 1960, les primes _forward_ sur l'indice \(Q(t)\) sont de 15 $. Pour les hommes en 1960, la prime _forward_ sur l'indice \(K_{1}(t)\) est de 1,15 $ (avec \(\lambda_{2}=0\)) et celle sur l'indice \(Q(t)\) est de 32 $. Ces differences sont significatives!
+
+D'autre part, nous observons ici des primes plus elevees pour les femmes que pour les hommes, contrairement a ce a quoi nous avirons pu nous attendre etant donne les resultats illustres dans le graphique 5. Ce resultat est attribuable a l'utilisation d'un indice qui n'est pas equipondere. Il met ainsi en lumiere l'heterogeneite des erreurs de predictions du modele CBD. En effet, les erreurs sont relativement plus influencees par la prediction des probabilites de deces des jeunes femmes retraitees qui ont evidemment une ponderation plus importante dans l'indice \(Q\), qui est pondere en fonction de la population canadienne reelle, que dans l'indice \(K_{1}\), qui equipondere toutes les tranches de la population canadienne. Chez les hommes, les erreurs sont relativement plus prononcees chez les vieux retraites, qui sont exclus de l'indice \(Q\) puisqu'il ne prend en consideration que les hommes ages de 65 a 75 ans.
+
+Enfin, le prix de marche du risque associe au second facteur, \(\lambda_{2}\), joue un role non negligeable. En effet, dependemment du prix du risque associe au second facteur, la prime de risque peut pratiquement doubler. Pour mieux comprendre la relation entre \(\lambda_{1}\) et \(\lambda_{2}\), il faudrait les extraires de prix de transaction reelles et fiables. Toutefois, remarquons qu'une baisse de ce second facteur serait percu comme une bonne nouvelle pour le fonds, contrairement a une baisse du premier facteur. Ainsi, on peut presumer que \(\lambda_{2}\) sera negatif, contrairement a \(\lambda_{1}\) et que, par consequent, les primes se trouveraient sous la ligne fonce plutot qu'au-dessus.
+
+L'exercice que nous venons de faire laisse tout de meme presager que le risque de modele et le risque de base sont considerables pour les fonds de pension. En effet, en marche incomplet, le choix du modele a un impact direct sur l'estimationdes prix de marche du risque. Ceux-ci ont, a leur tour, un impact significatif sur les primes a payer. D'autre part, les primes _Q -forwards_ sont nettement plus elevees que les primes _K \({}_{1}\)-forwards_. Ainsi, si les marches n'offraient que des _K \({}_{1}\)-forward_ comme outils de couverture, le fonds de pension paierait des primes moins elevees, mais au risque de ne couvrir que partiellement le risque auquel il s'expose.
+
+En conclusion, rappelons que les primes rapportees par les graphiques 4 et 6 ne sont que des bornes inferieures aux primes que chargerait un assureur riscophobe. En effet, nous avons considere ici un assureur qui, bien que conscient du biais systematique du modele CBD, est indifferent au risque de mortalite. Cet assureur ne demande donc qu'une prime qui soit tout juste suffisante pour couvrir le biais dans le modele CBD, mais sans plus. Etant donne le niveau de ces bornes inferieures, il est fort probable que les primes demandees par un assureur riscophobe depasseraient la volonte de payer d'un fonds de pension.
+
+Conclusion
+
+Dans des travaux precedents (voir Boyer _et al._, 2014), nous avons calcule qu'un fonds de pension au Canada serait pret a payer environ 5 % de la valeur presente de son passif actuariel pour s'assurer que dans 99 % des cas le fonds de pension n'aura pas sous-estime l'age de deces de ses rentiers. Il est clair que la prime depend de la structure d'age des membres du fonds de pension et de la representation des sexes. La prime depend egalement du pays de domicile du fonds de pension (ou du pays d'origine de ses participants) de telle sorte que la prime de 5 % que nous sommes capables de calculer au Canada et aux Etats-Unis monte a 10 % en Europe de l'Ouest et au Japon. Ces pourcentages offrent une borne minimale par rapport aux taux qui ont ete payes dernierement par les entreprises qui ont opte pour se debarrasser completement de leur responsabilite envers leur fonds de pension a prestations determinees (ce qu'on appelle communement un _& buy-out \(\Rightarrow\)_). Selon un rapport recent de Mercer22, le cout moyen de se departir completement du risque associe aux rentiers des fonds de pension est d'environ 14 % (cette prime de risque varie de 24 % au Royaume-Uni a 4 % au Canada).
+
+Footnote 22: [http://www.mercer.ca/content/mercer/north-america/ca/fr/insights/point/2014/mercer-canada-pension-buyout-index.html](http://www.mercer.ca/content/mercer/north-america/ca/fr/insights/point/2014/mercer-canada-pension-buyout-index.html), en date du 29 octobre 2014.
+
+Il est vrai que la popularite des fonds de pension a prestations determinees dans le secteur prive est en chute constante aux Etats-Unis et au Canada depuis une vingtaine d'annees (les regimes a prestations determinees demeurent particulierement populaires dans le secteur public et parapublic) au profit de fonds de pension a contributions determinee. Contrairement aux fonds a prestations determinees ou l'employeur s'engage a verser une rente de retraite aux employes au moment ou ceux-ci la prenne, ce sont les employees qui deviennent reponsables d'accumuler suffisament de richesses pour la retraite dans le cas ou le fonds est a cotisations determinees.
+
+En echangeant un paiement futur incertain aux futurs rentiers contre un paiement immediat certain aux employes actuels les employeeurs ne font pas disparaitrere le risque de longevite. Ainsi le changement dans le financement de la retraite des particuliers generera une hausse de la demande pour les rentes viageres, ce qui implique que les compagnies d'assurance-vie vont devoir porter une attention particuliere au risque de longevite. En d'autres termes, le passage de fonds a prestations determinees a fonds a cotisations determinees ne fait pas disparaitre le risque de longevite; il est vrai que l'employeur se debarrasse du risque de placement et de longevite, mais ce sont les employes qui doivent alors les assumer puisqu'ils deviennent alors responsables de faire fructifier les sommes versees par l'employeur pour batir un capital suffisant a la retraite et de planifier adequatement le retrait de ces sommes a la retraite (ou acheter une rente viagere aupres d'un assureur qui assume alors le risque de longevite).
+
+La question qu'il faut alors se poser comme economistes financiers est s'il existe un moyen de gerer ce risque de longevite pour les entreprises, qui offrent a leurs employes un fonds de pension a prestations determinees, ou pour les compagnies d'assurances qui vendent des rentes viageres aux individus qui prennent leur retraite? Quelle est la consequence de ne pas gerer le risque de longevite pour les entreprises canadiennes alors que ce risque est particulierement eleve pour les entreprises qui offrent a leurs employes un regime de pension a prestations determinees? Dans ce cas, non seulement l'employeur assume-t-il le risque de placement pour capitaliser les sommes necessaires pour verser les rentes de retraite, il assume egalement le risque que la population couverte par le fonds de pension vive au-dela (ou en deca, mais c'est moins dommageable) de ce qui avait ete anticipe. Et bien que le risque de placement puisse etre largement diversifie en donnant des mandats a plusieurs gestionnaires et en diversifiant de maniere intertemporelle (c'est-a-dire en ayant des bonnes annees suivies de moins bonnes annees), il n'existe pratiquement pas d'outils financiers qui permettraient de gerer le risque de longevite tel que nous l'entendons ici.
+
+Les resultats que nous avons presentes dans ce document suggerent que meme si on s'entendait sur le modele statistique offrant les meilleurs predictions de l'esperance de vie et de la longevite de la population canadienne, son imprecision pourrait etre tel que la prime a payer pour transferer ce risque a une entite qui est en meilleure position pour l'assumer est bien au-dela de la volonte a payer de fonds de pension. Il est donc clair que davantage de recherche en demographie et en economie des populations sont encore necessaires pour reduire le risque de modele. D'ici la, il nous semble improbable que l'on puisse correctement asseoir les bases d'un marche financer qui permettrait de gerer le risque de longevite d'une maniere dynamique, fluide et profitable pour toutes les parties concernees.
+
+## Bibliographie
+
+Bank for International Settlement (2013), << Longevity Risk Transfer Markets : Market Structure, Growth Drivers and Impediments, and Potential Risks >>, _Rapport du Basel Committee on Banking Supervision_.
+
+Bifis, E. (2005), << Affine Processes for Dynamic Mortality and Actuarial Valuation >>, _Insurance : Mathematics and Economics,_ 37 : 443-468.
+
+Bongaarts, J. (2004), << Population Aging and the Rising Cost of Public Pensions >>, _Population and Development Review,_ 30 : 1-23.
+
+Booth, H. et L. Tickle (2008), << Mortality Modelling and Forecasting : A Review of Methods >>, The Australian Demographic and Social Research Institute, document de travail no 3.
+
+Boyer, M.M., J. Mejza et L. Stentoft (2014), << Measuring Longevity Risk for a Canadian Public Pension Fund >>, _Risk Management and Insurance Review,_ 17 : 37-59.
+
+Boyer, M.M. et L. Stentoft (2013), << If We Can Simulate it, We Can Insure it : An Application to Longevity Risk Management >>, _Insurance : Mathematics and Economics,_ 52 : 35-45.
+
+Cairns, A.J.G., D. Blake, et K. Dowd (2006a), << Pricing Death : Frameworks for the Valuation and Securitization of Mortality Risk >>, _ASTIN Bulletin_, 36 : 79-120.
+
+Cairns, A.J.G., D. Blake, et K. Dowd (2006b), << A Two-Factor Model for Stochastic Mortality with Parameter Uncertainty : Theory and Calibration >>, _Journal of Risk and Insurance,_ 73 : 687-718.
+
+Cairns, A.J.G., D. Blake, K. Dowd, G.D. Coughlan, D. Epstein et M. Khalaf-Allah (2011), << Mortality Density Forecasts : An Analysis of Six Stochastic Mortality Models >>, _Insurance : Mathematics and Economics,_ 48 : 355-367.
+
+Cairns, A.J.G., D. Blake, K. Dowd, G.D. Coughlan, D. Epstein, A. Ong et I. Balevich (2009), << A Quantitative Comparison of Stochastic Mortality Models Using Data From England and Wales and the United States >>, _North American Actuarial Journal,_ 13 : 1-35.
+
+Chan, W.S., J.S.H. Li et J. Li (2014), << The CBD Mortality Indexes : Modeling and Applications >>, Universite de Waterloo, Document de travail.
+
+Dahl, M. (2004), << Stochastic Mortality in Life Insurance : Market Reserves and Mortality-linked Insurance Contracts >>, _Insurance : Mathematics and Economics,_ 35 : 113-136.
+
+De Jong P. et L. Tickle (2006), << Extending Lee-Carter Mortality Forecasting >>, _Mathematical Population Studies,_ 13 : 1-18.
+
+Denton, F.T., C.H. Feaver et B.G. Spencer (2005), << Time Series Analysis and Stochastic Forecasting : An Econometric Study of Mortality and Life Expectancy >>, _Journal of Population Economics,_ 18 : 203-227.
+
+* [42][Dowd]Dowd]K., D. Blake et A.J.G. Cairns (2010), << Facing Up to Uncertain Life Expectancy : The Longevity Fan Charts >>, _Demography,_ 47 : 67-78.
+* [43][Dowd]K., A.J.G. Cairns, D. Blake, G.D. Coughlan, D. Epstein, et M. Khalaf-Allah (2010), << Evaluating the Goodness of Fit of Stochastic Mortality Models >>, _Insurance : Mathematics and Economics,_ 47 : 255-265.
+* [44][Gaille]Gaille S. (2012), << Forecasting Mortality : When Academia Meets Practice >>, _European Actuarial Journal,_ 2 : 49-76.
+* [45][Gaille]Gaille]S. et M. Sherris (2012), << Causes-of-Death Mortality : What Can Be Learned from Cointegration >>, document de travail.
+* [46][Gompertz]Gompertz]B. (1825), << On the Nature of the Function of the Law of Human Mortality >>, _Philosophical Transactions of the Royal Society of London,_ 115, : 513-583.
+* [47][Hanewald]Hanewald]K. (2009), << Mortality Modeling : Lee-Carter and the Macroeconomy >>, SFB 649 Discussion Paper.
+* [48][Heligman]Heligman]L. et J. H. Pollard (1980), << The Age Pattern of Mortality >>, _Journal of the Institute of Actuaries,_ 107 : 49-80.
+* [49][Human Mortality Database], [base de donnees en ligne]. _[http://www.mortality.org/_](http://www.mortality.org/_).
+* [50][Hyndman]Hyndman]. J. et M. S. Ullah (2007), << Robust Forecasting of Mortality and Fertility Rates : A Functional Data Approach >>, _Computational Statistics and Data Analysis,_ 51 : 4942-4956.
+* [51][Lee]Lee]R.D. et F. Nault (1993), << Modeling and Forecasting Provincial Mortality in Canada >>, World Congress of the IUSSP, Montreal, Canada.
+* [52][Lee]Lee]R.D et L. Carter (1992), << Modeling and Forecasting U.S. Mortality >>, _Journal of the American Statistical Association,_ 87 : 659-671.
+* [53][Malthus]Malthus]T.R. (1992), _Essai sur le principe de population_, Paris, Flammario. Ouvrage initialement publie en anglais en 1798 sous le titre _An Essay on the Principle of Population_.
+* [54][Manton]Manton]K.G., C.H. Patrick et E. Stallard (1980), << Mortality Model Based on Delays in Progression of Chronic Diseases : Alternative To Cause Elimination Model >>, _Public Health Reports,_ 95 : 580-588.
+* [55][Manton]Manton]K.G., J.M. Wrigley, H.J. Cohen et M.A. Woodbury (1991), << Cancer Mortality, Aging, and Patterns of Comorbidity in the United States : 1968 to 1986 >>, _Journal of Gerontology,_ 46 : 225-234.
+* [56][Olivieri]Olivieri]A. (2001), << Uncertainty in Mortality Projections : An Actuarial Perspective >>, _Insurance : Mathematics and Economics,_ 29 : 231-245.
+* [57][Planchet]Planchet]Planchet]Planchet]F., M. Juillard et L. Faucillon (2006), << Quantification du risque systematique de mortalite pour un regime de rentes en cours de service >>, _Assurance et gestion des risques_ 75.
+* [58][Planchet]Planchet]F. et V. Lelieur (2007), << Utilisation des methodes de Lee-Carter et Log-Poisson pour l'ajustement de tables de mortalite dans le cas de petits echantillons >>, _Bulletin Francais d'Actuariat,_ 8 : 118-146.
+* [59][Renshaw]Renshaw]A.E. et S. Haberman (2006), << Cohort-Based Extension to the Lee-Carter Model for Mortality Reduction Factors >>, _Insurance : Mathematics and Economics,_ 38 : 556-570.
+
+* [13]Rechel, B., E. Grundy, J.M. Robine, J. Cylus, J.P. Mackenbach, C. Knai et M. McKee (2013), << Ageing in the European Union >>, _The Lancet,_ 381 : 1312-1322.
+* [14]Robine J.M. et J.P. Michel (2004), << Looking Forward to a General Theory on Population Aging >>, _Journal of Gerontology,_ 59 : 590-597.
+* [15]Sharrow, D.J. (2013), << Modeling the Age Pattern of Human Mortality : Mathematical and Tabular Representations of the Risk of Death >>, These de doctorat, University of Washington.
+* [16]Thatcher, A. R. (1987), << Mortality at the Highest Ages >>, _Journal of the Institute of Actuaries,_ 114 : 327-338.
+* [17]Thatcher, A. R. (1990), << Some Results on the Gompertz and Heligman and Pollard Laws of Mortality >>, _Journal of the Institute of Actuaries,_ 117 : 135-149.
+* [18]Wang, S. (2000), << A Class of Distorsion Operators for Pricing Financial and Insurance Risks >>, _The Journal of Risk and Insurance,_ 67 : 15-36.
+* [19]Wilmoth, J.R. (1995), << Are Mortality Projections Always More Pessimistic When Disaggregated by Cause of Death? >>, _Mathematical Populations Studies,_ 5 : 293-319. 
+
+

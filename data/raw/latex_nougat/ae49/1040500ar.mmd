@@ -1,0 +1,231 @@
+# Anticipations, Bruits Et Sentiments*
+
+Alain GUAY
+
+_Universite du Quebec a Montreal CIRPEC CIREQ_
+
+###### Abstract
+
+Il existe une longue tradition en macroeconomie remontant a Pigou (1926) et Keynes (1936) selon laquelle les variations d'anticipations peuvent etre importantes pour la comprehension des cycles economiques. Depuis une dizaine annees, on assiste a un renouveau d'interet de ces sources possibles du cycle, et de facon plus marquee, depuis la Grande Recession.
+
+Les variations d'anticipations comme sources des cycles economiques ont ete recement conceptualisees de trois facons. Une premiere facon est de considerer ces variations comme provenant d'un changement d'anticipations par rapport aux fondamentaux de l'economie. Beaudry et Portier (2006) proposent les _news shocks_, que l'on peut traduire par des chocs de nouvelles, comme facteur explicatif des cycles economiques. Ces chocs proviendraient d'un changement des anticipations des agents economiques par rapport a la productivite des facteurs dans l'economie. Bien entendu, des chocs de nouvelles peuvent egalement provenir de changements d'anticipations de la politique fiscale, la politique monetaire ou tout autre variable fondamentale de l'economie (voir par exemple Schmitt-Grohe et Uribe, 2012, ou Leeper, Walker et Wang, 2013). Une autre source de variations d'anticipations proviendrait de vagues de pessimisme et d'optimisme qui ne sont pas provoquees par un changement de perception de l'etat des fondamentaux mais par des problemes d'information et de coordination. La modelisation recente de ces variations d'anticipations prend la forme de variations de sentiments >> dans un contexte d'anticipations rationnelles et d'equilibre unique chez Angeletos et La'O (2013) et egalement dans un contexte d'anticipations rationnelles mais d'equilibres multiples chez Benhabib, Wang et Wen (2015). Une derniere categorie de variationsd'anticipation's comme source des cycles economiques peut-etre consideree comme provenant d'erreurs d'anticipation's par rapport aux fondamentaux (voir, entre autres, Beaudry et Portier, 2014 et Forni _et al._, 2013). Par exemple, les agents economiques peuvent anticiper une hausse de la productivite future des facteurs de production qui cree une expansion economique aujourd'hui. Lorsque les agents realisent que cette hausse n'est pas realisee, cela peut alors produire une recession.
+
+La quantification de l'importance des ces chocs d'anticipation's comme source des cycles economiques pose des problemes specifiques. Depuis le debut des annees quatre-vingt, l'importance des sources potentielles des cycles economiques est evaluee a l'aide de representations vectorielles autoregressives (VAR) structurelles. En presence de chocs de variations d'anticipation's, les VAR structurelles sur les variables observables ne permettent pas toujours de retrouver les chocs structurels a partir des innovations du VAR. En particulier, on peut se retrouver dans un contexte de representation dite << non fondamentale >>. Dans ce cas, la dynamique conjointe des variables observables incluses dans le VAR comporte une partie moyenne mobile avec des racines a l'interieur du cercle unite qui ne peut etre approximee par un VAR. Une representation vectorielle autoregressive ne peut donc pas servir a l'identification de ces chocs d'anticipation's et a l'estimation adequate de la dynamique engendree par ces chocs sur les variables macroeconomiques.
+
+En presence de chocs reposant sur des changements d'anticipation's, il existe deux sources possibles pouvant creer un probleme de representation non fondamentale. La premiere source resulte des chocs de nouvelles. On peut montrer qu'en general, les innovations du VAR ne permettent pas de recuperer les chocs structurels. Le probleme provient d'un ensemble d'information trop limite de l'economatre. La deuxieme source apparait en presence d'un probleme d'information; l'agent economique n'observe pas parfaitement le choc. Dans ce cas, l'agent ne peut identifier correctement les chocs structurels, il fait face a un probleme d'extraction de signal. _A fortiori_, l'economatre ne pourra pas non plus identifier ces chocs.
+
+Une solution apparait naturelle pour resoudre le probleme de representation fondamentale en presence de chocs de nouvelles. Cette solution consiste a augmenter l'ensemble d'information de l'economatre en introduisant, par exemple, des facteurs macroeconomiques dans le VAR (Forni et Gambetti, 2014). En ce qui a trait a la deuxieme source, le probleme est plus serieux et l'augmentation de l'ensemble d'information ne le resout pas. La solution passerait donc par l'estimation de modeles structurels (voir Blanchard, L'Huillier et Lorenzoni, 2013; Barsky et Sims, 2012).
+
+La premiere section de cet article presente a l'aide d'un exemple simple les problemes de representations non fondamentales occasionnees par la presence de chocs d'anticipation' et de problemes d'information1. Cette presentation permet d'enoncer la condition suffisante pour obtenir une representation dite fondamentale a partir d'un VAR. La section suivante introduit un critere de distance qui permettraitd'evaluer la severite du probleme de representations non fondamentales. La troisieme section est devolue a des exercices de simulations a partir d'un modele des cycles reels (RBC selon l'acronyme anglais) augmente de chocs anticipations pour examiner la performance des VAR struturels en presence de representations non fondamentales. La derniere section conclut.
+
+## 1 Le probleme de representations non fondamentales
+
+Afin d'illustrer le probleme, prenons un exemple simple. Supposons une economie de dotation caracterisee par le modele de Lucas (1978). Lagent representatif maximise l'esperance mathematique de la fonction utilite intertemporelle suivante :
+
+\[E_{t}\sum_{i=0}^{\infty}\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\! \!\!\[p_{t}=\beta^{2}\theta_{1}\gamma e_{t}+\beta\theta_{1}\gamma e_{t-1}+\beta^{2} \theta_{1}\gamma v_{t}+\beta\theta_{1}\gamma v_{t-1}\]
+
+\[\text{avec}\ \ \gamma=\frac{\sigma_{\varepsilon}^{2}}{\sigma_{\varepsilon}^{2}+ \sigma_{v}^{2}}\.\]
+
+Un modele dynamique lineaire peut etre represente sous la forme d'une representation espace d'etats. On considere la representation espace d'etats suivante :
+
+\[x_{t} =Ax_{t-1}+B\varepsilon_{t} \tag{2}\] \[y_{t} =Cx_{t-1}+D\varepsilon_{t} \tag{3}\]
+
+avec \(x_{t}\) le vecteur des variables d'etats, \(y_{t}\) le vecteur des variables observees et \(\varepsilon_{t}\) le vecteur des chocs structurels. On se pose la question suivante : est-il possible de recuperer la dynamique du modele et les chocs structurels du systeme a partir d'un VAR sur les observables \(y_{t}\)?
+
+Considerons un VAR avec les observables \(y_{t}\) tel que :
+
+\[y_{t}=F(L)y_{t-1}+u_{t} \tag{4}\]
+
+ou \(F(L)\) est un polynome de retards d'ordre infini. Peut-on retrouver les chocs structurels \(\varepsilon_{t}\) a partir des innovations \(u_{t}\)? On peut remarquer que si les observables correspondent exactement aux variables d'etats, c'est-a-dire \(y_{t}=x_{t}\), la representation VAR permet d'identifier correctement les chocs structurels et la dynamique de ces chocs. Nous allons examiner le cas simple ou la matrice \(D\) est inversible, ce qui implique que le nombre de chocs structurels est le meme que le nombre d'observables. On a alors :
+
+\[\varepsilon_{t}=D^{-1}\big{(}y_{t}-Cx_{t-1}\big{)}.\]
+
+Ce qui donne :
+
+\[x_{t}=\Big{(}A-BD^{-1}C\Big{)}x_{t-1}+BD^{-1}y_{t},\]
+
+et
+
+\[x_{t}=\Big{(}A-BD^{-1}C\Big{)}^{t-1}x_{0}+\sum_{i=0}^{t-1}\Big{(}A-BD^{-1}C \Big{)}^{i-1}BD^{-1}y_{t-i}.\]
+
+Si \(lim_{t\to\infty}(A-BD^{-1}C)^{t-1}=0\), les observables revelent parfaitement les variables etats \(x_{t}\). On obtient alors une representation VAR d'ordre infini en fonction des observables \(y_{t}\) et des chocs structurels. Ainsi,
+
+\[y_{t}=C\sum_{i=0}^{\infty}\Big{(}A-BD^{-1}C\Big{)}^{i-1}BD^{-1}y_{t-i-1}+D \varepsilon_{t}.\]
+
+_A contrario_, si la matrice \(A-BD^{-1}C\) n'est pas stable, on ne peut recuperer les chocs structurels a partir d'un VAR sur les observables. Ceci nous amene a la condition suffisante de Fernandez-Villaverde \(et\)\(al.\) (2007) pour recuperer la dynamique et les chocs structurels de la representation espace d'etats a partir des observables \(y_{{}_{t}}\). Cette condition suffisante est donnee par la proposition suivante :
+
+**Proposition 1**_Les valeurs propres de la matrice \((A-BD^{-1}C)\) sont strictement inferieures a un en valeur absolue._
+
+Examinons cette condition suffisante a la lumiere de notre exemple. On avait donc pour le prix des actifs :
+
+\[p_{t}=\beta(\theta_{{}_{o}}+\beta\theta_{1})\varepsilon_{{}_{t}}+\beta\theta_{1 }\varepsilon_{{}_{t-1}}.\]
+
+En fonction de la representation espace d'etats (2) et (3), le modele s'ecrit :
+
+\[x_{t}=\left(\begin{array}{cc}0&\theta_{1}\\ 0&0\end{array}\right)x_{t-1}+\left(\begin{array}{cc}\theta_{0}\\ 1\end{array}\right)\varepsilon_{{}_{t}} \tag{5}\]
+
+et
+
+\[y_{t}=\left(0,\beta\theta_{1}\right)x_{t-1}+\beta(\theta_{{}_{o}}+\beta\theta_ {1})\varepsilon_{{}_{t}} \tag{6}\]
+
+avec \(x_{{}_{t}}=(a_{{}_{t}},\varepsilon_{{}_{t}})^{\prime}\) et \(y_{{}_{t}}=p_{{}_{t}}\). On suppose ici que l'econometre observe le prix \(p_{{}_{t}}\) et non la variable \(a_{{}_{t}}\).
+
+Considerons le cas ou \(\theta_{{}_{0}}=1\) et \(\theta_{{}_{1}}=0\). Par les matrices \((A,B,C,D)\), on obtient :
+
+\[A-BD^{-1}C=\left(\begin{array}{cc}0&0\\ 0&0\end{array}\right)\]
+
+et les deux valeurs propres sont egales a zero. Il n'y a donc pas de probleme d'information pour l'econometre puisque l'observation du prix revele parfaitement l'etat de l'economie puisque \(p_{{}_{t}}=\beta a_{{}_{t}}=\beta\varepsilon_{{}_{t}}\). C'est un cas qu'on peut appeler fondamental.
+
+On considere maintenant le cas avec _news_, c'est-a-dire \(\theta_{{}_{0}}=0\) et \(\theta_{{}_{1}}=1\). En fonction des matrices \((A,B,C,D)\), on obtient :
+
+\[A-BD^{-1}C=\left(\begin{array}{cc}0&1\\ 0&-\frac{1}{\beta}\end{array}\right).\]
+
+Les valeurs propres sont egales a 0 et -1/\(\beta\). On est donc dans un cas de representation que l'on nomme << non fondamentale >>. La partie moyenne mobile d'ordre un (MA(1)) est ici non inversible, comme on peut facilement le constater a partir de la representation obtenue pour le prix des actifs,
+
+\[p_{t}=\beta^{2}\theta_{1}\varepsilon_{{}_{t}}+\beta\theta_{1}\varepsilon_{{}_{ t-1}}.\]
+
+En conclusion, le fait d'observer la variable \(p_{{}_{t}}\) n'est pas suffisant pour identifier les chocs structurels et la dynamique de la representation espace d'etats (5) et (6) a l'aide d'une representation autoregressive cette variable. Si on augmente l'ensemble d'information aux variables d'etats \(a_{{}_{t}}\) et \(\varepsilon_{{}_{t}}\) de telle sorte que ces variables soient observables, alors il n'y a plus de probleme de representations non fondamentales.
+
+On peut alors retrouver la structure dynamique du modele structurel en fonction d'une representation autoregressive des observables.
+
+Dans Beaudry _et al._ (2015), on montre que le \(R^{2}\) de la regression de l'innovation \(u_{{}_{t}}\) de la representation autoregressive sur les variables d'etats retardes est une fonction decroissante de \(\beta\) et est donne par la relation suivante :
+
+\(R^{2}=1-\beta^{2}\).
+
+Le \(R^{2}\) est donc une mesure de la distance de la racine instable -1/\(\beta\) par rapport a l'unite dans notre exemple. C'est donc une mesure de la severite du probleme de representations non fondamentales. Ainsi, si le \(R^{2}\) approche zero, \(\beta\to 1\), le probleme est moins serieux. Inversement, si le \(R^{2}\) est eleve, le probleme est alors plus serieux.
+
+Examinons maintenant notre exemple en incorporant le probleme d'information sur l'observation du choc de << nouvelles >> en introduisant un bruit. L'agent observe donc un signal \(S_{{}_{t}}\) et lerix \(p_{{}_{t}}\). Comme on l'a vu precedemment, dans le cas ou \(\theta_{{}_{0}}=0\), ces deux variables sont donnees par :
+
+\(S_{{}_{t}}=\varepsilon_{{}_{t}}+v_{{}_{t}}\)
+
+et
+
+\(p_{{}_{t}}=\beta^{2}\theta_{1}\gamma\varepsilon_{{}_{t}}+\beta\theta_{1}\gamma \varepsilon_{{}_{t-1}}+\beta^{2}\theta_{1}\gamma v_{{}_{t}}+\beta\theta_{1} \gamma v_{{}_{t-1}}\).
+
+La matrice d'impact \(D\) des chocs structurels sur \(S_{{}_{t}}\) et \(p_{{}_{t}}\) n'est pas inversible. En effet, cette matrice est alors :
+
+\(D=\left[\begin{array}{cc}1&1\\ \beta\theta_{1}\gamma&\beta\theta_{1}\gamma\end{array}\right]\).
+
+Dans ce cas-ci, on ne peut resoudre le probleme en augmentant l'ensemble d'information.
+
+2Representations _ABCD_ et _AKC_\(\Sigma\)
+
+Si la condition suffisante de stabilite de Fernandez-Villaverde _et al._ (2007) n'est pas respectee, les observables \(y_{{}_{t}}\) n'admettent pas une representation telle que l'on peut recuperer les chocs structurels et la dynamique correspondante. On peut quand meme obtenir une representation VAR des observables a partir de ce qu'on peut appeeler la representation _AKC_\(\Sigma\). La question est de savoir si les innovations obtenues sont << loins >> des chocs structurels. On va alors se poser la question a savoir si l'on peut generaliser la mesure basee sur le \(R^{2}\) proposee plus haut.
+
+Pour la representation espace d'etats (2) et (3), en utilisant le filtre de Kalman, on peut obtenir une prevision optimale des variables d'etats \(\hat{x_{{}_{t}}}\) en fonction des observables. Le filtre de Kalman est un algorithme simple qui permet d'obtenir une prevision optimale des variables d'etats \(x_{{}_{t}}\) en fonction des variables observables \(y_{{}_{t}}\) contemporaines et retardees (voir Gourieroux et Monfort, 1995). Ainsi, par le filtre de Kalman, on a que\[\hat{x}_{t}=\left(A-KC\right)\hat{x}_{t-1}+Ky_{t} \tag{7}\]
+
+ou la matrice \(K\), appelee le gain du filtre de Kalman, est donnee par :
+
+\[K=\left(A\Sigma_{xx}C^{\prime}+BD^{\prime}\right)\left(C\Sigma_{xx}C^{\prime}+DD ^{\prime}\right)^{-1} \tag{8}\]
+
+et la variance de l'erreur de prevision est \(\Sigma_{xx}=E\left(\left(x_{t}-\hat{x}_{t}\right)\left(x_{t}-\hat{x}_{t}\right) ^{\prime}\right)\) avec
+
+\[\Sigma_{xx}=\left(A-KC\right)\Sigma_{xx}\left(A-KC\right)^{\prime}+BB^{\prime }+KDD^{\prime}K^{\prime}-BD^{\prime}K^{\prime}-KDB^{\prime}. \tag{9}\]
+
+Pour des matrices \(K\) et \(\Sigma_{xx}\) donnees, l'equation de mesure s'ecrit alors :
+
+\[y_{t}=C\hat{x}_{t-1}+u_{t}\]
+
+ou
+
+\[u_{t}=C\left(x_{t-1}-\hat{x}_{t-1}\right)+D\varepsilon_{t}\]
+
+et on obtient le VAR d'ordre infini pour les observables \(y_{t}\),
+
+\[y_{t}=C\sum_{i=0}^{\infty}\left(A-KC\right)^{i-1}Ky_{t-i-1}+u_{t}.\]
+
+Le vecteur d'innovations \(u_{t}\) du VAR est compose de deux termes orthogonaux et sa variance \(\Sigma_{u}\) est donnee par l'expression suivante :
+
+\[\Sigma_{u}=C\Sigma_{xx}C^{\prime}+DD^{\prime}.\]
+
+En utilsant une decomposition de Choleski sur \(\Sigma_{ux}\) avec \(S\) une matrice triangulaire inferieure telle que \(\Sigma_{ux}=SS^{\prime}\), on obtient :
+
+\[I=S^{-1}C\Sigma_{xx}C^{\prime}S^{-1^{\prime}}+S^{-1}DD^{\prime}S^{-1^{\prime}}.\]
+
+Le \(R^{2}\) de la projection des innovations (standardises) de la representation \(AKC\Sigma\) sur des facteurs pouvant capter l'erreur de prevision \(\left(x_{t-1}-\hat{x}_{t-1}\right)\) est alors donne par l'element (\(i\), \(i\)) de :
+
+\[S^{-1}C\Sigma_{xx}C^{\prime}S^{-1^{\prime}}(=I-S^{-1}DD^{\prime}S^{-1^{\prime}}). \tag{10}\]
+
+Lorsque la condition de stabilite est respectee, les observables \(y_{t}\) sont un predicteur parfait du vecteur des variables d'etats \(x_{t}\) et \(\Sigma_{xx}\) = 0. Tous les \(R^{2}\) sont alors egaux a zero. Inversement, si les observables predisent plutot mal le vecteur des variables d'etats \(x_{t}\), donc on est en presence d'une matrice \(\Sigma_{xx}\) relativement importante, les \(R^{2}\) seront alors eleves.
+
+Comment implanter en pratique ce critere du \(R^{2}\)? Si on considere que les facteurs sur plusieurs series macroeconomiques approximent bien les etats de la nature, on peut s'en servir pour porter un diagnostic sur le VAR. On peut alors faire une regression des chocs structurels du VAR structurel sur les retards des facteurs. Forni et Gambetti (2014) ont propose un test de causalite base sur cette regression. Si on rejette la non-causailte des retards des facteurs sur les chocs structurels, la representation VAR serait alors non fondamentale. Beaudry _et al._ (2015) arguent plutot que le \(R^{2}\) est une mesure plus pertinente. En effet, le test de causalite peutrejeter la non-causalite mais les retards des facteurs peuvent avoir un pouvoir explicatif tres faible des chocs structurels de telle sorte que le VAR donne une approximation pas trop mauvaise de l'identification des chocs structurels et de la dynamique engendree par ces chocs. Le \(R^{2}\) des regressions des chocs structurels du VAR sur les retards des facteurs serait donc un indicateur de la distance entre la mesure des chocs structurels et de leur dynamique identifiee a l'aide du VAR sur les observables et les vrais chocs structurels et leur dynamique respective.
+
+3Simulations
+
+On va maintenant examiner la performance des VAR structurelles en presence de representation non fondamentale a l'aide de simulations. Pour ce faire, nous utiliserons un modele des cycles reels canonique comme processus generateur des donnees. On va s'interesser aux deux cas discutes plus haut, a savoir, le cas avec chocs de << nouvelles >> et le cas avec des chocs de << nouvelles >> jumeles a un probleme d'extraction de signal.
+
+Le modele utilise a des fins de simulation est le modele RBC canonique. L'agent representatif maximise la fonction d'utilite intertemporelle suivante :
+
+\[U_{0}=E_{0}\sum_{t=0}^{\infty}\mathfrak{g}^{t}\left[\ln C_{t}+\chi_{t}\ln(1- N_{t})\right]\]
+
+ou \(\beta\) est le taux d'escompte, \(\chi_{t}\) est un processus exogene qui mesure la preference relative du loisir par rapport a la consommation, \(C_{t}\) represente la consommation aggregee, \(N_{t}\) les heures travaillees normalisees de telle sorte que le temps disponible est egal a 1 et le loisir est donc egal a \(1-N_{t}\). On considere un modele sous une frequence trimestrielle. La contrainte de ressources est donnee par :
+
+\[C_{t}+I_{t}\leq Y_{t}\]
+
+ou \(I_{t}\) est l'investissement aggrege et \(Y_{t}\) la production globale. Cette production provient d'une fonction de production de type Cobb-Douglas
+
+\[Y_{t}=K_{t}^{1-\alpha}\left(A_{t}N_{t}\right)^{\alpha}\]
+
+ou \(K_{t}\) est le stock de capital physique et \(A_{t}\) le processus technologique (TFP). L'economie est caracterisee par le processus suivant d'accumulation du capital,
+
+\[K_{t+1}=(1-\delta)K_{t}+I_{t}\]
+
+avec un taux de depreciation \(\delta\). On considere le processus suivant pour la TFP :
+
+\[\ln A_{t}=\gamma+\ln A_{t-1}+\varepsilon_{t}^{surprise}+\varepsilon_{t-q}^{ nonwelles}.\]
+
+On est donc en presence d'un choc surprise non anticipe \(\varepsilon_{t}^{surprise}\) dont l'effet est immediat et un choc de << nouvelles >> anticipe qui se repercute \(q\) periodes plus tard. Ainsi, en l'absence d'un probleme d'information, l'agent observe en \(t-q\) le choc de << nouvelles >> \(\varepsilon_{t-q}^{nonwelles}\) et celui-ci se repercutera sur la productivite en \(t\). Les chocs \(\varepsilon_{t}^{surprise}\) et \(\varepsilon_{t}^{nonwelles}\) sont distribues respectivement comme une normale \(N(0,\sigma_{surprise}^{2})\)et \(N(0,\,\sigma^{2}_{nourelles})\). On suppose egalement que le parametre de preference suit un processus AR(1),
+
+\[\chi_{t}=\mu_{\chi}(1-\rho_{\chi})+\rho_{\chi}\chi_{t-1}+\varepsilon_{t}^{\chi}\]
+
+et le choc de preference \(\varepsilon_{t}^{\chi}\) est distribue comme une \(N(0,\,\sigma^{2}_{\chi})\).
+
+On ajoute une serie de confiance du consommateur qui depend de differents chocs du modele :
+
+\[Conf\,{}_{t}=\rho_{conf}\,Conf\,{}_{t-1}+\varepsilon_{t}^{surprise}+\varepsilon_{t }^{nourelles}+\varepsilon_{t}^{conf}\]
+
+ou \(\varepsilon_{t}^{conf}\) est un choc specifique a la confiance distribue comme une \(N(0,\,\sigma^{2}_{conf})\) et qui est assimile a un choc de sentiments. Cette serie est idiosyncratioue en ce sens qu'elle n'a aucun impact sur les variables du modele. Son ajout vise a considerer des representations VAR incluant une telle serie.
+
+On estime un VAR en niveau sur les series \(X_{t}=(a_{t},\,c_{t},\,n_{t},\,conf_{t})\)' simulees a partir du modele ou les lettres minuscules representent le logarithme neperien des lettres majuscules. On cherche a identifier les chocs de TFP : \(\varepsilon_{t}^{surprise}\) et \(\varepsilon_{t}^{nourelles}\). Pour ce faire, on utilise la strategie de Barsky et Sims (2011) basee sur les deux hypotheses suivantes : i) le choc surprise est le seul qui affecte la TFP de facon contemporaine et ii) le choc de nouvelles est celui qui explique la plus grande partie de la variance de la TPF jusqu'a un horizon de 10 ans autre que le choc de surprise. Les valeurs des parametres structurels apparaissent au tableau 1.
+
+Les graphiques 1 a 8 contiennent les fonctions de reponses des quatre variables du VAR suite aux chocs de surprise et au choc de nouvelles pour un horizon de 0 a 20 trimestres et pour \(q=1\), 2, 4, 8. Pour \(q=1\), 2, le VAR est estime avec 4 retards. Pour \(q=4\) et \(q=8\), le VAR est estime avec 8 et 12 retards respectivement afin de permettre a la representation autoregressive de capter l'effet du choc de nouvelles anticipe. On peut egalement calculer pour chaque cas le critere propose par Beaudry _et al_. (2015) du \(R^{2}\) de facon theorique a partir des equations (7), (8), (9) et (10).
+
+Examinons premiement le cas avec \(q=1\). On remarque que le VAR recupere bien la dynamique des chocs surprise et de nouvelles sur les quatre variables d'interet. Pour le choc surprise, la reponse de ce choc sur la TFP est correctement evaluee a l'impact pour ensuite etre quelque peu sous-estimee a moyen terme mais cette difference n'est pas significative. La reponse est egalement sous-evaluee a moyen terme pour la consommation mais encore une fois cette difference n'est pas significative. Cette sous-evaluation pour ces deux variables provient vraisemblablement de l'estimation d'un VAR qui contient ces deux variables en niveau alors qu'elles sont non stationnaires dans le modele. Pour les deux variables stationnaires, les heures et la confiance, les fonctions de reponses theoriques sont fidelement reproduites par le VAR. Les fonctions de reponses du choc de nouvelles sur les quatre variables sont tres pres des fonctions de reponses theoriques. En particulier, le delai d'un trimestre pour la realisation de ce choc sur la TFP est particulierement bien reproduite. On remarque egalement que le VAR structurel reproduit bien l'impact contemporain negatif du choc de nouvelles sur les heures travailles dans ce RBC canonique. Pour les deux chocs, le critere propose par Beaudry _et al_. (2015) du \(R^{2}\) est tres proche de zero, ce qui est compatible avec la bonne performance du VAR incluant ces quatre variables.
+
+Les resultats pour \(q=2\) sont qualitativement les memes. On note une legence augmentation du \(R^{2}\) compatible avec les fonctions de reponses qui se comportent un peu moins bien que dans le cas ou \(q=1\). Pour \(q=4\), le VAR contient maintenant 8 retards. Comme on peut s'y attendre, les intervalles de confiance sont maintenant plus larges. La sous-evaluation des reponses de la TFP et de la consommation au choc surprise est quelque peu accentuee, mais encore la, ces differences ne sont pas significatives. L'impact du choc de nouvelles sur les quatres variables demeure fidele aux reponses theoriques et le d elai de l'impact de ce choc sur la TFP et les heures travailles est tres bien estime. Ces tendances sont les memes pour le cas avec \(q=8\). Il est interessant de constater que meme pour un delai de realisation du choc de nouvelles de 8 periodes, les fonctions de reponses sont tres proches des fonctions de reponses theoriques. Il faut noter qu'en augmentant ce delai, on accentue le probleme de representation non fondamentale. Le critere du \(R^{2}\) est egalement en harmonie avec le comportement des fonctions de reponses provenant des VAR. En particulier, on remarque que le \(R^{2}\) pour le choc de nouvelles est toujours plus faible que pour le choc de surprise et que les fonctions de reponses theoriques du choc de nouvelles sont mieux approximees par les VAR que celles du choc de surprise. En resume, pour ce jeu de simulations a partir d'un modele RBC canonique, les VAR structures approximent adequatement les fonctions de reponses des deux chocs meme si on est en presence de representations probablement non fondamentales. On remarque egalement que la qualite de l'approximation est directement proportionnelle au \(R^{2}\).
+
+On suppose maintenant que l'agent representatif observe un signal bruite du choc de nouvelles. Ainsi,
+
+\[S_{t}=\varepsilon_{t}^{nouvelles}+\varepsilon_{t}^{bruit}.\]
+
+C'est seulement a la realisation du choc sur la TFP (donc en \(t+q\)) que l'agent connait parfaitement l'ampleur du choc. On suppose que \(\varepsilon_{t}^{bruit}\) suit une normale \(N(0,\,\sigma_{bruit}^{2})\). On fixe l'ecart-type de ce choc a la meme valeur que l'ecart-type du choc de nouvelles. On considere egalement que les chocs de nouvelles et de bruit influencent la confiance. Pour ce cas, on considere que le choc de bruit est le choc de sentiments. On utilise comme hypothese d'identification du choc de sentiments, donc de bruit, qu'il est celui qui explique la plus grande partie de la variance de la confiance jusqu'a un certain horizon conditionnellement a l'identification des chocs de surprise et de nouvelles. En pratique, on fixe cet horizon a 40 trimestres.
+
+Les resultats des simulations apparaissent aux graphiques 9 a 14 pour \(q=2,\,4,\,8\). Examinons le cas ou \(q=2\). Lorsque l'agent observe le signal en \(t\), il attribue une partie de ce signal au choc qui va se materialiser sur la TFP en \(t+2\) et l'autre partie a un choc de bruit selon la resolution du probleme d'extraction de signal. On constate pour le modele, a l'aide de la fonction de reponses theorique, que le choc de nouvelles entraine une hausse de la consommation en \(t\) et \(t+1\) qui est moins marquee que sans le probleme d'information (voir le graphique 4). A \(t+2\), l'agent observe la realisation du choc, le probleme d'information est alors resolu et il augmente sa consommation en consequence. On constate la meme chose pour les heures travaillees. L'impact negatif est plus faible que dans le cas sans probleme d'information (voir graphique 4) et l'agent ajuste son comportement a la realisation du choc en \(t+2\). Examinons maintenant l'impact du choc de sentiments, donc l'effet du choc de bruit du signal, sur les differentes variables. Suite a un choc positif, l'agent, augmente sa consommation et diminue ses heures travaillees en \(t\) et en \(t+1\) puisqu'il ne peut distinguer ce choc d'un choc de nouvelles. Il reagit donc comme pour un choc de nouvelles. Lorsqu'en \(t+2\), il realise que ce choc n'est pas un choc qui affecte la productivite, il ajuste sa consommation et ces heures travaillees aux quantites precedent le signal, donc les fonctions reponses retourrent a zero.
+
+Examinons maintenant les fonctions de reponses empiriques pour \(q=2\). La fonction de reponses de la TFP evalue adequatement le d elai de deux periodes pour la realisation du choc de nouvelles mais sous-evalue son impact mais pas de facon significative. La reponse de la consommation a l'impact et a la periode suivante est tres bien captee mais elle est par la suite legerement sous-evaluee. On constate que la fonction de reponses empirique est lisse et qu'elle ne capte pas le fait que l'agent observe le choc de nouvelles en \(t+2\). Cependant, ces differences ne sont pas significatives. En contrepartie, la reponse des heures travaillees colle presque parfaitement a la reponse theorique. Enfin, l'impact du choc de nouvelles sur la confiance est bien mesure. Pour le choc de sentiments, donc le bruit dans le signal, la fonction de reponses de la consommation est sous-evaluee a l'impact et au trimestre suivant et elle retourne graduellement a son niveau d'equilibre. La reponse empirique negative des heures est un peu plus forte a l'impact et au trimestre suivant pour revenir rapidement a zero. On remarque que les fonctions de reponses de la consommation et des heures sont plus lisses que les fonctions de reponses theoriques. Cependant, ces differences sont loin d'etre significatives. Finalement, la reponse de la confiance au choc de sentiments est sous-evaluee, mais encore ici, cette difference n'est pas significative. Pour \(q=4\) et \(q=8\), on observe le meme type de comportement que pour \(q=2\). On peut noter que la reponse des heures travaillees suite au choc de nouvelles est tres bien reproduite tandis que la reponse de la consommation est beaucoup plus lisse. En resume, meme avec un agent faisant face a un probleme d'extraction de signal, les reponses du VAR structurel ne sont pas significativement differentes des reponses theoriques, et dans certains cas, elles sont fidelement reproduites (pour les heures travaillees).
+
+Conclusion
+
+Il s'avere important de mesurer la contribution des changements d'anticipations pour l'explication du cycle economique. Cependant, cet exercice souleve des difficultes qui peuvent etre importantes. L'evaluation de la pertinence empirique des changements dans les anticipations a l'aide de VAR structurels souleve le probleme de representations non fondamentales. On a maintenant certains outils pour mesurer l'importance du probleme dans le cas d'un choc de nouvelles mais ce n'est pas le cas quand celui-ci est jumele a un probleme d'extraction de signal. On doit donc developper des mesures empiriques pour evaluer l'importance que pose le probleme d'extraction de signal dans l'identification des chocs d'anticipations.
+
+## Bibliography
+
+* [1]Angeletos, M. et J. La'O (2013), << Sentiments >>, _Econometrica_, 81(2) : 739-779.
+* [2]Barsky, R. et E. Sims (2011), << News Shocks and Business Cycles >>, _Journal of Monetary Economics_, 58(3) : 273-289.
+* [3]Barsky, R. et E. Sims (2012), << Information, Animal Spirits, and the Meaning of Innovations in Consumer Confidence >>, _American Economic Review_, 102(4) : 1343-1377.
+* [4]Beaudry, P. et F. Portier (2006), << Stock Prices, News, and Economic Fluctuations >>, _American Economic Review_, 96(4) : 1293-1307.
+* [5]Beaudry, P. et F. Portier (2014), << News Driven Business Cycles: Insights and Challenges >>, _Journal of Economic Literature_, 52(4) : 993-1074.
+* [6]Beaudry P., P. Feve, A. Guay et F. Portier (2015), << When is Nonfundamentalness in VARs a Real Problem? An Application to News Shocks >>, NBER Working Papers 21466, National Bureau of Economic Research.
+* [7]Benhabib, J., P. Wang et Y. Wen (2015), << Sentiments and Aggregate Demand Fluctuations >>, _Econometrica_, 83(2) : 549-585.
+* [8]Blanchard, O. J., J.-P. L'Huillier et G. Lorenzoni (2013), << News, Noise, and Fluctuations: An Empirical Exploration >>, _American Economic Review_, 103(7) : 3045-3070.
+* [9]Fernandez-Villerde, J., J. Rubio-Ramirez, T. Sargent et M. Watson (2007), << ABCs (and Ds) of Understanding VARs >>, _American Economic Review,_ 97(3) : 1021-1026.
+* [10]Forni, M. et L. Gambetti (2014), << Sufficient Information in Structural VARs >>, _Journal of Monetary Economics_, 66 : 124-136.
+* [11]Forni, M., L. Gambetti, M. Lippi et L. Sala (2013), << Noisy News in Business Cycles >>, mimeo, Universita di Modena e Reggio Emilia, Universitat Autonoma de Barcelona, Universita di Roma La Sapienza and Universita Bocconi.
+* [12]Gourieroux, C. et A. Monfort (1995), << Series temporelles et modeles dynamiques >>, Collection Economie et statistiques avancees, Economica, Paris.
+* [13][]Keynes, J. M. (1936). _The General Theory of Employment, Interest and Money_, London: Macmillan.
+* [14]Leeper, E., T. Walker et S. Yang (2013), << Fiscal Foresight and Information Flows >>, _Econometrica_, 81(3) : 1115-1145.
+* [15]Lucas, R. E. (1978), << Asset Prices in an Exchange Economy >>, _Econometrica_, 46(6) : 1429-1445.
+* [16]Pigou, A. (1926), _Industrial Fluctuations_, Macmillan, London.
+* [17]Schmitt-Grohe, S. et M. Uribe (2012), << What's News in Business Cycles >>, _Econometrica_, 80(6) : 2733-2764. 
+
+

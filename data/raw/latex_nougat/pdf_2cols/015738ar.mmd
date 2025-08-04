@@ -1,0 +1,279 @@
+Modelisation Statistique Des Modules Annuels Et Des Etages du Bassin Roumain Du Timis-Bega, Similitudes Regionales Avec La Moseille Francaise
+
+G. Galea1
+
+R. Mia2
+
+R. Mia2
+
+Cemage/Lyn, Unite de Rocherhe Hydrologie Hydrantiagne, 3bis quasi Cabareau, 69336 Lyon Cedex 09, France National Institute of Hydrology and Water Management (NIHWM), Sos Buaresti, Ploiesti 97, 71522 Buarest, Roumanie
+
+Recu le 6 septembre 2005, acceptive le 2 mai 2006
+
+[MISSING_PAGE_POST]
+
+Footnote 2
+
+###### Abstract
+
+The catchment area of Timis-Bega (13,000 km\({}^{2}\)) is located in the western part of Romania. The orographical context, the Mediterranean climatic influence, the nature of the ground and the vegetation contribute to this relatively restricted geographical area's great diversity of flows. This latter characteristic is based on a study of 19 sub-basins, ranging in size from a few km\({}^{2}\) to several hundred km\({}^{2}\). The regionalization of annual mean discharge and low flow in the Timis-Bega catchment was undertaken following similar work realized on the French Moselle catchment. This earlier work showed that the two-parameter Weibull distribution adequately described the spatial and temporal variability of annual mean discharge and low flow for the studied sub-catchments. The two principal results of the preceding study were the weak differentiation among the regional models established for annual mean discharge and low flow, and the recommended use of episodic gauging of low flows for the improvement of the regional models. Our intention was to verify these preceding considerations, established for the French Moselle basin, in the hydro-climatic context of Timis-Bega. The results obtained allowed us to confirm the weak differentiation among the regional models as well as the improvement of the regional models. More specifically, this improvement resulted from the better precision, compared to that obtained by traditional multiple regression methods, of the estimation of the local discharge descriptor, the median annual mean discharge or the median minimal daily low flow discharge. The use of low flow episodic discharge measurements, that are concomitant between the studied and reference sub-catchments, allows the estimation of the median minimal daily low flow discharge and the median annual mean discharge. This fortuitous result is explained by the weak differentiation observed between the regional annual mean discharge model and the regional average low flow discharge model for average to dry years. We believe episodic measurements of low flow should be considered when collecting data that will be used for the generation of regionalization flow descriptors by geostatistical methods. Lastly, the similarities between the regional distributions of annual mean discharge and low flow for both the Moselle and Timis-Bega regions were unexpected. This result should, however, be considered with caution, as it implies the existence of homogeneous hydrological regions.
+
+keywords: regionalization, annual mean discharge, low flow, statistical QdF modelling. +
+Footnote †: journal: Journal of High Energy Physics
+
+## 1 **Avant-Propos**
+
+Notre demarche de regionalisation des modules et des etiages des sous-bassins du Timis-Bega s'incrit logiquement dans la continuite des travaux menes sur le bassin hydrographique de la Moselle francaise (GALEA et CANALI, 2005). Nous avions montre l'adequation de la loi de Weibull a deux parametres pour decrire la variabilite temporelle et spatiale des modules annuels et des etiages des sous-bassins observes. Deux principaux resultats avaient ete soulignes. L'un concernait la faible differenciation des lois regionales etablies pour les modules et les etiages des annees moyennes a << seches >> (F \(\in\) 0,5), l'autre metrait l'accent sur l'usage de jaugeages episodiques d'etiage pour ameliorer la performance des modeles regionaux. Notre intention est de voir, entre autres, si ces considerations etablies pour le bassin de la Moselle se verifient dans le contexte hydro-climatique du Timis-Bega.
+
+## 2 **Contexte general et**
+
+chroniques de Debit
+
+Disponibles des Sous-bassins
+
+Du Timis-Bega retenus
+
+Le bassin hydrographique du Timis-Bega, d'une superficie d'environ 13 000 km\({}^{2}\), est situe a l'oust de la Roumanie. Les rivieres Timis et Bega drainent respectivement 7 489 km\({}^{2}\) et 5 248 km\({}^{2}\). L'altitude moyenne (Zm) est de 415 m pour le bassin du Timis et de 236 m pour le bassin du Bega, elle culmine a 2 000 m environ au sud-est du bassin hydrographique. Le substratum d'origine cristalline et eruptive est recouvert de depots recents (quaternaires) favorables aux cultures et paraires (51 % de la superficie) ainsi qu'a la foret (35 % de la superficie). Du reseau d'observation des debits, nous reiendrons 19 sous-bassins (Tableau 1) dont les etiages et les modules annuels ne sont pas influences (Figure 1), soit 14 sous-bassins pour le bassin du Timis et cinq sous-bassins pour le bassin du Bega. Certains d'entre eux font l'objet d'un suivi de la production des fines, favorisee par la nature du sol et l'influence climatique mediterraneenne sur la region (GALEA et al., 2004).
+
+La taille, le contexte orographique, la nature et l'occupation du sol des 19 sous-bassins retenus expliquent, entre autres, les coulements diversifies qui y sont observ
+
+\begin{table}
+\begin{tabular}{l|c c c c c} \hline \multicolumn{5}{c}{_Basin hydrographique du Timis : 14 sous-basins_} \\ \hline \multicolumn{5}{c}{**Sous-basins**} & **Code** & **Observations de débit** & **S** & **Zm** \\ \hline \multicolumn{5}{c}{**Période**} & **Durée (an) (km\({}^{2}\))** & **(m)** \\ \hline Timis a TEREGOVA & \$3105 & 1953-2001 & 49 & 167 & 906 \\ Timis a SADOVA & \$3110 & 1971-2001 & 31 & 560 & 936 \\ Timis a CARANSEBES & \$53115 & 1974-2001 & 28 & 1 072 & 769 \\ Timis a LUGOJ & \$3125 & 1970-2001 & 32 & 2 706 & 665 \\ Raul Rece a RUSCA & \$53205 & 1953-2001 & 49 & 163 & 1157 \\ Fenes a FENES & \$53305 & 1964-2001 & 38 & 125 & 973 \\ Scbes a TURNU RUENI & \$3405 & 1964-1998 & 35 & 122 & 819 \\ Bistra a VORISLOVA BUCOVEI & \$35305 & 1951-2001 & 51 & 232 & 886 \\ Bistra a VORISLOVA & \$35301 & 1963-2001 & 39 & 404 & 827 \\ Bistra a OBREJA & \$53515 & 1982-2001 & 20 & 863 & 880 \\ Bistra Marulu a POIANA MARULUI & \$53605 & 1953-2001 & 49 & 79 & 1 442 \\ Sucu a POIANA MARULUI & \$53705 & 1953-2001 & 49 & 77 & 1 434 \\ Nadrag a NADRAG & \$3805 & 1963-2001 & 39 & 35 & 742 \\ Golet a GOLET & \$55105 & 1982-2001 & 20 & 41 & 751 \\ \hline \multicolumn{5}{c}{_Basisin hydrographique du Bega : 5 sous-basins_} & **Sous-basins** & **Code** & **Observations de débit** & **S** & **Zm** \\ \hline \multicolumn{5}{c}{**Sous-basins**} & **Code** & **Durée (an) (km\({}^{2}\))** & **(m)** \\ \hline Bega a LUNCANI & \$50105 & 1976-2001 & 26 & 73,5 & 739 \\ Bega a FAGET & \$0110 & 1974-2001 & 28 & 474 & 470 \\ Bega a BALINT & \$0115 & 1970-2001 & 32 & 1 064 & 329 \\ Sasa a POIENI & \$0205 & 1966-2001 & 36 & 80 & 763 \\ Gladna a FIRDEA & \$0301 & 1980-2001 & 22 & 57 & 456 \\ \hline \multicolumn{5}{c}{**Nota** - Parm ecs 19 sous-basins, deux jeux sont constitures: de 10 (en gns) ct} \\ \multicolumn{5}{c}{9} \\ \multicolumn{5}{c}{9} \\ \multicolumn{5}{c}{9} \\ \multicolumn{5}{c}{9} \\ \multicolumn{5}{c}{9} \\ \multicolumn{5}{c}{9} \\ \multicolumn{5}{c}{9} \\ \end{tabular}
+\end{table}
+Table 1: Presentation of the 19 sous-basins du Timis-Bega retenus.
+
+Figure 1: Localisation des stations hydrométriques des sous-basins retenus
+
+_Location of the hydrométric measurement stations._(MIC et GALEA, 2004) mais aussi des modules et des etiages. Pour fixer les idees, les modules annuels medians varient de 7 L/s/km\({}^{2}\) a 41 L/s/km\({}^{2}\) et les debits journaliers medians d'etage varient de 2 L/s/km\({}^{2}\) a 10 L/s/km\({}^{2}\).
+
+## 3 Regionalisation des modules du bassin hydrographique du Timis - Bega
+
+### Basin du Timis : 14 sous-bassins
+
+Pour chacun des 14 sous-bassins, la distribution theorique des modules annuels echantillonnes sur la periode d'observation (Tableau 1) est representee par une loi de Weibull a deux parametres :
+
+\[\mathrm{QA}_{{}_{L}}(\mathrm{U}_{{}_{F}})=\beta_{{}_{L}}\ \ \mathrm{U}_{{}_{F}}^{{}^{1/ \alpha_{{}_{L}}}} \tag{1}\]
+
+ou : \(\mathrm{U}_{{}_{F}}=\) - In (1-F) avec F : frequence au non-depassement; \(\mathrm{QA}_{{}_{L}}(\mathrm{U}_{{}_{F}})=\) Quantile theorique de module annuel, localement * observe *, deduit des observations de debit (m\({}^{3}\)/s).
+
+Nous avons choisi la loi de Weibull a deux parametres par anteriorite (GALEA et CANALI, 2005) et parce qu'elle est conseillee par un groupe de travail (MASSON _et al._, 1994). C'est une loi simple, adaptee a l'etude frequentielle des debits de faible valeur, ce qui est le cas des modules, notamment en annees seches, ainsi que des etiages severes.
+
+Pour obtenir les parametres \(\alpha_{{}_{R}}\) et \(\beta_{{}_{R}}\) de la loi regionale (2) des modules annuels du bassin du Timis (Tableau 2 et Figure 2a), nous avons applique aux modules (et ulterieurement aux etiages) la methode de l'indice de crue de DALRYMPLE (1960). Les parametres regionaux \(\alpha_{{}_{R}}\) et \(\beta_{{}_{R}}\) resulent respectivement de la moyenne des parametres \(\alpha_{{}_{L}}\) et \(\beta_{{}_{L}}^{*}\) ( \(\beta_{{}_{L}}^{*}\) / \(\overline{\mathrm{QA}_{{}_{L}}}\) ) des sous-bassins, ponderes par le nombre d'annes d'observation.
+
+\[\mathrm{QA}_{{}_{R}}(\mathrm{U}_{{}_{F}})=\left(\beta_{{}_{R}}\ \mathrm{U}_{{}_{F}}^{{}^{(1/ \alpha_{{}_{R}})}}\right)\overline{\mathrm{QA}_{{}_{\mathrm{site}}}} \tag{2}\]
+
+ou : \(\mathrm{QA}_{{}_{R}}(\mathrm{U}_{{}_{F}})=\) Quantile de module deduit de la loi regionale, en un site quelconque observe ou non (m\({}^{3}\)/s).
+
+Pour une periode d'observation plus homogene (Figure 2b) et ainsi eviter un eventuel biais temporel dans l'approche regionale des modules, la loi de Weibull a cte ajustee sur les 22 dernieres annees communes (1980-2001), excepte pour trois des sous-bassins (cf. tableau 1). Nous noterons une relative sensibilite des parametres locaux et regionaux a la duree d'observation consideree (Tableaux 2 et 3).
+
+### Basin du Bega : 5 sous-bassins
+
+De meme que precedemment, les parametres des modelisations effectuees sont plus ou moins sensibles a la periode d'observation (Tableau 4).
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c c c c c c} \hline \hline
+**Station** & **53105** & **53110** & **53115** & **53125** & **53205** & **53305** & **53405** & **53505** & **53510** & **53515** & **53605** & **53705** & **53805** & **55105** \\ \hline S (km\({}^{2}\)) & 73,5 & 560 & 1 072 & 2 706 & 163 & 125 & 122 & 232 & 404 & 863 & 79 & 77 & 35 & 41 \\ \hline \multicolumn{11}{c}{Paraméres locaux (1) et quantile median \(\overline{\mathrm{Q}\Lambda}_{{}_{L}}\)} \\ \hline \(\alpha_{{}_{L}}\) & 3,28 & 5,26 & 3,70 & 3,83 & 6,14 & 4,95 & 3,61 & 4,06 & 4,25 & 3,62 & 4,77 & 4,14 & 3,12 & 3,64 \\ \(\beta_{{}_{L}}^{*}\) (m\({}^{3}\)/s) & 2,49 & 11,5 & 21,1 & 44,5 & 5,06 & 3,07 & 3,20 & 4,30 & 7,55 & 12,9 & 3,05 & 3,41 & 0,799 & 0,759 \\ \(\overline{\mathrm{QA}_{{}_{L}}}^{*}\) (m\({}^{3}\)/s) & 2,23 & 10,7 & 19,1 & 40,5 & 4,76 & 2,85 & 2,89 & 3,93 & 6,93 & 11,7 & 2,82 & 3,12 & 0,710 & 0,686 \\ \(\beta_{{}_{L}}^{*}\) & 1,12 & 1,07 & 1,10 & 1,10 & 1,06 & 1,08 & 1,11 & 1,09 & 1,09 & 1,11 & 1,08 & 1,09 & 1,12 & 1,11 \\ \hline \multicolumn{11}{c}{_Paraméres Régionaux : \(\alpha_{{}_{R}}=\) 4,24 et \(\beta_{{}_{R}}=\) 1,09_} \\ \hline \hline \end{tabular}
+\end{table}
+Table 2: Local and regional parameters of the annual mean discharge distribution (chronicle of Table 1).
+
+### Basin hydrographique du Timis-Bega : modele regional des modules
+
+Le biais temporel eventuel sur les parametres de la loi regionale des bassins du Timis et du Bega est faible (Tableaux 2 et 3, Tableau 4). Pour plus d'objectivite sur le choix du modele regional du Timis-Bega, nous retiendrons les resultats associes a la periode d'observation commune aux deux bassins (1980-2001). Les lois regionales des modules du Timis et du Bega sont peu differencices, notamment pour les faibles valeurs de \(\mathrm{U}_{\mathrm{F}}\) (Figure 3).
+
+Un critere d'erreur quadratique moyenne (3), inspire des criterees utilises par OUARDA et ASHKAR (1994), permet d'apprecier l'adoquen du calage des modeles regionaux (Tableau 5). Ce critere d'erreur (Er) a ete applique entre quantiles << observes >> (1) et quantiles d'eduits de la loi regionale (2) ou \(\mathrm{Q}\mathrm{Q}\mathrm{Q}_{\mathrm{\mbox{\tiny inc}}}\) est connu grace aux observations.
+
+\[\mathrm{Er}_{\mathrm{\mbox{\tiny min}}}\left(\%\right)=100*\sqrt{\frac{ \sum_{=i}\ \sum_{=i}^{n}\left(\frac{\mathrm{Q}_{\mathrm{A}_{\mathrm{n}_{i}}}(\mathrm{U} _{i})-\mathrm{QA}_{\mathrm{n}_{i}}(\mathrm{U}_{i})}{\mathrm{QA}_{\mathrm{n}_ {i}}(\mathrm{U}_{i})}\right)}{\sum_{=i}^{n}\mathrm{n}_{n}}} \tag{3}\]
+
+avec s, le nombre de sous-bassins par bassin; n, le nombre d'annes de la periode d'observation consideree.
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c c c c c c} \hline \hline
+**Station** & **53105** & **53110** & **53115** & **53125** & **53205** & **53305** & **53405** & **53505** & **53510** & **53515** & **53605** & **53705** & **53805** & **55105** \\ \hline \(\mathrm{S}\left(\mathrm{km}^{2}\right)\) & 73,5 & 560 & 1 072 & 2 706 & 163 & 125 & 122 & 232 & 404 & 863 & 79 & 77 & 35 & 41 \\ \hline \multicolumn{11}{c}{Paramétr es locaux (I) et quantile median} & \multicolumn{1}{c}{\(\mathrm{Q}\mathrm{A}_{\mathrm{L}}\)} \\ \hline \(\alpha_{\mathrm{L}}\) & 3,21 & 4,94 & 3,45 & 3,67 & 5,34 & 4,66 & 3,38 & 4,35 & 4,22 & 3,62 & 4,75 & 4,08 & 2,98 & 3,64 \\ \(\beta_{\mathrm{L}}\left(\mathrm{m}^{2}/\mathrm{s}\right)\) & 2,06 & 11,0 & 20,6 & 42,8 & 4,76 & 2,95 & 3,16 & 4,31 & 7,18 & 12,9 & 2,99 & 3,44 & 0,74 & 0,76 \\ \(\overline{\mathrm{Q}\mathrm{A}_{\mathrm{L}}}\) & 1,84 & 10,2 & 18,5 & 38,7 & 4,45 & 2,73 & 2,84 & 3,96 & 6,58 & 11,7 & 2,77 & 3,15 & 0,678 & 0,686 \\ \(\beta_{\mathrm{L}}^{*}\) & 1,12 & 1,08 & 1,11 & 1,11 & 1,07 & 1,08 & 1,11 & 1,09 & 1,09 & 1,11 & 1,08 & 1,09 & 1,09 & 1,11 \\ \hline \multicolumn{11}{c}{_Prunanitres Regionaux: \(\alpha_{\mathrm{R}}^{*}=4\),03 at \(\beta_{\mathrm{R}}=1\),10_} \\ \hline \hline \end{tabular}
+\end{table}
+Table 3: Local and regional parameters of the Weibull distribution of annual mean discharge (1980-2001).
+
+Figure 2: Loi regionale des modules : a) chronique complete (cf. tableau 1) et b) periode 1980-2001 pour le bassin du Timis. Regional distribution of the annual mean discharges: a) time series available (of Table 1) and b) period 1980-2001 for the Timis catchment.
+
+\begin{table}
+\begin{tabular}{c c c c c c|c c c c c} \hline \hline
+**Station** & **50105** & **50110** & **50115** & **50205** & **50301** & **50105** & **50110** & **50115** & **50205** & **50301** \\ \hline
+**Periodo** & **1976-2001** & **1974-2001** & **1970-2001** & **1966-2001** & **1980-2001** & & & **1980-2001** & & \\ \hline S (km\({}^{2}\)) & 73,5 & 474 & 1 064 & 80 & 57 & 73,5 & 474 & 1 064 & 80 & 57 \\ \hline  & & & Paramétrès locaux (I) et quantile median & \(\overline{\text{Q}\Lambda}_{{}_{L}}\) & & & & & & \\ \hline \(\alpha_{{}_{L}}\) & 4,55 & 3,56 & 2,80 & 3,12 & 2,87 & 4,61 & 3,47 & 3,07 & 3,27 & 2,87 \\ \(\beta_{{}_{L}}\) (m\({}^{3}\)/s) & 1,49 & 5,66 & 8,52 & 1,36 & 0,63 & 1,46 & 5,32 & 7,86 & 1,20 & 0,63 \\ \hline Q\(\Lambda_{{}_{L}}\) (m\({}^{3}\)/s) & 1,38 & 5,10 & 7,47 & 1,21 & 0,55 & 1,35 & 4,78 & 6,97 & 1,07 & 0,55 \\ \(\beta_{{}_{L}}^{*}\) & 1,08 & 1,11 & 1,14 & 1,12 & 1,14 & 1,08 & 1,11 & 1,13 & 1,12 & 1,14 \\ \hline  & & & & & & & & & \\ \hline \end{tabular}
+\end{table}
+Table 4: **Table 5**: **Arever quadratic error on the annual mean discharges quantiles for each catchment.**
+
+Figure 3: **Lois régionales sur les modules des bassins du Timis et du Bega (1980-2001); (a) 0-cU\({}_{F}\)<4,0 ct (b) 0-cU\({}_{F}\)<1,0.**
+
+_Regional distribution of the annual mean discharges for the Timis and Bega catchments; (a) \(\theta\)-cU\({}_{F}\)<4.0 and (b) 0-cU\({}_{F}\)<1.0._Ce critere d'erreur a l'echelle des bassins du Timis et du Bega peut etre diversite pour les sous-bassins du Timis, par exemple (Tableau 6).
+
+Les resultats precedemment obtenus nous permettent de considerer que le bassin hydrographique du Timis-Bega est une region hydrologique homogene pour laquelle un seul modele regional des modules peut etre envisage. Si chaque bassin joue tour a tour un role de calage et de validation, nous pouvons noter les incertitudes qui en resultent (Tableau 7).
+
+Comparativement aux incertitudes regionales (Tableau 5), nous en deduisons que le modele regional des modules du Bega est representatif du bassin hydrographique du Timis-Bega. Ce modele, applique au bassin du Timis, degrade peu les quantiles << humides << (F\({}_{i}>0,5\)) et pas du tout les quantiles << secs >> (F\({}_{i}<0,5\)). Une illustration peut en etre donnee pour des quantiles << secs >> et des quantiles << humides << particuliers du bassin du Timis (Figure 4). Nous comparons les quantiles << observes >> (Eq. 1) aux quantiles regionalises (Eq. 2). La comparaison est effectuce dans un premier temps avec les quantiles regionalises selon le modele du Bega (validation), et, dans un deuxieme temps, selon le modele du Timis (adequation du calage). La bonne correspondance observe entre calage et validation nous permet de retenir pour le bassin hydrographique du Timis-Bega le modele regional des modules de parametres << 3,46 et << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << << <<<< << <<<< << << <<<< << << <<<< << <<<< << <<<< <<<< << <<<< <<<< <<<< <<<< <<<< <<<< <<<< <<<< <<<< <<<< <<<< <<<<<< <<<< <<<<<< <<<< <<<<<< <<<< <<<< <<<< <<<<<< <<<<<< <<<<<< <<<<<<<< <<<<<<<<<< Une modelisation statistique peut etre generalisee a l'ensemble des dures d par calge d'une fonction locale \(V_{L}(d,\,U_{P})\) sur les echantillons \(vcn_{d}\). Cette modelisation fait reference a l'analyse QdF qui, d'une maniere generale, fournit une description frequentielle theorique multi-duree des quantiles de crue ou d'etiage, et ce, independamment des lois de probabilite retenues (JAVELLE, 2001). Le concept de modelisation (GALEA _et al._, 2000) repose sur une propriete observee des differents ajustements \(V_{L}(U_{P})\) a converger vers les fortes periodes de retour des annces << seches << et sur une propriete d'affinite orthogonale des lois de probabilite theorique relatives aux echantillons \(vcn_{d}\)(GALEA et CANALI, 2005). L'application du modele QdF convergent nous permet de donner une description theorique (Eq. 5) selon \(V_{L}(d,\,U_{P})\) des regimes d'etiage observes.
+
+\[V_{L}(d,U_{P})=\beta^{*}U_{P}^{1/\alpha^{*}}\overline{vcn_{d+1}}\left(\frac{d -1}{\Delta c}+1\right) \tag{5}\]
+
+avec \(\beta^{*}U_{P}^{1/\alpha^{*}}\), la distribution theorique locale adimensionnelle des debts d'etiage consolidee par modelisation (GALEA et CANALI, 2005), car toutes les dures de 1 j a 90 j participant a l'estimation des deux parametres de la distribution theorique; \(\Delta c\), le parametre a caler sur les echantillons \(vcn_{d}\) constitues, homogene a un temps et relie a la dynamique des etiages. Autrement dit, il permet de deduire, de la distribution theorique consolidee des debts journaliers d'etiage (\(\beta^{*}U_{P}^{1/\alpha^{*}}\overline{vcn_{d+1}}\)), les distributions relatives a d = 3 j, 6 j...90 j.
+
+### Modelisation QdF regionale des etiages
+
+Les parametres regionaux \(\alpha_{R}\) et \(\beta_{R}\) du Timis et du Bega sont estimes a partir d'une moyenne ponderee (nombre d'annees d'observation) des parametres consolides \(\beta^{c}\) et \(\alpha^{c}\) (Tableau 8). Pour chaque bassin, un modele regional permet d'estimer les quantiles d'etiage des sites particuliers (Eq. 6).
+
+\[V_{R}(d,U_{P})=\beta_{R}U_{P}^{1/\alpha_{R}}\overline{V}_{d+1,\alpha_{R}} \left(\frac{d-1}{\Delta c_{sinc}}+1\right) \tag{6}\]
+
+ou \(\beta_{R}U_{L}^{1/\alpha_{R}}\), la distribution theorique regionale des debts d'etiage; \(V_{d+1,\alpha_{R}}\), le quantile journalier d'etiage median deduit de (Eq. 4) ou estime (cf. ulterieurement); \(\Delta c_{sinc}\), le temps caracteristique d'etiage deduit des observations (Eq. 5) ou estime (cf. ulterieurement).
+
+Un critere d'erreur quadratique moyenne, analogue a celui des modules (Eq. 3), applique aux sous-basins du Timis et du Bega entre quantiles theoriques locaux (Eq. 5) et regionaux (Eq. 6) permet d'apprecier l'adequation des modeles regionaux (Tableau 8) ainsi que le caractere hydrologique homogene de la region (Figure 5).
+
+Figure 4: **Comparison des quantiles << observés << et regionalises sur le bassin du Timis; (a) QA seco T = 5 ans; (b) QA seco T = 5 ans; (c) QA seco T = 10 ans; (d) QA seco T = 10 ans; (e) QA shumidee T = 5 ans; (f) QA shumidee T = 5 ans; (g) QA shumidee T = 10 ans; (h) QA shumidee T = 10 ans.**
+
+L'application du modele regional d'etage du Bega aux sousbassins du Timis et _vice-versa_ accroit significativement l'erreur quadratique moyenne des quantiles << secs >> en particulier (Tableaux 8 et 9).
+
+Le choix d'un modele regional d'etage unique pour le bassin hydrographique du Timis-Bega est cependant possible. En effet, la generalisation du modele regional d'etage du bassin du Timis (\(\alpha_{\mathrm{R}}\) = 2,78 et \(\beta_{\mathrm{R}}\) = 1,20) au bassin du Bega ne degrade pas l'estimation des quantiles << humides >> (\(\forall\) F\({}_{\mathrm{i}}\) > 0,5). Seuls les quantiles << secs >> (\(\forall\) F\({}_{\mathrm{i}}\) < 0,5) voient leur estimation sensiblement degrade, conformement a la differenciation des modeles regionaux (Figure 5), mais cela reste tout de meme acceptable. Nous en donnons une illustration pour la norme d'usage : le debit moyen d'etage de 30 jours (Figure 6).
+
+\begin{table}
+\begin{tabular}{c|c} \hline \hline
+**Bassin du Timis (13 sous-bassins)** & **Bassin du Bega (5 sous-bassins)** \\ \hline Parametres régionaux & Parametres régionaux \\ \hline \(\alpha_{\mathrm{R}}\) = 2,78 et \(\beta_{\mathrm{R}}\) = 1,20 & \(\alpha_{\mathrm{R}}\) = 3,25 et \(\beta_{\mathrm{R}}\) = 1,23 \\ \hline Erreur quadratique (\%) & Erreur quadratique (\%) \\ \hline \(\forall\) F\({}_{\mathrm{i}}\) confondues \(\forall\) F\({}_{\mathrm{j}}\)\(>\)0,5 \(\forall\) F\({}_{\mathrm{i}}\)\(<\)0,5 \(\forall\) F\({}_{\mathrm{i}}\) confondues \(\forall\) F\({}_{\mathrm{j}}\)\(>\)0,5 \(\forall\) F\({}_{\mathrm{i}}\)\(<\)0,5 \\ \hline
+10,1 & 9,3 10,8 & 6,1 & 5,2 & 6,9 \\ \hline \hline \end{tabular}
+\end{table}
+Table 8: **Erreur quadratique moyenne sur les quantiles d’etage de chaque bassin.**
+
+\begin{table}
+\begin{tabular}{c c c|c c c} \hline \hline
+**Bassin du Timis (13 sous-bassins)** & \multicolumn{3}{c}{**Bassin du Bega (5 sous-bassins)**} \\ \hline Er. Quadatique (\%), avec paramátrers régionaux & Er. quadratique (\%), avec paramátrers régionaux Timis \\ \hline \(\forall\) F\({}_{\mathrm{i}}\) confondues \(\forall\) F\({}_{\mathrm{j}}\)\(>\)0,5 \(\forall\) F\({}_{\mathrm{i}}\)\(<\)0,5 & \(\forall\) F\({}_{\mathrm{i}}\) confondues \(\forall\) F\({}_{\mathrm{j}}\)\(>\)0,5 \(\forall\) F\({}_{\mathrm{i}}\)\(<\)0,5 \\ \hline
+16,3 & 9,7 & 20,9 & 9 & 5,9 & 11,3 \\ \hline \hline \end{tabular}
+\end{table}
+Table 9: **Erreur quadratique moyenne sur les quantiles d’etage du Timis-Bega.**
+
+Figure 5: **Lois régionales sur les étiages des bassins du Timis et du Bega; (a) 0-U\({}_{\mathrm{j}}\)\(<\)4,5 et (b) 0-U\({}_{\mathrm{j}}\)\(<\)1,0.**
+
+_Low flow regional distributions for the Timis and Bega catchments (a) 0-U\({}_{\mathrm{j}}\)\(<\)4.5 et (b) 0-U\({}_{\mathrm{j}}\)\(<\)1.0._
+
+## 5 Similitudes Regionales Avec Le Bassin De La Moselle
+
+### Differentiation des lois regionales sur les modules et les etiages du Timis-Bega
+
+Les lois regionales etablies pour les modules annuels et les etiages du Timis-Bega montrent une faible differenciation pour les quantiles des annees moyennes a << seches >> (\(\forall\) U\({}_{\text{E}}\) < 0,7), ce qui n'est pas le cas pour les quantiles des annees << humides >> (Figure 7). Ce resultat est a rapprocher de celui trouve pour le bassin hydrographique de la Moselle francaise (GALEA et CANALI, 2005).
+
+### Comparasion des lois regionales du Timis-Bega et de la Moselle
+
+Nous notons la quasi similitude des lois regionales du Timis-Bega et de la Moselle, tant en ce qui concerne les modules que les etiages (Figure 8). C'est un resultat inartendu, d'autant plus qui'il sagit de deux entites geographiques contrastes, entre
+
+Figure 6: Comparison des quantiles d’étiage sur 30 jours pour le bassin du Bega (a) quinququennal <<secs>> (b) decanal <<secs>> (c) quinquennal <<humides>> (d) decanal <<humides>> _Comparison of low flow 30-day quantiles for the Bega catchment; (a) five-year edry>> (b) 10-year edry>> (c) 5-year <<humides>> (d) 10-year <<humides>>_
+
+Figure 7: Comparison des lois regionales sur les modules et étiages du Timis-Bega (a) 0<U\({}_{\text{E}}\)<4,5 et (b) 0<U\({}_{\text{E}}\)<1,0. _Comparison of regional distributions of annual mean discharge and low flow in the Timis-Bega catchment (a) 0<U\({}_{\text{E}}\)<4.5 and (b) 0<U\({}_{\text{E}}\)<1.0._autres, par le climat et le regime des crues (MIC et GALEA, 2004; GALEA et BLUM, 2005). Par reference a certains travaux sur la modelisation statistique des crues, nous pourrions avancer deux elements d'explication. Cela militerait, d'une part, pour la theorie des regions hydrologiques homogenes (RIBEIRO-CORREA _et al._, 1995; OUARDA _et al._, 2001 ) et, d'autre part, pour le concept de modelisation QdF a reference typologique (MIC _et al._, 2002).
+
+## 6 Estimation des Des Descripteurs de Regime
+
+### Estimation du module median d'un sous-bassin non observe
+
+Pour estimer les quantiles du module annuel en un site donne, le modele regional (Eq. 2) est propose avec la regression lineaire sur variables normalisees (Eq. 7). Les coefficients de correlation partielle \(\mathrm{R_{S}}\) (0,985) et \(\mathrm{R_{ZnO}}\) (0,869) sont significatifs. Is sont en effet superieurs a R (0,76), coefficient relatif au test de validite des coefficients de correlation partielle au seuil d'erreur de 1 % de la variable de STUDENT. La relation (7) explique 97 % de la variance du module median et pour un intervalle de confiance raisonnable (70 %), la vraie valeur de \(\overline{\mathrm{Q}\Lambda}\) est comprise entre 0,80 fois et 1,24 fois la valeur estimee selon l'equation 7. Au tableau 10, nous presentons le controle du calage de la relation (Eq. 7).
+
+\[\overline{\mathrm{Q}\Lambda}_{{}_{\mathrm{size}}}=1,51\bullet 10^{-5}\mathrm{S} \,\mathrm{Zm}^{1,95} \tag{7}\]
+
+avec S, la Superficie (km\({}^{2}\)); Zm, l'altitude moyenne (m).
+
+Lerreur quadatique moyenne obtenue en validation est du meme ordre de grandeur (Tableau 11).
+
+Ulteiereurement, nous verifierons une procedure mise en eeuvre pour le bassin hydrographique de la Moselle (GALEA et CANALI, 2005) et qui permet, a partir de quelques mesures d'etriage par an concomitantes au site non observe et aux sous-bassin observes, une estimation appreciable du module median. Nous nous interesserons en particulier au sous-bassin 53105 du jeu de calage et au sous-bassin 53515 du jeu de validation pour lesquels l'estimation selon (7) induit la plus forrerereur relative sur le module median.
+
+### Estimation du quantile journalier median d'etriage d'un sous-bassin non observe
+
+Pour estimer les quantiles d'etriage, le modele regional (Eq. 6) est propose avec l'equation 8, regression multiple (R\({}^{2}\) = 0,97) qui permet d'estimer, en l'absence d'observation de debit, le quantile journalier median d'etriage en un site donne \(\overline{\mathrm{V}}_{{}_{\mathrm{d+size}}}\). Comme precedemment, pour le module median, les coefficients de correlation partielle \(\mathrm{R_{S}}\) (0,985) et \(\mathrm{R_{D}}\) (0,843) sont significatifs, l'intervalle de confiance a 70 % est comparable. Le tableau 12 presente le controle du calage de la relation (8).
+
+\[\overline{\mathrm{V}}_{{}_{\mathrm{d+size}}}=7\bullet 10^{-5}\mathrm{S}^{0, \mathcal{N}}\,\mathrm{Ib}^{0,85} \tag{8}\]
+
+avec S, la Superficie (km\({}^{2}\)); Ib, la pentre moyenne du sous-bassin (%\({}^{0}\)).
+
+En ce qui concerne le jeu de validation (Tableau 13), nous rappelons que la loi de Weibull a deux parametres n'est pas
+
+Figure 8: Comparison des lois régionales des bassins hydrographiques du Timis-Béga et de la Moselle; (a) lois régionales sur QA et (b) lois régionales d’étage.
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c c c} \hline \hline
+**Code** & **50105** & **50110** & **50115** & **50205** & **53105** & **53115** & **53125** & **53205** & **53305** & **53405** \\ \hline S (km\({}^{\rm s}\)) & 73.5 & 474 & 1064 & 80 & 167 & 1 072 & 2 706 & 163 & 125 & 122 \\ \(\overline{\rm Q\Lambda}\) (\(\rm\dot{e}\).1) observ\({}^{\rm c}\) & 1,35 & 4,78 & 6,97 & 1,07 & 1,84 & 18,5 & 38,7 & 4,45 & 2,73 & 2,84 \\ (m\({}^{\rm s}\)/s) & 1,14 & 4,58 & 7,07 & 1,29 & 3,21 & 17,4 & 37,6 & 4,06 & 2,59 & 2,11 \\ Erreur relative (\%) & 16 & 4 & -1 & -21 & -74 & 6 & 3 & 9 & 5 & 26 \\ \hline Erreur quadratic (\%) & & & & & & **19** & & & & \\ \hline \hline \end{tabular}
+\end{table}
+Table 10: **Calagle de la relation (Eq. 7).**
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c} \hline \hline
+**Code** & **50105** & **50110** & **50115** & **50205** & **53105** & **53115** & **53125** & **53205** & **53305** & **53405** \\ \hline S (km\({}^{\rm s}\)) & 73.5 & 474 & 1064 & 80 & 167 & 1 072 & 2 706 & 163 & 125 & 122 \\ \(\overline{\rm V}_{d\rm-l}\) (d) observ\({}^{\rm c}\) (m\({}^{\rm s}\)/s) & 0,633 & 1,81 & 2,08 & 0,417 & 0,440 & 3,63 & 8 & 1,04 & 0,646 & 0,633 \\ \(\overline{\rm V}_{d\rm-l}\) (8) & (m\({}^{\rm s}\)/s) & 0,460 & 1,39 & 2,13 & 0,440 & 0,530 & 3,84 & 7,85 & 1,08 & 0,760 & 0,660 \\ Erreur relative (\%) & 27 & 23 & -2 & -6 & -20 & -6 & 2 & -4 & -18 & -4 \\ \hline Erreur quadratic (\%) & & & & & & **15** & & & & \\ \hline \hline \end{tabular}
+\end{table}
+Table 11: **Validation of the relationship (7).**
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c c} \hline \hline
+**Code** & **50105** & **50110** & **50115** & **50205** & **53105** & **53115** & **53125** & **53205** & **53305** & **53405** \\ \hline S (km\({}^{\rm s}\)) & 73.5 & 474 & 1064 & 80 & 167 & 1 072 & 2 706 & 163 & 125 & 122 \\ \(\overline{\rm V}_{d\rm-l}\) (d) observ\({}^{\rm c}\) (m\({}^{\rm s}\)/s) & 0,633 & 1,81 & 2,08 & 0,417 & 0,440 & 3,63 & 8 & 1,04 & 0,646 & 0,633 \\ \(\overline{\rm V}_{d\rm-l}\) (8) & (m\({}^{\rm s}\)/s) & 0,460 & 1,39 & 2,13 & 0,440 & 0,530 & 3,84 & 7,85 & 1,08 & 0,760 & 0,660 \\ Erreur relative (\%) & 27 & 23 & -2 & -6 & -20 & -6 & 2 & -4 & -18 & -4 \\ \hline Erreur quadratic (\%) & & & & & & & **15** & & & \\ \hline \hline \end{tabular}
+\end{table}
+Table 12: **Calagle de la relation (8).**
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c} \hline \hline
+**Code** & **50105** & **50110** & **50115** & **50205** & **53105** & **53115** & **53125** & **53205** & **53305** & **53405** \\ \hline S (km\({}^{\rm s}\)) & 73.5 & 474 & 1 064 & 80 & 167 & 1 072 & 2 706 & 163 & 125 & 122 \\ \(\overline{\rm V}_{d\rm-l}\) (d) observ\({}^{\rm c}\) (m\({}^{\rm s}\)/s) & 0,633 & 1,81 & 2,08 & 0,417 & 0,440 & 3,63 & 8 & 1,04 & 0,646 & 0,633 \\ \(\overline{\rm V}_{d\rm-l}\) (8) & (m\({}^{\rm s}\)/s) & 0,460 & 1,39 & 2,13 & 0,440 & 0,530 & 3,84 & 7,85 & 1,08 & 0,760 & 0,660 \\ Erreur relative (\%) & 27 & 23 & -2 & -6 & -20 & -6 & 2 & -4 & -18 & -4 \\ \hline Erreur quadratic (\%) & & & & & & & **15** & & & \\ \hline \hline \end{tabular}
+\end{table}
+Table 10: **Calagle de la relation (Eq.
+
+acceptable pour decrire les etiages du sous-bassin 55105. La valeur du quantile journalier median peut etre cependant approchee a partir de la mediane de l'echantillon.
+
+L'erreur quadratique de 55 % sur le jeu de validation (huit sous-basins) est a relativiser dans la mesure ou nous sommes en presence de faibles debits. Ce qui est a rechercher est essentiellement l'ordre de grandeur et nous verrons ulterieurement comment cela peut etre ameliore a partir d'une information episodique sur les etiages des sous-basins. Comme pour les modules, nous nous interesserons aux sous-basins presentant la plus forte erreur relative sur l'estimation de \(\overline{V}_{\text{d-l}}\).
+
+### Estimation du temps caracteristique d'etage de
+
+Pour le temps caracteristique d'etage, nous avons ete amene a differencier son estimation, en fonction de l'altitude moyenne, selon qu'il'sagisse des sous-basins du Timis (Eq. 9) ou du Bega (Eq. 10).
+
+\[\Delta\mathrm{c}_{\text{\tiny{intc}(Timis)}}=7,17\,\mathrm{Zm}^{\text{\tiny{0,4} }} \tag{9}\]
+
+\[\Delta\mathrm{c}_{\text{\tiny{intc}(Pop)}}=7,10\,\mathrm{Zm}^{\text{\tiny{0,55} }} \tag{10}\]
+
+Pour le bassin du Timis, la relation (9) a cte calee sur huit des 14 sous-basins et validee sur les six autres. Pour le bassin du Bega, la relation (10) a cte exclusivement calee, etant donne le faible nombre de sous-basins (Tableau 14).
+
+L'incertitude sur ce parametre est acceptable compte tenu de sa relative faible sensibilite dans le modele d'etage (GALEA _et al._, 2000).
+
+On peut montrer l'influence de \(\Delta\mathrm{e}\) sur les quantiles relatifs aux durees d (1 j, 3 j, 6 j, 10 j, 30 j et 90 j) des sous-basins 50205 et 50105 qui presentent la plus forte erreur d'estimation de \(\Delta\mathrm{e}\), respectivement 51 % et -36 % (Tableau 14). L'erreur quadratique moyenne est etablie toutes d'etres d'onfonfonfues entre modelisation locale (Eq. 5) et ajustements directs (Eq. 4). Pour le sous-bassin 50205, l'incertitude sur les quantiles associes aux valeurs respectives de \(\Delta\mathrm{e}\) de 175 j et 264 j est donnee au tableau 15.
+
+Une visualisation de cette incertitude peut etre montree a partir des distributions obtenues pour les echantillons de dures 10 j, 30 j et 90 j. L'influence de \(\Delta\mathrm{e}\) est surtour sensible a 90 j (Figure 9).
+
+Nous faisons de meme pour le sous-bassin 50105 (Tableau 16).
+
+La visualisation de cette incertitude a la figure 10 (comme a la figure 9) pour les distributions relatives aux dures 10 j, 30 j et 90 j montre que l'incertitude d'estimation de \(\Delta\mathrm{e}\) a peu d'impact sur les quantiles modelises (5) de quelques jours a 30 jours. L'impact est relativement sensible pour les quantiles d'etage sur 90 j.
+
+### Pries en compte d'une information episodique sur les debits d'etage
+
+Le principe a deja cte eprouve pour le bassin hydrographique de la Moselle (GALEA et CANALI, 2005). Nous rappelons que l'information episodique sur les debits d'etage concerne des mesures concomitantes au sous-bassin etudie (site) et au sous-bassin de reference qui lui est associe (Figure 11). Selon la nomenclature des reseaux d'observation en vigueur, le sous-bassin de reference appartient en general au reseau primaire tandis que le site etudie est celui associe au reseau tertiaire, en principe instrumente et sade des avant-projects. Le critere de choix du sous-bassin de reference n'est pas l'objectif de notre
+
+\begin{table}
+\begin{tabular}{c c c c c c c c c c} \hline \hline
+**Code** & **50301** & **53110** & **53505** & **53510** & **53515** & **53605** & **53705** & **53805** & **55105** \\ \hline S (km\({}^{\prime}\)) & 57 & 560 & 232 & 404 & 863 & 79 & 77 & 35 & 41 \\ \(\overline{V}_{d\text{-l}}\) (4) observé (m\({}^{\prime}\)/s) & 0,128 & 2,38 & 0,839 & 1,50 & 2,69 & 0,759 & 0,784 & 0,144 & 0,136 \\ \(\overline{V}_{d\text{-l}}\) (8) & (m\({}^{\prime}\)/s) & 0,210 & 2,32 & 1,29 & 1,99 & 3,64 & 0,640 & 0,510 & 0,310 & 0,370 \\ Erereur relative (\(\%\)) & -64 & 3 & -54 & -33 & -35 & 16 & 35 & -115 & -172 \\ \hline Erereur quadratique (\(\%\)) & & & & & & & & & \\ \hline \hline \end{tabular}
+\end{table}
+Table 13: Validation of the relationship (8).
+
+\begin{table}
+\begin{tabular}{c c c c|c c c c c} \hline \hline \multicolumn{6}{c|}{**Bassin du Timis (14 sous-bassins)**} & \multicolumn{6}{c}{**Bassin du Bega (5 sous-bassins)**} \\ \hline SOUS-BASSINS & S & & \(\Delta\)c (\(\parallel\)) & & SOUS-BASSINS & S & & \(\Delta\)c (\(\parallel\)) & \\ \hline  & (km\({}^{2}\)) & \(\stackrel{{\mbox{observ\'{e}}}}{{\mbox{cstim\'{e}}}}\) & \(\stackrel{{\mbox{err
+
+\begin{table}
+\begin{tabular}{c c} \hline \hline
+**Tableau 16.** & **Intertitude sur les quantites d’éitage du sous-bassin 50105 liee a** \\
+**F**estimation de \(\Delta\epsilon\). \\
+**Table 16.** & **Low flow quantile uncertainty induced by the estimation of \(\Delta\epsilon\) for the (50105) sub-catchment.** \\ \hline \hline
+**50105 : Modelisation (5) avec \(\alpha\) = 4,13 \(\beta\) = 1,18 et \(\overline{\mathrm{v}\mathrm{c}\mathrm{c}\mathrm{c}\mathrm{c}\mathrm{c} \mathrm{c}}_{\mathrm{d}=1}\) = 0,595 m\({}^{\prime}\)/s** \\ \hline \hline \end{tabular} 
+\begin{tabular}{c c} \hline \hline
+**\(\Delta\epsilon\)** = 408 j (\(\mathrm{o}\mathrm{spropos, le choix est effecte _a priori_. Notre intention premiere est l'evaluation du principe dans le contexte hydro-climatique du Timis-Bega, different de celui de la Moselle.
+
+Pour le site etudie (non observe continuent) et pour le sous-bassin de reference, un chantillon de 50 valeurs est constitue a partir des chroniques de debit journalier, a raison de cin mesures par an sur les dix dernieres annees, pour fixer les idees. Les deux chantillons concomitants, une fois constitues, un simple coefficient d'affinite k entre cumuls des debits d'etage echantillonnes, du site etudie en fonction du sous-bassin de reference, est propose pour estimer le descripteur du regime d'etage \(\overline{\nabla}_{\text{\tiny d+jac}}\) (11). Si cela est verifie et compte tenu de la faible differenciation observee entre les lois regionales (Figure 7), pour les annees moyennes a << sechs >> (\(\forall\) U\({}_{\text{F}}<\) 0,7), nous faisons l'hypothese forte que ce meme coefficient d'affinite k, etabli sur les debits d'etage, peut permettre une estimation satisfaisante du module median \(\overline{\text{QA}}_{\text{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{ \tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{\tiny{ \tiny{                                 \left.}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}\)\)\)\)\)\)\) \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\}\
+
+\begin{table}
+\begin{tabular}{c c c c|c c c c c c|c c c c c c c} \hline \hline \multicolumn{12}{c|}{**Sous-bassian de rééééference**} & \multicolumn{12}{c|}{**Site étudié**} \\ \hline \multirow{3}{*}{Code} & S & \multirow{3}{*}{\(\overline{\mathrm{V}_{\mathrm{d+1}}}\)} & \multirow{3}{*}{\(\overline{\mathrm{Q}\mathrm{A}}\)} & \multirow{3}{*}{**K**} & \multirow{3}{*}{Code} & S & \multirow{3}{*}{\(\overline{\mathrm{V}_{\mathrm{d+1}}}\)} & \multirow{3}{*}{} & \multirow{3}{*}{} & \(\overline{\mathrm{Q}\mathrm{A}}\) & \multirow{3}{*}{} \\  & (km\({}^{2}\)/s) & (m\({}^{2}\)/s) & & & & & & & & & & \(\langle\mathrm{m}^{3}/\mathrm{s}\rangle\) & & \\ \hline  & & (4) & (1) & & & & (4) & (8) & \(\mathrm{F}_{\mathrm{e}_{\mathrm{\gamma}}}\) & (11) & \(\mathrm{F}_{\mathrm{e}_{\mathrm{\gamma}}}\) & (1) & (7) & \(\mathrm{F}_{\mathrm{e}_{\mathrm{\gamma}}}\) & (12) & \(\mathrm{F}_{\mathrm{e}_{\mathrm{\gamma}}}\) \\ \hline
+
+[MISSING_PAGE_POST]
+
+33 & 0,690 & 0,650 & 6 & 0,774 & -12 \\ \hline \hline \end{tabular}
+\end{table}
+Table 17: Poids de l’information épisodique d’étiage sur l’estimation des descripteurs de régime.
+
+Figure 12: **Erreur relative sur \(\overline{\mathrm{V}_{\mathrm{d+1}}}\),**ité et \(\overline{\mathrm{Q}\mathrm{A}}\),**selon les estimations; (a) entre débit journalier médian d’étage observé (Eq. 4) et estimé selon l’eq. 8 ou l’Eq. 11\({}_{\mathrm{1}}\) (b) entre module médian observé (Eq. 1) et estimé selon l’éq. 7 ou l’Eq. 12.
+
+* [14] MICE R. et G. GALEA (2004). Local and regional estimation of floods in the Timis and Bega hydrographic basins. Application of converging QdF model concept. Conference on Water Observation and Information System for Decision Support, Ohrid, FY Republic of Macedonia, 25-29 May 2004.
+* [15] OURADA T.B.M.J. et F. ASHKAR (1994). Bootstrap-based intercomparison of regional flood frequency models. Rapport technique, Departement de mathematiques, Universite de Moncton, 13p.
+* [16] OURADA T.B.M.J., C. GIRARD, G.S. CAVADIAS et B. BOBEE (2001). Regional flood frequency estimation with canonical correlation analysis. _J. Hydrol._, 254, 157-173.
+* [17] RIBEIRO-CORREA J., G.S. CAVADIAS, B. CLEMENT et J. ROUSSELLE (1995). Identification of hydrological neighborhoods using canonical correlation analysis, _J. Hydrol._, 173, 71-89.
+* [18] SAUQUET E., E. LEBLOIS et G. GALEA (2003). Mapping flood regime descriptors for flow duration-frequency characterisation at ungauged location. EGS-2003, Nice, France (affiche). 
+
+

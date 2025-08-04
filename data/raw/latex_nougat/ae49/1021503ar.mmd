@@ -1,0 +1,193 @@
+# L'Evaluation de l'EfficiENCE DES INSTITUTIONS D'ENSEIGEMENT SUPERIEUR EN TUNISIE :
+
+Le CAS DES INSTITuts SUPERIEURS DES ETUDES TECHOLOGiques (ISET)
+
+Anis BOUZOUITA
+
+_Faculte de Droit et des Sciences Economiques et Politiques de Sousse_
+
+anisbouzouita2005@yahoo.fr
+
+Valerie VIERSTRAETE
+
+_Departement d'economique,_
+
+_GREDI,_
+
+_Universite de Sherbrooke_
+
+_valerie.vierstraete@usherbrooke.ca_
+
+Mokhtar KOUKI
+
+_Ecole Superieure de la Statistique et d'Analyse de l'Information de Tunis_
+
+###### Resume
+
+Dans cet article, nous evaluons l'efficience des Instituts superieurs des etudes technologiques tunisiens (ISET) avec la methode non parametrique du _Data Envelopment Analysis (DEA)_. Il ressort des resultats empiriques que le fonctionnement de ces etablissements se caracterise par une inefficience technique de l'ordre de 20 %, pouvant s'expliquer a la fois par des problemes de taille des etablissements (inefficience d'echelle de 11 % environ) et par des problemes de gestion (inefficience pure de l'ordre de 10 %). Les resultats montrent egalement qu'une majorite des ISET de notre echantillon fonctionnerait de facon optimale si leur echelle de production augmentat, ce qui peut se reveler des pistes de solutions pour les pouvoirs politiques voulant promouvoir le systeme educatif superieur en Tunisie.
+
+###### Abstract
+
+_- Assessing the Efficiency of Higher Education Institutions in Tunisia : The Case of Higher Institutes of Technological Studies._ In this paper, we evaluate the technical efficiency of Tunisian higher institutes of technological studies (ISET) with a non-parametric method, the Data Envelopment Analysis (DEA). The results show that these institutions are characterized by technical inefficiency of around 20%, which can be explained both by an inaccurate size (scale inefficiency of 11%) and by management problems (pure inefficiency of around 10%). We also find that a majority of the ISET in our sample would operate optimally if they could increase their scale of production. This can be a way for policy makers who want to promote higher education in Tunisia.
+
+## Introduction
+
+Au debut des annees 1990, les ministeres de la Formation professionnelle et de l'Enseignement superieur de la Tunisie ont engage un vaste chantier de reformes educatives. Le but de ces reformes est de mettre en place de nouveaux programmes pour tous les niveaux de la sphere educative, afin de preparer la Tunisie a faire face aux defis du developpement economique, dictes par la mondialisation. Ces reformes ont pour objectif ultime la formation des competences tunisiennes repondant a tous les besoins des entreprises, leur permettant ainsi de faire face aux mutations economiques nationales et internationales. En effet, les differentes etudes realisees par le gouverrenement tunisien, dans plusieurs secteurs d'activites, ont defini des besoins vitaux en competences, a cause notamment, de deficits relativement importants en techniciens superieurs. En 1990, ce deficit etait evalue a environ 70 % du total des besoins des entreprises (Mazeran _et al._, 2007).
+
+Pour repondre a ces besoins, le gouvernement tunisien a cree en 1992, le reseau des Instituts superieurs des etudes technologiques. Ces Instituts, mieux connus sous l'acronymme des ISET, sont des etablissements universitaires a caractere scientifique et technologique. Leur mission principale consiste a former des techniciens superieurs, aussi bien pour le secteur industriel que pour le secteur des services. La duree des etudes est de cinq semestres, soit deux ans et demi, comprenant des stages en entreprises.
+
+L'implantation du reseau des ISET a connu un grand succes. En effet, le nombre de ces etablissements est passe de 7 en 1995 a 24 en 2006 avec plus de 30 000 etudiants aujourd'hui contre 2 125 en 1995 (ministere de l'Enseignement superieur et de la Recherche scientifique en Tunisie, 1995, 2009). De plus, les ISET ont affiche, durant ces annees, des faibles taux de redoublement et d'abandon et ont connu un grand succes en ce qui concerne le placement de leurs etudiants sur le marche du travail (Banque mondiale, 2006).
+
+Ces multiples avantages ne doivent pas cacher des preoccupations majeures. En effet, l'accroissement de l'effectif des etudiants et l'emergence de nouvelles demandes (par exemple dans le domaine de la formation continue ou du recyclage professionnel) poseront de maniere cruciale la question de la perenniale du financement des ISET et rendront urgente la recherche de l'efficience dans la gestion de leurs ressources.
+
+Dans un pareil contexte, il nous semble donc utile de poser un diagnostic sur le reseau des ISET, en nous interrogeant sur sa performance et sur les facteurs qui determinent celle-ci.
+
+De nombreux pays (Royaume-Uni, Australie, Canada, Pays-Bas) ont developp e la culture de l'evaluation, de la construction a la publication d'indicateurs au niveau de l'enseignement universitaire, comme en temoigne l'importante litterature consacree a ce sujet1. Beaucoup de ces indicateurs sont partiels. Parmi ceux-ci, ladepense par etudiant permet de renseigner sur l'effort d'un pays concernant le financement de son enseignement superieur; la depense par diplome mesure la productivite des institutions dans leur mission educative et le nombre de publications par tete mesure la productivite des institutions en matiere de recherche. Cette analyse par ratio a l'avantage de presenter une grande simplicite de mise en euvre, mais pose le probleme de l'agregation de ces indices pour obtenir une mesure de la performance globale.
+
+Une deuxieme approche, plus ambitieuse que les ratios et beaucoup plus precise, consiste a utiliser la methode econometrique stochastique (_SFA_) (Aigner, Lovell et Schmidt, 1977; Meeusen et van den Broeck, 1977) pour construire une fonction de production. Le _SFA_ permet de mesurer l'efficience avec laquelle un output peut etre obtenu a l'aide de differentes combinaisons de facteurs de production pour une technologie donnee.
+
+Un des avantages de la methode parametrique est de permettre la prise en compte des multiples inputs et outputs. Neanmoins, il semble difficile de specifier une forme fonctionnelle precise dans le cas de l'enseignement superieur, ce que requiert le _SFA_. De plus, le niveau d'efficience calculee par le _SFA_emble devoir etre influence par la loi de distribution du terme d'erreur representant cette efficiience (Bauer, 1990). Ceci implique donc des contraintes, que, dans cette recherche, nous souhaitons relacher le plus possible.
+
+La methode _DEA_ (_Data Envelopment Analysis_), issue de la programmation lineaire, semble repondre a ce critere. Developpee par Charnes, Cooper et Rhodes (1978), qui se sont inspires des travaux de Farrell (1957), la methode _DEA_ a ete concque initialement pour mesurer l'efficience technique relative d'organisations dont la technologie de production n'est pas necessairement clairement identifiee, des ecoles.
+
+L'efficience mesuree par le _DEA_ est << relative >> dans le sens ou l'efficience d'une organisation est tributaire de l'ensemble des unites de decision (appelees << _Decision Making Units >>_, ou _DMU_) qui sont prises en reference et dont l'efficience est evaluee en meme temps. La methode _DEA_ permet donc de mesurer l'efficience d'une _DMU_, en calculant l'ecart relatif de cette _DMU_ par rapport a des _DMUs_ibles, qui construisent de cette facon une frontiere de production empirique. Les resultats obtenus par ce biais peuvent servir de point de depart a une procedure d'etalonnage (_benchmarking_).
+
+La presente recherche a pour objet l'evaluation de l'efficience technique des Instituts superieurs des etudes technologiques tunisiens (ISET), en utilisant la methode du _Data Envelopment Analysis_. Sur cette base, le reste de l'article est organise comme suit : dans la section suivante, nous introduisons bierement la methode _DEA_; la troisieme section est consacree a la description de l'echantillon et a celle des variables utilisees; les resultats des estimations sont presentes dans la quatrieme section; la derniere section conclut.
+
+## 1 Mesure d'efficience : la methode DEA
+
+Le concept d'efficience technique, tel que defini par Farrell (1957) reflete l'habilite d'une entreprise a minimiser la quantite d'inputs utilises afin d'obtenir un output donne.
+
+La methode _DEA_ cherche donc a definir une frontiere de production determinee par l'ensemble des _DMUs_ (les etablissements universitaires) efficientes techniquement parmi les _n DMUs_ de l'echantillon. Chaque \(DMU_{j}\) (\(j=1\)..., \(n\)) utilise des quantites \(x_{ij}\) d'inputs (\(i=1\),..., \(m\)), pour produire \(r\) outputs differents \(y_{ij}\) (\(r=1\),..., \(s\)).
+
+En suivant le modele a rendements d'echelle constants de Charnes, Cooper et Rhodes (1978) (modele \(CCR\)), on peut estimer l'efficience technique \(\theta_{k}\) avec laquelle la \(DMU\) de reference \(k\) va utiliser ses inputs \(x_{ik}\) pour produire les outputs \(y_{ik}\), chacune des \(n\)\(DMU\) servant de reference \(k\) a son tour. A l'aide de la programm lineaire, le modele suivant va etre solutionne \(n\) fois :
+
+\[Min_{\theta,\lambda,s^{-},s^{+}}\ e_{k}=\theta-\epsilon\left(\sum_{i=1}^{m}s _{i}^{-}+\sum_{r=1}^{s}s_{r}^{+}\right)\]
+
+\[s.c. \sum_{j=1}^{n}\lambda_{i}x_{ij}+s_{i}^{-}=\theta x_{ik} \text{ pour tout \socioeconomiques principalement2. En revanche, pour un certain niveau d'outputs donne, les ISET peuvent ajuster leurs inputs variables, afin d'en conserver une quantite optimale. De plus, le choix de la minimisation en inputs semble davantage correspondre aux dernieres politiques educatives qui visent une utilisation plus optimale des ressources dans un contexte budgetaire difficile (Bayenet et Debande, 1999)3.
+
+Footnote 2: \(\;\L'output educatif est un element difficile a estimer. En effet, l'ideal pour mesurer reellement la production des etablissements postsecondaires serait de calculer la << valeur ajoutee >> qu'apporte l'enseignement aux etudiants. Or, ceci ne peut etre fait qu'en comparant le niveau de sortie des etudiants avec leur niveau d'entree, controles par leurs habiletes ou capacites innees (Deller et Rudnicki, 1993), l'influence des pairs (Robertson et Symons, 1996) ou l'education des parents (Feinstein et Symons, 2001). C'est pourquoi, il est generalement convenu d'utiliser des indicateurs certes moins complets, mais plus simples a obtenir. Ainsi, les outputs educatifs les plus souvent utilises sont le nombre d'etudiants inscrits (Ahn, 1987), le nombre de diplomes (Sinuany-Stern _et al._, 1994) ou encore le nombre de credits d'heures de cours par semestre (Sinuany-Stern _et al._, 1994).
+
+La mesure de l'output << recherche >> peut egalement se reveler problematique. Ahn (1987) note qu'un tel output devrait mesurer la creation de nouvelles connaissances ou la validation, voire la correction de connaissances deja existantes. Dans la litterature, les depenses ou les subventions de recherche sont parfois utilisees pour mesurer l'output recherche (Johnes, 1995; Bayenet et Debande, 1999). D'autres auteurs estiment l'output recherche en utilisant des variables comme le nombre de publications (Carrington _et al._, 2005), le nombre de theses soutenues (Martinez Cabrera, 2000) ou encore le nombre de citations dans les revues scientifiques (Higgins, 1989).
+
+Enfin, l'output << services ou activites rendus a la collectivite >> est ignore dans la plupart des etudes consacrees a l'evaluation de l'efficience technique des institutions d'enseignement superieur, car il s'agit d'un output generalement eclectique et difficileement quantifiable.
+
+Dans notre etude, pour evaluer l'efficience technique des ISET, il etait necessaire de disposer des mesures adequates de leurs produits. L'activite principale des ISET consiste a << produire >> des diplomes adaptes aux besoins des milieux industriels et du monde des affaires. De plus, les ISET organisent des enseignements destines a la formation continue de cadres en vue d'assurer leur adaptation a l'evolution des connaissances scientifiques et techniques. Enfin, dans le cadre de partenariat avec les entreprises, les ISET assurent aux entreprises une palette variee de prestations, comme des travaux de consultation, d'expertise ou d'assistance technique. On notera, qu'a la difference des universites, il n'est pas fait de recherche a proprement parler dans les ISET. Nous avons donc retenu deux outputs qui representent la << production >> des ISET : le nombre des diplomes et le nombre de participants a la formation continue organisee par chaque Institut. A cause de donnees pouvant preter a confusion, car relativement imprecises, nous n'avons cependant pas retenu d'output correspondant aux prestations offertes aux entreprises.
+
+Les inputs se rapportent aux ressources humaines et materielles utilisees par les etablissements en vue de produire leurs outputs. Les ressources humaines se composent du personnel enseignant, evalue en equivalent temps complet (Avkiran, 2001) ou a temps complet (Sarafoglou et Haynes, 1996), et du personnel non enseignant, qui peut etre tres heterogene (chercheurs, assistants de recherche, personnel administratif et de gestion, ou d'entretien des locaux,...). Le personnel non enseignant peut etre approxime par l'effectif du personnel non enseignant en equivalent temps complet (Avkiran, 2001), mais aussi par le nombre de chercheurs (Ng et Li, 2000) ou le nombre d'assistants de recherche (Sarafoglou et Haynes, 1996).
+
+Par ailleurs, les inputs peuvent egalement etre mesures en termes monetaires, quand les indicateurs physiques manquent. Ainsi peuvent etre utilises comme inputs les depenses de fonctionnement (Beasley, 1990), les depenses totales (Ng et Li, 2000) ou les depenses d'equipement (Beasley, 1990).
+
+Dans notre recherche, les inputs variables retenus ont ete classes en trois grandes categories, et comprennent les personnels << enseignants >> et << non enseignants >> et les << depenses en biens et services5\(\Rightarrow\). L'input << enseignants >> est mesure en equivalent temps complet, tout comme le facteur << non enseignants >>. Les depenses sont exprimees en mille dinars tunisiens. Comme nous avons retenu une orientation input et que, faute de donnees, nous n'avons travaille que sur une seule annee, nous avons ecarte les facteurs de production fixes ou quasi fixes, qui ne pourraient donc pas etre ajustes immediatement en vue de revenir a l'optimum. Le tableau 1 recapitule les inputs et outputs retenus.
+
+Footnote 5: Les depenses en biens et services representent les depenses courantes de fonctionnement de l’Institut (hors depenses en rémunération). Elles regroupent des depenses de loyers et charges communes, de telecommunications, d’achat de mobilier, de carburant, de frais postaux, _etc._
+
+TABLEAU 1
+
+Statistiques descriptivees
+
+\begin{tabular}{l|c|c|c|c} \hline \hline
+**Variable** & **Moyenne** & **Ecart-type** & **Maximum** & **Minimum** \\ \hline Output & & & & \\ DIPLOMES & 336,61 & 227,69 & 969 & 45 \\ PART\_FC* & 66,13 & 72,4 & 285 & 12 \\ \hline Input & & & & \\ ENSEIGNANTS & 97,22 & 49,40 & 239 & 33 \\ NON ENSEIGNANTS & 35,17 & 22,63 & 102 & 14 \\ DEPENSES & 262,17 & 134,27 & 580 & 100,97 \\ \hline \end{tabular}
+
+Note : * avec PART_FC, le nombre de participants a la formation continue
+
+On notera que la contrainte de Cooper _et al._ (2004) sur le nombre de _DMUs_ est respectee dans notre specification. Il reste cependant evident que lorsque le ministere pourra mettre a notre disposition des donnees sur plusieurs annees, les resultats obtenus n'en seront que plus fiables. En effet, on remarquera _infra_ qu'un certain nombre d'ISET se revelent efficiients, et que, en l'etat, nous ne pouvonsaffirmer sans aucun doute que cela ne vient pas du fait que ces _DMUs_ ne sont pas << artificiellement >> efficientes car sans autre _DMU_ de reference. On rappelle en effet que la mesure d'efficience permise par le _DEA_ est une efficiience relative, donc dependante de l'echantillon de reference.
+
+## 3 Resultats
+
+Le tableau 2 resume les resultats obtenus a partir du modele _CCR_. L'efficience mesuree ici (efficience totale, TE) designe donc la capacite d'un etablissement universitaire a utiliser un minimum de ressources pour produire un niveau de resultats donne. Les ISET ont une efficiience moyenne de presque 80 %. Cela signifie donc qu'en moyenne, les ISET pourraient se separer de pres de 20 % de leurs ressources et parvenir aux memes niveaux d'outputs. Par ailleurs, on peut remarquer que plus d'un tiers des ISET sont declares efficiients dans notre modele, avec une efficiience totale de 100 %. Pour ces ISET, il serait interessant de poursuivre l'analyse sur plusieurs periodes, afin de verifier si cette efficiience perdure dans le temps.
+
+Bien que l'efficience totale moyenne soit relativement elevee, on peut noter toutefois que certains ISET ont une efficiience faible. Ainsi, presque 15 % des _DMUs_ (3 ISET) ont une efficiience de moins de 50 %, ce qui signifie que relativement aux autres Instituts, ceux-ci consomment 50 % de ressources en << trop >> pour parvenir aux outputs qu'ils offrent. Le graphique 1 indique la repartition des ISET selon le niveau d'efficience totale atteint.
+
+Comme il existe une certaine disparite entre les niveaux d'efficience des ISET, nous avons voulu verifier si cela pouvait etre explique par la repartition geographique des Instituts sur le territoire tunisien. Nous avons ainsi calcule le niveau d'efficience moyen selon les 6 regions administratives de la Tunisie (les << regions de planification >>, regroupant 24 gouvernorats differents) (cf. tableau 3). Ces regions enregistrent des grandes disparites entre elles. Le Nord-Est et le Centre-Est concentrent ainsi plus de 60 % de la population en 2008 et sont fortement urbanises avec des grandes villes telles que Tunis qui compte 9,7 % de la population, Sfax (8,8 %) et Sousse (5,8 %). Elles polarisent 88,2 % des entreprises et attirent pres de 95 % des entreprises a participation etrangere. Le contraste est frappant avec les regions duCentre-Ouest et du Nord-Ouest, ou vivent respectivement 13,4 % et 11,7 % de la population tunisienne et qui attirent chacune moins de 3 % du total des entreprises, sans parler de la dessaffection des entreprises a participation etrangere. Il en est egalement de meme avec les regions du Sud (Sud-Est et Sud-Ouest) qui regroupent moins de 15 % de la population totale a elles deux et attirent egalement tres peu d'entreprises qu'elles viennent ou non de l'etranger.
+
+GRAPHIQUE 1
+
+Repartition des ISET selon leur EFFICIENCE totale.
+
+En se referant au tableau 3, on peut se rendre compte que trois regions ont une efficiency superieure a la moyenne (Nord-Est, Nord-Ouest et Sud-Est). La region Nord-Est regroupant des ISET situes dans la partie du pays la plus industrialisee, il n'est pas surprenant de voir les ISET de cette region efficiients, car on peut s'attendre a ce qu'ils beneficient d'economies d'echelle. En revanche, si les regions du Nord-Ouest et du Sud-Est regroupent des ISET qui se revelent parfaitement efficiients, les autres etablissements de ces deux zones ont une efficience inferieure a la moyenne nationale, voire ont la pier efficiience de l'echantillon (cf. au tableau 4, la _DMU_ 23). Pour les etablissements efficiients a 100 %, l'explication de cette efficiience repose neanmoins peut-etre sur leur petite taille6, les laissant ainsi sans comparatif dans l'echantillon et donc << artificiellement >> efficiiens. Ceci restera a valider dans des travaux ulterieurs.
+
+Footnote 6: \(\quad\) La << taille >> se definissant ici par la quantite d’inputs et/ou d’outputs.
+
+Enfin, on pourra noter l'homogeneite des ISET de la region du Sud-Ouest dans leurs niveaux d'efficiency, puisque c'est cette region qui affiche l'ecart-type le plus faible dans la mesure de l'efficience.
+
+Les niveaux d'efficience technique totale (ET) obtenus a partir du modele _CCR_ peuvent etre decomposes en efficience technique pure (PTE), determinee par le modele _BCC_, et en efficience d'echelle (SE) (cf. tableau 4). L'efficience d'echelle moyenne des ISET est de 88,8 %. Parmi les 23 etablissements constituant notre echantillon, 8 sont efficiients en termes d'echelle, c'est-a-dire, fonctionnent a une echelle de production optimale, correspondant a des rendements d'echelle constants. Cependant, plus de la moitie des ISET connaissent des rendements d'echelle croissants. Pour ces ISET, il pourrait etre important d'accroitre leur taille, toute hausse des inputs impliquant une hausse plus que proportionnelle des outputs. En augmentant leur taille, ces ISET se rapprocheraient ainsi de leur taille de production optimale, ce qui leur permettrait egalement de diminuer leurs couts moyens. Dans notre echantillon, seuls trois ISET connaissent des rendements d'echelle decroissants, indiquant ainsi pour eux une necessite de diminution de taille. Deux d'entre eux pourraient etre classifies de << vieux >> etablissements, presents des 1995. Pour ceux-ci, une mauvaise determination initiale de la taille optimale pourrait expliquer ce resultat, a cause de la meconnaissance reelle des besoins en debut de fonctionnement du systeme. Il pourrait ainsi etre sage de reevaluer correctement les besoins du bassin de population que desservent ces ISET, afin de reestimer leur taille optimale. Il est enfin important de remarquer que, outre les cas ou l'efficience totale est maximale (_ET_=1), on retrouve six ISET pour lesquels l'inefficience totale s'explique par une inefficience d'echelle, avec SE < PTE (et parmi ceux-ci, l'ISET connaissant l'inefficience totale la plus faible, DMU 23 dans le tableau 4). Pour ces ISET, la remarque est particulierement importante, car elle revele des problemes de taille, et non pas des problemes de gestion potentiellement defaillante, qui seraient du s par exemple a des manques en equipement ou en qualification du personnel de gestion. Ceci devrait pouvoir donner des pistes egalement pour le gouvernementtunisien si une expansion du systeme des ISET devait se faire. En revanche, une _DMU_ comme l'ISET 22 semble souffrir de graves problemes de gestion (indique par une PTE faible) et devrait faire l'objet de verifications plus precises.
+
+TABLEAU 4
+
+\begin{tabular}{l|c|c|c|c|c} \hline \hline
+**DMU** & **Region** & **CRS** & **VRS** & & \\
+**2** & **SE** & **ET** & **PTE** & **SE** & **RS\({}^{\prime}\)** \\
+
+[MISSING_PAGE_POST]
+
+E** & **0,3770** & **0,9489** & **0,3974** & **IRS** \\ \hline
+**Moyenne** & & **0,7968** & **0,8958** & **0,888** & **-** \\ \hline \end{tabular}
+
+Note : ET : efficience totale, PTE : efficience pure totale, SE : efficience d'echelle, RS : rendement d'echelle. Rendements a l'echelle : CRS constants; IRS, croissants; DRS, décroissants.
+
+Regions : NE, Nord-Est; NO, Nord-Ouest; CE, Centre-Est; CO, Centre-Ouest; SE, Sud-Est; SO, Sud-Ouest.
+
+\begin{tabular}{l|c|c|c|c|c} \hline \hline
+**DMU** & **Region** & **CT** & **PTE** & **SE** & **RS\({}^{\prime}\)** \\
+
+[MISSING_PAGE_POST]
+
+E** & **0,3770** & **0,9489** & **0,3974** & **IRS** \\ \hline
+**Moyenne** & & **0,7968** & **0,8958** & **0,888** & **-** \\ \hline \end{tabular}
+
+Note : ET : efficience totale, PTE : efficience pure totale, SE : efficience d'echelle, RS : rendement d'echelle. Rendements a l'echelle : CRS constants; IRS, croissants; DRS, décroissants.
+
+Regions : NE, Nord-Est; NO, Nord-Ouest; CE, Centre-Est; CO, Centre-Ouest; SE, Sud-Est; SO, Sud-Ouest.
+
+\begin{tabular}{l|c|c|c|c|c|} \hline \hline
+**DMU** & **Region** & **CT** & **PTE** & **SE** & **RS\({}^{\prime}\)** \\
+**1** & **NE** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**2** & **SE** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**3** & **SE** & **1,0000** & **1,00000** & **1,0000** & **CRS** \\
+**4** & **NO** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**5** & **SE** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**6** & **NE** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**7** & **CO** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**8** & **NO** & **1,0000** & **1,0000** & **1,0000** & **CRS** \\
+**9** & **NE** & ** **0,9923** & **0,9945** & **0,9978** & **DRS** \\
+**10** & **CE** & **0,8718** & **0,8736** & **0,9980** & **IRS** \\
+**11** & **CE** & **0,8384** & **0,8478** & **0,9890** & **IRS** \\
+**12** & **
+
+## Conclusion
+
+Dans cette etude, nous avons procede a la mesure de l'efficience des Instituts superieurs des etudes technologiques tunisiens (ISET) en utilisant la methode non parametrique d'enveloppement de donnees, le _Data Envelopment Analysis (DEA)_. Il ressort des resultats empiriques que le fonctionnement de ces etablissements se caracterise par une inefficience technique de l'ordre de 20 %, pouvant s'expliquer a la fois par des problemes de taille des etablissements (inefficience d'echelle de 11 % environ) et par des problemes de gestion (inefficience pure de l'ordre de 10 %). Les ISET semblent donc bien geres, meme si certains d'entre eux meriteraient une analyse plus fine (inefficience pure elevee). En revanche, la volonte de permettre aux etudiants d'acceder a un etablissement d'enseignement superieur partout en region, a une distance du domicile raisonnable, a un cout en termes d'efficience d'echelle, car une majorite des ISET de notre echantillon fonctionnerait de facon optimale si leur echelle de production augmentait. C'est un element a prendre en consideration en cas de volonte de developpement encore plus prononce du reseau. Cependant, le reseau des ISET est relativement jeune et laisse de ce fait de la place a beaucoup d'amelioration. Enfin, il faut rappeler que les mesures d'efficience qui sont faites ici sont _relatives_, et donc tributaries de l'echantillon disponible. Il sera interessant dans le futur d'analyser la performance des ISET sur le long terme, en incorporant plusieurs annees a l'echantillon initial.
+
+## Bibliographie
+
+* Ahn (1987)Ahn, T. (1987), << Efficiency and Related Issues in Higher Education: A Data Envelopment Analysis >>, These de doctorat, University of Texas at Austin, Austin.
+* Aigner et Schmidt (1977)Aigner, D.J., C.A.K. Lovell et P. Schmidt (1977), << Formulation and Estimation of Stochastic Frontier Production Function Models >>, _Journal of Econometrics_, 6 : 21-37.
+* Avkiran (2001)Avkiran, N.K. (2001), << Investigating Technical and Scale Efficiencies of Australian Universities through Data Envelopment Analysis >>, _Socio-Economic Planning Sciences_, 35 : 57-80.
+* Banker et W.W. Cooper (1984)Banker, R.D., A. Charnes et W.W. Cooper (1984), << Some Models for Estimating Technical and Scale Inefficiencies in Data Envelopment Analysis >>, _Management Science_, 30 : 1078-1092.
+* Banque mondiale (2006)Banque mondiale (2006), << Tunisie : Note de politique sectorielle sur le financement de l'enseignement superieur >>, Washington.
+* Bauer (1990)Bauer, P.W. (1990), << Recent Developments in the Econometric Estimation of Frontier >>, _Journal of Econometrics_, 46 : 39-56.
+* Bayenet et Debande (1999)Bayenet, B. et O. Debande (1999), << Efficiacite des systemes d'enseignement superieur au sein de l'OCDE >>, _in_ Badillo P-Y et Paradi J.C. (eds), _DEA : la methode d'analyse des performances_, Preface de Seiford L.M. et Tulkens H., Hermes, Paris.
+
+- _International Journal of Management Science_, 18(2) : 171-183.
+* Carrington et al. (2005)Carrington, R., T. D. Coelli et S.P. Rao (2005), << The Performance of Australian Universities : Conceptual Issues and Preliminary Results >>, _Economic Papers_, 24 : 145-163.
+* Charnes et al. (1978)Charnes, A., W.W. Cooper et E. Rhodes (1978), << Measuring the Efficiency of Decision Making Units >>, _European Journal of Operational Research_, 2 : 429-444.
+* Cooper et al. (2004)Cooper, W.W., S. Li, L.M. Seiford et J. Zhu (2004), << Sensitivity Analysis in DEA >>, _in_ W.W. Cooper, L.M. Seiford et J. Zhu, _Handbook on Data Envelopment Analysis_, Chap. 3, Kluwer Academic Publishers, Boston, p. 75-97.
+* Deller et al. (1993)Deller, S.C. et E. Rudnicki (1993), << Production Efficiency in Elementary Education: The Case of Maine Public School >>, _Economics of Education Review_, 12 : 45-57.
+* Fare et al. (1994)Fare, R., S. Grosskopf, M. Norris et Z. Zhang (1994), << Productivity Growth, Technical Progress, and Efficiency Change in Industrialized Countries >>, _American Economic Review_, 84(1) : 66-83.
+* Farrell (1957)Farrell, M.J. (1957), << The Measurement of Productive Efficiency >>, _Journal of Royal Statistical Society_, 120 : 253-281.
+* Feinstein et al. (2001)Feinstein, L. et J. Symons (2001), << Attainment in Secondary School >>, _Journal of Royal Statistical Society_, 120 : 253-281.
+* Higgins (1989)Higgins, J.C. (1989), << Performance Measurement in University >>, _European Journal of Operational Research_, 38 : 358-368.
+* Johnnes (1992)Johnes, G. (1992), << Performance Indicators in Higher Education: A Survey of Recent Work >>, _Oxford Review of Economy Policy_, 6(2) : 19-34.
+* Johnnes (1995)Johnes, G. (1995), << Scale and Technical Efficiency in the Production of Economic Research >>, _Applied Economics Letters_, 2 : 7-11.
+* Martinez Cabrera (2000)Martinez Cabrera, M. (2000), << Analisis de la Fichencia Productiva de las Instituciones de Educacion Superior >>, _Papeles de Economia Espanola_, 86 : 179-191.
+* Mazeran et al. (2007)Mazeran, J., W. Experton, C. Forestier et A. Gauron (2007), _Les enseignements superieurs professionnels courts : un defi educatif mondial_, Paris, Hachette.
+* Meeusen et al. (1977)Meeusen, W. et J. van den Broeck (1977), << Efficiency Estimation from Cobb-Douglas Production Functions with Composed Error >>, _International Economic Review_, 18 : 435-444.
+* Ng et al. (2000)Ng, Y. C. et S. K. Li (2000), << Measuring the Research Performance of Chinese Higher Education Institutions: An Application of Data Envelopment Analysis >>, _Education Economics_, 8(2) : 139-156.
+* Ministere de l'enseignement superieur et de la recherche scientifique, (1995, 2009), << L'enseignement superieur et la recherche scientifique en chiffres >>, Bureau des etudes de la planification et de la programmation, Tunis.
+* Robertson et al. (1996)Robertson, D. et J. Symons (1996), << _Do Peer Groups Matter? Peer Group versus Schooling Effects on Academic Attainment >>_, Discussion Paper 311, Centre for Economic Performance, London School of Economics.
+
+* [19]Sarafoglou, N. et K.E. Haynes (1996), << University Productivity in Sweden: A Demonstration and Explanatory Analysis for Economics and Business Programs >>, _The Annals of Regional Science_, 30 : 285-304.
+* [20]Sinuany-Stern, Z., A. Mehrez et A. Barboy (1994), << Academic Departments Efficiency via DEA >>, _Computers and Operations Research_, 21(5) : 543-556. 
+
+

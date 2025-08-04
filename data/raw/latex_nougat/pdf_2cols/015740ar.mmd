@@ -1,0 +1,288 @@
+# Comparison de Differents Modes D'Echantillonnage pour l'estimation du Gradex Des Phuies
+
+Sale parameter of maximal rainfall distribution: comparison of three sampling techniques
+
+Michael Lang
+
+[ UMR 5564 (CNRS-INPG-UJF-IRD), LTHE, B.P. 53, 38041 Grenoble Cedex, France
+
+###### Abstract
+
+L'analyse de la distribution des plusies maximales peut s'effectuer a partir de plusieurs modes d'echantillonnage. Cet article presente une analyse comparative de l'estimation du grades des plusie a partir de deux jeux de donnees regionaux sur la Moselle (63 bassins) et sur le Rhone (11 bassins). Les principaux resultats obtenus montrent la necessite d'etudier au prealable le regime saisonnier des plusies et de raisonner sur une lame spatiale de pluie. Il est par ailleurs preferable d'utiliser un echantillonnage par valeurs superieures a un seuil ou de raisonner sur l'ensemble des valeurs journalieres successives, car les resultats sont plus robustes qu'avec un echantillonnage classique par valeurs maximales annuelles, beaucoup plus sensible a la distribution d'echantillonnage du fait de la quantite reduite d'information utilisee.
+
+**Mots cles : Plus maximales, echantillonnage, gradex, abatement spatial, regime saisonnier.**
+
+S.: 33.78.798
+
+## 1 Introduction
+
+L'analyse probabiliste des risques lies a l'occurrence des plusies fortes 'effectue generalement a partir d'un echantillon constitue de la plus forte valeur mesuree chaque annee, notee XA. Plusieurs variantes ont ete proposeses pour optimiser l'exploitation de l'information disponible. Une premiere approche consiste a retenir l'ensemble des valeurs X\({}_{\rm S}\) superieures a un seuil S, ce qui permet d'etoffer l'echantillon d'analyse, qui n'est plus limite a une seule valeur par annee. Le risque annuel de non-depassement est obtenu en composant la distribution des valeurs X\({}_{\rm S}\) superieures a un seuil avec la distribution du nombre k de valeurs observees chaque annee (SHANE et LYNN, 1964) en supposant l'independance des deux distributions) :
+
+\[\begin{split}&\mathrm{Prob}\ [\mathrm{X}\mathrm{A}<\mathrm{x}]=\\ &\sum_{\mathrm{x}=0}^{\mathrm{e}}\ \mathrm{Prob}[\mathrm{k\ crues\ X}_{\mathrm{ S}}>\mathrm{x\ dans l'annec}]\ [\mathrm{Prob}[\mathrm{X}_{\mathrm{ S}}<\mathrm{x}]]^{\mathrm{k}}\end{split} \tag{1}\]
+
+Une seconde approche consiste a raisonner sur l'ensemble des valeurs de la serie, ce qui augmente considerablement la taille de l'echantillon. Lorsque les valeurs succussives de la variable X sont supposees independantes, la distribution des valeurs maximales annuelles s'obient directement :
+
+\[\mathrm{Prob}\ [\mathrm{X}\mathrm{A}<\mathrm{x}]=[\mathrm{Prob}[\mathrm{X}< \mathrm{x}]]^{\mathrm{N}} \tag{2}\]
+
+ou N est le nombre de valeurs succussives dans une annee (par ex. N = 365 pour la pluie journaliere). Dans un graphique de Gumbel, avec un changement d'echelle sur les probabilites (variable reduite de Gumbel), les distributions des variables XA et X sont paralleles et espaces de LnN. Dans le cas des plusie journalieres successives, il existe une autocorrelation mais qui reste faible (variable selon les saisons et les regions, de l'ordre de 0,1 a 0,5 d'apres Duband, dans CFGB, 1994). L'autocorrelation des valeurs succussives conduit a reduire l'ecart entre la distribution de toutes les valeurs succussives et la distribution des valeurs maximales annuelles, sans remettre en cause leur parallelisme :
+
+\[\begin{split}&\mathrm{Prob}\ [\mathrm{X}\mathrm{A}<\mathrm{x}]=[ \mathrm{Prob}[\mathrm{X}<\mathrm{x}]]^{\mathrm{N}\mathrm{o}}\\ &(\mathrm{avec\ Neq}<\mathrm{N})\end{split} \tag{3}\]
+
+Ce principe est d'ailleurs celui retenu par REED _et al._ (1999), dans le cadre d'une analyse regionale des pluies, ou un echantillon global est constitue a partir de l'agglomeration de l'ensemble des valeurs reduites aux differents postes.
+
+Lobjectif de ce travail est lie a une methode d'extrapolation de la distribution des crues, la methode du Gradex (GUILLOT et DUBAND, 1967), utilise en France depuis une trentaine d'annees pour le dimensionnement des evacateurs de crue des grands barrages. Cette methode repose sur l'emploi de lois a decroissance exponentielle pour la distribution des pluies, dont la loi de Gumbel constitue l'exemple le plus connu. Nous nous proposons d'effectuer une analyse de sensibilite sur l'estimation du gradex des pluies, egal dans le cas d'une loi de Gumbel ou une loi exponentielle au parametre d'echelle de la loi des pluies, en testant differents modes d'echantillonnage, par valeurs maximales annuelles, valeurs superieures a un seuil, ou valeurs cumulees successives. Apres un rappel des differentes distributions utilisees pour chacun de ces modes d'echantillonnage, nous presentons le jeu de donnees pluviometriques disponible sur une soixantaine de bassins de la Moselle et une dizaine de bassins du Rhone. Apres avoir constitue des series chronologiques de pluie de bassin, nous analysons les variations saisonnieres des gradex, ainsi que le coefficient d'abatement spatial sur le gradex. Nous comparons ensuite les differentes estimations du gradex des pluies de bassin, pour les differents modes d'echantillonnage testes.
+
+## 2 Les differentes distributions utilisees par mode
+
+### D'echantillonnage
+
+#### Rappels sur la theorie des valeurs extremes
+
+La theorie des valeurs extremes propose un cadre theorique pour caracteriser le comportement asymptotique des queues de distribution (BACRO, 2006; COLES, 2001). Lorsque les valeurs de l'echantillon a analyser sont independantes et identiquement distribuees (i.i.d), on peut montrer (FISHER et TIPPET, 1928; GNDENKO, 1943; JENKINSON, 1955) que la variable XA suit une loi generalisee des valeurs extremes, definie par :
+
+\[\begin{split}&\mathrm{F}_{\mathrm{ A}}\left(\mathrm{x}\right)=\mathrm{Prob}\left[\mathrm{X}\mathrm{A}<\mathrm{x}\right]=\\ &\left[\mathrm{exp}\left\{-\left(1+\mathrm{k}\,\frac{\mathrm{x}- \mathrm{X}_{\mathrm{ S}}}{\mathrm{a}}\right)^{-\mathrm{I}/\mathrm{k}}\right\}\ \ \ \mathrm{si\ k}\ \neq\ 0\\ &\mathrm{exp}\left\{-\mathrm{exp}\left[-\left(\frac{\mathrm{x}- \mathrm{x}_{\mathrm{ S}}}{\mathrm{a}}\right)\right]\right\}\ \ \ \mathrm{si\ k}=0\ (\mathrm{loi\ de\ Gumbel})\end{split} \tag{4}\]
+
+Lorsque l'on raisonne sur les d'passements X\({}_{\mathrm{ S}}\) au-dessus d'un seuil S (supposes i.i.d), la distribution asymptotique est une loi de Pareto generalisee (DAVISON et SMITH, 1990; PICKANDS, 1975) :\[\begin{array}{l}\mathrm{G_{{}_{S}}\left(x\right)=Prob\left[X_{{}_{S}}<x\right]=}\\ \\ \left[1-\left(1-k\,\frac{\left(x-S\right)}{a}\right)^{-l/k}\right.\right.\right.\end{array} \tag{5}\] \[\begin{array}{l}\mathrm{G_{{}_{S}}\left(x\right)=Prob\left[X_{{}_{S}}<x \right]=}\\ \\ \left[1-\left(1-k\,\frac{\left(x-S\right)}{a}\right)\right.\right.\end{array}\]
+
+\(\mathrm{si\ k}\neq 0\)
+
+\(\mathrm{si\ k}=0\) (\(\mathrm{loi\ exponentielle}\))
+
+La liaison entre les deux distributions \(\mathrm{F_{{}_{A}}(x)}\) et \(\mathrm{G_{{}_{S}}(x)}\) s'obient facilement lorsque le nombre annuel k de depassement \(\mathrm{X_{{}_{S}}}\) suit une loi de Poisson :
+
+\[\begin{array}{l}\mathrm{Prob}\left[k\,\mathrm{crues\ X_{{}_{S}}\,\,\mathrm{ dans\,l'annce}}\right]=\\ \exp\left(-\,\mu\right)\,\,\mu^{k}/\,\,\mathrm{kl}\end{array} \tag{6}\]
+
+avec \(\mathrm{\tilde{\mu}}=\left(\mathrm{Nb\ valeurs\ X_{{}_{S}}}\right)/\mathrm{Nb\ annecs. La combinaison des relations 1 et 6 donne alors :
+
+\[\mathrm{F_{{}_{A}}(x)}=\exp\left\{-\,\mu\,\left[1\,-\,\mathrm{G_{{}_{S}}(x)} \right]\,\right\} \tag{7}\]
+
+### Estimation du gradex des plusie a partir d'echanillons de valeurs maximales
+
+Dans le cas d'une loi de Gumbel (Eq. 4, avec \(\mathrm{k}=0\)), le gradex des plusie est estime par la methode des moments par la relation :
+
+\[\mathrm{\widehat{a}=\left(\sqrt{6}\,/\,\pi\right)s} \tag{8}\]
+
+a partir de l'ecart-type s de l'echanillon des valeurs maximales annuelles XA. Le gradex correspond a la pente de la distribution sur un graphique a echelle de Gumbel, avec une relation lineaire entre le quantile \(\mathrm{x_{{}_{P}}}\) et la variable reduite de Gumbel \(\mathrm{y_{{}_{P}}=-Ln\,\left(-Ln\,\mathrm{p}\right)}\) :
+
+\[\mathrm{x_{{}_{P}}=x_{{}_{0}}+a\,\,y_{{}_{P}}} \tag{9}\]
+
+avec Prob [XA < x_{{}_{P}}]=\mathrm{p}\]
+
+Dans le cas d'une loi exponentielle (Eq. 5, avec \(\mathrm{k}=0\)), le gradex des plusie est estime par la methode du maximum de vraisemblance par la relation (MIQUEL, 1984) :
+
+\[\mathrm{\widehat{a}=m-s} \tag{10}\]
+
+a partir de la moyenne m de l'echantillon des valeurs \(\mathrm{X_{{}_{S}}}\) superieures au seuil S. La combinaison des relations 5 et 7 montre que le gradex correspond egalement a la pente de la distribution sur un graphique a echelle de Gumbel :
+
+\[\mathrm{x_{{}_{P}}=S+a\,\,(y_{{}_{P}}+Ln\,\mu)} \tag{11}\]
+
+L'independance des valeurs \(\mathrm{X_{{}_{S}}}\) de l'echantillon est obenue en imposant une duree minimale entre deux valeurs (10 jours) et un coefficient de redescente de la pluie entre deux episodes (valeur inferieure a 90 % du maximum selectionne). Le choix du seuil S a ete obtenu en verifiant que le processus d'occurrence des valeurs extraites pouvait bien etre modelise suivant une loi de Poisson, base sur les hypotheses d'independance, stationnarite et homogeneite des valeurs. Deux tests ont ete appliques, le premier (CUNNANE, 1979) sur l'indice de dispersion I du nombre k d'evenements par annee (ou saison) : I = Var(k)/E(k); le second (LANG _et al._, 1999) sur la date d'occurrence des evenements, en reportant sur un graphique le nombre cumule d'evenements en fonction de la date. Un exemple d'illustration de ces deux tests sera presente en section 4.2.
+
+### Estimation du gradex des plusie a partir de l'ensemble des valeurs sucessives
+
+Le parallelisme asymptotique entre la distribution des valeurs successives X et la distribution des valeurs maximales annuelles XA (Eq. 3) permet d'estimer le gradex des plusie a partir de la pente de la distribution, dans un graphique a echelle de Gumbel. Le gradex correspond au parametre d'echelle de chacune des distributions testees : melange d'exponentielles, max (a, b); loi gamma tronquee, \(\mathrm{p}\); loi exponentielle simple, a.
+
+#### 2.3.1 Loi somme de deux exponentielles
+
+Les parametres \(\alpha\), \(\beta\), a et b de la loi somme de deux exponentielles :
+
+\[\mathrm{F(x)=Prob[X<x]=1-\alpha\,\exp(-x\,\,/\,a)-\beta\,\exp(-x\,\,/\,b)} \tag{12}\]
+
+avec \(\alpha+\beta=0=1-\mathrm{F(0)}\), frequence des jours avec precipitation non nulle, peuvent etre estimes de faon analytique lorsqu'une hypothese forte est imposee sur le coefficient de ponderation \(\alpha\) :
+
+\[\mathrm{\widehat{\alpha}=1/(C_{{}_{V}})^{2}=(m\,/\,s)^{2}} \tag{13}\]La methode des moments conduit aux deux estimateurs suivants :
+
+\[\widehat{\mathrm{a}}=\frac{\alpha\quad\mathrm{m}+\sqrt{\alpha\quad\beta(K\quad \theta-m^{2})}}{\alpha\quad\theta}\quad\mathrm{ct}\] \[\widehat{\mathrm{b}}=\frac{\mathrm{m}-\alpha\quad\hat{\mathrm{a}}}{ \beta} \tag{14}\]
+
+avec \(K=(m^{2}+s^{2})/2\).
+
+GOUY (1994) a precise le domaine d'application de cette loi :
+
+\[\alpha<1,\beta>0\quad\mathrm{ct}\quad\left[1\mathrm{-F}(0)\right]\left[1\mathrm{ +C_{v}^{\ 2}}\right]>2 \tag{15}\]
+
+#### 2.3.2 Lai Gamma tronque
+
+Cette loi est utilisee en alternative a la loi somme de deux exponentielles, lorsque la condition (15) n'est pas verifiee, en particulier lorsque le coefficient de variation \(C_{v}\) est inferieur a 1. Les parametres \(\lambda\) et \(\rho\) de la loi gamma tronque :
+
+\[\mathrm{Prob}\left[X<x\right[X>0\right]= \tag{16}\] \[\frac{1}{\Gamma(\lambda)}\int\limits_{0}^{\lambda}\mathrm{c}^{(-x /p)}\left(\frac{x}{\rho}\right)^{\lambda-1}\frac{dx}{\rho}\]
+
+sont estimes par la methode des moments :
+
+\[\widehat{\lambda}=1/C_{v}^{\ 2}\ \mathrm{ct}\ \widehat{\rho}=s\ C_{v} \tag{17}\]
+
+La correspondance entre la loi gamma ajustee sur les valeurs non nulles et la distribution F(x) de l'ensemble des valeurs est la suivante :
+
+\[\mathrm{Prob}\left[X<x\right[X>0\right]=\frac{F(x)-F(0)}{1-F(0)} \tag{18}\]
+
+#### 2.3.3 Loi exponentielle simple a un parametre
+
+Cette loi est un cas particulier de la loi Gamma (\(\lambda=1\)), lorsque la frequence des valeurs nulles est egale a zero. Le parametre a de la loi exponentielle a un parametre :
+
+\[F(x)=1-\exp\left[-x\ /\ \mathrm{a}\right] \tag{19}\]
+
+est estime par :
+
+\[\widehat{\mathrm{a}}=\mathrm{m} \tag{20}\]
+
+La loi exponentielle simple n'est pas adaptee aux series dont le coefficient de variation \(Cv\) est tres different de 1.
+
+## 3 Premiere Analyse D'un Jeu de Donnees Pluviometriques
+
+### Constitution d'un jeu de plusie de bassin
+
+Nous avons utilise deux jeux de donnees pluviometriques, constitues respectivement de 192 et 213 stations sur la Moselle et le Rhone. La critique et la correction des donnees ont ete realisees sur la Moselle par JAVELLE (2001), dans le cadre du projet PACTE (GALEA et BLUM, 2005), et sur le Rhone par SAFEGE (2000) et les differents organismes impliques dans l'etude globale des crues du Rhone. Le calcul de la lame d'eau a ete effectue sur 63 bassins de la Moselle, pour lesquels ont ete retenues 100 stations, et sur 11 bassins du Rhone a partir de 112 stations (Figure 1).
+
+Le nombre de postes selectionnes a ete defini d'apres la taille de chaque bassin versant et la relation etablie par LEBEL (1984), qui relie la portee p (en km) (ou distance de decorrelation, au-dela de laquelle deux stations sont considerees comme independantes) d'une station pluviometrique avec le pas de temps t (en h) considere :
+
+\[\mathrm{p}=20\sqrt{t} \tag{21}\]
+
+Des chroniques de lame d'eau spatiale journaliere ont ainsi ete calculees par moyenne arithmetique des plusie ponctuelles de chacun des postes des bassins versants, sur la periode 1968-1998 (30 ans) pour la Moselle, et 1950-1998 (49 ans) pour le Rhone. On dispose en moyenne de 1 a 56 pluviometres par bassin sur la Moselle, et de 5 a 42 postes pour le Rhone (Figure 2).
+
+Afin de bien prendre en compte la variabilite spatiale de la pluie, nous avons retenu un nombre plus important de postes dans le calcul de la lame spatiale, en considerant que chacun des postes n'etait representatif que sur le tiers de la portee definie precedemment.
+
+L'echanillonage des chroniques a ensuite ete realise en travaillant sur plusieurs pas de temps : 1, 2, 3, 4, 5, 6 et 7 jours pour les 11 bassins du Rhone, et 1, 3, 6, 15 et 20 jours pour les 63 bassins de la Moselle. Les pas de temps retenus sont compatibles avec le temps de concentration de chaque bassin,Figure 1: Localisation des sous-bassins versants étudüs sur la Moselle et le Rhônéc.
+
+Location of the studied sub-bassins of the Moselle and Rhône rivers.
+
+Figure 2: Distribution des surfaces des sous-bassins et du nombre de pluviométres utilisés pour le calcul de la lame d’eau (bassins de (a) la Moselle et (b) du Rhône).
+
+Distribution of the catchment areas and the number of raingauges used for areal rainfall computation ((a) Moselle and (b) Rhône catchments).
+
+function de la dynamique des crues et de la taille des bassins. Celle-ci varie de 16 km\({}^{2}\) (Elvon a Bazancourt) a 10 770 km\({}^{2}\) (Moselle a Uckange) sur la Moselle, et de 854 km\({}^{2}\) (Eyrieux) a 29 908 km\({}^{2}\) (Saone) sur le Rhone.
+
+### Analyse du rigime saionnier
+
+Le traitement probabiliste des plusies fortes s'effectue generalement en supposant verifiees plusieurs hypotheses de base sur les valeurs de l'echanillon : caractere aleatoire, stationnarite, independance et homogeneite. Le dernier point est mis en defaut dans le cas d'un regime pluiometrique a plusieurs saisons, ou l'echanillon des plus fortes valeurs est issu d'un melange de populations. LANG et DESUROSNE (1994) ont teste l'apport de la saisonnalisation sur l'estimation du gradex des plusies d'une vingtaine de postes pluiometriques du Sud-Est de la France. Il sont mis en evidence une sous-estimation variant de 10 a 40 %, suivant la duree des plusie etudiees (de 1 h a 30 j), lorsque le gradex ponctruel est calcule a partir de l'ensemble des valeurs de l'annce plutot que sur la saison a plus fort risque.
+
+La determination de la saison a plus fort risque sur les bassins de la Moselle et du Rhone a ete realisee a partir de l'estimation du gradex de la lame d'eau spatiale, calculee sur les valeurs de chacun des douze mois de l'annce. La figure 3 presente la distribution des plusie maximales journalieres du bassin de l'Ardeche a Saint-Martin-d'Ardeche pour le mois de septembre (NA annees), en considerant trois modes d'echanillonnage (de gauche a droite) : maximum de chaque mois de septembre (NA valeurs), maximum de chacune des deux quinzines du mois de septembre (2 NA valeurs), valeurs succussives journalieres en septembre (30 NA valeurs). L'estimation du gradex mensuel est realisee a partir du troisieme echantillon, en considerant une loi somme de deux exponentielles et une loi gamma. Un controle de coherence permet de verifier que le gradex obtenu est compatible avec celui estime a partir des deux autres echantillons (parallelisme des trois ajustements).
+
+La figure 4 presente les variations mensuelles du gradex des plusie s spatiales cumulees de 11 bassins versants de la Moselle (pluie cumulee de 3 jours) et de 11 bassins du Rhone (pluie cumulee de 1 jour). Sur la Moselle, la saison a plus fort risque court de septembre a mars (7 mois), avec une saison a risque secondaire d'avril aout (5 mois). Les bassins du Rhone ont un regime pluiometrique plus contraste, avec une saison a risque d'aout a decembre. Compte tenu du fait que certains bassins du Rhone n'ont pas de fortes valeurs de gradex en aout ou decembre, nous avons finalement retenu l'automne (septembre a novembre : 3 mois) comme la saison a plus fort risque.
+
+A titre de verification, nous avons compare les resultats obtenus sur la Moselle avec ceux de LABORDE (1984), sur neuf postes pluiographiques de la Lorraine. Le decoupage saisonnier etait legerement different du notre, avec deux saisons de six mois chacune (mai-octobre et novembre-avril), et l'echanillonnage etait relatif aux valeurs maximales des mois successs de la saison etudiee. Les valeurs de gradex obtenues par chacun des deux decoupages saisonniers sont pratiquement identiques sur la saison a plus fort risque (hiver) et different de moins de 5 % sur la saison secondaire (ete). Par la suite, nous presenterons les resultats obtenus sur la saison a plus fort risque, l'hiver (septembre-mars) pour les bassins de la Moselle, et l'automne (septembre-novembre) pour les bassins du Rhone.
+
+### Exemple d'ajustements avec les differents modes d'echanillonnage
+
+Nous presentons un exemple d'ajustement des plusie maximales d'hiver sur l'Esch a jezainville. On observe sur la figure 5 un basculement de la pente de la distribution des valeurs \(X_{y}\) du fait de la selection de valeurs supplementaires en seconde ou troisieme position dans l'annce. D'une facon generale, on observe sur l'ensemble des bassins testes une meilleure homogeneite des valeurs issues d'echanillonnage des precipitations superieures a un seuil, par rapport a un maximum annuel ou saisonnier. La figure 6 compare (de gauche a droite) sur le bassin de Rupt-sur-Moselle la distribution des valeurs maximales journalieres, obtenues par selection de la valeur maximale de chaque mois de la saison (Nr NA valeurs) ou selection de la valeur maximale de chaque quinzaine de la saison (2Nr NA valeurs), avec celle des valeurs successives de la saison a risque (\(\approx 30\)Nr NA valeurs). On constate que la faible auto-correlation des donnees journalieres successives n'influe pas sur le parallelisme des differentes distributions echantillonnees. La selection de l'ensemble des valeurs journalieres successive permet ainsi de disposer d'un echantillon plus fourni et d'avoir une estimation du gradex moins sensible a la distribution d'echanillonnage que celle obtenue avec la seule valeur maximale de la saison.
+
+### Estimation du coefficient spatial d'abatement
+
+Le coefficient spatial d'abatement traduit la decroissance du risque de pluie forte au fur et a mesure que l'on s'interesse a une superficie de plus en plus etendue. Dans le domaine du risque d'inondation, l'analyse probabiliste des plus deint prendre en compte l'extension spatiale du phenomene et pas simplement la variabilite spatiale d'une intensite de pluie mesuree ponctuellement. Une premiere approche consiste a choisir le poste pluiometrique suppose etre representatif de la pluie de bassin, a partir d'une analyse cartographique de la variabilite spatiale des gradex ponctuels de pluie. Une approche plus complete doit permettre d'integrer les phenomenes de concomitance et de structuration spatiale de la pluie.
+
+Figure 3: Distribution des plusie journalieres spatiales du mois de septembre pour le bassin de St-Martin-d'Ardéche (S = 2 430 km\({}^{2}\), Rhône).
+
+_Gumbel plot of 1 day maximum areal precipitation in September for two St-Martin-d'Ardéche catchments (S=2430 km2, Rhône)._Figure 6: Exemple d’ajustement des plusie journalieres saisonnieres : comparaison de deux modes d'echantillonnage par maximum (mois, quinzaine) avec Pensemble des valeurs successives.
+
+_Example of a Gumbel plot of seasonal maximum daily precipitation: comparison between two kinds of sampling methods (monthly and bi-monthly) including all successive values.lues._
+
+Figure 5: Exemple d’ajustement des plusie journalieres : comparaison de deux modes d’echantillonnage (max hiver, sup-seuil hiver) sur PEsch à jezainville.
+
+_Example of a Gumbel plot of maximum daily precipitation: comparison between two kinds of sampling methods (maximum winter values and winter peak-over-threshold (POT) values)._Nous pouvons comparer la moyenne des grades ponctuels des stations appartenant a un bassin donne avec le gradex de la lame d'eau de ce bassin, et determiner un coefficient d'abatrement empirique fonction de l'intercorrelation entre les stations. En effet, prendre pour gradex spatial la moyenne des gradex, revient a dire que toutes les correlations spatiales entre postes sont egales a un, et amene donc a une surestimation. La figure 7 montre que l'estimation du gradex du bassin par la moyenne des gradex ponctuels entraine une surestimation par rapport au gradex des plusie de bassin, qui prend implicitement en compte la correlation spatiale des precipitations (cf. section 3.1, avec un calcul de lame d'eau spatiale journaliere). Le coefficient d'abatement des pluses d'hiver sur la Moselle varie de 12 % a 6 % (respectivement cumuls journaliers et de trois jours). Les valeurs obtenues pour l'ete sont un peu plus fortes, et peuvent atteindre 15 %.
+
+Ces pourcentages fournissent un ordre de grandeur de l'abatrement spatial des pluses sur la Moselle, pour une premiere estimation du risque de pluie forte. La climatologie des plusie etant variable d'un bassin a un autre, il est preferable, dans la mesure du possible, de raisonner sur le gradex de la lame d'eau spatiale, a partir d'une chronique de pluie spatiale, qui integre de fait les interrelations entre les stations.
+
+## 4 Estimation du gradex des plusie suivant le mode d'echantillonnage
+
+Comparison du gradex isu de la distribution des valeurs maximales annelles et superieures a un seuil
+
+La figure 8 presente une comparaison du gradex obtenu avec un echantillonnage par valeurs maximales annuelles (indice x) et par valeurs superieures a un seuil (indice x), pour les 63 bassins de la Moselle et les 11 bassins du Rhone. Les deux courbes du haut correspondent au ratio \(\mu_{i}/\mu_{s}\) de la moyenne des gradex sur l'ensemble des bassins traites; les deux courbes du bas correspondent au coefficient de correlation r de la regression lineaire obtenue a partie de l'equation 21.
+
+D'une facon generale, la correlation r entre les deux gradex est meilleure lorsque l'on utilise un decoupage saisonnier qui produit des valeurs plus homogenes, et on note une sousestimation du gradex par la methode classique (max annuel) de 10 a 20 % par rapport a l'echantillonnage par valeurs superieures a un seuil (rapport \(\mu_{i}/\mu_{s}\)).
+
+Figure 7: Comparaison entre (a) le gradex (1 et 3 jours) de la pluie moyenne du bassin et (b) le gradex moyen du bassin (63 sous-bassins de la Moselle).
+
+Comparaison du gradex isu de la distribution des valeurs superieures a un seuil et des valeurs succesives
+
+#### 4.2.1 Distribution des valeurs cumulees succestives
+
+A l'issue du traitement des donnees, nous avons constate que la loi somme de deux exponentielles ne pouvait etre applique sur des cumuls de plus de six jours. Lorsque le pas d'etude devient important, la frequence des valeurs nilles est proche de zero et le coefficient de variation est souvent inferieur a l'unite. Ainsi, on utilise generalement plutot la loi gamma ou la loi normale pour l'etude de la distribution des pluses mensuelles. Dans le cadre de cette etude, nous avons distinguue deux cas de figure, suivant la frequence F(0) des valeurs nilles :
+
+* quand F(0) = 0, la loi exponentielle simple a un parametre s'ajuste bien avecles precipitations, memelorsque le coefficient de variation est inferieur a l'unite (cf. Figure 9 : C\({}_{\vee}\) = 0,71, F(0) = 0). Le gradex estime est comparable a celui obtenu avec la loi gamma.
+* quand F(0) > 0, la loi exponentielle simple a deux parametres s'ajuste bien si le coefficient de variation est proche de l'unite. Dans le cas contrare, nous avons retenu l'estimation du gradex obtenue a l'aide d'une loi gamma. La figure 10 donne l'exemple du bassin de Rupt-sur-Moselle, ou la loi exponentielle s'ajuste bien aux pluies journalieres cumulees de 10 jours (C\({}_{\vee}\) = 0,93, F(0) = 0,024). Elle conduit par contre a surestimer la distribution des plusie cumulees de 15 jours, pour des valeurs de C\({}_{\vee}\) inferieur a 1 (C\({}_{\vee}\) = 0,79; F(0) = 0,011).
+
+La figure 11 montre qu'en moyenne, sur les 63 sous-bassins de la Moselle, la loi exponentielle appliquee aux pluies cumulees de 20 jours surestime le gradex d'environ 20 %, en comparaison avec une loi gamma tronquee (rapport u/u\({}_{\rm x}\) = 0,83). Cette derniere distribution est donc a recommander pour l'etude des cumuls pluviometriques de plus de sept jours.
+
+#### 4.2.2 Comparison avec la distribution des valeurs superieures a un seuil
+
+La figure 12 permet de verifier le respect des hypotheses de stationnarite et d'independance sur les valeurs de pluie cumulee de trois jours du bassin de Rupt-sur-Moselle. Quel que soit le seuil retenu (de 27 a 33 mm), l'indice de dispersion experimental I, theoriquement egal a un pour la loi de Poisson, est situe a l'inteireur de l'intervalle de confiance a 90 %. Ceci conduit a valider le choix de la loi de Poisson et les criteres d'espacement utilises pour eliminer des episodes trop rapproches. Pour le seuil de 28 mm, qui correspond a un nombre moyen annuel de deux episodes, le processus est stationnaire (cf. test sur les dates d'occurrence), a un risque d'erreur pres de 10 %.
+
+La figure 13 presente une comparaison du gradex obtenu avec un echantilonnage par valeurs successives (sans indice) et par valeurs superieures a un seuil (indice s), pour les 63 bassins
+
+Figure 8: Comparaison du gradex obtenu à partir de valeurs maximales annuelles ou supérieures à un seuil. (a) Bassin de la Moselle (63 bassins); (b) bassin du Rhône (11 bassins).
+
+Figure 10.— Example d’ajustement des plusies cumulées de (a) 10 jours et (b) 15 jours en hiver (Rupt-sur-Moselle).
+
+_Example of a Gumbel plot of (a) 10 and (b) 15 day rainfall in the winter (Rupt-sur-Moselle)._
+
+Figure 9.— Example d’ajustement des plusies cumulées de 20 jours en hiver (Rupt-sur-Moselle).
+
+_Example of a Gumbel plot of 20 day rainfall in winter (Rupt-sur-Moselle)._Figure 11.— Comparaison du gradex des plusies cumulées de 20 jours en hive, estimé d’après une loi gamma ou une loi exponentielle (63 sous-bassins de la Moselle).
+
+_Comparison of gradex estimates of 20 day rainfall in the winter, with a Gamma or an exponential distribution (63 sub-cathematics of the Moselle River)._
+
+Figure 12.— Verification des hypotháses de (a) stationnarité et (b) d’indépendance. Application aux pluies cumulées de 3 jours, supérieures à un seuil (bassin de Rupt-sur-Moselle).
+
+_Test of (a) stationarity and (b) independance. Application to POT values of 3-day precipitations (Rupt-sur- Moselle catchment)._de la Moselle et les 11 bassins du Rhone. Les deux courbes du haut correspondent au ratio \(\mu/\mu\) de la moyenne des gradex sur l'ensemble des bassins traites, en raisonnant sur l'annee ou la saison a risque; les deux courbes du bas correspondent au coefficient de correlation r de la regression lineaire.
+
+Les resultats obtenus sont sensiblement differents entre les deux jeux de donnees. Sur la Moselle, les estimations du gradex restent voisines pour les dures de 1 a 6 jours et divergent audiela, du fait d'une mauvaise adequation de la loi exponentielle simple a la distribution des plus cumulees sur de longues dures. Comme indique au paragraphe 2.3, une bonne alternative consiste a utiliser une loi Gamma, mieux adaptee a ce type d'echanillon (cf. Figure 10b).
+
+Sur le Rhone, la difference entre les estimations du gradex est de l'ordre de \(\pm\) 5 a 15 %, ce qui n'excede pas l'ecart-type theorique du gradex. On peut noter par ailleurs que l'ecart d'estimation est plus marque avec un echanillonnage sur l'annee, plutot qu'avec un echantillonnage sur la saison.
+
+La disparite des resultats entre le Rhone et la Moselle peut s'expliquer par le fait que certains des bassins etudies sur la Moselle sont de taille reduite, pour lesquels on ne disposait pas d'un nombre suffisant de postes a l'interieur du bassin considere. Dans ce cas de figure, le calcul de la lame spatiale est forcement moins robuste que sur des grands bassins avec un plus grand nombre de pluviometres.
+
+## 5 Conclusion
+
+Lobjet de ce travail etait d'evaluer l'effet du mode d'echanillonnage sur l'estimation du parametre d'echelle de la distribution des plus maximales. Un premier resultat est la necessite d'etudier au prelable le comportement saisonnier du regime des plusies et de raisonner sur la saison a plus fort risque. Cette etape permet d'obtenir des valeurs d'echanillons plus homogenes et des ajustements de bien meilleure qualite qu'avec simplement des valeurs maximales selectionnees sur l'annee complete. Dans le cas contraire, la sous-estimation du parametre d'echelle est de l'ordre de 10 a 20 % pour les plusies de bassin et de 10 a 40 % pour des plus ponctuelles.
+
+Il est par ailleurs indispensable de bien apprehender le phenomene d'abatement spatial des precipitations, qui trauit le fait que le risque d'une pluie forte diminue en fonction de l'extension spatiale consideree. Le calcul simplie consistant a faire une analyse ponctuelle des pluses et a calculer une valeur moyenne spatiale du gradex conduit a surestimer le parametre d'echelle des plusies de 10 a 15 %, suivant la saison consideree. Il est preferable d'estimer les parametres de la distribution de la lame d'eau de bassin. La combinaison de ces deux erreurs (sous-estimation lice au caractere saisonnier et surestimation lice a la dependance spatiale) se neutralise seulement en moyenne, sachant que dans certains cas l'erreur finale peut etre de l'ordre de \(\pm\) 40 %.
+
+Figure 13: Comparaison du gradex obtenu à partir de valeurs cumulées successives ou supérieures à un seuil. (a) Bassin de la Moselle; (b) Bassin du Rhone.
+
+En alternative a l'echanillonnage classique par valeurs maximales annuelles ou par saison, on peut preconsier : a) l'emploi d'un echantillonnage par valeurs superieures a un seuil, ou b) l'etude de la distribution des plusie journalieres successives. L'ineret est de disposer d'un echantillon plus fourni et d'obtenir une estimation plus robuste de la distribution des plusie. La contrepartie est, dans le cas a), d'effectuer une etude de sensibilite sur le choix du seuil et, dans le cas b), d'utiliser une loi adaptee a la presence de valeurs nulles. Ce dernier point a ete aborde par DJERBOUA _et al._ (2004). Les resultats obtenus par les deux approches sont globalement coherents et peuvent etre recommandes pour l'etude de la distribution des plusie fortes.
+
+La question du comportement asymptotique de la distribution des plusie fortes reste determinante, notamment pour determiner si l'hypothese exponentielle est acceptable ou pas. MULLER (2006) a realise une analyse sur 22 longues series pluviometriques en France avec plus de 100 annees de mesure. Si l'hypothese k > 0 est acceptee pour pres d'un poste sur deux, il reste difficile de rejeter par une analyse locale la loi de Gumbel au profit de la loi generalisee des valeurs extremes, du fait de la forte variabilite de l'estimateur de k.
+
+## Bibliography
+
+* [1]
+* [2] BACRO J.N. (2006). Modelisations stochastiques et valeurs extremes. 181\({}^{\circ}\) Colloque SHF. Lyon, 15-16 mars, pp. 21-27.
+* [3]
+* 18' Congres CIGB-ICOLD N'2, nov., Bulletin du Comite Francais des Grands Barrages, 96 p.
+* [5]
+* [6] COLES S.G. (2001). An introduction to statistical modeling of extreme values. SPRINGER VERLAG (Editeurs), 225 p.
+* [7]
+* [8] CUNNANE C. (1979). A note on the Poisson assumption in partial duration series models. _Water Resour. Res._, 15, 489-494.
+* [9]
+* [10] DAVISON A.C. et R.L. SMITH (1990). Models for exceedances over high thresholds. _J.R. Stat. Soc._, B, 52, 393-442.
+* [11]
+* [12] DJERBOUA A., D. DUBAND et P. BOIS (2004). Estimation des lois des precipitations extremes a partir de donnees journalistres completes. _Houil. Blanc._, 3, 65-74.
+* [13]
+* [14] FISHER R.A. et L.H.C. TIPPET (1928). Limiting forms of the frequency distribution of the largest or smallest member of a sample. Proc. Cambridge Philos. Soc., 24, 180-190.
+* [15]
+* [16] GALEA G. et M. BLUM (2005). Modelisation regionale des regimes de crue du bassin hydrographique de la Moselle francaise. _Houil. Blanc._, 5, 88-96.
+* [17]
+* [18] GNEDENKO B.V. (1943). Sur la distribution limite du terme maximum d'une serie aleatoire. _Ann. Math._, 44, 423-453.
+* [19]
+* [20] GOUY, D. (1994). Contribution a la methodologie du gradex. Particulares des distributions empiriques telles que CV < 1 et F(0) voisin de 0. Developpements de nouveaux estimateurs du gradex. Application au groupement des 49 stations Cevennes-Vivarais. Service Ressources en Eau, EDF/DTG, 22 juin.
+* [21]
+* [22] GUILLOT P. et D. DUBAND (1967). La methode du Gradex pour le calcul de la probabilite des crues a partir des plusie. Colloque International sur les crues et leur evaluation, Leningrad, 15-22 Aout, _IASH_, 84, 560-569. Symposium International d'Hydrologie, Fort Collins, Etats-Unis, septembre.
+* [23]
+* Approche locale et regionale. These de Doctorat, INP Grenoble. Cemagref Lyon,France, 268p.
+* [25]
+* [26] JENKINSON A.F. (1955). Frequency distribution of the annual maximum (or minimum) values of meteorological elements. _Quart. J. Roy. Meteorol. Soc._, 81, 158-171.
+* [27]
+* [28] LABORDE J.P. (1984). Analyse des donnees et cartographie automatique en hydrologie : elements d'hydrologie lorraine. These de Doctorat d'Etat, INP Lorraine, ENSGAPN Nancy, France, 484 p.
+* [29]
+* [30] LANG M. et I. DESUROSNE (1994). Esquisse des risques de crues a l'echelle euro-mediterraneenne : les premiers resultats du programme FRIEND-AMHY exploitant les modeles Aregee et TPG. 23\({}^{\circ}\) Journees de l'hydraulique, Congres de la SHF, tome 1, 123-130, Nimes, France, septembre.
+* [31]
+* [32] LANG M., T. OUARDA et B. BOBEE (1999). Towards operational guidelines for over-threshold modelling. _J.
+
+Hydrol._, 225, 103-117.
+* These de Doctorat Ing., INP Grenoble, France, 326 p.
+* [12]MIQUEL J. (1984). Guide pratique d'estimation des probabilites de crue. Editions Eyrolles, Paris, 160 p.
+* [13]MULLER A. (2006). Comportement asymptotique de la distribution des pluies extremes en France. These de Doctorat, Univ. Montpellier II, Cemagref Lyon et Aix-en-Provence, France, 245 p.
+* [14]PICKANDS J. (1975). Statistical inference using extreme order statistics. _Ann. Statist._, 3, 119-131.
+* [15]REED D.W., D.S. FAULKNER et E.J. STEWART (1999). The FORGEX method of rainfall growth estimation. II: description. _Hydrol. Earth Syst. Sci._, 3, 197-203.
+* [16]SAFEGE (2000). Etude globale des crues du Rhone. Lot 1 : analyse hydrodigique. Institution Interdepartementale des bassins Rhone-Saone, 182 p. + annexes.
+* [17]SHANE R.M. et W.R. LYNN (1964). Mathematical model for flood risk evaluation. _J. Hydraul. Div._, ASCE, 90 (HY6), 1-20. 
+
+
