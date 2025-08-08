@@ -90,31 +90,36 @@ def convert_to_base(data):
         "keywords": [normalize_text(k) for k in data.get("keywords", []) if isinstance(k, str)],
         "themes": [normalize_text(t) for t in data.get("themes", []) if isinstance(t, str)],
         "language": first_or_empty(data.get("language")),
-        "body": [normalize_text(k) for k in data.get("body", []) if isinstance(k, str)],
+        "section_titles": [normalize_text(k) for k in data.get("section_titles", []) if isinstance(k, str)],
+        "bibliographies": [
+                            normalize_text(b.get("raw_reference", ""))
+                            for b in data.get("bibliographies", [])
+                            if isinstance(b, dict) and "raw_reference" in b
+                        ],
 
         "acknowledgements": first_or_empty(data.get("acknowledgements")),
         "biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
-        "bibliographies": [
-            {
-                "authors": b.get("authors", []),
-                "title": normalize_text(b.get("title", "")),
-                "monograph_title": normalize_text(b.get("monograph_title", "")),
-                "editors": b.get("editors", []),
-                "publisher": normalize_text(b.get("publisher", "")),
-                "place": normalize_text(b.get("place", "")),
-                "date": normalize_date(b.get("date", "")),
-                "pages": normalize_text(b.get("pages", "")),
-                "volume": normalize_text(b.get("volume", "")),
-                "issue": normalize_text(b.get("issue", "")),
-                "organization": normalize_text(b.get("organization", "")),
-                "notes": normalize_text(b.get("notes", "")),
-                "url": normalize_text(b.get("url", "")),
-                "doi": normalize_text(b.get("doi", "")),
-                "raw_reference": normalize_text(b.get("raw_reference", ""))
-            }
-            for b in data.get("bibliographies", [])
-            if isinstance(b, dict)
-        ],
+        # "bibliographies": [
+        #     {
+        #         "authors": b.get("authors", []),
+        #         "title": normalize_text(b.get("title", "")),
+        #         "monograph_title": normalize_text(b.get("monograph_title", "")),
+        #         "editors": b.get("editors", []),
+        #         "publisher": normalize_text(b.get("publisher", "")),
+        #         "place": normalize_text(b.get("place", "")),
+        #         "date": normalize_date(b.get("date", "")),
+        #         "pages": normalize_text(b.get("pages", "")),
+        #         "volume": normalize_text(b.get("volume", "")),
+        #         "issue": normalize_text(b.get("issue", "")),
+        #         "organization": normalize_text(b.get("organization", "")),
+        #         "notes": normalize_text(b.get("notes", "")),
+        #         "url": normalize_text(b.get("url", "")),
+        #         "doi": normalize_text(b.get("doi", "")),
+        #         "raw_reference": normalize_text(b.get("raw_reference", ""))
+        #     }
+        #     for b in data.get("bibliographies", [])
+        #     if isinstance(b, dict)
+        # ],
 
         "notes": [normalize_text(n) for n in data.get("notes", []) if isinstance(n, str)],
     }
@@ -194,7 +199,7 @@ def convert_to_base(data):
             base["tables"].append({
                 "number": normalize_text(t.get("number", "")),
                 "title": normalize_text(t.get("title", "")),
-                "content": normalize_text(t.get("content", "")),
+                "content":normalize_text(t.get("content", "")),
                 "note": normalize_text(t.get("note", "")),
                 #"parent": normalize_text(t.get("parent", "")) if t.get("parent") else None,
                 #"full_text" : normalize_text(t.get("full_text", "")) if t.get("full_text") else None,

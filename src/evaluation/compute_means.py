@@ -87,8 +87,9 @@ def process_per_field(repertoires, base_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Calcul des moyennes par champ avec has_ref=1")
-    parser.add_argument('--dirs', nargs='+', required=True, help="Liste des sous-dossiers dans results/csv/grobid/")
+    parser.add_argument('--dirs', nargs='+', required=True, help="Liste des sous-dossiers dans results/csv/<tool>/")
+    parser.add_argument('--tool', required=True, help="Nom de l’outil évalué (ex: grobid, nougat)")
     args = parser.parse_args()
 
-    BASE_DIR = "results/csv/grobid"
+    BASE_DIR = f"results/csv/{args.tool}"
     process_per_field(args.dirs, BASE_DIR)

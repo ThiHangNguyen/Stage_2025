@@ -69,7 +69,7 @@
     "louest francoamericain"
   ],
   "language": "fr",
-  "body": [
+  "section_titles": [
     "introduction",
     "nouveaux corpus et nouvel outil pour letude des canadiens francais de 1850 a 1880",
     "les corpus de donnees",
@@ -78,12 +78,12 @@
     "la population canadiennefrancaise dans le farwest des etatsunis",
     "conclusion"
   ],
+  "bibliographies": [],
   "acknowledgements": "",
   "biographical_notes": [
     "marieeve harton est professeure au departement des sciences humaines a luniversite du quebec a troisrivieres. ses recherches portent sur les dynamiques de population en amerique du nord au xixe et xxe siecles. auteure dune these de doctorat sur les regimes demographiques des canadiens francais a quebec et a manchester (new hampshire) au tournant du xxe siecle, elle est une specialiste de letude du changement social, principalement sous de langle de la reproduction sociale et familiale et de la migration, et de linnovation methodologique a partir des recensements anciens.",
     "professeure au departement de sociologie et danthropologie de luniversite concordia, danielle gauvreau est demographe specialisee dans lhistoire de la population du quebec. elle a publie de nombreux articles portant sur des sujets varies comme les migrations et la fecondite, du regime francais jusqua la periode recente, notamment louvrage la fecondite des quebecoises, 18701970. dune exception a lautre (boreal, 2007) avec diane gervais et peter gossage. ses travaux recents ont porte sur le babyboom au quebec et au canada et concernent lemigration canadiennefrancaise vers les etatsunis. elle est membre du centre interuniversitaire detudes quebecoises."
   ],
-  "bibliographies": [],
   "notes": [
     "[1] les auteures remercient claude leduc, assistant de recherche a luniversite concordia, laurent richard, professionnel de recherche au centre interuniversitaire detudes quebecoises (cieq) a luniversite laval, et matt nelson, analyste senior a linstitute for social research and data innovation (isrdi) a luniversite du minnesota. merci aussi a nos collegues yves frenette, marc sainthilaire et helene vezina pour les echanges stimulants au fil de la creation du dictionnaire des patronymes ainsi quaux deux evaluateurs anonymes de la revue pour leurs precieuses suggestions. lappui financier du conseil de recherches en sciences humaines du canada (projet de developpement de partenariat deploiements canadiensfrancais en amerique du nord (17601914), dirige par y. frenette et subvention savoir pour un projet intitule du quebec aux etatsunis. nouvelle etude sociodemographique de lemigration canadiennefrancaise, 18501930, sous legide de d. gauvreau) et celui du fonds de recherche du quebec societe et culture (bourses de postdoctorat) ont rendu possible la realisation de ce texte.",
     "[2] yves frenette, etienne rivard et marc sthilaire (dir.), la francophonie nordamericaine (quebec, les presses de luniversite laval, 2012).",
@@ -159,43 +159,43 @@
     {
       "number": "tableau 1",
       "title": "distribution des canadiens francais au recensement de 1910 (cfr) et selon le dictionnaire des patronymes canadiensfrancais (cfd)",
-      "content": "ouest du mississippi (ouest)du mississipi aux appalaches (centre)est des appalaches (est)cfrcfdcfrcfdcfrcfdage014222325273234152927282828292930442424212121204559181716151212607477775475+212211statut matrimonial (15 ans +)celibataire414137383839marie535357575757veuf555454divorce111100generation13535333444452656567665655% sachant parler anglais (10 ans +)oui999898988988% sachant lire et ecrire (10 ans +)oui949490918787% vivant en milieu urbainurbain424053537578nombre de cas58 79233 58281 64844 056351 306214 143rapport de masculinite119144108121101104",
+      "content": "",
       "note": "source: recensement americain de 1910, complete count data, ipums"
     },
     {
       "number": "tableau 2",
       "title": "distribution comparee des canadiennes francaises au recensement de 1910 (cfr) et selon le dictionnaire des patronymes (cfd)",
-      "content": "ouest du mississippi (ouest)entre appalaches et mississippi (centre)est des appalaches (est)cfrcfdcfrcfdcfrcfdage014263327333235152931313029313130442318221820184559141214131211607455664475+111111statut matrimonial (15 ans +)celibataire273728363438mariee645562565855veuve879887divorcee111000generation12628283044452747272705655% sachant parler anglais (10 ans +)oui969496947976% sachant lire et ecrire (10 ans +)oui969494938990% vivant en milieu urbainurbain464257557780nombre de cas49 22223 39075 61936 382349 495206 631",
+      "content": "",
       "note": "source: recensement americain de 1910, complete count data, ipums"
     },
     {
       "number": "tableau 3",
       "title": "population canadiennefrancaise (cfd) par generation et selon la region dapres lapplication du dictionnaire des patronymes canadiensfrancais, 1850, 1880 et 1910",
-      "content": "ouest du mississippi (ouest)entre appalaches et mississippi (centre)est des appalaches (est)1850gen 16901,822212,982606,1gen 2+38 19598,275 39997,1127 69293,9total38 885100,077 620100,0135 592100,01880gen 187885,117 9288,664 53019,8gen 210 8736,319 6099,543 44813,4gen 3+151 68288,5169 73881,9217 41966,8total171 343100,0207 275100,0325 397100,01910gen 118 3524,225 6016,8189 42522,5gen 238 6208,854 83714,6231 34927,5gen 3+383 08087,0294 75278,6420 75050,0total440 052100,0375 190100,0841 524100,0",
+      "content": "",
       "note": "source: recensements americains de 1850, 1880 et 1910, complete count data, ipums"
     },
     {
       "number": "tableau 4",
       "title": "population canadiennefrancaise par generation et selon la region, dapres la definition du recensement, 1890 et 1910",
-      "content": "ouest du mississippi (ouest)entre appalaches et mississippi (centre)est des appalaches (est)1890gen 125 94549,246 91350,2229 63859,0gen 2*26 84250,846 54449,8159 61941,0total52 787100 93 457100389 2571001910gen 132 20731,446 94531,1305 93144,1gen 2*70 45968,6103 90968,9388 34155,9total102 666100150 854100694 272100",
+      "content": "",
       "note": "source: calculs faits a partir de l. truesdell, the canadian born..., p. 7781 * dans les donnees publiees par l. truesdell, la generation 2 ninclut pas les enfants dont seulement la mere est canadiennefrancaise."
     },
     {
       "number": "tableau 5",
       "title": "milieu de residence des canadiens francais dans louest des etatsunis selon la generation, 1850, 1880 et 1910",
-      "content": "185018801910immigrants (gen1)rural84,5 %82,1 %54,2 %urbain15,5 %17,9 %45,8 %autres generationsrural88,8 %83,3 %68,7 %urbain11,2 %16,7 %31,3 %",
+      "content": "",
       "note": "source: recensements americains de 1850, 1880 et 1910, complete count data, ipums"
     },
     {
       "number": "tableau 6",
       "title": "region de naissance des canadiens francais de deuxieme et de troisieme generations et plus selon le sexe, individus recenses dans louest des etatsunis, 1880, 1910",
-      "content": "1880homme ne2g3g+est12,1 %11,0 %centre18,5 %14,5%ouest69,4 %74,5 %1910homme ne2g3g+est8,7 %5,6 %centre17,5 %11,4 %ouest72,4 %82,2 %1880femme nee2g3g+est9,1 %8,9 %centre17,5 %13,5 %ouest73,3 %77,6 %1910femme nee2g3g+est5,2 %4,3 %centre14,4 %10,3 %ouest79,2 %84,8 %",
+      "content": "",
       "note": "source: recensements americains de 1850, 1880 et 1910, complete count data, ipums ** pourcentages manquants = modalites de reponses qui nont pas pu etre classees, ex. usa, unknown, etc."
     },
     {
       "number": "tableau 7",
       "title": "mobilite des familles avec enfants attestee par la presence dau moins un enfant ne ailleurs que dans louest du pays selon la generation du chef de menage, 1850, 1880, 1910",
-      "content": "1850au moins un enfant ne...immigrantsgeneration 2+est5 %5 %centre5 %15 %canada22 %0 %1880au moins un enfant ne...immigrantsgeneration 2est10 %6 %centre19 %19 %canada24 %2 %1910au moins un enfant ne...immigrantsgeneration 2est4 %2 %centre12 %11 %canada13 %1 %",
+      "content": "",
       "note": "source: recensements americains de 1850, 1880 et 1910, complete count data, ipums"
     }
   ]

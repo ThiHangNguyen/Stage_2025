@@ -419,7 +419,7 @@ def parse_grobid_xml(root):
             resultats[champ] = normalize_text(resultats[champ])
 
     resultats["authors"] = extract_grobid_author_dicts(root)
-    resultats["body"] = extract_section_titles(root)
+    resultats["section_titles"] = extract_section_titles(root)
     resultats["figures"] = extract_grobid_figures_from_text(root)
     resultats["tables"] = extract_grobid_tables(root)
 

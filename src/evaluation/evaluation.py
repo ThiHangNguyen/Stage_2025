@@ -145,7 +145,7 @@ def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
         fp = len(predicted_list) - tp
         fn = len(expected_list) - tp
         metrics = compute_metrics(tp, fp, fn)
-        avg_similarity = round(sum(similarity_scores) / len(similarity_scores), 3) if similarity_scores else 0.0
+        avg_similarity = round(sum(similarity_scores) / len(expected_list), 3) if similarity_scores else 0.0
 
         scores[name] = {
             "precision": metrics["precision"],
@@ -290,9 +290,9 @@ FIELD_COMPARISON_FUNCTIONS = {
     "keywords" : compare_list_of_strings,
     "themes": compare_list_of_strings,
     "biographical_notes": compare_list_of_strings,
-    "body": compare_list_of_strings,
+    "section_titles": compare_list_of_strings,
 
-    "bibliographies": compare_raw_bibliographies,
+    "bibliographies": compare_list_of_strings,
 
 
     "id": compare_dict_of_strings,

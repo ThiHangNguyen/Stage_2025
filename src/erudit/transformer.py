@@ -237,15 +237,22 @@ def extract_figures(root):
     return figures
 
 
+def extract_tabtexte_content(table_node, ns):
+    lignes = []
 
-def get_table_data_from_objetmedia(table_node):
-    text_nodes = table_node.findall(".//er:objetmedia/er:texte", namespaces=ns_erudit)
-    raw_blocks = [node.text for node in text_nodes if node.text and node.text.strip()]
-    if not raw_blocks:
-        return ""
-    
-    # On garde les blocs tels quels, on fusionne avec un espace entre chaque
-    return " ".join(block.strip() for block in raw_blocks)
+    # En-tête
+    for ligne in table_node.findall(".//er:tabentete/er:tabligne", namespaces=ns):
+        cellules = ligne.findall(".//er:alinea", namespaces=ns)
+        lignes.append("\t".join([c.text.strip() for c in cellules if c.text]))
+
+    # Lignes de données
+    for ligne in table_node.findall(".//er:tabgrligne/er:tabligne", namespaces=ns):
+        cellules = ligne.findall(".//er:alinea", namespaces=ns)
+        lignes.append("\t".join([c.text.strip() for c in cellules if c.text]))
+
+    return "\n".join(lignes) if lignes else None
+
+
 
 def extract_table_notes_and_source(table_elem, ns):
     """
@@ -303,18 +310,18 @@ def extract_tables(root):
             number = normalize_text(table.findtext("er:no", default="", namespaces=ns))
             titre_node = table.find("er:legende/er:titre", namespaces=ns)
             title = normalize_text("".join(titre_node.itertext()) if titre_node is not None else "")
-            content = get_table_data_from_objetmedia(table)
+            content = extract_tabtexte_content(table, ns)
             note = extract_table_notes_and_source(table, ns)
 
-            full_text = " ".join([str(x).strip() for x in [number, title, note, content] if x]).strip()
+           #full_text = " ".join([str(x).strip() for x in [number, title, note, content] if x]).strip()
 
             tables.append({
                 "number": number,
                 "title": title,
                 "content": content,
                 "note": note,
-                "parent": parent_label,
-                "full_text": full_text
+                #"parent": parent_label,
+                #"full_text": full_text
             })
 
     # Cas 2 : tableaux simples (pas dans un grtableau)
@@ -325,18 +332,19 @@ def extract_tables(root):
         number = normalize_text(table.findtext("er:no", default="", namespaces=ns))
         titre_node = table.find("er:legende/er:titre", namespaces=ns)
         title = normalize_text("".join(titre_node.itertext()) if titre_node is not None else "")
-        content = get_table_data_from_objetmedia(table)
+        content = extract_tabtexte_content(table, ns)
+
         note = extract_table_notes_and_source(table, ns)
 
-        full_text = " ".join([str(x).strip() for x in [number, title, note, content] if x]).strip()
+        #full_text = " ".join([str(x).strip() for x in [number, title, note, content] if x]).strip()
 
         tables.append({
             "number": number,
             "title": title,
             "content": content,
             "note": note,
-            "parent": None,
-            "full_text": full_text
+            #"parent": None,
+            #"full_text": full_text
         })
 
     return tables
@@ -433,7 +441,6 @@ def parse_erudit_xml(root):
             resultats[champ] = extract_from_path(root, xpath, ns_erudit)
         else:
             print("A REVOIR")
-            print(champ)
             resultats[champ] = []
             
     # Extraction du body structuré (sections)
@@ -457,7 +464,7 @@ def parse_erudit_xml(root):
 
     resultats["authors"] = authors
     #resultats["body_sections"] = extract_body(root)
-    resultats["body"] = extract_section_titles_erudit(root)
+    resultats["section_titles"] = extract_section_titles_erudit(root)
     resultats["figures"] = extract_figures(root)
     resultats["tables"] = extract_tables(root)
     return resultats
