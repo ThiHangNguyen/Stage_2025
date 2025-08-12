@@ -1,0 +1,2263 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9843979477882385,
+        "bbox_xyxy": [
+          173,
+          1194,
+          1079,
+          1526
+        ],
+        "text": "Since Marshall, agglomeration externalities have long attracted the attention of economists (e.g.,Henderson,1988; Fujita,Krugman and Venables,1999) and ge0graphers alike (e.g., Isard, 1956; Jacobs, 1969; Dicken and Lloyd, 1990). Various sources ofexternalitieshavebeenhypothesizedin theliterature.Some arethought to raise the productivity of individual firms directly, for instance through the sharing of technological or market-related information (e.g.,Arrow, 1962; Glaeser, Kallal, Scheinkman, and Shleifer, 1992). Others are believed to raise profits by reducing transport costs, for example because of closer proximity to consumers and input providers (e.g., Krugman, 1991; Rodriguez-Clare, 1996). The first case corresponds to Marshallian externalities, the second to pecuniary externalities."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9827489256858826,
+        "bbox_xyxy": [
+          173,
+          787,
+          1078,
+          1093
+        ],
+        "text": "ABsTRAcT-Thispaperinvestigates theeffectoflocation-specificcompetition anddiversity on manufacturing growth. Using detailed manufacturing data from Morocco, we find strong androbustevidenceofagglomerationeffects:competitionisgoodforgrowthbutdiversity is not.However,in our study country theseeffects donot appear tobe channelled through productivityorwages.First,agglomerationvariableshaveoppositeeffectsongrowthand on individualfirm productivity.Second,controlling for productivity directly does not reduce the significance or magnitude of agglomeration variables.In the study country, agglomerationvariablesmeasuresomethingthatisrelevantformanufacturinggrowth,but it isnotproductivity.We alsofind that a riseinaverageproductivityraises subsequent employmentandinvestment,buthasnoeffectonfirmentryandexit."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9609964489936829,
+        "bbox_xyxy": [
+          173,
+          1672,
+          1078,
+          1748
+        ],
+        "text": "米 IbenefittedfromcommentsfromparticipantstoaseminarinOxford.Iamverygrateful to the World Bank for financial assistance. I thank Peter Lanjouw for his constant support and Said ElHamineforassistinginpreparingthedataforanalysis"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9542216062545776,
+        "bbox_xyxy": [
+          173,
+          1545,
+          1078,
+          1610
+        ],
+        "text": "Much of the empiricalliterature on agglomeration externalitiesfocuses on employmentgrowth(e.g.,Glaeseretal.,1992;Ellison and Glaeser,1997;Henderson,"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9483144879341125,
+        "bbox_xyxy": [
+          174,
+          554,
+          449,
+          653
+        ],
+        "text": "MarcelFAFCHAMPS StanfordUniversity fafchamp@stanford.edu"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9186784029006958,
+        "bbox_xyxy": [
+          314,
+          366,
+          935,
+          455
+        ],
+        "text": "MANUFACTURINGGROWTHANL AGGLOMERATIONEFFECTS*"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7052513360977173,
+        "bbox_xyxy": [
+          174,
+          1146,
+          326,
+          1174
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.49164849519729614,
+        "bbox_xyxy": [
+          172,
+          248,
+          890,
+          272
+        ],
+        "text": "Vol.94.n°1.mars2）18"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.46717533469200134,
+        "bbox_xyxy": [
+          172,
+          248,
+          890,
+          272
+        ],
+        "text": "Vol.94.n°1.mars2）18"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9860270023345947,
+        "bbox_xyxy": [
+          173,
+          698,
+          1078,
+          1266
+        ],
+        "text": "This paper examines how the introduction of productivity and wage shock measures in dynamic firm growth and entry regressions affects the coefficients of agglomeration variables.Productivity and wage shock measures are constructed from alarge exhaustive panel dataset onindividual manufacturing firms at a disaggregated geographical level. Using the same data, Fafchamps and El Hamine (2017)haveshownthatagglomerationeffectsaffectthetotalfactorproductivity of individual firms and the wages they pay their employees. If variables supposed toproxyforagglomerationexternalitiesinfluencefirmgrowthandentryvia productivity and wages, the inclusion of direct - albeit imperfect - measures of productivity and wages should reduce themagnitude of their coefficient.Results contradict this conjecture: although productivity and wage shocks are shown to have a strong effect on employment growth and firm entry, this effect is quite distinct from standard agglomerationvariables.We alsofind that agglomeration variables have an effect on employment growth and firm entry that is quite different from the effect they have on firm productivity and wages. It therefore appears that agglomerationvariablesindynamicemploymentgrowthregressionsmeasure somethingelsethanproductivityorwages."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834144711494446,
+        "bbox_xyxy": [
+          173,
+          245,
+          1079,
+          681
+        ],
+        "text": "1997;Combes,2000;BunandE1Makhloufi,2007),withtheexceptionofCombes, MagnacandRobin(2004)whoalsolookatfirmentryandexit.Inordertodis- entangle purelocational advantages from agglomeration effects,theliterature has reliedondynamicpanel analysiswherebysectoralemploymentgrowthisregressed on proxy variables capturing agglomeration externalities that vary across locations. Panel analysis offers the advantage of controlling for time-invariant location effects, such as geographical advantage. Using this approach, agglomeration effects have been shown to be a strong determinant of employment growth (e.g., Glaeser et al.,1992; Henderson, 1997; Combes, 2000; Bun and El Makhloufi, 2007) and, more recently, of firm entry (e.g., Combes et al., 2004).All these studiesassumethatagglomerationfactorsaffectmanufacturingperformance through their effect on productivity,prices,and costs.But,to ourknowledge,this hasneverbeentestedformally"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9832696914672852,
+        "bbox_xyxy": [
+          173,
+          1516,
+          1080,
+          1750
+        ],
+        "text": "There is a large literature on agglomeration externalities, much of it focusing on manufacturing. The theoretical literature is particularly well developed and has identified many different types of agglomeration effects, some negative (e.g., congestion),somepositive (e.g., shared infrastructure).Alfred Marshall, subse- quently followed by Arrow (1962) and Romer (1990), identified knowledge spillover as animportantsourceofexternalities.Totheextentthatknowledgeistransferred moreeasily through directhumancontact,localinformationsharingis thought to"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9721522927284241,
+        "bbox_xyxy": [
+          173,
+          1282,
+          1078,
+          1414
+        ],
+        "text": "This paper is organized as follows. Our testing strategy is described in Section 1, in relation to the existing literature. The data are presented in Section 2,together withsome descriptive statistics.Econometric analysis is presented in Section3."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8936037421226501,
+        "bbox_xyxy": [
+          175,
+          1466,
+          416,
+          1497
+        ],
+        "text": "TESTINGSTRATEGY"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8601549863815308,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONONMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.786629855632782,
+        "bbox_xyxy": [
+          173,
+          181,
+          191,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9862444996833801,
+        "bbox_xyxy": [
+          173,
+          990,
+          1078,
+          1395
+        ],
+        "text": "Pecuniary externalities have alsobeen proposed as possible explanation for spatial concentration (e.g.,Henderson,1988; Fujita et al.,1999).For instance,in a largelabor market,it iseasier andfasterfor employerstofind thespecialized manpowertheyneed.Thisphenomenoniscalledthicklabormarketexternalities by Glaeser et al. (1992).Forward and backward linkages as initially proposed by Hirschman (1958) are another possibility. Rodriguez-Clare (1996), for instance, construct a model where a larger market triggers entry in intermediate input production, thereby generating gains from specialization (e.g., Ciccone and Matsuyama, 1996; Fafchamps and Helms, 1996; Fafchamps, 1997). Market size also matters.Krugman (199l),forinstance,illustrates how proximity tolarger marketmay attractindustriesif transportcosts areneither toohighnortoolow.In thispaper,weexaminebothtypesofexternalities."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9861733913421631,
+        "bbox_xyxy": [
+          172,
+          399,
+          1078,
+          973
+        ],
+        "text": "Differentviews on what shared information is relevant and how it is exchanged have given rise to different theories regarding the nature of agglomeration effects. One view, attributed to Marshall, Arrow and Romer and hence referred to as the MAR hypothesis by Combes (2000), claims that monopoly and market power are associatedwithmoreinnovationandhencewithlargerexternalities.The opposite view is championed by Porter (1990) who argues that monopolies are stultifying andthatitiscompetitionthatspursinnovationandgrowth.Boththesehypotheses areseenasemphasizingexternalitieswithinasector.Incontrast,Jacobs(1984) arguesthatitisthediversityofindustrieswithincitiesthatisasourceofexter- nalities, as industries borrow ideas from each other. The empirical evidence is contradictory. Using US data, Glaeser et al. (1992) find in general that local competition and urban diversity, but not specialization, encourage employment growth.In contrast,Henderson(1997)finds thatbothspecialization and diversity have positive effects on firm growth but that the former is larger. Using French data, Combes (2000) finds the opposite result that competition and specialization reduce employment growthwhile diversity is negative for most industries and positiveforservices."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9847094416618347,
+        "bbox_xyxy": [
+          173,
+          1412,
+          1078,
+          1750
+        ],
+        "text": "The empirical literature on externalities and industrial development remains unsettled (e.g,Tybout, 2000).Glaeser et al.(1992),for instance,conclude that competition and diversityfavor firm growth.In contrast,Henderson(1997) and Desmet and Fafchamps (2005) conclude that own-sector externalities are much stronger than those generated by other sectors. In his study of French manufacturing and services,Combes (2000) concludes that competition and totallocalemployment have anegativeeffectonfirmgrowthwhileBun andEl Makhloufi(2007)concludes that diversityhasapositiveeffectbut competition anegative one.Using a different methodology,Ciccone andHall(1996)find thatemployment densityincreases average laborproductivity."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8428430557250977,
+        "bbox_xyxy": [
+          324,
+          182,
+          931,
+          205
+        ],
+        "text": "ANH AMERATLNEFFEC:L?"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7932528853416443,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          380
+        ],
+        "text": "give rise to agglomeration externalities of the ‘Silicon Valley’ type. The shared informationneed notbeontechnology;itmayalsoincludebusinessopportunities or market relevant knowledge (e.g., Rauch and Casella,2003; Fafchamps, El Hamine andZeufack,2008)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6383864879608154,
+        "bbox_xyxy": [
+          1060,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6354964375495911,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          380
+        ],
+        "text": "give rise to agglomeration externalities of the ‘Silicon Valley’ type. The shared informationneed notbeontechnology;itmayalsoincludebusinessopportunities or market relevant knowledge (e.g., Rauch and Casella,2003; Fafchamps, El Hamine andZeufack,2008)."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9866828918457031,
+        "bbox_xyxy": [
+          172,
+          246,
+          1078,
+          613
+        ],
+        "text": "Combes et al. (2004) argue that contradictory results may be driven by slight differences in methodology. They insist that a consistent set of regressors needs to be used to obtain meaningful results.Using a set of agglomerationvariables similar to that of Combes et al.(2004),Fafchamps and E1 Hamine (2017)use firm-level data toprovide evidenceof a significanteffect onproductivity andwages.They find that returns to specialization are strong andlarge inmagnitude and that the net effect of competition onproductivity andwages tends tobenegative. Their analysisshowsthatcompetitiontendstolower wages,probablybecauseof thick labormarket externalities.They alsofindsomelimited evidenceinfavor of the diversity argument put forth by Jacobs (1984).Thompson (2004) shows that input-outputlinkagesmatterfor agglomeration externalities."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9839715957641602,
+        "bbox_xyxy": [
+          172,
+          1018,
+          1079,
+          1218
+        ],
+        "text": "Equation (1) implies that growth △y., is faster the further away y, is from y* This is common sense: if y, is converging towards y, it must eventually slow down as it reaches y* Parameter expresses the speed with which y, converges to its steady state: if = 1,convergence is instantaneous; if is small but positive. convergence is slow;if<O,y, does not move towardsy* but infact moves away fromit."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9772735238075256,
+        "bbox_xyxy": [
+          172,
+          812,
+          1078,
+          946
+        ],
+        "text": "At theheartofmostanalysesofsectoraldynamicsis theidea that avariable of interest y.- typically the level of economic activity in a given country or location itendstowardsasteadystatey*.Ifwelinearizethelawofmotionofy around its steady state or mean, we obtain a linear difference equation:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9766032695770264,
+        "bbox_xyxy": [
+          173,
+          630,
+          1079,
+          796
+        ],
+        "text": "In thispaperweseektounderstand thegrowthofmanufacturingover time. Probably due todata limitations,earlier papershavefollowed Glaeser at al.(1992) andfocused on changes in employment levelsover time asmeasure of manufacturing growth.Here we take advantage of richer data toinclude not only employment but alsototaloutput,investment,andchangesinthenumberoffirms."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9630253911018372,
+        "bbox_xyxy": [
+          171,
+          1234,
+          1078,
+          1302
+        ],
+        "text": "Following Quah (1993) and Desmet and Fafchamps (2006),it is straightforward toextendtheabovemodeltoallowforstochasticshocksv.,inwhichcasewehave:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.96135413646698,
+        "bbox_xyxy": [
+          171,
+          1671,
+          1078,
+          1748
+        ],
+        "text": "1. Of course,ifallcountriesorlocationsbeginwellbelowtheirconditionalmean,mostwill be seen to revert to their mean from below, that is, most will grow, as in Mankiw, Romer and Weil (1991)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9607846736907959,
+        "bbox_xyxy": [
+          172,
+          1455,
+          1077,
+          1523
+        ],
+        "text": "In equation (2), it is common to assume that y* depends on specific conditions z. prevailing in location i, i.e., to posit that y*=f(z). We then write:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9566038250923157,
+        "bbox_xyxy": [
+          171,
+          1372,
+          1078,
+          1438
+        ],
+        "text": "In this context, y* can be thought of as y,'s conditional mean and as the speed at which y., reverts to its mean'."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9234139323234558,
+        "bbox_xyxy": [
+          218,
+          1319,
+          473,
+          1357
+        ],
+        "text": "，=O（V:-V"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9092609882354736,
+        "bbox_xyxy": [
+          218,
+          1542,
+          504,
+          1579
+        ],
+        "text": "t=O(f（Z:)-yit)-"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9047215580940247,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8728393912315369,
+        "bbox_xyxy": [
+          1044,
+          965,
+          1076,
+          994
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8662531971931458,
+        "bbox_xyxy": [
+          1042,
+          1546,
+          1075,
+          1575
+        ],
+        "text": "3"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8628010153770447,
+        "bbox_xyxy": [
+          1042,
+          1324,
+          1076,
+          1353
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8537071943283081,
+        "bbox_xyxy": [
+          218,
+          963,
+          421,
+          1000
+        ],
+        "text": "Ayi=p(y;-"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8293947577476501,
+        "bbox_xyxy": [
+          173,
+          180,
+          190,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9878568649291992,
+        "bbox_xyxy": [
+          172,
+          976,
+          1079,
+          1344
+        ],
+        "text": "where..isalocation-sectorfixedeffect,A..is avectorofagglomerationvariables. P, is a set of direct productivity and cost measures,., is a sector-specific time dummy, and u,, is a residual. In our earlier notation, y., = log Q,f(z,) =., +A, + P jt and.+ u. =v. Location and sector specific fixed effectscontrol for all time- invariantfactorssuchasgeographicallocation,proximity toborders,etc.Sector- specific time dummies ., control for all shocks that are common across sectors in theeconomy,suchaschangesininterestrateorexchangerate.Theyalsocontrol fortechnologicalchangeineachsector.Agglomerationeffectsarethusidentified by variations in A... and P over time, relative to their national average. This ensures thatwedonoterroneously attributetoagglomeration effectswhatisinfactdueto unobservedheterogeneityacrosslocations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9862281084060669,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          581
+        ],
+        "text": "In general, researchers are interested not so much in growth itself but in f(z) becauseit is indicative of thelongrunbehaviorofy..Bylinking the two,equation (3) enables researchers to infer something about f(z) from the speed of growth: conditioning on yi, equation (3) predicts that variables z, that yield a higher steady stateyalsoincreasethegrowth rateyi.Thisyields atesting strategy:regress growthy.oninitial conditiony., and aset ofvariablesz.thoughttoaffectsteady state y*; if they are seen to speed growth, they should also raise y*, and vice versa. The same reasoning can be extended to time-varying factors zi. In this case, yit can be thought of as following a moving target. As the target moves further away, y.,mustspeedupin orderto catchupwithit."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9843377470970154,
+        "bbox_xyxy": [
+          171,
+          596,
+          1079,
+          885
+        ],
+        "text": "The above ideas form the basis of our testing strategy: if variables measuring agglomeration effects speed up growth, this is seen as evidence that they generate positive feedbacks raising y*2. To illustrate how this works, let Q be total manufacturingoutputinlocationiandsectorj attimet.Bydefinitionwehave Qit=∑ Qk where k is an individual firm index and ., is the set of firms present kEI it Jt in location i and sector j at time t. We wish to know whether Q converges to a steady state or conditional mean that is affected by agglomeration effects.Our core regressionisoftheform:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9778023958206177,
+        "bbox_xyxy": [
+          173,
+          1500,
+          1079,
+          1632
+        ],
+        "text": "In thetransformedregression,thecoefficientofQrepresents thespeed of adjustment:thesmallerit is,thefaster adjustmentis.Given thepresenceoffixed effects ., estimation of (5) by OLS is known to generate inconsistent estimates. Todealwiththedifficulty,anumberofalternativeinstrumentalvariableandGMM"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9631566405296326,
+        "bbox_xyxy": [
+          172,
+          1361,
+          1078,
+          1426
+        ],
+        "text": "For estimation purposes, it is customary to rewrite equation (4) in the form of adynamicpanelregression:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9341565370559692,
+        "bbox_xyxy": [
+          218,
+          895,
+          754,
+          969
+        ],
+        "text": "Qijt+1 1og =α+βAit+yPit-plogQit+Tit+u 1"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9161102175712585,
+        "bbox_xyxy": [
+          217,
+          1442,
+          806,
+          1482
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8872055411338806,
+        "bbox_xyxy": [
+          323,
+          181,
+          931,
+          206
+        ],
+        "text": "MANLTFACLTTRINO GROWTHANDALOMERATONEFFEC*T?"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8817033171653748,
+        "bbox_xyxy": [
+          1041,
+          913,
+          1075,
+          941
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.878234326839447,
+        "bbox_xyxy": [
+          1042,
+          1445,
+          1076,
+          1475
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8328395485877991,
+        "bbox_xyxy": [
+          171,
+          1696,
+          1055,
+          1749
+        ],
+        "text": "2. This approach isbut one way of studying agglomeration effects.Fafchamps and ElHami (2017),forinstance,examinetheeffectofagglomerationforcesdirectlyonfirmproductivityandwag"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8101197481155396,
+        "bbox_xyxy": [
+          1059,
+          181,
+          1077,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9873108863830566,
+        "bbox_xyxy": [
+          171,
+          510,
+          1078,
+          845
+        ],
+        "text": "Wearealsointerestedinthechannelthroughwhichagglomerationeffects influence output.Wefocus onthreepossible channels:capitalinvestment,employ- ment, and firm entry and exit. Manufacturing growth can occur through the expansion ofexistingfirms or throughanincreasein thenumber offirmsN..As Combes(20oo)has shown,whichof these two avenues dominates depends on demandelasticityandon thenatureofcompetition.Giventhatagglomeration externalities are at least in part due to competition, we suspect that agglomeration variablesmayhave a differenteffectonfirmexpansionthan onfirmentry.Let L. K, and N,, denote total employment, capital stock, and number of firms in location i andsector j at time t,respectively.Webeginby estimating a model of theform:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9858559370040894,
+        "bbox_xyxy": [
+          171,
+          960,
+          1080,
+          1160
+        ],
+        "text": "Comparing estimates of parameter vectors and between equations (6) and (7) should yield the first hints on whether agglomeration Aui and productivity P affect output growth directly or indirectly through investment, hiring, and firm entry:if agglomerationexternalities affect output indirectlybyfostering a change in employment, investment, or firm entry, estimated coefficients andin equation (7)shouldbesmallerthanin(6)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.977521538734436,
+        "bbox_xyxy": [
+          172,
+          393,
+          1078,
+          494
+        ],
+        "text": "(e.g., Anderson and Hsiao, 1982; Arellano and Bond, 1991). This is, for instance, the approach adopted by Combes (2000) and Combes et al.(2004)*"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9698163866996765,
+        "bbox_xyxy": [
+          171,
+          1368,
+          1079,
+          1540
+        ],
+        "text": "where X stands for L, K, and N, respectively. Since L., K... and N... feed back into each other, they are tobe regarded aspre-determinedvariables.Consequently, it We further refine this approach by decomposing net firm entry into sub-components. A net increase in N.. requires that gross entries Ne., and firm in-migration N\", f from"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9687129855155945,
+        "bbox_xyxy": [
+          172,
+          1176,
+          1079,
+          1247
+        ],
+        "text": "We also examine how employment growth, investment, and firm entry and exitrespondtoA.andPOurregressionsareoftheform:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9667069315910339,
+        "bbox_xyxy": [
+          170,
+          246,
+          1078,
+          313
+        ],
+        "text": "estimators have been proposed in the literature?. Differencing the data to eliminate .,(5)canbewritten:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9262075424194336,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9173276424407959,
+        "bbox_xyxy": [
+          217,
+          1260,
+          905,
+          1354
+        ],
+        "text": "△logXjt+1 = △logLijt +△logKijt +△log Nijt +△Aj"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9070912003517151,
+        "bbox_xyxy": [
+          175,
+          180,
+          205,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8937708735466003,
+        "bbox_xyxy": [
+          217,
+          860,
+          807,
+          948
+        ],
+        "text": "△logQit+1=(1-p)△logQit+β△Ait+△Pii +0,△logLit+0k△logKiit+0,△logNit+ +△L"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8807074427604675,
+        "bbox_xyxy": [
+          1041,
+          909,
+          1076,
+          940
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8747002482414246,
+        "bbox_xyxy": [
+          217,
+          334,
+          856,
+          373
+        ],
+        "text": "=（1-0)△10 /"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8715324401855469,
+        "bbox_xyxy": [
+          1041,
+          338,
+          1076,
+          367
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7999294996261597,
+        "bbox_xyxy": [
+          169,
+          1611,
+          1079,
+          1749
+        ],
+        "text": "3.See forinstance Arellano(2003)and Arellano and Honoré (2001)for summaries of the literature. 4. Combeset al.(2004)estimate aversionof (5)where thedependentvariableisLu / Ni i.e., employment per firm. Given that the model is estimated in logs and that N, appears as regressor (seeinfra),their models isbasicallyequivalent to oursin thatrespect."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.5062515139579773,
+        "bbox_xyxy": [
+          217,
+          334,
+          855,
+          373
+        ],
+        "text": "=（1-0)△10 /"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848834872245789,
+        "bbox_xyxy": [
+          172,
+          799,
+          1080,
+          975
+        ],
+        "text": "We now turn to a description of our regressors. We follow Fafchamps and El total number of manufacturing sectors M., present in location i at time t; (3) a diversityindexD*definedas"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9808667898178101,
+        "bbox_xyxy": [
+          171,
+          581,
+          1080,
+          786
+        ],
+        "text": "for z = {e, n, x, o}. This formulation offers the advantage that all estimated coeffi- cients are expressed in terms of their effect on the growth rate of the number of firms.Since equation(8)does notinclude alagged dependent variable,the GMM estimator of Arellano and Bond does not apply.We nevertheless worry that L. it andlogN..ta arenonethelessinstrumented usinglaggedlevelswhen estimating(8)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9753166437149048,
+        "bbox_xyxy": [
+          172,
+          1386,
+          1079,
+          1487
+        ],
+        "text": "Both D*, and C, are Herfindahl indices. Complete concentration in a single Ut sector (D*) or firm (C*) yields a value of 1. In contrast, if employment is equally sharedamongsectors,thediversityindexbecomes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9655007123947144,
+        "bbox_xyxy": [
+          173,
+          390,
+          1079,
+          458
+        ],
+        "text": "To investigate whether agglomeration externalities and productivity shocks affect entry,exit,andfirmrelocationdifferently,wealsoestimatemodelsoftheform:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.96540367603302,
+        "bbox_xyxy": [
+          170,
+          246,
+          1079,
+          317
+        ],
+        "text": "other locations exceeds gross exit Nxit- < O and firm out-migration to other locations jt-1 N<O:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.959887683391571,
+        "bbox_xyxy": [
+          172,
+          1142,
+          1079,
+          1211
+        ],
+        "text": "where., is the set of sectors present in location i at time t; and (4) a competition indexC*definedas"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9534592628479004,
+        "bbox_xyxy": [
+          217,
+          1506,
+          720,
+          1640
+        ],
+        "text": "1 Dit Lit /Mit Lit Mit jEr iEr"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.945121169090271,
+        "bbox_xyxy": [
+          219,
+          993,
+          421,
+          1124
+        ],
+        "text": "1 > it jEr"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9376477003097534,
+        "bbox_xyxy": [
+          217,
+          1227,
+          439,
+          1364
+        ],
+        "text": "> k kEr ijt ijt"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.91060471534729,
+        "bbox_xyxy": [
+          321,
+          180,
+          932,
+          206
+        ],
+        "text": "ACALMERALCNEFEE:I"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8969169855117798,
+        "bbox_xyxy": [
+          216,
+          471,
+          984,
+          567
+        ],
+        "text": "log(N+1+ Nijt+1)-1ogNijt = △log Ljt +△log Kijt +P△log Ni +P△Ajt +△Pijt +△t +△ujt"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8731619119644165,
+        "bbox_xyxy": [
+          1040,
+          528,
+          1076,
+          558
+        ],
+        "text": "?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8668801784515381,
+        "bbox_xyxy": [
+          1047,
+          180,
+          1074,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8386478424072266,
+        "bbox_xyxy": [
+          171,
+          1694,
+          1054,
+          1750
+        ],
+        "text": "5. Combesetal.(2004)alsoregardL...andN ascapturingagglomerationeffects.We notcomfortablewiththisinterpretation(seebelow)."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7998348474502563,
+        "bbox_xyxy": [
+          218,
+          331,
+          586,
+          373
+        ],
+        "text": ">N"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9859924912452698,
+        "bbox_xyxy": [
+          172,
+          947,
+          1079,
+          1213
+        ],
+        "text": "We are not comfortable interpreting the coefficient of logL. as measure of agglomeration effects. The reason is that firms would typically grow even in the absence of agglomeration externalities. Summing over all firms would generate a relationshipbetween△logL.,andlogL.eventhoughagglomerationeffectsare absent. The same reasoning also applies to firm entry and exit: firms would enter andexiteveninthe absenceofagglomerationeffects.Toidentifythe agglomeration effectof L.and N,firm-leveldataisrequired astodistinguishbetweenfactors that are internal and external to individual firms."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9853421449661255,
+        "bbox_xyxy": [
+          172,
+          596,
+          1079,
+          932
+        ],
+        "text": "Several of the above variables have been used in one form or another in the literature before, typically inlog form.Forinstance,own sector employment logL is referred to by Henderson (2003) as a localization effect while log L., is said to captureurbanizationeffects.Sometimessimilarvariables aregiven a different interpretation.Henderson (2003), for instance, uses N., as the number of sources of local information spillover while Combes et al. (2004) regard N., alone as a measure of competition.In the work of Glaeser et al. (1992),it is the (log of the) ratio N. / L. that is used as a measure of competition.The likely reason for these discrepanciesis differencesin dataavailability:authorswithdifferenttypes of data end up using different sets of agglomeration variables."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9850399494171143,
+        "bbox_xyxy": [
+          172,
+          1232,
+          1079,
+          1533
+        ],
+        "text": "Themeaningofeachvariabledependsonthepresenceor absenceoftheothers: variables can only be interpreted in conjunction with each other. Assuming that all variables enter in logs, L captures the agglomeration effect due to the presence of a large manufacturing sector. The effect of specialization Lut / L, is captured in Ut Competition is captured by Cut which, after normalization, can be interpreted independently from N. If competition generates positive agglomeration externalities, as suggested by Porter, then C., s should have a positive effect on productivity and henceonfirmgrowth."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9827002882957458,
+        "bbox_xyxy": [
+          173,
+          1550,
+          1080,
+          1751
+        ],
+        "text": "Diversityiscapturedbytwovariables,M.,andD.Sinceweareconditioning on sectoral specialization through Lut / L, the variables M, and D, measure the effect of diversity insectors other thanji. For agivenlevel of specialization,firm performancemayincreasewiththediversityofproductioninsectorsotherthan thefirm's ownsectorj.Itis this effect thatvariablesM.,and D.,seektocapture.If diversityinothersectorsisgoodformanufacturingfirms,thenweexpectbothM"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.957492470741272,
+        "bbox_xyxy": [
+          172,
+          246,
+          1078,
+          316
+        ],
+        "text": "Bythesametoken,whenallfirmsareofequalsize, V..:Iofacilitate interpretation,we normalize D*, and C*,as follows:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9518270492553711,
+        "bbox_xyxy": [
+          172,
+          514,
+          1079,
+          579
+        ],
+        "text": "NormalizedindicesvarybetweenO(mostconcentrated)and1(least concentrated)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9057153463363647,
+        "bbox_xyxy": [
+          480,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8758965730667114,
+        "bbox_xyxy": [
+          175,
+          180,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7687453627586365,
+        "bbox_xyxy": [
+          217,
+          326,
+          349,
+          496
+        ],
+        "text": "D* Dit Mit C* Cijt ijit N ijt"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9858121871948242,
+        "bbox_xyxy": [
+          173,
+          1374,
+          1078,
+          1750
+        ],
+        "text": "Second,our analysisencompasses alllocationswheremanufacturingfirms are found, including locations with very few of them. In other words, we do not limit our analysis tolarge metropolitan areas.Smalllocalities are worthy of attention because,if anything,agglomerationeffectsshouldbecomparativelylargerthere: alocalproductivityshockismorelikelytosnowballtootherfirmsifagglomeration externalities in manufacturing are an important contributor to town formation. The data also include many small firms, a feature that may affect our results regarding entryandexit.Theroleoftherapidgrowthofnewentrantsinthecreationmajor industrial hubs-e.g., the SiliconValley-has caught the attention of many. We want tosee whetherinsights generated by such experiences translate to small manufac- turersinamiddle-incomecountrysuchasMorocco."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9855990409851074,
+        "bbox_xyxy": [
+          173,
+          366,
+          1078,
+          740
+        ],
+        "text": "Aswepointedoutearlier,agglomerationvariablesA.,aremeanttoproxyfor Ut productivity effects due tolocation externalities(e.g.,Glaeser et al.,1992; Henderson, 1997;Combes,2000;Combesetal.,2004;BunandMakhloufi,2007).Inthe contextof thisliterature,productivityshouldbeunderstoodinabroadsense:it encompasses the effect thatMarshallian and pecuniary externalities canhave on the joint productivity of all firms in a given location. Marshallian externalities raise total factor productivity directly whilepecuniary externalities raise output prices and/orlowerwage andintermediateinput costs.FafchampsandElHamine (2017)have shown that both total factor productivity and wages are strongly influencedbyagglomerationeffects.Consequently,weletthePvectorinclude measuresoftotalfactorproductivityaswellasfactorcosts."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9840155839920044,
+        "bbox_xyxy": [
+          172,
+          1014,
+          1078,
+          1356
+        ],
+        "text": "Before turning to the empirical analysis, we need to recognize its logic and limitations. First, our focus is on local snowballing effects, i.e., we ask whether location-specificvariation in productivity or agglomerationvariables has a delayed effectthatripplesthrough allsectorsinthatlocation.Sincewecontrolforloca- tion-sector fixed effects and focus on year-to-year variation, long-lasting agglom- eration effects are not picked up by our approach. Similarly, since we control for sector-year fixed effects, our approach nets out any time-varying sector-specific effectthatoperatesatthelevelofthecountry.Wealsodonotconsiderrippleeffects onneighboringlocations.Identificationofagglomerationeffectsisachievedsolely fromobservingyearlyvariationwithineachsectorandlocation."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820556044578552,
+        "bbox_xyxy": [
+          172,
+          759,
+          1078,
+          998
+        ],
+        "text": "We estimate all models with and without P., variables.Intuitively,if agglom- erationvariablescaptureproductivityeffects,thentheinclusionofdirectproductivity measures P, should set the coefficients of agglomeration variables to O. The validity of thistestrestsonthe assumptionthatP.ismeasuredwithouterror.If measurement error is present, we would expect some of the productivity effects to be capture by A..variables,in which case their coefficient may remain significantly different from O.Butevenin thiscase,weexpecttofallin absolutevalue"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9605832099914551,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          347
+        ],
+        "text": "andD,tohaveapositiveeffectonfirmperformance.Comparisonoftheireffects can tell us whether it is the mere presence of a sector that matters or whether it is theequaldistributionofemployment acrosssectors."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8169399499893188,
+        "bbox_xyxy": [
+          324,
+          182,
+          932,
+          205
+        ],
+        "text": "ANF AILIRINICRWI AMERATLNEFFEC:L?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6870058178901672,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848506450653076,
+        "bbox_xyxy": [
+          173,
+          580,
+          1079,
+          1045
+        ],
+        "text": "To implement the above testing strategy, we use manufacturing census data from Morocco.The data were collected by the MoroccanMinistry of Commerce andIndustryeveryyearovertheperiod1985to2001.Coverageisuniversaland includes all manufacturing enterprises in all sectors and all parts of the country. Given that answering the annual census questionnaire is alegal obligation, the rate of non-answer is fairly small - 12% over the entire period'. These data have already been studied by others. The first years of this data set have been used by Clerides, Lach and Tybout(1998) to examine export behavior. The relationship between exports and productivity is also studied by Fafchamp et al. (2008). Fafchamps and El Hamine(2017) test the effect of agglomeration externalities on total factor productivity and wages.Fafchamps and Schindeln (2013) show that local bank availabilityisassociatedwithfastergrowthforsmallandmedium-sizefirmsin sectors with growth opportunities,with a lower likelihood of firm exit and a higher likelihoodofinvestment."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9816765785217285,
+        "bbox_xyxy": [
+          174,
+          247,
+          1080,
+          478
+        ],
+        "text": "Third, nothing in our analysis enables us to distinguish between pure externalities andgeneral equilibrium effectsthat arelocation specific.Whilethe concept of Marshallianortechnological externalityiswell definedin ourcontext-it raises or lowers total factor productivity-the concept of pecuniary externality is not clearly distinguished from other general equilibrium effects°. Ultimately, it is a matter of semantics whether we want to call agglomeration effects an externality or not. Withthiscaveatinmind,wenowturntothedata."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807729721069336,
+        "bbox_xyxy": [
+          173,
+          1062,
+          1078,
+          1364
+        ],
+        "text": "Thesectoral decomposition identifies17 differentsectorscorrespondingroughly to the 2-digit ISIC classification.Because 3 of the sectors have very few firms, for the sakeof the analysis wecombine themwithother similarsectors,bringing the total number ofsectors to14.Datais availablefor allyears on output,employment, wage payments,investment, and disbursed capital (a balance sheet equity concept). Capital stock informationis availablefor theyear 2oo1.Employmentfigures are separated into permanent and casual workers, thelatter figurebeing givenin total number of days per year. We divide the number of man-days by 256 to transform man-days of casual labor intopermanent employeeequivalent*.Tofacilitate"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8921499848365784,
+        "bbox_xyxy": [
+          171,
+          1428,
+          1079,
+          1751
+        ],
+        "text": "6.In the theoretical literature, the term pecuniary externality is sometimes used to describe situations in which market interactions generate multiple Pareto ranked equilibria (e.g., Murphy, Shleifer andVishny,1989;Ciccone and Matsuyama,1996).Elsewhere(e.g.,Romer,1986;Rodriguez- Clare, 1996, Fafchamps, 1997), pecuniary externalities describe multiplier effects. Our empirical analysiscanneitheridentifymultipleequilibrianordistinguishmultipliereffectsthatarisefrom normalgeneralequilibriumfeedbacksfromthosethatarisefrompecuniaryexternalities. 7.For thepurpose of generating national and regional statistics,the Ministry of Commerce and Industry imputed values individually for each non-responding firm. Imputation was typically done usingpreviousyear information.Imputed firms areignored in the regression analysis but to minimize measurement error imputed employment figures for non-respondent firms are used in computingtheagglomerationvariablesdescribedintheprevioussection. 8. Thiscorrespondsto365-52x2(week-ends)-6(publicholidays)."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8748177289962769,
+        "bbox_xyxy": [
+          173,
+          529,
+          327,
+          560
+        ],
+        "text": "THEDATA"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8532781004905701,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8492324948310852,
+        "bbox_xyxy": [
+          175,
+          181,
+          204,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9863764643669128,
+        "bbox_xyxy": [
+          173,
+          329,
+          1077,
+          629
+        ],
+        "text": "Locationinformationvaries over time.From1985until1993,themanufacturing census onlyrecorded the province in which thefirm was located.Thisperiod correspond to a tradeliberalization phase (Haddad and de Melo,1996).From1994 until1997,thedataalsorecorded thecitycode and from1998on theprecise communelocationofeachfirmwasrecorded.Moroccois dividedinto7Oprovinces, 67ofwhichcount atleastonemanufacturingfirmoverthestudyperiod.Starting from 1993, the data distinguishes between 242 cities.From 1998,firm location datais available atthe communelevel.There areapproximately1300communes in Morocco, 689 of which had at least one manufacturing firm over the study period."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9855944514274597,
+        "bbox_xyxy": [
+          173,
+          647,
+          1078,
+          979
+        ],
+        "text": "These data are used to construct three sets of location and sector specific variables: at the commune, city, and province level. Commune and city aggregates canbecomputedfrom1998until2001andfrom1994until2001,respectively Province aggregates can be computed for the whole span of the data, that is, from 1985until2001.Summarystatistics arepresentedinTable 2.Thetableis organized a way that mirrors the subsequent analysis: each observation corresponds to a sector, location, and year with at least one active firm. Locations with no manu- facturing areomittedform thetable-theyprovidenoinformation about agglom- eration effects.The threepanelscorrespond tothevaryinglevel of geographical detail availableinthecensusdata."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9570720195770264,
+        "bbox_xyxy": [
+          172,
+          247,
+          1077,
+          312
+        ],
+        "text": "comparison, we deflate all output figures using sector-specific GDP price deflator. Investmentdataisdeflatedusingthepriceindexformachinery9"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9557085037231445,
+        "bbox_xyxy": [
+          173,
+          996,
+          1079,
+          1631
+        ],
+        "text": "Average sectoral employment at the commune level is around 360 workers. The median is much lower at 53. Total manufacturing employment in the commune is a little over 40oo on average. There are on average around 5 firms in each sector and commune, with a smaller median of 2. The corresponding value of the (unnormalized) competition index C*, is 2.7, hence falling roughly between 1, which corresponds to complete concentration, and N., which correspond to complete equality conditional on N... Around 8 of the 14 sectors are present in a commune on average. The average (unnormalized) diversity index D* is 3.3, which similarly falls between 1 and M. Entry, exit, and movement across locations are presented next. We see that the numberofenteringandexitingfirmsareroughlyofthesameorderofmagnitude. ThisisconsistentwiththerelativestagnationofMoroccanmanufacturinginthe late 1990's. The exit rate is high: in any given year 10% of all firms exit. This reflects the small nature of many of the firms in the manufacturing census.Small firms are indeed known to have a higher churning rate (e.g., Daniels, 1994; Barrett, 1997). We also see that many firms move across locations. By the nature of the data, no information on firms exiting or moving out is available for the last year, hence the smaller number of observations. As suggested by thelarge difference between the mean and the median, investment I., is highly skewed. This is normal given the UJt predominance of small firms in the sample (e.g., Bigsten et al., 2004)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8318284153938293,
+        "bbox_xyxy": [
+          171,
+          1697,
+          1055,
+          1749
+        ],
+        "text": "9. Sinceweincludesector-specificyeardummiesinallregressions,deflatingisnotrea anissue.Butitmattersforback-predictedcapitalstock,asexplainedbelow."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8107743859291077,
+        "bbox_xyxy": [
+          323,
+          182,
+          932,
+          205
+        ],
+        "text": "ANH AMERATNEFFEC:L?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6693730354309082,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9841592311859131,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          543
+        ],
+        "text": "The second and third panels show similar statistics when geographical location is defined at the level of the city and province, respectively. While there are on average 18.5 communes per province, the number of communes with manufacturing employ- ment is only 2.9 times the number of provinces. This suggests that,within each province, manufacturing employment is geographically concentrated in a few com- munes.Comparisonbetween the three panelsindicates thatvalues are roughly multiplied by 2.5-3betweenthecommune andprovincedata.Becauseof this-and theused of laggedvariations-thereis muchlarger number of usableyearswhen usingprovince instead of commune data, in spite of the reduction in the number of locations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9778899550437927,
+        "bbox_xyxy": [
+          172,
+          1168,
+          1079,
+          1404
+        ],
+        "text": "employeeequivalentunits),and Z、,is avector of controlvariablesincluding the logof thefirm's age,thesquaredlogof age,the share of foreign andgovernment ownership,dummies for limited liability and corporate status,as well as sector, region, and year dummies. Since capital stock information is only available for 2001,wefitapredictiveequationtothe2001data and usetheestimatedcoefficients to predict the capital in other yearsl2"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9772461652755737,
+        "bbox_xyxy": [
+          173,
+          637,
+          1080,
+          835
+        ],
+        "text": "Beforeweturntotheestimationofourmodelofinterest,weneedtogenerate the productivity variables. Ideally, we would like to have information on total factor productivity in volume,plus data on output prices,wages,and input costs -since theoretically they can all channel externalities. In practice, we do not have infor- mation on output prices and input costs.Consequently,wefocus our attention on wagesand totalfactorproductivityinvalue"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9708392024040222,
+        "bbox_xyxy": [
+          172,
+          995,
+          1078,
+          1061
+        ],
+        "text": "To obtain anestimate oftotalfactorproductivityinvalue,weestimate,foreach firmkinoursample,aCobb-Douglasproductionfunctionoftheform:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.939006507396698,
+        "bbox_xyxy": [
+          217,
+          1073,
+          887,
+          1150
+        ],
+        "text": "casual logQkt = 0o + 0, logLkt ++02 kt -+0,logKkt+04Zkt+ekt"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9021856784820557,
+        "bbox_xyxy": [
+          173,
+          590,
+          491,
+          621
+        ],
+        "text": "人"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8974956274032593,
+        "bbox_xyxy": [
+          171,
+          1453,
+          1080,
+          1749
+        ],
+        "text": "10. Casualworkers aremeasuredinpermanentemployeeequivalentunits. 11. Sincew.is obtainedbydividingtwovariablesreportedwitherror,itsdistributionhasfat tailsdrivenbyverylargeandverysmalloutliers.Usingthemediantakescareofthisproblem.In practice,using the averagewageinsteadof themediandoesnot change resultsmuch. 12.The predictive regression is presented in appendix and discussed in detail by Fafchamps andElHamine(2017).Asmallnumber of firm characteristics suchasage,legalstatus,foreign or publicownership,aswellassectoralandlocationdummies areincluded asregressors.Timevarying predictorsincludelaggedlabor andshareofcasualworkers,investmentandlaggedinvestment, dummiesforwhetherthefirminvestedinthecurrentandpreviousperiod,andadummyforwhether isinitsfirstyearofexistence,inwhichcase alllaggedvalues aresettozero.Thisparsimoniousmodel explainstwothirdsofthevariationincapitalstockacrossfirmsin2o01."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8917745351791382,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8796060681343079,
+        "bbox_xyxy": [
+          173,
+          848,
+          1078,
+          981
+        ],
+        "text": "Wage w., is obtained by dividing, for each firm, the total annual wage bill by thenumberofemployeeslo.Wethentakethemedianofthelocationandsector as our wage measure wi. The median is preferred to the mean because it is less sensitivetomeasurementerrorll."
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8677530884742737,
+        "bbox_xyxy": [
+          1041,
+          1100,
+          1075,
+          1130
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8641813397407532,
+        "bbox_xyxy": [
+          175,
+          181,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5195391774177551,
+        "bbox_xyxy": [
+          173,
+          848,
+          1079,
+          981
+        ],
+        "text": "Wage w., is obtained by dividing, for each firm, the total annual wage bill by thenumberofemployeeslo.Wethentakethemedianofthelocationandsector as our wage measure wi. The median is preferred to the mean because it is less uit sensitivetomeasurementerrorll."
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9829045534133911,
+        "bbox_xyxy": [
+          173,
+          242,
+          1079,
+          545
+        ],
+        "text": "Predictedvalues of capital K,, are then used inlieu of capital inequation(9) as well as in subsequent analysis. This implies that capitalis defactoinstrumented. Toavoidsimultaneitybias,thetwolaborvariablesarealsoinstrumentedusingthe same variables used to predict capital, namely, lagged labor, firm equity, a dummy if the firm existed in the previous year, and variables measuring lagged investment. Allvalues are deflated using sector-specific deflators.Results are presented in Table 2. The show that this simple, parsimonious model accounts for more than threefourthofthevariationinfirmoutput.Labor andcapitalshareparameters takereasonablevalues."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9828760027885437,
+        "bbox_xyxy": [
+          173,
+          912,
+          1079,
+          1312
+        ],
+        "text": "Resultsfor equation(6)arereported inTable3using theGMMestimator proposedbyArellano andBond(1991)14.Robuststandarderrors areused throughout Sincewedonotknowatwhatgeographicallevelagglomerationeffectsarefelt threesetsof tworegressions arereported,eachsetcorrespondingtoadifferent geographical unit of analysis. The first two columns refer to the commune data, which onlyrunsfrom1998until 2001.Thesecond setof twocolumnsrefers to the city data which runs from1994 until 2001, and the last set refers to provinces, with data from 1985 until 2001. For each of these sets, two regressions are estimated: increases asonemovesfrom communeto city toprovince data,reflecting the increaseinthenumber ofusableyears ofdata.At thebottom of thisTable-and subsequentTables-wereportautocorrelationtestsontheresiduals15.We also"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9608502388000488,
+        "bbox_xyxy": [
+          173,
+          830,
+          1078,
+          895
+        ],
+        "text": "We now turn to the dynamic panel analysis. We begin with the output growth equation(6).All regressors areinlogsl3"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9583997130393982,
+        "bbox_xyxy": [
+          173,
+          563,
+          1079,
+          729
+        ],
+        "text": "Theresidualsé,from equation(9)are thenobtained.Themedianresidualé for a given sector, year, and location is our measure of firm total factor productivity Puj. Together, wigt and pij form the pujt vector. The reader should keep in mind that sincewecannotconstructaninputpricevariable,wecannotcontrolforpossible productivityeffectsthattakeplaceviaintermediateinputsorservicecosts."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8945531845092773,
+        "bbox_xyxy": [
+          173,
+          780,
+          502,
+          811
+        ],
+        "text": "DYNAMICPANELANALYSIS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8359231948852539,
+        "bbox_xyxy": [
+          323,
+          182,
+          931,
+          205
+        ],
+        "text": "ANH AMERATLNEFFEC:L?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8167000412940979,
+        "bbox_xyxy": [
+          171,
+          1376,
+          1080,
+          1749
+        ],
+        "text": "13. Productivityshocksékarebyconstructionexpressedinlogs. 14. Following the recommendation of Arellano and Bond(1991),wereport one-step GMM estimatesthroughoutbecausetwo-stepestimatesareknowntoseriouslyunderestimatestandarderrors infinite samples.This is confirmed in our case:two-step estimates arevery similar to one-step estimates,buttvaluesareunrealisticallylarge.Tocheckforrobustness,wealsoestimateequation (6)usingtheslightlylessefficientinstrumentalvariablemethodsuggestedbyAndersonandHsiao (1982).Allpre-determineddifferencedregressorsareinstrumentedusinglaggedlevels.Resultsare very similartothose obtainedwith GMM.Evenwithrobuststandard errors,inferenceisvirtually identical. 15.TheArellanoandBondestimatorisknowntobeconsistentunderfirstorder autocorrelation, butnotundersecondorderautocorrelation.ASarganoveridentificationtestwasalsoconducted.When calculatedundertheassumptionofhomoscedasticerrors,theSargantestisknowntoover-rejectthe nullinthepresenceofheteroscedasticityinthiscategoryofmodels.Sargantestsbasedonthetwo-step model,whichcorrectsforheteroscedasticity,allfailtorejectoveridentification"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7698475122451782,
+        "bbox_xyxy": [
+          1048,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850842356681824,
+        "bbox_xyxy": [
+          172,
+          1446,
+          1078,
+          1750
+        ],
+        "text": "is subject to non-persistent shocks: as productivity reverts towards its mean after a large positive shock, output tends to fall. This interpretation finds some support in the results: once we control for past productivity, the coefficient on lagged output risesaboveoneinallthreeregressions.Thismeansthatifoutputrisesattfon reasons other than a productivity shock(e.g.,because ofinvestment or firm entry), thisriseleadsto an evenfasterincreaseinoutputin subsequentperiods.Incontrast, ifoutputrisesattbecauseofaproductivityshock,ittendstofallsubsequently. suggesting that the productivity shockwas short-lived.No matter what the underlying"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9850642085075378,
+        "bbox_xyxy": [
+          172,
+          399,
+          1078,
+          939
+        ],
+        "text": "Results are broadly similar across the three sets of regressions: inference does not appear to depend on the geographical unit of analysis. This is probably due to the fact that communes with manufacturing activity tend to belocated close to each other within each city and province.We find alarge and positive coefficient on lagged output Qir, indicating a lot of persistence in economic activity. Total employment in location L., has a strong negative effect in all three regressions, suggesting that the presence of manufacturing employment has a negative effect on manufacturing growth. This is consistent with the existence of negative agglom- eration externalities due to congestion. The competition index Cut is positive and UJt significant in all three regressions: less concentration within a sector is beneficial to growth in this sector. The number of manufacturing sectors present in alocation has a positive effect on manufacturing output growth, but the effect is only signif- icant in the first regression. In contrast, the diversity index D., is everywhere negative, significantly so in the city and province regressions. Taken together, these resultsappeartorejectJacobs'ideathatmanufacturingdiversityisbeneficial to growth: locations with less diversified manufacturing on average grow faster."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9737125039100647,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          380
+        ],
+        "text": "report a joint test of the agglomeration variables A. and productivity variables P it Since we control for fixed effects, all reported coefficients are purged of time- invariant location and sector-specific effects, such as those that could be due to"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9047766923904419,
+        "bbox_xyxy": [
+          173,
+          956,
+          1078,
+          1429
+        ],
+        "text": "Adding the two productivity variables to the regression does not, contrary to expectations, reduce the effect of agglomeration variables Li, Mi, Cg and D:; in most cases it even magnifies their coefficient, as evidenced by higher individual t-values and a higher Wald test statistic for joint significance (see bottom of Table 3). This flies in the face of the idea that agglomeration effects on growth operate through productivity. Variable puit also behave in an unexpected manner: contrary to expectations, it has a strong negative coefficient in all three sets of regressions. This means that, controlling for time-invariant sector and location effects, a rise in productivity at time t is associated with slower growth of output at time t + 1. This result contradicts the idea that productivity gains are what fuels manufacturing growthatthelocallevel.Incontrast,thewagevariablehastheanticipatednegative sign:a riseinlocalmanufacturingwages attleadstosloweroutputgrowth at t+1 possiblybecause firmsleave thelocationfor another one withlower labor costs. Werevisitthishypothesisbelow."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8764669299125671,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8476309180259705,
+        "bbox_xyxy": [
+          176,
+          181,
+          204,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9860156774520874,
+        "bbox_xyxy": [
+          173,
+          1096,
+          1079,
+          1496
+        ],
+        "text": "We again find evidence of a lot of persistence, with coefficients on lagged employment fluctuatingbetween 0.68 and 1.05,depending on the regression.An increase in the number of firms at tis associated with employmentgrowth at t+ 1. Thisisconsistentwith theidea thatnewfirmsgothrough aninitialperiodof rapid growth as they converge to their firm-specific steady state. Surprisingly, passed changes in capital stock are not reflected in subsequent employment growth. To verify whether this result is due to the fact that we are using predicted capital in lieu of actual capital stock, we reestimate the model using the simpler Anderson and Hsiao approach. This enables us to used lagged investment instead of change in predicted capital stock'7. Results, not shown here to save space, are identical: it is not the reliance onpredicted capital stock that accounts for thenon-significant coefficientoncapital."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9854157567024231,
+        "bbox_xyxy": [
+          173,
+          396,
+          1079,
+          863
+        ],
+        "text": "To investigate this further, we estimate equation (7) which include L.., N., and it” K.., as additional regressors.As indicated earlier, these variables are regarded as pre-determined in the estimation, and thus their differences are instrumented with lagged levels. Regression results are presented in Table 4. Inference regarding agglomeration and productivity variables is basically unchanged by the presence of L., N.. and K..: whatever agglomeration and productivity variables are measuring, it”ijit it is not past firm expansion. As anticipated, the introduction of the new regressors brings down the coefficient of lagged outputbelow 1. But estimated coefficients for L., N, and K., are highly variable-switching sign and significance from one regression to the other. Results for employment and number of firms are by and largeinconclusive,probably becausemulticollinearity withlaggedlevels of output andcapitalprecludesreliableidentification.Resultsareslightlymorestablefor capital:oncewecontrolforpastproductivityshocks,investment attisassociated withafallinoutputatt+1.Werevisitthispuzzlingresultbelow."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9747514724731445,
+        "bbox_xyxy": [
+          173,
+          880,
+          1078,
+          1078
+        ],
+        "text": "To investigate issues more in detail, we turn to the effect that agglomeration andproductivityvariablesmayhavedirectlyoninvestment,employmentgrowth. and firm entry and exit.We begin withemployment growth, whichhasbeen the primaryfocusof muchoftheliteraturetodate.Results arepresented inTable 5. againusingtheArellanoandBond GMMestimator.Otherestimationdetails are thesameasinTable416"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9574207067489624,
+        "bbox_xyxy": [
+          173,
+          1636,
+          1078,
+          1749
+        ],
+        "text": "16. Inparticular,L,K.,andN.,areregardedthroughoutaspre-determinedvariablesand instrumentedusinglaggedlevels.Robuststandarderrorsarereportedthroughout. 17. Because capitalis pre-determined,however,investment at t must instrumented with lagged levelsofpredictedcapital"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9565970301628113,
+        "bbox_xyxy": [
+          174,
+          1513,
+          1078,
+          1579
+        ],
+        "text": "Theeffectofagglomerationvariablesonthegrowthofsectoralemployment isbyandlargeidenticaltotheireffectonoutput:totalemploymentL.anddiversity"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8643893003463745,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          380
+        ],
+        "text": "mechanism, this findings flies in the face of the idea that productivity shocks snowball through the economy, generating positive feedbacks between firms and triggering a virtuous growth cycle. This is not what we observe in Moroccan manufacturing"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8364292979240417,
+        "bbox_xyxy": [
+          324,
+          182,
+          931,
+          205
+        ],
+        "text": "ANH AMERATLNEFFEC:L?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7170065641403198,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.483553409576416,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          380
+        ],
+        "text": "mechanism, this findings flies in the face of the idea that productivity shocks snowball through the economy, generating positive feedbacks between firms and triggering a virtuous growth cycle. This is not what we observe in Moroccan manufacturing"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9856908917427063,
+        "bbox_xyxy": [
+          173,
+          1165,
+          1078,
+          1566
+        ],
+        "text": "Agglomerationvariableshavebyandlargethesameeffectoninvestmentas they have on employment, so we need not discuss them again. But puit and w.t behave inadifferentmanner.Herewefindastrongandrobustassociationbetweenpast productivity increases and investment:locations and sectors that experienced a largeincreaseinproductivityattaremorelikelytoinvestatt+1.Sincepositive productivity shocks are associated with a subsequent fall in output, this suggests that firms may be behaving in a myopic manner, failing to see that the current productivity shock is short-lived.An alternative explanation is that firms are credit constrained.Byraisingcurrentrevenues,afavorableproductivityshockenables firms to undertake investment that they could not previously undertake (e.g., Fazzari,Hubbard and Petersen,1988; Hubbard,1998;Bigsten et al.,1999; Fafchamps andOostendorp,2002;Nkurunziza,2010;FafchampsandSchindeln,2013)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9844270348548889,
+        "bbox_xyxy": [
+          173,
+          780,
+          1078,
+          1148
+        ],
+        "text": "Turning to investment, we again find evidence of persistence (see Table 6). But the coefficient of lagged capital is much lower than that of labor - between 0.37 and0.58comparedto0.68to1.05.Thisisconsistentwiththeobservationthat,in poor countries,investment is sporadic, perhaps due to convexity in adjustment costs(e.g.,Bigstenetal.,2004).InfurthercontrastwithTable5,wefind that lagged employmentgrowth has a strong effect on investment:locations and sectors that have expanded employment in the past tend to experience more investment in thefuture.Put differently,employmentgrowth tends toleadinvestmentinstead of the contrary, as is often assumed.This again is consistent with the existence of convexadjustmentcostsoroptioneffects:firmsincreaseemploymentbefore investing (e.g., Dixit, 1989: Dixit and Pindyck,1994)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822463989257812,
+        "bbox_xyxy": [
+          173,
+          497,
+          1079,
+          765
+        ],
+        "text": "waycomparedtotheireffectonoutput:bothvariableshavepositiveeffectsinthe commune, city and province regressions.Thelevel of significance of the productivity variable remains low,however. What these results imply is that a rise in productivity or wages at time t leads to a subsequent rise inemployment at t+1. For productivity, this effect is what theory predicts: as productivity increases, firms hire more workers.Buttheeffect ofw.is contrarytotheory:manufacturingemploymentis J seentoincreaseafterariseinmanufacturingwages."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807270765304565,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          480
+        ],
+        "text": "Within-sector competition thus appears beneficial to employment growth while total manufacturing employment and sectoral diversityhavenegative effects.The number of sectors M., appears with a significantly positive coefficient in the com- mune data,but theeffectdisappears aswemovetotheprovincedata.Thissuggests that the effect of M., may have changed over time or depends strongly on the size of thegeographical unit."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9138338565826416,
+        "bbox_xyxy": [
+          173,
+          1583,
+          1078,
+          1750
+        ],
+        "text": "Table7shows a similarregression analysisforthenumberof firms N..Results suggest averyhighlevel ofpersistenceforfirmnumbers:thecoefficient onlagged N. oscillates between 0.89 and 1.5. Lagged employment and capital are only significant in the province regression, labor with a positive coefficient and capital with a negative one. Put differently, employment growth at t is associated with net"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.884210467338562,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8504575490951538,
+        "bbox_xyxy": [
+          173,
+          180,
+          205,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.42099660634994507,
+        "bbox_xyxy": [
+          173,
+          1583,
+          1079,
+          1750
+        ],
+        "text": "Table7shows a similarregression analysisforthenumberof firms N..Results suggest averyhighlevel of persistenceforfirmnumbers:the coefficient onlagged N oscillates between 0.89 and 1.5. Lagged employment and capital are only significant in the province regression, labor with a positive coefficient and capital with a negative one. Put differently, employment growth at t is associated with net"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850144982337952,
+        "bbox_xyxy": [
+          173,
+          849,
+          1078,
+          1316
+        ],
+        "text": "We find that persistence affects all four dependent variables: a larger number of firms increases entry and in-migration and reduces exit and out-migration. The positive effect of employment on N.., that is significant in the province regression appears to take place through increased gross entry and reduced out-migration; exit and in-migration are not affected. The negative effect of investment on N.. in the province regression appears driven primarily by increased firm exit. Agglomeration variables affect our four dependent variables differently. Total employment L. depresses Nut via its effect on entry, exit, and out-migration. In contrast, firm in-migration does not appear to be affected by changes in L. over time. The number of sectors, which is non-significant in Table 7, tends to be non-significant here as well, except for a few regressions where the effect in sig- nificantly negative. Much of the negative effect of diversity on Nui appears to be duetoreducedgrossentry.Diversityalsotendstoreduceout-migrationandfirm exit,buttheeffectisonlysignificantinthecommuneregression."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845120906829834,
+        "bbox_xyxy": [
+          173,
+          563,
+          1079,
+          830
+        ],
+        "text": "We further investigate firm entry by decomposing log Nt into gross entry, firm in-migration, firm out-migration, and gross exit and estimating equation (8). As explained in Section 2, the GMM estimator of Arellano and Bond does not strictly apply. The model is therefore estimate using the Anderson and Hsiao approach ofinstrumentingfirst differenceswithlaggedlevels.Resultsaresum- marizedinTable8.Robust standard errors and a10%significancelevel areused for inference purposes. Since exit and out-migration appear as negative variables, thesignsofallcoefficientisimmediatelycomparable."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9842897057533264,
+        "bbox_xyxy": [
+          172,
+          1332,
+          1078,
+          1566
+        ],
+        "text": "Competitionhasapositiveandsignificanteffectinmostregressions:less concentrationreducesfirmexit and out-migrationwhileencouragingmore entry and in-migration.According to the literature (e.g., Nelson and Winter, 1982; Clerides et al.,1998; Das,Roberts and Tybout, 2001; Haddad and Norton, 2001), the effect of competition onproductivityisthought tocomefromthe elimination ofinefficient firms and entry by newer, more productive firms. In this case, we would expect that increased competition increases both entry and exit. This is not what we find."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821312427520752,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          547
+        ],
+        "text": "firm entry at t + 1 while investment at t seems to lead to firm exit. The first effect suggests that when existing firms expand employment, new firms enter. Alternatively, when existing firms cut down their workforce, displaced workers seek self-em- ployment through the creation of small firms. The second effect may be due to the fact that investment by existing firms displaces smaller firms,hence leading to firm exit- e.g., if self-employed workers close their firm to join the workforce of larger firms. While agglomeration variables again have the same effect on net firm entry, Pjt and w.t are non-significant, except for wages which appears with a positive and significant coefficient in the province regression."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9621272087097168,
+        "bbox_xyxy": [
+          173,
+          1584,
+          1079,
+          1750
+        ],
+        "text": "Finally, p. is seen to have a negative effect on firm in-migration and a positive effect on exit in the city regressions. The wage variable w,in contrast, tends to raise entry and reduce exit in the provinceregression.Neither results areconsistent with the agglomeration externality idea that locations with favorable productivity shocksattractnewfirms,orthathigherwagesdrivefirmsaway."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8223640322685242,
+        "bbox_xyxy": [
+          323,
+          182,
+          931,
+          205
+        ],
+        "text": "ANH AMERATLNEFFEC:L?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7509782314300537,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854996800422668,
+        "bbox_xyxy": [
+          173,
+          725,
+          1079,
+          1203
+        ],
+        "text": "Wefind strong and robust evidence of agglomeration effects.Moreover, none of our results depends on the level of geographical disaggregation: we obtain similar findings whether working with commune, city, or province data. This is hardly surprising given that,within provinces, manufacturing remains concentrated in a few nearby locations. Our results show that a rise in total manufacturing employment in a locality predicts a negative growth in output, employment, capital, and number of firms in the following year. We also find that sectoral concentration is inimical to growth: locations and sectors where firms are of equal size tend to grow faster in terms of output, employment, and capital. Firm entry is also higher. Finally, locations with equal distribution of employment across various manufacturing sectorsgrowsignificantlyslower,againintermsofoutput,employment,capital andnumber offirms.Ifweinterpret theseresultsasother authorshavedone,we would conclude that competition is good for growth-and diversity bad-because oftheireffectonproductivity."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.984745442867279,
+        "bbox_xyxy": [
+          173,
+          1477,
+          1079,
+          1749
+        ],
+        "text": "Second,if agglomerationvariablesinfluence manufacturinggrowth through their effect on productivity, controlling for productivity directly should eliminate or, at the veryleast, reduce the significance of agglomeration variables.In our detailed analysis,wefindinstead that none of the agglomerationeffects is seriously affectedwhenwe introduce measures of total factor productivity:in none of our regressionsdoproductivityvariableslowerthesignificanceof agglomeration variables.Agglomerationvariablescapturesomethingthatisrelevanttofirm growth,butit isnottotalfactorproductivityinvalue."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983817994594574,
+        "bbox_xyxy": [
+          173,
+          298,
+          1079,
+          707
+        ],
+        "text": "Theliteraturehas attempted toprovideevidenceofagglomerationexternalities by regressing sectoral employment growth onvariables meant to capture location- specificspecialization,competition,anddiversity(e.g.,Glaeseretal.,1992; Henderson, 1997; Combes, 2000; Combes et al., 2004; Bun and Makhloufi, 2007). Evidence of aninfluence of agglomeration variables on growth has generallybeen taken as evidence of productivity effects. In this paper, we have tested the validity of this approach in two ways: by controlling directly for productivity, and by comparingresultsobtainedusingemploymentgrowthwiththoseusingoutput, investment,and firm entry andexit.Whatmakes theseimprovements possible is detailedandexhaustivefirm-leveldataavailableoveranextendedperiodoftime. Inoureconometricanalysis,wecontrolforlocationandsectorspecificfixedeffects andcorrectforthefactthatsomeregressorsarepre-determined."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824636578559875,
+        "bbox_xyxy": [
+          173,
+          1221,
+          1079,
+          1459
+        ],
+        "text": "Other findings,however, cast some doubt on this interpretation.First, agglom- eration variables have an effect on local sectoral growth that is virtually opposite to the one theyhave on individual firm productivity.Indeed,using the same data set Fafchamps and ElHamine(2017)estimate theeffectof agglomerationvariables on wages and total factor productivity at the individual firmlevel. Theyfind that competition reduces productivity while diversity raises it -the opposite result from whatwefindhere."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8463194370269775,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7956460118293762,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7664715647697449,
+        "bbox_xyxy": [
+          174,
+          247,
+          307,
+          278
+        ],
+        "text": "CONCLUSION"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9861971735954285,
+        "bbox_xyxy": [
+          173,
+          847,
+          1078,
+          1380
+        ],
+        "text": "First, over the study period, Moroccan manufacturing is a relatively small sector of the economy heavily concentrated in three sectors -garment, textiles. and leather products - that account for 80% of all manufacturing employment and are heavily exported (e.g., Fafchamps, El Hamine and Zeufack, 2008; Fafchamps, 2009). The Moroccan textile and garment value chain is extremely short, with heavy reliance on cut-and-trim18 sub-contracting for European buyers, predominantly inFranceandSpain.Productionordersareshort-afewdays-andthemanpower is largely composed of female casual workers. The three sectors are subject to large demand swings driven by shocks in foreign demand and competitivity with Chinese exports.Thismeansthatverticallinkageswithinthemanufacturingsectorare minimal andproductionisheavilydependent on conditions abroad.Thisleaves less room for agglomeration effects operating through industrial linkages and pecuniary externalities throughlocal demand.Sincefirms competefor the same export orders,productivityshocks-i.e.,above averagesales-donotdiffuseacross firms.This may explain why we donot find evidence of agglomeration effect throughproductivitydiffusion."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845102429389954,
+        "bbox_xyxy": [
+          173,
+          563,
+          1079,
+          829
+        ],
+        "text": "The analysis presented here raises many new questions. The literature has reliedoncertainvariablesthoughttoaffectproductivityinordertomeasure agglomeration externalities. Our findingssuggest that this approachis unreliable. at least in thecontext of Morocco:agglomerationvariables donothave onfirm- level productivity the same effect that they have on aggregate growth, and they do not influence manufacturing growth via their presumed effect on productivity. Yet agglomerationvariables arestrongandrobustpredictors of manufacturinggrowth. What is unclear is why.But we can speculate."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9835553765296936,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          545
+        ],
+        "text": "To be fair, our productivity variables do not always behave as anticipated either. In particular, past productivity shocks tend to lower future output growth. We interpret thisfinding as consistentwith theidea thatproductivity shocks are not very persistent; reversion to the mean implies slower future growth. We also find that a rise in productivity raises subsequent employment and investment, but has noeffect onfirmentry andexit.The effect isparticularlystrongoninvestment, suggestingthatfirmsinvestmoreinthewakeofapositiveproductivityshockwhen revenues arehigh, possibly because they are liquidity constrained (e.g., Hubbard 1998;Bigsten et al.,1999;Bigsten et al.,2003)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9754578471183777,
+        "bbox_xyxy": [
+          174,
+          1397,
+          1079,
+          1563
+        ],
+        "text": "Secondly,manufacturinginMoroccois characterizedby thecoexistenceof medium to large scale modern firms, with small survivalist enterprises created primarily to make ends meet. This is associated with wide disparities in the pro- ductivitylevel and management practices of firms (Bloom and vanReenen,2007). When medium tolargefirms shedworkers,smallfirmspickuptheslackuntiljobs"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9449225068092346,
+        "bbox_xyxy": [
+          173,
+          1621,
+          1078,
+          1748
+        ],
+        "text": "18.In cut-and-trim,thebuyer supplies all the designs and rawmaterials (e.g.,fabric,buttons). This is related to the fact that Moroccan garment manufacturing partly serves the role of stop-gap supplier forlargeFrench andSpanishdepartment stores:when theystock-out on amass-produced garmentin China and theywishtorestock theirinventories atshort notice,they subcontractMoroccan manufacturers on a cut-and-trimbasis.Thissingularlyreduces opportunitiesforverticallinkages"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8281291723251343,
+        "bbox_xyxy": [
+          323,
+          182,
+          931,
+          205
+        ],
+        "text": "ANH AMERATLNEFFEC:L?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7624918818473816,
+        "bbox_xyxy": [
+          1045,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.32048505544662476,
+        "bbox_xyxy": [
+          172,
+          1621,
+          1078,
+          1748
+        ],
+        "text": "18.Incut-and-trim,thebuyer supplies all thedesigns and rawmaterials (e.g.,fabric,buttons). This is related to the fact that Moroccan garment manufacturing partly serves the role of stop-gap supplierforlargeFrench andSpanishdepartment stores:when theystock-out on a mass-produced garmentin China and theywishtorestock theirinventories atshort notice,they subcontractMoroccan manufacturerson acut-and-trimbasis.Thissingularlyreduces opportunitiesforverticallinkages"
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9847005605697632,
+        "bbox_xyxy": [
+          172,
+          714,
+          1079,
+          1048
+        ],
+        "text": "While these features may explain why our findings differ from what has been foundinmore advanced economieswithlargemodern manufacturing,it does not implythattheyareuninteresting.Quitethecontrary.Todatetheliteraturehas approached agglomerationexternalitiesinafairlymonolithicway,asif they applied equallyinalleconomies.Givenwhatwenowknowof thelowertailof thefirm productivity distribution in developing countries (Bloom and van Reenen, 2007), it is not too surprising that they do not benefit from agglomeration through the diffusion of productivity shocks. More likely, they conglomerate where local demand is, creating congestion and strong competition among them, and this what wepickupinourresults."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9832866191864014,
+        "bbox_xyxy": [
+          173,
+          364,
+          1079,
+          696
+        ],
+        "text": "Third, we have looked for evidence of agglomeration effects at a fairly disag- gregated geographical level. As a result, the sample used for estimation counts a lotofsmalllocalities,manyofwhicharedominatedbysmallinformalfirms.This meansthat ourfindings areheavilyinfluencedbywhathappenstosmallfirms. Becausetheyhavevery differentmanagementpracticesfromlargefirms,we also suspect that informal sector firms may not benefit from the same agglomeration externalities as those that benefit modern firms. In particular, small firms would notbeabletoabsorbinnovationsintechnologyandmanagementthatspreadthrough modern firms. This may explain why, in our data, past productivity improvements donotpredictfuturegrowth insales."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798682332038879,
+        "bbox_xyxy": [
+          172,
+          1064,
+          1079,
+          1331
+        ],
+        "text": "Toconclude,wehavefound agglomerationeffectsinMoroccanmanufacturing but have found no evidence that they are due to productivity spillovers across firms. When we consider the nature of manufacturing in the country at that time, this may not been so surprising after all. If so, we need to reconsider the nature of agglomerationexternalitiesinthedevelopingworld,andespeciallyinAfrica. Urbanizationhasspawned a myriad of small firms there, and our dominant models of industrial development appear in need of a rethink before we can successfully applythemtothesenewtownsandcities."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9533409476280212,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          346
+        ],
+        "text": "in medium to large firms are restored. We believe this pendulum process explains someofthefindingsregardingtheentryandexitoffirmsinresponsetoproductivity shocksand agglomerationeffects."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8890464305877686,
+        "bbox_xyxy": [
+          536,
+          1382,
+          714,
+          1414
+        ],
+        "text": "REFERENCES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8639417290687561,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8486354947090149,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7338913083076477,
+        "bbox_xyxy": [
+          171,
+          1431,
+          1080,
+          1750
+        ],
+        "text": "ANDERsON, T.W. and C. HsIAo (1982). “Formulation and Estimation of Dynamic Models Using Panel Data.\"Journal of Econometrics,18: 47-82. ARELLANo,M.(2003).PanelDataEconometrics,OxfordUniversityPress,Oxford. ARELLANO, M. and S. R. BoND (1991). “Some Tests of Specification for Panel Data: Monte CarloEvidence and an Application toEmployment Equations.\"Review ofEconomicStudies,58:277-297. ARELLANO,M.and B.HoNoRE(2OO1).“Panel Data Models:SomeRecent Developments.inJ.J.HEcKMAN and E.LEAMER(eds.),Handbook ofEconometrics, Vol.5,North-Holland,Amsterdam.Chapter53"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.852273166179657,
+        "bbox_xyxy": [
+          169,
+          238,
+          1084,
+          1770
+        ],
+        "text": "ARROw, K. J. (1962). “The Economic Implications of Learning by Doing.” Review ofEconomicStudies29:155-173 BARRETT, C. B. (1997). “Food Marketing Liberalization and Trader Entry: Evidence from Madagascar:\" World Development, 25(5): 763-777. BIGSTEN, A., P. COLLIER, S. DERCON, B. GAUTHIER, J. W. GUNNING, A. ISAKSSON, A. ODURO, R. OoSTENDORP, C. PATILLO, M. SoDERBOM and F. TEAL (1999). \"Investment in Africa's Manufacturing Sector: A Four Country Panel Data Analysis.\" Oxford Bulletin of Economics and Statistics,61(4):489-512. BIGSTEN, A., P. COLLIER, S. DERCON, M. FAFCHAMPS, B. GAUTHIER, J.W. GUNNING, A. ODURO, R. OOSTENDORP, C. PATILLO, M. SODERBOM, F. TEAL and A. ZEUFACK (2003). “Credit Constraints in Manufacturing Enterprises in Africa.\" Journal of African Economies, 12(1): 104-124. BIGSTEN, A., P. COLLIER, S. DERCON, M. FAFCHAMPS, B. GAUTHIER, J. W. GUNNING, A.ODURO,R.OOSTENDORP,C.PATILLO,M.SODERBOM,F.TEAL aNd A.ZEUFACK (2005). “Adjustment Costs, Irreversibility, and Investment Patterns in Africa's ManufacturingSector.\"Contributions toEconomic Analysis &Policy,Berkeley Electronic Press at www.bepress.com, 4(1): article 12. BLOoM, N. and J. VAN REENEN (2007).“Measuring and Explaining Management Practices Across Firms and Countries\",Quarterly Journal of Economics,122(4): 1351-1408. BUN, M. J.G. and A. EL MAKHLoUF1 (2007). “Dynamic Externalities, Local Industrical StructureandEconomicDevelopment:PanelDataEvidenceforMorocco. Regional Studies,41(6): 823-837. CiccoNE,A.andR.E.HALL(1996).\"Productivityand theDensityofEconomic Activity.\" American Economic Review, 86(1): 54-70. CiccONE, A. and K. MATsUYAMA (1996). “Start-Up Costs and Pecuniary Externalities as Barriers to Economic Development.\" Journal of Development Economics, 49(1):33-59 CLERIDEs, S., S. LACH and J. TyBOUT (1998). “Is Learning-by-Exporting Important? Micro-Dynamic Evidence from Colombia, Mexico, and Morocco.\" Quarterly Journal of Economics, 113(3): 903-947. CoMBEs, P.-P. (2000). “Economic Structure and Local Growth: France, 1984-1993\" JournalofUrbanEconomics,47:329-355 CoMBES, P.-P., T. MAGNAC and J.-M. RoBIN (2O04). “The Dynamics of Local Employment in France.\" Journal of Urban Economics, 2004,56(2): 217-243. DANIELs, L.(1994). Changes in the Small-Scale Enterprise Sector from 1991 to 1993:Resultsfrom aSecond NationwideSurveyin Zimbabwe,Bethesda, Maryland: Gemini Technical Report No. 71, Gemini. DAs,S.,M.J.RoBERTs and J.R.TyBoUT (2OO7).\"Market Entry Costs,Producer Heterogeneity, and Export Dynamics.\"Econometrica, 75(3): 837-873. DE MELO, J., M. HADDAD and B. HoRTON (2OO1). “Exports and Industrial Performance During the Moroccan Trade Liberalization.\" in J. TyBoUT and M. RoBERTs (eds.), ProducerHeterogeneityandPerformanceintheSemi-IndustrializedCountries, Oxford UniversityPress,Oxford"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8062653541564941,
+        "bbox_xyxy": [
+          322,
+          181,
+          934,
+          206
+        ],
+        "text": "MANLIFACLTTRINCO GROWTHANDAGGLOMERATIONEFFECTS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6073768734931946,
+        "bbox_xyxy": [
+          1045,
+          180,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8502873778343201,
+        "bbox_xyxy": [
+          168,
+          239,
+          1084,
+          1779
+        ],
+        "text": "DESMET, K. and M. FAFCHAMPs (2005). “Changes in the Spatial Concentration of Employment across U.S. Counties: A Sectoral Analysis 1970-2000\", Journal of Economic Ge0graphy,5:261-284. DESMET, K. and M. FAFCHAMPs (2006). “Employment Concentration across US Counties\",Regional Science and Urban Economics,36(4): 482-509 DIcKEN, P. and P. E. LLoyD (1990). Location in Space: Theoretical Perspectives in Economic Geography,Harper Collins, NewYork. DixIT, A. (1989). “Entry and Exit Decisions Under Uncertainty.\" Journal of Political Economy, 97(3): 620-638. DixIT, A. K. and R. S. PINDYcK (1994). Investment Under Uncertainty, Princeton University Press, Princeton N.J. ELLIsON, G. and E. L. GLAEsER (1997). “Geographic Concentration in U.S. Manufacturing Industries: A Dartboard Approach.\" Journal of Political Economy, 105(5):889-927. FAFCHAMPs, M. (1997). “Mobile Capital, Location Externalities, and Industrialization.\" JournalofComparativeEconomics,25(3):345-365 FAFCHAMPs, M. (2009). “Human Capital, Exports, and Wages\", Economic Development and Cultural Change, 58(1): 111-141. FAFCHAMPs, M. and S. EL HAMINE (2O17). “Firm Productivity, Wages, and Agglomeration Externalities.\"Research in Economics, (forthcoming). FAFCHAMPs, M., S. EL HAMINE and A. ZEUFACK (2O08). \"Learning to Export: Evidence fromMoroccanManufacturingJournalofAfricanEconomies,17:305-355 FAFCHAMPs, M. and B. HELMs (1996). “Local Demand, Investment Multipliers, and Industrialization: Theory and Application to the Guatemalan Highlands.’ Journal ofDevelopmentEconomics.49(1):61-92 FAFCHAMPS, M. and R. OoSTENDORP (2OO2). \"Investment.\" in J. W. GUNNING and R. OosTENDoRP(eds.)Industrial ChangeinAfrica:ZimbabweanFirmsunder StructuralAdjustment,Palgrave,NewYork. FAFCHAMPs, M. and M. ScHUNDELN (2013). “Local Financial Development and Firm Performance: Evidence from Morocco\", Journal of Development Economics, 103:15-28 FAFCHAMPs, M. and M. SoDERBOM (2006). “Wages and Labor Management in AfricanManufacturing\",JournalofHumanResources,41(2):346-379 FAFCHAMPs, M., M. SODERBOM and N. BENHAsSINE (2O09). \"Wage Gaps and Job Sorting in African Manufacturing\", Journal of African Economies, 18(5): 824-868. FAZZAR1, S. M., R. G. HUBBARD and B. C. PETERSEN (1988). \"Investment, Financing Decisions,and Tax Policy.\"American Economic Review, 78(2): 200-205. FuJITA, M., P. KRUGMAN and A. J. VENABLEs (1999). The Spatial Economy: Cities, Regions,andInternationalTrade,MTPress,CambridgeandLondon. GLAESER,E.L.,H.D.KALLAL,J.A.SHEINKMANand A.SHLEIFER(1992).\"GrOwth in Cities.\" Journal of Political Economy, 100(6): 1126-1152."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8157796263694763,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8078603744506836,
+        "bbox_xyxy": [
+          172,
+          179,
+          206,
+          206
+        ],
+        "text": "26"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "stem": "page_0023",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.821461021900177,
+        "bbox_xyxy": [
+          322,
+          181,
+          934,
+          206
+        ],
+        "text": "MANLIFACLTTRINCO GROWTHANDAGGLOMERATIONEFFECTS"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6794009208679199,
+        "bbox_xyxy": [
+          167,
+          239,
+          1083,
+          1761
+        ],
+        "text": "HADDAD, M. and J. dE MELo (1996). “Brendan Horton' in M. J. Roberts and J. R. Tybout (eds),Morocco,1984-89: Trade Liberalization,Exports,and Industrial Performance, Oxford University Press for the World Bank, Oxford and New York. pp. 285-313. HENDERsoN, J. V. (1988). Urban Development: Theory, Fact, and Illusion, Oxford University Press, New York. HENDERsoN, V. (1997). “Externalities and Industrial Development.\" Journal of UrbanEconomics,42:449-470. HENDERsoN, V. (2003). “Marshall's Scale Economies.\" Journal of Urban Economics, 53(1): 1-28. HIRscHMAN, A. O. (1958). The Strategy of Economic Development, Yale University Press, New Haven. HuBBARD, R. G. (1998). \"Capital Market Imperfections and Investment.\" Journal of Economic Literature,36(1):193-225. IsARD, W. (1956). Location and Space Economy, MIT Press, Cambridge, Mass JAcoBs, J. (1969). The Economy of Cities, Random House, New York. JAcoBs, J. (1984). Cities and the Wealth of Nations, Random House, New York. KRUGMAN, P. R. (1991). \"Increasing Returns and Economic Geography.\" Journal of Political Economy,99(3): 483-499. MuRPHY,K.M.,A.SHLEIFERandR.W.VISHNY(1989).\"Industrialization and the BigPush.\"Journal of Political Economy,97(5): 1003-1026 NELsON, R. and S. W1NTER (1982). An Evolutionary Theory of Economic Change, Harvard UP, Cambridge Mass. NkURUNzIZA, J. (2010).“The Effect of Credit on Growth and Convergence of Firm SizeinKenyanManufacturing,”Journal ofInternational Tradeand Economic Development, 19(3): 465-494. PoRTER, M. (1990). The Competitive Advantage of Nations,Free Press, New York. QuAH, D. (1993). “Galton's Fallacy and Tests of the Convergence Hypothesis.\" ScandinavianJournal ofEconomics,95(4):427-443. RAUCH, J. E. and A. CAsELLA (2003). “Overcoming Informational Barriers to International Resource Allocation: Prices and Ties.\" Economic Journal, 113(484): 21-42. RoDRIGUEz-CLARE, A. (1996). \"The Division of Labor and Economic Development.\" JournalofDevelopmentEconomics,49:3-32 RoMER, P. M. (1986) “ Increasing Returns and Long-Run Growth.\" Journal of Political Economy, 94(5): 1002-1037. RoMER, P. M. (1990) \"Endogenous Technological Change.\" Journal of Political Economy, 98(5) pt.2: S71-S102. THOMPsoN, F. (2004). “Industry Interaction, Knowledge Spillovers and Employment Growth in Moroccan Manufacturing.\" Unpublished MPhil thesis, Oxford University. TyBouT, J. R. (20oo) \"Manufacturing Firms in Developing Countries: How Well Do They Do and Why?\" Journal of Economic Literature, 38(1): 11-44."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6504095792770386,
+        "bbox_xyxy": [
+          1045,
+          179,
+          1076,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  }
+]

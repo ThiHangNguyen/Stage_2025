@@ -1,0 +1,3194 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9826237559318542,
+        "bbox_xyxy": [
+          173,
+          1020,
+          1079,
+          1220
+        ],
+        "text": "La théorie microéconomique standard suppose la rationalité des agents, c'est- a-dire que ces derniers vont faire des choix dans le but de maximiser leur utilite'. Cependant,dans une situation d'interactions strategiques,cequi est optimal pour un agent va dependre des choix faits par les autres agents. Il est des lors impossible deconsidérerlechoixd'unagentprisisolémentetlarésolutionduproblemepasse parl'analysejointeduproblemededécisiondetouslesagentsimpliqués."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807470440864563,
+        "bbox_xyxy": [
+          173,
+          1237,
+          1078,
+          1535
+        ],
+        "text": "L'analyse des interactions strategiques a une longue histoire en économie, en probabilités ainsi qu'ensciences politiques.Des 1713, James Waldegrave discute d'une strategie mixte dans unjeu de cartes a deux joueurs (Bellhouse, 2oo7).Plus tard, Augustin Cournot (1838) propose une analyse pionniere de linteraction de plusieurs firmes en situation d'oligopole. Il considere que chaque firme choisit son niveau de production en considérant le niveau de production des autres comme etantdonneetconstruitunefonctiondemeilleurereponse auxchoixdesautres firmes.Ilmontreensuite qu'unéquilibrestablepeutsemettreenplacepar un processusiteratifd'équilibration."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9761961698532104,
+        "bbox_xyxy": [
+          173,
+          713,
+          612,
+          879
+        ],
+        "text": "JonathanVAKSMANN GAINS.UniversiteduMaine Centred'EconomiedelaSorbonne UniversiteParis1Panthéon-Sorbonne jonathan.vaksmann@univ-lemans.fr"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9689434766769409,
+        "bbox_xyxy": [
+          174,
+          569,
+          532,
+          668
+        ],
+        "text": "AntoineTERRACOL LED-UniversitéParis8 antoine.terracol@univ-paris8.fr"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9260111451148987,
+        "bbox_xyxy": [
+          299,
+          334,
+          954,
+          472
+        ],
+        "text": "RATIONALITELIMITEE ET INTERACTIONS STRATEGIQUES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8310021162033081,
+        "bbox_xyxy": [
+          171,
+          1587,
+          1079,
+          1748
+        ],
+        "text": "contribuea ameliorer le contenu de cet article.Selonl'usage,les éventuelleserreurs qui subsisteraient restentdenotreresponsabiliteexclusive. 1.La vision de l'agent économique comme étant a meme d'effectuer les calculs permettant d'arriver a cette maximisation del'utilité aétemise en cause par Simon (1955),qui propose de fonder latheorieducomportementindividuelsurdesbasesplusréalistes"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5874302387237549,
+        "bbox_xyxy": [
+          172,
+          247,
+          956,
+          273
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5036315321922302,
+        "bbox_xyxy": [
+          174,
+          971,
+          327,
+          1000
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.48206034302711487,
+        "bbox_xyxy": [
+          174,
+          971,
+          327,
+          1000
+        ],
+        "text": "INTRODUCTION"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985241711139679,
+        "bbox_xyxy": [
+          172,
+          932,
+          1078,
+          1232
+        ],
+        "text": "Parlasuite,lamontéeenpuissancedelamethodeexperimentaleenéconomie apermisdetesteravecplusderigueurlespremissesetprédictionsdelatheoriedes jeux.Sicesdernieressemblentdanscertainscasconcorder avecles observations empiriques,il suffit parfois d'une petite modification des parametres pour que cet accord disparaisse (Goeree et Holt, 20o1). Deslors,de nombreux travaux ont cherche a developper desmodeles associantpuissanceexplicativedescomportements observes et hypotheses moins fortes surlesprocessus cognitifs des agents.Cet articlepasse enrevueuncertain nombre de ces approches,dontlepointcommun est desupposer une rationalité moins contraignante dela part des agents."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836720824241638,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          915
+        ],
+        "text": "Les situations d'interactions stratégiques ont ensuite éte modelisées de facon formelle par von Neumann (1928) et von Neumann et Morgenstern (1944) et se sont principalementconcentressurlesjeuxadeuxjoueursasommenulle.Lapublication ultérieure de Nash (1950) de son concept d'équilibre dans les jeux non cooperatifs a n joueurs a achevé l'ancrage de la théorie des jeux et de l'analyse des interactions strategiques dans la science économique. L'équilibre de Nash requiert cependant un fort degré de rationalité de la part des agents. En particulier, ces derniers doivent nonseulementétrerationnelsendonnantunemeilleurereponsealeurscroyances, maislaconnaissancecommunedelarationalitedoitégalementétreétablieentreles agents, c'est-a-dire que chaque joueur doit savoir que les autres sont également rationnels, que ces derniers savent que les autres sont rationnels, etc.² A léquilibre, puisque les agents choisissent des meilleures réponses qui sont mutuellement com- patibles,lescroyancesdoiventétrecorrectes.Lestatutpositif ounormatifdela théoriedes jeuxet deléquilibredeNash a tres totfait l'objetdedebats et laquestion de la validité de la théorie des jeux, en tant que corpus a meme de décrire le com- portement < réel > des agents, a vite éte posée. Les premieres tentatives de validation empiriques des hypotheses et prédictions de la théorie des jeux par Flood (1952. 1958),bienquecritiquablesparleurmethodologie,ontpermisdeconclurequeles hypotheses habituelles de la theorie des jeux étaient vraisemblablement trop fortes pourespererdecrirelescomportementshumains."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9826594591140747,
+        "bbox_xyxy": [
+          173,
+          1248,
+          1079,
+          1650
+        ],
+        "text": "Lorsque l'on cherche a expliquer les comportements observés dans des jeux experimentaux,deux aspects sont a considerer.Lepremier concerneles reactions initiales des agents, c'est-a-dire la facon dont ils choisissent leurs actions lorsqu'ils fontfaceaunesituationstrategiquedonneepourlapremierefois.Cesmodelesse concentrentsurleprocessuscognitifdesagentsetenparticuliersurlafacondont ilsconsiderentlasophisticationdes autresjoueursetleserreursfaitesdanslechoix desactions.Cesmodelessontpassesenrevue danslasection1 decet article.Les modelescorrespondantsupposentparexemplela presencedebruit danslesreponses des agents. Ces réponses bruitées peuvent servir de base a un nouveau concept d'équilibre(modeledeQuantalresponseequilibrium)oudevenirunebarriereau calculdescroyancesd'ordresuperieur(modeledeNoisyIntrospection).D'autres modelesproposentdeconserverla rationaliteindividuelle et demeilleuresréponses"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8617411255836487,
+        "bbox_xyxy": [
+          171,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "2. MaisvoirAumannetBrandenburger(1995)ainsiquePolak(1999)surlaquestion de necessitedelaconnaissancecommunedelarationalitepourl'existenced'unéquilibredeNash."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8517646789550781,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8415295481681824,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9831218123435974,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          613
+        ],
+        "text": "nonbruitees,maislimitentlaconnaissancecommunedelarationalite(k-rationa- lisabilité) ou encore proposent que les agents se basent sur une vision des autres joueurscommeétantmoinssophistiquesqu'euxmeme(Level-k,kierarchiecognitive). Ces modeles ont connu unsucces empiriquecertain.Enparticulier,lemodele de Quantalresponseequilibrium(QRE)etlesmodelesdeLevel-ketdehierarchie cognitivesesontmontréstresperformants.Malgresacapacitéareproduireun grand nombrededeviationsal'équilibredeNash,lemodeleQRE a neanmoinsété critiquecarleshypothesessous-jacentessemblentimposer unecharge cognitive sur les agents peu compatible avec le désir de proposer un modele de rationalité limitée. Les modeles Level-k, reposant sur des hypotheses pouvant apparaitre plus réalistes,semblent avoirlesfaveursdelalitteratureplusrécente."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9811906218528748,
+        "bbox_xyxy": [
+          172,
+          629,
+          1078,
+          1596
+        ],
+        "text": "Le second aspect concerne les jeux répetés a observation parfaite et information complete. Dans ces situations, les joueurs sont a meme d'observer l'histoire passée des actions des joueurs, et les gains associés a leurs choix. Des lors, les agents peuvent essayer d'infererlesstrategiesdes autresjoueurssurlabase decettehistoirepassée. Ce champ de la litterature se concentre sur ces processus d'apprentissage et de formation des croyances des joueurs lorsqu'ils sont a meme d'observer l'histoire passeedujeu.Cestravauxsontexposesdanslasection 2.Lespremierstravauxsur cetteproblematique se sont inspirés desrecherches en psychologie sur les théories de l'apprentissage. Toutefois, ces approches pionnieres, basees sur un simple renfor- cement des actions les plus performantes dans le passe et déconnectees de toute considerationstrategique,sont apparuestreslimitéespourdecrirelecomportement d'agents dans des jeux. Les économistes ont alors reformulé des théories d'appren- tissage pour y integrer des notions strategiques et la prise en compte des croyances des individus dans leur optimisation. Les deux approches d'apprentissage, par renforcement et parles croyances,ont coexistedemaniereindependantejusqu'a ce qu'elles soient reunies au sein d'un modele unifiant, le modele Experience-weighted attraction (EWA). Ce modele permet donc de quantifier précisément les poids respectifs du renforcement et des croyances dans le processus d'apprentissage des individus. Cependant, l'ensemble des modeles d'apprentissage partagent une faiblesse commune, celle de considerer des agents purement adaptatifs qui ne tiennent pas comptedesconséquencesdeleursactionssurlecomportementdeleursopposants. En d'autres termes, selon ces approches les joueurs negligent les interactions straté- giques. D'autres approches d'apprentissage sophistique ont donc été mises au point plusrecemment,selonlesquelleslesindividussontenmesure d'adopterdes strategies de manipulation du comportement deleurs opposants.Sans pour autant retomber sur le paradigme de rationalite pure, largement conteste dans de nombreuses situations, l'objet de ces approches demeure d'élargir le spectre des comportements considerés dans les jeux en depassant le cadre restrictif de la non-sophistication a l'extreme qui selimiteadesjoueurspurementadaptatifsetpassifsfacealeurenvironnement."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8474887609481812,
+        "bbox_xyxy": [
+          327,
+          181,
+          921,
+          206
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGIOUES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7542471885681152,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850407242774963,
+        "bbox_xyxy": [
+          172,
+          1148,
+          1079,
+          1747
+        ],
+        "text": "Une caractéristique de cette approche est que les couts de déviation sont évalués en supposant queles autres joueurs ne commettent pas d'erreur et choisissent systematiquement leurs strategies d'équilibre. Les joueurs sont donc supposés étre a meme de calculer les équilibres de Nash et supposent que les autres joueurs en font autant. De meme que pour les raisonnements d'équilibre, la notion d'équilibre plus bruit suppose des capacités cognitives élevées de la part des sujets. Or, les resultats experimentaux montrent que,hormis danslesjeuxles plus simples,les comportements de joueurs semblent incompatibles avec des raisonnements de point fixe ou d'élimination repetées de strategies dominees a une profondeur trop grande. De plus, ces modeles recelent une tension entre le degré de rationalité attribué aux joueurs, capables de calculer l'équilibre de Nash, et le fait qu'ils commettent neanmoins des erreurs lorsqu'ils choisissent effectivement leurs actions. Ensuite, la notion d'équilibre plus bruit peut potentiellement expliquer presque toutes les actions en ajustant le parametre de sensibilite, ce qui le rend peu informatif sur les processus de décision des agents. Enfin, elle implique que I'action d'équilibre a la plusforteprobabilitéd'étrejouée(puisquele cout dedeviation correspondant est nul), ce qui empeche d'expliquer les situations ou on observe des déviations systematiques de l'équilibre de Nash (Costa-Gomes et al., 2009)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9850391149520874,
+        "bbox_xyxy": [
+          172,
+          763,
+          1079,
+          1130
+        ],
+        "text": "Pour donner du sens aux données observees experimentalement, dans lesquelles on observe de nombreuses déviations par rapport aux prédictions d'équilibre, le plussimpleestsouventdeconsidererquecesdeviationssontdes《erreurs>faites par l'agent lorsqu'il choisit son action. Ce dernier connait léquilibre de Nash, mais se trompeenchoisissantsonaction.Les erreurssont couteuses etleurdistribution va doncdependredesdifferencesdepaiementespereentrela strategied'equilibre etcelleseffectivementjouées.Plusleserreurssont couteuses entermesdegain, moins les choix vont dévier de l'équilibre. On modélise typiquement les erreurs comme étant issues d'une distribution logistique dans laquelle la probabilite qu'une strategie soit choisie depend du cout de deviation correspondant, ainsi que d'un parametredesensibilitéauxgains."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9752985239028931,
+        "bbox_xyxy": [
+          173,
+          298,
+          1079,
+          663
+        ],
+        "text": "Une premiere facon de comprendre les stratégies utilisées par des agents dans un cadre de rationalite limitée est de considerer les décisions prises lorsqu'ils font face a un jeu pour la premiere fois, ou que le jeu n'a pas d'antécédent clair. Un pan delalitteraturechercheaexpliquer les deviationsinitiales del'equilibredeNash observeesdanslesjeuxexperimentauxetarelacherleshypothesessurledegrede rationalitedes agentstoutenconservant unecertaineprecision dansleursprédictions. Les modeles de cette litterature conservent l'essentiel de la rationalité individuelle, mais utilisent la presence debruit dansles meilleures reponses des agents,des iterations limitées de connaissance de la rationalité et la croyance en une moindre sophistication des autresjoueurs.Leur objectif est deproposer unevision crédible du processus cognitifdesagentsquisoit amemedereproduirelesobservationsexperimentales."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8954236507415771,
+        "bbox_xyxy": [
+          175,
+          711,
+          439,
+          746
+        ],
+        "text": "L.1Eauilibreplusbruul"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8745484948158264,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8743550777435303,
+        "bbox_xyxy": [
+          175,
+          248,
+          714,
+          278
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8417555093765259,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9865173697471619,
+        "bbox_xyxy": [
+          173,
+          1383,
+          1078,
+          1751
+        ],
+        "text": "Le graphique 1 presente des exemples de jeux a deux joueurs dans lesquels les processus derationalisation aboutissenta des ensemblesrationalisablesde tailles differentes. Chaque jeu a un unique équilibre en strategies pures, souligné dans la bimatrice.DanslejeuGl,l'actionTn'estpasrationalisablecarelleestdominée parlastrategiemixteconsistantajouerMavecuneprobabilitedeO,45etBavec uneprobabilitedeO,55(eneffet,unetellestrategiemixteauratoujoursungain espere plus éleve que la strategie pure T, quelle que soit la croyance sur les actions dujoueur colonne). Ml enresultequeI'action T'n'estpas rationalisable(ni 1-ratio nalisable) car elle ne peut étre choisie par un individu rationnel. Cependant, dans lejeuGl,ilestimpossibledecontinueraéliminerdesstrategiesdomineescarle joueurcolonnen'apasdestrategiedominée,ycomprisapresl'éliminationdeT."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983359158039093,
+        "bbox_xyxy": [
+          172,
+          663,
+          1078,
+          931
+        ],
+        "text": "La k-rationalisabilité suppose la rationalité individuelle et un nombre fini k d'itérations de connaissance dela rationalitédesjoueurs.Une actionest 1-rationa- lisablesielleestlameilleurereponsea unprofil d'actionsdonnédes autresjoueurs. Elle est 2-rationalisable si elle constitue une meilleure réponse a un profil d'actions des autres joueurs qui soit 1-rationalisable et ainsi de suite. Dans un jeu a deux joueurs,uneactionserak-rationalisablesiellesurvitakiterationsd'élimination desstrategiesstrictementdominees(unestrategieseraéliminéesielleeststrictement dominée par une strategie mixte ou par une strategie pure)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820523858070374,
+        "bbox_xyxy": [
+          173,
+          1131,
+          1079,
+          1365
+        ],
+        "text": "Dans un jeu ou l'espace des strategies est fini, l'application de la rationalisabilité ou delak-rationalisabilitepermetderéduirelenombredestrategiessusceptibles d'etre choisiespar unjoueurrationnel en unnombrefini d'iterations.L'ensemble des strategies restantes est l'ensemble d'actions dites rationalisables (ou k-rationa- lisables).Cetensemble contiendralesstrategiessupportantleouleséquilibres de Nash,mais ne contientpas nécessairement une action unique et peut meme,dans certains jeux, correspondre a l'ensemble des actions possibles du joueur."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9801124334335327,
+        "bbox_xyxy": [
+          174,
+          297,
+          1079,
+          530
+        ],
+        "text": "Les raisonnements d'équilibre de Nash supposent d'une part que les individus sontrationnels,quelarationaliteestconnaissancecommune,maiségalementque leurs croyances sont correctes a l'équilibre. Une facon de réduire la charge cognitive associée a un tel modele de raisonnement des individus est de ne conserver qu'une partiedeshypothesessousjacentes,asavoirlarationaliteetlaconnaissanceitérée de la rationalité, et d'abandonner les anticipations rationnelles et la nécessité d'avoir descroyancesexactesal'equilibre"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.975124716758728,
+        "bbox_xyxy": [
+          173,
+          948,
+          1079,
+          1114
+        ],
+        "text": "La rationalisabilité est une version plus exigeante pour le processus cognitif quelak-rationalisabilité ausens ouellesebasesurla connaissancecommune de la rationalité(et nonpas uniquement sur un nombrefini d'iterations de connaissance dela rationalitédes joueurs).En d'autres termes,une strategierationalisable est k-rationalisablepourtoutk."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.95814049243927,
+        "bbox_xyxy": [
+          174,
+          547,
+          1079,
+          646
+        ],
+        "text": "Les notions de《rationalisabilité》et de《k-rationalisabilité>(Bernheim, 1984; Pearce, 1984) sont les produits de cette approche. Commencons par décrire lak-rationalisabilite"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8531908988952637,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.81059330701828,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7822644114494324,
+        "bbox_xyxy": [
+          177,
+          247,
+          836,
+          279
+        ],
+        "text": "L.2Rationalisabulite"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9828252196311951,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          547
+        ],
+        "text": "Toutes les actions du joueur colonne sont donc k-rationalisables, et l'ensemble des strategies rationalisables est donc{M, B} pour le joueur ligne et {l,m, r} pour le joueur colonne. Dans le jeu G2, aucune strategie n'est strictement dominée, et le criterede(k-)rationalisabilitenepermetpas deréduirel'ensembledesstrategies: toutes les actions sont (k-)rationalisables.Dans le jeu G3, au contraire,l'ensemble des stratégies rationalisables se réduit a l'équilibre de Nash {M, r}. En effet, on voit queBestdominéepar Tet n'est doncpasrationalisable.Dememe onvoit que Iestdominéeparmetn'est doncpasrationalisablenonplus.L'étapesuivante consiste a éliminer T, puis m pour aboutir a l'équilibre de Nash."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9781278371810913,
+        "bbox_xyxy": [
+          168,
+          853,
+          1078,
+          1462
+        ],
+        "text": "G1 1 m r T 75,90 27,31 55,43 M 90,40 28,35 31,51 B 63,42 65,86 78,26 G2 m r T 68,62 65,26 61,42 M 34,54 82,70 66,69 B 84,47 26,88 76,84 G3 m r T 80,10 15,17 22,10 M 15,24 20,28 25,32 B 20,35 14,38 21,72"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9726292490959167,
+        "bbox_xyxy": [
+          173,
+          564,
+          1079,
+          730
+        ],
+        "text": "Le concept de (k-)rationalisabilité est attrayant par sa simplicité, mais son pouvoir prédictif peut s'avererfaible.Deplus,la(k-)rationalisabilitenefournit pas dedistributiondeprobabilitessurlesactionsquisurvivental'éliminationiterée des strategies dominées, ce qui la rend moins adaptée a l'analyse économetrique dedonneesexperimentales."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8807621002197266,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8683739900588989,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8226426243782043,
+        "bbox_xyxy": [
+          173,
+          1582,
+          1078,
+          1750
+        ],
+        "text": "Les modeles d'équilibre plus bruit présentés dans la section 1.1 permettent d'expliquer les déviations non systematiques de léquilibre de Nash observées dans lesjeuxexperimentaux.Dans cesmodeles,la probabilitédechoix d'une action hors équilibre est inversement proportionnelle au cout de déviation correspondant. Les joueurs vont donc plus probablement choisir une action donnant un gain espéré"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7004950642585754,
+        "bbox_xyxy": [
+          531,
+          747,
+          717,
+          780
+        ],
+        "text": "GRAPHIOUET"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6539420485496521,
+        "bbox_xyxy": [
+          173,
+          1583,
+          1079,
+          1750
+        ],
+        "text": "Les modeles d'équilibre plus bruit présentés dans la section 1.1 permettent d'expliquerlesdeviationsnonsystematiquesdel'équilibredeNashobserveesdans les jeux experimentaux. Dans ces modeles, la probabilité de choix d'une action horséquilibre estinversementproportionnelle aucoutdedeviationcorrespondant. Lesjoueursvont doncplusprobablementchoisiruneactiondonnantungainesperé"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6235551834106445,
+        "bbox_xyxy": [
+          173,
+          1530,
+          1036,
+          1566
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4027542471885681,
+        "bbox_xyxy": [
+          173,
+          1530,
+          1036,
+          1566
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9881997108459473,
+        "bbox_xyxy": [
+          172,
+          398,
+          1078,
+          809
+        ],
+        "text": "Le modele de QRE de McKelvey et Palfrey (1995, 1998)3 supposent que les joueurs ont une certaine croyance surla distribution des actions des autres joueurs. Etant donné cette croyance, on peut determiner la meilleure réponse correspondante. Lesjoueursdonnentensuiteunemeilleurereponsebruitée,oulaprobabilitéde chaque action est donnée par une fonction de reponse quantale. L'approche du modele QRE suppose donc une rationalité limitée de la part des agents qui com- mettent des erreurs en ne donnant pas systematiquementunemeilleurereponse a leur croyances. Cependant, le modele de QRE ne renonce pas a la notion d'équilibre ni auxanticipationsrationnelles.Eneffet,lemodeleQREestunmodeled'équilibre etcedernierestatteintlorsquelescroyancesdechacunsontcoherentesavecles actions(bruitees)desautresjoueurs.End'autrestermes,1'équilibredumodele QREestunpointfixedansl'espacedesdistributionsd'actions."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9799979329109192,
+        "bbox_xyxy": [
+          172,
+          1361,
+          1080,
+          1566
+        ],
+        "text": "ou a_, est le profil de strategies pour les autres joueurs que i, π (a, a_,) est le gain pour i correspondant au profil de stratégies a, a_, et ou , Pr (a_) est la probabilité queles autres joueurs choisissent le profil,a_,Lorsque X est nul,les joueurs choisissent leurs actions selon uneloi uniforme surl'ensemble des actions dispo- nibles. Lorsque 入 → o, la probabilité de choisir la meilleure réponse tend vers 1, etl'équilibreQREtendversunéquilibredeNash"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9760319590568542,
+        "bbox_xyxy": [
+          172,
+          826,
+          1078,
+          996
+        ],
+        "text": "Haile et al. (2008) ont néanmoins relevé que, dans son cadre le plus genéral, le modele de quantal response equilibrium pouvait expliquer n'importe quelle distribution d'actions dans les jeux sous forme normale.Autrement dit,le modele QRE n'est pas falsifiable dans sa formegenerale.Uneversion de cemodeleimpli- quant desrestrictions testablesestproposéeparGoereeet al.(2005)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9756637811660767,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          382
+        ],
+        "text": "élevé qu'un gain esperé faible, sans pour autant choisir systématiquement l'action optimale.Cesfonctions de《reponse quantale>(quantal responsefunctions)sont ainsi desfonctions qui assignent au vecteur desgains esperes des actions disponibles unvecteur deprobabilités d'actions qui est monotone danslesgains espérés"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9650235176086426,
+        "bbox_xyxy": [
+          172,
+          1013,
+          1079,
+          1116
+        ],
+        "text": "D'un point de vue empirique, il est genéralement supposé que les actions des joueurs suivent une distributionlogistique indexee par un parametre de précision 入4. Laprobabilitépour quelejoueurijouel'actiona.EA.est alorsdonnéepar"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9455172419548035,
+        "bbox_xyxy": [
+          217,
+          1143,
+          725,
+          1332
+        ],
+        "text": "exp ≥ Pr(a-i)π(a;,a-i) Pr(a;) = a_EA ∑exp∑ Pr(a-i)π(aj,a-i a,∈A a_ieA_i"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9176658391952515,
+        "bbox_xyxy": [
+          213,
+          1583,
+          772,
+          1616
+        ],
+        "text": "PrenonsT'exempledu ldutableaul.a aveca>o"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8890909552574158,
+        "bbox_xyxy": [
+          172,
+          1662,
+          1079,
+          1750
+        ],
+        "text": "3. VoirégalementChenetal.(1997). 4. OnparlealorsdeLogitquantalresponseequilibrium,LQRE.Cedernier amontréune fortecapaciteareproduirelesdistributionsd'actionsobserveesempiriquement(Goereeetal.,2o05)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8736718893051147,
+        "bbox_xyxy": [
+          326,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8276997804641724,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9844191670417786,
+        "bbox_xyxy": [
+          171,
+          1224,
+          1081,
+          1466
+        ],
+        "text": "En résolvant numériquement cette équation, on obtient les résultats représentés augraphique2,quimontreI'évolutiondelaprobabilitédejouerU (pourligne) ou L(pourcolonne)aléquilibreenfonctiondeX,pourdiversesvaleursdea.On constatequepourdesfaiblesvaleursdeXlesjoueursjouentselonunedistribution uniformesurlesdeuxactions,maislorsque入→oo,leQREsélectionnel'équilibre deNashenstrategiepure,donnantainsilesgainslespluséleves.Lavitessede cetteconvergencedependdeladifferenceentreaet3."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.978144109249115,
+        "bbox_xyxy": [
+          308,
+          356,
+          940,
+          529
+        ],
+        "text": "L R U (3,3) (0,0) D (0,0) (a,a)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9450371265411377,
+        "bbox_xyxy": [
+          217,
+          927,
+          724,
+          1016
+        ],
+        "text": "exp(入×3o) Pr(L)=μ= exp(x3o)+ exp( xa(1-o)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9446486830711365,
+        "bbox_xyxy": [
+          217,
+          1113,
+          627,
+          1202
+        ],
+        "text": "exp(入×3u) exp(2× 3u)+ exp(^ xa(1-μ)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9426653385162354,
+        "bbox_xyxy": [
+          172,
+          567,
+          1080,
+          741
+        ],
+        "text": "Les équilibres de Nash en stratégies pures sont dans ce cas (U, L) et (D, R). Notons μ la probabilité que le joueur colonne joue R et o la probabilité pour que le joueur ligne joue U. L'espérance de gain du joueur ligne s'il joue U est donnée par E [U]= 3u; et est de E, [D]= a (1 -μ) s'il joue D. Le modele QRE avec probabilité logistique spécifiela probabilite pour quele joueur ligne joue U comme"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9399312138557434,
+        "bbox_xyxy": [
+          213,
+          876,
+          730,
+          909
+        ],
+        "text": "onobtient"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9353430271148682,
+        "bbox_xyxy": [
+          219,
+          758,
+          726,
+          847
+        ],
+        "text": "exp(入 × 3u) Pr(U)= α = exp(^ x 3u)+ exp( xa(1-μ)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.928904116153717,
+        "bbox_xyxy": [
+          213,
+          1050,
+          724,
+          1083
+        ],
+        "text": "Le"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8902711868286133,
+        "bbox_xyxy": [
+          175,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8833715915679932,
+        "bbox_xyxy": [
+          480,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8372179865837097,
+        "bbox_xyxy": [
+          525,
+          246,
+          726,
+          331
+        ],
+        "text": "TABLEAU1 EXEMPLEDEQRE"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9579075574874878,
+        "bbox_xyxy": [
+          171,
+          870,
+          1080,
+          1004
+        ],
+        "text": "Le graphique 3, quant a lui, présente l'évolution des probabilités du QRE dans le jeu G3 dugraphique1.Onvoit queIéquilibreQRE convergebienversI'unique équilibre de Nash lorsque 入 → ∞ grandit. On constate aussi que l'évolution des probabilitesdechaqueactionn'estpasnécessairementmonotone."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9378780126571655,
+        "bbox_xyxy": [
+          172,
+          1644,
+          1080,
+          1746
+        ],
+        "text": "L'< équilibre avec bruit > du QRE differe de l< équilibre plus bruit > de la section1.1 dans la mesure ouleQRE integreleserreurs des adversaires dans la fonctiondereponsedechaquejoueur.Aucontraire,l'équilibreplusbruitsecontente"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9037265777587891,
+        "bbox_xyxy": [
+          170,
+          322,
+          1077,
+          850
+        ],
+        "text": "1,00 0,75 a 0,5 1,5 O 0,50 2,5 ·3.5 4,5 0,25 --5,5 0,00 0,0 0,5 1,0 1,5 2,0 入"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8700089454650879,
+        "bbox_xyxy": [
+          326,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.853884220123291,
+        "bbox_xyxy": [
+          173,
+          1091,
+          1078,
+          1624
+        ],
+        "text": "1,00 0,75 action T M 0,50 B m 0,25 0,00 0,0 0,5 1,0 1,5 2,0 入"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8401681780815125,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1074,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8290337920188904,
+        "bbox_xyxy": [
+          533,
+          247,
+          718,
+          278
+        ],
+        "text": "GRAPHOIE2"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7662837505340576,
+        "bbox_xyxy": [
+          532,
+          1020,
+          718,
+          1053
+        ],
+        "text": "GRAPHIOUE3"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9831663370132446,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          517
+        ],
+        "text": "de bruiter les meilleures réponses des joueurs aux strategies d'équilibre(non bruitées) de leurs adversaires.D'un point devue cognitif,les modeles QRE semblent excessivement complexes et couteuxen《calculs>pourles individus.Ces derniers doiventeneffetnonseulementrepondreaunedistributionnondegeneréesurles actions de leurs adversaires,mais également trouver unpoint fixe dansl'espace desdistributionsd'actions.Decepointdevue,lesmodeles QREpeuventétre considérés comme plus complexes cognitivement que les modeles classiques d'équilibressansbruit."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9831544160842896,
+        "bbox_xyxy": [
+          172,
+          1011,
+          1079,
+          1626
+        ],
+        "text": "Goeree et Holt (2004) ont proposé un modele proche du QRE, mais renoncant a 1'hypothese d'équilibre, tout en conservant le fait que les joueurs répondent a une distribution non dégenérée des actions de leurs adversaires. Ce modele de noisy introspection(NI)construitdescroyancesd'ordreplusélevé(lepremierordre correspond a la croyance du joueur sur les actions de son adversaire; le second ordre correspond a la croyance du joueur sur la croyance de premier ordre de son adversaire, etc.) de facon de plus en plus bruitée.Le modele NI construit donc la croyancedupremierordredujoueuricommeunemeilleurereponsebruitéedu joueur j a la croyance du second ordre de i, etc. Comme pour le modele QRE, les erreurs dans le processus de meilleure reponse sont issues d'une fonction logistique dépendant d'un parametre μ gouvernant la précision de la reponse dans la croyance de niveau k. Le modele NI suppose que le bruit μ, est faiblement croissant au fur et a mesure que I'on construit des croyances d'ordre superieur. Si μ, = O, alors le joueur donne une meilleure réponse non bruitée a ses croyances d'ordre k + 1. A la limite,la croyance d'ordre le plus élevé(u= o)correspond a une distribution uniformesurl'espacedesactionsdisponibles?.LemodeleNIfaitdesprédictions probabilistes dependantes de la facon dont lebruit augmente avecl'ordre des croyances.Danslecasouleparametredebruitnevariepaslorsdelaconstruction"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9808266162872314,
+        "bbox_xyxy": [
+          173,
+          536,
+          1079,
+          738
+        ],
+        "text": "Sur le plan empirique, le modele QRE a permis d'expliquer un certain nombre de deviations deléquilibredeNash;Camereretal.(2004a) affirmant queleQRE devrait remplacer Nash en tant quemodele de référence :< Quantal response equilibrium,astatisticalgeneralizationofNash,almostalwaysexplainsthe directionofdeviationsfromNashandshouldreplaceNashasthestaticbenchmark towhichothermodelsareroutinelycompared.>."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807366132736206,
+        "bbox_xyxy": [
+          173,
+          757,
+          1078,
+          994
+        ],
+        "text": "Le modele QRE a également éte utilise pour expliquer des anomalies empiriques par rapport aux modeles d'équilibres traditionnels dans des jeux sous forme normale tels que les jeux de coordination (Anderson et al., 2o01), le dilemme du voyageur (Capra, 1999),les encheres (Anderson et al.,1998; Goeree et al., 2002),les jeux de participation (Goeree et Holt, 2005), les bulles spéculatives (Moinas et Pouget, 2013) ainsi que dans des jeux de matching pennies, de signaling et de negociation (GoereeetHolt,200l)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9598508477210999,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1078,
+          1748
+        ],
+        "text": "5. Cettecroyanceenunedistributionuniformedesactionsestenfaitatteinteal'ordrektel"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8712207078933716,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8575974106788635,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9807487726211548,
+        "bbox_xyxy": [
+          172,
+          415,
+          1079,
+          1192
+        ],
+        "text": "Une des critiques apportées aux modeles d'équilibre simple ou aux modeles d'équilibre avec bruit comme le QRE concerne le fort cout cognitif associé a la determinationdeIequilibre.Uneautrecritiquesouventévoqueeestquecesmodeles ne sont pas construits a partir d'observations empiriques, et sont une construction purement théorique. Les modeles de Level-k et de hiérarchie cognitive prennent pour base les observations de Nagel (1995) dans le cadre d'une expérience de concours de beauté°. Dans le jeu du concours de beauté, n joueurs doivent simul- tanement choisir un nombre, habituellement entre O et 1oo. Le gagnant est celui dont le choix se rapproche le plus de p fois la moyenne des choix des n joueurs. Si p < 1, le jeu a un unique équilibre de Nash en strategie pure, qui est de choisir la borne inférieure de l'espace des choix possible, typiquement O. Cet équilibre de Nashpeuts'obtenirparéliminationrepetéedesstrategies dominees.Lesdonnees experimentales obtenues dans de tels jeux montrent que le choix des joueurs se concentrent sur des actions correspondant a des 《 niveaux de rationalités > croissants'. Dans les jeux ou l'espace des choix correspond a 1'intervalle [o, 1oo], on observe en effet des pics d'importance décroissante dans la distribution des choix aux niveaux 50pk (33, 22, 15, etc. dans le cas ou p = 2/3. La théorie Level-k explique cespicspar lapresence de<types> cognitifs dans la population des joueurs.Dans ce modele, le type de base correspond au niveau O (Lo), et est composé d'individus nonstrategiqueschoisissant auhasarddansl'espacedes choix.Lesindividusde type immédiatement superieur, dit de niveau 1 (L1), donnent une meilleure réponse a ceux de niveau 0. Les individus de niveau 2 (L2) donnent une meilleure réponse a ceuxdetype1,ceuxdu type3(L3)aceuxdutype2,etc."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9490814208984375,
+        "bbox_xyxy": [
+          172,
+          247,
+          1078,
+          311
+        ],
+        "text": "de croyances d'ordre plus élevé, alors les modeles NI et Logit quantal response equilibrium(LQRE)coincident."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8947045207023621,
+        "bbox_xyxy": [
+          173,
+          1207,
+          1077,
+          1340
+        ],
+        "text": "ConsideronslejeuG3dugraphique1.LesjoueursL0sont supposéschoisir chaque action avecuneprobabilite1/3.UnjoueurligneL1vachoisirl'actionqui maximise son gain esperé face a un joueur Lo. Il va donc choisir l'action T qui correspond a celle ayant le gain moyen le plus élevé. De meme, un joueur colonne L1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8398805260658264,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.800162672996521,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.706130862236023,
+        "bbox_xyxy": [
+          171,
+          1386,
+          1079,
+          1748
+        ],
+        "text": "6.Cejeu tire sonnom dela célebrecitationdeKeynes(1936):《..professionalinvestment maybelikenedtothosenewspapercompetitionsinwhichthecompetitorshavetopickoutthesix prettiestfacesfromahundredphotographs,theprizebeingawardedtothecompetitorwhosechoice mostnearlycorrespondstotheaveragepreferencesofthecompetitorsasawhole;sothateach competitorhastopick,notthosefaceswhichhehimselffindsprettiest,butthosewhichhethinks likeliesttocatchthefancyoftheothercompetitors,allofwhomarelookingattheproblemfromthe samepointofview.Itisnotacaseofchoosingthosewhich,tothebestofone'sjudgment,arereally theprettiest,noreventhosewhichaverageopiniongenuinelythinkstheprettiest.Wehavereached thethirddegreewherewedevoteourintelligencestoanticipatingwhataverageopinionexpectsthe averageopiniontobe.Andtherearesome,Ibelieve,whopracticethefourth,fifthandhigherdegrees.> 7.Les donnees deNagel(1995)sontenfaitégalementcompatibles avecunmodelecomportant unnombrefinid'eliminationsitereesdesstrategiesdominees,puisdemeilleurereponseaunedis- tributionuniformesurlesstrategiesrestantes.Cependant,desexperiencesulterieures(StahletWilson, 1994,1995)ontpermisdetrancherenfaveurdelathéorieLevel-k."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6088873147964478,
+        "bbox_xyxy": [
+          176,
+          363,
+          795,
+          396
+        ],
+        "text": "14Modeles Le hierarchie cognitive"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5223721861839294,
+        "bbox_xyxy": [
+          173,
+          1646,
+          1078,
+          1747
+        ],
+        "text": "7.Les données deNagel(1995)sontenfaitégalement compatiblesavecunmodelecomportant unnombrefinid'eliminationsitereesdesstrategiesdominees,puisdemeilleurereponseaunedis- tributionuniformesurlesstrategiesrestantes.Cependant,desexperiencesulterieures(StahletWilson, 1994,1995)ontpermisdetrancherenfaveurdelathéorieLevel-k"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.38332170248031616,
+        "bbox_xyxy": [
+          174,
+          1207,
+          1077,
+          1340
+        ],
+        "text": "ConsideronslejeuG3dugraphique1.LesjoueursL0sont supposéschoisir chaqueaction avecuneprobabilité1/3.UnjoueurligneL1vachoisirl'actionqui maximise son gain esperé face a un joueur Lo. Il va donc choisir l'action T qui correspond a celle ayant le gain moyen le plus élevé. De meme, un joueur colonne L1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.379959374666214,
+        "bbox_xyxy": [
+          176,
+          363,
+          795,
+          396
+        ],
+        "text": "14Modeles Le hierarchie cognitive"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9837703704833984,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          579
+        ],
+        "text": "va choisir l'action r. Si on considere maintenant des joueurs L2,ces derniers vont donner unemeilleurereponsea des adversairessupposesétre Ll.Lejoueurligne va donc choisir M, qui est une meilleure réponse a r et le joueur colonne va quant a lui choisir m, qui est une meilleure reponse a T. Le cas de joueurs L3 est similaire en cesens qu'ilsvont donner une meilleure reponse a desjoueurs L2,si bien que lejoueurlignevachoisirMetlejoueurcolonnevachoisirr.Notonsquecesdeux joueursL3vontchoisirunecombinaisond'actionscorrespondantal'équilibrede Nash.DesjoueursdeniveauL4ouplusélevévontégalementchoisirlameme combinaison d'actions car ils donnerontleurmeilleure réponsea des actions sous-tendantl'équilibredeNash."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9825223684310913,
+        "bbox_xyxy": [
+          172,
+          597,
+          1078,
+          1367
+        ],
+        "text": "La théorie Level-k, si elle préserve un certain degré de rationalité individuelle etdeconnaissanceiteréedecetterationalite,differedelak-rationalisabiliteence qu'elle permet aux joueurs d'étre heterogenes. Les prédictions de la théorie Level-k. en termes de distribution des actions, dépendra de la distribution des types parmi lesjoueurs.ElleserapprochedumodeleNIausensoulesjoueursdonnentune meilleure reponse a des joueurs de niveau inférieur*. A la différence du modele NI, lemodeleLevel-ksupposequelesjoueursdonnentunemeilleurereponseaune distribution dégenerée d'actions de leurs adversaires (sauf pour les L1, qui donnent une meilleure reponse a une distribution uniforme, ce qui simplifie grandement le calcul de la meilleure reponse, qui devient celle pour laquelle la moyenne simple des gains est la plus élevée). La théorie Level-k propose une representation du processus cognitif des joueurs vue comme plus réaliste queles modeles d'équilibre tels que le QRE. En effet, elle ne suppose pas de raisonnement de type < point fixe > de la part des joueurs et ne demande qu'un nombre itere de raisonnement de meilleures réponses (non bruitées) ancrées dans un niveau O naif. Il faut également noter que, dans les applications, il est souvent supposé, a l'instar du modele d'équilibre plus bruit, que les joueurs commettent des erreurs en choisissant leurs actions et ne donnent doncpassystematiquementunemeilleurereponse.Cependant,ceserreurs ne sont pas integrees que dans I'analyse empirique des jeux (si I'espace des strategies est continu, il est peu probable queles joueurs choisissent exactement leur meilleure reponse).LemodeleLevel-knesupposepasquelesindividusprennentleserreurs de leurs adversaires en compte lorsqu'ils forment leurs croyances. Ces dernieres sont toujoursbaseessurunedistributiondegenereedesactionsduniveauinferieur"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9790816307067871,
+        "bbox_xyxy": [
+          173,
+          1383,
+          1078,
+          1650
+        ],
+        "text": "Camerer et al. (2004b) proposent un modele tres lié au modele Level-k , le modeledehierarchiecognitive(cognitivehierarchymodel,CH).Cedernier se démarque du modele Level-k par le fait qu'il ne suppose pas que les individus de niveaukdonnentunemeilleurereponseadesindividusqui sonttousdeniveau k - 1. Il considere au contraire qu'un individu de niveau k > O pense faire face a une distribution des niveaux de ses adversaires. Ce dernier considere en particulier queses adversairesserepartissentsur desniveauxinferieurs au sien.En d'autres termes, le niveau k d'un joueur correspondant au nombre maximum d'itérations"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8741710186004639,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8733018040657043,
+        "bbox_xyxy": [
+          171,
+          1696,
+          1055,
+          1750
+        ],
+        "text": "8. LéquivalentduniveauOdanslemodeleNIcorrespondaunindividupourlequelu= UnindividuL1correspondainsi au casμ。=0etu,=odelanoisyintrospection."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8557366132736206,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9855524897575378,
+        "bbox_xyxy": [
+          173,
+          975,
+          1078,
+          1313
+        ],
+        "text": "Denombreusesétudes ontmisenlumierelelienentrelescapacitescognitives des joueurs et leurs stratégies dans les jeux experimentaux (Coricelli et Nagel, 2009;Burnhametal.,2009;Agranovet al.,2012;Branas Garzaetal.,2012)ainsi quelefait qu'ils sous-estiment le niveau de rationalitedes autres joueurs(Weizsacker, 2003),cequivientrenforcerlacrédibiliteempiriquedesmodelesLevel-ketCH. Costa-Gomes et al.(2001),Costa-Gomeset Crawford(2006)et Costa-Gomes et Weizsacker (2008) tentent de distinguer un grand nombre de 《 types > de joueursl1 et concluentalaprevalencedetypesLlet L2dansleurséchantillons.Costa-Gomes etWeizsacker(2o08)trouventdesurcroitquelescroyancesetlesactionsdes joueurstendentanepasétrecompatibles."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9809204339981079,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          958
+        ],
+        "text": "de meilleure réponses depuis le niveau O qu'il peut effectuer et il ne peut concevoir quelle serait la meilleure réponse d'un individu de niveau k + 1 a un individu de niveau k (car autrement il serait luimeme de niveau k+ 1).Unjoueur deniveau k va doncdonner unemeilleurereponseaunprofil destrategiesdesesadversaires qui va dependre de sa croyance dans la distribution des niveaux parmi ses adver- saires.Parexemple,dans unconcours debeaute avec p=2/3,unindividudeniveau k = 2 va avoir une croyance (po, P,), P。 + P, = 1 sur les proportions de niveaux O et 1 parmi ses adversaires. En supposant que les niveaux O jouent en moyenne 50, les niveaux 1 vont jouer 339.1o, et les individus de niveau 2 vont donc donner une meilleure réponse a une action moyenne de leurs adversaires de 50p。 + 33p1. L'introductiond'uneheterogeneitedansladistributiondesniveauxdes adversaires permet de donner une plus grande flexibilité au modele car il autorise une distri- bution non dégenerée des actions d'individus de niveau donne, pour autant que leurs croyances danslarepartition desniveauxnesoientpasidentiques.Dansles applications empiriques, il est souvent suppose que la distribution des niveaux suit une loi de Poisson de parametre X. La croyance d'un individu de niveau k sera alors donnéeparuneladistributiondePoissontronqueeak-1etrenormaliseedefacon a ce que la somme des probabilités des niveaux j <k soit bien égale a 1. Notons que, dans le modele de hierarchie cognitive, la distribution des niveaux dans la croyance d'un joueur donné n'a pas de raison particuliere de correspondre a la distributionréelledesniveauparmisesadversaires."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9778317213058472,
+        "bbox_xyxy": [
+          173,
+          1330,
+          1079,
+          1499
+        ],
+        "text": "Lesmodeles Level-k et CH s'ancrent dans le comportement des individus de niveau O.Ces derniers sont consideres comme des joueurs non strategiques, c'est- a-diredontles actionsnesontpasissuesd'un comportement demeilleurereponse. Les théories Level-k et CH ne précisent pas si ces joueurs existent autrement que 《dans1'espritdesjoueursdeniveauplusélevé>(CrawfordetIriberri,2007)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9547586441040039,
+        "bbox_xyxy": [
+          174,
+          1516,
+          1078,
+          1582
+        ],
+        "text": "La questiondel'existenceréelledejoueursnonstratégiquedeniveau Oestdonc essentiellement empirique.Certain travaux qui cherchent a classifier les joueurs"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9395816922187805,
+        "bbox_xyxy": [
+          173,
+          1628,
+          1079,
+          1749
+        ],
+        "text": "9.1 DanslemodeleCH,lesindividusdeniveau1considerentquetousleursadversairessont deniveauO. 10.Pourune《grande》populationd'adversaires. 11.Pasuniquement danslecadreLevel-k."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8553350567817688,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7910293340682983,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848472476005554,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          617
+        ],
+        "text": "partypeenétudiantleurschoixdestrategiesdansdesseriesdejeux(Costa-Gomes et al., 2001; Costa-Gomes et Crawford, 2006) concluent que la proportion d'individus de niveau O est generalement faible ou nulle (voir également Gomes et Crawford. 2006;Crawford et al.,2013).D'autres tels qu'Ivanov et al.(2010),Agranov et al. (2013)ouencoreBurchardietPenczynski(2014)trouventuneproportionbienplus importantedesujetsnonstrategiques(deI'ordredutiersdeleuréchantillon). Les modeles Poisson-CH estimés par Camerer et al. (2004b) impliquent une proportion de joueurs deniveau O de l'ordre de 20 % et un niveaumoyen de joueurs compris generalemententre1,5et 2.Iln'estcependantpasclairsilaproportionestiméede niveau O dansle modelePoisson-CH est réelle ou issue des contraintesparametriques liéesal'utilisationdelaloidePoisson."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9830160737037659,
+        "bbox_xyxy": [
+          173,
+          938,
+          1079,
+          1750
+        ],
+        "text": "Les exigences en termes de processus cognitif des calculs sous-tendant l'équilibre deNashsemblentélevées,et de nombreuses deviations del'équilibre ont éte observées dans les jeux experimentaux. Un courant de recherche s'est donc concentré sur la possibilité de specifier des modeles de réaction initiale qui reposent sur des hypotheses moinsexigeantes quant alasophistication desjoueurs,tout enpermettant derepro- duire les régularités observées dans les jeux experimentaux. Le point commun de la plupart de ces modeles est que, a l'instar du modele de Nash, ils considerent les décisions individuelles comme rationnelles, c'est-a-dire comme constituant une meilleure reponse a la facon dont les agents envisagent les actions des autres joueurs. A la différence du modele de Nash,la facon dont ils envisagent les actions des autres joueurs repose sur un processus imparfait. Une partie de ces modeles considere que les autres joueurs donnent des meilleures reponses bruitées (QRE, NI). Une autre partie suppose que lesjoueurs posent des limites a la rationalité des autres (Level-k, CH) ou qu'il est difficile pour les agents de considerer la connaissance itérée de la rationalité des autres joueurs au dela d'une certaine limite (k-rationalisabilité). La pertinence empirique de ces différents modeles est encore une question ouverte. Si lemodeledeQuantalresponseequilibriumaconnuunsuccescertainpourexpliquer les deviations a lequilibre de Nash dans un grand nombre de situations, les hypotheses quilesous-tendentsemblenttresexigeantesentermesdecapacitécognitivedes agents, ce qui le rend moins attrayant en tant que modele de rationalité limitée. Plus récemment,lesmodelesLevel-ketdehierarchiecognitiveontmontreleurcapacité a expliquer un grand nombre de résultats empiriques, tout en relachant les hypotheses concernant la complexité des processus cognitifs des agents (Costa-Gomes et Crawford,2006;Costa-Gomeset al.,2009;Crawfordet al.,2013)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9746159315109253,
+        "bbox_xyxy": [
+          173,
+          635,
+          1079,
+          838
+        ],
+        "text": "Les applications empiriques des modeles Level-k et CH ont été nombreuses. Ces modeles ont permis d'expliquer un certain nombre de regularites empiriques de deviation al'équilibre.On peut en particulier citer Crawford et Iriberri (2007) et la 《 malédiction du vainqueur > dans les encheres, Costa-Gomes et al. (2009) pour les jeuxde coordination,Ostlinget al.(20i1)pourles choixdejoueurs dans uneloteriesuédoiseetAradetRubinstein(2012)pourlejeuditdu《11-20>."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8867201805114746,
+        "bbox_xyxy": [
+          176,
+          888,
+          477,
+          919
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8658067584037781,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8580782413482666,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9865707755088806,
+        "bbox_xyxy": [
+          173,
+          549,
+          1078,
+          921
+        ],
+        "text": "A lorigine, la théorie des jeux ne prenait pas position sur le processus d'équili- brationquidemeuraitdeslorsuneénigmefondamentale.Plusieursmecanismes etaientenvisages.Lesmodelesd'équilibregeneralpostulentqueIéquilibrationest issue de variations de prix implémentées par un commissaire walrasien (qui per- sonnalise un processus dynamique non spécifié). Un modele implicite d'équilibration en théorie des jeux suppose que les agents anticipent spontanement les équilibres de leurs jeux. Les modeles biologiques attribuent léquilibration a des processus de reproductiongenetique,demutationet deselectionnaturelle.Deslespremisses de la formalisation en théorie des jeux, Nash évoquait une interpretation de léquilibration entermesd'<actiondemasse>voisine,dansl'esprit,delaselectionnaturelleetqui rappelleégalement les considerationsmodernes ausujet del'évolution culturelle."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821820855140686,
+        "bbox_xyxy": [
+          172,
+          939,
+          1078,
+          1651
+        ],
+        "text": "Aucune de ces perspectives n'est enmesure d'apporter une description complete quantaladynamiqued'équilibrationdesétreshumainsdanslesenvironnements complexes. En particulier, les hommes apprennent plus rapidement que ce que les modelesbiologiquesneprédisent.Ce constat amotivélarecherchedenouvelles approches d'apprentissage. Historiquement, le premier pan de la litterature né des investigationssurcechampderecherchetraitaitdesproprietesdeconvergence théoriquesversle ouleséquilibres,s'ils existent,deprocessus dynamiques évolu- tionnaires ou adaptatifsl\". Cependant, plus récemment, d'autres approches ont émergeetanalysentI'adequationempiriquedesmodelesd'apprentissagesurdes donneesexperimentales.Leur objectif communest deretracer aussiprecisement que possible,pour chaque décision, comment cette derniere a éte prise surla base du comportement passé du sujet et de son expérience. En d'autres termes, ces approches ont pour but de determiner, parmi l'ensemble des modeles candidats a retranscrire la dynamique du comportement des joueurs, ceux qui y parviennent lemieux.L'étudedel'apprentissageentheoriedesjeuxdefinit differentstypesde procédures. L'apprentissage peut relever : (i) d'une adaptation au monde exterieur, ou alors (ii) d'une acquisition de connaissances, ou bien encore (ii) d'un melange de ces deuxpremieres approches.Dans le cas (i),I'apprentissage repose surI'appré- hension deregularités ou de convergences des normes de comportements alors que dans le cas (ii) les joueurs utilisent l'information acquise pour se former des croyancesauxquellesilsrepondentdefaconoptimale.Enserestreignantaux"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9813925623893738,
+        "bbox_xyxy": [
+          174,
+          247,
+          1079,
+          448
+        ],
+        "text": "Lesmodelespresentes dans cettesectionsepréoccupent desreactionsinitiales des agents, lorsqu'ils ne disposent pas d'informations autres que celles liées a la structure dela situation strategique a laquelleilsfontface.Dans la section suivante, nous presentons les modeles traitant des phenomenes d'apprentissage, c'est-a-dire le processus par lequel les agents utilisent l'histoire passée du jeu afin d'inférer le comportementdeleursadversaires."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.862304151058197,
+        "bbox_xyxy": [
+          169,
+          1696,
+          1054,
+          1748
+        ],
+        "text": "Levine(1998)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8487197756767273,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.839089035987854,
+        "bbox_xyxy": [
+          174,
+          501,
+          379,
+          530
+        ],
+        "text": "APPRENTISSAGE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7598505616188049,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1075,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5448542237281799,
+        "bbox_xyxy": [
+          174,
+          501,
+          380,
+          530
+        ],
+        "text": "APPRENTISSAGE"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9861518740653992,
+        "bbox_xyxy": [
+          172,
+          686,
+          1078,
+          988
+        ],
+        "text": "Confrontésnotammentacettelimitelorsqu'ilsvoulurentaleurtour analyser plusprécisementlaquestiondeladynamiqued'équilibrationdanslesjeux,les économistes ont cherché a construire alors des approches plus connectées aux préceptes dela théorie des jeux,mettant ainsi aupoint une deuxiemevague de modeles dits, d'< apprentissage par les croyances >. Cette approche est basée sur le principe quelesindividus retracentl'historique des choix passes des autres,se forment des croyances sur ce que les autres vont faire et ont ensuite tendance a choisir une meilleure réponse, une strategie qui maximise leurs paiements espérés étantdonnésleur systemede croyances."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9825254678726196,
+        "bbox_xyxy": [
+          172,
+          1007,
+          1079,
+          1751
+        ],
+        "text": "Enfin,une autre approche d'experience-weighted attraction (EWA),combine les particularités des deux précédentes familles de modeles d'apprentissage, en dépit d'ailleurs de leur apparente dissemblance, en rassemblant leurs meilleures caracteristiques dans une meme approche qui les incorpore comme cas particuliers. Les théories d'apprentissage par renforcement et par les croyances ont en effet été traiteescommefondamentalementdifferentesdepuislesannees5o.Ellesétaient generalementpercuescommedefinitivementinconciliablesetcen'estquerécem- ment, a la fin des années 90 et au debut des années 20o0, que les chercheurs ont commencé a se poser la question d'une perspective unifiée et se sont mis a travailler sur les connexions entrelesformes d'apprentissages concurrentes.Il aura donc fallu attendre pres d'un demi siecle pour que soit entreprise la mise en lumiere de I'heritage commun qui existait entre ces approches. Le fait que cette question n'ait pas soulevée plus tot l'attention est probablement du au fait que les modeles d'appren- tissage par renforcement ont été utilisés au depart par les psychologues alors que les modeles d'apprentissage par les croyances ont éte mis au point par les théoriciens desjeuxetdeladecision.Lerapprochementdecesdeuxdisciplinesalafin du 20eme siecle favorisant ainsi la découverte des liens étroits qui unissaient les deux familles demodeles.Deplus,ces deux approchesreposentsur desprincipes conceptuellement tres différents dans la mesure oules modeles d'apprentissage par renforcement ne refletentpas la maniere dont les autres jouent alors quelesmodeles d'apprentissageparles croyances nerefletent pasle succes passe (le renforcement) desstrategiesemployees."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824907183647156,
+        "bbox_xyxy": [
+          173,
+          366,
+          1078,
+          667
+        ],
+        "text": "Une premiere approche, < l'apprentissage par renforcement >, empruntée a la psychologie comportementale, repose sur I'hypothese que les individus tendent a choisir les actions que se sont montrees les plus payantes dans le passé.En d'autres termes, la propension d'un joueur a opter pour une action donnée repose sur son stock de renforcement dans la mesure ou les actions sont renforcees par les paiements passés qu'elles ont rapporté. Un postulat discutable de ces approches, et d'ailleurs debattuparla suite,est queseloncetteformed'apprentissage,lesjoueursne se preoccupent que de leurs gains passes sans s'interesser a l'historique des actions quiagenerécespaiements."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9594717621803284,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          346
+        ],
+        "text": "modeleslespluscourammentutilisespour analyserl'apprentissageenéconomie experimentale,nous présentons dans la suite trois familles de modeles quiillustrent respectivement chacune des trois approches mentionnées ci-dessus"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8767358064651489,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8521066904067993,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9874654412269592,
+        "bbox_xyxy": [
+          173,
+          622,
+          1078,
+          929
+        ],
+        "text": "L'apprentissage par renforcement est historiquement le premier chapitre que compte la littérature sur la formalisation de ce type de processus. Cette approche considerequelesindividustendentaactualiserleurschoixauregarddusucces que ceux-ci leur ont rapporté dans le passé. Les premieres pistes de formalisation sont notamment neesdestravauxdeBushet Mosteller(1955),poursuivisplustard par Cross(1973,1983)ouencoreHarley(1981)etRothetErev(1995).Dansles plusrécentesapproches,lesprobabilitesdechoisirchacunedecesactionssont dérivées d'un renforcement cumulatif des paiementsrecusprocuréspar ces actions (etparfoiségalementnormaliséscommedansArthur,1991)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9857906103134155,
+        "bbox_xyxy": [
+          173,
+          1407,
+          1079,
+          1750
+        ],
+        "text": "On denombre plusprécisement troisvagues deformalisation del'apprentissage par renforcement en theorie des jeuxet de la décision. La premiere vague historique, initiée notamment par Bush et Mosteller (1955) modelise des formes de renforcement basées sur des heuristiques simples et appliquées au champ de la décision dans un environnement parcimonieux. De plus amples developpements, toujours dans des cadres de décisions individuelles, furent analysés par Cross (1973, 1983) qui deploya entre autres ces approches dans un contexte de décision en économie. Il est a noter que ces travaux innovants n'ont pas déclenche d'émules pendant plusieurs années. jusqu'aux travaux de Mc A1lister (1991), Mookherjee et Sopher (1994, 1997), Roth et Erev (1995) et Sarin et Vahid (2001) parmi d'autres."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9853347539901733,
+        "bbox_xyxy": [
+          173,
+          946,
+          1079,
+          1392
+        ],
+        "text": "Les premiers modeles d'apprentissage par renforcement ont éte mis au point par les tenants de la psychologie comportementale dans les années 1920. Ce pan de la recherche en psychologie était alors émergeant et allait connaitre des déve- loppements tres importants, notamment jusque dans les années 1960. Lorsqu'ils s'interessaient aux processus cognitifs descriptifs du comportement des individus, les《behavioristes>seheurtaientalorsalavision《mentaliste>quinefournissait qu'une interpretation imprécise de ces processus et qui surtout ne reposait pas sur l'observation directe des choix.Reprouvant fortement cette vision,les beha- vioristes ont ainsi entrepris de bannir ces formulations vagues des systemes de cognitionpourseconcentrersurdesapprochessusceptiblesd'etredirectement observées dans leurs données. C'est ainsi q'ils prirent comme hypothese que les determinants du choix des agentsétaientbasés surlerenforcement deleur expé- riencepassee."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983219563961029,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          519
+        ],
+        "text": "Cependant, le point commun a tous les modeles d'apprentissage est qu'ils considerent que les joueurs sont extremement non-sophistiques, ne reagissant qu'a leur propre experience et voient le comportement de leurs opposants comme generé par un processus exogene de telle sorte qu'ils ne réalisent pas qu'ils peuvent l'influen- cer. De maniere équivalente, selon ces approches, les interactions strategiques ne jouent pas de role dans les jeux.Cette hypothese est évidemment en complete contradiction avecles fondations memes de la théorie des jeux et peut paraitre étrangepourbonnombredethéoriciensdesjeux."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8802785873413086,
+        "bbox_xyxy": [
+          173,
+          572,
+          578,
+          604
+        ],
+        "text": "2.TApprentissage"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8610345125198364,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7494828701019287,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985988438129425,
+        "bbox_xyxy": [
+          171,
+          1481,
+          1080,
+          1751
+        ],
+        "text": "L'étude de Roth et Erev (1995), certainement la plus citée en économie parmi celles qui mobilisent l'apprentissage par renforcement, déploie cette approche pour tenter d'expliquer les différences observees dans trois jeux archetypaux. Le jeu de l'ultimatum, le jeu de l'ultimatum avec concurrence parmi les proposants (jeu de marche) ainsi qu'une variante du jeu de biens publics (best-shot public good games). Dans tous ces jeux,les prédictions al'équilibre sont extremement inegales.Les observationsexperimentalesenrevanchetendent a montrerqueles comportements des sujets convergent vers des divisions tres inegales du surplus dans les jeux"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9849407076835632,
+        "bbox_xyxy": [
+          171,
+          245,
+          1080,
+          480
+        ],
+        "text": "Venons-en a présent a une description formelle des modeles d'apprentissage parrenforcement.Le《stock derenforcement>a unimpact sur l< attraction > associéea une action qui définit ensuite la probabilité aveclaquellel'agent choisit cette action. L'attraction initiale du joueur i pour l'action a E S est notéeA(O). S.representantl'espacedesactionsdujoueuri.Cetteattractioninitialepeutétre postuléeapriori oubienestiméesurlesdonnées.Lerenforcementsefaitselon deuxprincipesdetaillesformellementcommesuit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9835013747215271,
+        "bbox_xyxy": [
+          172,
+          1265,
+          1080,
+          1466
+        ],
+        "text": "Leparametre入mesurelasensibilitédesjoueursa leursattractions.Danscette fonction de probabilité, l'argument de l'exponentielle au numerateur est simplement l'effet pondéré del'attraction de l'action a,入A*(t),sur la probabilité de choisir cette meme action.Cette forme fonctionnelle a été utilisée dans l'étude de l'appren- tissage danslesjeuxpar Mookherjee etSopher(1994,1997),HoetWeigelt (1996) ouencoreFudenbergetLevine(1998)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9805132150650024,
+        "bbox_xyxy": [
+          172,
+          569,
+          1079,
+          736
+        ],
+        "text": "ou a,(t) représente laction choisie par le joueur i a la periode t et a_,(t) represente le profil d'action des opposants du joueur i a la periode t. π, (a, a_,(t) est le paiement du joueur ilorsqu'il choisit a alors que le profil d'actions de ses opposants est a_,(t). l'actionaalaperiodetetOsinon."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978066086769104,
+        "bbox_xyxy": [
+          172,
+          970,
+          1080,
+          1137
+        ],
+        "text": "Telquementionneplushaut,lesattractionsserventadeterminerlesprobabilités de choix d'actions des joueurs. La probabilite pour que le joueur i choisisse l'action a a la periode t + 1, notée P\"(t + 1), doit étre monotone croissante en A\"(t) et décrois- sante en A* (t) (ou a × a'). La forme principale utilisée dans la littérature est la formeditelogistique,donneepar:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9737018346786499,
+        "bbox_xyxy": [
+          172,
+          752,
+          1079,
+          886
+        ],
+        "text": "D'autres modeles de renforcement font I'hypothese que les paiements passés sont moyennes plutot que cumulés (Mc Allister, 1991; Mookherjee et Sopher,1994, 1997; Sarin et Vahid, 1999). Dans ce cas, le renforcement est actualisé de la maniere suivante："
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9499135613441467,
+        "bbox_xyxy": [
+          219,
+          1145,
+          511,
+          1253
+        ],
+        "text": "exp入A;(t) P(t+1)： ∑exp^A²(t) ZES,"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9395034313201904,
+        "bbox_xyxy": [
+          219,
+          902,
+          750,
+          957
+        ],
+        "text": "A\"(t)=Φ.A(t-1)+(1-Φ).1)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9393389821052551,
+        "bbox_xyxy": [
+          219,
+          500,
+          666,
+          556
+        ],
+        "text": "A²(t)=Φ.A(t-1)+1,"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9108287692070007,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.905714213848114,
+        "bbox_xyxy": [
+          175,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984386146068573,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          748
+        ],
+        "text": "d'ultimatums avec concurrence desproposants et danslesjeux debest-shot public good games, alors qu'ils convergent plus favorablement vers vers un partage a peu pres égalitaire dans les jeux d'ultimatum classiques.Roth et Erev cherchaient a reproduire ces régularités avec un modele d'apprentissage par renforcement. Ils montrent que le renforcement des paiements passés est en mesure d'approximer correctementladirectiondel'apprentissagedanslesjeuxd'ultimatumetdebest- shot mais apprehendait mal la vitesse d'apprentissage, trop peu reactive dans les modeles de renforcement. De plus, dans le jeu de l'ultimatum avec concurrence entre proposants, l'adequation du modele restait globalement tres peu satisfaisante. A la lumiere de ces résultats, deux pistes de recherche ont été explorées par la suite Une partie des travaux entrepris plus tard ont tente de trouver de nouvelles approches plusrobustesquinepresentaientpaslesfaiblessesempiriquesdesmodelesde renforcement.Uneautreconsistaitaprendreactedufaitquecemodelepuisseavoir parfois des defaillances et a circonscrire alors des environnements dans lesquels lerenforcementfournissaitunedescriptionadéquatedesdonnées."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841157793998718,
+        "bbox_xyxy": [
+          172,
+          764,
+          1079,
+          1432
+        ],
+        "text": "En résume, les modeles d'apprentissage par renforcement, au sein desquels seules les actions choisies sont effectivement renforcées, prédisent la direction de l'appren- tissaged'unemaniererelativementcorrecte.Cependantcesmodelessesontaveres trop lent pour rendre compte du rythme selon lequel les étres humains apprennent. Une limite des approches de renforcement est que, parce qu'elles postulent que les joueursnesepréoccupentquedeI'historiquedeleurspaiements,ellessupposent donc que les individus négligent beaucoup l'information qui peut leur étre fournie dans des environnements riches.Elles s'appliquent ainsi plutot a des environnements ou l'information est limitée, fréquemment soumise a des variations brusques ou a des environnements tres changeants. En somme, les faiblesses de ces approches pour ce qui est de décrire le processus d'apprentissage des agents peuvent étre imputees au fait que, dans des environnements riches en information, les sujets basent leurs choix sur un ensemble d'information plus large que ne le postulent les modeles d'appren- tissage par renforcement. Un moyen d'accelerer l'apprentissage dans ces approches est d'adopter des algorithmes plus sophistiques afin d'approximer de facon plus adéquate Iapprentissage humain en y incorporant une dimension d'exploration. Cette objectifpeutétreatteintsil'onconsiderequelesjoueursréevaluentleursattractions pour des actionsnon choisies auregarddespaiements qu'elles auraientpuleurprocurer ouencoreenrenforcantdes actions<similaires>a cellesqu'ils ont choisi.Lesmodeles detaillesparlasuiteétendentlanotiond'apprentissagedanscetteperspective."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9697919487953186,
+        "bbox_xyxy": [
+          174,
+          1534,
+          1078,
+          1667
+        ],
+        "text": "Dans un modele d'apprentissage par les croyances, les joueurs tendent a opter pour des strategies qui leur octroient un paiement espére important étant donné leurs conjectures, formées sur la base de l'observation du comportement passé de leursopposants."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9627571702003479,
+        "bbox_xyxy": [
+          174,
+          1683,
+          1078,
+          1749
+        ],
+        "text": "Historiquement, le premier modele de croyances remonte a Cournot (1838). Dans"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8625869154930115,
+        "bbox_xyxy": [
+          174,
+          1483,
+          701,
+          1516
+        ],
+        "text": ".2.Modeiesd'ann"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8513632416725159,
+        "bbox_xyxy": [
+          327,
+          181,
+          921,
+          205
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGOLIES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.77004075050354,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9864740371704102,
+        "bbox_xyxy": [
+          172,
+          470,
+          1079,
+          742
+        ],
+        "text": "Les premieres observations ont montré que, lorsque les croyances fictitious play convergent,elles convergent vers unéquilibre deNash.Parla suite,Shapley (1964) a montre que dans unjeu a somme nulle particulier avec trois strategies,leprocessus de fictitious play faisait des cycles autour des strategies sans converger vers l'unique équilibre en stratégies mixtes.Ceci nourriles espoirs devoir en la théorie dufictitious playunprocessusdeformationdecroyancesempiriquescapabledeconvergervers léquilibre deNash de maniere generale. Les recherches sur les dynamiques d'appren- tissageconnurentensuiteuncoupd'arret d'unequinzained'années."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9857721924781799,
+        "bbox_xyxy": [
+          172,
+          1155,
+          1079,
+          1498
+        ],
+        "text": "Lorsque l'accent fut porté de maniere plus importante sur les processus de formation de croyances, et que les approches candidates a décrire les croyances commencerentaabonder,laquestionseposadetrouveruncadresusceptible d'unifier les recherches et defournir desmodelesdescriptifs englobant.Sur ce point, une classe assez large de processus est incorporee dans I'approche de fictitious playpondérechezCheung et Friedman(1997).Ces auteurs definissent un modele qui admet comme cas particuliers, a la fois le modele fictitious play classique (ou touteslesobservationspassees sontponderées équitablement)et lemodele de Cournot.Plusprécisement,dansunjeuanjoueurs,lacroyancedujoueuri concer- nantlaproportiond'actionskquiserajouéeent+1estdonneepar"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9855925440788269,
+        "bbox_xyxy": [
+          172,
+          760,
+          1079,
+          1138
+        ],
+        "text": "Ce n'est que plus tard quele fictitious play fut depoussieréet reinterprete comme une théorie de l'apprentissage sur la base des comportements effectifs observes plutotqu'unprocessusdeformationdecroyancessurlabasedesimulationsmentales (Fudenberg et Kreps, 1993, 1995). L'une des réévaluations notables qu'ont fournies cesapprochesquiontpermisd'améliorerlepouvoirpredictifdufictitiousplayest l'introduction de lissage dans le comportement des individus par l'introduction de petits tremblements au sein du modele de smooth fictitious play. Par la suite, Brandts et Holt (1996) et Cooper et al. (1997) ont utilisé le fictitious play dans des jeux de signaux. Boylan et El-Gamal (1993), quant eux, ont comparé les processus de croyancesfictitiousplayet Cournot dansdesjeuxdecoordination et desjeux rationalisables;leursrésultatssupportentnettementl'approchefictitiousplay"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815838932991028,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          451
+        ],
+        "text": "periodepassée.Plus d'unsiecleplustard,les théories defictitiousplay ontétepro- posées parBrown (1951)et Robinson (1951).Cette approche suppose quelesjoueurs forment leurs croyancessurlabasedelafréquence des choixpassesobserves chez leurs opposants. A l'origine, le propos de ces modeles était de calculer des équilibres de Nash de maniere algorithmique,fournissant ainsi une forme de rationalisation sur leprocessuscognitifmenantal'equilibrationpartatonnementsuccessifs."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9226179122924805,
+        "bbox_xyxy": [
+          217,
+          1507,
+          579,
+          1670
+        ],
+        "text": "-l rk(t)+∑\"rk(t-u) B(t+1)= u=1 1+∑ t-1 u=1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8904627561569214,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8722862601280212,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7798914313316345,
+        "bbox_xyxy": [
+          172,
+          1700,
+          505,
+          1784
+        ],
+        "text": "ou rk(t)=- jzi"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984631359577179,
+        "bbox_xyxy": [
+          172,
+          1266,
+          1080,
+          1675
+        ],
+        "text": "Plutotqued'avoirrecoursadesinstrumentsempiriques(commelefictitious play ponderé) pour décrire le processus de formation de croyances des joueurs, plusieursétudesenéconomieexperimentalemesurentdirectementlescroyances dessujetsenutilisantdesreglesincitativespourinduirelesjoueursalesreporter demaniereveridique.Dansuneétudepionniere,McKelveyet Page(199O)élicitent les croyances pour tester l'agregation d'informations.Il convient également de noter que Camerer et al. (2002b) reportent une recherche de Camerer et Weigelt (1988) ou les auteurs utilisent des croyances élicitées pour tester les raffinements de prédictions concernant les conjectures hors-équilibres dans des jeux de signaux etd'investissement.CamereretKarjalainen(1994)trouventquelescroyances élicitées dans un jeu de coordination peuvent étre superadditives, reflétant une aversion pour l'ambiguité liée a 1'incertitude stratégique. Plus tard, Nyarko et"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983644962310791,
+        "bbox_xyxy": [
+          172,
+          1010,
+          1080,
+          1250
+        ],
+        "text": "Cheung et Friedman (1997) estiment leur modele sur données individuelles issues de quatre jeux (faucon-colombe, chasse au cerf, acheteur-vendeur et bataille dessexes).Hlstrouventuneheterogeneitesubstantielleentrelessujetsmaisegalement unestabilitédesestimationsparametriquesentreles differentsjeux.Leparametre médian est compris entre 0,25 et 0,50 selon les jeux, donc plutot dans la région descomportementsdetypeCournotquefictitiousplay(estimationsplusproches deOquede1)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9800314903259277,
+        "bbox_xyxy": [
+          172,
+          487,
+          1080,
+          691
+        ],
+        "text": "L'action choisie a une période donnée est escomptée au taux E O,13. Lorsque Y = O, ce modele se réduit au modele de Cournot, ou la croyance actualisée a la date t sur laction a vaut 1 si l'action a été choisie a la période t-1 et 0 sinon. A l'inverse, lorsque = 1, ce modele se réduit a du fictitious play, ou la croyance concernantune actiondonnéecorrespondalafréquenceaveclaquellecetteaction aétejouéedepuislapremiereperiode."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9651040434837341,
+        "bbox_xyxy": [
+          172,
+          927,
+          1079,
+          994
+        ],
+        "text": "Commeprécédemment,les attractionssontensuiteintroduitesdansunefonction logistiquepourdeterminerlesattractionsdujoueuridansl'espritdeléquation"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9546945691108704,
+        "bbox_xyxy": [
+          171,
+          247,
+          1079,
+          309
+        ],
+        "text": "Notons que dans le jeu a deux joueurs que nous analyserons dans la suite, peut seréécrire"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9463889598846436,
+        "bbox_xyxy": [
+          219,
+          310,
+          689,
+          475
+        ],
+        "text": "ZY\" (a;(t-u)=k) B(t+1)= ii +"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9350435137748718,
+        "bbox_xyxy": [
+          220,
+          752,
+          518,
+          904
+        ],
+        "text": "A;(t)= > B(t)π;(a,z). = jzi"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9185753464698792,
+        "bbox_xyxy": [
+          212,
+          708,
+          1078,
+          742
+        ],
+        "text": "AinslT'attractionol"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8951537013053894,
+        "bbox_xyxy": [
+          214,
+          1722,
+          1077,
+          1749
+        ],
+        "text": "13"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8933904767036438,
+        "bbox_xyxy": [
+          325,
+          179,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8624151945114136,
+        "bbox_xyxy": [
+          1034,
+          179,
+          1076,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9856821894645691,
+        "bbox_xyxy": [
+          172,
+          1193,
+          1078,
+          1598
+        ],
+        "text": "Plusieurs études ont tenté de faire la synthese des approches d'apprentissage parrenforcementetparlescroyances.Ils'averenotamment quedanslesjeux a équilibres enstrategiesmixtes,lesmodeles derenforcementpermettentgeneralement unemeilleure adequationquelesmodelesd'apprentissageparlescroyances(Erev et Roth, 1998; Mookherjee et Sopher, 1994). Cependant la gamme d'environnements ausein duquellasuperioritédu renforcementsemble avererestecirsconscrite a ce type de jeux. En effet, dans le jeu de coordination analyse par Ho et Weigelt (1996) et Battalio et al. (2001) par exemple, l'apprentissage par les croyances fournit une meilleure description des comportements.Par ailleurs, certaines études qui estiment lescontributionsrelativesdesdifferentsmodeles(ErevetRoth,1998;Battalioet al., 2oo1) trouvent quela composante croyances est a peu pres dixfois plus impor- tantequelacomposanterenforcement."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9847635626792908,
+        "bbox_xyxy": [
+          172,
+          601,
+          1079,
+          1176
+        ],
+        "text": "Parce que les croyances sont mesurées directement, il est possible d'estimer le parametre de fictitious play ponderé qui fournit la meilleure adéquation aux croyances reportées par les sujets. Les croyances déclarées peuvent ainsi étre substitueesaB(t)dansI'équation.LesrésultatsdeNyarkoetSchotter(2002) montrentquelefictitiousplayestenrealiteunemauvaiseapproximationdescroyances déclarées dans leurs jeux.En effet,les croyances peuvent entre autres étre construites sur davantaged'informationsquenelepostulelemodeledefictitiousplayet peuvent par voie de conséquences etre plus sophistiquees que ne le laisse penser cette approche. Les sujets sont notamment susceptibles d'anticiper le processus d'apprentissage de leurs opposants. Cette derniere critique va notamment étre la pierre angulaire de l'argument qui sera developpé dans la section 2.4. De plus, 1'utilisation de croyances révelées permet de calculer les probabilités de choix des agents sur la base des paiements espérés 《 réels >. Ce faisant, Nyarko et Schotter (2002) montrent que le modele d'apprentissage parles croyances,avec croyances revelées, supplante toutes les autres approches usuelles utilisees dans l'éventail des modeles statistiques d'appren- tissage. Ce dernier modeleservira donc naturellement de base a la réévaluation des modeles d'apprentissage qui sera proposée dans la suite de ce papier."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9831048846244812,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          584
+        ],
+        "text": "Schotter (2002)utilisent les croyances revélées pour repondre a une question évidente et qui restait pourtant en suspens :quel est le modele de formation de conjectures qui decritlemieuxlescroyancesveritablesdesagents?Pourrepondrea cettequestion les auteurs utilisent unjeu 2 x 2 avec un unique équilibre deNash en strategies mixtes. Les sujetsjouent soixanterepetitions de ce jeu et quatre differentes conditions qui croisentappariementfixeversusaléatoireavecousansrevelationdecroyancessont implantees.Toutcommed'autresétudesexperimentalesconduisantdesjeuxavec un unique équilibre deNash en strategies mixtes, les fréquences effectives d'actions jouées autravers dessoixanterepetitionssesituent entrela parfaiterepartition aleatoire etlesprobabilitésinduitesparl'équilibreenstrategiesmixtes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9789955019950867,
+        "bbox_xyxy": [
+          173,
+          1615,
+          1079,
+          1750
+        ],
+        "text": "Ceci étant, il n'en reste pas moins delicat de tirer des conclusions définitives quant aux avantages comparatifs de l'une ou l'autre des approches. D'une part, parcequelesgammesdejeuxtestesdifferent etdemaniereplusimportanteparce quelesdetailsdelaspécificationetdel'implantationdesmodelesdivergent"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.876801609992981,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8546817898750305,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "stem": "page_0023",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845868349075317,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          747
+        ],
+        "text": "galement.Augredesrecherchesmenees,certainsparametresdesmodelesd'appren- tissage par renforcement sont par exemple tantot ajoutés, tantot supprimés et la manieredontlesattractionssontrenforceesestelleaussifluctuante.Lesmodeles decroyancessonteuxaussisujetsacertainesvariationsd'uneétudeal'autre.La definitiondescroyancesinitialesouencorecelledesattractionspeutétreappreciée différemment selon les analyses.Dela meme facon,ces études retiennent certaines fois le modele de Cournot comme approximation, d'autres le fictitious play, dans saversiondebaseoudanssaversionponderée.Parailleurs,lestestsstatistiques utilises peuvent également varier. La solution naturelle a ce manque d'homogeneité est d'utiliser uneplus grandevarietédejeux et de statistiquesetd'avoir recours a desmodelesplusgenerauxenglobantleplusgrandnombrepossibledemodeles developpésprécédemment comme casspécifiques.Il serait ainsi possibled'évaluer formellement au sein d'une meme approche l'étendue de tel ou tel type d'appren- tissage dans le comportement des joueurs. C'est précisément la solution retenue parCamereretHo(1999)dansl'approchedetailléedanslaprochainesection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9730125665664673,
+        "bbox_xyxy": [
+          173,
+          1029,
+          1078,
+          1196
+        ],
+        "text": "Les variables N(t)et A;(t)sont initialisées a N(O)et A*(O).Ces valeurs initiales peuvent étre vues comme refletant l'experience que I'individu a accumulé avant meme que le jeu ne commence, par transferts d'apprentissage depuis des situations similairesexperimentées auparavant.Cesvaleurspeuventégalementétreinterpretees comme les résultantes de raisonnements introspectifs au moment d'aborder le jeu."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9727436900138855,
+        "bbox_xyxy": [
+          173,
+          846,
+          1079,
+          1013
+        ],
+        "text": "Le modele modele d'experience-weighted attraction(EWA) de Camerer et Ho (1999) repose sur deux variables qui sont actualisees a chaque periode. La premiere, notéeN(t),s'interprete commele<stock d'experience>accumuléparl'agent.La seconde variable importante est A, (t), l'attraction du joueur i pour l'action a apres quelaperiodetaiteulieu."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9287456274032593,
+        "bbox_xyxy": [
+          218,
+          1649,
+          915,
+          1745
+        ],
+        "text": "Ag(t)= N(t)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8674394488334656,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8179299831390381,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8162190318107605,
+        "bbox_xyxy": [
+          173,
+          1212,
+          1079,
+          1640
+        ],
+        "text": "L'actualisation dans le modele EWA est gouverne par deux regles. La premiere actualiseleniveaud'attraction.Cetteregled'actualisationprend encomptesoit le paiement qu'une action donnée a pu rapporter, soit le paiement que cette action aurait pu rapporter au joueur. Ainsi le modele EWA tient compte, non seulement des paiements factuels, mais également des paiements potentiels. Plus precisement, ce modele pondere les paiements hypothetiques que les actions non choisies auraient rapporteparunparametre8etponderelespaiements effectivementrecusdel'action choisie a;(t) par 1 - 8. Le nouveau paiement pondéré peut alors s'écrire 8+(1-8).1 .; (a,a_;(t) . La regle d'actualisation des attractions donne a,(t)=a A\"(t)comme la somme de l'attraction précédente A(t-1) dépréciée,plus le paiement pondere a la periode t, normaliseeparle stock d'experience actualiseN(t). Cequi conduitalaformulesuivante:"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7452644109725952,
+        "bbox_xyxy": [
+          173,
+          796,
+          1075,
+          830
+        ],
+        "text": ")3Modeiehvhrde d'Exnerience"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4695184826850891,
+        "bbox_xyxy": [
+          172,
+          1540,
+          1077,
+          1639
+        ],
+        "text": "A\"(t)comme la somme de 1'attractionprécédente A(t-1) depréciée,plus le paiement ponderea la periode t, normaliseeparle stock d'experience actualiseN(t) Cequiconduitalaformulesuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.40454375743865967,
+        "bbox_xyxy": [
+          172,
+          1212,
+          1079,
+          1547
+        ],
+        "text": "L'actualisation dans le modele EWA est gouverne par deux regles. La premiere actualiseleniveaud'attraction.Cetteregled'actualisationprendencomptesoit le paiementqu'une action donnee a pu rapporter, soit lepaiement quecette action aurait pu rapporter au joueur. Ainsi le modele EWA tient compte, non seulement des paiements factuels,mais également des paiements potentiels.Plus precisement, ce modele pondere les paiements hypothetiques que les actions non choisies auraient rapportepar unparametre8etponderelespaiements effectivementrecusdel'action choisie a;(t) par 1 - 8. Le nouveau paiement pondéré peut alors s'écrire 8+(1-8).1 .π, (a,a_;(t)) . La regle d'actualisation des attractions donne (a;(t)=a"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3136281967163086,
+        "bbox_xyxy": [
+          173,
+          796,
+          1075,
+          830
+        ],
+        "text": ")3Modeiehvhrde d'Exnerience"
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "stem": "page_0024",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845853447914124,
+        "bbox_xyxy": [
+          172,
+          245,
+          1080,
+          480
+        ],
+        "text": "Le taux de dépréciation Φ représente une combinaison d'oubli et de réévaluation delamaniereaveclaquellelecomportementdesautresjoueursestprisencompte de sorte que les observations passees deviennent obsoletes et doivent étreignorées. Lorsque Φ est relativement petit,les joueurs deprécient les observations anciennes plusrapidementetreagissentdavantageauxobservationslesplusrécentes.Au final,lesattractionsdumodeleEWAsonticidesmoyennespondereesdesattractions passeesetdespaiementsfactuelsoudespaiementshypothetiques."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834174513816833,
+        "bbox_xyxy": [
+          172,
+          580,
+          1080,
+          813
+        ],
+        "text": "Le parametre k détermine le taux de croissance des attractions qui reflete la vitesse avec laquelle les joueurs convergent vers une strategie. Lorsque K = O, les attractions sont des moyennes ponderées des attractions et des paiements passes (avec les poids respectifs Φ.N(t-1)/[Φ.N(t -1)+1] et 1/[Φ.N(t -1)+1]), de telle maniere que la valeur des attractions ne peut depasser les limites des paiements du jeu.LorsqueK=1,les attractions se cumulent etpeuvent alors depasser les paiementsdujeu."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795133471488953,
+        "bbox_xyxy": [
+          172,
+          1029,
+          1079,
+          1162
+        ],
+        "text": "Selonlesdifférentesrestrictionsdeparametres,lemodeleEWAseréduit au modele d'apprentissage par renforcement ou au modele de fictitious play pondéré. Quand 8 = 0,K = 1 et pour N(o) = 1 (ou de maniere équivalente pour N(t) = 1, les attractionssontactualiséespar"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9760715961456299,
+        "bbox_xyxy": [
+          171,
+          827,
+          1080,
+          1014
+        ],
+        "text": "Le terme de paiements pondérés 8+ (1-8).1 .T;(a,a_i(t))revetune (a;(t)=a) importance cruciale dans le modeleEWA.Les attractions de<toutes>les actions nonchoisiessont actualiseesparfoislepaiementquel'action《aurait>rapporté si elle avait été effectivement choisie.L'action choisie a,(t) est actualisée par une fractionadditionnelle1-Sdespaiementsqu'elleaeffectivementrapporté."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9750469923019409,
+        "bbox_xyxy": [
+          172,
+          1230,
+          1079,
+          1329
+        ],
+        "text": "quiestenfaituneversiondumodelederenforcementcumulatif.LorsqueKvaut O au lieu de1,les attractions sont des moyennes pondérées par Φ / (Φ + 1) et 1 / (Φ + 1), plutot que des valeurs cumulées."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9724564552307129,
+        "bbox_xyxy": [
+          173,
+          1474,
+          1079,
+          1574
+        ],
+        "text": "On peut montrer (Camerer et Ho, 1999i4) que cette équation est équivalente a cellequigouvernel'actualisation dufictitiousplayponderé.Ainsi,lemodele de fictitiousplayponderéestuncasparticulierdumodeleEWAdanslequelles"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9431792497634888,
+        "bbox_xyxy": [
+          219,
+          1387,
+          689,
+          1465
+        ],
+        "text": "Φ.N(t-1).A(t-1)+π;(a,a_(t)) A：(t)= Φ.N(t-1)+1"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9416327476501465,
+        "bbox_xyxy": [
+          219,
+          1166,
+          668,
+          1221
+        ],
+        "text": "A²(t)=Φ.A(t-1)+1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9340000152587891,
+        "bbox_xyxy": [
+          172,
+          1620,
+          1079,
+          1749
+        ],
+        "text": "14.Brievement,l'astuceconsisted'abord aécrirelescroyancesalaperiodetcommeunefonction des croyances a la periode t -1. Lorsque ces croyances sont utilisées pour calculer les paiements esperés etquelespaiementsesperesalaperiodetsontécritescommeunefonctiondespaiementsesperesala periodet-1,letermedecroyancedisparait.Ainsi,1'impact algebriquedel'actualisationdescroyances est comprisdanslerenforcementdesactionseffectivesouhypothetiques,commedansl'equation(4)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9275481104850769,
+        "bbox_xyxy": [
+          211,
+          1346,
+          819,
+          1379
+        ],
+        "text": "a1sation Ldevieni"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9088289141654968,
+        "bbox_xyxy": [
+          479,
+          180,
+          769,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9003791809082031,
+        "bbox_xyxy": [
+          211,
+          496,
+          1068,
+          530
+        ],
+        "text": "Ladelxieme Lsiuivabte"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8989039659500122,
+        "bbox_xyxy": [
+          175,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.5339224934577942,
+        "bbox_xyxy": [
+          213,
+          538,
+          583,
+          572
+        ],
+        "text": "（1一k八（一1）+1f"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4627058506011963,
+        "bbox_xyxy": [
+          213,
+          538,
+          583,
+          572
+        ],
+        "text": "（1一k八（一1）+1f"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4055476188659668,
+        "bbox_xyxy": [
+          172,
+          1620,
+          1079,
+          1749
+        ],
+        "text": "14.Brievement,l'astuceconsisted'abord aécrirelescroyancesalaperiodetcommeunefonction des croyances a la periode t -1. Lorsque ces croyances sont utilisées pour calculer les paiements esperés etquelespaiementsesperesalaperiodetsontécritescommeunefonctiondespaiementsesperesala periodet-1,letermedecroyancedisparait.Ainsi,1'impact algebriquedel'actualisationdescroyances est comprisdanslerenforcementdesactionseffectivesouhypothetiques,commedansl'equation(4)."
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "stem": "page_0025",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9842914342880249,
+        "bbox_xyxy": [
+          172,
+          615,
+          1078,
+          1184
+        ],
+        "text": "La non-linéarité entre les trois parametres du modeleEWA constitue sa force par rapport aux modeles d'apprentissage par renforcement ou par les croyances pris séparément, ou meme par rapport a une combinaison de ces deux derniers modeles.Eneffet,danslemodeleEWA,lesapprentissagesparrenforcement et parlescroyancesdifferentselontroisdimensions:lepoidsdesattractionsinitiales N(O), le poids des paiements hypothetiques dans l'actualisation des attractions (parametre S)et le fait que les attractions puissent ou non depasser leslimites des paiements possibles (parametre k). Le modele EWA n'est donc pas une simple combinaison des modeles d'apprentissage par renforcement et par les croyances puisque ces trois dimensions sont controlées separément. Ainsi,1'estimation du modeleEWAestpotentiellementsuperieurealaconduitederegressionsdeschoix individuels sur une combinaison ponderée des modeles de renforcement et croyances. Par exemple, une combinaison convexe selon laquelle les paiements esperés auraient un poids 8 et les renforcements auraient un poids 1 - 8 actualiserait les attractions a la maniere du modele EWA mais sans permettre de prendre en compte une large plagedevaleurspossiblespourlesattractionsinitialesainsiquepourlesfacteurs d'escomptedel'expérienceetdecroissancequ'incorporeenplusl'approcheEWA15"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9809891581535339,
+        "bbox_xyxy": [
+          173,
+          364,
+          1078,
+          598
+        ],
+        "text": "LaspecificationdumodeleEWAfaitapparaitrel'étroiterelationquiexiste entredeuxfamillesdemodeles,historiquementconsiderees commefondamenta- lement disjointes (Selten, 1991). Certains auteurs ont modifié les modeles de renforcementpouryinclureune composante contrefactuelleparlespaiements hypothetiques(McAllister,1991)oulespaiementshypothetiqueslesplusélevés (Roth et Erev, 1995) mais sans relever toutefois que ces élaborations effectuent la jonction entre les modeles d'apprentissage par renforcement et par les croyances."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806987643241882,
+        "bbox_xyxy": [
+          173,
+          1202,
+          1078,
+          1401
+        ],
+        "text": "Cependant, le parametre le plus important du modele EWA reste le parametre 8 qui fait le lien entre les approches de renforcement et croyances. Plus précisement, celui-ci mesurelepoidsrelatif quelesindividus accordentauxpaiementshypothé- tiques par rapport aux paiements effectifs dans l'actualisation des attractions. En d'autres termes, il capture les deux lois typiques de l'apprentissage que I'on qualifie de《loi desconséquenceseffectives>et《loi des conséquencessimulées》."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795556664466858,
+        "bbox_xyxy": [
+          173,
+          1419,
+          1079,
+          1649
+        ],
+        "text": "Plusieurs décennies d'experiences sur I'apprentissage conduites sur des animaux montrent que les actions qui ont le plus rapporté par le passesont plus frequemment choisies.Lespsychologuescomportementalistesappellecelala<loides consequences>(Thorndike,1911;Herrnstein,1970).Sionseresituedanslecadre du modele EWA, ceci correspond a la loi des conséquences effective. Il se trouve en fait que pendant plusieurs années, les comportementalistes estimaient que seules les récompenses pour les choix effectifs produisaient des conséquences sur le"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.959995448589325,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          346
+        ],
+        "text": "attractionsinitialessontbaseessurlespaiementsesperes,lesactionssont actualisees demaniereéquivalenteselon qu'ellessonthypothetiques ou effectiveset les attractionspasseessontpondereesaveclesrenforcementscourants"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8695358633995056,
+        "bbox_xyxy": [
+          171,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "15. CamereretHo(1998)montrentquelemodeleEWApermetunemeilleureadequationa donneesdejeuxdecoordinationqu'unecombinaisonconvexedesmodelesrenforcement-croyance"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8454416394233704,
+        "bbox_xyxy": [
+          327,
+          181,
+          921,
+          205
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGOLIES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7616450190544128,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1075,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "stem": "page_0026",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9847250580787659,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          740
+        ],
+        "text": "comportement et negligeaient en fait les constructions mentalistes, comme l'imagination, qui permettent aux agents de tenir compte des récompenses hypothetiques dans le processus de choix de nouvelles actions. Cette frontiere s'estompa cependant lorsque plusieurs series d'experiences mirent en évidence la pertinence des constructions cognitives dans le comportement des individus. Un concept supplémentaire est ici introduit, la loi des conséquences simulées, qui énonce queles actionsnonchoisies qui auraientpu produiredes paiementséleves-les succes simulés - sont ensuite choisies avec une plus grande probabilité. Ce nouvel aspect fournit unevisionplus concretedecequel'onentendengenerallorsquel'onparle d'apprentissage.Par exemple,lorsquel'on évoquel'apprentissage pour des machines, et meme parfois dans le cadre d'apprentissage humain, il est courant de supposer que la dynamique d'apprentissage est guidée, non pas par un processus de renforcement, mais par un processus de réduction des erreurs. Or, puisque les erreurs se mesurent commeladifférenceentrecequiaétéobtenu etcequi auraitpuétreobtenu,elles prennentbien en considerationa lafoislespaiements actuels et hypothetiques."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9842196106910706,
+        "bbox_xyxy": [
+          173,
+          997,
+          1078,
+          1458
+        ],
+        "text": "Ce modele a été utilisé pour expliquer et prédire les choix des individus dans une large gamme de jeux :des jeux de coordination (Camerer et Ho,1999) aux jeux a stratégies mixtes (Camerer et Ho,1999),en passant par les concours de beauté (Camerer et Ho,1999),les jeux de signaux (Anderson et Camerer,2000) ou encore les jeux du Centipede (Ho et al.,20o8)parmi d'autres.Les valeurs de 8 tendent, de maniere robuste, a se situer entre O,5 et 1 dans la plupart des études, al'exceptiondecellesbaséessurdesjeuxnepossédantquedeséquilibresen strategies mixtes, pour lesquels & est proche de O. Ceci confirme que, cette derniere classe de jeux mise a part, l'approche par les croyances est plus pertinente que le simple renforcement pavlovien. Les valeurs de Φ se situe quant a elles autour de 0,9, ce qui signifie que selon les postulats du modele EWA,il existe une inertie relativement forte concernant les attractions passees. Enfin, les valeurs de K sont generalement assezfaiblesetleplussouventprochesdeO,indiquantqueles attractionscroissentaunfaibletaux."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822474122047424,
+        "bbox_xyxy": [
+          173,
+          753,
+          1078,
+          983
+        ],
+        "text": "Séparer les effets empiriques de la loi des conséquences effectives et de la loi desconséquences simuléesrepresentela clépour distinguer differentsmodeles d'apprentissage.Dansle modeleEWA,laforcerelative deces deuxeffets est donc calibree par le parametre 8. Le renforcement pur implique que seuls les conséquences effectives comptent (8 = O), alors que les modeles de croyances font implicitement I'hypothese queles conséquences effectives et simulées ontla memeforce (8= 1). LemodeledeEWAplacelecurseurentrecesdeuxextremes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9705223441123962,
+        "bbox_xyxy": [
+          174,
+          1473,
+          1077,
+          1570
+        ],
+        "text": "Deux principales critiques ont été émises par les chercheurs a légard du modele EWA.Premierement,cemodele a plusieursparametres aestimeretil convient alors desedemandersil'adéquationdumodeleauxdonnéesn'estpassurevaluée."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8805909752845764,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.856826901435852,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8126760721206665,
+        "bbox_xyxy": [
+          173,
+          1585,
+          1078,
+          1749
+        ],
+        "text": "Une seconde critique a laquelle s'est heurtée l'approche EWA est que les valeurs des parametres étaient susceptibles de varier d'un jeu a l'autre (bien que ceci soit valable pour tous les modeles d'apprentissage, voir Cheung et Friedman, 1997 ou Erev et Roth, 1998). Ce qui veut dire que fournir des prédictions sur des jeux differents nécessiterait de considerer une fonction des jeux vers les valeurs de parametres."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6679375171661377,
+        "bbox_xyxy": [
+          174,
+          1585,
+          1079,
+          1749
+        ],
+        "text": "Une seconde critique a laquelle s'est heurtée l'approche EWA est que les valeurs des parametres étaient susceptibles de varier d'un jeu a l'autre (bien que ceci soit valable pour tous les modeles d'apprentissage, voir Cheung et Friedman, 1997 ou Erev et Roth, 1998). Ce qui veut dire que fournir des prédictions sur des jeux differents nécessiterait de considerer une fonction des jeux vers les valeurs de parametres."
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "stem": "page_0027",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.986242949962616,
+        "bbox_xyxy": [
+          173,
+          1276,
+          1079,
+          1751
+        ],
+        "text": "En particulier, les joueurs sophistiqués peuvent étre conscients que leurs opposants apprennent et peuvent utiliser cette connaissance duprocessus d'appren- tissage des autres pour en tirer profit et influencer le comportement de leurs opposants par leurs actions. La profondeur de raisonnement des joueurs sophistiqués peut ainsi leur permettre d'anticiper le comportement de leurs opposants et peuvent typiquement choisir des actions sous optimales a court terme, mais qui sont sus- ceptibles d'influencer leurs opposants et de conduire a des paiements plus importants dans le long terme. A 1'instar de Camerer et al. (2002a), nous parlerons pour la suite de 《 manipulation stratégique > pour désigner l'utilisation de ces stratégies de jeu repete a l'encontre d'agents adaptatifs, ajustant leur comportement de maniere passive et myope en réponse a l'histoire du jeu. Cette manipulation stratégique s'apparente en réalité a un apprentissage d'ordre superieur, de l'apprentissage sur l'apprentissagedesopposantsouencoreuneapprehensionplusoumoinscorrecte de la maniere avec laquelle les autres apprennent dans leurs jeux."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9843851327896118,
+        "bbox_xyxy": [
+          172,
+          652,
+          1078,
+          1260
+        ],
+        "text": "Unecaracteristique commune a toutesles approches developpees ci-dessus est qu'elle considere les joueurs comme totalement adaptatifs, ne réalisant pas que leurs actions courantes sont en mesure d'influencer leurs opposants dans le futur. Ces joueurs présument en fait que le comportement de leurs opposants est generé par un processus exogene. En d'autres termes, selon ces approches, les joueurs negligent les interactions strategiques dans leurs jeux. Bien évidemment, ce postulat est,onlecomprendaisement,susceptibledesonnerfauxal'oreilledebonnombre de théoriciens desjeuxet il estnaturel d'examiner lavaliditédecettehypothese a prioriforte.1lestcertain quelesmodelesd'apprentissage sesont montrésefficaces pour décrire les comportements dans une classe de jeux tres large et tres diversifiée. ce qui souligne sans aucun doute la valeur ajoutée de ces approches dans l'étude du comportement des joueurs. Cependant, des questions restent en suspens. Est-ce que des approches plus en lien avec les fondements de la théorie des jeux sont possibles et si oui, serait-elles en mesure d'apporter un supplément d'information dansladescriptiondu comportementdesjoueurs?Demaniereéquivalente,on pourrait étre tenté d'étendre le champ de l'apprentissage en introduisant de la sophisticationdansleraisonnementdesjoueursetvoirsicelaaidearendrecompte desdonneesavecuneplusgrandeacuite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.981640636920929,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          549
+        ],
+        "text": "Pour pallier a ces deux limites, Ho et al. (2007) ont développe une variante du modeleEWA,leEWAauto-ajuste.Cefaisant,ilsessaientdecréerunethéorie adéquateavecseulementunparametrelibre:lasensibilitédesjoueursaleurs attractions (qui peut d'ailleurs étre abandonné au profit d'un processus de meilleure reponse deterministe sil'objectif est simplement de maximiserle hitrate, c'est-a- direlafréquence aveclaquellel'actionpréditeestchoisieparlejoueur).Plus precisement, dans cette nouvelle approche,les auteurs remplacent certains parametres du modele EWA par des formes fonctionnelles ou des valeurs plausibles, de telle sorte que cesparametres n'ont plusbesoin d'etre estimes."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8547705411911011,
+        "bbox_xyxy": [
+          327,
+          181,
+          921,
+          206
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGIOUES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.791505753993988,
+        "bbox_xyxy": [
+          174,
+          601,
+          963,
+          633
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7689831256866455,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "stem": "page_0028",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850897789001465,
+        "bbox_xyxy": [
+          173,
+          1019,
+          1079,
+          1422
+        ],
+        "text": "Il existe une grande quantité d'applications importantes du concept de mani- pulation stratégique. Dans le champ de l'économie du travail, il est bien établi qu'unepousseed'inflationnonanticipeepeutfairebaisserleniveaudel'emploi (c'est ce qu'implique la courbe de Philips). Ainsi,des décideurs possédant une optique de long terme, comme par exemple les dirigeants de la Banque centrale européenne ou de dela Réserveféderale americaine,souhaiteront donner confiance aux agents enmaintenant le niveau d'inflationbaspendant unecertain temps,ce quipermetdecertifierleurcapacitearesisterauxtentationsinflationnistes. Autrementdit,ledecideurauneincitationamanipulerlesagentsenleurlaissant entendrequeleniveaud'inflationresterafaibledanslefutur.Cetteidéeaéteutilisée pourexpliquerlepassaged'untauxd'inflationadeuxchiffresdanslesannées70 auxEtats-Unis a une chute de l'inflation dansles années ulterieurs a 198516"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.984394371509552,
+        "bbox_xyxy": [
+          173,
+          668,
+          1078,
+          1002
+        ],
+        "text": "D'autre part, dans le processus de manipulation strategique, il est important de comprendre la maniere avec laquelle un rival apprend de facon a éviter de trop manipuler oupassuffisamment.Prenonslecasd'unfournisseurquitentede rassurerunnouveauclientsursabonnevolonteenoffrantdesbienssupplementaires, des garanties a moindre prix, etc. Certains clients apprendront facilement que le fournisseur estfiable,desortequerépeterles concessions oulesextras estenfait une perte de revenus (le fournisseur manipule de maniere excessive). D'autres clients, plus mefiants, accorderons plus difficilement leur confiance et le fournisseur aurabesoindemultiplierlesgestescommerciaux avantquela relationdeconfiance nes'installedemanieredurable."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822016358375549,
+        "bbox_xyxy": [
+          173,
+          1440,
+          1080,
+          1674
+        ],
+        "text": "Un autre exemple concernele determination du prix d'un bien sur des marchés tres volatils tels queles ordinateurs,les télephones intelligents ou autres produits de nouvelle technologie.Sur ces marches,les consommateurs sont susceptibles de reporter leurs consommations s'ils anticipentquelesprixvontbaisser rapidement.Desque les firmes preferent vendre leur bien plus tot que plus tard, elles ont alors une incitation a manipuler les consommateurs en leur faisant croire que les prix resteront élevés pendant un certains temps, de telle sorte qu'ils acheteront le produit sans attendre."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9659132361412048,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          650
+        ],
+        "text": "Au-dela del'intuition raisonnable qui amene a penser queles individus sont capables de manipuler les autres dans des environnements strategiques,les strategies sophistiqueessontenmesurederationaliseruncertainsnombredesituations.En réalité, la manipulation stratégique se rencontre depuis toujours et dans un grand nombrededomainesdel'economie.Parexemple,lesanalystesdeWallStreet tendent a faire baisser le cours des actions des compagnies qui rapportent des rendementsdecevantsendecadecequ'ilsattendaient.Lesgestionnairesontalors desincitationsamanipulerles anticipationssurlesrendementsautant qu'ilsle peuvent. Hls ont donc interet a manipuler a la baisse les anticipations sur les ren- dements(enutilisantparexempledesmethodescomptablespour dissimulerune partdesrendementspotentiels)demaniereacequedesrendementsplusélevés queceuxattenduscreentunesurprisepositivepourlesanalystes."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.905571460723877,
+        "bbox_xyxy": [
+          214,
+          1721,
+          459,
+          1749
+        ],
+        "text": "16. VoirSargent (1999)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8733692169189453,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8503629565238953,
+        "bbox_xyxy": [
+          176,
+          180,
+          219,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "stem": "page_0029",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985045850276947,
+        "bbox_xyxy": [
+          172,
+          685,
+          1079,
+          1125
+        ],
+        "text": "Une premiere recherche de Camereret al.(2002a)introduit delasophistication dans les modeles d'apprentissage adaptatifs en considerant une population composée de deuxtypes d'agents:unefractiond'entre euxestsupposeeparfaitementrationnels et peut par conséquent exhiber le sentier d'équilibre quandlafraction résiduelle des joueurs estsupposée adaptativeet n'actualiseses actions presentes qu'au regard de l'experience passee. Les joueurs rationnels ont a l'esprit leur propre repartition de la population (pas nécessairement la vraie) entre agents rationnels et adaptatifs et utilisent cette connaissance pour anticiper le comportement des individus adaptatifs.En somme, ces auteurs examinent l'apprentissage dans une population heterogene dejoueurs. Ils estiment leur modelesurla base de données experimen- talesdeconcoursdebeauteetdejeuxd'investissementsrepetes.Leurmodelede manipulation strategique s'averemeilleur que le modeleEWA pour décrire et prédirelescomportements."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9847111105918884,
+        "bbox_xyxy": [
+          172,
+          1142,
+          1079,
+          1751
+        ],
+        "text": "Cependant,1'approche de Camerer et al. (2002a) possede notamment une limite importante. Selon ce modele, les individus rationnels ne sont jamais amenés a réviser leur perception initiale du processus d'apprentissage de leurs opposants. Par conséquent, ceux-ci ne sont pas censes arreter des tentatives de manipulation infructueuses ou al'inverse selancer dans des strategies de manipulation en cours de jeu. Si cette hypothese peut sembler plausible dans des populations larges ou les joueurs sont appariés de maniere aléatoire de periode en periode (commec'est le cas dans les expériences utilisées dans Camerer et al., 2002a), elle apparait beaucoup plus critiquable au sein de populations oula fréquence des interactions sociales est plus forte. Cette limite est particulierement problématique dans la mesure ou un certain nombre d'études récentes témoignent notamment de l'usage de strategies non stationnaires dans les jeux repetés (voir entre autres Terracol et Vaksmann, 2009; Hyndman et al.,2009; Hyndman et al., 2012). Dans leur étude, Hyndman et al. (2009) introduisent un concept d'< apprentissage sophistiqué >, ou 《 apprentissage desecond ordre> selon lequelles agents percoivent les conséquences futures de leurs propres actions mais conservent un degré de rationalité limitée dans la mesure ou ils réevaluent de maniere adaptative le processus d'apprentissage de leurs opposants en fonction des comportements observés dans le passé. Les joueurs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9830416440963745,
+        "bbox_xyxy": [
+          173,
+          432,
+          1079,
+          667
+        ],
+        "text": "Tous les exemples ci-dessus suggerent que l'étude de l'apprentissage n'est pas suffisante.Pour sefaire une ideeplus précise delafacon aveclaquelleles agents interagissent a long terme, il est nécessaire de prendre en compte le fait que les joueurs sont capables de réaliser que les autres sont effectivement en mesure d'apprendre et derepondredeleur experiencerécente.Ainsilesindividus peuvent retourner cette experiencea leur avantage.Enrésumé,les joueurs sontsusceptibles d'etreplus sophistiquesquecequelesmodelesd'apprentissageclassiquessupposent."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9731897115707397,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          414
+        ],
+        "text": "Toujours dans le domaine de léconomie industrielle, les firmes peuvent étre incitées a se manipuler les unes les autres. Plus précisement, les firmes peuvent se comporterdemaniereagressiveetproduiredesquantitesélevéesdebienspour induire un comportement futur plus passif de leurs rivaux et également dissuader de nouveaux concurrentsa entrer danslemarche."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.846427857875824,
+        "bbox_xyxy": [
+          327,
+          180,
+          921,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7512914538383484,
+        "bbox_xyxy": [
+          1035,
+          181,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "stem": "page_0030",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984691321849823,
+        "bbox_xyxy": [
+          172,
+          831,
+          1079,
+          1499
+        ],
+        "text": "Cependant, cette approche est apparue extrémement limitée pour décrire le raisonnement humain puisque des agents intelligents sont typiquement susceptibles debaserleurschoixsurdesmotivationsplusélaborees.Ainsi,unmodelenouveau, base sur des considérations plus proches des fondements de la théorie des jeux, a été mis au point. Plus précisement, les économistes ont propose des théories d'appren- tissage par les croyances selon lesquelles les agents ont typiquement tendance a opter pour les actions qui leur procurent I'esperance de gains la plus importante étantdonnélescroyancesqu'ilsseforment.Cecia amenedirectementalaquestion du processus de formation des croyances individuelles. Les premiers procédes heuristiques utilisés ontétéceuxde Cournotetdefictitiousplay.Danslepremier cas, les agents attribuent une probabilité égale a 1 a l'action précédemment jouée par leurs adversaires. Dans le second cas, la croyance concernant une action donnee correspondalafréquence aveclaquellecetteactionaétechoisiesurl'ensemblede 1'historique disponible. Cheung et Friedman (1997) ont fourni par la suite un modele empirique plus general de formation de croyances, le fictitious play ponderé, qui incorpore comme cas particuliers les approches de Cournot et le fictitious play traditionnel. De maniere generale, les modeles d'apprentissage par les croyances se sont montrés relativement performants pour retranscrire de maniere fidele le comportement des joueurs, a 1'exception des jeux ne possédant que des équilibres enstrategiesmixtes(nondegenerees)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9838705062866211,
+        "bbox_xyxy": [
+          172,
+          547,
+          1078,
+          814
+        ],
+        "text": "Le processus par lequel un équilibre émerge a éte largement ignoré jusqu'a la fin du XXeme siecle. Mais l'essor de modeles capables de décrire le raisonnement des joueurspermetmaintenant d'yvoirplus clairsurcettequestion.Plusrécemment,les recherchessesontpenchéessurunprocessusd'équilibrationmettantenactionsdes agents completement myopes/adaptatifs. Les économistes ont dans un premier temps suivi les traces des psychologues en reprenant leurs approches d'apprentissage par renforcement. L'idée du renforcement est queles joueurs tendent a manifester une plus forte propension a choisir des actions qui ont rapporté davantage dans le passé."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9832503199577332,
+        "bbox_xyxy": [
+          174,
+          1517,
+          1080,
+          1750
+        ],
+        "text": "Les apprentissages par renforcement et par croyances ont éte considerés com- pletementdistinctsjusqu'alafindesannees90etauxtravauxdeCamereretHo (1999). Ces auteurs ont concu un modele hybride d'apprentissage EWA qui inclut l'apprentissageparrenforcementetceluiparles croyancescommecasspeciaux.Ce modeleEWAafaitsespreuvesdansungrandnombredecontextesmaisaenmeme temps été considere comme techniquement complexe a mettre en application en raison de son grand nombre de parametres libres a estimer. Ainsi, Ho et al. (2007)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822348952293396,
+        "bbox_xyxy": [
+          174,
+          247,
+          1080,
+          447
+        ],
+        "text": "sophistiques ajustent notamment leur perception de la vitesse d'apprentissage de leursopposantsselonleniveaud'inertiedontceux-ci ontfaitpreuvedanslechoix deleursactionspassées.Cetteapprochepermeten outred'expliquer demaniere plus satisfaisante la dynamique de la manipulation strategique et a plus specifiquement prouvesonefficaciteparsacapacitearendrecompte avec acuitédescomportements observésnotammentdansplusieursvariantesdejeuxdecoordination."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8919108510017395,
+        "bbox_xyxy": [
+          174,
+          497,
+          478,
+          529
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8715744018554688,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8628617525100708,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "stem": "page_0031",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9802097082138062,
+        "bbox_xyxy": [
+          172,
+          363,
+          1079,
+          1400
+        ],
+        "text": "Cependant selon toutes ces approches,les joueurs adoptent un comportement relativementprimitif etprennentleurs décisionssans considererlesinteractions strategiques.Plusspecifiquement,lesjoueurs choisissentleurs actionssurlabase de cequ'ilsontexperimentedanslepasseetnerealisentpasqueleursopposantssont également en mesure d'apprendre. Ainsi ils ne percoivent pas que leurs propres actions peuvent influencer le comportement de leurs opposants dans le futur. Il va sans dire quecepostulat peut apparaitre deconnectedesfondements dela théorie des jeux et la recherche d'approches plus sophistiquees sefait alors ressentir. Dans cette optique Camerer et al. (2002a) propose un modele de manipulation strategique dans lequel les joueurs peuvent étre, soit purement adaptatifs comme le supposent l'ensemble des théories de l'apprentissage, soit parfaitement rationnels. Ces derniers detiennent notammentlacapacitecognitived'anticiperlecomportementfutur deleurs opposants sur la base de l'histoire passée du jeu. Ils peuvent donc tirer profit des interactions strategiques et manipuler leurs opposants passifs. Cette approche presente ainsi l'intéret d'intégrer des comportements plus sophistiques dans les modeles d'appren- tissage passif usuels. Néanmoins, selon ce modele les agents rationnels ne sont jamais amenés a réviser leurs a priori sur le processus d'apprentissage de leurs opposants ou sur la fraction d'individus passifs dans la population. Cette hypothese est en outre incompatibleaveccertainesregularitesobserveesdansuneclasseélargiedejeux quimontrentquelesjoueurssontparexemplesusceptiblesdecesseraunmoment donné d'utiliser des strategies de manipulation en réalisant que la vitesse d'appren- tissage de leurs opposants est plus lente qu'ils ne l'avaient initialement escomptée Dans une autre approche, Hyndman et al. (2009) introduisent un modele dans lequel les agents possedent un degre de sophistication strategique superieur a celui suppose dans les modeles d'apprentissage passif mais conservent par ailleurs un degré d'adaptativitéenréévaluant leur perception du processus d'apprentissage deleurs opposants sur la base des comportements observes. Cette approche, qualifiée d'appren- tissage sophistiqué, ou d'apprentissage de second ordre, permet notamment de rationaliserlesregularitesévoqueesplushautquant aladynamiquedelamanipulation strategique. Elle s'est en outre montrée efficace pour ce qui était de retracer le com- portementdesjoueursdansplusieursvariantesde jeuxde coordination."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978097677230835,
+        "bbox_xyxy": [
+          173,
+          1500,
+          1079,
+          1632
+        ],
+        "text": "Cet article a passé en revue un certain nombre de modeles visant a reproduire lesdéviationsobservéesdeléquilibredeNashetafourniruneexplicationcogni- tivementréalistea cesderniers.Unepremierebranchedecettelitteratures'interesse auxréactionsinitialesdesagents,sansexperiencepasséedujeu."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9738627076148987,
+        "bbox_xyxy": [
+          174,
+          1650,
+          1078,
+          1748
+        ],
+        "text": "Unsecondpandelalitteratureétudieladynamiqueducomportementdes agentsdanslesjeuxrepetesetlamaniereaveclaquelleceux-ciutilisentleur experiencepasseepouractualiserleursactionscourantes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9528952240943909,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          346
+        ],
+        "text": "ontproposeunevarianteaunparametredumodeleEwA,lemodeleEWAauto- ajuste, danslequella plupart des parametres sont remplaces par des regles empiriques ou des valeurs plausibles de telle sorte qu'ils n'ont plus besoin d'etre estimés."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8579663634300232,
+        "bbox_xyxy": [
+          327,
+          181,
+          921,
+          205
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGOLIES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8308303356170654,
+        "bbox_xyxy": [
+          174,
+          1450,
+          307,
+          1480
+        ],
+        "text": "CONCLUSION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7860938310623169,
+        "bbox_xyxy": [
+          1035,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "stem": "page_0032",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9769744873046875,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          513
+        ],
+        "text": "Plusgeneralement,lesmodelesderationalitelimitee,initialementconcusdans le but de relacher la forte complexite cognitive presente dans les concepts pionniers de la théorie des jeux, prennent depuis quelques années une voie inverse en s'atta- chant a fournir de nouvelles élaborations plus sophistiquées pour depasser les limites des modeles comportementaux de premiere vague. La ligne directrice des travaux, passes et a venir, dans ce domaine restent dictee par des standards empi- riquesetlavolontédeproduiredesthéoriesconformesauniveaudesophistication strategiqueobservéchezlesagents."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8821244239807129,
+        "bbox_xyxy": [
+          517,
+          603,
+          735,
+          637
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.869159996509552,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.842098593711853,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8057518005371094,
+        "bbox_xyxy": [
+          171,
+          651,
+          1084,
+          1757
+        ],
+        "text": "AGRANOv, M., A. CAPLIN et C. TERGIMAN (2015), 《 Naive Play and the Process of ChoiceinGuessingGames>Journalof theEconomicScienceAssociation, 1(2):146-157 AGRANOV,M.,E.PoTAMITES,A.SCHOTTER etC.TERGIMAN (2O12),《 Beliefs anc Endogenous Cognitive Levels:AnExperimental Study >,Games and Econom icBehavior,75(2):449463. ANDERsON, C. M. et C. F. CAMERER (200O), 《 Experience-Weighted Attraction Learning in Sender-Receiver Signaling Games >, Economic Theory, 16(3) : 689-718. ANDERsON, S. P., J. K. GoEREE et C. A. HoLT (1998), 《 Rent Seeking with Bounded Rationality: An Analysis of the All-Pay Auction >, Journal of Political Economy, 106 (4) : 828-853. ANDERsON, S. P., J. K. GoEREE et C. A. HoLT (2001), 《 Minimum-Effort Coordina- tion Games: Stochastic Potential and Logit Equilibrium >, Games and Econom- icBehavior,34(2):177-199. ARAD, A. et A. RuBINsTEIN (2012), 《 The 11-20 Money Request Game: A Level-k ReasoningStudy>,AmericanEconomicReview,102(7):3561-3573 ARTHUR, W. B.(1991),《 Designing Economic Agents that Act Like Human Agents: A Behavioral Approach to Bounded Rationality >,American Economic Review,81(2) : 353-359. ARTHUR, W. B. (1994).《 On Designing Economic Agents that Behave like Human Agents>,Journalof EvolutionaryEconomics,3 :1-22. AUMANN, R. et A. BRANDENBURGER (1995), 《 Epistemic Conditions for Nash Equi- librium>,Econometrica,63(5):1161-1180. BATTALIo,R.,L.SAMUELSON et J.VANHuYCK(2OO1),《OptimizationIncentives and Coordination Failure in Laboratory Stag Hunt Games >, Econometrica, 69(3):749-764. BELLHousE,D. (2007),《 The Problem of Waldegrave >, Journal Electronique d'HistoiredesProbabilitésetdelaStatistique,3(2). BERNHEIM, B. D. (1984),《 Rationalizable Strategic Behavior >, Econometrica, 52(4) :1007-1028"
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "stem": "page_0033",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.830064058303833,
+        "bbox_xyxy": [
+          169,
+          220,
+          1084,
+          1771
+        ],
+        "text": "BOYLAN, R. T.et M. A.EL-GAMAL (1993),《Fictitious Play: A Statistical Study of Mul- tiple Economic Experiments >, Games and Economic Behavior, 5(2) : 205-222. BRANDTs, J. et C. HoLT (1996), 《 Naive Bayesian Learning and Adjustment to Equilibrium in Signaling Games >, University of Virginia, Discussion Paper BRowN, G. (1951), 《 Iterative Solution of Games by Fictitious Play >, in T. C. Koop- MANs (éd.),Activity Analysis of Production and Allocation,Cowles Commis- sion for Research in Economics, New York : Wiley, 404 p. BURCHARDI, K. B. et S. P. PENCZYNSK1 (2O14), < Out of your Mind: Eliciting Individual Reasoning in one Shot Games >,Games and Economic Behavior, 84(C) : 39-57 BURNHAM, T. C., D. CESARINI, M. JOHANNESSON, P. LICHTENSTEIN et B. WALLACE (2009),< Higher Cognitive Abilityis Associated with Lower Entries in ap-Beauty Contest >, Journal of Economic Behavior and Organization, 72(1) : 171-175. BusH, R. R. et F. MosTELLER (1955), Stochastic Models for Learning, New York : Wiley. CAMERER, C. et T.-H. Ho (1998), 《 EWA Learning in Coordination Games: Prob- ability Rules, Heterogeneity, and Time Variation >, Journal of Mathematical Psychology,42 :305-326 CAMERER, C. et T.-H. Ho (1999), < Experience-weighted Attraction Learning in Normal Form Games >, Econometrica, 67(4) : 827-874. CAMERER, C., T.-H. Ho et J.-K. CHONG (2002a), 《 Sophisticated EWA Learning and Strategic Teaching in Repeated Games >, Journal of Economic Theory, 104 : 137-188. CAMERER, C. et R. KARJALAINEN (1994), 《 Ambiguity-Aversion and non-Additive Beliefs in non-Cooperative Games: Experimental Evidence >, in B. MuNIER et M. MAcHINA (éds), Models and Experiments on Risk and Rationality, Dordrecht : Kluwer, p. 325-358 CAMERER, C. F. et K. WEIGELT (1988), < Experimental Tests of a Sequential Equi- librium Reputation Model >, Econometrica, 56(1) : 1-36. CAMERER, C.F., T.-H. Ho et J.-K. CHONG (2002b), 《 Sophisticated Experi- ence-Weighted Attraction Learning and Strategic Teaching in Repeated Games >, Journal of Economic Theory, 104(1) : 137-188. CAMERER, C. F., T.-H. Ho et J. K. CHONG (2004a), 《 Behavioral Game Theory: Thinking, Learning, and Teaching > in S. Huck (éd), Advances in Understand- ing Strategic Behavior, Essays in Honor of Werner Guth, London : Palgrave MacMillan, p. 120-180. CAMERER,C.F., T.-H.Ho et J.K.CHONG (2O04b),《 A Cognitive Hierarchy Model of Games >, The Quarterly Journal of Economics, 119(3) : 861-898. CAPRA,C.M.(1999),《AnomalousBehaviorinaTraveler'sDilemma?>,Amer- icanEconomicReview,89(3):678-690 CHEN, H.-C.,J. W. FRIEDMAN et J.-F. THISSE (1997),《 Boundedly Rational Nash Equilibrium: A Probabilistic Choice Approach >, Games and Eco- nomic Behavior, 18(1) : 32-54."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8147850632667542,
+        "bbox_xyxy": [
+          325,
+          179,
+          922,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7215766310691833,
+        "bbox_xyxy": [
+          1034,
+          180,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "stem": "page_0034",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8615046143531799,
+        "bbox_xyxy": [
+          169,
+          236,
+          1085,
+          1776
+        ],
+        "text": "CHEUNG, Y.-W.et D. FRIEDMAN (1997), < Individual Learning in Normal Form Games: Some Laboratory Results >,Games and Economic Behavior, 19(1) : 46-76 CoOPER, D.J., S. GARvIN et J.H. KAGEL (1997), 《 Adaptive Learning vs. Equi- librium Refinements in an Entry Limit Pricing Game >, Economic Journal, 107(442):553-575. CoRICELL1, G. et R. NAGEL (2009),< Neural Correlates of Depth of Strategic Rea- soning in Medial Prefrontal Cortex >, Proceedings of the National Academy of Science,106(23):9163-9168 CoSTA-GoMEs, M.,V. P. CRAWFORD et B. BROSETA (20O1), 《 Cognition and Behav- ior in Normal-Form Games: An Experimental Study >, Econometrica, 69(5) : 1193-1235. CosTA-GoMEs, M. A. et V. P. CRAwFORD (2006), 《 Cognition and Behavior in Two-Person Guessing Games : An Experimental Study >, American Economic Review, 96(5) : 1737-1768 CoSTA-GOMES,M.A.,V.P.CRAWFORD et N.IRIBERR1 (2OO9),《Comparing Models of Strategic Thinking in Van Huyck, Battalio, and Beil's Coordination Games >, JournaloftheEuropeanEconomicAssociation,7(2-3):365-376 CosTA-GoMEs, M. A. et G. WEIzsAcKER (2008),《 Stated Beliefs and Play in Normal-Form Games >, Review of Economic Studies, 75(3) : 729-762. CouRNor,A.(1838),Recherchessurlesprincipes mathematiquesdela théorie des richesses, translated into english by N. BAcoN (1960) as Researches in the MathematicalPrinciples of theTheory of theWealth,London:Haffner. CRAWFORD, V. P., M.A. CoSTA-GoMES et N. IRIBERR1 (2013), 《 Structural Models of Nonequilibrium Strategic Thinking: Theory, Evidence, and Applications >, Journal ofEconomicLiterature,51(1) :5-62. CRAwFORD,V.P.etN.IRIBERR1(2OO7),《FatalAttraction:Salience,Naiveté,and Sophistication in Experimental“Hide-and-Seek\"Games >, American Economic Review, 97(5) : 1731-1750. Cross, J. G. (1973),《 A Stochastic Learning Model of Economic Behavior >, The Quaterly JournalofEconomics,87(2):239-266 Cross,J.G.(1983),ATheoryofAdaptiveEconomicBehavior,NewYork/London: Cambridge University Press. EREv, I. et A.E. RoTH (1998), < Predicting How People Play Games: Reinforcement Learning in Experimental Games with Unique, Mixed Strategy Equilibria >, American Economic Review,88(4) : 848-81. FLooD, M. M. (1952), 《 Some Experimental Games >, Research Memorandum RM-789, RAND Corporation. FLooD, M. M. (1958), 《 Some Experimental Games >, Management Science, 5(1) : 5-26. FosTER, D. P. et R. V. VoHRA (1997),《 Calibrated Learning and Correlated Equi- librium >,Games and Economic Behavior,21(1-2) : 40-55. FUDENBERG, D. et D. M. KREPs (1993), 《 Learning Mixed Equilibria >, Games and EconomicBehavior,5(3):320-367."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8170974850654602,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7870201468467712,
+        "bbox_xyxy": [
+          175,
+          179,
+          220,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 35,
+    "stem": "page_0035",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8226361870765686,
+        "bbox_xyxy": [
+          169,
+          235,
+          1084,
+          1779
+        ],
+        "text": "FUDENBERG, D. et D. M. KREPs (1995), < Learning in Extensive-Form Games I. Self-confirming Equilibria >, Games and Economic Behavior, 8(1) : 20-55 FuDENBERG, D. et D. LEvINE (1998), The Theory of Learning in Games, MIT Press, MA : Cambridge. BRANAs GARZA, P., T. GARCiA-MuNOZ et R. H. GONZALEZ (2012), 《 Cognitive Effort in theBeauty Contest Game>,Journal of EconomicBehavior and Organiza- tion, 83(2) : 254-260. GOEREE, J., C. HoLT et T. PALFREY (2005), 《 Regular Quantal Response Equilib- rium>,Experimental Economics,8(4) : 347-367. GoEREE, J. K. et C. A. HoLT (2001), < Ten Little Treasures of Game Theory and Ten Intuitive Contradictions >,American Economic Review, 91(5) : 1402-1422. GoEREE, J. K. et C.A. HoLT (2004),《 A Model of Noisy Introspection >, Games andEconomicBehavior,46(2):365-382. GoEREE, J. K.et C. A.HoLT (2005),《 An Explanation of Anomalous Behavior inModels ofPoliticalParticipation>,TheAmericanPolitical ScienceReview, 99(2):201-213. GOEREE, J. K., C. A. HoLT et T. R. PALFREY (2002), 《 Quantal Response Equi- librium and Overbidding in Private-Value Auctions >, Journal of Economic Theory,104(1):247-272. HAILE, P. A., A. HoRTAcsU et G. KosENOK (2008), < On the Empirical Content of Quantal Response Equilibrium >, American Economic Review, 98(1) : 180-200. HARLEY, C. (1981), 《 Learning in Evolutionary Stable Strategies >, Journal of Theoretical Biology, 13 : 611-633. HERRNsTEIN, J. R. (197O), 《 On the Law of Effect >, Journal of Experimental AnalysisofBehavior,13:342-366. Ho, T. H., C. F. CAMERER et J.-K. CHONG (20O7), 《 Self-Tuning Experience Weighted Attraction Learning in Games >, Journal of Economic Theory, 133(1) : 177-198. Ho, T.-H., X. WANG ET C. CAMERER (2008), < Individual Differences in the EWA Learning with Partial Payoff Information >, The Economic Journal, 118 : 37-59. Ho, T.-H. et K. WEIGELT (1996),< Task Complexity, Equilibrium Selection, and Learning: An Experimental Study >, Management Science, 42(5) : 659-679. HYNDMAN, K., E. Y. OZBAY, A. SCHOTTER et W. Z. EHRBLATT (2O12), 《 Convergence: An Experimental Study Of Teaching And Learning In Repeated Games >, JournaloftheEuropeanEconomicAssociation,10(3):573-604. HYNDMAN, K., A. TERRACOL et J. VAKSMANN (2O09), < Learning and Sophistication in Coordination Games >, Experimental Economics, 12(4) : 450-472. IvANOv,A.,D.LEvIN et M.NIEDERLE (2O1O),《 Can Relaxation of Beliefs Ration- alize the Winner's Curse?: An Experimental Study >, Econometrica, 78(4) : 1435-1452. KEyNEs, J. M. (1936), The General Theory of Employment, Interest and Money, NewYork:HarcourtBraceandCo."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7972981333732605,
+        "bbox_xyxy": [
+          326,
+          179,
+          929,
+          207
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGIOUIES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6312092542648315,
+        "bbox_xyxy": [
+          1034,
+          179,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "stem": "page_0036",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8294326663017273,
+        "bbox_xyxy": [
+          168,
+          233,
+          1083,
+          1781
+        ],
+        "text": "Mc ALLIsTER, P. (1991),《 Adaptive Approaches to Stochastic Programming >, Annals of Operations Research,30:45-62. McKELvEY, D. R. et R. PAGE (1990), < Public and Private Information: an Experi- mental Study of Information Pooling >, Econometrica, 58 : 1321-1339. McKELVEY, D. R. et T. R. PALFREY (1995), 《 Quantal Response Equilibria for Nor- mal Form Games >,Games and Economic Behavior, 10(1) : 6-38 McKELVEY, D. R. et T. R. PALFREY (1998), < Quantal Response Equilibria for Exten- sive Form Games >, Experimental Economics, 1 : 9-41. MoINAs, S. et S. PouGET (2013). < The Bubble Game: An Experimental Study of Speculation >,Econometrica,81(4) : 1507-1539 MooKHERJEE, D. et B. SoPHER (1994),《 Learning Behavior in an Experimental Matching Pennies Game >, Games and Economic Behavior, 7(1) : 62-91. MooKHERJEE, D. et B. SoPHER (1997), 《 Learning and Decision Costs in Experi- mental Constant Sum Games >,Games and Economic Behavior, 19(1) : 97-132. NAGEL, R. (1995),< Unraveling in Guessing Games: An Experimental Study >, AmericanEconomicReview,85(5):1313-1326 NAsH, J. F. (1950), 《 Equilibrium Points in n-Person Games >, Proceedings of the NationalAcademy ofScience,36(1):48-49 vON NEUMANN, J. (1928), 《 Zur Theorie der Gesellschaftsspiele >, Mathematische Annalen,100(1):295-320 VON NEUMANN, J. et O. MoRGENSTERN (1944), Theory of Games and Economic Behavior, Princeton University Press. NYARKO, Y. et A. ScHOTTER (2002), 《 An Experimental Study of Belief Learning UsingElicitedBeliefs>,Econometrica,70(3):971-1005 OsTLING, R., J. T. WANG, E. Y. CHOU et C.F. CAMERER, (2O11), 《 Testing Game TheOry in the Field: Swedish LUPI Lottery Games >, American Economic Journal: Microeconomics,3(3):1-33. PEARcE,D.G.(1984),《RationalizableStrategicBehavior and the Problem of Per fection>,Econometrica,52(4):1029-50 PoLAk, B. (1999),《 Epistemic Conditions for Nash Equilibrium, and Common KnowledgeofRationality>,Econometrica,67(3):673-676 RoBINsoN, J. (1951), 《 An Iterative Method of Solving a Game >, Annals of Mathematics,54:296-301. RoTH,A.E.et I.EREv(1995),<Learningin Extensive-Form Games:Experimental Data and Simple Dynamic Models in the Intermediate Term >, Games and EconomicBehavior,8(1):164-212 SARGENT, T. J. (1999),《 A Primer on Monetary and Fiscal Policy >, Journal of Banking and Finance, 23(10) : 1463-1482 SARIN, R.et F. VAHID (1999), 《 Payoff Assessments without Probabilities: A Simple Dynamic Model of Choice >,Games and Economic Behavior,28(2):294-309."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8225034475326538,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7950291037559509,
+        "bbox_xyxy": [
+          175,
+          179,
+          219,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 37,
+    "stem": "page_0037",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8146007657051086,
+        "bbox_xyxy": [
+          326,
+          180,
+          922,
+          206
+        ],
+        "text": "RATIONALITELIMITEEETINTERACTIONSSTRATEGIOUIES"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8082999587059021,
+        "bbox_xyxy": [
+          169,
+          245,
+          1084,
+          925
+        ],
+        "text": "SARIN, R. et F. VAHID (2001),《 Predicting How People Play Games: A Simple DynamicModelof Choice>,GamesandEconomicBehavior,34(1):104-122 SELTEN,R.(1991),《Evolution,Learning,andEconomicBehavior >,Gamesand EconomicBehavior,3(1):3-24. SHAPLEY, L. (1964),《 Some Topics in Two-Person Games > in M. Dresher, L.S. Shapley et A.W. Tucker (éds),Advances in Game Theory,Annals of Math- ematical Studies 52, Princeton University Press, p. 1-28. SIMoN, H. A.(1955), 《 A Behavioral Model of Rational Choice >, The Quarterly JournalofEconomics,64(1):99-118. STAHL, D. O. et P. W. W1LsON (1994), < Experimental Evidence on Players' Models of other Players >, Journal of Economic Behavior and Organization,25(3) :309-327. STAHL, D. O. et P. W. WiLsoN (1995),< On Players' Models of Other Players : Theory and Experimental Evidence >,Games and Economic Behavior, 10(1) : 218-254. TERRACOL, A. et J. VAKSMANN (2009), < Dumbing Down Rational Players: Learn- ing and Teaching in an Experimental Game >, Journal of Economic Behavior andOrganization,70(1-2):54-71. THORNDIKE, E. L. (1911), Animal intelligence, New York : Macmillan. WEizsAcKER, G. (2003),< Ignoring the Rationality of Others : Evidence from Experi- mentalNormal-FormGames>,GamesandEconomicBehavior,44(1):145-171."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7303898930549622,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1077,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  }
+]

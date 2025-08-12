@@ -1,0 +1,2338 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9790419936180115,
+        "bbox_xyxy": [
+          181,
+          653,
+          1054,
+          861
+        ],
+        "text": "LemodeleDestinieestunmodeledemicrosimulationdynamiquedontlaconstructionavait debutéaI'INsEEdanslesannees199o.Sonchampd'applicationprincipalestlaprospective desretraites.llaetenotammentmobilisepoureclairerleseffetsdesreformesintervenuesen Francedepuis1993.Cetarticlepresentelecontextedanslequelsapremiereversionaété construite,lesprincipauxchoixquionteteretenuspourcetteconstructionetlesdiverses applicationsquienontétefaites.Ildresseunbilandecesapplicationsetpresentelesamelio rationsapporteesparlanouvelleversiondumodele,operationnelledepuis2o11."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9783360958099365,
+        "bbox_xyxy": [
+          181,
+          1045,
+          1053,
+          1550
+        ],
+        "text": "omme la plupart des autres pays, la France a vu se succeder plusieurs réformes de son systeme de retraite depuis le debut des années 199o: les plus marquantes sont intervenues en 1993, 2003 et 201o. Les deux premieres visaient surtout a préparer l'adaptation du systeme aux consé- quences a long terme du vieillissement demographique, la troisieme a du galement repondre au nouveau contexte créepar la criseéconomique et financiere. L'ensemble de ce processus s'est accompagné d'un développe- ment important des outils de projection des retraites. Au debut des années 1990, la prospective des retraites s'appuyait pour l'essentiel sur des maquettes agrégées du systeme de retraite francais, qui n'en donnaient qu'une représentation tres schématique. Un exemple de modele était le modele Margaret construit et utilisé a la direction de la prévision du ministere de l'Economie (Verniere, 199o). Ce modele était un modele de projection par cohorte, sans variabilité intra-cohorte, et il utilisait une"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9502132534980774,
+        "bbox_xyxy": [
+          180,
+          1599,
+          1053,
+          1657
+        ],
+        "text": "INSEE/CREST(CentrederecherchesenEconomieetStatistique),Paris,France (didier.blanchet@insee.fr)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9466806054115295,
+        "bbox_xyxy": [
+          247,
+          396,
+          988,
+          483
+        ],
+        "text": "MicrosimulerI'avenir desretraitesenFrance: I'exempledumodeleDestinie"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9043811559677124,
+        "bbox_xyxy": [
+          182,
+          989,
+          405,
+          1021
+        ],
+        "text": "NTRODUCTION"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8905093669891357,
+        "bbox_xyxy": [
+          828,
+          867,
+          1052,
+          893
+        ],
+        "text": "Englishabstract,p.238"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8513941168785095,
+        "bbox_xyxy": [
+          474,
+          533,
+          758,
+          566
+        ],
+        "text": "DIDIER BLANCHET"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7553221583366394,
+        "bbox_xyxy": [
+          181,
+          211,
+          739,
+          278
+        ],
+        "text": "Cahiers québécois de demographie Vol.40,n°2,automne2011,p.209-238"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9840945601463318,
+        "bbox_xyxy": [
+          149,
+          322,
+          1021,
+          933
+        ],
+        "text": "De tels modeles semi-agregés ont été et restent tres utiles. Ils conti- nuent d'etre utilises par le Conseil d'Orientation des Retraites pour un certain nombre de variantes globales telles que les variantes de croissance économique ou les variantes démographiques vis-a-vis desquelles les détails des regles de calcul des retraites ne jouent qu'au deuxieme ordre (Conseil d'Orientation des Retraites, 2oo6 et 201o). Mais ces modeles igno- rent necessairement un tres grand nombre de caracteristiques du systeme de retraite. Ils ignorent les spécificités de nombreux régimes profession- nels,et notamment des regimes defonctionnaires.Memepourlecas le plus fréquent des salariés du secteur privé, l'approche mono-pilier ne rend pas compte dufait quela retraite est enfait composee de deuxvoire trois segments : la retraite de base du régime général de la sécurité sociale, s'ap- pliquant a la partie du salaire située sous le plafond dela sécurité sociale, et une ou deux retraites complémentaires fournies par les régimes profes- sionnels s'appliquant respectivement aux non-cadres et aux cadres. Enfin, l'approche agrégée est par nature inapte a rendre compte des tres nombreuses complexités des baremes au sein de chaque régime."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836897253990173,
+        "bbox_xyxy": [
+          149,
+          936,
+          1021,
+          1401
+        ],
+        "text": "Compte tenu de toutes ces limitations, il était impossible a ces modeles agrégés de simuler les effets des réformes ou révisions des regles de calcul qui ont commencé a étre mises en place a cette période, en particulier de la réforme de 1993 réalisée seulement quelques années apres la sortie du Livre Blanc.Le modeleDestinie a commencé a étre construit dans ce contexte. Sapremiereversionaéteutiliseejusqu'audebutdesannees2oooetsa deuxieme version est devenue opérationnelle depuis 2oi1. Cet article propose une vue d'ensemble des apports de ce modele. On reviendra d'abord surle contexte dans lequel sa premiere version a été construite,les principauxchoix qui ontéteretenuspour cetteconstructionetles diverses applications qui en ont été faites. On dressera un bilan de ces applications et on examinera les principales ameliorations apportees par la nouvelle versiondumodele."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9760436415672302,
+        "bbox_xyxy": [
+          149,
+          1552,
+          1020,
+          1658
+        ],
+        "text": "Une presentation globale du systeme de retraite francais et de ses réformes dépasse largement le cadre de cet article, mais quelques éléments de base sont nécessaires pour comprendre a la fois la nécessité d'une approche par"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.957436740398407,
+        "bbox_xyxy": [
+          150,
+          213,
+          1020,
+          318
+        ],
+        "text": "representationtressimplifieedusystemederetraiteconsistantal'ap- proximer par un systeme a un seul pilier s'appliquant a l'ensemble de la populationfrancaiseetcouvrantl'ensembledeleurssalaires."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8857974410057068,
+        "bbox_xyxy": [
+          149,
+          140,
+          710,
+          161
+        ],
+        "text": "MICROSIMTER IAVENIRDESR RFLRALLFFNERANCE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7016497850418091,
+        "bbox_xyxy": [
+          149,
+          1459,
+          1013,
+          1526
+        ],
+        "text": "LECONTEXTE:UNSYSTEMEDERETRAITESPARTICULIEREMENT COMPLEXE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6077720522880554,
+        "bbox_xyxy": [
+          148,
+          1459,
+          1014,
+          1527
+        ],
+        "text": "LECONTEXTE:UNSYSTEMEDERETRAITESPARTICULIEREMENT COMPLEXE"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9604203104972839,
+        "bbox_xyxy": [
+          182,
+          958,
+          1054,
+          1136
+        ],
+        "text": "Le tableau 1 résume les principales caractéristiques de ce systeme et les réformesdontil afaitl'objet.Onvasurtoutseconcentrerdansunpremier temps sur le regimegeneral,le seul qui avaitétereformeen1993.Jusqu'a cetteréforme,lasituationdanscerégimegeneralétaitlasuivante (tableau1):"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9560278654098511,
+        "bbox_xyxy": [
+          181,
+          213,
+          1052,
+          281
+        ],
+        "text": "microsimulation et certaines des options retenues par le modele Destinie aucoursdesonévolution."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9371266961097717,
+        "bbox_xyxy": [
+          180,
+          286,
+          1054,
+          392
+        ],
+        "text": "Le systeme de retraite francais est fragmente mais, en laissant de coté les non-salariés, on simplifie grandement sa présentation en considérant qu'il comporte trois grandes composantes :"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8975866436958313,
+        "bbox_xyxy": [
+          528,
+          140,
+          703,
+          160
+        ],
+        "text": "OIDIERBLANCHE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.840738832950592,
+        "bbox_xyxy": [
+          1022,
+          143,
+          1052,
+          160
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.773647129535675,
+        "bbox_xyxy": [
+          228,
+          404,
+          1055,
+          947
+        ],
+        "text": "La plus importante est le régime general. Il s'agit du régime de base servant des retraites aux anciens salariés du secteur privé pour la part de leur salaire située sous le plafond de la sécurité sociale. Ce regime est un regime par annuites. Le niveau de pension depend des salaires passes et du nombre d'annees de cotisation. Pour ces memes salariés du secteur privé, une ou deux pensions supplementaires sont versees par les régimes complementaires ARRCO(association pour le regime de retraite complementaire des salariés) et AGIRC (association genérale des institutions de retraite complémentaire des cadres): ces regimes sont des régimes dits 《 par points >,ce qui signifie que les cotisations annuelles condui- sent a l'accumulation de points individuels qui sont convertis en droits a retraite au moment de la liquidation. Les fonctionnaires benéficient pour leur part d'un régime par annuités unique couvrantl'ensemble deleur ancien salaire."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.761979877948761,
+        "bbox_xyxy": [
+          229,
+          1149,
+          1055,
+          1653
+        ],
+        "text": "La pension était calculee sur la base du salaire annuel moyen (SAM) des dix meilleures années de la carriere. Un second principe de base du systeme est de donner une pension proportionnelle a la durée de cotisation : a SAM identique, un indi- vidu ayant cotise 3o ans a une retraite qui ne represente queles trois quarts de celle d'un individu ayant cotisé 4o ans. La formule gené- rique de calcul de la retraite était donc du type αx(Durée cotisée)xSAM ou α est ce qu'on qualifie de coefficient d'annuité, c.-a-d. le nombre de points de SAM rapporté par une année de cotisationsupplementaire. Mais,cetteformule relativement simple était et reste grandement complexifiée par le mode de détermination du parametre α car ce parametre dépend a son tour de la durée cotisée et également de l'age de liquidation, selon une formule non lineaire. Le principe est"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5299762487411499,
+        "bbox_xyxy": [
+          238,
+          1512,
+          1054,
+          1653
+        ],
+        "text": "Mais, cette formule relativement simple était et reste grandement complexifiée par le mode de determination du parametre α car ce parametre dépend a son tour de la durée cotisée et également de l'age de liquidation, selon une formule non lineaire. Le principe est"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3555005192756653,
+        "bbox_xyxy": [
+          236,
+          875,
+          1052,
+          945
+        ],
+        "text": "Lesfonctionnairesbenéficientpourleur partd'unrégimepar annuites unique couvrant l'ensemble deleur ancien salaire."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9870046973228455,
+        "bbox_xyxy": [
+          143,
+          189,
+          1592,
+          1014
+        ],
+        "text": "Regime general (regime de base des salaries du prive) Fonctionnaires Avantlareforme Reforme Reforme Reforme Avantlareforme Reforme Reforme de1993 de 1993 de 2003 de2010 de2003 de2003 de2010 Age minimal de 6o ans Pas de changement Portee a 62 ans 55 ou 6o ans, Pas de Portée a 57 ou la retraite d'ici 2018 selon la categorie changement 62 ans d'ici 2018 Conditions d'age ou N = 37,5 ans N = 40 ans Condition sur N Inchangee pour N = 37,5 ans Condition sur N Inchangee pour de dureed'assurance ou Age = 65 ans ou Age = 65 ans portée a N. Condition portée a 41 ans N. Condition (N)pour uneretraite 41 ans (d'ici 2012), alternative sur d’ici 2012), puis alternative sur a taux normal puis indexee sur l'age portée a indexee sur I'es- l'age portée a I'esperance de vie 67 ans d'ici 2023 perance de vie 67ansd'ici2023 Niveau de pension Si N = 37,5 ans, La periode de Proratisation Pas de 75 % du dernier Pas de Pas de pour un depart a 50 % du salaire calcul de la rapportée a changements salaire changement changement taux normal moyen des moyenne des nouvelle duree 10 meilleures salaires passes cible annees, tronque est portée au plafond de la de 10 a 25 ans securitesociale. (a raison d'un Si N<37,5 ans an chaque le montant est annee entre proratise 1993 et 2008) Reduction en cas de Proratisa- Pas de Réduction par Effet limite a la Proratisation liquidationavantle tion plus une changement annee manquante proratisation plus une tauxnormal réduction de ramenee a 5% réduction de 10% par annee 5% par année manquante manquante Bonification en cas Aucun Pas de 3% par annee Aucune 3% par annee de liquidation apres changement de report, porte de report porté I'age normal depuis a 5% depuis a 5%"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5197860598564148,
+        "bbox_xyxy": [
+          1634,
+          148,
+          1663,
+          722
+        ],
+        "text": "212 MICR OSIMULER 刀 L'A AVENIR 刀 品 S RETRAITE S EN FRANCE m"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.43969565629959106,
+        "bbox_xyxy": [
+          408,
+          149,
+          1251,
+          177
+        ],
+        "text": "aracterlsflnues rincipalesreformes"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.33024609088897705,
+        "bbox_xyxy": [
+          380,
+          150,
+          1223,
+          177
+        ],
+        "text": "escaracteristiguiesc"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850214123725891,
+        "bbox_xyxy": [
+          182,
+          633,
+          1053,
+          996
+        ],
+        "text": "Ce bref apercu des regles suffit a donner l'idée de la complexité du calcul de la retraite, meme en se restreignant a la seule retraite de base d'une catégorie particuliere de salariés. Or la prise en compte de cette complexité était indispensable pour chiffrer l'effet de réformes. La réforme de 1993 avait notamment touché a deux des parametres de ce bareme:elle avait institué un durcissement progressif de la condition sur la durée d'as- surance requise pour bénéficier du taux plein des 6o ans, la faisant passer de 37,5 ans a 40 ans entre les générations 1933 et 1943, et un allongement de la duréedecalculduSAM,consistant apasserd'uncalculsur lesdix meilleures années aun calcul surles 25meilleures années."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9832684397697449,
+        "bbox_xyxy": [
+          181,
+          1000,
+          1053,
+          1573
+        ],
+        "text": "Simuler l'impact dela premiere deces deuxmesures necessitaitune projection de la distribution des durées de cotisation atteintes a 6o ans : ceci serait restépossible dansle cadred'unmodelematriciel en proposant une double désagrégation dela population par age et nombre d'années cotisées. Mais ceci aurait déja suppose la gestion de matrices de transition de grande taille. L'approche par microsimulation est plus simple pour gérer ce genre de probleme : elle consiste a projeter individuellement les trajectoires professionnelles pour un échantillon représentatif d'individus. Pour évaluer l'effet d'un durcissement de la condition d'acces au taux plein, il suffit de dénombrer, le moment venu, le nombre d'individus sur lesquels ce durcissement a un impact, et de modifier leur comportement de liquidation en conséquence, au besoin avec une certaine marge de flexi- bilité. Dans un modele de microsimulation, il est tres simple de faire l'hy- pothesequeseulementx%desindividustouchesparlamesurereportent leur liquidation,ou de moduler ce report selon une ou plusieurs autres caracteristiques simulées pour lesmemesindividus."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807300567626953,
+        "bbox_xyxy": [
+          265,
+          213,
+          1053,
+          609
+        ],
+        "text": "lesuivant:lavaleurmaximaledeQétaitatteintesoita65ans,soit entre6oet65ansmaissouslaconditiondetotaliserunnombre minimum d'années de cotisation. Ce nombre était a lépoque de 37,5 années. Les individus ne remplissant pas ces conditions de dureeet d'age devaientsoit attendre deles atteindre,soit accepter une pénalité importante représentant 1o % du niveau de leur retraite par année manquante. De maniere plus précise, un indi- vidu liquidant a 6o ans avec 37,5 ans de cotisation bénéficiait du taux plein de5o%(c.-a-d.un Qde1,33%)maisun individuliqui dant au memeage avecseulement36,5 annéesvoyait cetauxpasser a45%duSAM."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9510096311569214,
+        "bbox_xyxy": [
+          183,
+          1577,
+          1054,
+          1646
+        ],
+        "text": "L'apport de la microsimulation pour la simulation du passage des 1o aux 25 meilleures annees est encore plus évident. Les conséquences financieres"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.887699544429779,
+        "bbox_xyxy": [
+          528,
+          141,
+          703,
+          160
+        ],
+        "text": ")IDIERBTANCHF"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8434534072875977,
+        "bbox_xyxy": [
+          1021,
+          144,
+          1052,
+          161
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9819974303245544,
+        "bbox_xyxy": [
+          149,
+          573,
+          1021,
+          860
+        ],
+        "text": "Construire un modele de microsimulation suppose un certain nombre de choix structurants. On va expliciter quelques-uns des choix retenus pour Destinie 1.Les principaux choix concernant le modele Destinie 1 ont concerné la base de données individuelles servant de support a la simula- tion, la nature des unités simulées, les principales caracteristiques retenues pour caracteriser ces unités, les hypotheses sur leurs comportements vis-a- vis dela retraite et le degrédefinesse retenu pour décrire ce systeme de retraite. On va detailler rapidement ces différents choix."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9797520637512207,
+        "bbox_xyxy": [
+          149,
+          864,
+          1022,
+          1657
+        ],
+        "text": "Concernant la base de départ, le choix s'est porté sur une enquete aupres des menages, l'enquete dite 《 Patrimoine 》 ou 《Actifs Financiers >, enquete conduite parl'INSEE tous les six ans aupres d'un échantillon repré- sentatif de la population francaise. L'enquete 1991-1992 sur laquelle s'était appuyée la toute premiere version du modele Destinie portait sur 13 0oo ménages parmi lesquels 9 350 avaient effectivement répondu a l'en- quete. L'objectif principal de cette enquete n'est pas l'analyse des droits a retraite.Elle sert avant tout a évaluer la detention d'actifsfinanciers et ses déterminants. Mais, pour la problématique des retraites, elle présentait l'in- téret de contenir une information rétrospective sur les carrieres profession- nelles, information indispensable a la reconstitution des droits a retraite et qui, a l'époque, n'était disponible sous forme regroupée dans aucune source administrative, les données requises restant éclatees entre les différents systemes.Memesicettesituationestdesormaisencoursderesolution,ces donnees administratives des caisses restent pauvres en descripteurs socio- économiques complémentaires aux données de gestion. L'intéret de l'en- quete patrimoine était et reste ainsi de combiner l'ensemble des descripteurs socio-économiquesusuelsdesenquetesmenagesetdedisposerd'unpara- metre crucial pour le calcul des retraites qui est la durée passée par l'en- semble des individus enquetés dans l'état d'actif occupé. Il s'agissait certes d'une donnée declarative susceptible de biais de mémoire, mais il s'agissait de la seule source proposant une information de ce type."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9679539203643799,
+        "bbox_xyxy": [
+          150,
+          212,
+          1021,
+          391
+        ],
+        "text": "d'une telle mesure dépendent tres fortement de la forme des profils de carriere:ellepenaliselescarrieres ascendantesouirregulieresetI'impact de la mesure depend donc du poids relatif de ces carrieres dans la popula tion totale. Ici encore,la microsimulation permet de simuler des effets que l'approcheglobaleinterditdecapter."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9479756355285645,
+        "bbox_xyxy": [
+          149,
+          395,
+          1021,
+          463
+        ],
+        "text": "C'est avec ces deux idées en tete que le modele Destinie a commencé a etreconstruit."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9173594117164612,
+        "bbox_xyxy": [
+          149,
+          518,
+          795,
+          552
+        ],
+        "text": "MODEIE DFS NIAMX"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.883517861366272,
+        "bbox_xyxy": [
+          149,
+          140,
+          710,
+          161
+        ],
+        "text": "MICRSIMILERT'AVENIRIDESREIRAITESENERANC"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9839858412742615,
+        "bbox_xyxy": [
+          182,
+          648,
+          1053,
+          969
+        ],
+        "text": "L'une est I'approche en population 《 ouverte >. Elle part d'un noyau dur d'individus qui constituent le coeur de la simulation et auxquels on rajoute, en fonction des besoins, des individus supplémentaires représen- tant leurs conjoints, enfants ou autres apparentes. Ce systeme conduit a gérerdeséchantillonsdestructurenonréguliere:soitl'unitéd'observation est le menage lui-meme et la taille de I'enregistrement qui decrit cette unite varie au cours du temps, soit on continue de ne gerer que des individus liés les uns aux autres mais avec une separation entre les individus de base de la simulationetleursapparentes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822133779525757,
+        "bbox_xyxy": [
+          181,
+          972,
+          1053,
+          1657
+        ],
+        "text": "On a plutot retenu l'approche dite en population dite 《 fermée >. Le terme de population fermée ne signifie pas que le modele ignore la migra- tion : chaque année, il s'enrichit de nouveaux individus correspondant a l'apportmigratoire.Le termedepopulationfermeesignifiequelesunions seformententre individus del'échantillonet quele renouvellement naturel de léchantillon est assuré par les enfants nés de ces unions. En quelque sorte, on simule un 《 isolat > représentatif de la population fran- caise. En pratique, chaque enregistrement d'un individu contient a chaque date un certain nombre de pointeurs vers d'autres individus de l'échan- tillon auxquels il est lié par union, par ascendance, ou par descendance. De proche en proche, on a donc une description complete de l'environnement familial de l'individu et de la facon dont il évolue au cours du temps. Ceci suppose néanmoins d'initialiser ces liens familiaux. A la date initiale, le fichier de l'enquete ne nous donne que des liens se traduisant par une corésidence: les enfants a charge d'un individu enqueté sont eux-memes dans l'échantillon de I'enquete, mais pas ses parents s'ils vivent dans un menage différent. En revanche, l'enquete nous indique que l'individu i agé de 5o ans a, par exemple, sa mere encore vivante et nous indique son age. Sur cette base, la complétion des liens familiaux initiaux dans léchantillon"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820635318756104,
+        "bbox_xyxy": [
+          181,
+          212,
+          1053,
+          571
+        ],
+        "text": "Le fait de partir d'une enquete menages offrait par ailleurs la possibi- lité de construire un modele simulant non seulement le devenir des indi- vidus mais aussi de leurs menages. Une telle possibilité était importante : le but final n'est pas seulement la projection des droits a retraite individuels, mais une projection complete du niveau de vie des ménages de retraités, en comparaison avec le niveau de vie des menages d'actifs : ceci suppose a la fois la connaissance de la composition de ces ménages, des revenus de leurs différentsmembresetdesprestations allouéesglobalement auniveaudu ménage—tel est notamment le cas du minimum vieillesse attribué au menage en fonction du niveau global de ses ressources."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9605787992477417,
+        "bbox_xyxy": [
+          183,
+          575,
+          1053,
+          645
+        ],
+        "text": "Comment Destinie projette-t-il ces menages? Il existe deux grandes optionspourletraitementdesmenagesenmicrosimulationdynamique"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8851439356803894,
+        "bbox_xyxy": [
+          528,
+          140,
+          703,
+          160
+        ],
+        "text": "OIDIERBLANCHE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8413161039352417,
+        "bbox_xyxy": [
+          1021,
+          144,
+          1052,
+          161
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9834153652191162,
+        "bbox_xyxy": [
+          149,
+          212,
+          1021,
+          717
+        ],
+        "text": "se fait en allant chercher une veuve de cet age a qui on fait jouer ce role de mere de l'individu i. On 《 ferme > donc artificiellement la population initiale d'une facon cohérente avec la fermeture que gérera le modele en projection. A chaque date, on peut ainsi évaluer non seulement la compo- sition du menage de l'individu i, mais aussi le fait que ses parents soient ou non encore en vie, et inversement, la probabilité qu'un individu age ait un, deux ou davantage d'enfants vivants. Cette structure a permis des évalua- tions de l'environnement familial des personnes dépendantes (Duée et Rebillard, 2oo4). A terme, elle pourrait aussi permettre la mobilisation du modele pour des travaux prospectifs sur les legs.Par exemple, si la baisse des niveaux de retraite conduit les individus a davantage consommer leur patrimoine au cours de leur retraite, il doit en résulter une baisse des ressources héritées par la generation suivante qui pesera a son tour sur le niveau deressourcesde cettegeneration."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.97919100522995,
+        "bbox_xyxy": [
+          149,
+          719,
+          1021,
+          1584
+        ],
+        "text": "Une microsimulation n'est par ailleurs intéressante que si elle permet de rendre compte de la hiérarchisation sociale de la population. Dans Destinie, la variable qui détermine cette hiérarchie sociale est l'age de fin d'études. Il a été préféré a la categorie sociale ou au niveau de diplome car il s'agit d'une variable quantitative continue sur laquelle il est plus facile de formuler des hypotheses prospectives. Il est en effet difficile de dire ce que recouvrera la notion de《cadre》 ou ce que representera lebaccalaureat en 205o et donc deformuler les hypotheses sur les effectifs atteignant cette catégorie sociale ou ce niveau d'études a un tel horizon. En revanche, on est moins embarrassé pour formuler des hypotheses tendancielles sur l'age moyen de fin d'études et sa dispersion.Cette variable intervient de nombreuses manieres dans la simulation : elle est l'un des facteurs explica- tifs des transitions sur le marché du travail aux différents ages et des trajec toires de salaires — dans ce dernier cas,il s'agit du role qu'elle a classiquement dansles équations de salaire.Elle est également l'un des criteres sur la base duquel se forment les couples : le modele simule en effet une certaine endogamie en donnant davantage de probabilite aux unions entre individus de niveaux d'études comparables,et l'age de fin d'études des enfants de ces unions est lui-meme tiré dans des distributions depen- dant des ages de fins d'étude des deux parents. L'age de fin d'étude deter- mine par ailleurs la mortalité différentielle et a une influence directe sur le montant des droits a retraite puisqu'une entrée tardive sur le marché du travail réduit les chances d'arriver a 6o ans avec le nombre d'années de cotisation requisespour uneretraite a tauxplein."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9298261404037476,
+        "bbox_xyxy": [
+          150,
+          1587,
+          1021,
+          1656
+        ],
+        "text": "L'ensemble de ces caractéristiquesétaientprésentes desla toute premiereversion— -experimentale—dumodele(BlanchetetChanut,"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.874532163143158,
+        "bbox_xyxy": [
+          149,
+          140,
+          710,
+          161
+        ],
+        "text": "21h MICROSIMLER IAVENIRDESR RFLRALLFFNERANCE"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9866368174552917,
+        "bbox_xyxy": [
+          181,
+          646,
+          1054,
+          933
+        ],
+        "text": "Si lapremiereversiondumodeles'étaitcontenteedeceschoix assez sommaires en matiere de simulation des retraites, c'est parce que son objectif était surtout de montrer la faisabilité del'instrument. Les années qui ont suivi ontétéd'unepartconsacréesa des ameliorations substan- tielles des modules démographiques (Robert-Bobée, 2oo1 et 20o2） et emploi/salaire du modele (Colin, 1999a et 1999b), et d'autre part a enrichir la prise en compte de la complexité du systeme de retraite(Bardaji, Sédillot et Walraet, 2oo3). On va surtout insister sur ce dernier aspect (tableau 2)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9827708005905151,
+        "bbox_xyxy": [
+          182,
+          212,
+          1053,
+          501
+        ],
+        "text": "1998). En revanche, sur le volet retraite, celui-ci en était resté a une descrip tion tres fruste : renoncant temporairement a la possibilité de simuler la variété des regles des différents régimes, on avait choisi de faire comme si P'ensemble de la population francaise avait releve de la combinaison régime general/régimes complementaires ARRCO/AGIRC et on avait supposé un comportement systematique de liquidation de la retraite a l'age d'atteinte du taux plein. Les principales modifications du modele au cours de la deuxieme moitie des années 199o ont porté sur ces deux aspects."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9816058278083801,
+        "bbox_xyxy": [
+          181,
+          936,
+          1053,
+          1149
+        ],
+        "text": "L'ajout d'un module décrivant les pensions du secteur public allait de soi.Cesecteur n'avaitpasétéconcernepar la reforme de1993.La condi- tion d'obtention du taux plein était restée fixee a 37,5 ans, avec, contraire- ment au privé, une tres faible penalité pour les individus liquidant avant cet age. Un alignement au moins partiel de ses regles sur celles du secteur privéétaitdonc a l'ordredujour."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8891904950141907,
+        "bbox_xyxy": [
+          528,
+          141,
+          703,
+          160
+        ],
+        "text": ")IDIERBTANCHF"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8459716439247131,
+        "bbox_xyxy": [
+          180,
+          557,
+          1008,
+          623
+        ],
+        "text": "ADAPTATIONSETPRINCIPAUXAPPORTSDELAPREMIERE VERSIONDUMODELE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8421965837478638,
+        "bbox_xyxy": [
+          1021,
+          144,
+          1052,
+          160
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7578147649765015,
+        "bbox_xyxy": [
+          181,
+          1152,
+          1053,
+          1657
+        ],
+        "text": "L'autre grande question de la fin des années 199o a été lidée d'instaurer une plus grande marge de choix des individus de part et d'autre de Iage d'acces au taux plein. Le systeme issu de la réforme de 1993 restait tres pena- lisant pour les salariés du secteur privé liquidant avant ce taux plein avec une chute de 1o % du niveau de la pension par année d'anticipation. Une telle penalité allait sensiblement au-dela du niveau requis par le principe dit de neutralité actuarielle, selon lequel les variations de pension selon l'age de liquidation doivent juste compenser les variations des durées de cotisation et de service de la pension. Le systeme s'écartait également de la neutralité actuarielle au-dela du taux plein, mais dans l'autre sens : au-dela du taux plein, le taux de remplacement était totalement independant de l'age de liquidation : aucune compensation n'était offerte a l'individu acceptant de travaillerpluslongtempsetderaccourcirsaretraite,cequirevenaitaune forte taxation implicite du revenu du travail au-dela de l'age du taux plein."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6416605710983276,
+        "bbox_xyxy": [
+          181,
+          1152,
+          1054,
+          1657
+        ],
+        "text": "L'autre grande question de la fin des années 199o a été lidée d'instaurer une plus grande marge de choix des individus de part et d'autre de lage d'acces au taux plein. Le systeme issu de la réforme de 1993 restait tres pena- lisant pour les salariés du secteur privé liquidant avant ce taux plein avec une chute de 1o % du niveau de la pension par année d'anticipation. Une telle penalité allait sensiblement au-dela du niveau requis par le principe dit de neutralité actuarielle, selon lequel les variations de pension selon l'age de liquidation doivent juste compenser les variations des durées de cotisation et de service de la pension. Le systeme s'écartait également de la neutralité actuarielle au-dela du taux plein, mais dans l'autre sens : au-dela du taux plein, le taux de remplacement était totalement independant de l'age de liquidation : aucune compensation n'était offerte a l'individu acceptant de travaillerpluslongtempsetderaccourcirsaretraite,cequirevenaitaune forte taxation implicite du revenu du travail au-dela de l'age du taux plein."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850279092788696,
+        "bbox_xyxy": [
+          149,
+          213,
+          1021,
+          755
+        ],
+        "text": "C'est sur la base de ce constat qu'est apparue lidée de mieux se rappro- cher de la regle de neutralité actuarielle pour supprimer ces distorsions de choix individuels en faveur du seul taux plein (Charpin, 1999). Pour simuler les effets de tels changements, un modele postulant le départ au taux plein n'était plus acceptable, il fallait trouver une facon de simuler l'incidence sur les comportements de l'ouverture d'une plus grande marge de choix autour de ce taux plein.Le choix s'est porté sur le modele de Stock et Wise (i99o)décrivant le choix de l'age de depart comme un arbi- trage entre niveau et durée de la retraite, avec deux parametres principaux qui sont un coefficient dit de préférence pour le loisir — mais qu'on peut tout aussibienvoircommeunemesuredelapenibilitedutravail—etun coefficient de preference pour le present.Des valeurs élevees de ces deux parametres se traduisent par une plus forte préférence pour la retraite précoce et une moindre sensibilité aux bonifications financieres associées audepartplustardif."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9607864022254944,
+        "bbox_xyxy": [
+          150,
+          848,
+          1020,
+          1651
+        ],
+        "text": "Annee Question Developpements du modele 1993-1996 Simuler les consequences de la Premiereversiondumodele reformede1993 1999 TesterI'impactdereformescombinant Developpementd'unmodulesimulant durcissementdel'accesautauxplein lechoixdel'agedeliquidation(modele etflexibilisationaccrueautourdece de Stock et Wise, 199o)(Mahieu et tauxplein(Bardaji,SedillotetWalraet Sédillot,2000et2001) 2002) 2003 Examiner l'extension delareforme au Developpementd'unmodulesecteur secteurpublic public(Bardaji,SedillotetWalraet,2oo4) 2003 Etuider la redistributivite du systeme deretraite(WalraetetVincent,2oo3) 2003 CalculerI'impactdemesurespermettant ledepartavant6oanspourlesindividus acarrieretreslongue 2005 Projeterlecoutalongtermedela Developpementd'unmodulesimulant dependance l'entreeendependanceetI'allocation pourI'autonomie(APA).Valorisation dufaitquelemodeleprojetteegalement lesliensdeparente(simulationdu reseaud'aidantsinformels) 2005-2006 SimulerIincidencededifferents scenariospourlespensionsdereversion 2006 SimulerI'impactd'unrenforcement desincitationsalaprolongation au-dela dutauxplein"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8969347476959229,
+        "bbox_xyxy": [
+          148,
+          805,
+          890,
+          835
+        ],
+        "text": "TABLEAY2 Principalesauestionstraiteesal'aidedumodeleDestinie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8922267556190491,
+        "bbox_xyxy": [
+          148,
+          139,
+          711,
+          161
+        ],
+        "text": "21? MICR)SIMTERI:AVENIRI UF√F REIRALIESENERANCE"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9813335537910461,
+        "bbox_xyxy": [
+          181,
+          211,
+          1053,
+          898
+        ],
+        "text": "Ce module de comportement a été assez largement mobilise pour la prospective des ages de depart en retraite, soit avant la réforme intervenue en 2oo3, soit apres cette réforme, pour en évaluer les effets a posteriori et/ ou en étudier divers amenagements. Plus concretement, les principales dispositions de la réforme de 2oo3 ont été les suivantes (tableau 1). S'agis- sant des fonctionnaires, elle n'a pas remis en cause le fait de calculer leur pension sur la base de leur dernier salaire, contrairement au cas du secteur privé ou elle est calculée sur la base des 25 meilleures années. En revanche, elle a fait converger la durée requise pour la liquidation au taux plein vers la valeur de 4o ans a laquelle était deja arrivé le secteur privé en 2oo3 : la convergence s'est étalée jusqu'en 2oo8. Depuis cette date les deux durées évoluent de concert: 41 ans en 2o12, puis une évolution indexée sur la hausse de l'esperance de vie.Parallelement, les penalites et majorations pourdepartsavantouaprescetauxpleinontéterapprochéesdelaneutra- lité actuarielle. La penalité a été réduite dans le privé puisqu'elle y était tres forte, et augmentée dans le secteur public ou elle était tres faible. Et les deux régimes offrent désormais la meme incitation a prolonger au-dela du taux plein, initialement fixé a 3 % de bonification par année de report, progressivement augmentéa5%depuiscettedate."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9804260730743408,
+        "bbox_xyxy": [
+          181,
+          899,
+          1052,
+          1659
+        ],
+        "text": "Que nous a appris le modele sur l'incidence de ces differentes dispo- sitions?Unproblemeauquelils'estheurteestlafragiliteducalibragedu modele de Stock et Wise sur données francaises. Un systeme qui contrai- gnait fortement les departs au taux plein se traduisait par une concentra- tion des départs a cet age etdonc tres peu de révélation spontanée des preférences des agents enmatieredeniveauet deduréedela retraite Ceciaforcéa semontrer tresprudent surl'interpretation decesrésultats (Buffeteau et Godefroy, 2oo5; Conseil d'Orientation des Retraites, 2006). Maislemodelea aumoinsservi amontrer quel'effetcombinédes réformesde1993et2oo3surlesagesdeliquidationestplusambiguque ce que l'on aurait pu anticiper, contrairement a celui de la réforme de 2010 qui a consisté a agir mécaniquement sur l'age minimum d'ouver- ture des droits. Dans le secteur privé, l'explication principale de cette ambiguité est qu'un grand nombre d'individus arrivent en age de liquider en étant deja sortis du marche du travail. Le modele prolonge spontané- ment une telle situation dans le futur puisqu'il simule des entrées-sorties d'emploi en amont de la retraite par extrapolation de matrices de transi- tion entre emploi et non-emploi estimées a partir des données récentes. Vis-a-vis de ces individus, les bonifications pour prolongation d'activité sont sans effet, et ces individus, a l'inverse, peuvent étre tentés de tirer parti de la réduction des pénalités pour départ précoce, sauflorsqu'ils"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8843835592269897,
+        "bbox_xyxy": [
+          528,
+          141,
+          703,
+          160
+        ],
+        "text": ")IDIERBTANCHF"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8386885523796082,
+        "bbox_xyxy": [
+          1019,
+          144,
+          1052,
+          161
+        ],
+        "text": "21.0"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821593165397644,
+        "bbox_xyxy": [
+          149,
+          212,
+          1022,
+          463
+        ],
+        "text": "disposent d'un autre revenu de remplacement leur permettant d'attendre P'age du taux plein. Il n'y a que dans le secteur public que les effets de la réformede 2oo3 sont tous allés dansleméme sens d'un départ plus tardif, puisque les pénalités pour départ précoce y ont été renforcées olutotqueréduitesetdanslamesureoulesfonctionnairesnesontpas affectespar le non-emploi defin decarriere qui toucheles salaries duprivé."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.981659471988678,
+        "bbox_xyxy": [
+          148,
+          466,
+          1021,
+          790
+        ],
+        "text": "Ces messages sont illustrés par les tableaux 3 et 4. Pour la genération 1965-1974 liquidant autour de 2030, c'est surtout la réforme de 1993 qui modifie sensiblement les ages de liquidation, avec un effet d'environ une année. La réforme de 2oo3 ne rajoute que o,2 année de décalage a cet effet, en raison d'impacts opposés entre les individus encore en emploi lorsdelaliquidationetdejasortisdumarchédutravail avantcetteliqui- dation (tableau 4). Dans le cas du secteur public, en revanche, la réforme de2oo3auneffetimportant,maisdontunepartierattrapelefaitquece secteur n'avait pas du tout été concerné par la réforme de 1993."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9801788926124573,
+        "bbox_xyxy": [
+          149,
+          1240,
+          1020,
+          1469
+        ],
+        "text": "Hommes Femmes Statut precedant Poids Decalageinduitparla Poids Decalageinduit par la laretraite relatif reforme (nombre d'années) relatif réforme (nombre d'annees) En emploi 52% +1,3 34 % +1,4 Hors de I'emploi 48% +0,3 66 % -1,3 Ensemble +0,8 -0,4"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9780474305152893,
+        "bbox_xyxy": [
+          148,
+          914,
+          1019,
+          1036
+        ],
+        "text": "Reforme de1993 Reforme de2003 Salariés du prive 1,0 0,2 Salaries du public 2,2"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9006136059761047,
+        "bbox_xyxy": [
+          148,
+          139,
+          711,
+          162
+        ],
+        "text": "22O MICROSIMULERL'AVENIRDESRETRAITESENERANCE"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.898576021194458,
+        "bbox_xyxy": [
+          149,
+          840,
+          947,
+          903
+        ],
+        "text": "TABLEAU3 Impactdesreformesde1993et2oo3surlesagesdeliquidation, generation1g65-1974(decalagesenannees)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.6634409427642822,
+        "bbox_xyxy": [
+          147,
+          1056,
+          437,
+          1082
+        ],
+        "text": "Source:ModeleDestinie（2oo7)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5740422606468201,
+        "bbox_xyxy": [
+          148,
+          1495,
+          779,
+          1522
+        ],
+        "text": "Source:ModeleDestinieetConseild'OrlentationdesRetraites(2oo6"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5674996376037598,
+        "bbox_xyxy": [
+          151,
+          1134,
+          952,
+          1228
+        ],
+        "text": "TABLEAU4Impactdelareformede2oo3surlesagesdeliquidationselonla situationsurlemarchedutravailavantlaretraite(generation 1965-1974,secteurpriveuniquement,decalagesenannees)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4940156936645508,
+        "bbox_xyxy": [
+          151,
+          1134,
+          952,
+          1228
+        ],
+        "text": "TABLEAU4Impactdelareformede2oo3surlesagesdeliquidationselonla situationsurlemarchedutravailavantlaretraite(generation 1965-1974,secteurpriveuniquement,decalagesenannees)"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.47211822867393494,
+        "bbox_xyxy": [
+          147,
+          1056,
+          437,
+          1082
+        ],
+        "text": "Source:ModeleDestinie（2oo7)"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854404330253601,
+        "bbox_xyxy": [
+          181,
+          596,
+          1053,
+          1027
+        ],
+        "text": "Des limites sont par ailleurs apparues quant a la robustesse des projec- tions. Le modele n'était qu'imparfaitement calé sur les projections démo- graphiques 《 officielles 》 réalisées avec la methode traditionnelle des composants.Ilexistaitcertesunemiseencoherenceaveccesprojections globales mais elle restait indirecte et approximative. Ceci pouvait étre une source de fragilité a differents niveaux. Par exemple, les projections d'acti vite sont importantes non seulement pour projeter le nombre de contri- buteurs au systeme, mais également pour bien projeter les droits a retraite futurs ou les comportements de liquidation : par exemple, une sous- estimation des taux d'activite au cours du cycle de vie conduira a une sous- estimationdunombred'annéesdecotisation atteinteal'agede6oans,or on a vu l'importance de ce parametre dans le systeme de retraite francais."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9842435121536255,
+        "bbox_xyxy": [
+          181,
+          1030,
+          1053,
+          1424
+        ],
+        "text": "Une autre fragilité du modele était son comportement de court terme. Comme beaucoup d'autres outils de meme nature, Destinie a principale- ment été développe pour éclairer les conséquences a tres long terme du vieillissementdelapopulationetmoinsd'importanceadoncétedonnéea la qualité de ces projections a court terme. D'un certain point de vue on peut considérer que ceci correspond a une spécialisation normale des outils de simulation: certains modeles peuvent étre appropriés pour la projection de court terme et peu performants a long terme et d'autres modeles peuvent avoir les propriétés inverses. Mais une telle dichotomie n'est pas sans poser probleme : autant que faire se peut, il faut essayer de combiner la pertinence pour le court terme et le long terme."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9810234308242798,
+        "bbox_xyxy": [
+          182,
+          1427,
+          1054,
+          1641
+        ],
+        "text": "En sus de tous ces éléments, un motif supplémentaire de réécriture du modele a été l'émergence d'autres outils de meme type. L'expérience du modele Destinie 1 a conduit d'autres organismes a développer ou envisager des outilscomparables.Acejour,ceci s'estnotammenttraduitpar la constructiondumodelePrismedelacaissenationaled'assurancevieillesse (voirparexempleuneprésentationdansPoubelleetcollab.2oo6).Ce"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9766767024993896,
+        "bbox_xyxy": [
+          182,
+          452,
+          1053,
+          592
+        ],
+        "text": "Tout d'abord, le modele Destinie 1 présentait des couts d'entrée impor- tants.Memela productiondevariantes debaserestait une tache assezlourde. La tache était donc encore plus importante pour des simulations nécessitant des ajouts substantiels au modele de base, or tel est souvent le cas."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9736694097518921,
+        "bbox_xyxy": [
+          182,
+          270,
+          1053,
+          449
+        ],
+        "text": "Globalement, on peut dire que la premiere version du modele Destinie a étécapabled'apporterdeséclairagesutilessuruncertainnombredesques tions qui lui ont été posées depuis une quinzaine d'années. Pour autant, cettepremiereexperienceafaitressortiruncertainnombredelimitesde I'instrument, qui ont motivélelancementd'une réécriture complete."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9057500958442688,
+        "bbox_xyxy": [
+          181,
+          209,
+          1008,
+          246
+        ],
+        "text": "MOO REECRITYRE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8907874822616577,
+        "bbox_xyxy": [
+          528,
+          141,
+          703,
+          160
+        ],
+        "text": ")IDIERBTANCHF"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8406146764755249,
+        "bbox_xyxy": [
+          1021,
+          144,
+          1051,
+          159
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9827702045440674,
+        "bbox_xyxy": [
+          149,
+          899,
+          1021,
+          1294
+        ],
+        "text": "La nouvelle version du modele qui est opérationnelle depuis 2o11 a cherchea repondre acesdiverseslimitesetacesnouveauxbesoins,touten conservant l'essentiel des aspects positifs de ce premier modele Destinie 1. L'objectif du nouveau modele reste de fournir une simulation complete de la structure demographique de la population francaise, y compris de lévo- lution de la structure familiale, croisée avec une simulation des trajectoires professionnelles et des droits a retraite qui distingue les droits du régime general et des régimes assimilés, les droits des régimes complémentaires de salariesduprivé(ARRCOetAGIRC)etenfinlesdroitsdes agentsdela fonction publique. On continue également de le faire a partir d'une base de donnees initialesfondée sur une enquete,l'enquetePatrimoine."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9788235425949097,
+        "bbox_xyxy": [
+          149,
+          211,
+          1021,
+          897
+        ],
+        "text": "modele concerne les cotisants et prestataires du régime général, mais, a terme,l'existencedesourcesadministrativescombinantl'informationde l'ensemble des caisses de retraite(échantillon interrégime de retraités et échantillonsinterrégimedecotisants)pourraitconduireaudeveloppe- ment d'un outil de meme nature s'appliquant a l'ensemble de la popula- tion, ce qui était précisement le champ d'application principal de Destinie 1. Globalement, la tendance est a l'appropriation de la methode de microsi- mulation par des organismes qui ont le double avantage comparatif d'un acces a des données plus détaillées et plus précises, et une connaissance plus fine de la législation tres complexe qui régit le calcul des retraites. Dans ce contexte il est possible que le modele Destinie devienne moins sollicitesurlesquestionsderetraitesstrictosensu.Lareponseacette nouvelle donne a consisté a redonner aux modeles Destinie une perspec- tive plus genéraliste, celle d'un outil de simulation des trajectoires a long terme des individus et de leurs menages permettant de répondre a diverses questions liées a la thématique du vieillissement, ou nécessitant la disponi- bilité de données panelisees en tres longue periode. Mais cette orientation était difficile a envisager sous la forme dans laquelle était programmé Destinie 1. Il fallait élaborer un outil plus flexible et plus adaptable."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9737018346786499,
+        "bbox_xyxy": [
+          150,
+          1297,
+          1021,
+          1511
+        ],
+        "text": "Maislenouveau modele se distinguedel'ancienpar une separation complete entre lebloc simulant la demographie et les trajectoires profes- sionnelles et le bloc destiné a la simulation des retraites, ainsi que par une tres forte modularité de ce second bloc, qui laisse la porte ouverte a de nombreuxenrichissements.Onvaessayerdedonnerunevued'ensemble. non technique', de ce que permet cette nouvelle structure. On va d'abord"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9599460959434509,
+        "bbox_xyxy": [
+          149,
+          1569,
+          1020,
+          1658
+        ],
+        "text": "1.Cettepresentations'appuielargementsurBlanchetetcollab.(2oii)danslequelon trouverad'autresinformationssurlemodele.Pourlefonctionnementdetailledu blocretraitesonpeutégalementseréféreraBlanchetetCrenner(2oio)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.875060498714447,
+        "bbox_xyxy": [
+          149,
+          139,
+          710,
+          161
+        ],
+        "text": "222 MICROSIMTER ：AVENR REIRAIIFSFNERANIE"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850938320159912,
+        "bbox_xyxy": [
+          181,
+          575,
+          1054,
+          1046
+        ],
+        "text": "Le nouveau modele Destinie 2 comprend deux étages. Comme c'était le cas pour Destinie 1, les principales données en entrée du modele sont les donnees de l'enquete Patrimoine,dont la derniere édition disponible remonte a lannée 2oo3, ce qui implique que les projections prendront cette annee 2oo3 comme annee de depart. Le premier étage du modele est constitué de ce qu'on appelle le genérateur de biographies. Il part de cette basededonneesetlacompletedansdeuxdirections:ilimputetousles éléments rétrospectifs nécessaires a une projection des retraites mais qui ne sont pas disponibles dans l'enquete, et il établit les projections a long terme des trajectoires démographiques et sur le marché du travail pour tous les individus de chaque échantillon de départ et pour les nouveaux individus dont on simule lentrée dans la population, par naissance ou par migra- tion, sur l'ensemble dela periode deprojection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845690727233887,
+        "bbox_xyxy": [
+          182,
+          1373,
+          1054,
+          1659
+        ],
+        "text": "L'autre caractéristique importante du nouveau modele est que ce deuxieme bloc ne se présente plus sous forme d'un programme unique dont l'utilisateur aurait a modifier le paramétrage ou a compléter le code d'un scénarioa l'autre.Le choix a plutot été de développer une boite a outils de simulation qui sert a construire de petits programmes de simula tion ad hoc construits en fonction des besoins des utilisateurs. En s'ap puyant surles fichiers issus du générateur debiographies et enmobilisant différentes bibliotheques de programmes qui lui sont fournis, l'utilisateur"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983855664730072,
+        "bbox_xyxy": [
+          182,
+          1048,
+          1053,
+          1369
+        ],
+        "text": "Les résultats de ce premier bloc sont stockés dans des fichiers intermé- diairesde donnéesindividuelles.A cetteétape aucuneinformationn'est fournie ni generée sur le niveau des retraites ni sur le statut de retraité. Les trajectoires professionnelles qui sont stockées dans ces fichiers intermé- diaires sont des trajectoires potentielles prolongées jusqu'a des ages arbitrai- rement élevés. C'est au deuxieme bloc qu'il revient de simuler l'ensemble des comportements de départ en retraite et les droits associés. Ce second étage du modele (le 《 simulateur de retraites >) relit les résultats du premier bloc et ajoutecette simulationdu comportement deliquidation."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9814334511756897,
+        "bbox_xyxy": [
+          182,
+          211,
+          1054,
+          428
+        ],
+        "text": "expliquer I'interet de cette organisation duale, puis on detaillera la facon dont sont simulées les trajectoires démographiques et professionnelles, et enfin le fonctionnement des modules appliqué(s) a la retraite. On conclura en présentant une illustration mobilisant la capacité du modele a fournir des résultats au niveau des ménages: il s'agira d'une projection a long termeduniveaudevierelatifdesmenagesderetraites."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9408054351806641,
+        "bbox_xyxy": [
+          182,
+          485,
+          1041,
+          555
+        ],
+        "text": "LESPRINCIPALESCARACTERISTIQUESDUMODELEDESTINIE2:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8908210396766663,
+        "bbox_xyxy": [
+          528,
+          141,
+          703,
+          160
+        ],
+        "text": ")IDIERBTANCHF"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8438276648521423,
+        "bbox_xyxy": [
+          1018,
+          144,
+          1052,
+          161
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9746306538581848,
+        "bbox_xyxy": [
+          150,
+          212,
+          1021,
+          427
+        ],
+        "text": "construit autant de programmes de simulation qu'il lui est nécessaire, le principe étant d'avoir un programme different pour chaque application En pratique,le travail de programmation que ceci requiert peut rester limité, car chaque programme n'a pas a étre construit a partir de zeéro, mais est engenéral réalisé en repartant deprogrammes deja mis au point pour d'autresapplications."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9371886849403381,
+        "bbox_xyxy": [
+          148,
+          431,
+          1020,
+          499
+        ],
+        "text": "Quels sont les avantages de cette structure a deux étages et de la modu laritédusecondbloc?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8893159627914429,
+        "bbox_xyxy": [
+          149,
+          140,
+          710,
+          161
+        ],
+        "text": "MICROSIMTER T:AVENIRF>E RFLRALLF/FNERANC"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8886511921882629,
+        "bbox_xyxy": [
+          197,
+          503,
+          907,
+          536
+        ],
+        "text": "andsavantages"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8239978551864624,
+        "bbox_xyxy": [
+          199,
+          1206,
+          1021,
+          1601
+        ],
+        "text": "Enfin, le fait de raisonner sur des trajectoires démographiques et professionnellesfixesfacilitel'analysedetailléedel'impactdes réformes au niveau individuel. Lorsque toutes les trajectoires sont resimulées pour chaque variante, on peut assister a des décalages desgenerateursdetiragestochastiquequimodifientl'ensembledes trajectoires individuelles. Le modele Destinie 1 évitait ce probleme par un artifice de programmation qui alourdissait le code du programme. Le probleme est ici résolu d'office par le fait de garder le meme fichier de trajectoires d'une variante al'autre.Deux simu- lations de retraite avec des regles de calcul différentes s'appliquent a deux populations exactement identiques et ceci permet des calculs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7116794586181641,
+        "bbox_xyxy": [
+          197,
+          953,
+          1020,
+          1203
+        ],
+        "text": "Comme la simulation des trajectoires démographiques et profes- sionnelles n'a pas vocation a étre relancée de maniere répetitive, on peut se permettre de la réaliser avec un programme assez lourd dans lequel sont introduits divers calages sur les projections démo- graphiques et de population active qui sont disponibles par ailleurs. Ces calages sont couteuxen temps de calcul et il est donc preferable de ne pas avoir a les renouveler a trop forte fréquence."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.47475555539131165,
+        "bbox_xyxy": [
+          196,
+          736,
+          1020,
+          949
+        ],
+        "text": "La genération des trajectoires démographiques et sur le marché du travailestfaiteunefoispourtoutes.Lasimulationd'unscenariode retraitesnerequiertpasuneresimulationcouteusedel'ensemble des autres caractéristiques des individus. Les programmes qui produisentles simulations deretraite sont doncplus compacts et leurtempsd'executions'entrouveraccourci."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.43006187677383423,
+        "bbox_xyxy": [
+          193,
+          553,
+          1024,
+          1604
+        ],
+        "text": "Durant la phase de développement, elle a permis un travail auto- nome surlesdeux volets du modele.Les utilitaires de calcul des droitsaretraite du deuxiemebloc ontpuétre développés et testes sur des versions tres provisoires des biographies générées par le premier bloc sans attendre que celui-ci soit stabilisé. La genération des trajectoires démographiques et sur le marché du travail est faite une fois pour toutes. La simulation d'un scenario de retraites ne requiert pas une resimulation couteuse del'ensemble des autres caractéristiques des individus.Les programmes qui produisent les simulations de retraite sont donc plus compacts et leurtempsd'executions'entrouveraccourci. Comme la simulation des trajectoires démographiques et profes- sionnelles n'a pas vocation a étre relancée de maniere répetitive, on peut se permettre de la réaliser avec un programme assez lourd dans lequel sont introduits divers calages sur les projections démo- graphiques et de population active qui sont disponibles par ailleurs. Ces calages sont couteuxen temps de calcul et il est donc preferable de ne pas avoir a les renouveler a tropforte fréquence. Enfin, le fait de raisonner sur des trajectoires demographiques et professionnelles fixes facilite l'analyse détaillée de l'impact des réformes au niveau individuel. Lorsque toutes les trajectoires sont resimulées pour chaque variante, on peut assister a des decalages des generateurs de tirage stochastique qui modifient l'ensemble des trajectoires individuelles. Le modeleDestinie 1 évitait ce probleme par un artifice de programmation qui alourdissait le code du programme. Le probleme est ici résolu d'office par le fait de garder le meme fichier de trajectoires d'une variante a l'autre. Deux simu- lations de retraite avec des regles de calcul différentes s'appliquent a deuxpopulations exactement identiques et ceci permet des calculs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3068290054798126,
+        "bbox_xyxy": [
+          198,
+          555,
+          1021,
+          732
+        ],
+        "text": "Durant la phase de développement, elle a permis un travail auto- nomesurlesdeuxvoletsdumodele.Lesutilitairesdecalculdes droits a retraite du deuxieme bloc ont pu étre développés et testés surdesversionstresprovisoiresdesbiographiesgenereesparle premierblocsans attendrequecelui-cisoitstabilisé."
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9828478097915649,
+        "bbox_xyxy": [
+          182,
+          302,
+          1054,
+          841
+        ],
+        "text": "Ces avantages ont une contrepartie, a savoir le fait que cette organisa- tion interdit en principe de construire des scenarios dans lesquels les scénarios de retraite rétroagiraient sur les trajectoires démographiques ou d'emploi en amont de la retraite. Or on peut imaginer ce type de scenario. Une hypothese souvent avancée est par exemple le fait que les comporte- ments d'activité en fin de carriere sont influencés par l'horizon de la retraite.Une réforme qui éloigne cet horizon peut donc modifier les comportements bien en amont de l'age de 6o ans (Hairault, Langot et Sopraseuth, 2oo7). La simulation de ce type d'hypothese ne rentre cepen- dant pas dans le cadre des demandes les plus habituelles qui sont adressees aumodele.Audemeurant,lemodelen'interditpastotalementdesimuler ce type de retroaction. Il est en effet possible, dans le cadre d'un programme de simulation des retraites, de retravailler les trajectoires professionnelles issues du genérateur debiographiespourlesfaire dépendre en partie du scenario de retraite que l'on simule."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9765881299972534,
+        "bbox_xyxy": [
+          183,
+          845,
+          1054,
+          1058
+        ],
+        "text": "Pour cequi concernela structureentierementmodulairedubloc retraites,elle se justifieparlefait qu'il est totalement impossible deprevoir ex antel'ensembledesscenariosderetraiteetladiversitédesvariables d'output qu'il sera demandé de produire au modele. L'approche 《 boite a outils>permet deseménager le maximum depossibilités dans ce domaine, etelleadeuxavantagesannexes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9227622151374817,
+        "bbox_xyxy": [
+          264,
+          213,
+          1053,
+          281
+        ],
+        "text": "de l'impact des réformes toutes choses égales par ailleurs a des niveauxfins."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8909016847610474,
+        "bbox_xyxy": [
+          528,
+          140,
+          703,
+          160
+        ],
+        "text": "OIDIERBLANCHE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8390466570854187,
+        "bbox_xyxy": [
+          1018,
+          144,
+          1052,
+          161
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6143099665641785,
+        "bbox_xyxy": [
+          229,
+          1077,
+          1055,
+          1581
+        ],
+        "text": "D'une part, le principe consistant a avoir un programme différent pour chaque simulation est un moyen d'assurer une meilleure tracabilité:toutes les hypotheses qui ont servi a construire un fichier de résultats peuvent etre reconstituées en retournant au code source du programme qui genere ces résultats. Il n'y a pas besoin de prevoir une sauvegarde specifique du jeu d'hypotheses ayant servi a produirecesresultats. Par ailleurs, la boite a outils mise au point pour le modele peut aussiétre(etadéjaété）utilisée pourd'autres applications (Bensalemetcollab.,2oio).Ellepeutserviradesmicrosimulations fondées sur des biographies autres que celles fournies par le premier etage, issues par exemple de sources administratives. On peut aussi les appliquer a des séries de cas-types. Multiplier les usages de cette boite a outils contribue a ameliorer sa qualité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.48777714371681213,
+        "bbox_xyxy": [
+          230,
+          1077,
+          1053,
+          1327
+        ],
+        "text": "D'une part, le principe consistant a avoir un programme différent pour chaque simulation est un moyen d'assurer une meilleure tracabilité:toutes les hypotheses qui ont servi a construire un fichier de résultats peuvent étre reconstituées en retournant au code source du programme qui génere ces résultats. Il n'y a pas besoin de prevoir une sauvegardespecifique du jeu d'hypotheses ayant servi a produirecesresultats."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.36642709374427795,
+        "bbox_xyxy": [
+          233,
+          1330,
+          1054,
+          1580
+        ],
+        "text": "Par ailleurs, la boite a outils mise au point pour le modele peut aussiétre(etadéjaété）utilisée pourd'autres applications (Bensalem et collab., 2oio). Elle peut servir a des microsimulations fondées sur des biographies autres que celles fournies par le premier étage, issues par exemple de sources administratives. On peut aussi les appliquer a des series de cas-types. Multiplier les usages de cette boiteaoutilscontribueaameliorersaqualite."
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9837523698806763,
+        "bbox_xyxy": [
+          149,
+          723,
+          1021,
+          1337
+        ],
+        "text": "Hormis la gestion spécifique des liens de parente qui était deja une originalite du modele Destinie 1 et qui a été entierement reprise dans le nouveau modele, le bloc démographique présente les caractéristiques usuelles de tout modele de microsimulation dynamique. Les événements démographiques sont les unions, les separations, les naissances d'enfants, les déces et les migrations. La mortalité depend de l'age, de la période et du sexe:on utiliseles tables de mortalitéprospectives desprojections demo- graphiques deIINSEE.La simulation delamigration consiste a ajouter chaque année dans la population des individus supplémentaires avec des caracteristiques demographiques tirees aleatoirement pour reproduire les caracteristiques principales des flux de migrants, en termes de structure par sexe et age. Pour les autres phenomenes, les probabilites dependent de P'age ou de la durée écoulée depuis l'événement précédent, du sexe et, en general, de l'age de fin d'études. Elles sont reprises du dernier travail de mise a jour du module demographique de Destinie 1, qui s'était appuye sur les données de l'Echantillon Démographique Permanent de l'INSEE (Duée,2005)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9828715324401855,
+        "bbox_xyxy": [
+          149,
+          435,
+          1021,
+          722
+        ],
+        "text": "Le generateur de biographies part de l'enquetePatrimoine collectee par l'INSEE en 2oo3. L'échantillon initial de Destinie contient environ 20 ooo menages et 65 ooo individus, soit un sondage au 1/1ooo° mais,pour les travaux de développement ou la production de premiers résultats, un échantillon au 1/iooooede seulement65ooindividus estégalement dispo- nible. Ces deux tailles d'échantillon sont plus faibles que pour un grand nombre de modeles comparables,mais s'averent en général suffisantes pourle typedeprojections qu'ellesservent a produire."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9810158014297485,
+        "bbox_xyxy": [
+          150,
+          1339,
+          1021,
+          1627
+        ],
+        "text": "Pour toutes ces équations,hormis la mortalité,les parametres sont supposés constants au cours du temps. Ceci est a peu pres cohérent avec le scénario central des projections de l'INSEE qui est un scénario a migration et fécondité quasi-constantes mais n'a pas de raison de donner des résul- tats totalement identiques a ceux de ces projections, ne serait-ce qu'en raison des fluctuations d'échantillonnage ou parce que le principe meme de la projection n'est pas le meme. Une projection macro fondée sur des taux de fécondité par age et une projection micro fondée sur des probabi-"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9509154558181763,
+        "bbox_xyxy": [
+          149,
+          342,
+          964,
+          410
+        ],
+        "text": "LEGENERATEURDEBIOGRAPHIESDEMOGRAPHIQUESET PROFESSTONNELLES"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9427887201309204,
+        "bbox_xyxy": [
+          149,
+          213,
+          1021,
+          280
+        ],
+        "text": "On va maintenant détailler l'un apres l'autre le fonctionnement de ces deuxblocs."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8846434950828552,
+        "bbox_xyxy": [
+          148,
+          140,
+          710,
+          161
+        ],
+        "text": "MICRSIMLER T:AVENIRESE 上R台区（"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9866249561309814,
+        "bbox_xyxy": [
+          181,
+          719,
+          1054,
+          1258
+        ],
+        "text": "Pour ce qui concerne le volet activité/emploi, le modele tire parti de ce que l'enquete Patrimoine fournit également des informations sur les carrieres jusqu'a l'horizon 2oo3. Cette description est meme plus détaillée dans la derniere version de l'enquete que dans la version anterieure de 1997 qui était utilisée par le modele Destinie 1. Ceci devrait améliorer la qualité des projections fournies par le modele.Pour chaque année au-dela de l'age de sortie du systemescolaire,nous savons ce qu'a étele statut de l'individu sur le marché du travail: salarié du secteur public ou privé,travailleur independant, chomeur, retraité ou inactif. La seule modification que nous appliquons aux données brutes de l'enquete est que nous n'utilisons pas l'informationsurlestatut deretraité:comme onl'a dejaindiquéet comme on y reviendra encore plus loin, ce statut est réimpute par le simulateur de retraite. Pour les individus en age de retraite, le fichier contient donc des prolongations de carriere fictive jusqu'a l'age courant, sur la base du dernierstatut d'activitéconnu."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841904044151306,
+        "bbox_xyxy": [
+          181,
+          1262,
+          1054,
+          1621
+        ],
+        "text": "Apres 2oo3,touscesélements sontprojetes.Lestransitionsentreétats surle marché du travail se font selon des processus markoviens depremier ordre dans lesquels les probabilités de transition sont estimées a partir des enquetes emploi conduites par l'INSEE entre 1992 et 2002. Ces probabilités dependent des caracteristiques individuelles,en nous limitant évidemment a des caracteristiques qui sont elles-memes disponibles dans le modele. Les transitionsdependentdel'agedefind'études,del'agecourantetdel'inter- actionentrelesdeux.Lestransitionsverslaretraite,enrevanche,nesont toujours pas modelisées : une fois encore, ce travail est laisse au simulateur depensionsquiseraprésentéplusloin."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9832243919372559,
+        "bbox_xyxy": [
+          181,
+          212,
+          1053,
+          463
+        ],
+        "text": "lités d'avoir une naissance supplémentaire selon le nombre d'enfants deja eus et conditionnellement au fait d'etre en union ne donnent pasforcé- ment exactement les memes résultats. Or il est préférable d'avoir une microsimulation cohérente avec les projections disponibles par ailleurs : c'est ce qu'on appelle le probleme de l'< alignement >, c.-a-d. de mise en coherence entre une microsimulation et les messages donnes par les outils deprojectiontraditionnels."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9756067395210266,
+        "bbox_xyxy": [
+          181,
+          467,
+          1054,
+          716
+        ],
+        "text": "Dans Destinie 2, cet alignement est assuré en ajustant les probabilités individuelles de réalisation des événements pourlesquels on cherche a avoircettecoherence.Cecalageconcernelenombreannueldenaissances oudedecesparsexeetlesoldemigratoire.Ilconservelesrisquesou chances relatives deconnaitrel'événement considerépour chaqueindi- vidu concerné dans la population,mais majore ou minore le risque moyen defaconaobtenir,enesperance,lenombred'évenementssouhaités."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8894633650779724,
+        "bbox_xyxy": [
+          528,
+          141,
+          703,
+          160
+        ],
+        "text": ")IDIERBTANCHF"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.840185284614563,
+        "bbox_xyxy": [
+          1018,
+          144,
+          1052,
+          160
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848067760467529,
+        "bbox_xyxy": [
+          149,
+          1125,
+          1021,
+          1445
+        ],
+        "text": "Comme on l'a indiqué, il n'existe pas de programme complet prédé- terminé de simulation des retraites. Ce qui est proposé a lutilisateur est plutot un ensemble de bibliotheques d'utilitaires qui permettent la construction de programmes de simulation ad hoc. Dans les cas les plus simples, avec des sorties minimales, ces programmes se limiteront a quel- ques dizaines de lignes de code, mais leur taille peut ensuite étre étendue sans limites en fonction du nombre et de la complexité des variantes qui sont envisagées et du nombre devariables d'output quel'on veut obtenir en sortiedelasimulation."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836519956588745,
+        "bbox_xyxy": [
+          149,
+          211,
+          1021,
+          827
+        ],
+        "text": "Conditionnellement aux statuts passés et futurs sur le marché du travail, on impute enfin des niveaux de salaires coherents avec le niveau de salaire observé dans l'enquete en 2oo3 et évalué selon deséquations de salaire tenant compte du sexe, du diplome et de l'ancienneté et, en projec- tion, des progres de productivité anticipés d'ici 2o5o. Les spécifications retenues impliquent un retour compris entre 4 et 8 % par année d'éduca- tion supplementaire tandis queleretour sur l'anciennetepasse de3 % en debut de carriere a une valeur comprise entre 1 et 2 % en fin de carriere. Ces équations de salaire, a ce stade,ontété reprises telles quelles du modele Destinie 1. Il s'agit d'un aspect du modele sur lequel des ameliorations devront étre apportées assez rapidement. La forme des profils de salaire par age est en effet assez déterminante pour certains résultats du modele, par exemple la différence entre des systemes calculant la retraite sur la base de la derniere année de carriere —— comme dans le secteur public —, des 25 meilleures années de la carriere — comme dans le régime de base du secteur privé — ou l'ensemble de la carriere, comme dans les régimes complementairesparpoints."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9685852527618408,
+        "bbox_xyxy": [
+          150,
+          944,
+          1021,
+          1120
+        ],
+        "text": "Unefoisqu'unscenariodereferenceaéteconstruitetstabilisepourles trajectoiresdemographiquesetprofessionnellesetquesesrésultatsontété stockésdansdesfichiersintermédiaires,lesecondblocdumodeleprendle celaispourlasimulationdescenariosderetraite.Onvamaintenant précisercommentsefontcessimulations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9552097320556641,
+        "bbox_xyxy": [
+          148,
+          1450,
+          1020,
+          1519
+        ],
+        "text": "Les principales foncti s offertes par les librairies Destinie sont lessuivantes:"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9273500442504883,
+        "bbox_xyxy": [
+          150,
+          885,
+          817,
+          920
+        ],
+        "text": "\"ONSLRYRE YNE DES RETRAITES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8882184028625488,
+        "bbox_xyxy": [
+          148,
+          139,
+          710,
+          161
+        ],
+        "text": "MICRSIMLER RFIRALIFSFNERANIE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6780211329460144,
+        "bbox_xyxy": [
+          199,
+          1538,
+          1020,
+          1646
+        ],
+        "text": "L'utilisateur a acces a un jeu complet de variables prédeterminees et qui n'ont donc pas besoin d'etre redeclarees. Ceci inclut en premier lieulesvariablessocio-démographiquesquisontreluesdansles"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.501457929611206,
+        "bbox_xyxy": [
+          199,
+          1538,
+          1021,
+          1646
+        ],
+        "text": "L'utilisateur a acces a un jeu complet de variables prédeterminees et qui n'ont donc pas besoin d'etre redeclarees. Ceci inclut en premier lieulesvariablessocio-démographiquesquisontreluesdansles"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9734389185905457,
+        "bbox_xyxy": [
+          264,
+          212,
+          1054,
+          680
+        ],
+        "text": "fichiers produits par le genérateur de biographies, une fonction etant fournie qui permet a cette relecture d'etre automatique.Les variablesprédefinies comprennent aussilalistedetaillée despara- metresdecalculdesdroitsaretraiteetl'ensembledesvariables destinées a stocker les calculs intermédiaires oules résultatsfinaux dela simulation des retraites.L'utilisateur peut ensuite rajouter a cesvariablesprédeterminées touteslesvariablesindividuelles addi- tionnelles qu'il peut avoir envie de calculer a partir de ces variables prévues par défaut. C'est aussi a lui qu'il revient de déclarer les variables macro qui serviront a stocker les résultats agrégés de la simulation. Celles-ci varient en effet d'un exercice de projection a l'autre; il n'était pas possible ni souhaitable d'en définir la liste a priori."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.906862735748291,
+        "bbox_xyxy": [
+          230,
+          684,
+          1054,
+          1186
+        ],
+        "text": "L'utilisateur a ensuite acces a un ensemble de modules qui permet- tent une description fine des regles de calcul des droits a retraite, selon la législation courante,ou selon une quelconque des législa- tionspassees.Pourdonnerunexempleconcret,uneinstruction UseLeg(1945,2oo3) insérée dans le code du programme indique de fixer les différents parametres de calcul des retraites aux valeurs prevues en 2o03pourles individus delagenération1945.Cesvaleurs sont celles qui prevaudront pour toutes les operations qui suivront, jusqu'a nouvel appel de cette fonction. Si l'on souhaite appliquer une législation qui differe d'une législation existante ou passee, la démarche consiste a appeler la meme fonction UseLeg sur la législa- tionlaplusprochedecellequ'onsouhaitesimuler,puisderajouter les instructions de modification du ou des parametres de calcul des droitsaretraitesurlequel(oulesquels)portelavariante."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.887503445148468,
+        "bbox_xyxy": [
+          528,
+          140,
+          703,
+          160
+        ],
+        "text": "OIDIERBLANCHE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8505119681358337,
+        "bbox_xyxy": [
+          234,
+          1189,
+          1054,
+          1366
+        ],
+        "text": "L'utilisateur dispose de fonctions permettant de simuler les options decomportementdedépartenretraiteet/oulepérimetredece qu'il veut calculer : par exemple, il peut choisir de simuler l'en- sembledesdroits,ou desdroitsexcluanttelouteldes avantages noncontributifsoffertsparlesystemederetraite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8448832035064697,
+        "bbox_xyxy": [
+          233,
+          1369,
+          1054,
+          1621
+        ],
+        "text": "L'utilisateur dispose d'une procédure simulant la décision de départ en retraite et generant les droits associés et leur revalorisation pour lesanneesposterieuresaudepartenretraite.Cettefonctionpeut operer de maniere prospective, pour simuler les departs au-dela de l'année de démarrage de la projection, ou de maniere rétrospective pour réimputer les departs passés lors du demarrage de la projec tion. Des fonctions analogues simulent les pensions de réversion ou"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.843643844127655,
+        "bbox_xyxy": [
+          1017,
+          144,
+          1052,
+          160
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9705096483230591,
+        "bbox_xyxy": [
+          150,
+          452,
+          1021,
+          666
+        ],
+        "text": "Autotal,onpeutdoncvoirleblocretraitedumodeleDestinie2 comme un outil logiciel applique au calcul des retraites,concu pour que la réalisation devariantesélémentaires soit aussi simple quepossible,mais sansinterdireapriorilaconstructiondevariantescomplexes,moyennant évidemment une connaissance plus approfondie de la facon dont fonc- tionnel'instrument."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9667618274688721,
+        "bbox_xyxy": [
+          150,
+          1472,
+          1021,
+          1650
+        ],
+        "text": "Parmi l'ensemble de ces operations, deux méritent des commentaires particuliers. La premiere est le fait de reimputerles retraites du stock initial plutot que d'utiliser les observations directement fournies par l'enquete. L'autre concerne le menu d'options disponible pour simuler la décision de liquidation."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9342131614685059,
+        "bbox_xyxy": [
+          150,
+          670,
+          1020,
+          774
+        ],
+        "text": "Typiquement, pour une simulation élementaire, ces instruments sont mobilisés en cinq grandes étapes organisées en deux boucles imbriquées surladateetl'ensembledesidentifiantsindividuelsactifsachaquedate:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9171249270439148,
+        "bbox_xyxy": [
+          195,
+          798,
+          1022,
+          1446
+        ],
+        "text": "Pour chaque date on fait appel a la fonction qui relit les données issues du generateur de biographies, qu'il s'agisse des données initiales etretrospectives ou de donnees projetees. A date donnée, pour chaque individu, on fait appel a la fonction qui définit la législation qui doit lui étre appliquee. On spécifie égalementlesoptionsdecomportement. On simule sur cette base l'éventuel départ en retraite et les droits associés.Ceci inclut la simulation rétrospective des departs en retraite passés lorsqu'il s'agit de la premiere année de la projection. Pour les années suivantes et les individus qui sont deja a la retraite, on se contente de procéder a la revalorisation de la pension. L'en- sembledeces opérationsesteffectuépar appel d'uneetuneseule fonction,quiconstituelafonctioncentraledelabibliothequede programmes. On produit les tabulations souhaitées pour chaque date de projec- tion. A la fin de la projection, on sauvegarde les résultats de ces tabula- tions sousExcel."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8861153721809387,
+        "bbox_xyxy": [
+          148,
+          140,
+          710,
+          161
+        ],
+        "text": "MICRSIMTER T:AVENIRIFSE 上R台区（"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5679751038551331,
+        "bbox_xyxy": [
+          206,
+          286,
+          1020,
+          426
+        ],
+        "text": "Enfin,l'utilisateur a acces aun ensemble relativement riche et flexible de procédures de tabulation incorporées, et également de procédures permettant l'exportation directe des résultats finaux versdesfichiersExcel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5354647040367126,
+        "bbox_xyxy": [
+          229,
+          213,
+          1020,
+          281
+        ],
+        "text": "le minimum vieillesse, lorsqu'on souhaite les inclure dans I'exercice deprojection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.38271793723106384,
+        "bbox_xyxy": [
+          198,
+          212,
+          1023,
+          427
+        ],
+        "text": "le minimum vieillesse, lorsqu'on souhaite les inclure dans I'exercice deprojection. Enfin,l'utilisateuraaccesaunensemblerelativementricheet flexible deprocédures de tabulation incorporées,et également de procedurespermettant l'exportation directe desrésultatsfinaux versdesfichiersExcel."
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "stem": "page_0023",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9843436479568481,
+        "bbox_xyxy": [
+          181,
+          394,
+          1053,
+          970
+        ],
+        "text": "La premiere motivation a été d'éviter des phenomenes de disconti- nuité au démarrage de la projection.Enchainer une situation initiale fondée sur des retraites observées et une projection fondée sur des retraites imputées conduit a deux sources de discontinuité. L'une vient du fait que le modele de projection ignore forcément un certain nombre de caractéris- tiques fines des baremes:les pensions calculées en flux peuvent donc etre légerement incohérentes avec celles qui seraient parfaitement observées en stock. D'autre part, les pensions observées en stock sont loin d'etre mesu- rées parfaitement: les niveaux auto-déclarés peuvent étre sur ou sous- estimés par les déclarants, auquel cas il y a forcement incoherence entre les données du stock et les données simulées en flux. C'est pour éviter ces deux sources d'incohérence qu'on a pris le parti d'une simulation globale homogene du flux et du stock. Les niveaux de pension simulés peuvent s'en trouver légerement biaisés, dans la mesure ou le modele de simulation n'est pas parfait, mais on a considéré qu'il valait mieux une projection a biaisconstantqu'abiaisvariable."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9830256104469299,
+        "bbox_xyxy": [
+          182,
+          973,
+          1053,
+          1295
+        ],
+        "text": "Un second intéret de cette facon de procéder est qu'elle rend assez facilela simulation de scenarios fondés sur des conditions initiales contre- factuelles. Par exemple, une demande typique est lanalyse de la contribu- tion des réformesde1993etde2oo3al'évolution del'équilibre des systemes de retraite.Pour cela, il faut un scénario dans lequel la législation de 1992 est maintenuejusqu'a lafin delaprojection,et danslequel les conditions initialessontdesconditionscontrefactuellesreconstituantcequ'auraitéte le point de départ en 2oo3 en l'absence dela réforme de 1993.Ceci se fait facilement en modifiant la regle d'imputation initiale des pensions."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821488261222839,
+        "bbox_xyxy": [
+          182,
+          1297,
+          1054,
+          1657
+        ],
+        "text": "Pour ce qui concerne les options de simulation du comportement de liquidation, elles sont au nombre de cinq. La premiere option consiste a supposer que les individus liquident leur retraite des qu'ils atteignent le taux plein, a un age qui dépend donc de leur durée de cotisation passée. Les deux options suivantes supposent que lindividu liquide a un age maxi- misant une fonction d'utilité, qui peut étre soit une fonction d'utilité instantanee,soitunefonctiond'utiliteintertemporelle,cederniercas correspondant au modele de Stock et Wise.Les deux dernieres options font intervenir la notion d'équivalent patrimonial des droits a retraite, c'est-a-dire la somme actualisée des prestations attendues entre l'age de"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9701312780380249,
+        "bbox_xyxy": [
+          182,
+          213,
+          1054,
+          392
+        ],
+        "text": "Le choix d'imputer les ages de departs en retraite passes et les niveaux depension associessansutiliserlesinformationsdonnees dansl'enquete peut sembler paradoxal puisqu'il revient a se priver délibérément d'une information qui est disponible dansl'échantillon de départ, mais il a deux avantagesprincipaux."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8910223245620728,
+        "bbox_xyxy": [
+          528,
+          140,
+          703,
+          160
+        ],
+        "text": "OIDIERBLANCHE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.839975118637085,
+        "bbox_xyxy": [
+          1021,
+          144,
+          1051,
+          161
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "stem": "page_0024",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848971366882324,
+        "bbox_xyxy": [
+          149,
+          1152,
+          1021,
+          1440
+        ],
+        "text": "En dehors de ces options, il est aussi possible de faire fonctionner Destinie avec des ages de liquidation totalement exogenes, uniformes ou différenciés selon les individus. On peut par exemple réutiliser les ages de liquidation simulés dans un scénario de référence: ceci permet de calculer l'incidence d'un scénario de réforme a comportement de liquidation inchange, puis de voir comment la modification des comportements permet aux individus de compenser les modifications de droits auxquelles ilsfont face a comportement inchange."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815776944160461,
+        "bbox_xyxy": [
+          149,
+          430,
+          1021,
+          1151
+        ],
+        "text": "L'option Stock et Wise est celle qui suppose de déterminer le plus grand nombre de parametres : non seulement le parametre de penibilité du travail ou de préférence pour le loisir, mais aussi un parametre d'aversion au risque et un taux de preference pour le present. Elle necessite aussi la prise en compte des probabilites de survie aux differents ages, ce qui est aussi le cas des deux options mobilisant l'équivalent patrimonial des droits a retraite. Le modele a prevu que tous ces parametres puissent étre éventuellement variables d'un individu a l'autre.A ce stade leurs valeurs sont neanmoins uniformes pour l'ensemble de la population, et leur calibrage reste prélimi- naire. Comme on l'a deja indiqué, ce calibrage reste délicat du fait que, jusqu'a présent, les ages de liquidation ont été fortement contraints par la structure des baremes ou le droit du travail, qui incitaient ou contraignaient apartirexactemental'agedutauxplein,cequi donnaitpeudemargepour Pidentification des préférences individuelles. L'analyse ex post des effets des réformes commence a fournir des éléments qui permettront d'améliorer cette identification.Mais,meme lorsque le parametrage sera stabilisé, il resterautiledeprocederadestestsderobustesse,consistantasimulerles memes variantes de législation avec différentes options de comportement et/ou différents parametrages de ces options de comportement pour faire ressortirl'incertitudeinherenteacetypedeprojection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9783580303192139,
+        "bbox_xyxy": [
+          150,
+          212,
+          1021,
+          427
+        ],
+        "text": "liquidation et I'age du deces.Dans un cas on suppose queI'individu liquide a l'age qui maximise cet équivalent patrimonial des droits a retraite. Dans l'autre cas, on suppose qu'il liquide des que le report d'une année fait baisser cet indicateur, par exemple en raison d'une surcote insuffisante, et meme si un report d'un montant superieur pourrait éventuellement le faireremonter."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9561342000961304,
+        "bbox_xyxy": [
+          149,
+          1588,
+          1021,
+          1658
+        ],
+        "text": "A titre d'illustration, on va présenter les résultats du nouveau modele Destinie2enmatieredeniveaudevierelatifdesretraites.Ils'agitd'une"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9222937822341919,
+        "bbox_xyxy": [
+          149,
+          1496,
+          994,
+          1562
+        ],
+        "text": "UNEXEMPLEDESIMULATION:PREVOIRLENIVEAUDEVIE RELATIFDESRETRAITES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.883945107460022,
+        "bbox_xyxy": [
+          149,
+          139,
+          710,
+          161
+        ],
+        "text": "MICROSIMTER ：AVENR REIRAIIFSFNERANIE"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "stem": "page_0025",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9830294251441956,
+        "bbox_xyxy": [
+          181,
+          212,
+          1054,
+          571
+        ],
+        "text": "projection intégrant les effets des réformes de 1993 et 2o03. Contrairement a ce qui a éte presente précédemment, on se tient a l'hypothese de liquida tion a taux plein². Meme sous cette hypothese de depart a taux plein, on s'attend a un décrochage significatif des retraites par rapport aux revenus des actifs, surtout dans le secteur privé. Les principaux canaux de ce décro- chement sont le calcul de la retraite sur la base du salaire des 25 et non plus des 1o meilleures années, le fait que les retraites, une fois liquidées, sont desormaisindexeessurlesprixetenfinl'adoptiondemesuresrelativement radicales dans les années 199o-2ooo en matiere de prix d'achat et de valeur despointsderetraite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.981947660446167,
+        "bbox_xyxy": [
+          182,
+          1008,
+          1053,
+          1404
+        ],
+        "text": "Ceci veut-il dire pour autant que le niveau de vie relatif des retraités tendrait a ne plus représenter que 4o % de celui des actifs ? La réponse est négative car la comparaison des niveaux de vie des actifs et des retraités doitprendreencomptelestauxdeprélevementsquisontplusfaiblessur lesretraites que surles salaires.Elle doit aussi prendre en comptela composition et l'ensemble des revenus du menage. Les menages d'actifs ne sont pas tous des couples de bi-actifs et ils ont en général des enfants a charge.Leur niveau devieest donc inferieur au salairenetmoyen.Le niveau de vie des retraités bénéficie en sens inverse du fait qu'ils n'ont plus d'enfantsachargeetsoncalculdoitprendreencomptenonseulementles droitsdirects,mais aussiles reversions ainsi queleminimum vieillesse"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9430713057518005,
+        "bbox_xyxy": [
+          182,
+          1451,
+          1054,
+          1658
+        ],
+        "text": "2.Cettesections'appuiesurBacheletetcollab.(2oio).Depuislarealisationdecette étude, un réexamen des hypotheses de comportement de depart a été fait sur la base de ce modele Destinie 2, incluant une prise en compte des effets dela réforme de 2010 (voir Bachelet et collab., 2oi1). En principe, cette reforme ne devrait avoir qu'un impact limité sur le niveau de vie relatif des retraités : leffet qui en est attendu est surtout d'induire un décalage des departs en retraite, sans effet majeur sur le niveau despensions."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8911483287811279,
+        "bbox_xyxy": [
+          181,
+          575,
+          1054,
+          1004
+        ],
+        "text": "En matiere de taux de remplacement, ces mesures ont déja largement produit leurs effets : par exemple, le passage aux 25 meilleures années s'est acheve en 2oo8. Logiquement, le modele prévoit donc des taux de rempla- cementrelativementstablessurlesquarante annéesavenir.Maisles baisses passees dece taux de remplacement et la nouvelle regled'indexa- tion sur les prix ont des effets de diffusion progressifs sur le ratio entre la pension moyenne brute de droit direct du stock de retraités et le salaire brut moyen. C'est ce ratio qui décroche fortement en projection, passant d'un peu moins de 5o % a un peu moins de 4o % (figure 1). C'est grace a ce décrochementquelesréformespasséesontd'oresetdejaaccompliun cheminimportantverslareductiondesdeficitsprevisionnelsdesregimes deretraite."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8806191682815552,
+        "bbox_xyxy": [
+          528,
+          140,
+          703,
+          161
+        ],
+        "text": "OIDIERBLANCHE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8398940563201904,
+        "bbox_xyxy": [
+          1018,
+          144,
+          1052,
+          161
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.36121392250061035,
+        "bbox_xyxy": [
+          182,
+          575,
+          1053,
+          1005
+        ],
+        "text": "En matiere de taux de remplacement, ces mesures ont deja largement produit leurs effets : par exemple, le passage aux 25 meilleures années s'est acheve en 2oo8. Logiquement, le modele prevoit donc des taux de rempla cementrelativementstablessurlesquaranteanneesavenir.Maisles baisses passees dece taux de remplacement et la nouvelle regle d'indexa- tionsurlesprix ont deseffetsdediffusionprogressifssurleratioentrela pension moyenne brute de droit direct du stock de retraités et le salaire brut moyen. C'est ce ratio qui décroche fortement en projection, passant d'un peu moins de 5o % a un peu moins de 4o % (figure 1). C'est grace a ce décrochement que les réformes passées ont d'ores et deja accompli un cheminimportantverslaréductiondesdéficitsprevisionnelsdesregimes deretraite."
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "stem": "page_0026",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9833393096923828,
+        "bbox_xyxy": [
+          149,
+          1097,
+          1022,
+          1637
+        ],
+        "text": "En I'état, Destinie ne permet pas de simuler I'ensemble de ces éléments, mais le fait qu'il simule la structure des ménages, leur degré de participa- tion au marché du travail, les pensions de réversion et le minimum vieillesse suffit deja a donner un éclairage prospectif assez pertinent sur le futur niveau de vie relatif des retraites. Les figures 2a a 2c donnent, selon l'age de l'individu, le revenu global du menage auquel il appartient (2a), la taille de ce ménage (2b) et le niveau de vie au sein de ce ménage apres correction du revenu monetaire par le nombre d'unités de consommation (2c).En 2oio, avec tous ces élements, Destinie reconstitue un niveau de vie relatif des plus de 65 ans quasiment équivalent a celui des moins de 65 ans, ce qui est totalement coherent avec les mesures directes couramment réali- sées a partir des données sociales et fiscales (Baclet, 2oo6). En projection, on passerait de cette quasi parité de niveau de vie a une situation ou le niveau de vie des retraités ne représenterait plus que 84 % de celui des actifs (figure1)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9727877974510193,
+        "bbox_xyxy": [
+          150,
+          952,
+          1020,
+          1094
+        ],
+        "text": "dontl'applicationsefaitsousconditionderessourcesdel'ensembledu menage. En toute rigueur, la comparaison doit aussi prendre en compte les revenus du patrimoine, en moyenne plus éleves pour les retraites, et les autresprestationssociales s—avantageantplutotlesactifs"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9659896492958069,
+        "bbox_xyxy": [
+          151,
+          288,
+          1016,
+          835
+        ],
+        "text": "100 90 80 70 60 50 40 30 20 10 2010 2015 2020 2025 2030 2035 2040 2045 2050 Pensionbrute/salairebrutRatiodesniveauxdevienets(plusde65ans/moinsde65ans)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8860636949539185,
+        "bbox_xyxy": [
+          149,
+          140,
+          710,
+          161
+        ],
+        "text": "MICROSIMUER I'AVENIRDESREIRAIIESENERANCE"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.7347723841667175,
+        "bbox_xyxy": [
+          147,
+          215,
+          1012,
+          275
+        ],
+        "text": "FIGURE1 Ratiospensionmoyennebrute/salairemoyenbrutetratiosdeniveaux deviedesplusde65ansetdesmoinsde65ans"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.3946934640407562,
+        "bbox_xyxy": [
+          148,
+          863,
+          373,
+          888
+        ],
+        "text": "Source:ModeleDestinie"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.3403271436691284,
+        "bbox_xyxy": [
+          288,
+          215,
+          1012,
+          275
+        ],
+        "text": "Ratiospensionmoyennebrute/salairemoyenbrutetratiosdeniveaux deviedesplusde65ansetdesmoinsde65ans"
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "stem": "page_0027",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9632800817489624,
+        "bbox_xyxy": [
+          183,
+          290,
+          1038,
+          701
+        ],
+        "text": "100000 2010 □2050 80000 60000 40000 20000 15-19 25-29 35-39 45-49 55-59 65-69 75-79 85-89 95-99 Tranche d'age (ans)"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9630571007728577,
+        "bbox_xyxy": [
+          187,
+          842,
+          1034,
+          1254
+        ],
+        "text": "■2010 口2050 15-19 25-29 35-39 45-49 55-59 65-69 75-79 85-89 95-99 Tranche d'age(ans)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9426575899124146,
+        "bbox_xyxy": [
+          181,
+          773,
+          924,
+          832
+        ],
+        "text": "FIGURE2B TailledumenageselonIagedelindividu,en2o1oet2050 (eneuros2oo6)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9073650240898132,
+        "bbox_xyxy": [
+          180,
+          215,
+          948,
+          274
+        ],
+        "text": "FIGURE2A Revenudumenageselonl'agedelindividu,en2o1oet2050 (eneuros2oo6)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9072198867797852,
+        "bbox_xyxy": [
+          528,
+          140,
+          704,
+          161
+        ],
+        "text": "QIDIERBLANCHEI"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8612235188484192,
+        "bbox_xyxy": [
+          1018,
+          144,
+          1052,
+          161
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "stem": "page_0028",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9826364517211914,
+        "bbox_xyxy": [
+          149,
+          890,
+          1021,
+          1465
+        ],
+        "text": "Les conséquences sociales d'un tel repli peuvent se lire de différentes manieres. C'est un retour en arriere significatif par rapport a la politique des retraites conduite jusqu'aux années 198o qui avait permis la conver- gence des niveaux de vie des actifs et des retraités. En meme temps, comme le montre la figure 2c, il ne s'agit pas d'un recul du niveau de vie absolu de ces retraités, tant s'en faut. Par ailleurs, meme en termes relatifs, ce repli ne nous fait pas chuter en deca des niveaux devie relatifs deja observes dans certains pays europeens a systemes de retraite moins favorables (Bachelet et collab., 2oi1). Néanmoins, un décrochement d'une telle ampleur pourrait ne pas etre sans incidence sur la part des retraites situes a proximite ou en dessous du seuil de pauvreté, des lors que celui-ci est défini en termes rela- tifs. Au moins autant que la question du niveau de vie moyen des retraités, la question importante pour les trente a quarante prochaines années est celle de la distribution de ces niveaux de vie. Tres clairement, c'est également par les methodes de microsimulation que ce type de questions doit étre abordé et la nouvelle version du modele devrait y contribuer."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9709178805351257,
+        "bbox_xyxy": [
+          151,
+          279,
+          1015,
+          702
+        ],
+        "text": "50000 ■2010 □2050 40000 30000 20000 10000 15-19 25-29 35-39 45-49 55-59 65-69 75-79 85-89 95-99 Tranche d'age (ans)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9522411823272705,
+        "bbox_xyxy": [
+          148,
+          725,
+          1020,
+          851
+        ],
+        "text": "Note:leniveaudeviecorrespondaurevenu totaldumenage auquelappartientIindividu,divisé parsonnombre d'unitesdeconsommation(1pour lepremier adulte,o,3pourlesenfants de moins de14 ans,o,5pourlesautresmembres).Pourlesindividusleplusjeunes,lerevenu et le niveaudevieélevess'expliquentparlefaitquelemenagedereferenceestceluideleursparents avecquiilscontinuentdecoresider."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8877611756324768,
+        "bbox_xyxy": [
+          149,
+          140,
+          710,
+          161
+        ],
+        "text": "MIRO>MLER T:AVENIRF>E RFLRALLF/FNERANC"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8827316164970398,
+        "bbox_xyxy": [
+          150,
+          215,
+          975,
+          274
+        ],
+        "text": "FIGURE2C Niveaudeviedumenageselonl'agedeIindividu,en2o1oet2050 (eneuros2oo6）"
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "stem": "page_0029",
+    "blocks": [
+      {
+        "label": "title",
+        "layout_score": 0.8898217082023621,
+        "bbox_xyxy": [
+          520,
+          213,
+          715,
+          244
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8713025450706482,
+        "bbox_xyxy": [
+          527,
+          139,
+          704,
+          161
+        ],
+        "text": "DIDIERBLANCHET"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8405633568763733,
+        "bbox_xyxy": [
+          178,
+          261,
+          1054,
+          1621
+        ],
+        "text": "BACHELET, M., M. BEFFY, D. BLANCHET et C. MARBOT. 2O10.《 LeS reVenus des retraités et des futurs retraités >, dans E. Le Bourg (dir.), Retraites, Demogra- phie, santé:vieillir en France aujourd'hui et demain,Vuibert: 67-84. BACHELET, M., M. BEFFY et D. BLANCHET. 2O11. 《 Projeter limpact des réformes des retraites sur I'activité des 55 ans et plus : une comparaison de trois modeles >, EconomieetStatistique,441-442:123-143. BACLET, A. 2oo6. 《 Les seniors, des revenus plus faibles pour les plus agés, compensés par un patrimoine plus élevé >, dans Les revenus et le patrimoine des menages, Edition 2006, INSEE Reférence. BARDAJ1, J., B. SEDILLOT et E. WALRAET. 2002.《 Evaluation de trois réformes du Régime general d'assurance vieillesse a l'aide du modele de microsimulation Destinie >, Document de travail, n°G20o2/o7, INSEE/Dese. BARDAJI, J., B. SEDILLOT et E. WALRAET. 2003.《 Un outil de prOspective des retraites : le modele de microsimulation Destinie >, Economie et Prévision, 160-161:193-213. BARDAJI, J., B. SEDILLOT et E. WALRAET. 2oo4.《 Les retraites du secteur public : projections a lhorizon 2o4o a l'aide du modele de microsimulation Destinie >, Document de travail INSEE/Dese n° G2oo4/14. BLANcHET, D. et J. M. CHANUT. 1998.《 Projeter les retraites a long terme. Résultats d'un modele de microsimulation >, Economie et Statistique, 315 : 95-106. BLANCHET D. et E. CRENNER. 201o.《 Le bloc retraites du modele Destinie 2: guide de l'utilisateur >, Document de travail INSEE/Dese n° G2o1o/14. BLANCHET, D.,S.BUFFETEAU, E.CRENNER et S.LE M1NEZ.2O11.《Le modele de microsimulation Destinie 2 : principales caracteristiques et premiers résultats >, Economie et Statistique,441-442:101-121. BUFFETEAU, S. et P. GoDEFROY. 2o05. 《 Conditions de départ en retraite selon l'age de fin d'études : analyse prospective pour les générations 1945 a 1974 >, Docu- ment de travail INSEE/Dese n°G2oo5/o1. BURRICAND,C.,P.GIVORD,E.KLOTZ,et B.SEDILLOT.20O1.《Fins de carriere et départ a la retraite >, L'Economie Francaise, édition 2o01-2002, INSEE/Le Livre de Poche. CHARPIN, J. M.1999. L'avenir de nos retraites, rapport au premier ministre. Paris, La Documentation Francaise. CoLIN, C. 1999a. 《 Modelisation des carrieres dans Destinie >, Document de travail INSEE/Desen°G99/02 CoLIN, C. 1999b. 《 Evolution de la dispersion des salaires : un essai de prospective par microsimulation >, Document de travail INSEE/Dese n° G99/03. CoLIN, C.,F. LEGROs et R. MAHIEU. 1999.《 Bilans contributifs comparés des régimes de retraite du secteur privé et de la fonction publique >, Document de travail INSEE/Dese n°G99/10."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8001901507377625,
+        "bbox_xyxy": [
+          1018,
+          143,
+          1052,
+          162
+        ],
+        "text": "237"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "stem": "page_0030",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9700714945793152,
+        "bbox_xyxy": [
+          149,
+          1475,
+          1022,
+          1652
+        ],
+        "text": "TheDestiniemodelisadynamicmicrosimulationmodelwhoseconstructionstartedintheearly 199os.Itsmainpurposeisthelongrunprojectionofpensions.Ithasbeenusedforanalyzingthe impactofreformsthathavetakenplaceinFrancesince1993.Thispaperexplainsthecontextthat ledtotheconstructionofitsfirstversion,themainchoicesdecideduponforthisversionandits majorapplications.wepresentthelessonsdrawnfromtheseapplicationsandweexamine improvementsintroducedbythenewversionofthemodel,availablesince2o11."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9034002423286438,
+        "bbox_xyxy": [
+          146,
+          211,
+          1023,
+          1290
+        ],
+        "text": "CoNSEIL D'ORIENTATION DEs RETRAITES.2006.Retraites:perspectives 2020 et 2050, Troisieme Rapport, Paris, La Documentation Francaise. CoNsEILD'ORIENTATIONDEsRETRAITES.2O1o.Retraites:perspectivesactualiséesa moyen et long termeenvue du rendez-vous de 2o1o,Huitieme rapport,La Docu- mentationfrancaise,Paris. DuEE, M. et C. ReBILLARD.2oo4.《La dépendance des personnes agées:une projection a long terme >, Document de travail INSEE/Dese n° G2oo4/o2. DuEE,M.2oo5.《La modelisation des comportements démographiques dans lemodele demicrosimulationDestinie>,Document de travail INSEE/Dese n°G2005/15. HAIRAULT, J. O., F. LANGOT et T. SoPRAsEUTH. 20o6.《 Les effets a rebours de l'age de la retraite sur le taux d'emploi des seniors>,Economie et Statistique,397:51-63. MAHIEU, R.et B.SEDILLoT.2ooo.《Microsimulation of the retirement decision : a supply side approach >, Document de travail INSEE/Dese n° G 2ooo/o7. MAHIEU, R. et B. SéD1LLoT. 2oo1.《Départ a la retraite, irréversibilité et incerti- tude>,DocumentdetravailINSEE/Desen°G2oo1/o6. POUBELLE,V.,C.ALBERT,P.BEURNIER,J.CoUHIN etN.GRAVE.2O06.《PriSme,le modeledelaCNAV>,RetraiteetSocieté,n°48. RoBERT-BoBEE,I. 2oo1.《Modelling demographic behaviours in the French microsimulation model Destinie: An analysis of future change in completed fertility>,Document detravailINSEE/Desen°G2oo1/14 RoBERT-BoBEE, I. 2oo2.《 Les comportements démographiques dans le modele de microsimulation Destinie -une comparaison des estimations issues des enquetesJeunes et Carrieres 1997 et Histoire familiale 1999 >,Document de travailINSEE/Desen°G20o2/10. SrocK, J. et D.A. W1sE. 199o.《 Pensions, the option value of work and retire- ment >,Econometrica,58,5:1151-1180. VERN1ERE, L.199o.《Les retraites pourront-elles étre financées apres l'an 2ooo?> EconomieetStatistique,233:19-27. WALRAET, E.et A.V1NcENT. 2oo3.《La redistribution intragénérationnelle dans le systeme de retraite des salariés du privé : une approche par microsimulation >, EconomieetStatistique,366:31-56."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8892344832420349,
+        "bbox_xyxy": [
+          520,
+          1349,
+          648,
+          1378
+        ],
+        "text": "ABSTRACT"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8862308263778687,
+        "bbox_xyxy": [
+          152,
+          1439,
+          770,
+          1468
+        ],
+        "text": "MicrosimulatingErenchpension The Destiniemode"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8788586258888245,
+        "bbox_xyxy": [
+          148,
+          139,
+          710,
+          161
+        ],
+        "text": "MIRO>MLER T:AVENIRI UF√F REIRAIIESENERANCE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8543896675109863,
+        "bbox_xyxy": [
+          149,
+          1403,
+          325,
+          1430
+        ],
+        "text": "DidierBLANCHET"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3252823054790497,
+        "bbox_xyxy": [
+          149,
+          213,
+          1020,
+          277
+        ],
+        "text": "CONSEILD'ORIENTATIONDESRETRAITES.2006.RetraiteS:perspectiveS2020et2050 TroisiemeRapport,Paris,LaDocumentationFrancaise"
+      }
+    ]
+  }
+]

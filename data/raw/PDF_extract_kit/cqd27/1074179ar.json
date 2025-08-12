@@ -1,0 +1,2290 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9858161211013794,
+        "bbox_xyxy": [
+          196,
+          863,
+          1503,
+          1189
+        ],
+        "text": "Cet articlepresentedesmodelesstochastiquesdeprojectiondestauxdefeconditeet dunombred'adop tions. Le modele de fécondite developpe utilise les taux de fécondite les plus recents comme point de depart des projections et permet de faire évoluer la fécondite moyenne attendue dans le futur, en plus de prevoir des fluctuations aleatoires des taux de fécondite au fil des ans. Cette approche est complementaire a I'utilisa- tion d'une enquete d'opinion aupres d'experts comme celle utilisee recemment par Statistique Canada pour des projections de population. En ce qui a trait a l'adoption, il s'agit plutot de refléter la réalité de change- mentsderegimevecusdanslesdernieresannees,c'est-a-diredesperiodespluriannuellessuccessivesde forte et de faible adoption. A titre d'illustration, les modeles developpes sont utilisés pour réaliser des projec- tions stochastiques de la situation financiere du Regime quebecois d'assurance parentale."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9489734172821045,
+        "bbox_xyxy": [
+          198,
+          1358,
+          1502,
+          1645
+        ],
+        "text": "This paper presents stochastic projection models for fertility rates and number of adoptions. The fertility projectionmodelusesthemostrecentfertilityratesasastartingpoint,butitalsoallowsforchangingthe expected average fertility in the future, in addition to incorporating random fluctuations in fertility rates over the years. Such an approach is complementary to the one based on expert opinion for population projections, as recently used by Statistics Canada. With regard to adoption, it aims to reflect the Quebec 'regime-switching\" reality of recent years: successive multi-year periods of high and low adoption. As an example,themodelsdevelopedareusedtomakestochasticprojectionsofthefinancialsituationofthe QuebecParentalInsurancePlan"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9358765482902527,
+        "bbox_xyxy": [
+          243,
+          458,
+          1458,
+          564
+        ],
+        "text": "Projections stochastiques de la fecondite et des adoptions dans lecontexteduregimeguebecoisd'assuranceparentale"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9166129231452942,
+        "bbox_xyxy": [
+          196,
+          1718,
+          1504,
+          2008
+        ],
+        "text": "1.La methodologie et les résultats présentés dans cet article prennent assise sur des travaux réalisés poun un essai de maitrise (Boughal,2o19) et un contrat de recherche (Latulippe et collab.2o19). Bien qu'ils assumentI'entiereresponsabiliteducontenudutexte,lesauteurstiennentaremercierClaudiaGiguere et Marie-Josée Dutil du Conseil de gestion de l'assurance parentale de meme que Jean-Francois Ther- rien, Thomas Landry et Valérie Carrier de Retraite Quebec pour leur soutien. Université Laval, denis.latulippe@act.ulaval.ca x* Université Laval, hanaa.boughal.1@ulaval.ca *** Université Laval, claire.bilodeau@act.ulaval.ca"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9049256443977356,
+        "bbox_xyxy": [
+          786,
+          798,
+          914,
+          842
+        ],
+        "text": "RESUME"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.882163405418396,
+        "bbox_xyxy": [
+          197,
+          260,
+          888,
+          340
+        ],
+        "text": "Cahiers québécois de demographie"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8818766474723816,
+        "bbox_xyxy": [
+          261,
+          613,
+          1438,
+          655
+        ],
+        "text": "f￥?"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8818366527557373,
+        "bbox_xyxy": [
+          772,
+          1257,
+          928,
+          1295
+        ],
+        "text": "ABSTRACT"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6739017367362976,
+        "bbox_xyxy": [
+          197,
+          1316,
+          1499,
+          1353
+        ],
+        "text": "tocnasticbroiections"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9855570197105408,
+        "bbox_xyxy": [
+          198,
+          1160,
+          1503,
+          1866
+        ],
+        "text": "Contrairement a la mortalité, la fécondité est marquée par des changements de tendance signi- ficatifs au fil des ans. D'abord le reflet de choix personnels, l'évolution de la fécondité peut étre influencée par différents facteurs, comme les conditions du marché du travail ou de l'économie Les variations de la fécondité au fil des ans peuvent étre le fait d'une volonté de retarder ou devancer la venue d'enfants, aussi bien qu'une évolution du nombre souhaité d'enfants. Comme montré plus loin, les variations des dernieres années sont sans commune mesure avec la baisse enregistrée a compter des années 196o, mais elles sont suffisamment importantes pour avoir un impact notable sur les résultats obtenus des projections en fonction de la période de référence utilisée : 《 Les considérations précédentes montrent que dans un contexte de volatilité des taux de fécondité, il est difficile d'extrapoler les niveaux futurs de la fécondité des cohortes sans faire des choix quelque peu arbitraires, mais non moins significatifs en ce qui concerne la période de réfé- rence > (Dion et Bohnert, 2oi5). En fait, < fertility history tends to reveal relatively little predictive signal > (Tuljapurkar, 2oi9). Dans ce contexte, il ne faut pas se surprendre que la référence aux données du passé se traduise par des intervalles de projection tres larges pour les taux de fécondité futurs : < This interval may seem to overstate the uncertainty, but it merely reflects the rapidity of changes that have occurred in the sample period. Planners should keep in mind the volatility of fertility, and its past history oflong swings > (Lee, 1993)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9842595458030701,
+        "bbox_xyxy": [
+          198,
+          617,
+          1503,
+          1157
+        ],
+        "text": "Les modeles de projection stochastique de la mortalité de Lee-Carter ont été adaptés afin de produire des projections de la fécondité (Lee, 1993). Une variante du modele Lee-Carter, proposée par Myrskyla et ses collaborateurs (2o13), a d'ailleurs été utilisée pour les projections de fécondité effectuées par Statistique Canada en 2015 (Dion et Bohnert, 2o15). Les hypotheses associées a ces modeles sont genéralement basées sur des données historiques. Ainsi, dans son article publié en 1993, Lee réfere aux données de la periode 1917-1987 pour des projections effectuées jusqu'en 2065, alors que les projections de 2015 de Statistique Canada réferent plutot aux années 20o1 a 2o11 pour des projections de la fécondité jusqu'en 2o21. Dans ce dernier cas, la période historique de réfé. rence retenue varie selon le scénario de fécondité considéré (fécondité basse, moyenne ou élevée). Ces projections de Statistique Canada s'étendent jusqu'en 2038 pour les provinces et territoires et jusqu'en 2o63 pour l'ensemble du Canada. Les taux de fécondité utilisés sont supposés constants au-dela de 2o21 ; les hypotheses de fécondité font évoluer lindice synthétique de fécondité (ISF) jusqu'en 2o21, puis le garde constant pour le reste de la période de projection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9818388223648071,
+        "bbox_xyxy": [
+          198,
+          325,
+          1504,
+          614
+        ],
+        "text": "a fécondité et les adoptions sont des facteurs a considerer pour réaliser des projections de population. Ils sont également nécessaires pour la réalisation des évaluations actuarielles requises pour le financement de régimes de sécurité sociale comme le Régime quebécois d'assu- rance parentale (RQAP). Une grande incertitude est associée aux hypotheses concernant ces facteurs, notamment pour des projections sur plusieurs années (Lee, 1998). Le présent article propose des bases stochastiques de projection qui permettent de calibrer les hypotheses utilisées en fonction des résultats escomptés et ainsi éviter une référence excessive a l'experience passée."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9563567042350769,
+        "bbox_xyxy": [
+          199,
+          1868,
+          1503,
+          1991
+        ],
+        "text": "Apres une revue des modeles de Lee et de Myrskyla, et lillustration de la sensibilité des résul- tats aux hypotheses utilisées, cet article présente une methodologie définissant a priori, comme une hypothese du modele, l'intervalle de confiance de la distribution de la fécondité au terme de la"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.893752932548523,
+        "bbox_xyxy": [
+          198,
+          261,
+          466,
+          301
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7277933359146118,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984782874584198,
+        "bbox_xyxy": [
+          199,
+          471,
+          1504,
+          925
+        ],
+        "text": "Considérant le caractere 《 quelque peu arbitraire 》 de la méthodologie utilisée dans le passé, Statistique Canada a revu la base de definition des hypotheses de fécondite pour les projections de population publiées en 2019 (Chagnon et collab. 202o). Les trajectoires a court terme ont été obte- nues en extrapolant les tendances des variations des taux de fécondite par age observees au cours de la période allant de 2oo7 a 2017 et les cibles nationales de l'ISF en 2043 tirées de l'Enquete aupres d'experts sur les tendances démographiques futures de 2o18 ont été utilisées pour les trajectoires a long terme. Une telle approche fondée sur l'opinion d'experts est complémentaire a celle déve- loppée dans le present article. Une telle enquete fournit les balises requises pour l'utilisation du modele. Ainsi, Statistique Canada a retenu la mediane de la distribution comme cible de moyenne fécondité, le 9o° centile a servi a obtenir une cible de forte fécondité et le 1o° centile une cible de faiblefécondité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841931462287903,
+        "bbox_xyxy": [
+          198,
+          928,
+          1503,
+          1217
+        ],
+        "text": "En plus de la fécondité, et bien que limpact soit nettement moins important du fait de leur nombre réduit, l'accroissement de la population est également tributaire de l'adoption. Si on peut parler de changements de tendances au fil des ans concernant la fécondité, on peut aussi parler de 《 changements de régime > dans le cas de l'adoption.² L'experience québécoise des dernieres années témoigne d'une période pluriannuelle de forte adoption suivie d'une baisse considérable. Dans ce contexte, un modele dit de changement de régime a été développe pour des fins de projec- tion stochastique du nombre d'adoptions."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9826075434684753,
+        "bbox_xyxy": [
+          198,
+          1220,
+          1503,
+          1592
+        ],
+        "text": "Les modeles de projection de la fécondité et des adoptions sont présentés dans les sections suivantes, apres une revue de l'expérience quebécoise et une discussion des deux modeles susmen- tionnés de projection de la fécondité. Des résultats de projection pour la periode 2o2o-2o5o sont aussi présentés, sur la base de trajectoires aléatoires genérées avec les modeles developpés. Un exemple d'application des modeles est l'objet de la derniere section de I'article. Il s'agit de projec- tions relatives au financement du RQAP. La situation financiere de ce régime de prestations paren- tales est tres sensible a lévolution du nombre de naissances et d'adoptions. Les résultats financiers sont simulés considérant les trajectoires de projection de la fécondité et des adoptions sur les hori- zons2030et2050."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769020676612854,
+        "bbox_xyxy": [
+          198,
+          261,
+          1502,
+          467
+        ],
+        "text": "periode de projection. Un tel modele ne vise donc pas a prédire la fécondité future, mais plutot définir un ensemble de trajectoires vraisemblables. Cet ensemble de trajectoires sera caractérisé d'une part par Iamplitude de l'intervalle a lintérieur duquel se situeront les résultats et par lévo- lution des résultats moyens attendus dans le futur par rapport a l'expérience récente d'autre part. L'expérience récente constitue le point de départ des projections"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9731730818748474,
+        "bbox_xyxy": [
+          198,
+          1716,
+          1504,
+          1881
+        ],
+        "text": "L'ISF se situait a pres de quatre enfants par femme au début des années 195o. Une baisse significa- tive a été enregistrée dans les annees qui ont suivi, notamment de 1964 a 1971, alors qu'il est passe de 3,5 a 2,o. Depuis ce moment, l'IsF a toujours été inférieur au seuil de remplacement, soit 2,1 enfantspar femme."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9262428283691406,
+        "bbox_xyxy": [
+          198,
+          1647,
+          850,
+          1692
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8739442229270935,
+        "bbox_xyxy": [
+          541,
+          179,
+          1257,
+          206
+        ],
+        "text": "DENISTALUTIPPE. HANAA BOUGHAL CLAIREBILODEAC"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8612754344940186,
+        "bbox_xyxy": [
+          195,
+          1972,
+          1170,
+          2010
+        ],
+        "text": "Sennien"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8089277148246765,
+        "bbox_xyxy": [
+          1462,
+          183,
+          1501,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9827240109443665,
+        "bbox_xyxy": [
+          198,
+          1441,
+          1504,
+          1730
+        ],
+        "text": "Il est également pertinent de comparer les valeurs de l'IsF enregistrées au Québec par rapport a celles de l'ensemble du Canada et d'autres pays développés. La figure 2 fait état de I'évolution de I'ISF dans les pays du G7 de meme qu'en Norvege et en Suede, pour la periode de 196o a 2016. Les pays du G7 fournissent un échantillon varié quant aux réalités sociales et culturelles, de meme qu'au regard des politiques publiques et des pratiques du marché du travail. La Norvege et la Suede ont également été retenues en raison de leurs politiques familiales avant-gardistes, un peu commeauQuebec."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9818894863128662,
+        "bbox_xyxy": [
+          198,
+          1734,
+          1505,
+          1983
+        ],
+        "text": "Depuis le debut des années 2ooo, le Québec et l'ensemble du Canada sont qualifiés de 《 médians 》 ou 《 centristes 》 par rapport aux autres pays, leur ISF se situant au centre du spectre des valeurs obtenues. L'Allemagne, l'Italie et le Japon ont des valeurs plus faibles, alors que la France, les Etats-Unis, le Royaume-Uni, la Norvege et la Suede ont enregistré des ISF plus élevés. Il ressort également de ce graphique que, depuis 198o, les indices de fécondité les plus élevés se situent entre 1,8 et 2,0, alors que les plus faibles oscillent entre 1,3 et 1,5."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9751313328742981,
+        "bbox_xyxy": [
+          198,
+          261,
+          1504,
+          426
+        ],
+        "text": "Des variations importantes ont été enregistrées depuis le début des années 199o. Cet indice est effectivement passé de 1,67 en 1992 a un creux historique de 1,45 en 20oo avant d'atteindre un sommet relatif a 1,73 en 2oo8. Il est en baisse depuis ce moment. La figure 1 témoigne de ces fluc- tuations significatives des 25 dernieres années."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9637137651443481,
+        "bbox_xyxy": [
+          202,
+          605,
+          1506,
+          1326
+        ],
+        "text": "1,80 a sa a an 1,75 1,70 1,65 1,55 1,50 1,45 1,40 999 Annees Moyennes5 ans Annuels"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.7723858952522278,
+        "bbox_xyxy": [
+          193,
+          1338,
+          1502,
+          1405
+        ],
+        "text": "Source:Institutdelastatistique du Quebec(isQ),http://www.stat.gouv.qc.ca/statistiques/population-demographie) naissance-fecondite/4o2.htm（consulte:ierfevrier2o19)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7565263509750366,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          206
+        ],
+        "text": "DANSTE （（)NTEX"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.7204378247261047,
+        "bbox_xyxy": [
+          501,
+          497,
+          1202,
+          570
+        ],
+        "text": "FIGURE1 Indice synthetique de fécondité (ISF), Quebec, 1991-2017"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9826177954673767,
+        "bbox_xyxy": [
+          198,
+          1389,
+          1503,
+          1762
+        ],
+        "text": "Les données présentées dans la figure 3 témoignent de lévolution du nombre d'adoptions au Quebec au cours des 2o dernieres annees. On remarque tout d'abord les variations importantes du nombre d'adoptions internationales, dans l'esprit des régimes de forte et de faible adoption expli- cités plus tot. Ainsi, le nombre d'adoptions internationales a atteint un plafond de 977 en 1996, alors que, plus récemment, il a atteint des creux de 134 et 153 en 2016 et 2017. Pour la période 1991- 2004, le nombre annuel moyen d'adoptions internationales était de 825, alors qu'il est en moyenne de 2oo par année depuis 2o12. Le nombre d'adoptions internationales est conditionné par la dispo- nibilité d'enfants confiés a l'adoption dans différents pays. Cette disponibilité est tributaire des conditions prévalant dans ces derniers."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9700276255607605,
+        "bbox_xyxy": [
+          197,
+          1767,
+          1503,
+          1887
+        ],
+        "text": "Les variations sont beaucoup moins importantes en ce qui a trait a ladoption d'enfants nés au Québec, le nombre ayant varié de 239 a 336 par année de 2ooo a 2017, pour une moyenne annuelle de295."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9366308450698853,
+        "bbox_xyxy": [
+          196,
+          1251,
+          1502,
+          1351
+        ],
+        "text": "Sources: Données quebecoises (consulté: ier février 2o19): http://www.stat.gouv.qc.ca/statistiques/population demographie/naissance-fecondite/4o2.htm.Autresdonnees(consulte:ierfevrier2o19):https://data.worldbank.org) indicator/SP.DYN.TFRT.IN"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.8878597617149353,
+        "bbox_xyxy": [
+          202,
+          375,
+          1495,
+          1235
+        ],
+        "text": "2,2 4,5 2,0 4,0 1,8 1,6 3,5 1,4 3,0 1,2 2000 2002 2004 2006 2008 2010 2012 2014 2016 2,5 2,0 1,5 1,0 0,5 0,0 1960 1968 1976 1984 1992 2000 2008 2016 Annees Quebec Canada Autres pays du G7 NorvegeetSuede"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8825935125350952,
+        "bbox_xyxy": [
+          541,
+          179,
+          1257,
+          205
+        ],
+        "text": "ENIS LALRF BILODEAT"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.87907475233078,
+        "bbox_xyxy": [
+          234,
+          266,
+          1466,
+          338
+        ],
+        "text": "FIGURE2 ComparaisondeI'indicesynthetiquedefeconditeduQuebecparrapportaceuxdepaysdeveloppes"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.857662558555603,
+        "bbox_xyxy": [
+          1460,
+          184,
+          1501,
+          206
+        ],
+        "text": "12C"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.3954210579395294,
+        "bbox_xyxy": [
+          202,
+          375,
+          1494,
+          1235
+        ],
+        "text": "2,2 4,5 2,0 4,0 1,8 1,6 3,5 1,4 3,0 1,2 2000 2002 2004 2006 2008 2010 2012 2014 2016 2,5 2,0 1,5 1,0 0,5 0,0 1960 1968 1976 1984 1992 2000 2008 2016 Années Quebec Canada Autrespaysdu G7 NorvegeetSuede"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9731758832931519,
+        "bbox_xyxy": [
+          335,
+          367,
+          1351,
+          933
+        ],
+        "text": "1200 1000 800 600 400 200 1990 1993 1996 1999 2002 2005 2008 2011 2014 2017 Annees Internationales Enfantsquebecois"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9473674297332764,
+        "bbox_xyxy": [
+          196,
+          1079,
+          819,
+          1121
+        ],
+        "text": "LE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9336613416671753,
+        "bbox_xyxy": [
+          196,
+          1825,
+          1502,
+          2015
+        ],
+        "text": "3. Référer a Boughal (2o19) pour une discussion plus étoffée de ces modeles incluant l'estimation des para- metres. 4. Une version logarithmique de ce modele peut étre proposée dans le but d'avoir des taux de fécondité positifs quel que soit le niveau de fécondité. Afin de rendre la représentation des f&,t unique, on norma- lise b, et k, en imposant les contraintes suivantes : ∑x bx = 1; ∑, k, = 0."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9326452016830444,
+        "bbox_xyxy": [
+          715,
+          1282,
+          980,
+          1332
+        ],
+        "text": "三0"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9304233193397522,
+        "bbox_xyxy": [
+          197,
+          1141,
+          645,
+          1179
+        ],
+        "text": "Modele Loe lee"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9268406629562378,
+        "bbox_xyxy": [
+          195,
+          1200,
+          1504,
+          1277
+        ],
+        "text": "Le modele proposé par Lee se fonde sur les taux de fécondité par age et par année de calendrier. Il s'énoncecommesuit4:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9244189858436584,
+        "bbox_xyxy": [
+          196,
+          1632,
+          1503,
+          1757
+        ],
+        "text": "L'estimation de a, se fonde sur la moyenne des f , a l'age x, alors qu'on peut recourir a la décomposition en valeurs singulieres pour obtenir les estimations de b, et k. Il est généralement souhaitable d'ajuster les valeurs obtenues pour k, au nombre total des naissances observées. Pour"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8653388023376465,
+        "bbox_xyxy": [
+          534,
+          266,
+          1165,
+          337
+        ],
+        "text": "FIGURE3 Nombred'adoptions auQuébecentre199oet 2017"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7450698614120483,
+        "bbox_xyxy": [
+          196,
+          954,
+          1502,
+          1021
+        ],
+        "text": "Sources:Enfants quebecois:Directions dela protectiondela jeunesse;Internationales:Secretariatal'adoptioninter nationale"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.744282603263855,
+        "bbox_xyxy": [
+          318,
+          176,
+          1348,
+          206
+        ],
+        "text": "N OANSTE CONTEX"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6601144671440125,
+        "bbox_xyxy": [
+          196,
+          1328,
+          238,
+          1360
+        ],
+        "text": "ou"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.46604424715042114,
+        "bbox_xyxy": [
+          194,
+          1451,
+          1503,
+          1530
+        ],
+        "text": "b, = profil de fécondité a l'age x, comme par exemple la bais ssedestauxdefeconditeacetageen fonction du temps ;"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.449921190738678,
+        "bbox_xyxy": [
+          196,
+          1533,
+          1043,
+          1616
+        ],
+        "text": "k, = changement dans le niveau de fécondité a travers le temps; E..,=terme aléatoire."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3592054545879364,
+        "bbox_xyxy": [
+          194,
+          1366,
+          1113,
+          1405
+        ],
+        "text": "dei tecondite anneet"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.982729434967041,
+        "bbox_xyxy": [
+          197,
+          756,
+          1503,
+          1046
+        ],
+        "text": "Les projections par année des taux de fécondite peuvent fluctuer de maniere importante en comparaison avec les projections par cohorte. Myrskyla et collaborateurs (2o13) ont propose un modele inspiré du modele de Lee pour la fécondité et l'ont utilise pour projeter des taux de fécon- dité par cohorte. Ce modele se distingue par sa simplicité et la volonte de refleter l'experience récente, pour une periode de projection de quelques années. La méthode proposée se base sur l'extrapolation de la tendance de la fécondité des 5 dernieres années sur une periode de projection ausside5ans."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9747856855392456,
+        "bbox_xyxy": [
+          196,
+          262,
+          1503,
+          384
+        ],
+        "text": "ce faire, on recourt genéralement a des methodes d'optimisation telle que la methode de Newton- Raphson. Pour projeter k, Lee utilise un modele avec bornes inférieures, bornes supérieures et valeurs d'équilibre quant aux valeurs calculées de lIsF.6"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9701967239379883,
+        "bbox_xyxy": [
+          195,
+          572,
+          1504,
+          654
+        ],
+        "text": "Comme nous le verrons ci-dessous avec Myrskyla et collaborateurs (2o13), de tels modeles peuvent aussiétreétudiéssurlabased'uneféconditéparcohorte."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9607537388801575,
+        "bbox_xyxy": [
+          196,
+          389,
+          1503,
+          509
+        ],
+        "text": "En fait, dans son article paru en 1993, Lee a articulé son modele autour d'une fécondité établie par année de calendrier et référant a l'IsF. Cet indice pour I'année t (ISF) est donné par l'équation ci-dessous:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9423689842224121,
+        "bbox_xyxy": [
+          768,
+          513,
+          932,
+          561
+        ],
+        "text": "ISF:"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9377612471580505,
+        "bbox_xyxy": [
+          197,
+          697,
+          1129,
+          740
+        ],
+        "text": "Moder Te dlte"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9329581260681152,
+        "bbox_xyxy": [
+          716,
+          1106,
+          980,
+          1156
+        ],
+        "text": "X"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9306721687316895,
+        "bbox_xyxy": [
+          748,
+          1296,
+          950,
+          1374
+        ],
+        "text": "X 5"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.917808473110199,
+        "bbox_xyxy": [
+          678,
+          1557,
+          1021,
+          1609
+        ],
+        "text": "Nobs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9168811440467834,
+        "bbox_xyxy": [
+          196,
+          1380,
+          1503,
+          1462
+        ],
+        "text": "L'estimation de a, sur la base des données les plus récentes suppose implicitement que la derniere année d'observation est fiable et représentative. A l'inverse, si on craint que les f , de la"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9121438264846802,
+        "bbox_xyxy": [
+          243,
+          1049,
+          1302,
+          1090
+        ],
+        "text": "Lemodeleutilise 11a1 modeledeLee.soit"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9044069647789001,
+        "bbox_xyxy": [
+          540,
+          176,
+          1258,
+          206
+        ],
+        "text": "OENISTALUILIPPE 公N公4 LAIRE BULODEAU"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8415362238883972,
+        "bbox_xyxy": [
+          195,
+          1903,
+          1504,
+          2011
+        ],
+        "text": "6.Il s'agit enfait d'un modele autorégressif ARIMA(i,o,1) su points précédents, plus un terme aléatoire."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7911781072616577,
+        "bbox_xyxy": [
+          221,
+          1719,
+          1504,
+          1902
+        ],
+        "text": "Les valeurs de k. obtenues lors du premier stade d'estimation permettent d'initialiser l'algorithme d'op- timisation choisi. L'étape suivante consiste a modeliser les k, retenus dans létape précédente par un modele de série chronologique pour projeter les taux de fécondité. Pour assurer le caractere plausible de ces projections, il est nécessaire de prendre en considération, lors de la modelisation, les contraintes imposéessurl'indicesynthetiquedefécondité"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6679778695106506,
+        "bbox_xyxy": [
+          1461,
+          183,
+          1501,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5580984950065613,
+        "bbox_xyxy": [
+          497,
+          1631,
+          1205,
+          1706
+        ],
+        "text": "Nobs naissances observées dans I'année t F(x, t) = nombre de femmes agees de x ans dans l'année t"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5519917607307434,
+        "bbox_xyxy": [
+          193,
+          1516,
+          1461,
+          1556
+        ],
+        "text": "Lameth"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.515685498714447,
+        "bbox_xyxy": [
+          195,
+          1165,
+          1473,
+          1290
+        ],
+        "text": "Ceci dit, la méthode d'estimation des parametres est différente : a = valeur la plus récente du taux de fécondité observé pour l'age x b=variationannuellemoyennedestauxdefeconditeaucoursdescingdernieresannees,soit："
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4260183870792389,
+        "bbox_xyxy": [
+          198,
+          1166,
+          1051,
+          1205
+        ],
+        "text": "Retn"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.37614700198173523,
+        "bbox_xyxy": [
+          193,
+          1247,
+          1474,
+          1289
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.34568509459495544,
+        "bbox_xyxy": [
+          603,
+          1632,
+          1095,
+          1668
+        ],
+        "text": "21SS sdanslannee"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.982161283493042,
+        "bbox_xyxy": [
+          196,
+          713,
+          1505,
+          918
+        ],
+        "text": "A linstar de la fécondité par période qui permet de définir l'indice synthétique de fécondité pour une période donnée, l'étude longitudinale de la fécondité permet de définir la descendance finale (DF) qui est definie par la somme des taux de fécondite observes en suivant une generation ou cohorte de femmes nées en l'année c, et ce, tout au long de leur période de fécondité, soit de 15ansa49ans.Autrementdit,"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9797192215919495,
+        "bbox_xyxy": [
+          196,
+          993,
+          1504,
+          1201
+        ],
+        "text": "Nous avons projeté les taux de fécondité avec le modele de Myrskyla et collaborateurs (2o13), et ce, pour des periodes de référence passees de longueur variable se terminant en 2o15. Ces periodes de référence s0nt respectivement 1991-2015, 1996-2015, 2001-2015, 2006-2015 et 2011-2015. Les pr0jec- tions ont été réalisées jusqu'en 2o5o sur la base du modele défini ci-dessus et il a été possible d'en déduire des valeurs de l'ISF comme présenté dans la figure 4 (2.7)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9786136746406555,
+        "bbox_xyxy": [
+          197,
+          387,
+          1504,
+          592
+        ],
+        "text": "Le vecteur de parametres k, reflete le changement dans le niveau de fécondité a travers le temps. annees. Contrairement au modele de Lee, les k, ne font pas l'objet d'un rajustement avant d'étre modelises pour la projection. Hls ne font l'objet d'aucune transformation et sont plutot modélisés par une marche aléatoire avec dérive comme montré ci-dessous :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9350138902664185,
+        "bbox_xyxy": [
+          197,
+          669,
+          996,
+          710
+        ],
+        "text": "oi1oestle facte net inbruitaleatoire"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9255847334861755,
+        "bbox_xyxy": [
+          743,
+          611,
+          957,
+          658
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9200549125671387,
+        "bbox_xyxy": [
+          197,
+          260,
+          1503,
+          383
+        ],
+        "text": "derniere année soient le fait d'une situation particuliere, il est préférable d'opter pour une approche similaire a celle de Lee et d'utiliser des valeurs de f.t issues d'un modele, pour la derniere année, plutotquecellesobservées."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.912228524684906,
+        "bbox_xyxy": [
+          739,
+          934,
+          961,
+          984
+        ],
+        "text": "DF=∑49 C X=15xx+c"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8974238038063049,
+        "bbox_xyxy": [
+          195,
+          1826,
+          1505,
+          2009
+        ],
+        "text": "7. Ces projections allant jusqu'en 2o5o, avec des periodes de référence de longueur variable, ne respectent pas la methodologie de Myrskyla et collaborateurs (2oi3) car elles n'utilisent pas des periodes de meme longueur pour les références historiques et celles des projections. Quoi qu'il en soit, les résultats obtenus montrent clairement la grande sensibilité a la période de référence utilisée, peu importe la periode de projection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.890168309211731,
+        "bbox_xyxy": [
+          196,
+          1204,
+          1503,
+          1327
+        ],
+        "text": "De surcroit, la descendance finale a été projetée pour chacune des cohortes de femmes nées entre 1972 et 20oo. Ces dernieres atteignent I'age de 15 ans entre 1987 et 2015 et I'age de 49 ans entre 2021 et 2049. Les résultats sont présentés a la figure 5 (2.8)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8615950345993042,
+        "bbox_xyxy": [
+          197,
+          1329,
+          1504,
+          1451
+        ],
+        "text": "Ces graphiques expriment clairement le risque exprimé plus tot en ce qui a trait a l'utilisation de données historiques pour la formulation des hypotheses de projection : les résultats sont fort variablesenfonctiondelaperiodedereferenceutilisee."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7596250772476196,
+        "bbox_xyxy": [
+          318,
+          176,
+          1348,
+          207
+        ],
+        "text": "ECTINSSTCE DANSLECONTEXT"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.37033259868621826,
+        "bbox_xyxy": [
+          195,
+          260,
+          1504,
+          382
+        ],
+        "text": "derniere année soient le fait d'une situation particuliere, il est préférable d'opter pour une approche similaire a celle de Lee et d'utiliser des valeurs de fx.t issues d'un modele, pour la derniere année, plutotquecellesobservées."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9676375985145569,
+        "bbox_xyxy": [
+          308,
+          417,
+          1397,
+          1020
+        ],
+        "text": "2 1,9 1,8 ed 1,7 1,6 1,5 1,4 1,3 1,2 1,1 1 2016 2020 2024 2028 2032 2036 2040 2044 2048 Annees 2011-2015 2006-2015 1991-2015 1996-2015 2001-2015"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9659317135810852,
+        "bbox_xyxy": [
+          271,
+          1248,
+          1412,
+          1907
+        ],
+        "text": "2,00 1,90 1,80 1,70 1,60 1,50 1,40 2018 2022 2026 2030 2034 2038 2042 2046 2050 Cohorte atteignant 49 ans dans I'annee 2011-2015 1991-2015 1996-2015 2001-2015"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9364649057388306,
+        "bbox_xyxy": [
+          318,
+          266,
+          1383,
+          375
+        ],
+        "text": "FIGURE4 Projection de I'IsF avec le modele de Myrskyla et collaborateurs (2o13) pour le Quebec etdifferentesperiodesdereference"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8875429034233093,
+        "bbox_xyxy": [
+          541,
+          178,
+          1257,
+          205
+        ],
+        "text": "ENIS ALRE KLL（)T）EA"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8609060049057007,
+        "bbox_xyxy": [
+          1459,
+          184,
+          1501,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8033990263938904,
+        "bbox_xyxy": [
+          311,
+          1136,
+          1388,
+          1210
+        ],
+        "text": "ProjectiondeladescendancefinalededifferentescohortesaveclemodeledeMyrskyla etcollaborateurs2o13)pourleQuebecetdifferentesperiodesdereference"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.6074960231781006,
+        "bbox_xyxy": [
+          790,
+          1099,
+          909,
+          1129
+        ],
+        "text": "FIGORE5"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854854941368103,
+        "bbox_xyxy": [
+          198,
+          324,
+          1504,
+          738
+        ],
+        "text": "Dans le présent article, l'approche privilégiée pour la modelisation de la fécondité vise a prévoir une marge de manoeuvre par rapport aux valeurs historiques pour lestimation des parametres de projection, tout en référant aux données les plus récentes des taux de fécondité par age comme point de départ des projections. On doit pouvoir faire évoluer de facon déterministe la fécondité attendue dans le futur, soit les résultats moyens escomptés, en plus de prevoir des fluctuations aléatoires des taux de fécondité au fil des années. Le volet deterministe permet d'apporter un ajus. tement aux données récentes, alors que le volet stochastique se doit d'etre calibré de facon a obtenir des intervalles de confiance des valeurs projetées conformes aux attentes. Comme mentionné plus tot, il s'agit de définir les valeurs limites a l'intérieur desquelles devrait se situer I'indicedefécondité avecuncertainniveau deconfiance."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836560487747192,
+        "bbox_xyxy": [
+          197,
+          1576,
+          1504,
+          1825
+        ],
+        "text": "Cette méthodologie permet de développer un grand nombre de trajectoires applicables sur plusieurs annees de projection et considerant des intervalles de confiance a l'interieur desquels se situent les résultats, et ce, pour un niveau de confiance a 95 %. Dans l'illustration présentée ci-dessous, ces projections sont effectuées jusqu'en 2o5o, soit sur une trentaine d'années. L'utilisation d'une période aussi longue permet d'évaluer la variabilité ultime des taux de fécon- dité genérés, de meme que les fluctuations possibles au fil des années."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.953479528427124,
+        "bbox_xyxy": [
+          243,
+          840,
+          1504,
+          1090
+        ],
+        "text": "· le taux récent de fécondité, ce qui, pour la simulation dans l'année t, correspond au taux de fécondité simulé pour l'année t-1; l'application d'un facteur de dérive permettant une évolution déterministe des taux de fécondité par rapport aux taux recents ; une composante aléatoire dont le parametre d'amplitude est défini de facon a ce que la distribution des résultats se situe a l'intérieur de l'intervalle de confiance prédéfini."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9417136311531067,
+        "bbox_xyxy": [
+          197,
+          742,
+          1502,
+          823
+        ],
+        "text": "Enfait,les tauxdeféconditésontmodeliséssurlabase d'unemarche aléatoire avecderive, sur labasedetroiscriteres:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9309045672416687,
+        "bbox_xyxy": [
+          196,
+          1309,
+          1207,
+          1473
+        ],
+        "text": "fs .t = Taux de fécondité stochastique a l'age x dans l'année t X,t f, = Taux de fécondité deterministe moyen anticipé a l'age x dans l'année t X,t O = Parametre exogene définissantl'amplitude des fluctuations aléatoires E(o,1) = Générateur aléatoire supposé de distribution normale N(o,1)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9203891754150391,
+        "bbox_xyxy": [
+          197,
+          1491,
+          1501,
+          1572
+        ],
+        "text": "et en supposant des données historiques disponibles jusqu'en 2oi7 et une periode de projection debutanten2o18."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9186062812805176,
+        "bbox_xyxy": [
+          629,
+          1164,
+          1065,
+          1276
+        ],
+        "text": "fx,t =fx,t- + (fxt-fxt-1) + O8(0,1) X,2017"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9176564812660217,
+        "bbox_xyxy": [
+          196,
+          256,
+          1211,
+          302
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8751862049102783,
+        "bbox_xyxy": [
+          200,
+          1108,
+          1234,
+          1148
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7239941954612732,
+        "bbox_xyxy": [
+          318,
+          176,
+          1348,
+          206
+        ],
+        "text": "N OANSTE CONTEX"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.660193145275116,
+        "bbox_xyxy": [
+          197,
+          1270,
+          254,
+          1303
+        ],
+        "text": "ou"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9837581515312195,
+        "bbox_xyxy": [
+          198,
+          261,
+          1503,
+          689
+        ],
+        "text": "L'expérience québécoise fait état d'un ISF de 1,54 pour 2017, en baisse depuis 20o8, ou il avait atteint un plafond de 1,73*. Les taux de fécondité de 2o17 correspondent au point de départ pour les fins des simulations. Un facteur de dérive est appliqué. Pour des fins d'illustration, il se fonde sur les hypotheses utilisées par les actuaires du Conseil de gestion de lassurance parentale pour les fins de leur évaluation actuarielle du RQAP au 31 décembre 2oi7 (Conseil de gestion de l'assurance parentale, 2oi8). Cette évaluation actuarielle repose sur un scénario déterministe9 et les actuaires ont alors supposé une baisse de l'1SF jusqu'a 1,52 en 2019, suivie d'une hausse entre 2020 et 2022 pour atteindre une valeur ultime de 1,59. Ces hypotheses ont été établies en considérant la tendance des femmes a avoir leurs enfants de plus en plus tard, en s'appuyant sur les statistiques publiées par l'Institut de la statistique du Quebec (IsQ) et en prenant en compte lestimation de lévolution de l'indice de descendance finale (Conseil de gestion de l'assurance parentale, 2oi8)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820135235786438,
+        "bbox_xyxy": [
+          197,
+          691,
+          1504,
+          923
+        ],
+        "text": "Finalement, dans le cadre des présentes simulations, un facteur de volatilité stochastique est introduit, ce qui permet d'obtenir des distributions des valeurs de l'ISF se situant a l'intérieur d'intervalles prédéterminés en 205o, et ce, pour 95 % des 2ooo trajectoires généréesi°. Ainsi, en supposant une valeur du parametre 0 égale a 0,4, l'intervalle de confiance se situe entre 1,46 et 1,75 en 205o. Pour un horizon de projection plus court, soit en 203o, l'intervalle de confiance oscille plutot entre des valeurs de 1,5o et 1,7o. Ces résultats sont présentés dans la figure 6l1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9762973785400391,
+        "bbox_xyxy": [
+          197,
+          925,
+          1500,
+          1077
+        ],
+        "text": "Le tableau 1 présente les intervalles obtenus pour l'indice synthétique de fécondité en 2050 avec un niveau de confiance a 95 % et pour des valeurs alternatives du parametre o. Une valeur du parametre O plus élevée se traduit par une distribution plus large des valeurs de l'IsF et inverse- ment avec une valeur réduite de o."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9757735133171082,
+        "bbox_xyxy": [
+          571,
+          1263,
+          1128,
+          1466
+        ],
+        "text": "Parametre o Intervalle de confiance 0,2 [1,52 - 1,67] 0,4 [1,46 - 1,75] 0,8 [1,35 - 1,92]"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9369643330574036,
+        "bbox_xyxy": [
+          318,
+          1132,
+          1382,
+          1249
+        ],
+        "text": "TABLEAU1 IntervallesdeconfiancedeIlsFen2o5oselonlesvaleursduparametredevolatiliteo Quebec(niveaudeconfiancede95%)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8887758851051331,
+        "bbox_xyxy": [
+          541,
+          178,
+          1257,
+          206
+        ],
+        "text": "DENISTALUTIPPE. HANAA B（）L（GEAL CLAIREF BLLODEAL"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8340442180633545,
+        "bbox_xyxy": [
+          1458,
+          184,
+          1501,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7032750248908997,
+        "bbox_xyxy": [
+          196,
+          1538,
+          1503,
+          1755
+        ],
+        "text": "8.Des informations véhiculées récemment par l'Institut de la statistique du Quebec font état de valeurs différentes de l'IsF pour les dernieres années. Ces changements sont attribuables a des révisions d'esti- mations de populations relatives aux dernieres données de recensement. Le nombre de naissances est demeuré inchange et c'est la la valeur importante du point de vue des projections. Dans ce contexte et par souci de cohérence de l'information, les données issues des plus récentes évaluations actuarielles du RQAPetduRegimedeRentesduQuebec(RRQ)serontutiliseespourlaféconditeetlapopulation"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6517453789710999,
+        "bbox_xyxy": [
+          197,
+          1902,
+          1503,
+          2010
+        ],
+        "text": "11. Les projections de descendance finale découlant de ces projections de fécondité tendent vers la valeur de 1,59 retenue comme ISF. Pour un intervalle de confiance de 95 %, la descendance finale se situe entre"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.607223391532898,
+        "bbox_xyxy": [
+          196,
+          1793,
+          1503,
+          1899
+        ],
+        "text": "10. Différentes trajectoires ont été genérées avec un nombre variable de simulations afin d'évaluer la sensi- bilité des résultats au nombre de simulations et la robustesse des résultats sur la base d'un nombre de 2ooosimulations.Lesresultatssontpresentesenannexe."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.40083202719688416,
+        "bbox_xyxy": [
+          193,
+          1537,
+          1503,
+          2011
+        ],
+        "text": "8. Des informations véhiculées récemment par l'Institut de la statistique du Quebec font état de valeurs différentes de l'ISF pour les dernieres années. Ces changements sont attribuables a des révisions d'esti- mations de populations relatives aux dernieres données de recensement. Le nombre de naissances est demeuré inchange et c'est la la valeur importante du point de vue des projections.Dans ce contexte et par souci de cohérence de linformation, les données issues des plus récentes évaluations actuarielles du RQAP et du Regime de Rentes du Quebec (RRQ) seront utilisees pour la fécondite et la population. 9. Le scenario principal est assorti d'une analyse de sensibilité des résultats aux principales hypotheses. 10. Différentes trajectoires ont été genérées avec un nombre variable de simulations afin d'évaluer la sensi- bilité des résultats au nombre de simulations et la robustesse des résultats sur la base d'un nombre de 2ooo simulations.Les résultats sont présentés en annexe. 11. Les projections de descendance finale découlant de ces projections de fécondite tendent vers la valeur de 1,59 retenue comme ISF. Pour un intervalle de confiance de 95 %, la descendance finale se situe entre 1,52 et 1,67 pour la cohorte atteignant 49 ans en 2050."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.38485875725746155,
+        "bbox_xyxy": [
+          421,
+          1757,
+          1450,
+          1791
+        ],
+        "text": "alvseae nsibiiteo esiiitats principaleshypotheses"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845108985900879,
+        "bbox_xyxy": [
+          198,
+          1086,
+          1503,
+          1489
+        ],
+        "text": "L'intervalle [1,46 - 1,75] associé au parametre O de valeur 0,4 est le reflet de l'expérience québé coise des 25 dernieres années, caractérisée par des valeurs extremes de 1,45 et 1,75. Les projections sont effectuées sur une période de longueur comparable, soit d'une trentaine d'années jusqu'en 2050. Il s'agit du scénario de référence pour les fins du présent document. L'intervalle plus large est associé a des valeurs limites de 1,35 et 1,92 et une valeur de o,8 du parametre o. Il se rapproche davantage des valeurs extremes enregistrées dans différents pays developpés tel que discuté dans la premiere section. Une valeur de l'ordre de 1,35 a été enregistrée pour une seule année au Quebec, soit 1,359 en 1987. Il faut remonter en 1971 pour noter un indice supérieur a 1,9. Le scénario avec un parametre o de o,2 correspond simplement a un scénario de faible volatilité, en-deca de la volati- lité enregistrée dans le passé."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9754087328910828,
+        "bbox_xyxy": [
+          198,
+          1490,
+          1504,
+          1772
+        ],
+        "text": "En complément a l'indice synthétique de fécondité, les projections effectuées dégagent des résultats relatifs aux nombres de naissances et a la descendance finale. Il est aussi possible de se questionner sur l'age moyen de la mere a la naissance. L'évolution du nombre de naissances est conditionnée a la fois par lIsF et la structure de la population par age. Les phénomenes du baby- boom et de la génération X (baby-bust generation) ayant été particulierement importants au Québec, ils auront des échos dans l'avenir'2. C'est ce que démontre la figure 7 avec une baisse du nombre de naissances de 2024 a 2033.3 Le nombre de naissances (86 ooo) atteint comme valeur"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9494677186012268,
+        "bbox_xyxy": [
+          285,
+          373,
+          1403,
+          1037
+        ],
+        "text": "2,00 1,90 1,80 ed 1,70 1,60 1,50 1,40 1,30 1,20 1,10 1,00 2017 2020 2023 2026 2029 2032 2035 2038 2041 20 44 20 47 2050 Annees Intervalle 95% Moyenne MinetMax"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.926578938961029,
+        "bbox_xyxy": [
+          197,
+          1826,
+          1502,
+          2009
+        ],
+        "text": "12. Si le baby-boom correspond a la période de forte fécondité des années 195o et du début des années 1960, la génération X (baby-bust) correspond aux années de faible fécondité qui ont suivi. 13. Les projections du nombre de naissances ont été obtenues avec des données exogenes et déterministes quant a la population, soit les données de population des projections actuarielles du RRQ (Therrien et collab.2016)."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8721038103103638,
+        "bbox_xyxy": [
+          553,
+          265,
+          1145,
+          337
+        ],
+        "text": "FIGURE6 Distribution desISF simulés,Quebec 2o17-2050"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7328263521194458,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          206
+        ],
+        "text": "T DANSTE （（)NTEX"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9836596250534058,
+        "bbox_xyxy": [
+          197,
+          1492,
+          1504,
+          1824
+        ],
+        "text": "Finalement, en ce qui a trait a l'age de la mere a la naissance, il importe de se rappeler que le modele utilisé est caractérisé par un facteur déterministe de l'évolution de la fécondité par age au fil des ans et un facteur aléatoire de fluctuations statistiques autour des taux escomptés dans le futur. C'est véritablement par la composante déterministe qu'il serait possible d'intégrer une hypothese d'évolution de lage a la naissance de la mere. Les taux utilisés pour illustration, selon les hypotheses retenues pour lévaluation actuarielle du RQAP, sont établis pour une periode de 5 ans et maintiennent inchangé l'age moyen des meres a la naissance. Ces hypotheses ne font qu'ajuster l'indice synthétique de fécondité le plus récentl4."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9724993109703064,
+        "bbox_xyxy": [
+          198,
+          1283,
+          1505,
+          1490
+        ],
+        "text": "Les résultats relatifs a la descendance finale sont présentés a la figure 8, sur la meme periode 2017-2o5o, mais pour des femmes nées 49 ans plus tot. Les résultats témoignent d'une volatilité réduite, du fait que bon nombre des enfants de ces générations successives de femmes sont deja nés. Les valeurs ultimes de la descendance finale tendent vers 1,59, soit la valeur moyenne supposée pour l'ISF. L'intervalle de confiance a 95 % se situe alors entre 1,52 et 1,67."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.970113217830658,
+        "bbox_xyxy": [
+          287,
+          602,
+          1402,
+          1248
+        ],
+        "text": "105000 100000 95000 90000 a 85000 80000 75000 70000 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 Annees Intervalle 95% Moyenne MinetMax"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9698696136474609,
+        "bbox_xyxy": [
+          198,
+          261,
+          1503,
+          421
+        ],
+        "text": "moyenne en 2o23 correspond aux valeurs ultimes pour les dernieres années de projection, soit de 2045 a 205o. A un niveau de confiance de 95 %, on retrouve a ce moment un nombre de naissances oscillant entre 79 ooo et 94 ooo. Les valeurs des trajectoires extremes (minimum et maximum) sontde74000et104000."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.913429319858551,
+        "bbox_xyxy": [
+          196,
+          1898,
+          1503,
+          2010
+        ],
+        "text": "14. A l'inverse, les projections actuarielles du RRQ sont effectuées sur une période de 5o ans et les hypo theses utilisées pourl'évaluation en date du 31 décembre 2oi8fontétat d'unehausse del'age moyen des meresalanaissancede30,7ansen2o18a32,0ansen2048.Cetagemoyenestmaintenuconstantapres"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8773785829544067,
+        "bbox_xyxy": [
+          541,
+          178,
+          1257,
+          206
+        ],
+        "text": "DENISTALUTIPPE. HANAA B（）L（GEAL CLAIREF BLLODEAL"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.812990128993988,
+        "bbox_xyxy": [
+          1459,
+          183,
+          1501,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.7587962746620178,
+        "bbox_xyxy": [
+          395,
+          493,
+          1305,
+          566
+        ],
+        "text": "FIGURE7 Distribution des trajectoires du nombre de naissances,Quebec, 2o17-2050"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9832095503807068,
+        "bbox_xyxy": [
+          198,
+          1200,
+          1504,
+          1407
+        ],
+        "text": "Le Quebec ne fait pas exception en ayant un nombre d'adoptions nettement plus faible que le nombre de naissances. Bien que moins important, il s'agit d'un facteur considéré dans les projec- tions de population et les évaluations actuarielles de regimes comme le RQAP prevoyant le paie- ment de prestations aux nouveaux parents. Dans le cas du RQAP, les prestations découlant d'adoptions représentent moins de 1 % du total des prestations payées."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9813676476478577,
+        "bbox_xyxy": [
+          198,
+          1410,
+          1504,
+          1699
+        ],
+        "text": "Bien que l'entrée en vigueur de ce régime demeure relativement récente, son histoire a été marquée par deux périodes successives : la période actuelle de < faible > adoption a été précédée d'une période caractérisée par un nombre significativement plus élevé d'adoptions internatio nales. Dans ce contexte, et comme mentionné plus tot, la modélisation du nombre total d'adop- tions est fondée sur un modele de changement de régime qui, d'un point de vue mathématique, a été développé sur la base d'une chaine de Markov. Les principales hypotheses et parametres sont lessuivants:"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9663333296775818,
+        "bbox_xyxy": [
+          282,
+          373,
+          1404,
+          1037
+        ],
+        "text": "1,90 1,85 1,80 1,75 ap 1,70 e 1,65 1,60 1,55 1,50 1,45 1,40 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 Cohorteatteignant49ansdansI'annee Intervalle95% Min Moyenne MinetMax"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9458451271057129,
+        "bbox_xyxy": [
+          242,
+          1718,
+          1503,
+          1800
+        ],
+        "text": "deux régimes d'adoption sont possibles, soit un régime correspondant a des années de forte adoption et un régime alternatif d'années de faible adoption ;"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9255409240722656,
+        "bbox_xyxy": [
+          198,
+          1133,
+          1195,
+          1178
+        ],
+        "text": "LIONS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9086701273918152,
+        "bbox_xyxy": [
+          237,
+          1899,
+          1504,
+          2008
+        ],
+        "text": "cette periode initiale de 3o ans.Pour les illustrations dans le present document, nous nous en sommes tenus aux hypotheses retenues pour l'evaluation du RQAP et avons suppose constant l'age moyen des meresalanaissance."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.868364155292511,
+        "bbox_xyxy": [
+          338,
+          264,
+          1360,
+          337
+        ],
+        "text": "FIGURE8 Distribution des trajectoires de descendances finales simulées, Quebec, 2o17-2050"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7359091639518738,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9799407124519348,
+        "bbox_xyxy": [
+          198,
+          945,
+          1504,
+          1233
+        ],
+        "text": "La définition de I'hypothese d'adoption ne peut reposer sur des bases solides. L'experience est limitée et le passe n'est pas garant de l'avenir, considerant notamment la disponibilité d'enfants pour adoption dans d'autres pays et les pratiques en la matiere. Une telle situation rend d'autant plus pertinente l'utilisation de modeles stochastiques prévoyant de fortes variations dans la durée des cycles et le nombre d'adoptions qui y sont associés. Dans ce contexte, l'hypothese fondée sur cette probabilité annuelle de changement de régime d'adoption de 1o % doit étre vue comme un estimé raisonnable des anticipations futures."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9797376990318298,
+        "bbox_xyxy": [
+          199,
+          1237,
+          1504,
+          1568
+        ],
+        "text": "La figure 1o présente la fréquence de durées simulées des régimes successifs d'adoption en supposant une probabilité annuelle de changement de régime d'adoption de 1o %. La fréquence simple correspond au pourcentage des regimes simulés correspondant a chacune des durées, alors que la fréquence pondérée par la durée reflete l'influence de la durée des différents régimes. Ainsi, un régime d'adoption durant 1o ans a 1o fois plus d'impact qu'un régime d'une seule année au regard du nombre effectif d'adoptions. Dans le cas de la fréquence simple, la durée la plus fréquente est de 1 an, les fréquences étant décroissantes avec la durée. Dans le cas de la fréquence pondérée, les durées ayant le plus d'impact sur le nombre effectif d'adoptions se situent entre 7 et 13 ans."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9680280685424805,
+        "bbox_xyxy": [
+          198,
+          736,
+          1503,
+          941
+        ],
+        "text": "Les résultats obtenus concernant la durée des régimes successifs d'adoption pour différentes probabilités annuelles de changement de régime sont présentés a la figure 9. Ainsi, avec une proba bilité annuelle de changement de régime d'adoption de 1o %, on obtient une durée moyenne dans un meme cycle d'adoption de 8,5 années. Pour un intervalle de confiance de 95 %, la distribution desduréesdecyclesesituealorsentre3,6et19annees."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9141201376914978,
+        "bbox_xyxy": [
+          243,
+          261,
+          1503,
+          717
+        ],
+        "text": "on suppose un nombre annuel d'adoptions de 1 1oo en régime de forte adoption et de 500 en régime de faible adoption. Ces chiffres incluent l'ensemble des adoptions par des parents quebécois, soit les adoptions internationales aussi bien que les adoptions d'enfants nes au Quebec; les durées moyennes escomptées sont les memes pour les deux régimes et, par conséquent, les memes probabilités sont utilisées pour quantifier la possibilité de demeurer dans un régime ou de passer dans le régime alternatif ; différentes valeurs de probabilités ont éte testées de facon a definir une hypothese raison nable par rapport a l'experience québécoise des dernieres années ; une probabilité annuelle de changement de régime d'adoption de 1o % a été retenue aux fins de la simulation."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8741294741630554,
+        "bbox_xyxy": [
+          541,
+          179,
+          1257,
+          205
+        ],
+        "text": "ENIS LAIRF BILODEAT"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7889863848686218,
+        "bbox_xyxy": [
+          1457,
+          184,
+          1501,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9580238461494446,
+        "bbox_xyxy": [
+          277,
+          1066,
+          1413,
+          1603
+        ],
+        "text": "Fréquence des differentes dureesdesrégimes d'adoption 12% 10% 8% 6% 4% 2% 0% 15 17 19212325272931333537394143454749 Q Durée (années) IFréquencesimple Frequencepondereeparladuree"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9547557234764099,
+        "bbox_xyxy": [
+          356,
+          360,
+          1331,
+          906
+        ],
+        "text": "35 30 25 20 15 14,6 10 8 O 50% 40% 30% 20 % 10% 5% Probabiliteannuelledechangementderegimed'adoption Intervalleconfiance95% Dureemoyenne"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8759726285934448,
+        "bbox_xyxy": [
+          256,
+          266,
+          1443,
+          338
+        ],
+        "text": "FIGURE9 Distribution desduréesderégimes d'adoptionselonlesprobabilitésdechangementderégime15"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.724941074848175,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6800302267074585,
+        "bbox_xyxy": [
+          195,
+          1939,
+          1503,
+          2009
+        ],
+        "text": "16. Tout comme pour la figure 9, les résultats de la figure 1o ont été obtenus sur la base d'une période de projectionde5oans"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6751093864440918,
+        "bbox_xyxy": [
+          195,
+          1694,
+          1504,
+          1937
+        ],
+        "text": "15. Ces résultats ont été obtenus sur la base des 2ooo trajectoires sur une periode de 5o ans. La durée du régime d'adoption en vigueur a la fin de la période de projection de 5o ans est supposée se terminer a ce moment, bien que ce régime était susceptible de se poursuivre au-dela de la période de projection. Ainsi, les résultats presentés quant a la moyenne et la distribution les résultats obtenus s'éloignent de la moyenne théorique attendue dans les situations ou la probabilite de changement de régime est faible (et la durée moyenne des régimes est longue). Les résultats obtenus pour chacune des années de projection demeurentcependantconformesauxrésultats attendusd'untelmodele"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.5887443423271179,
+        "bbox_xyxy": [
+          487,
+          1005,
+          1212,
+          1040
+        ],
+        "text": "Ereauence desditterentesdyirees nesdadontion"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3448095917701721,
+        "bbox_xyxy": [
+          195,
+          1693,
+          1502,
+          2010
+        ],
+        "text": "15. Ces résultats ont été obtenus sur la base des 2ooo trajectoires sur une période de 5o ans. La durée du regime d'adoption en vigueur a la fin de la periode de projection de 5o ans est supposée se terminer a ce moment, bien que ce régime était susceptible de se poursuivre au-dela de la periode de projection. Ainsi, les résultats présentés quant a la moyenne et la distribution les résultats obtenus s'éloignent de la moyenne théorique attendue dans les situations ou la probabilité de changement de régime est faible (et la durée moyenne des régimes est longue). Les résultats obtenus pour chacune des années de projection demeurent cependant conformes aux résultats attendus d'un tel modele. 16. Tout comme pour la figure 9, les résultats de la figure 1o ont été obtenus sur la base d'une période de projectionde5oans"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9789231419563293,
+        "bbox_xyxy": [
+          198,
+          1460,
+          1503,
+          1792
+        ],
+        "text": "L'évolution des couts du régime est conditionnée notamment par le nombre de naissances et d'adoptions d'enfants de parents quebécois. Les modeles stochastiques explicités dans les sections précédentes sont d'intéret pour simuler l'évolution des résultats financiers, sur la base de la volati- lité escomptée au niveau de la fécondité et des adoptions. Les modeles stochastiques de projection de la fécondité prennent en considération les taux courants de fécondité, de meme que les hypo- theses utilisées dans le cadre de Iévaluation actuarielle du régime au 31 décembre 2o17 (Conseil de gestion de l'assurance parentale, 2o18), en plus de prévoir une composante aléatoire. La methodo- logie de projections stochastiques des contingents d'adoptions permet de definir des trajectoires"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9747151136398315,
+        "bbox_xyxy": [
+          197,
+          1291,
+          1503,
+          1455
+        ],
+        "text": "Le RQAP est entré en vigueur le 1er janvier 2oo6. Des prestations sont prévues pour les parents s'absentant du marché du travail dans l'année suivant la naissance ou l'adoption d'un enfant'7. Le financement du régime est assuré par les cotisations versees par les salariés et leurs employeurs, de meme quepar les travailleurs autonomes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9632276296615601,
+        "bbox_xyxy": [
+          197,
+          261,
+          1502,
+          343
+        ],
+        "text": "Finalement, la figure i1 présente la distribution du nombre annuel moyen d'adoptions pour la période 2o18-2050,surlabase des 20ootrajectoiresstochastiquesgénérées."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9573177695274353,
+        "bbox_xyxy": [
+          353,
+          526,
+          1357,
+          1096
+        ],
+        "text": "16% 14% 12% 10% 8% 6% 4% 2% 0% 550 600 650 700 750 800 850 900 950 1000 1050 1100 500 550 600 650 700 750 800 850 900 950 1000 1050"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9294673204421997,
+        "bbox_xyxy": [
+          196,
+          1899,
+          1504,
+          2010
+        ],
+        "text": "17. Les prestations payables au titre de la maternité debutent normalement quelques semaines avant la naissance de l'enfant. Des prestations de paternité sont également prévues de meme que des prestations parentales et des prestations d'adoption partageables entreles deuxparents."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9066729545593262,
+        "bbox_xyxy": [
+          319,
+          414,
+          1382,
+          488
+        ],
+        "text": "FIGURE11 Distributiondunombreannuel moyend'adoptionsauQuebecsurI'horizon2o18-2o50"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8781904578208923,
+        "bbox_xyxy": [
+          541,
+          178,
+          1258,
+          206
+        ],
+        "text": "DENISTALVTIPPE. H公N公公 B（）L（GEA1 CTAIREBITODEAL"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8236417174339294,
+        "bbox_xyxy": [
+          1464,
+          183,
+          1500,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7316832542419434,
+        "bbox_xyxy": [
+          352,
+          1222,
+          1382,
+          1268
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9592689871788025,
+        "bbox_xyxy": [
+          197,
+          262,
+          1503,
+          342
+        ],
+        "text": "de forte et de faible adoption intercalées dans le temps, pour des durées aléatoires, et fondées sur desprobabilitésrefletantl'expériencerécente."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9352971315383911,
+        "bbox_xyxy": [
+          199,
+          488,
+          1499,
+          1938
+        ],
+        "text": "12-A Taux de cotisation 2019 100 1,32 % 1,315 % 1,31% 80 1,30% 60 1,29% 1,28% 40 1,27% xe 1,262% 20 1,26% 1,25 % 2017 2018 201920202021202220232 2024202520262027 202820292030 1,24% -20 1,23% Année Intervalle de confiance a 95% Moyenne Valeurs minmale et maximale Tauxdecotisation 12-BTauxdecotisation2020 60 1,35 % 50 1,315% 40 1,30 % 30 os 1,262% 20 1,25 % 10 1,20 % 10 -20 1,186% 1,15% -30 -40 -50 1,10% 2017 2018 2019 20202021 2022 20232024 2025202620272028 32029 2030 Annee Intervalledeconfiancea95% Moyenne Valeurs minmale et maximale ●Tauxde cotisation"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8841786980628967,
+        "bbox_xyxy": [
+          294,
+          415,
+          1405,
+          487
+        ],
+        "text": "FIGURE12 Projection du Fonds d'assurance parentale sur la base des taux de cotisation 2o19et 2o20"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7576205134391785,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          206
+        ],
+        "text": "T DANSTE （（)NTEX"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.7155517935752869,
+        "bbox_xyxy": [
+          196,
+          1963,
+          976,
+          1997
+        ],
+        "text": "Note:Eondsexnrime H stations(echeledegauche)"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984093427658081,
+        "bbox_xyxy": [
+          198,
+          261,
+          1503,
+          676
+        ],
+        "text": "Les résultats de l'évaluation actuarielle au 31 décembre 2o17 font état d'un solde négatif du Fonds d'assurance parentale de -i14 M $ a cette date. Par contre, l'excédent des cotisations percues sur les prestations payées pour les années 2018 et 2019 devrait permettre de combler ce déficit et de voir émerger un surplus. En fait, la réalisation de projections stochastiques supposant le maintien des taux de cotisation de 2o19 pour les prochaines années laisse entrevoir laccumulation d'un surplus substantiel au fil des ans. Le fonds accumulé en 2o3o se situerait a un niveau moyen équi- valent a 49 semaines de prestations, mais susceptible de varier entre 22 et 74 semaines a un niveau de confiance de 95 %. En fait, la probabilité d'avoir un fonds négatif entre 202o et 2029 est de 0,03 % sur la base des modeles de fécondité et d'adoption retenus et en supposant inchangés les taux de cotisation de 2019. Le détail est présenté a la figure 12-A."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9840112328529358,
+        "bbox_xyxy": [
+          198,
+          1340,
+          1503,
+          1631
+        ],
+        "text": "Les changements importants dans le niveau de la fécondite au fil du temps temoignent de la grande incertitude associée aux projections de la fécondité, notamment lorsqu'elles doivent étre réalisees sur plusieurs annees. Il y a aussi lieu de s'interroger sur les valeurs retenues comme point de depart de ces projections, les valeurs les plus récentes n'étant pas nécessairement représentatives des niveaux de fécondité escomptés dans les prochaines années. Concernant les adoptions, l'expé- rience des dernieres décennies témoigne de changements importants dans le nombre annuel d'adoptions au terme d'une période de quelques années."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9832206964492798,
+        "bbox_xyxy": [
+          198,
+          1635,
+          1504,
+          1922
+        ],
+        "text": "Dans ce contexte, le présent article présente une méthode de projection de la fécondité visant tout d'abord a refleter la grande incertitude associée a de telles projections, en plus de prendre de la distance par rapport aux valeurs historiques pour l'estimation des parametres de projection. Si les taux de fécondité les plus récents sont utilisés comme point de départ des projections, il doit etre possible de faire évoluer la fécondité moyenne attendue dans le futur, en plus de prévoir des fluctuations aléatoires des taux de fécondité au fil des ans. Le volet stochastique est calibré de facon a obtenir des intervalles de confiance des valeurs projetées conformes aux attentes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9826928377151489,
+        "bbox_xyxy": [
+          197,
+          678,
+          1504,
+          926
+        ],
+        "text": "Les taux de cotisation ont été réduits de 6 % a compter du 1\"r janvier 2o2o. Les résultats obtenus sur la base de ces nouveaux taux de cotisation sont présentés a la figure 12-B. Le niveau moyen du fonds accumulé en 2o3o correspond alors plutot a 11 semaines de prestations, l'intervalle se situant entre un fonds negatif de 13 semaines et un fonds positif de 35 semaines de prestations pour un niveau de confiance de 95 %. En fait, la probabilité d'avoir un fonds négatif entre 2020 et 2029 est alorsde25%."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982252836227417,
+        "bbox_xyxy": [
+          197,
+          929,
+          1503,
+          1217
+        ],
+        "text": "Le Fonds a néanmoins tendance a augmenter a compter de 2o26, du moins pour la valeur moyenne escomptee. Cette tendance se maintient au-dela de 2o3o lorsque la periode de projection est étendue jusqu'en 2o5o. Ces résultats montrent qu'une réduction supplémentaire de l'ordre de 4 % du niveau des taux de cotisation serait requise a compter de 2o31 pour maintenir la probabi- lité d'un fonds négatif a un niveau de 25 % sur l'horizon (tres long) 203o-2049. Sans cette réduc tion supplémentaire des taux de cotisation, la probabilité d'un fonds négatif entre 2030 et 2049 seraitplutotde9%."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9528580904006958,
+        "bbox_xyxy": [
+          198,
+          1926,
+          1502,
+          2007
+        ],
+        "text": "Les projections de population sont le fait de différentes sources d'incertitude. Si les données utilisées pour caractériser l'expérience passée sont fiables, il n'en demeure pas moins que le futur"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9074516296386719,
+        "bbox_xyxy": [
+          198,
+          1278,
+          425,
+          1316
+        ],
+        "text": "CONCLUSION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8708275556564331,
+        "bbox_xyxy": [
+          541,
+          179,
+          1257,
+          206
+        ],
+        "text": "DENISTALUTIPPE. HANAA BOUGHAL CLAIREBILODEAC"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7956684231758118,
+        "bbox_xyxy": [
+          1462,
+          184,
+          1501,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9806160926818848,
+        "bbox_xyxy": [
+          198,
+          512,
+          1504,
+          801
+        ],
+        "text": "Un tel modele mathématique peut étre utilisé conjointement avec une approche davantage centrée sur des opinions d'experts. Ainsi, les projections de population publiées par Statistique Canada en 2o19 se fondent sur les cibles nationales de l'indice synthétique de fécondité en 2043 tirées de l'enquete d'opinion aupres d'experts. Ces résultats pourraient étre utilises pour définir les hypotheses importantes du modele développe dans le présent article, soit les limites de lintervalle requis pour les simulations de trajectoires et la valeur médiane utilisée pour définir l'évolution deterministedestauxfutursdefécondite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784350395202637,
+        "bbox_xyxy": [
+          197,
+          260,
+          1504,
+          509
+        ],
+        "text": "pourrait s'averer différent du passé du fait d'une évolution structurelle induisant des differences soutenues au fil des ans. Il pourrait aussi s'agir de fluctuations davantage cycliques ou conjonctu- relles qui caractériseront l'expérience sur des périodes successives. Les deux composantes du modele cherchent a refléter ces deux volets d'incertitude, soit une composante déterministe pour les aspects structurels et une composante stochastique pour les aspects cycliques ou conjoncturels."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9734992384910583,
+        "bbox_xyxy": [
+          198,
+          803,
+          1504,
+          1009
+        ],
+        "text": "Si l'expérience de la fécondité témoigne de fluctuations au fil des ans, ladoption vécue au Quebec a plutot été le fait de 《 changements de régime >, c'est-a-dire des periodes pluriannuelles successives de forte et de faible adoption. Le présent article élabore un modele mathématique de projection des adoptions dit de changement de régime. Le modele a été calibré sur la base de l'ex- périence québécoise récente et des probabilités annuelles de changement de régime d'adoption."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9707150459289551,
+        "bbox_xyxy": [
+          198,
+          1012,
+          1504,
+          1216
+        ],
+        "text": "A titre d'exemple, les résultats des 2ooo trajectoires de la fécondité et des adoptions ont été utilisés pour réaliser des projections stochastiques de la situation financiere du RQAP sur les hori- zons 2030 et 205o. En plus de présenter une distribution des résultats financiers escomptés, de telles projections stochastiques sont d'intéret pour évaluer la pertinence d'ajustement des taux de cotisation aufil des ans."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8960893750190735,
+        "bbox_xyxy": [
+          733,
+          1278,
+          967,
+          1316
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8203898668289185,
+        "bbox_xyxy": [
+          195,
+          1340,
+          1503,
+          2006
+        ],
+        "text": "BOUGHAL, H. 2o19. 《 Modélisation de la fécondité par une variante du modele Lee-Carter >, (Essai de maitrise en actuariat), Université Laval, Quebec, Canada. CHAGNON, J., P. DION, N. GALBRAITH, E. SIRAG et Y. ZHANG. 202o. Projections démogra- phiques pour le Canada (2018 a 2068), les provinces et les territoires (2018 a 2043) : rapport tech- nique sur la methodologie et les hypotheses, produit no 91-62o-X au catalogue de Statistique Canada,Ottawa. CONSEIL DE GESTION DE L'ASSURANCE PARENTALE. 2o18. Rapport actuariel du Régime quebecois d'assuranceparentaleau 31 decembre 2o17.RQAP. DION, P. et N. BOHNERT. 2015. Chapitre 3 : Projection de la fécondité. Projections démogra- phiques pour le Canada (2013 a 2063), les provinces et les territoires (2013 a 2038) : rapport tech- nique sur la méthodologie et les hypotheses, produit no 91-62o-X au catalogue de Statistique Canada,Ottawa. DIRECTION DELAPROTECTIONDE LAJEUNESSE.2oi9.Bilansannuelsdesdirecteursdela protection de la jeunesse, Quebec, disponible a la page : https ://ciusss-centresudmtl.gouv.qc.ca/ actualite/bilan-annuel-des-directrices-et-des-directeurs-de-la-protection-de-la-jeunesse-direc- teurs-provinciaux-du-quebec-une."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7346959114074707,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          206
+        ],
+        "text": "T DANSTE （（)NTEX"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3787989914417267,
+        "bbox_xyxy": [
+          198,
+          1341,
+          1502,
+          1422
+        ],
+        "text": "BOUGHAL,H.2oi9.《ModélisationdelaféconditéparunevariantedumodeleLee-Carter > Essai demaitrise en actuariat),UniversitéLaval,Quebec,Canada"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8889105319976807,
+        "bbox_xyxy": [
+          194,
+          260,
+          1504,
+          1345
+        ],
+        "text": "INSTITUT DE LA STATISTIQUE DU QUEBEC. 2o18. Le bilan démographique du Quebec. ISQ, Ste-Foy. INSTITUT DE LA STATISTIQUE DU QUEBEC. 2o19. Taux de fécondité selon le groupe d'age de la mere, indice synthetique de fécondité et age moyen a la maternité, Quebec, 1951-2o19, Quebec, disponible a la page : http ://www.stat.gouv.qc.ca/statistiques/population-demographie/ naissance-fecondite/4o2.htm. LATULIPPE, D., P.C. MICHAUD et G. LACROIX. 2o19. Etude stochastique sur le financement a long terme du Regime quebecois d'assurance parentale — Rapport de recherche, Quebec, disponible a la page : http ://www.cgap.gouv.qc.ca/publications/pdf/RQAP_etude_shoch_ financement.pdf. LEE, R.D. 1993. < Modeling and forecasting the time series of US fertility : Age distribution, range, and ultimate level >, International Journal of Forecasting, 9, 2 : 187-202. LEE, R. 1998. < Probabilistic Approaches to Population Forecasting >, Population and Development Review, 24, Supplement : Frontiers of Population Forecasting : 156-190. MYRSKYLA M., J.R. GOLDSTEIN et Y.A. CHENG. 2013. < New cohort fertility forecasts for the developed world : Rises, falls, and reversals >, Population and Development Review, 39, 1: 31-56. SECRETARIAT A L'ADOPTION INTERNATIONALE. 2019. Site officiel sur l'adoption interna- tionale au Québec — Statistiques d'adoption, Quebec, disponible a la page : http ://adoption. gouv.qc.ca/fr_statistiques-dadoption. THERRIEN, J.F., P. GUEVREMONT, V. CARRIER et E. POULIN. 2016. Evaluation actuarielle du Regime de rentes du Quebec au 31 décembre 2015. Québec, Retraite Quebec, 133 p. TULJAPURKAR, S. 2o19. 《 Stochastic Forecasts of Mortality, Population and Pension Systems >, dans T. BENGTSSON et N. KEILMAN (dir.), Old and New Perspectives on Mortality Forecas- ting, Springer Open, Max Planck Institute for Demographic Research : 145-156 WORLD BANK. 2019. Data. Fertility rate, total (births per woman), disponible a la page : https :// data.worldbank.org/indicator/SP.DYN.TFRT.IN."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.86280357837677,
+        "bbox_xyxy": [
+          541,
+          178,
+          1258,
+          205
+        ],
+        "text": "ENI 公 AIRE BLL（)I)EAI"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4858528971672058,
+        "bbox_xyxy": [
+          1460,
+          183,
+          1502,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3354421555995941,
+        "bbox_xyxy": [
+          1460,
+          183,
+          1502,
+          207
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9729084372520447,
+        "bbox_xyxy": [
+          198,
+          323,
+          1502,
+          478
+        ],
+        "text": "Des trajectoires de l'évolution de l'indice synthetique de fécondité ont été genérées avec un nombre variable de simulations afin d'évaluer la sensibilité des résultats au nombre de simulations et la robus tesse des resultats sur la base d'un nombre de 2ooo simulations. Les résultats sont présentés ci-dessous. Ils ont été obtenus en supposant successivement 1 ooo, 2 ooo, 5 ooo et 1o ooo simulations."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9659777879714966,
+        "bbox_xyxy": [
+          288,
+          1319,
+          1402,
+          1883
+        ],
+        "text": "2,000 1,900 1,800 ed s 1,700 1,600 1,500 Kow 1,400 1,300 1,200 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 Annee 10oosimulations 20oosimulations 50oosimulations 10ooosimulations"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9597347974777222,
+        "bbox_xyxy": [
+          288,
+          610,
+          1399,
+          1195
+        ],
+        "text": "2,000 1,900 1,800 ed 1,700 1,600 1,500 1,400 o 1,300 SI 1,200 2017 2020 2023 2026 2029 2032 2035 2038 2041 2044 2047 2050 Annee 10oosimulations 20oosimulations 50oosimulations 10ooosimulations"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9445353150367737,
+        "bbox_xyxy": [
+          196,
+          1920,
+          1505,
+          2039
+        ],
+        "text": "Il en ressort que les résultats sont tres similaires en ce qui a trait a lintervalle de confiance a 95 %. Des écarts quelque peu plus importants sont genérés pour les valeurs extremes, un nombre plus grand de simulations étant plus susceptibles de generer des valeurs particulierement éloignées de la moyenne"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9234692454338074,
+        "bbox_xyxy": [
+          199,
+          263,
+          342,
+          299
+        ],
+        "text": "ANNEXE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7498060464859009,
+        "bbox_xyxy": [
+          318,
+          177,
+          1348,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.7261940836906433,
+        "bbox_xyxy": [
+          777,
+          1230,
+          923,
+          1257
+        ],
+        "text": "FIGUREA-2"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.648404598236084,
+        "bbox_xyxy": [
+          413,
+          1266,
+          1289,
+          1300
+        ],
+        "text": "alectoiressimulees"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.6363618969917297,
+        "bbox_xyxy": [
+          325,
+          518,
+          1367,
+          591
+        ],
+        "text": "FIGUREA-1 ISF simulés: Intervalle de confiance a 95 % selon le nombre de trajectoires simulees"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2051 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9855866432189941,
+        "bbox_xyxy": [
+          173,
+          1103,
+          1078,
+          1402
+        ],
+        "text": "In econometrics and statistics, it is generally believed that a large sample is always better than a small sample drawn in the same way from the same population. There are atleast tworeasonsfor thisbelief.Wheneach observation contains roughlythesameamountofinformation,alargesamplemustnecessarilycontain moreinformation than a small one.Thuswewould expect to obtainmoreprecise estimates from the former than from the latter. Moreover, we would expect a large sampletoyieldmorereliableinferencesthanasmallonewheneverconfidence intervals and hypothesistests arebased on asymptotic theory,because the assump- tionsofthattheoryshouldbeclosertobeingtrue."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9808239936828613,
+        "bbox_xyxy": [
+          173,
+          788,
+          1080,
+          1001
+        ],
+        "text": "ABsTRAcT-Inferenceusinglargedatasetsis notnearly asstraightforward as conventional econometrictheorysuggestswhenthedisturbancesareclustered,evenwithverysmall intra-clustercorrelations.Theinformationcontainedinsuchadatasetgrowsmuchmore slowlywiththesamplesizethanitwouldiftheobservationswereindependent.Moreover, inferencesbecomeincreasinglyunreliableasthedatasetgetslarger.Theseassertionsare basedonanextensiveseriesofestimationsundertakenusingalargedatasettakenfromthe U.S.CurrentPopulationSurvey."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9459861516952515,
+        "bbox_xyxy": [
+          173,
+          1571,
+          1079,
+          1747
+        ],
+        "text": "* This research was supported,in part,by a grant from theSocialSciences and Humanities ResearchCouncilofCanada.MuchofthecomputationwasperformedattheCentreforAdvanced ComputingofQueen'sUniversity.ThepaperwasfirstpresentedunderthetitleDonneesmassiveset regroupementsastheConferenceFrancois-Albert-Angersatthe56thconferenceoftheSocieté canadiennedescienceéconomiqueonMay12,2016.ItwasalsopresentedattheUniversityofMis- souri and atAarhusUniversity.The authorisgrateful toseminar participants and toStasKolenikov, MattWebb,andRussellDavidsonforcomments"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9396307468414307,
+        "bbox_xyxy": [
+          173,
+          553,
+          460,
+          654
+        ],
+        "text": "JamesG.MACKINNON Queen'sUniversity jgm@econ.queensu.ca"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9154284000396729,
+        "bbox_xyxy": [
+          273,
+          366,
+          978,
+          454
+        ],
+        "text": "INFERENCEWTTHLARGECLUSTEREL DATASETS*"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6737265586853027,
+        "bbox_xyxy": [
+          174,
+          1054,
+          326,
+          1083
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4704367518424988,
+        "bbox_xyxy": [
+          172,
+          247,
+          934,
+          273
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.43761998414993286,
+        "bbox_xyxy": [
+          172,
+          247,
+          934,
+          273
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9856603145599365,
+        "bbox_xyxy": [
+          172,
+          617,
+          1080,
+          888
+        ],
+        "text": "The theoretical implications of within-sample dependence have been studied in detail in Andrews (2005). Unlike that paper, this one is not concerned with econometrictheory,except atarathersuperficiallevel.Instead,thepaper attempts to see whether such dependence is actually a problem. To that end, it performs various estimationsandsimulationsusing arealdataset,whichisquitelarge(more than 1.15 million observations), and it obtains some surprising results. Of course, because the data arereal,we donot reallyknowhowtheyweregenerated.Butit seemsclearthatthereisdependenceand thatithasprofoundconsequences."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983373761177063,
+        "bbox_xyxy": [
+          172,
+          246,
+          1080,
+          449
+        ],
+        "text": "In practice,however,large samples may not have the desirable properties that we expect. In this paper, I point out that very large samples need to be used with care. They do indeed contain more information than small samples. But they may not contain nearly as much information as we think they do, and, if we are not careful, inferences based on them may actually be less reliable than inferences based onsmallsamples."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9755774140357971,
+        "bbox_xyxy": [
+          173,
+          988,
+          1079,
+          1158
+        ],
+        "text": "The data are takenfrom the CurrentPopulationSurveyfor theUnitedStates. There are 1,156,597 observations on white men aged 25 to 65for the years 1979 through2015.Each observation is associated with one of 51states(including the District of Columbia).There are 4,068observations for the smalleststate(Hawaii), andthereare87,427observationsforthelargeststate(California)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9703214168548584,
+        "bbox_xyxy": [
+          173,
+          1682,
+          1079,
+          1751
+        ],
+        "text": "Supposeweareinterestedin thevalueofhavingapostgraduatedegree.The percentageincreaseinearningsrelativetosimplyhavingauniversitydegreeis"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9701636433601379,
+        "bbox_xyxy": [
+          172,
+          1530,
+          1079,
+          1665
+        ],
+        "text": "where g indexes states from 1 to 51, tindexes years from 1 to 37,iindexes individuals within each year, and Yearj. is a dummy variable that equals 1 whenever t = j. The gtu timefixedeffectsareessentialbecauseearnings(whicharenotadjustedfor inflation)tendtoincreaseovertimeandvaryoverthebusinesscycle"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9575015902519226,
+        "bbox_xyxy": [
+          218,
+          1367,
+          780,
+          1507
+        ],
+        "text": "ygti =β +β2Ed2gti +βsEd3gti +β4Ed4gti +βsEd5 gti 37 +β6Age gti +βzAgegi + ZYjYear j=2"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9072353839874268,
+        "bbox_xyxy": [
+          172,
+          1174,
+          1079,
+          1342
+        ],
+        "text": "It is common to estimate an earnings equation using data like these. The dependentvariableis thelogarithm ofweeklyearnings.Theindependentvariables are age, age squared, and four education dummies (high school, high school plus twoyears,college/university,atleast onepostgraduatedegree).Thus thebasic equationtobeestimatedis"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9026936292648315,
+        "bbox_xyxy": [
+          175,
+          939,
+          636,
+          971
+        ],
+        "text": "HARNINS SEOUIATION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9002458453178406,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8828060030937195,
+        "bbox_xyxy": [
+          173,
+          180,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8679114580154419,
+        "bbox_xyxy": [
+          1044,
+          1421,
+          1076,
+          1451
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7935447096824646,
+        "bbox_xyxy": [
+          172,
+          466,
+          1079,
+          601
+        ],
+        "text": "The fundamental problem is that, in practice, the observations in most samples are not entirely independent. Although small levels of dependence have minimal conse- quences when samples are small, they may have very substantial consequences when samples arelarge.Theobjectiveof thispaperistoillustratethoseconsequences."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5736324191093445,
+        "bbox_xyxy": [
+          172,
+          466,
+          1079,
+          601
+        ],
+        "text": "The fundamental problem is that, in practice, the observations in most samples are not entirely independent. Although small levels of dependence have minimal conse- quences when samples are small, they may have very substantial consequences when samples arelarge.Theobjectiveof thispaperistoillustratethoseconsequences."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9888795614242554,
+        "bbox_xyxy": [
+          172,
+          798,
+          1078,
+          1098
+        ],
+        "text": "It has been known for a very long time that ignoring error components can lead to severe errors of inference; see Kloek (1981) and Moulton (1986, 1990). The conventional approach is to use either a random-effects or a fixed-effects specifi- cation. The former is a particular type of generalized least squares, and the latter involves adding dummy variables for the time and cross-sectionfixed effects. Because the random-effects specification requires the strong assumption that the v. and w, are uncorrelated with the regressors,it is safer to use the fixed-effects specification when possible. With a large sample like this one, and no regressors that would be explained by all the dummies, it is natural to use fixed effects."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9876517057418823,
+        "bbox_xyxy": [
+          172,
+          1448,
+          1079,
+          1750
+        ],
+        "text": "Until fairly recently, many applied econometricians would have been quite happywith theestimatesgiven at theendof theprevioussection.If theearnings equation (1) and the error-components specification (3) are correct, those estimates and their standarderrorsshould bereliable.However,the error-componentsspec- ification is actually quite restrictive.Among other things,it forces the effects of time trends and thebusinesscycle tobethesamefor everystate.It alsoimplies thatwhatremainsofthedisturbances afterthetimeandstatedummieshaveremoved theirrespectiveerror componentsmustbeuncorrelated.Aswewillseeshortly, this implication is emphatically not true for the model and dataset that I am using."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9826235175132751,
+        "bbox_xyxy": [
+          172,
+          1116,
+          1079,
+          1348
+        ],
+        "text": "Since equation (1) already contains time dummies, using fixed effects simply means adding 50 state dummies. When that is done, the OLS estimate of β - β4 is 0.10965. The implied percentage increase is 11.589% with an HC, standard error of 0.222.Theresulting95%confidenceinterval is[11.155,12.023].Adding the statedummyvariableshas caused our estimate of thevalue of apostgraduate degreetodropby almostafull percentagepoint,or morethanfourstandarderrors. However,thewidthoftheconfidenceintervalisalmostunchanged."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9792813062667847,
+        "bbox_xyxy": [
+          172,
+          295,
+          1079,
+          496
+        ],
+        "text": "where Φ = βs - β4. The OLS estimates of β, and β4 are 0.80293 and 0.68498, respectively.Usingtheleft-handsideofequation(2)and thedeltamethod,we estimate the percentage increase tobe 12.519% with a standard error of 0.225. The latter is based on a heteroskedasticity-consistent covariance matrix, specifically the HC,variant; see MacKinnon and White (1985). This implies that a 95% con- fidenceintervalis[12.077,12.961]"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9746779799461365,
+        "bbox_xyxy": [
+          172,
+          513,
+          1079,
+          644
+        ],
+        "text": "So far, everything looks good. I seem to have obtained a fairly precise estimate of the effect on earnings of having a postgraduate degree. However, equation (1) isabittoosimple.Becausethedatahavebothatimedimensionandacross-section one,itmakessensetomodelthedisturbancesas"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9534085392951965,
+        "bbox_xyxy": [
+          171,
+          716,
+          1079,
+          781
+        ],
+        "text": "This is called an error-components model. The v, are time components, and the w arecross-sectioncomponents,whichcanbetreatedaseitherfixedorrandom"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8905336856842041,
+        "bbox_xyxy": [
+          381,
+          182,
+          869,
+          205
+        ],
+        "text": "NEERENCEWTTHTARECILTSTEREIOIATASET?"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.871755063533783,
+        "bbox_xyxy": [
+          1043,
+          664,
+          1076,
+          694
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8702667355537415,
+        "bbox_xyxy": [
+          213,
+          666,
+          420,
+          704
+        ],
+        "text": "M +8 gfi"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8666117787361145,
+        "bbox_xyxy": [
+          1041,
+          250,
+          1076,
+          280
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8615638613700867,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1074,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7482078671455383,
+        "bbox_xyxy": [
+          219,
+          250,
+          483,
+          283
+        ],
+        "text": "100（exp(∞)-1)=100q"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.40712204575538635,
+        "bbox_xyxy": [
+          173,
+          1399,
+          495,
+          1430
+        ],
+        "text": "LUSTERED OIOISTURBANCES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.3949205279350281,
+        "bbox_xyxy": [
+          173,
+          1399,
+          496,
+          1430
+        ],
+        "text": "CLUSTERED OIOISTURBANCES"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854611754417419,
+        "bbox_xyxy": [
+          172,
+          1345,
+          1080,
+          1614
+        ],
+        "text": "There are also cluster generalizations of the HC,and HC, matrices. The former was proposed in Bell and McCaffrey (2002), and there is evidence that it performs somewhat better than CV,; see MacKinnon (2015) and Imbens and Kolesar (2016). Unfortunately, the CV,and CV,covariance matrices involve taking either the inverse symmetric square root or the ordinary matrix inverse of N, × N。 matrices for g = 1.,...,G. These matrices are the ones on the diagonal block of the projection matrix M, = I-X(X'X)-'X' For the dataset I am using, N, can be as large as 87,427, forCalifornia,sothat itwould be totallyinfeasible touseeither CV,or CV,1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815881252288818,
+        "bbox_xyxy": [
+          171,
+          246,
+          1080,
+          380
+        ],
+        "text": "In modern applied work with individual data that come from multiple juris- dictions,it is customarytotreateachjurisdictionas a cluster andto allowfor arbitrary patterns of intra-cluster correlation. The model (1) can be thought of as a special caseof thelinearregressionmodel"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784932732582092,
+        "bbox_xyxy": [
+          170,
+          601,
+          1079,
+          769
+        ],
+        "text": "where g indexes states and the g'h cluster has N, observations. Here X,y, and u have ,N.rows,X has K columns,and β is a K-vector.In the case of (1)with state dummies added, G = 51, K = 83, and N = 1,156,597. If we allow for an arbitrary patternofwithin-clustercorrelationandassumethatthereisnointer-cluster correlation,thenthetruecovariancematrixofthevectoruis"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9678016901016235,
+        "bbox_xyxy": [
+          171,
+          957,
+          1077,
+          1058
+        ],
+        "text": "Even though we do not know,and cannot consistently estimate,theQmatrices, it ispossibletoestimate thecovariancematrix(5)consistentlywhen Gislarge. The most popular cluster-robust variance estimator, or CRVE, is"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9655337333679199,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1079,
+          1748
+        ],
+        "text": "1. SimplystoringthediagonalblockofMthatcorrespondstoCaliforniawouldrequireabout 57GBofmemory.Invertingit,orfindingitsinversesymmetricsquareroot,wouldrequireadditional"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9535148739814758,
+        "bbox_xyxy": [
+          218,
+          395,
+          683,
+          589
+        ],
+        "text": "y1 X1 u1 X2 y2 u2 =Xβ+u= β+ ··· ·· yG XG UG"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9526407718658447,
+        "bbox_xyxy": [
+          217,
+          790,
+          568,
+          889
+        ],
+        "text": "G (X'X)- Ex'Qgxg (X'X)-1 g=1"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9508000016212463,
+        "bbox_xyxy": [
+          216,
+          1076,
+          837,
+          1176
+        ],
+        "text": "G(N - 1) G CV, : (X'X)- Sxuux (X'X)-1 (G -1)(N -K) g=1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9376690983772278,
+        "bbox_xyxy": [
+          172,
+          907,
+          1071,
+          944
+        ],
+        "text": "wheres2 torfneo cluster"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.924180269241333,
+        "bbox_xyxy": [
+          479,
+          179,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9122599363327026,
+        "bbox_xyxy": [
+          173,
+          179,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8874407410621643,
+        "bbox_xyxy": [
+          171,
+          1196,
+          1079,
+          1330
+        ],
+        "text": "where udenotes the vector of OLS residuals for cluster g, and u denotes the vector of all the OLS residuals. This matrix seems to have been proposed first in Liang and Zeger(1986).It canbethought of as ageneralization of theHC,heteroske dasticity-consistentcovariancematrix"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.879274845123291,
+        "bbox_xyxy": [
+          1041,
+          823,
+          1076,
+          853
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8766993880271912,
+        "bbox_xyxy": [
+          1041,
+          1112,
+          1076,
+          1142
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.875557541847229,
+        "bbox_xyxy": [
+          1041,
+          477,
+          1076,
+          506
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.45349371433258057,
+        "bbox_xyxy": [
+          171,
+          1196,
+          1079,
+          1330
+        ],
+        "text": "where udenotes the vector of OLS residuals for cluster g, and u denotes the vector of all the OLS residuals. This matrix seems to have been proposed first in Liang and Zeger(1986).It canbethought of as ageneralization of theHC,heteroske dasticity-consistentcovariancematrix"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9853094220161438,
+        "bbox_xyxy": [
+          172,
+          1100,
+          1079,
+          1334
+        ],
+        "text": "Table1shows threedifferentstandarderrors,and the associatedconfidence intervals, for the value of a postgraduate degree. The substantial variation among the standard errors provides clear evidence of clustering, both within state-year pairs and across years within states. Since clustering at the state-year level imposes stronger restrictions on the covariance matrix than clustering at the state level, the largedropinthestandarderrorwhenwemovefromthelattertotheformerprovides convincing evidence that state-year clustering is toorestrictive."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9830834865570068,
+        "bbox_xyxy": [
+          173,
+          246,
+          1080,
+          445
+        ],
+        "text": "It is easy to compute a test statistic that has the form of a t statistic by dividing anyparameterestimatebythesquarerootoftheappropriatediagonalelementof (6).Itisthencustomarytocomparethisteststatisticwiththet(G-1)distribution rather than the t(N - K) distribution; see Donald and Lang (2007) and Bester, Conley etHansen(2011).Intuitively,we use G-1 because there are only G terms inthesummationin (6)."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9812622666358948,
+        "bbox_xyxy": [
+          170,
+          780,
+          1077,
+          988
+        ],
+        "text": "Standard Error Case % Gain (% Gain) 95%Lower 95% Upper HC, 11.589 0.222 11.155 12.023 CV,(S,Y) 11.589 0.318 10.967 12.212 CV,(S) 11.589 0.584 10.447 12.732"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978573739528656,
+        "bbox_xyxy": [
+          172,
+          463,
+          1079,
+          630
+        ],
+        "text": "For the earnings equation (1), there are at least two natural ways to form a cluster-robust covariance matrix. One is to cluster by state, so that there are 51 clusters, and the other is to cluster by state-year pair, so that there are 1887 clusters. I nowre-estimatethestandard errorof thepercentagechangeinwages associated with apostgraduate degreeusing thesetwomethods."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9777314066886902,
+        "bbox_xyxy": [
+          172,
+          1351,
+          1080,
+          1551
+        ],
+        "text": "TheonlystandarderrorinTable1thatmightbereliableis theoneinthelast line.It is 2.63 times the standard error in the first line.Increasing the standard errorbyafactorof 2.63isequivalenttoreducingthesamplesizebyafactor of 2.63squared.In other words,this sample of1,156,597observations,which are evidently dependent within state -level clusters, appears to be equivalent to a sample ofapproximately167,000independentobservations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9756891131401062,
+        "bbox_xyxy": [
+          173,
+          1568,
+          1078,
+          1666
+        ],
+        "text": "It is not hard to see why this sample contains much less information than its large size would lead us to expect. Consider the sample mean y = (1/N)∑*= 1 y,. The usualformulaforthevarianceofyis"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9366905689239502,
+        "bbox_xyxy": [
+          431,
+          679,
+          819,
+          757
+        ],
+        "text": "TABLE1 VALUEOFAPOSTGRADUATEDEGREE"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.9046969413757324,
+        "bbox_xyxy": [
+          171,
+          1004,
+          1077,
+          1056
+        ],
+        "text": "NoTE:HC,doesnot cluster at all.CV,(S,Y)uses 1887clusters at the state-yearlevel,and CV,(S)uses 51clustersatthestatelevel."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9012885689735413,
+        "bbox_xyxy": [
+          215,
+          1679,
+          393,
+          1743
+        ],
+        "text": "Var( V"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8897731900215149,
+        "bbox_xyxy": [
+          381,
+          182,
+          870,
+          206
+        ],
+        "text": "NFERENCEWTTHLARGECTLSTEREDDATASETS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8567191362380981,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.5916582942008972,
+        "bbox_xyxy": [
+          1042,
+          1695,
+          1076,
+          1725
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.4912640154361725,
+        "bbox_xyxy": [
+          1042,
+          1695,
+          1075,
+          1725
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9873980283737183,
+        "bbox_xyxy": [
+          172,
+          649,
+          1079,
+          915
+        ],
+        "text": "Now consider the two terms on the right-hand side of equation (8). The first termis evidently O(1/N).But the second term is O(1),because itinvolves two summations over N, and it is divided by N2. Thus, even if the Cov(y, y) terms are verysmall,thesecondtermontheright-handsideofequation(8)willeventually become larger than the first term?. As N → oo, under appropriate regularity con- ditions, the first term will vanish,but the second term will converge to a positive constant. Thus, for large enough sample sizes, additional observations will provide essentiallyno additional information."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769232869148254,
+        "bbox_xyxy": [
+          173,
+          933,
+          1078,
+          1032
+        ],
+        "text": "This disturbing result implies that, for large samples with clustered disturbances andafixed numberofclusters,the accuracyoftheestimateswillgrowmoreslowly thanNi/2andwillbeboundedfromabove."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9758692383766174,
+        "bbox_xyxy": [
+          171,
+          499,
+          1080,
+          633
+        ],
+        "text": "Heteroskedasticity is not a serious problem. IfVar(y,) = o², we just need to define 0² as N- Z- O2, and the first term on the right-hand side of equation (8) simplifies to (7). However, if the Cov(y, y;) are not all zero, equation (8) as a whole cannot possiblysimplifytoequation(7)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.962690532207489,
+        "bbox_xyxy": [
+          172,
+          296,
+          1079,
+          363
+        ],
+        "text": "forthevarianceofthesamplemeanthatisvalidundermuchweakerassumptionsis"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9482818245887756,
+        "bbox_xyxy": [
+          176,
+          1192,
+          931,
+          1631
+        ],
+        "text": "550 500 450 400 350 300 250 200 150 100 50 0 M 20,000 100,000 250,000 500,000 1,000,000 HC1 CV1(S, Y) CV1(S)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9443250894546509,
+        "bbox_xyxy": [
+          215,
+          382,
+          772,
+          480
+        ],
+        "text": "N N N Var(y)= Var(y;)+2∑∑ Cov (y;,yj) N i=l j=i+1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9154348969459534,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9083239436149597,
+        "bbox_xyxy": [
+          173,
+          246,
+          752,
+          280
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9035594463348389,
+        "bbox_xyxy": [
+          173,
+          179,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.87656170129776,
+        "bbox_xyxy": [
+          1040,
+          415,
+          1076,
+          445
+        ],
+        "text": "8"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8276684880256653,
+        "bbox_xyxy": [
+          562,
+          1076,
+          686,
+          1108
+        ],
+        "text": "FIGURET"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.77104651927948,
+        "bbox_xyxy": [
+          170,
+          1695,
+          1054,
+          1750
+        ],
+        "text": "The result would be different if the Cov(y, y) terms had mean zero, of course,but the isnoreasontoexpectthattobethecase.Onthecontrary,weexpectthemeantobepositive"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.3754613399505615,
+        "bbox_xyxy": [
+          426,
+          1127,
+          825,
+          1159
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984351634979248,
+        "bbox_xyxy": [
+          173,
+          1047,
+          1079,
+          1312
+        ],
+        "text": "Although it is important to obtain accurate confidence intervals for economically interesting parameters such as Φ, it is probably even more important to make valid inferences about the effectsofpublicpolicies.Equationssimilar to(1)are often used for this purpose. Suppose that certain jurisdictions (in this case, certain states) have implemented a particular policy at various points intime. Then, by adding a treatmentdummyvariablethatequals1foreverystateandtimeperiodwhenthe policywasactivetosuchanequation,economistscanestimatetheeffectofthe policy on the dependent variable and test whether it was statistically significant."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9843196272850037,
+        "bbox_xyxy": [
+          173,
+          463,
+          1079,
+          762
+        ],
+        "text": "Figure 1 graphs the inverse of the average of the reported standard errors of Φ forthreecovariancematrixestimatorsagainstM,wherethehorizontalaxisis proportionaltothesquarerootof M.ForvaluesofMlessthan about30,o0o,the three standard errors are essentially the same. For larger values of M, the het- eroskedasticity-robuststandard errors remainproportionalto√1/M,sothefigure shows astraightline.However,thetwocluster-robuststandarderrorsdeclinemore slowly than √1/ M.In consequence,their inverses increase more slowly. For state- levelclustering,theinversestandarderrorsincreaseveryslowlyindeedbeyond aboutM=250.000"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9831913113594055,
+        "bbox_xyxy": [
+          174,
+          247,
+          1079,
+          445
+        ],
+        "text": "In order to investigate whether this phenomenon is important for the model and data used here,I created multiple subsamples ofvarious sizes,rangingfrom 1/64 of the original sample to 1/2 of the original sample. Let M denote the reduced sample size, where M = N/m for m = 2, 3,4,6, 9, 16, 25, 36,49, 64. Then the subsamples of size M were created by retaining only observations m + j, 2m + j, andsoon,for anumber ofvaluesofj≤m."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9812721610069275,
+        "bbox_xyxy": [
+          173,
+          1330,
+          1079,
+          1595
+        ],
+        "text": "This sort of empiricalexercise is often called“differencein differences”or 'DiD.\" In the simplest case, such as Card and Krueger (1994), there are just two jurisdictions andtwotimeperiods,anditisnotpossibletouseclusteredstandard errors. However, most DiD regressions involve several jurisdictions (for example. 51 states)and quite a fewtimeperiods, and it is routine to allowfor clustering. It may not be immediately obvious that adding an appropriate dummy variable to an equation like (1) is equivalent to difference in differences, but this is in fact how almost all DiD exercises are performed nowadays; see Angrist and Pischke (2008)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9748543500900269,
+        "bbox_xyxy": [
+          173,
+          781,
+          1078,
+          945
+        ],
+        "text": "We cannot be at all sure that the state-level clustered standard errors arereliable3 butwedoknowthattheothertwostandarderrorsaretoosmall.Thusthelowest curve in Figure 1 puts an (approximate) upper bound on the rate at which accuracy improves with sample sizefor theparameter p with this dataset.As the theory suggests,thisrateisverylowforlargesamplesizes."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9698172807693481,
+        "bbox_xyxy": [
+          172,
+          1645,
+          1078,
+          1748
+        ],
+        "text": "3.This is true for two reasons.First,the disturbances may still be correlated across clusters, although the bootstrap results in Section 4 suggest that this is not a serious problem. Second, when clustersizesdiffer alot,astheydointhiscase,CV,standarderrorstendtobeunreliable;seeMacKinnon andWebb(2017)."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8906003832817078,
+        "bbox_xyxy": [
+          174,
+          997,
+          514,
+          1028
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8822434544563293,
+        "bbox_xyxy": [
+          382,
+          182,
+          869,
+          205
+        ],
+        "text": "NEERENCEWLIELL.AREI CLLSTEREOATASETS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8246685862541199,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848023056983948,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          579
+        ],
+        "text": "Onewaytoexaminethereliabilityofinferencewithclustereddataistosimulate the effect of\"placebolaws\"in DiDregressions. This ingenious idea was developed in Bertrand,Duflo and Mullainathan(2004),which uses a regression similar to (1),but for a shorter time period,with data for women instead of men,and with different educationvariables.Instead ofgenerating a newdatasetforeachreplication, a placebo-lawexperimentsimplygenerates a newtreatmentdummyvariable.These treatment dummies are entirely artificial, so they should not actually have any impact on the dependent variable. MacKinnon and Webb (2017) performs an extensivesetofplacebo-lawexperimentsusingessentiallythesamedataset and specification asBertrand,Duflo andMullainathan(2004)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9831937551498413,
+        "bbox_xyxy": [
+          172,
+          1481,
+          1080,
+          1750
+        ],
+        "text": "Figure 2 reports rejection frequencies at the 5% level for t statistics based on the HC, CV,(S, Y), and CV,(S) covariance matrices for al1 51 possible values of G,.Only CV,(S)ever yields inferences that are close tobeing reliable.Tests based onheteroskedasticity-robuststandarderrors alwaysoverrejectextremelyseverely. Testsbased onclusteringatthestate-yearlevelalsoalwaysoverrejectveryseverely. In contrast,testsbased on clustering at thestatelevel overreject moderatelyfor G,>15.However, there is severe overrejectionfor G,≤5 and extreme overrejection forG,=1andG,=2."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9579792022705078,
+        "bbox_xyxy": [
+          170,
+          1030,
+          1007,
+          1443
+        ],
+        "text": "0.9 0.8 HC1 0.7 0.6 0.5 CV(S, Y) 0.4 0.3 0.2 0.1 CV1(S) 0.0 5 15 25 30 20 35 45 0 10 40 50"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9429793953895569,
+        "bbox_xyxy": [
+          172,
+          597,
+          1079,
+          864
+        ],
+        "text": "In this section, I perform a large number of placebo-law experiments. The number of \"treated' states, denoted G,, varies from 1 to 51. If a state is treated, its treatment can start in any year from 1984 to 2010, with equal probability. Thus the number of possible treatment dummy variables is 51x 27 = 1377 for G,= 1, 51 x 50 × 272/2 = 929,475 for G, = 2, and very much larger numbers for larger values of G,. In the experiments, I enumerate all possible treatment dummies for G, = 1, so that there are 1377 replications. For G, > 1, I choose 40,000 treatment dummies atrandom,withreplacement,fromthesetsofallpossibletreatmentdummies"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8807984590530396,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8554784059524536,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8406966924667358,
+        "bbox_xyxy": [
+          563,
+          912,
+          688,
+          944
+        ],
+        "text": "FIGRE2"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.39535483717918396,
+        "bbox_xyxy": [
+          172,
+          597,
+          1079,
+          863
+        ],
+        "text": "In this section, I perform a large number of placebo-law experiments. The number of“treated\"states,denoted G,varies from 1 to 51. If a state is treated, its treatment can start in any year from 1984 to 2010, with equal probability. Thus the number of possible treatment dummy variables is 51 x 27 =1377 for G,= 1, 51x 50× 272/2 =929,475for G,=2,and very much larger numbers forlarger values of G,. In the experiments,I enumerate all possible treatment dummies for G, = 1, so that there are 1377 replications. For G, > 1, I choose 40,000 treatment dummies at random, with replacement, from the sets of all possible treatment dummies."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848172068595886,
+        "bbox_xyxy": [
+          172,
+          246,
+          1078,
+          513
+        ],
+        "text": "The reason for the extreme overrejection by CV, (S) when G, is small is explained in MacKinnon andWebb(2017).Suppose that 8 denotes thecoefficient on the treatment dummy, which must be orthogonal to the residuals for all treated obser- vations.When thetreated observations allbelong toveryfewgroups,this means that therow andcolumn of themiddlefactorinexpression(6)whichcorrespond toS aremuch too small.In consequence,the CRVEgrosslyunderestimates the variance of & when G, is small. This causes the variance of the t statistic to be muchtoolarge,leadingtosevereoverrejection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845102429389954,
+        "bbox_xyxy": [
+          172,
+          530,
+          1079,
+          830
+        ],
+        "text": "Sincetheyrejectsooften,theteststatisticsfor8=Omusthaveverymuch larger standard deviations than t statistics should have.Infact,for G,=25,the standard deviations are 5.65,2.78,and1.10 for statistics based on HC,,CV,(S, Y), and CV,(S), respectively. This means that, if the HC, and CV,(S, Y) t statistics are approximatelynormallydistributed,wewillobtainteststatisticsgreaterthan5.65 and 2.78 in absolute value, respectively, more than 30% of the time. Thus, when we use the wrong covariance matrix, there is a very substantial probability of obtainingbychance ateststatisticthatappearstobenotmerelysignificant,but highlysignificant"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9818220138549805,
+        "bbox_xyxy": [
+          173,
+          847,
+          1080,
+          1079
+        ],
+        "text": "Based on the results of Section 2, in particular the ones in Figure 1, it seems plausiblethattheplacebo-lawexperimentswouldhaveyieldeddifferentresultsif the samplesizehadbeensmaller.In order toinvestigate this conjecture,Ireduced the sample size to M = N/m by retaining observations numbered m, 2m, and so on, for m =2,5,10,and 20.I then performed the same set of51 placebo-law experiments foreachvalueofMasforthefullsample,exceptthatIused1oo,oo0replications insteadof40.000form=5,10,and20"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9444364309310913,
+        "bbox_xyxy": [
+          173,
+          1224,
+          1082,
+          1646
+        ],
+        "text": "0.8 0.7 M=N 0.6 M =N/2 0.5 0.4 M = N/5 0.3 M = N/10 0.2 ...M=N/20 0.1 0.0 G1 5 10 15 20 25 30 35 40 45 0 50"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.939922571182251,
+        "bbox_xyxy": [
+          173,
+          1681,
+          1079,
+          1748
+        ],
+        "text": "Figure3shows5%rejectionfrequenciesforHC,tstatisticsforfivesample sizes.These decrease steadily and quite dramatically as the sample size drops."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8834609389305115,
+        "bbox_xyxy": [
+          381,
+          182,
+          869,
+          206
+        ],
+        "text": "NFERENCEWTTHLARGECTLSTEREDDATASETS"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8561217784881592,
+        "bbox_xyxy": [
+          562,
+          1118,
+          688,
+          1150
+        ],
+        "text": "FIGURE3"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8379666805267334,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1075,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3695269525051117,
+        "bbox_xyxy": [
+          327,
+          1169,
+          920,
+          1203
+        ],
+        "text": "CEBOLAW'TESTS.HC"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9849026799201965,
+        "bbox_xyxy": [
+          172,
+          941,
+          1080,
+          1210
+        ],
+        "text": "Figure 4 shows 5% rejection frequencies for CV,(S, Y) t statistics for the same fivesamplesizes.These alsodecreasequite dramatically as thesamplesizedrops, but they are not as bad for large sample sizes as the ones in Figure 3. For the very smallest sample, with M = 57,829, the CV,(S, Y) and HC, rejection frequencies are almostindistinguishable.Thissuggests that theconsequencesofwhateverwith- in-sample correlations clustering at thestate-yearlevel picks upmustberelatively small comparedtothoseofthewithin-state,cross-yearcorrelations thatclustering atthestatelevelpicksup."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9752811789512634,
+        "bbox_xyxy": [
+          172,
+          246,
+          1080,
+          379
+        ],
+        "text": "When M =N/20 =57,829,they are never more than 22.4%.In contrast,when M =N =1,156,597,they can be as large as 74.8%.Thus it is evident thatfailing to account for clustered disturbances leads toincreasingly serious errors of inference asthesamplesizeincreases"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9419054388999939,
+        "bbox_xyxy": [
+          173,
+          1330,
+          1011,
+          1739
+        ],
+        "text": "0.80 M=N=1,156,597 0.70 --M=N/2=578,298 0.60 ....M=N/5=231,319 -M=N/10=115,659 e 0.50 ...M=N/20=57,829 0.40 0.30 0.20 0.10 0.00 1 G1 0 5 10 15 20 25 30 35 40 45 50"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9153216481208801,
+        "bbox_xyxy": [
+          174,
+          497,
+          915,
+          896
+        ],
+        "text": "0.6 0.5 M = N 0.4 M=N/2 M=N/5 0.3 M = N/10 0.2 M=N/20 0.1 HC1,M =N/20 0.0 T 1 25 / 0 5 10 15 20 30 35 40 45 50"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9022313952445984,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8901193737983704,
+        "bbox_xyxy": [
+          563,
+          1236,
+          688,
+          1267
+        ],
+        "text": "FIGURE5"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8832587003707886,
+        "bbox_xyxy": [
+          563,
+          396,
+          688,
+          428
+        ],
+        "text": "FIGRE4"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8741970062255859,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4886539578437805,
+        "bbox_xyxy": [
+          300,
+          447,
+          952,
+          480
+        ],
+        "text": "I.AWIESTS"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9853577613830566,
+        "bbox_xyxy": [
+          172,
+          546,
+          1080,
+          746
+        ],
+        "text": "Based onFigure5,it appears that,withlargesampleslikethis one,inferences based on cluster-robust covariance matrices are likely to be inaccurate, especially when the number of treated clusters is small.For most values of G,,however, it is possibletoobtainmoreaccurateinferencesbyusingthewildclusterbootstrap. This procedure was proposed by Cameron, Colbach and Miller (2008) and studied in detailby MacKinnon and Webb (2017)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9839681386947632,
+        "bbox_xyxy": [
+          172,
+          967,
+          1078,
+          1235
+        ],
+        "text": "Here X., is the vector of regressors for observation i within cluster g, u, is the residualfor that observation based on OLS estimationsubjecttowhatever restric- tion(s) are to be tested, βis a vector of restricted OLS estimates, and v*b is an auxiliary random variable. Notice that the same value of v*b multiplies every residual u, in group g. This ensures that the bootstrap DGP mimics the intra-cluster cor- from theRademacher distribution,whichis equal to1 and-1 with equal probabilities. However, this can cause problems when G is less than about 12; see Webb (2014)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9839574098587036,
+        "bbox_xyxy": [
+          173,
+          245,
+          1080,
+          444
+        ],
+        "text": "Figure 5 shows 5% rejection frequencies for CV,(S) t statistics for the same fivesamplesizes.Itlooksvery differentfromFigures3 and 4.In thiscase,sample sizedoesnotseemtomatter.Thefivecurvesare almostontopofeachother.This suggeststhattheCV,(S)covariancematrices aretakingproperaccountofwhatever within-samplecorrelations theremaybe.Clustering at thestatelevel seems tobe sufficient."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.969200849533081,
+        "bbox_xyxy": [
+          172,
+          762,
+          1078,
+          830
+        ],
+        "text": "For hypothesis testing, the preferred variant of the wild cluster bootstrap uses thefollowingDGPtogeneratethebootstrapdata:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9678438901901245,
+        "bbox_xyxy": [
+          172,
+          1487,
+          1078,
+          1624
+        ],
+        "text": "diagonal element of a corresponding cluster-robust covariance matrix such as (6). The bootstrap P value is then the fraction of the t*b that are more extreme than the actualteststatistict,.Forasymmetricbootstraptest,thiswouldbe"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9667015671730042,
+        "bbox_xyxy": [
+          172,
+          1251,
+          1078,
+          1351
+        ],
+        "text": "The DGP (9) is used to generate B bootstrap samples which satisfy the null hypothesis, say that β, = O.In order to test that hypothesis,each of these is used to calculateabootstrapteststatistic"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9498379826545715,
+        "bbox_xyxy": [
+          217,
+          1379,
+          403,
+          1462
+        ],
+        "text": "*b *方 lk"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9122821688652039,
+        "bbox_xyxy": [
+          218,
+          874,
+          430,
+          922
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9034116268157959,
+        "bbox_xyxy": [
+          174,
+          497,
+          553,
+          528
+        ],
+        "text": "LHEWHD DCTIISTER BOOTSTRAE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8930076956748962,
+        "bbox_xyxy": [
+          381,
+          182,
+          870,
+          206
+        ],
+        "text": "NFERENCEWTTHLARGECTLSTEREDDATASETS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8788921236991882,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8781570792198181,
+        "bbox_xyxy": [
+          1030,
+          1406,
+          1075,
+          1436
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8737006783485413,
+        "bbox_xyxy": [
+          1041,
+          885,
+          1076,
+          914
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8245887160301208,
+        "bbox_xyxy": [
+          167,
+          1695,
+          1055,
+          1750
+        ],
+        "text": "4. The curve for M =N/20 is a bit below the others forlarger values of G,, but this probab justreflectssamplingvariability"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9824492931365967,
+        "bbox_xyxy": [
+          173,
+          1128,
+          1080,
+          1362
+        ],
+        "text": "Figure 6 shows rejection frequencies for wild cluster bootstrap tests at the .01, .05, and .10 levels. These are based on 10,000 replications with B = 399. Results are shown only for G, = 1, ... , 24 and G, = 25, 30, ... , 50 because each experiment took atleastseven days of computer time.The bootstrap testsperform verywell, although not quite perfectly, for G, ≥ 25. They underreject severely when G, is very small, and they overreject moderatelyfor values of G, that are quite small but notverysmall."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9497104287147522,
+        "bbox_xyxy": [
+          170,
+          604,
+          942,
+          1011
+        ],
+        "text": "0.13 0.12 0.11 0.10 0.09 0.08 0.07 0.06 0.05 R 0.04 0.03 0.02 0.01 .01 0.00 G1 5 10 15 20 25 30 35 40 45 0 50"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9337396621704102,
+        "bbox_xyxy": [
+          218,
+          253,
+          479,
+          337
+        ],
+        "text": "B I(1t* >1tk I), Ps： B b=1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9247334003448486,
+        "bbox_xyxy": [
+          173,
+          372,
+          631,
+          405
+        ],
+        "text": "wherell)denotestheindicatorfunction"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.909785270690918,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8931148648262024,
+        "bbox_xyxy": [
+          172,
+          179,
+          219,
+          205
+        ],
+        "text": "60"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8685413002967834,
+        "bbox_xyxy": [
+          1032,
+          278,
+          1077,
+          309
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8615649342536926,
+        "bbox_xyxy": [
+          562,
+          482,
+          688,
+          514
+        ],
+        "text": "FIGURE6"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8375208377838135,
+        "bbox_xyxy": [
+          173,
+          1381,
+          1079,
+          1748
+        ],
+        "text": "MacKinnon and Webb (2017) explains why the bootstrap tests underreject to such an extreme extent when G,is very small.An alternative form of the wild cluster bootstrap test, which uses unrestricted residuals and parameter estimates insteadofrestrictedones,wouldhaveoverrejectedveryseverelyinthesamecases. These features of the wild cluster bootstrap are very unfortunate.We cannot learn muchfrom atest thatalmostneverrejects(restrictedwildclusterbootstrap)or from a test that very often rejects (unrestricted wild cluster bootstrap).A number of alternative methodshave beenproposed tohandle the situation inwhich G, is very small, but it appears that none of them can safely be relied upon to provide reliableinferencein all cases; see Conley and Taber (20i1) and MacKinnon and Webb(2016a,2016b)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6676037907600403,
+        "bbox_xyxy": [
+          173,
+          1382,
+          1079,
+          1748
+        ],
+        "text": "MacKinnon and Webb (2017) explains why the bootstrap tests underreject to suchanextremeextentwhenG,isverysmall.Analternativeformof thewild clusterbootstraptest,whichusesunrestrictedresidualsandparameterestimates instead ofrestricted ones,wouldhaveoverrejectedveryseverelyinthesamecases. Thesefeaturesofthewildclusterbootstrapareveryunfortunate.Wecannotlearn much from a test that almost never rejects (restricted wild cluster bootstrap) or fromatest thatveryoftenrejects(unrestrictedwildclusterbootstrap).Anumber of alternativemethodshavebeenproposed tohandlethesituationinwhich G,is very small, but it appears that none of them can safely be relied upon to provide reliableinference in all cases; see Conley and Taber (20i1) and MacKinnon and Webb(2016a,2016b)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6030218601226807,
+        "bbox_xyxy": [
+          299,
+          533,
+          953,
+          565
+        ],
+        "text": "REIECTION"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.989051878452301,
+        "bbox_xyxy": [
+          172,
+          447,
+          1078,
+          745
+        ],
+        "text": "In order to see what happens when there are just ten clusters, I perform an additional set of placebo-law experiments using“Canadian\" data. The data are not actuallyfor Canada.Instead,I takedatafor tenU.S.statesfrom thedatasetIhave been using. The idea is to choose states for which the sample sizes closely match the sample sizesfor the Labour Force Survey in Canada. The chosen states,with their Canadian counterparts in parentheses, are California (ON), Texas (QC), New Jersey (BC),Massachusetts (AB),North Carolina (MB),Minnesota (SK),Maine (NS),Oregon (NB), Louisiana (NL), and the District of Columbia (PE). The sample hasN=317,984observations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836795926094055,
+        "bbox_xyxy": [
+          172,
+          763,
+          1080,
+          1030
+        ],
+        "text": "Themodelisthesameoneusedintheprevioussection,exceptthatthere are 9 “provincial\" dummies instead of 50 state dummies. Once again, placebo-law treatments are allowed to start in any year between 1984 and 2010. This implies that, when G, = 1, there are only 10 x 27 = 270 possible choices for the treatment dummy. When G, = 2, there are (10 x 9 × 272)/2 = 32,805. For both these cases, I enumerate every possible case. For G, ≥ 3, I pick 100,000 cases at random for the methods that do not involve bootstrapping and 25,0oo for the wild cluster bootstrap."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.977172315120697,
+        "bbox_xyxy": [
+          173,
+          297,
+          1079,
+          430
+        ],
+        "text": "Because the CPS dataset I have been using is for the United States, there are 51 clusters. In many empirical studies, however, the number of clusters is much smaller than that. With Canadian data, for example, it would often be natural to clusterattheprovinciallevel,whichimpliesthatG=10."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.939190149307251,
+        "bbox_xyxy": [
+          172,
+          1648,
+          1080,
+          1748
+        ],
+        "text": "Figure 7 shows rejection frequencies for four different tests at the .05 level of thecoefficientontheplacebo-lawdummyvariable.Whenweignoreintra-cluster correlationandsimplyuseheteroskedasticity-robuststandarderrors,rejection"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8885284662246704,
+        "bbox_xyxy": [
+          381,
+          182,
+          869,
+          205
+        ],
+        "text": "NEERENCEWTTHTARECILTSTEREIOIATASET?"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8845389485359192,
+        "bbox_xyxy": [
+          174,
+          247,
+          418,
+          278
+        ],
+        "text": "\"CANADIAN\"'DATA"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.850905179977417,
+        "bbox_xyxy": [
+          1032,
+          181,
+          1074,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.8396193385124207,
+        "bbox_xyxy": [
+          170,
+          1150,
+          935,
+          1568
+        ],
+        "text": "1.00 0.80 HC1, N(0,1) 0.60 CV1(S,Y),t(369) 0.40 R a 0.20 CV(S),t(9) R 0.10 WC boot 0.05 0.01 0.00 G1 1 2 3 4 5 6 7 8 9 10"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7913880348205566,
+        "bbox_xyxy": [
+          563,
+          1062,
+          687,
+          1094
+        ],
+        "text": "FIGURE"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848854541778564,
+        "bbox_xyxy": [
+          173,
+          1226,
+          1078,
+          1564
+        ],
+        "text": "The assumption that there are state andyear fixed effectsis particularly strong Itimpliesthattheimpactoftimeonearningsisthesameforeverystateandthat theimpactoflocationonearningsisconstantacrosstime.Amoregeneralspeci- fication would include 51x 37 -1 = 1886 state-year dummy variables instead of thestateandyearfixedeffects.However,suchamodelwouldbeuselessfor evaluatingpoliciesthatvaryacrossstatesandyearsbutnotacrossindividuals. becausethestate-yeardummieswouldexplainallthevariationineverypossible treatmentvariable.Alessgeneralbutmoreusefulmodelwouldbeonethatincor- poratedstate-leveltimetrendsaswellasstate-levelfixedeffects.Itmightbeof interesttoinvestigatesuchamodel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821064472198486,
+        "bbox_xyxy": [
+          173,
+          331,
+          1079,
+          566
+        ],
+        "text": "Clustering at thestatelevelreduces therejectionfrequenciesdramatically, except when G, is small. For G, ≥ 4, the rejection frequencies are always between 12.1%and13.3%.Ofcourse,thesewouldhavebeensubstantiallyhigher if 1had used asymptotic critical values instead of ones based on the t(9) distribution.As before, the wild cluster bootstrap performs best. Except for G, = 1, where it never rejects, it performs quite well. For 3 ≤ G, ≤ 10, it always rejects between 5.6% and 7.7%ofthetime"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769012331962585,
+        "bbox_xyxy": [
+          173,
+          585,
+          1079,
+          786
+        ],
+        "text": "EventhoughgenuineCanadiandatawouldundoubtedlyyielddifferentresults, thisexerciseisinteresting.Itsuggeststhatthewildclusterbootstrapisnot too unreliable when the number of clusters is as small as 10, provided the number of treated clusters is not extremely small. In contrast, methods that do not involve clustering at the jurisdictionlevel arelikely tobehighly unreliable, and cluster-robust t statistics arenot reliable evenwhen clusteringat thatlevel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9571911692619324,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          312
+        ],
+        "text": "frequencies are extremely high, always exceeding 84%. Clustering at the state-year levelreducestheseonlymodestly,tobetween68%and81%."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9318392276763916,
+        "bbox_xyxy": [
+          173,
+          889,
+          1080,
+          1056
+        ],
+        "text": "There are at least two explanations for the state-level intra-cluster correlations that apparently exist in the residuals for regression (1). The first is that these correlations arisebecause ofmodelmisspecification,and thesecondis thatthey arisefrom thewayinwhich the data aregathered.In thissection,I briefly discuss thesetwoexplanations."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8877652883529663,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8723471760749817,
+        "bbox_xyxy": [
+          173,
+          1074,
+          1079,
+          1208
+        ],
+        "text": "Although equation (1) with the addition of state fixed effects is avery standard one,it couldbemisspecifiedin manyways.Perhaps there should be a larger set ofeducationdummyvariables,orperhapstheeffectof ageonearningsshould be morecomplicatedthanthequadraticspecificationinthemodel."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8586963415145874,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8585008382797241,
+        "bbox_xyxy": [
+          174,
+          838,
+          625,
+          869
+        ],
+        "text": "CLLSTTERED"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8064454197883606,
+        "bbox_xyxy": [
+          174,
+          1581,
+          1080,
+          1749
+        ],
+        "text": "Itseemsplausible thatmisspecificationwill causeresiduals tobecorrelated withinstates,withweakornonexistentcorrelationsforobservationsthatareseveral years apart and stronger ones for observations belonging to the same year or nearby years.Thiswould explainwhy clustering atthestate-yearlevelworksbadlybut clusteringatthestatelevelworksfairlywell."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.69199138879776,
+        "bbox_xyxy": [
+          173,
+          1581,
+          1079,
+          1749
+        ],
+        "text": "It seems plausible that misspecification will cause residuals to be correlated withinstates,withweakornonexistentcorrelationsforobservationsthatareseveral years apart and stronger ones for observations belonging to the same year or nearby years.Thiswouldexplainwhyclusteringatthestate-yearlevelworksbadlybut clusteringatthestatelevelworksfairlywell."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5303563475608826,
+        "bbox_xyxy": [
+          173,
+          888,
+          1079,
+          1056
+        ],
+        "text": "There are at least two explanations for the state-level intra-cluster correlations that apparently exist in the residuals for regression (1). The first is that these correlations arisebecauseof model misspecification,and thesecond is that they arise from the way in which the data are gathered. In this section, I briefly discuss thesetwoexplanations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.41302943229675293,
+        "bbox_xyxy": [
+          173,
+          1074,
+          1079,
+          1208
+        ],
+        "text": "Although equation (1) with the addition of state fixed effects is avery standard one,it couldbemisspecifiedin manyways.Perhaps there should be a larger set ofeducationdummyvariables,orperhapstheeffectof ageonearningsshould be morecomplicatedthanthequadraticspecificationinthemodel."
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854472875595093,
+        "bbox_xyxy": [
+          173,
+          1366,
+          1079,
+          1631
+        ],
+        "text": "This paper has investigated a particular dataset, with more than one million observations,takenfrom the CurrentPopulationSurvey of theUnitedStates.With largedatasets,evenverysmallcorrelationsofdisturbanceswithinclusterscan cause severe errors ofinference. These correlations may arise from misspecification (such as omitted variables that vary by cluster) or from the survey design. Including fixed effectsfortime andlocation does notfully accountfor them.Notsurprisingly. theproblems associatedwithclusteringseemtobemoresevereforCanada,with 10provinces,thanfor theUnitedStates,with51states."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983635425567627,
+        "bbox_xyxy": [
+          173,
+          681,
+          1079,
+          947
+        ],
+        "text": "It issometimespossibletotake accountofthefeaturesof thedesignof a particular survey. See, among others, Fuller (1975), Binder (1983), and Rao and Wu(1988).Kolenikov(2010)provides an accessibleintroductiontothisliterature alongwithStatacodeforbootstrapinferencewhenthesurveydesignisknown. When the survey design is very complex, however, it would be extremely difficult toimplement thissort of procedure.When the designis unknown to theinvestigator, it would be impossible. In many cases, the best we can do is to cluster at the appropriatelevel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9833495616912842,
+        "bbox_xyxy": [
+          173,
+          965,
+          1078,
+          1265
+        ],
+        "text": "It may well be the case that other large datasets display less intra-cluster corre- lation than this one, or different patterns of it, perhaps because the survey design is differentor thedatadonotcomefrom asurvey.Datafrom onlineretailersorother websitesprobablyhavedifferentcharacteristicsthandatafrom theCurrentPopulation Survey. However, it seems unlikely that any large dataset will have observations that are entirelyindependent.Evenverylowlevels of intra-cluster correlation can have a substantial effect on inference when the sample size is very large. Therefore, in the absenceofevidencetothecontrary,I conjecturethattheresultsof thispaper arepotentiallyrelevantformostlargedatasetsineconometrics."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982205867767334,
+        "bbox_xyxy": [
+          173,
+          430,
+          1079,
+          663
+        ],
+        "text": "Unfortunately, the complex design of the C.P.S.also ensures that the observations are not entirely independent within states. For reasons of cost and feasibility, the basic unit of sample selection is the census tract, not the household. Once a tract hasbeenselected,ittypicallycontributesanumberofhouseholdstothesurveys that aredone overseveraladjacentyears.Anysortof dependencewithincensus tractswillthenleadtoresidualsthatarecorrelatedwithinstatesbothwithinand acrossyears."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9733428955078125,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          412
+        ],
+        "text": "Thesecondexplanationforstate-levelintra-clustercorrelationoftheresiduals is that the Current Population Survey is a complex survey. It uses specialized sampling techniques such as clustering, stratification,multiple stages of selection, and unequal probabilities ofselection.This complexityis necessaryin order to achieve a reasonable balancebetweenthecostandstatisticalaccuracyofthesurvey."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9723009467124939,
+        "bbox_xyxy": [
+          174,
+          1650,
+          1077,
+          1749
+        ],
+        "text": "The information content of a sample is not proportional to sample size, but, when we use standard errors that are not clustered, we pretend that it is. For very large samples,theloss ofinformationfrom clustered disturbances maybeverylarge"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8845707178115845,
+        "bbox_xyxy": [
+          382,
+          183,
+          869,
+          205
+        ],
+        "text": "NFERENCEWTTHTARCEO CTLTSTERE）IATASET?"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8309721350669861,
+        "bbox_xyxy": [
+          174,
+          1317,
+          307,
+          1346
+        ],
+        "text": "CONCLUSION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8203765749931335,
+        "bbox_xyxy": [
+          1032,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9773016571998596,
+        "bbox_xyxy": [
+          173,
+          247,
+          1080,
+          445
+        ],
+        "text": "Usingstandarderrors clustered attherightlevel,together with thecriticalvalues from the t(G - 1) distribution, where G is the number of clusters, helps a lot. Using the wild clusterbootstraphelps evenmore,provided thenumber oftreated clusters is not too small; see MacKinnon and Webb (20i7). It is particularly important to use appropriately clustered standard errors when thesamplesizeislarge,because theseverityoferroneousinferencetends toincreasewith thesamplesize."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9726936221122742,
+        "bbox_xyxy": [
+          173,
+          463,
+          1079,
+          629
+        ],
+        "text": "There are special problems associated with regressions that focus on the effects ofeconomicpoliciesthatvaryacrossjurisdictions andpossiblytimeperiods.When the number of treated clusters is small, cluster-robust t statistics and bootstrap tests basedonunrestrictedestimatestendtooverrejectseverely,andbootstraptests basedonrestrictedestimatestendtounderrejectseverely"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.873857319355011,
+        "bbox_xyxy": [
+          536,
+          710,
+          714,
+          742
+        ],
+        "text": "REFERENCES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8735880255699158,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8355410099029541,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7894763946533203,
+        "bbox_xyxy": [
+          171,
+          754,
+          1084,
+          1754
+        ],
+        "text": "ANDREws, D. W. K. (2005). “Cross-section Regression with Common Shocks.\" Econometrica,73(5):1551-1585. ANGRIST, J. D., and J.-S. PiscHKE (2008). Mostly Harmless Econometrics: An Empiricist'sCompanion.1\"ed.PrincetonUniversityPress. BELL,R.M.,and D.F.McCAFFREY(2002).\"BiasReductioninStandard Errors for Linear Regression with Multi-stage Samples.\" Survey Methodology, 28(2), 169-181. BERTRAND, M.,E.DUFLO, and S. MULLAINATHAN (2OO4).“HoW much Should we TrustDifferences-in-differencesEstimates?\"TheQuarterlyJournalofEconomics 119(1):249-275 BESTER, C.A.,T.G.CoNLEY, and C.B.HANSEN (2O11). \"Inference with Dependent DataUsingCluster CovarianceEstimators.\"JournalofEconometrics,165(2): 137-151. BINDER, D. A. (1983). “On the Variances of Asymptotically Normal Estimators fromComplexSurveys.\"InternationalStatisticalReview,51(3):279-292 CAMERON, A. C., J. B. GELBACH, and D. L. MILLER (2OO8). \"Bootstrap-based ImprovementsforInferencewithClusteredErrors.\"TheReviewofEconomics and Statistics,90(3):414-427. CARD,D.,and A.B.KRUEGER (1994).\"Minimum Wages and Employment: A Case StudyoftheFastFoodIndustryinNewJerseyandPennsylvaniaAmerican EconomicReview,84(4):772-793. CoNLEY, T. G., and C.R. TABER (2011). “Inference with^Difference in Differences with aSmall Number of Policy Changes.\"The Review of Economics and Statistics, 93(1):113-125 DoNALD, S. G, and K. LANG (2OO7). \"Inference with Difference-in-differences and OtherPanelData.\"TheReviewofEconomicsandStatistics,89(2):221-233. FuLLER,W.A.(1975).\"Regression Analysis for Sample Survey\"Sankhya, 37: 117-132"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8609695434570312,
+        "bbox_xyxy": [
+          381,
+          182,
+          870,
+          206
+        ],
+        "text": "NFERENCEWTTHLARGECTLSTEREDDATASETS"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.81870436668396,
+        "bbox_xyxy": [
+          169,
+          235,
+          1085,
+          1352
+        ],
+        "text": "IMBENs,G.W.,and M.KoLEsAR(2016).“Robust Standard ErrorsinSmallSamples: Some Practical Advice.\"Review of Economics and Statistics, 98(4): 701-712. KLoEK, T. (1981). “OLS Estimation in a Model Where a Microvariable is Explained by Aggregates and Contemporaneous Disturbances are Equicorrelated. Econometrica,49(1): 205-207. KoLENIkov, S. (2010).\"Resampling Variance Estimation for Complex Survey Data\" TheStata Journal,10:165-199 LIANG, K.-Y., and S. L. ZEGER (1986). \"Longitudinal Data Analysis Using Gener- alizedLinearModels.Biometrika,73(1):13-22. MAcKINNON, J. G. (2015). \"Wild Cluster Bootstrap Confidence Intervals.\" L'Actualite économique, 91(1-2): 11-33. MAcKINNON, J.G.,and H.WHITE (1985).“Some Heteroskedasticity Consistent Covariance Matrix Estimators with Improved Finite Sample Properties.\"Journal ofEconometrics,29(3):305-325. MAcKINNoN, J.G.,and M.D. WEBB (2O16a).\"Randomization Inference for Differ- ence-in-differences with Few Treated Clusters.\"Working Paper No. 1355, Queen's University,DepartmentofEconomics. MAcKINNON, J. G., and M. D. WEBB (2016b).\"The Subcluster Wild Bootstrap for Few (Treated) Clusters. Working Paper No. 1364, Queen's University, Department ofEconomics. MAcKINNON, J. G., and M. D. WEBB (2017). “Wild Bootstrap Inference for Wildly Different Cluster Sizes.\" Journal ofApplied Econometrics,32(2): 233-254. MoULToN, B. R. (1986). “Random Group Effects and the Precision of Regression Estimates.\"Journal ofEconometrics,32(3): 385-397. MouLToN, B. R.(1990). “An Illustration of a Pitfall in Estimating the Effects of AggregateVariables onMicroUnits.\"Review of Economics andStatistics,72(2): 334. RAo, J. N. K., and C. F. J. Wu (1988). \"Resampling Inference with Complex Survey Data.\"Journal oftheAmericanStatistical Association,83(401): 231-241. WEBB, M. D. (2014). “Reworking Wild Bootstrap Based Inference for Clustered Errors.WorkingPaper No.1315,Queen's University,Department of Economics"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8179969787597656,
+        "bbox_xyxy": [
+          1031,
+          180,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  }
+]

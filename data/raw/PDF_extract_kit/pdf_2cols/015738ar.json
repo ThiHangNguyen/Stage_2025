@@ -1,0 +1,2750 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9747812747955322,
+        "bbox_xyxy": [
+          873,
+          1017,
+          1602,
+          1825
+        ],
+        "text": "de confirmer tant l'aspect peu différencié des lois régionales que laspect amelioration de la performance des modeles régionaux. Plus précisement, cette amélioration résulte d'une meilleure précision, que celle obtenue par régression multiple classique, de l'estimation du descripteur de régime local, le module annuel médian ou le débit journalier médian d'étiage qui représente une source d'incertitude importante du modele régional respectif. Lusage d'une information épisodique sur les debits d'étiage, concomitante a un site étudié et a un sous- bassin de référence, permet l'estimation du debit journalier médian et, par extension, celle du module annuel médian. Une explication a cette extension pourrait étre trouvée dans la faible différenciation des lois régionales pour les fréquences moyennes a 《 seches >. Lintéret des jaugeages épisodiques d'étiage nous semble assez porteur pour étre pris en considération lors d'une démarche ultérieure de régionalisation a bases géostatistiques des descripteurs de régime. Enfin, un résultat inattendu concerne la quasi similitude des lois régionales de la Moselle et du Timis-Bega tant en ce qui concerne les modules annuels que les étiages. Ce résultat, a considérer avec prudence, abonderait dans le sens de la théorie des régions hydrologiques homogenes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9649155139923096,
+        "bbox_xyxy": [
+          98,
+          1127,
+          827,
+          1935
+        ],
+        "text": "Le bassin hydrographique du 1Timis-Bega, d'une superficie d'environ 13 000 km²,est situé a l'ouest de la Roumanie. Le contexte orographique, l'influence climatique méditerranéenne, la nature et l'occupation du sol font que cette zone géographique relativement restreinte presente une assez grande diversité des écoulements.Cettederniere est considérée a travers le choix de 19 sous-bassins, de quelque km² a plusieurs centaines de km2. La régionalisation des modules et des debits d'étiage du Timis-Bega a été entreprise a la suite de travaux analogues réalisés sur le bassin hydrographique de la Moselle francaise (GALEA et CANALI, 2005). Ces travaux avaientmontré l'adéquationdelaloi de Weibull a deux parametres pour décrire la variabilité temporelle et spatiale des modules annuels et des étiages des sous-bassins observés. Deux principaux résultats avaient été soulignés, l'un concernait la faible différenciation des lois régionales établies pour les modules et les étiages des années moyennes aαseches > (F ≤ 0,5), l'autre mettait laccent sur l'usage de jaugeages épisodiques d'étiage pour améliorer la performance des modeles égionaux. Notre propos est de vérifier ces considérations, établiespour lebassin delaMoselle,dansle contextehydro climatique du Timis-Bega. Les résultats obtenus permettent"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9496231079101562,
+        "bbox_xyxy": [
+          176,
+          245,
+          1585,
+          459
+        ],
+        "text": "MODELISATION STATISTIQUE DES MODULES ANNUELS ET DES ETIAGES DU BASSIN ROUMAIN DU TIMIS-BEGA, SIMILITUDES REGIONALES AVECLA MOSELLE FRANCAISE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9457472562789917,
+        "bbox_xyxy": [
+          201,
+          755,
+          1501,
+          826
+        ],
+        "text": "1Cemagref-Lyon, Unité de Recbercbe Hydrologie Hydraulique, 3bis quai Cbauveau, 69336 Lyon Cedex 09, France 2NationalInstituteofHydrologyandWaterManagement(MIHWM),SosBucuresti,Ploiesti97,71522Bucarest,Roumanie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9373443722724915,
+        "bbox_xyxy": [
+          98,
+          2037,
+          426,
+          2089
+        ],
+        "text": "*Auteur pour correspondance: Courriel: gilles.galea(a)cemagref.fr"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9241457581520081,
+        "bbox_xyxy": [
+          122,
+          498,
+          1583,
+          585
+        ],
+        "text": "Annual mean discbarge and low fow regionalization of the Romania Timis-Bega catcbment and similarities with tbeFrenchMosellecatcbment"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8873770833015442,
+        "bbox_xyxy": [
+          101,
+          1007,
+          264,
+          1057
+        ],
+        "text": "RESUME"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8798465132713318,
+        "bbox_xyxy": [
+          649,
+          675,
+          1049,
+          713
+        ],
+        "text": "Calea*.R.MietM.Gbioca"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8747962117195129,
+        "bbox_xyxy": [
+          1118,
+          2064,
+          1586,
+          2092
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8690334558486938,
+        "bbox_xyxy": [
+          563,
+          867,
+          1136,
+          899
+        ],
+        "text": "Reculle6sebtembreZ005"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8580929636955261,
+        "bbox_xyxy": [
+          710,
+          2057,
+          905,
+          2084
+        ],
+        "text": "ISSN:1718-8598"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7604939937591553,
+        "bbox_xyxy": [
+          872,
+          1863,
+          1598,
+          1934
+        ],
+        "text": "Mots clés : Regionalisation, module annuel, étiage, modeli sationstatistiqueQdF"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9808821082115173,
+        "bbox_xyxy": [
+          873,
+          185,
+          1602,
+          734
+        ],
+        "text": "Notre démarchede régionalisation des modulesetdesétiages des sous-bassins du Timis-Bega s'inscrit logiquement dans la continuité des travaux menés sur le bassin hydrographique de la Moselle francaise (GALEA et CANALI, 2005). Nous avions montré I'adéquation de la loi de Weibulla deux parametres pour décrirelavariabilitétemporelle et spatiale desmodules annuels et des étiages des sous-bassins observés. Deux principaux résultats avaient été soulignés. L'un concernait la faible différenciation des lois régionales établies pour les modules et les étiages des années moyennes a 《 seches 》(F ≤ O,5),l'autre mettait l'accent sur l'usage de jaugeages épisodiques d'étiage pour améliorer la performance des modeles régionaux. Notre intention est de voir, entre autres, si ces considérations établies pour le bassin de la Moselle se vérifient dans le contexte hydro- climatique du Timis-Bega."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9802926182746887,
+        "bbox_xyxy": [
+          873,
+          1090,
+          1603,
+          1710
+        ],
+        "text": "Le bassin hydrographique du 1Timis-Bega, d'une superficie d'environ 13 000 km²,est situé a louest de la Roumanie.Les rivieres Timis et Bega drainent respectivement 7 489 km² et 5 248 km².Laltitude moyenne (Zm) est de 415 m pour le bassin du Timis et de 236 m pour le bassin du Bega, elle culmine a 2 0o0 m environ au sud-est du bassin hydrographique. Le substratum d'origine cristalline et éruptive est recouvert de dépots récents (quaternaires) favorables aux cultures et prairies (51 % de la superficie) ainsi qu'a la foret (35 % de la superficie). Du réseau d'observation des debits, nous retiendrons 19 sous-bassins (Tableau 1) dont les étiages et les modules annuels ne sont pas influencés (Figure 1), soit 14 sous-bassins pour le bassin du Timis et cinq sous-bassins pour le bassin du Bega. Certains d'entre eux font l'objet d'un suivi de la production des fines, favorisée par la nature du sol et I'infuence climatique méditerranéenne sur la région (GALEA etal.,2004)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9672407507896423,
+        "bbox_xyxy": [
+          96,
+          186,
+          829,
+          1728
+        ],
+        "text": "The catchment area of Timis-Bega (13,000 km²) is located in the western part of Romania. The orographical context, the Mediterranean climatic infuence, the nature of the ground and the vegetation contribute to this relatively restricted geographical area's great diversity of fows. This lattercharacteristic isbasedonastudyof 19 sub-basins. ranging in size from a few km2 to several hundred km2. The regionalization of annual mean discharge and low fow in the Timis-Bega catchment was undertaken following similar work realized on the French Moselle catchment. This earlier work showed that the two-parameter Weibull distribution adequately described the spatial and temporal variability of annual mean discharge and low fow for the studied sub-catchments. The two principal results of the preceding study were the weak differentiation among the regional models established for annual mean discharge and low fow, and the recommended use of episodic gauging of low fows for the improvement of the regional models. Our intention was to verify these preceding considerations, established for the French Moselle basin, in the hydro-climatic context ofTimis-Bega. The results obtained allowed us to confirm the weak differentiation among the regional models as well as the improvement of the regional models. More specifically, this improvement resulted from the better precision, compared to that obtained by traditional multiple regression methods, of the estimation of the local discharge descriptor, the median annual mean discharge or the median minimal daily low How discharge. The use of low How episodic discharge measurements, that are concomitant betweenthestudiedandreferencesub-catchments,allowsthe estimation of the median minimal daily low fow discharge and the median annual mean discharge. This fortuitous result is explained by the weak differentiation observedbetween the regional annual mean discharge model and the regional average low fow discharge model for average to dry years. We believe episodic measurements of low fow should be considered when collecting data that will be used for the generation of regionalization fHow descriptors by geostatistical methods. Lastly, the similarities between the regional distributions of annual mean discharge and low flow for both the Moselle and Timis-Bega regions were unexpected. This result should, however, be considered with caution, as it implies the existence of homogeneous hydrological regions."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9585852026939392,
+        "bbox_xyxy": [
+          873,
+          1750,
+          1601,
+          1857
+        ],
+        "text": "La taille, le contexte orographique, la nature et I'occupation du sol des 19 sous-bassins retenus expliquent, entre autres, les écoulements diversifiés qui y sont observés, en crue notamment"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9337177276611328,
+        "bbox_xyxy": [
+          874,
+          817,
+          1556,
+          1041
+        ],
+        "text": "2.CONTEXTE GENERAL ET CHRONIQUESDE DEBIT DISPONIBLESDESSOUS-BASSINS DUTIMIS-BEGARETENUS"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8756009340286255,
+        "bbox_xyxy": [
+          876,
+          95,
+          1226,
+          136
+        ],
+        "text": "AVANT-PROOPO"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8724582195281982,
+        "bbox_xyxy": [
+          555,
+          47,
+          1120,
+          72
+        ],
+        "text": "ReoionalisationcesDciiles"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8349065780639648,
+        "bbox_xyxy": [
+          100,
+          96,
+          302,
+          135
+        ],
+        "text": "ABSTRAC\""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8206989765167236,
+        "bbox_xyxy": [
+          101,
+          59,
+          129,
+          82
+        ],
+        "text": "7"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6458370089530945,
+        "bbox_xyxy": [
+          97,
+          1779,
+          829,
+          1849
+        ],
+        "text": "Key words: regionalization, annual mean discharge, low fow,statisticalQdFmodelling"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3342621326446533,
+        "bbox_xyxy": [
+          97,
+          1779,
+          829,
+          1849
+        ],
+        "text": "Key words: regionalization, annual mean discharge, low fow,statisticalQdFmodelling"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9493010640144348,
+        "bbox_xyxy": [
+          360,
+          1227,
+          1283,
+          1956
+        ],
+        "text": "N 50115 A50110 50205 50105 53125 5030 53805 53510 5351553505 53115 53605 Legende 5340553705 Sous-bassinsdujeu decalage 55105 53110 Sous-bassinsdujeudevalidation 53205 Echelle 10km"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.9230837225914001,
+        "bbox_xyxy": [
+          398,
+          1055,
+          1209,
+          1139
+        ],
+        "text": "Nota - Parmi ces 19 sous-bassins, deux jeux sont constitues: de 10 (en gris) et 9 sous-bassins, respectivement utilisés pour le calage et la validation des regressions ulterieures."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9188780784606934,
+        "bbox_xyxy": [
+          399,
+          170,
+          1227,
+          1053
+        ],
+        "text": "Bassinbydrograpbique duTimis:14sous-bassins Sous-bassins Code Observations de debit S Zm Periode Durée (an) (km2) (m) TimisaTEREGOVA 53105 1953-2001 49 167 906 TimisaSADOVA 53110 1971-2001 31 560 936 TimisaCARANSEBES 53115 1974-2001 28 1 072 769 Timis a LUGOJ 53125 1970-2001 32 2706 665 Raul ReceaRUSCA 53205 1953-2001 49 163 1157 FenesaFENES 53305 1964-2001 38 125 973 Sebes a TURNU RUENI 53405 1964-1998 35 122 819 BistraaVOISLOVABUCOVEI 53505 1951-2001 51 232 886 BistraaVOISLOVA 53510 1963-2001 39 404 827 Bistra a OBREJA 53515 1982-2001 20 863 880 BistraMaruluiaPOIANAMARULUI 53605 1953-2001 49 79 1 442 SucuaPOIANAMARULUI 53705 1953-2001 49 77 1 434 Nadrag a NADRAG 53805 1963-2001 39 35 742 GoletaGOLET 55105 1982-2001 20 41 751 Bassin bydrograpbique duBega:5 sous-bassins Sous-bassins Code Observations de debit S Zm Periode Duree (an) (km2) (m) Bega a LUNCANI 50105 1976-2001 26 73,5 739 Bega a FAGET 50110 1974-2001 28 474 470 Bega a BALINT 50115 1970-2001 32 1 064 329 SasaaPOIENI 50205 1966-2001 36 80 763 GladnaaFIRDEA 50301 1980-2001 22 57 456"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8900738954544067,
+        "bbox_xyxy": [
+          633,
+          42,
+          1215,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8846362829208374,
+        "bbox_xyxy": [
+          341,
+          2022,
+          1146,
+          2084
+        ],
+        "text": "Figurel. Localisation des stationshydrometriques des sous-bassinsretenus Locationofthebydrometricmeasurementstations."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8328536152839661,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          80
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8245944380760193,
+        "bbox_xyxy": [
+          396,
+          95,
+          1171,
+          157
+        ],
+        "text": "Tableaul.j Presentationdes19sous-bassinsduTimis-Begaretenus. Table1. Presentationofthe19sub-catchmentsoftheTimis-Begaregion"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9799389839172363,
+        "bbox_xyxy": [
+          871,
+          732,
+          1602,
+          987
+        ],
+        "text": "Pour une période d'observation plus homogene (Figure 2b) et ainsi éviter un éventuel biais temporel dans l'approche régionale des modules, la loi de Weibull a été ajustée sur les 22 dernieres années communes (1980-2001),excepté pour trois des sous-bassins (cf. tableau l). Nous noterons une relative sensibilité des parametres locaux et régionaux a la durée d'observation considérée (Tableaux 2 et 3)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798238277435303,
+        "bbox_xyxy": [
+          871,
+          213,
+          1602,
+          483
+        ],
+        "text": "Pour obtenir les parametres αR et βR de la loi régionale (2) des modules annuels du bassin du Timis (Tableau 2 et Figure 2a), nous avons applique aux modules (et ultérieurement aux étiages) la méthode de l'indice de crue de DALRYMPLE (1960). Les moyenne des parametres α, et β*, ( β, /QA, ） des sous- bassins,pondérés par le nombre d'années d'observation."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9788466095924377,
+        "bbox_xyxy": [
+          99,
+          621,
+          827,
+          766
+        ],
+        "text": "Pour chacun des 14 sous-bassins,la distributiontheorique des modules annuels échantillonnés sur la périoded'observation (Tableau 1) est représentée par une loi de Weibull a deux oarametres:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9763869643211365,
+        "bbox_xyxy": [
+          98,
+          1081,
+          828,
+          1227
+        ],
+        "text": "Nous avonschoisilaloi deWeibull adeuxparametrespar antériorité (GALEA et CANALI, 2005) et parce qu'elle est conseillée par un groupe de travail (MASSON et al., 1994). C'est uneloi simple,adaptée a l'étudefréquentielle des debits"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9733905792236328,
+        "bbox_xyxy": [
+          98,
+          94,
+          828,
+          240
+        ],
+        "text": "(MIC et GALEA, 2004) mais aussi des modules et des étiages. Pour fixer les idees, les modules annuels médians varient de 7 L/s/km2a41 L/s/km2etlesdebitsjournaliersmédians d'étiage varient de 2 L/s/km2 a 10 L/s/km2."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9731796383857727,
+        "bbox_xyxy": [
+          237,
+          1413,
+          1435,
+          2069
+        ],
+        "text": "Station 5310553110531155312553205533055340553505535105351553605537055380555105 S (km2) 73,5 560 1072 22.706 163 125 122 232 404 863 79 77 35 41 Parametres locaux (1) et quantile median QA. OL 3,28 5,26 3,70 3,83 6,14 4,95 3,61 4,06 4,25 3,62 4,77 4,14 3,12 3,64 β, (m²/s) 2,49 11,5 21,1 44,5 5,06 3,07 3,20 4,30 7,55 12,9 3,05 3,41 0,799 0,759 QA, (m3/s) 2,23 10,7 19,1 40,5 4,76 2,85 2,89 3,93 6,93 11,7 2,82 3,12 0,710 0.686 β*. 1,12 1,07 1,10 1,10 1,06 1,08 1,11 1,09 1,09 1,11 1,08 1,09 1,12 1,11 Parametres Regionaux:Qp= 4,24 et β=1,09"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.973045289516449,
+        "bbox_xyxy": [
+          873,
+          1111,
+          1602,
+          1217
+        ],
+        "text": "De meme que précédemment, les parametres des modelisations effectuées sont plus ou moins sensibles a la période d'observation (Tableau 4)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9682978391647339,
+        "bbox_xyxy": [
+          96,
+          934,
+          827,
+          1042
+        ],
+        "text": "ou : U; = - ln (1-F) avec F : fréquence au non-dépassement; QA, (U) = Quantile théorique de module annuel, localement 《observe>，c déduitdesobservationsdedebit (m?/s)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9594160318374634,
+        "bbox_xyxy": [
+          100,
+          324,
+          818,
+          488
+        ],
+        "text": "3.REGIONALISATION DESMODULES DUBASSIN HYDROGRAPHIQUE DU TIMIS-BEGA"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9510912895202637,
+        "bbox_xyxy": [
+          871,
+          622,
+          1599,
+          694
+        ],
+        "text": "ou : QA, (U) = Quantile de module déduit de la loi régionale en un site quelconque observé ou non (m?/s)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9404613971710205,
+        "bbox_xyxy": [
+          870,
+          96,
+          1601,
+          167
+        ],
+        "text": "de faible valeur, ce qui est le cas des modules, notamment en anneesseches,ainsiquedesétiagesseveres"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9402002096176147,
+        "bbox_xyxy": [
+          239,
+          1332,
+          1347,
+          1396
+        ],
+        "text": "Tableau 2. Parametres locaux et regionaux de la loi sur les modules (durée : cf. Tableau 1). Table2. Localandregionalparametersoftheannualmeandiscbargedistribution(cbronicle:cf.Table1)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9193241000175476,
+        "bbox_xyxy": [
+          351,
+          809,
+          630,
+          875
+        ],
+        "text": "1/ QA,(U,)=β. U"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9115419387817383,
+        "bbox_xyxy": [
+          1044,
+          517,
+          1432,
+          589
+        ],
+        "text": "QA site"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8967950940132141,
+        "bbox_xyxy": [
+          556,
+          47,
+          1119,
+          72
+        ],
+        "text": "Regonalisationceso 01le"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8785816431045532,
+        "bbox_xyxy": [
+          873,
+          1035,
+          1280,
+          1069
+        ],
+        "text": "Bassin,diu,Beoa. 5sous-hassins"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.874837338924408,
+        "bbox_xyxy": [
+          791,
+          826,
+          825,
+          859
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8728104829788208,
+        "bbox_xyxy": [
+          1563,
+          542,
+          1599,
+          575
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8574550747871399,
+        "bbox_xyxy": [
+          101,
+          59,
+          128,
+          82
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8566954731941223,
+        "bbox_xyxy": [
+          99,
+          544,
+          534,
+          578
+        ],
+        "text": "入 Bassin"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9820734262466431,
+        "bbox_xyxy": [
+          99,
+          1693,
+          829,
+          1988
+        ],
+        "text": "Le biais temporel éventuel sur les parametres de la loi régionale des bassins du Timis et du Bega est faible (Tableaux 2 et3，Tableau4).Pour plusd'objectivitésurlechoix du modele régional du Timis-Bega, nous retiendrons les résultats associésalaperiode d'observation commune aux deuxbassins (1980-2001). Les lois régionales des modules du Timis et du Bega sont peu différenciées, notamment pour les faibles valeurs de U; (Figure 3)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9755315780639648,
+        "bbox_xyxy": [
+          871,
+          1573,
+          1603,
+          1732
+        ],
+        "text": "d'apprécier ladéquation du calage des modeles régionaux (Tableau 5).Ce critere d'erreur (Er)a été appliqué entre quantiles《observés》 (1）et quantiles sdéduitsdelaloi régionale(2)ouQA est connu grace aux observations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9446921944618225,
+        "bbox_xyxy": [
+          871,
+          2023,
+          1602,
+          2095
+        ],
+        "text": "avec s, le nombre de sous-bassins par bassin; n, le nombre d'annéesdelaperioded'observationconsiderée"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9435564279556274,
+        "bbox_xyxy": [
+          98,
+          2024,
+          828,
+          2095
+        ],
+        "text": "Un critere d'erreur quadratique moyenne (3), inspiré des criteresutilisésparOUARDAetASHKAR(1994),permet"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9412859678268433,
+        "bbox_xyxy": [
+          286,
+          1406,
+          1388,
+          1528
+        ],
+        "text": "Figure2. Loi régionale des modules : a) chronique complete (cf. tableau 1) et b) période 1980-2001 pour lebassin du Timis. Regional distribution of the annual mean discbarges: a) time series available (cf Table 1) and b) period1980-2001fortheTimiscatchment."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9194837212562561,
+        "bbox_xyxy": [
+          884,
+          1796,
+          1583,
+          1989
+        ],
+        "text": "QA (UF:)-QA (UFi) Z QA (UFi m= i=1 ErBassin (%)=100* n m=1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8881667852401733,
+        "bbox_xyxy": [
+          633,
+          42,
+          1216,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8449551463127136,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          80
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.830701470375061,
+        "bbox_xyxy": [
+          97,
+          1572,
+          829,
+          1643
+        ],
+        "text": "3.3 Bassin bydrograpbique du Timis-Bega : modele regional des modules"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8056207895278931,
+        "bbox_xyxy": [
+          412,
+          1405,
+          1389,
+          1528
+        ],
+        "text": "Loi régionale des modules : a) chronique complete (cf. tableau 1) et b) periode 1980-2001 pourlebassin duTimis. Regionaldistributionoftheannualmeandischarges:a)timeseriesavailable(efTable1)and b) period1980-2001fortbeTimiscatchment."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.6911605596542358,
+        "bbox_xyxy": [
+          242,
+          191,
+          1438,
+          1394
+        ],
+        "text": "Station 5310553110531155312553205533055340553505535105351553605537055380555105 S (km2) 73,5 560 10722706 163 125 122 232 404 863 79 77 35 41 Parametres locaux (1) et quantile médian QA αL 3,21 4,94 3,45 3,67 5,34 4,66 3,38 4,35 4,22 3,62 4,75 4,08 2,98 3,64 β, (m3 / s) 2,06 11,0 20,6 42,8 4,76 2,95 3,16 4,31 7,18 12,9 2,99 3,44 0,74 0,76 QA, (m²/s) 1,84 10,2 18,5 38,7 4,45 2,73 2,84 3,96 6,58 11,7 2,77 3,15 0,678 0,686 β*L 1,12 1,08 1,11 1,11 1,07 1,08 1,11 1,09 1,09 1,11 1,08 1,09 1,09 1,11 Parametres Regionaux : QR = 4,03 et βk= 1,10 2.0 1.8 1.8 1.6 1.6 1.4 1.4 1.2 1.2 1.0 1.0 0.8 0.8 0.6 0.6 0.4 0.4 0.2 UF 0.2 U; 0.0 0.0 0.00.51.01.52.02.53.03.54.04.55.0 0.0 0.5 10 1.5 20 25 30 35 40 QA_R ——QA_L —QA_R ——QAL (a) (b)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.42894482612609863,
+        "bbox_xyxy": [
+          241,
+          93,
+          1385,
+          158
+        ],
+        "text": "Tableau 3. Parametres locaux et regionaux de la loi de Weibull sur les modules (1980-2001). Table3. Local and regional parameters of the Weibulldistribution of annual mean discharge (1980-2001)."
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.3593171536922455,
+        "bbox_xyxy": [
+          1565,
+          1879,
+          1599,
+          1912
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.336173951625824,
+        "bbox_xyxy": [
+          241,
+          93,
+          1202,
+          158
+        ],
+        "text": "Tableau3. Parametres locaux et regionaux de la loi de Weibull sur les modules (1980-2001). Table3. LocalandregionalparametersoftheWeibulldistributionofannualmeandisch"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.31702521443367004,
+        "bbox_xyxy": [
+          242,
+          192,
+          1440,
+          1396
+        ],
+        "text": "Station 5310553110531155312553205533055340553505535105351553605537055380555105 S (km2) 73,5 560 1072 22706 163 125 122 232 404 863 79 77 35 41 Parametres locaux (1) et quantile médian QA. αL 3,21 4,94 3,45 3,67 5,34 4,66 3,38 4,35 4,22 3,62 4,75 4,08 2,98 3,64 β, (m3/ s) 2,06 11,0 20,6 42,8 4,76 2,95 3,16 4,31 7,18 12,9 2,99 3,44 0,74 0,76 QA, (m²/s) 1,84 10,2 18,5 38,7 4,45 2,73 2,84 3,96 6,58 11,7 2,77 3,15 0,678 0,686 β*L 1,12 1,08 1,11 1,11 1,07 1,08 1,11 1,09 1,09 1,11 1,08 1,09 1,09 1,11 Parametres Regionaux:α=4,03etβR=1,10 2.0 1.8 1.8 1.6 1.6 1.4 1.4 WIOU 1.2 1.2 1.0 1.0 0.8 0.8 0.6 0.6 0.4 0.4 0.2 UF 0.2 UF 0.0- 0.0 0.00.51.01.52.02.53.03.54.04.55.0 0.0 0.5 10 1.5 20 25 30 35 40 —QA_R ——QAL QA_R ——QA_L (a) (b)"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.30131393671035767,
+        "bbox_xyxy": [
+          295,
+          943,
+          1377,
+          1392
+        ],
+        "text": "2.0 1.8 1.8 1.6 1.6 1.4 1.4 1210 1210 0.8 0.8 0.6 0.6 0.4 0.4 0.2 UF 0.2 U; 0.0 0.0 0.00.51.01.5202.53.03.5404.55.0 0.0 0.5 10 1.5 20 25 30 35 40 —QAR —QAL 一QAR —QAL a 6]"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9657139778137207,
+        "bbox_xyxy": [
+          443,
+          1899,
+          1242,
+          2094
+        ],
+        "text": "Bassin du Timis (14 sous-bassins) Bassin duBega (5 sous-bassins) Erreur quadratique (%) (Eq. 3) Erreur quadratique (%) (Eq. 3) V F. confondues F>0,5 F<0,5 V F. confondues F>0,5 5 F<0,5 5,6 3,5 7,1 5,5 4,0 6,6"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9651766419410706,
+        "bbox_xyxy": [
+          319,
+          1037,
+          1410,
+          1511
+        ],
+        "text": "1.8 1.2 (00m) 1.6 1.0 1.4 心 1.2 0.8 E 1.0 0.6 0.8 0.6 0.4 0.4 0.2 0.2 UF U 0.0 0.0 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 0.0 0.2 0.4 0.6 08 1.0 QA（Timis)_R QA(Bega)_R -QA(Timis)_R QA(Bega)_R (a) (6)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8899053931236267,
+        "bbox_xyxy": [
+          298,
+          1540,
+          1461,
+          1666
+        ],
+        "text": "Figure3. Lois régionales sur les modules des bassins du Timis et du Bega (1980-2001); (a) 0<U<4,0 et (b)0<U<1,0. Regional distribution of the annual mean discbarges for the Timis and Bega catchments; (a) O<U<4.0 and(b)0<U<1.0."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8878803253173828,
+        "bbox_xyxy": [
+          555,
+          47,
+          1120,
+          72
+        ],
+        "text": "ReoionalisationcesDciiles"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8504992723464966,
+        "bbox_xyxy": [
+          101,
+          59,
+          129,
+          82
+        ],
+        "text": ""
+      },
+      {
+        "label": "table",
+        "layout_score": 0.8276653289794922,
+        "bbox_xyxy": [
+          241,
+          231,
+          1445,
+          422
+        ],
+        "text": "Station 50105 50110 50115 50205 50301 50105 50110 50115 50205 50301 Periode 1976-20011974-20011970-20011966-20011980-2001 1980-2001 S (km²) 73,5 474 1 064 80 57 73,5 474 1 064 80 57"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.6813955903053284,
+        "bbox_xyxy": [
+          443,
+          1773,
+          1238,
+          1867
+        ],
+        "text": "Tableau 5.Erreur quadratique moyenne sur les modules de chaque bassin Table5. Averagequadraticerrorontheannualmeandischargesquantiles foreachcatcbment."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.5479051470756531,
+        "bbox_xyxy": [
+          242,
+          488,
+          1446,
+          935
+        ],
+        "text": "αL 4,55 3,56 2,80 3,12 2,87 4,61 3,47 3,07 3,27 2,87 βL (m² / s) 1,49 5,66 8,52 1,36 0,63 1,46 5,32 7,86 1,20 0,63 QA (m²/s) 1,38 5,10 7,47 1,21 0,55 1,35 4,78 6,97 1,07 0,55 β*L 1,08 1,11 1,14 1,12 1,14 1,08 1,11 1,13 1,12 1,14 Parametres Regionaux : QR = 3,36 et βR = 1,12 Parametres Regionaux : QR =3,46 et βR = 1,12"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4591630697250366,
+        "bbox_xyxy": [
+          243,
+          93,
+          1405,
+          217
+        ],
+        "text": "Tableau 4. Parametres locaux et regionaux de la loi de Weibull sur les modules - influence de differentes periode d'observation. Table4. Local andregional parametersoftbeWeibulldistributionofannualmeandiscbarge-infuenceof differentobservationperiods."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.33040422201156616,
+        "bbox_xyxy": [
+          606,
+          439,
+          1066,
+          479
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9837024211883545,
+        "bbox_xyxy": [
+          97,
+          514,
+          828,
+          1101
+        ],
+        "text": "Comparativement aux incertitudes régionales (Tableau 5), nous en déduisons que le modele régional des modules du Bega est représentatif du bassin hydrographique du Timis- Bega. Ce modele, appliqué au bassin du Timis, dégrade peu les quantiles α humides > (F. > 0,5) et pas du tout les quantiles 《 secs > (F.< O,5). Une illustration peut en étre donnée pour des quantiles《 secs 》 et des quantiles 《humides 》 particuliers du bassin du Timis (Figure 4). Nous comparons les quantiles α observés 》(Eq. 1) aux quantiles régionalisés (Eq. 2). La comparaison est effectuée dans un premier temps avec les quantiles régionalisés selon le modele du Bega (validation), et, dans un deuxieme temps, selon le modele du Timis (adéquation du calage). La bonne correspondance observée entre calage et validation nous permet de retenir pour le bassin hydrographique du Timis-Bega le modele régional des modules de parametres α,= 3,46 et β,= 1,12 (Tableau 4)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798861145973206,
+        "bbox_xyxy": [
+          99,
+          251,
+          828,
+          467
+        ],
+        "text": "Les résultats précédemment obtenus nous permettent de considérer que le bassin hydrographique du Timis-Bega est une région hydrologique homogene pour laquelle un seul modele régional des modules peut étre envisagé. Si chaque bassin joue tour a tour un role de calage et de validation, nous pouvons noterles incertitudes qui en résultent (Tableau 7)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9794868230819702,
+        "bbox_xyxy": [
+          871,
+          562,
+          1603,
+          816
+        ],
+        "text": "Pour ce qui concerne les étiages, nous nous intéressons a une variable caractéristique d'étiage, le debit moyen minimum sur une durée continue d, noté VCN. Cette variable associée a d est extraite par échantillonnage annuel, noté vcn, de la chronique de debits journaliers. Dans le cas de notre étude, nous étudierons plus précisément les durée d de 1 j, 3 j, 6 j, 10 j,30 j et 90 jours."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9793261289596558,
+        "bbox_xyxy": [
+          284,
+          1908,
+          1366,
+          2090
+        ],
+        "text": "Bassin du Timis (14 sous-bassins) Bassin du Bega (5 sous-bassins) Er. quadratique (%), avec parametres régionaux Bega Er. quadratique (%), avec parametres regionaux Timis F confondues F>0,5 F<0,5 F. confondues F>0,5 F<0,5 6,4 5,4 7,3 8,5 5,3 10,8"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9789921641349792,
+        "bbox_xyxy": [
+          216,
+          1350,
+          1451,
+          1621
+        ],
+        "text": "Station 53105 53110 53115 53125 53205 53305 53405 553505 53510 53515 53605 53705 53805 55105 S (km2) 73,5 560 1072 2706 163 125 122 232 404 863 79 77 35 41 Bassin du Timis : Erreur quadratique moyenne par sous-bassin (%) V F confondues 8,0 5,4 5,1 2,9 7,0 3,9 6,0 2,2 1,3 3,4 4,4 0,5 12,8 3,1 F>0,5 5,2 3,9 3,4 2,4 5,7 3,2 3,7 1,5 1,1 2,6 3,4 0,7 4,7 2,6 F<0,5 10,0 6,5 6,4 3,2 8,1 4,5 7,7 2,7 1,5 3,9 5,2 0,3 17,5 3,6"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9771987199783325,
+        "bbox_xyxy": [
+          871,
+          855,
+          1602,
+          1002
+        ],
+        "text": "Pour les étiages, comme pour les modules annuels, c'est la loi de Weibull a deux parametres (Eq. 4) qui a été choisie et nous noterons V(U) les quantiles théoriques associés a l'échantillonvcn."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9701181650161743,
+        "bbox_xyxy": [
+          872,
+          379,
+          1602,
+          521
+        ],
+        "text": "Elle concerne 13 sous-bassins du Timis et les cinq sous- bassins du Bega. Pour le quatorzieme sous-bassin du Timis (55105), en effet, ladéquation de la loi de Weibull n'est pas vérifiée."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9536300897598267,
+        "bbox_xyxy": [
+          874,
+          91,
+          1595,
+          254
+        ],
+        "text": "4. REGIONALISATION DES ETIAGES DU BASSIN HYDROGRAPHIQUE DU TIMIS-BEGA"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9504013061523438,
+        "bbox_xyxy": [
+          99,
+          95,
+          828,
+          202
+        ],
+        "text": "Cecritere d'erreur a l'échelle desbassins du Timis et du Bega peut étre diversifié pour les sous-bassins du Timis, par exemple (Tableau 6)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9310368895530701,
+        "bbox_xyxy": [
+          219,
+          1257,
+          912,
+          1318
+        ],
+        "text": "Tableau6. Erreur quadratique moyenne par sous-bassin du Timis Table6. AveragequadraticerrorforeachTimissub-catcbment."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9073418974876404,
+        "bbox_xyxy": [
+          1124,
+          1042,
+          1357,
+          1094
+        ],
+        "text": "V (U)=β U"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8916566967964172,
+        "bbox_xyxy": [
+          633,
+          41,
+          1215,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8884642720222473,
+        "bbox_xyxy": [
+          285,
+          1799,
+          1267,
+          1892
+        ],
+        "text": "Tableau 7. Erreur quadratique moyenne sur les modules du bassin du Timis-Bega. Table7. Average quadratic error on the annual mean discharges quantiles of the Timis-Bega catchment."
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8479523062705994,
+        "bbox_xyxy": [
+          1563,
+          1052,
+          1599,
+          1085
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8124099373817444,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          78
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7621980309486389,
+        "bbox_xyxy": [
+          874,
+          302,
+          1601,
+          337
+        ],
+        "text": "4 MModelisation"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9852709770202637,
+        "bbox_xyxy": [
+          97,
+          1069,
+          835,
+          1618
+        ],
+        "text": "Une modelisation statistique peut tre généralisée l'ensemble des durées d par calage d'une fonction locale V,(d,U) ）surleséchantillonsvcn. Cette modelisation fait référence a l'analyse QdF qui, d'une maniere générale, fournit une description fréquentielle théorique multi-durée des quantiles de crue ou d'étiage, et ce, indépendamment des lois de probabilité retenues (JAVELLE, 2001). Le concept de modélisation (GALEA et al., 2000) repose sur une propriété observeedes sdifférents ajustements sV(U）aconverger vers les fortes périodes de retour des années 《 seches 》 et sur une propriété d'affinité orthogonale des lois de probabilite théorique relatives aux échantillons vcn, (GALEA et CANALI 2005). L'application du modele QdF convergent nous permet de donner une description théorique (Eq. 5) selon V,(d, UF desrégimesd'étiage observés."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9800698757171631,
+        "bbox_xyxy": [
+          98,
+          1821,
+          835,
+          2086
+        ],
+        "text": "des débits d'étiage consolidée par modélisation (GALEA et CANALI, 2005), car toutes les durées de 1 j a 90 j participent a l'estimation des deux parametres de la distribution théorique; △e, le parametre a caler sur les échantillons vcng constitués, homogene a un temps et relié a la dynamique des étiages. Autrement dit, il permet de déduire, de la distribution théorique"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.979502260684967,
+        "bbox_xyxy": [
+          865,
+          1255,
+          1602,
+          1439
+        ],
+        "text": "Les parametres régionaux αR et βR du Timis et du Bega sont estimés a partir d'une moyenne pondérée (nombre d'années d'observation) des parametres consolidés β et α (Tableau 8). Pour chaque bassin, un modele régional permet d'estimer les quantiles d'étiage des sites particuliers (Eq. 6)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9790878295898438,
+        "bbox_xyxy": [
+          865,
+          1856,
+          1603,
+          2075
+        ],
+        "text": "Un critere d'erreur quadratique moyenne, analogue a celui des modules (Eq. 3), appliqué aux sous-bassins du Timis et du Bega entre quantiles théoriques locaux (Eq. 5) et régionaux (Eq. 6) permet d'apprécier l'adéquation des modeles régionaux (Tableau 8) ainsi que le caractere hydrologique homogene de laregion (Figure5)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9780845642089844,
+        "bbox_xyxy": [
+          863,
+          1624,
+          1602,
+          1816
+        ],
+        "text": "d'étiage; Va=,ie le quantile journalier d'étiage médian déduit de (Eq. 4) ou estimé (cf. ultérieurement); esite , le temps caractéristique d'étiagedéduit des observations(Eq.5)ou estimé (cf.ulterieurement)."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9724560379981995,
+        "bbox_xyxy": [
+          111,
+          98,
+          1568,
+          828
+        ],
+        "text": "30 6 30 8 2oom 25 25 5 (200m) 6 20 4 20 5 15- 15 O O 3 10 10 2 5 5 1 1 QA QA/) QA） QA/） 0+ 0 5 10 15 20 25 30 1 2 3 4 5 5 10 15 20 25 30 0 2 3 4 6 7 +Vakatol -Caage + Vakatoi -Cakge +Vakatol -caage + Vakatoi -Cakge (a) (b) (c) (d) 16 60 20 50 (200m) 14 18 oom 50 + 16 40 12 14 40 + 10 12 30 8 30 10 七 t 20 20 6 + 10 10 《 2 + QA() QA) QA(m） QA(m) 0. 0 10 20 30 40 50 0 2 4 8 10 12 14 16 10 20 30 40 50 60 0 2 46 8101214161820 +Valtatb -cabge +Vakatoi -Cakage +Vakktol -cakge +Vakatoi -Cakge (e) (f) (g) (h)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9471687078475952,
+        "bbox_xyxy": [
+          243,
+          1659,
+          722,
+          1756
+        ],
+        "text": "d-1 VCnd=1 +1 △e"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9390578269958496,
+        "bbox_xyxy": [
+          994,
+          1472,
+          1511,
+          1581
+        ],
+        "text": "V(d, Ue)=βRU'/ αR √ d=1,site +1 Ae site"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9247853755950928,
+        "bbox_xyxy": [
+          864,
+          1065,
+          1602,
+          1142
+        ],
+        "text": "consolidée des debits journaliers d'étiage (βU Vcnd=1),les distributions relatives a d = 3 j, 6 j...90 j"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9202840328216553,
+        "bbox_xyxy": [
+          108,
+          854,
+          1524,
+          1036
+        ],
+        "text": "Figure4. Comparaison des quantiles 《 observes > et regionalises sur le bassin du Timis; (a) QA 《sec> T = 5 ans; (b) QA 《sec> T = 5 ans: (c) QA 《sec> T = 10 ans; (d) QA 《sec> T = 10 ans; (e) QA <humide》 T = 5 ans; (f) QA <humide> T = 5 ans; (g) QA <humide) T = 10 ans; (h) QA 《humide> T = 10 ans. Comparison of local and regional quantiles for the Timis catchment; (a) QA 《dry> T = 5 yr; (b) QA dry> T = 5 yr; (c) QA μdry> T= 10 yr; (d) QA 《dry> T= 10 yr; (e) QA 《humid> T= 5 yr; f QA 《humid> T= 5 yr: (g QA 《bumid> T= 10 yr; (b) QA (bumid>T=10yr."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8858071565628052,
+        "bbox_xyxy": [
+          555,
+          47,
+          1120,
+          72
+        ],
+        "text": "ReoionalisationcesDciiles"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8771294355392456,
+        "bbox_xyxy": [
+          1563,
+          1510,
+          1599,
+          1543
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8655470013618469,
+        "bbox_xyxy": [
+          798,
+          1689,
+          832,
+          1722
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8281587362289429,
+        "bbox_xyxy": [
+          101,
+          59,
+          128,
+          81
+        ],
+        "text": "78"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6004512906074524,
+        "bbox_xyxy": [
+          866,
+          1179,
+          1362,
+          1214
+        ],
+        "text": "Modelisatior"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.3828621208667755,
+        "bbox_xyxy": [
+          867,
+          1179,
+          1364,
+          1214
+        ],
+        "text": "Modelisatior"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.975925087928772,
+        "bbox_xyxy": [
+          99,
+          1787,
+          836,
+          1933
+        ],
+        "text": "L'application du modele régional d'étiage du Bega aux sous- bassins du Timis et vice-versa accroit significativement l'erreur quadratique moyenne des quantiles 《 secs 》 en particulier (Tableaux 8 et 9)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9726904630661011,
+        "bbox_xyxy": [
+          863,
+          1788,
+          1605,
+          2078
+        ],
+        "text": "bassin du Timis (αR = 2,78 et βR = 1,20) au bassin du Bega ne dégrade pas I'estimation des quantiles α humides > (V F. > 0,5). Seuls les quantiles 《 secs 》 (V F. < O,5) voient leur estimation sensiblement dégradée, conformément a la différenciation des modeles régionaux (Figure 5), mais cela reste tout de meme acceptable. Nous en donnons une illustration pour la norme d'usage : le debit moyen d'étiage de 30 jours (Figure 6)."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9719688296318054,
+        "bbox_xyxy": [
+          318,
+          1495,
+          1407,
+          1661
+        ],
+        "text": "Bassin du Timis (13 sous-bassins) Bassin du Bega (5 sous-bassins) Er. Quadratique (%o), avec parametres regionaux Bega Er. quadratique (%), avec parametres régionaux Timis F confondues F,>0,5 F<0,5 V F confondues F,>0,5 F<0,5 16,3 9,7 20,9 9 5,9 11,3"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9694479703903198,
+        "bbox_xyxy": [
+          98,
+          1971,
+          836,
+          2081
+        ],
+        "text": "Le choix d'un modele régional d'étiage unique pour le bassin hydrographique du Timis-Bega est cependant possible. En effet, la généralisation du modele régional d'étiage du"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9634612798690796,
+        "bbox_xyxy": [
+          225,
+          616,
+          1405,
+          1131
+        ],
+        "text": "2.2 2.0 12 (20om) 1.8 1.0 1.6 1.4 0.8 1.2 1199P 1.0 119 0.6 0.8 0.4 0.6 0.4 0.2 0.2 UF UF 0.0 0.0 0.00.5 1.0 1.5 2.0 2.53.03.5 4.0 4.5 0.0 0.2 0.4 0.6 0.8 1.0 E（Timi)_R -E(Bega)_R E（Timis)_R E（Béga)_R (a) (b)"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9379000663757324,
+        "bbox_xyxy": [
+          429,
+          221,
+          1226,
+          471
+        ],
+        "text": "Bassin du Timis (13 sous-bassins) Bassin du Bega (5 sous-bassins) Parametresregionaux Parametres regionaux QR= 2,78 etβR= 1,20 QR = 3,25 et βR = 1,23 Erreur quadratique (%) Erreur quadratique (%) V F.confondues F>0,5 F<0,5 V F.confondues F>0,5 F<0,5 10,1 9,3 10,8 6,1 5,2 6,9"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9346360564231873,
+        "bbox_xyxy": [
+          209,
+          1156,
+          1335,
+          1220
+        ],
+        "text": "Figure5. Lois regionales sur les étiages desbassins duTimis et duBega; (a) 0<U,<4,5 et (b) 0<U,<1,0. LowflowregionaldistributionsfortheTimisandBegacatchments;(a)O<U<4.5et(b)O<U<1.0"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.895574688911438,
+        "bbox_xyxy": [
+          633,
+          41,
+          1216,
+          67
+        ],
+        "text": "deHa"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.842056155204773,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          80
+        ],
+        "text": "70"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8342071771621704,
+        "bbox_xyxy": [
+          317,
+          1399,
+          1213,
+          1464
+        ],
+        "text": "Tableau9. Erreurquadratiquemoyenne surles quantilesd'étiageduTimis-Bega Table9. AveragequadraticerroronlowflowquantilesoftheTimis-Begacatchment."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8078160881996155,
+        "bbox_xyxy": [
+          338,
+          1157,
+          1334,
+          1220
+        ],
+        "text": "Loisrégionalessurlesétiages desbassins duTimis etduBega;(a)0<U<4,5et (b) 0<U<1,0. LowflowregionaldistributionsfortheTimisandBegacatchments;(a)O<U<4.5et(b)O<U<1.0"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5827553868293762,
+        "bbox_xyxy": [
+          423,
+          93,
+          1220,
+          189
+        ],
+        "text": "Tableau8. Erreur quadratique moyenne sur les quantiles d'étiage de chaque bassin. Table8. Averagequadraticerroronlowflowquantilesforeachcatchment."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.97575843334198,
+        "bbox_xyxy": [
+          99,
+          1255,
+          836,
+          1402
+        ],
+        "text": "Les lois régionales établies pour les modules annuels et les étiages du Timis-Bega montrent une faible différenciation pour les quantiles des années moyennes a 《 seches 》 ( U< O,7), ce qui n'est pas le cas pour les quantiles des années 《humides >"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9725678563117981,
+        "bbox_xyxy": [
+          347,
+          104,
+          1291,
+          788
+        ],
+        "text": "(sie 2.0 2.0 1.5 1.5 1.0 901 1.0 0.5 0.5 '08JA 0.0 0.0 50105 50110 50115 50205 50301 50105 50110 50115 50205 50:301 DL_(5) R_Bega R_Timk L_(5) R_Bega OR_Timis (a) (b) 4.0 5.0 (sie 3.0 4.0 E 3.0 2.0 2.0 1.0 1.0 0.0 0.0 50105 50110 50115 50205 50301 50105 50110 50115 50205 50301 L_(5) R_Bega DR_Tims L(5) R_Bega R_TimE (c) d"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9718776345252991,
+        "bbox_xyxy": [
+          865,
+          1259,
+          1602,
+          1405
+        ],
+        "text": "Nous notons la quasi similitude des lois régionales du Timis- Bega et de la Moselle, tant en ce qui concerne les modules que les étiages (Figure 8). C'est un résultat inattendu, d'autant plus qu'il ls'agitdedeuxentitésgéographiquescontrastees,entre"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9419344067573547,
+        "bbox_xyxy": [
+          119,
+          1442,
+          1545,
+          1960
+        ],
+        "text": "2.2 1.2 2.0 1.1 (2oom) 1.8 1.0 0.9 1.6 1.4 0.8 0.7 1.2 0.6 199P 1.0 0.5 0.8 0.4 0.6 0.3 0.4 0.2 0.2 UF 0.1 LF 0.0 0.0 0.0 0.51.01.52.02.5 3.0 3.5 4.0 4.5 0.0 0.2 0.4 0.6 0.8 1.0 -ER QAR -ER QAR (a)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9417972564697266,
+        "bbox_xyxy": [
+          101,
+          982,
+          833,
+          1086
+        ],
+        "text": "5. SIMILITUDES REGIONALES AVEC LE BASSINDELAMOSELLE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9382684826850891,
+        "bbox_xyxy": [
+          865,
+          991,
+          1602,
+          1098
+        ],
+        "text": "(Figure 7). Ce resultat est a rapprocher de celui trouve pour le bassin hydrographique de la Moselle francaise (GALEA et CANALI,2005)."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9302939176559448,
+        "bbox_xyxy": [
+          271,
+          796,
+          1338,
+          917
+        ],
+        "text": "Figure6. Comparaison des quantiles d'étiage sur 30 jours pour le bassin du Bega; (a) quinquennal (sec>; (b) décennal 《sec>; (c) quinquennal <humide>; (d) décennal <humide>; Comparison of low fow 30-day quantiles for the Bega catchment; (a) five-year <dry>; (b) 10 year《dry>;(c)5-year《humid>;(d)10-year《humid>."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9243998527526855,
+        "bbox_xyxy": [
+          117,
+          1988,
+          1595,
+          2081
+        ],
+        "text": "Figure7. Comparaison des lois regionales sur les modules et étiages du Timis-Bega; (a) 0<U,<4,5 et (b) 0<Up<1,0. Comparison of regional distributions of annual mean discharge and low fow in the Timis-Bega catchment; (a) O<U<4.5 and (b) 0<U<1.0."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8868599534034729,
+        "bbox_xyxy": [
+          555,
+          47,
+          1120,
+          72
+        ],
+        "text": "ReoionalisationcesDciiles"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8467569947242737,
+        "bbox_xyxy": [
+          101,
+          59,
+          129,
+          81
+        ],
+        "text": "80"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.815216600894928,
+        "bbox_xyxy": [
+          382,
+          796,
+          1331,
+          918
+        ],
+        "text": "Comparaison des quantiles d'étiage sur 30 jours pour le bassin du Bega; (a) quinquennal 《sec>;(b)decennal《sec>;(c)quinquennal《humide>;(d)decennal《humide>; Comparisonoflowflow30-dayquantilesfortheBegacatchment;(a)five-year《dry>;(b)10 year《dry>;(c)5-year《humid>;(d)10-year《humid>."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4971384108066559,
+        "bbox_xyxy": [
+          99,
+          1141,
+          833,
+          1214
+        ],
+        "text": "5.1 Differenciation des lois regionales sur les modules et les étiage? duTimis-Bega"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4901330769062042,
+        "bbox_xyxy": [
+          99,
+          1141,
+          833,
+          1214
+        ],
+        "text": "5.1 Differenciation des lois regionales sur les modules et les étiage? duTimis-Bega"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.48381906747817993,
+        "bbox_xyxy": [
+          864,
+          1147,
+          1602,
+          1215
+        ],
+        "text": "5.2 Comparaison des lois regionales du Timis-Bega et de la Moselle"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4224052429199219,
+        "bbox_xyxy": [
+          864,
+          1147,
+          1602,
+          1215
+        ],
+        "text": "5.2 Comparaison des lois regionales du Timis-Bega et de la Moselle"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9816854000091553,
+        "bbox_xyxy": [
+          98,
+          1452,
+          834,
+          1900
+        ],
+        "text": "Pour estimer les quantiles du module annuel en un site donné, le modele régional (Eq. 2) est proposé avec la régression linéaire sur variables normalisées (Eq. 7). Les coefficients de corrélation partielle R, (0,985) et R7m (0,869) sont significatifs Ils sont en effet supérieurs a R (O,76),coefficient relatif au test de validité des coefficientsde corrélationpartielle au seuil d'erreur de 1 % de la variable de STUDENT. La relation (7) explique 97 % de la variance du module médian et pour un intervalle de confiance raisonnable (7o %), la vraie valeur de QA est comprise entre 0,80 fois et 1,24 fois la valeur estimée selon l'équation 7.Au tableau 10,nous présentons le controle du calage de la relation (Eq. 7)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9805423021316528,
+        "bbox_xyxy": [
+          865,
+          1418,
+          1603,
+          1714
+        ],
+        "text": "Pour estimer les quantiles d'étiage, le modele regional (Eq. 6) est proposé avec léquation 8, régression multiple (R² = 0,97) qui permet d'estimer, en l'absence d'observation de débit, le quantile journalier médian d'étiage en un site donné coefficients de corrélation partielle R, (0,985) et R,, (0,843) sont significatifs, lintervalle de confiance a 70 % est comparable. Le tableau 12 presente le controle du calage de la relation (8)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9799900650978088,
+        "bbox_xyxy": [
+          865,
+          932,
+          1602,
+          1259
+        ],
+        "text": "Ultérieurement, nous vérifierons une procédure mise en euvre pour le bassin hydrographique de la Moselle (GALEA et CANALI, 2005) et qui permet, a partir de quelques mesures d'étiage par an concomitantes au site non observe et aux sous- bassins observés, une estimation appréciable du module median. Nous nous intéresserons en particulier au sous-bassin 53105 du jeu de calage et au sous-bassin53515du jeu devalidation pour lesquels l'estimation selon (7) induit la plus forte erreur relativesurlemodulemédian."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9785706400871277,
+        "bbox_xyxy": [
+          99,
+          821,
+          835,
+          1114
+        ],
+        "text": "autres, par le climat et le régime des crues (MIC et GALEA, 2004;GALEA et BLUM,2005).Par référence a certains travauxsurlamodelisationstatistiquedescrues,nouspourrions avancer deux éléments d'explication. Cela militerait, d'une part, pour la théorie des régions hydrologiques homogenes (RIBEIRO-CORREA et al.,1995; OUARDA et al., 2001）et, d'autre part, pour le concept de modélisation QdF a référence typologique (MIC et al.,2002)."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9631931185722351,
+        "bbox_xyxy": [
+          132,
+          109,
+          1542,
+          639
+        ],
+        "text": "221816141 1.8 1.6 1.4 1.2 oU 1.0 0.8 口 0.6 0.4 0.4 0.2 U=-In（1-F) 0.2 U=-In(1-F) 0.0 0.0 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 0.0 0.51.0 1.5 2.0 2.53.0 3.5 4.0 4.5 QA[Tinis-Béqa）R QA(Mosele)R -E(Tirmis-Bega)_R —E(Moselle)_R (a) (b)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9508378505706787,
+        "bbox_xyxy": [
+          100,
+          1218,
+          789,
+          1318
+        ],
+        "text": "6.ESTIMATIONDESDESCRIPTEURS DEREGIME"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9459388256072998,
+        "bbox_xyxy": [
+          864,
+          2015,
+          1601,
+          2088
+        ],
+        "text": "En ce qui concerne le jeu de validation (Tableau 13), nous rappelons que la loi de Weibull a deux parametres n'est pas"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9280527830123901,
+        "bbox_xyxy": [
+          866,
+          823,
+          1600,
+          894
+        ],
+        "text": "L'erreur quadratique moyenne obtenue en validation est du meme ordre de grandeur (Tableau 11)."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9151199460029602,
+        "bbox_xyxy": [
+          279,
+          1945,
+          628,
+          1995
+        ],
+        "text": "QA =1,51·10-S Zm1,05 site"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9126814007759094,
+        "bbox_xyxy": [
+          863,
+          1881,
+          1600,
+          1951
+        ],
+        "text": "avecS,laSuperficie(km²) lapente moyenne du sous-bassin (%%)."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9046117067337036,
+        "bbox_xyxy": [
+          866,
+          1306,
+          1601,
+          1376
+        ],
+        "text": "6.21 Estimationduquantilejournaliermediand'etiage d'un sous-bassinnonobserve"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9011766314506531,
+        "bbox_xyxy": [
+          1039,
+          1774,
+          1373,
+          1822
+        ],
+        "text": "Vd=1,site = 7 ●10-5 S0.87 Ib0,85"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.896975576877594,
+        "bbox_xyxy": [
+          633,
+          41,
+          1215,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8966355323791504,
+        "bbox_xyxy": [
+          97,
+          2047,
+          761,
+          2083
+        ],
+        "text": "Sunertcie (km²)： Zm.I'altitude"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8849552869796753,
+        "bbox_xyxy": [
+          799,
+          1960,
+          833,
+          1992
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8711530566215515,
+        "bbox_xyxy": [
+          118,
+          670,
+          1586,
+          792
+        ],
+        "text": "Figure8. regionalesd'etiage. Comparison of regional distributions for the Timis-Bega and Moselle catchments (a) QA regional distributions and (b) low flou regionaldistributions"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.863811194896698,
+        "bbox_xyxy": [
+          1564,
+          1785,
+          1598,
+          1818
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.82614666223526,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1597,
+          79
+        ],
+        "text": "8"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6403165459632874,
+        "bbox_xyxy": [
+          101,
+          1376,
+          832,
+          1409
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.3013463616371155,
+        "bbox_xyxy": [
+          115,
+          670,
+          1589,
+          792
+        ],
+        "text": "Figure8. regionalesd'etiage. Comparison of regionaldistributionsfor thbeTimis-Bega and Mosellecatcbments(a)QA regionaldistributionsand(b)low fou regionaldistributions"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9753683805465698,
+        "bbox_xyxy": [
+          392,
+          935,
+          1344,
+          1355
+        ],
+        "text": "Code 50301 53110 53505 53510 53515 53605 53705 53805 55105 S (km2) 57 560 232 404 863 79 77 35 41 QA (1) observé (m2/s) 0,550 10,2 3,96 6,58 11,7 2,77 3,15 0,680 0,690 QA (7) (m3/ s) 0,530 11,2 4,36 7,06 16,1 2,48 2,40 0,550 0,650 Erreur relative (%) 4 -10 -10 -7 -38 10 24 19 6 Erreur quadratique (%) 17"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9687560796737671,
+        "bbox_xyxy": [
+          341,
+          172,
+          1389,
+          615
+        ],
+        "text": "Code 50105 50110 50115 50205 53105 553115 5531255320553305 53405 S (km²) 73.5 474 1064 80 167 1072 2706 163 125 122 QA (Eq. 1) observé 1,35 4,78 6,97 1,07 1,84 18,5 38,7 4,45 2,73 2,84 (m3 / s) QA (Eq. 7) (m3/s) 1,14 4,58 7,07 1,29 3,21 17,4 37,6 4,06 2,59 2,11 Erreur relative (%) 16 4 -1 -21 -74 6 3 9 5 26 Erreur quadratique (%) 19"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9623973965644836,
+        "bbox_xyxy": [
+          359,
+          1674,
+          1388,
+          2088
+        ],
+        "text": "Code 5010550110 5011550205 5310553115 553125 53205 653305 ：53405 S (km2) 73.5 474 1 064 80 167 1072 2706 163 125 122 V d=1 (4) observé (m3/s) ）0,633 1,81 2,08 0,417 0,440 3,63 8 1,04 0,646 0,633 Vd= (8) (m² /s) 0,460 1,39 2,13 0,440 0,530 3,84 7,85 1,08 0,760 0,660 Erreur relative (%) 27 23 -2 -6 -20 -6 2 -4 -18 -4 Erreur quadratique (%) 15"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9346625804901123,
+        "bbox_xyxy": [
+          394,
+          866,
+          879,
+          928
+        ],
+        "text": "Tableaull. Validationdelarelation(7) TableIl. Validationoftherelationsbip(7)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9338206648826599,
+        "bbox_xyxy": [
+          362,
+          1573,
+          857,
+          1635
+        ],
+        "text": "Tableau12. Calagedelarelation(8). Table12. Calibrationoftherelationship(8))"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8934705257415771,
+        "bbox_xyxy": [
+          341,
+          94,
+          873,
+          157
+        ],
+        "text": "Tableau 10.Calage de la relation (Eq. 7). Table10. Calibrationoftherelationship(Eq.7)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8872013688087463,
+        "bbox_xyxy": [
+          555,
+          47,
+          1120,
+          73
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8645227551460266,
+        "bbox_xyxy": [
+          101,
+          58,
+          129,
+          82
+        ],
+        "text": "82"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821845293045044,
+        "bbox_xyxy": [
+          99,
+          878,
+          835,
+          1211
+        ],
+        "text": "Lerreur quadratique de 55 % sur le jeu de validation (huit sous-bassins) est a relativiser dans la mesure ou nous sommes en présence de faibles debits. Ce qui est a rechercher estessentiellementl'ordrede egrandeur :etnous sverrons ultérieurementcommentcela lpeutétre eamelioréapartir d'une information épisodique sur les étiages des sous-bassins. Comme pour les modules,nous nous interesserons aux sous- bassins présentant la plus forte erreur relative surl'estimation"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9799227118492126,
+        "bbox_xyxy": [
+          864,
+          727,
+          1603,
+          1019
+        ],
+        "text": "aux durées d (1 j, 3 j,6j,10 j, 30 j et 90 j) des sous-bassins 50205 et 50105 qui présentent la plus forte erreur d'estimation de △e,respectivement 51 % et -36 % (Tableau 14). Lerreur quadratique moyenne est établie toutes durées d confondues entre modelisation locale (Eq. 5) et ajustements directs (Eq. 4). Pour le sous-bassin 50205,1'incertitude surles quantiles associés aux valeurs respectives de △e de 175 j et 264 j est donnée au tableau15."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9792500138282776,
+        "bbox_xyxy": [
+          863,
+          1729,
+          1602,
+          2095
+        ],
+        "text": "Le principe a déja été éprouvé pour le bassin hydrographique de la Moselle (GALEA et CANALI, 2005). Nous rappelons que linformation épisodique sur les debits d'étiage concerne des mesures concomitantes au sous-bassin étudié (site) et au sous-bassin de référence qui lui est associé (Figure 11). Selon la nomenclature des réseaux d'observation en vigueur, le sous- bassin de référence appartient en général au réseau primaire tandis quele siteétudiéestcelui associé auréseau tertiaire,en principe instrumenté au stade des avant-projets. Le critere de choix du sous-bassin de référence n'est pas l'objectif de notre"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9788813591003418,
+        "bbox_xyxy": [
+          99,
+          1327,
+          835,
+          1473
+        ],
+        "text": "Pour le temps caractéristique d'étiage, nous avons été amené a différencier son estimation, en fonction de l'altitude moyenne, selon qu'il s'agisse des sous-bassins du Timis (Eq. 9) ou du Bega (Eq.10)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9787620306015015,
+        "bbox_xyxy": [
+          864,
+          1360,
+          1603,
+          1579
+        ],
+        "text": "La visualisation de cette incertitude a la figure 1o (comme a la figure 9) pour les distributions relatives aux durées 10 j, 30 j et 90 j montre que lincertitude d'estimation de △e a peu d'impact sur les quantiles modélisés (5) de quelques jours a 30 jours. Limpact est relativement sensible pour les quantiles d'étiagesur90 j."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769819378852844,
+        "bbox_xyxy": [
+          863,
+          1067,
+          1602,
+          1213
+        ],
+        "text": "Une visualisation de cette incertitude peut étre montrée partir desdistributionsobtenues pourles échantillons de durées 10 j, 30 j et 90 j. Linfluence de △e est surtout sensible a90j(Figure9)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769623279571533,
+        "bbox_xyxy": [
+          98,
+          1701,
+          835,
+          1847
+        ],
+        "text": "Pour le bassin du Timis, la relation (9) a été calée sur huit des 14 sous-bassins et validée sur les six autres.Pour le bassin du Bega,la relation(1o)aétéexclusivement calée,étantdonne le faible nombre de sous-bassins (Tableau 14)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9731529951095581,
+        "bbox_xyxy": [
+          99,
+          731,
+          836,
+          840
+        ],
+        "text": "acceptable pour décrire les étiages du sous-bassin 55105. La valeur du quantile journalier médian peut étre cependant approchée a partir de la médiane de Iéchantillon."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9705489873886108,
+        "bbox_xyxy": [
+          98,
+          1903,
+          834,
+          2010
+        ],
+        "text": "Lincertitude sur ce parametre est acceptable compte tenu de sa relative faible sensibilité dans le modele d'étiage (GALEA etal.,2000)."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9464702010154724,
+        "bbox_xyxy": [
+          400,
+          196,
+          1356,
+          632
+        ],
+        "text": "Code 50301531105350553510 053515536055370553805 555105 S (km2) 57 560 232 404 863 79 77 35 41 Vd=l (4) observé (m3/s) 0,128 2,38 0,839 1,50 2,69 0,759 0,784 0,144 0,136 Vd= (8) (m/s) 0,210 2,32 1,29 1,99 3,64 0,6400,5100,3100,370 Erreur relative (%) -64 3 -54 -33 -35 16 35 -115 -172 Erreur quadratique (%) 55"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9208956360816956,
+        "bbox_xyxy": [
+          329,
+          1508,
+          613,
+          1556
+        ],
+        "text": "Ae =7,17Zm 0.4 site(Timis）"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9024614095687866,
+        "bbox_xyxy": [
+          141,
+          2063,
+          835,
+          2100
+        ],
+        "text": "'inHu1 de uantilesrelatits"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8959839940071106,
+        "bbox_xyxy": [
+          633,
+          41,
+          1215,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8820630311965942,
+        "bbox_xyxy": [
+          783,
+          1629,
+          832,
+          1662
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8811431527137756,
+        "bbox_xyxy": [
+          100,
+          1251,
+          691,
+          1286
+        ],
+        "text": "d.et1doe"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8631587028503418,
+        "bbox_xyxy": [
+          798,
+          1514,
+          832,
+          1546
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8602454662322998,
+        "bbox_xyxy": [
+          327,
+          1619,
+          614,
+          1669
+        ],
+        "text": "Ae =7,10Zm 0.55 site(Bega)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8568046689033508,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          79
+        ],
+        "text": "82"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8482207655906677,
+        "bbox_xyxy": [
+          865,
+          1251,
+          1600,
+          1320
+        ],
+        "text": "Nous faisons de meme pour le sous-bassin 150105 (Tableau 16)."
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8323485851287842,
+        "bbox_xyxy": [
+          399,
+          94,
+          871,
+          157
+        ],
+        "text": "Tableau13.Validationdelarelation(8). Table13. Validationoftherelationship(8)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8253331780433655,
+        "bbox_xyxy": [
+          866,
+          1615,
+          1602,
+          1688
+        ],
+        "text": "6.4 Prise en compte d'une information épisodique sur les debits d'etiage"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.977798342704773,
+        "bbox_xyxy": [
+          255,
+          185,
+          1480,
+          882
+        ],
+        "text": "Bassin du Timis (14 sous-bassins) Bassin du Bega (5 sous-bassins) SOUS-BASSINS S e () SOUS-BASSINS S e (i) observé estimé (9) erreur (%) observé erreur (%) (km2) (km2) estime (10) (5) relative (5) relative 53105 167 96 109 14 50105 73,5 408 260 -36 53110 560 110 110 0 50110 474 224 203 -9 53115 1072 99 102 3 50115 1064 172 167 -3 53125 2706 109 96 -12 50205 80 175 264 51 53205 163 113 120 6 50301 57 168 200 19 53305 125 109 112 3 53405 122 97 104 7 53505 232 97 108 11 53510 404 97 105 8 Erreur quadratique (%) 53515 863 118 107 -9 Timis Bega 53605 79 164 131 -20 Calage (9) validation Calage (10) 53705 77 145 130 -10 9 11 29,5 53805 35 107 100 -7 55105 41 93 101 9"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9653745889663696,
+        "bbox_xyxy": [
+          99,
+          1459,
+          1586,
+          1924
+        ],
+        "text": "1 12 1.4 12 口 1 + 0.8 (sic （）11 口 1 0.8 0.6 山 0.8 06 114 0.6 0.4 0.4 0.4 0.2 02 0.2 UF UF UF 0 0 0 00.511.522.533.5 445 00.5 11.5 22.5 33.5 445 00.5 11.5 2.533.5445 n0 5)_175] 5)_264 n30j (4) (5)_175] 5)_264j n90 4 (5)_175] 5)_264 (a) (b) (C)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.918627917766571,
+        "bbox_xyxy": [
+          102,
+          1981,
+          1611,
+          2082
+        ],
+        "text": "Figure9. Influence de e sur les quantiles d'étiage modelisés (Eq. 5) du sous-bassin 50205 (S = 80 km²; (a) vcn 10 j; (b) vcn 30 j; (c) vcn 90 j Influenceofeonthemodellingoflowflowquantiles(5)forthe(50205)sub-catcbment(S=80km²;(a)vcn10d;(b)vcn30d;(c)vcn 90d."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8811476826667786,
+        "bbox_xyxy": [
+          555,
+          47,
+          1119,
+          72
+        ],
+        "text": "Reolonalisationcest"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.862983763217926,
+        "bbox_xyxy": [
+          456,
+          1099,
+          1257,
+          1351
+        ],
+        "text": "50205 : Modelisation (5) avec α = 2,74 β = 1,26 et VCn d=1 =0,385 m²/s e = 175 j (observe) △e = 264 j (estime) Erreur quadratique (%) Erreur quadratique (%) F. confondues F>0,5 F<0,5 F. confondues F>0,5 F<0,5 4 3 4,7 5,9 6 5,8"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.861709475517273,
+        "bbox_xyxy": [
+          101,
+          59,
+          129,
+          81
+        ],
+        "text": "84"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.7641873955726624,
+        "bbox_xyxy": [
+          255,
+          98,
+          788,
+          168
+        ],
+        "text": "Tableau14.Estimationdeeetdesonincertitude Table14. Estimationandrelativeerrorofe"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.35544294118881226,
+        "bbox_xyxy": [
+          456,
+          946,
+          1256,
+          1070
+        ],
+        "text": "Tableau 15. Incertitude sur les quantiles d'étiage du sous-bassin 50205 liée a I'estimationde△e. Table15. Low flow quantile uncertainty induced by tbe estimation of e for the(50205)sub-catchment."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30354079604148865,
+        "bbox_xyxy": [
+          456,
+          946,
+          1256,
+          1070
+        ],
+        "text": "Tableau 15. Incertitude sur les quantiles d'étiage du sous-bassin 50205 liée a I'estimationde△e. Table15. Low flow quantile uncertainty induced by tbe estimation of e for the(50205)sub-catchment."
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9612435102462769,
+        "bbox_xyxy": [
+          119,
+          564,
+          1574,
+          1073
+        ],
+        "text": "14 1.4 1.6 12 1.2 1.4 1.2 1 0.8 1 08 0.6 %0.4 0.4 02 0.2 0.2 0 L 0 0 = 1 4 D 1 2 + 0 1 2 4 10 —（—_40—0_260j uc130 _40_260j 0C190 6_08 5_260j a) (b) (c)"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9440575242042542,
+        "bbox_xyxy": [
+          445,
+          1297,
+          1201,
+          1971
+        ],
+        "text": "reference site choix"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9272774457931519,
+        "bbox_xyxy": [
+          424,
+          2017,
+          1066,
+          2079
+        ],
+        "text": "Figurell. Siteetsous-bassindereferenceassocie. Studysiteandassociatedreferencesub-catchment."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8901315927505493,
+        "bbox_xyxy": [
+          633,
+          41,
+          1216,
+          67
+        ],
+        "text": "deHa"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8427461385726929,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          80
+        ],
+        "text": "85"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.6400599479675293,
+        "bbox_xyxy": [
+          435,
+          260,
+          1238,
+          514
+        ],
+        "text": "50105 : Modélisation (5) avec α = 4,13 β = 1,18 et VCn d=1 = 0,595 m?/s △e = 408 j (observé) △e = 260 j (estime) Erreur quadratique (%) Erreur quadratique (%) F.confondues F.>0,5 F<0,5 F.confondues F>0,5 F<0,5 2,2 1,5 2,7 6 5,2 6,7"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.6353304982185364,
+        "bbox_xyxy": [
+          108,
+          1093,
+          1606,
+          1190
+        ],
+        "text": "Figure 10. Influence de e sur les quantiles d'étiage modélisés (5) du sous-bassin 50105 (S = 73,5 km?); (a) vcn 10 j; (b) vcn 30 j; (c) vcn 90 j. Influenceofeonthemodellingoflow flowquantiles(5)forthe(50105)sub-catchment(S=73.5km²);(a)vcn10d;(b)vcn30d;(c) vcn90d"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5468104481697083,
+        "bbox_xyxy": [
+          443,
+          92,
+          1248,
+          230
+        ],
+        "text": "Tableau 16. Incertitude sur les quantiles d'étiage du sous-bassin 50105 liee a l'estimationdee. Table16. Low flow quantileuncertainty induced by tbe estimation of e for the(50105)sub-catcbment."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.5109461545944214,
+        "bbox_xyxy": [
+          109,
+          1093,
+          1607,
+          1191
+        ],
+        "text": "Figure 10.Influence de e sur les quantiles d'étiage modélisés (5) du sous-bassin 50105 (S = 73,5 km²); (a) vcn 10 j; (b) vcn 30 j; (c) vcn 90 j. Influenceofeon themodellingoflow flow quantiles (5) forthe(50105)sub-catchment (S=73.5km²);(a)vcn10d;(b)vcn30d;(c) vcn90d."
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9830369353294373,
+        "bbox_xyxy": [
+          100,
+          1756,
+          836,
+          2083
+        ],
+        "text": "Au tableau 17， nous présentons les éléments de calcul associés, entre autres, a la représentation de la figure 12. A des fins prospectives,nous avons étendu notre exploration des doubletssiteetudie-sous-bassindereferencesansapriorisurle choix du sous-bassin de référence compte tenu de la superficie et de la localisation geographique du site étudié. Par ailleurs, et pour chaque doublet, une inversion des roles a été considérée, autrement dit le site étudié devient sous-bassin de référence et vice-versa."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9791872501373291,
+        "bbox_xyxy": [
+          865,
+          96,
+          1603,
+          1072
+        ],
+        "text": "De maniere générale, l'erreur quadratique moyenne associée aux différentes estimations confirmeles résultats présentés antérieurement (Figure 12). Bien que le critere de choix du sous-bassin de référence ne soit pas l'objet de notre propos, nous pouvons souligner de maniere expérimentale le meilleur choix possible du sous-bassin de référence pour un site d'étude donné. Pour le site étudié 50301, par exemple, nous pouvons l'associer tour a tour aux sous-bassins de référence 50205 et 53805. Dans le premier cas, le doublet appartient au bassin du Bega et a deux affuents independants (Figure 1,Tableau 1). Dans le deuxieme cas, le sous-bassin de référence appartient au bassin du Timis (Figure 1). Dans les deux cas, l'ordre de grandeur des superficies est comparable a celle du site étudié. Quel que soit le sous-bassin de référence le quantile d'étiage Vd=1 est bien estimé, ce qui n'est pas le cas du module médian QA . Le meilleur choix pour le site étudié 50301, compte tenu de notre investigation non exhaustive (Tableau 17), serait le sous-bassin de référence 53805, situé de l'autre coté dela crete (Figure 1). Si nous prenons comme autre exemple le site étudié 53105,selonle sous-bassin deréférence associé53205(affluent amont) ou 55105 (affuent aval) le rapport de superficie varie de un a trois. Les estimations sont d'un ordre de grandeur comparable, cependant l'erreur relative sur QA est de 10 % au lieu de 20 % (Figure 12) avec le sous-bassin de plus faible superficie (55105). Les exemples peuvent étre multipliés sur la base des combinaisons présentées au tableau 17."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9791223406791687,
+        "bbox_xyxy": [
+          98,
+          1023,
+          835,
+          1719
+        ],
+        "text": "Les relations précédentes peuvent étre testées a partir de quelques exemples choisis afin d'évaluer leur performance par rapport aux relations respectives (Eq. 8) et (Eq. 7). En ce qui concerne les modules, nous nous intéressons aux sous- bassins pour lesquels l'estimation (Eq. 7) induit par rapport a l'observation (Eq.1)une erreur relative de -75 %(53105, Tableau 10) et de -38 % (53515,Tableau 11).Conformément au principeénonce precedemment, sont associes respectivement auxsitesétudiés53105et53515lessous-bassinsderéférence 53205et 53510 dont la localisation est donnée ala figure 1. Nous faisons de meme pour ce qui concerne lestimation du debit journalier médian d'étiage des sous-bassins 50301, 53805 et 55105 qui présentent les trois plus fortes erreurs relatives (Tableau 13).A ces sites étudiés, nous associons respectivement les sous-bassins de référence 50205, 50301 et 53105 (Figure 1). Pour ces cinq sites étudiés, la prise en compte d'une information épisodique sur les débits d'étiage, selon la démarche préconisée, permetderéduire significativementl'erreurrelative associée aux régressions (Figure 12)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9782853126525879,
+        "bbox_xyxy": [
+          97,
+          250,
+          835,
+          784
+        ],
+        "text": "Pour le site étudié(non observé continument)et pour le sous-bassin de référence, un échantillon de 50 valeurs est constitue a partir des chroniques de debit journalier, a raison de cinq mesures par an sur les dix dernieres années, pour fixer les idées. Les deux échantillons concomitants, une fois constitués, un simple coefficient d'affinité k entre cumuls des debits d'étiage échantillonnés, du site étudié en fonction du sous- bassin de référence, est propose pour estimer le descripteur du régimed'étiage e Vd=1,site (11). Si cela est vérifié et compte tenu delafaibledifférenciation observée entreleslois régionales (Figure 7), pour les années moyennes a α seches > (V U; < 0,7), nous faisons I'hypothese forte que ce meme coefficient d'affinité k, établi sur les debits d'étiage, peut permettre une estimation satisfaisante du module médian QA... (Eq. 12)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9754399657249451,
+        "bbox_xyxy": [
+          865,
+          1286,
+          1603,
+          2087
+        ],
+        "text": "Les résultats issus de la régionalisation des smodules annuels et des étiages du bassin du Timis-Bega montrent dans lensemble une grande similitude avec ceux du bassin de la Moselle francaise (GALEA et CANALI, 2005). En particulier, les lois régionales sont peu différenciées pour les années moyennes a《 seches》des modules et des étiages des sous-bassins (Figure 7). De meme que pour la Moselle, l'usage d'une information épisodique sur les debits d'étiage a permis d'améliorer l'estimation du debit journalier médian d'étiage V d=1,site (Eq. 1l) mais aussi Pestimation (Eq. 7) du module annuelmédian QAsit (12). La conservation 1dumeme coefficient d'affinité k dans les relations (Eq. 11) et (Eq. 12) ne nous semble pas étre a priori le fait de la proximité ou non du sous-bassin de référence, d'apres les résultats du tableau 12. Cette extension de l'usage de linformation épisodique sur les debits d'étiageal'estimation du module annuel médianQA site peut trouver une explication dans la faible différenciation des lois régionales pour les fréquences moyennes a < seches >. Ces descripteurs de debit, des régimes de module et d'étiage des sous-bassins, constituent une source d'incertitude importante des modeles régionaux (Eq.2) et (Eq.6). Il serait tdonc"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9222599267959595,
+        "bbox_xyxy": [
+          99,
+          96,
+          836,
+          203
+        ],
+        "text": "propos, le choix est effectue a priori. Notre intention premiere est I'évaluation du principe dans le contexte hydro-climatique du Timis-Bega, différent de celui de la Moselle."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9004757404327393,
+        "bbox_xyxy": [
+          326,
+          821,
+          614,
+          871
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8995993137359619,
+        "bbox_xyxy": [
+          867,
+          1197,
+          1188,
+          1238
+        ],
+        "text": "ONO.TUSTDT"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8903486728668213,
+        "bbox_xyxy": [
+          556,
+          47,
+          1120,
+          72
+        ],
+        "text": "RegonalisationcesDciiiies"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8853772878646851,
+        "bbox_xyxy": [
+          783,
+          951,
+          832,
+          984
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8823459148406982,
+        "bbox_xyxy": [
+          782,
+          829,
+          832,
+          862
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8819975256919861,
+        "bbox_xyxy": [
+          325,
+          935,
+          599,
+          994
+        ],
+        "text": "QA =kQA site s.b.reference"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8678984045982361,
+        "bbox_xyxy": [
+          101,
+          59,
+          128,
+          81
+        ],
+        "text": "86"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9533659815788269,
+        "bbox_xyxy": [
+          132,
+          90,
+          1572,
+          577
+        ],
+        "text": "53105 53515 50301 53805 55105 25 2 口 (96) 5 -25 -10 20 35 -20 -75 -64 40 s -38 -125 -115 -60 -175 -172 E 225 -80 -74 [(4}-(8)(4) [(4}-（11)](4) [（1}-7）](1) [(1)-(12)/(1) (a) (b)"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.945066511631012,
+        "bbox_xyxy": [
+          179,
+          958,
+          1507,
+          2099
+        ],
+        "text": "Sous-bassin de reference Siteétudie S Va=1 K S V QA Code QA Code =1 (km2) (km²) (m3 / s) (m² /s) (m / s) (m3 / s) Er.(8) Er.(11) Er.o) Er.(12) (4) (1) (4) (8) (11) (1) (7) (12) % % % % 50110 474 1,81 4,78 0,317 50105 73,5 0,633 0,460 27 0,573 9 1,35 1,14 16 1,51 -12 50105 73,5 0,633 1,35 3,15 50110 474 1,81 1,39 23 2 -10 4,78 4,58 4 4,25 11 50301 57 0,128 0,550 3,32 50205 80 0,417 0,440 -6 0,425 -2 1,07 1,29 -21 1,83 -71 50205 80 0,417 1,07 0,3 50301 57 0,128 0,210 -64 0,125 2 0,550 0,530 4 0,320 42 53110 560 2,38 10,2 1,74 53115 1072 3,63 3,84 6 4,13 -14 18,5 17,4 6 17,7 4 53115 1072 3,63 18,5 0,57 53110 560 2,38 2,32 3 2,07 13 10,2 11,2 -10 10,5 -3 53205 163 1,04 4,45 0,497 53105 167 0,440 0,530 -20 0,517 -18 1,84 3,21 -75 2,21 -20 53105 167 0,440 1,84 2 53205 163 1,04 1,08 -4 0,883 15 4,45 4,06 9 3,68 17 53505 232 0,839 3,96 2,17 53510 404 1,50 1,99 -33 1,80 -20 6,58 7,06 -7 8,60 -31 53510 404 1,50 6,58 0,459 53505 232 0,839 1,29 -53 0,690 18 3,96 4,36 -10 3,02 24 53510 404 1,50 6,58 1,87 53515 863 2,69 3,64 -35 2,81 -5 11,7 16,1 -38 12,3 -5 53515 863 2,69 11,7 0,532 53510 404 1,50 1,99 -33 1,43 5 6,58 7,06 -7 6,20 6 53515 863 2,69 11,7 0,174 53605 79 0,759 0,640 16 0,468 38 2,77 2,48 11 2,04 26 53605 79 0,759 2,77 5,73 53515 863 2,69 3,64 -35 4,35 -62 11,7 16,1 -38 15,9 -36 53705 77 0,784 3,15 0,874 53605 79 0,759 0,640 16 0,686 10 2,77 2,48 11 2,75 1 53605 79 0,759 2,77 1,14 53705 77 0,784 0,510 35 0,867 -11 3,15 2,40 24 3,17 -1 53805 35 0,144 0,680 0,802 50301 57 0,128 0,210 -64 0,115 10 0,550 0,530 4 0,545 1 50301 57 0,128 0,550 1,23 53805 35 0,144 0,310 -115 0,158 -10 0,680 0,550 19 0,678 0 55105 41 0,136 0,690 2,39 53105 167 0,440 0,530 -21 0,325 26 1,84 3,21 -75 1,65 10 53105 167 0,440 1,84 0,418 55105 41 0,136 0,370 -172 0,184 -35 0,690 0,650 6 0,769 -11 55105 41 0,136 0,690 5,74 53205 163 1,04 1,08 -4 0,781 25 4,45 4,06 9 3,96 11 53205 163 1,04 4,45 0,174 55105 41 0,136 0,370 -172 0,181 -33 0,690 0,650 6 0,774 -12 Erreur quadratique moyenne (%) 65 23 28 23"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8922839760780334,
+        "bbox_xyxy": [
+          633,
+          41,
+          1216,
+          67
+        ],
+        "text": "deHa"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8457502722740173,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          79
+        ],
+        "text": "87"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8323789238929749,
+        "bbox_xyxy": [
+          125,
+          627,
+          1577,
+          777
+        ],
+        "text": "Figure 12. Erreur relative sur Va=1,site et QAsite selon les estimations; (a) entre debit journalier median d'etiage observe (Eq. 4) et estimé selon Iéq. 8 ou Péq. 11; (b) entre module médian observé (Eq. 1) et estimé selon I'éq. 7 ou Péq. 12. Estimation of V d=1,site and QAsits relative error; (a) between observed median daily fow (Eq. 4) and estimated as per eq. 8 or eq.11;(b)betweenobserved medianmodulus(Eq.1)and estimated aspereq.7oreq.12."
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.7557753920555115,
+        "bbox_xyxy": [
+          181,
+          850,
+          1180,
+          916
+        ],
+        "text": "Cableau17.Poidsdel'informationépisodiqued'étiagesurl'estimationdesdescripteursderegime TableI7. Impactofthelowflowepisodicinformationontheestimationofregimedescriptors."
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9701220989227295,
+        "bbox_xyxy": [
+          98,
+          96,
+          837,
+          424
+        ],
+        "text": "ultérieurement envisageable, compte tenu des résultats obtenus (Figure 12 et Tableau 17), d'entreprendre une régionalisation a bases géostatistiques de ces descripteurs prenant en compte, par exemple, l'effet structurant du réseau hydrographique (SAUQUET et al., 2003)ainsi qu'une information épisodique sur les debits d'étiages. Celle-ci n'est pas rare, car il existe en effet des suivis ponctuels épisodiques pour évaluer la qualité de la ressource disponible mais aussi sa quantité, notamment au stadedes avants-projets."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.919623613357544,
+        "bbox_xyxy": [
+          100,
+          546,
+          749,
+          593
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8941096067428589,
+        "bbox_xyxy": [
+          909,
+          94,
+          1602,
+          165
+        ],
+        "text": "Support, Ohrid, FY Republic of Macedonia, 25-29 May 2004."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8864437937736511,
+        "bbox_xyxy": [
+          555,
+          47,
+          1120,
+          73
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.885784924030304,
+        "bbox_xyxy": [
+          865,
+          205,
+          1603,
+          351
+        ],
+        "text": "OUARDA T.B.M.J. et F. ASHKAR (1994). Bootstrap-based intercomparisonofr regional food frequency T models Rapport technique, Département de mathématiques, Université de Moncton, 13p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8686593770980835,
+        "bbox_xyxy": [
+          98,
+          640,
+          833,
+          714
+        ],
+        "text": "DALRYMPLE T. (1960). Flood frequency analysis. U.S. Geol Surv.WaterSupplyPap.,1543A."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8410489559173584,
+        "bbox_xyxy": [
+          96,
+          1959,
+          836,
+          2107
+        ],
+        "text": "MIC R. et G. GALEA (2004). Local and regional estimation of foods in the Timis and Bega hydrographic basins. Application of converging QdF model concept. Conference on Water Observation and Information System for Decision"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8370817303657532,
+        "bbox_xyxy": [
+          865,
+          717,
+          1604,
+          862
+        ],
+        "text": "food regime descriptors for fow duration-frequency characterisation at ungauged location. EGS-2003, Nice, France (affiche)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8335731029510498,
+        "bbox_xyxy": [
+          101,
+          59,
+          128,
+          81
+        ],
+        "text": "88"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8153603076934814,
+        "bbox_xyxy": [
+          97,
+          1080,
+          836,
+          1226
+        ],
+        "text": "GALEA G. et S. CANALI (2005). Régionalisation des modules annuels et des régimes d'étiage du bassin hydrographique de la Moselle francaise : lien entre modeles régionaux. Rev. Sci.Eau,18,331-352."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.804071843624115,
+        "bbox_xyxy": [
+          864,
+          387,
+          1602,
+          498
+        ],
+        "text": "OUARDA T.B.M.J., C. GIRARD, G.S. CAVADIAS et B. BOBEE (2001). Regional food frequency estimation with canonical correlation analysis. J. Hydrol., 254, 157-173."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7976293563842773,
+        "bbox_xyxy": [
+          97,
+          1263,
+          836,
+          1371
+        ],
+        "text": "GALEA G. et M. BLUM (2005). Modelisation régionale des régimes de crue du bassin hydrographique de la Moselle francaise.Houille blanche,5,88-96."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7934089303016663,
+        "bbox_xyxy": [
+          864,
+          533,
+          1602,
+          680
+        ],
+        "text": "RIBEIRO-CORREAJ.,G.S.CAVADIAS,B.CLEMENT et J. ROUSSELLE (1995). Identification of hydrological neighborhoods using canonical correlation analysis, J. Hydrol.,173,71-89."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7854040265083313,
+        "bbox_xyxy": [
+          96,
+          1775,
+          836,
+          1922
+        ],
+        "text": "MIC R.,G. GALEA et P. JAVELLE (2002). Modélisation régionale des débits de crue du bassin hydrographique du Cris (Roumanie) : approche régionale classique et par modeles de référence. Rev. Sci. Eau, 15, 677-700."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7838329076766968,
+        "bbox_xyxy": [
+          97,
+          749,
+          835,
+          858
+        ],
+        "text": "GALEA G.,P. JAVELLE et N. CHAPUT (2000). Un modele débit-durée-fréquence pour caractériser le régime d'étiage d'unbassin versant.Rev.Sci.Eau,13,421-440."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7729719877243042,
+        "bbox_xyxy": [
+          97,
+          895,
+          835,
+          1041
+        ],
+        "text": "GALEA G., P. RAMEZ, M.J. ADLER et E.ROTARU (2004) Modelisation statistique des apports de MES associés au régime des crues d'un sous-bassin du Timis-Béga (Roumanie).Rev.Sci.Eau,17,471-488"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7641777396202087,
+        "bbox_xyxy": [
+          96,
+          1592,
+          836,
+          1740
+        ],
+        "text": "MASSON J.M,H.LUBES,P. RAOUS et M.TAPIAU (1994). Safarhy, logiciel de calculs statistiques et d'analyse fréquentielle adapté a l'évaluation du risque en hydrologie Montpellier : ORSTOM, Laboratoire d'hydrologie."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7605096101760864,
+        "bbox_xyxy": [
+          96,
+          1411,
+          836,
+          1557
+        ],
+        "text": "JAVELLE P. (2001). Caractérisation du régime des crues : le modele debit-durée-fréquence convergent. Approche locale et régionale. These de Doctorat, Institut National Polytechnique de Grenoble, France, 1er mars 2001, 268 p"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30916425585746765,
+        "bbox_xyxy": [
+          92,
+          277,
+          842,
+          2149
+        ],
+        "text": "sur les debits d'étiages. Celle-ci n'est pas rare, car il existe en effet des suivis ponctuels épisodiques pour évaluer la qualité de la ressource disponible mais aussi sa quantité, notamment au stade des avants-projets. REFERENCES BIBLIOGRAPHIQUES DALRYMPLE T. (1960). Flood frequency analysis. U.S. Geol. Surv. Water Supply Pap., 1543A. GALEA G., P. JAVELLE et N. CHAPUT (2000). Un modele debit-durée-fréquence pour caractériser le régime d'étiage d'un bassin versant. Rev. Sci. Eau, 13, 421-440. GALEA G., P. RAMEZ, M.J. ADLER et E. ROTARU (2004). Modelisation statistique des apports de MES associés au régime des crues d'un sous-bassin du Timis-Béga (Roumanie). Rev. Sci. Eau, 17, 471-488. GALEA G. et S. CANALI (2005). Régionalisation des modules annuels et des réegimes d'étiage du bassin hydrographique de la Moselle francaise : lien entre modeles regionaux. Rev. Sci.Eau,18,331-352. GALEA G. et M. BLUM (2005). Modelisation régionale des régimes de crue du bassin hydrographique de la Moselle francaise. Houille blancbe, 5, 88-96. JAVELLE P. (2001). Caractérisation du régime des crues : le modele debit-durée-fréquence convergent. Approche locale et régionale. These de Doctorat, Institut National Polytechnique de Grenoble, France, 1e mars 2001, 268 p. MASSON J.M, H. LUBES, P. RAOUS et M. TAPIAU (1994). Safarhy, logiciel de calculs statistiques et d'analyse fréquentielle adapte a Iévaluation du risque en hydrologie. Montpellier : ORSTOM, Laboratoire d'hydrologie. MIC R.,G.GALEA et P. JAVELLE (2002). Modélisation régionale des debits de crue du bassin hydrographique du Cris (Roumanie) : approche regionale classique et par modeles de reference. Rev. Sci. Eau, 15, 677-700. MIC R. et G. GALEA (2004). Local and regional estimation of foods in the Timis and Bega hydrographic basins. Application of converging QdF model concept. Conference on Water Observation and Information System for Decision"
+      }
+    ]
+  }
+]

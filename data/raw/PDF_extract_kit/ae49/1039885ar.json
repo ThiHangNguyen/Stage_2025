@@ -1,0 +1,2782 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9831341505050659,
+        "bbox_xyxy": [
+          172,
+          1083,
+          1079,
+          1750
+        ],
+        "text": "Les croyances subjectivessont au coeur dela théorie dela décision depuis l'ouvrage fondateur de Savage (1954). En effet, la plupart des modeles de décision en univers risqué ou incertain supposent que les individus attribuent un poids a chaque évenement possible a l'aide de probabilités subjectives (ou d'une transfor- mation interne de celles-ci). Cependant rien n'est dit au sujet de la nature meme de ces croyances. Cette absence d'analyse provient de la contrainte methodologique propre a la théorie économique que sont les preférences révélées. Ainsi l'utilisation de modeles 《 comme si >(as if) permet d'étudier les comportements sans avoir besoin de connaissances sur leurs fondements psychologiques et biologiques. A partir de la seule observation des choix effectués, les comportements sont representés par des fonctions de préférence. Les individus se comportent comme s'ils maximi- saientleursfonctionsd'utilité.L'étudeduprocessusdedécisionenlui-memeest donc exclue de l'analyse.A l'inverse,les sciences cognitives se basent sur des modeles《en I'état>(as is)et étudient le veritable processus de décision qui conduit aux choix. Dans le cas des croyances subjectives, la théorie de detection du signal (TDs) fournit un modele computationnel permettant d'étudier le processus de formation des croyances dans une tache perceptive. Cet outil permet donc de confronter les probabilités réellement utilisees par les individus lors de leur prise de décision avecles donnees comportementales recueillies expérimentalement. Deux processus de décision sont analysés : comment 1'individu prend une décision"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9801079630851746,
+        "bbox_xyxy": [
+          173,
+          737,
+          1080,
+          982
+        ],
+        "text": "REsuME-Lesprobabilitéssubjectives ontunrolecentraldanslaprisededécision.Siles modeles théoriques et les données experimentales sont relativement silencieux en économie surlafacondontseformentces croyanceslors duprocessusdécisionnel,iln'estpas de meme ensciences cognitives.Nous proposonsici unerevue delitterature delétude dela metacognitionautraversdemodelescomputationnelsdedetectiondusignal.Cettemetho- dologieestensuiteimporteealadecisionnonperceptiveetnousmontronscommentson utilisationouvredenouvellespistesderecherchedansl'étudedescroyancessubjectivesen économieexperimentale"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9640743732452393,
+        "bbox_xyxy": [
+          173,
+          512,
+          758,
+          645
+        ],
+        "text": "SebastienMAsSONI QuBE-SchoolofEconomicsandFinanceandAcE QueenslandUniversityofTechnology sebastien.massoni@gmail.com"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7681294679641724,
+        "bbox_xyxy": [
+          174,
+          1035,
+          326,
+          1063
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.647767961025238,
+        "bbox_xyxy": [
+          172,
+          247,
+          957,
+          273
+        ],
+        "text": "L.'Actaliteeconomigue. Revle .92.nos1-2.mars-1u1n2016"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6409953236579895,
+        "bbox_xyxy": [
+          338,
+          363,
+          912,
+          454
+        ],
+        "text": "CONFIANCE,METACOGNITION ETPERCEPTION"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5152061581611633,
+        "bbox_xyxy": [
+          338,
+          363,
+          912,
+          454
+        ],
+        "text": "CONFIANCE,METACOGNITION ETPERCEPTION"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9830414056777954,
+        "bbox_xyxy": [
+          173,
+          1148,
+          1079,
+          1516
+        ],
+        "text": "La théorie de detection du signal offre un cadregeneral d'analyse de la prise de décision en univers incertain.Son point de départ est que toute décision seprend enpresenced'incertitude.Consideronslecasd'unindividuquidoitdecidersiun évenementestsurvenuounon.Ilutiliseratoutel'informationdisponiblepourfaire sonchoixmaiscetteinformationresterainsuffisanteoutropbruitéepourdeterminer completement la réponse correcte. Il s'en suit la présenceinevitable d'erreurs. La fréquence et la forme de ces erreurs sont liées a la nature del'évenement et aux processus utilisés par l'individu pour former son choix. La TDS offre un cadre pouranalyserdetellessituationsenseparantlescaracteristiquesdesévenements etlesprocessusdedécision.Si lecadreleplusnaturelpour appliquer laTDSest ladécisionperceptive²,sonraisonnementpeuts'étendreadenombreusesprisesde"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9799602627754211,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          1050
+        ],
+        "text": "perceptive(décisiondetypeI) et quel estsonjugement de confiancesurlajustesse de ce choix (décision de type IH). Les modeles de détection du signal offrant des prédictions sur le comportement optimal, il est possible de définir des criteres de qualitedesprobabilitéssubjectivesobservees.Cetteétudedelametacognition (litteralement la cognition sur sa propre cognition, c'est-a-dire la compréhension de ses propres processus cognitifs) est un champ en pleine expansion en sciences cognitives. Du point de vue de l'étude de la décision, il semble évident qu'une comprehensiondelafacondontseformentlescroyancessubjectivespermettrait de mieux comprendre et expliquer les comportements observés. Si le potentiel methodologique estindéniablepourl'économie experimentale,nous allons voir que l'application a des décisions non perceptives n'est pas sans poser differents problemes et qu'il faut donc considerer l'étude dela metacognition comme une piste de recherche prometteuseplutot qu'une solution d'analysetoutefaite.Danscet article,nous allons tout d'abord présenter les bases methodologiques de la théorie de detection du signal pour des choix perceptifs et des jugements de confiance. Nous verrons ensuite comment la qualite metacognitive peut étre mesurée par les deux principaux criteres que sont la calibration et la discrimination. Dans une derniere partie, nous résumerons les résultats issus des sciences cognitives sur ce qui affecte la metacognition et nous proposerons différentes applications de l'analyse dela metacognition a des choix non perceptifs (décision de valeurs, choix de groupe et comportements assurantiels). Sila portée et l'apport potentiel de ce champ de recherche ne font aucun doute, nous verrons que son application en économie est encoreloin d'étre évidente et que de nombreuses étapes restent a franchir. Nous proposerons ainsi certaines pistes de recherche potentielles couvrant divers champs del'analyseéconomique."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9143852591514587,
+        "bbox_xyxy": [
+          172,
+          1561,
+          1078,
+          1749
+        ],
+        "text": "1. Nousrenvoyonslelecteural'ouvragecollectifdeFlemingetFrith(2014)pourunapercu destravauxlesplusrecents. 2.Nous definissions icila prise de décision perceptive commelafacon dont unindividu choisit uneactionapproprieedansunetachededetection,dediscriminationoudecategorisationd'information sensorielle.Paroppostion,uneprisededecisonéconomiquerenvoiealafacondontunindividuchoisit entredifferentesoptionsenfonctiondesespreferences.LarevuedeliteraturedeSummerfieldet Tsetsos(2012)detaillelessimilitudesetlesoppositionsentrecesdeuxtypesdedécision."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8566239476203918,
+        "bbox_xyxy": [
+          174,
+          181,
+          219,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8565368056297302,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8499755859375,
+        "bbox_xyxy": [
+          176,
+          1100,
+          601,
+          1130
+        ],
+        "text": "HEORIE LIDULSIGNAT"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9807649254798889,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          1190
+        ],
+        "text": "décision de la vie réelle. Imaginons par exemple un médecin cherchant a determiner la présence ou non d'une maladie pour un de ses patients. Hl basera son diagnostic sur des preuves empiriques, par essence bruitées, et son jugement final sera donc fait en présence d'incertitude. Nous pouvons également prendre le cas d'un nego- ciateur qui doit décider d'acheter ou de vendre des actions en réaction a une variation duprixdanslesmarches.Il doitalorsdeterminersicesfluctuationssontjustedues a des bruits ou alors si elles révelent une vraie tendance.D'une manieregenerale, il s'agit pour 1'individu de determiner s'il observe un signal ou un bruit. Le signal estsuffisammentfaibleetlebruitsuffisammentfortpourqueladécisionsoit incertaine.Ilenresultequatresituationspossibles:une《detectioncorrecte>dans le cas d'une présence du signal effectivement detectée; un 《 rejet correct > si la presence d'unbruit n'apasétéinterpretee commeunsignal;une<fausse alarme > quand le bruit a été interpreté comme un signal; et enfin une 《 omission > quand la presence du signal n'a pas éte reportée. La distribution de chaque cas depend de la nature du signal et de la facon dont I'individu prend sa décision. Avant de presenter le cadre formel de l'analyse, notons que la TDS peut faire l'objet de trois utilisations différentes (Wickens, 2002) : un puissant outil d'analyse proposant une description précisedes comportementsobserves;uneidentificationdes effetsde traitements jouant sur les parametres des conditions experimentales et enfin un modele psy- chologique décrivant comment I'individu prend ses décisions. Ce dernier point est évidemment sujet a debat, mais depuis 1'ouvrage initial de Green et Swets (1966), laTDSaéteconfortéepardesrésultatsenneurosciencesmontrantquelecerveau semble effectivement se comporter defacon similaire a ce qui est prevu dans la modelisation par TDs (par exemple dansle cas d'une tache de numérosité,c'est- a-dire impliquant la capacité a discerner des quantités d'objets dans un espace donné -Piazza et al.,2004;Pica et al.,2004; Nieder et Dehaene,2009).Cette section vise a présenterles bases de la TDS dans l'analyse des choix(TDS de type Ipuisavoircommentl'étendreaucasdelaconfiance(TDSdetypeII)."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9806780219078064,
+        "bbox_xyxy": [
+          171,
+          1432,
+          1078,
+          1576
+        ],
+        "text": "Signal Bruit Presence detectioncorrecte fausse alarme Absence omission rejet correct"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9683162569999695,
+        "bbox_xyxy": [
+          174,
+          1290,
+          1078,
+          1390
+        ],
+        "text": "Considerons le cas d'un individu devant determiner si le stimulus percu est un signal ou non.Quatre typesdereponsesontpossibles enfonctiondela réalite {signal;bruit}et dela décision{présence;absence}:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.959865391254425,
+        "bbox_xyxy": [
+          173,
+          1615,
+          1078,
+          1749
+        ],
+        "text": "L'information surla pertinence deladécision est réduitea deuxprobabilités: le taux de détections correctes (h) et le taux de fausses alarmes (f) calculées res- pectivementcommelenombrededetectionscorrectessurlenombred'essaisen présencedusignaletlenombredefausses alarmessurlenombred'essais en"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9044428467750549,
+        "bbox_xyxy": [
+          175,
+          1239,
+          537,
+          1272
+        ],
+        "text": "1.1LechoixoulaTDSdetype"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8624308705329895,
+        "bbox_xyxy": [
+          389,
+          181,
+          859,
+          206
+        ],
+        "text": "ONFIANC:EMETACOGNTTTONETPERC:EPTTON"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7579082250595093,
+        "bbox_xyxy": [
+          1032,
+          181,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9842320680618286,
+        "bbox_xyxy": [
+          173,
+          1331,
+          1079,
+          1732
+        ],
+        "text": "Notons queles deux distributions peuvent différer en termes de moyennes et de variancespermettant ainsi de discriminerlesignal dubruit.Par ailleursla distribution dusignalestsitueeplusadroiteetimpliquedoncdesvaleurspluséleveesenpresence dusignal.Cependantlechevauchementdesdeuxcourbesmontrebienquedans certainscas,lebruitimpliquedepluslargesvaleurs et confirme donc quelajustesse de la décision est incertaine. La possibilité de discriminer le signal correspond donc alaseparationeta1'écartentrelesdeuxdistributions.Sil'intensitedusignalest suffisamment forte, lécart entre les deux distributions est important et le signal est facilement distingue du bruit (graphique 1A). Dans le cas contraire, le chevauchement des deux distributions rend le signal peu discernable du bruit (graphique 1B). La différenceentrelemodedesdeuxdistributionsdonneunemesuredelapossibilite de discriminer le signal et est notée d'. A partir de cette information incertaine,"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9819203019142151,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          713
+        ],
+        "text": "presencedubruit.Sicesprobabilitespermettentdenousdonneruneideedela facond'agirdeI'individu,ellessontinsuffisantespour caracterisercompletement la prise dedecision.LaTDSva plusloinet permet demesurer la capacitédeI'indi- viduadetecterunsignal,c'est-a-diresasensibilité.L'analysereposesurtrois hypotheses : (i) 1'individu accumule de l'information sur le signal, des 《 évidences >, qui peuvent étre representées par une valeur unique; (ii) ces évidences suivent un processus aléatoire; (iii) le choix est pris en appliquant un critere de décision basé sur la quantité d'evidences obtenues. La premiere hypothese repose sur l'idée qu'il existe une reponse interne au signal qui va determiner si l'individu pense avoir observé le signal ou non. Cette reponse codee de maniere continue par une unique valeurrefletel'activiteneuronaleducerveau.Cetteactiviteestbruiteeetpeutétre representeegraphiquementparlaprobabilitéd'occurrencedusignalenfonction de l'intensité de la réponse interne.Ainsi le graphique 1 représente la distribution dusignaletdubruitlorsdedeuxcashypothetiques."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9660744667053223,
+        "bbox_xyxy": [
+          175,
+          861,
+          1073,
+          1187
+        ],
+        "text": "d' d' Distribution! |Distribution Distribution Distribution du bruit seul Ibruit+signal du bruit seul / bruit + signal Intensitedelastimulation Intensitedelastimulation"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9525970816612244,
+        "bbox_xyxy": [
+          172,
+          1207,
+          1077,
+          1284
+        ],
+        "text": "NorE:Lafiguredegauche(A)presenteuncasd'intensitedesignaléleveetdoncunedecisionfacile avec un d'élevé.Dans la figure de droite(B)on observeun chevauchement du signal et du bruitetdoncunedécisiontresincertaineavecund'faible"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.889966607093811,
+        "bbox_xyxy": [
+          533,
+          763,
+          715,
+          794
+        ],
+        "text": "GRAPHIOUE1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8666483163833618,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8604572415351868,
+        "bbox_xyxy": [
+          174,
+          181,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9825901389122009,
+        "bbox_xyxy": [
+          173,
+          1172,
+          1080,
+          1407
+        ],
+        "text": "Le placement dececritereindividuel etinterne definit la strategiedécisionnelle de l'individu : un critere élevé (β, dans le graphique 2) represente une strategie prudente ou l'individu ne reconnait la présence du signal que lorsqu'il en est pra- tiquement certain. A l'inverse, un critere bas (β,) conduit a une strategie risquée dans laquelle l'individu repond positivement au moindre indice en faveur du signal. Leplacementducritereimpliqueévidemmentdifferentstauxdereponsedetype detections correctes et fausses alarmes (graphique 3)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.961415708065033,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          345
+        ],
+        "text": "l'individuprend unedécisional'aided'uncriteredécisionnel qui coupechacunedes distributionsenunpointprécis.Silaquantitéd'évidencesestsuperieureacecritere 1'individudéclarelesignalpresent,sinonilconsiderefairefaceaunbruit."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8848676085472107,
+        "bbox_xyxy": [
+          533,
+          396,
+          718,
+          429
+        ],
+        "text": "GRAPHIOUE2"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8620641827583313,
+        "bbox_xyxy": [
+          389,
+          181,
+          859,
+          205
+        ],
+        "text": "NEIANCEMEACGNCNETPERC'EPCN"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8466683626174927,
+        "bbox_xyxy": [
+          1032,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8069826364517212,
+        "bbox_xyxy": [
+          172,
+          1099,
+          831,
+          1128
+        ],
+        "text": "NOTE： :Bainestrategieptudente"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.6727679371833801,
+        "bbox_xyxy": [
+          185,
+          480,
+          1021,
+          1081
+        ],
+        "text": "β β2 1 Distribution Distribution du bruit seul bruit+signal —"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6100595593452454,
+        "bbox_xyxy": [
+          420,
+          449,
+          830,
+          478
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.38227397203445435,
+        "bbox_xyxy": [
+          183,
+          476,
+          1022,
+          1082
+        ],
+        "text": "β, β2 1 1 Distribution Distribution du bruit seul bruit + signal 一 —"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821703433990479,
+        "bbox_xyxy": [
+          172,
+          1549,
+          1081,
+          1749
+        ],
+        "text": "Il est alors possible de représenter pour chaque valeur de d' le lien entre ces deux taux en fonction du critere de décision. Ce lien est represente sur le graphique 4 parlescourbesROC(receiver-operatingcharacteristics).L'airesouscescourbes nous donne alors le pourcentage d'essais correctement classés. Une aire de 0,5 correspondadeschoixpurementaleatoiresetuneaireégalea1indiqueune classificationparfaite"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9362592697143555,
+        "bbox_xyxy": [
+          260,
+          364,
+          983,
+          1495
+        ],
+        "text": "[1: Rejet Correct] [Bruit] [2:FausseAlarme] [3:Omission] [Signal+Bruit] [4:DetectionCorrecte]"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9341785907745361,
+        "bbox_xyxy": [
+          260,
+          299,
+          989,
+          361
+        ],
+        "text": "RELATIONSENTRELESDIFFERENTSTYPESDEREPONSEETLEPLACEMENT DUCRITEREDECISIONNEL"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9121713042259216,
+        "bbox_xyxy": [
+          533,
+          247,
+          718,
+          278
+        ],
+        "text": "GRAPHOE?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8968079686164856,
+        "bbox_xyxy": [
+          480,
+          181,
+          770,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.874335765838623,
+        "bbox_xyxy": [
+          173,
+          181,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9834965467453003,
+        "bbox_xyxy": [
+          173,
+          1307,
+          1079,
+          1640
+        ],
+        "text": "Etant donné le succes de la TDS de type I, il est naturel d'essayer de I'appliquer a ladecisiondetypeIIc'est-a-direlesjugementsdeconfiance.Ainsi apresavoir effectueson choixdetypeI,l'individuva estimer la confiancedans l'exactitude de cette reponse. Ce report de confiance peut s'effectuer sous de multiples formes : un simple report verbal,un choix binaire, des échelles de Likert ou un jugement de probabilités.Autrement dit, il s'agit pour l'individu de classer ses reponses de premier ordre en fonction de différents niveaux de confiance. Cette approche permet de mesurer la capacité d'un individu a discriminer entre ses bonnes et ses mauvaises reponses.Enprenantpar simplificationune confiancebinaire,les differentes reponsespossibles sont les suivantes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9745681285858154,
+        "bbox_xyxy": [
+          174,
+          1108,
+          1077,
+          1205
+        ],
+        "text": "La TDS offre donc un outil puissant d'analyse de la prise de décision. En estimant lasensibilitédusignal,le criteredécisionneletlebiais,ellepermet de definir la performance maximale d'un individu face a une tache incertaine.3"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.969551146030426,
+        "bbox_xyxy": [
+          173,
+          958,
+          1078,
+          1089
+        ],
+        "text": "Unedernieremesurepeutétreutiliséepourcaracteriserlecomportementde 1'individu:sonbiais,c'est-a-diresatendanceachoisirunereponseplussouvent qu'une autre quelle que soit la distribution du signal.Ce biais semesure comme la différence entre le critere et la moitie dela distance entreles deux distributions."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9653797149658203,
+        "bbox_xyxy": [
+          172,
+          245,
+          1086,
+          802
+        ],
+        "text": "GRAPHIQUE4 COURBES ROC 8 suo 6 八 ap 4 uol 1 2 八 0 ,2 ,4 ,6 ,8 Proportion de fausses alarmes Proportiondefaussesalarmes (a) (b)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9363659024238586,
+        "bbox_xyxy": [
+          171,
+          834,
+          1079,
+          911
+        ],
+        "text": "NorE:(a)CourbesROCenfonctiondedifferentsd'Lapartiegriseecorrespondaucritereinferieura1. AinsilespointsAetBrepresententdesstrategiesrespectivementprudenteetrisqueepourun memed'de1.(b)CourbeROCpourunmemed'enfonctiondedifferentsniveauxdecriteres"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8702836036682129,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1054,
+          1748
+        ],
+        "text": "3. LelecteurinteresseparlaformalisationdelaTDSpeutserefereral'annexeouauxouvrag deGreenetSwets(1966)etWickens(2002)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8539549708366394,
+        "bbox_xyxy": [
+          389,
+          181,
+          859,
+          205
+        ],
+        "text": "NEIANCEMEACGNCNETPERC'EPCN"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8374969363212585,
+        "bbox_xyxy": [
+          175,
+          1258,
+          595,
+          1289
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5931962728500366,
+        "bbox_xyxy": [
+          1033,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.439098596572876,
+        "bbox_xyxy": [
+          1033,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.3285524547100067,
+        "bbox_xyxy": [
+          533,
+          247,
+          718,
+          278
+        ],
+        "text": "GRAPHOE4"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9816468358039856,
+        "bbox_xyxy": [
+          172,
+          432,
+          1079,
+          666
+        ],
+        "text": "LecadreanalytiqueestdoncsimilaireaceluideladécisiondetypeIetdes mesures identiques de la sensibilité de type II sont estimables. Par ailleurs, la TDS de typeHIfaitl'hypothesequelesjugementsdeconfiancesontbasessurlesmemes evidencesutiliséespourlaprisededécisiondetypeI. Lechoixduniveau de confiance se fait donc en fonction des évidences recues et des différents niveaux de criteres individuels(graphique 5). L'ensemble des mesures utilisées pour la décisiondetypeIpeut ainsiétreestimépour ladécisiondetypeII."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9517610669136047,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1079,
+          1748
+        ],
+        "text": "4. Cette hypothese de chaine d'évidence unique est relachée dans les modeles a double chaine, par exemple Del Cul et al. (2009) ou les modeles hiérarchiques, par exemple Merkle, Smithson et Verkuilen(20l1)."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9325008392333984,
+        "bbox_xyxy": [
+          172,
+          857,
+          953,
+          1405
+        ],
+        "text": "(Réponse,Visibilité）=(S1,4)(S1,3)(S1,2)(S1,1）(S2,1）(S2,2）(S2,3)(S2,4) f(x/S1) f(x/S2) criteredetype1 criteredetype2"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9272821545600891,
+        "bbox_xyxy": [
+          170,
+          1430,
+          1080,
+          1532
+        ],
+        "text": "NoTE: Les memes évidences sont utilisées pour prendre la décision de type Iet de type II. Chaque criterereprésenteiciunniveaudeconfianceavecunesymetriedecesniveauxparrapport au critere detypeIc'est-a-dire(S1,1)et (S2,1) correspondent a une confiance de1 (sur uneéchelle de1a4)respectivementpourlestimulus1etlestimulus2."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8797767758369446,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.8720749020576477,
+        "bbox_xyxy": [
+          170,
+          249,
+          1078,
+          393
+        ],
+        "text": "Reponsecorrecte Reponse fausse Confiant TypeII détection correcte Type II fausse alarme Non confiant Type II omission Type II rejet correct"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8709931969642639,
+        "bbox_xyxy": [
+          173,
+          181,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8510976433753967,
+        "bbox_xyxy": [
+          241,
+          769,
+          1009,
+          830
+        ],
+        "text": "CRITERES DECISIONNELS DELA CONFIANCE ENFONCTION DES DISTRIBUTIONS DUSIGNALETDUBRUIT"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8301344513893127,
+        "bbox_xyxy": [
+          532,
+          715,
+          718,
+          748
+        ],
+        "text": "GRAPHIOUE5"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.6356590986251831,
+        "bbox_xyxy": [
+          170,
+          249,
+          1078,
+          393
+        ],
+        "text": "Reponsecorrecte Reponse fausse Confiant TypeII détection correcte Type II fausse alarme Non confiant Type II omission Type II rejet correct"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30175745487213135,
+        "bbox_xyxy": [
+          174,
+          860,
+          930,
+          891
+        ],
+        "text": ".yisibiiite) S1.4) S. S1.2 SI. S2.1 1S2.2 S2.3 S2.4"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848286509513855,
+        "bbox_xyxy": [
+          173,
+          663,
+          1079,
+          1082
+        ],
+        "text": "L'utilisation de courbes ROC de type II permet de surmonter ces problemes en ayant recours a une approche non-paramétrique (Galvin et al., 2003; Macmillan et Creelman, 2005). Ce ROC de type II offre donc une caractérisation de la sensibilité de la confiance. Cependant son defaut majeur est sa dependance a la sensibilité de typeI et donc aux différents biais de décision.Il est possible d'utiliser des techniques psychophysiques (calibration de la difficulté par des escaliers psychometriques a la Levitt, 1971) pour s'assurer que le niveau de performance est constant et identique entre sujets.*Cependant la difficulté a obtenir des résultats empiriques fiables joue en faveur d'une modélisation explicite du lien entre sen- sibilité et performance. Ainsil'application directe de la TDS de type I a la décision de type II pose de nombreux problemes et nous verrons dans la partie suivante comment estimer cettesensibilité de typeHI demaniere plus efficace."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824786186218262,
+        "bbox_xyxy": [
+          172,
+          438,
+          1079,
+          646
+        ],
+        "text": "Ainsil'approche la plus naturelle est decalculer la sensibilité de type II comme le d'detypeIIet del'exprimerenfonctiondes tauxdedetectionscorrectesetdefausses alarmes de type II (Kunimoto, Miller et Pashler, 2001).Ce d'de type II s'exprime in fine en fonction du d' de type I ainsi que des criteres décisionnels de type I et If. Cependant calquer le cadre analytique de la TDS du choix sur celui de la confiance pose différents problemes qui rendent cette approche peu pertinente.6"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9746272563934326,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          419
+        ],
+        "text": "A partir des taux de detections correctes et defausses alarmes de typeII,il est possible de calculer un d' de type II, des criteres décisionnels pour chaque niveau de confiance ainsi que des courbes ROC de type II.? Bien qu'il soit analytiquement possible d'estimer la sensibilité detype II a laide du d' de type II ou du ROC de typeII, ces deuxapprochespresententdeslacuneslesrendantplusoumoinsinutilisables."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9647873640060425,
+        "bbox_xyxy": [
+          173,
+          1222,
+          1078,
+          1324
+        ],
+        "text": "En guise d'illustration des choix perceptifs de type I et II, nous présentons ici undesignclassiqued'experienceenchoixforceavecélicitationdelaconfiancede maniereprobabiliste(graphique6CetMassoni,2013)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8979841470718384,
+        "bbox_xyxy": [
+          171,
+          1371,
+          1079,
+          1752
+        ],
+        "text": "5. Nousrenvoyonslelecteural'annexeetauxtravauxdeBarett,DienesetSeth(20l3)et Massoni(20l3)pourunepresentationdetaillée 6.Ainsi les hypotheses concernant la distribution des signaux ne sont valables que pour les réponses de typeIet non de typeII(gaussiennes avec variances égales-Galvin et al.,2003;Evans etAzzopardi,2oo7).1lexisteaussiunedependanceempiriqueaubiaisdetypesIetI1(Evanset Azzopardi,20o7)etonobserveund'detypeIImaximalpourunniveaudesous-confiancemaximale (Barett,DienesetSeth,2013).Enfinlapossibilitéd'obtenirund’detypeIIsuperieura celuidetypeI (Galvinetal.,2003)poseprobleme 7.Un autreproblemereside dansl'utilisation de criteres multiplesde confiance conduisant aunemultitudedecourbesROC.Ceproblemepeutétresurmonteencalculantuncritereuniquebase surlavraisemblanced'étrecorrect(Galvinetal.,2003)ousurlecalculdetauxdedetectionscorrectes detypeIImaximalenfonctiondesfaussesalarmesdetypeIIetducriteredetypeI(Barett,Dienes etSeth,2013). 8.Par exemple, Fleming et al.(2010); Massoni (2013); Fleming et al. (2014)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8510222434997559,
+        "bbox_xyxy": [
+          389,
+          181,
+          859,
+          205
+        ],
+        "text": "NEIANCEMEACGNCNETPERC'EPCN"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8351870775222778,
+        "bbox_xyxy": [
+          1032,
+          181,
+          1075,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5402642488479614,
+        "bbox_xyxy": [
+          174,
+          1135,
+          969,
+          1201
+        ],
+        "text": "1.3Exempleillustratif:décisionperceptiveenchoixforceetconfiance probabiliste"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5037749409675598,
+        "bbox_xyxy": [
+          174,
+          1135,
+          969,
+          1201
+        ],
+        "text": "1.3Exempleillustratif:décisionperceptiveenchoixforceetconfiance probabiliste"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9859744906425476,
+        "bbox_xyxy": [
+          172,
+          912,
+          1079,
+          1306
+        ],
+        "text": "La tache perceptive est un choix forcé entre deux alternatives (2AFC) qui est connu pour étre un paradigme pertinent pour l'analyse par TDs (Bogacz et al., 2006). Lors de cette tache,les sujets doivent comparerle nombre de points contenus dans deux cercles de diametres identiques (graphique 6A).Les deux cercles sont presentés apres un écran de fixation de maniere rapide (7oo ms) afin qu'il ne soit pas possible de compter le nombre de points. Les sujets doivent indiquer quel cercle contientleplusdepointspuisdonnerleurniveaudeconfiancedanslesuccesde ce choix.Nouspresentonsiciune confianceprobabiliste oulesindividus doivent donnerleursprobabilites d'avoir correctement repondu entre Oet 1oo.Lemecanisme incitatif est la regle de matching probabilities qui inciteles sujets a donner leur véritable confiance quelle que soit leur preférence vis-a-vis du risque (nous renvoyons lelecteura lapartie3.1pour plusd'explications)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9850906133651733,
+        "bbox_xyxy": [
+          173,
+          1322,
+          1079,
+          1748
+        ],
+        "text": "Un avantage de ce type de stimuli est qu'il permet de calibrer la difficulté de la tache enfonction des capacites individuelles des individus.Ainsi en utilisant un escalier psychophysique (Levitt, 1971), il est possible de déterminer de maniere individuelle le nombre de points d'écarts entre les deux cercles pour obtenir une réussite moyenne de 71 %lors de l'experience. Il convient alors de faire varier la difficulte,c'est-a-dire augmenter ou diminuerl'écart de points entreles deux cercles, lors d'une phase d'entrainement avec une variation du nombre de points apres chaqueéchecou apresdeuxreussitesconsecutives.Leniveau de difficultéconvergera alors assezrapidement(unetrentaine derenversements)pouridentifierlecart de pointsentrelesdeuxcerclespermettant unereussiteidentiqueentretouslessujets lors de l'experience. Cette approche offre la possibilité de figer la réussite et donc d'étudier les croyances subjectives avec un plus grand controle et en disposant d'un critereobjectifdeperformance."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.938542902469635,
+        "bbox_xyxy": [
+          172,
+          814,
+          1077,
+          867
+        ],
+        "text": "NoTE:(A)Exempledestimuliperceptifs.(B)Regled'élicitationdelaconfianceditedematchingpro- babilities.(C)Exempled'unessaicompletavecfixation,stimulus,choixdetypeIetdetypeII."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8741025328636169,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8674134612083435,
+        "bbox_xyxy": [
+          173,
+          181,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.84921795129776,
+        "bbox_xyxy": [
+          173,
+          327,
+          994,
+          795
+        ],
+        "text": "Fixation Stimuli (700 ms) B Loterie 2 Choix Gaucheou Garder Droite son pari p>l, Perdre Confiance 0 -100 % 1>1 Obtenir un billet de loterie Confiance Gagner p<l, 1<1 Loterie1"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6278572082519531,
+        "bbox_xyxy": [
+          533,
+          248,
+          719,
+          278
+        ],
+        "text": "GRAPHIOUE6"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9829855561256409,
+        "bbox_xyxy": [
+          173,
+          492,
+          1078,
+          754
+        ],
+        "text": "Comme nous connaissons les vraies valeurs x, et x, c'est-a-dire le nombre de points dans chaque cercle,nous pouvons estimer I'habileté a discriminer de chaque sujets, O. Ensuite, le sujet doit determiner si le signal percu x provient de X = X, - X, positif (et donc repondre gauche) ou negatif (repondre droite). De plus, sa probabilité subjectivepeutétrefacilementdéduiteparunereglebayesienne(Massoni,Gajdos et Vergnaud, 2014). Il est alors possible d'estimer 1'ensemble des parametres de détection du signal du choix et de la confiance (criteres décisionnels,d', ROC que ce soit pour le type I ou le type Il)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820615649223328,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          478
+        ],
+        "text": "Ce design expérimental permet de recueillir les choix des individus (droite ou gauche), leurs niveaux de confiance (entre O et 1o0 par pas de 5) et leur temps de reponseenfonctiondesstimulipresentes.Lataches'effectuantdemaniereassez rapide,ilestpossibledefaireenviron2ooessaissansfatigueexcessivedusujet. L'ensemblededonnéespermet alorsd'estimerlesparametresdelaTDSpour le choix de type I et de type I1. Ainsi, les stimuli droit et gauche (c'est-a-dire les cercles)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9725879430770874,
+        "bbox_xyxy": [
+          173,
+          770,
+          1079,
+          900
+        ],
+        "text": "AinsienutilisantunetacheperceptiveetlaTDS,nouspouvonsmesurer et estimer lafacon dontunindividu agitlorsdesonprocessusdécisionnel.Ce qui ouvrelavoieal'étudedescapacitesmetacognitivesetl'identificationdecertains facteursjouantsurlaformationdesprobabilitéssubjectives."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.968943178653717,
+        "bbox_xyxy": [
+          173,
+          995,
+          1077,
+          1091
+        ],
+        "text": "Au-dela de la TDS, la question se pose de savoir comment mesurer la qualité de la confiance, c'est-a-dire les capacités metacognitives d'un individu. Deux aspectssontaprendreencompte:lasensibilitédelametacognitionetsonbiais."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8993632197380066,
+        "bbox_xyxy": [
+          173,
+          946,
+          551,
+          975
+        ],
+        "text": "MESURESI"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.8949028253555298,
+        "bbox_xyxy": [
+          175,
+          1202,
+          1075,
+          1691
+        ],
+        "text": "DISSOCIATIONENTRELASENSIBILITEMETACOGNITIVEETLEBIAISMETACOGNITIF Bas Haut BIAIS Incorrect Correct Basse Haute Basse Haute Basse Haute Confiance Confiance"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8726650476455688,
+        "bbox_xyxy": [
+          168,
+          1696,
+          1054,
+          1747
+        ],
+        "text": "NorE:Ladiscriminationcorrespondal'ecartentrelesdeuxdistributionsalorsquelacalibration concentresurleniveaumoyendeconfianceexprimee."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8704624772071838,
+        "bbox_xyxy": [
+          389,
+          181,
+          859,
+          205
+        ],
+        "text": "NEIANCEMEACGNCNETPERC'EPCN"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8391640782356262,
+        "bbox_xyxy": [
+          532,
+          1143,
+          717,
+          1174
+        ],
+        "text": "GRAPHOLIE?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8000189065933228,
+        "bbox_xyxy": [
+          1033,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.978830099105835,
+        "bbox_xyxy": [
+          172,
+          729,
+          1079,
+          862
+        ],
+        "text": "Une premiere mesure deperformance globale de la confiance est le BrierScore (Brier,195O).Consideronsunindividu qui donnesa confiancesur névenements, pétant sa confiance dans lévenement E,et x,une indicatrice valant 1 si l'évenement E estcorrectementprédit.LeBrierScoreestcalculecommesuit："
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9766562581062317,
+        "bbox_xyxy": [
+          171,
+          1225,
+          1079,
+          1561
+        ],
+        "text": "avecf=- possibles,N,lenombredefoisouleniveaudeconfiancepestutiliséet f,letaux desucces au seindeceniveau de confiance.Lepremier terme,UNC,représente lavariancedelavariabledesuccesquiestindependantedelaconfiance;lesecond terme,Dl,est 1'indice de discrimination mesurant la qualitedu tauxde detections correctes au niveau du taux global, f; le dernier terme, CI, est l'indice de calibration qui mesure la différence entre le taux observé de detections correctes (f) et la confianceélicitée.Cettedécomposition donne doncdeuxpremieresmesures dela calibration etdeladiscrimination."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.974738597869873,
+        "bbox_xyxy": [
+          172,
+          245,
+          1080,
+          712
+        ],
+        "text": "La premiere reflete la capacité de discrimination, c'est-a-dire la facon dont s'ajustelaconfianceenfonctiondesperformances;laseconde,lacapacitéde calibration,c'est-a-direcommentlaconfianceserapprochedelareussiteen moyenne.Nouspresentonsdanscettesectionlesprincipalesmesuresutilisees. Notonsquesilacalibrationetlasurconfiancesontétudiéesquasisystematiquement enéconomie,la discriminationest quant a elletrespeu analysee.Ces deuxmesures captent pourtant deux aspects differents de la qualité de la confiance. Ainsi, telle qu'elle est présentée dans le graphique 7, la sensibilité dépend de l'écart entre les distributions de confiance pour les essais réussis et les essais ratés alors que la calibration ne concerne que le niveau de confiance moyen.Un exemple simple pour comprendre cette différence est le suivant (Liberman et Tversky, 1993) : un médecinprédisantlesexed'unnouveau-neavecuneprobabilitedeO,5serapar- faitement calibré (le sexe étant équiprobable) mais aura une discrimination nulle (nepouvantdiscriminerentrelesdeuxsexespossibles)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9724557995796204,
+        "bbox_xyxy": [
+          172,
+          960,
+          1079,
+          1091
+        ],
+        "text": "Comme cescoreestun score d'erreur,plusilestfaibleplusla confiancemoyenne est correcte. La décomposition de Murphy (Murphy, 1972; Yates, 1982) montre que ce score agrege un indice de calibration et un indice de discrimination. On peuten effetledécomposercommesuit :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9631562232971191,
+        "bbox_xyxy": [
+          173,
+          1578,
+          1078,
+          1644
+        ],
+        "text": "Enplusdecetindicedecalibration,lebiaisest aussi caractériseparleniveau de surconfiance.L'utilisationdecettemesureestlargementrepandueenéconomie"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9326907992362976,
+        "bbox_xyxy": [
+          219,
+          869,
+          443,
+          948
+        ],
+        "text": "BS= (Pi-x;)²"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8845242857933044,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8773652911186218,
+        "bbox_xyxy": [
+          213,
+          1722,
+          972,
+          1748
+        ],
+        "text": "9. Celifferafilre refereraFlemmingetLau（20l4)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.876468300819397,
+        "bbox_xyxy": [
+          173,
+          180,
+          219,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.5935273766517639,
+        "bbox_xyxy": [
+          217,
+          1094,
+          797,
+          1213
+        ],
+        "text": "BS= f(1-f)- ∑N,(p-fp) n pEP pEP BS=UNC-DI+CI"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.43927839398384094,
+        "bbox_xyxy": [
+          218,
+          1094,
+          798,
+          1170
+        ],
+        "text": "BS=f(1-f)- N,(p-fp) DEP"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9814153909683228,
+        "bbox_xyxy": [
+          171,
+          689,
+          1079,
+          1625
+        ],
+        "text": "Si la méthode utilisée pour mesurer le biais n'est pas sujette a debat, il n'en est pasdememepourlamesuredelasensibilité.Ainsiunemultitudedemesuresest proposée dans la litterature (Fleming et Lau, 2014). La mesure la plus simple est l'etudedescorrelationsentrereussiteetconfiance:laΦ-correlationcorresponda lacorrelationdePearsonentrelesréussitesessaiparessaietlaconfiancebinarisée alors que la y-corrélation est la corrélation de Goodman-Kruskall pour des niveaux de confiance multiples. Cette methode fournit un premier apercu de la sensibilité mais presente le principal defaut d'etre dependante du niveau de calibration tant pour la Φ-correlation (Nelson, 1984) que la-corrélation (Masson et Rotello, 2009). L'utilisation de la TDS permet de résoudre ce probleme de dependance de la dis- crimination au biais. Ainsi les mesures précédemment presentées (d' de type II, ROC de type Il) sont independantes du niveau de calibration. Cependant, nous avons vu que ces mesures sont elles aussi sujettes a caution.La nécessité d'une modélisation explicite du lien entre sensibilité et performance a conduit au deve- loppement d'une nouvelle mesure introduite par Maniscalco et Lau (2012, 2014), le meta-d' et son utilisation est de plus en plus fréquente dans la littérature.1° Le concept de meta-d'repose sur I'idée de mesurer le signal disponible pour effectuer la tache de type II.Ainsi le meta-d'est le d' de typeI qu'un observateur idéal de TDS (en termes de choix et de confiance) aurait besoin pour atteindre la sensibilité de type ll observée. La comparaison entre meta-d' et d' offre une mesure de la capacitea discriminer entre ses niveaux de confiance :une égalité des deux valeurs signifie quel'individu utilise toute l'information disponible lors du choix pour former sa confiance et a donc unemetacognition optimale ausensdela TDs.Si le meta-d' est inférieur, sa sensibilité de type II est sous-optimale. Le cas d'un meta-d' superieur peut étre envisagé si l'on considere que toute l'information n'a pasétéutiliséepour le choix et que de nouvelles évidences ontété accumulées entrelesdécisionsdetypesIetII.Cettenouvellemesureestclairementsuperieure auxdeuxprécédentes et les questions relativesa son estimationsontdetaillées dans"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795414805412292,
+        "bbox_xyxy": [
+          172,
+          474,
+          1080,
+          674
+        ],
+        "text": "Unevaleurnullerefleteuneparfaitecalibration alorsqu'unevaleurnegative (respectivement positive) traduit une sous-confiance (respectivement surconfiance). La sur/sous-confiance et l'indice de calibration saisissent deux aspects différents dubiais:lepremier mesurela tendance a un optimisme ou pessimisme excessif alors quelesecondétudiela différenceentre confiance et tauxdesuccespour chaqueniveaudeconfiance."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9766938090324402,
+        "bbox_xyxy": [
+          172,
+          245,
+          1079,
+          379
+        ],
+        "text": "(Camerer et Lovallo, 1999) et en psychologie (voir les revues de littérature de Lichtenstein,Fischho et Phillips,1982;Wallsten et Budescu (1983); Harvey, 1997). Pour mesurer le niveau de calibration, la distance entre le taux de succes et la confiance moyenne est utilisée. Une mesure de la sur/sous confiance est la suivante :"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8831554651260376,
+        "bbox_xyxy": [
+          388,
+          180,
+          860,
+          206
+        ],
+        "text": "CONEIANCE.METACOGNITIONETPERCEPTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8607161641120911,
+        "bbox_xyxy": [
+          171,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "10.Parexemple,Rounis et al.(2010);Baird et al.(2013);Charles et al.(2013);Lee,Blumenfe etd'Esposito(2013);Massoni (2014);McCurdyetal.(2013);Flemingetal.(2016)."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8604583740234375,
+        "bbox_xyxy": [
+          215,
+          385,
+          616,
+          462
+        ],
+        "text": "Sur/sous - confiance = 一 (Pi-x n"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8454636931419373,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9844761490821838,
+        "bbox_xyxy": [
+          173,
+          1042,
+          1080,
+          1310
+        ],
+        "text": "Danscettesectionnousprésentonstoutd'abordlesprincipauxrésultatsper- mettant de caracteriser la metacognition, puis nous proposerons plusieurs applications de son utilisation a des questions d'ordre économique. Notons que nous choisissons denousconcentreressentiellementsurlacapacitedediscriminationplutotque celle de calibration en raison de safaible couverture dans lalitterature économique. Le lecteur peut se référer aux différentes revues de litterature de Lichtenstein, FischhoetPhillips (1982);WallstenetBudescu (1983)et Harvey (1997)pourune analysedetailléedelacalibration."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9839574098587036,
+        "bbox_xyxy": [
+          173,
+          245,
+          1079,
+          686
+        ],
+        "text": "Maniscalco et Lau (2012, 2014) et Barett, Dienes et Seth (2013).\" Cependant deux principaux problemes peuvent étre reliés a cette mesure : la prise en compte du biaisetdelavariancesemblentproblematiquessouscertainesconditions(Barett, DienesetSeth,2013);dememeleproblemedescriteresdécisionnelsmultiplesen casdeniveauxdeconfiancenon-binaireposeleproblemed'unelecturemultiple du meta-d'et reste pour le moment une question ouverte.Malgré ces difficultés techniques,cette methode offre actuellement la meilleure mesure dela sensibilité en permettant de la dissocier des aspects décisionnels de type I. Notons qu'une autremesureproposeégalementunindicedediscriminationcontrolepourl'effet de la performance : Yaniv, Yates et Smith (1991) proposent d'ajuster et de normaliser 1'indicedediscriminationduBrierScore.Ennormalisantparlaperformanceet en ajustant par le nombre de niveaux de confiance utilisé,la mesure obtenue (ANDI) permetdemesurerla discriminationindependammentdelaperformance."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807830452919006,
+        "bbox_xyxy": [
+          173,
+          704,
+          1079,
+          938
+        ],
+        "text": "Nous avons vu les principaux outils de mesures de la métacognition. Si les mesuresdelacalibrationsontbienétabliesetpeusujettesadebat,lelienentre performanceetcapacitedediscriminationrendl'analysedecettederniereplus complexe. Notons cependant que les modeles de type meta-d'et ANDl, qui prennent explicitement en compte cette relation et proposent une mesure corrigée de ce facteur, semblent les plus pertinents et les plus a meme d'offrir une véritable estimationdeladiscrimination."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798449873924255,
+        "bbox_xyxy": [
+          174,
+          1414,
+          1080,
+          1649
+        ],
+        "text": "Nous cherchons ici a savoir comment se forme la qualité metacognitive et quels sont les facteurs pouvant 1'influencer. D'un point de vue neuronal, les évidences sont encore récentes et non définitives. Si les études au niveau d'un unique neurone com- mencenta donnercertainsresultats,ilest troptotpouridentifierprecisementcequi a trait a la metacognition et ce qui concerne la cognition en general. Middlebrooks. AbzugetSommer(2014)recensentlesprincipauxtravauxdecettelitteratureet montrent que l'activité metacognitive active des connexions neuronales chez les"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.898666501045227,
+        "bbox_xyxy": [
+          174,
+          1364,
+          503,
+          1395
+        ],
+        "text": "3.TCanacitesmetacognitiyes"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8897392749786377,
+        "bbox_xyxy": [
+          174,
+          991,
+          462,
+          1022
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8720417022705078,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8646400570869446,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8535889387130737,
+        "bbox_xyxy": [
+          171,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "11.Un script MATLABpour calculer le meta-d'estdisponible a l'adresse suivante:http www.columbia.edu/bsm2105/type2sdt/."
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845402836799622,
+        "bbox_xyxy": [
+          173,
+          731,
+          1079,
+          1131
+        ],
+        "text": "Si la métacognition n'est pas encore bien comprise au niveau cérebral, les facteurs linfluencant au niveau comportemental sont mieux observés. Une premiere questionchercheacomprendrecommentrevelerlesdifferentsniveauxdeconfiance et quellemethode d'élicitation doitétreprivilégiee.OvergaardetSandberg (2012) comparent différentesmethodes dereportetmontrentquelesreportsfavorisant l'introspection donnent les meilleurs resultats.Hollard, Massoni et Vergnaud (2016) et Massoni, Gajdos et Vergnaud (2014) comparent trois types de regles d'élicitation12 : unereglelibresans incitation,une regle empruntee al'économie experimentale (quadratic scoring rule)avecincitation mais faisant appel a deschoixdemontants derémunerationsplutotqu'adesprobabilitésdeconfianceetenenfinuneregle dematchingprobabilitiesdisposantalafoisd'incitationsetd'uneéchelleentermes depourcentagedeconfiance."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983613133430481,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          714
+        ],
+        "text": "animaux danslesregions suivantes: le cortex orbitofrontal (OFC) chez le rat(Kepecs et al., 2008); le cortex lateral intraparietal (LIP) chez les macaques rhésus (Kiani et Shalden,2009)et lecortexdorsolateralprefrontal(SEF)chezlesinge.Sicesétudes nous donnentunpoint dedepart,ellesnepermettentpas de conclure queleurs activites sontnecessairesalametacognition.Desétudesparmicrosimulationousurdespatients souffrant de liaisons cérebrales précises sont nécessaires (par exemple, David et al., 2012, sur la metacognition de patients schizophréniques ou Fleming et al., 2014, sur des patients souffrant de lésions cerebrales). A defaut de pouvoir actuellement com- prendre les mecanismes de formation de la metacognition, les études d'imageries montrent le role primordial du cortex lateral prefrontal (PFC) dans les capacités metacognitives.L'étudedeFlemingetal.(201o)montreparexemplequelesdifferences individuellesentermesdefacultesdediscriminationpeuvents'expliquerparlataille delamatieregrisedanslePFCdorsolateral.Nousrenvoyonslelecteuralarevuede litteraturedeFlemingetDolan(20i2)surlesbasesneuronalesdelametacognition."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821015000343323,
+        "bbox_xyxy": [
+          172,
+          1149,
+          1079,
+          1649
+        ],
+        "text": "Deuxrésultatssontaretenir:lesperformancesentermesdecalibrationet discriminationsontdependantesdelanaturedelaregleetd'unpointdevue methodologique, seules les confiances issues du mecanisme de matching proba- bilities sont conformes auxhypotheses émises sur le choix de typeHI par la TDS. Silafacondedemandersonniveaudeconfianceaffecteladecision,ilenvade memepourlanaturedelatache.AinsiFlemingetal.(2016)étudientlesdecisions en termes dejugementsprospectifs et retrospectifs.Mls montrent que si la calibration est stable pour les deux taches, il n'en est pas de meme pour la discrimination. Cette étude ouvre la question de l'analyse des jugements prospectifs et en particulier les difficultés a utiliser un modele de détection du signal sur des prédictions de choixperceptifs.Enfinlesfacteursinternescommencentaétreétudiesetils semblentjouerunrolepreponderantdansleniveaudecapacitesmetacognitivesa un moment donné. Garfinkel et al. (2013) montrent que la metacognition est affectée parlesprocessusinternesetenparticulierlesbattementscardiaques.Desoncote Massoni(2014)montreque1'étatémotionnelaffectelametacognitionavecune"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8464769124984741,
+        "bbox_xyxy": [
+          389,
+          182,
+          859,
+          205
+        ],
+        "text": "ONFIANCEMETACGNTTTONETPERCEPTN"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8453481793403625,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1054,
+          1748
+        ],
+        "text": "12.Ces regles peuvent étre considerees comme des extensions de celles testées par Dienes Seth(2010)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8311113715171814,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9759923219680786,
+        "bbox_xyxy": [
+          174,
+          1615,
+          1079,
+          1749
+        ],
+        "text": "Ainsiunedeuxiemeapplicationdelametacognitionpeutétretrouvéedansla décision degroupe.Dans uncadreperceptif,uninteret recents'estportesurlafacon dont deuxindividus agregentl'information disponiblepourprendreune décision commune(Bahramietal.,2010,2012;Koriat,2012;Sorkin,HaysetWest,2001),"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9725064039230347,
+        "bbox_xyxy": [
+          173,
+          331,
+          1079,
+          465
+        ],
+        "text": "Globalement,l'étudedescapacitésmetacognitivesestencoreunchamprecent en neurosciences et en psychologie cognitive.Bien que la compréhension de ces mécanismess'ameliore aufil des experiences,il resteencorebeaucoupa fairepour réellementcomprendrelefonctionnementmetacognitifhumain"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9667062759399414,
+        "bbox_xyxy": [
+          173,
+          567,
+          1078,
+          700
+        ],
+        "text": "Enraison del'aspectrécent dece champderecherche,peud'étudesontpour l'instanttentéd'utiliserlecadremetacognitifpour comprendrelesdécisionséco nomiques.Nous allons presenterici trois groupes d'études portant surles décisions économiquesentermesdevaleurs,ladecisioncollectiveetleschoixassurantiels"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.956184983253479,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          312
+        ],
+        "text": "ameliorationalafoisdelacalibrationetdeladiscriminationdanslecasd'un sentiment d'anxiétévis-a-vis dela décision."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8943511843681335,
+        "bbox_xyxy": [
+          174,
+          516,
+          507,
+          548
+        ],
+        "text": "3.2Metacognitionetdecision"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8838757872581482,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8632954359054565,
+        "bbox_xyxy": [
+          174,
+          181,
+          217,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6425992846488953,
+        "bbox_xyxy": [
+          172,
+          719,
+          1079,
+          1597
+        ],
+        "text": "Une premiere application de la metacognition dans des décisions de nature économique peut étre trouvée dans l'étude de De Martino et al. (2013). Utilisant une tache d'evaluation(choixentre deuxcasse-croutes etélicitationdu consentement a payer par un mecanisme a laBecker-DeGroot-Marschak) et une tache de révélation de la confiance, leur protocole experimental permet de separer le mecanisme d'eva- luationdeschoixdeceluidelaformationdelaconfiancedanscechoix.Ilestainsi possiblededissocierlesvariations dela confiancedes autresprocessuscognitifs et ainsiobtenirdesmesuresseparéesdeschoixetdelaconfiancedansunedecisionde nature économique. Leurs principaux résultats montrent tout d'abord que la confiance variebienenfonctiondelavariablededécisionens'adaptantalajustessedela décisionetalavaleurdesdifferentesoptions.Au-deladeceresultatcomportemental, les données d'imagerie apportent des indications sur la facon dont la confiance se forme et son lien avec l'évaluation des choix possibles. Ainsi une meme aire cérebrale representela differencemonetaire entreles differentes options etlaconfiance associée a cette comparaison desvaleurs(cortexprefrontalventromedial-vmPFC).Le report decette confiance s'effectue au niveau du cortexprefrontal rostrolateral (rlPFC) montrant un transfert d'information au sein du cerveau. La relation entre ce report de confiance et 1'evaluation des options,c'est-a-direla capacitemetacognitive,est mise en évidencepar unliensystematique entre ces deux aires cerebrales.Ainsi cette étudemontre quelesindividus ont acces aubruitdeleurprisededécisionetque des changements dans leniveau de ce bruit se refletent dans le niveau de confiancerevelé. L'accesa cebruitdécisionnelpermet alorsd'identifieret decorrigerlesdécisions erronees(voirégalementYeunget Summerfield,20l2,pour une analysedelaprise en compte des erreurs par la confiance). L'étude de la metacognition permet ainsi de quantifier le bruit de la décision, de mieux comprendre les changements de décision etmeme,commenousallonslevoir,decommuniquerentreindividus."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6084398627281189,
+        "bbox_xyxy": [
+          172,
+          721,
+          1079,
+          1597
+        ],
+        "text": "Une premiere application de la metacognition dans des décisions de nature économique peut étre trouvée dans létude de De Martino et al. (2013). Utilisant une tache d'évaluation(choix entre deux casse-croutes et élicitation du consentement a payer par un mécanisme a la Becker-DeGroot-Marschak) et une tache de révélation de la confiance, leur protocole experimental permet de séparer le mécanisme d'eva- luationdeschoixdeceluidelaformationdelaconfiancedanscechoix.Hestainsi possible de dissocier les variations de la confiance des autres processus cognitifs et ainsi obtenir des mesures separées des choix et de la confiance dans une décision de nature économique. Leurs principaux résultats montrent tout d'abord que la confiance variebienenfonctiondelavariablededécisionens'adaptantalajustessedela décision et a la valeur des différentes options.Au-dela de ce resultat comportemental, les donnees d'imagerie apportent des indications sur la facon dont la confiance se forme et son lien avec l'évaluation des choix possibles. Ainsi une meme aire cérebrale representela difference monetaire entreles differentes options et la confiance associée a cette comparaison des valeurs (cortex préfrontal ventro médial - vmPFC). Le report de cette confiance s'effectue au niveau du cortex prefrontal rostrolateral (rlPFC) montrantuntransfertd'information auseinducerveau.Larelationentrecereport de confiance et l'évaluation des options, c'est-a-dire la capacité metacognitive, est mise en évidence par un lien systematique entre ces deux aires cerebrales. Ainsi cette étude montre que les individus ont acces au bruit de leur prise de décision et que des changements dans le niveau decebruit serefletent dans le niveau deconfiance revelé L'accesacebruitdecisionnelpermetalorsd'identifieretdecorrigerlesdécisions erronees (voirégalementYeung et Summerfield,2012,pour une analyse dela prise en compte des erreurs par la confiance). L'étude de la metacognition permet ainsi de quantifierlebruit deladecision,demieuxcomprendreleschangementsdedecision etmeme,commenous allonslevoir,de communiquerentreindividus."
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9839426279067993,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          856
+        ],
+        "text": "En particulier il a été montré que deux tetes ne sont pas toujours meilleures qu'une >. La principale raison avancée a cette inefficience de la décision de groupe est l'heterogeneité des performances des membres du groupe. Ainsi Bahrami et al. (20i0) montrent que plus les performances des deux individus sont éloignées, plus la décision de groupe sera différente de la décision optimale. Au contraire, Massoni et Roux (20i4) prouvent que ce n'est pas l'heterogeneité des performances qui est en cause mais la différence de calibration des confiances. Leur design experimental propose auxsujets de regarderindividuellement un stimulus perceptif de discrimination visuel, de donner leur réponse ainsi que leur confiance puis de comparer avec un binome qui aura vu le meme stimulus pour trouver une décision commune a la fois sur la réponse et sur le niveau de confiance. En proposant aux individus d'échanger a la fois leur choix et leur confiance, les auteurs montrent que I'héterogeneité de performances n'a plus d'effet sur la décision sous-optimale du groupe une fois prise en compte l'heterogeneité en termes de calibration. Ce résultat montrebienI'importancedelacapacitemetacognitivedanslaprisededecision communeetlepartaged'information.Ceroledelametacognitionestconfirme par une étude récente deBang et al. (2014) montrant quel'heterogeneité en termes de discrimination joue un role dans l'efficacité d'heuristiques de décision en groupe."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978631854057312,
+        "bbox_xyxy": [
+          172,
+          871,
+          1079,
+          1650
+        ],
+        "text": "Nous présentons une derniere application visant a étudier dans un meme cadre experimental et analytique des décisions de type perceptif et des décisions purement économiques d'assurance vis-a vis du risque dans un cadre de confiance a la fois prospective et retrospective. Les trois derniers chapitres de la these de Massoni (2013b) detaillent un protocole experimental dans lequel les individus doivent faire deschoixdeloteriesbaséssurleur reussite a unetacheperceptive tout enayant la possibilité de s'assurer contre cette incertitude.La capacitemetacognitive est également calculée pour les décisions perceptives et pour les prédictions de succes.13 Les résultats montrent que si les capacités metacognitives (calibration et discrimi- nation)sontliéesentrelatachedeprédictionetd'assurancecen'estpaslecaspour la metacognition perceptive. Ce résultat insiste sur la difficulté d'appliquer un modele general metacognitif independant du type de choix. La question de la prédiction estégalement centrale et renvoie aux résultats de Flemming et al. (2016) sur la dissociation entre discrimination de jugements prospectifs et retrospectifs. Ainsi, si les modeles de formation de croyances, et en particulier ceux issus de la TDS, reposent sur des hypotheses réalistes pour estimer une confiance passée, ce n'est pas le cas pour les jugements prédictibles au sein desquels le signal utilisé pourformercettecroyance n'est pas determiné.L'extensiondemodelesdeformation des jugements probabilistes a la prédiction est une étape cruciale pour l'analyse de lametacognitiondesdécisionséconomiques.Silesapportsdelapsychologie cognitive sont certains pourla comprehension de la confiance, il convient d'appliquer et d'amender ces modeles pour permettre d'analyser le principal champ d'application deséconomistesqu'estlaprédiction."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8464809656143188,
+        "bbox_xyxy": [
+          389,
+          182,
+          859,
+          205
+        ],
+        "text": "ONFIANCEMETACGNTTTONETPERCEPTN"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8456798791885376,
+        "bbox_xyxy": [
+          172,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "13.Notons aussi que ce design impliqueégalementune composante émotionnelle avec （ loteriescomportantdespertesetayantdefortsenjeuxmonetaires."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8196001052856445,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9859265089035034,
+        "bbox_xyxy": [
+          172,
+          1032,
+          1079,
+          1533
+        ],
+        "text": "Danscetterevuedelitteraturenousavonspresentelamanieredontlaconfiance peut étre analysee a l'aide d'outils issus des sciences cognitives et en particulier par la TDS. En prenant en compte le fait que les travaux issus de ce champ sont encorenondefinitifsetquedenombreuxmecanismesrestentacomprendreet a modeliser,onpeuttirerplusieursconclusionsdecetteanalyse.Toutd'abord,1a TDSoffreunemodelisationduprocessusdedécisionutiliseparl'individupour faire ses choixet determinersa confiance en ceux-ci.Face a unetacheperceptive ilestpossibledemodeliseretd'estimerlamaniered'agird'unindividu.Cesmodeles computationnelsoffrentdoncunpuissantoutild'analyseetdecomprehensiondes comportements observés. Notons cependant que nous avons ici choisi d'analyser la décision perceptive uniquement a l'aide de la TDS mais des théories alternatives existentdanslalitterature.Ilest ainsipossibledeproposerdifferentesmodelisations du processus de décision et nous renvoyons les lecteurs vers les trois alternatives que sont lesthéoriesdeseuil(Luce,1963b;Krantz,1969),la théorie du choix (Luce,1959,1963a)etlaTDSnonparametrique(Egan,1975;MetzetPan,1999)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845824241638184,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          681
+        ],
+        "text": "Malgré cette limitation,la TDS, en proposant un modele théorique permettant de définir les décisions et les croyances optimales, offre un cadre d'analyse poten- tiellement fécond des comportements économiques. On peut par exemple penser a l'analysedescroyancesdansuncontexteassurantielavecunemesuredesdistorsions enpresencederisquedefaiblesprobabilitesmais auxconsequencesmajeures(par exemple,risquescatastrophiques:risquesnaturels,terrorismeoucatastropheindus- trielle).Uneautreapplicationsetrouvedanslapossibilitedefairevarierlesgains et couts des 4 types de reponses possibles. Il est alors possible d'observer les deviances des comportements et des croyancesparrapport aux comportements optimaux. On peut penser ici a des applications évidentes en termes de décisionsmédicales ou financieresavecunereelleasymetriedescoutsdesomissionsetdesfaussesalarmes ainsiquedesbeneficesdesdetectionsetdesrejectionscorrectes.Cesexemplessont loind'etreexhaustifsetdemultiplesapplicationssontpossibles."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815459847450256,
+        "bbox_xyxy": [
+          174,
+          1551,
+          1079,
+          1749
+        ],
+        "text": "Une autre approche plus complémentaire consiste a ne plus considerer la decision commestatiquemaisaintegrersacomposantedynamique,c'est-a-direlestemps dereponse.L'ideeprincipaleest quel'individu accumule desévidencesvis-a-vis du stimulus et doit décider quand arreter ce processus d'accumulation pour prendre sa décision (Ratclff, 1978; Ratcliff et McKoon, 2008; Busemeyer et Townsend, 1993:Diederich.2003).CesmodelesséquentielsdelaTDSoffrentuncadre"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9812650084495544,
+        "bbox_xyxy": [
+          173,
+          698,
+          1079,
+          931
+        ],
+        "text": "Ainsi, meme si les prédictions sont difficiles a analyser dans un cadre de TDS, un apport immédiatal'analyseéconomiqueréside dansla possibilitédecomparer les comportements et les croyances des individus vis-a-vis des prédictions d'un modele théorique robuste et d'analyser la facon dont des changements dans les conséquencesdesactionset/oulesniveauxobjectifsdeprobabilitésontuneffet sur les comportements observes. On peut donc envisager des applications multiples de ce cadre d'analyse a la comprehension des phenomeneséconomiques."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8770691752433777,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.847519040107727,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8407365083694458,
+        "bbox_xyxy": [
+          174,
+          983,
+          307,
+          1013
+        ],
+        "text": "CONCLUSION"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9861798882484436,
+        "bbox_xyxy": [
+          172,
+          684,
+          1078,
+          1070
+        ],
+        "text": "Si la modélisation de la TDS est particulierement puissante pour analyser et comprendre la décision perceptive, nous avons vu que son application a des questions économiquesestplusdelicate.La confiancejoueclairementunroledanslaprise de décision et elle peut nous fournir un bon indicateur des erreurs de décision et donc d'explication des choix observés. De plus elle semble primordiale pour per- mettre auxindividusdecommuniqueretdeprendredesdecisionscommunes. CependantI'applicationdirectedelametacognitionauxdecisionséconomiques est encore difficile. Savoir en quoi la capacité a discriminer d'un individu l'aide a prendreunedécisionéconomiqueoptimaleestunequestion ouverte.Commenous 1'avons vu, l'absence de modelisation des processus prédictibles ne permet pas actuellementd'appliquerdirectementlaTDSauxchoixdenatureéconomiques."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841240048408508,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          666
+        ],
+        "text": "d'analyse particulierement pertinent pour les decisions sous contraintes temporelles et l'analyse de l'arbitrage temps de décision / performance. Notons que l'analyse des temps de reponse commence a devenir de plus en plus répandue en économie experimentale.4Cetteapprochedynamique arécemmentétéappliquéealétude delaconfiance avecdesprocessus d'accumulationdetypeII(RatcliffetStarns, 2009; Pleskac et Busemyer, 2010).Au-dela de leurs capacités a analyser les données experimentales,cesmodelessontrenforcespar desévidencesneuronalesmontrant une activitédetypemodelede diffusion des circuits neuronaux(Goldet Shadlen, 2007).Bien que cette approche semble particulierement prometteuse, des difficultés computationnelles ainsi quel'absence d'évidence quant a la nature des signaux de deuxiemeordrenepermettentpasactuellementdelaconsiderercommeune modelisation definitive mais plutot comme une piste de recherche en cours."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9837888479232788,
+        "bbox_xyxy": [
+          172,
+          1089,
+          1079,
+          1649
+        ],
+        "text": "Ilconvientcependantdenuancercetteconclusionnegativeeninsistantsur l'aspecttresrécentdestravauxdanscedomaineetquidoiventdoncétreconsideres commeunprocessusdedecouverteencoursplutotqu'uncadred'analysefigé L'absence d'analyse de la metacognition et en particulier de la discrimination en économie experimentalelaissepenser que son utilisationfuture pourrait offrir de nouvelles pistes de comprehension des comportements. En particulier l'heterogeneite individuelleobservéedanstouteslesétudessemblejouerenfaveurd'unevision delametacognitioncommed'unnouveaufacteurexplicatifdeladecision:la metacognition servant alors a detecter ses erreurs et a corriger sa decision. Cependant, ce passage dela décision perceptive a la décision économique nécessite des avancees théoriques dans la TDs : le passage aux jugements prédictibles en est une mais aussietsurtoutunemodelisationdel'heterogeneitemetacognitiveauseinmeme dumodelesemblenecessaire.Ainsil'utilisationdelaTDSetl'analysedelameta cognitionnedoiventpasétrevuescommeunoutildefinitifmaisplutotcomme unepistederechercheencoursoffrantdesperspectivesd'analysesnouvellesetun importantpotentield'explicationduprocessusdecisionnel."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8543351888656616,
+        "bbox_xyxy": [
+          169,
+          1696,
+          1054,
+          1748
+        ],
+        "text": "14.NousrenvoyonslelecteuralarevuedelitteraturedeFehretRangel(20i1)pourl'analy destempsdereactionenéconomie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8470978140830994,
+        "bbox_xyxy": [
+          389,
+          181,
+          859,
+          206
+        ],
+        "text": "ONFIANC:EMETACOGNTTTONETPERC:EPTTON"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8315460085868835,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9765522480010986,
+        "bbox_xyxy": [
+          171,
+          1079,
+          1079,
+          1214
+        ],
+        "text": "avecβ le critere décisionnel de l'individu.En pratique le parametre s est fixé a 1 et nous utilisons un modele a variance égale par la suite.15 A partir de ces deux taux nous pouvons calculer le critere, β, et le d'. Le critere est déterminé par le tauxdefaussesalarmescalculésurladistributiondubruit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9758440256118774,
+        "bbox_xyxy": [
+          172,
+          468,
+          1078,
+          567
+        ],
+        "text": "La quantité d'évidence est représentée par une variable aléatoire X, pour le signal et X pour le bruit. Nous supposons qu'elles suivent toutes les deux une distributiongaussienneavec"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9697045683860779,
+        "bbox_xyxy": [
+          171,
+          1671,
+          1078,
+          1749
+        ],
+        "text": "15. Cette hypothese permet de simplifier la présentation tout en ne changeant pas I'esprit de la modelisation.Nous renvoyons le lecteur a Wickens (2002) pour les calculs des parametres de la TDSsanscettehypothese"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9654439091682434,
+        "bbox_xyxy": [
+          173,
+          382,
+          1078,
+          450
+        ],
+        "text": "Nous présentons ici les bases de la modélisation du choix de type I par la TDS et lesprémicesdelamodélisation du choixdetypeII."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9260944724082947,
+        "bbox_xyxy": [
+          217,
+          1031,
+          679,
+          1067
+        ],
+        "text": "P（XN≤D）=1： PD"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9017054438591003,
+        "bbox_xyxy": [
+          217,
+          578,
+          586,
+          617
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9007437229156494,
+        "bbox_xyxy": [
+          173,
+          179,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8960413932800293,
+        "bbox_xyxy": [
+          213,
+          628,
+          578,
+          658
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8930749893188477,
+        "bbox_xyxy": [
+          216,
+          932,
+          714,
+          994
+        ],
+        "text": "h = P(Xs >β)=1-P(Xs≤β)=1-d"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8857719898223877,
+        "bbox_xyxy": [
+          172,
+          995,
+          199,
+          1019
+        ],
+        "text": "et"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8737972974777222,
+        "bbox_xyxy": [
+          217,
+          1441,
+          454,
+          1478
+        ],
+        "text": "一（ （h)-q"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8733623623847961,
+        "bbox_xyxy": [
+          354,
+          298,
+          896,
+          364
+        ],
+        "text": "THEORIEDELADETECTIONDUSIGNAL: BASESDESMODELISATIONSDUCHOIXDETYPEIETII"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8716938495635986,
+        "bbox_xyxy": [
+          218,
+          1344,
+          625,
+          1381
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8711854219436646,
+        "bbox_xyxy": [
+          480,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8661044836044312,
+        "bbox_xyxy": [
+          223,
+          1223,
+          510,
+          1260
+        ],
+        "text": "（1-f）二-D"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8647138476371765,
+        "bbox_xyxy": [
+          567,
+          246,
+          684,
+          278
+        ],
+        "text": "ANNEXE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8566091656684875,
+        "bbox_xyxy": [
+          173,
+          1273,
+          1078,
+          1338
+        ],
+        "text": "Le taux de detections correctes et la distribution du signal nous donne la distance entrelecritereetled':"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8028634786605835,
+        "bbox_xyxy": [
+          172,
+          900,
+          457,
+          930
+        ],
+        "text": "s'exprimentcommesuit"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7945715188980103,
+        "bbox_xyxy": [
+          172,
+          1490,
+          1079,
+          1625
+        ],
+        "text": "Ainsiensebasant uniquementsurles comportements observésnouspouvons estimerlasensibilitedesindividusenfonctiondelanaturedesstimuli.Ilest également interessant d'estimer le biais en faveur d'une reponse, c'est-a-dire la tendanceachoisirplussouventunereponsequellequesoitladistributiondusignal."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7519876956939697,
+        "bbox_xyxy": [
+          212,
+          1398,
+          993,
+          1430
+        ],
+        "text": "Encombina st1mat1ondud"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.705009937286377,
+        "bbox_xyxy": [
+          213,
+          672,
+          664,
+          704
+        ],
+        "text": "h= Nombrededetectionscorrectes"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6823804974555969,
+        "bbox_xyxy": [
+          209,
+          808,
+          628,
+          840
+        ],
+        "text": "Nombredefaussesalarmes"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6659345626831055,
+        "bbox_xyxy": [
+          245,
+          853,
+          683,
+          886
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6385327577590942,
+        "bbox_xyxy": [
+          173,
+          1490,
+          1079,
+          1625
+        ],
+        "text": "Ainsiensebasantuniquementsurlescomportementsobservesnouspouvons estimerlasensibilitedesindividusenfonctiondelanaturedesstimuli.Ilest également interessant d'estimer le biais en faveur d'une réponse, c'est-a-dire la tendance a choisir plus souvent une réponse quelle que soit la distribution du signal."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6218432784080505,
+        "bbox_xyxy": [
+          214,
+          1398,
+          993,
+          1430
+        ],
+        "text": "Encon 1mat1ondud"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4033575654029846,
+        "bbox_xyxy": [
+          255,
+          854,
+          683,
+          887
+        ],
+        "text": "Nombred'essaisenpresencedubruit"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9857661724090576,
+        "bbox_xyxy": [
+          171,
+          753,
+          1079,
+          1091
+        ],
+        "text": "Notons qu'une majorité d'expériences n'utilise pas une tache de type signal/ bruitmaisunetachedechoixforcéadeuxalternatives(2AFC).L'individurecoit alors deux stimuli et doit determiner lequel contient un signal spécifique.Ce cadre analytique change le calcul des parametres de la TDs.Face a deux stimuli et devant choisir si celui de droite ou de gauche contient le signal en question,l'individu note les évidences en faveur du signal a chaque position (X, a droite et X。 a gauche provenantdeXetX,).Ilcompareensuitecesdeuxquantitesd'evidencepour déterminer celle qui est la plus importante. Notons Y= X。 - X, la différence entre ceux-ci.Au cours des essais SN (i.e.signal a gauche,bruit a droite),X。provient deXetXdeXv,ainsi"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9850277900695801,
+        "bbox_xyxy": [
+          171,
+          1232,
+          1080,
+          1499
+        ],
+        "text": "Lors des essais SN, le choix est fait en fonction du critere βec, avec une réponse gauche si Y ≥ βec et droite sinon. Comme Ysv et Yvs sont les différences de deux variables aléatoires identiques, nous sommes automatiquement dans le cadre d'un modele a varianceségales.Dans cecas,led'est calculécommela distance entre les moyennes des variables en termes d'unité de deviation standard. Le calcul des parametress'obtienticidirectementapartir du tauxdesuccespourlesdeuxtypes nousavonslesmesuressuivantes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9733572602272034,
+        "bbox_xyxy": [
+          172,
+          394,
+          1079,
+          594
+        ],
+        "text": "Enfinunemesurecomplémentairedelasensibilitéestl'airesouslacourbeROC (AUROC). Les taux de detections correctes et des fausses alarmes sont dependants duchoixducritere.LacourbeROCsaisitgraphiquementl'ensembledesalternatives disponibles en fonction du choix de placement du critere. En notant le taux de detectionscorrectes(respectivementfaussesalarmes)commel'aireendessousde lacourbededistributiondusignal(respectivementdubruit)auniveauducritere:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.963696300983429,
+        "bbox_xyxy": [
+          170,
+          246,
+          1079,
+          312
+        ],
+        "text": "Cebiaissemesurecommeladifférenceentrelecritereetlamoitiedeladistance entre les deux distributions (d'/2).16 Son calcul est le suivant :"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9358533024787903,
+        "bbox_xyxy": [
+          216,
+          319,
+          611,
+          384
+        ],
+        "text": "β=β- [Φ-(f)+Φ-(h)]"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.927906334400177,
+        "bbox_xyxy": [
+          215,
+          1511,
+          614,
+          1624
+        ],
+        "text": "d'Fc = [Φ-(Pc(sn)+Φ-(Pc(ns,)] βFc = ≠[Φ-(Pc(ns)-Φ-(Pc(sn,)]."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9146511554718018,
+        "bbox_xyxy": [
+          173,
+          1675,
+          1079,
+          1764
+        ],
+        "text": "16.Une mesure alternativeest la hauteurrelative des deux distributions au niveau du critere: f(β)中(β)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9079775214195251,
+        "bbox_xyxy": [
+          217,
+          1185,
+          576,
+          1224
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9056808352470398,
+        "bbox_xyxy": [
+          216,
+          598,
+          759,
+          649
+        ],
+        "text": "。fs(x)dx =H(β) et f = h= 。fv(x)dx=F(β)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9002442359924316,
+        "bbox_xyxy": [
+          388,
+          180,
+          860,
+          206
+        ],
+        "text": "CONEIANCE.METACOGNITIONETPERCEPTION"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8925525546073914,
+        "bbox_xyxy": [
+          218,
+          1099,
+          562,
+          1137
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8487590551376343,
+        "bbox_xyxy": [
+          217,
+          691,
+          522,
+          745
+        ],
+        "text": "AUROC= H[F-'(p)]dp"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8420208096504211,
+        "bbox_xyxy": [
+          214,
+          652,
+          594,
+          682
+        ],
+        "text": "IAyRoCsecalculecommesuit"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8357351422309875,
+        "bbox_xyxy": [
+          1032,
+          179,
+          1077,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8292468190193176,
+        "bbox_xyxy": [
+          172,
+          1144,
+          612,
+          1174
+        ],
+        "text": "nousavons"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.34715425968170166,
+        "bbox_xyxy": [
+          173,
+          1144,
+          613,
+          1174
+        ],
+        "text": "etdansIecasdesessaisNS nousavons"
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9855561852455139,
+        "bbox_xyxy": [
+          172,
+          595,
+          1079,
+          1030
+        ],
+        "text": "Pourunepresentationdetailléedel'applicationdelaTDSauchoixdetypeIl nous renvoyonslelecteur auxpresentations deBarett,Dienes etSeth(2013)et Massoni (2013). Nous ne présentons ici que les bases de la modélisation avec lintroduction destauxdefaussesalarmesetdedetectionscorrectesainsiqueled'detypeI1.En sebasantsurl'hypothesequelesjugementsdeconfiancesontbasessurlesmemes évidences que les reponses de type I,il est possible de definir des taux de detections correctes et de fausses alarmes de type II.En supposant que la reponse prend deux valeurs,RsielleestcorrecteetWsielleestfausse,etquelaconfianceestbinaire C'pourconfiantetUpournon-confiant,lescriteresdetypeIIsedefinissentcomme suit:β_etβ.Silesévidencessontinferieures aβ_ou superieuresaβPindividuest confiant,autrementilestnon-confiant./Lestauxdedetectionscorrectesetdefausses alarmes de typeII sont donc H=P(CIR)et F =P(UIW).Etant données les notations précédentes,cetauxdedetectionscorrectessecalculedelamanieresuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9700964093208313,
+        "bbox_xyxy": [
+          172,
+          412,
+          1079,
+          579
+        ],
+        "text": "Notonsqueced'..enchoixforcéestdifférentdud'précédent aveclarelation suivante : d's.=V2d'Enfin,un résultat intéressant montre queIAUROC correspond ici alaprobabilitéderepondrecorrectement.Ainsi l'utilisationd'unetache de choixforcéspermetdecalculerlesparametresdela TDSuniquement en observant lestauxdesucces"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9591327905654907,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          343
+        ],
+        "text": "Avec le taux de succes global, Pe, défini comme la probabilité de succes a chaque essai pondérée par la probabilité d'occurrence de deux types d'essais, la formuledevient:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9563249349594116,
+        "bbox_xyxy": [
+          171,
+          1389,
+          1079,
+          1455
+        ],
+        "text": "Le d' de type II (D') est une application directe du d' de type I a la décision de type II(Kunimoto,Miller et Pashler, 2001) :"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9492475390434265,
+        "bbox_xyxy": [
+          218,
+          1303,
+          516,
+          1377
+        ],
+        "text": "1-Φ(β+)+Φ(β_-d) F 1-Φ(β)+Φ(β-d')"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9491138458251953,
+        "bbox_xyxy": [
+          172,
+          1097,
+          1077,
+          1161
+        ],
+        "text": "Chaque terme pouvant s'exprimer par la fonction de densite gaussienne nous obtenonsaufinallaformulesuivante:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9422056674957275,
+        "bbox_xyxy": [
+          219,
+          1173,
+          519,
+          1246
+        ],
+        "text": "1+Φ(β_)-Φ(β+ -d') H 1+Φ(β)-Φ(β-d')"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9282447099685669,
+        "bbox_xyxy": [
+          214,
+          1721,
+          730,
+          1750
+        ],
+        "text": "LescriteresdetypeIlsontrestreintsaB<B<B"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9261749982833862,
+        "bbox_xyxy": [
+          213,
+          1258,
+          927,
+          1289
+        ],
+        "text": "Leameme nonne"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9181566834449768,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9175679683685303,
+        "bbox_xyxy": [
+          214,
+          1634,
+          1077,
+          1669
+        ],
+        "text": "Ainsile/） esfoet1 Tetdetvnel"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9050508737564087,
+        "bbox_xyxy": [
+          173,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8659911155700684,
+        "bbox_xyxy": [
+          217,
+          357,
+          402,
+          396
+        ],
+        "text": "24"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.6754874587059021,
+        "bbox_xyxy": [
+          216,
+          1045,
+          1071,
+          1081
+        ],
+        "text": ")P（Xs.LTR"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.6364866495132446,
+        "bbox_xyxy": [
+          215,
+          1469,
+          888,
+          1611
+        ],
+        "text": "D'=Φ-(H)-Φ-1(F) (1+Φ(β_)-Φ(β-d') 1-Φ(β+)+Φ(β_-d') =Φ- 1+Φ(β)-Φ(β-d) 1-Φ(β)+Φ(β-d')"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30891692638397217,
+        "bbox_xyxy": [
+          216,
+          1045,
+          1071,
+          1081
+        ],
+        "text": ")P（Xs.LTR"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "stem": "page_0023",
+    "blocks": [
+      {
+        "label": "title",
+        "layout_score": 0.8899585604667664,
+        "bbox_xyxy": [
+          516,
+          245,
+          735,
+          279
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8318648338317871,
+        "bbox_xyxy": [
+          389,
+          180,
+          859,
+          206
+        ],
+        "text": "CONEIANCE.METACOGNTTIONETPERCEPTTON"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7901057600975037,
+        "bbox_xyxy": [
+          1031,
+          180,
+          1075,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7477147579193115,
+        "bbox_xyxy": [
+          169,
+          282,
+          1086,
+          1781
+        ],
+        "text": "BAHRAMI, B.,K. OLSEN, D. BANG, A. ROEPSTORFF, G.REES et D.FRITH (2O12), 《 What Failure in Collective Decision-Making Tells us about Metacognition >, PhilosophicalTransactionsoftheRoyalSocietyB:BiologicalSciences,367 (1594):1350-1365 BAHRAMI, B., K. OLSEN, P.E. LATHAM, A. ROEPSTORFF, G. REES et C.D. FRITH (2010), 《 Optimally Interacting Minds >, Science, 329 (5995) : 1081-1085. BAIRD, B., J. SMALLWOOD, K.J. GORGOLEWSKI et D.S. MARGULIES (2013), 《 Medial and Lateral Networks in Anterior Prefrontal Cortex Support Metacognitive Ability for Memory and Perception >, Journal of Neuroscience, 33 : 16657-16665. BANG, D., R. FUSAROLI, K. TYLEN, K. OLSEN, P.E. LATHAM, J.Y.F. LAU, A. ROEP- STORFF, G. REES, C.D. FRITH et B. BAHRAM1 (2014),《 Does Interaction Matter? Testing whether a Confidence Heuristic can Replace Interaction in Collective Decision-Making >, Consciousness and Cognition, 26 : 13-23. BARETT, A.B., Z. DIENES et A.K. SETH (2O13),《 Measures of Metacognition on Signal-Detection Theoretic Models >,Psychological Methods,18 (4) : 535-552 BoGACZ, R.,E. BROWN, J. MoEHLIS, P. HoLMES et J.D. CoHEN (2OO6), 《 The Phys- ics of Optimal Decision Making: a Formal Analysis of Models of Performance in Two-Alternative Forced Choice Tasks >, Psychological Review, 113 (4) : 700-765. BRIER, G.W. (1950), < Verification of Forecasts Expressed in Terms of Probability >, Monthly Weather Review,78 (1) : 1-3. BUSEMEYER, J.R. et JT. TowNsEND (1993), 《 Decision Field Theory: a Dynam- ic-Cognitive Approach to Decision Making in an Uncertain Environment >, Psychological Review,100 (3) : 432-459) CAMERER, C. et D. LovALLo (1999),《 Overconfidence and Excess Entry: an Experimental Approach >, The American Economic Review,89 (1) : 306-318. CHARLES, L., F. VAN OPSTAL, S. MARTI et S. DEHAENE (2O13),《 Distinct Brain Mechanisms for Conscious versus Subliminal Error Detection >, Neurolmage, 73 : 80-94. DAVID, A.S., N. BEDFORD, B. WIFFEN et J. GILLEEN (2O12), 《 Failures of Metacog- nition and Lack of Insight in Neuropsychiatric Disorders >, Philosophical Tran- sactions of the Royal Society B: Biological Sciences, 367 (1594) : 1379-1390) DELCUL,A.,S.DEHAENE,P.REYES,E.BRAVOetA.SLACHEVSKY(2OO9),《CauS- al Role of Prefrontal Cortex in the Threshold for Access to Consciousness >, Brain,132 (9) :2531-2540. DE MARTINO, B., S.M. FLEMING, N. GARRETT et R.J. DoLAN (2O13), 《 Confidence in Value-Based Choice >, Nature Neuroscience, 16 (5787) : 105-110. DiEDERICH, A. (2003),《 MDFT Account of Decision Making under Time Pres- sure >,Psychonomic Bulletin and Review,10 (1) : 157-166."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3512728214263916,
+        "bbox_xyxy": [
+          173,
+          854,
+          1078,
+          988
+        ],
+        "text": "BoGACZ, R.,E. BROwN, J. MoEHLIS,P. HoLMES et J.D. CoHEN (2006),《 The Phys- ics of Optimal Decision Making: a Formal Analysis of Models of Performance in Two-Alternative Forced Choice Tasks >,Psychological Review,113 (4): 700-765."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.33961787819862366,
+        "bbox_xyxy": [
+          170,
+          1000,
+          1078,
+          1068
+        ],
+        "text": "BRIER, G.W. (1950), < Verification of Forecasts Expressed in Terms of Probability >, MonthlyWeatherReview,78(1):1-3"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3238541781902313,
+        "bbox_xyxy": [
+          169,
+          777,
+          1079,
+          845
+        ],
+        "text": "BARETT,A.B.,Z.DIENES et A.K.SETH(2013),《Measures of MetacOgnition on Signal-DetectionTheoreticModels>,PsychologicalMethods,18(4):535-552"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3206826150417328,
+        "bbox_xyxy": [
+          172,
+          1078,
+          1078,
+          1180
+        ],
+        "text": "BuSEMEYER, J.R. et J.T. TowNsEND (1993),《 Decision Field Theory: a Dynam- ic-Cognitive Approach to Decision Making in an Uncertain Environment >, PsychologicalReview,100(3):432-459"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3062220513820648,
+        "bbox_xyxy": [
+          171,
+          1492,
+          1079,
+          1592
+        ],
+        "text": "DEL CUL,A.,S. DEHAENE, P. REYES,E.BRAVO et A. SLACHEVSKY (2OO9),《 CauS- al RoleofPrefrontal Cortexin theThresholdforAccess to Consciousness >, Brain,132(9) :2531-2540"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30391961336135864,
+        "bbox_xyxy": [
+          173,
+          631,
+          1078,
+          767
+        ],
+        "text": "BANG,D.,R.FUSAROLI,K.TYLEN,K.OLSEN,P.E.LATHAM,J.Y.F.LAU,A.ROEP- STORFF, G. REES, C.D. FRITH et B.BAHRAMI (2O14),《 Does Interaction Matter? Testingwhether a ConfidenceHeuristic canReplaceInteractionin Collective Decision-Making>,ConsciousnessandCognition,26:13-23"
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "stem": "page_0024",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8255212306976318,
+        "bbox_xyxy": [
+          168,
+          240,
+          1084,
+          1768
+        ],
+        "text": "DIENEs Z.et A.K. SETH (2010),< Gambling on the Unconscious: a Comparison of Wagering and Confidence Ratings as Measures of Awareness in an Artificial Grammar Task >, Consciousness and Cognition, 19 (2) : 674-681. EGAN, J.P. (1975), Signal Detection Theory and ROC Analysis, New York, NY : Academic Press, 277 p. EvANs, S. et P. AzzOPARD1 (2007), 《 Evaluation of a “Bias-Free” Measure of Awareness >, Spatial Vision, 20 (1-2) : 61-77. FEHR,E. et A. RANGEL (2011),《 Neuroeconomics Foundations of Economic Choices-Recent Advances >,Journal ofEconomic Perspectives,25 (4): 3-30. FLEMING, S.M. et R.J. DoLAN (2012),< The Neural Basis of Accurate Metacogni- tion>,Philosophical Transactions oftheRoyalSocietyB:BiologicalSciences, 367(1594):1338-1349. FLEMING, S.M. et C. FRITH (2014), The Cognitive Neuroscience of Metacognition, Springer-Verlag : Berlin, Heidelberg. FLEMING, S.M. et H.C. LAU (2014), 《 How to Measure Metacognition >, Frontiers inHumanNeuroscience,8:443,2014. FLEMING, S.M., J. RYU, J.G. GOLFINOS et K. BLACKMON (2O14),《 A Domain- Specific Impairment in Metacognitive Accuracy Following Anterior Prefrontal Lesions>,Brain,137(10):2811-2822 FLEMING, S.M., S. MASSONI, T. GAJDOS et J.-C. VERGNAUD (2016), 《 MetacOgnition about the Past and Future: Quantifying Common and Distinct Influences on Prospective and Retrospective Judgments of Self-Performance >, Neuroscience of Consciousness, 2016 (1) : niw018. FLEMING, S.M., R.S. WEIL, Z. NAGY, R.J. DoLAN et G. REES (2O1O), < Relating Intro- spective Accuracy to Individual Differences in Brain Structure >, Science, 329 (5998) :1541-1543 GALVIN,S.J.,J.V.PoDD,V.DRGA et J.WHITMORE (20O3),《Type 2 TasKS in the Theory of Signal Detectability: Discrimination between Correct and Incorrect Decisions>,PsychonomicBulletinandReview,10:843-876 GARFINKEL,S.N.，A.B.BARRETT,L.MINATI,R.J.DOLAN,A.K.SETH etH.D CRITcHLEY (2013), < What the Heart Forgets: Cardiac Timing Influence Memory for Words and is Modulated by Metacognition and Introspective Sensitivity >, Psychophysiology, 50 (6) : 505-512. GOLD, J.I. et M.N. SHADLEN (2007), 《 The Neural Basis of Decision Making >, AnnualReviewofNeuroscience,30:535-574. GREEN, D. M. et J. A. SwETs (1966), Signal Detection Theory and Psychophysics, John Wiley and Sons. HARvEY, N. (1997), 《 Confidence in Judgment >, Trends in Cognitive Sciences, 1 (2) : 78-82. HoLLARD, G., S. MAssONI et J-C. VERGNAUD (2016), < In Search of Good Probability Assessors: An Experimental Comparison of Elicitation Rules for Confidence Judgments>,TheoryandDecision,80(3):363-387."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8221698999404907,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8111322522163391,
+        "bbox_xyxy": [
+          173,
+          179,
+          219,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "stem": "page_0025",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8487247824668884,
+        "bbox_xyxy": [
+          388,
+          180,
+          860,
+          207
+        ],
+        "text": "ONEIANCE.METACOGNITIONETPERCEPTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8139352798461914,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8088995814323425,
+        "bbox_xyxy": [
+          168,
+          238,
+          1085,
+          1780
+        ],
+        "text": "KEPECS, A., N. UcHIDA, H. ZARIWALA et Z.F. MAINEN (2O08), 《 Neural Correlates, Computation and Behavioural Impact of Decision Confidence >, Nature, 455 (7210): 227-231. KIANi, R. et M. SHALDEN (2009), 《 Representation of Confidence Associated with a Decision by Neurons in Parietal Cortex Knowledge: Some Calibration Studies >, Science,324(5928):759-764 KoRIAT, A. (2012), < When are Two Heads Better than one and Why? >, Science, 336 (6079) : 360-362. KRANTz, D.H. (1969), < Threshold Theories of Signal Detection >, Psychological Review,76(3):308-324. KuNIMOTo, C., J. MILLER et H. PAsHLER (2OO1), 《 Confidence and Accuracy of Near-Threshold Discrimination Responses >, Consciousness and Cognition, 10 (3):294-340. LEE, T.G., R.S. BLUMENFELD et M. D'EsPOsITo (2013), 《 Disruption of Dorsolateral but not Ventrolateral Prefrontal Cortex Improves Unconscious Perceptual Mem- ories >,Journal ofNeuroscience,33:13233-13237. LEvITT, H. (1971), < Transformed Up-Down Methods in Psychoacoustics >, Journal oftheAcousticalSocietyofAmerica,49(2):467-477. LIBERMAN, V. et A. TvERsKY (1993),《 On the Evaluation of Probability Judg ments: Calibration, Resolution, and Monotonicity >, Psychological Bulletin, 114: 162-173 LICHTENSTEIN, S., B. FIsCHHOFF et L. PHILLIPs (1982),《 Calibration of Probabilities: the State of the Art to 198O >, in D. KAHNEMAN, P. SLOVIC et A. TvERSKY (éds), Judgment under Uncertainty: Heuristic and Biases, Cambridge, UK : Cam- bridge University Press, p. 306-334 LucE, R.D. (1959), Individual Choice Behavior: A Theoretical Analysis, New York, NY : Wiley. LuCE, R.D. (1963), < Detection and Recognition >, in R.D. LuCE, R.R. BusH et E. GALENTER (éds), Handbook of Mathematical Psychology, volume 1, New York, NY : Wiley, p. 103-189. LucE, R.D. (1963), 《 A Threshold Theory for Simple Detection Experiments >, Psychological Review, 70 (1) : 71-79. MACMILLAN, N.A. et C.D. CREELMAN (2005), Detection Theory: A User's Guide (2nd edition), Hove, UK : Psychology Press. MANIsCALco, B. et H. LAU (2012), 《 A Signal Detection Theoretic Approach for Estimating Metacognitive Sensitivity from Confidence Ratings >, Conscious- ness and Cognition, 21 (1) : 422-430. MANIscALco, B. et H. LAU (2014), 《 Signal Detection Theory Analysis of Type 1 and Type 2 Data: Meta-d', Response-Specific Meta-d', and the Unequal Vari- ance SDT Model >, in S.M. FLEMING et C. FRITH (éds), The Cognitive Neuros- cience of Metacognition, Springer : Berlin, Heidelberg, p. 25-66."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30667200684547424,
+        "bbox_xyxy": [
+          171,
+          727,
+          1079,
+          829
+        ],
+        "text": "LEE, T.G., R.S. BLUMENFELD et M. D'EsPOsITo (2013), 《 Disruption of Dorsolateral but not Ventrolateral Prefrontal Cortex Improves Unconscious Perceptual Mem- ories>,JournalofNeuroscience,33:13233-13237."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.300996333360672,
+        "bbox_xyxy": [
+          169,
+          914,
+          1078,
+          1013
+        ],
+        "text": "LIBERMAN,V.et A.TvERsKY(1993),《 On theEvaluation of ProbabilityJudg ments: Calibration, Resolution, and Monotonicity >, Psychological Bulletin, 114:162-173"
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "stem": "page_0026",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8333514928817749,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7945046424865723,
+        "bbox_xyxy": [
+          172,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7393337488174438,
+        "bbox_xyxy": [
+          168,
+          231,
+          1086,
+          1781
+        ],
+        "text": "MAssONI, S., T. GAJDOS et J-C. VERGNAUD (2014), 《 Confidence Measurement in the Light of Signal Detection Theory >, Frontiers in Psychology, 5 : 1455. MAssoN1, S. et N. Roux (2014), < Optimal Group Decision: a Matter of Confidence Calibration >, Mimeo. MAssoN1, S. (2013),Essays on Subjective Probabilities and Metacognition, these dedoctorat,UniversityofParis 1. MAssoNi, S.,< Emotion as a Boost to Metacognition: How Worry Enhances the Quality of Confidence >, Consciousness and Cognition,29 : 189-198. MAssoN, M.E.J. et C.M. RoTELLo (2009), 《 Sources of Bias in the Goodman- Kruskal Gamma Coefficient Measure of Association: Implications for Studies of Metacognitive Processes >, Journal of Experimental Psychology: Learning, Memory andCognition,35 :509-527. McCURDY, L.Y., B. MANISCALCO, J. METCALFE, K.Y. LIU, F.P. DE LANGE et H. LAU (2013), 《 Anatomical Coupling Between Distinct Metacognitive Systems for Memory and Visual Perception >, The Journal of Neuroscience, 33 (5) : 1897-1906. MERKLE, E.C.,M. SMITHSON et J. VERKUILEN (2O11), 《 Hierarchical Models of Simple Mechanisms Underlying Confidence in Decision Making >, Journal of MathematicalPsychology,55(1):57-67. METZ, C.E. et X. PAN (1999), < Proper Binormal ROC Curves: Theory and Maximum- Likelihood Estimation >, Journal of Mathematical Psychology, 43 (1) : 1-33. MIDDLEBROOKS, PG., Z. ABZUG et M.A. SoMMER (2O14), 《 Studying MetacOgnitive Processes at the Single-Neuron Level >, in Fleming, S.M. et C.D. Frith (éds), The Cognitive Neuroscience of Metacognition, Springer : Berlin, Heidelberg, p. 225-244. MuRPHY, A.H. (1972), < Scalar and Vector Partitions of the Probability Score: Part I. Two-State Situation >, Journal of Applied Meteorology, 11 : 273-282. NELsoN, T.O. (1984), 《 A Comparison of Current Measures of the Accuracy of Feeling-of-Knowing Predictions >, Psychological Bulletin, 95 : 109-133. NIEDER, A. et S. DEHAENE (2009), 《 Representation of Number in the Brain >, Annual Review of Neuroscience,32 (1) :185-208. OvERGAARD, M. et K. SANDBERG (2012), < Kinds of Access: Different Methods for Report Reveal Different Kinds of Metacognitive Access >, Philosophical Tran- sactions of the Royal Society B:Biological Sciences,367(1594): 1287-1296. PIAZZA, M., V. IZARD, P. PINEL, D. LE BIHAN et S. DEHAENE (2004), 《 Tuning Curves for Approximate Numerosity in the Human Intraparietal Sulcus >, Neu- ron,44 (3) : 547-555. PICA,P.,C.LEMER,V.IzARD et S.Dehaene (2O04),《Exact and Approximate Arithmetic in Amazonian Indigene Group >, Science, 306 (5695) : 499-503. PLEsKAC, T.J. et J.R. BusEMYER (201O), 《 Two-Stage Dynamic Signal Detection: A Theory of Choice, Decision Time, and Confidence >, Psychological Review, 117 (3) : 864-901."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3499153256416321,
+        "bbox_xyxy": [
+          169,
+          943,
+          1078,
+          1012
+        ],
+        "text": "METz,C.E.etX.PAN(1999),《ProperBinormalROCCurves:Theoryand Maximum- LikelihoodEstimation>,JournalofMathematicalPsychology,43(1):1-33."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.34837934374809265,
+        "bbox_xyxy": [
+          172,
+          834,
+          1081,
+          936
+        ],
+        "text": "MERKLE,E.C.,M.SMITHSON et J.VERKUILEN (2O11),《 Hierarchical Models of Simple Mechanisms Underlying Confidence in Decision Making >, Journal of MathematicalPsychology,55(1):57-67."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3093158006668091,
+        "bbox_xyxy": [
+          170,
+          1203,
+          1079,
+          1272
+        ],
+        "text": "NELsoN, T.O.(1984),《 A Comparison of Current Measures of the Accuracy of Feeling-of-KnowingPredictions>,PsychologicalBulletin,95:109-133."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30408746004104614,
+        "bbox_xyxy": [
+          171,
+          1019,
+          1078,
+          1121
+        ],
+        "text": "MIDDLEBROOKs, P.G., Z. ABZUG et M.A. SoMMER (2014),《 Studying MetacOgnitive Processes at the Single-Neuron Level >, in Fleming, S.M. et C.D. Frith (éds), The CognitiveNeuroscienceofMetacognition,Springer:Berlin,Heidelberg,p.225-244."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30270782113075256,
+        "bbox_xyxy": [
+          170,
+          1573,
+          1078,
+          1641
+        ],
+        "text": "PICA,P.,C.LEMER,V.IzARDet S.Dehaene(2004),《Exactand Approximate ArithmeticinAmaz0nianIndigeneGroup>,Science,306(5695):499-503"
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "stem": "page_0027",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8456637263298035,
+        "bbox_xyxy": [
+          388,
+          181,
+          859,
+          206
+        ],
+        "text": "ONFIANC:EMETACOGNTTTONETPERC:EPTTON"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8093892931938171,
+        "bbox_xyxy": [
+          170,
+          242,
+          1084,
+          1280
+        ],
+        "text": "RATCLIFF, R. et G. McKooN (2008),< The Diffusion Decision Model: Theory and Data for Two-Choice Decision Tasks >, Neural Computation, 20 (4) : 873-922. RATCLIFF, R. et J.J. STARNs (2O09), 《 Modeling Confidence and Response Time in Recognition Memory >, Psychological Review, 116 (1) : 59-83. RATcLIFF, R. (1978),《 A Theory of Memory Retrieval >,Psychological Review 85(2):59-108 ROUNIS, E.,B. MANISCALCO, J.C.ROTHWELL, R.E. PASSINGHAM et H. LAU (2O1O), 《 Theta-Burst Transcranial Magnetic Stimulation to the Prefrontal Cortex Im- pairs Metacognitive Visual Awareness >,Cognitive Neuroscience,9 (8) : 165-175. SAvAGE, L.J. (1954), The Foundations of Statistics, NewYork, NY : John Wiley and Sons SoRKIN, R.D., C. J. HAYs et R. WEsT (2001), 《 Signal Detection Analysis of Group Decision Making >, Psychological Review, 108 : 183-203. SuMMERFIELD, C.et K. TsETsOs (2012),《Building Bridges between Perceptual and Economic Decision-Making: Neural and Computational Mechanisms >, Fron- tiersinNeuroscience,6(70):1-20 WALLSTEN, T.S. et D.V. BuDEscU (1983), 《 Encoding Subjective Probabilities: a Psychological and Psychometric Review >, Management Science, 29 (2) : 151-173. W1cKENs, T.D. (2002), Elementary Signal Detection Theory, New-York, NY : Oxford UniversityPress. YANIv, I., F. YATEs et K. SMITH (1991), 《 Measures of Discrimination Skill in Probabilistic Judgment >, Psychological Bulletin, 110 (3) : 611-617. YATEs, J.F. (1982), 《 External Correspondence: Decompositions of the Mean Prob- abilityScore>,OrganizationalBehaviorandHumanPerformance,3O(1): 132-156. YEUNG, N. et C. SuMMERFIELD (2012),< Metacognition in Human Decision-Mak- ing; Confidence and Error Monitoring >,Philosophical Transactions of the Royal SocietyB:Biological Sciences,367(1594):1310-1321."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7693113684654236,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1077,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.36309754848480225,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  }
+]

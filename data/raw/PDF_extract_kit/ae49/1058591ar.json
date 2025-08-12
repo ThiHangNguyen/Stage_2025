@@ -1,0 +1,2283 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9824371933937073,
+        "bbox_xyxy": [
+          173,
+          876,
+          1080,
+          1151
+        ],
+        "text": "REsuME -Dans cet article, j'exploite l'approche developpee par Beaulieu, Dufour et Khalaf (2013,2017)pourmontrer commentunemethoderobuste auxproblemes d'identification etcorrecteenéchantillonsfinispeutétreutiliseeafind'identifierlesfacteursaincorporer dans un modele d'évaluation d'actifs dans le but de mieux estimerleprix du risque.En fait, lorsquel'incertitudeentourantlesparametresdumodeleducalculduprixdurisqueest importante, elle peut changer de facon significative les décisions d'investissement et de financement. L'approche développée par Beaulieu, Dufour et Khalaf (2013, 2017) permet d'établirconjointementsiunmodeleestrejeteounonets'ilestidentifiéounon.Troiscadres d'analysemesurantleprixdurisquesontcompares"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.977594256401062,
+        "bbox_xyxy": [
+          174,
+          1261,
+          1079,
+          1460
+        ],
+        "text": "La base dela décision del'investissement et du financement depend directement du prix du risque.Ce dernierest defini commela sensibilitédurendement d'un actifauchangementdanslebeta'd'unfacteur,c'est-a-direlapartdesfluctuations durendementdesactifsdueauchangementdanslapartdurisquesystematique liéeaunfacteurdonné.Lesmesuresfinancieresdecerisquesontdeployeesleplus souventdanslesmodelesd'évaluationd'actifsdontleplusconnuestleCapital"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9505311846733093,
+        "bbox_xyxy": [
+          172,
+          509,
+          1010,
+          742
+        ],
+        "text": "Marie-ClaudeBEAULIEU Departementdefinance,assuranceetimmobilier, Facultedessciencesdel'administration Centrederecherchesurlerisque,lesenjeuxéconomiquesetlespolitiques publiques(CRREP), UniversiteLaval marie-claude.beaulieu@fsa.ulaval.ca"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8633818030357361,
+        "bbox_xyxy": [
+          171,
+          1535,
+          1079,
+          1749
+        ],
+        "text": "* CetarticleabeneficiedusupportfinancierduConseilderechercheenscienceshumaines duCanadaetdelaChaireRBCeninnovationsfinancieres.L'auteurremercieJean-MarieDufour Marie-Helene Gagnon, Lynda Khalaf, Richard Luger et Olena Melin ainsi que les participants a la session pleniere intitulée《Le prix du risque>pour leurs commentaires et suggestions.Les erreurs sontlaseuleresponsabilitedel'auteur. 1.Lebetaestdefinicommelasensibilitédurendementd'unactifalavariationunitairedu rendementd'unfacteurquiestdanslemodeleduCAPMleportefeuilledemarchéoulerendement d'unautrefacteurdansunmodelepluslarge"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8103232979774475,
+        "bbox_xyxy": [
+          431,
+          369,
+          817,
+          410
+        ],
+        "text": "PRIX RISCITE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6725628972053528,
+        "bbox_xyxy": [
+          172,
+          247,
+          933,
+          273
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6668428182601929,
+        "bbox_xyxy": [
+          174,
+          1209,
+          326,
+          1238
+        ],
+        "text": "INTRODUCTION"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985171914100647,
+        "bbox_xyxy": [
+          173,
+          890,
+          1079,
+          1396
+        ],
+        "text": "Un élément clé dans la mesure du prix du risque concerne l'incertitude entourant lesparametres dumodeledu calculdu cout ducapital.Ensapresence,lesdécisions d'investissement peuvent étre influencées meme dans un cadre tres simple oules decisionsdefinancementetd'investissementsontsurunhorizontrescourt.Les problemes d'identification liés a cette imprécision se traduisent souvent non pas par un rejet du modele mais plutot par une validation du modele pour n'importe quelle valeur de l'ensemble des réels.Cette situation pose des problemes d'implé- mentation puisque le calcul du cout du capital implique souvent les couts minimal et maximalpourundecideur.Sil'intervalledeconfiancedececout n'estpasborné il en résulte une prise de décision pas plus informée a l'aide des données que dans l'ignorance du cout du capital a proprement parler. L'approche developpée par Beaulieu,DufouretKhalaf(2013,2017)permetdemettreenlumierecesmodeles nonrejetes maismal identifiés afin d'informer le décideur del'incertitude entourant lesparametresdumodeleetd'ainsienarriverultimementadesmesuresplusutiles etmieuxcomprisesducoutdu capital."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9850515127182007,
+        "bbox_xyxy": [
+          173,
+          1413,
+          1079,
+          1751
+        ],
+        "text": "De facon stricte,un modele est identifié lorsqu'il est possible d'en tirer une inferenceapartirdeladistributiondesprobabilitesdesvariablesobserveesqui sont liées a une structure théorique latente (Dufour et Hsiao, 2o08). Dans ce cas, un modelebienidentifie ausensstatistique est unmodelepourlequel les données relatent des informations fiables quant aux parametres estimes. Dans les modeles d'évaluation d'actifs, deux traits qui leur sont relatifs peuvent miner l'identification dumodele,soit:(i)lesfacteursredondantsc'est-a-diredesbetasouencoredes combinaisonslineaires desbetasproches de zero,et(ii)leregroupement ditclus- tering,c'est-a-dire,lesbetasquinedifferentquedepeual'interieurd'ungroupe d'actifstestes,quisontparexemple,presdeun."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9846779108047485,
+        "bbox_xyxy": [
+          173,
+          434,
+          1079,
+          873
+        ],
+        "text": "Prisensemble,lesmodelesd'evaluationd'actifsserventacalculerlecoutdu capital d'un projet en fonction du prix du risque. Dans la forme classique du CAPM, on utilise la somme du taux sans risque et de la prime de risque multipliée par le beta d'une firme pour mesurer le cout d'opportunité d'investir dans un projet plutot que dans un autre ou encore on utilise ce meme cout d'opportunité pour motiver le choix d'un mode de financement plutot qu'un autre. L'importance de ce cout dans les modeles d'affaires est connue et enseignee depuis longtemps. Les travaux récents de Gollier (2016) montrent comment cette question de mesure du cout du capital est importante quand on en vient a qualifier le choix d'un projet qu'il soit de naturesociale ou completement entrepreneuriale.Gollier (20l6)reprendlevieuxdilemmedel'allocationintertemporelleoptimaledes ressourceslorsque l'horizon d'investissement depassel'esperance de vie d'un agentrepresentatif."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9676423668861389,
+        "bbox_xyxy": [
+          173,
+          247,
+          1080,
+          413
+        ],
+        "text": "AssetPricingModel (CAPM).Depuissondeveloppementdansles annees1960, lesassisesempiriquesdecemodeleontéteremisesenquestionaplusieursreprises nommement depuis les travaux de Fama et French (1992, 1993), ces derniers ouvrant laportea un debat récurrentdanslestravauxempiriques:quelsfacteurs doit-on incluredansnosmodeles?"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8825321793556213,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8625293970108032,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9862620234489441,
+        "bbox_xyxy": [
+          172,
+          629,
+          1079,
+          1128
+        ],
+        "text": "La litterature financiere, depuis les travaux de Merton (1973) et ceux de Ross (1976),reconnait la valeur de facteurs autres que celui du marchépour évaluer les actifs,soitdansuncontexteintertemporelouencored'extractiondefacteurs. Cependant, c'est depuis les articles de Fama et French (1992 et 1993) que les travaux derecherchesesont ouvertsfermementa l'idéequel'introductiondefacteurs supplémentaires au rendement du portefeuille de marché est importante pour la qualite des modeles d'evaluation d'actifs. Cependant, tel que souligne par Campbell, LiuetZhu(2016),leschercheursontmisde1'avantquelque314facteurs aucours des 20 dernieres années pouvant expliquer les rendements boursiers. Dans le but deselectionnerlesfacteurslesplusimportants,Campbell,LiuetZhupréchent pouruneapprochebaseesuruncadredetestsmultiplesetunestatistiquesignifi- cative lorsqu'elle est plus élevée que 3,O. Le choix des facteurs a inclure dans un modele économique est un probleme important dans les études empiriques et l'approche présentée ici developpe un critere nécessaire mais non suffisant dans larecherchedumeilleurmodeled'évaluationd'actifsempiriqueavalider."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9853653311729431,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          613
+        ],
+        "text": "Pourlesraisonsinvoquées enintroduction,l'identification estunprobleme serieuxpuisque dans un modele mal identifié,les intervalles de confiance de type Wald utilisés traditionnellement ne couvriront pas avec les probabilités désirables2 lesvaleurs appropriéesdescoefficientsetlestestsquiysont associessur-rejetteront les hypotheses nulles (Dufour, 1997; Beaulieu,Dufour et Khalaf, 2013; Gospodinov, Kan et Robotti, 2013; Kan, Robotti et Shanken, 2013; Kleibergen et Zhan, 2015; Khalaf et Schaller,2016). Les intervalles de confiance detypeWald ouStudent sont des intervalles de la forme : {estimé ± (erreur type) × point critique}. Quand l'identificationn'estpasrespectée,lesestimessontbiaisesetleserreurstypes sous-estiment severementl'incertitudedel'estimation,et ce,memelorsqueles échantillonssontdegrandetaille."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9805102348327637,
+        "bbox_xyxy": [
+          173,
+          1146,
+          1079,
+          1345
+        ],
+        "text": "Le test inversé, développe par Beaulieu, Dufour et Khalaf (2013) représente une approche valide pour évaluer les facteurs a inclure pour l'obtention d'un modele identifie. Il s'agit de la seule methode disponible robuste aux problemes d'identification définis plus haut et correcte enéchantillons finis.Les ensembles de confiance (par opposition aux intervalles de confiance de typeWald) couvrent lavraie valeur des parametresestimes avecleniveau désiré,quel'identificationposeprobleme ou non."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9714248180389404,
+        "bbox_xyxy": [
+          172,
+          1446,
+          1078,
+          1544
+        ],
+        "text": "Le modele du CAPM développé par Treynor (1961, 1962), Sharpe (1964), Lintner (1965) et Mossin (1966) repose sur le principe de la diversification de portefeuilleetlie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8664908409118652,
+        "bbox_xyxy": [
+          525,
+          182,
+          726,
+          205
+        ],
+        "text": ".EPRIXDULRISLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.865131139755249,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1055,
+          1748
+        ],
+        "text": "2. Enfait,enprésencedeproblemesd'identification,laprobabilitedecouvertureest beaucoupinférieurea95%etpeutmemeétrenulle."
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8567549586296082,
+        "bbox_xyxy": [
+          1044,
+          1576,
+          1075,
+          1605
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8469141721725464,
+        "bbox_xyxy": [
+          175,
+          1397,
+          809,
+          1428
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8422704935073853,
+        "bbox_xyxy": [
+          213,
+          1572,
+          622,
+          1614
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8044516444206238,
+        "bbox_xyxy": [
+          1033,
+          180,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.983038067817688,
+        "bbox_xyxy": [
+          171,
+          1323,
+          1080,
+          1536
+        ],
+        "text": "Bien que tres intuitive, cette approche pose a priori que les β, soient connus alors qu'empiriquement, ils doivent étre estimes dans une premiere étape en utilisant par exemple le modele donne par 1'équation (1), impliquant des erreurs de mesure. La formation de portefeuilles pour mesurer la variable endogene dans le but de regrouper les actifs vise a minimiser l'impact de ces erreurs de mesure sur les estimesdesβ."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9778780937194824,
+        "bbox_xyxy": [
+          171,
+          1164,
+          1080,
+          1306
+        ],
+        "text": "Dans cette premiere approche pour tester léquation (1) en coupe transversale, on cherche donc a savoir si a travers différents portefeuilles d'actifs, le beta de ces portefeuilles varie suffisamment pour quele prix dufacteur de risquejustifie qu'on luiattribueunprixausensstatistique."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.977343738079071,
+        "bbox_xyxy": [
+          171,
+          623,
+          1080,
+          763
+        ],
+        "text": "Cemodeleameneauxpremierstestsd'evaluationd'actifsquifurentdeveloppes en coupe transversale par Black, Jensen et Scholes (1972),Fama et MacBeth (1973) etBlumeetFriend(1973).Pourunediscussionplusrécentedesforces,faiblesses et défisrelatifs a cette approche,voir Lewellen,Nagel et Shanken(2010)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9726133346557617,
+        "bbox_xyxy": [
+          171,
+          500,
+          1079,
+          605
+        ],
+        "text": "Dans ce contexte, l'estimation du beta (β) est un enjeu important qui puise a memela relationrisque-rendement revelant lahauteur de la sensibilite d'un actif aurisquedemarche"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9647027254104614,
+        "bbox_xyxy": [
+          171,
+          781,
+          1080,
+          885
+        ],
+        "text": "En coupe transversale, on cherche a établir si le beta du facteur est important statistiquement a travers un grand nombre d'actifs. Pour ce faire, le modele estime estlesuivant:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9622430801391602,
+        "bbox_xyxy": [
+          172,
+          967,
+          1078,
+          1036
+        ],
+        "text": "Le test du modele afin d'estimer l'importance du beta a travers un ensemble detitresfinanciersrevientalorsavalider:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9573660492897034,
+        "bbox_xyxy": [
+          172,
+          1551,
+          1080,
+          1691
+        ],
+        "text": "Par ailleurs,l'estimation desmodeles d'évaluation d'actifsfait unenouvelle avancéelorsqueJensen (1968)introduit l'idéedetesterla performanced'actifs en séries chronologiques.Cette idée est reprise par Gibbons (1982) qui teste, a partir dumodelesuivant:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9337038397789001,
+        "bbox_xyxy": [
+          172,
+          1113,
+          460,
+          1146
+        ],
+        "text": "ouAestleprixdurisque"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.929439127445221,
+        "bbox_xyxy": [
+          211,
+          1715,
+          783,
+          1756
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.928811252117157,
+        "bbox_xyxy": [
+          172,
+          247,
+          544,
+          279
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9124449491500854,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9084325432777405,
+        "bbox_xyxy": [
+          212,
+          289,
+          1079,
+          362
+        ],
+        "text": "R. - r.la prime de risque d'un actif i representant la difference entre le rendement R. d'un actif i et le taux d'intéret sans risque r"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9058430790901184,
+        "bbox_xyxy": [
+          213,
+          907,
+          536,
+          945
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9028662443161011,
+        "bbox_xyxy": [
+          173,
+          179,
+          219,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8837161064147949,
+        "bbox_xyxy": [
+          1041,
+          909,
+          1076,
+          939
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8666006922721863,
+        "bbox_xyxy": [
+          1041,
+          1719,
+          1076,
+          1748
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8483029007911682,
+        "bbox_xyxy": [
+          172,
+          375,
+          199,
+          399
+        ],
+        "text": "e"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7709858417510986,
+        "bbox_xyxy": [
+          212,
+          1057,
+          330,
+          1094
+        ],
+        "text": "H.:入=0"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7218564748764038,
+        "bbox_xyxy": [
+          212,
+          412,
+          1078,
+          483
+        ],
+        "text": "R- r,, la prime de risque du marché correspondant a la différence entre le rendement du portefeuille demarchéR.et le taux d'interet sansrisque"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9870059490203857,
+        "bbox_xyxy": [
+          172,
+          714,
+          1079,
+          983
+        ],
+        "text": "Par ailleurs, 1'arbitrage pricing theory (APT) développée par Ross (1976) mene a des tests de modeles qui impliquent que plusieurs composantes communes et specifiquespeuventaffecterl'evaluationd'actifs.Laversionempiriquedecette approche generalise a plusieurs facteurs le modele du CAPM tel que décrit a l'équation(1)sous conditionquelesfacteurssoientindependantslesunsdes autres ainsi que des termes d'erreur. Le modele de l'APT implique donc la possibilite que plus d'un facteur soit nécessaire pour expliquer les rendements boursiers. La forme generale empirique de ce modele estla suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9856033325195312,
+        "bbox_xyxy": [
+          172,
+          1113,
+          1079,
+          1416
+        ],
+        "text": "Si cemodelejustifiel'introductiondefacteursdansunmodeled'évaluation d'actifs,puisque cesfacteurs s'associent a une extractionpar composanteprincipale et qu'ilspermettent d'identifier combiendefacteurs sont utilespour l'évaluation d'actifs,il rend l'interpretation économique de ces memes facteurs difficiles puisque lesfacteursnesontpasdonnesapriorimaisplutotextraitsdesvariationsdansles rendements boursiers en utilisant des combinaisons des régresseurs independants les uns des autres.Puisque ces facteurs sont en essence generés par les données, il s'avere impossible deles connaitre ex ante et encoreplus deles associer a des variableséconomiquesprecises."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9833890795707703,
+        "bbox_xyxy": [
+          173,
+          1431,
+          1080,
+          1632
+        ],
+        "text": "Finalement,les travaux deMerton (1973)permettent également de mettre en valeur un modele d'évaluation d'actifs a plusieurs facteurs qui representent les changements dans Il'espace moyenne-variance des titres accessibles a l'investisseur. Si cemodeleintertemporelprevoitl'introductiondefacteurssupplementairesau modele empirique, il demeure imprécis quant a quels facteurs inclure au modele d'évaluationd'actifs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9826129674911499,
+        "bbox_xyxy": [
+          173,
+          497,
+          1079,
+          698
+        ],
+        "text": "MacKinlay(1985)etGibbons,Ross etShanken(1989)exploiteront1'approche developpéeparGibbonsafinderendrel'inferencerobusteauxéchantillonsfinis lorsquel'hypothese de normalitédes résidus est retenue.Beaulieu,Dufour et Khalaf (2007) présentent l'inférence relative a un test qui generalise l'évidence de MacKinlay (1985)et Gibbons,Ross et Shanken(1989)dela meme hypothese del'efficience moyenne-varianceenéchantillonsfinisadesclassesdedistributionselliptiques."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9754618406295776,
+        "bbox_xyxy": [
+          172,
+          1649,
+          1078,
+          1750
+        ],
+        "text": "Ce sont les travaux deFama et French(1992et1993)qui marquentl'ouverture delaprofessional'idéequelemodeleduCAPMaunfacteurnesuffitpasa modeliserlesvariationsempiriquesdesrendementsfinanciers.Debutealorsun"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9191218018531799,
+        "bbox_xyxy": [
+          172,
+          247,
+          369,
+          279
+        ],
+        "text": "Phvpothesenulle"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.918726921081543,
+        "bbox_xyxy": [
+          211,
+          1002,
+          637,
+          1043
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.903527557849884,
+        "bbox_xyxy": [
+          171,
+          1064,
+          1049,
+          1099
+        ],
+        "text": "estietacteuir derisduesous-iacentzdemovennezerd mesureautempst"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8762820959091187,
+        "bbox_xyxy": [
+          524,
+          182,
+          726,
+          205
+        ],
+        "text": "LEPRIXDULRISUE"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8716729879379272,
+        "bbox_xyxy": [
+          1042,
+          1005,
+          1076,
+          1034
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7687534093856812,
+        "bbox_xyxy": [
+          172,
+          347,
+          1079,
+          479
+        ],
+        "text": "Cettedemarcheviseavaliderl'hypothesedel'efficiencemoyenne-variancedu portefeuilledemarché.Lenon-rejetdecettehypothesenulleimpliqueque le modele du CAPM a un facteur est suffisant pour expliquer la variance du rendement desactifs"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.6855838298797607,
+        "bbox_xyxy": [
+          213,
+          296,
+          426,
+          333
+        ],
+        "text": ":a.=0.lesi"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6169857382774353,
+        "bbox_xyxy": [
+          172,
+          346,
+          1079,
+          479
+        ],
+        "text": "Cettedemarcheviseavaliderl'hypothesedel'efficiencemoyenne-variancedu portefeuille de marché. Le non-rejet de cette hypothese nulle implique que le modeleduCAPM aunfacteurestsuffisantpourexpliquerlavariancedurendement desactifs"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5073341727256775,
+        "bbox_xyxy": [
+          1033,
+          180,
+          1074,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.46408164501190186,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9846360683441162,
+        "bbox_xyxy": [
+          172,
+          362,
+          1079,
+          763
+        ],
+        "text": "On pensait deja a des facteurs macroeconomiques (Chen,Roll et Ross, 1986), mais la litterature se transporte tres rapidement sur des facteurs d'autre nature dont les facteurs comportementaux (facteurs psychologiques dont l'instinct grégaire) ou encoredesfacteursdemicrostructure(parexemple,PastoretStambaugh,2o03). Cependantdanslamesureoulesfacteurssontextraitsdesdonneestelquepropose par l'APT ou encore choisis de maniere plus ou moins ad hoc, les modeles théoriques nous sont jusqu'a maintenant d'un support modeste. A ce stade, seule une procédure statistique rigoureuse peut nous étre utile puisque tel que discute en introduction, étant donné le recensement de Campbell et al., la question qui demeure et qui en soi depassecelleposeeparles modeles d'evaluationd'actifsest:quelsfacteurs etcombien? L'idée d'un test conjoint sur une hypothese donnée et l'identification d'un modele fournissentunoutilpermettantdemieuxcernerlareponseacettequestion"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9811508059501648,
+        "bbox_xyxy": [
+          173,
+          1437,
+          1079,
+          1637
+        ],
+        "text": "Si l'on reprend 1équation (5) en permettant la distinction entre les facteurs R selon leur nature, le modele présenté a l'équation (6) inclut des facteurs negociables en bourse (R,)et des facteurs non negociables en bourse (F).De plus,pour modé- liser la prime derisque,onmesuredansunepremiereétapeles rendements endogenesetlesfacteursendeviationparrapportautauxzero-beta(Y)dansle cas des actifs négociables en bourse ou au rendement attendu de chaque facteur"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9621949195861816,
+        "bbox_xyxy": [
+          173,
+          1322,
+          1079,
+          1421
+        ],
+        "text": "Le modele de léquation (5) est une représentation en séries chronologiques d'une interprétation en coupe transversale suivant la restriction développée par Shanken et Zhou (2007) pour estimer la coupe transversale en une seule étape."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9593315720558167,
+        "bbox_xyxy": [
+          171,
+          863,
+          1078,
+          928
+        ],
+        "text": "Le modele d'évaluation d'actifs le moins contraint? auquel on peut penser prend laformesuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9592437744140625,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          344
+        ],
+        "text": "courant de recherche qui vise a identifier desfacteurs basés dans un premier temps sur les caractéristiques des firmes mais qui s'ouvrira plus largement dans les anneessuivantes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9427545070648193,
+        "bbox_xyxy": [
+          172,
+          1237,
+          1078,
+          1304
+        ],
+        "text": "b. : représente un vecteur q x 1 de coefficients betas mesurant la sensibilité de chaqueactifiauxyariationsdanschacundesgfacteursoubenchmarks"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9205593466758728,
+        "bbox_xyxy": [
+          213,
+          947,
+          571,
+          984
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8942059874534607,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8761760592460632,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8670915961265564,
+        "bbox_xyxy": [
+          1042,
+          949,
+          1076,
+          979
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8615080118179321,
+        "bbox_xyxy": [
+          172,
+          1188,
+          978,
+          1221
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8376216292381287,
+        "bbox_xyxy": [
+          171,
+          1695,
+          1055,
+          1749
+        ],
+        "text": "3. A noter que,tel que nousle montrerons plus bas,cemodele tres flexible d'évaluati d'actifspeutincluredesrestrictionsnonlineairesimpliquantletauxzero-betaetlesprimesderisq"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7325274348258972,
+        "bbox_xyxy": [
+          170,
+          1004,
+          1078,
+          1121
+        ],
+        "text": "ou r, i = 1,..., n, represente un vecteur de T rendements sur le titre (ou portefeuille) i R = [R,..., R] est une matrice T × q observations sur q facteurs ou benchmarks et"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6608202457427979,
+        "bbox_xyxy": [
+          172,
+          1138,
+          624,
+          1172
+        ],
+        "text": "de dimension/x1"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.38160446286201477,
+        "bbox_xyxy": [
+          173,
+          813,
+          480,
+          844
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9870284795761108,
+        "bbox_xyxy": [
+          171,
+          654,
+          1079,
+          928
+        ],
+        "text": "Dans un contexte encore plus general, il est également possible de relacher empi- riquement I'hypothese que Y soit le meme des deux cotés de léquation (6), c'est-a-dire quedanslecasdesportefeuillesétudiesetduportefeuilledemarche,ceux-cine seraient pas mesures en excédant de la meme mesure, soit le rendement du portefeuille a zéro-beta.Si c'était le cas,c'est-a-dire quelegamma soit le meme de chaque coté de léquation (6) pour les facteurs négociés en bourse et le rendement des actifs a l'étude, alorsl'évidence empirique serait coherente avec le modele théorique."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9835460186004639,
+        "bbox_xyxy": [
+          171,
+          393,
+          1079,
+          635
+        ],
+        "text": "Empiriquement,l'estimationmaissurtoutl'inférenceapartirdecemodele impliquent des défis importants puisqu'il se trouve qu'ici, Y.et Yp sont non obser- vables, de meme que b, et b. Etant donné que seulement R, et F sont observables du coté droit de l'équation (6), nous expliquons plus bas comment cette difficulté sera contournée. Par ailleurs, a noter que le prix du risque ici correspond toujours au coefficient sur les différents b,, et b qui s'exprime dans ce nouveau modele non plus par 入 comme a la section 2, mais plutot par R, -Y, et F -lrYF"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9802718758583069,
+        "bbox_xyxy": [
+          173,
+          1647,
+          1078,
+          1750
+        ],
+        "text": "Ainsi, si la moyenne du facteur est recoupee par l'intervalle de confiance, le prix du risque dufacteur n'est pas significatif et ce facteur n'apporte rien au sens statistiqueaumodeled'evaluationd'actifs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798600077629089,
+        "bbox_xyxy": [
+          171,
+          943,
+          1079,
+          1079
+        ],
+        "text": "Afindes'entenira1'estimationdumodelepresentéa1'équation(5),qui ne comporte pas les mémes defis que l'estimation du modele presente a l'équation (6), on peut réécrire I'équation (6) comme I'équation (5),en lui imposant la restriction nonlineairesuivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9797531366348267,
+        "bbox_xyxy": [
+          171,
+          1170,
+          1080,
+          1376
+        ],
+        "text": "Empiriquement,afin de valider l'adéquation de l'équation (6), nous testons l'équation (7) qui constitue notre hypothese nulle. Celle-ci dépend a la fois de Yo et de Y, ainsi que des betas qui sont traités comme inconnus, nous permettant d'éviter des erreurs de mesure liés a leur estimation. A noter qu'une caractéristique importante de notre approche est le traitement conjoint des facteurs de facon simultaneeplutotqueparétapessubsequentes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9639133214950562,
+        "bbox_xyxy": [
+          170,
+          246,
+          1079,
+          313
+        ],
+        "text": "(Y) si celui-ci n'est pas négociable en bourse. Dans l'ensemble, le modele prend laformesuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9585054516792297,
+        "bbox_xyxy": [
+          172,
+          1390,
+          1081,
+          1631
+        ],
+        "text": "Pour tester la significativité du prix du risque des différents facteurs a l'étude nouseffectuonsdestestssimultanesafind'evaluersilesensemblesdeconfiance robustes a l'identification (Cs) de Y et de Y' recoupent la moyenne de R, et de F. Précisons que nous nous concentrons sur la moyenne des facteurs afin d'évaluer la significativité du prix du risque des facteurs parce que lorsque léquation (6) est réexprimée en moyenne,les coefficients R,-Y,et F -Y sont ceux que l'on obtient dansuneregressionencoupetransversaleclassique."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9193127155303955,
+        "bbox_xyxy": [
+          218,
+          1100,
+          494,
+          1152
+        ],
+        "text": "a;=Yo(1-b)-biF"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9164344072341919,
+        "bbox_xyxy": [
+          214,
+          334,
+          808,
+          374
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9119948744773865,
+        "bbox_xyxy": [
+          524,
+          181,
+          727,
+          206
+        ],
+        "text": "LEPRIXDURISOUE"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8750929832458496,
+        "bbox_xyxy": [
+          1042,
+          1110,
+          1076,
+          1141
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.872046709060669,
+        "bbox_xyxy": [
+          1041,
+          337,
+          1076,
+          366
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8449601531028748,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9865269064903259,
+        "bbox_xyxy": [
+          171,
+          246,
+          1079,
+          513
+        ],
+        "text": "Unedemarcheclassiqueviseraitplutotlaformationd'unintervalledeconfiance de type Wald qui aurait la forme {valeur estimée ± (erreur type asymptotique) X (point critique asymptotique)}. Dans l'approche développée par Beaulieu, Dufour et Khalaf (2013,2017) nous utilisons notre hypothese nulle pour inverser une statistique de Hotelling T? et retenons les valeurs de Y。 et de Y' dans l'intervalle de confianceconjoint quisont coherentes avecl'hypothesenulle.L'approcheutilisée ici est une generalisation de Beaulieu, Dufour et Khalaf (2013) dans un cadre multidimensionnel tel que developpée dans Beaulieu, Dufour et Khalaf (2017)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9829902648925781,
+        "bbox_xyxy": [
+          172,
+          1373,
+          1079,
+          1607
+        ],
+        "text": "qui produit un intervalle de confiance conjoint pour O et Φ avec un seuil de confiance α découlant d'unegeneralisationmultidimensionnelled'unesolution analytique proposée par Beaulieu, Dufour et Khalaf (2013) et présentée dans Beaulieu, Dufour et Khalaf (20i7). Les ensembles de confiance individuels de 0 et Φ ainsi obtenus le sont par le biais des projections de la région de confiance conjointe. Notez que Beaulieu, Dufour et Khalaf (2017) montrent par simulations que les résultats sont robustesadesdeviationsal'hypothesedenormalite"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9684904217720032,
+        "bbox_xyxy": [
+          172,
+          529,
+          1079,
+          629
+        ],
+        "text": "Afin depresenterlastatistiquedeveloppéedansBeaulieu,Dufour etKhalaf (2013), il faut d'abord présenter le modele de régression (5) dans un contexte genéral"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9598503112792969,
+        "bbox_xyxy": [
+          173,
+          1172,
+          1078,
+          1238
+        ],
+        "text": "out=T-k-n+1etkreprésentelenombredefacteursdumodeleet nlenombre deportefeuillesalétude(autrementditlenombred'équationsdenotresysteme)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9581837058067322,
+        "bbox_xyxy": [
+          172,
+          1012,
+          1079,
+          1078
+        ],
+        "text": "Comme il est démontré dans Beaulieu, Dufour et Khalaf (20l3), lorsque les erreurssontnormales."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9558748006820679,
+        "bbox_xyxy": [
+          219,
+          885,
+          731,
+          1002
+        ],
+        "text": "(1,0)B-ΦI,)S B'(1,0) -ΦI A(0,Φ)= 1,0)(X'x)-1(1,0"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9498301148414612,
+        "bbox_xyxy": [
+          219,
+          1096,
+          470,
+          1156
+        ],
+        "text": "A(0,Φ) ~F(n,n"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9428922533988953,
+        "bbox_xyxy": [
+          219,
+          1304,
+          439,
+          1364
+        ],
+        "text": "A(0,Φ SF"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9376709461212158,
+        "bbox_xyxy": [
+          210,
+          1255,
+          986,
+          1287
+        ],
+        "text": "generalement."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9322677850723267,
+        "bbox_xyxy": [
+          171,
+          836,
+          668,
+          868
+        ],
+        "text": "esdiielles asfatisfigii estdefinie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8979066014289856,
+        "bbox_xyxy": [
+          480,
+          180,
+          769,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8952853679656982,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8818038702011108,
+        "bbox_xyxy": [
+          1030,
+          1314,
+          1075,
+          1344
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8758007884025574,
+        "bbox_xyxy": [
+          1041,
+          929,
+          1076,
+          958
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8755561709403992,
+        "bbox_xyxy": [
+          1042,
+          1109,
+          1076,
+          1139
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8282127976417542,
+        "bbox_xyxy": [
+          212,
+          647,
+          467,
+          679
+        ],
+        "text": "Ondefinitegalement："
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.725905179977417,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1055,
+          1749
+        ],
+        "text": "4. CettestatistiqueestpourlecasleplussimpleouYestégala.Pourlageneralisation lastatistiquelorsquelesdeuxgammasnesontpaslesmemes,voirBeaulieu,DufouretKhalaf(201"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.6395447850227356,
+        "bbox_xyxy": [
+          212,
+          692,
+          342,
+          823
+        ],
+        "text": "S=U'U 0 = (Yo, Y'F) Φ=Yc"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9850654006004333,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          618
+        ],
+        "text": "L'interpretationliéeauxintervallesdeconfianceobtenussontdequatrenatures differentes.Dans un premier cas,les intervalles de confiance sont bornes impliquant que les facteurs du modele sont informatifs et que le modele en soi ne pose pas de probleme d'identification. Dans un deuxieme cas, les intervalles de confiance sont nonbornéscequiimpliquequelesfacteurssontinformatifs,maisqu'ilfautse soucierdesproblemesd'identificationdumodele.Dansletroisiemecasoul'inter- valle de confiance comprendl'ensemble des réels,nous sommes enprésence de problemes d'identification severe du modele,bien que les facteurs apparaissent toujourspertinents.Finalement,dansle quatriemecas,lesintervalles deconfiance sontvidesetlemodeleestrejetéparlesdonnees,revelantainsiquelesfacteurs nesontpasadéquatsetn'aidentpasaévaluerlesactifs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836702346801758,
+        "bbox_xyxy": [
+          173,
+          894,
+          1078,
+          1162
+        ],
+        "text": "Afin d'illustrer l'évidence presentée par cette approche dans différents contextes, j'introduisdanslaprochainesectiondesrésultatsenprovenancedetroisétudes differentes, soit : (i) l'évaluation du prix du risque de divers facteurs dans l'économie americaine tirés de Beaulieu,Dufour et Khalaf (2017), (ii) du prix du risque des obligations catastrophes tirés de Beaulieu, Khalaf et Melin (2017) et (iii) du prix durisque defacteurs domestiquesetinternationaux danslebut de testerl'integration desmarchésfinanciersal'internationalenprovenancedel'étudedeBeaulieu. Gagnon et Khalaf (2016)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9825002551078796,
+        "bbox_xyxy": [
+          174,
+          1548,
+          1080,
+          1750
+        ],
+        "text": "La premiere étude empirique discutée ici est celle de Beaulieu, Dufour et Khalaf (2017).Il s'agitdemesurerla significativitéduprixdurisquedumodelea trois facteursdeFamaetFrenchpourl'ensembledestitresamericainsregroupesen12 portefeuillestriésparindustrie.Laperiodeéchantillonnées'étenddejanvier1961 a décembre 20i0 et l'ensemble des données pour les portefeuilles triés parindustrie ainsiquepourlerendementduportefeuilledemarché(MKT),lefacteurdetaille"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815417528152466,
+        "bbox_xyxy": [
+          173,
+          638,
+          1079,
+          873
+        ],
+        "text": "L'avantage de l'approche développée par Beaulieu, Dufour et Khalaf (2013) est que plutot que de se contraindre a un intervalle de confiance classique basé sur une mesure delécart-type par rapport ala moyenne du parametre qui, en presence de problemes d'identification, se revele fallacieux, nous proposons l'inversion de lastatistique qui caracterisel'hypothesenulle du modele enfonctionde toutes les valeurs possibles des parametres. Cette approche donne de l'information simultanée sur (i)lemodele,(ii) son identification et (iii)saspécification."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.980191707611084,
+        "bbox_xyxy": [
+          174,
+          1270,
+          1079,
+          1438
+        ],
+        "text": "Afin de mieux comprendre les avantages de l'approche developpée par Beaulieu, Dufour et Khalaf (2013 et 2017), je propose ici de comparer trois cadres d'analyse utilisant des actifsfinanciers dans trois contextes differents.Cet exercicepermet d'apprécier le type derésultats obtenus et devoir si certaines questions de recherche se pretent davantage a l'utilisation de cette approche ou non."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9010738134384155,
+        "bbox_xyxy": [
+          174,
+          1214,
+          420,
+          1248
+        ],
+        "text": "了 ETUDES EMPIRIOUES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8965016603469849,
+        "bbox_xyxy": [
+          175,
+          1492,
+          461,
+          1526
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8370641469955444,
+        "bbox_xyxy": [
+          525,
+          183,
+          725,
+          205
+        ],
+        "text": ".EPRIXDULRISU"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6468248963356018,
+        "bbox_xyxy": [
+          1033,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4253467917442322,
+        "bbox_xyxy": [
+          1033,
+          181,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845607280731201,
+        "bbox_xyxy": [
+          172,
+          660,
+          1079,
+          860
+        ],
+        "text": "Lesrésultatsobtenuspourl'estimationdecesdeuxmodelessontprésentesdans les tableaux 1 et 2.Au tableau 1,lorsque le modele est estime en exces du rendement zero-beta comme a l'équation(11),sur des sous-periodes de10 ans,les résultats montrent que sur la premiere sous-periode, allant de 1961 a 1970, les 3 facteurs de Fama-French, soit le rendement du portefeuille de marché (MKT), le facteur de taille (SMB) et celui de valeur (HML), sont bien identifiés étant donné que les"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9840478897094727,
+        "bbox_xyxy": [
+          170,
+          1066,
+          1079,
+          1551
+        ],
+        "text": "0 = (Yo, Y'F)' = (Omkt Osmb hmL) MKT SMB HML Periode F OMKT F OSMB F OHML 61-70 38* (-437,-55) 33* (-17,14) 53* (-46,41) 71-80 30 43 33 0 81-90 44* -00,-194) U -16 R 56* -00,-115) U (1156,00 (611,0 91-00 103 4 29 00-10 14 (-79,245) 57* (-146,3) 40 (-41,178)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806345701217651,
+        "bbox_xyxy": [
+          171,
+          246,
+          1079,
+          380
+        ],
+        "text": "(SMB)etceluiduratiodevaleuraulivresurvaleuraumarché(HML)sonttires dusitedeKennethFrench.Lesrésultatssontpresentesensous-periodesde1Oans afin depréserver des seriesrelativementhomogenes et non sujettesa des change- mentsstructurelsimportants."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9661011695861816,
+        "bbox_xyxy": [
+          171,
+          396,
+          1078,
+          461
+        ],
+        "text": "Le modele estimé si l'on contraint le meme rendement excédentaire pour les facteursnegociablesenbourseestlesuivant："
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9545926451683044,
+        "bbox_xyxy": [
+          173,
+          1566,
+          1079,
+          1747
+        ],
+        "text": "NorE:CetableauprésenteFlamoyennedechaquefacteurdumodeled'évaluationd'actifspour l'ensembledeléconomieamericaineainsiquel'ensembledeconfianceobtenuparl'inversion delastatistiquedeHotelling.Lesdonnéesincluent12portefeuillesindustriepourlevecteur devariablesendogenesainsiquelesfacteursdei)marche,ii)taille,iii)valeur aulivresur valeurdemarche,toutestiréesdusitedeKennethFrenchallantde1961a20io.VoirBeaulieu, DufouretKhalaf(2017)pourl'ensemble desdetails concernant les données.Lesprix durisque significatifsaunseuilde5%sontrepresentesparunasterisque."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9422782063484192,
+        "bbox_xyxy": [
+          217,
+          592,
+          692,
+          639
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.934281587600708,
+        "bbox_xyxy": [
+          218,
+          478,
+          693,
+          525
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9324308633804321,
+        "bbox_xyxy": [
+          215,
+          541,
+          1050,
+          573
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9098964333534241,
+        "bbox_xyxy": [
+          480,
+          180,
+          769,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8998010754585266,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8866590857505798,
+        "bbox_xyxy": [
+          1029,
+          601,
+          1075,
+          632
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8803809881210327,
+        "bbox_xyxy": [
+          176,
+          936,
+          1074,
+          1046
+        ],
+        "text": "TABLEAU1 ECONOMIEAMERICAINE INTERVALLES DE CONFIANCE DUPRIX DU RISQUE DES TROIS FACTEURS DE FAMA-FRENCH"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.6259084939956665,
+        "bbox_xyxy": [
+          177,
+          936,
+          1074,
+          1046
+        ],
+        "text": "TABLEAU1 ECONOMIEAMERICAINE INTERVALLESDE CONFIANCEDUPRIXDU RISQUE DES TROISFACTEURSDEFAMA-FRENCH"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.5931787490844727,
+        "bbox_xyxy": [
+          1032,
+          487,
+          1076,
+          517
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.4683651030063629,
+        "bbox_xyxy": [
+          1032,
+          487,
+          1076,
+          517
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9830053448677063,
+        "bbox_xyxy": [
+          173,
+          496,
+          1080,
+          730
+        ],
+        "text": "Au tableau 2,lorsquelerendement zero-betapeut différer des deuxcotés de 1'équation comme a 1'équation(12),1'évidence enfaveur dufacteur de marcheest tresfortesurtouteslessous-periodes saufla dernieremontrant quelesfacteurs de tailleetdevaleurn'ontpasdepouvoirexplicatif.Cetteévidenceouvrelaportea une autrevision du modele du CAPM qui serait plus performant lorsquel'onpermet aux rendements endogenes et au facteur négocié en bourse d'etre mesurés en excédant dequantitésqui peuvent differerempiriquement."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.982848048210144,
+        "bbox_xyxy": [
+          169,
+          986,
+          1077,
+          1503
+        ],
+        "text": "0 = (Yo, Y'e)' = (omkt, Osmes OhmL)' Y. différent de Yo MKT SMB HML F F PeriodeP F 61-70 38* (-642,-14) 33 (-11,83) 53 (-64,74) 71-80 30* (-621,-54) 43 (-26,158) 33 (-137,160) 81-90 44* -00,-198) U -16 R 56 R (807,00 91-00 103* -00,-432) U 4* -00,-1499) U 29 -0o,-281) U (3087,0∞ (97,00 (-24,00 00-10 14 (-100,1226) 57 (-1089,66) 40 (-137,192)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824147820472717,
+        "bbox_xyxy": [
+          173,
+          246,
+          1080,
+          480
+        ],
+        "text": "ensemblesdeconfiancesontfermes.Lesfacteurs apparaissenttoussignificativement différents de O puisque la moyenne de chacun de ces facteurs n'est pas incluse dans leurensembledeconfiancerespectif.Lemodeleestrejetependantlasous-periode suivanteetcellede1991a 2000,lesrésultatsmontrantqu'aucunevaleur de0n'est compatible avec 1'hypothese nulle. Finalement,la sous-période 2000 a 2010 révele des ensembles de confiance bornés mais recouvrant la moyenne du facteur dans 2 cas sur 3, montrant peu de pouvoir explicatif pour ces 2 facteurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9583383798599243,
+        "bbox_xyxy": [
+          175,
+          1519,
+          1079,
+          1749
+        ],
+        "text": "NoTE:CetableauprésenteFlamoyennedechaquefacteur dumodeled'évaluationd'actifspour l'ensembledel'économieamericaineainsiquel'intervalledeconfianceobtenuparl'inversion delastatistiquedeHotellingdanslecasoulesrendementsduportefeuilledemarcheetdes rendements endogenesnesontpaspourlamememesureexcedentaire.Lesdonneesincluent 12portefeuillesindustriepourlevecteurdevariablesendogenesainsiquelesfacteursdei) marché,ii)taille,iii)valeur aulivre sur valeur demarché,toutes tirées du sitedeKenneth French allant de1961a 2010.VoirBeaulieu,Dufour et Khalaf(2017)pourl'ensemble des details concernantlesdonnees.Lesprixdurisquesignificatifsaunseuilde5%sontrepresentes parunasterisque."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8575193881988525,
+        "bbox_xyxy": [
+          525,
+          182,
+          726,
+          205
+        ],
+        "text": ".EPRIXDULRISLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8283771276473999,
+        "bbox_xyxy": [
+          1033,
+          181,
+          1075,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8125964403152466,
+        "bbox_xyxy": [
+          177,
+          855,
+          1075,
+          966
+        ],
+        "text": "TABLEAU2 ECONOMIEAMERICAINE INTERVALLESDECONFIANCEDUPRIXDURISQUEDES TROISFACTEURSDEFAMA-FRENCH"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9868979454040527,
+        "bbox_xyxy": [
+          172,
+          695,
+          1079,
+          963
+        ],
+        "text": "Unfacteur derisque correspondant aurendement duportefeuilledemarcheest unfacteur qui capturel'asymetrie du rendement dumarche,tel quedeveloppedans le modele deKraus et Litzenberger (1976). Il s'agit de determinerici si le prix du risque duportefeuille de marcheet dufacteur d'asymetrierecoupent leurmoyenneéchantil- lonne afindeconvenirs'ils'agit defacteursimportantsatraversdifférentsfonds mutuels d'obligations catastrophe.Notez que Cummins et Weiss(2009)testent la meme hypothesepouruneperiodeéchantillonnéedifferenteet avecuntestvalideseulement asymptotiquement sans controle pour les problemes d'identification potentiels."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9866178631782532,
+        "bbox_xyxy": [
+          172,
+          1382,
+          1079,
+          1751
+        ],
+        "text": "Les résultats présentés au tableau 3 montrent que sur l'ensemble de la periode échantillonnée, le facteur de marche (MKT) n'est pas identifié mais que le facteur d'asymetrie est statistiquement important et relativement bien identifié. Cela peut apparaitre surprenant dans la mesure ou ces actifs présentent en principe un prix du risquenulpourtoutfacteur.Aussi,l'evidenceensous-periodeest-elleimportante pour mieux cerner les explications a ce resultat. Dans un premier temps, les résultats sur le prix du risque de la premiere sous-periode montrent que le modele estimé est clairementrejeteparles donnees.Enfait, aucunevaleur du prixdu risquedufacteur de marche ou du facteur d'asymetrie n'est compatible avec les données. Ceci est bien conforme a nos attentes puisqueles obligations catastrophe sont en principeinsensibles atoutfacteurderisque.Pendantlasecondesous-periode,soitauplusfortdelacrise"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9848902821540833,
+        "bbox_xyxy": [
+          172,
+          296,
+          1080,
+          531
+        ],
+        "text": "Les résultats de cette section sont tirés de l'article de Beaulieu,Khalaf et Melin (2017)qui traite de1'analyseempiriquedes obligationscatastrophe.Deparleur nature, ces obligations devraient étre des actifs a zero-beta, c'est-a-dire que ces obligations ne devraientpas avoir un prix du risque significativement different de zeropour n'importe quel facteur derisque donné(Cummins et Weiss,2009).Si ces actifssont effectivement a zero-beta,ilspresentent donc unpotentiel de diver- sificationimportantpourlesinvestisseurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983726978302002,
+        "bbox_xyxy": [
+          173,
+          1130,
+          1079,
+          1364
+        ],
+        "text": "Empiriquement, nous considérons l'ensemble de la période échantillonnée disponibleallantdenovembre2004aaout2014maisaussitroissous-periodes couvrantlesmoisprécédant,pendantetsuivantlarécessionassociéeala crise financiere de 2008, soit une premiere sous-période (sous-periode 1) allant de novembre 2004 a novembre 2007, une seconde sous-periode (sous-periode 2) allant dedécembre2007amai2009etunedernieresous-periode(sous-periode3)allant dejuin2009aaout2014"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9785766005516052,
+        "bbox_xyxy": [
+          173,
+          979,
+          1079,
+          1113
+        ],
+        "text": "Les rendements quotidiens desfondsmutuels d'obligations catastrophe sont évalués entre novembre 2004 et aout 2014 et sont extraits deBloomberg. Lefacteur de marché provient du site de Kenneth French. Les détails sur les données sont fournisdansBeaulieu,KhalafetMelin(2017)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9653387069702148,
+        "bbox_xyxy": [
+          172,
+          547,
+          1078,
+          613
+        ],
+        "text": "Dans ce contexte, le modele contraint estime dans sa forme la plus large est le suivant:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9378593564033508,
+        "bbox_xyxy": [
+          218,
+          628,
+          709,
+          675
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9012898802757263,
+        "bbox_xyxy": [
+          174,
+          247,
+          488,
+          279
+        ],
+        "text": "3.2Obligationscatastrophe"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8865979909896851,
+        "bbox_xyxy": [
+          1029,
+          635,
+          1076,
+          666
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8823251128196716,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8803877830505371,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.984531044960022,
+        "bbox_xyxy": [
+          170,
+          379,
+          1079,
+          917
+        ],
+        "text": "MKT MKT**2 Periode F F 11.04-11.07 0,0106 0,0007 12.07-05.09 -0,0202 -00, (0,008 0,040)* 0,0059 -00, (-0,043 -0,0375) -0,0050) -0,006)* U(0,0067 +∞* U(0,0520 +∞* 06.09-08.14 0,0145 R (-0,023 0,009)* 0,0018 -00, (-,037,000)* -0,0052) U(0,0248 +∞* 11.04-08.14 0,0080 R (-0,0489 0,394) 0,0021 -00, (-1,314 1,657) -0,0084) U(0,0114 +∞*"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815952777862549,
+        "bbox_xyxy": [
+          173,
+          1298,
+          1080,
+          1542
+        ],
+        "text": "financierede2oo8,lesdeuxprixdurisquesontidentifiesetstatistiquementimportants pour expliquer les rendements des obligations castastrophe.Pendant la troisieme sous-periode,leprixdurisquedufacteurdemarchen'estpasidentifiealorsquec'est lecaspourlefacteurd'asymetriequiestparailleursstatistiquementsignificatif.Cette evidencesuggerequ'enperioded'acalmie,lesobligationscatastrophesonteffectivement insensiblesauxfacteursderisqueusuelsmaisqu'enperiodedecrise,ellesnecom- portentpasladiversificationattendueparlesdetenteursdecesobligations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9750681519508362,
+        "bbox_xyxy": [
+          173,
+          1648,
+          1079,
+          1750
+        ],
+        "text": "Dans cette derniere partie, je discute une partie des résultats de Beaulieu, Gagnon et Khalaf (2016) afin de montrer comment, dans un contexte international, lenombre defacteurs domestiques etglobauxpeuvent exacerber lesproblemes"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9132142663002014,
+        "bbox_xyxy": [
+          174,
+          937,
+          1079,
+          1247
+        ],
+        "text": "NoTE:CetableauprésenteFlamoyennedechaquefacteurdumodeled'évaluationd'actifspour l'ensembledesobligationscatastropheainsiquel'ensembledeconfianceobtenuparl'inversion delastatistiquedeHotellingpourchacundesfacteursnommementlerendementduportefeuille demarchéet lerendementduportefeuilledemarchéaucarré.Onrapportelintervalle de confianceobtenupourleprixdufacteurderisque.Lesfacteursderisquesontlerendement duportefeuille de marcheet lerendement du portefeuille demarche au carresuivant lemodele du CAPM asymétrique (Kraus et Litzenberger,1976)Surla premiere ligne de chaque cellule lesintervallesdeconfiancepresentessontobtenusparl'inversiondelastatistiquedeHotelling presentéealéquation(8)et l'intervalledeconfiancepresentéalaligne suivante estobtenu par la statistique Wald classique. La variable endogene est le rendement des fonds mutuels catastrophes tires de Bloomberg.Voir Beaulieu,Khalaf et Melin (2017) pour plus de details. Lesprixdurisquesignificatifsaunseuilde5%sontreprésentesparunasterisque."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9073513150215149,
+        "bbox_xyxy": [
+          174,
+          1593,
+          493,
+          1626
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8576622009277344,
+        "bbox_xyxy": [
+          1033,
+          180,
+          1077,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.832745373249054,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          355
+        ],
+        "text": "TABLEAU3 OBLIGATIONSCATASTROPHE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7638273239135742,
+        "bbox_xyxy": [
+          525,
+          182,
+          726,
+          205
+        ],
+        "text": ".EPRIXDULRISLE"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9873945713043213,
+        "bbox_xyxy": [
+          172,
+          1128,
+          1079,
+          1465
+        ],
+        "text": "L'analyse empirique utilise un échantillon allant de1987 a 2011 pourles modeles internationaux. Les portefeuilles analysés sont les rendements de tous les titres canadienslistesenboursesurlamemeperiodeetlesfacteursglobaux,incluantle rendement duportefeuilledemarché(MKT),lefacteur detaille(SMB),lefacteur duratiovaleuraulivresurvaleurdemarché(HML)etlefacteurdemomentum (MOM) sont tirés du site de Kenneth French.Les facteurs domestiques qui pour notre exemple sont canadiens, sont construits suivant la meme demarche que Fama etFrench(1993)avecdesdonnéesextraitesdeWorldscope.Lerendementdes facteurs domestiques est orthogonalisé avec sonhomologue global suivant la démarchedécritedansBeaulieu,GagnonetKhalaf(2016)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9864768981933594,
+        "bbox_xyxy": [
+          171,
+          1481,
+          1080,
+          1750
+        ],
+        "text": "Les résultats présentés au tableau 4 nous aident a apprécier l'impact d'un grand nombre defacteurs en termes d'identification d'unmodele.Enfait,l'évidence presentéemontrequelaprésencedefacteursalafoisdomestiquesetglobaux, memelorsquele modele estimé ne compte que deuxfacteurs,n'estpas identifie. Notreapprochepermet doncdemettreenvaleur cesproblemesdansuncontexte d'évaluation d'actifs mais comporteégalement des implications pour la finance internationale, suivant que plusieurs modeles comportent dans leur forme la plus large la présence de facteurs globaux et domestiques. La littérature n'a pas clairement"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9741545915603638,
+        "bbox_xyxy": [
+          172,
+          498,
+          1078,
+          597
+        ],
+        "text": "ou freprésente le facteur qui peut étre MKT pour le facteur de marché, SMB pour lefacteurdetaille,HMLpourlefacteurdevaleurouMOMpourlefacteurde momentum;"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9534983038902283,
+        "bbox_xyxy": [
+          173,
+          364,
+          1078,
+          430
+        ],
+        "text": "Danscecontexte,lemodeleinternational,integrantdesfacteursglobauxet domestiquesdefinisparleurprixdurisquesontlessuivants:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9505854845046997,
+        "bbox_xyxy": [
+          173,
+          246,
+          1080,
+          346
+        ],
+        "text": "d'identificationpuisque dans uneéconomiepartiellementintegree,on devra tenir compte de la double nature (domestique et internationale) des facteurs du modele d'évaluationd'actifs"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.946117103099823,
+        "bbox_xyxy": [
+          218,
+          797,
+          870,
+          1092
+        ],
+        "text": "βi βi Pi βi Pi P βi +β MKTG IMKTGt IMKTD⊥t +β SMBG ISMBGt+β SMBDI rsMBDLt HMLD⊥ IHMLGt+β rMOMGt IMOMDLt +eit"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9207274913787842,
+        "bbox_xyxy": [
+          173,
+          614,
+          1080,
+          715
+        ],
+        "text": "G oufD⊥représentent soit laversionglobaledufacteur ou encorelaversion domestiqueorthogonaliséeaufacteurglobaldansuneétapeanterieure(voir Beaulieu, Gagnon et Khalaf, 2016 pour plus de détails sur 1'orthogonalisation)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9140301942825317,
+        "bbox_xyxy": [
+          212,
+          731,
+          789,
+          764
+        ],
+        "text": "Lemodeledans estdefin1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9038158655166626,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8968833088874817,
+        "bbox_xyxy": [
+          1030,
+          909,
+          1076,
+          940
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8957929015159607,
+        "bbox_xyxy": [
+          213,
+          450,
+          307,
+          479
+        ],
+        "text": "AfGoufD⊥"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8934190273284912,
+        "bbox_xyxy": [
+          174,
+          180,
+          219,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3505355715751648,
+        "bbox_xyxy": [
+          173,
+          614,
+          1079,
+          715
+        ],
+        "text": "G oufDLreprésententsoitlaversionglobaledufacteur ouencorelaversion domestique orthogonalisée au facteur global dans uneétape antérieure(voir Beaulieu, Gagnon et Khalaf, 2016 pour plus de details sur 1'orthogonalisation)."
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9820047616958618,
+        "bbox_xyxy": [
+          153,
+          264,
+          1653,
+          960
+        ],
+        "text": "0MOMD Periode 87-11 R R R R R R R R (-0,1588 (-0,0640 (-0,1217 (-0,0689 (-0,1833 (-0,1955 (-0,1038 (-0,3185 0,0532) 0,1770) 0,0839) 0,0964) 0,1318) 0,1225) 0,1643) 0,6631) 00-11 R R R R R R R R (-0,1052 (-0,0638 (-0,2784 (—,1844 (-0,2597 (-0,3344, (-0,2341 (-0,4714 0,0727) 0,0752) 0,4893) 0,1081) 0,5330) 0,1983) 0,2672) 0,3138) 87-99 R R R R R R (-0,1311 (-0,0140 (-0,0792 (-0,0390 (-0,0317 (-0,1096 0,0068)* 0,1277) 0,0408) 0,0254) 0,0727) 0,0444) 00-11 R R R R R R (-0,0553 (-0,0208 (-0,1532 (-0,1412 (-0,1150 (-0,1981 0,0282) 0,0547) 0,3294) 0,0583) 0,3260) 0,0957) 87-99 R R R R (-0,1051 (-0,0029 (-0,0789 (-0,0228 -0,0031)* 0,0993) 0,0143) 0,0218) 00-11 R R R R (-0,1067 (-0,0672, (-0,3429 (-0,2381 0,0518) 0,1585) 0,7349) 0,1191)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8927528262138367,
+        "bbox_xyxy": [
+          193,
+          174,
+          1618,
+          241
+        ],
+        "text": "TABLEAU4 DU PRIX DU RISQUE DES 1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7692791223526001,
+        "bbox_xyxy": [
+          1693,
+          1031,
+          1720,
+          1073
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6969606876373291,
+        "bbox_xyxy": [
+          1691,
+          524,
+          1721,
+          728
+        ],
+        "text": "LE PRIX DUI RISQUE"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.614617645740509,
+        "bbox_xyxy": [
+          158,
+          976,
+          1655,
+          1080
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.40585431456565857,
+        "bbox_xyxy": [
+          158,
+          976,
+          1655,
+          1080
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9842867255210876,
+        "bbox_xyxy": [
+          173,
+          575,
+          1080,
+          841
+        ],
+        "text": "Cet article nous a permis de mettre en valeur un cadre d'application large de la statistique Hotelling inversee, sachant que cette statistique est robuste aux problemes d'identification et valide en échantillons finis. Par ailleurs, son utilisation ne requiert aucune maximisation numerique et inclut une verification imbriquée dans la methode pourl'identificationfaibleetlaqualitédelaspécification.Finalement,etpour l'objet de notrepropos,cettestatistiquepermet d'obtenir deI'information quant a l'identification desfacteursutilisespourmesurerleprixdu risque.Finalementcette statistiquenouspermetégalement dedetecterlesfacteursinutiles."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821845889091492,
+        "bbox_xyxy": [
+          174,
+          1550,
+          1080,
+          1749
+        ],
+        "text": "Dansl'ensemble,1'évidenceempiriquepresentéedanscet articlemontreque lastatistique deHotellinginversée,tel quedeveloppee et implementéeparBeaulieu, Dufour et Khalaf (2013 et 2017) est un outil pertinent et intéressant quand un chercheurdoit décider desfacteursainclure dansunmodele.Lasignificativitede ceux-ci n'est plusleseul critere.Ilfautégalement s'assurer queleprix du risque decesfacteurssoitbienidentifie"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9804232120513916,
+        "bbox_xyxy": [
+          173,
+          247,
+          1080,
+          479
+        ],
+        "text": "statuesurlefaitqueleséconomiessontcompletementintegreesetqueseulsdes facteursglobauxsontimportantspourl'evaluationd'actifsdansuncontexteinter- national. Nous avons donc toujours besoin de modeles nous permettant d'estimer leprixdurisquedesfacteursdomestiquesouglobauxetdecalculersurcettebase le cout du capital. L'évidence présentée ici nous suggere d'etre prudents lorsqu'il s'agit de l'interpretation des intervalles de confiance classiques dans un contexte d'evaluationd'actifsal'international."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9726516604423523,
+        "bbox_xyxy": [
+          174,
+          859,
+          1079,
+          990
+        ],
+        "text": "De facon plus generale, nos résultats mettent en valeur le fait que les différents facteursinclusdansnosmodelesd'evaluationd'actifssontimportants,maismenent souventadesmodelesnonidentifiesdansdesmodeleslineairesadditifs,meme lorsquelesmodelescomptentseulementdeuxfacteurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9714763760566711,
+        "bbox_xyxy": [
+          173,
+          1369,
+          1079,
+          1535
+        ],
+        "text": "Finalement,lecadredesmodelesd'évaluationd'actifsdansuncontexteinterna- tional remet en question l'utilisation de modeles a plusieurs facteurs puisque dans ce cadre,lesmodelesétudiesapparaissenttresmalidentifies,cequisoulevelaquestion de comment tester des hypotheses relatives a l'integration des marches financiers qui sont d'ordinaire prises en compte avec des facteurs globaux et domestiques."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9624008536338806,
+        "bbox_xyxy": [
+          173,
+          1189,
+          1080,
+          1353
+        ],
+        "text": "Les modeles d'évaluation appliqués aux obligations catastrophe montrent que des problemes d'identification surgissent lorsque les marchés financiers sont en crise, comme c'était le cas en 2008 et que depuis lors, le prix du risque d'un facteur d'asymetrie est statistiquement significatif réduisant defacon importantele potentiel dediversificationdesobligationscatastrophe."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8807394504547119,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.859557032585144,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8479933738708496,
+        "bbox_xyxy": [
+          174,
+          526,
+          308,
+          556
+        ],
+        "text": "CONCLUSION"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.721455454826355,
+        "bbox_xyxy": [
+          174,
+          1007,
+          1079,
+          1172
+        ],
+        "text": "Le cas deléconomie americainenous a permis demontrer qu'uneformemoins strictedumodeleduCAPMseraitbienidentifiéeetpermettrait auportefeuillede marchéd'etreimportantstatistiquement.Ils'agit d'unapportinteressantpuisque lesfacteursdetailleetdevaleurperdentleursignificativitédanslecontextedece modele pluslarge.Et cepeu importe la sous-périodeétudiée."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6057548522949219,
+        "bbox_xyxy": [
+          173,
+          1007,
+          1078,
+          1172
+        ],
+        "text": "Le cas deléconomie americainenous a permis demontrer qu'uneformemoins strictedumodeleduCAPMseraitbienidentifieeetpermettraitauportefeuillede marché d'etre important statistiquement. Il s'agit d'un apport interessant puisque lesfacteursdetailleetdevaleurperdentleursignificativitédanslecontextedece modele plus large.Et ce peu importe la sous-periode étudiée."
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9830923676490784,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          721
+        ],
+        "text": "Bien que plusieurs alternatives aient été investiguees par Beaulieu, Dufour et Khalaf (2017), soit : i) les composantes principales; i) des tests conditionnels; iii) l'empilementdesportefeuillesducotegauchedeI'équation,aucunedeces approches ne nous permet d'en arriver a des modeles mieux identifies ou mieux spécifies que ceux dont j'ai discuté ici. Ce qui m'apparait important de souligner est que le portefeuille de marché est un facteur informatif mais que dans l'ensemble de nos resultatscen'estpaslecasdufacteurrepresentantleratiodelavaleuraulivreavec la valeur au marche, non plus que le facteur de momentum. Il demeure que dans le contexte des modeles presentant plusieurs facteurs non identifiés, l'approche presentée ici ne permet pas de discriminer a travers ces facteurs. La question qui seposesilesfacteursnesontpasbienidentifiesmaisqu'ilssontcependantperti- nents, est comment réorganiser l'information qu'ils contiennent afin d'obtenir, ultimement,desintervallesde confiancepourleprixdu risquequinouspermettront deprendredesdecisionsd'investissementetdefinancementéclairées."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8838526010513306,
+        "bbox_xyxy": [
+          517,
+          787,
+          734,
+          821
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.843328058719635,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8322039246559143,
+        "bbox_xyxy": [
+          525,
+          183,
+          726,
+          205
+        ],
+        "text": "LEPRIXDUTRISOUE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7752954363822937,
+        "bbox_xyxy": [
+          171,
+          837,
+          1083,
+          1753
+        ],
+        "text": "BEAULIEU, M.-C., J.-M. DuFOUR et L. KHALAF (2OO7), < Multivariate Tests of Mean- variance Efficiency with Possibly Non-Gaussian Errors : An Exact Simulation- basedApproach>,JournalofBusinessandEconomicStatistics,25:398-410. BEAULIEU,M.-C.,J.-M.DuFoURetL.KHALAF(2O13),《Identification-robust Estimation and Testing of the Zero-beta CAPM>, The Review of Economics Studies,80:892-924. BEAULIEU, M.-C., J.-M. DuFOUR et L. KHALAF (2O17), < Weak Beta, Strong Beta: Multi-factorPricingandRankRestriction>,Documentdetravail. BEAULIEU, M.-C., J.-M. DuFOUR et L. KHALAF (2O16), 《 Less is More: Testing Financial Integration UsingIdentification-robust Asset Pricing Models >, Journal ofInternationalFinancialMarkets,Institutions&Money,45:171-190 BEAULIEU, M.-C.,L.KHALAF et O. MELIN (2O17),< Do Catastrophe Bond Mutual Funds Constitute Zero-beta Investments? : Identification-robust Evidence >, Documentdetravail. BLACK, F. (1972),《 Capital Market Equilibrium with Restricted Borrowing >, The JournalofBusiness,45:444-455 BLACK, F., M. C. JENSEN et M. S. ScHOLEs (1972), < The Capital Asset Pricing Model: Some Empirical Tests >,in JENsEN, M.C., Studies in the Theory of Capital Markets,p.79-121. BLUME,M. E. et I. FRIEND (1973),《 A New Look at the Capital Asset Pricing Model >, The Journal of Finance, 28 : 19-34. CAMPBELL, R. H.,Y. LIU et H. ZHU (2016),《 ...and the Cross-section of Expected Returns>,TheReviewofFinancialStudies,29:5-68. CHEN,N.-F.,R.RoLL et S.A.Ross (1986),《Economic Forces and the Stock Market>,TheJournalofBusiness,59:383-403"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30605095624923706,
+        "bbox_xyxy": [
+          173,
+          947,
+          1077,
+          1047
+        ],
+        "text": "BEAULIEU,M.-C.,J.-M.DuFOURetL.KHALAF(2O13),《Identification-robust EstimationandTestingoftheZero-betaCAPM>,TheReviewofEconomics Studies,80:892-924"
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8704255819320679,
+        "bbox_xyxy": [
+          168,
+          238,
+          1085,
+          1768
+        ],
+        "text": "CuMMINs, J. D. et M. A. WEIss 2009), < Convergence of Insurance and Financial Markets:Hybrids and Securitized Risk-transfer Solutions >,Journal of Risk and Insurance,76:493-545 DuFoUR, J.-M. (1997), 《 Some Impossibility Theorems in Econometrics, with Applications to Structural and Dynamic Models >, Econometrica, 65 : 1365-1389. DuFouR, J.-M. et C. HsIA0 (2008), < Identification >, The New Palgrave Dictionary of Economics, 2e édition. FAMA, E. F. et K. R. FRENCH (1992),《 The Cross-section of Expected Stock Returns >, JournalofFinance,47:427-465. FAMA,E.F.etK.R.FRENcH(1993),《CommonRiskFactors in theReturns on Stocks and Bonds >,Journal of Financial Economics, 33:3-56. FAMA, E. F. et J. D. MAcBETH (1973), 《 Risk, Return, and Equilibrium: Empirical Tests >,The Journal of PoliticalEconomy,81 : 607-636. GIBBoNs,M.R.(1982),《MultivariateTestsofFinancialModels>,Journalof FinancialEconomics,10:3-27. GIBBONs, M. R.,S.A. RossET et J. SHANKEN (1989),《 A Test of the Efficiency of a Given Portfolio >,Econometrica, 57 : 1121-1152. GoLLIER, C. (2016), < Valorisation des investissements ultra-longs et développement durable>,L'Actualité économique,92:667-701. GosPODINOv, N., R. KANET et C. RoBOTT1 (2013), 《 Misspecification-robust Inference in LinearAssetPricingModelswithIrrelevantRiskFactors>,FederalReserve Bank of St-Louis, Working paper no 1698076877. JENsEN, M. C. (1968),< The Performance of Mutual Funds in the Period 1945- 1964 >,TheJournal of Finance,23 :389-416. KAN, R., C. RoBOTTI et J. SHANKEN (2013), < Pricing Model Performance and the Two-pass Cross-sectional Regression Methodology >, The Journal of Finance, 68 : 2617-2649. KHALAF, L. et H. ScHALLER (2016), < Identification and Inference in Two-pass Asset Pricing Models >, Journal of Economic Dynamic and Control, 70 : 165-177. KLEIBERGEN, F. et Z. ZHAN (2O15), 《 Unexplained Factors and their Effects on Second Pass R-squared's >, Journal of Econometrics, 1 : 101-116. KRAUs,A.etR.H.LITZENBERGER(1976),《SkewnessPreferenceandtheValuation of Risk Assets >,TheJournal of Finance,31 :1085-1100. LEWELLEN, J., NAGEL, S. et J. SHANKEN (201O), 《 A Skeptical Appraisal of Asset pricing Tests >, Journal of Financial Economics, 92 :175-194. LINTNER, J. (1965),< The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets >, The Review of Economics andStatistics,47:13-37. MAcK1NLAY, A. C. (1985), 《 On Multivariate Tests of the CAPM >, Journal of FinancialEconomics,18:341-371. MERToN, R. (1973),《 An intertemporal Capital Asset Pricing Model >, Econometrica, 41 : 867-887."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8160861134529114,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8039587140083313,
+        "bbox_xyxy": [
+          172,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8373973369598389,
+        "bbox_xyxy": [
+          525,
+          182,
+          726,
+          205
+        ],
+        "text": ".EPRIXDULRISLE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7983284592628479,
+        "bbox_xyxy": [
+          170,
+          243,
+          1084,
+          748
+        ],
+        "text": "MossiN, J. (1966), < Equilibrium in a Capital Asset Market >, Econometrica, 34 : 768-783. PAsTOR,L. et R. F. STAMBAUGH (2003),《 Liquidity Risk and Expected Stock Returns >,TheJournal ofPolitical Economy,111 :642-685. SHANKEN, J. et G. ZHoU (2007),《 Estimating and Testing Beta Pricing Models: AlternativeMethods and theirPerformanceinSimulations>,JournalofFinancial Economics,84:40-86. SHARPE, W. F. (1964), 《 Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk >, The Journal of Finance, 19 : 425-442. Ross, S. A. (1976),《 The Arbitrage Theory of Capital Asset Pricing >, Journal of EconomicTheory,13:341-360 TREYNOR, J. L. (1961), 《 Market Value, Time, and Risk >, Document de travail. TREYNoR, J. L. (1962), 《 Toward a Theory of Market Value of Risky Assets >, Documentdetravail."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7210976481437683,
+        "bbox_xyxy": [
+          1032,
+          179,
+          1077,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.39821070432662964,
+        "bbox_xyxy": [
+          1032,
+          179,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,4005 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9826671481132507,
+        "bbox_xyxy": [
+          172,
+          987,
+          1079,
+          1568
+        ],
+        "text": "REsuMe -Nous proposons un cadre géneral pour l'étude et l'évaluation des regles de vote derriere le《 voile d'ignorance >. Nous montrerons comment de nombreuses contributions recenseesdansnotrerevuedelalitteraturesurlevotepeuventétreconsidereescommedes casparticuliersdecemodelegeneral.L'analyseseconcentreensuitesurl'optimisation utilitaristedanslecasd'electionsatroiscandidatsetunespecificationbayesienneoules preférences cardinales des électeurs entre trois options sont de l'information privee. Dans ce contexte specifique, nous étudions les regles de vote qui sont des regles de score a deux parametres, telles qu'introduites parMyerson(2002).Nous montrons que tousles équilibres bayesienssymetriquesinduitspar cesreglesdevotesontdeséquilibressinceres et ontune forme particuliere.Ces équilibres sont uniques pour unevastegamme deparametres,ce quinouspermet decomparerlaperformanceal'equilibrededifferentesreglesdevote.Les résultatsdenoscalculsrelatifsal'efficacitedesdiversesreglesdescore(oul'efficaciteest évaluée a l'aide d'une variation de la mesure proposée par Weber, 1978)permettent de conclure que les regles qui representent le plus efficacement les preferences des électeurs permettent l'expression de l'intensite de ces preferences, contrairement aux regles plus couramment utilisées telles que la reglede pluralite et celle deBorda.Alors que la regle devotepar assentimentpermetl'expressiondel'intensitedespreferences,ellenemaximise pasl'efficacite,car elleneparvientpasa rendre sans ambiguitelespreferences ordinales deselecteurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9629881381988525,
+        "bbox_xyxy": [
+          173,
+          688,
+          469,
+          854
+        ],
+        "text": "PeterPOSTL DepartmentofEconomics UniversityofBath Royaume-Uni p.postl@bath.ac.uk"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9325518608093262,
+        "bbox_xyxy": [
+          202,
+          361,
+          1049,
+          589
+        ],
+        "text": "EVALUATION ET COMPARAISON DES REGLES DEVOTEDERRIERELEVOILEDE L'IGNORANCE: TOUR D'HORIZON SELECTIF ETANALYSEDESREGLESDESCORES ADEUXPARAMETRES*"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7890599370002747,
+        "bbox_xyxy": [
+          172,
+          1690,
+          1078,
+          1748
+        ],
+        "text": "JeremercieMichelLeBretondem'avoiraidédansceprojet,ainsiquelesdeuxarbitres"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6259346008300781,
+        "bbox_xyxy": [
+          172,
+          248,
+          956,
+          273
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.40091195702552795,
+        "bbox_xyxy": [
+          171,
+          1691,
+          1054,
+          1748
+        ],
+        "text": "JeremercieMichelLeBretondem'avoiraidedansceprojet,ainsiquelesdeuxarbit anonymesquim'ontoffertleurscommentaires.Toutesleserreursquirestentsontmiennes."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9852976202964783,
+        "bbox_xyxy": [
+          173,
+          848,
+          1078,
+          1213
+        ],
+        "text": "Un moyen de répondre a cette question en termes généraux serait d'adopter une approche de mechanism design dans un cadre qui prend en compte l'intensité des preferences des électeurs par lintermédiaire de leurs utilites de Bernoulli a 1'égarddescandidats,cesutilitesétantdesinformationsprivees.Cependant,les defistechniquesseraienténormes,carilfaudraitconcevoirdesmécanismes adaptes a des environnements au sein desquels les transferts monetaires ne peuvent pas servir d'instrumentpourinciterlesélecteursa communiquerleursinformations privées².Pour contourner cesproblemes,nousétudions le comportement devote a l'équilibre pour une categorie particuliere de regles de vote. Les équilibres induits par les différentes regles considérées sont alors comparés en fonction de leur efficacité a représenter l'ensembledespréférences del'electorat."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9848255515098572,
+        "bbox_xyxy": [
+          173,
+          298,
+          1079,
+          829
+        ],
+        "text": "La conception des regles de vote donnant lieu aux choix collectifs pose la questionimportante desavoir si une<bonne>regle devote devrait permettre de saisiretderendrepleinementI'intensitedespreférencesdesélecteurspourles différents candidats en lice.C'est cette question que nous souhaitons explorer dans cetteétude.Lesdomainesdel'informatique,delarechercheoperationnelleetde lasciencepolitiqueontétélespremiersas'interesseral'etudeetalaconception dessystemesdevotequipermettentauxélecteursd'exprimerl'intensitédeleurs préférences (voir Meek, 1975; Nurmi, 1981; Merrill, 1984; Cook et Kress, 1985; Merrill.1985;Nurmi,1993).Or,bon nombre de ces contributions initiales n'ont pas examinela question des comportements strategiques manifestes par les élec- teurs:onpeuteneffetattendredecesderniersqu'ilsexagerentl'intensitedeleurs preférences si ce comportement leur permet d'influencer les décisions collectives enleurfaveur.Parconséquent,pourétablircequi constitueune《bonne>procédure devotelorsquelespreferencesdesélecteurssontdesinformationsprivees,ilest indispensable d'étudier la mesure dans laquelle les regles de vote incitent les individusaexprimerl'intensitédeleurspreferences'"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8544400334358215,
+        "bbox_xyxy": [
+          173,
+          180,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8385873436927795,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6704258322715759,
+        "bbox_xyxy": [
+          174,
+          248,
+          327,
+          277
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6167532801628113,
+        "bbox_xyxy": [
+          174,
+          1437,
+          1079,
+          1665
+        ],
+        "text": "1.Contrairementalalitteraturedite axiomatiquesurlevote,quis'interessealaquestionde savoirsiuneregledevotesatisfait(ounon)uncertainnombredeproprietessouhaitables,lalitterature alaquellelapresenteétudes'apparenteestcelledumechanismdesigndontl'ambitionestlacomparaison des regles de vote selon un critere souvent (mais pas toujours) considere comme synonyme de bien-etre social.Untraitcaracteristiquedecettelitteratureestquelesactionsd'équilibreinduitessurlesagents parlaregledevotefontl'objetd'une analyseexplicite.Danscertainscas,ilestpossiblededeterminer laregledevoteoptimale.Pourplusd'informationaproposdelalitteraturesurlevote,nousinvitons lelecteuraconsulterBramsetFishburn(2002).Pourunexposevivantdecrivantlavarietedesopinions etdesargumentsdesexpertssurlesreglesdevote,voirLaslier(2012)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5666065812110901,
+        "bbox_xyxy": [
+          173,
+          1671,
+          1078,
+          1748
+        ],
+        "text": "2. Voirparexemple,lasection6deBorgersetPostl(2009)etnotonsladifficultesupplemen- tairequiseposedanslesenvironnementsdevotecaracterisesparlanaturemultidimensionnellede l'informationpriveedesélecteurs"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.45898839831352234,
+        "bbox_xyxy": [
+          172,
+          1436,
+          1079,
+          1749
+        ],
+        "text": "1. Contrairementalalitteraturediteaxiomatiquesurlevote,quis'interessealaquestionde savoirsiuneregledevotesatisfait(ounon)uncertainnombredeproprietéssouhaitables,lalitterature alaquellelapresenteetudes'apparenteestcelledumechanismdesigndontl'ambitionestlacomparaison des regles de vote selon un critere souvent (mais pas toujours) consideré comme synonyme de bien-étre social.Untraitcaracteristiquedecettelitteratureestquelesactions d'équilibreinduitessurles agents par laregle devotefontl'objet d'une analyse explicite.Dans certains cas,il est possible dedeterminer laregledevoteoptimale.Pourplusd'informationaproposdelalitteraturesurlevote,nousinvitons lelecteuraconsulterBramsetFishburn(2oo2).Pourunexposevivantdecrivantlavarietédesopinions et des argumentsdesexpertssurlesreglesdevote,voirLaslier(2012). 2. Voirparexemple,lasection6deBorgersetPostl(2009)etnotonsladifficultesupplemen- taire quisepose danslesenvironnements devote caracteriséspar la naturemultidimensionnelle de I'informationprivéedeselecteurs."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.3153539001941681,
+        "bbox_xyxy": [
+          174,
+          248,
+          327,
+          277
+        ],
+        "text": "INTRODUCTION"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9851095676422119,
+        "bbox_xyxy": [
+          172,
+          762,
+          1079,
+          1130
+        ],
+        "text": "Lesregles devote sur lesquelles nous mettrons l'accent dans la derniere partie decetterecherchesontlesreglesdescorea deuxparametres qui comprennent, commecasparticuliers,lesprocéduresdevotebienconnuestellesquelareglede pluralité,laregledeBordaetlevotepar assentiment,entre autres?.Uneregle de scoreadeuxparametresnecessitedechaqueélecteurqu'iltransmetteunvecteur dont les composantes représentent les scores qu'il attribue aux candidats en lice. Plus précisement, chaque électeur doit assigner le score 1 a un candidat, le score Oaun autrecandidat,etun autrescoreentrexouy(ouO≤x≤y≤1)aucandidat quireste.La sommepar composantes detouslesvecteursdescores transmispar les électeurs permet de sélectionner le candidat qui obtient le score le plus élevé, lesexequoétantdepartagesdefaconéquiprobable."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9847025275230408,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          745
+        ],
+        "text": "En nous questionnant sur les systemes de vote qui représentent au mieux les désirs des électeurs, nous reprenons un theme tiré de Weber (1978)3. Il a répondu a cette question (quoique de facon asymptotique dans un cadre caracterise par un électorat arbitrairement grand) en proposant une mesure qui évalue l'efficacité aveclaquelleunsystemedevotereprésentelespréferencesdel'ensemblede l'électorat.Danscet article,nousproposonsdemodifierlamesured'efficacitéde Weber afin de comparerunlarge éventail deregles devote(qui sont nombreuses a permettre l'expression de I'intensité des préférences) dans notre cadre d'analyse Celui-ci comprend un nombre fini d'électeurs disposant d'informations privees quant a leurs préférences a légard des candidats. La principale différence avec Weber est l'existence decas ou lejeu induit par chaqueregle devotesesolde par un seul équilibre de vote symetrique. Cela signifie que nous pouvons réellement comparerI'efficacitededeuxreglesdevotequelconquessansavoiras'inquieter du fait qu'il pourrait exister d'autres équilibres pour lesquels l'ordre de leur niveau d'efficaciteseraitinverse4"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9735498428344727,
+        "bbox_xyxy": [
+          173,
+          1147,
+          1078,
+          1413
+        ],
+        "text": "Dansnotreétudedesreglesdescoreadeuxparametresprésentéedansla seconde partie de cet article, nous adoptons un cadre bayésien : chaque électeur estcaracteriseparunvecteurcomposedetroisutilitésdeBernoulli,uneal'égard de chacun des candidats et ces informations sont privées. L'état du monde est représente par la collection de tous les vecteurs d'utilités des électeurs et est, d'un pointdevueexante,modelisécommeunevariablealéatoiredontladistribution deprobabilité a priori est de connaissance commune. Comme il est d'usage dans lalitterature surla conception desmecanismes,nous supposons que cette distribution"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9476701021194458,
+        "bbox_xyxy": [
+          170,
+          1478,
+          1080,
+          1749
+        ],
+        "text": "3.Il convient de noter que dans la tradition du choix social, l'introduction des modeles de probabilite portant sur les preférences des électeurs en vue de comparer et d'optimiser les regles de vote apparait pour la premiere fois (a notre connaisance) dans Niemi et Weisberg (1972) plus préci- sement,danslapartie1deleurlivre,consacreealaconceptiond'uneconstitution.Auxcotes de Weber, nous pourrions également citer, sans étre exhaustif, les pionniers qui ont utilisé un tel cadre d'analysepourcomparerlesreglesdevote:Fishburnet Gehrlein(1976),Chamberlinet Cohen(1978), Bordley (1983),Merrill (1984),Merrill (1985). 4. Leproblemepotentieldelamultiplicitedeséquilibresn'estpassoulevedansWeber 5. Lanotionderegledescorea deuxparametresdanslescontextesa troisoptionsrevienta Myerson(2002)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8508633971214294,
+        "bbox_xyxy": [
+          240,
+          179,
+          1076,
+          206
+        ],
+        "text": "VAL.IATNETCME"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984357476234436,
+        "bbox_xyxy": [
+          172,
+          763,
+          1079,
+          1363
+        ],
+        "text": "Pour caractériser le comportement de vote dans notre cadre d'analyse, nous caractérisons les équilibres bayésiens symetriques du jeu induit par les regles de score a deux parametres. Notre premiere contribution principale est de montrer quelastrategiesymetrique d'équilibre utiliseepar lesélecteurs pour chaqueregle de score exige que le vote soit sincere.Cela signifie que levecteur de scores communiqueparunélecteurcorrespondtoujoursasesvraiespreferencesordinales concernant les candidats.I1 s'ensuit doncimmédiatement que toutes les regles de scorequinepermettentpas auxélecteursd'exprimerl'intensitedeleurspreférences induisent un seul équilibre bayésien sincere'. Ces résultats sont a rapprocher des résultats principaux de Carmona (2012). Il demontre que, dans son cadre d'analyse (qui differe du notre), tous les équilibres symetriques induits par les regles de score ordinales impliquent genéralement un comportement de vote sincere de la partdesélecteurs.Lefaitquelesélecteursvotentdefaconsinceredanstousles équilibres denotre modele contraste avecl'existence d'équilibres avecvote stra- tégiquedanscertainesdescontributionsfondamentalesdelalitteraturesurlevote (commedansMyersonetWeber,1993).Lecontrasteestnotableparcequeles preuvesempiriques duvotestrategiqueparaissentlimitees(voirparexemple,Blais etDegan,2017)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9840841889381409,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          746
+        ],
+        "text": "d'utilite est symetrique par rapport aux électeurs et neutre par rapport aux candidats (voir,par exemple, Schmitz et Troger, 2012). Cette derniere proprieté signifie que, pour un électeur donné, tous les classements ordinaux des trois candidats ont la meme probabilité d'occurrence?. A l'étape intermédiaire a laquelle le vote a lieu, chaque électeur est pleinement informé de son propre vecteur d'utilités, mais pas deceuxdesautresélecteurs.L'efficacited'uneregledescoreseracalculeeaustade ex ante.D'apresWeber(1978),1'efficacitéestdefinie,engros,commelerapport entrel'esperancedebien-étreutilitaristegenereeparlecandidatvraimentéluen fonctiondelaregledescoreetl'esperancedebien-étreutilitaristegenereeparle candidatoptimaldupointdevuesocial.Cesdeuxesperancessontcalculéespar rapport a l'état du monde qui estinconnu ex ante.Comme il y a des regles de score a deux parametres qui permettent l'expression de l'intensité des preférences (en l'occurrence celles avec x < y), nous pouvons traiter de la premiere question, a savoirsilesreglesdevotelesplusefficacespermettentauxélecteursd'exprimer l'intensitédeleurspreferences."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9689618349075317,
+        "bbox_xyxy": [
+          172,
+          1617,
+          1078,
+          1749
+        ],
+        "text": "6.Enfait,dans notre cadre d'analyse,la symetrie etla neutralitedécoulent del'hypothese plusforte quipostule quelestrois composantes duvecteurd'utilités del'électeursontdesvariables aléatoiresadistributionindependanteetidentique.Kim(2016)faitlamemehypothese. 7.Adoptant la terminologie de Apesteguia, Ballester et Ferrer (2011), nous appelons 《 regles descore ordinales>lesreglesdescoreou x=y."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9672581553459167,
+        "bbox_xyxy": [
+          173,
+          1381,
+          1079,
+          1546
+        ],
+        "text": "Notre deuxiemecontribution est demontrer que pour toutes lesregles de score a deux parametres ou x < y , une strategie d'équilibre pour tout électeur repose sur uncriteredeseuilquipermetal'électeurdedeterminers'ildoitattribuerlescore plusbasdexoulescoreplusélevedeyaucandidatqu'ilclasseaumilieuentermes depreferences.Leseuil,definicommelamoyennepondereedesutilitesdeBernoulli"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.866556704044342,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8585790991783142,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9861268997192383,
+        "bbox_xyxy": [
+          173,
+          497,
+          1078,
+          896
+        ],
+        "text": "Il est important de souligner que chaque fois que l'intensité des preférences est révélée a l'équilibre, la valeur précise du seuil caractérisant la stratégie de vote d'équilibre depend des parametres x et y de la regle de score et de la distribution des utilités. Formuler une expression analytique pour établir le seuil d'équilibre en fonction de ces parametres du modele sera,en general,impossible.En consé- quence, la valeur du seuil a léquilibre devra étre obtenue a l'aide de simulations numeriques*. C'est la raison pour laquelle nous rapportons des simulations numé- riques decrivant les niveaux d'efficacite generés parles differentes regles de score. Pour obtenir ces résultats,nousnous concentrons sur le cas detroisélecteurs, puisqu'il s'agit du nombre d'électeurs le plus petit pour lequel l'intensité des pré- férences est transposée dans un équilibre pour toutes les regles de score a deux parametresquipermettentsonexpression."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834794998168945,
+        "bbox_xyxy": [
+          172,
+          912,
+          1079,
+          1413
+        ],
+        "text": "Nos simulations numeriques indiquent que la regle de pluralité et le vote négatif sont les regles de score a deux parametres les moins efficaces. Les regles les plus efficaces tendent a étrecelles qui presentent unevaleur x relativement petite et une valeuryrelativementgrande.Detellesreglespermettent auxélecteursdetransmettre alafoisleurclassementordinalcompletetuncertaindegred'intensitedeleurs préferences. Bien que le vote par assentiment soit beaucoup plus efficace que la regle de pluralité et le vote négatif, il est depasse par la meilleure regle ordinale?. Ce n'est pas étonnant, car le vote par assentiment permet l'expression de l'intensité des preférences, mais ne donne pas aux électeurs la possibilité d'exprimer sans ambiguité leurs classements ordinaux. Nous constatons qu'il y a un gain a passer de la regle ordinale la plus efficace a la regle de score a deux parametres la plus efficace, bien qu'il soit assez minime. Par conséquent, et compte tenu de la com- plexitesupplementaireimposée auxélecteurs en situation réelle d'élection,il vaut peut-etre mieux ne pas introduire des regles de vote qui permettent l'expression del'intensitédespreferenceslo"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9817345142364502,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          480
+        ],
+        "text": "de l'électeur, utilités associées au candidat qu'il préfere et au candidat qu'il aime le moins, peut étre degeneré (c'est-a-dire qu'il est égal a l'utilité associée au candidat prefére). Dans ce cas, 1'électeur ne fera pas usage de la possibilité d'exprimer l'inten- sité de ses préférences. Notre deuxieme résultat principal montre que dans les situations ou ily asoit trois électeurs,soit cinq électeurs ou plus(que cenombre soit pair ou impair), la strategie de vote symetrique d'équilibre pour chaque regle descoreou x<yimpliquel'expressiondel'intensitédespreférences."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9254484176635742,
+        "bbox_xyxy": [
+          171,
+          1502,
+          1079,
+          1748
+        ],
+        "text": "8.Meme si notre deuxieme résultat principal n'établit pas en general un poids d'équilibre uniquestrictemententreOet1,nousconstatonsquelepoidsd'équilibredechaqueregledescorea deuxparametresestuniquepourchacunedesdistributionsd'utiliteutiliséedansnossimulations numeriques. 9.Par exemple, dans le cas ou la distribution de I'utilité est uniforme, la meilleure regle ordinaleestlaregledeBorda. 10.Il convient de noter, cependant,que cette conclusion peut découler du fait que nous avons limitenotreétudea seulement troisélecteurs.Uneétude comprenant un plusgrandnombred'électeurs seraitnécessairepourévaluerlarobustessedecetteintuition"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8603157997131348,
+        "bbox_xyxy": [
+          240,
+          180,
+          1078,
+          206
+        ],
+        "text": "EVALLIATIONETCOMPARAISONDESR REGLEST FVCEIERRIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3051634132862091,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9833383560180664,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          512
+        ],
+        "text": "Le reste de cette étude est structure comme suit. Dans la section 1, nous intro- duisons le modele general et les concepts de base. Dans la section 2, nous présentons un tour d'horizon selectif sur levote,tandis que dans la section3,nous précisons notrecadrebayesien devote.Danslasection 4,nouspresentonsensuitelescarac- téristiques de I'équilibre bayesien symetrique induit par toutes les regles de score a deuxparametres et un nombre quelconque d'electeurs.Dans la section 5,nous comparons les niveaux d'efficacite des diverses regles de score a deux parametres derivesdenossimulationsnumeriques.Lasection6offreunebreveconclusion."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982893168926239,
+        "bbox_xyxy": [
+          173,
+          847,
+          1079,
+          1144
+        ],
+        "text": "Nous proposons ici un modele de vote genéral dans lequel les regles de vote sontévaluées derrierele《voiled'ignorance>danslesensouleconcepteur est incertaindespreférencesdesélecteursauseindel'électorat.L'incertitudequant au profil depreférence del'électorat est prise encompte aumoyen d'une distribution deprobabilitea prioricommunesurtousles profils depreférencepossibles,et le concepteurchoisituneregledevotequimaximiselavaleuresperéeexantede certainscriteresd'evaluationrelativementaladistributiondeprobabilitéapriori desprofils depreference desélecteurs.Ce modelegeneral est defini parla sequence suivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.979219377040863,
+        "bbox_xyxy": [
+          173,
+          613,
+          1079,
+          745
+        ],
+        "text": "Dans cette section, nous décrivons un modele general qui englobe une grande partiedelalitteraturesurl'evaluationetlacomparaisondesdifférentesreglesde vote. La structure de base du modele est décrite dans la prochaine sous-section et les composantes du modele sont précisées dans les sous-sections qui suiventl1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9485556483268738,
+        "bbox_xyxy": [
+          172,
+          1495,
+          1078,
+          1749
+        ],
+        "text": "11. Afind'en allegerlalecture,certains conceptspresentesplusloinlesontdemaniereun peu informelle.Par exemple, concernant les regles de vote directes ordinales mentionnées, nous ne decrivonspaslesrestrictionsdedomainesupposeesdanscertainsarticlesdelalitteraturesurlevote. Danslaplupartdesarticlesdelalitterature,ledomainedespreferencesn'estpasrestreint.Celasignifie que tout ordre de preférence strict entre les candidats peut survenir. Cependant, certains domaines restreintsimportantssontégalementlargementexploresdanslalitteraturesurlevote(parexemple le domaine despreférences a sommet unique).Cela influe sur les comparaisons entre différentes reglesdevote.Parexemple,l'efficacitedeCondorcetdelaregledeBordan'estpaslamemedansle casdudomainenonrestreintoududomainedespreferencesasommetunique.Cesquestionssont pertinenteslorsqu'oncomparelesreglesdevote(voirGehrleinetLepelley,2011)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.943544328212738,
+        "bbox_xyxy": [
+          256,
+          1246,
+          1077,
+          1344
+        ],
+        "text": "Etape 2 : La nature choisit un état du monde - qui ici est un profil de pré- férence pour toutl'electorat-conformément ala distribution de probabilité communeapriori."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.931521475315094,
+        "bbox_xyxy": [
+          256,
+          1162,
+          1076,
+          1228
+        ],
+        "text": "Etape 1 : Le concepteur choisit une regle de vote au sein d'une famille de reglesdevotedisponibles."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9190602898597717,
+        "bbox_xyxy": [
+          256,
+          1363,
+          1078,
+          1429
+        ],
+        "text": "Etape3:Lesélecteursrecoiventdel'information(partielleoucomplete) surl'étatdumondeetrévisentleurscroyancesenutilisantlaregledeBayes"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8703967332839966,
+        "bbox_xyxy": [
+          176,
+          563,
+          336,
+          594
+        ],
+        "text": "LEMODELE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8603319525718689,
+        "bbox_xyxy": [
+          173,
+          180,
+          217,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8379018902778625,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8309791088104248,
+        "bbox_xyxy": [
+          175,
+          797,
+          625,
+          828
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9846674799919128,
+        "bbox_xyxy": [
+          173,
+          529,
+          1079,
+          972
+        ],
+        "text": "Nous noterons N = {1, 2,..., n + 1} l'ensemble fini de joueurs qui comprend INl=n+1électeurs.Lesélecteursdoiventcollectivementfaireunchoixapartir de l'ensemble fini K de candidats ou options en votant individuellement, confor mementauneregledevoteR.ChaqueélecteuriENaunordredepreference sur K qui dépend de son type. Cela va nous permettre de modéliser l'idée que n'importe quel choix d'une regledevote et deladécision qui s'ensuit sur la facon devoterdoiventgeneralementsefairesansconnaissanceparfaitedespreferences des électeurs.Pour chaque électeur i E N, il existe un ensemble T' des types possibles.Chaque type t' E Tidel'électeur i E N donne lieu a une fonction von Neumann-Morgenstern (vNM) d'utilité u, : Kx Ti → R, (k, t’)>u,(k, t') de laquelle découle, par voie de conséquence, un ordre de préférence ≥,; des candidats dans K12.3. Par exemple, si K = {A, B, C} et le type ti de l'électeur i est tel que u;(B,t')>u;(A,t’) >u;(C,t'), alors B>i A >i C."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9823346138000488,
+        "bbox_xyxy": [
+          171,
+          1062,
+          1079,
+          1389
+        ],
+        "text": "UneregledevoteestuneformedejeuRsurunensembleKdecandidatsqui En+1et une fonction de résultat r: ∑R →△(K)， (o',o²,...,on+l) > r(o',o²,...,on+l) ， ou △(K) désigne l'ensemble de toutes les distributions deprobabilitésurK permettant detenir compte de la possibilité d'avoir a departager defacon aléatoire des ex cquo entre candidats. La regle devote R(de pair avec les fonctions d'utilitédes électeurs et leurs croyances quantauxtypesdesautresélecteurs)induitunjeuentren+1électeursquipeut etre deforme normale ou extensive, incluant le cas échéant une incertitude exogene seprésentant commeune《décision>duhasard.Ce cadreestsuffisammentriche"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.951551616191864,
+        "bbox_xyxy": [
+          175,
+          363,
+          1078,
+          428
+        ],
+        "text": "Nous allons maintenant décrire avec plus de précision les composantes du modelequiviennentd'etrementionnees"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9310394525527954,
+        "bbox_xyxy": [
+          254,
+          245,
+          1078,
+          346
+        ],
+        "text": "Etape 4 : Sur la base de leurs informations privées, de leurs croyances et de leurs préférences, les électeurs jouent un jeu dont les regles sont fixées par laregledevotechoisiepar leconcepteur."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.878666341304779,
+        "bbox_xyxy": [
+          175,
+          478,
+          610,
+          512
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8694245219230652,
+        "bbox_xyxy": [
+          240,
+          179,
+          1079,
+          206
+        ],
+        "text": "VAL.IIATNETCME REF 5"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8158052563667297,
+        "bbox_xyxy": [
+          170,
+          1460,
+          1080,
+          1750
+        ],
+        "text": "12.Il convient de noter qu'en faisant dependre les fonctions d'utilité u, de seulement K et T', nousfaisonsportertoutel'attentionsurlessoi-disantenvironnementsavaleurprivee.C'est-a-dire que seul le propre type t' de l'électeur influence ses preférences a légard des candidats de maniere directe.Parconsequent,nous netenonspas compteicidesenvironnements devote a valeurcommune quisontétudiesdanslalitteraturesurlejurydeCondorcetetl'agregationdesinformations(voirpar exemple,FeddersenetPesendorfer(1997)oul'utilitédechaqueélecteurdependduprofilentierdes typesdesélecteurs). 13.Nous supposons en outre que les preférences des électeurs sur l'ensemble △(K) des mesures de probabilité sur K satisfont aux axiomes de vNM, ce qui signifie que les preférences de chaque électeur i sur △(K) sont représentées par la valeur espérée E,[u,(k, t)] relativement a μE△(K) de la fonctionvNMd'utilitéu.(k,t')."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7975912094116211,
+        "bbox_xyxy": [
+          175,
+          1012,
+          379,
+          1045
+        ],
+        "text": "13Reglesdeyote"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3223741054534912,
+        "bbox_xyxy": [
+          172,
+          1645,
+          1078,
+          1750
+        ],
+        "text": "13.Nous supposons en outre que les preférences des électeurs sur I'ensemble △(K) des mesures deprobabilite surK satisfont aux axiomes devNM,ce qui signifie quelespreferences dechaque électeur i sur△(K)sont representees parla valeur esperee E[u,(k,t')]relativement a uE△(K) de la fonctionvNMd'utiliteu.(k,t')."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9857197403907776,
+        "bbox_xyxy": [
+          172,
+          507,
+          1079,
+          840
+        ],
+        "text": "Une regle de vote est dite directe (DVR en anglais pour direct voting rule) si elleexigedechaqueélecteurqu'ildevoiledirectementsespreferencesauconcepteur, demeure constante lorsque l'utilité est recalibrée. Sans perte de géneralités, nous pouvons définir une DVR ordinale comme une regle ou Eive: =L,avecLqui DVR désigne l'ensemble des classements ordinaux possibles des candidats dans Kinduits par T'. Par exemple, si K = {A, B, C}, alors L, pourrait comprendre jusqu'a 13 classementspossibles ouseulementsixclassements strictssil'électeurin'estjamais indifferententre deuxcandidats.Désormais,nous allons designer par Lles ordres depreférencestricts surKl4."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836311340332031,
+        "bbox_xyxy": [
+          172,
+          246,
+          1080,
+          490
+        ],
+        "text": "pour englober des protocoles de vote unique comme,par exemple,les regles de pluralité ou de Borda,mais aussi les procédures de vote dynamique comme la pluralité avec élimination, et bien d'autres. Etant donné R, chaque électeur i dispose d'un ensemble E de stratégies (pures), ou o' E E désigne une stratégie précise de lélecteur i. Chaque résultat r(o) du jeu de vote correspond au choix d'un candidat IiEN lesnotations."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9835598468780518,
+        "bbox_xyxy": [
+          171,
+          928,
+          1079,
+          1540
+        ],
+        "text": "Tiest IiEN inconnuexantelorsqueleconcepteurchoisitlaregledevotequiestutiliseepar la suite pour effectuer le choix collectif a partir de l'ensemble de candidats dans K. La distribution de probabilité subjective du concepteur se présente sous les traits d'une distribution de probabilité jointe 入, ou X' est la distribution de probabilité marginale sur T'. Par exemple, dans la deuxieme partie de cet article, nous étudierons le cas particulier ou K = {A, B, C}, T=[O, 1]², u(A,t') = t,u(B, t') = t, et u,(C, t') = t' pour tous les électeurs i E N. Dans ce cadre, nous allons supposer en outre que 入'(t')=入'(t')·^'(t')·^'(t) (ou t E [0, 1] pour tous les kE K) et que 'A =' = ?' = g pour tous les i E N, ou g est une fonction de densite continue et strictement positive sur (O, 1). Ces hypotheses impliquent que les types t', t',.., t+1 des n + 1 électeurs sont stochastiquement independants et de probabilité identique (i.i.d.) et que la probabilité qu'un électeur donne ait un classement ordinal particulier soitla meme pour chacun des six classements ordinaux possibles sur K={A,B,C} c'est a dire 1/6. 1l en résulte que les profils des ordres de préférence des électeurs sont -(n+l) = 1/ 6\"+1.Cette structure équiprobables : la probabilité d'occurrence est égale a(1 L I) de linformation est dite de culture impartiale (IC en anglais) dans la litterature consacrée a l'approchestatistique duchoixsocial.Voirparexemple,LepelleyetValognes(2003)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9638663530349731,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1078,
+          1749
+        ],
+        "text": "14.SiK={A,B,C},nousavons que A est strictement préféré a B qui, a son tour,est strictement preféré a C. Les autres éléments de L sontinterpretésdemaniereanalogue"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9412044286727905,
+        "bbox_xyxy": [
+          173,
+          1558,
+          1077,
+          1623
+        ],
+        "text": "Le cas ou K = {A, B, C}et ou l'ensemble de types T. de chaque électeur cor- respondal'ensembleLdetouslesclassementsstrictsdecandidatsdansKfournit"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8898681402206421,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8742389678955078,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7780713438987732,
+        "bbox_xyxy": [
+          175,
+          884,
+          510,
+          917
+        ],
+        "text": "L4Structuredel'intormatior"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9844294786453247,
+        "bbox_xyxy": [
+          173,
+          961,
+          1078,
+          1330
+        ],
+        "text": "A létape intermédiaire (c'est-a-dire, une fois que le concepteur a choisi la regle de vote et que la nature a choisi un profil de types t E T, mais avant que les électeurs aient vote),nous pouvons distinguer deux autres environnements : dans l'environ- nementbayesien,chaqueélecteuriENapprendsontypet',maispasceluides autres électeurs. Compte tenu de son type t', chaque électeur actualise sa perception du profil de types des autres électeurs, conformement a la regle de Bayes. Il s'agit icidel'hypotheseutiliséedanslecontextedevotespecifiqueprésentédansla section 4 ci-dessous. Selon une autre hypothese, tous les électeurs prennent connais- sancedel'entiereteduprofildetypest.C'estcequ'onappellel'environnement d'information complet (voir par exemple, De Sinopoli, Dutta et Laslier, 2006 et Buenrostro,DhillonetVida,2013)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9810938835144043,
+        "bbox_xyxy": [
+          172,
+          246,
+          1078,
+          947
+        ],
+        "text": "un autre exemple (voir Gehrlein et Lepelley, 2001; Gehrlein, Lepelley et Plassmann, 2016 et Green-Armytage,Tideman et Cosman, 2016). Dans de tels contextes, le termecultureimpartialeanonyme (IACenanglais)désignela structure del'infor mationsuivant laquelleles profils de typesréels t E T del'électorat ne peuventpas etre observés directement, alors que l'information sommaire sur le nombre d'électeurs dansn+1favorisantchacun dessixclassementsdansLdevientobservable.Plus précisément, ce qui devient observable est un vecteur (l,, l2..., I) avec I, + l, +...+ I, = n + 1 ou I, est le nombre d'électeurs dont le premier ordre de préférence se trouve dans L,l, est le nombre d'électeurs dont le deuxieme ordre de préférence se trouve dans L et ainsi de suite (un tel vecteur (l, l...., I) désigne ce queLepelleyetValognes(2003)considerentcommeunesituationdevote).Par exemple, s'il y a n + 1 = 3 électeurs dans N, alors il y a par conséquent 56 facons derepartircestroisélecteursentreles6ordresstrictsdepreférencedansL.Plus précisement,ilexiste6situationsdevotevis-a-visdesquellesles3électeursaffichent le meme classement ordinal, il existe 30 situations de vote vis-a-vis desquelles 2 des 3 électeurs affichent le meme classement ordinal, tandis quel'électeur qui reste afficheunclassementdifferentet,finalement,ilexiste2Osituationsdevotevis- a-visdesquelleschacundes3électeurspossedeunclassementordinaldifferent dans L. Dans un contexte IAC, on suppose que toutes les situations de vote sont aussiprobableslesunesquelesautres,cequisignifiedanslecasdecetexemple que chaque situation devote a une probabilitéd'occurrence de1/5615."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9234684109687805,
+        "bbox_xyxy": [
+          172,
+          1520,
+          1079,
+          1748
+        ],
+        "text": "15.Pour apprécier la différence entreIC et IAC dans cet exemple, il faut étre conscient du fait quedanslecasouT=Lpour touslesiEN,laprobabilited'occurrencedes56situationsdevoten'est paslamemesousIC,quoiquelesprofilsdetypessous-jacentstETlesont.Parexemple,sousIC,trois profils de types sont aussi susceptibles de se présenter l'un que l'autre avec deux des trois électeurs possédant l'ordre de préférence ABC,alors que Iélecteur restant possedel'ordre de preférenceACB.A l'oppose,ilyaseulementunprofildetypes aveclestroisélecteurspossedantl'ordredepreferenceABC. Parconsequent,lasituationdevotevis-a-visdelaquelledeuxdestroisélecteurspossedentleclassement ABCetlélecteurrestantpossedeleclassementACBesttroisfoisplussusceptibledeseproduirequela situationdevotevis-a-visdelaquellelestroisélecteurspossedenttousleclassementABC."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8531023263931274,
+        "bbox_xyxy": [
+          240,
+          180,
+          1078,
+          206
+        ],
+        "text": "EVALLIATIONETCOMPARAISONDESR REGLEST FVCIEIERRI"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3185282051563263,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854832887649536,
+        "bbox_xyxy": [
+          172,
+          885,
+          1079,
+          1286
+        ],
+        "text": "Dans ce cas, les électeurs se pretent a un jeu eninformation complete compte tenu de leur connaissance de l'entiereté du profil de types t pour l'ensemble de l'électorat (voir, par exemple, De Sinopoli, Dutta et Laslier, 2006). Dans le cas de jeuxdevotesimultanes,les conceptsd'équilibre appropries comprennent:léquilibre deNash,1'équilibredeNashnondomine,1équilibredeNashparfaitenmain tremblante (voir Selten, 1975), 1'équilibre de Nash propre (voir Myerson, 1978) et 1'équilibredeNashMertens-stable(voirMertens,1989).Commel'ontsoulignéDe Sinopoli, Dutta et Laslier (2006), la raison de procéder a des raffinements de l'équilibre deNash tient a son manque depouvoir predictif dansles jeux devote eninformationcomplete,parexempledanslejeuinduitparlevoteparassentiment. Encequiconcernelesjeuxdevotesousformeextensive,l'équilibredeNashparfait ensous-jeuxetsesraffinementsconstituentdesconceptsappropries."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9842230677604675,
+        "bbox_xyxy": [
+          171,
+          363,
+          1079,
+          628
+        ],
+        "text": "Dans ce cas, les électeurs jouent un jeu bayésien, induit par la regle de vote R, de leurs propres types t', ainsi que de leurs croyances a posteriori quant aux types des autresélecteurs,croyancesqu'ilsontobtenuesen actualisantla distributiona prioriX.PourchaqueélecteuriEN,unestrategiepureestunefonctiondevote v' : T' → O, t' > v'(t)16. Donc, v' spécifie pour chaque type t un bulletin o' E o quelelecteuridoittransmettre.UnéquilibredeBayes-Nashdecejeuestunprofil (v'(), v²(),...,vn+1()) de n + 1 fonctions de vote (une pour chaque électeur),tel que pourchaqueiEN:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9812077283859253,
+        "bbox_xyxy": [
+          173,
+          1386,
+          1079,
+          1584
+        ],
+        "text": "Dans la théorie du vote, il est souvent suppose que les électeurs votent de facon sincere.Selonla regledevoteconsiderée,il n'estpas toujourssimplededefinirla sincerité. Par exemple, dans le cas du vote par assentiment, une strategie est dite sincere (selon Brams et Fishburn, 1978) si un électeur qui approuve (sincerement) uncandidatdonnékEKapprouveégalementtoutcandidatqu'ilprefereak.En ce qui concerne les regles de vote directe, il est aise de definir la sincérité comme"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9717706441879272,
+        "bbox_xyxy": [
+          173,
+          1645,
+          1078,
+          1748
+        ],
+        "text": "16.Nous pourrions également permettre aux électeurs d'utiliser des stratégies mixtes en sélectionnant leurs bulletins de vote.Dans ce cas,chaque strategie de vote v'(t')induit une loterie ou une distribution de probabilité μ,(t')E △(Z) sur l'ensemble E des strategies pures associées a la regle R devoteR."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8847205638885498,
+        "bbox_xyxy": [
+          175,
+          836,
+          694,
+          868
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8724467754364014,
+        "bbox_xyxy": [
+          175,
+          312,
+          676,
+          344
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.87028568983078,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8655170202255249,
+        "bbox_xyxy": [
+          175,
+          1337,
+          601,
+          1368
+        ],
+        "text": "omporemen"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8526233434677124,
+        "bbox_xyxy": [
+          172,
+          636,
+          993,
+          785
+        ],
+        "text": "E-i[u;(r((v'(t'),v-'(t-'))),t')1t']≥E-i[u;(r((o',v-i(t-'))),t'’)1t'] pourtouslest'ETieto'EE ou v-i(t-i) =(v(t'),v²(t²),...,vi-(ti-1),vi+(ti+l)...,vn+1(tn+l)) désigneleprofildesfonctionsdevotepourtouslesélecteurs autresquei"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8452426195144653,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8002105355262756,
+        "bbox_xyxy": [
+          176,
+          247,
+          470,
+          279
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9849703311920166,
+        "bbox_xyxy": [
+          172,
+          912,
+          1079,
+          1151
+        ],
+        "text": "Une premiere famille de criteres d'évaluation pour le concepteur dérive de l'agregationa l'aide d'unefonction debien-étresocial duvecteur desbien-étre individuels(Wl;W2... ?., W\"). On obtient ainsi une expression W, du bien-etre social. Unesecondefamillede criteres d'evaluationpourleconcepteur derive d'unefonction W(o, t) qui assigne une valeur a chaque paire constituée d'un profil de strategies O E∑,et d'un profil de types tE T. Comme pour les électeurs, on obtient une valeur espérée ex ante décrite par l'expression W, = E,[W,(t)] ou W,(t) = W(v,(t), t)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834083318710327,
+        "bbox_xyxy": [
+          172,
+          245,
+          1079,
+          545
+        ],
+        "text": "la révélation du véritable type d'un électeur. S'il est de toute évidence contraignant desimplementsupposerquelevoteestsincere(plutotquedel'obtenirdefacon endogenedansléquilibreinduitparunjeuoulesélecteursontl'opportunitéde voter defacon strategique ou de dissimuler leur vrai type),certaines études empi- riques ne rejettentpas systematiquement I'hypothese devote sincere(voirpar exemple, Blais et Degan, 2017). Ainsi, il est peut-étre justifié d'étudier et de comparer les propriétés de regles de vote particulieres (par exemple, leur tendance a sélec- tionner le gagnant de Condorcet, chaque fois qu'il en existe un) sous l'hypothese delasincéritéduvote."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9671530723571777,
+        "bbox_xyxy": [
+          173,
+          1162,
+          1078,
+          1295
+        ],
+        "text": "Une régle de vote optimale R* est une régle de vote qui résout maxR E W, ou R désigne l'ensemble des regles de vote parmi lesquelles le concepteur peut choisir. On trouvera ci-dessous, a titre d'exemples, une liste de criteres d'évaluation ayant étéutilisesdanslalitteraturesurlevote:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9603078365325928,
+        "bbox_xyxy": [
+          171,
+          1619,
+          1079,
+          1749
+        ],
+        "text": "17.On laisse de cote lesquestions delicates soulevees par les situations d'équilibres multiples. Notons que lorsque IKl = 2 et que les indifferences sont exclues, il y a un unique équilibre: chaque électeur a une strategie dominante.le mot《équilibre>est utiliseici abusivement pour englober aussi lessituationsouleprofilderéférenceconsiderénedécoulepasforcémentd'unconceptd'équilibre."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8959503769874573,
+        "bbox_xyxy": [
+          176,
+          597,
+          454,
+          628
+        ],
+        "text": "L6Criteresd'evaluatior"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8938771486282349,
+        "bbox_xyxy": [
+          239,
+          179,
+          1079,
+          206
+        ],
+        "text": "VAL.IIATNETCMPARAISNT REF ERRIERFIEVCIL.E 59"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8750133514404297,
+        "bbox_xyxy": [
+          173,
+          646,
+          1080,
+          846
+        ],
+        "text": "Il estutiledecontrasterlesobjectifsprivésetsociaux.Toutélecteuripeutétre décrit par une fonction Wi(o, t) = u'(r(o), t). Etant donnée une regle de vote R, on notera vR(t) le profil de stratégies de vote (possiblement mixtes) d'équilibrel7 . Au stade interim, 1'utilitéeesperéede lélecteur i estégalea E,-,[W'(v,(t),t) T t]. Finalement,l'utilitéesperéeexantedel'électeuriestobtenuecommel'esperance decetteexpression:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8446030020713806,
+        "bbox_xyxy": [
+          212,
+          860,
+          930,
+          901
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7337496876716614,
+        "bbox_xyxy": [
+          212,
+          1412,
+          1079,
+          1545
+        ],
+        "text": "3.Efficacitéde Condorcet:unvainqueur de Condorcet estuncandidat préféré parunemajoritéatouslesautrescandidatsparlamajoritedesélecteurs dans le cadre de choix binaires. Nous pouvons ensuite formaliser le critere d'evaluationbasesurl'efficacitédeCondorcetcommesuit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6113367080688477,
+        "bbox_xyxy": [
+          173,
+          646,
+          1080,
+          846
+        ],
+        "text": "Il estutiledecontrasterlesobjectifsprivésetsociaux.Toutélecteuripeutétre décrit par une fonction Wi(o, t) = u'(r(o), t). Etant donnée une regle de vote R, on notera vR(t) le profil de stratégies de vote (possiblement mixtes) d'équilibrel7 . Au stade interim, 1'utilitéeesperéede lélecteur i estégalea E,-,[W'(v,(t),t) T t]. Finalement,l'utilitéesperéeexantedel'électeuriestobtenuecommel'esperance decetteexpression:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5133697390556335,
+        "bbox_xyxy": [
+          212,
+          1309,
+          1079,
+          1546
+        ],
+        "text": "3. EfficacitédeCondorcet:unvainqueur deCondorcetestuncandidatpréfére parunemajoritea tousles autres candidatsparlamajoritédesélecteurs dansle cadre de choixbinaires.Nouspouvons ensuiteformaliserle critere d'evaluationbasesurl'efficacitédeCondorcetcommesuit:"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848610162734985,
+        "bbox_xyxy": [
+          172,
+          1374,
+          1079,
+          1752
+        ],
+        "text": "Comme la liste ci-dessus le démontre, il existe une abondance de criteres devaluation parmi lesquels on peut choisir. Des cinq considerés ici, trois corres- pondentadescriteresd'évaluationquidépendentvéritablementdel'alternative selectionneeparlaregledevoteetleprofildestypes.Lesdeuxpremierscriteres sontbaséssurlebien-étresocial,tandisqueletroisiemen'estpasdirectementlie a des considérations de bien-étre. Le quatrieme critere depend du profil de votes. Dans le cas d'information complete et de léquilibre de Nash,nous obtenons une mesure de la résistance de la regle devote au comportement de vote stratégique desindividus.Danslecasdel'équilibredeNashfort,nousobtenonsunemesure de la résistance dela regledevote au comportement devotestrategiquedecoalition. Comme nous le verrons dans la section 2, ces mesures ont été principalement"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9805174469947815,
+        "bbox_xyxy": [
+          255,
+          454,
+          1078,
+          862
+        ],
+        "text": "I1convientdenoterqueW(o,t)estdefiniiciexclusivementpourlesprofils de types t pour lesquels un candidat de Condorcet existe. Nous désignons par Tc l'ensemble des profils de types pour lesquels un candidat de Condorcet existe.Parconsequent,astrictementparler,leconcepteurdoitchoisirune regledevotedefaconamaximiserlaprobabilitéconditionnelle E,[WR(t)I t E T ]que le candidat de Condorcet soit élu. Il convient également denoterquesil'efficacitédeCondorcetestlecritered'évaluationetquesi l'ensemble R des regles de vote parmi lesquelles le concepteur peut choisir n'estpasrestreint,alorstoutecorrespondancedechoixsocialdeCondorcet résoudral'objectifduconcepteur.Cependant,siRestrestreint(parexemple a une sous-classe de regles de vote),alors le concepteur doit tenir compte descontraintessupplementaires."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9748530983924866,
+        "bbox_xyxy": [
+          212,
+          1051,
+          1078,
+          1357
+        ],
+        "text": "5.Efficacité(Weber,1978):lamesured'efficacitedeWeberestdefiniecomme la différence entre le gain de bien-étre induit par une regle de vote et le gaind'uneselectionaléatoiredecandidatsdansK,diviseparla difféerence de gain de bien-étre induit par une regle de décision de 《 premier rang > par rapport a une sélection aléatoire. Le dénominateur de ce ratio represente par conséquent le bien-étre maximal qu'on peut raisonnablement attendre dans un scénario hypothetique ou les problemes de révelation des preférences desélecteurssontabsents.Nousutiliseronscettemesuredebien-etresocial danslasection6,enladefinissantdefaconformelle"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9010672569274902,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8852500915527344,
+        "bbox_xyxy": [
+          173,
+          180,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8387213945388794,
+        "bbox_xyxy": [
+          258,
+          929,
+          1076,
+          1025
+        ],
+        "text": "si O est un profil de stratégies de vote sincere pour t W(o,t)= O si o n'est pas un profil de strategies de vote sincere pour t"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8351732492446899,
+        "bbox_xyxy": [
+          214,
+          880,
+          614,
+          912
+        ],
+        "text": "RobustessedeIamanipulation"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6060758233070374,
+        "bbox_xyxy": [
+          261,
+          253,
+          988,
+          432
+        ],
+        "text": "si r(o)estun candidat de Condorcet pour t lorsquecegagnantexiste W(o,t)= si r(o) n'est pas un candidat de Condorcet pour t, O lorsquecegagnant existe."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.34709715843200684,
+        "bbox_xyxy": [
+          260,
+          254,
+          990,
+          431
+        ],
+        "text": "sir(o)estuncandidatdeCondorcetpourt lorsquecegagnantexiste W(o,t)= si r(o) n'est pas un candidat de Condorcet pour t, O lorsque cegagnant existe."
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9849089980125427,
+        "bbox_xyxy": [
+          173,
+          900,
+          1079,
+          1412
+        ],
+        "text": "Dans cette section, nous décrivons plusieurs branches de la litterature sur le vote et la conception des mecanismes ayant des liens avec la comparaison bayesienne desregles devoteprésentéedansles sections 3a 5de cet article.La premiere direction se rapporte a l'approche statistique en choix social, qui comprend des contributions anciennes et récentes ayant pour objet commun d'évaluer la perfor- mance des systemes électoraux uninominaux (dont la regle de pluralité,le vote par assentiment,laregledeBorda,ainsiquedifferentesreglesdevoteaplusieurstours ou les candidats sont éliminés en fonction du nombre de premiersvotes/classements qu'ils recoivent) en postulant que les électeurs votent sincerement, c'est-a-dire sur la base de leurs véritables préferences a l'égard des candidats en lice. Il s'agit d'une hypotheseclairementheroiqueetdiverscontributeursacettelitteraturereconnaissent l'importance de cette question en accordant au moins une certaine attention a la vulnerabilité des diverses regles de vote a la manipulation strategique ou a la manieredontellespourraientétremodifiéespourinduireunvotesincere(voir Merrill,1984ouPivato,2016)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9827731847763062,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          794
+        ],
+        "text": "élaborées et utilisées dans les cadres impliquant des DVR et des DVR ordinales. Nouspourrionsaussidefinirunemesuredelavulnerabilitealamanipulation strategique sous la forme d'un indice ou les places de O et 1 dans le critere d'éva- luation sont inversées. Bien entendu, de nombreuses autres facons de mesurer la sensibilite d'une regle de voteala manipulation strategique peuvent étre considerées. Certainesdecesmesuresn'entrentpasdanslecadreformelconsideréici.Par exemple,Smith(1999)considere quatreindices demanipulabilité.Certains d'entre eux s'integrent parfaitement a notre cadre d'analyse, mais pas tous. Nous pourrions meme ne pas tenir compte de la distribution de probabilité a priori, comme on le fait notamment dans Carroll (20i3) et adopter plutot une mesure numerique de la sensibilite a la manipulation définie par le gain maximum d'utilité esperée par un agent generique qui profite d'une opportunité de manipulation, ou le supremum estprissurtouslestypes,deviationsetcroyancesqueI'agentpourrait avoirvis-a- vis du comportement des autres agents enfonction dela regle de vote.Ces différentes mesurespeuvent entrainer des differences dans les classements relatifs des regles devoteparrapport auxclassementsquisontcitesdansnotrerechercheplusloin."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982545018196106,
+        "bbox_xyxy": [
+          174,
+          1513,
+          1080,
+          1749
+        ],
+        "text": "Les contributions a cettelitterature different generalement par la structure informationnelle qu'ellessupposent,c'est-a-direpar la distribution deprobabilite surlesprofils de types oules situationsdevotepossibleslors desélections atrois candidats (ou plus). Une structure de I'information qui a été étudiée dans cette litteraturereposesurl'hypothesedelacultureimpartiale,hypothesedecritedans lasection1.4etquisera avancéedanslacomparaisonbayesiennedesreglesde votedessections2a4."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8980908989906311,
+        "bbox_xyxy": [
+          174,
+          847,
+          521,
+          877
+        ],
+        "text": "D'HORIZON JSELECTTF"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8765691518783569,
+        "bbox_xyxy": [
+          174,
+          1463,
+          621,
+          1495
+        ],
+        "text": "choixsocia"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8514679670333862,
+        "bbox_xyxy": [
+          240,
+          180,
+          1074,
+          206
+        ],
+        "text": "EVALLIATIONETCOMPARAISONT DESREGL.ESI TEVCTEIERRIEREIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.31542637944221497,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9748843908309937,
+        "bbox_xyxy": [
+          172,
+          303,
+          1079,
+          1518
+        ],
+        "text": "Un critere d'évaluation pris en compte dans cette litterature (voir Merrill, 1984) - et qui sera également étudié dans la section 3 ci-dessous du present article - est l'efficacite de la regle de vote. Ce critere de bien-étre social est superieur a l'efficacité de Condorcet si lintensité despreférences des électeurs doit étreprise en compte (meme si Merrill (1984) analyse une seule regle, a savoir le vote par assentiment, en fonction duquel les électeurs peuvent exprimer l'intensite de leurs préférences). Afin d'evaluerla performance des differentes regles de vote,Merrill (1984) simule ungrandnombred'électionsa 25électeursetunnombrevariabledecandidats(de 2 a 5 candidats, puis 7 et 10 candidats, respectivement). Afin de generer les types de lélecteur, il procede a des extractions independantes, a partir de la meme dis- tribution, de chaque élement du vecteur de types de l'électeur (toutefois, contrairement a notre comparaison bayésienne plus loin, Merrill (1984) se limite a la distribution uniforme). Bien que notre comparaison bayésienne de l'efficacité des regles de vote est centrée sur le cas de 3 électeurs, nous comparons néanmoins icil'efficacité desreglesdevotepourlesélectionsa3candidatset25électeursdiscuteedans Merrill (1984)a cellederivee de nos simulations numeriques pourla distribution uniforme : nous obtenons un niveau d'efficacite de83,98%pour la regle de pluralité (par rapport a 83 % dans Merrill (1984) ou le vote est supposé étre sincere), une efficacité de 91,91 % pour le vote par assentiment (par rapport a 95,4 % dans Merrill, 1984) et une efficacité de 94,47 % pour la regle de Borda (par rapport a 94,8 % dans Merrill, 1984). I1 est interessant de noter que le vote par assentiment surpasse de peu la regle deBorda dans Merrill (1984) alors que la regle de Borda surpasse clairement le vote par assentiment dans notre contexte (et non seulement pour la distribution uniforme, mais, en moyenne, pour toutes les 25 distributions beta que nous considerons). L'exemple 1 de la section 2 ci-dessous suggere que cette différence est due au fait que dans l'équilibre de Bayes-Nash du vote par assentiment dans notre modele, les électeurs 《 approuvent >moins souvent que dans Merrill (1984) le candidat qu'ils preferent en second.En se fondant surl'hypo- these IC,de nombreuses contributions a la littérature cherchent a comparer et a évaluer les DVR ordinales au regard des manipulations individuelles. Par exemple, Smith (1999) compare cinq regles de vote ordinales populaires, tandis que Maus, Peters et Storcken (2007) definissent la classe des DVR ordinales anonymes, surjectives et a preference unique tops-only qui réduit au minimum la vulnerabilité a la manipulationindividuelle,lorsquele nombre d'électeurs|M|estplus grand que le nombre de candidats |Kl. Le lecteur peut consulter les références présentées icipourdesrésultatssupplementairesl8"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9709457159042358,
+        "bbox_xyxy": [
+          173,
+          1645,
+          1078,
+          1748
+        ],
+        "text": "18.UneDVR ordinaleRestsurjectivesipour tous leskEK,unprofil d'ordreslinéaires existe tel que r(o)=k.Elleest apreférence uniquesi pourtoute paire deprofils o,,nous avons r(o)=r() chaquefois queTop(o)=Top(o')pour touslesiEN,ou pour touteslespreférences strictesPsur K, Top(P)designelecandidatquiobtientleclassementleplusélevédansKenfonctiondeP."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9474152326583862,
+        "bbox_xyxy": [
+          173,
+          1533,
+          1078,
+          1599
+        ],
+        "text": "Undeuxiemecritered'evaluationconsiderésouscettestructured'information est1'efficacitedeCondorcet.Danslecasde|K|=3candidats.Merrill(1985)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8635551333427429,
+        "bbox_xyxy": [
+          174,
+          246,
+          446,
+          279
+        ],
+        "text": "2.1.1Cultureimpartiale"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8543153405189514,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8334463238716125,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9856401681900024,
+        "bbox_xyxy": [
+          173,
+          430,
+          1078,
+          930
+        ],
+        "text": "Lesdeuxdernierscriteresd'evaluationétudiessousl'hypothesede《culture impartiale>sontl'efficaciteutilitaristeetlarésistancealamanipulabilité,ainsi qu'une combinaison de ces deux objectifs. Green-Armytage, Tideman et Cosman (2016)définissent la résistance a la manipulation commela robustesse a la mani- pulation(tellequedefiniedanslasection1.6)constitutived'unéquilibredeNash fort.Ilsconstatentqu'avecN|=99électeurs,lesreglesdeHareetCondorcet-Hare quiselectionnelegagnantdeCondorcets'ilenexisteunetsinonlegagnantselon la regle de Hare) surpassent chacuneles 54 autres regles de vote considérées en ce qui a trait a la mesure de la résistance a la manipulabilité (plus de 80 % des élections donnant lieu a un résultat non manipulable). Notons que Green-Armytage, Tideman et Cosman (2016) n'imposent pas de contrainte d'incitation sur le comportement devote,parcequ'ilssupposentsimplementquelevoteestsincere.lls'ensuitque leursresultatspassentsoussilencelefaitquelevoten'estpeut-étrepassincereen réalité et, par conséquent, ne permettent pas que la perte de bien-etre associée a touteinstancedevotestrategiquesoitchiffrée."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841869473457336,
+        "bbox_xyxy": [
+          173,
+          947,
+          1078,
+          1245
+        ],
+        "text": "S'agissant de la mesure de l'efficacite utilitariste, la regle de Borda a obtenu lesmeilleursrésultats(avecunbien-étreutilitaristemaximisédansenviron74% des élections), ce qui n'est pas étonnant puisque le bulletin de vote permet aux électeurs d'exprimer leur classement ordinal complet des trois candidats. Lorsque lesdeuxcriteresd'évaluation,enl'occurrencel'efficaciteutilitaristeetlaresistance a la manipulabilité,sont imposes conjointement,le compromis optimal entre les deux est réalise par les regles de Hare et Condorcet-Hare, qui atteignent toutes les deux un score a peu pres identique, soit d'environ 71 % et 85 % respectivement en termesd'efficaciteetderesistancealamanipulabilite"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9817878007888794,
+        "bbox_xyxy": [
+          173,
+          1263,
+          1078,
+          1563
+        ],
+        "text": "Encequiconcernelecritered'évaluationbasesurl'efficaciteutilitariste,Apesteguia Ballester et Ferrer (20i1) montrent enfin queparmi les regles devote direct ordinales, lesreglesdescore(c'est-a-direlesreglesenfonction desquelles chacun des|M électeurs attribue un score a chaque candidat k E K, sous réserve de certaines contraintes,desortequelecandidatqui obtientlescoreagregélepluséleveest le vainqueur)maximisentl'efficaciteutilitaristeesperéeexantelorsquel'onsuppose queles électeurs déclarent leurs veritables preférences.En outre,ils determinent laquelledesreglesdevoteenparticulierestoptimaleselonladistributionXapriori sur les profils de types des électeurs. Dans un environnement connexe ou la structure"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9693483710289001,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          412
+        ],
+        "text": "conclut que le vote par assentiment (avec une efficacité de Condorcet a 76 %) est surpassé par la regle de pluralité (avec une efficacité de Condorcet a 79,1 %) qui, asontour,estsurpasséeparlaregledeBorda(avecuneefficacitedeCondorcet a 90,8 %). La meilleure des regles étudiées par Merrill (1985),cependant, est celle de Hare, qui présente une efficacité de Condorcet a 96,2 %19"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8525503873825073,
+        "bbox_xyxy": [
+          240,
+          180,
+          1077,
+          206
+        ],
+        "text": "EVALIIATIONETCOMPARAISONDESE REGL.EST )EVCTEIERRIERFTEVC)L.E h"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8383751511573792,
+        "bbox_xyxy": [
+          172,
+          1621,
+          1079,
+          1748
+        ],
+        "text": "19.LaregledeHareestuneregledevoteaplusieursétapesoul'éliminationduperdant dechaque tourestdecideealapluralitedesvoix.Avecseulementtroiscandidats,celasignifiequelecandidatqui a recu lemoins devoix au premier tour est élimine. Le gagnant est determine au deuxieme tour, sur la baseduvotealamajoritesimple.Parmilesreglesdevoteauneétape,laregledeBordaoptimisel'effi- cacitédeCondorcetlorsquelenombred'électeurstendverso(voirGehrleinet Lepelley,2011)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7213373184204102,
+        "bbox_xyxy": [
+          172,
+          1620,
+          1078,
+          1748
+        ],
+        "text": "19.LaregledeHareestuneregledevoteaplusieursétapesoul'eliminationduperdantdechaque tourestdécidéealapluralitédesvoix.Avecseulementtroiscandidats,celasignifiequelecandidatqui a reculemoinsdevoixaupremiertourestéliminé.Legagnantestdetermineaudeuxiemetour,surla baseduvotealamajoritesimple.Parmilesreglesdevoteauneétape,laregledeBordaoptimisel'effi- cacitédeCondorcetlorsquelenombred'électeurstendverso(voirGehrleinetLepelley,2011)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3957898020744324,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854691624641418,
+        "bbox_xyxy": [
+          173,
+          547,
+          1079,
+          1047
+        ],
+        "text": "La deuxieme structure d'informationimportante qui aétéétudiéea fond dans la littérature surl'approchestatistique enchoixsocial est l'hypotheseIACprésentée dans la section1.4.En sereportant au critere devaluation basésur1'efficacité de Condorcet, Gehrlein et Lepelley (2001) comparent un certain nombre de regles de voteimportantesdanslecontexted'electionsatroiscandidats:laregledepluralité le vote négatif (qui demande a chaque électeur lequel des trois candidats il souhaite éliminer),laregledeBordaetlamethodedepluralitéavecéliminationadeux tours (laquelle, pour |K| = 3, correspond a la regle de Hare décrite ci-dessus), ainsi que la pluralité avec élimination négative (au premier tour, on élimine le candidat lemieuxclasse,puisaudeuxiemetour,onchoisitlecandidatmajoritaireparmi les deuxquirestent).Conformementa I'efficacitédeCondorcet,lesreglesdevote sontconstammentclasséesdelamanieresuivante,quelquesoitlenombre|N d'electeurs : la pluralité avec élimination negative surpassela regledeBorda (d'environ 6 points de pourcentage), laquelle, a son tour, surpasse la regle de pluralitéd'environ 3 points depourcentage2o."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9827117323875427,
+        "bbox_xyxy": [
+          174,
+          247,
+          1080,
+          445
+        ],
+        "text": "de l'information estplusgenerale(permettant la<culture impartiale>,la《culture impartiale anonyme>etd'autrescommecasspéciaux),Pivato(2016)étudieune version de notre modele de vote general décrit dans la section 1 pour un grand électorat (c'est-a-dire|N|→ o).Ses résultats montrent queles regles de selection simples,par exemple, la regle de Borda ou le vote par assentiment, permettent de choisir avec quasi-certitudeuncandidatquimaximise(oupresque)l'efficacitéutilitariste."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9826770424842834,
+        "bbox_xyxy": [
+          172,
+          1062,
+          1079,
+          1529
+        ],
+        "text": "Dans un article récent, Gehrlein, Lepelley et Plassmann (20i6) affinent la comparaisondetroisreglesdevoteauntour(asavoir lapluralité,lapluralité negativeetlaregledeBorda)dansuncontextedecultureimpartialeanonymeet entermesd'efficacitédeCondorcet,enneconsiderantuniquementquelessituations devotedanslesquelleslestroisreglesdevotenedeterminentpaslememegagnant (danslessituationsdevote oules trois determinentlememegagnant,elles entrainent également la meme efficacité de Condorcet)²\". Cette structure d'information modifiée est appelée 《 culture impartiale anonyme modifiée (MlAC) >. Bien que MlAC entraine en general des scores d'efficacité de Condorcet inférieurs a ceux deIAC. le classement des trois regles devote en termes d'efficacité de Condorcet est toujours lememe:Borda(82,4%danslecontextedeMIAC,90.7%danslecontextede IAC)surpassela regledepluralité(75,9 %dansle contextedeM1AC,87,6%dans le contexte deIAC),laquelle,a son tour, surpasse le vote negatif (21,6 %dans le contextedeMIAC,62%danslecontextedeIAC)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9393726587295532,
+        "bbox_xyxy": [
+          172,
+          1585,
+          1078,
+          1750
+        ],
+        "text": "20.ContrairementaIC,sousIAClaregledevote,parmilesregles descoreaun tour,qui maximisel'efficacitedeCondorcetlorsquelenombred'electeurstendverson'estpluslareglede Borda.lls'agitd'uneregledescoreenfonctiondelaquellelesélecteurssinceresattribuentlepoids de O,37228 a l'option qu'ils classent au deuxieme rang. Cette regle est légerement biaisée en faveur delapluralité(Cervone,Gehrlein,Zwicker,2005;GehrleinetLepelley,2011) 21. CettecomparaisonestbaséesurK|=3candidatset|N|=101électeurs."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.895223081111908,
+        "bbox_xyxy": [
+          174,
+          497,
+          554,
+          529
+        ],
+        "text": "2.1.2（ulture1 imnartiaie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.874575674533844,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8652300834655762,
+        "bbox_xyxy": [
+          174,
+          180,
+          217,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9849177002906799,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          612
+        ],
+        "text": "Dans le document mentionné précédemment, Green-Armytage, Tideman et Cosman(2016) considerentégalement54regles devote danslecontextedeIAC, avecK|=3candidatset|N|=99électeurs.CommedanslecontextedeIC,les reglesdeHareetCondorcet-Haresurpassenttoutesles54autresreglesdevote considerées en ce qui a trait a la mesure de la résistance a la manipulabilité, tandis quelaregledeBordaalemieuxperforméentermesdebien-etreutilitariste. Lorsqueles deuxcriteres d'évaluation,enl'occurrencel'efficacitéutilitaristeet la resistance alamanipulabilité,sontimposes conjointement,le compromis optimal entreles deuxestdenouveaurealiseparlesreglesdeHareetCondorcet-Hare,ces dernieres atteignant desscorespratiquement identiquesd'environ85%et 90%en termes d'efficacité et de résistance a la manipulabilité,respectivement."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9831401705741882,
+        "bbox_xyxy": [
+          172,
+          1046,
+          1079,
+          1645
+        ],
+        "text": "Si le profil de types t des électeurs est connaissance commune au debut de létape 2 de notre modele de vote géneral, alors le jeu induit par la regle de vote du concepteur est un jeu en information complete. De Sinopoli, Dutta et Laslier (2006) étudient le jeu eninformation completeinduit par la regle de vote par assentiment, laquellepermetauxélecteursdevoterpourautantdecandidatsdansKqu'ilsle souhaitent?2. En prenant comme point de départ le résultat de Fishburn et Brams (198l), qui établit que si le profil de types t est tel qu'un gagnant de Condorcet existe, alors le jeu admet un équilibre de Nash en strategies non dominées qui sélectionne le gagnant de Condorcet comme vainqueur de l'élection. Cependant, comme il y a d'autres équilibres deNash,il est naturel de se demander si1'équilibre de Nash qui sélectionnele gagnant de Condorcet survit si le concept fait I'objet de raffinements. De Sinopoli, Dutta et Laslier (2006) montrent a l'aide d'exemples que ce n'est pas le cas. Tout d'abord, dans le cas ou |M|=|K|= 3, il existe un profil de types pour lequel un gagnant de Condorcet existe et qui est tel que dans léquilibre uniqueobtenuparIl'éliminationiterativedesstrategiesdominees,ilyaégalitedans le nombre devotes recu par chacun des trois candidats. Compte tenu del'hypothese de departage équiprobable des ex cequo, le gagnant de Condorcet ainsi que tous les autres candidats peuvent donc étre élus avec la meme probabilité. Un autre"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9779967665672302,
+        "bbox_xyxy": [
+          173,
+          630,
+          1078,
+          829
+        ],
+        "text": "En résumé, bien que l'hypothese irréaliste du vote sincere limite grandement l'attrait des conclusions de la littérature sur l'approche statistique en choix social, il serait toutefois mal avisé de les rejeter, d'autant plus que cette litterature a étudie denombreuses regles devoteimportantesignoréesjusqu'a presentpar les modeles devoteplussophistiques,enparticulier lesreglesdevote aplusieurs tourstelles quelaregledepluralitéavecélimination ainsiqued'autresregles."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9666434526443481,
+        "bbox_xyxy": [
+          174,
+          847,
+          1078,
+          945
+        ],
+        "text": "Undeuxiemevoletimportantdelalitteraturesurlevoteportesurleséquilibres des jeux devote (équilibre de Nash et ses raffinements) en situation d'information completequantauxtypesdesélecteurs."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8708290457725525,
+        "bbox_xyxy": [
+          174,
+          997,
+          656,
+          1028
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8550393581390381,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "22. DeSinopoli(200l)étudiel'équilibredeNashetsesraffinementsdanslejeueninformati completeinduitparlaregledepluralité"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8549394011497498,
+        "bbox_xyxy": [
+          240,
+          180,
+          1078,
+          206
+        ],
+        "text": "EVALIIATIONETCOMPARAISONDESR REGLESI )EVCTEIERRIERFTEVC)L.E h"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.33881282806396484,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.984946608543396,
+        "bbox_xyxy": [
+          172,
+          630,
+          1079,
+          1231
+        ],
+        "text": "Dans l'article de Buenrostro, Dhillon et Vida (2013), on applique le concept d'équilibre deNash enstratégies non dominées a une catégorie élargie de regles de vote (a savoir les regles de score) qui comprend le vote par assentiment comme casparticulier.LesauteursseconcentrentsurdesélectionsaK=3optionset M|≥ 4électeurs pour demontrer que chaquefois quelejeu en information complete induit par une regle de score donnéepeut étre resolu parl'élimination successive desactionsdominees(c'est-a-direestdominancesolvable),lescandidatsélusa l'équilibre correspondent a l'ensemble des gagnants de Condorcet. En outre, les auteursmontrentquelevoteparassentimentestdominancesolvablechaquefois qu'une autreregledescoreestdominancesolvable(ce quienfaituneregle supé- rieureauxautresdupointdevuedececriterededominance).Celaporteacroire quelevoteparassentimentestuneregle attrayantelorsqu'il n'yaquetroiscandidats. Notons, cependant, que dans une élection avec trois candidats localisés dans un espaceidéologique unidimensionnel et oulespreferences des électeurs sont deter- minées par la distance entreleur idéologieindividuelle et celle duvainqueur de l'élection,il y a des cas ou le vote par assentiment ne parvient pas a sélectionner le gagnant de Condorcet, alors que la regle de pluralite y parvient avec certitude (voir DeSinopoli,Iannantuoni etPimienta,2014)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983923614025116,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          614
+        ],
+        "text": "exemplemontreavec|M|=3électeurset|K|=4candidatsqu'ilexistedesprofils de types tels que dans l'équilibre unique obtenu en éliminant de maniere iterative les stratégies dominées, le gagnant de Condorcet ne recoit aucun vote. Et enfin, ils construisent un exemple avec|K|= 4 candidats et un nombre impair|N|≥ 3 d'électeurs qui montre quel'unique meilleure reponse d'un électeur aux strategies des autres électeurs (deux électeurs jouent des stratégies mixtes tandis que les autres jouent leurs strategies dominantes)implique un vote non sincere.En revanche. si danscetexemple,laregledepluralitéestutiliseeplutotquelevotepar assenti- ment,alorsl'équilibrestableexigelevotesinceredelapartdetouslesélecteurs. Celamontrequel'argumentenfaveurduvoteparassentimentestplusnuancéque cequ'avancentFishburnetBrams(1981)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9835652709007263,
+        "bbox_xyxy": [
+          172,
+          1482,
+          1079,
+          1749
+        ],
+        "text": "Myerson (2002) caratérise et compare les équilibres des regles de score dans un contexte ou le nombre d'électeurs prenant part a lélection n'est pas connu - ce contexte n'est pas un cas particulier du cadre decrit dans la section 1 du present document, quisupposeunnombrefixeet connud'électeursetpermet uncontinuumdevecteurs de types possibles pour chaque électeur. Egalement en lien avec ce contexte, mais ne constituant pas un cas particulier de notre modele de la section 1, Ahn et Oliveros (2016) explorent, dans leur article, la capacité des regles de score a synthetiser l'infor mation dans un cadre d'analyse a valeur commune - nous nous concentrons ici"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.940642237663269,
+        "bbox_xyxy": [
+          173,
+          1249,
+          1078,
+          1381
+        ],
+        "text": "Enfin, le troisieme volet de la littérature connexe traite des contextes en infor- mationincomplete et descomportementsstrategiques des électeurs.C'estdans ces situations qu'onpeutmesurerlesproblemesde compatibilited'incitation et les pertes debien-étre causées par l'asymetrie d'information."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.884774386882782,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8586978316307068,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4151887595653534,
+        "bbox_xyxy": [
+          173,
+          1432,
+          1059,
+          1465
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9733648300170898,
+        "bbox_xyxy": [
+          171,
+          243,
+          1079,
+          1385
+        ],
+        "text": "explicitement sur les cadres d'analyse a valeurs privées ou la difficulte d'agreger 1'information efficacement est absente.Dans les articles connexes suivants,les auteurs sepenchentsurlesapprochesdemechanismdesignenchoixcollectifenl'absence d'utilité transférable(voir par exemple,Jackson et Sonnenschein, 2007;Borgers et Postl, 2009; Miralles, 2012; Schmitz et Troger, 2012; Kim, 2016), en tenant c0mpte explicitement du comportement strategique de vote et des contraintes d'incitation. Cela augmente nettement la difficulté de concevoir une regle de vote qui maximise le bien-etre social utilitariste en comparaison avec les situations ou le vote sincere est supposé. Schmitz et Troger (2012) traitent de cette difficulté en caracterisant des reglesdevoteadeuxcandidatsquioptimisentlebien-etreetrésistentauxstrategies dans une structure d'information de culture impartiale, tandis que Barbera et Jackson (2006) caracterisent des regles a la majorite ponderée a plus de deux candidats qui optimisent le bien-etre utilitariste dans une structure d'information asymetrique (c'est-a-dire que les marginales X' n'ont pas besoin d'etre les memes pour tous les électeurs i E M)\"3. Cependant, les résultats analogues dans les contextes a trois candidats (reposant sur l'instauration d'une strategie bayesienne ou dominante) sont jusqu'a present absents dela litterature²4.Dans un travailindependant,Kiméclaire quelquepeucettequestion.Enutilisantlamemestructured'informationquecelle employée ici, il montre que si les types de trois électeurs ou plus présentent une distributionuniforme,il existeunmécanisme derevelation direct quiutiliseles vecteurs entiers d'utilités des électeurs (c'est-a-dire pas seulement les classements ordinaux s'y rapportant) et qui genere une esperance de bien-etre ex ante superieure a celle genérée par tout autre mécanisme qui fait reposer les choix collectifs sur les classements ordinaux des électeurs seuls?5.Ce résultat est conforme a nos resultats de calcul dans le cas de la distribution uniforme. Toutefois, notre travail se distingue du sien de trois facons importantes : premierement, nous presentons une caracterisation des équilibres de voteBayes-Nash symetriques pour toutes les regles de sélection a deux parametres et pour toutes les distributions d'utilité; deuxiemement, nous comparons, quoiqu'a l'aide de simulations numeriques, l'efficacité de toutes les regles de score a deux parametres pour les distributions autres que la distribution uniforme; et troisiemement, nous offrons un apercu de la connexion entre les regles de score optimales a deux parametres et les regles de vote optimales dites de second rang (c'est-a-dire des regles qui, parmi tous les mecanismes de revelation directe possédant la propriété de compatibilité d'incitation, maximisent le bien-étre ex ante)26."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8599931597709656,
+        "bbox_xyxy": [
+          172,
+          1444,
+          1079,
+          1749
+        ],
+        "text": "23. VoirégalementlarevuedelitteraturedeLeBreton,Lepelley,MaceetMerlin(2017)dans cenumerospecial,qui estdédie auxdifficultésdeconception dumécanisme traitantdu cas dedeux candidats,lorsque la categorie des regles de vote a la disposition du concepteur est limitee. 24.Pour avoiruneidéedeladifficultéaconcevoirdesreglesdevoteoptimalesal'épreuve des strategies dans les cas ouily a trois options,voir Postl(2011) qui analyse un cadre connexe,mais plussimple. 25.La preuve est constructiveets'appuiesur lemécanisme direct quiest léquivalent duBNE delaregledevotequenouscaracterisonsdanslepresentarticle. 26.Notre tentatived'explorerla regle devote qui constitue un optimumde secondrang est enlien aveclestravauxdeHortala-Vallve(2009)qui,quoique dans un cadredifferent,caracterisela categorie des reglesdechoixsocialalépreuvedesstrategiesquisatisfontauneconditiondederivabilitéappropriée"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8536695837974548,
+        "bbox_xyxy": [
+          240,
+          179,
+          1078,
+          206
+        ],
+        "text": "VAL.IIATNETCME REF )ERRIERFTEVCL.E 26"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3722460865974426,
+        "bbox_xyxy": [
+          171,
+          1445,
+          1079,
+          1749
+        ],
+        "text": "23. Voirégalement la revue delitterature deLeBreton,Lepelley,MaceetMerlin(2017)dans cenumerospecial,qui estdédie auxdifficultésdeconception dumécanisme traitantdu cas dedeux candidats,lorsque la categorie des regles de vote a la disposition du concepteur est limitee. 24.Pour avoiruneidéedela difficultéa concevoirdesregles devote optimalesal'épreuve des strategies dans les cas ou il y a trois options,voir Postl (2011) qui analyse un cadre connexe,mais plussimple. 25.La preuve est constructive et s'appuie sur le mécanisme direct qui est léquivalent du BNE delaregledevotequenouscaracterisonsdanslepresentarticle. 26.Notre tentative d'explorerla regledevotequi constitueunoptimumdesecond rangestenlien avecles travaux deHortala-Vallve(2009)qui,quoique dans uncadre différent,caracterisela categorie des reglesdechoixsocialal'epreuvedesstrategiesquisatisfontauneconditiondederivabiliteappropriee"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3080378770828247,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985683798789978,
+        "bbox_xyxy": [
+          172,
+          1208,
+          1079,
+          1750
+        ],
+        "text": "Danslecadredumodeledecritalasection1.1,nousétudionsetcomparons les mécanismes de vote qui sont des regles de score. En fonction d'une regle de score donnée, un électeur se voit demander d'attribuer un score a chaque option k E K. Les scores attribues a chaque option sont par la suite additionnés et l'option remportant le score agrégé le plus élevé est choisie. En cas d'ex equo, une option est choisie auhasard defaconéquiprobableparmi les options ayant obtenulescore maximal.Comme dans Myerson(2002),nousexaminonsenparticulierlafamille des regles de score (x, y), qui est caractérisée par deux parametres x et y tels que O ≤x ≤ y ≤ 1. Compte tenu d'une regle de score (x, y), chaque électeur doit choisir un triplet constituant une permutation (1, x, O) ou de (1, y, O). C'est-a-dire que chaque électeur doit attribuer le score 1 a I'une des trois options possibles dans K, le score O a I'une des deux options restantes dans K, et le score x ou y a la derniere option.Denombreusesreglesbienconnuessontdescasparticuliersdesreglesde score (x, y). La partie ombragée du graphique 1 illustre l'ensemble de toutes les regles de score a parametres (x, y) en soulignant les cas particuliers bien connus. Parexemple:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9844955801963806,
+        "bbox_xyxy": [
+          173,
+          421,
+          1079,
+          929
+        ],
+        "text": "Nous étudions maintenant une version du modele general décrit dans la section 1, dans lequelil y a trois candidats : K = {A,B, C} et n + 1 électeurs.Pour chaque électeur i E N, 1'ensemble des types est désigné par T' = [0, 1]². En ce qui concerne la structure d'information, nous supposons que chaque type t' = (tA,t's,t') E Ti est unevariablealéatoiredontlaréalisationestobserveeseulementparl'électeuri. Lestypesdesn+1électeurssontstochastiquementindependantsetindependam- ment distribues (i.i.d.). Nous supposons de plus que pour chaque électeur i, les trois éléments de son vecteur de types t', soit tA, ts et tc, sont tirés dans l'intervalle unitaire[O, 1], conformement a une distribution G de densité continue et strictement positivegsur(O,1).Parconsequent,pourunélecteur,laprobabilitéd'etredécrit par l'un ou l'autre des six classements ordinaux possibles est la meme. Les carac- téristiquesdesfonctionsd'utilitevonNeumann-Morgensterndecritesci-dessuset la distribution combinée des types (t',...,t\"+l) sont connaissances communes des électeurs. Il convient d'observer que la structure d'information supposée ici rend notremodelesymetriquededeuxfacons:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9507167935371399,
+        "bbox_xyxy": [
+          173,
+          950,
+          1077,
+          1016
+        ],
+        "text": "Symetrie quant aux électeurs, parce que chaque type t (avec i E N) est tiré de lamemedistributionsur[O,1]3"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9473687410354614,
+        "bbox_xyxy": [
+          174,
+          1036,
+          1077,
+          1101
+        ],
+        "text": "Symetrie quant aux options, parce que chaque élément t de t' (avec k E K) est tirédemaniereindependantedelamemedistributionGsur[O,1]."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9364861845970154,
+        "bbox_xyxy": [
+          173,
+          248,
+          965,
+          311
+        ],
+        "text": "3.UNE COMPARAISONBAYESIENNE DETAILLEE DES REGLES DE SCOREA DEUX"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8745319247245789,
+        "bbox_xyxy": [
+          174,
+          367,
+          392,
+          397
+        ],
+        "text": "31Modeledebase"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8653162717819214,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8544836640357971,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4588697552680969,
+        "bbox_xyxy": [
+          174,
+          1158,
+          608,
+          1189
+        ],
+        "text": "/Re descore borawefre"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.40032973885536194,
+        "bbox_xyxy": [
+          174,
+          1157,
+          607,
+          1189
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9838098287582397,
+        "bbox_xyxy": [
+          172,
+          1343,
+          1080,
+          1578
+        ],
+        "text": "Pour décrire plus formellement les regles de score a parametres (x, y), nous désignons par Ex 、 l'ensemble de tous les vecteurs de scores sur lesquels un électeur peut arreter son choix, compte tenu d'une regle de score a parametres (x, y) donnée. Un vecteur de score générique pour lélecteur i E N est désigné par O' = (o',O's,O'), ou o' représente le score que lélecteur i attribue a l'option k. Comme les regles de score a parametres (x,y) donnent lieu a un choix collectif surla base duscore agregé le plus élevé, nous definissons le vecteur de scores agregés de la maniere suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9540971517562866,
+        "bbox_xyxy": [
+          170,
+          1590,
+          1080,
+          1753
+        ],
+        "text": "Definition1Pourtoutsous-ensembledonnéMNdem=électeurs,levecteur descoresagregess\"surlabasedetousleselecteursdanstestlasommedesvecteurs ienAEienb,E Nous designonsparSml'ensembledetouslesvecteursdescoresagrégésSmquipeuvent"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.950810968875885,
+        "bbox_xyxy": [
+          186,
+          744,
+          1054,
+          1270
+        ],
+        "text": "1,0 Voted'approbation Vote negatif 0,8 0,6 0,4 Regle de pluralite RegledeBorda 0,2 0,0 0,2 0,4 0,6 0,8 1,0 x"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8949911594390869,
+        "bbox_xyxy": [
+          552,
+          640,
+          738,
+          673
+        ],
+        "text": "GRAPHIOUET"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8918296098709106,
+        "bbox_xyxy": [
+          238,
+          179,
+          1080,
+          206
+        ],
+        "text": "VAT.LIATNET:CMPARAISNT RFES VCIEIERRIERFIEVCIL.E 269"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6818049550056458,
+        "bbox_xyxy": [
+          212,
+          244,
+          1081,
+          563
+        ],
+        "text": "1.上 Regle de pluralité : x = y = O. Chaque électeur doit faire un choix entre trois vecteurs de score issus des permutations de (1, O, O). 2. Vote négatif : x = y = 1. Chaque électeur doit faire un choix entre trois vecteurs de score issus des permutations de (1, 1, 0). 3. Regle deBorda:x =y = O,5.Chaque électeur doit faireun choix entre six vecteurs de score issus des permutations de (1; 0,5; 0). 4.Vote par assentiment : x = 0 et y = 1. Chaque électeur doit faire un choix entre 12vecteurs de score issus despermutations de (1,0,0)et (1,1,0)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6065456867218018,
+        "bbox_xyxy": [
+          284,
+          693,
+          1008,
+          723
+        ],
+        "text": "RES"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5249379873275757,
+        "bbox_xyxy": [
+          214,
+          246,
+          1078,
+          312
+        ],
+        "text": "Regle de pluralité : x = y = O. Chaque électeur doit faire un choix entre troisvecteursdescoreissusdespermutationsde(1,O,O)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.39662355184555054,
+        "bbox_xyxy": [
+          215,
+          497,
+          1078,
+          563
+        ],
+        "text": "4。 .Vote par assentiment : x = O et y = 1. Chaque électeur doit faire un choix entre 12vecteurs de score issus des permutations de(1,0,0)et (1,1,0)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3790346384048462,
+        "bbox_xyxy": [
+          213,
+          329,
+          1078,
+          396
+        ],
+        "text": "2. Vote négatif : x = y = 1. Chaque électeur doit faire un choix entre trois vecteursdescoreissusdespermutationsde(1,1,O)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.35821694135665894,
+        "bbox_xyxy": [
+          214,
+          412,
+          1077,
+          480
+        ],
+        "text": "5. Regle de Borda : x = y = O,5. Chaque électeur doit faire un choix entre six vecteursdescoreissusdespermutationsde(1;O,5;0)."
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985030472278595,
+        "bbox_xyxy": [
+          172,
+          1102,
+          1079,
+          1366
+        ],
+        "text": "Toutesles regles de score (x,y) donnent lieu a unjeu bayésien comportant n + 1 joueurs.Dans ce jeu,la strategiepure du joueur i est unefonction avaleursvec- torielles v’ : [0, 1]² → ∑ , t’ → v'(t'). C'est-a-dire que v' précise pour chaque type ti le vecteur de score dans ∑ devant étre soumis par lélecteur i. Lorsque le type de lélecteur i est t', nous désignons par vi(t') le score attribué a l'option k E K X，） comptetenu dela strategie v'.En raison des deuxtypes de symetrieinherentes a notre cadre,il est naturel de mettrel'accent sur les équilibres deBayes-Nash (v',...,vn+l) qui sont symetriques au sens des deux propriétés suivantes :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9641642570495605,
+        "bbox_xyxy": [
+          171,
+          518,
+          1078,
+          686
+        ],
+        "text": "Definition2Pourchaquesous-ensembledonnéMNdem=électeurs etchaquevecteurdescoresagrégessmESuneregledescoreaparametres X，y (x,y)induitunedistributiondeprobabilitesurl'ensembledesoptionsdansK: 8(s\") = (8A(s\"),8B(s\"),8c(s\")) . Plus précisement, la probabilité 8(sm) associée al'optionAestlasuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9575704336166382,
+        "bbox_xyxy": [
+          171,
+          938,
+          1078,
+          1010
+        ],
+        "text": "LesprobabilitesS(s\"m) )et8c(sm)desoptionsBetC(resp.)sontdefiniesde maniere analogue, avec 8(s\") + 8(sm) + 8(s\") =1 pour tous les s\"E Sm"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9504705667495728,
+        "bbox_xyxy": [
+          173,
+          1382,
+          1079,
+          1482
+        ],
+        "text": "S1.Chaqueélecteurutiliselamemefonctionvpourchoisirunvecteurdescore sur la base de son type : v'(t') = v(t') pour tous les t' E [0, 1]² et tous les i E N. C'est- a-direquedeuxélecteursdumemetypetransmettentlememevecteurdescore"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9361664056777954,
+        "bbox_xyxy": [
+          216,
+          701,
+          768,
+          913
+        ],
+        "text": "sisA ets' 1/2 sis=S>SOrS=S>SB 8A(s\") = 1/3 si s m 0 si s\"<s ou s\" < s\"℃"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9329909086227417,
+        "bbox_xyxy": [
+          173,
+          1496,
+          1080,
+          1633
+        ],
+        "text": "S2.Pour touslesélecteursiettouttett’,outiestderivédet’parsuited'une permutation de ses éléments, v apparie ti et O', ce dernier étant dérivé de o' = v(t) par suite de l'application de la meme permutation des éléments de o'. Par exemple. posons t' =(t'A,tb,te) et t' =(t'b,tA,te). Si v(t) = (1, x, 0), alors v(ti) = (x, 1, 0)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9101261496543884,
+        "bbox_xyxy": [
+          212,
+          1721,
+          941,
+          1753
+        ],
+        "text": "27. L'ensembleZ\" designeIeproduitcartesienmfoisde"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9029281735420227,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.893883466720581,
+        "bbox_xyxy": [
+          173,
+          179,
+          219,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8905841708183289,
+        "bbox_xyxy": [
+          173,
+          1053,
+          566,
+          1084
+        ],
+        "text": "STRATEGIES"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8823822736740112,
+        "bbox_xyxy": [
+          173,
+          369,
+          1079,
+          502
+        ],
+        "text": "Enutilisantla notiondevecteurdescores agregés,nouspouvonsintroduirela notation formelle pour exprimer la distribution de probabilité sur les résultats induitspar une regledescore (x,y)enraisondelapossibilitéd'unex equo entre options.Nousutilisonscettenotationabondammentdanslerestedel'article:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7272761464118958,
+        "bbox_xyxy": [
+          172,
+          252,
+          1080,
+          353
+        ],
+        "text": "sepresenterpourlesous-ensembled'electeurs.L'ensemblesestobtenupar l'addition,pourchaqueprofil demvecteursdescoresindividuels dansEdes X，y scoresassociesachaqueoptionk27"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6020370125770569,
+        "bbox_xyxy": [
+          172,
+          252,
+          1080,
+          353
+        ],
+        "text": "sepresenterpourlesous-ensembled'electeurs.L'ensemblesestobtenupar l'addition,pourchaqueprofil demvecteursdescoresindividuels dansEdes X，y scoresassociesachaqueoptionk27"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.47976869344711304,
+        "bbox_xyxy": [
+          172,
+          369,
+          1079,
+          502
+        ],
+        "text": "Enutilisantlanotion devecteur descores agréges,nouspouvonsintroduirela notationformellepourexprimerladistributiondeprobabilitesurlesrésultats induitsparune regle descore(x,y)en raison delapossibilitéd'un ex cequo entre options.Nousutilisonscettenotationabondammentdanslerestedel'article:"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "stem": "page_0023",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9849706292152405,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          807
+        ],
+        "text": "Nous appelons une strategievqui satisfait la propriéteS2une strategiesymetrique et un équilibre de Bayes-Nash symetrique (cf. S1) en strategies symetriques (cf. S2) unéquilibredeBayes-Nashpleinementsymetrique(FSE).Pourmontrerqu'untel équilibre existe,nous devons considerer la décision de tout électeur i quant au vecteur descore dans Equ'il souhaite transmettrelorsque tous les autres électeurs X，y utilisent la meme strategie symetrique v. A cette fin, nous devons determiner les croyancesdel'electeuriconcernantlesvecteursdescoretransmisparlesautres électeurs.Attardons-noussurlecasd'unélecteurjiquiatransmislevecteurde score v(ti). Comme lélecteur i ne connait pas le type de j, il considere le vecteur descorev(ti)atitredevariablealéatoiredansl'espaceE.Commevetnotrecadre d'analysesont tous deuxsymetriques,lélecteuri croit quetouteslespermutations du vecteur de score v(t') =(vA(t'),vB(t'), vc(t')) ont la meme probabilité d'occur- rence que v(t'). Plus précisement, si la regle de score a parametres (x, y) stipule que x<y,alors touteslespermutationsduvecteur descore(1,x,O)ontlaprobabilité d'occurrence Pr[v(t′) = (1,x,0)] = p E [0,1/6]et toutes les permutations de (1, y, 0) ont la probabilité d'occurrence Pr[v(t')=(1,y,0)] =(1/6)- p . A partir de ces observations,nouspouvonsétablirnotreprermierrésultatprincipal:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9809848070144653,
+        "bbox_xyxy": [
+          171,
+          966,
+          1080,
+          1529
+        ],
+        "text": "On peut trouver la preuve de la Proposition 1 dans l'annexe de Giles et Postl (2014) (voir la section A.1). Pour mettre en lumiere le raisonnement intuitif qui sous-tend ce résultat, il convient de noter que nous pouvons exploiter la symetrie de notre structure d'information pour montrer que, du point de vue de l'électeur i, les optionsA,BetCsontaussisusceptiblesl'unequel'autredecorrespondreauchoix collectif des autres n électeurs utilisant la meme strategie de vote symetrique v28 En d'autres mots, en termes d'esperance, le comportement de vote des autres électeurs sesoldeparunedistributionuniformesurl'ensembledesoptionsdansK: E|8(≥v(t)=E|8(≥μv(t)=E[8c(≥v(t)=1/3. En ransmetant un vecteur de score o' qui attribue le score 1 a son option préférée, le score x ou y a son option du milieu et le score O al'option qu'il aime le moins,1'électeur i genere V(t)+G surK,qui domine s'ilsoumetn'importequelvecteurdescorenonsincereO'"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9664421677589417,
+        "bbox_xyxy": [
+          171,
+          1599,
+          1079,
+          1756
+        ],
+        "text": "28.Ilest important desoulignerici quela strategie devote symetriquevutiliseeparles autres électeursn'apasbesoind'étresincere.Pourlecomprendre,supposonsquechaqueélecteurjiattribue le score1 al'option qu'il classe aumilieu et le scorey a son option préférée.Dans cecas,toutes les permutations de (1, x, O) ont la probabilité d'occurrence Pr|v(t') = (1,x,O)|= 0 et toutes les permutations de (l,y, 0) ont la probabilité d'occurrence Prv(t')= (1,y,0)=1/6."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9580097198486328,
+        "bbox_xyxy": [
+          172,
+          820,
+          1078,
+          952
+        ],
+        "text": "Proposition1ToutFSEd'uneregledescorea parametres(x,y)impliqueune strategiedevotesincerev.C'est-a-direquev,(t)=1etv(t)=1pour tous les iE Net tous les ti E [O, 1]²,ou v,(t’) et v,(t), resp., désignent les scores attribués parval'optionlamieuxetlamoinsbienclasséedeilorsquesontypeestt"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8728582859039307,
+        "bbox_xyxy": [
+          239,
+          179,
+          1077,
+          207
+        ],
+        "text": "DFSE REGLESI DEV)TEDERRIERETEVIL.E"
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "stem": "page_0024",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.986523449420929,
+        "bbox_xyxy": [
+          172,
+          244,
+          1080,
+          680
+        ],
+        "text": "LaProposition1caracteriseleFSEuniquedelaregledescore(x,y)avecx=y (ce qu'on appelle une regle de score 《 ordinale >, puisqu'elle ne permet pas aux électeursdedéclarerl'intensitedeleurspreferences).Celarenvoieégalementau résultat principal dans Carmona(2012) en ce qui a trait a un contexte ou seules les regles de score ordinales sont prises en compte et ou les préférences des électeurs dépendent non seulement de l'option choisie dans K, mais également des scores agregés remportés par toutes les autres options. Il montre que les équilibres de Bayes-Nash sont sinceres pour pratiquement toutes les distributions de probabilité a partir desquelles sont extraitsles types des électeurs (c'est-a-direleurs classements ordinaux). La Proposition 1 implique en outre qu'en ce qui concerne les regles de scoreaparametres(x,y)avec x<y,ilneresteal'électeur qu'adéciders'il attribue lescoreleplusbasxoulescorelepluséleveyasonoptiondumilieu.Comme corollairealaProposition1,ilest aiséd'etablirlerésultatsuivant :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795814156532288,
+        "bbox_xyxy": [
+          171,
+          1220,
+          1079,
+          1367
+        ],
+        "text": "Dela mememaniere,l'électeuri s'attendacequej transmettechaquepermutatior de (1, y, 0) selon la probabilité complémentaire Prl v(t') = (1, y,0)|= (1 / 6)- p(α). Notonsque(2)définitp(a)commefonctionmonotonecroissanteetderivable (c'est-a-dire p'(α) > 0 pour tous les α), avec p(0) = 0 et p(1) = 1/6."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784125685691833,
+        "bbox_xyxy": [
+          169,
+          985,
+          1078,
+          1085
+        ],
+        "text": "Enconséquenceducorollaire1,lélecteuris'attendacequetoutautreélecteur j ≠i transmette le vecteur de score (1,x,O)(et toutepermutation de ce dernier) selonlaprobabilitéquevoici :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9777960181236267,
+        "bbox_xyxy": [
+          172,
+          699,
+          1079,
+          834
+        ],
+        "text": "Corollaire1ToutFSEd'uneregledescoreaparametres(x,y)avecx<y impliqueunestrategiedevotesincerevquiattribuelescorev,(t’)E{x,y}d l'optiondumilieudechaqueelecteuri,conformementalaregleenvaleurcritique suivante:pouruncertainaE[o,1],"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9529091715812683,
+        "bbox_xyxy": [
+          172,
+          1689,
+          1079,
+          1759
+        ],
+        "text": "29. Pour simplifier la notation dans ce qui suit,nous désignons par s\"levecteur de scores"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.949234664440155,
+        "bbox_xyxy": [
+          219,
+          851,
+          608,
+          965
+        ],
+        "text": "si t² <αt +(1-α)t X si t² >αt² +(1-α)t"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9414948225021362,
+        "bbox_xyxy": [
+          217,
+          1116,
+          997,
+          1189
+        ],
+        "text": "Pr[v(t)=(1,x,0)]= ∫°S° S cat+(1-a)t² g(t²)dt²g(t;)dt g(t;i)dt) = p(α)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8966587781906128,
+        "bbox_xyxy": [
+          480,
+          180,
+          769,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8961502313613892,
+        "bbox_xyxy": [
+          173,
+          179,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8800902366638184,
+        "bbox_xyxy": [
+          1043,
+          896,
+          1077,
+          926
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8614098429679871,
+        "bbox_xyxy": [
+          1040,
+          1139,
+          1076,
+          1170
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7464274764060974,
+        "bbox_xyxy": [
+          172,
+          1384,
+          1079,
+          1518
+        ],
+        "text": "Nousprésentonsmaintenant lapreuvedu corollaire1,parcequec'estsurlui quereposela determination dupoids d'équilibre α dans (1).Lepoids αest la dernierepiece constitutiveduFSEdesreglesdescoreaparametres(x,y)avec X?y"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7046880722045898,
+        "bbox_xyxy": [
+          172,
+          1384,
+          1079,
+          1518
+        ],
+        "text": "Nousprésentonsmaintenant lapreuvedu corollaire1,parcequec'estsurlui quereposela determination dupoids d'équilibre α dans (1).Lepoids αest la dernierepiece constitutiveduFSEdesreglesdescoreaparametres(x,y)avec X?y"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5229477286338806,
+        "bbox_xyxy": [
+          173,
+          1535,
+          1079,
+          1637
+        ],
+        "text": "Preuve. Considérons l'électeur i et supposons sans perte de genéralité que son type t est tel que t' > t' > t'. Son utilité esperée dérivée de la transmission du vecteur de score o' =(1,o, 0) (avec o,E {x,y}) est²9 :"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "stem": "page_0025",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9870063066482544,
+        "bbox_xyxy": [
+          171,
+          829,
+          1080,
+          1206
+        ],
+        "text": "La condition posée dans (4) stipule que la meilleure réponse de l'électeur i a la stratégie symetrique v utilisée par tous les autres électeurs est d'attribuer le score le plus élevey a son option du milieu B si 1'utilité t qu'il en tire excede la moyenne ponderée desutilités associées aux options qu'il préfere le plus et le moins. Si1'inverse survient, il a tout intéret a attribuer le score le plus bas x a son optiondumilieu.Ilconvientd'observerquelepoidsutilisedanslamoyennedu coté droit de (4) est un nombre dans [O, 1]. Cela découle immédiatement du fait que d'attribuer le score le plus élevéy a l'option classée au milieu B déplace la massedesprobabilitesdeI'optionAet/ouC'versl'optionB,relativementaune situation ou le score le plus bas x est attribué a B : 8B(s\" + (1, y,0)) - 8 (s\" + (1,x, 0) ≥ 8A(s\"+(1,x,0))-8A(s\"+(1,y,0))≥0 pour tous les s\" E S\""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9819080233573914,
+        "bbox_xyxy": [
+          171,
+          1214,
+          1079,
+          1382
+        ],
+        "text": "Afin de fixer la ou les valeurs particulieres du poids α qui permet a la stratégie de vote symetrique, tel qu'énoncée dans le corollaire 1, de constituer un équilibre, nous nous concentrons sur1l'équation (4) ci-dessus.Plus précisément, notre intéret porte sur le poids rattaché a l'utilité de lélecteur i a légard de son option préférée, quenousdésignonscommele《ratioperte-gain>:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9770486950874329,
+        "bbox_xyxy": [
+          171,
+          458,
+          1079,
+          558
+        ],
+        "text": "Lasolutionoptimalepourlélecteuriestdetransmettrelevecteurdescore O' = (1, y, 0) si U((1, y, 0), t') > U((1, x, 0), t). Nous reportant a (3), cette inégalité peut étre reformulée de la maniere suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9655622839927673,
+        "bbox_xyxy": [
+          171,
+          345,
+          1079,
+          441
+        ],
+        "text": "Pr[s\"j8k(s\" +o') , et 8 est tel que précisé dans la definition2."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.956874430179596,
+        "bbox_xyxy": [
+          171,
+          1397,
+          1078,
+          1461
+        ],
+        "text": "Definition3Leratioperte-gainestcalculéaumoyendel'expression suivante:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9414050579071045,
+        "bbox_xyxy": [
+          216,
+          250,
+          573,
+          323
+        ],
+        "text": "U;(o',t')= ∑E[8k(s\"+o')]t kEK"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9038623571395874,
+        "bbox_xyxy": [
+          238,
+          178,
+          1080,
+          207
+        ],
+        "text": "DEVOTEDERRIERELEVOILE 273"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9012194871902466,
+        "bbox_xyxy": [
+          216,
+          1461,
+          810,
+          1747
+        ],
+        "text": "E[8a(s\" +(1,x,0))-E|8A(s\" +(1,y,0)) L(p(α))= E[8B(s, +(1,y,0)]-E[B(s, +(1,x,0)] Pr[s\"](8A(s\" +(1,x,0))-8A(s\" +(1, y,0) S\"eSn Pr[s\"](8B(s\" +(1,y,0)) - 8B(s\" +(1,x,0)) SneSn X,y"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8839148283004761,
+        "bbox_xyxy": [
+          1041,
+          747,
+          1076,
+          777
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8755890727043152,
+        "bbox_xyxy": [
+          1041,
+          1638,
+          1077,
+          1669
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8749904036521912,
+        "bbox_xyxy": [
+          1041,
+          268,
+          1076,
+          298
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7593998312950134,
+        "bbox_xyxy": [
+          215,
+          571,
+          786,
+          812
+        ],
+        "text": "E|a(s\" +(1,x,0))|-E|8a(s\" +(1,y,0)) B(s\" +(1,y,0))|-E|8B|s n + (1,x,0) E|8a(s\" +(1,x,0)|-E|8a(s\" n +(1,y,0)) |8B(s\" +(1,y,0)))- n+(1,x,0) 1"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.3180464804172516,
+        "bbox_xyxy": [
+          215,
+          573,
+          786,
+          812
+        ],
+        "text": "A(s\" +(1,x,0)}-E|8a(s\" +(1,y,0) (s\" +(1,y,0))|-E|0B|s\" s+(1,x,0) (s\"+(1,x,0) D)-E8 +(1,y,0) |8B(s\"+(1,y,0))|-E8"
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "stem": "page_0026",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9863153100013733,
+        "bbox_xyxy": [
+          171,
+          646,
+          1079,
+          1049
+        ],
+        "text": "Exemple1ConsideronslastrategiedevotesymetriqueprésentéedansWeber (quis'interesseauxequilibresasymptotiquesduvoteparassentiment(c'est-a-dire (x,y)=(O,1))dansunmodelequicomprendnotrestructured'informationentant quecasparticulier,maisqui,contrairementaunotre,secaracteriseparungrand nombred'electeurs).DanslastratégiedeWeber,chaqueélecteurichoisitapartirde out'designelamoyennedesutilitesdeBernoullidel'electeuri.Celasignifieque chaqueélecteurvotedefaconsincereetattribuelescoreplusbasOal'option qu'ilclasseaumilieusit<t'=(t'+t')/2etlescoreplusélevé1siti>t'.C'est- a-direquedanslastrategiedeWeber,leclassementdumilieudechaqueélecteur sevoitattribuerunscoreconformementalaregleenvaleurcritiquedefiniedans leCorollaire1avecunpoidsa=O,5."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.985363781452179,
+        "bbox_xyxy": [
+          172,
+          363,
+          1078,
+          631
+        ],
+        "text": "Le numérateur du ratio perte-gain represente l'esperance de perte de probabilité sur I'option préféréedel'électeuri lorsqu'il attribuelescorelepluséleveya loption qu'il classe au milieu,par opposition au score le plus bas x. Le denominateur est, a son tour, I'esperance de gain de probabilité sur I'option classee au milieu lorsque l'électeur ilui attribuelescorey (plutot que x).Avant d'integrerle ratioperte-gain dans (5) pour fixer la valeur du poids α dans un FSE, il est utile de considérer un exemple de stratégie de vote symetrique sincere de la forme soulevée dans le Corollaire 1, qui ne constitue pas un FSE dans notre modele."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9853310585021973,
+        "bbox_xyxy": [
+          171,
+          1064,
+          1080,
+          1400
+        ],
+        "text": "PourbienvoirquelastrategiedeWeberneconstituepasunFsEduvotepar assentimentdansnotrecontexte,quisecaracteriseparunnombrefinid'electeurs, supposonsqu'ilyadeuxelecteursietj.SijutiliselastrategiedeWeber,alorsi s'attendacequelaprobabilitéd'occurrencedechaquepermutationduvecteur de score (1,0,0) soit p(0,5)E(0,1/6)(ou p(0,5)estcalculé conformementa(2)) etquelaprobabilitéd'occurrencedechaquepermutationde(1,1,O)soit (1/6)-p(o,5).Ilestfaciledeconfirmerqu'ilexistecertainstypesdel'electeuri pourlesquelsvoterconformementalastrategiedeWeberneconstituepasle meilleur choix.Plus précisément, nous avons U;((1,y,0),t')<U;((1,x,0),t)pour touslestiE[o,1telsque:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9639008045196533,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          347
+        ],
+        "text": "NotonsqueLestunefonctiondérivabledeaparcequelaprobabilitéd'occur rencedechaquevecteurdescoreindividueldesautresélecteursestp(a)ou (1/6)-p(α)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9459399580955505,
+        "bbox_xyxy": [
+          173,
+          1682,
+          1078,
+          1750
+        ],
+        "text": "L'exemple 1 illustre le role central joue par le ratio perte-gain dans la détermi- nationdespoidsaassociésauxstratégiesdevotedonnantlieuaunFSEdansle"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.936466634273529,
+        "bbox_xyxy": [
+          217,
+          1412,
+          720,
+          1488
+        ],
+        "text": "5-6p(0,5) 2 -6p(0,5) 2 7 -12p(0,5) 7 -12p(0,5)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8930728435516357,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8886089324951172,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8563523888587952,
+        "bbox_xyxy": [
+          173,
+          1499,
+          1078,
+          1666
+        ],
+        "text": "Cetteinegalitééclairelefaitquelepoidsa=O,5associealastratégiede Weberdiffereduratioperte-gaindel'electeuri: L(p(0,5)) =(5-6p(0,5)) / (7 -12 p(0,5)) >0,5 pour toute distribution G. C'est cet écart entreaet L(p(a))quidisqualifielastrategiedeWebera titredeFSEdans lecasduvoteparassentiment."
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "stem": "page_0027",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9841326475143433,
+        "bbox_xyxy": [
+          171,
+          245,
+          1079,
+          581
+        ],
+        "text": "cas des regles de score (x, y) avec x < y. En fait, a l'équilibre, la valeur du poids α doit étre égale au ratio perte-gain de chaque électeur. De maniere plus formelle, unestrategiedevotedonnantlieuaunFSEdoitmettreenévidenceunpoids α* E [0, 1] tel que L(p(α*)]= α\". En d'autres mots, le poids d'équilibre α* est un point fixe du ratio perte-gain. Pour definir l'équilibre, il faut donc essentiellement déterminer les points fixes de la fonction L(p(a)). Dans ce contexte,la question de savoir s'il existe un point fixe α* a l'interieur de l'intervalle[o, 1] presente un intéret particulier. Cela s'explique par le fait que c'est uniquement lorsque α* E (O, 1) que les électeurs expriment a l'équilibre l'intensité de leurs préférences, dans la mesure ou c'est possible sous une regle de score (x, y) avec x < y."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982506275177002,
+        "bbox_xyxy": [
+          172,
+          596,
+          1079,
+          830
+        ],
+        "text": "Comme condition suffisante pour que le ratio perte-gain présente des points fixes interieurs relativement aux parametres donnes x,y, n du modele et a G, nous avons:L(p(O))>0et L(p(1))<1.Celaest du aufait que chaque foisquelesdeux inegalitéssontconfirmees,nouspouvonsnousreposersurlethéoremedesvaleurs intermédiaires pour établir 1'existence d'une valeur α*E (O,1) telle que L( p(α*) -α* = O. Le résultat suivant montre que la premiere inégalité est confirmée pourtouslesparametresdumodele:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795050024986267,
+        "bbox_xyxy": [
+          172,
+          1078,
+          1079,
+          1453
+        ],
+        "text": "Preuve. Considérons l'électeur i et supposons sans perte de genéralité que son type t' est tel que ti > t' > t'?. Compte tenu de la definition du ratio perte-gain dans (5), il suffit de démontrer qu'il existe un vecteur de scores agregés sn E S\" , dont la probabilité d'occurrence est positive au point α = O(c'est-a-dire 11 Pr[s\"]= = 1/6\") tel que la probabilité de sélection de l'option préférée p(O) 6 del'électeurieststrictementplusfaiblelorsqu'iltransmetlevecteurdescore individuel o' = (1, y, 0) que lorsqu'il transmet le vecteur de score o' = (1, x, 0). Dans ce cas, l'addition dans le numerateur du ratio perte-gain comprend au moins un élément positif : Pr[s\"](8a(s\" + (1,x,0))- 8a(s\" + (1, y,0))) > 0 pour au moins un s\"ESn x,y"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9744868874549866,
+        "bbox_xyxy": [
+          254,
+          1603,
+          1076,
+          1743
+        ],
+        "text": "s1 oi s+Qi 8(s + 0) (y, 1, 0) (1, x, 0) (1 +y, 1 + x, 0) (1,0, 0) (y, 1, 0) (1, y, 0) (1 + y, 1 + y, 0) (%2, %2, 0)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.968178927898407,
+        "bbox_xyxy": [
+          172,
+          929,
+          1079,
+          1063
+        ],
+        "text": "Pour donner aux lecteurs une idée de la maniere d'établir ce résultat, nous presentons icila preuve dansles casdedeux,trois etquatreélecteurs.Nous ren- voyonslelecteur a Giles et Postl(2014)pour plus de renseignements dans le cas decinqélecteursouplus"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9574680328369141,
+        "bbox_xyxy": [
+          173,
+          846,
+          1078,
+          912
+        ],
+        "text": "Lemme 1 Le ratio perte-gain est positifau point α =0 : L(p(O))>0 pour tous lesx<y,touslesnettouslesG."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9262785315513611,
+        "bbox_xyxy": [
+          215,
+          1462,
+          1079,
+          1563
+        ],
+        "text": "(i)Dans le cas de deux électeurs (n = 1),le tableau ci-dessous montre le vecteur de score(individuel et agrégé)s'= (y, 1, O) qui se réalise avec la probabilite Pr[s]=1/6aupointα=0:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8987265825271606,
+        "bbox_xyxy": [
+          239,
+          179,
+          1080,
+          206
+        ],
+        "text": "VAL.IIATNETCMPARAISNT REF LFRRIERFI.EVCL.E 275"
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "stem": "page_0028",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9739730954170227,
+        "bbox_xyxy": [
+          254,
+          535,
+          1077,
+          674
+        ],
+        "text": "$2 ai s²+Qi 8(s² + 0) (y, 1, 1 + y) (1, x, 0) (1 +y,1 +x,1 +y) (/2, 0, 1/2) (y, 1, 1 + y) (1, y, 0) (1 +y, 1 +y, 1 + y) (%3, %3, 1%3)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9718267321586609,
+        "bbox_xyxy": [
+          172,
+          1497,
+          1080,
+          1665
+        ],
+        "text": "Proposition2Danslescasouilyatroisélecteursoucinqélecteursetplus (nombrepairouimpair),toutFSEdetouteregledescore(x,y)avecx<yimplique unestrategiedevotedelaformeenonceedanslecorollaire1avecunpoids a*E(o,1),quellequesoitladistributionGdelaquellesontextraiteslescompo- santesdutypedel'electeur."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9676505327224731,
+        "bbox_xyxy": [
+          171,
+          1348,
+          1080,
+          1482
+        ],
+        "text": "Nous allons maintenant montrer en fonction de quels parametres du modele la deuxiemepartiedelaconditionsuffisantepourl'existencedel'équilibreest confirmée (c'est-a-dire L(p(1))< 1). Cela nous permet d'établir notre deuxieme resultatprincipal:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9644548296928406,
+        "bbox_xyxy": [
+          215,
+          392,
+          1080,
+          494
+        ],
+        "text": "(ii)Dans lecas de troisélecteurs(n=2),le tableau ci-dessous montre levecteur de scores agrégés s² = (y, 1, 1 + y) qui se réalise avec la probabilité Pr[s²]=1/36aα=0:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9642900824546814,
+        "bbox_xyxy": [
+          215,
+          866,
+          1078,
+          968
+        ],
+        "text": "(iii)Dans le cas de quatre électeurs (n = 3),le tableau ci-dessous montre le vecteur de scores agrégés s = (1 + 2y, 2 + y, 0) qui se réalise avec la pro- babilitéPr[s²]=1/216aa=0:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9637013673782349,
+        "bbox_xyxy": [
+          172,
+          1681,
+          1079,
+          1749
+        ],
+        "text": "Ce qu'implique la Proposition 2,c'est que les électeurs expriment a 1'équilibre 1'intensitédeleurspréférencesdanslamesureadmiseparlesreglesdescore avec"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9600224494934082,
+        "bbox_xyxy": [
+          170,
+          1210,
+          1078,
+          1343
+        ],
+        "text": "La transmission du vecteur de score individuel o' = (1, y, O) par lélecteur i déplace la masse de probabilités de l'option A a B, par rapport a la transmission de 1"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9188851118087769,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9085717797279358,
+        "bbox_xyxy": [
+          254,
+          720,
+          1077,
+          848
+        ],
+        "text": "La transmission du vecteur de score individuel o' = (1, y, O) par l'électeur i déplace la masse de probabilités de l'option A a B, par rapport a la trans- mission de o' = (1, x, 0) : 8A(s^ + (1,x,0)) -8(s^ +(1,y,0)) = - 6"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8872062563896179,
+        "bbox_xyxy": [
+          173,
+          179,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "table",
+        "layout_score": 0.8075562715530396,
+        "bbox_xyxy": [
+          255,
+          1009,
+          1078,
+          1148
+        ],
+        "text": "s3 s²+α 8(s3 + 0) (1 + 2y, 2 + y, 0) (1, x, 0) (2 + 2y,2 +x+ y,0) (1,0,0) (1 + 2y,2 +y,0) (1, y, 0) (2 + 2y,2+ 2y,0) (%2, 1%2, 0)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6203073263168335,
+        "bbox_xyxy": [
+          253,
+          245,
+          1079,
+          374
+        ],
+        "text": "La transmission du vecteur de score individuel o' = (1, y, O) par l'électeur i déplace la masse de probabilités de l'option A a B, par rapport a la trans- mission de o' = (1, x, 0): 8(s' + (1,x,0)) -8(s' + (1,y,0) = - ?"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.531136691570282,
+        "bbox_xyxy": [
+          255,
+          1009,
+          1078,
+          1148
+        ],
+        "text": "s3 s²+α 8(s3 + 0) (1 + 2y, 2 + y, 0) (1, x, 0) (2 + 2y,2 +x+ y,0) (1,0,0) (1 + 2y,2 +y,0) (1, y, 0) (2 + 2y,2+ 2y,0) (%2, 1%2, 0)"
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "stem": "page_0029",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985880434513092,
+        "bbox_xyxy": [
+          172,
+          397,
+          1079,
+          807
+        ],
+        "text": "Preuve. Considérons l'électeur i et supposons sans perte de genéralité que son type t est tel que ti > t > ti. Nous établissons maintenant que L(p(1)) < 1. Compte tenu de la définition du ratio perte-gain dans (5), il suffit de demontrer qu'il existe un vecteur de score agrégé s² E S²、qui se réalise avec une probabilité positive au point α = 1 (c'est-a-dire Pr[s\"]= (p(1))² = 1/(6)\") tel que loption du milieu de l'électeur i accroit sa masse de probabilité par rapport a son option la moins souhaitée (et non pas seulement par rapport a son option preferee) lorsqu'il transmet le vecteur de score individuel o' = (1, y, 0) plutot que le vecteur de score o' = (1, x, 0). Dans ce cas, le numerateur du ratio perte-gain est strictement plus petit que le deno- minateur : 8B (s\" +(1,y,0))-8B(s\" +(1,x,0)) >8A(s\" +(1,x,0))-8A(s\" +(1,y,0)) Considérons maintenant le vecteur de scores agregés s² E S² \" dans le tableau ci- dessous, qui survient avec la probabilité Pr[s²] = 1/36 :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9851784110069275,
+        "bbox_xyxy": [
+          172,
+          1480,
+          1080,
+          1751
+        ],
+        "text": "Limites de la Proposition 2. Nous soulignons d'abord que la Proposition 2 affirme essentiellement qu'un résultat existe: elle montre qu'il y a une valeur α* telle que la strategied'équilibre des électeurs lesincite a exprimerl'intensitedeleurs preferences. Cependant, elle n'établit pas l'unicité de α*, ni n'explique comment α* varie en fonction des parametres x, y, n du modele et de la distribution G. Pour traiter au moins partiel- lement de ces limites, nous offrons ci-dessous une description exhaustive du ratio perte-gaindanslecas detroisélecteurs,cardanscettesituation,lenombredevecteurs descores agregéspossibles est encoregerable.Pour untraitement du contexte a deux"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982170820236206,
+        "bbox_xyxy": [
+          172,
+          1261,
+          1079,
+          1465
+        ],
+        "text": "Comme le gain lié a l'option B (qui apparait dans le denominateur de L) surpasse la perte liée a l'option A (qui apparait dans le numérateur de L), il s'ensuit immé- diatement que L(p(1)) E (O,1). Combiné avec le fait que L(p(O)) >0 a partir du lemme 1, nous pouvons déduire, en nous reposant sur le théoreme des valeurs intermédiaires, qu'il existe au moins un poids d'équilibre α* E (0, 1) pour chacune desregles descore(x,y)avecx<y et chacune des distributions G."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9749955534934998,
+        "bbox_xyxy": [
+          172,
+          1039,
+          1078,
+          1140
+        ],
+        "text": "Le tableau montre que pour s² = (x, 1, 1 + x), la transmission du vecteur de score o' = (1, y, 0) par l'électeur i déplace la masse de probabilité des options A et C vers B,relativement a la transmission de O' = (1, x, 0) :"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9704179167747498,
+        "bbox_xyxy": [
+          172,
+          850,
+          1077,
+          989
+        ],
+        "text": "s²+α 8(s² + 0) (x, 1, 1 + x) (1, x, 0) (1 + x, 1 + x, 1 + x) (%, %, %3) (x, 1, 1 + x) (1, y, 0) (1 +x,1 +y,1+x) (0, 1, 0)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9698522686958313,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          382
+        ],
+        "text": "x<y.Pour donner aulecteur uneidée dela maniere d'établir cerésultat,nousnous appuyons ici sur la preuveprésentée dansle cas detrois électeurs et référons le lecteur a l'annexe A.3 de Giles et Postl (2014) pour plus de renseignements sur la preuveprésentéedanslecasdecinqélecteursetplus."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.916170597076416,
+        "bbox_xyxy": [
+          216,
+          1151,
+          677,
+          1250
+        ],
+        "text": "(1,y,0))=1/1 +(1,x,0))=2/3"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.889633059501648,
+        "bbox_xyxy": [
+          239,
+          179,
+          1079,
+          206
+        ],
+        "text": "VAT.LIATNET:COMPARAISNT REF ERRIERFIEVCIL.E"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "stem": "page_0030",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9817454218864441,
+        "bbox_xyxy": [
+          172,
+          639,
+          1079,
+          1441
+        ],
+        "text": "Nous renvoyons le lecteur a 1'annexe A.5 de Giles et Postl (2014) pour la preuve de la Proposition 3. Lelecteur interesséy trouvera un tableau contenant toutes les 64 classes d'équivalence qui surgissent avec trois électeurs, de pair avec le ratio perte-gain de chacune des classes d'équivalence. Pour une illustration graphique de ces classes d'équivalence, voir les partitions indiquées par les lignes pointillées dans le graphique 2 ci-dessous. Bien que nos résultats dans la Proposition 3 montrent que le nombre de classes d'équivalence pour un nombre donné d'electeurs n'est pas spécifique a la distribution employée, il est évident que la ou les valeurs du poids d'équilibre α*rattachéa chaque classe d'équivalencedependent dela distribution G par le biais du ratio perte-gain. Meme dans la situation relativement simple ou il y a trois électeurs, il est impossible de formuler une expression analytique pour repré- senter le poids d'équilibre α* comme fonction des parametres x et y du modele et de la distribution G. Ce n'est pas possible parce que meme dans le cas des distributions paramétrisées les plus simples (telles que G() = \", avec b > O), la condition d'équi- libre L(p(α*)) = α*génere des expressions compliquées par l'intermédiaire desquelles les résultats pour α* ne peuvent étre obtenus qu'au moyen de simulations numériques. Dans le cas de trois électeurs et de la distribution G uniforme - contexte dans lequel unpoidsd'équilibreuniqueα*existepourchaqueclassed'équivalenceparcequ'au moins une des deux conditions suffisantes décrites dans la note 30 de bas de page estsatisfaite-legraphique2illustrecertainsresultatsnumeriquesobtenuspour a en fonction de x et y. Afin de faciliter I'interpretation de la figure, notons que chacun des nombres superposés sur le polygone du graphique 2 correspond a la valeur α relativeatouteslesreglesdescoreadeuxparametresdontlesvaleursxetyforment un point a l'interieur de ce polygone (a l'exclusion des bordures pointillées)31."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9611270427703857,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          345
+        ],
+        "text": "electeurs et un apercu du contextea quatreélecteurs,voir Giles et Postl (2014),ou on montre que ce ne sont pas toutes les regles de score (x, y) avec x < y qui induisent un FSEtransposantl'intensitédespreférences,memelorsquelaregledevotelepermet."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8699231743812561,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8670229911804199,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8402592539787292,
+        "bbox_xyxy": [
+          173,
+          359,
+          1078,
+          626
+        ],
+        "text": "Proposition3Danslecasdetroisélecteurs,lastratégiedevoteduFSE repartitl'ensembledesreglesdescore(x,y)avecx<ydans64classesd'equiva- lence,quellequesoitladistributionGdelaquellelesutilitesdeBernoullides electeurssonttirées.Pour38decesclassesd'équivalence-quipresententtoutes unratioperte-gainmonotone-ilexisteunpoidsd'équilibreuniqueapourchaque G.Encequiconcerneles26dernieresclassesd'équivalence-quipresententun ratioperte-gainnonmonotone-l'unicitedupoidsd'equilibrea*estspecifiquea ladistributionemployee3o"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7228431105613708,
+        "bbox_xyxy": [
+          171,
+          1495,
+          1080,
+          1748
+        ],
+        "text": "30. Deuxconditionssuffisantes(nonmutuellementexclusives)pourl'unicitedea*sontles suivantes:(i)leratioperte-gainassociealaclassed'equivalenceestuneapplicationcontractante (c'est-a-direL'(p(α))p'(α)≤k<1 pour tous les α E(0,1));(ii)le ratio perte-gain associé a la classe d'équivalence est soit partout strictement convexe, soit partout strictement concave (c'est-a-dire L\"(p(α)(p'(α))+L'(p(a)p\"(α)≥0pour tous lesαE(0,1)). 31.En vue de ne pas surcharger le graphique 2, nous présentons seulement les valeurs α* pour les 20 classes d'équivalence qui sont associées aux intérieurs des différents polygones. Les 44 classes d'équivalencequirestentsontassocieesauxfrontierespointilléesentrelespolygones,ainsiqu'aux intersectionsdesfrontierespointillées."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6807770729064941,
+        "bbox_xyxy": [
+          173,
+          359,
+          1079,
+          626
+        ],
+        "text": "Proposition3Danslecasdetroisélecteurs,lastratégiedevoteduFSE repartitl'ensembledesreglesdescore(x,y)avecx<ydans64classesd'équiva- lence,quellequesoitladistributionGdelaquellelesutilitesdeBernoullides electeurssonttirées.Pour38decesclassesd'équivalence-quipresententtoutes unratioperte-gainmonotone-ilexisteunpoidsd'equilibreuniquea*pourchaque G.Encequiconcerneles26dernieresclassesd'équivalence-quipresententun ratioperte-gainnonmonotone-l'unicitedupoidsd'equilibrea*estspecifiquea ladistributionemployee3o"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4171292185783386,
+        "bbox_xyxy": [
+          172,
+          1646,
+          1078,
+          1748
+        ],
+        "text": "31.Envue de ne pas surcharger legraphique 2,nous presentons seulement lesvaleurs α*pour les 20 classes d'équivalence qui sont associées aux interieurs des différents polygones. Les 44 classes d'équivalence qui restent sont associees auxfrontierespointillées entrelespolygones,ainsi qu'aux intersectionsdesfrontierespointillees"
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "stem": "page_0031",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9851227402687073,
+        "bbox_xyxy": [
+          172,
+          1066,
+          1079,
+          1466
+        ],
+        "text": "Dans cette section, nous nous reposons sur notre caractérisation de Iéquilibre presentée danslasection 4pour comparerles regles descore(x,y)surla base de leur efficacité a choisir une option qui est représentative des préférences des électeurs.Nous utilisons la definition del'efficacitéprésentée dansWeber (1978). Formulée au moyen du vocabulaire utilisé dans la litterature du mechanism design, lamesured'efficacitédeWeberestdefiniecommeladifferencedegaindebien-étre entre une regle (x,y) et une selection aléatoire d'une option dans K, divisée par la differencedegaindebien-étrederivéd'unereglededécisionoptimaledepremier ranget uneselection aléatoire.Ledenominateur de ceratiorepresentepar consé- quent legainmaximal debien-étrequ'onpeutraisonnablement attendre de ce scenariohypothetiqueselonlequel lesproblemesderevelationdespreferences de l'electeursontabsents."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841894507408142,
+        "bbox_xyxy": [
+          172,
+          1483,
+          1079,
+          1749
+        ],
+        "text": "Nous entendons par bien-étre d'une regle de score (x, y), l'espérance de bien- etreutilitaristederivéedel'additiondesutilitesesperéesexantedesélecteursdans un FSE de la regle de score. En raison de la symétrie dans notre modele de la section 3, ou tous les électeurs sont identiques ex ante, il suffit de calculer l'utilité esperée exante d'unélecteurreprésentatif et dela multiplier par lenombre d'elec- teurs (c'est-a-dire par n + 1) pour obtenir le bien-étre espéré. En outre, comme tous les classements ordinaux des options dans K ont la meme probabilité d'occur- rence,nouspouvonscalculerl'utilitéespéréeexantedetoutélecteurienfixant"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9548189640045166,
+        "bbox_xyxy": [
+          180,
+          354,
+          1051,
+          878
+        ],
+        "text": "1.0 .793 .667 .667 775 .667 0,8 .755 .821 8 .5 .805 596 5 .778 56 0,6 .76 .784 .5 .726 .681 0,4 .647 5 0,2 0 0,0 0,2 0,4 0,6 0,8 1,0 x"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9018986225128174,
+        "bbox_xyxy": [
+          533,
+          246,
+          718,
+          279
+        ],
+        "text": "GRAPHIOUE2"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8992407917976379,
+        "bbox_xyxy": [
+          173,
+          1016,
+          582,
+          1047
+        ],
+        "text": "o1vofions dehlen"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8354858756065369,
+        "bbox_xyxy": [
+          176,
+          297,
+          1076,
+          330
+        ],
+        "text": "GUNIFORME"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.831341564655304,
+        "bbox_xyxy": [
+          240,
+          179,
+          1078,
+          206
+        ],
+        "text": "VAL.IIATNETCME REF )ERRIERFTEVCL.E"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5903714299201965,
+        "bbox_xyxy": [
+          177,
+          297,
+          1054,
+          329
+        ],
+        "text": "ALELIRS"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4966769814491272,
+        "bbox_xyxy": [
+          174,
+          951,
+          781,
+          982
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.484082967042923,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.3609904944896698,
+        "bbox_xyxy": [
+          174,
+          951,
+          781,
+          982
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "stem": "page_0032",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9872592091560364,
+        "bbox_xyxy": [
+          171,
+          567,
+          1081,
+          835
+        ],
+        "text": "Afin de définir formellement la mesure d'efficacité de Weber, nous devons préciser les notions d’《 optimum depremier rang>et de《sélection aléatoire >. Les deux notions sont des cas de ce qu'on appelle les regles de vote directes. Décrite de maniere formelle,une regle de vote directe (DVR) dans le present modele est des distributions de probabilité sur K, et f (t) est la probabilité que l'option k E K soit choisie par le mécanisme lorsque le profil de types des électeurs est t = (t',..., tn + 1). Le bien-etre espéré ex ante associé a uneDVR est:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.977486789226532,
+        "bbox_xyxy": [
+          173,
+          1221,
+          1078,
+          1354
+        ],
+        "text": "Une DVR qui est un 《 optimum de premier rang >, a l'opposé, est une DVR quimaximiselebien-étreesperedans(6)enfonctionduscenariohypothetiqueou les types t detous les n+1 électeurs,unefois réalisés,deviennent observables avant que le choix collectif n'ait a étre fait33 :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9711217284202576,
+        "bbox_xyxy": [
+          172,
+          971,
+          1080,
+          1070
+        ],
+        "text": "Lorsque nousparlons de《selection aléatoire>,nous entendons icila DVRf qui selectionnechaqueoptiondansK aveclamemeprobabilité,quelsquesoientles typesdeselecteurs:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.942977249622345,
+        "bbox_xyxy": [
+          171,
+          1658,
+          1079,
+          1750
+        ],
+        "text": "32.Voir (3) pour la définition de U,((1,o',0),t'), ou o' E {x,y}. 33.C'est-a-dire une DVR qui est un optimum de premier rang est une regle de décision classiquementefficaceexanteausensdeHolmstrometMyerson(1983)."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9377264976501465,
+        "bbox_xyxy": [
+          212,
+          851,
+          612,
+          950
+        ],
+        "text": "Bien-étre def =E ∑f:(t) Eti kEK iEN"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9307134747505188,
+        "bbox_xyxy": [
+          218,
+          366,
+          1010,
+          548
+        ],
+        "text": "S.SS =6(n +1)l U;((1,y,0),t')g(t)dt²g(t)dt g(t;)dti)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9301250576972961,
+        "bbox_xyxy": [
+          212,
+          1136,
+          871,
+          1208
+        ],
+        "text": "(fA(t),fB(t),fc(t))= pour tous les tE [0,1j3(n + 1)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.927763044834137,
+        "bbox_xyxy": [
+          479,
+          179,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9223148822784424,
+        "bbox_xyxy": [
+          212,
+          1429,
+          693,
+          1564
+        ],
+        "text": "tk>max1xk{∑ieNtifFB(t)=1 et <maxlzk }fFB(t)=0. iEN"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9206175208091736,
+        "bbox_xyxy": [
+          210,
+          1373,
+          1078,
+          1409
+        ],
+        "text": "Definition5UneDVR chaauekek"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9184799790382385,
+        "bbox_xyxy": [
+          173,
+          178,
+          219,
+          205
+        ],
+        "text": "X"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9165681600570679,
+        "bbox_xyxy": [
+          211,
+          1085,
+          909,
+          1121
+        ],
+        "text": "Detnitlon 47g0VR aleatoiresr"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8749660849571228,
+        "bbox_xyxy": [
+          1040,
+          885,
+          1076,
+          914
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7961760759353638,
+        "bbox_xyxy": [
+          171,
+          246,
+          1079,
+          351
+        ],
+        "text": "un classement ordinal représentatif (associé aux utilités t; > t? > t*'.) et en multipliant ensuite par l'utilité esperée de six électeurs i du classement représentatif2. Ainsi le bien-etre esperé, désigné par W, , est :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6010459065437317,
+        "bbox_xyxy": [
+          171,
+          246,
+          1078,
+          351
+        ],
+        "text": "un classement ordinal representatif (associe aux utilités t' > t' > t*'.) et en multipliant ensuite par l'utilité esperée de six électeurs i du classement représentatif2. Ainsi, le bien-etre esperé,désigné par W,, est :"
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "stem": "page_0033",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9862616658210754,
+        "bbox_xyxy": [
+          172,
+          693,
+          1079,
+          1000
+        ],
+        "text": "Dans cette section,nous présentons les résultats de simulations numeriques relativement aux niveaux d'efficacité de toutes les regles de score (x,y) dans une élection avectroisélecteurs35.Nouscherchonsavanttouta ameliorernosconnais- sancesquantalareglequiestlaplusefficacepourchoisirl'optionrepresentative des preferences des électeurs.Nous souhaitons également découvrir si les regles de score (x, y) qui permettent l'expression de l'intensité des préférences sont plus efficacesquecellesquipermettentauxélecteursd'exprimerleursclassements ordinauxseulement(cesdernieresreglessontcellesquisetrouventsurlalignea 45 degrés a l'intérieur du carré, et la regle de Borda est I'une d'elles)36"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9840585589408875,
+        "bbox_xyxy": [
+          172,
+          1017,
+          1079,
+          1404
+        ],
+        "text": "Pour obtenir les résultats de nos simulations numériques, nous avons choisi des distributions G particulieres a partir desquelles ont été extraitesles compo- santesdutypedel'électeur t'etavonsensuiteutiliséMathematicapourcalculer les poids d'équilibre α*qui caractérisent les stratégies devote dans un FSE.Pour rendre la portée des résultats de nos simulations aussi étendue que possible,nous avonsutilisé25distributionsbetadifférentespour G.Lafonctiondedensité g(; a, b) et la fonction de distribution cumulative G(; a, b) de la distribution beta sont paramétrisées au moyen de deux parametres de forme a, b > 0 : g(%;a,b)=≤a(1-≤)b / ∫*sa(1-s)ds et G(;a,b)= ∫sa(1-s)ds / ∫sα(1-s) ds pourO≤≤1.Afind'accélérerlecalcul despoidsd'équilibreα*etdesniveaux de bien-étrequileursontassociés,nousgeneronsnos25distributionsbetaenfaisant"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982315182685852,
+        "bbox_xyxy": [
+          171,
+          245,
+          1079,
+          462
+        ],
+        "text": "Selon la définition 5, le bien-etre espéré ex ante d'une DVR qui est un optimum de premier rang diminue l'esperance de la statistique d'ordre max{wa, W,, wc}, ou Wk=> -\"t est une variable aléatoire sur le support [O, n + 1], tandis que les G证N variables aléatoires de toute paire w,w, (k, I E K, l ≠ k) sont independantes et identiquementdistribuees34.Nouspouvonsmaintenantdefinirformellementl'effi- cacitéd'uneregledevote(x,y):"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9243521094322205,
+        "bbox_xyxy": [
+          170,
+          1477,
+          1079,
+          1749
+        ],
+        "text": "34.Si on désigne par H la distribution de la variable aléatoire_wk,alors la distribution de la statistique d'ordre max{w,wB, w} est H(w)=Pr[max{wA,WB,wc}]=(H(w). Notons qu'il est difficiledeformulerles expressions analytiques deH dansle cas des distributions arbitraires G.Dans nos simulations numériques discutées plus loin, nous calculons par conséquent le bien-etre corres- pondant a l'optimum de premier rang par le biais d'experiences de Monte-Carlo en utilisant Mathematica 8.0pourWindows7x64. 35.Nous nousconcentrons sur troisélecteurs parce qu'il s'agit du nombre d'électeurs le plus petit pour lequel la stratégie devotedu FSE selonle corollaire1 requiert queα*E(O,1)pour tous les x<y. 36.1 Kim(20i6)prouve analytiquementquedanslecasdeladistributionuniforme,lesregles ordinalesnemaximisentpaslebien-etresocial."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9158784747123718,
+        "bbox_xyxy": [
+          173,
+          641,
+          487,
+          672
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8916692137718201,
+        "bbox_xyxy": [
+          239,
+          178,
+          1077,
+          207
+        ],
+        "text": "281"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8021376729011536,
+        "bbox_xyxy": [
+          217,
+          487,
+          733,
+          565
+        ],
+        "text": "Wx, - Bien-etre de f Efficacite： Bien-etre de fFB - Bien-etre de f"
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "stem": "page_0034",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9849234819412231,
+        "bbox_xyxy": [
+          172,
+          691,
+          1079,
+          1063
+        ],
+        "text": "Dans le tableau 1 plus bas, figurent dans la premiere colonne les niveaux d'effi- cacité des cas particuliers bien connus des regles de score (x, y) (le contenu de la deuxiemecolonneseraexpliquedanslasection5.3).Leschemasuivantémerge: le vote négatif est la regle de score a deux parametres la moins performante, la regle de pluralité arrivant a l'avant-derniere place. Levote par assentiment surpasse cesdeuxregles en termes deperformance,mais il est surpassepar la meilleure regle ordinale”°.Ce n'estpasétonnant,comptetenu dufait quelevotepar assen- timentnepermetpas auxélecteursd'exprimersans ambiguitéleursclassements ordinaux,memes'il leur permet d'exprimer l'intensitedeleurspreférences.Les regleslesplusefficacespermettentauxélecteursd'exprimeralafoisleurclassement ordinaletl'intensitédeleurspreférences."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982651948928833,
+        "bbox_xyxy": [
+          173,
+          368,
+          1078,
+          672
+        ],
+        "text": "Notons que nous pouvons vraiment comparer les niveaux d'efficacité des dif- férentes regles de score(x,y)ici parce que nous avons choisi nos 25distributions beta de telle sorte que chaque regle donne lieu a un point d'équilibre unique α* E(O, 1). Les résultats de nos simulationsindiquent queles regles de score (x,y) qui entrainent l'efficacitemoyennelapluséleveepourtoutesles25distributionsbetasontcelles qui apparaissent danslecoin superieurgauchedugraphique3(celles quigenerent une efficacitéde89,06%)'.Ces regles permettent auxélecteurs d'exprimerI'intensite deleurspreférencesparcequex<y.Nousconstatonségalementquelesregles ordinales(c'est-a-direcellesoux=y)negenerentpasl'efficacitémaximale."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9561231732368469,
+        "bbox_xyxy": [
+          173,
+          1637,
+          1079,
+          1748
+        ],
+        "text": "37. Comme dans le graphique 2, nous montrons les niveaux d'efficacite de seulement 20 classes d'équivalence associées auxinterieursdesdiverspolygones. 38.De toutes les regles avec x = y, celle ou x = y = 0,6 génere l'efficacité moyenne la plus élevéepourtoutesles25distributionsbeta"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9557114243507385,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          346
+        ],
+        "text": "varierseparementchacundesdeuxparametresdeformeaetbde1a5parincre- ments de 1 (plutot qu'en increments plus petits). Par exemple, la distribution uniforme correspondaucasoua=b=1."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8840159773826599,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8607107996940613,
+        "bbox_xyxy": [
+          174,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 35,
+    "stem": "page_0035",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9804219603538513,
+        "bbox_xyxy": [
+          168,
+          1086,
+          1078,
+          1458
+        ],
+        "text": "Efficacité par Efficacite par Regle de selection (x, y) rapport a fFB rapport a f Vote negatif (1, 1) 67,28 % 73,83 % Regle de la pluralité (0, 0) 76,76 % 84,25 % Vote par approbation (0, 1) 83,71 % 91,88 % Meilleure regle ordinale (0, 6,0, 6) 86,41 % 94,83 % Regle la plus efficace (0, 4,0,9) 89,06 % 97,74 %"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9146853089332581,
+        "bbox_xyxy": [
+          178,
+          336,
+          1050,
+          878
+        ],
+        "text": "1,0 89.06 85.92 82.97 70:68 0,8 88.25 88.60 82.77 88.60 87.57 68 88.68 87.87 0,6 88.56 88.12 87.54 88.20 88.14 0,4 87.89 87.51 0,2 0.0 0,2 0,4 0,6 0,8 1,0 x"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8483799695968628,
+        "bbox_xyxy": [
+          532,
+          246,
+          717,
+          279
+        ],
+        "text": "GRAPHIOUE3"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7927191257476807,
+        "bbox_xyxy": [
+          239,
+          179,
+          1079,
+          206
+        ],
+        "text": "VAT.LIATNET:CMPARAISNT REF"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5079324245452881,
+        "bbox_xyxy": [
+          326,
+          978,
+          922,
+          1063
+        ],
+        "text": "TABLEAU1 EFFICACITEMOYENNEDESREGLESDEVOTEBIENCONNUES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4418655037879944,
+        "bbox_xyxy": [
+          547,
+          979,
+          701,
+          1012
+        ],
+        "text": "TABLEAU1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4369356036186218,
+        "bbox_xyxy": [
+          328,
+          297,
+          922,
+          329
+        ],
+        "text": "PR 25"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3937349021434784,
+        "bbox_xyxy": [
+          327,
+          1031,
+          921,
+          1062
+        ],
+        "text": "EFFICACITE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3831600844860077,
+        "bbox_xyxy": [
+          1032,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "stem": "page_0036",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9856980443000793,
+        "bbox_xyxy": [
+          173,
+          927,
+          1079,
+          1293
+        ],
+        "text": "Nous concluonscettesectionententantdemieuxcomprendrelamesure dans laquellel'efficacitemaximalevarieselonla distribution G.Nosresultatsrevelent que parmi les 64 classes d'équivalence des regles de score (x, y) avec x < y, seulement 5 maximisent l'efficacité(chaque classe pour un sous-ensemble different de nos 25 distributions beta). Les trois premieres classes sont indiquées par les nombres superposéssurlesrégions ombragees dugraphique 4(les classesI, II et IVsont toutes les 3 représentées par un triangle gris), tandis que les classes IHI et V sont représentées par les lignes épaisses de couleur noire39. Le graphique confirme les attentesquenousavonsformuléesaproposdesniveauxmoyensd'efficacité,a savoir que les regles ordinales ne generent pas le niveau d'efficacité maximal pour chacunedes25distributionsbeta."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9809330701828003,
+        "bbox_xyxy": [
+          173,
+          1311,
+          1079,
+          1610
+        ],
+        "text": "Pourillustrerles typesdedistributionsassociésa chacunedes classes d'équi- valence d'efficacité maximale,nous dressons dans le tableau 2la liste des 5 classes en fonction des distributions beta vis-a-vis desquelles chacune de ces classes est la plus efficace.Nous illustronségalement,a titre indicatif,la forme dela densité associéea chaque distributionbetademaniere a donner uneidéedela mesure dans laquelle la classe de regles de selection d'efficacité maximale varie en fonction de la concentrationdelamassedeprobabilitédanschaquedistribution.L'observation qui ressort du tableau 2montre quepourles distributions qui placent unegrande partie de leur masse de probabilité sur les utilités élevées, la regle de score (x, y) la"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9596596956253052,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1079,
+          1748
+        ],
+        "text": "39. Leslignespointilleesautourdeszones ombrageesindiquentquelesfrontieressontexclues. Pour connaitre le sous-ensemble de regles de sélection (x, y) qui correspond aux classes II, III, IV et Vdanslegraphique,voirletableau11dansGilesetPostl(20l4)"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9440807700157166,
+        "bbox_xyxy": [
+          179,
+          345,
+          1049,
+          875
+        ],
+        "text": "1,0 III 0,8 IV 0,6 0,4 0,2 0,0 0,2 0,4 0,6 0,8 1,0 x"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8778873682022095,
+        "bbox_xyxy": [
+          533,
+          247,
+          718,
+          278
+        ],
+        "text": "GRAPHOE4"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8715925216674805,
+        "bbox_xyxy": [
+          173,
+          180,
+          217,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7978788614273071,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5439721941947937,
+        "bbox_xyxy": [
+          396,
+          298,
+          851,
+          328
+        ],
+        "text": "CLASSESI-IV"
+      }
+    ]
+  },
+  {
+    "page": 37,
+    "stem": "page_0037",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9818189144134521,
+        "bbox_xyxy": [
+          172,
+          246,
+          1078,
+          581
+        ],
+        "text": "plus efficace comporte une valeur x pres de 0,5 et une valeur y > 1 - 0,5x(voir les reglesIVetV);encequi concernelesdistributionsdontlamassedeprobabilité est repartie de maniere plus égale,les regles les plus efficaces comportent unécart entrelesvaleursxety(voirlesreglesIIetIfl)quiexcedeceluiquiestdegage conformement auxregles IV et V. Toutefois,commelegraphique31'indique,les niveaux d'efficacité des classes II, IfI et IV sont pratiquement identiques (l'efficacite de la classe IlI, qui a été omise du graphique 3, est de 89,04 %). Cela permet de croire que toutes ces regles sont susceptibles de tres bien performer pour un large éventail de distributions. La classe I est la plus efficace seulement quand la masse de probabilité est tres concentrée autour de valeurs peu élevées (comme dans B(1, 5))."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9625616073608398,
+        "bbox_xyxy": [
+          169,
+          757,
+          1080,
+          1746
+        ],
+        "text": "Forme de g(; a, b) Regles de selection les a titre indicatif Parametres a et b plus efficaces a=1,b = 5 Classe I a=1,2<b<5 Classe II 2≤a<b≤5 Classe II a= 1,b = 2 Classe II α = 1,b = 1 Classe II a =2,b= 1 Classe II a=b>1 Classe III 2≤b<a≤5 ClasseIV b=1,2<a<5 Classe V"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8722050189971924,
+        "bbox_xyxy": [
+          239,
+          180,
+          1079,
+          206
+        ],
+        "text": "EVALIIATIONETCOMPARAISONDESR REGLEST )EVCTEIERRIERFTEVC)L.E X"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8437104225158691,
+        "bbox_xyxy": [
+          183,
+          646,
+          1067,
+          732
+        ],
+        "text": "TABLEAU2 REGLEDESELECTION(X,y)LAPLUSEFFICACEASSOCIEEACHAQUEDISTRIBUTIONBETA"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5568719506263733,
+        "bbox_xyxy": [
+          548,
+          647,
+          703,
+          679
+        ],
+        "text": "TABLEAU2"
+      }
+    ]
+  },
+  {
+    "page": 38,
+    "stem": "page_0038",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9837950468063354,
+        "bbox_xyxy": [
+          172,
+          1032,
+          1079,
+          1751
+        ],
+        "text": "Il est important de souligner que l'hypothese formulée dans notre modele selon laquellel'esperance del'utilité est dependante del'état rend impossible deremplacer, sans perte de generalité,les types initiaux t des électeurs avec leurs types normalisés (seulel'utilitédeBernoulli t’a l'égarddel'optionlamoinssouhaitéepeutétre normalisée a zéro sans perte de genéralité pour chaque type t' E [o, 1]). Toutefois, la caractérisation standard des DVR compatibles avec les incitations (voir par exempleRochet,1987)impliquequesiuneDVRincitelesélecteursarévéler sincerement leurs types, alors le mécanisme peut seulement prendre en compte les types normalisés des électeurs. En d'autres mots, une DVR qui est compatible avec les incitations doit traiter le type t' de la meme maniere que le type t'. C'est ce qu'on appelle le 《 regroupement des types proportionnels > dans Hortala-Vallve (2009). Si ce n'était pas le cas et que l'électeur pouvait s'attendre a une distribution plus favorable sur les options simplement en exagerant toutes les composantes de son vecteur de types par lememefacteur, alors il serait dans son intéretde lefaire. Bien que les exigences d'incitation d'une DVR peuvent nécessiter des contraintes en sus des regroupements des types proportionnels, de toute évidence, aucune DVR possédant la propriété de compatibilité d'incitation ne peut genérer un bien-étre esperéex anteplusélevequenepeut lefaire unmecanisme satisfaisant seulement a 1l'exigencedesregroupements.Parconsequent,pour calculerl'efficacitedes regles de sélection (x, y), ce dernier mécanisme offre une base plus réaliste que les regles dedécisionquisontdesoptimadepremierrang"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9830475449562073,
+        "bbox_xyxy": [
+          172,
+          298,
+          1079,
+          1016
+        ],
+        "text": "I1estimportantdenoter quel'évaluationdesreglesdescoreadeuxparametres donne un portait peu flatteur de leur efficacite par rapport aux regles de décision constituant un optimum de premier rang. Cette situation s'explique par le fait que la regle de decision qui constitue un optimum de premier rang n'a pas a satisfaire des contraintes visant a assurer que tous les électeurs déclarent leurs types defacon sincere.Par conséquent,noussouhaiterionsutiliser unjalonplusréalistepour comparerlesregles descorea deuxparametres.Idéalement,nous aimerionsles comparer a la regle de décision qu'on appelle 《 optimum de second rang > (c'est- a-dire les regles DVR possédant la propriété de compatibilité d'incitation qui maximisent le bien-étre ex ante). Toutefois, une caracterisation complete des DVR possédant cette proprieteva au-dela de la portée du présent article.Afin de faire des progres malgre cette difficulté, nous soulignons ici une propriété d'équilibre des regles de classement (x, y) qui doit également se confirmer pour toute DVR possédant la propriété de compatibilité d'incitation : considerons tout électeur i et choisissons deux types proportionnels ↑i, fi E [0, 1] qui traduisent le meme clas- sement ordinal des options. Par 《 proportionnel >, on entend que ti = c(tj, ↑}, f) pour certains scalaires a valeur réelle c > O. Observons que conformement a la stratégie de vote symetrique du corollaire 1, si le type ↑i transmet le vecteur de score individuel o'=(1, y, O),alors le type t' le fera également. Cela signifie que tous les types t E [0, 1] possédant le meme 《 type normalisé >(1,(t² - t) / (f' - t),0 soumettrontlememevecteurdescoreo'quefi."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9048675298690796,
+        "bbox_xyxy": [
+          174,
+          246,
+          638,
+          280
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.863884687423706,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8553939461708069,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 39,
+    "stem": "page_0039",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9854996800422668,
+        "bbox_xyxy": [
+          172,
+          689,
+          1079,
+          1190
+        ],
+        "text": "Nous aimerions faire valoir que la DVR f* constitue un jalon plus réaliste pour évaluer l'efficacité des regles de score a deux parametres, parce que la DVR f*et le FSE des regles de score (x, y) regroupent tous les deux des types proportionnels. Nous avons simulé numeriquement l'esperance de bien-étre ex ante de f* pour toutesles25distributionsbetaetavonsutiliselesresultatspourcalculerl'efficacite moyenne des regles de score (x, y) relativement a f*, au lieu de fFB 42. Les résultats sont reproduits dans la deuxieme colonne du tableau 1 et révelent quela regle la plus efficace est désormais tres proche de la pleine efficacité(la classe d'équivalence II dans le graphique 4 est également la plus efficace; en effet, le classement des niveaux d'efficacité n'est pas influence par l'utilisation du jalon f* plutot que de fFB). Cela laisse entendre que l'efficacité moins élevée de la classe II relativement a l'optimum de premier rangpeut étre attribuée presqu'entierement a la nécessité de regrouper les types proportionnels43. Meme si la classe II n'est peut-etre pas une DVR qui constitue un optimum de second rang, sa tres faible perte d'efficacite par rapportaf*laissesupposerqu'elleesttresproche."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9810001850128174,
+        "bbox_xyxy": [
+          172,
+          440,
+          1079,
+          673
+        ],
+        "text": "ou 0 = ( -- f;) / (fi - f) et E[tl >,] est l'espérance de u', celle-ci étant conditionnelle au classement ordinalassocie au type t' déclareparl'électeuri*°.Comptetenu des typessecondaires t' detouslesélecteurs,laissonsf*choisirla distribution depro- babilitésurK qui constitueun optimum depremierrang ausensdela definition 5, mais relativement au profil des types secondaires t = (t',..,tn+ ) plutot qu'au profil des types déclarés. Il est aise de demontrer quefinciteles électeurs a reveler leurs vrais classements ordinaux quand tous les autres électeurs le font également1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9649466276168823,
+        "bbox_xyxy": [
+          174,
+          1292,
+          1077,
+          1390
+        ],
+        "text": "Dans cet article, nous avons caractérisé les équilibres symetriques des regles de score a deux parametres.Avec 3 électeurs,ces équilibres symetriques sont uniques"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9571340680122375,
+        "bbox_xyxy": [
+          174,
+          246,
+          1080,
+          378
+        ],
+        "text": "Nous proposonsmaintenant uneDVR particuliere f*qui traitedela mememaniere touslesélecteurspossédantlememe typenormalisé.Consideronsunélecteuri qui déclare un type fi = (t;, f, t;), avec le classement ordinal associé >,. En fonction de sa déclaration,l'électeur i se voit attribuer le 《 type secondaire > suivant t' :"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9383922219276428,
+        "bbox_xyxy": [
+          172,
+          1443,
+          1079,
+          1749
+        ],
+        "text": "40.Observons que le type déclaré fiet le type secondaire correspondant t'donnent lieu tous les deux au type normalisé : (1,0, 0). 41. Notons, toutefois, que nous n'alléguons pas que f* possede pleinement la propriété de compatibilited'incitation.Lesélecteurspourraientencoreetreincitesadissimulerleurstypesdebien d'autres manieres qu'en les multipliant simplement par une constante. 42.L'espérancedebien-étreex antedef*aétéobtenueparlebiais d'experiences de Monte-Carlo. 43.Cetteobservationconcordeaveclestrespetitespertesdebien-etreconstateesparBorgers etPostl(2oo9),quiontétudiéunmodeleoul'utilitédeBernoullidel'optionpréféréedechaqueagent était《normalisée>a1etoul'optionlamoinssouhaitéeétaitnormaliséeaO.Parconsequent,iln'y avaitpasdetypesproportionnelspouvantétreregroupesdansleurmodele."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8720901608467102,
+        "bbox_xyxy": [
+          240,
+          179,
+          1079,
+          206
+        ],
+        "text": "VAL.IIATNETCMPARAISNT REF"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.842159628868103,
+        "bbox_xyxy": [
+          218,
+          382,
+          920,
+          424
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7698801755905151,
+        "bbox_xyxy": [
+          174,
+          1242,
+          307,
+          1271
+        ],
+        "text": "CONCLUSION"
+      }
+    ]
+  },
+  {
+    "page": 40,
+    "stem": "page_0040",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9800329804420471,
+        "bbox_xyxy": [
+          173,
+          247,
+          1080,
+          716
+        ],
+        "text": "confiance les performances de différentes regles de score pour ces distributions.A titre de mesure de performance, nous avons repris la notion d'efficacite proposée dans Weber (1978). Nos résultats montrent que la regle de pluralité et le vote negatif sont les moins efficaces pour représenter les preférences de l'électorat. Alors que le voteparassentimentsurpassedebeaucoupcesdeuxregles,il n'estpasaussiperformant queles regles de score optimales(x,y),qui comportent unevaleur x relativement petite et une valeur y relativement grande. Nos simulations numeriques suggerent que les regles de vote qui permettent aux électeurs d'exprimer l'intensite de leurs préfé rences donnent de meilleurs résultats que celles qui ne le font pas. Dans nos travaux futurs,nousavonsl'intentiond'etudierdavantagelescaracteristiquesdesmecanismes devoteoptimauxdelaclassedesmecanismesintegrantlescontraintesd'incitation (c'est-a-dire les regles de décision d' 《 optimum de second rang >). Cependant, de telstravauxdevrontrésoudredesdifficultésmathematiquesconsiderablesposeespar uneapprocheanalytiquedelaconceptiondesmecanismesdanscecontexte."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8896482586860657,
+        "bbox_xyxy": [
+          517,
+          764,
+          734,
+          797
+        ],
+        "text": "BIBLOGRAPHIE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8862097263336182,
+        "bbox_xyxy": [
+          171,
+          813,
+          1085,
+          1750
+        ],
+        "text": "AHN, D. S. et S. OLIvERos (2016), 《 Approval Voting and Scoring Rules with Common Values >, Journal of Economic Theory, 166 : 304-310. APESTEGUIA,J.,M.A.BALLESTERet R.FERRER(2O11),《On theJustice ofDecision Rules >,Review of Economic Studies, 78 : 1-16. BARBERA, S. et M. O. JACKsON (2O06),《 On the Weights of Nations: Assigning Voting Weights in a Heterogeneous Union >, Journal of Political Economy, 114 : 317-339. BLAIs, A. et A. DEGAN (2017),《 L'étude du vote stratégique >, dans ce numéro. BoRDLEY, R. F. (1983),《 A Pragmatic Method for Evaluating Election Schemes through Simulation>,American Political Science Review,77 :123-141. BORGERs, T. et P. PosTL (2009),《Efficient Compromising >, Journal of Economic The0ry,144:2057-2076. BRAMs, S. J. et P. C. FisHBURN (1978), 《 Approval Voting >, American Political ScienceReview,72:831-847. BRAMS, S. J. et P. C. FIsHBURN (1978): (2002),< Voting Pr0cedures >, in K. J. ARROw, A.K.SEN,etK.SuzUMURA(éds),HandbookofSameChoiceandWelfare,Vol.I, Elsevier North Holland, Amsterdam, chap. 4, p.173-236. BUENROsTRo, L., A. DHILLON et P. VIDA (2013),《 Scoring Rule Voting GameS and DominanceSolvability>,SocialChoiceandWelfare,40:329-352 CARMoNA, G. (2012), 《 A Voting Model Generically Yielding Sincere Voting in Large Elections >, University of Cambridge, mimeo. CARROLL, G. (2013),《 A Quantitative Approach to Incentives: Application to Voting >, Stanford University, mimeo. CERvONE,D. P.,W. V. GEHRLEIN et W. S. ZwICKER (2005),《 Which ScOring Rule Maximizes Condorcet Efficiency Under Iac? >, Theory and Decision, 58 : 145-185."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8729064464569092,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8448220491409302,
+        "bbox_xyxy": [
+          173,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 41,
+    "stem": "page_0041",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.863391101360321,
+        "bbox_xyxy": [
+          168,
+          225,
+          1084,
+          1772
+        ],
+        "text": "CHAMBERLIN, J. R. et M. D. CoHEN (1978), < Toward Applicable Social Choice Theory: A Comparison of Social Choice Functions under Spatial Model Assumptions>,AmericanPolitical ScienceReview,72:1341-1356. CooK, W. D. et M. KREss (1985), < Ordinal Ranking with Intensity of Preference >, ManagementScience,31:26-32. DE SINOPOL1, F. (2001), 《 Sophisticated Voting and Equilibrium Refinements under Plurality Rule >, Social Choice and Welfare, 17 : 655-672. DE SINOPOLI, F., B. DuTTA et J.-F. LASLIER (2006), 《 Approval Voting: Three Examples>,InternationalJournal of GameTheory,35:27-38. DE SINOPOLI, F., G. IANNANTUONI et C. PIMIENTA (2014), 《 CountereXamples On the Superiority of Approval versus Plurality >, Journal of Public Economic Theory, 16:824-834. FEDDERsEN, T. et W. PEsENDORFER (1997), < Voting Behavior and Information Aggregation in Elections With Private Information >, Econometrica, 65 : 1029-1058. FIsHBURN, P. C. et S. J. BRAMs (1981), 《 Approval Voting, Condorcet's Principle, andRunoffElections>,PublicChoice,36:89-114 FIsHBURN, P. C. et W. V. GEHRLEIN (1976), 《 An Analysis of Simple TwO-stage Voting Systems >, Behavioral Science, 21 : 1-12. GEHRLEIN, W. V. et D. LEPELLEY (20O1), < The Condorcet Efficiency of Borda Rule withAnonymousVoters>,MathematicalSocialSciences,41:39-50 GEHRLEIN, W. V. et D. LEPELLEY (2O11), Voting Paradoxes and Group Coherence: The Condorcet Efficiency of Voting Rules, Springer Verlag, Heidelberg. GEHRLEIN, W. V., D. LEPELLEY et F. PLASSMANN (2O16), 《 Should Voters be Required to RankCandidatesinanElection?>,MathematicalSocialSciences,46:707-747 GILEs,A.etP.PosTL(2014),《EquilibriumandEffectivenessofTwo-parameter Scoring Rules >, Mathematical Social Sciences,68 : 31-52. GREEN-ARMYTAGE, J., T. N. TIDEMAN et R. CosMAN (2016),《 Statistical Evaluation of Voting Rules >,Mathematical Social Sciences,46:183-212. HoLMsTROM,B.etR.B.MyERsON(1983),《EfficientandDurableDecisionRules with Incomplete Information >, Econometrica, 51 : 1799-1819. HoRTALA-VALLVE, R. (2009), 《 Inefficiencies on Linking Decision >, Social Choice andWelfare,34:471-486 JACKSON, M. O. et H. F. SoNNENSCHEIN (2OO7), 《 Overcoming Incentive Constraints by Linking Decision >, Econometrica, 75 : 241-257. KIM, S. (2016), < Ordinal versus Cardinal Voting Rules: A Mechanism Design Approach >, National Taiwan University, mimeo. LASLIER, J.-F. (2012), 《 And the Loser is...Plurality Voting >, in D. S. FELSENTHAL, et M. MACHovER (éds), Electoral Systems, Springer Verlag, Heidelberg, chap. 13,p.327-351. LE BRETON, M., D. LEPELLEY, A. MaCE et V. MERLIN (2O17), 《 Le mécanisme Optimal de vote au sein du conseil des representants dans un systeme féderal >, dans ce numero"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8535611629486084,
+        "bbox_xyxy": [
+          238,
+          179,
+          1081,
+          207
+        ],
+        "text": "289"
+      }
+    ]
+  },
+  {
+    "page": 42,
+    "stem": "page_0042",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8584745526313782,
+        "bbox_xyxy": [
+          167,
+          233,
+          1084,
+          1696
+        ],
+        "text": "LEPELLEY, D. et F. VALOGNEs (2003), 《 Voting Rules, Manipulability and Social Homogeneity >,Public Choice,116 : 165-184. MAUs, S., H. PETERs et T. SToRCKEN (2OO7),《 Anonymous Voting and Minimal Manipulability >, Journal of Economic Theory, 135 : 533-544. MEEK, B. L. (1975), 《 A Transferable Voting System Including Intensity of Preference>,Mathematiqueetscienceshumaines,50:23-29. MERRILL, S. (1984), 《 A Comparison of Efficiency of Multicandidate Electoral Systems>,AmericanJournalofPoliticalScience,28:23-48 MERRILL,S. (1985),《 A Statistical Model for Condorcet Efficiency Based on Simulation under Spatial Model Assumptions >, Public Choice, 47 : 389-403. MERTENs, J.-F. (1989), < Stable Equilibria -A Reformulation. Part I: Definition and Basic Properties >, Mathematics of Operations Research, 14 : 575-625. M1RALLEs, A. (2012), < Cardinal Bayesian Allocation Mechanisms without Transfers >, Journal of Economic Theory, 147 : 179-206. MyERsoN, R. B.(1978),《 Refinements of the Nash Equilibrium Concept >, InternationalJournalofGameTheory,15:133-154. MYERsON, R. B. (2002), 《 Comparison of Scoring Rules in Poisson Voting Games >, Journal ofEconomic Theory,103:219-251. MyERsON,R. B et R.J.WEBER (1993),《 A Theory of Voting Equilibria >,American Political ScienceReview,87:102-114. NIEM1, R. G et H. F. WE1sBERG (éds) (1972), Probability Models of Collective Decision Making, C.E. Merrill Publishing Company, Michigan, USA. NuRM1, H. (1981), < Approaches to Collective Decision Making with Fuzzy Preference Relations >,FuzzySets andSystems,6:249-259 NuRM1, H. (1993), 《Fuzzy Social Choice: A Selective Retrospect >, Soft Computing, 12 :281-288. PIvATo, M. (2016), 《 Asymptotic Utilitarianism in Scoring Rules >, THEMA, Université de Cergy-Pontoise mimeo. PosTL, P. (2011), < Strategy-Proof Compromises >, The B.E. Journal of Theoretical Economics, 11 : article 20. RocHET, J.-C. (1987),《 A Necessary and Sufficient Condition for Rationalizability in a Quasilinear Context >, Journal of Mathematical Economics, 16 : 191-200. ScHMITz, P. W. et T. TROGER (2012), 《 The (Sub-)Optimality of the Majority Rule >, GamesandEconomicBehavior,74:651-665 SELTEN,R.(1975),《A Reexamination of the Perfectness Concept for Equilibrium PointsinExtensiveGames>,International Journal ofGameTheory,4: 25-55 SMITH, D. A. (1999), 《 Manipulability Measures of Common Social Choice Functions>,SocialChoiceandWelfare,16:639-661. WEBER, R. J. (1978), 《 Comparison of Public Choice Systems >, Cowles Foundation DiscussionPaper,no.498."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8318989872932434,
+        "bbox_xyxy": [
+          479,
+          181,
+          770,
+          207
+        ],
+        "text": "'ACTUALITEECONOMIQUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8073175549507141,
+        "bbox_xyxy": [
+          172,
+          178,
+          220,
+          206
+        ],
+        "text": "290"
+      }
+    ]
+  }
+]

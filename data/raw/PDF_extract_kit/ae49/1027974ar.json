@@ -1,0 +1,1335 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9841453433036804,
+        "bbox_xyxy": [
+          173,
+          1077,
+          1078,
+          1348
+        ],
+        "text": "ABsTRACT-SymptomsofBankruptcy:TheCaseofBelgium.Likemanyother countries, Belgium has faced a growing number of corporate bankruptcies since the“subprime\"crisis. Thisnumberincreasedbymorethan43%between2007and2012.Basedonasampleof Belgian companies covering a period from 2002 to2010,this paper aims to develop three econometricforecastingmodelsconstructedfromsixfinancialratios,respectivelyone, threeandfiveyearsbeforebankruptcy.Besidestheacademiccontributiontotheresearch relative to the bankruptcyprediction inBelgium,the empirical results of this studymay be useful for practitioners, particularly for financial institutions interested in the bankruptcy riskoftheirpartners."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9827660322189331,
+        "bbox_xyxy": [
+          173,
+          764,
+          1079,
+          1036
+        ],
+        "text": "REsuME - A 1'instar de nombreux autres pays, la Belgique a fait face a un nombre croissant de faillites d'entreprises depuis la crise des 《subprimes>.Ce nombre a,en effet,augmenté d'un peu plus de 43 % entre 2007 et 2012. Sur base d'un échantillon d'entreprises belges couvrant une periode allant de 2002 a 2010,cet article a pour but de développer trois modeles économetriques de prevision construits a partir de six ratios financiers, respectivement a un,troisetcinq ans avantlafaillite.Outrel'apport academiquealarechercherelativea la prévision des faillites en Belgique, les résultats de cette étude empirique peuvent étre utiles auseindumondeprofessionnel,notammentpourlesinstitutionsfinancieresinteressees parlerisquedefaillitedeleurspartenaires."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9681286215782166,
+        "bbox_xyxy": [
+          173,
+          1440,
+          1079,
+          1602
+        ],
+        "text": "Ces dernieres années, la Belgique a fait face a un nombre croissant de faillites d'entreprises. Le phénomene de faillite a fortement augmenté suite a la crise des 《 subprimes >.En effet, sur une periode de 5 années (de 2007 a 2012), ce nombre a augmenté d'un peu plus de 43 %. A titre comparatif, durant la période allant de 2001a2007,ilnes'estmajoréqued'environ8%1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9622594118118286,
+        "bbox_xyxy": [
+          174,
+          544,
+          786,
+          641
+        ],
+        "text": "XavierBrédart Umons-FacultéWarocquéd'EconomieetdeGestion xavier.bredart@umons.ac.be"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9417215585708618,
+        "bbox_xyxy": [
+          301,
+          363,
+          946,
+          456
+        ],
+        "text": "LESSYMPTOMESDELAFAILLITE LECASDELABELGIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8969249129295349,
+        "bbox_xyxy": [
+          173,
+          1662,
+          1078,
+          1749
+        ],
+        "text": "L'auteur tienta remercier JonathanBlondeel(Ernst&Young)pour sa contributiona la redactiondecetarticle. 1. http://statbel.fgov.be/fr/statistiques/"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7096507549285889,
+        "bbox_xyxy": [
+          174,
+          1394,
+          325,
+          1422
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6682271957397461,
+        "bbox_xyxy": [
+          172,
+          248,
+          882,
+          273
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9817811250686646,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          589
+        ],
+        "text": "La prédiction de la détresse financiere est un sujet qui intéresse bon nombre d'acteurs (Weitzel etJonsson,1989;Daubie et Meskens,2001).En effet,lespreteurs defondsveulentévaluerlaprobabilitededefautdupretoctroyé.Lesinvestisseurs ainsiquelesactionnairesdesirents'assurerdelasecuritédeleurinvestissement envers les titres d'une entreprise. Puisque les banqueroutes risquent de mettre les institutions financieres en peril, les législateurs et les banques centrales ont 1'apti- tuded'instaurercertainesloisafind'assurerunecertainestabilitefinanciere.De plus,les auditeurs doivent fournir leur jugement concernant le going concern de 1'entreprise. Enfin, les managers sont engagés, entre autres choses, afin de garantir laperennitédel'entrepriseetd'éviterlafaillitedecelle-ci."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9791780710220337,
+        "bbox_xyxy": [
+          172,
+          614,
+          1079,
+          1754
+        ],
+        "text": "Danscecontexte,laproblématiquedeladefaillancedesentreprisesaretenu 1'attention des chercheurs depuis de nombreuses années (Fitzpatrick, 1932). Les pionniers se nomment Beaver (1966) et Altman (1968) dont les methodes -1'ana- lyseunidimensionnelleet1'analyse discriminantelineairerespectivement-sont souvent comparées aux études édifiées plus récemment : les modeles Logit (Ohlson, 1980;Platt et Platt,1990),le modele Probit de Zmijewski (1984),1'algorithme de partitionnement récursif d'Altman et al. (1985), les estimateurs a noyau et du plus proche voisin de Calia et Ganucci (1997), les réseaux de neurones (Altman et al., 1994; Shah et Murtaza, 2000; Becerra et al., 2005) ou encore, les algorithmes genetiques deVaretto(1998).Touscesmodeles deprédictionfaconnés dans la litterature sont pour la plupart statistiques, utilisant bien souvent des ratios écono- miquesetfinanciers(comptables)pourestimerlaprobabilitédedefaillance,il s'agit de 1'approche financiere. Certains auteurs (Chava et Jarrow, 2004; Maffett et al., 2013) ont également testé des modeles de prédiction incluant, en plus des variables comptables,desvariablesliées aumarcheboursiersurlequellesentreprisesévoluent; ils rapportent une influence de ces variables sur la qualité de prédiction. Notons que la littérature comptable ne propose pas une définition claire et generalement acceptée de la défaillance d'entreprise (Sharma et Mahajan, 1980; Koenig, 1985; Guilhot, 2ooo). En conséquence, pour toute étude portée sur la défaillance d'entre- prise, il est nécessaire d'examiner le sens de la notion de défaillance d'entreprise (Morris, 1997). D'un point de vue juridique, 1'entreprise est considérée comme étantdefaillantesielleseretrouvedansunesituationdereglementjudiciaire.dans laplupartdespaysoccidentaux,ladefaillanced'entrepriseestfortementliéeala faillite, a savoir une procédure juridique qui conduit a la disparition juridique de 1'entreprise lorsque de graves problemes de liquidite et de solvabilite sont detectés (Gerard et al.,1998). L'idéeprincipale desmodeles deprédictionprécédemment évoqués n'est pas seulement de savoir que l'entreprise présente de faibles ratios avant la faillite mais de prédire la probabilité d'effondrement suffisamment tot pour minimiser laperte associee (Dighaye et Van Caillie,2002).Il est,d'ailleurs,mis en évidence dans la litterature que les indicateurs financiers (liquidité, solvabilité, rentabilité, etc.) ne sont pas forcement des prédicteurs de la faillite mais bien souvent des symptomes. La plupart des études empiriques relatives a la prédiction de la faillite ont été réalisées dans le contexte américain (Beaver, 1966; Ohlson,"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8647353053092957,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTLIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8322877883911133,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9839718341827393,
+        "bbox_xyxy": [
+          173,
+          1305,
+          1080,
+          1750
+        ],
+        "text": "Bien que certains auteurs (Chava et Jarrow, 2004; Maffett et al.,2013) ajoutent a leurs modeles deprédiction desvariablesliées au marchéboursiersurlequelles entreprises évoluent, nous considerons,dans cette étude,des variables comptables uniquement. Ce choix est lié a notre échantillon d'analyse; en effet, ce dernier est compose d'entreprises cotees mais également d'entreprises non cotees. D'apres Refait-Alexandre (2004), la rentabilité de 1'entreprise, la structure de son bilan et sacapacitederemboursementsontlestroisélementslespluscorrelésalafaillite. Nos hypotheses de travail feront donc référence aux notions de rentabilité,de liquidité, de solvabilité ainsi qu'a la taille de 1'entreprise (Ohlson, 1980). Pour ce quiestdelaselectiondesvariablespermettantdetesterlesdifferenteshypotheses detravail,nousnousbasonssurlestravauxdesynthesedeAkersetal.(2007)et delalitteraturebelge(OogheetVerbaere,1982;Oogheetal.,2005)afindechoisir lesratioslespluspertinentsaincluredansnotremodele."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9828647375106812,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          977
+        ],
+        "text": "1980; Duan et al., 2012). Dans la litterature belge, certains auteurs se sont voués a 1'étude des modeles de prédictions en géneral (Crutzen et Van Caillie, 2008; Dighaye et Van Caillie, 2002; Declerc et al., 1991); on retrouve cependant peu de modeles consacrés a la prédiction des faillites appliqués au cas belge. Les plus connus sont ceux développés par Ooghe et Verbaere (1982), Declerc et al. (1992) et par Ooghe et al. (2005). Dans ce contexte, cet article va permettre de comblerceviderelatifauseindelalitteraturebelgesurlesfaillitesparlebiaisde la construction de modeles économétriques de prédiction des faillites. Plus préci- sément, sur base d'un échantillonimportant d'entreprises belges, cet article a pour butdedeveloppertroismodeleséconometriquesdeprevisionconstruitsapartir de six ratiosfinanciers,respectivement a un,trois et cinq ans avant la faillite.Ces modelespermettront detester quatrehypotheses detravail developpées au cours de la section suivante de cet article.En ce qui concerne les données,une partie de 1'échantillon est composéed'entreprises tombées enfaillitesentre2002et 2010, I'autre d'entreprisessaines.Lesregressionslogistiquespermettent demodeliser une dichotomie entre ces deux états. Les résultats de nos analyses rapportent que, a un anet atrois ans avantlafaillite,lesratioslies ala rentabilite,laliquidite ainsi qu'a la taille de 1'entreprise apparaissent comme étant significatifs. A cinq ans, le modele deprévision defaillites rapporte que c'est davantagela solvabilitéet la taille de l'entreprise qui permettent de réaliser une discrimination entre entreprises sainesetentreprisesquitomberontenfaillite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9751116037368774,
+        "bbox_xyxy": [
+          173,
+          1000,
+          1079,
+          1203
+        ],
+        "text": "La suite de l'article se presente comme suit. La premiere section presentera une revue de la litterature permettant de formuler differentes hypotheses et de realiser le choix desvariablesfinancieres leplus judicieux.Ensuite,1'échantillon selec- tionneetlamethodologiesuivieserontpresentes.Latroisiemesectionrapportera les résultats de nos analyses.Enfin,nous discuterons des résultats obtenus avant deconclurecetarticle"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8876758813858032,
+        "bbox_xyxy": [
+          176,
+          1256,
+          542,
+          1286
+        ],
+        "text": "SYMPI7MES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8280026912689209,
+        "bbox_xyxy": [
+          325,
+          182,
+          930,
+          206
+        ],
+        "text": "LESSYMPTOMESDELAFAIILLITE:LECASDELABELGIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6853347420692444,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1075,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9843505620956421,
+        "bbox_xyxy": [
+          173,
+          297,
+          1079,
+          630
+        ],
+        "text": "Bilderbeek et Pompe (2005) ont estimé qu'une société dont les bénéfices diminuent aufil desanneesrencontredefortesprobabilites dedevenirvictimede difficultés financieres.De plus,d'apres Chang et al. (1999),la rentabilite generée parl'entrepriseestun descriteresprimordiauxal'octroi decréditparlesinstitu- tions financieres. D'apres Keasey et McGuiness (1990),la rentabilite et 1'efficience sontlesindicateurslesplus determinants delafaillitedesentreprisesindustrielles britanniques. En termes de rentabilite pure, les ratios selectionnes afin d'appré- hender la faillite sont le résultat avant impots et charges financieres (EBIT)/actif total (EBIT_TA) et le résultat reporté et réserves/actif total (Res_TA). Pour ce qui est del'efficience,leratioValeur ajoutée/personneemployée(VA_Pers)estretenu."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9745460748672485,
+        "bbox_xyxy": [
+          174,
+          1177,
+          1078,
+          1376
+        ],
+        "text": "SelonDaubie et Meskens (2002),Dimitras et al.(1999)etAkers et al.(2007), un des ratios financiers les plus usités pour caracteriser la liquidite est le current ratio² (Curr_R).Enfin, d'apres les modeles connus de Beaver (1966),d'Altman (1968),d'Edminster (1972),d'Ohlson (1980),de Zmijewski (1984) et de bien d'autres, une faible liquidité engendre un risque de faillite plus élevé. Au vu de ces constatations, nous formulerons notre seconde hypothese de la maniere suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9539699554443359,
+        "bbox_xyxy": [
+          173,
+          1394,
+          1077,
+          1459
+        ],
+        "text": "Hypothese 2 - < Une forte liquidité a un impact négatif sur la probabilité de faillite desentreprisesbelges>."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9529348015785217,
+        "bbox_xyxy": [
+          173,
+          697,
+          1077,
+          762
+        ],
+        "text": "Hypothese 1 - < Une forte rentabilité a un impact negatif sur la probabilité de faillitedesentreprisesbelges>."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9133405089378357,
+        "bbox_xyxy": [
+          213,
+          647,
+          816,
+          678
+        ],
+        "text": "Aforsiiee"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8900180459022522,
+        "bbox_xyxy": [
+          176,
+          1508,
+          338,
+          1539
+        ],
+        "text": "L3Solvabilite"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8874213099479675,
+        "bbox_xyxy": [
+          173,
+          861,
+          1078,
+          1158
+        ],
+        "text": "Intuitivement,onsuppose quedesniveauxsuperieursdeliquiditeaurontune influence positive sur la perennité des entreprises. En effet, des sociétés en difficulté disposent bien souvent defaibles liquidités et rencontrent des soucis a honorer leurs engagements. Dans ce contexte, les banques peuvent resserrer les conditions de crédit pour prevenir du futur risque d'échec, entrainant davantage de troubles pecuniaires. Un ratio de liquidite est un indicateur financier ineluctable car il évalue 1'importance desfondsdisponiblespour fairefacea diversessituations(prevues ou non,significatives ou non).Un tel ratio permet de vérifier si la société est en mesurederembourser ses dettes et depouvoirpoursuivre son activité."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8861123919487,
+        "bbox_xyxy": [
+          176,
+          247,
+          341,
+          278
+        ],
+        "text": "LIRentabulite"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8741515874862671,
+        "bbox_xyxy": [
+          213,
+          1723,
+          990,
+          1748
+        ],
+        "text": "urrentra 1011101fe2 itscirculants/dettesdecourtterme"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.866644024848938,
+        "bbox_xyxy": [
+          176,
+          811,
+          319,
+          843
+        ],
+        "text": "1.2Liguidite"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8543385863304138,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.838671088218689,
+        "bbox_xyxy": [
+          174,
+          1559,
+          1078,
+          1657
+        ],
+        "text": "Lacapacitéderemboursementdesesdettesetdeseschargesfinancieres constitue la solvabilité de 1'entreprise; sa structure financiere peut jouer un role dans le risque de faillite. Lorsque qu'elle rencontre des troubles financiers, engen-"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8230960369110107,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTLIALITEECONOMIOLE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7043566107749939,
+        "bbox_xyxy": [
+          173,
+          861,
+          1078,
+          1159
+        ],
+        "text": "Intuitivement, on suppose que des niveaux superieurs de liquidité auront une influence positive sur la perennité des entreprises. En effet, des sociétés en difficulté disposent bien souvent defaibles liquidités et rencontrent des soucis a honorer leurs engagements. Dans ce contexte, les banques peuvent resserrer les conditions decréditpour prevenir dufutur risqued'échec,entrainant davantage detroubles pecuniaires. Un ratio de liquidite est un indicateur financier ineluctable car il évalue 1'importance des fonds disponibles pour faire face a diverses situations (prevues ou non, significatives ou non). Un tel ratio permet de vérifier si la sociéte est en mesurederemboursersesdettesetdepouvoirpoursuivresonactivité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5335317850112915,
+        "bbox_xyxy": [
+          174,
+          1559,
+          1078,
+          1657
+        ],
+        "text": "Lacapacitéderemboursementdesesdettesetdeseschargesfinancieres constitue la solvabilité de 1'entreprise; sa structure financiere peut jouer un role dans le risque de faillite. Lorsque qu'elle rencontre des troubles financiers, engen-"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9858231544494629,
+        "bbox_xyxy": [
+          174,
+          731,
+          1078,
+          1097
+        ],
+        "text": "Le facteur taille constitue un risque de faillite en Belgique. Le modele d'Ohlson (1980) a effectivement incorporé cette variable au sein de sa méthode, incluant de la sorte,lelogarithme del'actif total (LogTA) de chaque société.Outrecet auteur, Horrigan (1966), dans son étude d'évaluation des titres d'une entreprise, a également decouvert quela taille constitue un determinant delafaillite. Demaniere intuitive, ce constatpeuts'expliquer par diversfacteurs.Enreglegenerale,les structures de moindre taille ont davantage de chances de rencontrer des revers de negociations avec leurs partenaires (clients ou fournisseurs), plus de difficultés a denicher des capitaux, a investir dans la technologie,1'innovation,la formation du personnel, etc. En conséquence, I'hypothese concernant la taille de I'entreprise est formulée commesuit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834465384483337,
+        "bbox_xyxy": [
+          174,
+          1349,
+          1078,
+          1750
+        ],
+        "text": "Afinderéalisernotreétude,nousavonschoisid'utiliserlabasededonnées BureauVanDijkElectronicPublishing afindeselectionnerlesentreprisesbelges disponiblessurcettedernierede2002a2010.Puisquenousdesironsconcevoirtrois modelesdeprediction,respectivementaun,troisetcinqanneesavantlafaillite seuleslesentreprisesayantdeposeleurbilanaumoinsjusqu'en2006sontreprises afin depouvoir étudier1'évolution deleurs comptes annuels depuis 20o0c'est-a- dire, cinq années avant la faillite. A partir de 1'échantillon des entreprises défail- lantesconstruit,ilconvientd'élaborerunéchantilloncorrespondantd'entreprises saines, n'ayant pas fait faillite durant 1'horizon temporel considéré. L'ensemble des données obtenues pour ces entreprises sont disponibles au sein de la base de donnéesBureauVanDijkElectronicPublishing.Apresselectiondesentreprises pourlesquellessuffisammentdedonneesétaientdisponibles,nousobtenonsun"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9811073541641235,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          545
+        ],
+        "text": "drant des dettes et des charges financieres, la probabilité de faillite de I'entreprise s'accroit considerablement.Eneffet,leremboursementdeséchéancespeutconduire 1'entreprisea une cessationdepaiement.Enéconomiefinanciere,lavariable de solvabilite communement utilisée afin de determinerla capacitederemboursement d'une entrepriseestleratiodettes totales/actif total (Dettes_TA).Enfin,d'apres les modeles connus de Beaver (1966),d'Altman (1968),d'Edminster (1972),d'Ohlson (1980),de Zmijewski (1984)et de bien d'autres,une faible solvabilité engendre un risque defaillite plusélevé.En conséquence,notre troisiemehypothesesera formuleecommesuit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9558489918708801,
+        "bbox_xyxy": [
+          174,
+          563,
+          1077,
+          630
+        ],
+        "text": "Hypothese 3 - < Une forte solvabilite a un impact negatif sur la probabilité de faillitedesentreprisesbelges>."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9489302635192871,
+        "bbox_xyxy": [
+          173,
+          1114,
+          1077,
+          1181
+        ],
+        "text": "Hypothese 4 - 《 La taille a un impact negatif sur la probabilite de faillite des entreprisesbelges>."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8852617144584656,
+        "bbox_xyxy": [
+          174,
+          1299,
+          314,
+          1330
+        ],
+        "text": "2.1Donnees"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8495516180992126,
+        "bbox_xyxy": [
+          176,
+          681,
+          282,
+          712
+        ],
+        "text": "14Taille"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8340674042701721,
+        "bbox_xyxy": [
+          325,
+          183,
+          929,
+          206
+        ],
+        "text": "FAULLLTE:LECASDELABELGUF"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.664638102054596,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5324387550354004,
+        "bbox_xyxy": [
+          174,
+          1233,
+          508,
+          1262
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.39994317293167114,
+        "bbox_xyxy": [
+          174,
+          1233,
+          508,
+          1262
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9841936230659485,
+        "bbox_xyxy": [
+          172,
+          245,
+          1079,
+          514
+        ],
+        "text": "échantillonexploitablede155entreprisesenfailliteetde5207entreprisessaines pourl'élaborationdenotremodeledeprevisiondesfaillitesa1 an.Ceschiffres s'éleventa185et5052ainsiqu'a28et5052pourlesmodelesdeprevisiona3et 5 ans respectivement.Afinderéaliser un réel modeledeprevision,noséchantillons initiauxseront divisésendeuxparties.Pour chaquemodele,lapremierepartie comprend 75 % des observations et constitue1'échantillon d'apprentissage. Le reste des entreprises représente1'échantillon de controle qui sera utilisée pour tester le modeleobtenusurbasedel'échantillond'apprentissage."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834629893302917,
+        "bbox_xyxy": [
+          173,
+          607,
+          1079,
+          1002
+        ],
+        "text": "A travers la litterature, on retrouve principalement le développement de deux principauxmodeles(Oogheet al.,2005):les analyses discriminanteslinéaires ainsi que le modele Logit. Malgré 1'étendue de 1'état de l'art dans le domaine de prédiction des faillites, Balcaen(2009) a conclu qu'il n'existe pas vraiment de modele superieur. Nous avons opte pour la régression logistique afin de prédire la faillitedesentreprisesbelges.Celle-cidecritlarelationentreunevariableexpliquee dichotomique,pouvant prendre soit la valeur 1 (entreprise faillie), soit la valeur 0 (entreprise saine), et k autres variables explicatives x, x2, ..., x. Ces dernieres peuvent étre quantitatives ou qualitatives.Puisque lavariable expliquee est binaire, celle-ci suit la distribution de Bernoulli tel que P, = P(y, = 1) est la probabilité de failliteet tel que1 -Pest laprobabilitédenon-faillite.Le modele estimé requiert quelavariableendogenesoitunecombinaisonlinéaire desvariablesexogenes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9610006213188171,
+        "bbox_xyxy": [
+          174,
+          1683,
+          1079,
+          1750
+        ],
+        "text": "Letableau1nousrenseignequantauxstatistiquesdescriptivesrelativesaux variablesquiseronttesteesdanschacundestroismodelesdeprevisiondefaillites"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.916154146194458,
+        "bbox_xyxy": [
+          172,
+          1071,
+          800,
+          1103
+        ],
+        "text": "coefhcients"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.899847149848938,
+        "bbox_xyxy": [
+          212,
+          1494,
+          1077,
+          1527
+        ],
+        "text": "Lescoettcie emblance"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8976497650146484,
+        "bbox_xyxy": [
+          210,
+          1118,
+          405,
+          1155
+        ],
+        "text": "y.=1 siy>0"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8938376307487488,
+        "bbox_xyxy": [
+          212,
+          1266,
+          1060,
+          1299
+        ],
+        "text": "Laprobabilitedenon-faillite"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8895448446273804,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8867611289024353,
+        "bbox_xyxy": [
+          176,
+          180,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8813548684120178,
+        "bbox_xyxy": [
+          173,
+          1633,
+          656,
+          1665
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.881284236907959,
+        "bbox_xyxy": [
+          211,
+          1019,
+          350,
+          1058
+        ],
+        "text": "v=βX.+8"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8802889585494995,
+        "bbox_xyxy": [
+          172,
+          1173,
+          199,
+          1197
+        ],
+        "text": "et"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8777322173118591,
+        "bbox_xyxy": [
+          173,
+          562,
+          372,
+          593
+        ],
+        "text": "2.2.Methodologie"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8453719615936279,
+        "bbox_xyxy": [
+          212,
+          1310,
+          1077,
+          1350
+        ],
+        "text": "(BX.)："
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8428027629852295,
+        "bbox_xyxy": [
+          174,
+          1363,
+          1077,
+          1428
+        ],
+        "text": "De meme, la probabilité de faillite (a posteriori) de l'entreprise i est repré. senteepar:"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8229045271873474,
+        "bbox_xyxy": [
+          173,
+          1572,
+          326,
+          1603
+        ],
+        "text": "人 RESULTAT"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8159507513046265,
+        "bbox_xyxy": [
+          211,
+          1214,
+          409,
+          1253
+        ],
+        "text": "y.=0 siy≤0"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.7821123600006104,
+        "bbox_xyxy": [
+          211,
+          1441,
+          1077,
+          1481
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848349094390869,
+        "bbox_xyxy": [
+          173,
+          1266,
+          1078,
+          1599
+        ],
+        "text": "Deuxiemement, en ce qui concerne les variables introduites dans nos modeles, nousobservonslesresultatssuivants.Pourlemodeledeprédictiondelafaillitea un an,les variables,Res_TA LogTA et VA_Pers sont significatives au seuil de 1 %; Curr_R et EBIT_TA au seuil de5%.Notons également queles signes des coefficients observéscorrespondenta ceuxattendusd'apreslaformulationdeshypothesesde travail.Pourlemodelea 3 ans,les hypotheses testees sont pourla plupart verifiées; la variableLogTA est significative au seuil au seuil de 1 %,EBIT_TA au seuil de 1 %, Res_TA au seuil de 5 % et Curr_R au seuil de 10 %.Enfin,en ce qui concerne lemodeleacinq ans,seuleslesvariablesVA_PersetLogTAapparaissentcomme étant significatives,et ce au seuil de 1 %."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9844321012496948,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          614
+        ],
+        "text": "Lesstatistiques descriptives concernent l'échantillontotal,les entreprisesfaillies etlesentreprisessainesrespectivementun,troisetcinqansavant1'annoncede la faillite.L'analyse dece tableaupermetdenoterles constatationssuivantes. Premierement, d'un point de vue comparatif, les entreprises saines affichent, en moyenne,demeilleurs ratios de rentabilite et d'efficience,davantage deliquidite et desolvabiliteainsiqu'une taillesuperieurealeurshomologuesfaillies.Deuxie- mement, d'un point de vue temporel, si 1'on peut conclure en une relative stabilité des indicateurs pour les entreprises saines, on notera de fortes différences pour les entreprises faillies. Remarquons notamment la détérioration des ratios Res_TA (qui devientmeme négatif 1 an avant la faillite)et Curr_R ainsiquela degradation de la solvabilité des entreprises faillies entre cinq, trois et un an avant la faillite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834035038948059,
+        "bbox_xyxy": [
+          173,
+          631,
+          1079,
+          863
+        ],
+        "text": "Les correlations entre les variables incluses dans chacun des trois modeles sontprésentéesdansletableau2.L'analysedecetableaunouspermetdenoter unecorrélationimportante(>0.5)entrelavariableDettes_TA etlesvariables Res_TAetCurr_R.Ceconstatestvalableaun,troisetcinqansavantlafaillite. Afind'éviter desproblemesdemulticolinéaritédansl'élaborationdenosmodeles deprédictiondesfaillites,nousécarteronslavariableDettes_TAdenos analyses lors dela construction denosmodeleséconométriques."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9788474440574646,
+        "bbox_xyxy": [
+          174,
+          965,
+          1078,
+          1096
+        ],
+        "text": "Les résultats des régressions logistiques visant a expliquer la variable dependante dichotomiquepeuventétretrouvés dansle tableau3.Troismodelessontconstruits sur base des échantillons d'apprentissage et testes sur l'échantillon de controle. respectivement,un,troisetcinqansavantlafaillite"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.977698802947998,
+        "bbox_xyxy": [
+          174,
+          1616,
+          1079,
+          1750
+        ],
+        "text": "L'analyse des coefficients associés aux différents ratios permet donc de constater que ces derniers affichent generalement une significativité accrue a mesure que 1'on se rapproche dela faillite.En d'autres termes,l'influence des valeurs prises parlesdifférentsratiosestgrandissanteaucoursdutemps.Encequi concerneles"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9671880602836609,
+        "bbox_xyxy": [
+          173,
+          1116,
+          1078,
+          1248
+        ],
+        "text": "L'analyse de ce tableau nous permet, premierement, de noter, au vu des tests chi-2 réalisés,que les trois modeles sont significatifs au seuil de 1 %,ce qui signifie quelesvariablesintroduitesdanslemodele apportentunequantitesignificative d'information. Le choix des variables semble donc, a premiere vue, pertinent."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8841150999069214,
+        "bbox_xyxy": [
+          174,
+          915,
+          378,
+          946
+        ],
+        "text": "3.2ModelesLogi"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8130272626876831,
+        "bbox_xyxy": [
+          325,
+          182,
+          930,
+          206
+        ],
+        "text": "LESSYMPTOMESDELAFAIILLITE:LECASDELABELGIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6372370719909668,
+        "bbox_xyxy": [
+          1034,
+          181,
+          1074,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9819331765174866,
+        "bbox_xyxy": [
+          150,
+          274,
+          1656,
+          1079
+        ],
+        "text": "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite Global Faillites Saines Global Faillites Saines Global Faillites Saines Variable Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne Moyenne EBIT_TA 7,46 -2,44 7,76 7,6 2,1 7,8 7,72 0,54 7,76 (11,46) (14,54) (11,22) (11,33) (10,49) (11,31) (11,22) (9,42) (11,22) Res_TA 20,52 -0,84 21,18 20,56 5,5 21,11 21,1 6,29 21,18 (26,15) (26,75) (25,86) (25,97) (23,11) (25,9) (25,83) (14,14) (25,86) Curr_R 1,76 1,2 1,78 1,77 1,23 1,79 1,78 1,38 1,78 (1,89) (0,94) (1,91) (1,9) (0,5) (1,93) (1,91) (0,77) (1,91) Dettes_TA 64,12 81,53 63,58 64,2 78,53 63,68 63,66 77,94 63,58 (22,59) (16,69) (22,54) (22,62) (15,29) (22,67) (22,54) (17,25) (22,54) LogTA 4,42 3,8 4,44 4,41 3,38 4,45 4,44 4,01 4,44 (0,57) (0,52) (0,56) (0,6) (0,59) (0,57) (0,56) (0,47) (0,56) VA_Pers 119,88 63,33 121,62 119,86 76,74 121,44 121,29 60,56 121,62 (111,07) (64,49) (111,74) (110,89) (96,72) (111,07) (111,56) (31,63) (111,74)"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8598746061325073,
+        "bbox_xyxy": [
+          293,
+          224,
+          1516,
+          254
+        ],
+        "text": "LAFALLLTE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6946733593940735,
+        "bbox_xyxy": [
+          1689,
+          480,
+          1722,
+          771
+        ],
+        "text": "'ACTUALITE ECONOMIQUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6326227188110352,
+        "bbox_xyxy": [
+          826,
+          174,
+          979,
+          201
+        ],
+        "text": "TABLEAUL"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5914109349250793,
+        "bbox_xyxy": [
+          1693,
+          178,
+          1720,
+          218
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3963344097137451,
+        "bbox_xyxy": [
+          1693,
+          176,
+          1720,
+          218
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9795193672180176,
+        "bbox_xyxy": [
+          152,
+          305,
+          1653,
+          800
+        ],
+        "text": "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite EBIT_TA Res_TA Curr_R Dettes_TA LogTA VA_Pers EBIT_TA Res_TA Curr_R Dettes_TA LogTA VA_Pers EBIT_TA Res_TA Curr_R Dettes_TA LogTA VA_Pers EBIT_TA 1 1 1 Res_TA 0,37 1 0,37 1 0,36 1 Curr_R 0,14 0,41 1 0,14 0,41 1 0,14 0,41 1 Dettes_TA -0,18 -0,62 -0,55 1 -0,18 -0,62 -0,55 1 -0,17 -0,62 -0,55 1 LogTA -0,07 -0,05 0,03 -0,1 1 -0,07 0,04 0,05 -0,1 1 -0,11 0,08 0,03 0,09 1 VA_Pers 0,25 0,07 0,05 -0,04 0,26 1 -0,01 0,01 0 0 0,13 1 0,25 0,06 0,05 -0,03 0,25 1"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8931276798248291,
+        "bbox_xyxy": [
+          343,
+          225,
+          1465,
+          287
+        ],
+        "text": "TABLEAUDESCORRELATIONSENTREVARIABLESEXPLICATIVESPOURLESECHANTILLONSD'ENTREPRISESBELGES AUN,TROISETCINQANNEESAVANTLAFAILLITE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6881911754608154,
+        "bbox_xyxy": [
+          1693,
+          1035,
+          1721,
+          1076
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5704034566879272,
+        "bbox_xyxy": [
+          1691,
+          321,
+          1721,
+          1059
+        ],
+        "text": "LES SYMPTOMES DE LA FAILLITE : LE CAS DE LA BELGIQUE"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9825365543365479,
+        "bbox_xyxy": [
+          172,
+          1182,
+          1079,
+          1750
+        ],
+        "text": "ratios de rentabilité (EBIT_TA et Res_TA), ils ne sont, en effet, pas significatifs, cinq annees avant la faillite mais le deviennent a partir de trois annees precédant la faillite. Un constat similaire peut étre fait pour le ratio de liquidité. Cependant, la taille des entreprisessemble exercer uneinfluencefortementsignificative quel que soit 1'horizon temporel consideré. Nos hypotheses de travail sont donc toutes verifiéesauseuilde5%pourlemodelea1an(exceptepourI'hypothese3concer- nant la solvabilité; cette derniere n'ayant pu étre testée par crainte d'intégrer de la multicolinearitedanslemodele).Pourlemodeleatroisans,1'hypotheserelative a la rentabilité (Hi) est partiellement (le ratio de valeur ajoutee n'apparaissant pas commeétantsignificatif)verifieeauseuilde5%;I'hypotheserelativealaliquidite (H2) n'est vérifiée qu'au seuil de 10 %; 1'hypothese 3 relative a la solvabilité n'a pas pu étre testee pour la meme raison que pour le modele a un an. Enfin, 1l'hypo- these relative a la taille (H4) est vérifiée au seuil de 1 %. Pour le modele a cinq ans,seulel'hypotheserelativealataille(H4)estverifiee.Afinderéaliserunréel travail de prévision, nos échantillons initiaux ont, pour chacun des modeles, été divisesen deuxparties.Lapremierepartie,comprenant 75%desobservations et constituant 1'échantillon d'apprentissage, a permis 1'élaboration des modeles repris"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9815766215324402,
+        "bbox_xyxy": [
+          169,
+          348,
+          1079,
+          1045
+        ],
+        "text": "1 an avant 3 ans avant 5 ans avant la faillite la faillite la faillite Ecart Ecart Ecart Variable Beta type Beta type Beta type EBIT_TA -0,02* 0,01 -0,04** 0,01 0,02 0,02 Res_TA -0,02*** 0,01 -0,01* 0,01 0,01 0,01 Current_ratio -0,54* 0,25 -0,44 0,27 0,08 0,24 LogTA -3,59*** 0,34 -5,96*** 0,44 2,46*** 0,60 VA_pers -0,02*** 0,01 -0,01 0,00 0,02*** 0,01 _cons 13,47*** 1,38 21,30*** 1,68 -7,24*** 2,46 Test Chi-2 359,78*** 605,19*** 70,70*** Taille de 3905 3927 3809 l'échantillon Log maximum -335,29 -264,90 -78,99 de vraisemblance"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.9171291589736938,
+        "bbox_xyxy": [
+          171,
+          1059,
+          1015,
+          1113
+        ],
+        "text": "NoTE:PartiellementsignificatifaP<O.10 SignificatifaP<0,05,0,01et0,001 respectivement."
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8586210012435913,
+        "bbox_xyxy": [
+          258,
+          246,
+          992,
+          330
+        ],
+        "text": "TABLEAU3 MODELESDEPREVISIONLOGITAUN,TROISETCINQAVANTLAFAILLITE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8495017290115356,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8422428965568542,
+        "bbox_xyxy": [
+          176,
+          181,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.98317551612854,
+        "bbox_xyxy": [
+          173,
+          847,
+          1079,
+          1281
+        ],
+        "text": "Cet article s'est focalise sur les symptomes d'un aspect particulier de la défail- lance, la faillite. Nous utilisons l'approche financiere basée sur les ratios finan- ciers.LespionniersdelalitteraturesontBeaver(1966)etAltman(1968).1lsont developpelamethoded'analysediscriminantelineaireafindepredirelafaillite. D'autres auteurssontvenus contribuera cesrecherches tels que Ohlson(198O)avec le modele Logit. Concernant le cas de la Belgique, on discerne principalement les études menées par Ooghe et Verbaere (1982) et par Ooghe et al. (2005) dont leurs modeles-analysediscriminanteetregressionlogistiquerespectivement-sontles précurseurs enBelgique.Laplupart desmodeles deprevisiondefailliteexistants ayant éterealises sur des entreprises originaires desEtats-Unis,cet article a permis de contribuer a la litterature belge,relativement peu fournie en cette matiere.Inspirés destravauxd'Ohlson(1980),nousavonsélaborédifferentsmodeleslogistiques afindeprédirelafaillitedesentreprisesbelgessuruneperiodeallantde2002a"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9814223051071167,
+        "bbox_xyxy": [
+          169,
+          1482,
+          1078,
+          1744
+        ],
+        "text": "1 an avant 3 ans avant 5ans avant la faillite la faillite la faillite Nombred'entreprisesfaillies 41 56 9 Nombre d'entreprises saines 1261 1254 1262 Taux de bons classements 96,85 % 97,63 % 99,29 %"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806990027427673,
+        "bbox_xyxy": [
+          173,
+          247,
+          1080,
+          444
+        ],
+        "text": "ci-avant. Le reste des observations representel'échantillon de controle permettant detesterlemodeleobtenusurlabasedel'échantillond'apprentissage.Lestests réalisessurceséchantillonsdecontrolerapportentdesresultatsconcluantspuisque lestauxdebonsclassementssontsuperieursa90%.Cesresultatsélevesdoivent cependant étre relativisés au vu du nombre tres important s'entreprises saines au seindeséchantillons."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9737889766693115,
+        "bbox_xyxy": [
+          174,
+          464,
+          1079,
+          629
+        ],
+        "text": "En conclusion,suite ala construction deces modeles,leshypotheses de depart ont été testées. A un et a trois ans avant la faillite, la probabilité de défaut s'accroit lorsque la rentabilite, la liquidite et la taille sont faibles. Cinq annees avant la faillite. cessymptomesn'apparaissentpasencore commesignificatifs;la taillepresente, quantaelle,uneffetsignificatifpourlestroishorizonstemporelsanalyses"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9114388823509216,
+        "bbox_xyxy": [
+          174,
+          730,
+          1078,
+          829
+        ],
+        "text": "La prédiction de la détresse financiere est un sujet qui interesse bon nombre d'acteurs:tant lespreteursdefondsetinvestisseurs quelesmanagers et actionnaires veulentéviterlabanqueroute."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8336969614028931,
+        "bbox_xyxy": [
+          174,
+          681,
+          307,
+          711
+        ],
+        "text": "CONCLUSION"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.8022201061248779,
+        "bbox_xyxy": [
+          217,
+          1346,
+          1031,
+          1464
+        ],
+        "text": "TABLEAU4 ANALYSESURL'ECHANTILLONDECONTROLEDESMODELESDEPREVISIONLOGIT AUN,TROISETCINQAVANTLAFAILLITE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7934620976448059,
+        "bbox_xyxy": [
+          325,
+          182,
+          930,
+          206
+        ],
+        "text": "LESSYMPTOMESDELAFAIILLITE:LECASDELABELGIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6620892286300659,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.37887486815452576,
+        "bbox_xyxy": [
+          549,
+          1348,
+          702,
+          1379
+        ],
+        "text": "TABLEAU4"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.37052372097969055,
+        "bbox_xyxy": [
+          174,
+          730,
+          1078,
+          829
+        ],
+        "text": "La prédiction de la détresse financiere est un sujet qui interesse bon nombre d'acteurs:tant lespreteursdefondsetinvestisseurs quelesmanagers et actionnaires veulentéviterlabanqueroute."
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.983838677406311,
+        "bbox_xyxy": [
+          173,
+          1244,
+          1079,
+          1582
+        ],
+        "text": "Différentes pistes deréflexionpeuventétreémises afin depoursuivrelarecherche danscedomaine.Premierement,ilconviendraitdebatirdenouveauxmodeles couvrantuneperiodedetempsplusimportanteainsiqu'unezonegeographique accrue afin d'obtenir des conclusions plus generales. Deuxiemement, d'autres methodes,notammentcellesfaisantreferenceal'intelligenceartificielle,pour- raientétretestéesafindeconfronterlesrésultatsavecceuxissusdesrégressions logistiques. Enfin, bien que les modeles de prédiction permettent d'apprehender la faillite suffisamment tot, ceux-ci ne garantissent pas une dichotomie sans faille. Souvent,uneanalysecomplementaireaucasparcasdelasituationdel'entreprise semblenecessaire afin depressentir lerisquededefaillance."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9804468154907227,
+        "bbox_xyxy": [
+          172,
+          247,
+          1079,
+          1227
+        ],
+        "text": "2010. Une revue de la litterature nous a premierement permis de formuler quatre hypothesesdetravailconcernantlarentabilité,laliquidité,lasolvabilitéainsi que I'age de I'entreprise. Afin de tester ces hypotheses de travail, nous avons, en referencealalitteratureetgraceautravaildesynthesedeAkersetal.(2007)et de 1'état de 1'art belge (Ooghe et al., 2005; Ooghe et Verbaere, 1982), sélectionné les sixratios suivants:<resultat net avantimpots et charges financieres(EBIT)/actif total >,《 résultat reporte et réserves/actif total >, current ratio,《 dettes totales/actif total >,log(actif total) et 《 valeur ajoutée/personne employée >. Deuxiemement, a 1'aide de la base de données Bureau Van Dijk, nous avons construit un échantillon compose, d'une part, d'entreprises tombées en faillite et, d'autre part, d'entreprises saines. Nous avons ensuite analysé ces données sur base des statistiques descrip- tivesetdesmodeleslogistiquesdepredictiondesfaillitesaun,troiset cinq ans avantlafaillite.Lesstatistiques descriptivesrapportentque,les entreprisessaines affichentdemeilleursratiosderentabiliteetd'efficience,davantagedeliquidite et de solvabilité ainsi qu'une taille superieure a leurs homologues faillies. Ensuite, si l'onpeut conclure enunerelativestabilitédesindicateurspourlesentreprises saines,onnoteraglobalementunedegradationdesdifférentsratiosétudiespour les entreprises faillies. L'approche économétrique s'est opérée a 1'aide du logiciel STATA afin de construire les trois modeles Logit appliqués au cas de la Belgique. En raison de risques de multicolinearité, les modeles n'incorporent pas la variable 《dettes/actiftotal>.Suitealaconstructiondecesmodeleslogistiques,ilaété possible de tester leshypotheses de depart et de noter certains constats.Premiere- ment,la tailledesentreprises offreunpouvoirdichotomiquetressignificatifpour lestroismodeles deprevision.Deuxiemement,si,cinq années avantlafaillite,la rentabilite ainsi que la liquidite ne semble pas constituer des symptomes determi- nants; a trois et un an, elles deviennent des élements significatifs de discrimination entreles entreprises qui tomberont enfaillite et leurshomologuessaines.Enfin, les variables relatives a la rentabilite apparaissent de plus en plus significatives a mesurequel'onserapprochedelafaillite."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9494606256484985,
+        "bbox_xyxy": [
+          173,
+          1682,
+          1077,
+          1750
+        ],
+        "text": "AKERS,M.,J.BELLOVARYetD.GIACOMINO(2OO7),《AReviewofBankruptcy PredictionStudies:1930toPresent>,JournalofFinancialEducation.33(5):1-42"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8757691979408264,
+        "bbox_xyxy": [
+          518,
+          1631,
+          733,
+          1663
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8653662800788879,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTLIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8564395904541016,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8271568417549133,
+        "bbox_xyxy": [
+          169,
+          236,
+          1086,
+          1778
+        ],
+        "text": "ALTMAN,E.1.(1968),<Financial Ratios,Discriminants Analysis and thePrediction of Corporate Bankruptcy >, Journal of Finance, 23(4) : 589-609. ALTMAN, E., H. FRYDMAN et D. L. KAo (1985), 《 Introducing Recursive Partitioning for Financial Classification: The Case of Financial Distress >, Journal of Finance, 40(1):269-291. ALTMAN, E.I., G. MARCO et F. VARETTo (1994), 《 Corporate Distress Diagnosis: Comparisons Using Linear Discrimination Analysis and Neural Networks (the Italian Experience)>,Journal of Banking and Finance,18(3) : 505-529. BALCAEN, S. (2009),《 Explaining Distress-Related Firm Exit: Analysis of Exit Path >, Department of Accountancy and Corporate Finance, Faculty of Economics and Business Administration, Ghent University, 215 p. BEAvER, W. (1966), 《 Financial Ratios as Predictors of Failure >, Journal of AccountingResearch,4,Supplement toJournal ofAccountingResearch:71-111. BECERRA, V., R. GALVAO et M.ABOU-SEADA (2005), 《 Neural and Wavelet Network Models for Financial Distress Classification > Data Mining and Knowledge Discovery, 11(1) : 35-55. BILDERBEEK, J. et P.M. PoMPE (2005): < The Prediction of Bankruptcy of Small and Medium Sized Industrials Firms >, Journal of Business Venturing, 20(6) : 847-868. CALIA, P. et P. GANUcC1 (1997): < Kernel and Nearest Neighbour Discriminant Analysis: Business Failure Classification in Industrial District >, Applied Stochastic Models andDataAnalysis,Colloque,Capri. CHANG, N., G. LEE et T. K. SuNG (1999), 《 Dynamics of Modeling in Data Mining: Interpretative Approach to Bankruptcy Prediction >, Journal of Management InformationSystem,18(1) :63-85. CHAVA, S. et R. JARRow (2004), 《 Bankruptcy Prediction with Industry Effects >, Review of Finance,8(4) : 537-569. CRUTZEN,N.et D.VANCAILLIE(2OO8),<TheBusinessFailureProcess:AnIntegrative ModeloftheLiterature>,ReviewofBusinessandEconomics,53(5):288-316 DAUBIE, M. et N. MEsKENs (2001),< Bankruptcy Prediction: Literature Survey of theLast TenYears>,BelgianJournal of Operational Research,Statistics and Computer Science,41(1-2): 43-58. DECLERC,M.,B.HEINs et C.VAN WyMEERsCH(1991),<Flux financiers etprévision de faillite : une analyse comportementale de 1'entreprise >, Cahiers Economiques de Bruxelles, 136 : 415-443. DIGHAYE,A.etD.VANCAILLIE(2OO2),《Larechercheenmatieredefaillite d'entreprise : un état de sa situation et de ses perspectives d'avenir >, Communi- cation proposée a la Xf Conference internationale de management strategique, Paris -ESCP-EAP, p. 2-28. DIMITRAS,A.1.,R.SLOWINSKI,R.SUSMAGAetC.ZAPOUNIDIS(1999),《BuSineSSFailure Prediction Using Rough Sets >,European Journal of Operational Research, 114(2) : 263-280."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7825586795806885,
+        "bbox_xyxy": [
+          322,
+          180,
+          968,
+          207
+        ],
+        "text": "LESSYMPTOMESDELAFA ：LECASDELABELGIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.39455220103263855,
+        "bbox_xyxy": [
+          1034,
+          179,
+          1077,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8654789328575134,
+        "bbox_xyxy": [
+          169,
+          249,
+          1086,
+          1779
+        ],
+        "text": "DUAN, J., J. SuN et T. WANG (2012), 《 Multiperiod Corporate Default Prediction: A Forward Intensity Approach >, Journal of Econometrics, 170(1) : 191-209. EDMINsTER, R. O. (1972),《 An Empirical Test of Financial Ratio Analysis for Small BusinessFailurePrediction>, Journal of Financial and Quantitative Analysis, 7,(2):1477-1493 FiTzPATRICK,P.J.(1932),《AComparisonof RatiosofSuccessfulIndustrialEnter- prises with those of Failed Firms (1) >, Certified Public Accountant : 598-605. GERARD, P., J. WINDEY et M. GREGOIRE (1998), < Le cOncordat judiciaire et la faillite - Loisdes17juilletet8aout1997>,Lesdossiersdujournaldestribunaux,Editions De Boeck et Larcier, Bruxelles, 221p. GuILHOr, B. (2000), 《 Défaillances d'entreprises : soixante-dix ans d'analyses théoriques et empiriques >, Revue francaise de Gestion, 130 : 52-67. HoRRIGAN, J. (1966), 《 The Determination of Long-Term Credit Standing with Financial Ratios >,Empirical ResearchinAccounting,4,supplement to Journal ofAccountingResearch:44-62. KEAsEY, K. et P. McGUINNEss (199O), 《 The Failure of UK Industrials Firms for the Period 1976-1984, Logistic Analysis and Entropy Measures >, Journal of Business Finance and Accounting, 17(1) : 119-135. KoENIG, G. (1985): < Entreprises en difficultés: des symptomes aux remedes >, Revue francaise de gestion, Janvier-février:84-92. MAFFETT,M.,F.OwENSetA.SrINIvASAN(2O13),《DefaultPredictionaround the World: The Effect of Constraints on Pessimistic Trading >, Simon School Work- ing, Available at SSRN: http://ssrn.com/abstract=2296992. MoRRis, R. (1997), Early Warning Indicators of Corporate Failure: A Critical Review of Previous Research and Further Empirical Evidence, Ashgate Publishing Ltd, Great Britain, 421p. OHLsoN, J. (198O), < Financial Ratios and the Probabilistic Prediction of Bank- ruptcy >, Journal of Accounting Research, 18(1) : 109-131. OoGHE H. et E. VERBAERE (1982), < Determinante van Faling: Verklaring en Predictie >, Accountancy-Bedrijfsfinanciering-Beleidsinformatie(RijksuniversiteitGent), p. 5-166. OoGHE, H., C. SPAENJERS et P. VANDERMOERE (2OO5), 《 Business Failure Prediction: Simple-Intuitive Models Versus Statistical Models >, Faculteit Economie en Bedrijfskunde, Universiteit Gent, p. 1-36. PLATT, H. et M. PLATT (1990), < Development of a Class of Stable Predictive Vari- ables: The Case of Bankruptcy Prediction >, Journal of Business Finance and Accounting, 17(1) : 31-51. REFAIT-ALEXANDRE, C. (2OO4), < La prévision de la faillite fondée sur 1'analyse financiere de 1'entreprise : un état des lieux >, Economie et prévision, 1(162) : 129-147. SHAH,J.etM.MuRTAZA(2O0O),《ANeural NetworkBased ClusteringProcedure for Bankruptcy Prediction >,American Business Review,18(2) : 80-86"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8180774450302124,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8099534511566162,
+        "bbox_xyxy": [
+          175,
+          179,
+          220,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.780010998249054,
+        "bbox_xyxy": [
+          170,
+          244,
+          1080,
+          562
+        ],
+        "text": "SHARMA, S. et V. MAHAJAN (198O), 《Early Warning Indicators of Business Failure >, JournalofMarketing,44(4):80-89. VARETTo, F. (1998),《 Genetic Algorithms Applications in the Analysis of Insolvency Risk >,Journal of Banking and Finance,22(10-11) :1421-1439. WEITzEL,W. et E. JoNssoN (1989),< Decline in Organizations: A Literature Integratior andExtension>,AdministrativeSciencesQuarterly,4(1):91-109 ZMIJEwsKl,M.(1984),<MethodologicalIssuesRelatedtotheEstimationofFinan- cialDistressPredictionModels>,JournalofAccountingResearch,22(supple ment):59-86."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7697958946228027,
+        "bbox_xyxy": [
+          324,
+          182,
+          932,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.48755136132240295,
+        "bbox_xyxy": [
+          1034,
+          180,
+          1077,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  }
+]

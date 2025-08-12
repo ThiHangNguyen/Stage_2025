@@ -1,0 +1,2165 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9778122305870056,
+        "bbox_xyxy": [
+          98,
+          1271,
+          827,
+          1847
+        ],
+        "text": "Letravail Ipresente épropose une méthodologie de classification par apprentissage qui permet lidentification des états fonctionnels sur une unité de coagulation impliquée dans le traitement des eaux de surface. La supervision et le diagnostic de ce procédé ont été réalisés en utilisant la méthode de classification LAMDA (Learning gAlgorithm for Multivariate Data Analysis). Cette1 méthodologie d'apprentissage et d'expertise permet d'exploiter et d'agréger toutes les informations provenant du procédé et de son environnement ainsi que les connaissances de l'expert. L'étude montre qu'il est possible d'ajouter aux informations issues des capteurs classiques (temperature, matieres en suspension, pH, conductivité, oxygene dissous), la valeur de la dose de coagulant calculée par un capteur logiciel développé dans une étude antérieure afin d'affiner le diagnostic. Le site d'application choisi pour l'identification des états fonctionnels est la station"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9706370234489441,
+        "bbox_xyxy": [
+          872,
+          1632,
+          1603,
+          1850
+        ],
+        "text": "The present work proposes a learning classification method to identify thefunctional states of a coagulation process for the treatment of surface water and production of drinking water. Supervisory control and diagnosis were performed using the LAMDA (Learning Algorithm for Multivariate Data Analysis) classification technique. This expert learning method involves"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9488555788993835,
+        "bbox_xyxy": [
+          872,
+          1290,
+          1601,
+          1400
+        ],
+        "text": "Mots clefs:Procededecoagulation,classification,appren tissage supervisé, apprentissage non supervise, reconnais sancedeformes,logiquefloue."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9411540627479553,
+        "bbox_xyxy": [
+          326,
+          668,
+          1377,
+          746
+        ],
+        "text": "BOUCHRA LAMRINI1*, MARIE-VERONIQUE LE LANN2,**, EL KHADIR LAKHAL1 AHMEDBENHAMMOU1"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9384344220161438,
+        "bbox_xyxy": [
+          187,
+          261,
+          1531,
+          477
+        ],
+        "text": "GESTION SUPERVISEE D'UNE UNITE DE COAGULATION POUR LA POTABILISATION DES EAUX A PARTIR D'UNE METHODOLOGIE D'APPRENTISSAGEET D'EXPERTISE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9355835914611816,
+        "bbox_xyxy": [
+          97,
+          1945,
+          385,
+          2078
+        ],
+        "text": "*Auteur pour correspondance: Telecopieur:+21224437410 +335 61336936 Courriel: blamrini@yahoo.fr mvlelann@laas.fr"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9333341717720032,
+        "bbox_xyxy": [
+          156,
+          826,
+          1547,
+          935
+        ],
+        "text": "Laboratoire d'Automatique, de l'Environnement et de Procedés de Transfert (LAEPT), Faculte de Sciences Semlalia. BP 2390,40000-Marrakech,Maroc"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9293128848075867,
+        "bbox_xyxy": [
+          871,
+          1182,
+          1600,
+          1251
+        ],
+        "text": "de production d'eau potable Rocade de la ville de Marrakech Maroc."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9020485877990723,
+        "bbox_xyxy": [
+          699,
+          140,
+          996,
+          223
+        ],
+        "text": "RSE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9017678499221802,
+        "bbox_xyxy": [
+          101,
+          1174,
+          264,
+          1223
+        ],
+        "text": "RESUME"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8917631506919861,
+        "bbox_xyxy": [
+          875,
+          1540,
+          1075,
+          1582
+        ],
+        "text": "ABST'RAC\""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8798761367797852,
+        "bbox_xyxy": [
+          248,
+          547,
+          1454,
+          587
+        ],
+        "text": "drinking Me"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8648031949996948,
+        "bbox_xyxy": [
+          1098,
+          2064,
+          1586,
+          2092
+        ],
+        "text": "<eedesce Sde/Ha 11724 13/5-22"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8477892875671387,
+        "bbox_xyxy": [
+          604,
+          976,
+          1096,
+          1008
+        ],
+        "text": "otele2.ma1200）"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8343445658683777,
+        "bbox_xyxy": [
+          710,
+          2056,
+          905,
+          2084
+        ],
+        "text": "SSN.1/18-85%8"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9832315444946289,
+        "bbox_xyxy": [
+          873,
+          976,
+          1603,
+          1561
+        ],
+        "text": "Pour assurer une bonne gestion et contribuer au bon fonctionnement de ce procédé, il semble nécessaire d'exploiter simultanément toutes les informations disponibles sur le procédé (les caractéristiques de l'eau brute et leurs évolutions provenant des anomalies imprévues), et de son environnement, ainsi que les connaissances de I'expert. Pour ces raisons, nous proposons de réaliser la conduite supervisée de ce procédé en utilisant une technique de classification par apprentissage, la technique LAMDA. Une telle technique permet d'exploiter et d'agreger toute information sur le procédé afin de reconnaitre des situations spécifiques et agir, si possible, sur ce procédé Lidée générale de la classification est l'évaluation des signaux significatifs du systeme (caractéristiques de l'eau brute, taux de coagulant, etc.), afin de reconnaitre les facteurs liés a une quelconque situation et d'aider l'opérateur a prendre une décision lors de l'apparition de dysfonctionnement."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9818449020385742,
+        "bbox_xyxy": [
+          99,
+          1675,
+          829,
+          2005
+        ],
+        "text": "Depuis plusieurs décennies, les études publiées sur la coagulation ont mis en évidence des mécanismes fortement complexes dépendant d'un nombre important de variables. Ainsi, d'importants efforts et différentes approches ont été développés pour construire et mettre en ceuvre des modeles de controle automatique de la dose de coagulant (BAZER- BACHI et al.,1986; EVANS et ENOCH, 1998; GAGNON et al.,1997;LAMRINI et al., 2005; VALENTIN et al., 1999) et des outils de supervision permettant d'optimiser ce procédé"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798530340194702,
+        "bbox_xyxy": [
+          99,
+          96,
+          829,
+          458
+        ],
+        "text": "the processing and aggregation of all information stemming from an environmental process, and it allows the incorporation of the user's knowledge. The study shows that it is possible to refine the diagnosis by taking into account the information obtained from common sensors (e.g., temperature, suspended solids, pH, conductivity, dissolved oxygen) together with the predicted coagulant dosage, as computed with an intelligent software sensor developed previously. The Rocade drinking water plantlocated atMarrakech,Moroccowaschosentotest themethod."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795958995819092,
+        "bbox_xyxy": [
+          872,
+          94,
+          1602,
+          938
+        ],
+        "text": "de traitement(KAN et HUANG,1998;LIU etWU,1997 STANDEN et al., 1997). En ce qui concerne les outils dits de supervision,dans le cas des travaux deKANet HUANG (1998), meme si on parle de supervision ou de suivi, l'essentiel du développement porte sur la détermination automatique de la dose de coagulant grace a un suivi optique. De meme danslecasdes travauxdeSTANDENet al.(1997)，la modification automatique de la dose de coagulant se fait en rapport a la mesure de la turbidite et au nombre de particules colloidalesmesurées aupréalablepar diffractionlaserlors de jar-tests. Les travaux de LIU et WU (1997) sont quant a eux directement reliés au développement d'un controleur fou allié a un détecteur de courant permettant d'améliorer l'opération de coagulation. On voit donc que, plus qu'un suivi de fonctionnement d'une opération, il s'agit plutot d'un controle automatique de la dose de coagulant, l'objectif étant de déterminer la dose a appliquer en fonction des parametres de l'eau brute observés. Cependant, cette structure de controle automatique ne permet pas de diagnostiquer une dérive ou unmauvaisfonctionnement aelleseule.Pour cela,il fautlui adjoindre une structure de supervision/diagnostic permettant de determiner l'état de fonctionnement de l'unité (cet état de fonctionnementpouvantétre une defaillance)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9786316156387329,
+        "bbox_xyxy": [
+          98,
+          824,
+          828,
+          1630
+        ],
+        "text": "Le controle et la conduite des procédés industriels sont delicats et difficiles notamment lorsque les lois physiques décrivant le systeme sont trop complexes ou incompletes. Les dérives et les défauts sont alors difficiles a détecter et a localiser sans utiliser de modele représentatif du systeme réel. Certes, les procédés de coagulation sont fortement non lineaires et non stationnaires et leur fonctionnement reste difficilement modélisable a cause de la connaissance partielle des phénomenes mis en jeu. La conduite supervisée de ces procédés nécessite la définition de méthodes avancées de controle et de supervision qui integrent la connaissance insuffisante que l'on a de ces procédés. Jusqu'a présent, il n'existe pas de modele mathématique ou structurel permettant d'identifier de facon certaine l'état de fonctionnement d'un procédé de coagulation. C'est généralement au moyen d'analyses hors-ligne que les opérateurs controlent indirectement cet état et interviennent en retour sur le processus avec un delai important. Cependant, l'operateur dispose de nombreuses informations issues du procédé lui-meme et de son environnement,souvent précises, dont il est facile de faire une acquisition en ligne. Cesinformationstraiteesdefaconindividuellenepermettent toujours pas de caracteriser l'état du procédé."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978141725063324,
+        "bbox_xyxy": [
+          872,
+          1606,
+          1603,
+          2003
+        ],
+        "text": "Le travail presenté dans le cadre de cet article est structuré de la maniere suivante : la premiere section présente le site d'application choisi pour identifier les états fonctionnels. Dans la deuxieme section, on présente une breve description de la méthode LAMDA. Finalement, dans la troisieme section, des résultats expérimentaux seront présentés et discutés. Comme le montrent ces résultats obtenus lors de l'application de la méthodologie LAMDA aux données expérimentales couvrant 4 années de fonctionnement de la station de production d'eau potable de Marrakech, ils ouvrent la possibilité d'appliquer cette méthode a la surveillance en temps réel de ce procédé."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9179756045341492,
+        "bbox_xyxy": [
+          104,
+          732,
+          475,
+          775
+        ],
+        "text": "NT'RODUC\"TOT"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8876472115516663,
+        "bbox_xyxy": [
+          610,
+          47,
+          1068,
+          77
+        ],
+        "text": "dhnehnitede coagulation"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8737159371376038,
+        "bbox_xyxy": [
+          99,
+          499,
+          828,
+          607
+        ],
+        "text": "Key words: Coagulation process, ,classification, supervised learning, unsupervised learning, pattern recognition, fuzzy logic."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8545490503311157,
+        "bbox_xyxy": [
+          97,
+          59,
+          134,
+          82
+        ],
+        "text": "226"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.981464684009552,
+        "bbox_xyxy": [
+          97,
+          246,
+          827,
+          797
+        ],
+        "text": "Linstallation de traitement concernée par cette étude est la station de production d'eau potable Rocade de la ville de Marrakech. Elle alimente en eau potable, de facon variable dans le temps, une population de 1,5 millions habitants. L'eau a l'entrée de la station provient d'une prise située dans le canal Rocade. En cas de defaillance de la ressource (crues, pollution accidentelle, travaux de maintenance, etc.), la station peut étre alimentée a partir d'un réservoir de mise en charge situé pres de la station de pompage Takerkoust. En se référant aux historiques de la station, soixante pour cent des besoins de la ville de Marrakech sont assurés par la station Rocade et les quarante pour cent restants sont fournis par l'eau des ressources souterraines (puits, forages,etc.).A 1 noterque la capacité maximale de traitement de la station étudiée est d'environ 1 400 L s-1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9804398417472839,
+        "bbox_xyxy": [
+          99,
+          838,
+          829,
+          1165
+        ],
+        "text": "Compte tenu des caractéristiques de l'eau brute acheminée vers la station, les décideurs (Office National de I'Eau Potable. ONEP) utilisent le procédé physico-chimique classique illustré par la figure 1. Ce procédé comporte les phases suivantes : la pré-chloration, la coagulation-foculation, la décantation, la filtration et la désinfection. Cependant, la station présente des limites de fonctionnement au niveau du traitement des matieres en suspension (MES) présentes dans I'eau brute.Ainsi, leslimites defonctionnement se presentent comme suit :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769457578659058,
+        "bbox_xyxy": [
+          873,
+          511,
+          1603,
+          1285
+        ],
+        "text": "La méthode LAMDA est une technique de classification développée par PIERA et al. (1989) suite a lidée originale d'AGUILAR-MARTIN et al.(1980).Elle fut appliquée a plusieurs processus (AGUADO, 1998; AGUILAR-MARTIN et LOPEZ DE MANTARAS, 1982; CHAN et al.,1989; PIERACARRETE etal.,1990;WAISSMAN,2000).Lobjectif de cette méthode repose sur la représentation de classes ou de concepts au moyen de la connexion logique de toutes les informations marginales disponibles. L'une des caractéristiques les plus importantes de la technique LAMDA réside dans sa capacité a modeliser naturellement l'indistingabilité totale ou l'homogenéité au travers d'une classe non informative appelée NIC α Non-Informative Class >. Cette classe accepte tous les objets présents dans l'espace de description avec le meme degré d'adéquation. De cette facon, elle représente un seuil minimum de classification, ce qui montre que la classe NIC est toujours présente dans l'espace des classes déja établies. De plus, cette méthode offre la possibilité de réaliser indifféremment un apprentissage séquentiel supervise et non supervise ainsi que de manipuler des informations de natures différentes : de natures numérique (quantitative), symbolique (qualitative) ou mixte."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9672256708145142,
+        "bbox_xyxy": [
+          233,
+          1368,
+          1434,
+          1869
+        ],
+        "text": "Reservoir Coagulation Decantation Filtration de Aocculation stockage Eau brute Lau traitee Pré-chloration Desinfection"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9456105828285217,
+        "bbox_xyxy": [
+          875,
+          360,
+          1585,
+          463
+        ],
+        "text": "3. LA METHODE DE CLASSIFICATION LAMDA"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9158515930175781,
+        "bbox_xyxy": [
+          223,
+          1921,
+          814,
+          1983
+        ],
+        "text": "Figure1.Chaine detraitement dela stationRocade. WatertreatmentoperationoftheRocadeplant"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9014241695404053,
+        "bbox_xyxy": [
+          101,
+          91,
+          620,
+          196
+        ],
+        "text": "2.PRESENTATION DU SITE D'APPLICATION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8960186243057251,
+        "bbox_xyxy": [
+          601,
+          41,
+          1248,
+          67
+        ],
+        "text": "B.L.AMRlNtetal/ delHa 44 3/5-32"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8644813299179077,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1602,
+          79
+        ],
+        "text": "2"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6984646320343018,
+        "bbox_xyxy": [
+          298,
+          1211,
+          828,
+          1280
+        ],
+        "text": "en MES : limite d'un fonctionnement normal delastation;"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.5819396376609802,
+        "bbox_xyxy": [
+          98,
+          1210,
+          187,
+          1248
+        ],
+        "text": "g1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5235727429389954,
+        "bbox_xyxy": [
+          1069,
+          95,
+          1600,
+          236
+        ],
+        "text": "en MES : diminution de la production de la station; en MES: arret du fonctionnement de la station."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.30454227328300476,
+        "bbox_xyxy": [
+          1070,
+          96,
+          1596,
+          165
+        ],
+        "text": "en MES : diminution de la production de la station;"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9861964583396912,
+        "bbox_xyxy": [
+          96,
+          241,
+          829,
+          645
+        ],
+        "text": "Ces informations sont des collections d'objets, décrits par un nombre d'attributs appelés descripteurs. Chaque objet est décrit par un nombre fini et fixe de descripteurs représentés par le vecteur x =(x1,X2,..,xn) ou x. est la valeur normalisée associée au descripteur i. Afin d'obtenir une confrontation entre x et les différentes classes C, une fonction de vraisemblance, appelée Degré d'Adéquation Marginale (DAM), est calculée pour chaque classe et chaque espace de description. Linformation donnée par le calcul des DAMs est ensuite utilisée pour déterminer le Degré d'Adéquation Globale(DAG)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824624061584473,
+        "bbox_xyxy": [
+          98,
+          682,
+          830,
+          1011
+        ],
+        "text": "La figure 2 montre le schéma représentatif du DAG obtenu au moyen d'un opérateur logique d'agrégation appelé 《 connectif mixte de compensationlinéaire 》，introduit et étudié parPIERA CARRETE etAGUILAR-MARTIN (1991). Ce connectif,issudelathéoriedesensemblesfous,effectue une interpolation entre l'opérateur logique d'intersection (T-norme, T) et celui de l'union (T-conorme, S), par le biais de lindice d'exigence, α ∈ [O -1]. Le calcul du DAG se fait selon la formule :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9760048985481262,
+        "bbox_xyxy": [
+          871,
+          621,
+          1603,
+          764
+        ],
+        "text": "En fait, ceci n'est qu'une extension foue de la loi de probabilitébinomiale a laquelle aété ajoutéela possibilitéde créer une partition autour des centres de classes (WAISSMAN, 2000)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9758687615394592,
+        "bbox_xyxy": [
+          871,
+          1050,
+          1603,
+          1198
+        ],
+        "text": "ouNestle nombred'objets attribuéacetteclasse.Pour procéder séquentiellement, il est nécessaire de connaitre le nombre d'éléments ayant servi au calcul des parametres de la classecorrespondante."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9729688763618469,
+        "bbox_xyxy": [
+          870,
+          95,
+          1602,
+          240
+        ],
+        "text": "La méthode LAMDA propose six algorithmes permettant de calculer les DAMs (KEMPOWSKY, 2004). Les résultats qui seront présentés dans cette étude sont obtenus en utilisant l'algorithmeLamda3:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9599533677101135,
+        "bbox_xyxy": [
+          97,
+          96,
+          829,
+          204
+        ],
+        "text": "Ces deux caractéristiques ne se rencontrent pas simultanement dans les techniques de classification telles que celles par réseaux deneurones oulogiquefoue."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9521985054016113,
+        "bbox_xyxy": [
+          871,
+          510,
+          1600,
+          591
+        ],
+        "text": "ou P：; estla probabilité de succes pour que l'événement stochastique x.∈C. et c,∈ D soit appelé centre de la classe C"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.950876772403717,
+        "bbox_xyxy": [
+          872,
+          806,
+          1602,
+          878
+        ],
+        "text": "L'actualisationdesparametresassociésauxdescripteurs quantitatifs de la classe C. se fait de la facon suivante :"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.947019100189209,
+        "bbox_xyxy": [
+          143,
+          1278,
+          1598,
+          1933
+        ],
+        "text": "DAM1(x1,C DAM2(X2,C DAG1 Descripteurs X1 DAMn(xn,C X2 MAX Attributiondela classe DAM1(x1,C Xn DAM2(X2,C DAGk DAMn(Xn,C Degréd'Adequation Degréd'Adéquation Maximale (DAM) Globale (DAG)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9427616000175476,
+        "bbox_xyxy": [
+          935,
+          310,
+          1456,
+          445
+        ],
+        "text": "DAM| xi Pi,i」=Pji -(1-Pii avec dji =xi -Cji"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9327214956283569,
+        "bbox_xyxy": [
+          249,
+          1047,
+          715,
+          1227
+        ],
+        "text": "DAG。(DAM,,.DAM2..,DAMn)= αT(DAM,DAM2,..DAMn) +(1-α)S(DAM1,DAM2,.DAMm)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9320771098136902,
+        "bbox_xyxy": [
+          96,
+          1962,
+          655,
+          2026
+        ],
+        "text": "Figure 2. Degres d'Adequation Marginale et Globale. Degreesofmarginalandglobaladequacy."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8997787237167358,
+        "bbox_xyxy": [
+          610,
+          47,
+          1069,
+          77
+        ],
+        "text": "-estionsubervzseed'uneunitedecoagulation"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8832839131355286,
+        "bbox_xyxy": [
+          790,
+          1123,
+          826,
+          1156
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8824520111083984,
+        "bbox_xyxy": [
+          1563,
+          366,
+          1599,
+          399
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8779299259185791,
+        "bbox_xyxy": [
+          96,
+          59,
+          134,
+          82
+        ],
+        "text": "328"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8733088374137878,
+        "bbox_xyxy": [
+          1563,
+          942,
+          1599,
+          975
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8468257784843445,
+        "bbox_xyxy": [
+          1063,
+          917,
+          1311,
+          998
+        ],
+        "text": "X; -Pji Pji =Pj,i + N+1"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9817360043525696,
+        "bbox_xyxy": [
+          98,
+          1082,
+          829,
+          1411
+        ],
+        "text": "Dans lecas dela reconnaissance deformes,l'elément est attribué a une classe significative ou rejeté dans la classe résiduelle NIC. Dans le cas de l'apprentissage, s'il est affecté a une classe significative, il y a modification des parametres de cette classe. En revanche, si la classe vide a la plus grande adéquation, une nouvelle classe doit étre créée pour contenir cet élément. Il y a rejet si la classe vide est la plus proche et qu'il n'y a pas possibilité de création de nouvelles classes parce que le nombre maximum de classes créees est atteint."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806625247001648,
+        "bbox_xyxy": [
+          98,
+          781,
+          828,
+          1036
+        ],
+        "text": "Le parametre N。>0 determine l'initialisation de l'apprentissage. .Sa valeur peut etre choisie arbitrairement maiselle influe sur le pouvoir d'absorption de chaque classe nouvelle; plus N。 est grand, moins la classe nouvelle sera infuencée par le premier élément. Par contre, en apprentissage dirigé, ce parametre n'a pas d'infuence sur le résultat de la classification."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798062443733215,
+        "bbox_xyxy": [
+          98,
+          94,
+          829,
+          312
+        ],
+        "text": "On peut créer aussi, a I'aide de la classe (NIC), une nouvelle classe qui va étre caractérisée par l'affectation d'un élément a cette classe. X est le premier élément d'une nouvelle classe C j+1 et la représentation de cette nouvelle classe dépendra de cet élément. On prendra un parametre fictif correspondant au nombre d'éléments de la classe NIC."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9791345596313477,
+        "bbox_xyxy": [
+          873,
+          869,
+          1603,
+          1782
+        ],
+        "text": "Les données utilisées pour I'apprentissage sont issues de la station Rocade.Une base de données a étéétablie a partir de quatre années de fonctionnement de la station. Nous avons considéré comme descripteurs : la température (T), les MES, le pH, la conductivité (COND) et l'oxygene dissous (OD). Le choix de ces descripteurs a été dicté par l'extréme influence de leurs valeurs sur le procédé de coagulation. En effet, dans une étude précédente (LAMRINI et al.,2005),nous avons développe un capteur logiciel, a base de réseaux de neurones, permettant de prédire la dose optimale de coagulant nécessaire dans une station de production d'eau potable. Le calcul de la dose est basé sur les caractéristiques de l'eau brute. Une étude par analyse en composantes principales (ACP) a permis de determiner les cinq parametres principaux de Peau brute a prendre en considération lors du développement du capteur logiciel. De plus, l'étude effectuée sur le fonctionnement de la station Rocade nous a montré que la qualité de l'eau brute secaracteriseparuneturbiditétresvariable(tresélevéea certaines périodes) et des qu'elle dépasse la valeur 1 ooo NTU, l'opérateur passe a la mesure des MES. Pour cette raison, et afin de tenir compte de toutes les variations de la qualité de l'eau brute, nous avons utilisé les MES au lieu de la turbidité. La dose de coagulant prédite par le capteur logiciel sera considérée comme un descripteur supplémentaire a utiliser dansla classification."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978766918182373,
+        "bbox_xyxy": [
+          871,
+          1825,
+          1603,
+          2086
+        ],
+        "text": "La figure 3 représente les caractéristiques d'eau brute utilisées pour I'apprentissage. Les données smontrentque la qualitédel'eau brute est caractérisée par desMEStres variables.Ainsi,onconstate de fortes variations de MES durant la saison hivernale qui deviennent parfois tres élevées pendant certaines périodes. Les valeurs de MES mesurées dépassent parfois 9o0 mg L-1, et ce, pendant les crues. Le pH"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9755673408508301,
+        "bbox_xyxy": [
+          97,
+          493,
+          828,
+          602
+        ],
+        "text": "Dans le cas de lauto-apprentissage, toute classe a du étre initialisée par la classe NIC, c'est pourquoila formule de la mise a jour doit contenir ce parametre fictif N, et elle devient :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9720430374145508,
+        "bbox_xyxy": [
+          872,
+          568,
+          1603,
+          821
+        ],
+        "text": "6.Application n d'un apprentissage supervisé a partir des données comprises entre chaque transition d'états possible afin d'obtenir toutes les conditions de changement. Dans ce cas, l'expert, selon ses propres criteres, peut définir un certain nombre de classes significatives par un ensemble de données, et ainsi mettre en place une classification de reference."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9699196219444275,
+        "bbox_xyxy": [
+          99,
+          1657,
+          826,
+          1758
+        ],
+        "text": "Dans cette étude, la classification des états fonctionnels est basée sur l'application itérative de la méthode LAMDA dont lesétapesserésument comme suit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9693812131881714,
+        "bbox_xyxy": [
+          869,
+          95,
+          1602,
+          272
+        ],
+        "text": "3. Identification, par lexpert, de l'ensemble des classes en rapport a un ensemble d'états significatifs. Ainsi, trois situations sont possibles:une classe est équivalente a un état,un ensemblede classes estéquivalent a unétat ou une classen'a d'équivalence avec aucunétat connu;"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9632459282875061,
+        "bbox_xyxy": [
+          98,
+          1801,
+          828,
+          1940
+        ],
+        "text": "1. Initialisation de la methode par un ensemble de données (sans prendre en compte une quelconque connaissance préalable du procédé). A noter que les données a classer sont normalisées dans lagamme[o -1];"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9558096528053284,
+        "bbox_xyxy": [
+          97,
+          1987,
+          828,
+          2087
+        ],
+        "text": "2.Application d'un napprentissage enonsupervisé(auto- apprentissage) : les objets ne sont pas affectés a des classes prédefinies et seule la classe NIC existe initialement;"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9479585886001587,
+        "bbox_xyxy": [
+          330,
+          643,
+          617,
+          726
+        ],
+        "text": "Xi -Pj,i Pj,i = Pji + No + N + 1"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9411309361457825,
+        "bbox_xyxy": [
+          333,
+          355,
+          593,
+          438
+        ],
+        "text": "x -Pj,0 Pj,0 = Pj,0 + No +1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9389054179191589,
+        "bbox_xyxy": [
+          871,
+          313,
+          1601,
+          419
+        ],
+        "text": "4. S'il existe au moins une classe dans la derniere situation, on doit retourner a létape 2 en considérant uniquement les données comprises dans cette classe;"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9280464053153992,
+        "bbox_xyxy": [
+          102,
+          1560,
+          818,
+          1604
+        ],
+        "text": "RESI SEACT"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9172258377075195,
+        "bbox_xyxy": [
+          869,
+          458,
+          1600,
+          530
+        ],
+        "text": "5. Identification de toutes les séquences possibles d'états une fois que toutes les donnees sont classifiées en états connus;"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9026092886924744,
+        "bbox_xyxy": [
+          601,
+          41,
+          1248,
+          67
+        ],
+        "text": "B.L.AMRlNtetal/ delHa 44 3/5-32"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8834152221679688,
+        "bbox_xyxy": [
+          791,
+          384,
+          825,
+          416
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8772152662277222,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1602,
+          79
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8743563294410706,
+        "bbox_xyxy": [
+          790,
+          665,
+          825,
+          698
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9794856309890747,
+        "bbox_xyxy": [
+          99,
+          1826,
+          829,
+          2081
+        ],
+        "text": "Afin de garder et de bien distinguer les signaux relatifs aux variations brusques et significatives de chaque descripteur, ces données brutes sont filtrées (Figure 4a) au moyen d'un filtre passe bas d'ordre 2 autour d'une fréquence de 0,5 Hz. Ensuite, pour mieux extraire les informations pertinentes pour la classification et connaitre les conditions d'opération de chaque descripteur, nous avons utilisé un analyseur spectral en"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9789618849754333,
+        "bbox_xyxy": [
+          99,
+          1456,
+          829,
+          1787
+        ],
+        "text": "est élevé et atteint la valeur maximale 8,5. On constate aussi une forte variation (jusqu'a 2 200 μs cm-²) de la conductivité, due a la présence des chlorures dans l'eau brute. Dans les conditions d'opération normale, loxygene dissous varie dans des proportions négligeables (8 a 8,2 mg L-'). Cependant, une forte variation de l'oxygene dissous est détectée en parallele avec des valeurs tres élevées de la conductivité. En basse saison (saison hivernale), la qualité de l'eau ne nécessite que de faibles taux de coagulant (10 a 45 mg L-1)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9651849865913391,
+        "bbox_xyxy": [
+          871,
+          1549,
+          1348,
+          1730
+        ],
+        "text": "Frequenceselectionnee:O,o1Hz Marge de tolérance (% Nyquist) : 10; Largeur de la fenetre : 7; Déplacement de la fenetre : 1; Periode d'échantillonnage : 1."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9606496691703796,
+        "bbox_xyxy": [
+          166,
+          140,
+          1549,
+          1108
+        ],
+        "text": "9 40 30 8.5 20 一 8 10 7.5 0 0 500 1000 1500 2000 2500 3000 500 0 1000 1500 2000 2500 301 Echantillons Echantillons 3000 3000 (/s) (1/bu) 2000 2000 OD 1000 1000 0 0 0 500 1000 1500 2000 2500 3000 0 500 1000 1500 2000 2500 301 Echantillons Echantillons 80 8.5 (1/bu) beo-asoa 60 (1/bu) ？ 40 8 7.5 20 ！ 0 0 500 1000 1500 2000 2500 3000 0 500 1000 1500 2000 2500 301 Echantillons Echantillons"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9388593435287476,
+        "bbox_xyxy": [
+          872,
+          1461,
+          1603,
+          1531
+        ],
+        "text": "sélectionnant une composante fréquentielle autour de laquelle le spectre est defini par les parametres suivants :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9276847839355469,
+        "bbox_xyxy": [
+          871,
+          1777,
+          1602,
+          1847
+        ],
+        "text": "Ce filtrage est effectué au moyen d'un outil d'abstraction des"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.90399569272995,
+        "bbox_xyxy": [
+          611,
+          48,
+          1068,
+          76
+        ],
+        "text": "-estzonsuDervzsee d'uneunitedecoagulatior"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8940207958221436,
+        "bbox_xyxy": [
+          177,
+          1213,
+          610,
+          1272
+        ],
+        "text": "Figure 3.Caractéristiques del'eau brute. Rawwatercharacteristics."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8676238059997559,
+        "bbox_xyxy": [
+          97,
+          59,
+          134,
+          81
+        ],
+        "text": "227"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7807675004005432,
+        "bbox_xyxy": [
+          872,
+          1897,
+          1604,
+          2075
+        ],
+        "text": "Dans un premier temps, nous avons srealise une classificationsansrecoursaunequelconqueconnaissance préalable (classification avec auto-apprentissage). Dans ce cas, les objets ne sont pas déja affectés a des classes prédéfinies et seulela classeNIC existe."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4111994206905365,
+        "bbox_xyxy": [
+          872,
+          1897,
+          1604,
+          2075
+        ],
+        "text": "Dans un premier temps, nous avons srealise une classificationsansrecoursaunequelconqueconnaissance préalable (classification avec auto-apprentissage). Dans ce cas, les objets ne sont pas déja affectés a des classes prédéfinies et seulela classeNIC existe."
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9813945293426514,
+        "bbox_xyxy": [
+          871,
+          1294,
+          1603,
+          1622
+        ],
+        "text": "La figure 5 présente le profil de chaque classe, i.e. la fréquence de contribution de chaque descripteur aux classes créées (Tableau 1). Les caractéristiques de chaque classe dans lespace de description permettent a l'expert d'identifier les classes significatives et celles ayant des caractéristiques tres proches. Ainsi, Iexpert peut décider d'agréger ces classes dans un seul et meme état. Sur cette figure, les descripteurs des classes apparaissent dans lordre suivant : Température, pH, MES,conductivitéetoxygenedissous."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9807778596878052,
+        "bbox_xyxy": [
+          97,
+          1299,
+          828,
+          1886
+        ],
+        "text": "Nous avons procédé a des essais (LAMRINI et al., 2005) pour les six algorithmes (KEMPOWSKY, 2004) et différents indices d'exigence. Les meilleurs résultats ont été obtenus avec lalgorithme Lamda3 (Eq. 3) comme fonction de présence utilisée pour calculer les adéquations marginales et le connectif Minimum/Maximum avec une exigence : α = 0,83, pour le calcul des adéquations globales. Il est a noter que plus cet indice d'exigence est élevé, plus I'appartenance d'un objet a une classe est stricte,et plus le nombre d'objets non classés devient important. De ce fait, le nombre de nouvelles classes créées augmente et il est donc évident que le choix de ces différents parametres, nécessaires a la réalisation d'un auto-apprentissage, doit étre guidé par les connaissances de l'expert. La figure 4b illustre les 10 classes issues de l'auto-apprentissage. A noter que pour chaque descripteur i de Pélément x = (x,.,x), la normalisation a été faite avec la formule suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9740986227989197,
+        "bbox_xyxy": [
+          869,
+          1749,
+          1604,
+          2040
+        ],
+        "text": "Classes 1 et 3 : les descripteurs se trouvent dans des valeurs optimales de fonctionnement suivant deux saisons : la basse saison (saison hivernale) et la haute saison (saison estivale), cas de fonctionnement normal de la station. Ainsi, ces deux classes peuvent étre associées a létat de fonctionnement α Normal >. Les 549 éléments propres a la basse saison plus les 617 éléments propres a la haute saison ont été associés a ce meme état de fonctionnement normal."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9572280645370483,
+        "bbox_xyxy": [
+          135,
+          165,
+          1577,
+          1093
+        ],
+        "text": "1.1 1.0- ME S PH COHD 0.9- 08- 0.7- 06 0.5 0.4 0.3- 0.2 0.1 0.0 0.1 2010 300 400. 500 600 P B00 900 1000 1100 1:200 1300 1400 1500 1600 1675 Echantillons [a) 11 10 1.00 200 200 400 20.0 800 900 10001100 1200130014001500 16001675 E chantillons (b)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9346561431884766,
+        "bbox_xyxy": [
+          325,
+          1952,
+          613,
+          2033
+        ],
+        "text": "X: imin Xinorm 一 Ximax Ximin"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9328253269195557,
+        "bbox_xyxy": [
+          133,
+          1146,
+          962,
+          1209
+        ],
+        "text": "Figure 4. (a) Descripteurs normalises, (b) Classes issues de Iauto-apprentissage (a)Normaliseddescriptors,(b)Self-learningclassificationresults"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8906142115592957,
+        "bbox_xyxy": [
+          601,
+          41,
+          1248,
+          67
+        ],
+        "text": "B.L.AMRlNtetal/ delHa 44 3/5-32"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8809831738471985,
+        "bbox_xyxy": [
+          791,
+          1965,
+          826,
+          1997
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.639979362487793,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1601,
+          80
+        ],
+        "text": "33"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9635310173034668,
+        "bbox_xyxy": [
+          95,
+          1656,
+          831,
+          1876
+        ],
+        "text": "Classe 2 : cette classe permet d'identifier toutes les variations élevéesdesMES(MES norm > 0,5) ainsi que les limites de norm fonctionnement de la station, i.e. les variations qui peuvent provoquer soit Iarret ou le ralentissement de la station. La classe 2 peut étre associée a l'état《MESAlarme+ 》et les 26éléments correspondantsy ontété associés."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9591121673583984,
+        "bbox_xyxy": [
+          899,
+          1655,
+          1603,
+          1762
+        ],
+        "text": "plus d'influence dansla caractérisation de cette classe.Les deux classes peuvent étre agregées dans un seul état, soit 《pHAlarme》."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9589009284973145,
+        "bbox_xyxy": [
+          162,
+          104,
+          1524,
+          697
+        ],
+        "text": "0.9- 0.8 8 0.6- 0.5 1.4 0.3 0.2 0.1 0.0- Class 1 Class 2 Class 3 Class 4 Class 5 Class 6 Class 7 Class 8 Class 9 Class 10"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9560968279838562,
+        "bbox_xyxy": [
+          95,
+          1893,
+          830,
+          2078
+        ],
+        "text": "Classes 4 et 6: ces deux classes permettent de dégager successivement les 22 variations (propres a la basse et a la haute saison) du pH (vers un état tres bas). Ces variations ontétéidentifieessimultanementavecuneevolutionde l'oxygene dissous vers son état optimal. En effet, le pH a"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9482120275497437,
+        "bbox_xyxy": [
+          868,
+          1767,
+          1604,
+          1948
+        ],
+        "text": "Classes 5et 8:ces deux classes permettent de détecter successivement,suivantles deux saisons,les variationsde I'oxygene dissous vers un état bas. Les deux classes sont associées a létat 《 ODAlarme 》 et les(206 + 44) éléments ontétéintegresacetétat."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9405916333198547,
+        "bbox_xyxy": [
+          436,
+          976,
+          1309,
+          1539
+        ],
+        "text": "Classes T pH MES COND OD Classe 1 0,27 0,05 0,07 0,06 0,01 Classe 2 0,57 0,06 0,63 0,08 0,03 Classe 3 0,72 0,04 0,09 0,06 0,01 Classe 4 0,67 0,65 0,14 0,30 0,04 Classe 5 0,71 0,03 0,1 0,35 0,03 Classe 6 0,35 0,49 0,12 0,20 0,08 Classe 7 0,68 0,02 0,1 0,95 0,03 Classe 8 0,37 0,03 0,08 0,50 0,10 Classe 9 0,34 0,05 0,16 0,45 0,82 Classe 10 0,27 0,04 0,07 0,70 0,12"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9175313115119934,
+        "bbox_xyxy": [
+          156,
+          718,
+          842,
+          780
+        ],
+        "text": "Figure5.Profil des classes issues del'auto-apprentissage. Classprofilesstemmingfromtheself-learningprocedure"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9106149077415466,
+        "bbox_xyxy": [
+          871,
+          1956,
+          1604,
+          2100
+        ],
+        "text": "Classe 7 : cette classe permet d'isoler les 33 variations de l'oxygene dissous vers un état tres bas (toutes les variations sont dans la gamme [o,7 - 1]). Nous associons cette classe a l'état《ODAlarme》."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9021921753883362,
+        "bbox_xyxy": [
+          610,
+          48,
+          1068,
+          76
+        ],
+        "text": "d'uneunitedecoagulation"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8779438138008118,
+        "bbox_xyxy": [
+          96,
+          59,
+          134,
+          81
+        ],
+        "text": "222"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.876480758190155,
+        "bbox_xyxy": [
+          441,
+          869,
+          1287,
+          932
+        ],
+        "text": "Tableaul. Fréquence de contribution de chaque descripteur aux classes creees Table1. Contributionfrequencyofeacbdescriptor"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9823410511016846,
+        "bbox_xyxy": [
+          872,
+          314,
+          1602,
+          791
+        ],
+        "text": "A partir de cette classification, il est possible de réaliser un apprentissage supervisepour créer de nouvelles classes ou faire évoluerles classes deja formées et ainsi arriver a unepartition les memes valeurs pour les différents parametres (fonction de présence, connectif, indice d'exigence) que celles utilisées lors de lauto-apprentissage. Les figures 7 et 8 présentent les résultats de cet apprentissage supervisé. Nous avons pu detecter lesmemesétatsfonctionnelsavecl'identificationd'unnouvel état. La nouvelle classe (classe 11) identifie bien la transition des cinq descripteurs vers leur état optimal de fonctionnement. Cette classe est associéea l'état《Transition》et 1oéléments lui ont été associés. Il n'y a plus d'éléments non reconnus."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9813928008079529,
+        "bbox_xyxy": [
+          98,
+          713,
+          828,
+          1187
+        ],
+        "text": "Cette classification optimisée a permis de définir la classification de référence. L'étape suivante du développement de l'outil de supervision/diagnostic a constitué a réaliser une classification passive, i.e. une reconnaissance pour valider cette affectation. Lors de l'affectation, les parametres des classes ne sont pas modifiés, ce qui est normal puisqu'il s'agit d'une exploitation des connaissances et non d'un apprentissage. Les éléments non classés sont affectés a une classe appelée α classe résiduelle > (classe O) ayant les memes caractéristiques que la classe NIC dans le cas de l'apprentissage. Les résultats sont présentés sur la figure 6. Sur cette figure, nous constatons que certains éléments (tres peu)ont été soit mal reconnus (l'element138estaffectéalaclasse6etlesélements676"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9780755639076233,
+        "bbox_xyxy": [
+          99,
+          523,
+          828,
+          667
+        ],
+        "text": "Les résultats de classification issus de l'auto-apprentissage indiqués dans le tableau 2 montrent qu'on peut identifier cinq états fonctionnels. Ces états permettent d'identifier, sur l'unité de coagulation, les principales dérives de fonctionnement"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9738448262214661,
+        "bbox_xyxy": [
+          871,
+          96,
+          1602,
+          276
+        ],
+        "text": "677et678 sont affectésalaclasse8),soit nonreconnus (c'est-a-dire n'appartenant a aucuneclasseprédefinie);c'est le casdeséléments674et675.Letableau3representelenombre d'éléments associés aux classes issues del'auto-apprentissage et lorsdelareconnaissance."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9685432314872742,
+        "bbox_xyxy": [
+          871,
+          829,
+          1603,
+          1170
+        ],
+        "text": "Le tableau 4 présente la comparaison des resultats propres aux deux classifications (résultats issus de l'auto-apprentissage et ceux issus de I'apprentissage supervisé). La compatibilité entre ces deux classifications peut étre effectuée en calculant l'indice de dissemblance (LOPEZ DE MANTARAS, 1977) a partir de la matrice de contingence. Si on considere deux partitions F et G d'un meme ensemble d'objets (Q), les éléments de la matrice card(F; nGj) card(Q)"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9601183533668518,
+        "bbox_xyxy": [
+          340,
+          1435,
+          1337,
+          2094
+        ],
+        "text": "Classes Nom de la classe Etat fonctionnel Nombre d'élements associés Classe 1 BSaison Normal 549 Classe 2 MES_TresElevees---->limites MESAlarme+ 26 Classe 3 HSaison Normal 617 Classe 4 pH_TresBas_HSaison pHAlarme 16 Classe 5 OD_Bas_HSaison ODAlarme 206 Classe 6 pH_Bas_BSaison pHAlarme 6 Classe 7 OD_TresBas_HSaison ODAlarme 33 Classe 8 OD_Bas_BSaison ODAlarme 44 Classe 9 COND_TresBas_BSaison CONDAlarme 11 Classe 10 OD_TresBas_BSaison ODAlarme 167"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8949220180511475,
+        "bbox_xyxy": [
+          601,
+          41,
+          1248,
+          67
+        ],
+        "text": "B.L.AMRlNtetal/ delHa 44 3/5-32"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.878414511680603,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1602,
+          79
+        ],
+        "text": "222"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8595208525657654,
+        "bbox_xyxy": [
+          96,
+          95,
+          829,
+          275
+        ],
+        "text": "Classe 9 : cette classe a été générée a partir de 11 éléments. Elleidentifietouteslesvariationselevéesdelaconductivité Nousconstatonsaussiunefaiblevariationsimultaneede l'oxygene dissous vers un état bas constant. La classe 9 est affectéealétat《CONDAlarme>."
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.757517397403717,
+        "bbox_xyxy": [
+          350,
+          1316,
+          1342,
+          1408
+        ],
+        "text": "Tableau2. Lesetatsfonctionnels associes aux classesissues del'auto-apprentissage. Table2. Functionalstatesassociatedwiththeclassesstemmingfromtheself-learning procedure."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7362755537033081,
+        "bbox_xyxy": [
+          97,
+          287,
+          829,
+          466
+        ],
+        "text": "Classe 10:167éléments constituentlaclasse 10.Cette classe permet d'identifier l'évolution de I'oxygene dissous, en basse saison, vers un état tres bas. Cette variation correspond a une faible variation de la conductivité.La classe 10 est associée a l'état《ODAlarme >."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9326635003089905,
+        "bbox_xyxy": [
+          506,
+          1300,
+          1157,
+          2001
+        ],
+        "text": "Nombre d'éléments associés Classes Auto-apprentissage Reconnaissance Classe 1 549 536 Classe 2 26 27 Classe 3 617 615 Classe 4 16 15 Classe 5 206 192 Classe 6 6 10 Classe 7 33 33 Classe 8 44 64 Classe 9 11 17 Classe10 167 164"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9169532060623169,
+        "bbox_xyxy": [
+          164,
+          695,
+          697,
+          757
+        ],
+        "text": "Figure6.F Resultatsdelareconnaissancedeformes. Patternrecognitionresults"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9080304503440857,
+        "bbox_xyxy": [
+          611,
+          48,
+          1068,
+          76
+        ],
+        "text": "-estzonsuDervzsee d'uneunitedecoagulatior"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9069023132324219,
+        "bbox_xyxy": [
+          158,
+          132,
+          1495,
+          672
+        ],
+        "text": "11 10 0- 100 200 300 400 500 600 700 800 900 10001100 1200130014001500 16001675 Echantillons"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8770387172698975,
+        "bbox_xyxy": [
+          96,
+          59,
+          134,
+          81
+        ],
+        "text": "224"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6347869634628296,
+        "bbox_xyxy": [
+          663,
+          1179,
+          1150,
+          1270
+        ],
+        "text": "Elementsassociatedwiththeclassesstemming fromtheself-learningprocedureandpattern recognition."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5629189610481262,
+        "bbox_xyxy": [
+          663,
+          1089,
+          1149,
+          1177
+        ],
+        "text": "Lesélementsassociesauxclassesissuesde l'auto-apprentissage et de la reconnaissance de formes."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5057359337806702,
+        "bbox_xyxy": [
+          515,
+          1090,
+          624,
+          1118
+        ],
+        "text": "Tableau3."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.354562371969223,
+        "bbox_xyxy": [
+          685,
+          638,
+          930,
+          675
+        ],
+        "text": "Echantillons"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "figure",
+        "layout_score": 0.9580591917037964,
+        "bbox_xyxy": [
+          240,
+          774,
+          1430,
+          1232
+        ],
+        "text": "1.0 0.9- 876 0.5- 0.2 0.1 0.0 Class 1 Class 2 Class 3 Class 4 Class 5 Class 6 Class 7 Class 8 Class 9 Class 10 Class 11"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.957012951374054,
+        "bbox_xyxy": [
+          161,
+          1531,
+          1531,
+          2083
+        ],
+        "text": "Classification de reférence Classes Classe 1 Classe 2 Classe 3 Classe 4 Classe 5 Classe 6 Classe 7 Classe 8 Classe 9 Classe 10 Classe 1 530 0 0 0 0 0 0 0 0 0 Classe 2 0 26 1 0 0 0 0 0 0 0 Classe 3 1 0 554 0 0 0 0 0 0 0 Classe 4 0 0 0 16 0 0 0 0 0 0 Classe 5 9 0 61 0 181 0 0 0 0 0 Classe 6 4 0 0 0 0 6 0 0 0 0 Classe 7 0 0 0 0 0 0 31 0 0 0 Classe 8 5 0 1 0 23 0 2 33 0 0 Classe 9 0 0 0 0 0 0 0 0 10 0 Classe 10 0 0 0 0 0 0 0 9 0 154 Classe 11 0 0 0 0 2 0 0 2 1 13"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9277238249778748,
+        "bbox_xyxy": [
+          244,
+          603,
+          1013,
+          665
+        ],
+        "text": "Figure 7.Creation et modification des classes par apprentissage supervise. Designandmodificationofclassesbysupervisedlearning."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9196476936340332,
+        "bbox_xyxy": [
+          244,
+          1271,
+          879,
+          1334
+        ],
+        "text": "Figure 8. Profil de classes issues de l'apprentissage supervise. Classprofilesstemmingfromsupervisedlearning"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9002295136451721,
+        "bbox_xyxy": [
+          227,
+          101,
+          1423,
+          579
+        ],
+        "text": "12 11 10 987 0- 100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1675 Echantillons"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.894536554813385,
+        "bbox_xyxy": [
+          601,
+          41,
+          1249,
+          67
+        ],
+        "text": "B.L.AMRlNtetal/ delHa1 44）（2）/ /"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6267597675323486,
+        "bbox_xyxy": [
+          167,
+          1418,
+          1034,
+          1480
+        ],
+        "text": "Cableau4. Matricedecontingence(distanceentrelesdeuxclassificationsde0.26) Table4. Contingencymatrix(distancebetweenthetwoclassifications=O.26)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6258495450019836,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1602,
+          80
+        ],
+        "text": "22"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.3394070863723755,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1602,
+          80
+        ],
+        "text": "22"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.3001768887042999,
+        "bbox_xyxy": [
+          167,
+          1418,
+          1034,
+          1480
+        ],
+        "text": "Cableau4. Matricedecontingence(distanceentrelesdeuxclassificationsde0.26) Table4. Contingencymatrix(distancebetweenthetwoclassifications=O.26)"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9789173603057861,
+        "bbox_xyxy": [
+          864,
+          388,
+          1602,
+          865
+        ],
+        "text": "La démarche adoptée a été d'effectuer un apprentissage supervisé et d'adapter la classification réalisée en fonction de l'évolution des nouvelles données. La figure 9 présente les résultats de la classification obtenus apres un apprentissage supervisé en adoptant les memes parametres de classification que ceux initialement utilisés. Les résultats de classification montrent que l'introduction de la dose de coagulant comme descripteur supplémentaire fait apparaitre eunnouvelétat defonctionnementc dégradé.Lesclasses 7et 8identifiant cetetatde edysfonctionnement ont été associées alétat 《 CoagulantAlarme >. Il correspond a un fonctionnement en basse saison ou la qualité de l'eau ne nécessite que de faibles taux de coagulant (10 a 45 mg L-1). De plus, l'introduction de"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9782690405845642,
+        "bbox_xyxy": [
+          98,
+          294,
+          835,
+          695
+        ],
+        "text": "Dans ce qui suit, nous donnons les résultats relatifs al'introduction d'un sixieme descripteur. Ce descripteur supplémentaire est la dose de coagulant prédite par le capteur logiciel (LAMRINI et al., 2005), précédemment développé sur la base de réseaux de neurones. En effet, dans les conditions d'opération normales de la station, la dose de coagulant appliquée évolue de facon non linéaire, en fonction des cinq descripteurs de la qualité de leau brute. Trois réseaux de neurones ont été développés suivant la variable utilisée en entrée, en plus du pH, de la température, de l'oxygene dissous et de la conductivité :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9662593007087708,
+        "bbox_xyxy": [
+          99,
+          97,
+          836,
+          240
+        ],
+        "text": "Les indices i et j représentent respectivement les nombres de classes des partitionsF et G.Plus l'indice de dissemblance est faible, plus la compatibilité est bonne. Dans notre cas, cet indiceestde0,26,cequidemontreunebonnecompatibilité"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9643241167068481,
+        "bbox_xyxy": [
+          125,
+          991,
+          1560,
+          1978
+        ],
+        "text": "15 10 5 0 1.00 200 300 400 500 600 700 800 900 1.000 11.00 1200 1300 1400 1500 1600 1675 1.1 1.0 Dose 0.9- 0.8 0.2 0.1 0.0 -0.1 100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1675 Echantillons"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9593368172645569,
+        "bbox_xyxy": [
+          865,
+          244,
+          1601,
+          351
+        ],
+        "text": "Il a été démontré que ces trois réseaux donnaient des résultats similaires et qu'il était possible de passer du réseau 2 auréseaulparexemple."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9348978996276855,
+        "bbox_xyxy": [
+          124,
+          2008,
+          973,
+          2071
+        ],
+        "text": "Figure 9. Classes issues de I'apprentissage supervise avec la dose de coagulant Classificationstemmingfromsupervisedlearningwithcoagulantdosage"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9193267226219177,
+        "bbox_xyxy": [
+          877,
+          96,
+          1602,
+          202
+        ],
+        "text": "Le reseau 3 qui utilise la turbidite avec une interpolation de celle-ci pour des valeurs supérieures a 1 ooo NTU a l'aide d'une fonction d'interpolation des MES."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8969569802284241,
+        "bbox_xyxy": [
+          610,
+          47,
+          1068,
+          76
+        ],
+        "text": "dMnehnitede 2coagulation"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8716596364974976,
+        "bbox_xyxy": [
+          97,
+          59,
+          134,
+          81
+        ],
+        "text": "226"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5548094511032104,
+        "bbox_xyxy": [
+          97,
+          788,
+          834,
+          857
+        ],
+        "text": "Le réseau 2 qui admet en entrée des valeurs de la turbidite limitees (inférieure a 1 oooNTU);"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.37022528052330017,
+        "bbox_xyxy": [
+          97,
+          742,
+          834,
+          858
+        ],
+        "text": "Le réseau 1 qui utilise directement les MES; Le réseau 2 qui admet en entrée des valeurs de la turbidite limitées (inférieure a 1 ooo NTU);"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3064989447593689,
+        "bbox_xyxy": [
+          105,
+          742,
+          649,
+          777
+        ],
+        "text": "Lereseall"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9803856611251831,
+        "bbox_xyxy": [
+          865,
+          828,
+          1602,
+          1301
+        ],
+        "text": "En se référant aux travaux réalisés dans ce domaine, il semble que l'application de l'approche,réalisée dans le cadre de cette étude, est la premiere de son genre qui ait pu montrer l'utilité des techniques de classification dans le suivi et la surveillance de ce typede procédé. Il estclair quel'objectiffinal del'étude est de pouvoir étendre cette surveillance a l'ensemble de la station de traitement Rocade, de traiter toutes les informations issues des différents procédés de traitement (décantation, filtration, etc.) etdedetecterleplustotpossiblelesderivesdefonctionnement. De telles informations peuvent aider a identifier les pannes sur une unité située en amont de la station mais aussi servir a la maintenance preventive des appareils comme les filtres ou les decanteurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9800288677215576,
+        "bbox_xyxy": [
+          865,
+          207,
+          1603,
+          791
+        ],
+        "text": "Des travaux sont actuellement réalisés pour permettre la validation automatique de la classification obtenue. Jusqu'a présent, seul l'expert était juge de la validité de la classification obtenue.A l'aide d'indices de mesure de compacité et de separation desclasses sexploitantleconcept td'entropies intraclasse et interclasse, il est possible de faire évoluer l'indice d'exigence, par exemple, afin d'obtenir de maniere quasi automatiquela classification avecles meilleures caractéristiques en matiere de compacité et de separation des classes. De plus. pour éviter des transitions vers des classes non représentatives (lorsque I'élément en question a des DAM a deux classes tres peu différents par exemple), des études sont menees actuellement pour ne prendre en compte que des transitions significatives. Ces deux modifications permettront a terme d'obtenir plus facilement une classification plus compacte et d'éviter d'avoir des transitions non representatives."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9736800193786621,
+        "bbox_xyxy": [
+          98,
+          1035,
+          836,
+          2097
+        ],
+        "text": "Dans ce travail,la technique de classification 1par apprentissage LAMDA a été appliquée dans le but de réaliser une conduite supervisée du procédé de coagulation. Nous avons montré les performances de la méthode pour détecter les différentes séquences d'états fonctionnels décrivant le comportement de ce procédé. Les principaux avantages de cette methode sont de permettre un apprentissage séquentiel superviséetnonsuperviséetd'adapterlaclassificationréalisée en fonction deI'évolution des données a classer.En outre, cette methode se différencie des autres techniques par la notation de l'adéquation nulle et l'incidence de celle-ci sur la classification. Dans la base de données, trois types d'états fonctionnels ont été reconnus : des états de fonctionnement normal (la station se trouve la majorité du temps dans des conditions d'opération normales), des états de fonctionnement dégradé identifiés hors opération normale et d'autres états fonctionnels vers lesquels il est possible de transiter, en revenant toujours apres un temps plus ou moins long, a létat d'operation normal. A noter que les résultats obtenus peuvent servir de base pour le suivi et la détectiondes defaillances au niveau desprocédés de coagulation. Une reconnaissance en ligne peut étre envisagée a partir de ce modele de référence pour déterminer l'état fonctionnel représentant le procédé une fois qu'une nouvelle observation se présente. En effet, le modele de référence n'est pas toujours exhaustif du fait que, pour certaines situations, soit le recueil des données n'a pas été possible ou qu'il existe des situations dont I'occurrence est peu fréquente. Il est donc possible de faire évoluer la base d'apprentissage au fur et a mesure de l'apparition de nouveaux cas, en réalisant des apprentissages dits spécialisés"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9441571831703186,
+        "bbox_xyxy": [
+          867,
+          1528,
+          1602,
+          1675
+        ],
+        "text": "AGUADOJ.C.(1998).Amixedqualitative-quantitative self-learningclassificationtechniqueappliedtosituation assessmentinindustrialprocesscontrol.ThesedeDoctorat Univ. Politecnica de Catalunya, Terrassa, Espagne, 160 p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9338342547416687,
+        "bbox_xyxy": [
+          98,
+          95,
+          835,
+          167
+        ],
+        "text": "la dose de coagulant a permis d'affiner l'état de fonctionnement normal par la création d'une classe supplémentaire"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9295935034751892,
+        "bbox_xyxy": [
+          865,
+          1955,
+          1603,
+          2103
+        ],
+        "text": "AGUILAR-MARTINJ.etR.LOPEZDEMANTARAS (1982).Theprocessofclassificationandlearningthemeaning oflinguisticdescriptorsofconcepts.Approximatereasoning indecisionanalysis.Approximate reasoning indecision"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9195683002471924,
+        "bbox_xyxy": [
+          869,
+          1425,
+          1515,
+          1473
+        ],
+        "text": "REFERENCESBIBLIOGRAPHIQUES"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9161248207092285,
+        "bbox_xyxy": [
+          99,
+          222,
+          834,
+          292
+        ],
+        "text": "Lesmemesétatsfonctionnelsidentifiesprecedemmentsont retrouvesparles classessuivantes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8998839855194092,
+        "bbox_xyxy": [
+          865,
+          1728,
+          1604,
+          1910
+        ],
+        "text": "AGUILAR-MARTINJ.,M.BALSSA.etR.LOPEZDE MANTARAS(198O).Estimationrecursived'unepartition. Exemples d'apprentissageet auto-apprentissagedansR\"et I\",LAAS-CNRS,Toulouse,France,Rapport scientifique N°880139,7p."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8957300782203674,
+        "bbox_xyxy": [
+          102,
+          944,
+          421,
+          985
+        ],
+        "text": "CONCIUSTOOT"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8882380127906799,
+        "bbox_xyxy": [
+          601,
+          41,
+          1248,
+          67
+        ],
+        "text": "B.L.AMRlNtetal/ delHa 44 3/5-32"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8604203462600708,
+        "bbox_xyxy": [
+          1565,
+          57,
+          1602,
+          79
+        ],
+        "text": "22"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7982921004295349,
+        "bbox_xyxy": [
+          96,
+          340,
+          837,
+          809
+        ],
+        "text": "Lesclasses1,3et5caracterisentl'étatdefonctionnement 《Normal > suivant trois saisons : la basse saison, la mi-saison et la haute saison; La classe 2, qui permet d'identifier toutes les fortes variations des MES, est alors associée a l'état α MESAlarme+ >; Les variations du pH (vers un état tres bas) identifiées par les classes 4 et 9 sont associées a I'état α pHAlarme >; Létat《ODAlarme》estassociéaux( quatredérivesde fonctionnement dégradé de l'oxygene dissous par les classes 6,10,11 et 13; La classe 12,caractérisée par de fortes variations de la conductivité,est affectée a l'état α CONDAlarme 》."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.784048855304718,
+        "bbox_xyxy": [
+          864,
+          96,
+          1602,
+          165
+        ],
+        "text": "permettant de creer de nouvelles classes a partir d'elements non reconnus."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.31891122460365295,
+        "bbox_xyxy": [
+          100,
+          737,
+          835,
+          807
+        ],
+        "text": "La classe 12,caractérisée par de fortes variations de la conductivité, est affectée a létat α CONDAlarme >."
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8880746364593506,
+        "bbox_xyxy": [
+          610,
+          47,
+          1069,
+          77
+        ],
+        "text": "-estionsubervzseed'uneunitedecoagulation"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8527073264122009,
+        "bbox_xyxy": [
+          96,
+          59,
+          135,
+          82
+        ],
+        "text": "22C"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8083783984184265,
+        "bbox_xyxy": [
+          98,
+          219,
+          836,
+          365
+        ],
+        "text": "BAZER-BACHIA.,E.PUECH-COSTE,R.BEN AIMetJ.L PROBST (199o). Modelisation mathématique du taux de coagulant dans une station de traitement d'eau. Rev. Sci. Eau,3,377-397."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7731974124908447,
+        "bbox_xyxy": [
+          98,
+          410,
+          837,
+          630
+        ],
+        "text": "CHAN M.,J.AGUILAR-MARTIN,N.PIERA CARRETE P.CELSIS etJ.P.MARC-VERGNES(1989).Classification techniquesforfeature extractioninlowresolution topographic evaluative images: Application to cerebral blood fow estimation. 12th conference GRESTI, 12-16 juin, Juan-les-Pins,France."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7699480056762695,
+        "bbox_xyxy": [
+          96,
+          1878,
+          837,
+          2061
+        ],
+        "text": "LAMRINIB.,M.V.LELANNetA.BENHAMMOU(2005). Conduitesuperviséed'unestationdetraitementd'eau potable par la méthode de classification LAMDA.10 congresdelasocietéfrancaisedesgeniesdeprocedes(SFGP) 20-22septembre,Toulouse,France,AuteursI3."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7175753116607666,
+        "bbox_xyxy": [
+          96,
+          668,
+          838,
+          888
+        ],
+        "text": "EVANS J. et C. ENOCH (1998). Investigation of advanced control methods applied to coagulation dosing at a WTW. UKWaterIndustryResearchLimited/SensorsforWater Interest Group(UKWIR/SWIG)Worksbop,9-11 décembre National Motor Cycle Museum, Birmingham, Grande Bretagne."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6630403995513916,
+        "bbox_xyxy": [
+          97,
+          924,
+          834,
+          1036
+        ],
+        "text": "GAGNON C., B.P.A.GRANDJEAN etJ.THIBAULT (1997) Modelling of coagulant dosage in a water treatment plant. Artif.Intell.Eng.,11,401-404."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6299282312393188,
+        "bbox_xyxy": [
+          96,
+          1218,
+          839,
+          1401
+        ],
+        "text": "KEMPOWSKYT.(2004).Surveillancedeprocédésabase demethodesdeclassification:conceptiond'unoutild'aide pour la detectionetlediagnostic des defaillances.Thesede Doctorat,Institut National des Sciences Appliquées Toulouse,France,170 p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6237341165542603,
+        "bbox_xyxy": [
+          863,
+          1817,
+          1604,
+          1926
+        ],
+        "text": "ZHU X. et A.R. SIMPSON (1996). Expert system for water treatment plant operation.J. Environ. Eng., 122 822-829."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6174655556678772,
+        "bbox_xyxy": [
+          97,
+          1657,
+          837,
+          1842
+        ],
+        "text": "LAMRINIB.,M.V.LELANNetA.BENHAMMOU(2005)) Detectionoffunctionalstatesbasedoninteractivitybetween expertise and LAMDA learning technique.Information andCommunicationTechnologiesInternationalSymposium (IC77S05),3-6juin,Tetouan,Maroc,pp.105-110."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5968819260597229,
+        "bbox_xyxy": [
+          96,
+          1071,
+          836,
+          1179
+        ],
+        "text": "KAN C. et C. HUANG (1998). Coagulation monitoring in surface water treatment facilities.Water Sci.Technol.,38 237-244."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5890060067176819,
+        "bbox_xyxy": [
+          97,
+          1437,
+          838,
+          1619
+        ],
+        "text": "LAMRINI B.,A.BENHAMMOU,M.V.LE LANNet A. KARAMA(2005).A neural softwaresensor for on-line prediction of coagulant dosage: Application to a drinking water treatmentplant.Trans.Inst.Meas.Control(TIMC) 27,195-213."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5842552781105042,
+        "bbox_xyxy": [
+          863,
+          1083,
+          1604,
+          1195
+        ],
+        "text": "SHEPHERDA.et L.ORTOLANO (1996).Water-supply operations: Critiquing expert-system approach. J. Water Resour.Plann.Manage.,122,348-355."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5784799456596375,
+        "bbox_xyxy": [
+          863,
+          241,
+          1604,
+          388
+        ],
+        "text": "LOPEZ DE MANTARAS R.(1977).Auto-apprentissage d'une partition.Applicationauclassementiteratifdedonnees multidimensionnelles.ThesedeDoctorat,UniversitePaul Sabatier,Toulouse,France,150p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5758464932441711,
+        "bbox_xyxy": [
+          863,
+          901,
+          1604,
+          1050
+        ],
+        "text": "SARRATE R. (2002). Supervisio intelligent de processos dinamics basadaenesdeveniments(ABSALON:Abstractionanalysison line). These de Doctorat, Univ. Politecnica de Catalunya, Terrassa,Espagne,145p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5671141743659973,
+        "bbox_xyxy": [
+          864,
+          1231,
+          1604,
+          1377
+        ],
+        "text": "STANDEN G.,PJ. INSOLE, K.J. SHEK et R.A. IRWIN (1997). The use of particle monitoring in the performance optimisation of conventional clarification processes. Water Sci.Technol.,36,191-198."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5515758395195007,
+        "bbox_xyxy": [
+          862,
+          570,
+          1605,
+          719
+        ],
+        "text": "PIERACARRETE N.,P.DESROCHESet J.AGUILAR MARTIN(1989).LAMDA:Anincrementalconceptual clustering system. LAAS-CNRS, Toulouse, France. Rapport scientifique N° 89420, 10 p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5480935573577881,
+        "bbox_xyxy": [
+          863,
+          423,
+          1603,
+          535
+        ],
+        "text": "PIERA CARRETE N.et J.AGUILAR-MARTIN (1991). Controlling selectivity in non-standard pattern recognition algorithms. IEEE Trans. Syst. Man Cybern., 21, 71-82."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5144751071929932,
+        "bbox_xyxy": [
+          864,
+          1414,
+          1603,
+          1561
+        ],
+        "text": "VALENTIN N.,F. FOTOOHI, T. DENOEUX (1999) Modeling of coagulant dosing in a water treatment plant. Proceedings of EANN'99, septembre, Warsaw, Pologne, Pp.165-170."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.511212170124054,
+        "bbox_xyxy": [
+          865,
+          1597,
+          1604,
+          1782
+        ],
+        "text": "WAISSMANNJ.( (2000). Construction d'un modele comportementalpourlasupervisiondeprocedes:application a unestationdetraitement deseaux.ThesedeDoctorat, Institut National Polytechnique de Toulouse, France, 119 p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5005459785461426,
+        "bbox_xyxy": [
+          863,
+          753,
+          1602,
+          864
+        ],
+        "text": "PIERA CARRETE N.,P. DESROCHES et J. AGUILAR MARTIN (1990). Variation points in pattern recognition. Patt.Recognit.Lett.,11,519-524."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.46942785382270813,
+        "bbox_xyxy": [
+          143,
+          93,
+          834,
+          168
+        ],
+        "text": "analysis, MM. GUPTA et E.SANCHEZ (Editeurs), Amsterdam,Pays-Bas,165-175."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4516643285751343,
+        "bbox_xyxy": [
+          91,
+          174,
+          844,
+          2107
+        ],
+        "text": "BAZER-BACHIA., E.PUECH-COSTE, R. BEN AIM et J.L PROBST (1990). Modélisation mathématique du taux de coagulant dans une station de traitement d'eau. Rev. Sci. Eau,3,377-397. CHAN M., J. AGUILAR-MARTIN, N. PIERA CARRETE , P. CELSIS et J.P. MARC-VERGNES (1989).Classification techniques for feature extraction in low resolution topographic evaluative images: Application to cerebral blood How estimation. 12\"h conference GRESTI, 12-16 juin, Juan-les-Pins, France. EVANS J. et C. ENOCH (1998). Investigation of advanced control methods applied to coagulation dosing at a WTW. UKWaterIndustryResearchLimited/SensorsforWater Interest Group (UKWIR/SWIG) Workshop, 9-11 décembre, National Motor Cycle Museum, Birmingham, Grande- Bretagne. GAGNON C., B.PA. GRANDJEAN et J. THIBAULT (1997). Modelling of coagulant dosage in a water treatment plant. Artif. Intell. Eng., 11, 401-404. KAN C. et C. HUANG (1998). Coagulation monitoring in surface water treatment facilities. Water Sci. Technol., 38, 237-244. KEMPOWSKY T. (2004). Surveillance de procedes a base de methodes de classification : conception d'un outil d'aide pour la detection et le diagnostic des defaillances. These de Doctorat, Institut National des Sciences Appliquées, Toulouse, France, 170 p. LAMRINI B., A. BENHAMMOU, M.V. LE LANN et A. KARAMA (2005). A neural software sensor for on-line prediction of coagulant dosage: Application to a drinking water treatment plant. Trans. Inst. Meas. Control (TIMC), 27,195-213. LAMRINI B., M.V.LE LANN et A. BENHAMMOU (2005). Detection of functional states based on interactivity between expertise and LAMDA learning technique. Information and Communication Technologies International Symposium (ICTIS'05), 3-6 juin, Tetouan, Maroc, Pp. 105-110. LAMRINI B., M.V.LE LANN et A. BENHAMMOU (2005). Conduite supervisée d'une station de traitement d'eau potable par la méthode de classification LAMDA. 10 congres de la societe francaise des genies de procedes (SFGP), 20-22 septembre, Toulouse, France, Auteurs I3."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4366404414176941,
+        "bbox_xyxy": [
+          861,
+          94,
+          1602,
+          203
+        ],
+        "text": "LIU J.C. et M.D. WU (1997). Fuzzy control of coagulation reaction through streaming current monitoring. Water Sci. Technol.,36,127-134."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3631514608860016,
+        "bbox_xyxy": [
+          91,
+          104,
+          844,
+          2074
+        ],
+        "text": "(Editeurs), Amsterdam, Pays-Bas,165-175. BAZER-BACHI A., E. PUECH-COSTE, R. BEN AIM et J.L PROBST (1990). Modelisation mathématique du taux de coagulant dans une station de traitement d'eau. Rev. Sci. Eau,3,377-397. CHAN M., J. AGUILAR-MARTIN, N. PIERA CARRETE , P. CELSIS et J.P. MARC-VERGNES (1989). Classification techniques for feature extraction in low resolution topographic evaluative images: Application to cerebral blood fow estimation. 12rh conference GRESTI, 12-16 juin, Juan-les-Pins, France. EVANS J. et C. ENOCH (1998). Investigation of advanced control methods applied to coagulation dosing at a WTW. UK Water Industry Research Limited/Sensors for Water Interest Group (UKWIR/SWIG) Workshop, 9-11 décembre, National Motor Cycle Museum, Birmingham, Grande Bretagne. GAGNON C., B.PA. GRANDJEAN et J. THIBAULT (1997). Modelling of coagulant dosage in a water treatment plant. Artif. Intell. Eng., 11, 401-404. KAN C. et C. HUANG (1998). Coagulation monitoring in surface water treatment facilities. Water Sci. Tecbnol., 38, 237-244. KEMPOWSKY T.(2004).Surveillancedeprocedésabase de methodes de classification : conception d'un outil d'aide pour la detection et le diagnostic des defaillances. These de Doctorat, Institut National des Sciences Appliquées, Toulouse, France, 170 p. LAMRINI B., A. BENHAMMOU, M.V. LE LANN et A. KARAMA (2005). A neural software sensor for on-line prediction of coagulant dosage: Application to a drinking water treatment plant. Trans. Inst. Meas. Control (TIMC), 27,195-213. LAMRINI B., M.V.LE LANN et A. BENHAMMOU (2005). Detection offunctional states based on interactivity between expertise and LAMDA learning technique. Information andCommunicationTechnologiesInternationalSymposium (ICTIS'05), 3-6 juin, Tetouan, Maroc, Pp. 105-110. LAMRINI B., M.V. LE LANN et A. BENHAMMOU (2005). Conduite supervisée d'une station de traitement d'eau potable par la méthode de classification LAMDA. 10 congres de la societe francaise des genies de procedes (SFGP), 20-22 septembre, Toulouse, France, Auteurs I3"
+      }
+    ]
+  }
+]

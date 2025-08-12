@@ -1,0 +1,2577 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.981069803237915,
+        "bbox_xyxy": [
+          98,
+          1256,
+          827,
+          1767
+        ],
+        "text": "Les charges de matiere en suspension mesurées durant 22 événements pluvieux enregistrés a l'exutoire du sous- bassin (i) de l'arrondissement de Verdun au Canada et l'exutoire de trois sous-bassins de la ville de Champaign aux Etats-Unis ont servi a valider le modele RQSM. Les charges de matiere en suspension simulées par le modele RQSM ont été comparées aux charges mesurées et aux charges simulées exponentiel dulogiciel SWMM. Leschargessimuléesal'aide du modele RQSM étaient comparables aux charges mesurées. De plus, la performance du modele RQSM a été jugée équivalente a celle des modeles exponentiel et 《 rating curve >. Une analyse de sensibilité menée sur le modele RQSM a mis en lumiere I'infuence de chaque parametre sur la charge simulée."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9801589250564575,
+        "bbox_xyxy": [
+          99,
+          881,
+          829,
+          1208
+        ],
+        "text": "Le présent travail porte sur le edéveloppementetla validation du modele conceptuel RQSM (Runoff Quality Simulation Model). Le modele RQSM a pour objectif de simuler le lessivage des matieres en suspension. Le modele RQSM considere que l'accumulation est infinie sur les surfaces perméables et imperméables. Il utilise lénergie cinétique des precipitations pour decrire la mise en suspension des particules solides. Il modelise le transport des matieres en suspension a l'aide de la théorie des systemes linéaires."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798974394798279,
+        "bbox_xyxy": [
+          873,
+          1179,
+          1602,
+          1471
+        ],
+        "text": "This paper presents a new conceptual model called RQSM (RunoffQualitySimulationModel)usedtosimulatethe washoff (erosion and transport of particles) of total suspended particles (TsS) at the outlet of urban catchments. Conceptual models can accurately represent complex physical phenomena with a limited number of parameters and a simple mathematical formulation. Moreover, they can be easily calibrated and used atmanysites."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9777193069458008,
+        "bbox_xyxy": [
+          872,
+          1517,
+          1602,
+          1882
+        ],
+        "text": "The build-up of solid particles in the RQSM model is infinite for pervious and impervious areas. The erosion process is related to the rainfall kinetic energy. Two relationships involving twoerosionparameters are used,onefor the impervious areas and the other for the pervious areas. The transport of suspended particles is described using the linear systemtheory. .A rectangular impulse response function with a duration equal to the time of concentration describes the catchment response to an instantaneous erosion rate. Thereafter, a convolution product between the erosion rate and"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9761137366294861,
+        "bbox_xyxy": [
+          872,
+          878,
+          1603,
+          1132
+        ],
+        "text": "Urban runoff pollution due to suspended particles is of great concern for sewer system managers. Indeed, particles are the main source of urban water pollution because a large amount of chemical elements and organic wastes are associated with particles. Modelling runoff pollution due to particles is essential for the evaluation of its impact on receiving waters and for the adequate design of treatment structures."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9489633440971375,
+        "bbox_xyxy": [
+          98,
+          2007,
+          397,
+          2085
+        ],
+        "text": "*Auteurpourcorrespondance： Telephone:5143968839 Courriel: saad.bennis(aetsmtl.ca"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9457815885543823,
+        "bbox_xyxy": [
+          132,
+          243,
+          1566,
+          381
+        ],
+        "text": "MODELE DE LESSIVAGE DES MATIERES EN SUSPENSION EN MILIEUURBAIN"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8853675723075867,
+        "bbox_xyxy": [
+          135,
+          644,
+          1567,
+          677
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8845703601837158,
+        "bbox_xyxy": [
+          873,
+          788,
+          1072,
+          828
+        ],
+        "text": "SUMMARY"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8723729848861694,
+        "bbox_xyxy": [
+          1118,
+          2064,
+          1586,
+          2092
+        ],
+        "text": "<eledesce de/Ha"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.872302770614624,
+        "bbox_xyxy": [
+          101,
+          782,
+          264,
+          831
+        ],
+        "text": "RESUME"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8605741262435913,
+        "bbox_xyxy": [
+          554,
+          719,
+          1144,
+          749
+        ],
+        "text": "Recu1le15.octobre2004 tele8fevr1er200c"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8538053035736084,
+        "bbox_xyxy": [
+          710,
+          2057,
+          905,
+          2084
+        ],
+        "text": "ISSN:1718-8598"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7512573599815369,
+        "bbox_xyxy": [
+          99,
+          1814,
+          808,
+          1884
+        ],
+        "text": "Motscles:bassinurbain,matiereensuspension,accumu lation,lessivage,etudecomparative."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7234554886817932,
+        "bbox_xyxy": [
+          439,
+          424,
+          1264,
+          466
+        ],
+        "text": "Xashoi nodelo CTICL oylex"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9820570945739746,
+        "bbox_xyxy": [
+          98,
+          425,
+          828,
+          788
+        ],
+        "text": "The RQSM model was validated with the help of 285 TSS data points monitored during 22 rainfall events. Four rainfall events were monitored in the subcatchment (1) of Verdun boroughinCanadaand18rainfall Ieventsweremonitored on three subcatchments in Champaign 1city(USA).The catchment areas varied between 6.8 and 177 ha, the catchment slopes between 0.4% and 1%, and the ratio of directly drained impervious areabetween0.19and0.58.Landuse was residential in two catchments and commercial for the other ones."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9818236231803894,
+        "bbox_xyxy": [
+          98,
+          1085,
+          828,
+          1779
+        ],
+        "text": "The second validation step was to simulate the TSS load resulting from 11 other rainfalls. The simulated loads of the RQSM model were compared to the measured loads. They were also compared to the simulated loads obtained with the rating curve model and with the SWMM exponential washoff model.Comparisons were made using three performance criteria:the Nashcriterion,the ratioof the simulatedTSS mass divided by the measured TSS mass (Ru), and the peak charge ratio (R,). Reasonable agreement was reached between loads computed with the RQSM model and measured loads The mean R, was 1.08 and the standard deviation was 35%. Moreover, the Nash criterion was greater than 0.6 for 50% of simulated events. Unfortunately, the number of events was insufficient to detect statistically significant differences in accuracy, between the RQSM model, the rating curve and the exponential model. Nevertheless, a qualitative study based on the value of the three performance criteria showed that the results given by the RQSM model are equivalent to the results given by the SWMM exponential wash off model."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9801878333091736,
+        "bbox_xyxy": [
+          871,
+          1008,
+          1603,
+          1260
+        ],
+        "text": "En général, les matieres en suspension (MES) sont le vecteur principal de la pollution des eaux de ruissellement enmilieuurbain(CHEBBOetBACHOC,1992;JACKet al.,1996).Ainsi,l'estimation des quantités de matiere en suspension lessivées a l'exutoire d'un bassin versant permet d'estimer le niveau de pollution des eaux de ruissellement (TSIHRINTZISetHAMID,1997)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9800991415977478,
+        "bbox_xyxy": [
+          872,
+          531,
+          1602,
+          968
+        ],
+        "text": "Les municipalités cherchent de plus en plus a minimiser les impacts liés aux rejets de polluants au milieu naturel en interceptant la masse maximale de pollution. La capacité de traitement des eaux pluviales dans un réseau d'assainissement unitaire est limitée, en général 2 a 10 fois le débit de temps sec, alors que le ruissellement en temps de pluie peut dépasser de 100 fois ce debit (BENNIS et al., 2001). La connaissance du pollutogramme associéa un événement pluvieux apparait indispensable afin de maximiser l'interception de polluants dans le cas d'une gestion en temps réel du réseau ou afin de connaitre la quantité de polluants rejetés au milieu naturel dans le cas d'une gestion en temps différé."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9794989228248596,
+        "bbox_xyxy": [
+          871,
+          1302,
+          1602,
+          1555
+        ],
+        "text": "Le cycle des particules solides sur un bassin urbain est un processus complexe. Ce cycle comprend une p phase d'accumulation des particules solides sur le bassin en période de temps sec et une phase de lessivage des particules solides entemps de pluie.Lesmodelesdelessivage des eaux de ruissellements'attachentadécrireseparémentouconjointement ces deux phases avec un niveau de complexité variable"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9789627194404602,
+        "bbox_xyxy": [
+          99,
+          1819,
+          828,
+          2073
+        ],
+        "text": "Finally, a sensitivity analysis was conducted on the RQSM model. In order to achieve the sensitivity analysis, reference values were attributed to the parameters of the RQSM model. The values of the RQSM parameters were then changed individually and the resulting change in the Nash criterion was noted. The change in the Nash value indicates that for rainfalls of high intensity and short duration, the RQSM method is"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784489870071411,
+        "bbox_xyxy": [
+          99,
+          829,
+          828,
+          1047
+        ],
+        "text": "The first step in the RQSM model validation was to calibrate the two erosion parameters.This step was realized using 11 measured TSS pollutographs. The erosion parameter for impervious areas was calibrated first for low intensity rainfall.The erosion parameter for pervious areas was then calibratedforhigh intensityrainfall."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784109592437744,
+        "bbox_xyxy": [
+          872,
+          1815,
+          1602,
+          2069
+        ],
+        "text": "Le lessivage des sols en milieu urbain est un phénomene complexe et difficile a appréhender qui a été principalement modélisé a l'aide d'approches conceptuelles. Le modele conceptuel le plus simple est le modele de 《 rating curve > HUBER et DICKINSON,1988;TEMIMIet BENNIS 2002)qui relie la charge de matiere en suspension au debit deruissellement. Le modeleexponentieldulogiciel SWMM"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9780122637748718,
+        "bbox_xyxy": [
+          100,
+          206,
+          829,
+          385
+        ],
+        "text": "The mathematical formulation of the RQSM model has three advantages. Firstly, it describes the washoff of TSS by using only rainfall intensity. Secondly, it treats the washoff of pervious and impervious areas separately. Finally, it uses only twoparametersto describe thewashoff."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9772198796272278,
+        "bbox_xyxy": [
+          872,
+          1596,
+          1602,
+          1775
+        ],
+        "text": "Les modeles d'accumulation les plus utilisés sont asymptotiques. Ils dérivent le plus souvent du modele exponentiel de ALLEY (1981) employé dans le logiciel SWMM (Storm Water Management Model) mais peuvent également étre linéaires (SERVAT,1984)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9551640748977661,
+        "bbox_xyxy": [
+          872,
+          96,
+          1602,
+          202
+        ],
+        "text": "particularly sensitive to the time of concentration. In the other cases, the erosion parameter of impervious areas was the most sensitiveparameter."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9369152784347534,
+        "bbox_xyxy": [
+          98,
+          97,
+          828,
+          165
+        ],
+        "text": "the rectangular impulse response function is used to compute loadsofTSSatthecatchmentoutlet"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9074944257736206,
+        "bbox_xyxy": [
+          877,
+          439,
+          1248,
+          481
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9016481637954712,
+        "bbox_xyxy": [
+          605,
+          47,
+          1070,
+          73
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.864166259765625,
+        "bbox_xyxy": [
+          873,
+          243,
+          1599,
+          314
+        ],
+        "text": "Keywords:urban catcbment,totalsuspended particles buildup,washoff,comparativestudy"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8464986681938171,
+        "bbox_xyxy": [
+          101,
+          60,
+          128,
+          81
+        ],
+        "text": "46"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9825506806373596,
+        "bbox_xyxy": [
+          99,
+          836,
+          829,
+          1089
+        ],
+        "text": "Cet article présente un nouveau modele conceptuel de lessivage des MES en milieu urbain. Le modele proposé sera validé a l'aide de mesures de MES effectuées sur le terrain.Les résultats du modele proposé seront comparés aux résultats du modele exponentiel et du modele de rating curve >. De plus les parametres du modele proposé feront l'objet d'une analyse desensibilité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822721481323242,
+        "bbox_xyxy": [
+          872,
+          1491,
+          1603,
+          2040
+        ],
+        "text": "Laccumulation sur les surfaces imperméables ss'avere beaucoup plus difficile a appréhender. GROMAIRE (1998) a montré lexistence du lessivage sur les chaussées urbaines et SARTOR et al. (1974) a mis en évidence l'existence d'une accumulation durant la période de temps sec. Or, les études statistiques de KANSO et al. (2005) montrent que la période de temps sec n'a pas d'effet sur le processus d'accumulation. De plus, les analyses de BUTLER et al. (1992) sur des mesures réalisées dans six sites différentsne font ressortir aucune dépendance entrelamasse de particules solides accumulées et la masse de particules solideslessivées.Par consequent,les surfaces imperméables semblent se comporter comme des zones d'accumulation infinie ou la perte de particules solides est instantanément compensée par un apport équivalent. Cet apport provient des actions climatiques et des activités humaines"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9814060926437378,
+        "bbox_xyxy": [
+          98,
+          1459,
+          827,
+          1897
+        ],
+        "text": "Les sactivites sindustrielles,le etransport tetlérosion attribuablesauxa aleas smeteorologiquessont des ssources d'apport en particules solides. Ces apports de particules s'accumulent a la surface d'un bassin urbain durant la période de temps sec. Le processus d'accumulation des particules est un phénomene physique complexe soumis a différentes interprétations. Trois approches distinctes existent pour décrire le processus d'accumulation.La premiere consiste a considérer l'accumulation variable dans le temps. La masse de solides accumulés est fonction du temps écoulé depuis le dernier événement pluvieux.Cette accumulationest generalement decriteal'aidedel'équationsuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806522130966187,
+        "bbox_xyxy": [
+          872,
+          95,
+          1602,
+          496
+        ],
+        "text": "ouMarepresentelamassedeparticules solides accumulées (kg); ACCU, le taux d'accumulation journalier (kg/j); DISP, le coefficient de disparition des particules (Gj-'). Laccumulation de particules se fait durant la période de temps sec de maniere exponentielle jusqu'a atteindre une valeur limite asymptotique. SARTOR et al. (1974) ont montré que I'accumulation maximale est atteinte apres environ dix jours mais cette valeur varie grandement en fonction des bassins.Desrelationslineairesentrelamasseaccumuleeetle temps ontégalement étéélaborées.Ces relations ontdonné dans certains cas debons résultats (BARBEet al.,1996)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9803706407546997,
+        "bbox_xyxy": [
+          872,
+          1051,
+          1602,
+          1452
+        ],
+        "text": "Le choix d'un modele d'accumulation est toujours delicat puisqu'il consiste a déterminer l'approche existante la mieux adaptéepour décrirele processus sd'accumulation.Afin de faciliter ce choix, il est possible de considérer le bassin urbain comme une juxtaposition de surfaces imperméables et perméables. Les surfaces perméables, constituées de sols granuleux naturels ou aménagés, peuvent étre vues comme des réserves inepuisables de particules solides. Cette hypothese se justifie parfaitement puisque les particules solides sont la matiere constituante de ces surfaces.Les surfaces perméables correspondent donc a des zones d'accumulation infinie."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9791090488433838,
+        "bbox_xyxy": [
+          872,
+          536,
+          1601,
+          717
+        ],
+        "text": "La seconde approche consiste a considérer laccumulation comme un phénomeneinstantané.La masse accumulée de particules est reconstituée instantanément a la fin d'un événement pluvieux. Cette approche permet de simplifier la formulation des modeles de lessivage."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784303903579712,
+        "bbox_xyxy": [
+          872,
+          757,
+          1601,
+          900
+        ],
+        "text": "Enfin, la derniere approche consiste a considérer que l'accumulation est infinie. Dans ce cas, la masse accumulée de particules est supposée infinie. Cette approche permet également de simplifier la formulation des modeles de lessivage."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9456478953361511,
+        "bbox_xyxy": [
+          100,
+          1214,
+          823,
+          1318
+        ],
+        "text": "2. REPRESENTATIONS DU PROCESSUS D'ACCUMULATION"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9350630640983582,
+        "bbox_xyxy": [
+          258,
+          1933,
+          690,
+          2021
+        ],
+        "text": "dMa (t) = ACCU-DISP Ma(t) dt"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8932991623878479,
+        "bbox_xyxy": [
+          874,
+          975,
+          1329,
+          1008
+        ],
+        "text": "h01xd"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8872988224029541,
+        "bbox_xyxy": [
+          588,
+          41,
+          1259,
+          67
+        ],
+        "text": "E.CrobeddlS.Bennis Kee CdeLHa1"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8706803321838379,
+        "bbox_xyxy": [
+          790,
+          1958,
+          825,
+          1991
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8290002346038818,
+        "bbox_xyxy": [
+          99,
+          1367,
+          533,
+          1401
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8246663808822632,
+        "bbox_xyxy": [
+          1572,
+          58,
+          1599,
+          78
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7301158905029297,
+        "bbox_xyxy": [
+          97,
+          94,
+          828,
+          789
+        ],
+        "text": "(HUBER et DICKINSON, 1988) calculela charge de matiere en suspension lessivée a l'aide du debit de ruissellement et de la masse accumulée de particules. Le modele de lessivage du logicielSTORM(US ARMYCORPS OFENGINEERS 1977), le modele développé par MOYS et al. (1988) pour le logiciel MOSQUITO, le modele de lessivage du logiciel HSPF (BICKNELL et al., 1997) et le modele développé par ZUG et al.(1999)pour le logiciel HORUS prennent également en compte la masse de particules accumulées. Des développements récents ont conduital'elaborationde modeles deterministes (DELETIC et al.，1997,2000).Ces modeles présentent l'avantage de décrire les phenomenes physiques impliqués dans le lessivage des sols. En revanche leur utilisation réclame des données qui sont rarement disponibles ou couteuses a obtenir. Les charges de matiere en suspension peuvent également etre calculées a l'aide de modeles statistiques (DRIVER et TROUTMAN, 1989). Malheureusement, ces modeles sont uniquement valides pour les sites ou ils ont été développés (JEWELLetADRIAN,1978)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6551106572151184,
+        "bbox_xyxy": [
+          97,
+          94,
+          828,
+          789
+        ],
+        "text": "(HUBER et DICKINSON, 1988) calculela charge de matiere en suspension lessivée a l'aide du debit de ruissellement et de la masse accumulée de particules. Le modele de lessivage du logicielSTORM(US ARMYCORPS OFENGINEERS 1977), le modele développé par MOYS et al. (1988) pour le logiciel MOSQUITO, le modele de lessivage du logiciel HSPF (BICKNELL et al., 1997) et le modele développé par ZUG et al.(1999)pour le logiciel HORUS prennent également en compte la masse de particules accumulées. Des développements récents ont conduital'elaborationde modeles deterministes (DELETIC et al.，1997,2000).Ces modeles présentent l'avantage de décrire les phenomenes physiques impliqués dans le lessivage des sols. En revanche leur utilisation réclame des données qui sont rarement disponibles ou couteuses a obtenir. Les charges de matiere en suspension peuvent également etre calculées a l'aide de modeles statistiques (DRIVER et TROUTMAN, 1989). Malheureusement, ces modeles sont uniquement valides pour les sites ou ils ont été développés (JEWELLetADRIAN,1978)."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9829375147819519,
+        "bbox_xyxy": [
+          97,
+          1240,
+          829,
+          1607
+        ],
+        "text": "ou KE représente lénergie cinétique de la pluie par unité de surface et de temps (J·m-\".h-');α et β,des parametres liés aux processus microscopiques de formation des gouttes de pluie; I, lintensité de la pluie (mm/h). De plus, SALLES et al. (2002) ont montré que léquation 2 était physiquement réaliste pour des valeurs de α comprises entre 9,2 et 13,5 et pour des valeurs de β comprises entre 1 et 1,4. Par conséquent, l'hypothese d'accumulation infinie conduit a exprimer le taux de mise en suspension par unité de surface imperméable ? l'aide del'équation suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9792954921722412,
+        "bbox_xyxy": [
+          871,
+          601,
+          1602,
+          786
+        ],
+        "text": "Les équations 3 et 4 montrent que la mise en suspension des particules solides est controlée par le parametre Kpimp pour surfaces perméables. De plus, le taux de mise en suspension mp,, fourni par Iéquation 4 est nul lorsque f(t) ≥ I(t)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9783598184585571,
+        "bbox_xyxy": [
+          98,
+          96,
+          829,
+          277
+        ],
+        "text": "Lescontradictionsentrelesauteurssurlanaturedu processusd'accumulationsurles ssurfacesimpermeables s'expliquent par la complexité des phénomenes physiques en jeu.De plus amplesétudessemblent doncnécessaires en vue deleverlesambiguitésexistantes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9782699346542358,
+        "bbox_xyxy": [
+          98,
+          1794,
+          829,
+          1940
+        ],
+        "text": "coefficient de mise en suspension des particules solides pour les surfaces imperméables (kg/J)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9770200252532959,
+        "bbox_xyxy": [
+          871,
+          380,
+          1602,
+          562
+        ],
+        "text": "ou mpper represente le taux de mise en suspension des particules coefficient de mise en suspension des particules solides pour les surfaces perméables (kg/J); f, la capacité d'infiltration des surfacespermeables (mm/h)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.975264847278595,
+        "bbox_xyxy": [
+          871,
+          940,
+          1601,
+          1086
+        ],
+        "text": "Les MES sont physiquement transportées a lexutoire par le debit de ruissellement. Ce processus de transport des MES peut étre modelisé a l'aide de la théorie des systemes linéaires (CHOWetal.,1988)etdeshypothesesphysiquessuivantes:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9717502593994141,
+        "bbox_xyxy": [
+          871,
+          1842,
+          1601,
+          1952
+        ],
+        "text": "ou Q representele debit de ruissellement a l'exutoire du bassin (m3.s-'); Inetts, I'intensité nette des précipitations (m·s-'); u, la réponse impulsionnelle du bassin (m2.s-'); t, le temps (s)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.970928966999054,
+        "bbox_xyxy": [
+          98,
+          1010,
+          827,
+          1118
+        ],
+        "text": "SALLES et al. (2002) ont démontré analytiquement que la relation la plus appropriée pour calculer l'énergie cinétique des précipitations en fonction de leur intensité est la suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9695223569869995,
+        "bbox_xyxy": [
+          98,
+          1986,
+          828,
+          2095
+        ],
+        "text": "La mise en suspension des particules solides sur les surfaces perméables est également fonction de l'énergie cinétique de la pluie. Elle debute lorsque l'intensité de la pluie est supérieure"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9674035906791687,
+        "bbox_xyxy": [
+          871,
+          1491,
+          1601,
+          1674
+        ],
+        "text": "La theoriedessystemeslineairesaeteoriginellementutilisee pour modeliser le ruissellement a la surface des bassins. D'apres CHOWetal.(1988),ledebitderuissellemental'exutoired'un bassin estdonnépar leproduitdeconvolution entrel'intensite nettedesprécipitationsetlaréponseimpulsionnelledubassin"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9648196697235107,
+        "bbox_xyxy": [
+          871,
+          94,
+          1602,
+          203
+        ],
+        "text": "a la capacité d'infiltration des surfaces permeables. Le taux de mise en suspension par unité de surface perméable est donné parl'équation suivante :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9638006091117859,
+        "bbox_xyxy": [
+          872,
+          1989,
+          1602,
+          2097
+        ],
+        "text": "L'utilisationdelaconcentrationdeMESdanslalame d'eau de ruissellement permet de transformer le modele de ruissellement formulé selon l'équation 5 en un modele de"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9534360766410828,
+        "bbox_xyxy": [
+          97,
+          570,
+          828,
+          640
+        ],
+        "text": "Le modele de mise en suspension repose sur les hypotheses suivantes:"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9527406692504883,
+        "bbox_xyxy": [
+          293,
+          1645,
+          647,
+          1732
+        ],
+        "text": "α KPimp mpimp (t) = I(t)β 3600"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9487789273262024,
+        "bbox_xyxy": [
+          1021,
+          242,
+          1462,
+          330
+        ],
+        "text": "α KPper mpper (t) = [1(t)-f(t)] 3600"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9329376816749573,
+        "bbox_xyxy": [
+          97,
+          862,
+          827,
+          970
+        ],
+        "text": "Parrachement des particules solides dépend de l'énergie cinétique des précipitations (YOUNG et WIERSMA 1973)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.930683434009552,
+        "bbox_xyxy": [
+          874,
+          1343,
+          1602,
+          1451
+        ],
+        "text": "le transport des MES sur les surfaces perméables est indépendant tdu transport desMESsurles surfaces imperméables."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9251744151115417,
+        "bbox_xyxy": [
+          101,
+          398,
+          820,
+          446
+        ],
+        "text": "3. FORMULATION DU MODELE RQSM"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9229058623313904,
+        "bbox_xyxy": [
+          1078,
+          1749,
+          1444,
+          1812
+        ],
+        "text": "Q(t)= [Inere (t)u(t-t)dt"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.912683367729187,
+        "bbox_xyxy": [
+          605,
+          47,
+          1070,
+          73
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9058777093887329,
+        "bbox_xyxy": [
+          97,
+          680,
+          826,
+          751
+        ],
+        "text": "l'accumulation est infinie sur les surfaces imperméables et permeables;"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9005027413368225,
+        "bbox_xyxy": [
+          345,
+          1154,
+          571,
+          1202
+        ],
+        "text": "KE(t)=α I(t)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8955490589141846,
+        "bbox_xyxy": [
+          872,
+          864,
+          1390,
+          899
+        ],
+        "text": "Modeledef barticulessolide"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8763042092323303,
+        "bbox_xyxy": [
+          790,
+          1677,
+          825,
+          1710
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8739631772041321,
+        "bbox_xyxy": [
+          872,
+          1122,
+          1601,
+          1196
+        ],
+        "text": "la reponse impulsionelle du bassin est rectangulaire. De plus elle a une duréeégale au temps de concentration du bassin;"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8698548674583435,
+        "bbox_xyxy": [
+          1563,
+          271,
+          1599,
+          304
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.867872953414917,
+        "bbox_xyxy": [
+          1563,
+          1770,
+          1598,
+          1802
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8672746419906616,
+        "bbox_xyxy": [
+          102,
+          60,
+          128,
+          81
+        ],
+        "text": "48"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8649042844772339,
+        "bbox_xyxy": [
+          791,
+          1168,
+          825,
+          1202
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8621219992637634,
+        "bbox_xyxy": [
+          872,
+          1233,
+          1600,
+          1305
+        ],
+        "text": "le temps de concentration pour les particules solides set liquides est identique;"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8422415852546692,
+        "bbox_xyxy": [
+          98,
+          790,
+          690,
+          824
+        ],
+        "text": "Dassin"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5834965705871582,
+        "bbox_xyxy": [
+          99,
+          493,
+          724,
+          528
+        ],
+        "text": "Modeledemise Darticulessolide"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.335836797952652,
+        "bbox_xyxy": [
+          99,
+          493,
+          724,
+          528
+        ],
+        "text": "Modeledemise Darticulessolide"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9847266674041748,
+        "bbox_xyxy": [
+          870,
+          713,
+          1603,
+          1196
+        ],
+        "text": "par la partie supérieure du bassin. Le second pollutogramme correspond au cas t,=t. Dans ce cas, la charge de MES A t.A cet instant,la charge est maximale augmentejusqu'a puisque l'ensemble du bassin contribue a l'exutoire. Le dernier pollutogramme correspond au cas t, > t. Dans ce cas, la charge de MES augmente jusqu'a t. Ensuite, la charge reste constante jusqu'a t, puisque la mise en suspension se poursuit apres t, sur I'ensemble du bassin. Létude des pollutogrammes résultant de I'application de l'équation 7 amene deux commentaires. Premierement, la masse de MES générée par l'équation 7 est toujours égale a la masse de MES mise en suspension. De plus, la durée du pollutogramme simulé est toujours égale a la sommedet.ett."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9829666614532471,
+        "bbox_xyxy": [
+          98,
+          1195,
+          829,
+          1526
+        ],
+        "text": "La figure 2 présente trois pollutogrammes différents calculés a partir de léquation 7 en considérant mp constant. Les pollutogrammes changent en fonction de la relation de supériorité entre la durée du processus de mise en suspension t.et le temps de concentration t. du bassin. Le premier pollutogramme correspond au cas t.<t. Dans ce cas, la charge de MES simulée augmente jusqu'a t . A cet instant, une P proportion t/t. du bassin contribue a l'exutoire. Ensuite, la charge reste constante jusqu'a t grace a la contribution fournie"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982687771320343,
+        "bbox_xyxy": [
+          99,
+          902,
+          829,
+          1158
+        ],
+        "text": "La figure 1 montre que la durée de la réponse impulsionnelle d'un bassin est égale au temps de concentration t du bassin. Or, le temps de concentration varie en fonction de la pente, de la rugosité et de la longueur de drainage du bassin (CHOW et al. 1988). Par conséquent, le modele de transport décrit par léquation 7 prend en compte linfuence des caractéristiques ohysiques du bassin sur le transport des MES."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820193648338318,
+        "bbox_xyxy": [
+          870,
+          1227,
+          1603,
+          1520
+        ],
+        "text": "Les hauteurs de précipitation sont généralement mesurées a pas de temps variables. Elles sont ensuite échantillonnées a pas de temps constants et transformées en intensités. Par conséquent, mp est discrétisé avec le meme pas de temps que lintensité des précipitations. En choisissant un pas de temps d'échantillonnage unitaire de durée 1 minute, le produit de convolution entre le taux de mise en suspension par unité de surface et la réponse du bassinest donnéparl'équationsuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9801470637321472,
+        "bbox_xyxy": [
+          98,
+          365,
+          828,
+          621
+        ],
+        "text": "ou ml représente la charge de matiere en suspension (kg/s); C, la concentration de MES dans la lame d'eau de ruissellement (kg·m-3). Or, la multiplication de lintensité nette des précipitations par la concentration de MES dans la lame d'eau de ruissellement est égale au taux de mise en suspension des particules solides par unité de surface. Par conséquent, l'équation 6 peut s'écrire de la maniere suivante :"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9686907529830933,
+        "bbox_xyxy": [
+          906,
+          128,
+          1513,
+          531
+        ],
+        "text": "T mp(t) u(t)"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9601197838783264,
+        "bbox_xyxy": [
+          171,
+          1568,
+          1481,
+          1977
+        ],
+        "text": "t mp(t) mp(t) mp(t) ml(t) ml(t) ml(t) 2 tc (a) (b) (c)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.958885908126831,
+        "bbox_xyxy": [
+          98,
+          793,
+          827,
+          864
+        ],
+        "text": "ou mp represente le taux de mise en suspension des particules solides par unité de surface (kg·m-2.s-1)."
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9537967443466187,
+        "bbox_xyxy": [
+          167,
+          2021,
+          1363,
+          2088
+        ],
+        "text": "Figure 2. Reponses d'un bassin a un taux de mise en suspension de durée t lorsque : (a) t,< t, (b) t, = t et (c) t, > 1 Catcbmentresponsestoanerosionrateofdurationt,when:(a)t<t,(b)t=tand(c)t,>t"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9471994042396545,
+        "bbox_xyxy": [
+          96,
+          95,
+          828,
+          168
+        ],
+        "text": "transport des MES.Ce modele de transport des MES est donné par l'équation suivante :"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9461257457733154,
+        "bbox_xyxy": [
+          911,
+          553,
+          1447,
+          616
+        ],
+        "text": "Figure 1. Reponse impulsionnelle d'un bassin. Impulseresponsefunctionofacatchment."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9139255285263062,
+        "bbox_xyxy": [
+          288,
+          699,
+          656,
+          762
+        ],
+        "text": "ml(t) = [ mp(t)u(t-t) dt"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8940145373344421,
+        "bbox_xyxy": [
+          589,
+          41,
+          1259,
+          67
+        ],
+        "text": "E.CrobeddlS.Bennis Kee rdeLHa1"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8827556371688843,
+        "bbox_xyxy": [
+          790,
+          257,
+          826,
+          290
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8668217658996582,
+        "bbox_xyxy": [
+          790,
+          719,
+          825,
+          752
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7681058645248413,
+        "bbox_xyxy": [
+          1572,
+          57,
+          1599,
+          79
+        ],
+        "text": "10"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.629814863204956,
+        "bbox_xyxy": [
+          249,
+          244,
+          709,
+          308
+        ],
+        "text": "ml(t)= [ Inette (t) C(t)u(t-t) dt"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.31706807017326355,
+        "bbox_xyxy": [
+          249,
+          243,
+          709,
+          309
+        ],
+        "text": "ml(t)= [ Inette (t) C(t)u(t-T) dt"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9842911958694458,
+        "bbox_xyxy": [
+          99,
+          1336,
+          829,
+          1667
+        ],
+        "text": "Trois remarques sont a faire a propos du modele RQSM. Premierement,le emodeleRQSMdissocielacontribution des surfaces imperméables et perméables. Deuxiemement, le modele RQSM utilise uniquement l'intensité des précipitations pour décrire le transport des MES. Enfin, la représentativité du modele RQSM est liée a la précision de la mesure des intensités de precipitation. Par consequent, une resolution inférieure ou égale a cinq minutes est recommandée pour la mesure des intensités de précipitation."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9839142560958862,
+        "bbox_xyxy": [
+          871,
+          582,
+          1602,
+          911
+        ],
+        "text": "Le modele de 《 rating curve 》 utilise le debit de ruissellement comme seule variable explicative du phénomene de lessivage. Cette formulation a une base physique. En effet, l'augmentation du debit de ruissellement se traduit par l'augmentation de la contrainte hydraulique de cisaillement a linterface liquide-solide. Or, la contrainte hydraulique de cisaillement controle le potentiel d'arrachement des particules solides sur lebassin.Ce modele est souvent utilisé comme alternative a des modeles plus complexes lorsque les mesures de charges sont peu nombreuses."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9816733598709106,
+        "bbox_xyxy": [
+          97,
+          887,
+          828,
+          1297
+        ],
+        "text": "ouu. representela reponse impulsionnelle des surfaces imperméables (m²/min); une, la réponse impulsionnelle des surfaces perméables (m²/min); A, la superficie du bassin versant (ha);IMP, la fraction de surface imperméable directement drainée; t, le temps de concentration du bassin versant (min); n et i, des indices de temps; n, l'indice final du vecteur des taux de mise en suspension par unité de surface. Les dans l'équation 8. De plus, la notation n ≤ n, sur la borne supérieure de la sommation indique que la sommation s'effectue P de i = 1 a n pour n ≤ n, et de i = 1 a n, pour n > n,"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9812036156654358,
+        "bbox_xyxy": [
+          870,
+          1248,
+          1601,
+          1432
+        ],
+        "text": "ou ml represente la charge de matiere en suspension (kg/s); Ma, la masse de particules solides accumulées (kg); Q, le débit de ruissellement (m?/s); k, le coefficient de lessivage; r, le coefficient d'ajustement. Au cours d'un événement pluvieux, l'évolution de la masse de particules accumulées s'exprime sous la forme :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9803204536437988,
+        "bbox_xyxy": [
+          872,
+          948,
+          1602,
+          1130
+        ],
+        "text": "Le modele de lessivage exponentiel est le modele utilise danslelogiciel SWMM.Cemodeleprendencomptelamasse accumulée de particules solides. Le calcul de la charge de matiereensuspensionlessiveeparleseauxderuissellementse faital'aidedel'équationsuivante:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.978003740310669,
+        "bbox_xyxy": [
+          99,
+          1938,
+          828,
+          2083
+        ],
+        "text": "Le modele de 《 rating curve 》 et le modele exponentiel (HUBER et DICKINSON,1988) sont des modeles conceptuels éprouvés (TSIHRINTZIS et HAMID, 1997) qui permettent de calculer les charges de MES a l'exutoire d'un bassin urbain"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9775620102882385,
+        "bbox_xyxy": [
+          871,
+          1555,
+          1600,
+          1701
+        ],
+        "text": "En supposant un modele d'accumulation instantanée comme le recommande KANSO et al. (2005), l'accumulation initiale Ma(O) en début de pluie devient un parametre supplémentairea caler."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9710076451301575,
+        "bbox_xyxy": [
+          871,
+          1978,
+          1601,
+          2087
+        ],
+        "text": "Le modele RQSM, le modele de 《 rating curve 》 et le modele exponentielontétécalésetvalidésal'aidede285mesures dechargedeMES.Ces smesures sontétéréaliséesdurant"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9683077931404114,
+        "bbox_xyxy": [
+          871,
+          205,
+          1602,
+          315
+        ],
+        "text": "Le modele de α rating curve > relie la charge de matiere en suspension lessivée au débit de ruissellement par l'intermédiaire d'une courbe de tarage (< rating curve >) ayant pour expression :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9628594517707825,
+        "bbox_xyxy": [
+          870,
+          435,
+          1600,
+          543
+        ],
+        "text": "ou ml représente la charge de matiere en suspension (kg/s): Q, le debit de ruissellement (m?/s); a, le coefficient de lessivage b,le coefficient d'ajustement."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.949234127998352,
+        "bbox_xyxy": [
+          101,
+          1785,
+          801,
+          1890
+        ],
+        "text": "4.MODELEDERATINGCURVE>ET MODELEEXPONENTIEL"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9490715265274048,
+        "bbox_xyxy": [
+          234,
+          105,
+          733,
+          299
+        ],
+        "text": "n≤n ml(n)= ∑[mPimp (i)ump (n-i+1) i=1 n≤n +∑[mpPper(i)upecr(n-i+1)] + i=1"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9488940834999084,
+        "bbox_xyxy": [
+          268,
+          403,
+          699,
+          550
+        ],
+        "text": "10 000 IMP A uimp(n-i+1)= t pour 1≤(n-i+1)≤t。"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9405030608177185,
+        "bbox_xyxy": [
+          870,
+          95,
+          1601,
+          167
+        ],
+        "text": "Ces deux modeles ont été retenus pour fin de comparaison et d'evaluation dela performance du modeleROSM"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9156652688980103,
+        "bbox_xyxy": [
+          1066,
+          1474,
+          1397,
+          1523
+        ],
+        "text": "Ma(t)= Ma(0) e-kQ(t)t"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9146658182144165,
+        "bbox_xyxy": [
+          259,
+          649,
+          723,
+          802
+        ],
+        "text": "10 000(1-IMP)A uper (n-i+1)= tc pour 1≤(n-i+1)≤t"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.914498507976532,
+        "bbox_xyxy": [
+          95,
+          339,
+          154,
+          367
+        ],
+        "text": "aved"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9091460704803467,
+        "bbox_xyxy": [
+          605,
+          46,
+          1070,
+          73
+        ],
+        "text": "ModeledeIessivagedesmatieresensuspension"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9082610011100769,
+        "bbox_xyxy": [
+          1051,
+          1169,
+          1380,
+          1218
+        ],
+        "text": "ml(t)=Ma(t) k Q(t)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9041706919670105,
+        "bbox_xyxy": [
+          1122,
+          349,
+          1349,
+          401
+        ],
+        "text": "ml(t)=a Q(t)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8903155326843262,
+        "bbox_xyxy": [
+          874,
+          1903,
+          1022,
+          1935
+        ],
+        "text": "Lesszte"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8832017779350281,
+        "bbox_xyxy": [
+          775,
+          736,
+          825,
+          768
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8823489546775818,
+        "bbox_xyxy": [
+          1548,
+          1484,
+          1598,
+          1517
+        ],
+        "text": "3"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8806527853012085,
+        "bbox_xyxy": [
+          790,
+          471,
+          826,
+          504
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.878034770488739,
+        "bbox_xyxy": [
+          790,
+          188,
+          826,
+          220
+        ],
+        "text": "X"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8772454857826233,
+        "bbox_xyxy": [
+          1548,
+          1176,
+          1598,
+          1210
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8669152855873108,
+        "bbox_xyxy": [
+          1548,
+          362,
+          1599,
+          396
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8652812838554382,
+        "bbox_xyxy": [
+          100,
+          58,
+          129,
+          82
+        ],
+        "text": "50"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8563722372055054,
+        "bbox_xyxy": [
+          96,
+          587,
+          125,
+          612
+        ],
+        "text": "ef"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8151887059211731,
+        "bbox_xyxy": [
+          875,
+          1808,
+          1544,
+          1853
+        ],
+        "text": "DEL.E"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4607245922088623,
+        "bbox_xyxy": [
+          875,
+          1808,
+          1542,
+          1853
+        ],
+        "text": "DEL.E"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821130037307739,
+        "bbox_xyxy": [
+          871,
+          752,
+          1602,
+          1046
+        ],
+        "text": "La précision de la charge lessivée simulée est d'autant plus grande que le Nash est proche de l'unité. En hydrologie urbaine, une simulation précise du debit ruisselé conduit a un Nash supérieur a O,8. Pour la simulation de la qualité des eaux de ruissellement, ce seuil peut étre abaissé a 0,6 en raison des nombreuses incertitudes entourantla mesure des polluants (BERTRAND-KRAJEWSKI et al.,200o) et de la complexité desmecanismesphysiquesamodeliser."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806541800498962,
+        "bbox_xyxy": [
+          97,
+          901,
+          828,
+          1413
+        ],
+        "text": "Le tableau 1 décrit les caractéristiques physiques des sous- bassins étudiés. Les surfaces, les pentes et l'occupation des sols varientsensiblementd'unsous-bassinal'autre.Lasurfacedes sous-bassins, la fraction de surface imperméable directement drainée, la pente des sous-bassins et les parametres d'infiltration du modeledeHorton dessous-bassins deChampaign ontétéévalués lors des campagnes de mesures. En revanche, les parametres du modele de Horton pour le sous-bassin de Verdun et le temps de concentration pour l'ensemble des sous-bassins n'ont pas été mesurés durant les campagnes de mesures. Par conséquent, les valeurs de ces caractéristiques physiques ont été estimées a l'aide d'un modele hydrologique (BENNIS et CROBEDDU, 2005). Elles peuvent également étre obtenues a l'aide de formules ou de valeurs tabulées (CHOW et al., 1988)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9797121286392212,
+        "bbox_xyxy": [
+          97,
+          94,
+          829,
+          864
+        ],
+        "text": "quatre événements pluvieux (BENNIS, 2ooo) enregistrés a l'exutoire du sous-bassin (1) de l'arrondissement de Verdun situe sur lile de Montréal (Canada)et de 18 événements pluvieux (NOEL et al.,1987)enregistrés a l'exutoire de trois sous- bassins situés dans la ville de Champaign aux Etats-Unis. Pour ces 22 événements pluvieux, lintensité et le debit a l'exutoire des bassins ont été mesurés au pas de temps de 5 minutes. La figure 3 montre que les pluies enregistrées sur les trois sous-bassins de la ville de Champaign ont une période de retour inférieure a 0,5 an et les pluies enregistrées sur le sous-bassin de Verdun ont une période de retour inférieure a 2 ans. Ces pluies ne sont pas des événements exceptionnels. Par conséquent, le calcul de lénergie cinétique des précipitations a été réalisé suivant les recommandations de SALLESet al. (2002) en prenant α égale a 11 et β égale a 1,24. De plus, le calcul de la capacité d'infiltration des surfaces perméables a étéréaliséal'aide du modele deHorton modifié(HUBER et DICKINSON, 1988). Ce modele, couramment utilisé en milieu urbain, tient compte de la capacité initiale d'infiltration du sol (f),de la capacité finale d'infiltration (f） et de la décroissance temporelle de la capacité d'infiltration (K)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9796515107154846,
+        "bbox_xyxy": [
+          871,
+          172,
+          1602,
+          316
+        ],
+        "text": "Les parametres a caler sont les coefficients de mise en a et b pour le modele de < rating curve > et les parametres Ma(0), k et r pour le modele exponentiel."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9583841562271118,
+        "bbox_xyxy": [
+          977,
+          541,
+          1512,
+          719
+        ],
+        "text": "n (i) - mlSimule (i)] Nash =1- (i)-ml Mesure"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9574643969535828,
+        "bbox_xyxy": [
+          872,
+          355,
+          1601,
+          425
+        ],
+        "text": "La performance d'un modele de simulation peut étre evalueeal'aidedestroisindicateurs suivants:"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.9404503107070923,
+        "bbox_xyxy": [
+          222,
+          1511,
+          1411,
+          1933
+        ],
+        "text": "60 40 IDFT=0,5an IDFT=2ans 35 50 口 Mattis Nord 口 Verdun 30 (y/wu) (y/ww) Mattis Sud 40 25 只 St John Nord 30 20 合 15 20 10 10 5 口 叫 。 口 0 口 0 0 200 400 600 0 100 200 300 400 Durée (min) Durée (min) (a) (b)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9367069602012634,
+        "bbox_xyxy": [
+          984,
+          1152,
+          1505,
+          1242
+        ],
+        "text": "Massetotalelessivéesimulée Massetotalelessivée mesuree"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9254372119903564,
+        "bbox_xyxy": [
+          1159,
+          1357,
+          1341,
+          1453
+        ],
+        "text": "ml Simule Max Max"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8923954963684082,
+        "bbox_xyxy": [
+          588,
+          41,
+          1260,
+          67
+        ],
+        "text": "E.CrobeddlS.Bennis Kee deLHa1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8904028534889221,
+        "bbox_xyxy": [
+          871,
+          1286,
+          1183,
+          1322
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8869163990020752,
+        "bbox_xyxy": [
+          872,
+          465,
+          1174,
+          499
+        ],
+        "text": "lecoefhcientdeNash"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8832079172134399,
+        "bbox_xyxy": [
+          1548,
+          1176,
+          1599,
+          1210
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.8745858073234558,
+        "bbox_xyxy": [
+          207,
+          1977,
+          1502,
+          2103
+        ],
+        "text": "Figure 3.Pluies enregistrees sur, (a), le sous-bassin (1) de l'arrondissement de Verdun et sur (b), les sous-bassins Mattis Nord, Mattis Sud et Saint John Nord (Champaign, USA). Rainfallmonitoredin(a)thesubcatchment(1)oftheVerdunboroughand(b)theNorthMattis,SouthMattisandSt JobnNorthsubcatchments(Champaign,USA)"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8732765316963196,
+        "bbox_xyxy": [
+          1548,
+          608,
+          1599,
+          641
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8667865991592407,
+        "bbox_xyxy": [
+          1548,
+          1393,
+          1599,
+          1426
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8555092811584473,
+        "bbox_xyxy": [
+          872,
+          1084,
+          1168,
+          1119
+        ],
+        "text": "tnasses"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8423973321914673,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1597,
+          79
+        ],
+        "text": "51"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7985461950302124,
+        "bbox_xyxy": [
+          870,
+          95,
+          1335,
+          130
+        ],
+        "text": "5.2"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9820350408554077,
+        "bbox_xyxy": [
+          864,
+          1002,
+          1603,
+          1809
+        ],
+        "text": "Les pollutogrammes de MES fournis par le modele RQSM, le modele exponentiel et le modele de 《 rating curve > ont été comparés aux 11 pollutogrammes mesurés restants. La valeur des indicateurs de performance apres simulation est fournie au tableau 3. Le coefficient de Nash est supérieur a 0,6 pour six événements simulés a l'aide du modele exponentiel et pour cinqévénements simulés al'aide dumodeleRQSM Iet 《 rating curve >. Par conséquent, les trois modeles ont fourni un pollutogramme proche du pollutogramme mesuré pour 50 % des événements mesurés. Lerreur sur la masse de MES lessivée est inférieure a 30 % pour six événements simulés a l'aide du modele RQSM et 《 rating curve > comparativement a trois événements simulés a l'aide du modele exponentiel. Par conséquent, le modele RQSM a modelisé la masse de MES lessivée de maniere équivalente au modele de 《 rating curve > mais mieux que le modele exponentiel. Lerreur sur la pointe du pollutogramme est inférieure a 30 % pour huit événements simulés a l'aide du modele exponentiel et pour six événements simulés a laide du modele RQSM et 《 rating curve >. Par conséquent,le modele RQSM a modelisé la lpointedu pollutogramme de maniere équivalente au modele de α rating curve > mais moins bien que le modele exponentiel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9818545579910278,
+        "bbox_xyxy": [
+          97,
+          988,
+          835,
+          1759
+        ],
+        "text": "Les trois modeles de lessivage des MES ont été calés sur le sous-bassin (1) de l'arrondissement de Verdun a l'aide de deux pollutogrammes mesurés. Pour les trois autres sous-bassins, le nombre plus important d'événements mesurés a permis de caler les modeles a l'aide de trois pollutogrammes. Dans le cas du bassin de Verdun, un événement dont l'intensité ne dépassait pas la capacité d'infiltration des surfaces perméables événement dont l'intensité dépassait la capacité d'infiltration des surfaces perméables a été utilisé pour caler le parametre Kpper. En effet, un événement présentant une faible intensité ne sature pas le sol des surfaces perméables. Par conséquent, seules les surfaces imperméables sont lessivées. En revanche un événement présentant une forte intensité sature le sol des surfaces perméables engendrant le lessivage des surfaces perméables et imperméables. Pour les trois sous-bassins de la ville de Champaign, les événements pluvieux n'étaient pas suffisamment importants pour faire contribuer les surfaces perméables. Par conséquent, seul le coefficient Kpim, a été calé. Le tableau 2 fournit les valeurs apres calage des parametres des modeles RQSM, α rating curve 》 et exponentiel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9811906218528748,
+        "bbox_xyxy": [
+          100,
+          1813,
+          836,
+          2104
+        ],
+        "text": "La valeur des parametres obtenus appelle deux commentaires.Premierement, la masse accumulée Ma(O) du modele exponentiel et le coefficient de mise en suspension Kpimnc du modele RQSM ne semblent pas étre corrélés a la surface des sous-bassins ou a l'occupation des sols présentées au tableau 1.Deuxiemement,le parametre k du modele exponentiel présente de fortes variations entre les différents sous-bassins. Ces variations s'expliquent en grande partie par"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9809855818748474,
+        "bbox_xyxy": [
+          99,
+          680,
+          836,
+          935
+        ],
+        "text": "Le coeffcient de Nash a été retenu comme critere de calage oarce qu'il permet de mesurer le niveau de concordance entre les charges mesurées et simulées. Ainsi, le calage des modeles a consisté a choisir la valeur des parametres qui maximise le nombre de Nash. Le choix optimal des parametres a été réalise a laide de l'algorithme du simplex (LAGARIAS et al., 1998) implémentédanslelogiciel MATLAB."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9775481820106506,
+        "bbox_xyxy": [
+          865,
+          1847,
+          1602,
+          2102
+        ],
+        "text": "Les figures 4 et 5 présentent deux événements simulés par le modele RQSM, exponentiel et 《 rating curve >. Ces deux événements montrent que la corrélation entre le hyétogramme et le pollutogramme n'est pas indispensable pour que le modele RQSM fournisse de bons résultats. En revanche, une bonne corrélation entre hydrogramme et pollutogramme permet au modele exponentiel et α rating curve 》 de bien reproduire la"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9754104614257812,
+        "bbox_xyxy": [
+          865,
+          680,
+          1602,
+          824
+        ],
+        "text": "l'utilisation d'un modele d'accumulation instantanée. En effet, les parametres des modeles RQSM et 《 rating curve 》 ont une amplitude de variation moindre que le modele exponentiel alors qu'ils utilisent un modele d'accumulation infinie."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9238943457603455,
+        "bbox_xyxy": [
+          379,
+          236,
+          1297,
+          574
+        ],
+        "text": "Occupation A t. Pente f f K Bassins IMP des sols (ha) (min) (m/m) (mm/h) (mm/h) (h-1) Verdun Residentiel 177,0 0,39 37 0,005 85 25 2 Mattis Nord Commercial 6,8 0,58 30 0,004 200 33 2 Mattis Sud Commercial 11,2 0,40 18 0,010 200 33 2 Saint John Nord Residentiel 22,1 0,19 24 0,006 200 33 2"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9113495349884033,
+        "bbox_xyxy": [
+          606,
+          47,
+          1070,
+          72
+        ],
+        "text": "Modeledelessivagedesmatieresensuspension"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8978326916694641,
+        "bbox_xyxy": [
+          866,
+          927,
+          1398,
+          962
+        ],
+        "text": "52 estrois"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8530663847923279,
+        "bbox_xyxy": [
+          101,
+          59,
+          129,
+          82
+        ],
+        "text": "52"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.7888368964195251,
+        "bbox_xyxy": [
+          385,
+          104,
+          1299,
+          226
+        ],
+        "text": "Tableau 1. Caracteristiques physiques des quatre sous-bassins utilises pour la validation dumodeleRQSM. Table1. PhysicalcharacteristicsofthefoururbansubcatcbmentsusedintheRQSM validation."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9792631268501282,
+        "bbox_xyxy": [
+          100,
+          1922,
+          837,
+          2104
+        ],
+        "text": "La comparaison des trois modeles sur la base de résultats evenementiels speutetretrompeusepuisqu'ellemasque eIa présence de disparités ou de biais dans les résultats. Afin d'avoir une visionplusreprésentativedelaperformancedesmodeles RQSM,exponentiel et《Rating Curve >，la valeur moyenne"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.975590705871582,
+        "bbox_xyxy": [
+          863,
+          1768,
+          1604,
+          2099
+        ],
+        "text": "des indicateurs de performance et leur écart-type sont présentés au tableau 4. Le nombre d'événements simulés n'apparait pas suffisant pour pouvoir statistiquement prouver la superiorité d'un modele sur un autre. Néanmoins, quelques remarques qualitatives peuvent étre émises. Premierement, les trois modeles ne simulent pas parfaitement les pollutogrammes de MES. En effet, le Nash moyen pour I'ensemble des événements simulés est inférieur a O,6.Deuxiemement,le modele exponentiel et le modele de α rating curve > ont surestimé la charge lessivée."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9705259203910828,
+        "bbox_xyxy": [
+          352,
+          873,
+          1323,
+          1703
+        ],
+        "text": "Nash RM Rp Evénements RC EXP RQSM RC EXP RQSM RC EXP RQSM V.30-09-99 -0,05 0,48 0,25 0,71 0,99 0,66 0,51 0,55 0,56 V. 13-10-99 0,49 0,06 0,70 0,85 1,36 0,98 0,74 1,16 1,02 M. N. 17-05-80 0,81 0,85 0,46 1,23 1,44 0,79 0,87 1,03 0,64 M. N. 23-05-80 -2,39 0,12 0,89 3,22 2,24 1,13 2,49 1,56 1,24 M. N. 01-06-80 -1,47 -2,14 0,42 2,80 3,02 1,54 1,75 2,26 0,99 M.S. 01-06-80 -0,22 0,92 0,52 2,37 1,32 1,29 1,97 1,26 0,69 M.S.23-06-80 -1,19 0,51 0,88 2,31 0,63 0,99 2,34 1,02 0,90 M.S.28-06-80 0,73 0,98 0,07 1,43 0,92 0,47 1,06 0,91 0,19 S. J. N. 17-05-80 0,88 0,80 0,65 0,76 0,58 1,50 0,95 0,86 1,21 S. J. N. 30-05-80 0,90 0,76 0,88 0,73 0,54 1,03 0,94 0,81 0,82 S. J. N. 01-06-80 0,88 0,79 0,26 0,89 0,83 1,48 1,09 1,20 0,66"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9701405167579651,
+        "bbox_xyxy": [
+          99,
+          1772,
+          836,
+          1881
+        ],
+        "text": "forme du pollutogramme. Neanmoins, elle n'est pas synonyme d'une bonne estimation de la charge de MES lessivée comme le montre la figure 5 pour le modele de α rating curve >."
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.9205901622772217,
+        "bbox_xyxy": [
+          357,
+          741,
+          1320,
+          865
+        ],
+        "text": "Tableau 3.Valeurs des indicateurs de performance lors de la validation des modeles RQSM ( rating curve>(RC)et exponentiel (EXP). Table3. PerformancecriteriavaluesfromthesimulationofparticleloadswithtbeRQSM ratingcurve(RC)andexponential(ExP)models."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8830755949020386,
+        "bbox_xyxy": [
+          589,
+          42,
+          1259,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8370843529701233,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          80
+        ],
+        "text": "52"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.7097781896591187,
+        "bbox_xyxy": [
+          405,
+          240,
+          1254,
+          666
+        ],
+        "text": "《Rating Curve 》 Modele Exponentiel RQSM Ma(0) KPimg Kp. Bassins a b k (kg) r (kg/i) (kg/i) Verdun 8,45·10-2 1,29 2963 9,89.10-2 1,14 7,66·10-6 1,80·10-5 Mattis Nord 1,41 1,46 552 8,27 1,13 2,84·10-5 Mattis Sud 1,05 1,44 100 38,54 1,36 7,57·10-6 Saint John Nord 2,26 2,15 273 112,25 2,88 1,41·10-5"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.7094863653182983,
+        "bbox_xyxy": [
+          407,
+          93,
+          1249,
+          218
+        ],
+        "text": "Tableau 2. Valeur des parametres apres calage des modeles RQSM, α rating curve > etexponentiel. Table 2.Parameter values after the calibration of the RQSM,rating curve and exponentialmodels."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.4275773763656616,
+        "bbox_xyxy": [
+          404,
+          88,
+          1255,
+          669
+        ],
+        "text": "Tableau 2. Valeur des parametres apres calage des modeles RQSM, 《 rating curve ) etexponentiel. Table 2. Parameter values after the calibration of the RQSM, rating curve and exponentialmodels. 《RatingCurve》 ModeleExponentiel RQSM Ma(0) Kpim Kp. Bassins a b k (kg) r (kg /i) (kg/i) per Verdun 8,45.10-2 1,29 2963 9,89.10-2 1,14 7,66·10-6 1,80·10-5 Mattis Nord 1,41 1,46 552 8,27 1,13 2,84·10-5 Mattis Sud 1,05 1,44 100 38,54 1,36 7,57.10-6 Saint John Nord 2,26 2,15 273 112,25 2,88 1,41·10-5"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.973504900932312,
+        "bbox_xyxy": [
+          864,
+          1702,
+          1604,
+          2091
+        ],
+        "text": "et surtout des charges de MES(BERTRAND-KRAJEWSKI et al., 2ooo). La deuxieme source d'incertitude résulte de la méconnaissance des processus d'accumulation des particules solides sur les surfaces imperméables durant la période de temps sec.La troisieme source d'incertitude provient de l'absence de description des processus de déposition et de remise en suspension des particules solides durant la phase de transport. Enfin, la quatrieme source d'incertitude résulte de l'utilisation des modeles sur des sous-bassins non uniformes en matiere de rugosité, de pente et de distribution des particules solides."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9723632335662842,
+        "bbox_xyxy": [
+          97,
+          1696,
+          835,
+          2101
+        ],
+        "text": "En effet, le R moyen est proche de 1 pour le modele RQSM alors qu'il est de 1,26 pour le modele exponentiel et de 1,57 pour le modele de α rating curve >. Troisiemement, le modele RQSM a sous estimé le rapport des pointes alors que le modele exponentiel et le modele de 《 rating curve > le surestime. Enfin, les trois modeles de lessivage présentent des performances tres variables. En effet, les écarts types sur le Nash, R, et R P M s'échelonnent de 0,31 a 1,14. Ces résultats mitigés sont la consequence de quatre sources d'incertitudes sdifferentes. Lapremieresourced'incertitudeprovientdel'incertitude associeeauxmesuresdesprécipitations,desdebitsruisselés"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.943543016910553,
+        "bbox_xyxy": [
+          149,
+          1453,
+          1265,
+          1516
+        ],
+        "text": "Figure 5.(a)Pluie et debit du 23juin1980a SouthMattis,et (b)charges deMESmesurees et simulées. (a)RainfallandflowinSouthMattison23June1980,and(b)measuredandsimulatedTSSloads"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9160255789756775,
+        "bbox_xyxy": [
+          139,
+          615,
+          1527,
+          738
+        ],
+        "text": "Figure 4.(a) Pluie et debit du 13 octobre 2oo0 sur le sous-bassin (1) de I'arrondissement de Verdun, et (b) charges de MES mesurees et simulees. (a)Rainfall and flow in the subcatchment (1) of theVerdun borough on 13 October 2000, and (b) measured and simulated TSS loads."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.902972400188446,
+        "bbox_xyxy": [
+          606,
+          47,
+          1070,
+          72
+        ],
+        "text": "Modeledelessivagedesmatieresensuspension"
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.8524408936500549,
+        "bbox_xyxy": [
+          151,
+          100,
+          1515,
+          581
+        ],
+        "text": "3 0 0,35 5 0,3 ChargeMesuree 2,5 10 -RQSM 15 Precipitation 0,25 /ww) RatingCurve (S/ew) 20 (s/6x) DebitMesure 0,2 -ModeleExponentiel 1.5 25 30 B 0,15 M 35 0,1 0,5 40 0,05 45 0 50 0 20:50 21:20 21:50 22:20 22:50 23:20 20:50 21:20 21:50 22:20 22:50 23:20 Temps (h:min) Temps (h:min) (a) (b)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8403411507606506,
+        "bbox_xyxy": [
+          101,
+          59,
+          128,
+          81
+        ],
+        "text": ""
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.758994996547699,
+        "bbox_xyxy": [
+          161,
+          877,
+          1514,
+          1416
+        ],
+        "text": "0,5 0 0,2 0,45 10 ChargeMesuree 0,18 0.4 20 RQSM 0,16 ) h —Rating Curve 0,35 30 0,14 (s/e ModeleExponentiel 0,3 40 S Précipitation 0,12 w) /6x) 0,25 50 0,1 DebitMesure 60 B 0,2 0,08 M 0,15 70 0,06 0,1 80 0,04 0,05 90 0,02 6:22 6:52 7:22 7:52 8:22 8:52 9:22 6:22 6:52 7:22 7:52 8:22 8:52 9:22 Temps (h:m in) Temps (h:m in) (a) (b)"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821403622627258,
+        "bbox_xyxy": [
+          99,
+          673,
+          836,
+          890
+        ],
+        "text": "L'analyse de sensibilité a porté sur les parametres de calage Kp Kp et sur les parametres physiques t, fo, f, K. En imp effet, la valeur mesurée ou calculée de ces quatre parametres Del ohysiques est souvent entourée d'une grande incertitude. La sensibilité de ces six parametres a été évaluée en considérant le coefficient de Nash"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9817934036254883,
+        "bbox_xyxy": [
+          864,
+          677,
+          1604,
+          1008
+        ],
+        "text": "Les résultats de l'analyse de sensibilité pour la pluie (1) sont présentés a la figure 6(a). Ils amenent deux remarques importantes. Premierement, la variation du parametre Kp imp engendre une forte augmentation du coefficient de Nash. doit étre minutieusement calé. Enfin, la variation du temps de concentration engendre une faible diminution du Nash. Par conséquent, une valeur approchée de t. peut etre utilisée pour les pluies de faible intensite et de durée superieureat."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9817589521408081,
+        "bbox_xyxy": [
+          100,
+          930,
+          837,
+          1221
+        ],
+        "text": "La démarche retenue a consisté a attribuer des valeurs de référence aux six parametres étudiés. Ces valeurs de références sont présentées au tableau 5. Elles ont servi a calculer un oollutogramme de référence. Par la suite, une variation a été imposée a une des valeurs de référence du modele RQSM. Le nouveau pollutogramme ainsi obtenu a été utilisé avec le pollutogramme de référence pour calculer le coefficient de Nashcorrespondant."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9810980558395386,
+        "bbox_xyxy": [
+          865,
+          1043,
+          1603,
+          1739
+        ],
+        "text": "Les résultats de l'analyse de sensibilité pour la pluie (2) sont présentés sur la figure 6(b). Ils amenent quatre remarques importantes. Premierement, la variation du parametre Kp imp engendre une forte diminution du Nash comme pour la pluie (1). En revanche, la variation du parametre Kp. nefait pratiquement pas diminuer le Nash. Néanmoins, ce parametre peut devenir infuent en cas de pluie extreme ou pour une surface perméable presentant une faible capacité d'infiltration. Deuxiemement, la variation de t,dans le cas d'une pluie de durée superieure a t, genere une plus grande diminution du diminue significativement et devient meme inférieure a celle de Kpim, quant la durée de la pluie est inférieure a t . Troisiemement, une variation importante de la capacité initiale d'infltration (f) entraine une importante baisse du Nash. De plus, la sous- estimationdela capacité initiale d'infiltration entraine une diminution du Nash plus importante que sa surestimation. Enfin,la variation de la capacité finale d'infiltration(f） et du coefficient de décroissance (K) a entrainé une diminution"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9791135191917419,
+        "bbox_xyxy": [
+          100,
+          1520,
+          835,
+          1738
+        ],
+        "text": "La pluie (1) genere une hauteur d'eau inférieure a la capacité d'infltration des surfaces perméables définie parles parametres de référence du modele RQSM. En revanche, la pluie (2) génere une hauteur d'eau supérieure a la capacité d'infiltration des surfaces perméables. Par conséquent, la pluie (1)lessive iniquementles ssurfacesimperméables alors que la pluie (2)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9343777298927307,
+        "bbox_xyxy": [
+          97,
+          1263,
+          834,
+          1333
+        ],
+        "text": "Lanalyse de sensibilité a été menée a l'aide des deux pluies suivantes:"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.91522616147995,
+        "bbox_xyxy": [
+          399,
+          1770,
+          1273,
+          1891
+        ],
+        "text": "Tableau 5. Valeurs de reference des parametres pour I'analyse de sensibilite du modele RQSM Table5. Reference values of theparameters used for the sensitivity analysis of tbe RQSMmodel."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8798848390579224,
+        "bbox_xyxy": [
+          863,
+          596,
+          1420,
+          631
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8765987157821655,
+        "bbox_xyxy": [
+          589,
+          42,
+          1259,
+          67
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8468528985977173,
+        "bbox_xyxy": [
+          100,
+          595,
+          609,
+          631
+        ],
+        "text": "ihilitedi modeleRDSN"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8465567827224731,
+        "bbox_xyxy": [
+          1571,
+          57,
+          1599,
+          80
+        ],
+        "text": "55"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.808768093585968,
+        "bbox_xyxy": [
+          99,
+          1372,
+          621,
+          1408
+        ],
+        "text": "11ie mm/h:duree:240min"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.7779489755630493,
+        "bbox_xyxy": [
+          381,
+          195,
+          1352,
+          520
+        ],
+        "text": "Nash RM Rp Modeles Ecart- Ecart- Ecart- Moyenne Moyenne Moyenne type type type 《Rating Curve 》 -0,06 1,14 1,57 0,93 1,34 0,68 Modele Exponentiel 0,33 0,93 1,26 0,77 1,15 0,45 RQSM 0,53 0,31 1,08 0,35 0,81 0,31"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.6783215403556824,
+        "bbox_xyxy": [
+          393,
+          1896,
+          1300,
+          2087
+        ],
+        "text": "A f K Kpir KPp Parametres IMP (ha) (min)(mm/h)(mm/h)(1/h) (kg /j) (kg/i) VALEURS 100 0,5 32 160 16 4 2·10-5 2·10-5"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5597413182258606,
+        "bbox_xyxy": [
+          384,
+          94,
+          1131,
+          158
+        ],
+        "text": "Tableau 4. Moyennes et écarts-types des valeurs de Nash, R, et R Table4.MeansandstandarddeviationsoftheNash,R,andRvalues"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5425896644592285,
+        "bbox_xyxy": [
+          98,
+          1446,
+          604,
+          1481
+        ],
+        "text": "11116 X0 mm/h:duree:25.min"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9814388155937195,
+        "bbox_xyxy": [
+          99,
+          1268,
+          837,
+          1522
+        ],
+        "text": "Le présent article a mis en lumiere une approche conceptuelle originale pour modeliser la charge de matiere en suspension lessivée sur les bassins urbains. L'originalité du modele RQSM découle, d'une part, de l'utilisation de l'énergie cinétique des precipitations pour modeliser la mise en suspension des particules solides, et, d'autre part, de l'emploi de la théorie des systemes lineaires pour decrire le transport des MES a la surface du bassin."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9805750846862793,
+        "bbox_xyxy": [
+          98,
+          1847,
+          836,
+          2066
+        ],
+        "text": "Le modele RQSM a simulé les charges de MES mesurées, a l'exutoire de quatre sous-bassins urbains situés en Amérique du Nord, avec un niveau de précision équivalent a celui de deux modeles conceptuels éprouvés. L'analyse de sensibilité du modele RQSM a montré que deux parametres avaient un impactsignificatifsurlepollutogrammesimulé."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9795727133750916,
+        "bbox_xyxy": [
+          99,
+          1576,
+          836,
+          1795
+        ],
+        "text": "Le modele RQsM présente trois atouts. Premierement, il utilise uniquement lintensité des précipitations pour calculer la charge de MES lessivée a l'exutoire d'unbassin urbain. Deuxiemement, il dissocie la contribution en MES des surfaces perméables et imperméables. Enfin, seuls deux parametres du modeleRQsM nécessitent un calage."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9763192534446716,
+        "bbox_xyxy": [
+          99,
+          852,
+          836,
+          1072
+        ],
+        "text": "négligeable du Nash.Par conséquent, la variation de ces parametres n'a pas été présentée sur la figure 6(b) afin d'en alléger la lecture. Ces résultats sur les parametres d'infiltration du modele de Horton sont similaires aux observations faites suite a l'analyse de sensibilité du modele de réservoir non linéaire du logiciel SWMM (LIONG et al., 1991)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9589827060699463,
+        "bbox_xyxy": [
+          866,
+          854,
+          1603,
+          962
+        ],
+        "text": "RQSM permettent d'envisager une extension de son utilisation a d'autrespolluants."
+      },
+      {
+        "label": "figure",
+        "layout_score": 0.953414261341095,
+        "bbox_xyxy": [
+          275,
+          113,
+          1424,
+          540
+        ],
+        "text": "Tauxdevariation Tauxdevariation 0,25 0,5 0,75 1 1,25 1,5 1,75 0,25 0,5 0,75 1 1,25 1,5 1,75 中 e A A 0,5 N 0 0,5 -0,5 -1 0 -1,5 -2 -0,5 -2,5 -3 -1 -3,5 -1,5 -4 -4,5 日一Kpimp -2 -5 Kpper -5,5 Nash Kpimp -2,5 中 Nash -6 e-tc -6,5 -tc -3 （a) (b)"
+      },
+      {
+        "label": "figure_caption",
+        "layout_score": 0.9208177924156189,
+        "bbox_xyxy": [
+          254,
+          589,
+          1417,
+          712
+        ],
+        "text": "Figure 6. Variation du Nash en fonction du taux de variation des parametres du modele RQSM pour (a), la pluie (1),et (b),lapluie(2). Variation of the Nash value as a function of the rate of change of the RQSM parameters for (a), rainfall (1),and(b),rainfall(2)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9205495119094849,
+        "bbox_xyxy": [
+          865,
+          1219,
+          1603,
+          1325
+        ],
+        "text": "ALLEYW.M.(1981).Estimation of accumulation parameters for urban runoff quality modelling. Water Resour. Res., 17, 1657-1664"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9117011427879333,
+        "bbox_xyxy": [
+          868,
+          1080,
+          1516,
+          1127
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9088943004608154,
+        "bbox_xyxy": [
+          606,
+          47,
+          1070,
+          72
+        ],
+        "text": "Modeledelessivagedesmatieresensuspension"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8910515904426575,
+        "bbox_xyxy": [
+          866,
+          1943,
+          1603,
+          2090
+        ],
+        "text": "BERTRAND-KRAJEWSKIJ.L.,D.LAPLACE, C. JOANNIS et G. CHEBBO (20oo). Mesures en hydrologie urbaine et assainissement, TEC et DOC (Editeurs), Lavoisier, Paris, 793p."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8898857831954956,
+        "bbox_xyxy": [
+          101,
+          1169,
+          421,
+          1211
+        ],
+        "text": "CONCTUSTOOT"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8529634475708008,
+        "bbox_xyxy": [
+          101,
+          59,
+          129,
+          82
+        ],
+        "text": "56"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8294318914413452,
+        "bbox_xyxy": [
+          866,
+          1369,
+          1602,
+          1478
+        ],
+        "text": "BARBE D.E., J.F. CRUISE et X. MO (1996). Modeling the buildup and washoff of pollutants on urban watersheds. WaterResour.Bull.,32,511-519."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8043702244758606,
+        "bbox_xyxy": [
+          864,
+          1799,
+          1602,
+          1910
+        ],
+        "text": "BENNIS S.,T. HAJJI et F. BERNARD (2001). Phénomene du premier fot : mythe ou réalité? Vecteur Environ., section scientifique,34,34-42"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7867674827575684,
+        "bbox_xyxy": [
+          865,
+          1514,
+          1602,
+          1660
+        ],
+        "text": "BENNIS S. (20oo). Caractérisation des eaux pluviales du secteur 1 de la ville de Verdun. Rapport technique : Ecole de technologie supérieure, Ville de Verdun et BGH Planning (a compléter # du rapport)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7552546262741089,
+        "bbox_xyxy": [
+          865,
+          1693,
+          1601,
+          1765
+        ],
+        "text": "BENNIS S.et E.CROBEDDU (2005). La méthode rationnelle generalisee.VecteurEnviron.,38,41-52"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8621830940246582,
+        "bbox_xyxy": [
+          588,
+          40,
+          1260,
+          68
+        ],
+        "text": "E.CrobeddulS.Bennis/F Keiedes.Scen SdeI'Fa"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8185126781463623,
+        "bbox_xyxy": [
+          1571,
+          56,
+          1600,
+          79
+        ],
+        "text": "55"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7793493866920471,
+        "bbox_xyxy": [
+          858,
+          104,
+          1609,
+          2064
+        ],
+        "text": "Nelder-Mead simplex method in low dimensions. SIAM J. Optim, 9, 112-147. LIONG S.Y., W.T. CHAN et L.H. LUM (1991). Knowledge- based system for SWMM runoff component calibration. J. Water Res. Plann. Manage., 117, 507-524 MOYS G.D., M.P OSBORNE et J.A PAYNE. (1988). Mosquito 1. Modelling of stormwater quality including tanks and overflows, Wallingford, Design specifications. Rapport No SR 184, 170 p. NOEL D.C., M.L. TERSTRIEP et C.A. CHENOWETH (1987). Nationwide Urban Runoff Program: Data Report. Illinois State Water Survey, Department of Energy and Natural Resources, Champaign, Illinois, SWS Contract Report 410-1. SALLES C., J. POESEN. et J. SEMPERE-TORRES (2002). Kinetic energy of rain and its functional relationship with intensity. J. Hydrol., 257, 256-270. SARTOR J.D., G.B. BOYD et F.J. AGARDY (1974). Wate1 pollution aspects of street surface contaminants. J. Water Pollut. Contr. Fed.,46,458-467. SERVAT E. (1984). Contribution a létude des matieres en suspenion du ruissellement pluvial a léchelle d'un petit bassin versant urbain. These USTL, Univ. Montpellier, 182 p. TEMIMI S. et S. BENNIS (2002). Prévision en temps réel des charges de polluants dans un reseau d'assainissement urbain. Rev. Sci. Eau, 15, 661-675. TSIHRINTZIS V.A. et R. HAMID (1997). Modeling and management of urban stormwater runoff quality: a review. Water Resour. Manage., 11, 137-164. US ARMY CORPS OF ENGINEERS (1977). STORM: storage, treatment, overfow, runoff model - User's manual. Hydrologic Engineering Center, Davis, California, USA, 723-S8-L7520. YOUNG R.A. et J.L. WIERSMA (1973). The role of rainfall impact in soil detachment and transport. Water Resour. Res., 9,1629-1636. ZUG M., L. PHAN, D. BELLEFLEUR et O. SCRIVENER (1999). Pollution wash-off modelling on impervious surfaces: Calibration, validation, transposition. Water Sci Technol.,39,17-24."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7132837772369385,
+        "bbox_xyxy": [
+          93,
+          104,
+          844,
+          2067
+        ],
+        "text": "et R.C. JOHANSON (1997). Hydrological Simulation Program-Fortran, User's manual for version 11. U.S. Environmental Protection Agency, National Exposure Research Laboratory, EPA/600/R-97/080, Athens, Georgia, 755p. BUTLER D., S. THEDCHANAMOORTHY et J.A. PAYNE (1992). Aspects of surface sediment characteristics on an urban catchment. Water Sci. Technol., 25, 13-19 CHEBBO G. et A BACHOC (1992). Characterization of suspended solids in urban wet weather discharges. Water Sci. Technol., 25, 171-179. CHOW VT., D.R. MAIDMENT et L.W. MAYS (1988). Applied hydrology. McGRAW-HILL (Editeur), 572 p. DELETIC A.， R.M. ASHLEY et D.REST (2000) Modelling input of fine granular sediment into storm drainage system. Water Res., 34, 3836-3844. DELETIC A., C. MAKSIMOVIC et M. IVETIC (1997). Modelling of storm washoff of suspended solids from impervious surfaces. J. Hydraul. Res., 35, 99-118. DRIVER N.E. et B.M. TROUTMAN (1989). Regression models for estimating urban storm-runoff quality and quantity in the United States. J. Hydrol. 109, 221-236. GROMAIRE M.C. (1998). La pollution des eaux pluiviales urbaines en reseau d'assainissement unitaire, caractérisitiques et origines. These de Doctorat, ENPC, Marne la Vallée, France, (a compléter pp.) HUBER W.C. et R.E. DICKINSON (1988). Storm Water Management Model, Version 4, User's Manual. U.s. EPA, EPA/600/3-88/001a., Athens, Ge0rgia. JACK A.G., M.M. PETRIE et R.M. ASHLEY (1996). The diversity of sewer sediments and the consequences for sewer How quality modelling. Water Sci. Technol., 33, 207-214. JEWELL TK. et D.D. ADRIAN (1978). Statistical analysis to derive improved stormwater quality models. J. Water Pollut. Contr. Fed., 54, 489-499. KANSO A.，B.TASSIN et G.CHEBBO (2005).A benchmark methodology for managing uncertainties in urban runoff quality models. Water Sci. Tecbnol., 51, 163-170. REEDS. ，M.H. WRIGHT"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6621870398521423,
+        "bbox_xyxy": [
+          904,
+          94,
+          1604,
+          204
+        ],
+        "text": "PE. WRIGHT (1998). Convergence properties of the Nelder-Mead simplex method in low dimensions. SIAM I.Optim,9,112-147."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5353163480758667,
+        "bbox_xyxy": [
+          97,
+          92,
+          837,
+          316
+        ],
+        "text": "BICKNELLB.R.,J.C.IMHOFF,J.L.KITTLE,A.S.DONIGIAN, et R.C. JOHANSON (1997). Hydrological Simulation Program-Fortran, User's manual for version 111. U.S. Environmental Protection Agency, National Exposure Research Laboratory, EPA/600/R-97/080, Athens,Georgia,755p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4514952301979065,
+        "bbox_xyxy": [
+          97,
+          2036,
+          837,
+          2074
+        ],
+        "text": "LAGARIAS J.C., J.A. REEDS, M.H. WRIGHT et"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.43623241782188416,
+        "bbox_xyxy": [
+          864,
+          242,
+          1602,
+          351
+        ],
+        "text": "LIONG S.Y., W.T. CHAN et L.H. LUM (1991). Knowledge based system for SWMM runoff component calibration. J.Water Res.Plann.Manage.,117,507-524."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3755354881286621,
+        "bbox_xyxy": [
+          97,
+          644,
+          833,
+          720
+        ],
+        "text": "CHOWV:T.，D.R.MAIDMEN'T\"etL.W.MAYS(1988)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.37124741077423096,
+        "bbox_xyxy": [
+          96,
+          351,
+          837,
+          460
+        ],
+        "text": "BUTLER D., S. THEDCHANAMOORTHY et J.A. PAYNE (1992).Aspects of surface sediment characteristics on an urban catchment. Water Sci. Tecbnol., 25, 13-19."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3699326813220978,
+        "bbox_xyxy": [
+          98,
+          497,
+          838,
+          607
+        ],
+        "text": "CHEBBO G.et A BACHOC (1992).Characterization of suspended solids in urban wet weather discharges.Water Sci.Technol.,25,171-179."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.35182586312294006,
+        "bbox_xyxy": [
+          863,
+          387,
+          1604,
+          534
+        ],
+        "text": "MOYS G.D.，M.P. OSBORNE etJ.A PAYNE.(1988). Mosquito 1. Modelling of stormwater quality including tanks and overflows, Wallingford, Design specifications Rapport N° SR 184, 170 p."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.34585681557655334,
+        "bbox_xyxy": [
+          96,
+          1854,
+          838,
+          1999
+        ],
+        "text": "KANSOA.，B.TASSINet G.CHEBBO(2005).A benchmark methodology for managing uncertainties inurban runoff quality models.Water Sci.Technol.,51, 163-170."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.33077383041381836,
+        "bbox_xyxy": [
+          96,
+          1414,
+          837,
+          1524
+        ],
+        "text": "HUBER W.C. et R.E. DICKINSON (1988). Storm Water Management Model, Version 4, User's Manual. U.S. EPA, EPA/600/3-88/001a.,Athens,Ge0rgia."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3075707256793976,
+        "bbox_xyxy": [
+          96,
+          1707,
+          838,
+          1817
+        ],
+        "text": "JEWELL T.K. et D.D. ADRIAN (1978). Statistical analysis toderive improved stormwater quality models. J Water Pollut.Contr.Fed.,54,489-499"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3009933531284332,
+        "bbox_xyxy": [
+          862,
+          571,
+          1603,
+          754
+        ],
+        "text": "NOELD.C.,M.L.TERSTRIEPetC.A.CHENOWETH (1987). Nationwide Urban Runoff Program: Data Report. Illinois State Water Survey, Department of Energy and Natural Resources, Champaign, Illinois, SWS Contract Report410-1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.3003922402858734,
+        "bbox_xyxy": [
+          96,
+          901,
+          835,
+          1011
+        ],
+        "text": "DELETIC A., C. MAKSIMOVIC et M. IVETIC (1997) Modelling of stormwashoff of suspended solidsfrom impervious surfaces.I.Hydraul.Res.,35,99-118."
+      }
+    ]
+  }
+]

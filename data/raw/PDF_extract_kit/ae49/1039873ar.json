@@ -1,0 +1,2740 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821773767471313,
+        "bbox_xyxy": [
+          173,
+          1104,
+          1079,
+          1539
+        ],
+        "text": "Depuis Knight (1921), il est d'usage de considerer que lorsque les probabilités associées aux différents états de la nature sont inconnues,le décideur (l'agent économique)setrouveensituationd'incertitude,paroppositionaurisqueouelles sontconnues.Danscecadre,l'approchetraditionnelleenanalyseéconomique supposequeledecideurrationnel assignedesprobabilitessubjectivesauxévenements et se comporte suivant une regle d'utilité esperée (Savage, 1954). L'interet de cette representation duchoixpresence d'incertitudeestdouble.Enpremier lieu,latheorie deI'utilitéespereeassurelacoherencedesmethodesetconceptsdel'analyse économique entreles décisions enpresence derisque et les décisions prises en presenced'incertitude.Lechoixindividuelfaceaunenvironnementrelativement complexeetinconnusereduital'emploid'unereglededecisiondetypemoyenne ponderee.Unereglededecisionaussisimplepeutfacilementétreemployeedans lamodelisationenéconomieappliqueepourintegrerl'incertitudeinherentea"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9732874631881714,
+        "bbox_xyxy": [
+          174,
+          787,
+          845,
+          920
+        ],
+        "text": "OlivierL'HARIDON CentredeRechercheenEconomieetManagement(CREM) UniversitedeRennes1 olivier.lharidon@univ-rennesl.fr"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9724979996681213,
+        "bbox_xyxy": [
+          173,
+          554,
+          517,
+          686
+        ],
+        "text": "AurélienBAILLON ErasmusSchoolofEconomics UniversityofRotterdam baillon@ese.eur.nl"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9650631546974182,
+        "bbox_xyxy": [
+          173,
+          1647,
+          1078,
+          1747
+        ],
+        "text": "*Nous remercions deux évaluateurs anonymes pour leurs remarques pertinentes et leurs nombreusessuggestionsdetailleesapporteesauneversionpreliminairedecetarticle.Nousremercions égalementleséditeurspourleursindicationsdansleprocessusderévisiondel'article.Ceprojet a reculesoutienfinancierdeRennesMetropole(AIS2Oi3)."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9223436117172241,
+        "bbox_xyxy": [
+          174,
+          362,
+          1076,
+          456
+        ],
+        "text": "LA DECISION EN AMBIGUITE : MODELESET EVALUATIONSEXPERIMENTALES*"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6031497120857239,
+        "bbox_xyxy": [
+          172,
+          247,
+          957,
+          273
+        ],
+        "text": "L.'Actaliteeconomigue. Revle .92.nos1-2.mars-1u1n2016"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5033959746360779,
+        "bbox_xyxy": [
+          174,
+          1057,
+          326,
+          1085
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4482349753379822,
+        "bbox_xyxy": [
+          174,
+          1057,
+          326,
+          1085
+        ],
+        "text": "INTRODUCTION"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9843379855155945,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          748
+        ],
+        "text": "l'environnement décisionnel des agents économiques.Dans le prolongement de von Neumann et Morgenstern (1944), la fonction d'utilité permet de prendre en compte le gout ou l'aversion pour le risque de l'agent économique et les probabilités sub- jectives mesurent les croyances que cet agent assigne aux differents évenements. I1 n'y a donc pas de différence entre le risque et l'incertain, puisque tous deux utilisent les memes objets - des probabilités et des utilités - et la meme regle de prise de décision. Le second interet de cette représentation est la simplicité des objets qu'elle manipule. Toute source d'incertitude peut ainsi étre apprehendée simplementparunedistributiondeprobabilitessubjectives,guidantlesdecisions de l'agent économique (Cyert et DeGroot, 1974). De plus, dans une perspective dynamique, toute nouvelle information pertinente sur la vraisemblance des évene- mentsestintegreedemanierecoherenteparl'agentéconomiquequirevisealors les probabilités suivant la regle deBayes. La théorie del'utilité esperéefournit ainsi nonseulementuncadreconceptuelélegantetunifiemaiségalementunensemble d'outilscomplementairesadaptesatouttyped'analyseéconomique"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9843018054962158,
+        "bbox_xyxy": [
+          173,
+          764,
+          1079,
+          1232
+        ],
+        "text": "Parallelement au développement de son cadre formel, la théorie de l'utilité espereeaéteconstammentetlargementcritiquee.Ellead'abordétecritiqueepour les limites inherentes a ses hypotheses, notamment l'axiome d'independance (Allais, 1953), puis pour l'irréalisme de ses prédictions dans un cadre statique (Ellsberg, 1961) ou dynamique (Lichtenstein et al.,1982) et finalement pour sa difficulté a rendre compte des comportements joints de prise de risque et d'assurance (Friedman et Savage,1948).Dans ces remises en cause,les travaux d'Ellsberg(196l) occupent uneplacecentrale.Cetteplacen'estpastellementliéealaremiseencausede I'utiliteespereeensoi.Eneffet,lefaitquelatheoriedeI'utiliteespereenepermette pas de décrire de maniere satisfaisantele comportement individuel est deja contenu dans le paradoxe d'Allais, renforcé par les celebres travaux de Kahneman et Tversky (1979).C'est donc sur un tout autre plan que la critique suscitée par Ellsberg se porte,celuidel'emploid'unedistributiondeprobabilitessubjectivesoud'un comportementidentiquefaceal'incertain et aurisque."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9840690493583679,
+        "bbox_xyxy": [
+          173,
+          1249,
+          1079,
+          1752
+        ],
+        "text": "Ellsberg propose, entre autres, deux exemples tres simples : l'un impliquant deux urnes remplies de boules de deux couleurs différentes (appelé exemple ou paradoxe a deuxcouleurs)et l'autreimpliquantuneseuleurne,mais remplies de boules de trois couleurs différences (appelé exemple ou paradoxe a trois couleurs). Dans l'exemple a deux couleurs,le décideur fait face a deux urnes comprenant chacune1ooboules.Danslapremiereurnesetrouvent50boulesnoireset50 boulesrouges.Lacompositiondelasecondeurneestinconnue.Ledécideurfait face a un choix entre deux options. Dans la premiere option, une boule sera tirée au hasard dans l'urne que le décideur aura désignée. Si la boule tirée est rouge, le décideur gagne 20 $. Le décideur doit donc prendre une décision, a savoir choisir uneurnesurlaquelleparier(décisionD,s'il choisitdeparier surI'urneconnue et décision D, s'il choisit de parier sur l'urne inconnue). Dans la deuxieme option, unebouleseratiréeauhasarddansl'urnequeledecideurauradesigneeetsila boule tirée est noire, le décideur gagne 20 $. Le décideur doit donc prendre une décision,asavoirchoisiruneurnesurlaquelleparier(décisionD,s'ilchoisitde"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.873741090297699,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8384354710578918,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9838882684707642,
+        "bbox_xyxy": [
+          172,
+          1310,
+          1080,
+          1753
+        ],
+        "text": "Dans l'exemple a trois couleurs, le décideur fait face a une seule urne contenant 90boulespouvantétredetroiscouleursdifferentes:30boulessontrougesetles 60boulesrestantespeuventétrenoiresoujaunes,dansuneproportioninconnue. Unebouleseratiréeauhasard dansl'urne.Tout d'abord,ledécideur a lechoix entre une décision lui procurant 20 $ si la boule tirée est rouge (et rien sinon) et une décision lui procurant 20 $ si la boule tirée est noire. Le choix est donc entre unedécisionD,avecuneprobabilitéconnuede1/3d'obtenir 20$etunedécision D, avec une probabilité inconnue d'obtenir la meme conséquence. Le second choix est construit sur la base de D, et, en ajoutant 20 $ dans les deux décisions (D, et D） au cas ou la boule tirée est jaune.La plupart des individus choisissent les décisions D, et D. Ils agissent donc comme s'il y avait moins de boules noires que deboulesjaunesenpreférantD,maisensuitecommes'ilyavaitplusdeboules noiresquedeboulesjaunesenpreferantD"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9827167987823486,
+        "bbox_xyxy": [
+          169,
+          693,
+          1078,
+          1232
+        ],
+        "text": "Exemplea deux couleurs Exemple a trois couleurs Urne connue Urne Urne unique inconnue 50 50 100 30 60 boules boules boules boules boules rouges noires rouges noires rouges noires jaunes choix D1 20$ 0 D1 20$ 0 0 n°1 D2 20$ 0 D2 0 20$ 0 choix D3 0 20$ D3 20$ 0 20$ n°2 D4 0 20$ D4 0 20$ 20$"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9804701209068298,
+        "bbox_xyxy": [
+          173,
+          245,
+          1079,
+          481
+        ],
+        "text": "parier sur l'urne connue, décision D s'il choisit de parier sur l'urne inconnue). Depuis les travaux deBecker et Brownson (1964),plusieurs d'études experimentales suggerent que la plupart des individus choisissent les décisions D, et D3 plutot que les décisions D,et D.Ainsi, ces décideurs agissent comme s'il y avait plus de chances de tirer une boule rouge dans l'urne connue que dans l'urne inconnue, mais également comme s'il y avait plus de chances de tirer une boule noire dans l'urneconnuequedansl'urneinconnue."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8687058687210083,
+        "bbox_xyxy": [
+          238,
+          179,
+          1075,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.524696946144104,
+        "bbox_xyxy": [
+          330,
+          567,
+          920,
+          653
+        ],
+        "text": "TABLEAU1 LESPAIEMENTS DANSLES EXEMPLESD'ELLSBERG(1961)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4013231694698334,
+        "bbox_xyxy": [
+          549,
+          568,
+          700,
+          600
+        ],
+        "text": "TABLEAUL"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.34703826904296875,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1076,
+          204
+        ],
+        "text": "83"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9866536259651184,
+        "bbox_xyxy": [
+          172,
+          979,
+          1079,
+          1512
+        ],
+        "text": "Suiteacetteremiseencausefondamentale,lestrentedernieresanneesontvu naitredenombreusesalternativestheoriquesal'utiliteesperéequenousregrouperons toutes sous l'appellation 《 modeles d'ambiguité >. D'ailleurs, suite a ces travaux, leterme《ambiguité>estsouventutilisecommesynonymed'incertitudenon probabiliste (Wakker, 201o). Dans cet article, nous proposons un panorama de cettelitterature,deses apportstheoriques,desmesuresempiriquesrealiseesetde l'interet de cette litterature pour l'analyse économique. Pour des raisons de concision, certains éléments ne seront pas abordés. Ainsi, la définition théorique de I'aversion a 1'ambiguité et la question de la dynamique des croyances seront laissées de coté pour se concentrer surI'exposition desmodelesd'ambiguité.Sur cespoints,le lecteurpeutcependantconsulterlesanalysesproposeesparEtneretal.(2012), MachinaetSinischalchi(2014)ouGilboaet Marinacci(2013).Dememe,1'article deJeleva(2014),publiedanscenumero,estcomplementaireanotrepanoramaet montre l'interet des modeles d'ambiguite pour mettre a jour de nouveaux mécanismes misenoeuvredanslesdecisionsfinancieresetlefonctionnementdesmarches financiers."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9842491745948792,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          645
+        ],
+        "text": "L'importance des travaux d'Ellsberg (1961) repose sur une remise en cause fondamentaledel'approchetraditionnelledeladécisionindividuelle,asavoir l'hypotheseselonlaquellelesindividussecomportent《commes'ils>utilisaient desprobabilites subjectives et qu'ils traitaient ces probabilites exactement comme ils traitent des probabilités objectives. Les exemples de choix imaginés par Ellsberg montrentquelesindividusn'ontpasuniquementdel'aversionpourlerisque,mais également pour l'ambiguité, c'est-a-dire face a l'incertitude sur les probabilités. En particulier, les individus réagissent fortement a l'absence d'une information qui pourrait etre disponible. Selon Ellsberg, l'ambiguité d'une information se definit commethequalitydependingontheamount,type,reliability,and'unanimity ofinformationgivingrisetoone's'degreeofconfidence'inanestimateofrelative likelihoods>."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.982984721660614,
+        "bbox_xyxy": [
+          172,
+          663,
+          1078,
+          962
+        ],
+        "text": "Bien que fondés sur des exemples simples, construits a partir de tirages de boules dans des urnes, les exemples d'Ellsberg montrent qu'il existe une incertitude sur I'incertitude, et que cette derniere n'est pas prise en compte par la théorie de l'utiliteesperéealorsqu'elleconstitueundeterminantmajeurdeschoixindividuels. En effet, la théorie de l'utilité espérée ne permet pas au décideur d'avoir une confiance plus ou moins limitée dans ses croyances. Des lors que,a contrario, on permet au décideur de ne pas avoir une confiance illimitée dans ses croyances, l'aversion a l'ambiguité qui en résulte conduit a un effritement du modele d'utilité esperéee."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9677607417106628,
+        "bbox_xyxy": [
+          174,
+          1531,
+          1077,
+          1629
+        ],
+        "text": "Leplandenotre articleestlesuivant:lasection1présentelesprincipaux modeles d'ambiguité ainsi que leurs représentations; la section 2 présente les principauxrésultats empiriques concernant cesmodeles etla dernierepartieconclut"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.903469443321228,
+        "bbox_xyxy": [
+          214,
+          1722,
+          475,
+          1749
+        ],
+        "text": "1. Ellsberg.1961,p.657."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8442711234092712,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": "8/"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8025895357131958,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9869109392166138,
+        "bbox_xyxy": [
+          173,
+          430,
+          1078,
+          798
+        ],
+        "text": "Considerons un agent économique, un décideur, qui doit faire un choix dans une situation d'incertitude. L'agent sait qu'un seul état de la nature va se produire, maisilneleconnaitpasaumomentdeprendresadécision.Suiteasadecision,le décideur fera face a des conséquences monetaires,qui dépendront de l'état de la naturequivaseréaliser.Lorsqueledécideurauneconnaissanceobjectivedes chances associées a chaque état dela nature,il fait face a une situation de risque, d'incertitude probabiliste. Dans cette situation,une représentation possible des décisionsayantunnombrefinideconsequencessefaitenassociantachaque décision une distribution de probabilités (appelée loterie). Une loterie L = (x,P;.; x,p,) correspondaunedecisionquiproduitchaqueconsequencex.avecuneprobabilite bienspecifiéep.Uncastypiquedecetypedesituationestunjeuderoulette"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9859814643859863,
+        "bbox_xyxy": [
+          172,
+          811,
+          1079,
+          1179
+        ],
+        "text": "Dans un cadre plus géneral, le décideur ne dispose pas d'une connaissance objectivedeschancesassocieesachaqueétatdelanatureetfaitfaceaunesituation d'incertitudenonprobabiliste.Afinderepresenterlarelationentrelaréalisation de 1'incertitude et les conséquences monetaires pour l'agent économique, on utilise habituellement ce qu'on appelle un 《 acte >, qui correspond a une décision que peut prendre l'agent économique. Un acte peut étre représenté comme une décision D = (x,E,;..; x,E) qui conduit a la conséquence x, si l'évenement Ei se produit. Lesévenementssontmutuellementexclusifsetilsdécriventdemaniereexhaustive l'ensembledesétatsdelanature,notéS².L'acterésumeainsilesconséquences associées a la décision D.Cette situation correspond non plus a la roulette,mais a unesituationanalogueaunecoursedechevaux."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9707438349723816,
+        "bbox_xyxy": [
+          172,
+          1368,
+          1079,
+          1538
+        ],
+        "text": "ou u(.) est une fonction d'utilité et q(E) désigne la probabilité subjective associée a l'événement E,. L'expression (1) nous montre que la théorie de I'utilité espérée subjective résulte dela combinaison de deuxéléments:une regle d'utilitéesperée, similaire a celle majoritairement employée dans les décisions risquées,et l'emploi d'une mesure de probabilité subjective. A une décision D = (x,E,;..;x,E,), cette"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9624517560005188,
+        "bbox_xyxy": [
+          172,
+          1196,
+          1077,
+          1262
+        ],
+        "text": "Danslecadre dela théoriedel'utilitéespéréesubjectivedeSavage(1954), lévaluation que le décideur fait d'une décision, ou acte, D est décrite par :"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9602664113044739,
+        "bbox_xyxy": [
+          171,
+          1585,
+          1078,
+          1749
+        ],
+        "text": "2.UnévenementEsedefinit commeun sous-ensemble deS.Dans cequi suit,l'ensembledes conséquencespossiblesestnotéX.Formellement,unacte-oudécision-estuneapplicationde l'ensembledesétatsdelanatureSdansl'ensembledesconséquencesX,applicationquiassocieune consequencedeXachaqueévenementE.Danscequisuit,nousconsideronsuniquementlesactes qui ontunnombrefinideconsequences.L'agentéconomiqueadespréferencessurles actes,oules notations habituelles ≥, > et ~ désignent la preference faible, la preference stricte et I'indifférence."
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.940771758556366,
+        "bbox_xyxy": [
+          217,
+          1275,
+          468,
+          1345
+        ],
+        "text": "U,(D)=∑q(E;)u(x;)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8950967788696289,
+        "bbox_xyxy": [
+          175,
+          379,
+          569,
+          412
+        ],
+        "text": "IIIlatheorie deLutiliteesneree"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8750693202018738,
+        "bbox_xyxy": [
+          174,
+          312,
+          795,
+          344
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8680810928344727,
+        "bbox_xyxy": [
+          1044,
+          1288,
+          1076,
+          1317
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8609206080436707,
+        "bbox_xyxy": [
+          174,
+          247,
+          819,
+          278
+        ],
+        "text": "DECISIONS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7748244404792786,
+        "bbox_xyxy": [
+          236,
+          179,
+          1077,
+          206
+        ],
+        "text": "85"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.41068366169929504,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1076,
+          204
+        ],
+        "text": "8"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9852024912834167,
+        "bbox_xyxy": [
+          172,
+          647,
+          1079,
+          1052
+        ],
+        "text": "Lasophisticationprobabilisteestcependantremiseencauseparlesparadoxes d'Ellsberg.DansI'exemplea deuxcouleurs,laplupart des décideurspréferent prendreladécisionD,.Si 1'onreprésentel'incertitudeparunedistributionde probabilites,celasignifiequeledécideuragitcommesilaprobabilited'obtenir une boule rouge dans 1'urne inconnue (évenement noté E) était inférieure a 50 % (q(ER) < 1/2). Face au second choix proposé, un grand nombre de décideurs préferent prendre la décision D3. Si 1'on représente l'incertitude par une distribution de probabilités, cela signifie que le décideur agit comme si la probabilité d'obtenir uneboulenoiredansI'urneinconnue(évenementnoteE)était inférieurea50% (q(Es)< 1/2). La comparaison directe avec le premier choix montre que ces deux décisions sont incompatibles avec la sophistication probabiliste qui implique que q(ER)+q(E)=1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9851076006889343,
+        "bbox_xyxy": [
+          172,
+          1249,
+          1079,
+          1751
+        ],
+        "text": "Dans le paradoxe a trois couleurs, la plupart des décideurs preferent prendre la décision D, correspondant a l'option ou la probabilité de gain est connue, plutot que la décision D2. Dans la seconde situation de choix, c'est la décision D, cor- respondantégalementa unesituationdeprobabiliteconnue,quiestpreferee.Notons ER, Ev et E, les évenements 《 la boule est rouge >, 《 la boule est noire >, 《 la boule estjaune>.Sil'onanalyseleschoixentermesdesophisticationprobabiliste,le choix de la décision D, sur la décision D, révele que q(E)< q(ER)= 1/3 alors que le choix de la décision D, sur la décision D4 révele que q(ER) + q(E,) < q(E) + (E,) = 2/3. Dans un cas, les croyances révelées du décideur nous indiquent que q(Es) < q(ER) et dans l'autre cas, elles nous révelent apres simplification que q(EN) > q(ER). Ces choix sont donc une fois de plus incompatibles avec 1'hypothese desophisticationprobabiliste.Sil'onsouhaiteneanmoinsconservercettehypothese, en supposant quelerenversementdepréférenceest liéa autre chose qu'aune violation dela sophistication probabiliste, on doit alors accepter des violations de dominancestochastiquedupremierordre(Segal,1987)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9812150001525879,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          546
+        ],
+        "text": "mesure de probabilité subjective q fait correspondre une loterie (x,p,;..;x,p,), ou chaque probabilité p, est telle que p;=q(E). Cette seconde propriéte de la repré- sentation des préférences du décideur est fondamentale. Elle correspond a la sophistication probabiliste (Machina et Schmeidler, 1992). En tant que telle,la sophisticationprobabilisten'obligepasl'évaluationdeladécisionasuivreuneregle d'utilité espérée, elle impose seulement une regle de décision compatible avec l'emploi d'une distribution de probabilités. En ce sens, elle autorise des représen- tationsbienplusgeneralesquel'utilitéesperée,compatiblesparexempleavecle paradoxed'Allais."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9590750932693481,
+        "bbox_xyxy": [
+          173,
+          1065,
+          1079,
+          1231
+        ],
+        "text": "En fait, le décideur réagit au manque d'information sur le contenu de la seconde urne en lui preférant I'urne connue (Frisch et Baron, 1988). L'interet du paradoxe a deuxcouleursestdemontrerqueledécideur a del'aversional'ambiguite,al'incer- titudesurlavaleurdeseschances,et ce,independammentdetouteviolation(ou non-violation)del'utilitéesperée."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8840834498405457,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8617017269134521,
+        "bbox_xyxy": [
+          176,
+          596,
+          915,
+          629
+        ],
+        "text": "l2lafheorie deL'utilite neree"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.848301112651825,
+        "bbox_xyxy": [
+          173,
+          181,
+          204,
+          204
+        ],
+        "text": "86"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9847049713134766,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          679
+        ],
+        "text": "En termes d'axiomatique des préférences, les paradoxes d'Ellsberg remettent en causel'axiome se trouvant au coeur dela théorieesperée: le principe dela chose sure. Le principe de la chose sure suggere que si deux décisions donnent les memes consequencessurunensembled'evenements,alorsremplacercesconséquences communespard'autresconsequencescommunesnedoitpaschangerlechoixdu décideur. En d'autres termes, ces conséquences communes aux deux décisions sontsures,quellequesoitladécisionpréféreeetnedoiventdoncpasinfluencer le choix. Le paradoxe a trois couleurs contredit ce principe : les décisions D, et D ont une conséquence commune (o $ si une boule jaune est tirée). Le deuxieme choix ne differe du premier qu'en remplacant cette conséquence commune par 20$.Leprincipedela chosesureprescrit alorsdenepas changer dechoix,c'est- a-dire que préférer D, devrait amener a préférer D, et non D comme nombre d'individuslefont."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841067790985107,
+        "bbox_xyxy": [
+          173,
+          779,
+          1079,
+          1044
+        ],
+        "text": "Le paradoxe d'Ellsberg a été confirme par de nombreuses études (Camerer et Weber, 1992) et a suscité une large littérature théorique. Parmi les économistes, les modeles a croyances multiples ou modeles multiple priors, font partie des alternativesles plus populaires a I'utilité esperée.Dans cette famille de modeles, le plus connuest lemodelemaxmin deGilboaet Schmeidler (1989).L'article proposé par Jeleva et Tallon (2016), publié dans ce numéro, montre l'intéret et la puissancedecemodelepour rendre comptedel'impact del'ambiguitésur les marchesfinanciers."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834469556808472,
+        "bbox_xyxy": [
+          173,
+          1146,
+          1079,
+          1549
+        ],
+        "text": "Danslesmodelesa croyancesmultiples,l'ambiguitéestpriseen comptepar un ensemble de croyances a priori, notéCici.L'ensemble C permet d'inclure les distributions de probabilité que le décideur pense possibles et d'exclure les autres. L'ensembleCpeutégalementétrevucommelamarged'erreurqu'undécideur s'autorise autour d'une mesure de probabilité unique. L'évaluation d'une décision dans le modele de Gilboa et Schmeidler (1989) se fait suivant un critere de type maxmin.Laprisede décision consistea évaluer touteslesutilitésesperéesinduites par les différentes distributions de probabilités que le décideur considere comme possibles (incluses dans C), puis de retenir pour chaque décision, le minimum de cesutilitesesperées.Lecriterededécisionrepresentedonclespreférencesnon plus par U,(D) comme dans l'expression (1) mais par le minimum d'un ensemble d'utilitesespereesU(D):"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8945310711860657,
+        "bbox_xyxy": [
+          176,
+          1097,
+          449,
+          1128
+        ],
+        "text": ".2.1Lemodele"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8666678667068481,
+        "bbox_xyxy": [
+          1042,
+          1574,
+          1075,
+          1603
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8656842708587646,
+        "bbox_xyxy": [
+          238,
+          179,
+          1075,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8602296710014343,
+        "bbox_xyxy": [
+          170,
+          1697,
+          1055,
+          1748
+        ],
+        "text": "3.L'ensembleCestunsous-ensembleconvexedetouteslesmesuresdeprobabilitess l'ensembledesétatsdelanature(ensemblenote△)."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7528848052024841,
+        "bbox_xyxy": [
+          176,
+          730,
+          605,
+          761
+        ],
+        "text": "L.ZLesmodeleso"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7213488817214966,
+        "bbox_xyxy": [
+          176,
+          730,
+          605,
+          761
+        ],
+        "text": "L.ZLesmodeleso"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.5842623710632324,
+        "bbox_xyxy": [
+          219,
+          1572,
+          397,
+          1610
+        ],
+        "text": "minacc|U.(D))"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4449199438095093,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1075,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9845969080924988,
+        "bbox_xyxy": [
+          170,
+          858,
+          1079,
+          1360
+        ],
+        "text": "30 60 boules boules noires jaunes ming∈c[U,(D)] maxaec[Ug rouges 1 1 D. 20 $ 0 0 u(20) u(20) 3 3 choix n°1 2 D2 0 20 $ 0 u(0) u(20) 3 1 D 20 $ 0 20 $ u(20) u(20) 3 choix n°2 2 2 D4 0 20 $ 20 $ u(20) u(20) 3 3"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983435332775116,
+        "bbox_xyxy": [
+          172,
+          246,
+          1080,
+          655
+        ],
+        "text": "Le principe du maxmin consiste ainsi a choisir, pour chaque situation de choix, la décision offrant l'utiliteesperéeminimalela plus élevee. Ce modele explique tres simplement lecomportement danslesexemples d'Ellsberg.PrenonsI'exempledu paradoxe a trois couleurs avec un décideur qui considere uniquementles distributions physiquement possibles, c'est-a-dire telles que q(ER) = 1/3. Le tableau 2 donne les utilites esperées minimum associées a chaque decision. Le pessimisme du decideur le conduit a choisir la décision avec l'utilité espérée minimum la plus élevée dans chaquesituation.LadécisionD,estpreféreealadécisionD,carellenecomporte au pire, qu'une chance sur trois d'obtenir 20 $, alors que la décision D2 ne comporte au pire, aucune boule gagnante. La décision D est préférée a la décision D,car elle comporte au pire deux chances sur trois d'obtenir 20 $, alors que la décision D ne comporte au pire qu'une chance sur trois d'obtenir cette somme."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9103639721870422,
+        "bbox_xyxy": [
+          173,
+          1580,
+          1079,
+          1750
+        ],
+        "text": "Il estégalement possibled'illustrerlemodelemaxmin dansleparadoxe a deux couleurs.Par exemple,un décideur qui considere qu'il y a entre 40et 60 boules rouges dans l'urne inconnue prendra toujours l'hypothese la plus pessimiste, quelle quesoitlabouletiree.Sonpessimismeleconduitafondersesdécisionssurlapire situation dans le premier choix-40 boules rouges gagnantes,procurant une utilité"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8687487244606018,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.845767617225647,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": "88"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7266978621482849,
+        "bbox_xyxy": [
+          549,
+          706,
+          702,
+          737
+        ],
+        "text": "TABLEAU"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.4695717990398407,
+        "bbox_xyxy": [
+          173,
+          1580,
+          1080,
+          1750
+        ],
+        "text": "Il estégalementpossibled'illustrerlemodelemaxmin dans leparadoxea deux couleurs.Par exemple,un décideur qui considere qu'il y a entre 40 et 60 boules rouges dans l'urne inconnue prendra toujours l'hypothese la plus pessimiste, quelle quesoitlabouletiree.Sonpessimismeleconduitafondersesdécisionssurlapire situation danslepremier choix-40boulesrougesgagnantes,procurantuneutilité"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.4335595965385437,
+        "bbox_xyxy": [
+          171,
+          1395,
+          1079,
+          1477
+        ],
+        "text": "NoTE : La colonne mingec[U,(D)] donne le minimum d'utilité esperée lorsque l'ensemble C contient toutes les distributions de probabilités physiquement possibles (telles que q(ER) = 1/3). La colonnemaxa=c[U,(D)]donnelemaximumd'utilitéespéréedanscecas."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985374927520752,
+        "bbox_xyxy": [
+          172,
+          660,
+          1079,
+          1178
+        ],
+        "text": "Le principe du maxmin, reposant sur un critere de Wald (1950), peut étre critique pour son pessimisme extreme. Une fois admis ce principe,le seul moyen pour un décideur A d'avoir moins d'aversion pour l'ambiguité qu'un décideur B est d'avoir un ensemble de croyances qui implique une perception plus faible de l'ambiguité, par exemple en étant contenu dans celui de B. Ainsi, dans ce modele. avoir moins d'aversion est équivalent a percevoir moins d'ambiguité dans ce modele.Lemodeledita-maxmindeGhirardatoetal.(2004)temperecetextréme pessimisme par de l'optimisme, represente quant a lui de maniere polaire par un critere de type maxmax. La combinaison de ces deux criteres extrémes permet demodulerl'attitudedudecideurcommeunemoyenneponderéeducriteremaxmin etducriteremaxmax.Unedecisionestainsiévalueedanscemodelecommeune moyenne ponderée du minimum et du maximum d'utilite esperée atteignable. étant donné 1'ensemble des croyances, le parametre α controlant cette moyenne pondérée. Le critere de décision représente donc les préférences du décideur commeunemoyenne："
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836079478263855,
+        "bbox_xyxy": [
+          172,
+          245,
+          1079,
+          558
+        ],
+        "text": "esperéeminimum de 0.4u(20)-et dans le second choix- 40 boules noires gagnantes, procurant une utilité esperée minimum de 0.4u(20). Dans les deux cas, cette décision est dominée par la décision de retenir l'urne connue -50 boules gagnantes, procurant une utilité esperée de 0.5u(20). Le modele représente ainsi le niveau d'ambiguitépercueparledécideur aumoyendel'ensembleC.Sil'ensembleCest grand (par exemple comprenant toutes les mesures de probabilites possibles),alors le décideur percevra beaucoup d'ambiguité. Si I'ensemble C' est restreint (par exemple,siledécideur considere quel'urneinconnue contient entre 49 et 52boules rouges),alorsledecideurpercevrapeud'ambiguité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9798848628997803,
+        "bbox_xyxy": [
+          173,
+          1442,
+          1080,
+          1649
+        ],
+        "text": "Le tableau 2 donne les utilités espérées minimum et maximum associées a chaque décisionlorsqueledécideurneconsiderequeles distributions deprobabilité physiquement possibles.Onremarque que pour unevaleur αinférieure a 12, le décideur choisira la décision D, plutot que la décision D, et la décision D, plutot que la décision D, manifestant ainsi du gout pour l'ambiguité. Pour une valeur Q supérieurea1/2,onretrouveleschoixhabituelsdansleparadoxeadeuxcouleurs4"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9725717306137085,
+        "bbox_xyxy": [
+          172,
+          1253,
+          1080,
+          1424
+        ],
+        "text": "Dans ce modele, l'ensemble C représente comme précédemment le niveau d'ambiguité percu et le parametre α represente l'attitude du décideur face a cette ambiguité. Pour un niveau d'ambiguité donne, plus α est important, plus le décideur penalisera l'ambiguité. A l'inverse, plus α est faible, plus l'ambiguité sera désirable pourledécideur"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8849458694458008,
+        "bbox_xyxy": [
+          176,
+          609,
+          475,
+          640
+        ],
+        "text": "L2.2.Lemodelea-mgxmn"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8642762303352356,
+        "bbox_xyxy": [
+          238,
+          179,
+          1071,
+          206
+        ],
+        "text": ".ADECSINENAMRITE:MIDELESETEVALIIATNS"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8620603680610657,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "4. Dansles deux cas,on suppose quel'ensemble C contient toutes les distributions deprol bilitésphysiquementpossibles."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.547700822353363,
+        "bbox_xyxy": [
+          218,
+          1194,
+          687,
+          1233
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.43483638763427734,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1076,
+          203
+        ],
+        "text": "80"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.3064526617527008,
+        "bbox_xyxy": [
+          218,
+          1194,
+          687,
+          1233
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9855696558952332,
+        "bbox_xyxy": [
+          173,
+          680,
+          1079,
+          1012
+        ],
+        "text": "Lalimiteprincipaledumodelemaxminet dumodelea-maxminrésidedans leurprofondenaturedichotomique:lesmesures deprobabilitéssontsoit considerées comme possibles et alors mises sur un pied d'égalité, soit considérées comme impossibles et deslorstotalement exclues dela prise dedécision.Maccheroni et al.(2o06)ontproposeunmodeleditdepreférencesvariationnellesévitant cette dichotomie. Ce modele fait varier de facon continue la maniere dont les mesures deprobabilitésontinclusesdanslecriteredechoix.Cetteextensionestobtenue enintroduisantunindiced'aversional'ambiguitequipenaliselesutilitesesperées associées auxdistributionsdeprobabilités qui n'ontpasla confiancedudécideur. Lecriterededecisionestici:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9840838313102722,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          580
+        ],
+        "text": "Enfaisantvarierleparametrea,ilestainsipossibledeprendreencomptetout un éventail d'attitudes vis-a-vis de l'ambiguité, de l'aversion profonde (α proche de l'unite)au goutprononcé(αproche de zéro).Notons que α=V2ne signifiepas forcément qu'il y a neutralitéa l'ambiguité(etutilitéesperéea laSavage).Par exemple, considerons un décideur avec α =/2 ne disposant d'aucuneinformation au sujet de trois évenements et leur assignant[o,1] dans sonensemble de croyances. Pourchaqueévenement,cedecideurseraindifferententrepariersurcetévenement et une chance objectivede50%,agissant ainsicomme siles probabilites subjectives s'additionnaient a 150 %.Ainsi dans ce modele, la separation entre attitude vis-a-vis de l'ambiguité et perception de l'ambiguité est incomplete?."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824941754341125,
+        "bbox_xyxy": [
+          173,
+          1088,
+          1080,
+          1588
+        ],
+        "text": "Plus c(q) est important,moins le décideur accorde de confiance aux utilités espérées associées a ces mesures deprobabilité.On remarque que c(q)est defini sur △ et que s'il est nul pour les distributions de probabilités contenues dans un ensembleCetégalal'infinisinon,alorslemodeleseréduitaumodelemaxmin, ouT'ensembleC'representeI'ensembledescroyances.L'interetdumodeledepre- ferencesvariationnellesvientdesagrandeflexibiliteetdesongranddegréde generalité.Ainsi,lemodeledepreferences<amultiplicateur>alaHansenet Sargent (2001, 2008), utile pour Iétude de la robustesse aux erreurs de spécification des modeles macroeconomiques, est un cas particulier de preférences variationnelles. Danscecadre,le decideurprenden comptelapossibilitéquesonmodelemacro- économique ne soit pas le modele qui décrive la réalité. L'indice d'aversion a l'ambiguites'écritdanscecas c(g)=0.R(gll m),ouR(g Il m)mesurelavraisemblance relative des modeles alternatifs q par rapport au modele deréference m du décideur (c'est-a-dire l'entropie relative par rapport a m) et 0 ≥ O mesure le poids que le décideur accordeaufaitquemnesoitpaslevraimodeledelaréalité.Lorsque0"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9709096550941467,
+        "bbox_xyxy": [
+          172,
+          1645,
+          1078,
+          1747
+        ],
+        "text": "5.Siniscalchi (2006) montre que pour l'exemple du tableau 2, si l'on suppose de plus que α=2/3,on obtient despreférences identiques a celle d'undécideur ayantun ensembledes croyances tel que q(ER) = 1/3, q(E) ≥ 2/9 et α = 1, preuve que α et l'ensemble des croyances C ne sont pas clairementidentifies."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8850187063217163,
+        "bbox_xyxy": [
+          175,
+          630,
+          589,
+          661
+        ],
+        "text": "syariationnelle"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8385353684425354,
+        "bbox_xyxy": [
+          173,
+          180,
+          205,
+          204
+        ],
+        "text": "00"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7899703979492188,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5225626230239868,
+        "bbox_xyxy": [
+          219,
+          1033,
+          461,
+          1071
+        ],
+        "text": "acxU.(D)+c(g)"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9865039587020874,
+        "bbox_xyxy": [
+          172,
+          1347,
+          1079,
+          1752
+        ],
+        "text": "L'intéretde cemodeleréside danssa représentation explicite du degréde confiance du décideur et dans le fait qu'il permette des applications aux choix financiers.Dans le paradoxe a trois couleurs,ce modele explique les choix comme suit. Supposons (toujours) que le décideur ne considere que les distributions phy- siquementpossiblesetaitunefonctionqdonnantuneconfiancemaximale(égale a 1) a la distribution satisfaisant q(ER) = q(E) = q(E,) = 1/3. Par conséquent, D, seraévaluéepar 1/3u(20)car toutesles distributions considerées donnent cette utilitéetlafonctionminconduitautiliserladistributiondonnantuneconfiance maximale. De son coté, D, donnera forcément une utilité au plus égale a celle de D, car 1/3u(20) est certes possible mais la fonction min implique la recherche d'un niveau inférieur d'utilité. De meme, D sera évaluée 2/3u(20) et D, donnera for- cementuneutiliteaupluségaleacelledeD"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9771955013275146,
+        "bbox_xyxy": [
+          171,
+          429,
+          1079,
+          598
+        ],
+        "text": "Dans le paradoxe d'Ellsberg a trois couleurs, il est probable que le décideur considere que le modele de référence m est tel que m(ER) = m(E<) = m(E,) = 1/3. Nous conservons l'hypothese que le décideur ne considere que les distributions physiquement possibles,donc satisfaisant q(E)=1/3,et notons icil'ensemble de cesdistributions△.Parconsequent,nousobtenons:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9758481383323669,
+        "bbox_xyxy": [
+          171,
+          245,
+          1080,
+          413
+        ],
+        "text": "augmente, le décideur penalise davantage les modeles alternatifs et se focalise de plus en plus sur son modele de référence. Le parametre θ peut étre rapproché d'un multiplicateur deLagrangequi seraitliéaune contrainteimposeesurl'entropie relativemaximalequeledécideur estpreta considerer.D'oulenom depreférences 《amultiplicateur>>."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.975632905960083,
+        "bbox_xyxy": [
+          170,
+          705,
+          1079,
+          959
+        ],
+        "text": "Le membre de gauche de l'inégalité est l'évaluation de D, et celui de droite levaluation de D2. Notons que I'entropie relative est positive et mesure la distance entre qet m. Sachant que mE△, et que m(E)u(20) + 0R(m Il m) = =u(20), 1'inégalité 3 est toujours satisfaite pour m tel que m(ER) = m(E) = m(E,) = 1/3. En suivant des arguments similaires,nous obtenons l'inegalite suivante entreles évaluations de DetD"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9711573719978333,
+        "bbox_xyxy": [
+          171,
+          1065,
+          1079,
+          1233
+        ],
+        "text": "Chateauneuf et Faro (2009) proposent un modele< dual > au modele de préfé- rencesvariationnelles,oul'utilitéesperée associée a chaque distribution deproba- bilitespossibleestcorrigeeenfonction dudegrédeconfiance quel'individului attribue.Ledécideurnefondesadécisionquesurlesdistributionspourlesquelles ilauneconfianceminimale(superieureaunseuily).Lecriterededecisionestici："
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9316654801368713,
+        "bbox_xyxy": [
+          218,
+          976,
+          780,
+          1042
+        ],
+        "text": "2 minge -+q(Ev))×u(20)+0R(g Ilm)]≤ =u(20). 3"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9251590967178345,
+        "bbox_xyxy": [
+          218,
+          1256,
+          485,
+          1327
+        ],
+        "text": "minq:p(q)≥1 一 [U。(D)] p(g)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9180030226707458,
+        "bbox_xyxy": [
+          217,
+          619,
+          701,
+          683
+        ],
+        "text": "u(20) ≥ming∈△, [q(E)u(20)+0R(q ll m)]. 3"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8931359648704529,
+        "bbox_xyxy": [
+          237,
+          178,
+          1076,
+          207
+        ],
+        "text": "LADECSINENAMRITE:MIDELESET 91"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845726490020752,
+        "bbox_xyxy": [
+          173,
+          297,
+          1079,
+          897
+        ],
+        "text": "L'ensemble de ces modeles peut étre unifié dans un modele plus general de préférences avec aversion a l'incertitude (Cerreia-Vioglio et al., 20i1). Ce modele géneral montre le role central de l'axiome d'aversion a l'incertitude propose initia- lement par Schmeidler (1989). Cet axiome implique qu'un décideur indifférent entre deux décisionspréferera toujours combiner ces deux décisions plutot que de prendre une seule des deux décisions.Cet axiome s'interprete aisément dans le cadre de l'exemple a 3 couleurs d'Ellsberg en ajoutant une cinquieme décision D consistant agagner 20$sila bouleestjaune.Dans cecas,ledécideur seraindifférent entre parier sur une boule noire ou sur une boule jaune, c'est-a-dire entre les décisions D, et D. Mais si le décideur a de I'aversion pour I'incertitude, il préférera un mélange des deux décisions (0.5D2+0.5Ds) a chacune des décisions isolées. Cela revient a construire un acte qui donne dans chaque état possible (E, E,) une loterie associant laprobabilité1/2 a chaque conséquencepossibledes deux actes initiaux D, et D5. La raison de cette préférence repose sur la volonté de se protéger deI'incertitudeparlaconstructiond'uneloterie(20,/z;O,1/2).Notonsquecetaxiome estégalementcentralpour relierlemodelemaxmin auxmodeles dépendant du rang et pour generaliser le modele maxmin a la décision en présence de risque (DeanetOrtoleva,2012)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9843714833259583,
+        "bbox_xyxy": [
+          173,
+          1483,
+          1079,
+          1750
+        ],
+        "text": "Sil'onconsiderequel'ensembledecroyancesrefleteuniquementl'information objectivedisponiblesurl'étatdu monde,lecontenu comportemental del'ensemble Cdecroyancesestrelativementfaible.Lesélémentsdel'ensembledecroyances se résument alors a autant de scénarios possibles, énumérés un a un, et construire l'ensembledescroyancesrevient alorsarecensertouslesscenariospossiblescomme autant deprocessusgenerateurs dedonnees,de distributions deprobabiliteq.Afin de prendre en compte les comportements, il est necessaire de completer ces scenarios possiblespar des croyancessurlavraisemblancede chaque scénario.Ainsi,les"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.980413019657135,
+        "bbox_xyxy": [
+          172,
+          915,
+          1079,
+          1315
+        ],
+        "text": "Gajdoset al.(2o08)utilisentlemodelemaxminendefinissantl'ensembledes croyancesCcommel'ensembledesdistributionsdeprobabilitéscompatiblesavec l'information dont disposele décideur.Danscemodele,la regle dedécisionest la combinaisond'unereglemaxmimetdel'esperanced'utiliteévaluéesurunedis- tribution de probabilites de reférence, constituant une sorte de valeur moyenne de l'ensemble des croyances. De ce fait, le modele a comme sous-cas l'utilité esperée, quel quesoitl'ensembledes croyances,contrairement aumodelea-maxmin.L'intéret decemodelereposesurlapossibilitedecomparerdesdécisionslorsquelesstruc- tures d'information objectives disponibles sont tres dissemblables. Dans ce modele, lorsquele décideur a de l'aversiona1égard del'imprécision,il va accorder plus de poids aucriterebayesienfondesurladistribution deréferencequ'aucriterepessi- miste de décision maxmin fondesurl'imprécision inhérente a l'ensemble C."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8934662342071533,
+        "bbox_xyxy": [
+          175,
+          247,
+          615,
+          279
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8729944229125977,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8696494102478027,
+        "bbox_xyxy": [
+          176,
+          1433,
+          610,
+          1465
+        ],
+        "text": "ndordre"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8493048548698425,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7323530912399292,
+        "bbox_xyxy": [
+          175,
+          1366,
+          563,
+          1398
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.983491837978363,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          512
+        ],
+        "text": "distributions de premier ordre, qui sont des scénarios factuels, doivent étre com- pletées par une distribution des croyances portant sur chaque scenario décrit par I'ensemble des croyances. Cette nouvelle distribution, au contenu comportemental, estengeneral denomméedistribution desecond ordre(Marschak,1975).Dans ce type de représentation, la décision est la combinaison de deux étapes : une étape terminaleobjective(lesdistributionsdepremierordre)ousetrouventdifférent scenarios°etuneétapeinitialecontenantdesdistributionsdeprobabilitessurces scenarios(distribution desecond ordre)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9828283190727234,
+        "bbox_xyxy": [
+          173,
+          829,
+          1079,
+          1294
+        ],
+        "text": "Segal(1987)estun des premiersa avoir utilisecetypedemodelea deuxétapes pourexpliquerlecomportementindividuel dansleparadoxed'Ellsberg.1lmontre que sile décideur ne satisfait pas la réduction desloteries composées et se comporte suivant un modele dependant du rang en présence de risque', il est possible d'expli- quer l'aversion a l'ambiguité sans meme avoir recours a aucun modele d'ambiguité. En effet, dans ce cas, le décideur prefere connaitre la probabilité de 1'unique scenario associéa l'urne connue plutot que de connaitre l'ensemble de scénarios del'urne inconnue, bien qu'en esperance les probabilités soient les memes dans les deux urnes. C'est l'aversion du décideur aux loteries a plusieurs étapes qui fait qu'il a de l'aversion pour l'urne inconnue. Ainsi selon Segal (1987),un simple modele de décision nonbayésien en présence derisque suffit a expliquer le phénomene d'aversional'ambiguite:cettederniereestpriseencompteparI'attitudevis-a-vis des distributions de second ordre et tout modele spécifique de décision en ambiguité devientinutile."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9529991149902344,
+        "bbox_xyxy": [
+          174,
+          1402,
+          1078,
+          1467
+        ],
+        "text": "Le modeledeKlibanoff et al.(2005) reposeégalement sur lefait quele décideur possedeunedistributiondesecondordresurseschances.Cettedistributionde"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.926218569278717,
+        "bbox_xyxy": [
+          174,
+          531,
+          1079,
+          695
+        ],
+        "text": "Dans un cadre purement bayésien, cette structure se ramene a une unique distribution de probabilités, du fait de la réduction des loteries composées qui permet de réduire le choix a une situation a une seule étape. Cependant, des lors que la réduction n'est plus satisfaite, des attitudes vis-a-vis de I'ambiguité, autres quelaneutralité,peuvent émerger."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.856288492679596,
+        "bbox_xyxy": [
+          238,
+          179,
+          1073,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8000627160072327,
+        "bbox_xyxy": [
+          174,
+          747,
+          987,
+          811
+        ],
+        "text": "1.3.2L'aversional'ambiguiteetlaviolationdelaréductiondesloteries composees"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7568989396095276,
+        "bbox_xyxy": [
+          176,
+          1350,
+          694,
+          1381
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.612176239490509,
+        "bbox_xyxy": [
+          172,
+          1535,
+          1079,
+          1749
+        ],
+        "text": "6.Les scenarios sontpar exemple toutes les combinaisonspossibles deboules dansI'urne inconnue entre 0et 100:[0 rouge,100noires],[1 rouge,99noires],....[100rouges,0 noire].La distributiondeprobabilitesdesecondordrepeutétreunedistributionuniformesurl'ensembledeces valeurs,unedistributionnormalecentreesur[50rouges,50noires],uneloibetadeparametres donnes...Siledecideur n'apaspleinement confiancedanscesdistributions deprobabilitédesecond ordre,ilestpossibledesupposerunetroisiemeétape,avecdesdistributionsdeprobabilitedetroisieme ordresurlesdistributionsdesecondordreetainsidesuite. 7. Dansuntelmodele,ledecideurtransformelesprobabilites(noncumulatives)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4425643980503082,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.40509334206581116,
+        "bbox_xyxy": [
+          215,
+          1722,
+          982,
+          1748
+        ],
+        "text": "7"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.30295225977897644,
+        "bbox_xyxy": [
+          173,
+          1537,
+          1079,
+          1714
+        ],
+        "text": "6.Les scénarios sont par exemple toutes les combinaisons possibles de boules dans I'urne inconnueentre0et100:[0rouge,100noires],[1rouge,99noires],....[100rouges,0noire].La distributiondeprobabilitésdesecondordrepeutétreunedistributionuniformesurl'ensembledeces valeurs,unedistributionnormalecentreesur[50rouges,50noires],uneloibetadeparametres donnes...Siledecideurn'apaspleinementconfiancedanscesdistributionsdeprobabilitedesecond ordre,ilestpossibledesupposerunetroisiemeétape,avecdesdistributionsdeprobabilitedetroisieme ordresurlesdistributionsdesecondordreetainsidesuite"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9863600134849548,
+        "bbox_xyxy": [
+          172,
+          695,
+          1079,
+          1031
+        ],
+        "text": "Les espérances d'utilitéUq associées aux distributions depremier ordresont ici transformées, distordues de maniere non-linéaire par une fonction Φ(). L'espérance de ces esperances d'utilité transformées est alors évaluée avec la distribution de probabilites μ,représentant l'ambiguitepercue. L'élement essentiel du modele est la fonction de transformationΦ().Cettefonctionreprésentel'attitude du décideur a l'égard de l'ambiguité. Si la fonction Φ() est concave, le décideur met plus de poids sur les faibles utilités esperées, donc sur les mauvais scenarios. Ce pessimisme traduit directement de l'aversion a légard de l'ambiguité. A l'inverse, si la fonction Φ()estconvexe,ledécideur accordeplus d'importance auxniveauxélevés d'utilité esperée, donc aux bons scenarios, et il présente alors du gout pour l'ambiguité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.984835684299469,
+        "bbox_xyxy": [
+          172,
+          1048,
+          1079,
+          1373
+        ],
+        "text": "Afin d'illustrer ce modele, nous reprenons le paradoxe a trois couleurs pour montrer le lien entre aversion a l'ambiguité et forme de la fonction Φ(). Comme précédemment, le décideur ne prend en compte que les distributions physiquement possibles (telles que q(ER) = 1/3) et donc toute distribution q ne satisfaisant pas cette condition severra assigner uneprobabilitéμ(q)=O.Toutesles autres distri- butions q satisfont q(E,) = 2/3 - q(EN) et peuvent donc etre identifiées de maniere unique par q(E)E[0,2/3]. Nous supposons en outre que μ est uniforme sur [0, 2/3]. L'esperance de q s'écrit donc μ(q)q(Ev)=1/3 .Par conséquent, si Φ est concave, par 1'inégalité de Jensen, on obtient* :"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9835286140441895,
+        "bbox_xyxy": [
+          172,
+          245,
+          1080,
+          545
+        ],
+        "text": "second ordrerepresentelescroyances subjectives du décideur.Lescroyances de second ordrerefletent lavisionqueledecideursefaitdel'ambiguiteoudel'infor- mation disponible.Dans ce qui suit,leur distribution est notéeμ et la probabilité qu'un scenarioq soit la vraie distribution de probabilités est notéeμ(q).Dans le modele de Klibanoff et al. (2005), les préférences sont représentées par une double esperance : une premiere esperance d'utilité pour chaque scenario possible, une seconde esperance fondée sur la distribution de second ordre transformant a son tour les esperances d'utilitedes differents scenarios.L'évaluation d'un acte sefait ainsiselon:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9649322032928467,
+        "bbox_xyxy": [
+          172,
+          1490,
+          1080,
+          1591
+        ],
+        "text": "Le premier membre de 1'inégalité correspondant a 1'évaluation de D2 et le second a celle de D, on retrouve donc la préférence pour D,. Par le meme raisonnement etsiΦestconcave："
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9464825987815857,
+        "bbox_xyxy": [
+          172,
+          1644,
+          1080,
+          1750
+        ],
+        "text": "8. On peut noter que, pour obtenir I'espérance d'utilite 1/3u(20), la fonction d'évaluation des actes dansKlibanoff et al.(2005)est souvent donnéeparΦ-1 _μ(q)Φ(q(EN)u(20)) croissante,cetteévaluation compareles actes comme celledonnée dansl'équation(3)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.939934492111206,
+        "bbox_xyxy": [
+          217,
+          1386,
+          629,
+          1467
+        ],
+        "text": "∑μ(q)Φ(q(En)u(20))≤Φ[u(20) gE△"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9254579544067383,
+        "bbox_xyxy": [
+          218,
+          580,
+          419,
+          657
+        ],
+        "text": "∑μ(q)中(U,(D)) qE△"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8983409404754639,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8711480498313904,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8701260089874268,
+        "bbox_xyxy": [
+          1042,
+          596,
+          1076,
+          625
+        ],
+        "text": "3"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9863758683204651,
+        "bbox_xyxy": [
+          172,
+          438,
+          1079,
+          873
+        ],
+        "text": "La force du modele de Klibanoff et al. (2005) est triple. Elle repose tout d'abord surcetteanalogiedirecteentrelafonctionΦ(.)etlafonctiond'utilitéu(.).La fonctiondetransformationrepresentel'aversional'ambiguitecommelafonction d'utilitérepresenteI'aversion au risque,par son degrédeconcavité.Laforce du modelereposeégalementsurl'analogieaveclesmodelesrecursifsd'utiliteesperee. Une fonction Φ() concave correspond a une aversion aux accroissements de variance a moyenne inchangee en termes d'utilite esperee, et donc a une preférence pour la secondeétapesurlapremiereétape.Enfinlaforcedumodelevientdesadifféren- tiabilité, qui autorise des applications apparemment bien plus directes aux modeles économiquestraditionnelsqueles autresmodelesd'ambiguité(Gollier,20l1,pour uneapplicationauxchoixd'actifs).Desmodelesaplusieursétapesontégalement été proposés par Nau (2006),Ergin et Gul (2009) ou Seo (2009). Nous renvoyons lelecteurinteresséaleurexpositiondansMachinaetSinischalchi(2014)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.983124852180481,
+        "bbox_xyxy": [
+          172,
+          972,
+          1080,
+          1171
+        ],
+        "text": "La troisieme grande classe de modeles d'ambiguité est constituée des modeles dépendant du rang. Le modele dépendant du rang en présence d'ambiguité est parfois appelé utilité a la Choquet-CEU pour Choquet expected utility (Schmeidler, 1989, Wakker, 1990).Lorsqu'il integre un traitement different des gains et des pertes,on peut alors parler de prospect theory en presence d'ambiguité (Wakker 201009"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9768840670585632,
+        "bbox_xyxy": [
+          173,
+          1273,
+          1079,
+          1440
+        ],
+        "text": "Comme dans tout modele dépendant du rang, il est nécessaire de spécifier le rangdes conséquences.Noussupposons doncqueles conséquences associéesa une décision sont classees par ordre décroissant de préférence (x, ≥ x,> ... ≥ x,). Dans le modele dependant du rang,lesprobabilites subjectives sont remplacées par des poids de décision . associés a la valeur subjective de chaque conséquence x."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9668617844581604,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1078,
+          1748
+        ],
+        "text": "9. La prospect theory en presence d'ambiguite est plus large que l'utilite esperee a la Choquet et permet d'integrer un traitement different des gains et des pertes, non seulement en termes d'utilité. maisegalemententermesdepoidsdedecision"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9605423808097839,
+        "bbox_xyxy": [
+          173,
+          355,
+          1079,
+          421
+        ],
+        "text": "ce qui prédit une préférence pour D(le membre de droite)par rapport a D,(le membre de gauche), comme dans les exemples d'Ellsberg."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9584576487541199,
+        "bbox_xyxy": [
+          172,
+          1545,
+          1078,
+          1612
+        ],
+        "text": "Afin dedefinirlespoidsdedécision,l'élémentcentralestlanotionderang LerangR.d'uneconsequencex.sedefinitcommel'évenementquiproduitdes"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9318781495094299,
+        "bbox_xyxy": [
+          217,
+          1460,
+          438,
+          1528
+        ],
+        "text": "U(D)= >πu(x;)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9260386228561401,
+        "bbox_xyxy": [
+          218,
+          249,
+          710,
+          335
+        ],
+        "text": "∑μ(q)Φ[[q(EN)+ xu(20) =u(20) 3 2 qE△"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8998461365699768,
+        "bbox_xyxy": [
+          175,
+          1223,
+          481,
+          1255
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8863248229026794,
+        "bbox_xyxy": [
+          237,
+          179,
+          1077,
+          206
+        ],
+        "text": "95"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8839457631111145,
+        "bbox_xyxy": [
+          175,
+          923,
+          573,
+          955
+        ],
+        "text": "147e"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8673256635665894,
+        "bbox_xyxy": [
+          1042,
+          1472,
+          1075,
+          1501
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.40778273344039917,
+        "bbox_xyxy": [
+          1045,
+          180,
+          1076,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9868468642234802,
+        "bbox_xyxy": [
+          172,
+          328,
+          1079,
+          595
+        ],
+        "text": "Danslecadredel'utilitéalaChoquet,lespoidsdedécision associésaune conséquence x, sont generés par une mesure qui n'est pas nécessairement additive Wio. La notion de capacité permet de prendre en compte le fait que l'attention portée a unévenementdependnonseulement des conséquencesdecetévenementmais égalementdelapositionrelativedecesconséquencesparrapportacellesinduites par les autres évenements(Diecidue et Wakker, 2001). Le poids de décision associe a uneconséquencex.sedefinit alorscommelavariation danslafonctiondepon- derationdurang,duealévenement associéacetteconséquence:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9838225245475769,
+        "bbox_xyxy": [
+          172,
+          1374,
+          1079,
+          1574
+        ],
+        "text": "Cetteformulationpermetd'envisagerlaponderationdesévenementscomme le résultat d'un processus ou les probabilités subjectives sont d'abord formées, puis transformées comme si elles étaient des probabilités objectives, pour former les poidsdedécision.Cettereprésentationcorrespondaladistinctionoperéepar Keynes(1921)entrela mesure et le poidsdel'évidence empirique. Les probabilités subjectives ont pour role de mesurer l'évidence empirique. Cependant le poids"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9822995066642761,
+        "bbox_xyxy": [
+          171,
+          832,
+          1078,
+          1032
+        ],
+        "text": "L'utilitéespéréea laChoquetexpliqueles choixdansleparadoxed'Ellsberga trois couleurs de maniere simple. Le choix de la décision D, sur la décision D, revele que W(ER) > W(E), alors que le choix de la décision D4 sur la décision D, révele que W(ER U E,)< W(EB U E,). Si les capacités sont telles que W(ER) = W(ER U E,) =1/3, W(E)= 0 et W(E U E,) = 2 /3 par exemple,il est possible de rationaliser les choixeffectuesparledécideur."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9789156317710876,
+        "bbox_xyxy": [
+          172,
+          682,
+          1079,
+          816
+        ],
+        "text": "Si la capacité W est une mesure additive, alors le poids de décision associé a la conséquence x est πt, = W(E). Chaque poids de décision ne depend alors que de E.etcorrespondalaprobabilitesubjectiveassociéeauxévenementsqetl'utilité a la Choquet correspond a 1'utilité espérée de Savage (1954)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9770153760910034,
+        "bbox_xyxy": [
+          172,
+          1132,
+          1079,
+          1297
+        ],
+        "text": "Un lien utile peut étre établi entre les représentations en presence de risque et d'ambiguité en supposant que la sophistication probabiliste est vérifiée. Dans ce cas,la capacitécorrespond alacompositiond'unetransformationdeprobabilité wet d'une probabilitesubjective\"\". Le poids dedecision se definit alors dela maniere suivante："
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9759896993637085,
+        "bbox_xyxy": [
+          172,
+          1635,
+          1078,
+          1749
+        ],
+        "text": "10.W est une capacité, c'est-a-dire que W(O)=0, W(S)=1 et W est monotone par rapport a l'inclusion des ensembles (si E, E,alors W(E)≥ W(E)) 11.La fonctiondetransformationdeprobabilitésweststrictementcroissantede[o,1]dans [0,1],avecw(0)=0etw(1)=1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.964738667011261,
+        "bbox_xyxy": [
+          171,
+          246,
+          1078,
+          313
+        ],
+        "text": "conséquences strictement meilleures que x. : R, = Ej_1 U...U E,. Pourla consequence derang1,lerangestl'ensemblevideR,="
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9290480613708496,
+        "bbox_xyxy": [
+          218,
+          1313,
+          564,
+          1353
+        ],
+        "text": "a(RUE:))-w(a(R:)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9109763503074646,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          207
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8754861354827881,
+        "bbox_xyxy": [
+          1042,
+          1318,
+          1075,
+          1347
+        ],
+        "text": "6"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8752844333648682,
+        "bbox_xyxy": [
+          1042,
+          627,
+          1076,
+          656
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8749716877937317,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8713197112083435,
+        "bbox_xyxy": [
+          218,
+          623,
+          502,
+          659
+        ],
+        "text": "=W(R.UE.)-W(R.)"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.5864700078964233,
+        "bbox_xyxy": [
+          175,
+          1083,
+          1048,
+          1115
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.45177534222602844,
+        "bbox_xyxy": [
+          175,
+          1083,
+          1048,
+          1115
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9842602610588074,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          680
+        ],
+        "text": "accordéacettemesurepeutdifférerselonlaquantited'informationsurlaquelle est fondée cette mesure. La formulation presentée par l'équation (6), bien que séduisante,a cependant deuxinconvenients.D'unepart,ellenecessiteune mesure deprobabiliteqquiclasselesévenementsdelamememanierequeW(Chateauneuf 1985). D'autre part, cette formulation ne permet pas d'expliquer le paradoxe d'Ellsberg, car elle suppose la sophistication probabiliste. Cette représentation peut toutefoisétreadapteepourinclurelescomportementsfaceal'ambiguiteetla fonction w est utile, notamment face a différentes sources d'incertitude,pour identifierl'influencedelasourced'incertitudesurl'attitudedudecideur(Abdellaoui et al.,2011). Dans ce cadre,le décideur forme une probabilité subjective pour chaquesourced'incertitudedansunepremiereétapepuisletransformeal'aide d'unefonctiondetransformationdependantedechaquesourced'incertitudedans unesecondeétape."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.984001636505127,
+        "bbox_xyxy": [
+          173,
+          696,
+          1078,
+          1029
+        ],
+        "text": "Si la complexité du modele peut constituer un frein a son application dans les modeleséconomiques,lacapacitédemesurersimplementl'attitudedudécideur face au risqueet al'ambiguitéconstitueundesprincipaux attraits desmodeles dependant du rang. Contrairement aux deux autres grandes categories de modeles quireposentsur desélementsdifficilementquantifiablessanshypothesessupplé- mentaires (ensemble de croyances, distributions de second ordre...), les modeles dependant du rangpermettentdemesurer despoidsdedécisiona l'aidedechoix simpleset devariationsexogenes del'environnementde choix12.Par ailleurs,ces modeles résolvent a la fois les paradoxes d'Allais et d'Ellsberg dans un cadre d'analyseunifie."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9821926951408386,
+        "bbox_xyxy": [
+          173,
+          1130,
+          1079,
+          1393
+        ],
+        "text": "Au-deladestroisgrandesclassesdemodelespresentesci-dessus,denombreux autres modeles ont été développés pour prendre en compte l'attitude a l'égard de l'ambiguité.Lavastelitteratureexistantsurcesujetrendillusoiretoutevolonte d'exhaustivite.Pourmemoire,larevuedelitteraturedeMachinaetSiniscalchi (2014)recensepas moins de12 typesdemodeles differents.Danscet article,a titreillustratif,nouspresentonsrapidementdeuxmodelesd'ambiguitequinous semblentparticulierementattrayants:lemodelevectorieletlespreférences unanimes."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8871588110923767,
+        "bbox_xyxy": [
+          172,
+          1571,
+          1079,
+          1748
+        ],
+        "text": "12.Abdellaouietal.(2005)etKilkaetWeber(2001)mesurentlespoidsdedécision dansles modelesdependant duranga l'aided'équivalents certains.Par exemple,lequivalent certainz d'une décisionD=($20,E;$0E),ouE désignel'évolution d'un actiffinancier,et E sonévenement complé- mentaire,permetd'infererlepoidsdedecisionassocieal'évenementE.Enfixantl'utilitédeO$a0 etcellede20$a1,1'indifferenceentreéquivalentcertainzetl'acteDimplique:W(E)=u(z).En determinantl'utilitedel'équivalentcertain,onobtientainsidirectementlepoidsdedecisionassocie aT'evenementE."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8736709952354431,
+        "bbox_xyxy": [
+          176,
+          1080,
+          389,
+          1111
+        ],
+        "text": "5Autresmodeles"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8537698984146118,
+        "bbox_xyxy": [
+          238,
+          179,
+          1075,
+          206
+        ],
+        "text": "9"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7134875655174255,
+        "bbox_xyxy": [
+          173,
+          1571,
+          1080,
+          1748
+        ],
+        "text": "12.Abdellaouietal.(2005)etKilkaetWeber(2001)mesurentlespoids dedécisiondansles modeles dependant du rang a l'aide d'equivalents certains.Par exemple,l'équivalentcertainz d'une décisionD=($20,E;$0E),ouE désignel'évolution d'un actiffinancier,et E sonévenement complé- mentaire,permetd'infererlepoidsdedecisionassocieal'évenementE.Enfixantl'utilitédeO$a0 etcellede20$a1,1'indifferenceentreéquivalentcertainzetl'acteDimplique:W(E)=u(z).En determinantl'utilitedel'équivalentcertain,onobtientainsidirectementlepoidsdedecisionassocie al'evenementE."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4228583574295044,
+        "bbox_xyxy": [
+          1045,
+          180,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.983661949634552,
+        "bbox_xyxy": [
+          173,
+          1097,
+          1079,
+          1596
+        ],
+        "text": "Les preférences unanimes sont un cas tres particulier d'étude des preférences en presence d'incertitude proposepar Bewley (2002).Dans ce modele,etcontrai- rementauxmodelesprecédents,certainesdecisionsnesonttoutsimplementpas comparables. Cette représentation des preférences incompletes en présence d'incer- titude se fonde sur un ensemble de croyances C. Dans ce modele, pour qu'une décisionsoitprise,ilestnécessairequ'ellelesoitnonpasparcequ'elleassurele niveau minimal d'utilité espérée,comme dans le modele maxmin,mais parce que touteslescroyancespossiblesdansI'ensembleC's'accordentsurlefaitquecette décisionestlameilleure(regled'unanimite).Dufaitdelaregled'unanimité,ilest dansdenombreuxcasimpossibledepredireladecision.Parexempledansle paradoxe a trois couleurs, si le décideur considere les distributions physiquement possibles, il ne peut pas classer D, et D,. Sur une partie de l'ensemble des croyances (celles pour lesquelles q(E) > 1/3), la décision serait en faveur de D, mais sur lautre partie de l'ensemble des croyances (celles pour lesquelles q(E<) < 1/3), la decisionseraitenfaveurdeD..ln'yadoncpasunanimitepossiblesurcetensemble"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9825168251991272,
+        "bbox_xyxy": [
+          172,
+          296,
+          1079,
+          997
+        ],
+        "text": "Le modele vectoriel de Siniscalchi (2009) suppose que le décideur ancre son évaluation de l'incertitude sur une évaluation de type utilité espérée, correspondant a I'équation (1), a partir d'une distribution de probabilités de base. Puis, son éva- luation fait l'objet d'un ajustement reflétant la perception que le décideur a de l'ambiguité ainsi que son attitude face a l'ambiguité. L'ajustement réalise par le décideur sefait enfonction del'expositional'ambiguitéet delavariabilitéde l'ambiguité. Le critere de décision se fonde donc sur un critere d'utilité esperé associé a la distribution de base auquel s'ajoute un ajustement, fonction de la covariance entre cetteutilité et l'expositional'ambiguitédans chaquesource d'incertitude. L'interet du modele de Siniscalchi (2009) est double. D'une part, le modelereposesurune analogie aveclesmodelesdeprixdesactifs:l'evaluation est fonction d'un terme de référence (une esperance d'utilité) auquel s'ajoute un terme de covariance (d'utilité)'3. D'autre part, le modele prend en compte explici- tement la notion d'exposition a l'ambiguité. Par exemple, dans le paradoxe a trois couleurs, I'exposition a I'ambiguité des décisions D, ou D est nulle, mais elle n'a pas pour autant la meme origine. Dans le cas de D,, l'exposition a l'ambiguité est nulle par définition et il n'y a pas de variabilité possible de l'utilité esperée. Dans le cas de D, l'exposition a l'ambiguité est nulle car les variabilités possibles dans l'utilité esperee s'annulent l'une l'autre. Autrement dit, la complementarite entre les deux sources d'ambiguité E, et E se traduit par une covariance nulle, qui attire ledécideur."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9579777717590332,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1078,
+          1748
+        ],
+        "text": "fondées sur un terme de moyenne (d'espérance) et sur un terme prenant en compte une mesure de l'aversionauxdispersionsdel'utilite."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8963142037391663,
+        "bbox_xyxy": [
+          175,
+          1047,
+          527,
+          1079
+        ],
+        "text": "iunanimes"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8771013617515564,
+        "bbox_xyxy": [
+          176,
+          246,
+          459,
+          278
+        ],
+        "text": "vectorie"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8447801470756531,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.838648796081543,
+        "bbox_xyxy": [
+          173,
+          180,
+          204,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "stem": "page_0019",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9845427870750427,
+        "bbox_xyxy": [
+          172,
+          862,
+          1079,
+          1362
+        ],
+        "text": "Dansl'experience deBeckeret Brownson(1964),lesparticipants étaient d'abord confrontes auparadoxeadeuxcouleurs original,puisa 10choixentredesurnes présentant un degré d'ambiguitevariable (c'est-a-dire contenant un nombre de boules rouges compris entre 0 et 100,40 et 60, 25 et 75,15 et 85 et,bien sur égal a 50).Lesparticipantsdevaientégalement donnerleurpropensionapayerpour obtenirleur urnepréféreepour chacun des1ochoix.Lesresultatsmontrentque 44%dessujets\"avaientdel'aversionalégarddeI'ambiguitéetquecesderniers étaient prets a payer une prime de l'ordre de 70 % de l'espérance de la loterie pour éviter l'urne totalement ambigue. Les résultats suggerent également que la prime d'ambiguité déclinelorsquele degré d'ambiguite diminuejusqu'a 30 % environ pouréviterl'urneavecunnombredeboulesrougescomprisesentre40et60). MacCrimmonet Larsson (1979),CurleyetYates (1985)ouKahnetSarin (1988) ont confirmé ces résultats. Dans les situations de pertes, le phenomene semble s'inverser. Les individus y ont moins d'aversion a légard de l'ambiguité lorsque le degréd'ambiguitéaugmente(CurleyetYates,1985;HogarthetEinhorn,1990)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9793004393577576,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          445
+        ],
+        "text": "de croyancesl4 et le décideur ne peut prendre une décision. Il peut étre alors néces- saire de completer le modele par des hypotheses additionnelles spécifiant le comportementdu décideurlorsquelaregled'unanimiteIempechedeprendreune décision. Une telle hypothese spécifie par exemple que le décideur a tendance a choisir l'inertie tant que ses croyances ne sont pas unanimes sur la possibilité de setournerversunedécisionplusavantageuse."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9743905067443848,
+        "bbox_xyxy": [
+          173,
+          680,
+          1079,
+          844
+        ],
+        "text": "Fellner (1961) et Becker et Brownson (1964) font partie des premiers a présenter des résultats concernant l'aversion a l'ambiguité dans le cadre propose par Ellsberg. Obtenusaupresd'étudiants,leursrésultatsconfirmentl'existenced'uneaversiona l'ambiguité mesurée sur de simples choix binaires dans le paradoxe a deux couleursl5"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8930292725563049,
+        "bbox_xyxy": [
+          172,
+          1502,
+          1079,
+          1748
+        ],
+        "text": "14. Le meme argument s'appliquepour le choixentreD3et D4. 15. Demanieretraditionnelle,laplupart desexperiencesévoqueesdans cet article ontétemenées aupresdepopulationsd'étudiants.Lechoixd'unautrepublicnemodifiepassensiblementlesresultats obtenus:desexperiencesulterieuresontmontrequel'aversional'ambiguiteétaitpresenteégalement chezdespublics aussidiversqueles actuaires(Cabantous,2007;Dupont-Courtade,2013),lesemployes de compagniesd'assurance(Kunreutheretal.,1995)oulesproprietairesfonciers(Brunetteetal.,2009)) 16.Oechssleret Roomets (2014) passent en revue 40 études portant sur la décision en presence d'ambiguiteetaboutissentauneconclusionsimilaire:environlamoitiedesparticipantsauraientde l'aversional'égarddel'ambiguitesurlaglobalitedesétudes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8927307724952698,
+        "bbox_xyxy": [
+          174,
+          562,
+          755,
+          594
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8828012347221375,
+        "bbox_xyxy": [
+          173,
+          496,
+          1032,
+          527
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8655632734298706,
+        "bbox_xyxy": [
+          238,
+          179,
+          1073,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7975211143493652,
+        "bbox_xyxy": [
+          174,
+          629,
+          732,
+          661
+        ],
+        "text": "77964"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.431768000125885,
+        "bbox_xyxy": [
+          1045,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "stem": "page_0020",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.985246479511261,
+        "bbox_xyxy": [
+          173,
+          1182,
+          1079,
+          1751
+        ],
+        "text": "Les résultats obtenus dans le paradoxe a deux couleurs sont cependant soumis adesquestionsportantsurlavaliditeinternedesexperiencesrepliquantl'exemple d'Ellsberg. En effet, il est possible que le protocole meme de l'expérience d'Ellsberg génere le phénomene d'aversion a l'ambiguité. Fox et Tversky (1995) posent expli- citement cette question, a savoir : l'aversion a l'ambiguité est-elle un phenomene spécifique aux paradoxes d'Ellsberg ou s'agit-il d'un phenomene plus general? Afin de répondre a cette question, Fox et Tversky (1995) construisent une série d'experiences fondées sur les exemples d'Ellsberg et au fil desquelles l'information concernantlesurnesestpresenteedemanieredifferente(tantotseparee,tantot conjointe). Lorsqueles individus doivent évaluer les urnes connue et inconnue de maniere isolée, il n'y a pas de différence significative entre les évaluations faites dans les deux cas par les différents participants. Au contraire, en presence des deux urnes, l'évaluation de l'urne connue augmente significativement, signalant sa forte attractivité. Ainsi, le phénomene d'aversion a l'ambiguite dans le paradoxe d'Ellsberg serait principalement lié au contraste informationnel entreles deux urnes, qui ferait ressortirl'absenced'informationdudécideurquantaucontenudel'urneinconnue etlepousseraitasurevaluerl'informationdisponibledansl'urneconnue.Foxet"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845974445343018,
+        "bbox_xyxy": [
+          173,
+          297,
+          1079,
+          731
+        ],
+        "text": "La littérature expérimentale a également montré que les individus avaient de l'aversion a légard de l'ambiguité dans le paradoxe d'Ellsberg a trois couleurs, et ce, dans des proportions encore plus importantes que celles observées dans le cas du paradoxe a deuxcouleurs.Ainsi,Slovic et Tversky(1974)ou Curleyet al.(1986) obtiennentdesproportionsdechoixavecaversional'ambiguitedel'ordrede80%. Ces proportions demeurent les memes lorsque les principes gouvernant la théorie de l'utilité esperée sont prealablement clairement indiques aux participants. L'aversion a l'ambiguite demeure également quand le degré d'ambiguite diminue, par exemple quand des tirages successifs sont effectues au sein de l'urne inconnue (Gigliotti et Sopher,1992).11 convientdenoter queMacCrimmon et Larsson(1979),en faisant varierlenombredeboulesrouges dansl'urne,montrent quel'aversional'ambiguite est particulierement forte lorsque la proportion est égale a 1/3, ce qui correspond exactemental'exempled'Ellsberg."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9845784902572632,
+        "bbox_xyxy": [
+          173,
+          748,
+          1078,
+          1081
+        ],
+        "text": "En comparant des équivalents certains determinés sur des urnes connues et des urnesinconnues,Cohen et al.(1987) montrent quelesparticipants ont nettement plusd'aversionalégarddel'ambiguitédanslesgains(59%desparticipants)que dans les pertes (25 % des participants). Il apparait également dans cette étude que l'aversional'ambiguiteestpeucorreléeal'aversionaurisqueauniveauindividuel, un résultat confirmé depuis par de nombreuses études experimentales. Tentant de mettre enrelationle comportementdesparticipants dansleparadoxea deuxcouleurs et le fait qu'ils se conforment ou non a la réduction des loteries composées, Halevy (20o7)montre quelesindividusqui satisfontcet axiomesontengeneralneutres vis-a-visdel'ambiguite"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8664994239807129,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8551893830299377,
+        "bbox_xyxy": [
+          176,
+          180,
+          219,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8297520279884338,
+        "bbox_xyxy": [
+          174,
+          1132,
+          607,
+          1164
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8079652786254883,
+        "bbox_xyxy": [
+          174,
+          246,
+          858,
+          279
+        ],
+        "text": "12.variafon d'Ellsbers"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.3003930151462555,
+        "bbox_xyxy": [
+          174,
+          1132,
+          607,
+          1164
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "stem": "page_0021",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9837239980697632,
+        "bbox_xyxy": [
+          173,
+          579,
+          1079,
+          1280
+        ],
+        "text": "Abdellaoui et al. (2011) analysent le choix dans le paradoxe d'Ellsberg a deux couleurs comme un choix entre deux sources d'incertitude et proposent une methode de mesure des attitudes vis-a-vis de l'ambiguite dans ce cadre. Cette methode reposeenparticuliersurl'utilisationdefonctions<sources>quitransformentles probabilités, objectives ou subjectives, en poids de décision. Chaque type d'ambi- guité, appelée source d'incertitude, est caractérise par une fonction source propre. Lesfonctionssourcessaisissentlesattitudesvis-a-visdel'incertitudeetpeuvent etre résumées par deux indices. Le premierindice résume le degré de pessimisme d'un agent. Cet indice traduit la tendance globale a sous-ponderer toute probabilité d'un évenement favorable. Un pessimisme plus important face a l'incertitude que face aurisquetraduiradel'aversional'ambiguité.Cetélementpeutétrevucomme un facteur d'attractivité : 1'incertitude attire moins que le risque. Le second indice représentele degréd'insensibilite auxvariations devraisemblancel7.Cetélément peut étre vu comme un facteur cognitif : il peut étre plus difficile de réaliser des évaluations en maniant des probabilités subjectives qu'en maniant des probabilités objectives.Lesresultatsexperimentauxobtenusdanscecadremontrentqueles individussontplusinsensibles auxvariationsdevraisemblanceenpresenced'incer- titude (l'urne inconnue)qu'enpresence de risque (l'urne connue).Les résultats montrent également un optimisme plus grand pour les sources proches ou familieres d'incertitude (par exemple la temperature locale) que pour les sources plus lointaines (parexemplelatemperaturedansunpaysétranger)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9810090065002441,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          478
+        ],
+        "text": "Tversky (1995)montrent que le meme phenomene se produit dans le paradoxe a trois couleurs:l'evaluationdeladécisionDdependfortementdelapossibilitéde la comparer avecladécision D.Chowet Sarin(2001)montrent cependantque,si l'aversion al'ambiguiteest réduite dansles situations non comparatives,elle demeure neanmoinspresente,notammentauniveauindividuel.Si1'aversiona1'ambiguite est sensible au contraste avecles situations d'incertitude,elle semble donc persister commephenomeneautonome."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.958360493183136,
+        "bbox_xyxy": [
+          174,
+          1580,
+          1078,
+          1644
+        ],
+        "text": "L'experience d'Halevy (2007) suggere que deux tiers des participants ont un comportementcompatiblea avecunmodeleadeuxétapes(dontuntiersavecle"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.899085283279419,
+        "bbox_xyxy": [
+          174,
+          1381,
+          1078,
+          1479
+        ],
+        "text": "Aucoursdesdernieresannées,uncertainnombredetravauxonttentéde determinerquelmodeled'ambiguitéétaitlemeilleurpourreprésenterlescompor tementsindividuels,sanspour autantqu'un consensusclairnesedegage"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8573925495147705,
+        "bbox_xyxy": [
+          170,
+          1696,
+          1054,
+          1748
+        ],
+        "text": "vraisemblance."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.849230170249939,
+        "bbox_xyxy": [
+          174,
+          1330,
+          597,
+          1361
+        ],
+        "text": "lanhiouufe"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8318831324577332,
+        "bbox_xyxy": [
+          238,
+          179,
+          1075,
+          206
+        ],
+        "text": "ADECISIONENAMBIGUITE:MODELESETEVALIIATONSEXPERIMENTALES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8201853632926941,
+        "bbox_xyxy": [
+          176,
+          1530,
+          834,
+          1561
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7921962141990662,
+        "bbox_xyxy": [
+          175,
+          529,
+          753,
+          561
+        ],
+        "text": "HIS"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.36619916558265686,
+        "bbox_xyxy": [
+          174,
+          1381,
+          1078,
+          1479
+        ],
+        "text": "Aucoursdesdernieresannées,uncertainnombredetravauxonttentéde determinerquelmodeled'ambiguitéétaitlemeilleurpourreprésenterlescompor tementsindividuels,sanspour autantqu'un consensusclairnesedegage"
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "stem": "page_0022",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9843517541885376,
+        "bbox_xyxy": [
+          172,
+          697,
+          1079,
+          1400
+        ],
+        "text": "Epstein (20i0) a proposé un ensemble de choix simples pouvant mettre en difficulté le modele de Klibanoff et al. (2005). Cubitt et al. (2012) ont implanté dans un cadre expérimental les choix proposés par Epstein. Pour les sujets ayant de l'aversion a l'ambiguité, les résultats vont dans le sens du modele de Klibanoff et al. (2005), mais pour la majorité des participants, I'experience ne permet pas de discriminerentrelesmodelesd'ambiguiteetlemodeled'utiliteesperee.Ahnet al.(2014)obtiennentdesresultatssimilairesenutilisantdeschoixdeportefeuille experimentaux.Onutiliseleschoixpourestimer deuxgrandescategoriesde modeles : d'une part, les modeles qui conduisent a des courbes d'indifférences 《 lisses >(ce qui correspond a la théorie de l'utilité espérée ou au modele de Klibanof et al., 2005) et ceux qui présentent des courbes d'indifférence avec un coin.Cette dernierecategorierecouvrelesmodeles de typemaxmin et d'utilité dépendante du rang (pour une description, voir Cohen et Tallon, 200o). Les résultats d'Ahn et al. (2014) montrent que pour environ 60 % des sujets, le comportement reste compatible avec la théorie de l'utilité esperée. Les modeles d'ambiguité ne sont donc apparemment que d'un interet limité pour une majorité d'individus. Cependant dans cette experience, il est difficile de separer clairement les individus qui suivent un modele d'utilité de ceux qui ont un comportement compatible avec unmodele de typeKlibanoff et al.(2005).Pourles 40%d'individusrestants,il apparait que les modeles de type Klibanoff et al.(2005) ne sont pas les plus appropriéspour representer l'attitudeal'égard del'ambiguité"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9837619662284851,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          681
+        ],
+        "text": "modele dependant du rang de Segal.1987 et un tiers avec un modele de type Klibanoff et al., 2005). Seuls 19 % des participants ont un comportement compatible aveclemodeled'utilitéesperee.ConteetHey(20l3)utilisentdeschoixentredes loteries a deuxétapes et aboutissent a desrésultats similaires.Dans cette experience, lesloteriesdelasecondeétape(lesscenariospossibles)sontprogressivement eliminees dans les choix proposes aux sujets. Les résultats suggerent qu'environ lamoitiedesparticipantsseconformentaumodeledeKlibanoffetal.(2005),un quart au modele d'utilité esperée et environ 20 % au modele dependant du rang. Cubitt et al. (2012) determinent les équivalents certains correspondant a des loteries a deuxétapesafind'estimerlesparametresdumodeledeKlibanoffetal.(2005) et d'éliciter les primes d'ambiguite correspondantes au niveau individuel. Les primes d'ambiguitesont égales a 7 %dela valeur esperée et sont comparables aux primesderisque(del'ordrede11%)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9836726784706116,
+        "bbox_xyxy": [
+          173,
+          1415,
+          1078,
+          1751
+        ],
+        "text": "Hey et al. (2010) s'intéressent au pouvoir prédictif des modeles d'ambiguité a partir d'un ensembledechoixbinairesentre des actes a trois consequences.Les modeles considéréssont entre autreslesmodelesa croyancesmultiplesetles modeles dependant du rang.Lesmodeles a plusieursétapesne sontpasconsideres. Les résultats suggerent que les modeles d'ambiguite sont globalement peu satis- faisants pour rendre compte des comportements et que des représentations du choix fondéessurdesheuristiquesobtiennentdemeilleuresperformancesdescriptives. Cependant,reprenant les données de Hey et al.(20io) et en les analysant al'aide de la méthodeproposéeparAbdellaoui et al.(2011),Kothiyalet al.(2014)obtiennent des conditions plus favorables aux modeles dependant du rang et a ceux a croyances"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8801474571228027,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8528486490249634,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "stem": "page_0023",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.982399046421051,
+        "bbox_xyxy": [
+          173,
+          246,
+          1078,
+          612
+        ],
+        "text": "multiples.Hayashi et Wada (201o) montrent les difficultés empiriques du modele a croyances multiples et du modele a-maxmin en montrant que les individus ne se focalisentpas uniquement sur les croyances produisantles utilites maximales et minimales,maisprennent également en comptelescroyancesgenerant des niveaux intermédiaires d'utilité. Yang et Yao (2014) proposent une experience dans laquelle le décideur tire plusieurs fois avec remise dans des urnes a la Ellsberg, genérant des accroissements devariancea moyenne constante.Les resultats sont compatibles avec un modele dependant du rangmais non avec unmodele a croyances multiples ou avec le modele deKlibanoff et al. (2005).Des résultats similaires sont également obtenuspar Chewet al.(20i3),quimontrent queleurs donnéesexperimentales ne sontpas compatibles avec le modele deSiniscalchi(2009)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8585392832756042,
+        "bbox_xyxy": [
+          238,
+          180,
+          1076,
+          206
+        ],
+        "text": "LADECISIONENAMBIGUIITE:MODELESETEVALIIATIONSEXPERIMENTALES"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.31523066759109497,
+        "bbox_xyxy": [
+          1035,
+          180,
+          1075,
+          204
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "stem": "page_0024",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9834323525428772,
+        "bbox_xyxy": [
+          169,
+          354,
+          1079,
+          1179
+        ],
+        "text": "Etude experimentale Compatible avec Incompatible avec Halevy (2007) CEU, KMM a-maxmim Ahn et al.(2014) SEU, CEU, maxmin Hayashi etWada contractionmodel SEU,maxmin, (2010) a-maxmin Hey et al.(2010) maxmin,SEU,decision CEU,prospect theory fieldtheory L'HaridonetPlacido VEU SEU,CEU,KMM, (2010) maxmin,a-maxmim Abdellaoui et al. CEU (2011) Cubitt et al. (2012) KMM, SEU BaillonetBleichrodt PT SEU, KMM,maxmin, (2015) a-maxmim,VEU Conte et Hey (2013) KMM α-maxmim Chew et al. (2013) CEU SEU,KMM,maxmin, a-maxmin,VEU Abdellaoui et al. CEU, maxmin,a-maxmim, SEU, KMM (2014) VEU Kothiyal et al. (2014) prospecttheory,maxmin, SEU,CEU α-maxmim Yang et Yao (2014) CEU SEU,KMM,maxmin, a-maxmin"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9761852622032166,
+        "bbox_xyxy": [
+          173,
+          1295,
+          1079,
+          1597
+        ],
+        "text": "Machina(2009) a soulevéla possibilitéquel'utilité a la Choquetet les modeles a dependance derangsoientinvalidespar des exemples construits dansun esprit similaire a celui d'Ellsberg'8. Le principe de la remise en cause de la dependance du rang proposée par Machina (2009) apparait dans son exemple dit de la 《réflexion>.Cetexemplemodifieleparadoxed'Ellsberg a troiscouleurs en l'étendant auxsituations ouil y a aumoinstrois conséquences.L'Haridonet Placido (2010) confirment la validité empirique du paradoxe d'Ellsberg ainsi modifié. Baillon et al. (20i1) montrent que ces exemples conduisent non seulement a la violation des modeles dépendant du rang,mais également a celle des modeles a"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9542854428291321,
+        "bbox_xyxy": [
+          172,
+          1672,
+          1078,
+          1748
+        ],
+        "text": "de la chose sure,ceux proposés par Machina (2009) remettent en cause la version affaiblie de I'axiome"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.8905213475227356,
+        "bbox_xyxy": [
+          171,
+          1197,
+          1077,
+          1251
+        ],
+        "text": "NorE:KMMcorrespondaKlibanoffetal.(2005),SEUcorrespondalathéoriedel'utilitéesperée CEUcorrespondal'utilitéalaChoquet,VEUcorrespondaumodeledeSiniscalchi(2009)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8397546410560608,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8284386992454529,
+        "bbox_xyxy": [
+          480,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6169006824493408,
+        "bbox_xyxy": [
+          428,
+          298,
+          821,
+          328
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.4963686168193817,
+        "bbox_xyxy": [
+          569,
+          247,
+          723,
+          278
+        ],
+        "text": "TABLEAU?"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "stem": "page_0025",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9814733862876892,
+        "bbox_xyxy": [
+          172,
+          512,
+          1079,
+          1380
+        ],
+        "text": "L'ensemble des études que nous venons de présenter montrent une grande heterogeneite au sein de la litterature, a la fois dans les methodes mais également dans les résultats obtenus concernant les modeles d'ambiguité. Concernant les methodesexperimentales,cesétudesutilisenttoutesdesmanipulationsexperimen- tales plus ou moins sophistiquées pour représenter des urnes inconnues a la Ellsberg. Selon la spécification du protocole expérimental, 1'accent est mis sur tel ou tel modele d'ambiguité, ne permettant pas de réelle vision d'ensemble de la performance relativedechacundesmodeles.Concernantlesresultats,cesétudesobtiennentdes résultatsdiametralementopposesconcernantlepouvoirexplicatifdelatheoriede l'utilité esperée, des modeles dependant du rang ou du modele deKlibanoff et al. (2005).Cette diversitepeutsembler insatisfaisante.Baillon et Bleichrodt(2015) presentent un cadre experimental se demarquant explicitement du cadre habituel (consistant a utiliser des urnes a la Ellsberg)en utilisant l'incertitude liée a un évenementréel(1'evolutiond'unindicedemarche).Parailleurs,lesauteursse focalisent avant tout sur le fondement des paradoxes d'Ellsberg, a savoir la sophis- tication probabiliste, afin d'évaluer les différents modeles en regard de cet élément fondamental. Cette strategie permet en outre de mobiliser un protocole experimental simple reposant sur lélicitation de probabilités équivalentes19. Baillon et Bleichrodt (2015) montrent en quoi le type deviolation de la sophistication probabiliste révelé parceschoixpermetd'inférerdel'informationsurlavaliditedescriptivedesmodeles d'ambiguité. Les résultats indiquent que la sophistication probabiliste est clairement violée, tant dans les gains que dans les pertes, mais selon des modalités différentes. Unestructure enquatre parties,similairea celle observéeparKahneman et Tversky (1979) en présence de risque, apparait : gout pour l'ambiguité face a des gains peu vraisemblables et a des pertes vraisemblables, aversion a l'ambiguitéface a des gainsvraisemblables et a des pertespeu vraisemblables."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9773766994476318,
+        "bbox_xyxy": [
+          173,
+          1397,
+          1079,
+          1595
+        ],
+        "text": "Du fait de la dépendance au signe, la prospect theory apparait ici bien placée pour expliquerles resultats obtenus.De manieregenerale,lesmodeles qui autorisent unelargevarieted'attitudesvis-a-visdel'ambiguitesontmieuxpourexpliquer lescomportementsobservésenlaboratoire,cequiestlecaspourlesmodeles dépendant du rang et le modele a-maxmin. A l'inverse, les données sont diffici- lementcompatiblesaveclesmodelesquiprédisent1'uniformitédesattitudes"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9727585911750793,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          412
+        ],
+        "text": "croyances multiples et des modeles a plusieurs étapes. Ces résultats montrent qu'aucundesmodelespharesnepermetderendrecomptedescomportementsdans l'exemplede la réflexion.Des modelesplusgeneraux,comme le modele de Siniscalchi (2009) qui integre la perception de lambiguite par la prise en compte decomplementaritésentreévenements,permettentcependantdelefaire."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9587849378585815,
+        "bbox_xyxy": [
+          172,
+          1671,
+          1078,
+          1748
+        ],
+        "text": "19. L'élicitation, ou encodage, de probabilités équivalentes consiste a determiner la probabilité objectivequirendledecideurindifferententreuneloteriefondeesurcesprobabilitesetunactefonde surunevenementsimple"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8544416427612305,
+        "bbox_xyxy": [
+          238,
+          179,
+          1078,
+          206
+        ],
+        "text": "ADECISIONENAMBIGUITE:MODELESETEVALIIATONSEXPERIMENTALES"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.7954187393188477,
+        "bbox_xyxy": [
+          174,
+          463,
+          908,
+          494
+        ],
+        "text": "resultat:"
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "stem": "page_0026",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9826937317848206,
+        "bbox_xyxy": [
+          172,
+          614,
+          1079,
+          1354
+        ],
+        "text": "Dans cet article, nous avons présenté les principaux modeles d'ambiguité qui ont étéproposés dans le but de pallierles difficultés descriptives dela théorie de l'utiliteesperée.Laplupartdecesmodelesontétéconstruitsenréaction aux paradoxes d'Ellsberg. Comme nous l'avons vu, les tentatives pour modifier la théorie de l'utilité esperée sont allées dans de multiples directions et font encore l'objet de debats. En ce sens, les modeles d'ambiguité ne présentent pas l'aspect de théorie unifiée qui fait toujours laforce dela théorie del'utilité esperée. Au mieux. ils permettent de disposer d'une palette de representations permettant d'amender le modele standard par la prise en compte d'une confiance limitée du décideur danssescroyances.LesdebatssurI'interetrespectif decesmodelesportentnon seulement sur l'intéret de telle ou telle representation des preferences mais également sur les fondements de ces préférences. En particulier, la place centrale de l'axiome d'aversionaT'égarddeI'incertitudedansdenombreusesaxiomatiquesdeladecision en presence d'ambiguité reste sujette a débat, de meme que les hypotheses sous- jacentes au modele<lisse > d'ambiguité.Au niveau empirique,nous avons vu que les tests des modeles d'ambiguité ne permettent pas, dans I'état actuel de la litterature, de disposer d'une vision claire du modele qui serait pertinent pour rendre compte des comportements observésenlaboratoireet afortiori des comportements observés dans la réalité.Il serait crucial de savoir si certains modeles sont plus adaptés a certaines situations (finance,organisations,jeux, comportements de prospection) qu'a d'autres. Ces éléments ouvrent la voie a autant de perspectives de recherche futuresurlesmodelesd'ambiguité."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9806877374649048,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          515
+        ],
+        "text": "vis-a-vis del'ambiguite,asavoirlesmodelesmaxminet depréférencesvariatio- nelles,lemodeledeKlibanoffetal.(2005)avecfonctiondetransformationconcave ou convexe et lemodeledeSiniscalchi (2o09).Danslememe ordre d'idées, Abdellaoui et al. (2014) mesurent les croyances individuelles concernant deux sourcesnaturellesd'incertitude,unetemperaturefuturelocaleetétrangere,et concluent que les modeles d'utilité récursive présentent de moins bonnes perfor mances descriptives que les modeles concurrents, modeles dependant du rang ou modelesacroyancesmultiples."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8889007568359375,
+        "bbox_xyxy": [
+          516,
+          1419,
+          734,
+          1451
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8736732006072998,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTUIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8477683067321777,
+        "bbox_xyxy": [
+          176,
+          180,
+          218,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8254446983337402,
+        "bbox_xyxy": [
+          174,
+          566,
+          307,
+          596
+        ],
+        "text": "CONCLUSION"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6440320014953613,
+        "bbox_xyxy": [
+          172,
+          1470,
+          1081,
+          1751
+        ],
+        "text": "ABDELLAOU1,M.,A.BAILLON,L.PLACIDO,et P.P.WAKKER(2O11),《The Rich Domain of Uncertainty: Source Functions and their Experimental Implementation >, AmericanEconomicReview,101(2):695-723. ABDELLAOU1,M.,F.VosSMANNetM.WEBER(2OO5),《Choice-basedElicitationand Decomposition of Decision Weights for Gains and Losses Under Uncertainty >, ManagementScience,51(9):1384-1399 ABDELLAOUI,M.,H.BLEICHRODT,E.KEMELetO.L'HARIDON(2O14),《BeliefSand AttitudesforNaturalSourcesofUncertainty>,Workingpaper."
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "stem": "page_0027",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.849561870098114,
+        "bbox_xyxy": [
+          169,
+          220,
+          1084,
+          1779
+        ],
+        "text": "AHN, D., S. CHO1, D. GALE et S. KARIv (2014), 《 Estimating Ambiguity Aversion in a Portfolio Choice Experiment >, Quantitative Economics, 5(2) : 195-223. ALLAIs, M. (1953), < Le comportement de I'homme rationnel devant le risque : critique des postulats et axiomes de lécole américaine >, Econometrica, 21(4) : 503-546. BAILLON, A. et H. BLEICHRODT (2015),< Testing Ambiguity Models Through the Measurement of Probabilities for Gains and Losses >,American Economic Journal:Microeconomics,7(2):77-100 BAILLON,A.,O.L'HARIDON et L.PLACIDo (2O11),《 Ambiguity Models and the MachinaParadoxes>,AmericanEconomicReview,101(4):1547-1560. BECKER, S. W. et F. O. BRowNsON (1964), 《 What Price Ambiguity? Or the Role of Ambiguity in Decision-making >, Journal of Political Economy, 72(1) : 62-73. BEwLEy, T. F. (2002), 《 Knightian Decision Theory : Part 1 >, Decisions in Economics andFinance,25(2):79-110 BRUNETTE, M., L. CABANTOUS, S. CoUTURE, et A. STENGER (2OO9), 《 AsSurance, intervention publique et ambiguité : une étude experimentale aupres de pro- priétaires forestiers privés >, Economie et Prévision, (4) : 123-134. CABANTous L. (2007), 《 Ambiguity Aversion in the Field of Insurance: Insurers Attitude to Imprecise and Conflicting Probability Estimates >, Theory and Decision,62(3) : 219-240. CAMERER C.et M. WEBER (1992),《 Recent Developments in Modeling Preferences: Uncertainty and Ambiguity >, Journal of Risk and Uncertainty, 5(4) : 325-370. CERREIA-V1OGLIO, S., F. MACCHERONI, M. MARINACCI et L. MONTRUCCHIO (2O11), 《 Uncertainty Averse Preferences >, Journal of Economic Theory, 146(4) : 1275-1330 CHATEAUNEUF, A. et J. H. FARO (2009), 《 Ambiguity Through Confidence Functions >, JournalofMathematicalEconomics,45(9):535-558 CHATEAUNEUF, A. (1985), 《 On the Existence of a Probability Measure Compatible with a TotalPreorder on a Boolean Algebra >, Journal of Mathematical Economics, 14(1) :43-52 CHEw, S.H., B. M1A0 et S. ZHONG (2013), 《 Partial Ambiguity >, National University of Singapore, Working paper. CHow, C.C. et R. K. SARIN (2001), 《 Comparative Ignorance and the Ellsberg Paradox, Journal of Risk and Uncertainty, 22(2) : 129-139. CoHEN, M., J.-Y. JAFFRAY et T. SAID (1987), < Experimental Comparison of Individual Behavior Under Risk and Under Uncertainty for Gains and for Losses >, OrganizationalBehaviorand HumanDecisionProcesses,39(1):1-22. CoHEN, M. et J.-M. TALLON (2000), < Décision dans le risque et l'incertain : 1'apport des modeles non-additifs >, Revue d'économie politique, 110(5) : 631-681. CoNTE, A. et J. D. HEY (2013), 《 Assessing Multiple Prior Models of Behaviour UnderAmbiguity>,JournalofRiskandUncertainty,46(2):113-132. CUBITT, R., G. vAN DE KuILEN et S. MuKERJI (2012), 《 Sensitivity Towards Ambiguity: A Qualitative Test and a Measurement >, University of Oxford, Working paper."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8366261720657349,
+        "bbox_xyxy": [
+          236,
+          178,
+          1079,
+          207
+        ],
+        "text": "LAOECSINENAMRI :MCIDELESE 107"
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "stem": "page_0028",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8531240224838257,
+        "bbox_xyxy": [
+          168,
+          239,
+          1083,
+          1773
+        ],
+        "text": "CURLEY, S. P., J. F. YATEs et R. A. ABRAMs (1986), 《 Psychological Sources of AmbiguityAvoidance>,OrganizationalBehaviorandHumanDecisionProcesses, 38(2) : 230-256. CuRLEY, S. P. et J. F. YATEs (1985), < The Center and Range of the Probability Interval as Factors Affecting Ambiguity Preferences >, Organizational Behavior andHumanDecisionProcesses,36(2):273-287 CyERT, R. M. et M. H. DEGRooT (1974),《 Rational Expectations and Bayesian Analysis >, Journal of Political Economy,82(3) : 521-536. DEAN, M. et P. ORTOLEvA (2012), 《 Allais, Ellsberg, and Preferences for Hedging >, Working paper. DIECIDUE, E. et P. P. WAKKER (2001), < On the Intuition of Rank-Dependent Utility >, Journal ofRiskandUncertainty,23(3):281-298 DuPoNT-CoURTADE, T. (2013), 《 Perception et couverture des risques extremes en présence d'incertitudes sur les marchés de lassurance et de la réassurance >, These de doctorat, Université de Paris 1. ELLsBERG,D.(1961),《 Risk,Ambiguity,and the Savage Axioms >, Quarterly Journal of Economics,75(4) :643-669. EPsTEIN, L. G. (2010), 《 A Paradox for the Smooth Ambiguity Model of Preference >, Econometrica,78(6):2085-2099. ERGIN, H. et F. GUL (2009), 《 A Theory of Subjective Compound Lotteries >, Journal of Economic Theory,144(3):899-929 ETNER, J., M. JELEVA et J.-M. TALLON (2012), 《 Decision Theory Under Ambiguity >, Journal ofEconomicSurveys,26(2):234-270 FELLNER,W. (1961),< Distortion of Subjective Probabilities as a Reaction to Uncertainty >, Quarterly Journal of Economics, 75(4) : 670-689 Fox, C. R. et A. TvERsKY (1995), 《 Ambiguity Aversion and Comparative Ignorance >, Quarterly Journal of Economics,110(3) : 585-603. FRIEDMAN, M. et L. J. SAVAGE (1948), < The Utility Analysis of Choices Involving Risk >,Journal of Political Economy,56(4) : 279-304. FRISCH, D. et J. BARON (1988), 《 Ambiguity and Rationality >, Journal of Behavioral Decision Making, 1(3) : 149-157. GAJDOS,T.,T.HAYASHI,J.-M.TALLONetJ.-C.VERGNAUD(2OO8),《AttitudeToWard Imprecise Information >, Journal of Economic Theory, 140(1) : 27-65. GHIRARDATo, P., F. MACCHERONI et M. MARINACCI (2OO4), < Differentiating Ambiguity and Ambiguity Attitude >, Journal of Economic Theory, 118(2) : 133-173. GIGLIOTTI, G. et B. SoPHER (1992), 《 The Testing Principle: A Resolution of the Ellsberg Paradox >, Rutgers, The State University of New Jersey, Economics Department, Working paper. GILBOA, I. et M. MARINACC1 (2013), 《 Ambiguity and the Bayesian Paradigm >, in D.AcEMoGLU, M. ARELLANO et E.DEKEL (éds), Advances in Economics and Econometrics: Theory and Applications, Tenth World Congress of the Econometric Society, New York: Cambridge University Press"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8338245749473572,
+        "bbox_xyxy": [
+          479,
+          181,
+          770,
+          208
+        ],
+        "text": "L'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8121290802955627,
+        "bbox_xyxy": [
+          175,
+          179,
+          219,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "stem": "page_0029",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8423686623573303,
+        "bbox_xyxy": [
+          169,
+          218,
+          1084,
+          1781
+        ],
+        "text": "GILBOA, I. et D. ScHMEIDLER (1989), < Maxmin Expected Utility with Non-Unique Prior >, Journal of Mathematical Economics, 18(2) : 141-153. GoLLIER, C. (2011),< Portfolio Choices and Asset Prices: The Comparative Statics of Ambiguity Aversion >, The Review of Economic Studies, 78(4) : 1329-1344. GRANT,S.et B.PoLAK(2O13),《Mean-DispersionPreferences and ConstantAbsolute Uncertainty Aversion >, Journal of Economic Theory, 148(4) : 1361-1398. HALEvy Y. (2007),《 Ellsberg Revisited: An Experimental Study >, Econometrica, 75(2):503-536. HANsEN, L. P. et T. J. SARGENT (2001), 《 Robust Control and Model Uncertainty >, American Economic Review,91(2) :60-66. HANsEN, L. P. et T. J. SARGENT (2008), 《 Robustness >, Princeton University Press, 464 p. HAYAsHI, T. et R. WADA (2010), 《 Choice with Imprecise Information: An Experimental Approach >, Theory and Decision, 69(3) : 355-373. HEY, J. D., G. LoTITo et A. MAFFIOLETT1 (201O), 《 The Descriptive and Predictive Adequacy of Theories of Decision Making Under Uncertainty/Ambiguity >, Journal of Risk and Uncertainty,41(2): 81-111. HoGARTH, R. M. et H. J. EINHORN (1990), 《 Venture Theory: A Model of Decision Weights >, Management Science, 36(7) : 780-803. JELEVA, M. et J.-M. TALLON (2016), 《 Ambiguité, comportements et marchés financiers >, L'Actualité économique, a paraitre. KAHNEMAN, D. et A. TvERsKY (1979), < Prospect Theory: An Analysis of Decision Under Risk >,Econometrica,47(2) : 263-291. KAHN, B. E. et R. K. SARIN (1988), 《 Modeling Ambiguity in Decisions Under Uncertainty >, Journal of Consumer Research, 15 : 265-272. KEYNEs, J. M. (1921), 《 A Treatise on Probability >, Cambridge University Press. KILKA, M. et M. WEBER (2001), < What Determines the Shape of the Probability Weighting Function Under Uncertainty? >, Management science, 47(12) : 1712-1726. KLIBANOFF, P., M. MARINACCI et S. MuKERJ1 (20O5), 《 A Smooth Model of Decision Making Under Ambiguity >, Econometrica, 73(6) : 1849-1892. KNIGHT, F. H. (1921), Risk, Uncertainty and Profit, New York : Hart, Schaffner andMarx KoTHIYAL, A., V. SPINU et P. P. WAKKER ( 2014), 《 An Experimental Test of Prospect Theory for Predicting Choice Under Ambiguity >, Journal of Risk and Uncertainty, 48(1) : 1-17. KUNREUTHER, H., J. MESZAROs, R. M. HoGARTH et M. SPRANCA (1995), 《 Ambiguity and Underwriter Decision Processes >, Journal of Economic Behavior and Organization,26(3) : 337-352. L'HARIDON, O. et L. PLAcIDo (2010), < Betting on Machina's Reflection Example: An Experiment on Ambiguity >, Theory and Decision, 69(3) : 375-393."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8348988890647888,
+        "bbox_xyxy": [
+          236,
+          178,
+          1080,
+          207
+        ],
+        "text": "LAOECSIONENAMRIG ITE:MODELESETEVALUATIONSEXPERIMENTALES 109"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "stem": "page_0030",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8669772148132324,
+        "bbox_xyxy": [
+          168,
+          239,
+          1085,
+          1772
+        ],
+        "text": "LICHTENSTEIN, S., B. FIsCHHOFF et L. PHILLIPS (1982),《 Calibration of Probabilities: The State of the Art to 198O >,in A.KAHNEMAN et D. TvERsKY (éds.), Judgement UnderUncertainty:Heuristics and Biases,NewYork:CambridgeUniversity Press, chapter 22. MACCHERON1, F., M. MARINACCI et A. RUSTICHINI (2006), 《 Ambiguity Aversion, Robustness, and the Variational Representation of Preferences >, Econometrica, 74(6) : 1447-1498. MAcCRIMMON, K. R. et S. LARSsON (1979),《 Utility Theory: Axioms VersuS Paradoxes >, in Maurice Allais and O. Hagen, (éds.), Expected Utility Hypotheses and theAllaisParadox,p.333-409. MACHINA, M. J. et D. ScHMEIDLER (1992),《 A More Robust Definition of Subjective Probability > Econometrica,60(4) : 745-780 MACHINA, M. J. et M. SINIsCALCHI (2014), 《 Ambiguity and Ambiguity Aversion >, Handbookof theEconomics of Uncertainty,1 :729-807. MACHINA, M. J. (2009), 《 Risk, Ambiguity, and the Rank-Dependence Axioms >, AmericanEconomicReview,99(1):385-392. MARsCHAK, J. (1975),《 Personal Probabilities of Probabilities >, Theory and Decision,6:121-153. NAU, R. F. (2006), < Uncertainty Aversion with Second-Order Utilities and Probabilities >,Management Science,52(1) : 136-145. NEUMANN,J.vON et O. MoRGENSTERN (1944), Theory of Games and Economic Behavior, Princeton, NJ : Princeton University Press. OECHssLER, J. et A. RooMETs (2014), 《 A Test of Mechanical Ambiguity >, University of Heidelberg, Department of Economics, Discussion paper series no.555. SAVAGE, L. J. (1954),《 The Foundations of Statistics >, New York : John Wiley & Sons. ScHMEIDLER, D. (1989), 《 Subjective Probability and Expected Utility Without Additivity >,Econometrica,57(3) :571-587. SEGAL,U.(l987),《TheEllsbergParadoxandRiskAversion:AnAnticipated Utility Approach >, International Economic Review, 28(1) : 175-202. SEo, K. (2009),《 Ambiguity and Second-Order Belief >, Econometrica, 77(5) : 1575-1605. SINIsCALCHI, M. (2006), 《 A Behavioral Characterization of Plausible Priors >, Journal of Economic Theory,128(1) : 91-135 SINIscALcH1, M. (2009), < Vector Expected Utility and Attitudes Toward Variation >, Econometrica,77(3) : 801-855. SLovIc,P. et A.TvERsKY (1974),《 Who Accepts Savage's Axiom?>Behavioral Science,19(6):368-373 WAKKER, P. P. (2010),《 Prospect Theory: For Risk and Ambiguity >, Cambridge University Press, 518 pages. WAKKER, P. P. (1990), 《 Under Stochastic Dominance Choquet-Expected Utility and Anticipated Utility are Identical >, Theory and Decision, 29(2) : 119-132."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8218392133712769,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7995747923851013,
+        "bbox_xyxy": [
+          174,
+          179,
+          221,
+          206
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "stem": "page_0031",
+    "blocks": [
+      {
+        "label": "abandon",
+        "layout_score": 0.8013984560966492,
+        "bbox_xyxy": [
+          237,
+          179,
+          1077,
+          206
+        ],
+        "text": ".ADECSINENAMRITE:MIDELESET FVALLIATONSE EXPERIMENTALES"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7706022262573242,
+        "bbox_xyxy": [
+          172,
+          245,
+          1080,
+          353
+        ],
+        "text": "WALD,A.(1950),《StatisticalDecisionFunctions>,Wiley. YANG, C.-L. et L. YAo (2014), < Testing Ambiguity Theories with a Mean-Preserving Design >,Workingpaper."
+      }
+    ]
+  }
+]

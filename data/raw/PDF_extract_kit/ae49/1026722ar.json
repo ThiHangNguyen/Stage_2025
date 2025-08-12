@@ -1,0 +1,1782 @@
+[
+  {
+    "page": 1,
+    "stem": "page_0001",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9839754104614258,
+        "bbox_xyxy": [
+          174,
+          969,
+          1079,
+          1304
+        ],
+        "text": "《QUE FERIONS NOUS SANS L'ECONOMETRIE?》 Cette question qui sert de titre a la premiere section de Malinvaud (1997) se pose constamment enscience économique. Par exemple, Dufour (1997, 2001, 2003) porte un regard critique sur plusieursmodelesetmethodes.Desquestionsfondamentalessontaussi abordées parStock(20i0)qui confrontel'économétriea 1'expérimentation.Surbase de plusieursétudesdecasenmacroeconomieetenfinance',cet articleserepenche sur la question. Tout d'abord nous considerons des situations ou plusieurs methodes économétriques populaires pourraient impliquer des conclusions économiques fallacieuses. Par la suite, nous nous demandons de quelle maniere la discipline a etpourraitévoluerpourévitercesdifficultés."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769787192344666,
+        "bbox_xyxy": [
+          173,
+          555,
+          487,
+          786
+        ],
+        "text": "LyndaKHALAF EconomicsDepartment CarletonUniversity CIREQ GREEN UniversiteLaval LyndaKhalaf@carleton.ca"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9703845977783203,
+        "bbox_xyxy": [
+          173,
+          1323,
+          1078,
+          1488
+        ],
+        "text": "Une question naturelle permettra de situer les cas que nous aborderons. Comme économistes,qu'attendons-nous donc deléconometrie,ou plus globalement, de la statistique? Les methodes d'inference statistique sont sensees : (i) produire des régions de confiance précises pour les parametres d'interet et respecter le niveau de confiance; (ii) rejeter les modeles non compatibles avec les données et respecter"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.9232872128486633,
+        "bbox_xyxy": [
+          240,
+          362,
+          1008,
+          455
+        ],
+        "text": "L'ECONOMETRIEETL'EVIDENCE FALLACIEUSE:ERREURSETAVANCEES*"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8949211835861206,
+        "bbox_xyxy": [
+          173,
+          1587,
+          1078,
+          1748
+        ],
+        "text": "Kichian,pourleurcollaborationsoutenueetnosinteractionsconstructivesetinstructives. 1.VoirMavroeidis (2004,2005,2010);Beaulieu,Dufour etKhalaf(2005,2007,2009,2010, 2013,2014);Dufour,KhalafetKichian(2006,2010,2013);Kleibergen(2009);Kleibergenet Mavr0eidis (2009);Guerron-Quintana,InoueetKilian(2013);KhalafetSchaller(2013);KleibergenetZhan (2013):Gospodinov,KanetRobott1(2013)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6683610677719116,
+        "bbox_xyxy": [
+          174,
+          924,
+          327,
+          952
+        ],
+        "text": "INTRODUCTION"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.6670278906822205,
+        "bbox_xyxy": [
+          172,
+          248,
+          890,
+          272
+        ],
+        "text": "o1.90）.no1.mars2014"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "stem": "page_0002",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9861816167831421,
+        "bbox_xyxy": [
+          173,
+          366,
+          1078,
+          914
+        ],
+        "text": "En économie il y a presque toujours des fondements théoriques, ou plus pré- cisement un ou plusieurs modeles, qui demandent a étre testés par le biais des analyses empiriques. Pour ne pas s'en tenir a une vision purement dogmatique, nombre d'économistes ont conculeurs modeles comme des outils quantitatifs visant aévaluerdesquestionssubstantives.Loind'etredefinitivementconcilies,certains modeles théoriques font quand meme consensus pour cet objectif. On s'entend moins bienquandils'agitdeformulerdesversionséconometriquespourlesconfronter aux données. Idéalement, la discipline préfere se concentrer sur des implications fondamentales, mais en permettant aux données de se prononcer sur les difficultés d'ajustement.Pourdistinguerlaspecificationdufondamentalversusl'ajustement, nous procederons par cas concrets. Quelques exemples de base peuvent situer le lecteur : les élasticités et les effets marginaux prédits par la théorie constituent des parametres d'interet qui capturent les effets fondamentaux. L'heterogeneité non observée,la distribution des résidus et les erreurs de mesure constituent des para- metres de nuisance sur lesquels la théorie sous-jacente renseigne peu; cependant. lafiabilitestatistiqueendependetsouventénormement."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9841359853744507,
+        "bbox_xyxy": [
+          173,
+          1306,
+          1079,
+          1750
+        ],
+        "text": "Les élaborations théoriques les plus completes ne suffisent typiquement pas a ellesseulespourlaconstructiond'unestructureéconometrique.llestdoncrare que l'estimation d'un modelemacroéconomique n'exige pas quelque hypothese supplementaire.MaisceshypothesesnesontsouventpasanodinesquantaI'analyse statistique.Parexemple,l'existenced'unesolutionrationnelleuniqueetstablepose des contraintes complexes et concretes sur l'espace des parametres(Fernandez- Villaverde, Rubio-Ramirez, Sargent et Watson, 2007; Iskrev, 2010; Komunjer et Ng, 20ll). La specification des processus qui generent les chocs, les mesures des grandeurs quant aux observables ainsi que le traitement des tendances nécessitent des modalités de convenance dont certaines sont souvent plusrestrictives que ce que dictelathéorie(DelNegro,Schorfheide,SmetsetWouters,2007;CanovaetSala 2009;Consolo,FaveroetPaccagnini,2009;Cochrane,2011).Nousenconsiderons deux,pourillustrerleurseffetsparticulierementdestructeurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9838900566101074,
+        "bbox_xyxy": [
+          173,
+          931,
+          1079,
+          1203
+        ],
+        "text": "Etant donné une telledéfinition d'un modele,cet article sepenchesur plusieurs casenmacroeconomieetenfinancepourlesquelleslesreponsesauxquestions (i)-(v) ci-dessus peuvent étre fallacieuses. Nous rappellerons d'abord quel'inférence fallacieuse ainsi que ses causes et conséquences sont souvent difficiles a detecter. C'est cette évaluation des effets fallacieux qui nous interessera en premier lieu. Des solutionstractablesserontensuitediscutees.Notrepresentationévitelesdetails techniques et met plutot l'emphase sur la substance. La discussion se base princi- palementsur lesmodeles structurels ouen d'autres termes les modelesd'équilibre."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9567484855651855,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          347
+        ],
+        "text": "le seuil de significativite; (iii)faciliter l'estimation et l'inference dans les modeles d'équilibre;(iv)diagnostiquer les erreursd'ajustement,et(v)tenir compte du fondamentalet,idealement,demeurerrobustesauxhypothesesnonessentielles."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8604071140289307,
+        "bbox_xyxy": [
+          176,
+          1255,
+          772,
+          1286
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.7926783561706543,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTLIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.783684253692627,
+        "bbox_xyxy": [
+          173,
+          182,
+          190,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "stem": "page_0003",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9852457642555237,
+        "bbox_xyxy": [
+          173,
+          431,
+          1078,
+          795
+        ],
+        "text": "(2)Lestendancesetles<filtres>.Enmacroéconomie,lesimplicationstestables sontsouventformulées en deviation par rapport a unétat stationnaire,ce qui requiert une définition de ce dernier et des outils pour l'en purger des données. Les pratiques habituellespour cefaireontsoulevéplusieurscritiques.Nousensoulignonsune enparticulier dont I'importancen'aétereleveequerecemment.Pourproduireune variable filtrée pour la periode t, plusieurs de ces filtres utilisent l'ensemble des données ou plus précisement, 1'information au-dela du temps t. Les retards des variablesfiltréessontquandmemeutilisescommeinstruments,cequiprésume qu'ils appartiennent al'ensembled'informationdontdisposel'économetrejusqu'au temps t. Cette contradiction pourrait contribuer aux problemes d'ajustement des modelesetcauserleurrejetfallacieux."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9849816560745239,
+        "bbox_xyxy": [
+          173,
+          812,
+          1078,
+          1244
+        ],
+        "text": "Danscequisuit,unmodeleéconometriqueestconsidere《ferme>sil'ensemble d'information selimite auxvariables exogenes ou prédeterminees completement specifiéesparlebiaisdumodelethéoriquequilesous-tend.Cesvariablessont consideréescomme《instrumentsinternes>ou《specifiquesaumodele>;typi- quement,cesinstrumentssontsouventlesretardsdetouteslesvariablesendogenes observablesdumodele.Conformement,1'estimationavec《informationcomplete> signifie qu'un modele complet est estimé. L'approche<information limitée> permet de conditionner sur un ensemble d'instruments qui n'est pas nécessairement spécifié danslemodeletheoriquesous-jacent'.Parexemple,letableau2serapporteaun modeleatroiséquationsettroisobservables:I'inflation,I'ecartalaproduction etletauxd'interetnominal.Lesinstrumentsinternessontlesretardsdecestrois variables.Lesinstrumentsexternessontlesretardsdel'inflationsalaireetprix descommodites."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.980865478515625,
+        "bbox_xyxy": [
+          173,
+          1263,
+          1079,
+          1495
+        ],
+        "text": "Etant donné ces faits, nous examinerons deux types d'outils : les méthodes robustesauxproblemesd'identificationquiproduisentdesintervallesdeconfiance vides lorsquela structure est contrefactuelle et les filtres en temps réels dont les retards demeurent des instruments valides.Pour concretiser notre analyse,nous nousbasons sur deux applications étudiées par Dufour, Khalaf et Kichian(2006 2010,2013);voir aussiMavroeidis(2004,2005,2010),Kleibergen et Mavroeidis (2009) ou Guerron-Quintana, Inoue et Kilian (2013)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9712352156639099,
+        "bbox_xyxy": [
+          173,
+          248,
+          1078,
+          412
+        ],
+        "text": "(1)Lademarchesurbasedemodeles《fermes>.Mémesil'approchedogma- tiquefavorisel'informationcomplete,lesmodelesfermessontplusfacilesarejeter statistiquementcequivaal'encontredeleursobjectifs.Onpeutquandmeme apprendre comment les améliorer, a travers de tels rejets. Une methode a informa- tion complete devrait donc imbriquer une évaluation dela structure sous-jacente"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9589525461196899,
+        "bbox_xyxy": [
+          174,
+          1513,
+          1078,
+          1579
+        ],
+        "text": "Considérons d'abord le modele suivant proposé par Eichenbaum et Fisher (2007)pourexpliquer1'inflation:"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8525897860527039,
+        "bbox_xyxy": [
+          261,
+          180,
+          1030,
+          206
+        ],
+        "text": "L'ECONOMETRIEE TEVIENCEFA"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8331307172775269,
+        "bbox_xyxy": [
+          170,
+          1697,
+          1054,
+          1748
+        ],
+        "text": "2. 《Informationcomplete>versus《limitee>setraduitenanglaispar《full>versus《limite information."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.49904635548591614,
+        "bbox_xyxy": [
+          1060,
+          181,
+          1076,
+          202
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "stem": "page_0004",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9870063066482544,
+        "bbox_xyxy": [
+          172,
+          444,
+          1079,
+          847
+        ],
+        "text": "ouπ,estl'inflationen déviationparrapport al'état stationnaire,$,estle cout mar- ginal réelendeviationparrapportaletatstationnaire,A(w)etD(β,θ,o)sont des fonctionsconnuesd'unparametrecalibrew.Poursimplifierlapresentationetnous concentrer sur les questions qui nous préoccupent directement, nous ne définissons pas ce parametre ni les fonctions en question. Le lecteur peut considérer larticle de référence pour une présentation complete du modele.β est le parametre usuel surles anticipationssuitunemoyennemobile d'ordre1 [MA(1)]avecparametre t, et cedernierviseamesurerlesdelaisd'execution.Dansuneperiodedonnee,chaque firme réajuste son prix avec probabilité (1 -θ). En pratique, 1 / (1 -θ) mesure la duréemoyennedesprixsurbasetrimestrielle.Uneproportionvdefirmesindexe sonprixal'inflationretardee;v=1impliqueunindexationcomplete."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9865124225616455,
+        "bbox_xyxy": [
+          172,
+          1328,
+          1078,
+          1630
+        ],
+        "text": "Pour garder cette discussion succincte,nous n'élaborerons pas plus sur la methoded'estimationnisurlalitteratureimportanteenéconometriequilasous- tend. Le lecteur peut consulter Dufour, Khalaf et Kichian (2006, 2010, 2013) pour plus de details. Deux ensembles d'instruments sont utilises pour les resultats du tableau1:l'ensembledenoteZEFquiinclutlesinstrumentsspecifiquesaumodele retenu (Eichenbaum et Fisher, 2007),et l'ensemble denoté Z* quiinclut les retards desvariables endogenes detroismodeles alternatifs(Eichenbaum et Fisher,2o07; Blanchard et Gali, 2007, 2010). Les effets liés a 1'élargissement de l'ensemble d'infor- mationsurl'estimationde1/(1-O),quiestleparametreprincipaldumodele,est"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9770640730857849,
+        "bbox_xyxy": [
+          173,
+          862,
+          1078,
+          1030
+        ],
+        "text": "Dufour, Khalaf et Kichian (2010) proposent une estimation ensembliste robuste auxinstrumentsfaiblespourlesparametresvetθencalibrantβ.Leprincipese résume comme suit. L'ensemble de confiance au seuil α concide avec les valeurs V。 et θ。 qui ne sont pas rejetées par le test Anderson-Rubin? genéralisé suivant : onregresse"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.937882661819458,
+        "bbox_xyxy": [
+          211,
+          1054,
+          1007,
+          1141
+        ],
+        "text": "β Vo A(∞)D(β,0。,) =元 入(β,00)s (1+βv。) t+1 (1+βv。) (1+βv。)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9116336107254028,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.909735381603241,
+        "bbox_xyxy": [
+          210,
+          246,
+          985,
+          417
+        ],
+        "text": "β A(∞)D(β,0,①) V 入(β,0)s, +e1,t+1, + + (1+βv) (1+βv) (1+βv) (1-0)(1-βθ) 入(β,0) = θ"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8406715393066406,
+        "bbox_xyxy": [
+          172,
+          180,
+          191,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8387256264686584,
+        "bbox_xyxy": [
+          169,
+          1696,
+          1054,
+          1749
+        ],
+        "text": "3. La methode originellement proposee par Anderson et Rubin (1949) porte sur un mod lineairei.i.d.gaussien."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7325562238693237,
+        "bbox_xyxy": [
+          172,
+          1178,
+          1079,
+          1312
+        ],
+        "text": "surles instruments,et on applique le test Wald corrigepourla dependanceserielle pour testerlanullitedesinstruments.Cetterégion deconfiance ainsi obtenueest robustealaqualitédesinstruments,cequineseraitpaslecaspourlesintervallesde confiancequ'onobtiendraitsurbasedelamethodedesmomentsgeneralisesusuelle"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.6478220224380493,
+        "bbox_xyxy": [
+          172,
+          1178,
+          1079,
+          1312
+        ],
+        "text": "surles instruments,et on applique le test Wald corrigepourla dependanceserielle pour testerlanullitedesinstruments.Cetterégion deconfiance ainsi obtenueest robustealaqualitédesinstruments,cequineseraitpaslecaspourlesintervallesde confiancequ'onobtiendraitsurbasedelamethodedesmomentsgeneralisesusuelle"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "stem": "page_0005",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9821707010269165,
+        "bbox_xyxy": [
+          172,
+          245,
+          1081,
+          445
+        ],
+        "text": "spectaculaire. L'ajout d'instruments externes au modele, qui demeurent pertinents puisqu'ils s'inspirent des modeles alternatifs portant sur l'inflation, améliore la precision de l'intervalle dramatiquement. Le modele ferme est quasi non informatif sur 1 / (1 - 0), alors que l'estimation qui permet un ensemble d'information défini avecuneperspectivepluslargemaisbienfondéeproduit desvaleurscompatibles aveclatheorie"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9802621603012085,
+        "bbox_xyxy": [
+          170,
+          586,
+          1078,
+          814
+        ],
+        "text": "Instrument V θ 1/(1-0) A(の) = 1; D(β, 0, ∞) = 1 ZEF (0,68, 1,00) (0,42, 0,98) (1,72, 50,0) Z* (0,40, 1,00) (0,36, 0,62) (1,56, 2,63)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9722551703453064,
+        "bbox_xyxy": [
+          172,
+          1464,
+          1078,
+          1564
+        ],
+        "text": "pour expliquerl'inflation, π,1'écart a la production,y, et le taux d'interet nominal. R.Les erreurs sont i.i.d.normales(dans le temps)mais une correlation contem- poraineestpermise."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9542644619941711,
+        "bbox_xyxy": [
+          172,
+          1079,
+          1078,
+          1144
+        ],
+        "text": "Considérons maintenant un modele avec trois équations structurelles (Clarida. Gali etGertler,1999;Linde,2005)"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8880868554115295,
+        "bbox_xyxy": [
+          172,
+          1580,
+          1080,
+          1749
+        ],
+        "text": "Dufour, Khalaf et Kichian (2013) proposent une estimation ensembliste multi- variée robuste aux instruments faibles pour les parametres w, Y β, β, Y, Y, et P, j =1, ., 3. Le principe genéralise le concept univarié ci-dessus. L'ensemble de confiance coincide avec les valeurs Wfo, Y, Bo, βro, Yo, Yo et Pjo, j =1, ., 3, qui ne sontpasrejetéesparle testAnderson-Rubinmultivariésuivant:onrégresse"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8781478404998779,
+        "bbox_xyxy": [
+          260,
+          179,
+          1069,
+          206
+        ],
+        "text": "ECNMETRIE"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8627529144287109,
+        "bbox_xyxy": [
+          210,
+          1174,
+          870,
+          1435
+        ],
+        "text": "πt=@fEπ+1 +(1-@f)πt-1+y+π,t y=βfEtyt+1 +>(1-βf)βy,jyt-j+β(R,-Eπt+1)+y, j=1 R=Yπ"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.811524510383606,
+        "bbox_xyxy": [
+          171,
+          829,
+          1078,
+          957
+        ],
+        "text": "NoTE:ZEFinclutle4eet5°retardde1'inflationetducoutmarginal.Z*inclutle4eet5°retarddel'inflation et ducoutmarginal,dutauxdechomage,etlesvariationsduprixdubiennonproduit.Donnees trimestrielles,Etats-Unis,1982Q3to2006Q4.A(?)=D(β,0,∞)=1lecapitalesthomogene etl'élasticitédelademandeconstante.L'estimationavecretardspluscourtsconduitaurejet dumodele."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.798995852470398,
+        "bbox_xyxy": [
+          172,
+          962,
+          1078,
+          1016
+        ],
+        "text": "SouRcE:Dufour,Khalaf et Kichian(2OiO).Intervallesdeconfiancesurbasedeprojections,qui inversentletestAnderson-Rubingeneralise"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5530015826225281,
+        "bbox_xyxy": [
+          329,
+          483,
+          919,
+          569
+        ],
+        "text": "TABLEAU1 INFLATION-UNEEQUATIONSTRUCTURELLE,INDEXATION"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.531937301158905,
+        "bbox_xyxy": [
+          172,
+          1580,
+          1079,
+          1749
+        ],
+        "text": "Dufour, Khalaf et Kichian (2013) proposent une estimation ensembliste multi- variée robuste aux instruments faibles pour les parametres w, Y β, β, Y, Y et P, j =1, ., 3. Le principe genéralise le concept univarié ci-dessus. L'ensemble de confiance coincide avec les valeurs Wfo, Y, Bo, βro, Yo, Yo et Pjo, j =1, ., 3, qui ne sontpasrejetéesparle testAnderson-Rubinmultivariésuivant:onrégresse"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.49425235390663147,
+        "bbox_xyxy": [
+          1059,
+          181,
+          1077,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.41897398233413696,
+        "bbox_xyxy": [
+          548,
+          484,
+          701,
+          517
+        ],
+        "text": "TABLEAUL"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "stem": "page_0006",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9848997592926025,
+        "bbox_xyxy": [
+          172,
+          552,
+          1079,
+          1020
+        ],
+        "text": "conjointement sur T,-, Yy,, j = 1, ., 4 et R,, j = 1, , 3 et on applique un test de type F multivariepour tester la nullite de tous les retards dans les équations 1 et 3, ainsi que la nullité des retards de l'inflation et du taux d'interet uniquement dans l'équation 2. Cette région de confiance ainsi obtenue est robuste a la qualité de l'identification,ce qui ne serait pas le cas pour les intervalles de confiance qu'on obtiendraitsurlabasedumaximumdevraisemblanceusuel.Lelecteurpeutconsulter Dufour, Khalaf et Kichian (2013) pour plus de details sur ce test ainsi que d'autres tests qui imposent l'information complete ainsi qu'une solution rationnelle unique et stable.Deuxmesurespour I'écart a la productionsontconsiderees:la mesure standardetunemesureentempsreel.Deuxensemblesd'instrumentssontutilises pour les résultats du tableau 2 : 1'ensemble denoté< Instruments internes > qui inclut les instruments spécifiques au modele et l'ensemble dénoté《Instruments > quiinclutlesretardsdeplusieursvariablesexternesaumodelemaisqu'onretrouve habituellementdanslesestimationsempiriquesdel'inflation."
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9837259650230408,
+        "bbox_xyxy": [
+          170,
+          1286,
+          1079,
+          1649
+        ],
+        "text": "Instruments internes Instruments [0,577,0,951] [0,657, 0,848] NKPC Y [-0,016,0,015] [-0,028, 0,005] β [0,233,0,456] [0,385, 0,556] Output β, [25,91, 30,0] [24,591, 30,0] Yπ [0,957,1,578] [1,126, 1,560] Regle de Taylor Yy [0,281,0,512] [0,313,0,544]"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.976203203201294,
+        "bbox_xyxy": [
+          173,
+          1036,
+          1078,
+          1136
+        ],
+        "text": "On rejette le modele avec : (i) la methode information complete et les deux mesures de l'écart a la production; (ii) la methode information limitée Anderson- Rubin généralisée corrigée pour la dépendance sérielle, avec ou sans instruments"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9304295778274536,
+        "bbox_xyxy": [
+          211,
+          427,
+          902,
+          526
+        ],
+        "text": "R=R-Yπ0 y-ZpjoRt-j f j=1"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.9218491911888123,
+        "bbox_xyxy": [
+          171,
+          1663,
+          1078,
+          1750
+        ],
+        "text": "NorE:Ensembled'informationétendu:instrumentsinternes pluslesretards 2et 3del'inflation salaire etprixdescommodites."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9040923118591309,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          207
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8933305740356445,
+        "bbox_xyxy": [
+          175,
+          180,
+          205,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8140670657157898,
+        "bbox_xyxy": [
+          213,
+          391,
+          240,
+          416
+        ],
+        "text": "el"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.733310878276825,
+        "bbox_xyxy": [
+          380,
+          1185,
+          870,
+          1270
+        ],
+        "text": "TABLEAU2 INFLATION-TROISEOUATIONSSTRUCTURELLES"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.563125491142273,
+        "bbox_xyxy": [
+          211,
+          252,
+          668,
+          361
+        ],
+        "text": "π=π-@foπt+1-(1-のfo)πt-1-Yoyt y*=y-βfoyt+1-β(R,-E,πt+1)"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.3374407887458801,
+        "bbox_xyxy": [
+          211,
+          254,
+          666,
+          291
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.32266560196876526,
+        "bbox_xyxy": [
+          212,
+          318,
+          608,
+          359
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "stem": "page_0007",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9858558773994446,
+        "bbox_xyxy": [
+          173,
+          1468,
+          1079,
+          1749
+        ],
+        "text": "De fait, plusieurs questions importantes en finance conduisent a tester la signi- ficativiteduvecteurdesconstantesdansuneregressionmultivarieederendements surdesfacteursderisque:l'efficiencedeportefeuilles,leCAPM,lesmodeles Fama-French-Carhart, entre autres (voir, par exemple, Gibbons, Ross et Shanken, 1989;Fama etFrench,1992,1993,1995,1996,2004;Shanken,1996;Carhart,1997; Sentana, 2oo9). Plusieurs modeles non linéaires sont aussi définis par le biais des restrictions sur ces constantes (Shanken,1985,1992;Barone-Adesi,Gagliardini etUrga,2004;ShankenetZhou,2007)."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9852563142776489,
+        "bbox_xyxy": [
+          173,
+          479,
+          1079,
+          1009
+        ],
+        "text": "Malgré les préférences et les debats de la discipline, rappelons qu'il n'est pas nécessaire de choisir entrel'estimation d'une seuleéquation et celle d'unsysteme complet et fermé. Une methode a information limitée ne se base nécessairement pas sur《uneseule>équation!Uneapprocheinformationlimitéesurbasedeplusieurs equationspeutexploiterI'informationsurlesvariablescommunesauxéquations considerees avec un minimum de contraintes,ce qui pourrait nousrenseigner quand meme empiriquement lorsque les hypotheses dont le seul but est de fermer le modele doivent étre relachées.En effet, la parcimonie des modeles fermes usuels implique un ensemble d'information restreint qui manquerait de crédibilité. Par exemple,lesvariables qui interviennent dans plusieurs modeles d'équilibre bien connussurl'inflationsont:l'écartdeproduction,lecoutmarginalouletauxde chomage, et un taux d'interet de court terme, ce qui implique que ces variables et leurs retards suffisent pour prescrire les politiques monetaires. Est-ce raisonnable? Unestructureplusflexibledevraitpermettredel'informationadditionnellequi refletel'environnementrealistedesdécideurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9838295578956604,
+        "bbox_xyxy": [
+          173,
+          1125,
+          1078,
+          1443
+        ],
+        "text": "Les échantillons disponibles en finance empirique sont typiquement plus grands que ceux dont on dispose par exemple en macroeconomie, ce qu1 promet uneanalyseplusprecisedesdonnees.Maisil arrivesouventquelesapproxima- tions asymptotiquesnesoientpas adequatesparrapport auxparametresposes en hypothese.De telles irregularites peuvent engendrer des interpretations invalides et desconclusionsfautivesquitoucheraientunlargeéventaildemodelesfinanciers courantsainsiqueplusieurssujetsfondamentauxenfinance.Nousproposons d'illustrer ces questions al'aide demodelesfinanciers fondés sur desrégressions multivariées,en dépit dela simplicitédeleur structure statistique."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9784707427024841,
+        "bbox_xyxy": [
+          173,
+          246,
+          1079,
+          453
+        ],
+        "text": "《externes>,et(iii)lamethodeinformationlimiteeAnderson-Rubingeneralisee i.i.d.multivariée et la mesure standard del'écart a la production. Les résulats avec la methodeinformation limitée Anderson-Rubin genéralisée i.i.d.multivariée et la mesure en temps réel de l'écart a la production sont résumés dans le tableau 2. Cesrésultatsrenforcent notremessage sur les avantages d'unemodelisation qui évitedefermerlesmodeles."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8617610931396484,
+        "bbox_xyxy": [
+          175,
+          1068,
+          733,
+          1099
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8348715901374817,
+        "bbox_xyxy": [
+          261,
+          180,
+          1050,
+          206
+        ],
+        "text": "L'ECONOMETRIEE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5292922854423523,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1074,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "stem": "page_0008",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9788722395896912,
+        "bbox_xyxy": [
+          171,
+          757,
+          1080,
+          964
+        ],
+        "text": "permet de concretiser la specification. La distribution du vecteur des W, est par exemplenormaleousuitlaloi deStudentmultivariéeouuneautreloielliptique telle un melange de loi normales multivariées (voir Beaulieu, Dufour et Khalaf, 2005, 2007, 2009, 2010,2013) pour tenir compte de 1'asymetrie et des queues epaissesdesdonneesfinancieres.Cettefamilledeloisestconformeauxthéories financieresd'équilibre."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9769952297210693,
+        "bbox_xyxy": [
+          172,
+          1219,
+          1080,
+          1357
+        ],
+        "text": "(i)Les tests d'efficience deportefeuille.Dans ce cas,C=(1,O,...,O)'pourles modeles non conditionnels. Pour les modeles conditionnels dans lesquels X, inclut desinstrumentsetleurinteractions aveclesfacteurs,Cestunematricedeselec- tion[desOetdes1]quiverifielanullitédecesvariablesainsiquelesconstantes."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9749416708946228,
+        "bbox_xyxy": [
+          170,
+          415,
+          1081,
+          586
+        ],
+        "text": "ou r., i = 1, ., n, sont les rendements, possiblement excédentaires, sur n portefeuilles et r., j = 1, ., s, sont des rendements, possiblement excédentaires, sur s facteurs de risque.Certaines extensions conditionnelles du modele(voirBeaulieu,Dufour etKhalaf,20o7)incluentaussidesinstrumentsetdestermesd'interaction.Pour faciliterladiscussion,résumonslemodelesousformematriciellecommesuit:"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9681665301322937,
+        "bbox_xyxy": [
+          172,
+          1682,
+          1078,
+          1750
+        ],
+        "text": "ce qui implique un rang réduit pour B. Le vecteur O se rapporte au taux zero-beta et/ouauprixdurisque."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9662730693817139,
+        "bbox_xyxy": [
+          172,
+          981,
+          1078,
+          1047
+        ],
+        "text": "Dans ce contexte,plusieursimplications testablespeuventétreformuléespar descontraintesdelaforme"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9661844968795776,
+        "bbox_xyxy": [
+          172,
+          1459,
+          1078,
+          1527
+        ],
+        "text": "(iii)Lesanalysesdeperformance.Pourtesterla《performanceanormale> Ccorrespondaussiaunematricedeselection."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9589709639549255,
+        "bbox_xyxy": [
+          171,
+          1373,
+          1078,
+          1443
+        ],
+        "text": "(ii) Les tests du < spanning >. Dans ce cas, on ajoute des lignes a C pour verifier silasommedesbetasestégalea1."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9576548337936401,
+        "bbox_xyxy": [
+          171,
+          1545,
+          1078,
+          1612
+        ],
+        "text": "(iv)Lesmodelesd'arbitrage,afacteurs,ouala<Black>(Black,1972).Dans ce cas,la contrainteprendla forme"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.9472861289978027,
+        "bbox_xyxy": [
+          213,
+          307,
+          822,
+          396
+        ],
+        "text": "rit=a+ i=1"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.936444103717804,
+        "bbox_xyxy": [
+          211,
+          246,
+          805,
+          280
+        ],
+        "text": "Pourclarihcat1on. Lmodele prototype"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.9255149960517883,
+        "bbox_xyxy": [
+          479,
+          179,
+          770,
+          208
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9227718710899353,
+        "bbox_xyxy": [
+          212,
+          1169,
+          656,
+          1202
+        ],
+        "text": "LesexemplesIesplusconnusincluent"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8958371877670288,
+        "bbox_xyxy": [
+          175,
+          179,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.892418384552002,
+        "bbox_xyxy": [
+          212,
+          656,
+          723,
+          688
+        ],
+        "text": "Sd'erreurs"
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8787504434585571,
+        "bbox_xyxy": [
+          1043,
+          332,
+          1077,
+          362
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8720795512199402,
+        "bbox_xyxy": [
+          1042,
+          1633,
+          1076,
+          1662
+        ],
+        "text": ""
+      },
+      {
+        "label": "formula_caption",
+        "layout_score": 0.8718194961547852,
+        "bbox_xyxy": [
+          1041,
+          1068,
+          1076,
+          1098
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8650802373886108,
+        "bbox_xyxy": [
+          213,
+          1629,
+          504,
+          1664
+        ],
+        "text": "(（1.(-）B=0 Oinconnu"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.8513880968093872,
+        "bbox_xyxy": [
+          212,
+          602,
+          532,
+          641
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.8183321356773376,
+        "bbox_xyxy": [
+          173,
+          1118,
+          556,
+          1150
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5855714082717896,
+        "bbox_xyxy": [
+          213,
+          1066,
+          556,
+          1100
+        ],
+        "text": "（B=0 inconnu"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.5468565821647644,
+        "bbox_xyxy": [
+          214,
+          706,
+          472,
+          742
+        ],
+        "text": ".Jinversible"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.43290019035339355,
+        "bbox_xyxy": [
+          213,
+          1066,
+          556,
+          1100
+        ],
+        "text": "（B=0 inconnu"
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.42391958832740784,
+        "bbox_xyxy": [
+          214,
+          706,
+          472,
+          742
+        ],
+        "text": ".Jinversible"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.388343870639801,
+        "bbox_xyxy": [
+          172,
+          1118,
+          556,
+          1150
+        ],
+        "text": "11"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "stem": "page_0009",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9847258925437927,
+        "bbox_xyxy": [
+          172,
+          1482,
+          1079,
+          1750
+        ],
+        "text": "En particulier,la méthode des tests de Monte Carlo (MC) (Dufour,2006) permet d'obtenir, par des simulations, la distribution sous I'hypothese nulle des statistiquesal'etudetout entenant compte desrelations conjointessous-jacentes sansse contraindreauxloisnormales.Surbasedecettemethode,plusieursresultats publiés par Beaulieu, Dufour et Khalaf (2005, 2007, 2009, 2010, 2013) s0nt négatifs vis-a-visles conceptions classiques etlesidées recues.Ces resultats montrent que 1'intuition concernant la fiabilité de plusieurs facteurs n'est validée que pour des cas particuliers,etqueleurcontributionpositiveétabliesurbasedemethodesusuelles"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9843577146530151,
+        "bbox_xyxy": [
+          172,
+          748,
+          1078,
+          1049
+        ],
+        "text": "Mais cette approche ne s'avere pas sans couts ni sans contraintes. Meme si une interprétation rigide de (1)-(2) comme un modele d'équilibre est moins polemique enfinance qu'en macroeconomie contemporaine,il nefaut pas perdre de vue les principes fondamentaux que ces systemes devraient incorporer. D'une part,la distributiondesWdevrait demeurer elliptique ou au moinsfermee quant aux combinaisonslineairespuisqu'unportefeuille estune combinaisonlineaire d'actifs.Nous devons aussi nous interroger sur la reponderation éventuelle des portefeuilles (Kandel et Stambaugh,1989).Plus précisément,les transformations duvecteurdesrendementsRa"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9838544726371765,
+        "bbox_xyxy": [
+          172,
+          246,
+          1078,
+          514
+        ],
+        "text": "Cesmodelessont deloinlesplus communement utilisesenévaluation d'actifs C'est pourquoiil estimportant de disposer demethodes d'inferencesprecises,parce quel'utilisation de methodes qui nesont qu'approximatives ou qui ne tiennent pas compte de la non-normalite peut conduire a des interpretations empiriques inva- lides des parametres sous-jacents, et en particulier ceux qui se rapportent au prix du risque.C'est l'evaluation des ce dernier qui nous interessera en particulier, en raisondesonévidenteimportance.Cetexposemettral'accentsurquatrecategories deproblemesquiperdurentdanscecontexte."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9815678000450134,
+        "bbox_xyxy": [
+          173,
+          1232,
+          1078,
+          1466
+        ],
+        "text": "De plus, les questions principales auxquelles ces modeles tentent de repondre, par exempleles cas (i)-(iv)repertories ci-dessus,constituent des hypotheses conjointes sur les parametres des n équations du systeme (1).Meme dans le caslinéaire,la précision atteinte avecl'analysesimultaneed'ungrandnombrequecesoitde portefeuillesoud'actifs constituedesdéfismajeurspourl'econometrieusuelle. Beaulieu,Dufour etKhalaf(2005,2007,2009,2010,2013)demontrent que1éc0- nometriesurbasedesimulationpermetenprinciped'encontournerquelques-uns."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9782589673995972,
+        "bbox_xyxy": [
+          173,
+          531,
+          1079,
+          731
+        ],
+        "text": "Le premier releve de la dimensionnalité. Lorsque n augmente, la dimension de J augmenterapidement etlesdegres delibertediminuentconformement.Memedans les cas standards ou les lois asymptotiques ne dépendent pas de J, les lois exactes en dependent fortement. L'estimation de Jrequiert un grand T par rapport a n. Ces modeles sont donc typiquement estimés sur base de rendement de portefeuilles, plutotqued'actifs"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9685239791870117,
+        "bbox_xyxy": [
+          173,
+          1115,
+          1077,
+          1213
+        ],
+        "text": "ou A une matrice n × n inversible telle que Al, = l, et l, = (1, .., 1)' un vecteur de dimension n, ne devraient pas affecter la qualité de l'inférence. Les tests non invariantspeuventétrefallacieux(Beaulieu,DufouretKhalaf,2010,2013)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8621847033500671,
+        "bbox_xyxy": [
+          261,
+          180,
+          1066,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "isolate_formula",
+        "layout_score": 0.6719168424606323,
+        "bbox_xyxy": [
+          213,
+          1065,
+          312,
+          1100
+        ],
+        "text": "R*=AR"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.49101290106773376,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "stem": "page_0010",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9863187074661255,
+        "bbox_xyxy": [
+          172,
+          494,
+          1079,
+          1019
+        ],
+        "text": "On s'apercoit aussi empiriquement que les betas associés au facteur du marché sont proches deun pour des régressions sur base deportefeuilles.Ce manque de dispersion cause desproblemes d'identification importants dans la définition du prix du risque et pour les methodes en deux étapes (voir Kleibergen, 2009; Khalaf et Schaller,2013).Cesmethodes attribuées a FamaetMacbeth(1973) commencent parunerégressionsde type(1);lesestimes des coefficients derégressionsont sau- vegardés et constituent ce qu'on appelle communément les betas de la premiere passe. Les moyennes des rendements dans le temps sont par la suite régressées suruneconstanteetcesbetasprealablementestimes;lescoefficientsdecette regressiondesecondeétapeconstituentleprixassocieauxfacteursderisqueque capturechaquebeta.Ilestclairqu'unmanquedevariabilitéducotédecesbetas cause dela colinearitedans la régression desecondeétape,ce qui compromet la précision deson estimation.Lesmethodes usuelles incluant les corrections pourles erreurs de mesure (Shanken, 1992) dissimulent les effets pervers de ce probleme. En depit des travaux précurseurs deKan et Zhang (1999a,b),1'importance de ce problemen'adoncétépercuequerécemment."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9854259490966797,
+        "bbox_xyxy": [
+          173,
+          1033,
+          1078,
+          1360
+        ],
+        "text": "Une optique multivariée en séries chronologiques n'échappe pas a ce probleme, quisemanifestetoutefoisdemaniereplussubtile.Danscecas,lescontraintes structurellessontexprimeesdirectementenfonctionduprixdurisqueetdutaux sansrisque.Ces quantitesnesontpas observablesmaissontincorporées dansles modeles a travers des restrictions de rang réduit par exemple sous la forme (3), ce quicompliqueleuridentifiabilité.Supposonsparexemplequelesbetasassociésa unfacteur sont conjointementnon significatifs ce quiimpliquerait quelacolonne pertinentedelamatriceBest unvecteurdezeros.Ilestévident quelacomposante deOquimultiplielesélementsdecettecolonnenulleseraévacueedelacontrainte doncdumodele,etdevientainsinonidentifiable"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9847081899642944,
+        "bbox_xyxy": [
+          173,
+          1375,
+          1078,
+          1636
+        ],
+        "text": "Est-ce que le probleme demeure une présomption théorique certes interes- sante mais pratiquement non pertinente? Malgre une litterature bien établie (voir. par exemple, Lewellen, Nagel et Shanken, 2010; Harvey, Liu et Zhu, 2013), les mesurescourantesdesfacteursderisquesesontavereesempiriquementredon- dantes (Kleibergen, 2009; Kleibergen et Zhan, 2013; Khalaf et Schaller, 2013; Gospodinov, Kan et Robotti, 2013; Beaulieu, Dufour et Khalaf, 2013, 2014). Les betas proches de zéros surviennent donc assezfréquemment a cause(et en depit) delasurabondancedefacteurs."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.980954647064209,
+        "bbox_xyxy": [
+          173,
+          247,
+          1079,
+          479
+        ],
+        "text": "neresistepasaI'introductiondesloisnonnormalesetdestestssimultanes.Par exemple, Beaulieu, Dufour et Khalaf (2007, 2010) documentent des constantes nonnullesouend'autrestermesdesrendementsanormauxinexpliquesdansles modelesalaFama-French-Carhart.Aulieudevaliderlesconditionsd'équilibre en annulant les constantes, les facteurs ne semblent servir qu'a normaliser les résidus.Il s'agit deresultatsrevelant desdeviationsimportantespar rapport aux acquisusuelsdanscettelitterature."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9705742001533508,
+        "bbox_xyxy": [
+          174,
+          1651,
+          1078,
+          1750
+        ],
+        "text": "Lesproblemes d'identification ont des effetspervers surlesmethodes d'esti- mationtraditionnelles.Dans ce contexte,les conditionsderégularitérequises pour valider lesmethodes asymptotiquesincluant lespreuves deconvergence et"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8764052391052246,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTLIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8534311056137085,
+        "bbox_xyxy": [
+          176,
+          181,
+          204,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "stem": "page_0011",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9862840175628662,
+        "bbox_xyxy": [
+          173,
+          1045,
+          1078,
+          1407
+        ],
+        "text": "Une statistique de type Hotelling permet d'évaluer (2) lorsque C est un vecteur connu.Enfixant C commeunvecteur qui sélectionne unrégresseuralafois,on peut tester la significativité conjointe(interportefeuilles) de chaque facteur. La statistiquesecalculedemanieretressimpleconnaissantC,surbasedesestimes des moindres carrés ordinaires de B. Un point critique F s'ajuste assez bien aux modeles avec plusieurs facteurs. On peut aussi inverser le test associé a un cas particulier de (3) pour lequel O est fixé a une valeur donnée O。, pour obtenir une région de confiance pour : cette région correspond aux valeurs de O。 qui ne sont pasrejeteesparletest duHotelling enquestion.L'intervallerobustepeutétreborne. vide ou non borné.Unintervalle viderejettela spécification alors qu'un intervalle nonbornésignale desproblemesd'identification causésparunfacteurredondant."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.986192524433136,
+        "bbox_xyxy": [
+          173,
+          458,
+          1078,
+          754
+        ],
+        "text": "A cet effet, il faut reconnaitre que la finance empirique se révele lente a adopter les résultats récents en théorie économetrique. Il est possible queles praticiens se sentent immunisés a ces problemes vu les grandes tailles d'échantillon typique- ment disponibles en finance. La litterature économetrique (Dufour, 1997, 2003; Stock, Wright et Yogo, 2002) a par contre démontré que l'identification n'est pas un probleme de petit échantillon, mais plutot un probleme de fondements exacts ou asymptotiques qu'il importe de revoir. Pour illustrer ces faits, nous examinerons deux types d'outils, ceux robustes aux problemes d'identification dont on a discuté ci-dessus ainsi que ceux qui permettent de capturer l'asymetrie."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.985089123249054,
+        "bbox_xyxy": [
+          173,
+          768,
+          1079,
+          1031
+        ],
+        "text": "Pour concrétiser notre analyse, nous nous basons sur les procédés introduits par Beaulieu, Dufour et Khalaf (2009, 2013, 2014) et Beaulieu, Gagnon et Khalaf (20l4). Pour simplifier la présentation et nous concentrer sur les questions qui nouspreoccupent directement,nous nous contentons d'une description succincte des données et des methodes en question. Le lecteur peut considerer les articles de réference pour une présentation complete des portefeuilles, des facteurs, des loisstables,du calcul des statistiques,deleur seuil de signification marginal F ou simulé, ainsi que leur inversion. Les principes se résument a ce qui suit."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9846664667129517,
+        "bbox_xyxy": [
+          173,
+          1420,
+          1078,
+          1750
+        ],
+        "text": "Beaulieu, Dufour et Khalaf (2009) maintiennent un modele linéaire de la forme (1) avec un facteur de marche,mais élargissent la famille de lois sur W. en dehorsdelaclasseusuelledesloisdeStudentsymetriques.Letableau3rapporte les résultats du test de Hotelling portant sur les constantes de régression pour 12 portefeuillestriesparindustrie.Le testpermetdeconclureenfaveurdu CAPM lorsque son seuil de signification marginal est simulé avec des lois stables asymé- triques. Ces résultats constituent des déviations notables par rapport aux conclusions usuelles sur le CAPM retenues par la finance empirique. Notez que la famille des loisstablesasymetriquesestcompatibleaveclesfondementsthéoriquesduCAPM (Samuelson, 1967) mais pas nécessairement avec la théorie des tests usuels."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9820110201835632,
+        "bbox_xyxy": [
+          173,
+          247,
+          1078,
+          443
+        ],
+        "text": "lesapproximationsdesloislimitesdesestimateursnetiennentpas,outiennent faiblement et/ou non uniformement. Par conséquent, la théorie asymptotique usuelle nefournitquedesapproximationstresimprécises.Lesconclusionsdesétudes empiriques qui appliquent ces approximations peuvent étre fortement affectées, meme si les échantillons utilises dans les analyses des rendements (par exemple surbased'actifsoudedonnéesahautefréquence)peuventétredegrandetaille"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8217105269432068,
+        "bbox_xyxy": [
+          261,
+          180,
+          1038,
+          206
+        ],
+        "text": "ECONOMETRIEE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.5517356991767883,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "stem": "page_0012",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9863255620002747,
+        "bbox_xyxy": [
+          173,
+          949,
+          1079,
+          1215
+        ],
+        "text": "La théorie financiere permet de capturer l'asymetrie sous une forme alterna- tive,a traversdesfacteurs observables.Plusprécisement,ils'agit d'une asymetrie dans la dependance entreles rendements et le marché, plutot qu'une non normalite des résidus. Le CAPM quadratique (Kraus et Litzenberger, 1976; Barone-Adesi, Gagliardini et Urga, 2004) postule qu'un modele qui inclut deux facteurs, un portefeuille de marché et son carré, capture ce type d'asymetrie avec ou sans une contrainte de type (3). Les tableaux 4 et 5 se rapportent a un tel modele, analysé avec25portefeuillesdetypeFama-French."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9854812026023865,
+        "bbox_xyxy": [
+          172,
+          1234,
+          1079,
+          1533
+        ],
+        "text": "Le tableau4rapportedesintervallesdeconfiancesurlescomposantesdeOpar rapport a chaquefacteur.Lesintervallesrobustes rejettentlaspecificationpour une sous-période et ne sont bornés qu'en une seule autre, ce qui signale des problemes de facteur redondant. Ces intervalles ne sont pas nécessairement non informatifs: il s'avere que pour certaines sous-periodes apres 1980, le terme quadratique est signi- ficatif malgre les difficultés d'identification. Il est utile de contraster les intervalles de type Wald qui ne sont pas fiables en présence de facteurs redondants, ce que nous avonsprouve analytiquement,auxrésultatsrobustes.Eneffet,l'information querevelentcesintervallesneconcordequetrespeu."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9824240803718567,
+        "bbox_xyxy": [
+          173,
+          1549,
+          1079,
+          1749
+        ],
+        "text": "Le tableau 5 rapporte les tests de significativité conjointe pour chaque facteur, ainsi qu'un test de la contrainte d'équilibre (3): ce dernier rejette le modele s'il n'existe aucunevaleur de Oqui nesatisfasseles données.Cetestcorrespond a unintervalle de confiance vide (voir Beaulieu, Dufour et Khalaf, 2013, 2014). Les résultats du tableau5illustrentl'utilited'uneapprocheglobalequiconsistea amalgamerl'éva- luationdelaspecificationetl'inferenceensemblistesurlesparametresdumodele"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9813635349273682,
+        "bbox_xyxy": [
+          170,
+          347,
+          1080,
+          808
+        ],
+        "text": "t Student Stable symetrique Stable asymetrique Echantillon QLR Qu Qu, β, = 0 Qu, β, > 0 Qu, β<0 1966-1970 36,79 0,003 0,001 0,116 0,044 1971-1975 21,09 0,129 0,111 0,566 0,596 1976-1980 28,37 0,026 0,017 0,425 0,329 1981-1985 27,19 0,035 0,023 0,324 0,309 1986-1990 35,75 0,005 0,004 0,086 0,058 1991-1995 16,75 0,305 0,287 0,473 0,477"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.9096599221229553,
+        "bbox_xyxy": [
+          172,
+          814,
+          1077,
+          898
+        ],
+        "text": "NoTE : QLR : statistique de test sur les constantes de regressions; Qy : seuil de signification marginal methodeMonteCarlomaximisé,octobre1987etjanvierexclus.Rendementsmensuels,12portefeuilles SouRCE:Beaulieu,DufouretKhalaf(2005)."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8488157391548157,
+        "bbox_xyxy": [
+          481,
+          181,
+          769,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8414924144744873,
+        "bbox_xyxy": [
+          175,
+          181,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5782063007354736,
+        "bbox_xyxy": [
+          433,
+          246,
+          817,
+          330
+        ],
+        "text": "TABLEAU3 TESTSDUCAPM,ERREURSSTABLES"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "stem": "page_0013",
+    "blocks": [
+      {
+        "label": "table",
+        "layout_score": 0.9842414259910583,
+        "bbox_xyxy": [
+          171,
+          348,
+          1079,
+          852
+        ],
+        "text": "Marche Marche2 Robuste Wald Robuste Wald 1966-1970 R [-0,025,0,016] {≤0,001}U{≥0,006} [-0,007,0,001] 1971-1975 [-0,115,0,432] [-0,024,0,002] [-0,157,0,001] [-0,006, 0,002] 1976-1980 [0,075,0,035] [-0,0042,0,004] 1981-1985 R [0,082,0,067] {≤0,004}U{≥0,008} [-0,002, 0,050] 1986-1990 R [-0,002,0,053] {≤0,002}U{≥0,014} [-0,015,0,003] 1991-1995 R [-0,204,0,064] {≤0,001}U{≥0,003} [-0,005,0,034] 1996-2000 R [0,018,0,056] R [-0,005,0,015]"
+      },
+      {
+        "label": "table",
+        "layout_score": 0.9818160533905029,
+        "bbox_xyxy": [
+          170,
+          1137,
+          1078,
+          1647
+        ],
+        "text": "Echantillon Specification Hotelling sur MRKT2 LR Seuil LR Seuil 1966-1970 29,83 0,686 37,03 0,406 1971-1975 34,04 0,535 57,31 0,031 1976-1980 74,20 0,003 85,05 0,001 1981-1985 42,34 0,248 44,24 0,186 1986-1990 43,21 0,247 50,08 0,101 1991-1995 37,35 0,418 47,75 0,141 1996-2000 30,29 0,697 34,16 0,502"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.8740907907485962,
+        "bbox_xyxy": [
+          172,
+          1661,
+          1078,
+          1747
+        ],
+        "text": "NorE:《Specification>:statistiqueLRpour tester(3),robuste al'identification,《Hotelling>teste lasignificativiteconjointedufacteurentreéquations,《Seuil>:seuildesignificationmarginal. SouRCE:VoirBeaulieu,DufouretKhalaf(2013,2014)"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8111361861228943,
+        "bbox_xyxy": [
+          260,
+          179,
+          1073,
+          206
+        ],
+        "text": "ECNMETRIEE:TEV"
+      },
+      {
+        "label": "title",
+        "layout_score": 0.6428177356719971,
+        "bbox_xyxy": [
+          549,
+          1038,
+          702,
+          1069
+        ],
+        "text": "TABLEAUS"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5399406552314758,
+        "bbox_xyxy": [
+          319,
+          1037,
+          932,
+          1120
+        ],
+        "text": "TABLEAU5 TESTSDUMODELEETTESTSDEREDONDANCEDESFACTEURS"
+      },
+      {
+        "label": "table_footnote",
+        "layout_score": 0.5372217893600464,
+        "bbox_xyxy": [
+          172,
+          866,
+          1078,
+          950
+        ],
+        "text": "NoTE:Régionsdeconfiancea5%pourlescomposantesdeO;lesregions《robustes>inversent un testHotellingassociéalacontrepartielinéairedelacontrainte(3)quidefinitO,25portefeuilles Fama-French"
+      },
+      {
+        "label": "table_caption",
+        "layout_score": 0.5248439311981201,
+        "bbox_xyxy": [
+          415,
+          246,
+          835,
+          329
+        ],
+        "text": "TABLEAU4 REGIONSDECONFIANCE,PRIXDURISQUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.4536440670490265,
+        "bbox_xyxy": [
+          1048,
+          181,
+          1076,
+          203
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.3864544928073883,
+        "bbox_xyxy": [
+          549,
+          247,
+          703,
+          278
+        ],
+        "text": "TABLEAU4"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.31745654344558716,
+        "bbox_xyxy": [
+          416,
+          300,
+          834,
+          329
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "stem": "page_0014",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9847097992897034,
+        "bbox_xyxy": [
+          173,
+          1136,
+          1078,
+          1502
+        ],
+        "text": "L'inférence par inversion de test portant sur un vecteur de parametres requiert la solution d'un systeme d'inéquations conjointes non linéaires.Ces solutions constituent des surfaces multidimensionnelles qu'il faut projeter sur chacun des axes afin d'isoler l'information pertinente a chaque composante du vecteur d'inté- ret. Pour projeter une région sur un des axes, il faut identifier, dans cette région, la plus petite et la plus grande valeur de la composante pertinente du vecteur. Les régions dont il est question enéconometriesont non standards,possiblement discontinuesetnon convexes,pourlesquelles dessolutionsexplicites analytiques existentexceptionnellement.L'optimisationnumeriqueestdoncsouventinévitable. Lesprogresimportantsenéconometrievontdoncnécessiterdes avanceeset des vulgarisationsrelativesaucalculnumeriqueetinformatique."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9846786260604858,
+        "bbox_xyxy": [
+          173,
+          541,
+          1078,
+          907
+        ],
+        "text": "Les systemes d'équations structurelles découlant des principes d'optimisation sont lesmodeleslepluscommunementutilisespourétudierlesproblematiquesmacroé- conomiques courantes ainsi qu'en finance empirique. L'inference statistique dans ce type de modeles pose des défis considérables, pour plusieurs raisons. Les équations structurellesenmacroeconomiesont<prospectives>etsontexpriméesenfonction desvaleursattenduesdevariablesfondamentales.Cesdernieresnesontpasobser- vables,cependant l'hypothese des attentes rationnelles est couramment imposee.Au niveau multivarie et nonlineaire, les solutions rationnelles impliquent des contraintes non standard et difficiles a caracteriser sur l'espace des parametres. En finance, la dimensionalite ajoute des complexites serieuses au niveau des systemes multivaries. Cesdifficultessontsouventexacerbeesparuneidentificationstatistiquedifficile"
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9834756851196289,
+        "bbox_xyxy": [
+          174,
+          1517,
+          1080,
+          1749
+        ],
+        "text": "Danslecontextemacroéconomique,lesmethodesvalidesenéchantillonsfinis font defaut. On observe un effort récent soutenu dans la discipline pour proposer des methodes asymptotiquesrobustes a I'identification.Ces methodes,meme sielles constituent une amelioration notable par rapport aux outils traditionnels, demeurent approximatives.Lesserieschronologiquesmacroeconomiquessont assezcourtes. Parconséquent,la theorie asymptotique meme robuste a l'identification,offre une solutionnonconcluante."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9814223051071167,
+        "bbox_xyxy": [
+          173,
+          922,
+          1079,
+          1121
+        ],
+        "text": "L'économetrierobusteal'identificationafaitdegrandprogresaucoursdes deux dernieres décennies,en particulier dans le cas des methodes avec variables instrumentales ou moments generalises. Les travaux théoriques sont de plus en plus convainquants.Cependant,ilfaut admettrequelamajoritedesmethodesrecemment proposees,etenparticulierl'inférenceparinversiondetest,nécessitentun calcul informatiqueélaboreetsurtoutnonstandardquel'onpeutrésumercommesuit."
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.9812854528427124,
+        "bbox_xyxy": [
+          174,
+          247,
+          1080,
+          444
+        ],
+        "text": "Si on se contente de tester le modele, on peut facilement accepter un modele mal identifié. Les intervalles de confiance contiennent beaucoup plus d'information qu'untest,surtoutsileurmethodedeconstructionpermetdesensemblesvides. Ces derniersnous empechent d'interpréter desmodelesnon compatibles avecles données.En contraste,les intervalles non bornes nous permettent de discerner un non-rejet,possiblementinutile."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8688805103302002,
+        "bbox_xyxy": [
+          480,
+          182,
+          769,
+          206
+        ],
+        "text": "ACTLIALITEECONOMIOLE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8535990118980408,
+        "bbox_xyxy": [
+          176,
+          181,
+          204,
+          204
+        ],
+        "text": ""
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8347635269165039,
+        "bbox_xyxy": [
+          174,
+          495,
+          307,
+          525
+        ],
+        "text": "CONCLUSION"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "stem": "page_0015",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.9788268804550171,
+        "bbox_xyxy": [
+          172,
+          246,
+          1079,
+          579
+        ],
+        "text": "Les methodes disponibles enéconometriefinancierebuttentencore surl'obstacle engendré par un grand nombre d'actifs ou de portefeuilles (n), d'une part, et un grand nombre de facteurs de risque (k),d'autre part. En effet, passant en revue un grand nombre d'études, Harvey, Liu et Zhu (2013) repertorient 314 facteurs differents que la discipline considere plus ou moinspertinents.La performance empirique des modeles plus parcimonieux, par exemple ceux basés sur la consommation ou, sur le planstatistique,surles momentsgeneralises,n'est guere satisfaisante(voir Stock et Wright, 2000; Stock, Wright et Yogo, 2002; Kleibergen,2009; Lettau et Ludvigson, 2009).C'estpourquoi la mise au point et l'application demethodesexactes quel quesoitnet/oukconstituentdesobjectifsderecherchevalablesetintéressants."
+      },
+      {
+        "label": "title",
+        "layout_score": 0.8849005699157715,
+        "bbox_xyxy": [
+          517,
+          646,
+          734,
+          680
+        ],
+        "text": "BIBLIOGRAPHIE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8471542000770569,
+        "bbox_xyxy": [
+          261,
+          179,
+          1066,
+          206
+        ],
+        "text": ""
+      },
+      {
+        "label": "plain text",
+        "layout_score": 0.7945106029510498,
+        "bbox_xyxy": [
+          170,
+          694,
+          1083,
+          1761
+        ],
+        "text": "ANDERsON, T. W.et H. RuBIN (1949),《 Estimation of the Parameters of a Single Equation in a Complete System of Stochastic Equations >, Annals of Mathemat- icalStatistics,20:46-63 BARONE-ADESI, G., P. GAGLIARDINI et G. URGA (2OO4), 《 Testing Asset Pricing Models with Coskewness>,Journal ofBusiness and EconomicStatistics,22:474-485. BEAULIEU, M.-C., J.-M.DuFOUR et L.KHALAF (2005),< Exact Multivariate Tests of Asset Pricing Models with Stable Asymmetric Distributions >, in BrETon, M.et H.BEN AMEUR(éds),Numerical Methods inFinance,Kluwer,Dordrecht,The Netherlands. BEAULIEU, M.-C., J-M. DuFOUR et L.KHALAF (20O7),<Multivariate Tests of Mean- VarianceEfficiency with Possibly non-GaussianErrors: an Exact Simulation- BasedApproach>,JournalofBusinessandEconomicStatistics,25:398-410. BEAULIEU, M.-C.,J.-M. DuFOUR et L. KHALAF (2O09),《 Testing Three-Moment Based AssetPricingModels:anExact non-GaussianMultivariateRegression Approach>,ComputationalStatisticsandDataAnalysis,53:2008-2021. BEAULIEU, M.-C., J.-M. DuFOUR et L. KHALAF (2O1O), 《 Multifactor Models, Span ning and Heavy-Tailed Distributions: A Multi-Factor FiniteSample Analysis >, JournalofEmpiricalFinance,17:763-782 BEAULIEU,M.-C.,J.-M.DuFOURetL.KHALAF(2O13),《Identification-Robust Estimationand Testing of the Zero-Beta CAPM>,TheReviewof Economic Studies,80(3) :892-924. BEAULIEU, M.-C., J.-M. DuFOUR et L. KHALAF (2O14), 《 Inference in Structural MultivariateFactorModelswithRankRestrictions:FactorProliferationand Weak Identification >, Mimeo. Université Laval, McGill University et Carleton University. BEAULIEU, M.-C., M.-H. GAGNON et L. KHALAF (2O14), 《 Less is More: Identification Robust InferencefromInternational Asset Pricing Models>,Mimeo.Universite Lavalet CarletonUniversity. BLACK, F. (1972), 《 Capital Market Equilibrium with Restricted Borrowing 》, Journal ofBusiness,45:444-454."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.49029797315597534,
+        "bbox_xyxy": [
+          1048,
+          180,
+          1076,
+          203
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "stem": "page_0016",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8614058494567871,
+        "bbox_xyxy": [
+          169,
+          232,
+          1083,
+          1779
+        ],
+        "text": "BLANCHARD, O. et J. GAL1 (20O7), 《 Real Wage Rigidities and the New Keynesian Model >,Journal of Money,Credit and Banking,39:35-65. BLANCHARD, O. et J. GAL1 (2010), 《 Labor Markets Friction and Monetary Policy A New Keynesian Model with Unemployment >, American Economic Journal - Macroeconomics,2 :1-30. CANOvA, F. et L. SALA (2009), 《 Back to Square One: Identification Issues in DSGE Models>,JournalofMonetaryEconomics,56:431-449. CARHART, M. M. (1997),《 On Persistence in Mutual Fund Performance >, Journal ofFinance,52:57-82. CLARIDA, R., J. GAL et M. GERTLER (1999),< The Science of Monetary Policy: A NewKeynesianPerspective >,Journal of Economic Literature,37 : 1661-1707 CocHRANE, J. H. (2011), 《 Determinacy and Identification with Taylor Rules >, JournalofPoliticalEconomy,119:565-615. CoNsOLO, A., C. FAVERO et A. PACCAGNIN1 (2009), 《 On the Statistical Identification of DsGE Models >, Journal of Econometrics, 150 : 99-115. DEL NEGRO,M.,F.ScHORFHEIDE,F.SMETS et R.WoUTERS (2OO7),《On theFit of New Keynesian Models >, Journal of Business and Economic Statistics,25:123-143 DuFoUR, J.-M. (1997), 《 Some Impossibility Theorems in Econometrics with Applications to Structural and Dynamic Models >, Econometrica, 65 : 1365-1389. DuFouR, J.-M. (2001), < Logique et tests d'hypotheses: réfexions sur les problemes mal posés en économétrie >, L'Actualité économique, 77 : 171-190. DuFouR,J.-M.(2O03),<Identification,WeakInstrumentsandStatisticalInference inEconometrics>,CanadianJournalofEconomics,36:767-808. DuFouR,J.-M.(2006),<MonteCarloTestswith NuisanceParameters:A General Approach to Finite Sample Inference and Nonstandard Asymptotics in Econo- metrics >,Journal of Econometrics,133 : 443-478. DUFOUR, J.-M, L. KHALAF et M. KIcHIAN (2006), < Inflation Dynamics and the New Keynesian Phillips Curve: An Identification Robust Econometric Analysis >, Journal of Economic Dynamic and Control,30:1707-1728. DuFOUR, J.-M., L. KHALAF et M. KICHIAN (2O1O), 《 Estimation Uncertainty in Struc- tural Inflation Models with Real Wage Rigidities >, Computational Statistics andDataAnalysis,54:2554-2561. DUFOUR, J.-M., L. KHALAF et M. KICHIAN (2O13), 《 Identification-Robust Analysis of DSGE and Structural Macroeconomic Models >, Journal of Monetary Economics, 60:340-350. EICHENBAUM, M. et J. FisHER (2OO7),《 Estimating the Frequency of Price Re-optimizationinCalvo-StyleModels>,JournalofMonetaryEconomics, 54:2032-2047. FAMA, E. F. et K. R. FRENCH (1992), 《 The Cross-Section of Expected Stock Re- turns >, Journal of Finance, 47 : 427-465. FAMA,E.F.et K.R.FRENcH(1993),《Common Risk Factors in theReturns on Stocks and Bonds >,Journal of Financial Economics,33 :3-56."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.821895182132721,
+        "bbox_xyxy": [
+          173,
+          179,
+          206,
+          205
+        ],
+        "text": ""
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8165850043296814,
+        "bbox_xyxy": [
+          479,
+          180,
+          770,
+          208
+        ],
+        "text": ""
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "stem": "page_0017",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8931869268417358,
+        "bbox_xyxy": [
+          169,
+          230,
+          1085,
+          1780
+        ],
+        "text": "FAMA, E. F. et K. R. FRENCH (1995), < Size and Book-to-Market Factors in Earnings and Returns >, The Journal of Finance, 50 : 131-155. FAMA, E. F. et K. R. FRENCH (1996), 《 Multifactor Explanation of Asset Pricing Anomalies >, Journal of Finance, 51 : 55-84. FAMA, E. F. et K. R. FRENCH (2004), 《 The Capital Asset Pricing Model: Theory and Evidence >, Journal of Economic Perspectives,18 : 25-46 FAMA, E. F. et J. MAcBETH (1973), 《 Risk, Return, and Equilibrium: Empirical Tests >, Journal of Political Economy, 71 : 607-636. FERNANDEZ-VILLAVERDE, J., J. RUBIO-RAMIREZ, T. SARGENT et M. WATSON (2OO7), 《ABCs (and Ds) of UnderstandingVARs >,The American Economic Review, 97: 1021-1026. GIBBONs, M., S. RosS et J. SHANKEN (1989), 《 A Test of the Efficiency of a Given Portfolio>,Econometrica,57:1121-1152 GosPODINov,N.,R.KANetC.RoBOTT1(2013),《RobustInferenceinLinear Asset Pricing Models >, Rotman School of Management Working paper no. 2179620. GUERRON-QuINTANA, P. A., A. INOUE et L. KILIAN (2O13), 《 Frequentist Inference in Weakly Identified DsGE >, Quantitative Economics, 4 : 197-229. HARvEY, C. R., Y. LIU et H. ZHU (2013), 《 .. and the Cross-Section of Expected Returns >, Working paper, Duke University. IsKREv, N. (2010), < Local Identification in DSGE Models >, Journal of Monetary Economics,57:189-202 KAN,R.et C.ZHANG(1999a),<GMMTestsof Stochastic DiscountFactor Models withUselessFactors>,JournalofFinancialEconomics,54:103-127. KAN,R.etC.ZHANG(1999b),《Two-PassTestsofAssetPricingModelswith UselessFactors>,JournalofFinance,54:204-235. KANDEL, S. et R. F. STAMBAUGH (1989), 《 A Mean-Variance Framework for Tests of Asset Pricing Models >, The Review of Financial Studies, 2 : 125-156. KHALAF, L. et H. ScHALLER (2013), < How Fama-MacBeth Can Go Wrong - and an Informative Solution >, Working paper, Carleton University. KLEIBERGEN, F. (2009), < Tests of Risk Premia in Linear Factor Models >, Journal of Econometrics, 149 : 149-173. KLEIBERGEN, F. et S. MAVROEIDIS (2O09), < Weak Instrument Robust Tests in GMM and theNewKeynesianPhillips Curve>,Journal of Business and Economic Statistics,27:293-311 KLEIBERGEN, F. et Z. ZHAN (2013), < Unexplained Factors and Their Effects on Second-pass R-squared's and t-tests >, Working paper, Brown University. KoMUNJER, I. et S. NG (2011), 《 Dynamic Identification of DSGE Models >, Econo- metrica, 79 : 1995-2032. KRAUs, A. et R. LITzENBERGER (1976),< Skewness Preference and the Valuation of Risk Assets >, Journal of Finance, 31 : 1085-1100. LETTAU, M. et S. C. LuDvIGsON (2009), 《 Euler Equation Errors’ >, Review of Economic Dynamics,12 :255-283."
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.858536422252655,
+        "bbox_xyxy": [
+          259,
+          178,
+          1075,
+          207
+        ],
+        "text": "LECONOMETRIEET 21"
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "stem": "page_0018",
+    "blocks": [
+      {
+        "label": "plain text",
+        "layout_score": 0.8742073774337769,
+        "bbox_xyxy": [
+          168,
+          237,
+          1085,
+          1488
+        ],
+        "text": "LEWELLEN, J., S. NAGEL et J. SHANKEN (2O1O),《 A Skeptical Appraisal of Asset- Pricing Tests >,Journal of Financial Economics,96:175-194. LINDE, J. (2005),< Estimating New Keynesian Phillips Curves: A Full Information Maximum Likelihood Approach >,Journal of Monetary Economics, 52 : 1135-1149. MALINvAUD,E.(1997),<Léconométrie dans lélaboration théorique et 1étude des politiques>,L'Actualitééconomique,73 : 11-25. MAvROEIDIs, S.(2004),<Weak Identification of Forward-Looking Models in Mon- etaryEconomics >,Oxford Bulletin ofEconomics and Statistics,66:609-635. MAvRoEIDIs,S.(2OO5),《IdentificationIssuesinForward-LookingModelsEsti- mated by GMM, with an Application to the Phillips Curve >, Journal of Money Creditand Banking,37:421-448. MAvRoEIDIs, S. (2010), 《 Monetary Policy Rules and Macroeconomic Stability: SomeNewEvidence>,AmericanEconomicReview,100:491-503. SAMUELsON, P. (1967),《 On Multivariate Tests of the Capital Asset Pricing Model >, JournalofFinancialandQuantitativeAnalysis,2:107-122 SENTANA, E. (2009),《 The Econometrics of Mean-Variance Efficiency Tests: A Survey >,Econometrics Journal,12 :C65-C101. SHANKEN,J.(1985),《Multivariate Tests of the Zero-Beta CAPM>, Journal of FinancialEconomics,14:327-348 SHANKEN, J. (1992),《 On the Estimation of Beta-Pricing Models >,Review of FinancialStudies,5:1-34. SHANKEN, J. (1996). 《 Statistical Methods in Tests of Portfolio Efficiency: A Synthe- sis >in G.S.MADDALA et C.R.RAo(éds),HandbookofStatistics14:Statistical MethodsinFinance,North-Holland,Amsterdam,p.693-711. SHANKEN, J. et G. ZHoU (2007), 《 Estimating and Testing Beta Pricing Models: AlternativeMethods and their PerformanceinSimulations >,Journal of Finan- cialEconomics,84:40-86 STocK,J.H.(201O),《TheOtherTransformationinEconometricPractice:Robust Tools for Inference >,Journal of Economic Perspectives,24 :83-94. STocK,J.H.et J.H.WRIGHT (200O),《GMM with Weak Identification >,Econo- metrica,68:1097-1126. STocK, J. H., J. H. WRIGHT et M. YoGo (2002), 《 A Survey of Weak Instruments and WeakIdentificationinGeneralizedMethodof Moments>,Journal ofBusiness and EconomicStatistics,20:518-529"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8240455389022827,
+        "bbox_xyxy": [
+          479,
+          181,
+          770,
+          207
+        ],
+        "text": "'ACTUALITEECONOMIOUE"
+      },
+      {
+        "label": "abandon",
+        "layout_score": 0.8145771026611328,
+        "bbox_xyxy": [
+          172,
+          179,
+          205,
+          205
+        ],
+        "text": ""
+      }
+    ]
+  }
+]
