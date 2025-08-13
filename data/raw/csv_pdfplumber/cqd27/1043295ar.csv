@@ -1,0 +1,110 @@
+page,table_id,col_1,col_2,col_3
+11,1,Caractéristiques,,%
+11,1,Sexe,Homme,43
+11,1,,femme,57
+11,1,Âge,25 à 29 ans,7
+11,1,,30 à 34 ans,18
+11,1,,35 à 39 ans,23
+11,1,,40 à 44 ans,22
+11,1,,45 à 50 ans,30
+11,1,État matrimonial,Marié,37
+11,1,,Union libre,63
+11,1,Type de famille,Intacte avec enfant,56
+11,1,,Intacte sans enfant,20
+11,1,,Recomposée simple,9
+11,1,,Recomposée féconde,10
+11,1,,Recomposée complexe,6
+11,1,Type de couple,Sexes opposés,95
+11,1,,Même sexe,5
+11,1,Scolarité des répondants,Diplôme d’études secondaires ou moins,28
+11,1,,Diplôme collégial,32
+11,1,,Diplôme universitaire,40
+11,1,Répartition géographique,Montréal,52
+11,1,,Québec,9
+11,1,,Ailleurs au Québec,40
+11,1,Occupation des conjoints,Deux conjoints sur le marché du travail à plein temps,62
+11,1,,Un plein temps / l’autre temps partiel,11
+11,1,,Un plein temps / l’autre sans emploi,14
+11,1,,Autres situations,13
+11,1,Revenu annuel du répondant,Moins de 20 000 $,12
+11,1,,20 000 à 39 999 $,27
+11,1,,40 000 à 59 999 $,29
+11,1,,60 000 à 79 999 $,18
+11,1,,80 000 $ et plus,15
+11,1,Revenu familial annuel,Moins de 40 000 $,6
+11,1,,40 000 à 79 999 $,27
+11,1,,80 000 à 99 999 $,18
+11,1,,100 000 $ et plus,49
+14,1,Modes de gestion,"Marié
+(n = 1115)
+%","Union libre avec contrat
+(n = 182)
+%","Union libre
+(n = 1687)
+%","Ensemble
+%"
+14,1,Mise en commun,65,45,41,50
+14,1,Prorata,19,26,28,24
+14,1,Allocation domestique,8,8,8,8
+14,1,50-50,8,21,23,18
+14,1,Total,100,100,100,100
+15,1,Caractéristiques,,%,χ2
+15,1,Âge des répondants,25 à 29 ans,43,"4,232n.s."
+15,1,,30 à 34 ans,49,
+15,1,,35 à 39 ans,50,
+15,1,,40 à 44 ans,48,
+15,1,,45 à 50 ans,50,
+15,1,Langue parlée à la maison,français,47,"25,587***"
+15,1,,Anglais ou autre,61,
+15,1,État matrimonial,Marié,65,"172,887***"
+15,1,,Union libre,40,
+15,1,Scolarité,Diplôme d’études secondaires ou moins,52,"3,961n.s."
+15,1,,Diplôme collégial,49,
+15,1,,Diplôme universitaire,47,
+15,1,Occupation des conjoints,Deux conjoints sur le marché du travail à plein temps,47,"11,763**"
+15,1,,Un plein temps / l’autre temps partiel,52,
+15,1,,Un plein temps / l’autre sans emploi,56,
+15,1,,Autres situations,49,
+15,1,Revenu familial,Moins de 40 000 $,62,"19,382***"
+15,1,,40 000 à 79 999 $,54,
+15,1,,80 000 à 99 999 $,45,
+15,1,,100 000 $ et plus,47,
+15,1,Type de famille,Couple ayant un enfant commun,56,"118,462***"
+15,1,,famille recomposée sans enfant commun,31,"68,486***"
+15,1,Durée de l’union,3 ans et moins,24,"173,685***"
+15,1,,4 à 10 ans,44,
+15,1,,11 à 15 ans,51,
+15,1,,Plus de 15 ans,62,
+15,1,Contrat d’union,Union libre ayant un contrat de vie commune,10,"1,113n.s."
+15,1,Connaissances juridiques,Trois bonnes réponses,41,"26,494***"
+15,1,,Une ou deux bonnes réponses,50,
+15,1,,Aucune bonne réponse,55,
+15,1,Propriétaires / locataires,Maison ou logement au nom d’un seul conjoint,32,"125,127***"
+15,1,,Bail aux noms des deux conjoints,55,
+15,1,,Conjoints copropriétaires,44,
+17,1,Variables,Rapports de cote,Modèle 1,Modèle 2
+17,1,Constante,,"1,024","0,883"
+17,1,Âge,"(-) 0,957","(-) 0,973***","(-) 0,971***"
+17,1,français parlé à la maison,"(-) 0,560***","(-) 0,486***","(-) 0,572***"
+17,1,Diplômes d’études secondaires ou moins,"1,349**","1,217*","1,289**"
+17,1,Revenu familial de moins de 40 000$ \ an,"1,742**","1,544*","1,522*"
+17,1,Occupation (2 conjoints à plein temps),,,
+17,1,Plein temps / temps partiel,"1,198","1,128","1,099"
+17,1,Un plein temps / sans-emploi,"1,419***","1,451**","1,366*"
+17,1,Autres situations,"1,030","1,129","1,141"
+17,1,Durée d’union (3 ans ou moins),,,
+17,1,4 à 10 ans,"2,468***","1,719***","1,666***"
+17,1,11 à 15 ans,"3,269***","2,268***","2,098***"
+17,1,Plus de 15 ans,"5,224***","4,142***","3,505***"
+17,1,Couple ayant un enfant commun,"2,367***","1,481***","1,363**"
+17,1,famille recomposée sans enfant commun,"(-) 0,411***",—,—
+17,1,Connaissances juridiques (trois bonnes réponses),,,
+17,1,Une ou deux bonnes réponses,"1,702***","0,880","0,920"
+17,1,Aucune bonne réponse,"1,405***","0,605***","0,697**"
+17,1,"Propriétaires / locataires (maison ou logement au nom
+d’un seul conjoint)",,,
+17,1,Bail aux noms des deux conjoints,"2,570***","2,223***","2,185***"
+17,1,Conjoints copropriétaires,"2,638***","2,071***","1,201***"
+17,1,État matrimonial (union libre),,,
+17,1,Marié,"2,738***",,"1,906***"
+17,1,Aire sous la courbe ROC,,69 %,70 %

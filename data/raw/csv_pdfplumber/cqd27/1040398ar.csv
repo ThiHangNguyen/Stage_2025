@@ -1,0 +1,162 @@
+page,table_id,col_1,col_2,col_3
+4,1,,effectifs,"Sous-estimation par rapport
+à l’état civil (%)"
+4,1,naissances enregistrées par l’état civil,793 254,
+4,1,enfants recensés,753 614,"5,0"
+4,1,enfants hors ménage,4 470,"0,6"
+4,1,enfants hors famille,7 483,"0,9"
+4,1,enfants non associés à une mère,5 679,"0,7"
+4,1,nombre total d’enfants associés à une mère,735 982,"7,2"
+5,1,Âge,Source,,"écart relatif (en %)
+[(2) - (1)] / (1)"
+5,1,,état civil (1),méthode DeF (2),
+5,1,15,196,35,"- 82,0"
+5,1,16,694,143,"- 79,4"
+5,1,17,1 736,443,"- 74,5"
+5,1,18,3 573,2 483,"- 30,5"
+5,1,15-18 ans,6 199,3 104,"- 49,9"
+9,1,"exemple
+du ménage",Âge,Sexe,"numéro de la
+femme au sein
+de la famille","Lien à la personne
+de référence
+de la famille","Lien à la personne
+de référence
+du ménage","vit en
+couple"
+9,1,a1,45,homme,-,Chef de la famille,Chef du ménage,oui
+9,1,a1,43,Femme,1,Conjointe du chef,Conjointe du chef,oui
+9,1,a1,16,homme,-,enfant du chef,enfant du chef,non
+9,1,a1,16,Femme,2,enfant du chef,enfant du chef,non
+9,1,a1,1,Femme,-,enfant du chef,enfant du chef,non
+9,1,a2,45,Femme,1,Chef de la famille,Chef du ménage,non
+9,1,a2,23,Femme,2,enfant du chef,enfant du chef,non
+9,1,a2,21,Femme,3,enfant du chef,enfant du chef,non
+9,1,a2,1,homme,-,enfant du chef,enfant du chef,non
+9,1,a3,56,homme,-,Chef de la famille,Chef du ménage,oui
+9,1,a3,43,Femme,1,Conjointe du chef,Conjointe du chef,oui
+9,1,a3,17,Femme,2,enfant du chef,enfant du chef,non
+9,1,a3,10,homme,-,enfant du chef,enfant du chef,non
+9,1,a3,4,Femme,-,enfant du chef,enfant du chef,non
+9,1,a3,1,homme,-,enfant du chef,enfant du chef,non
+9,1,a4,50,homme,-,Chef de la famille,Chef du ménage,oui
+9,1,a4,51,Femme,1,Conjointe du chef,Conjointe du chef,oui
+9,1,a4,22,Femme,2,enfant du chef,enfant du chef,non
+9,1,a4,15,Femme,-,enfant du chef,enfant du chef,non
+9,1,a4,1,Femme,-,enfant du chef,enfant du chef,non
+11,1,"exemple
+du ménage",Âge,Sexe,"Lien à la personne
+de référence de la famille","Lien à la personne
+de référence du ménage","vit en
+couple"
+11,1,b1,49,homme,Chef de la famille,Chef du ménage,oui
+11,1,b1,48,Femme,Conjointe du chef,Conjointe du chef,oui
+11,1,b1,1,homme,enfant du chef,enfant du chef,non
+11,1,b2,31,homme,Chef de la famille,Chef du ménage,oui
+11,1,b2,60,Femme,Conjointe du chef,enfant du chef,oui
+11,1,b2,1,homme,enfant du chef,enfant du chef,non
+11,1,b3,60,homme,Chef de la famille,Chef du ménage,oui
+11,1,b3,55,Femme,Conjointe du chef,Conjointe du chef,oui
+11,1,b3,21,Femme,hors famille,autre parent,non
+11,1,b3,1,Femme,enfant du chef,enfant du chef,non
+11,1,b4,54,homme,Chef de la famille,Chef du ménage,oui
+11,1,b4,55,Femme,Conjointe du chef,Conjointe du chef,oui
+11,1,b4,1,homme,enfant du chef,enfant du chef,non
+11,1,b5,58,homme,Chef de la famille,Chef du ménage,oui
+11,1,b5,51,Femme,Conjointe du chef,Conjointe du chef,oui
+11,1,b5,20,homme,enfant du chef,enfant du chef,non
+11,1,b5,1,homme,enfant du chef,enfant du chef,non
+14,1,"exemple
+du ménage",Âge,Sexe,"Lien à la personne
+de référence de la famille","Lien à la personne
+de référence du ménage","vit en
+couple"
+14,1,C1,25,homme,Chef de la famille,Chef du ménage,non
+14,1,C1,27,Femme,hors famille,ami,non
+14,1,C1,1,homme,enfant du chef,enfant du chef,non
+14,1,C2,31,homme,Chef de la famille,Chef du ménage,non
+14,1,C2,8,homme,enfant du chef,enfant du chef,non
+14,1,C2,1,Femme,enfant du chef,enfant du chef,non
+15,1,"exemple
+du ménage",Âge,Sexe,"Lien à la personne de
+référence de la famille","Lien à la personne de
+référence du ménage",vit en couple
+15,1,D1,32,homme,Chef de la famille,Chef du ménage,oui
+15,1,D1,27,Femme,Conjointe du chef,Conjointe du chef,oui
+15,1,D1,75,homme,Chef de la famille,ascendant,oui
+15,1,D1,75,Femme,Conjointe du chef,ascendant,oui
+15,1,D1,4,Femme,hors famille,enfant du chef,non
+15,1,D1,1,Femme,hors famille,enfant du chef,non
+15,1,D2,58,Femme,Chef de la famille,Chef du ménage,non
+15,1,D2,21,Femme,enfant du chef,enfant du chef,non
+15,1,D2,1,Femme,hors famille,petit-enfant du chef,non
+15,1,D3,33,homme,hors famille,Chef du ménage,oui
+15,1,D3,23,Femme,hors famille,autre parent,oui
+15,1,D3,12,homme,hors famille,autre parent,non
+15,1,D3,1,homme,hors famille,autre parent,non
+16,1,Âge,Source,,,"écart relatif
+(en %)
+[(2) — (1)] / (1)","écart relatif
+(en %, après améliorations)
+[(3) — (1)] / (1)"
+16,1,,"état civil
+(1)","méthode DeF
+(2)","méthode DeF
+améliorée (3)",,
+16,1,15,196,35,149,"- 82,0","- 24,0"
+16,1,16,694,143,351,"- 79,4","- 49,4"
+16,1,17,1 736,443,1 016,"- 74,5","- 41,5"
+16,1,18,3 573,2 483,2 600,"- 30,5","- 27,2"
+16,1,15-18 ans,6 199,3 104,4 116,"- 49,9","- 33,6"
+18,1,,,
+19,1,réattributions / nouvelles attributions,,,
+19,1,étape,Cas vérifiables,"vraie mère
+identifiée",% vraie mère
+19,1,a2,2 (1),2 (1),100 (100)
+19,1,a4,2 (1),2 (1),100 (100)
+19,1,C1,19 (3),14 (3),74 (100)
+19,1,D3,38,38,100
+19,1,b3,3,3,100
+19,1,ens.,64 (5),59 (5),92
+19,1,total % vraie mère,,,93 (100)
+19,2,aucune réattribution,,,
+19,2,étape,Cas vérifiables,"vraie mère
+identifiée",% vraie mère
+19,2,a1,7,7,100
+19,2,a3,17,13,76
+19,2,b1,45*,44,98
+19,2,b4,7,7,100
+19,2,,,,
+19,2,ens.,122,71,93
+23,1,,"identifiées avant amélioration
+(n = 3 077)",,"identifiée après amélioration
+(n = 1 003)",
+23,1,,n,%,n,%
+23,1,Âge à la naissance,,,,
+23,1,15,33,"1,1",113,"11,3"
+23,1,16,143,"4,6",209,"20,8"
+23,1,17,443,"14,4",565,"56,3"
+23,1,18,2 458,"79,9",116,"11,6"
+23,1,Diplôme,,,,
+23,1,inf. au brevet,1 501,"48,8",532,"53,0"
+23,1,brevet,741,"24,1",284,"28,3"
+23,1,Cap / bep,610,"19,8",121,"12,1"
+23,1,bac ou plus,224,"7,3",66,"6,6"
+23,1,Activité,,,,
+23,1,active,205,"6,7",74,"7,4"
+23,1,Chômeuse,863,"28,0",145,"14,5"
+23,1,étudiante,404,"13,1",349,"34,8"
+23,1,inactive,1 605,"52,2",435,"43,4"
+23,1,Immigrée,,,,
+23,1,oui,321,"10,4",97,"9,7"
+23,1,non,2 755,"89,6",906,"90,3"
+23,1,Statut de couple,,,,
+23,1,"en couple, mariée",249,"8,1",23,"2,3"
+23,1,"en couple, célibataire",1 390,"45,2",426,"42,5"
+23,1,hors couple,1 437,"46,7",554,"55,2"
+23,1,Vit avec parents,,,,
+23,1,oui,0,"0,0",675,"67,2"
+23,1,non,3 077,"100,0",329,"32,8"
+23,1,Vit dans un logement social,,,,
+23,1,oui,1 002,"32,6",370,"36,9"
+23,1,non,2 075,"67,4",633,"63,1"

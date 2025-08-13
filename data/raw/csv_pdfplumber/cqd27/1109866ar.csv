@@ -1,0 +1,200 @@
+page,table_id,col_1,col_2,col_3,col_4,col_5
+10,1,,"hommes
+(N : 6340)",,"Femmes
+(N : 9115)",
+10,1,,moyenne,proportion,moyenne,proportion
+10,1,Variable dépendante,,,,
+10,1,Valeur nette,241 932 $,,247 561 $,
+10,1,Variables indépendantes,,,,
+10,1,Genre (réf. homme),,"0,46",,"0,54"
+10,1,Sans enfant dans le ménage (réf. avec enfants),,"0,96",,"0,83"
+10,1,Revenu du ménage,39 618 $,,32 622 $,
+10,1,Réception d’une maison en héritage (réf. non),,"0,04",,"0,04"
+10,1,Actifs possédés,,,,
+10,1,possession d’une maison (réf. non),,"0,33",,"0,38"
+10,1,possession de fonds mutuels (réf. non),,"0,17",,"0,18"
+10,1,possession d’une entreprise (réf. non),,"0,12",,"0,05"
+10,1,Âge du répondant,45,,52,
+10,1,Niveau d’éducation (réf. diplôme d’études secondaires),,"0,27",,"0,22"
+10,1,pas de diplôme secondaire,,"0,20",,"0,26"
+10,1,Diplôme d’une école de métier,,"0,33",,"0,33"
+10,1,Diplôme universitaire,,"0,20",,"0,19"
+10,1,Né au Canada (réf. non),,"0,80",,"0,80"
+10,1,Statut matrimonial (ref. séparé),,"0,11",,"0,12"
+10,1,En couple,,"0,04",,"0,02"
+10,1,Divorcé,,"0,16",,"0,22"
+10,1,Veuf,,"0,09",,"0,22"
+10,1,Célibataire,,"0,60",,"0,42"
+10,1,Région de résidence,,"0,27",,"0,27"
+10,1,Atlantique,,"0,06",,"0,07"
+10,1,Québec,,"0,27",,"0,27"
+10,1,ontario,,"0,34",,"0,35"
+10,1,prairies,,"0,18",,"0,16"
+10,1,Colombie- Britannique,,"0,15",,"0,14"
+13,1,,25e percentile,,50e percentile,,90e percentile,
+13,1,,"Coeffi-
+cient","écart-
+type","Coeffi-
+cient","écart-
+type","Coeffi-
+cient","écart-
+type"
+13,1,Variables indépendantes,,,,,,
+13,1,Genre (réf. homme),466,881,-6 513,3 443,-45 771*,18 640
+13,1,Sans enfant (réf. avec enfants),-792,1 472,-8 545,6 054,-21 351,23 000
+13,1,Variables de contrôle,,,,,,
+13,1,Âge,817*,88,4 007*,209,14 569*,704
+13,1,Âge au carré,"7,23*","3,06","4,54","8,13","-152,43","30,55"
+13,1,Niveau d’éducation (réf. diplôme d’études secondaires),,,,,,
+13,1,pas de diplôme secondaire,-16 080*,2 111,-70 605*,5 454,-13 8164*,25 708
+13,1,Diplôme d’une école de métier,2 583*,828,10 583*,3 958,-8 562,22 550
+13,1,Diplôme universitaire,10 432*,1 747,43 289*,8 358,30 4932*,46 216
+13,1,Immigrant (réf. né au Canada),-6 366*,1 317,-20 227*,4 463,-56 493*,25 005
+13,1,Statut matrimonial (réf. séparé),,,,,,
+13,1,En couple,-1 479,2 783,-11 305,27 480,27 3681*,93 117
+13,1,Divorcé,1 688,2 840,21 856,12 060,85 715*,40 228
+13,1,Veuf,25 219*,6 774,82 560*,13 121,193 226*,34 488
+13,1,Célibataire,1 150,1 844,-1 777,7 153,59 971,36 637
+13,1,Région de résidence (réf. ontario),,,,,,
+13,1,Atlantique,-2 419,1 328,-18 218*,5 790,-66 452*,22 124
+13,1,Québec,-1 244,1 074,-15 771*,4 514,-82 480*,19 578
+13,1,prairies,4 106*,1 430,6 663,4 028,-3 581,21 026
+13,1,Colombie- Britannique,372,1 353,5 769,6 191,93 402,49 991
+13,1,Année (réf. 2016),,,,,,
+13,1,1999,-3 562*,1 038,-30 976*,4 950,-195 107*,22 920
+13,1,2005,-2 551,1 423,-25 069*,5 713,-169 423*,28 187
+13,1,2012,-5 119*,1 316,-16 045*,4 914,-96 700*,28 432
+13,1,Constante,16 367*,2 052,137 621*,10 361,733 189,41 817
+14,1,Série de modèles,Présence d’enfants,25e percentile,50e percentile,90e percentile
+14,1,"Modèles 1
+(Variables sociodémographiques)",Tous,466,-6 513,-45 771*
+14,1,"Modèles 2
+(Variables sociodémographiques)",Avec Enfant(s),-9 858*,-60 842*,-252 627*
+14,1,,Sans Enfant,1 132,-4 276,-36 239
+14,1,"Modèles 3
+(Modèle 1 + Revenu)",Avec Enfant(s),-2 220,-14 244,-138 573*
+14,1,,Sans Enfant,3 873,7 494,17 184
+14,1,"Modèles 4
+(Modèle 2 + Transferts)",Avec Enfant(s),-2 865,-12 624,-106 525
+14,1,,Sans Enfant,4 049,6 298,26 293
+14,1,"Modèles 5
+(Modèle 3 + Actifs haut rendement)",Avec Enfant(s),3 138,3 460,12 698
+14,1,,Sans Enfant,3 365,4 306,13 254
+15,1,,Coefficient,écart- type,,
+15,1,Variables indépendantes,,,,
+15,1,Genre (réf. homme),"0,76*","0,10",,
+15,1,Variables de contrôle,,,,
+15,1,Âge,"1,04*","0,00",,
+15,1,Niveau d’éducation (réf. diplôme d’études secondaires),,,,
+15,1,pas de diplôme secondaire,"0,63*","0,10",,
+15,1,Diplôme d’une école de métier,"0,87","0,14",,
+15,1,Diplôme universitaire,"0,68","0,16",,
+15,1,Né au Canada (réf. oui),"0,56*","0,11",,
+15,1,Revenu du ménage,"1,00","0,02",,
+15,1,Sans enfant (réf. avec enfants),"0,70","0,14",,
+15,1,Statut matrimonial (réf. séparé),,,,
+15,1,En couple,"1,46","0,85",,
+15,1,Divorcé,"1,24","0,28",,
+15,1,Veuf,"1,47","0,34",,
+15,1,Célibataire,"2,23*","0,45",,
+15,1,Région de résidence (réf. ontario),,,,
+15,1,Atlantique,"2,06*","0,32",,
+15,1,Québec,"1,16","0,20",,
+15,1,prairies,"0,82","0,13",,
+15,1,Colombie- Britannique,"1,15","0,24",,
+15,1,Année (réf. 2016),,,,
+15,1,1999,"1,15","0,17",,
+15,1,2005,"1,38","0,24",,
+15,1,2012,"1,15","0,18",,
+15,1,Constante,"0,025","0,008",,
+17,1,,"Entreprise
+(N : 15 205)",,"Fonds mutuels
+(N : 15 204)",,"Résidence
+(N : 15 204)",
+17,1,,Coefficient,écart- type,Coefficient,écart- type,Coefficient,écart- type
+17,1,Variables indépendantes,,,,,,
+17,1,Genre (réf. homme),"0,43*","0,04","1,12","0,08","1,03","0,06"
+17,1,Variables de contrôle,,,,,,
+17,1,Âge,"1,00","0,00","1,02*","0,00","1,05*","0,00"
+17,1,Âge au carré,"1,00*","0,00","1,0*","0,00","1,00*","0,00"
+17,1,Niveau d’éducation (réf. diplôme d’études secondaires),,,,,,
+17,1,pas de diplôme secondaire,"0,52*","0,09","0,40*","0,42","0,70*","0,06"
+17,1,Diplôme d’une école de métier,"1,28","0,18","1,12","0,10","1,25*","0,09"
+17,1,Diplôme universitaire,"1,95*","0,30","1,70*","0,177","1,19*","0,10"
+17,1,Né au Canada (réf. oui),"0,84","0,12","0,85","0,08","0,79*","0,06"
+17,1,Revenu du ménage,"0,98","0,02","1,13*","0,01","1,27*","0,02"
+17,1,Sans enfant (réf. avec enfants),"0,79","0,10","1,16","0,08","0,65*","0,06"
+17,1,Statut matrimonial (réf. séparé),,,,,,
+17,1,En couple,"1,11","0,34","0,82","0,19","1,11","0,21"
+17,1,Divorcé,"0,93","0,13","1,23","0,14","1,29*","0,12"
+17,1,Veuf,"1,03","0,16","1,35*","0,17","1,92*","0,20"
+17,1,Célibataire,"0,73*","0,10","1,43*","0,17","1,06","0,10"
+17,1,Région de résidence (réf. ontario),,,,,,
+17,1,Atlantique,"0,54*","0,08","0,69*","0,08","1,61*","0,13"
+17,1,Québec,"0,66*","0,09","0,54*","0,05","0,73*","0,06"
+17,1,prairies,"1,03","0,12","0,87","0,07","1,32*","0,10"
+17,1,Colombie- Britannique,"1,29","0,18","1,09","0,10","1,14","0,10"
+17,1,Année (réf. 2016),,,,,,
+17,1,1999,"0,97","0,10","2,37*","0,19","0,90","0,06"
+17,1,2005,"0,87","0,13","1,26*","0,13","0,87","0,07"
+17,1,2012,"0,83","0,11","1,27*","0,11","0,98","0,07"
+17,1,Constante,"0,34*","0,06","0,10*","0,02","0,85","0,11"
+18,1,,25e percentile,,50e percentile,,90e percentile,
+18,1,,Coefficient,écart- type,Coefficient,écart- type,Coefficient,écart- type
+18,1,Variables indépendantes,,,,,,
+18,1,Genre (réf. homme),1 672,1 027,-4 071,4 248,-48 946*,22 834
+18,1,Résident du Québec (réf. non),741,1 259,-11 452*,5 800,-92 546*,29 322
+18,1,Genre X Résident du Québec,-4 418*,1 527,-6 217,6 849,10 540,32 554
+18,1,Constante,15 626,2 468,134 162*,11 007,743 074*,44 093
+27,1,,25e percentile,,50e percentile,,90e percentile,
+27,1,,Coefficient,écart-type,Coefficient,écart-type,Coefficient,écart-type
+27,1,Variables indépendantes,,,,,,
+27,1,Genre (réf. homme),-9 858*,3 426,-60 842*,23 068,-252 627*,81 032
+27,1,Sans enfant (réf. avec enfants),-10 313*,3 375,-56 923*,23 113,-218 625*,81 264
+27,1,Genre X Sans enfant,10 989*,3 528,56 566*,23 272,216 388*,82 878
+27,1,Constante,25 945*,3 870,183 702*,23 748,906 105*,86 034
+27,2,,25e percentile,,50e percentile,,90e percentile,
+27,2,,Coefficient,écart-type,Coefficient,écart-type,Coefficient,écart-type
+27,2,Variables indépendantes,,,,,,
+27,2,Genre (réf. homme),-2 220,4 759,-14 244,19 749,-138 573*,48 175
+27,2,Sans enfant (réf. avec enfants),-390,4 749,-8 524,19 800,-93 642,49 146
+27,2,Genre X Sans enfant,6 093,4 897,21 738,19 848,155 757*,50 659
+27,2,Revenu du ménage,13 953*,573,30 819*,1 143,69 962*,4 478
+27,2,Constante,33 338*,4 986,132 942*,20 368,696 294*,55 156
+28,1,,25e percentile,,50e percentile,,90e percentile,
+28,1,,Coefficient,écart-type,Coefficient,écart-type,Coefficient,écart-type
+28,1,Variables indépendantes,,,,,,
+28,1,Genre (réf. homme),-2 865,5 028,-12 624,18 741,-106 525,76 892
+28,1,Sans enfant (réf. avec enfants),-895,5 037,-7 330,18 779,-65 641,76 747
+28,1,Genre X Sans enfant,6 914,5 251,18 922,18 926,132 818,77 815
+28,1,Revenu du ménage,13 881*,616,31 015*,1 088,71 716*,4 405
+28,1,maison reçue en héritage (réf. non),139 528*,13 836,206 744*,9 097,455 905*,102 612
+28,1,Constante,33 723*,5 504,126 731*,19 264,645 476*,80 325
+28,2,,25e percentile,,50e percentile,,90e percentile,
+28,2,,Coefficient,écart- type,Coefficient,écart- type,Coefficient,écart- type
+28,2,Variables indépendantes,,,,,,
+28,2,Genre (réf. homme),3 138,3 516,-3 460,4 472,12 698,36 714
+28,2,Sans enfant (réf. avec enfants),4 545,3 448,1 457,4 660,34 219,36 448
+28,2,Genre X Sans enfant,227,3 579,7 766,4 765,556,37 800
+28,2,Revenu du ménage,7 602*,454,15 533*,879,44 953*,2 798
+28,2,maison reçue en héritage (réf. non),32 010,17 202,15 887,28 535,174 861*,70 707
+28,2,Actifs,,,,,,
+28,2,Entreprise (réf. non),12 028*,1 337,31 069*,8 596,406 575*,105 019
+28,2,maison (réf. non),127 140*,5 307,246 394*,9 333,525 214*,21 748
+28,2,Fonds mutuels (réf. non),41 972*,4 757,95 934*,11 855,419 334*,38 588
+28,2,Constante,8 805*,3 530,45 531*,5 352,183 322*,36 971
+29,1,Série de modèles,Présence d’enfants,25e percentile,50e percentile,90e percentile
+29,1,"Modèles 1
+(Variables sociodémographiques)",Tous,-1 804,-7 082,-119 857*
+29,1,"modèles 2
+(Variables sociodémographiques)",Avec Enfant(s),-20 126*,-39 452*,-367 764*
+29,1,,Sans Enfant,-367,-4 059,-99 773
+29,1,"Modèles 3
+(Modèle 1 + Revenu)",Avec Enfant(s),-6 331,-6 187,-209 620*
+29,1,,Sans Enfant,4 548,7 061,-43 334
+29,1,"Modèles 4
+(Modèle 2 + Transferts)",Avec Enfant(s),-6 025,-4 352,-199 339*
+29,1,,Sans Enfant,5 042,8 082,-40 541
+29,1,"Modèles 5
+(Modèle 3 + Actifs haut rendement)",Avec Enfant(s),-2 276,509,-142 381*
+29,1,,Sans Enfant,4 325,6 702,-63 038
