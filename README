@@ -5,17 +5,17 @@ python3 src/main.py --tool grobid --batch
 
 1.---------------transformation----------------------
 python3 src/main.py --tool erudit  --id ae49/1039880ar // remplace grobid
-python3 src/main.py --tool grobid --journals cqd27 ae49 haf18 2cols // transformer // grobid
+python3 src/main.py --tool tatr --journals cqd27 ae49 haf18 2cols // transformer // grobid
 
 2.---------------évaluation sur un journal---------------
 
 python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool grobid 
-python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool nougat
+python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool tatr
 3.---------------visualisation--------------
 
 Calculer des moyens:
 python3 src/evaluation/compute_means.py --tool grobid --dirs ae49 cqd27 haf18 2cols
-python3 src/evaluation/compute_means.py --tool nougat --dirs ae49 cqd27 haf18 2cols
+python3 src/evaluation/compute_means.py --tool tatr --dirs ae49 cqd27 haf18 2cols
 
 structured field
 python3 src/evaluation/plot.py --dir 2cols --type structured --method levenshtein --tool grobid
@@ -23,7 +23,7 @@ python3 src/evaluation/plot.py --type structured --method soft --metric recall -
 
 Simple field
 python3 src/evaluation/plot.py --dir 2cols --type simple --tool grobid
-python3 src/evaluation/plot.py --type simple --method levenshteub --tool grobid
+python3 src/evaluation/plot.py --type simple --method levenshtein --tool grobid
 
 
 ---tester

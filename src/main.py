@@ -8,7 +8,10 @@ from utils.base_transformer import convert_to_base
 from erudit.transformer import parse_erudit_xml
 from grobid.transformer import parse_grobid_xml
 from nougat.transformer import parse_nougat_md
+from tatr.transformer import parse_tatr_json
+from pdfExtractKit.transformer import parse_pdfek_json
 from evaluation.evaluation import evaluate
+from pdfplumber_ext.transformer import parse_csv_content_table
 
 
 #sys.path.append(str(Path(__file__).resolve().parent))
@@ -17,6 +20,9 @@ TOOL_FILE_TYPES = {
     "grobid": "xml",
     "erudit": "xml",
     "nougat": "mmd",
+    "tatr" : "json",
+    "pdfExtractKit" : "json",
+    "pdfplumber": "csv"
 }
 
 def run_command(cmd):
@@ -69,6 +75,12 @@ def transformer_article(article_id, tool, subfolder=None):
     try:
         if tool == "nougat":
             parsed = parse_nougat_md(input_path)
+        elif tool == "tatr":
+            parsed = parse_tatr_json(input_path)
+        elif tool == "pdfExtractKit":
+            parsed = parse_pdfek_json(input_path)
+        elif tool == "pdfplumber":
+            parsed = parse_csv_content_table(input_path)
         else:
             xml_tree = read_xml(input_path)
             parsed = parse_grobid_xml(xml_tree) if tool == "grobid" else parse_erudit_xml(xml_tree)
@@ -167,7 +179,7 @@ def evaluate_subfolder(source: str, target: str, subfolder: str = None, journals
 
 def main():
     parser = argparse.ArgumentParser(description="Transforme un ou plusieurs fichiers XML vers forme_base.json")
-    parser.add_argument("--tool", choices=["grobid", "erudit", "nougat"], help="Outil de transformation")
+    parser.add_argument("--tool", choices=["grobid", "erudit", "nougat", "tatr", "pdfExtractKit", "pdfplumber"], help="Outil de transformation")
     parser.add_argument("--id", help="ID de l'article")
     parser.add_argument("--batch", action="store_true", help="Traiter tous les fichiers .xml dans le dossier racine")
     parser.add_argument("--journals", nargs="+", help="Liste des journaux à traiter (ex: cqd27 ae49 haf18)")

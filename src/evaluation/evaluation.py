@@ -222,8 +222,8 @@ def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
                     obj_score = sum(field_scores) / len(field_scores)
                     obj_similarities.append(obj_score)
 
-        fp = len(pred_map) - tp
-        fn = len(exp_map) - tp
+        fp = len(pred_list) - tp
+        fn = len(exp_list) - tp
 
         metrics = compute_metrics(tp, fp, fn)
         avg_similarity = round(sum(obj_similarities) / len(obj_similarities), 3) if obj_similarities else 0.0

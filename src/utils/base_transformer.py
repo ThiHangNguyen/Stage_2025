@@ -99,7 +99,9 @@ def convert_to_base(data):
 
         "acknowledgements": first_or_empty(data.get("acknowledgements")),
         "biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
-        # "bibliographies": [
+        "content_table": [normalize_text(k) for k in data.get("content_table", []) if isinstance(k, str)],
+        "notes": [normalize_text(n) for n in data.get("notes", []) if isinstance(n, str)],
+                # "bibliographies": [
         #     {
         #         "authors": b.get("authors", []),
         #         "title": normalize_text(b.get("title", "")),
@@ -120,8 +122,7 @@ def convert_to_base(data):
         #     for b in data.get("bibliographies", [])
         #     if isinstance(b, dict)
         # ],
-
-        "notes": [normalize_text(n) for n in data.get("notes", []) if isinstance(n, str)],
+    
     }
 
     # Traitement des auteurs (prénom, nom, affiliation, etc.)

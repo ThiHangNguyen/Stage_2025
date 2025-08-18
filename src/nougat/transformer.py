@@ -183,9 +183,9 @@ def extract_references_from_nougat_md(filepath):
 
 def extract_body_section_titles(filepath):
     section_titles = []
-## Bibliography
-    excluded_keywords = ["abstract", "résumé", "resume", "references", "bibliography", "bibliographie", "bibliographies", "annexe"]
-
+    
+    #excluded_keywords = ["abstract", "résumé", "resume", "references", "bibliography", "bibliographie", "bibliographies", "annexe"]
+    excluded_keywords = []
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
             stripped = line.strip()
