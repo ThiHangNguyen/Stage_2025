@@ -1,7 +1,5 @@
 {
   "title": "",
-  "overline": "",
-  "subtitle": "",
   "authors": [],
   "abstract": "",
   "date": "",
@@ -17,7 +15,6 @@
     "text": "",
     "link": ""
   },
-  "editorial_team": [],
   "issue_number": "",
   "volume": "",
   "keywords": [],
@@ -26,8 +23,7 @@
   "section_titles": [],
   "bibliographies": [],
   "acknowledgements": "",
-  "biographical_notes": [],
-  "content_table": [
+  "content_tables": [
     "celibataires maries veufs divorces",
     "celibataires mariees,celibataires mariees veuves divorcees,veuves divorcees",
     "celibataire maries veufs divorces",
@@ -37,7 +33,7 @@
     "3 7 32 58",
     "3 11 70 16",
     "etat matrimonial,hommes,,,,,,femmes a 60 ans au deces,1900,1910,1920,1930,1940,1950,1900,1910,1920,1930,1940,1950 celibataire celibataire,7,4,8,4,8,3,9,3,8,2,10,2,10,7,8,7,7,7,7,3,6,4,8,5 marie marie veuf divorce,56,3,56,2,57,4,56,0,53,8,49,2,15,9,15,3,15,7,15,9,15,8,14,8,25,7,25,6,25,6,25,0,24,0,21,3,45,6,49,8,51,3,52,8,52,1,49,4,0,5,0,7,1,2,1,7,2,8,3,9,0,4,0,5,1,0,1,4,2,7,3,9 veuf veuf,6,3,4,8,3,8,3,4,2,7,1,7,24,3,21,4,19,8,17,2,13,3,7,4 divorce divorce,2,2,2,8,2,5,3,6,6,7,10,8,2,5,3,7,3,9,4,8,8,7,13,9 autres,1,5,1,5,1,2,1,2,1,8,2,9,0,6,0,6,0,6,0,6,1,0,2,1 ensemble,100,0,100,0,100,0,100,0,100,0,100,0,100,0,100,0,100,0,100,0,100,0,100,0",
-    "etat matrimonial,hommes,,,femmes,,,femmeshommes a 60 ans au deces,1900,1950,19501900,1900,1950,19501900,1900,1950 celibataire celibataire,13,8,20,3,6,5,20,7,28,5,7,7,6,9,8,2 marie marie veuf divorce,13,5,21,1,7,6,12,5,19,9,7,4,1,0,1,2,21,5,31,4,9,9,24,3,32,9,8,6,2,8,1,5,17,5,24,1,6,6,21,9,30,3,8,4,4,4,6,2 veuf veuf,13,8,21,5,7,7,20,9,29,3,8,4,7,1,7,8 divorce divorce,15,4,20,6,5,2,21,2,28,8,7,6,5,8,8,2 ensemble,15,8,23,4,7,6,21,1,29,6,8,5,5,3,6,2",
+    "etat matrimonial,hommes,,,femmes,,,femmes-hommes a 60 ans au deces,1900,1950,1950-1900,1900,1950,1950-1900,1900,1950 celibataire celibataire,13,8,20,3,6,5,20,7,28,5,7,7,6,9,8,2 marie marie veuf divorce,13,5,21,1,7,6,12,5,19,9,7,4,-1,0,-1,2,21,5,31,4,9,9,24,3,32,9,8,6,2,8,1,5,17,5,24,1,6,6,21,9,30,3,8,4,4,4,6,2 veuf veuf,13,8,21,5,7,7,20,9,29,3,8,4,7,1,7,8 divorce divorce,15,4,20,6,5,2,21,2,28,8,7,6,5,8,8,2 ensemble,15,8,23,4,7,6,21,1,29,6,8,5,5,3,6,2",
     ",divorces,veufs,celibatai,,,,18, 16,5 15,2 3,8,,,1",
     ",,,17,8 15,9 13,9,divorce,,,,,2 24,4 5,veuves,,,,,2 25,0,1,celibat,aires,,,,,25 24,2 8",
     ",,,,,,,,,,,14,8,,,,,15,2,,15,4,,15,0,13,4,,14,7,10,9,,11,8,,13,3,,14,9,,16,6,,18,0",
@@ -54,7 +50,7 @@
     "7 47 40",
     "6 41 42",
     "17 8 32 42",
-    "generations,celibat,mariage,veuvage,divorce,ensemble 19001930 hommes,0,7,4,0,0,1,0,5,5,3 femmes,0,3,3,8,1,5,1,0,5,9 19301950 hommes,0,4,0,5,0,6,2,2,2,4 femmes,0,5,1,7,3,2,3,5,2,5 19001950 hommes,1,1,4,5,0,6,2,6,7,7 femmes,0,2,5,5,1,7,4,4,8,5",
+    "generations,celibat,mariage,veuvage,divorce,ensemble 1900-1930 hommes,0,7,4,0,0,1,0,5,5,3 femmes,-0,3,3,8,1,5,1,0,5,9 1930-1950 hommes,0,4,0,5,-0,6,2,2,2,4 femmes,0,5,1,7,-3,2,3,5,2,5 1900-1950 hommes,1,1,4,5,-0,6,2,6,7,7 femmes,0,2,5,5,-1,7,4,4,8,5",
     "5,1 2,4 9,5 12,6",
     "3,1 1,7 11,6 12,1",
     "1,6 1,9 12,7 10,9",

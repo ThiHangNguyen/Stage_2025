@@ -31,8 +31,9 @@ def parse_pdfek_json(pages_or_path, look_window=3):
     """
     Output:
       - titles_section: list[str]
-      - tables:  list[{number:"", title, content, note, page}]
-      - figures: list[{number, title, source, page}]
+      - tables:  list[{number:"", title, content, note}]   # (inchangé)
+      - figures: list[{number, title, source}]
+      - content_table: list[str]  # liste des `content` des tables retenues
     Rules:
       - No normalization of text content.
       - Ignore blocks with label 'figure' or 'image' as anchors (they’re visual content).
@@ -43,6 +44,7 @@ def parse_pdfek_json(pages_or_path, look_window=3):
 
     titles_section = []
     tables, figures = [], []
+    content_table = []  # <--- nouveau
 
     TITLE_LABS = {"title"}
 
@@ -65,18 +67,15 @@ def parse_pdfek_json(pages_or_path, look_window=3):
             lab = (b.get("label", "") or "").strip().lower()
             txt = b.get("text", "") or ""
 
-            # --- Titles of sections (keep original casing/content) ---
+            # --- Titles of sections ---
             if lab in TITLE_LABS:
                 titles_section.append(txt if txt is not None else "")
 
-
             # --- TABLES ---
             if lab in TABLE_CAPS and txt:
-                # start capturing caption and possible notes around a table until we hit a table block
-                # (we’ll also capture additional caption/note blocks right after the table)
-                pass  # handled when table trigger appears
+                pass
             if lab in TABLE_FOOTS and txt:
-                pass  # handled when table trigger appears
+                pass
 
             if lab in TABLE_LABS:
                 content = txt
@@ -114,12 +113,13 @@ def parse_pdfek_json(pages_or_path, look_window=3):
                     "content": content,
                     "note": " ".join(tab_notes_before + tab_notes_after),
                 })
+                content_table.append(content)  # <--- alimente la liste parallèle
                 i += 1
-                continue  # next block
+                continue
 
             # --- FIGURES (no visual anchor; caption triggers a figure) ---
             if lab in FIGURE_CAPS and txt:
-                # collect consecutive caption blocks (multi-part caption)
+                # collect consecutive caption blocks
                 caption_parts = [txt]
                 j = i + 1
                 while j < n:
@@ -134,7 +134,7 @@ def parse_pdfek_json(pages_or_path, look_window=3):
 
                 caption_text = " ".join(caption_parts)
 
-                # collect sources in a small window BEFORE the first caption block
+                # sources before
                 src_before = []
                 k0 = max(0, i - look_window)
                 for kk in range(k0, i):
@@ -144,7 +144,7 @@ def parse_pdfek_json(pages_or_path, look_window=3):
                     if lab2 in FIGURE_SRCS and txt2:
                         src_before.append(txt2)
 
-                # collect sources in a small window AFTER the last caption block
+                # sources after
                 src_after = []
                 k1 = j
                 k_end = min(j + look_window, n)
@@ -167,7 +167,7 @@ def parse_pdfek_json(pages_or_path, look_window=3):
                     "source": source,
                 })
 
-                i = j  # continue after the caption cluster
+                i = j
                 continue
 
             # explicitly ignore visual figure/image blocks
@@ -181,5 +181,6 @@ def parse_pdfek_json(pages_or_path, look_window=3):
         "section_titles": titles_section,
         "tables": tables,
         "figures": figures,
+        "content_table": content_table,   
         "tool": "pdf-extract-kit",
     }

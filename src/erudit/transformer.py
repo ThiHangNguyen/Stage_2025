@@ -1,6 +1,7 @@
 from utils.io import normalize_text, extract_from_path
 from .road import chemins_erudit
-import re
+from typing import List
+
 
 ns_erudit = {"er": "http://www.erudit.org/xsd/article",
              "xlink": "http://www.w3.org/1999/xlink"}
@@ -47,7 +48,6 @@ def extract_erudit_author_fields(root):
     }
 
     auteurs = root.xpath("//er:grauteur/er:auteur", namespaces=ns)
-    #print(f"[DEBUG] Nombre d'auteurs trouvés : {len(auteurs)}")
 
     for auteur in auteurs:
         first_name = auteur.xpath("er:nompers/er:prenom/text()", namespaces=ns)
@@ -127,55 +127,15 @@ def extract_erudit_editorial_team(root):
         })
 
     # Éditeurs (organismes)
-    for e in root.xpath(".//er:editeur", namespaces=ns):
-        org_name = e.findtext("er:nomorg", default="", namespaces=ns)
-        if org_name:
-            team_flat.append({
-                "organization": org_name,
-                "category": "editor"
-            })
+    # for e in root.xpath(".//er:editeur", namespaces=ns):
+    #     org_name = e.findtext("er:nomorg", default="", namespaces=ns)
+    #     if org_name:
+    #         team_flat.append({
+    #             "organization": org_name,
+    #             "category": "editor"
+    #         })
 
     return team_flat
-
-def extract_body(root):
-    """
-    Transforme le corps de texte en une liste plate de sections.
-    Chaque section contient :
-    - title : titre de la section
-    - paragraphs : liste des textes des paragraphes
-    - parents : liste des titres de ses sections parentes (ordre hiérarchique)
-    """
-
-    sections = []
-
-    def parse_section(sec, parent_title=None):
-        titre_node = sec.find("er:titre", namespaces=ns_erudit)
-        titre = normalize_text("".join(titre_node.itertext())) if titre_node is not None else ""
-
-        # Paragraphes
-        paras = []
-        for para in sec.findall(".//er:para", namespaces=ns_erudit):
-            alinea_node = para.find("er:alinea", namespaces=ns_erudit)
-            texte = normalize_text("".join(alinea_node.itertext())) if alinea_node is not None else ""
-            if texte:
-                paras.append(texte)
-
-        sections.append({
-            "title": titre,
-            "paragraphs": paras,
-            "parent": parent_title
-        })
-
-        # Sous-sections (section2 à section5)
-        for level in range(2, 6):
-            for sub in sec.findall(f"er:section{level}", namespaces=ns_erudit):
-                parse_section(sub, parent_title=titre)
-
-    # Lancer depuis les <section1>
-    for sec1 in root.xpath("er:corps/er:section1", namespaces=ns_erudit):
-        parse_section(sec1, parent_title=None)
-
-    return sections
 
 
 def extract_source(element, ns):
@@ -349,6 +309,7 @@ def extract_tables(root):
 
     return tables
 
+
 def extract_section_titles_erudit(root):
     """
     Retourne une liste plate des titres de toutes les sections (section1 à section5) dans le corps,
@@ -375,7 +336,6 @@ def extract_section_titles_erudit(root):
 
 
 def extract_erudit_keywords_by_lang(root):
-    ns = {"er": "http://www.erudit.org/xsd/article"}
 
     # Si root est un ElementTree, on récupère son élément racine
     if hasattr(root, "getroot"):
@@ -387,7 +347,147 @@ def extract_erudit_keywords_by_lang(root):
         return []
 
     xpath_expr = f".//er:grmotcle[@lang='{lang}']/er:motcle"
-    return [normalize_text(elem.text) for elem in root.xpath(xpath_expr, namespaces=ns) if elem.text]
+    return [normalize_text(elem.text) for elem in root.xpath(xpath_expr, namespaces=ns_erudit) if elem.text]
+
+from typing import Dict, List
+
+
+def extract_erudit_keywords_all_langs(root) -> Dict[str, List[str]]:
+    """
+    Récupère tous les <motcle> groupés par langue, en capturant le texte imbriqué
+    (ex. <marquage typemarq="italique">Poa annua</marquage>).
+    Retourne un dict {lang: [keywords...]} avec nettoyage + déduplication.
+    Utilise le ns global `ns_erudit`.
+    """
+    # Si root est un ElementTree → prendre l'élément racine
+    if hasattr(root, "getroot"):
+        root = root.getroot()
+
+    out: Dict[str, List[str]] = {}
+
+    # On prend tous les groupes, même sans @lang (fallback "und")
+    groups = root.xpath(".//er:grmotcle", namespaces=ns_erudit)
+
+    for g in groups:
+        lang = (g.get("{http://www.w3.org/XML/1998/namespace}lang")
+                or g.get("lang")
+                or "und").strip()
+
+        # Collecter tous les <motcle> du groupe
+        kws_raw: List[str] = []
+        for mc in g.xpath("./er:motcle", namespaces=ns_erudit):
+            tokens = [t.strip() for t in mc.itertext() if t and t.strip()]
+            txt = " ".join(tokens)
+
+            if txt:
+                txt = normalize_text(txt)
+                txt = re.sub(r"\s+", " ", txt).strip()
+                txt = re.sub(r"^[\s\-\.,;:•|/]+|[\s\-\.,;:•|/]+$", "", txt)
+                if txt:
+                    kws_raw.append(txt)
+
+        # Déduplication *dans* la langue tout en préservant l'ordre
+        seen = set()
+        dedup: List[str] = []
+        for kw in kws_raw:
+            key = kw.lower()
+            if key not in seen:
+                seen.add(key)
+                dedup.append(kw)
+
+        if dedup:
+            out[lang] = dedup
+
+    return out
+
+def extract_table_contents_erudit(root) -> List[str]:
+    """
+    Retourne une liste de contenus de tableaux (chaîne TSV par tableau),
+    basée sur `extract_tabtexte_content`. Ne renvoie QUE le contenu,
+    sans numéro, titre ni note.
+    """
+    contents: List[str] = []
+
+    # 1) Tableaux dans des groupes <grtableau>
+    for table in root.findall(".//er:grtableau/er:tableau", namespaces=ns_erudit):
+        tsv = extract_tabtexte_content(table, ns_erudit)
+        if tsv:
+            tsv = tsv.strip()
+            if tsv:
+                contents.append(tsv)
+
+    # 2) Tableaux simples (hors groupe) — éviter les doublons
+    for table in root.findall(".//er:tableau", namespaces=ns_erudit):
+        parent = table.getparent()
+        if parent is not None and parent.tag.endswith("grtableau"):
+            continue  # déjà traité
+        tsv = extract_tabtexte_content(table, ns_erudit)
+        if tsv:
+            tsv = tsv.strip()
+            if tsv:
+                contents.append(tsv)
+
+    # Déduplication légère (insensible à la casse)
+    seen = set()
+    uniq: List[str] = []
+    for s in contents:
+        key = s.lower()
+        if key not in seen:
+            seen.add(key)
+            uniq.append(s)
+
+    return uniq
+import re
+def extract_erudit_keywords_all_langs(root) -> Dict[str, List[str]]:
+    """
+    Récupère tous les <motcle> groupés par langue, en capturant le texte imbriqué
+    (ex. <marquage typemarq="italique">Poa annua</marquage>).
+    Retourne un dict {lang: [keywords...]} avec nettoyage + déduplication.
+    Utilise le ns global `ns_erudit`.
+    """
+    # Si root est un ElementTree → prendre l'élément racine
+    if hasattr(root, "getroot"):
+        root = root.getroot()
+
+    out: Dict[str, List[str]] = {}
+
+    # On prend tous les groupes, même sans @lang (fallback "und")
+    groups = root.xpath(".//er:grmotcle", namespaces=ns_erudit)
+
+    for g in groups:
+        lang = (g.get("{http://www.w3.org/XML/1998/namespace}lang")
+                or g.get("lang")
+                or "und").strip()
+
+        # Collecter tous les <motcle> du groupe
+        kws_raw: List[str] = []
+        for mc in g.xpath("./er:motcle", namespaces=ns_erudit):
+            # Récupérer tout le texte, y compris dans <marquage>, <liensimple>, ...
+            # On join sur espace pour éviter les mots collés autour des balises inline.
+            tokens = [t.strip() for t in mc.itertext() if t and t.strip()]
+            txt = " ".join(tokens)
+
+            # Nettoyage léger: normalisation + trim de ponctuation parasite en bord
+            if txt:
+                txt = normalize_text(txt)
+                txt = re.sub(r"\s+", " ", txt).strip()
+                txt = re.sub(r"^[\s\-\.,;:•|/]+|[\s\-\.,;:•|/]+$", "", txt)
+                if txt:
+                    kws_raw.append(txt)
+
+        # Déduplication *dans* la langue tout en préservant l'ordre
+        seen = set()
+        dedup: List[str] = []
+        for kw in kws_raw:
+            key = kw.lower()
+            if key not in seen:
+                seen.add(key)
+                dedup.append(kw)
+
+        if dedup:
+            out[lang] = dedup
+
+    return out
 
 
 def parse_erudit_xml(root):
@@ -400,18 +500,25 @@ def parse_erudit_xml(root):
     for champ, xpath in chemins_erudit.items():
         if champ == "editorial_team":
             resultats[champ] = extract_erudit_editorial_team(root)
-            #print(resultats[champ])
             continue
-        
-        # elif champ.startswith("author_"):
-        #     author_fields = extract_erudit_author_fields(root)
-        #     for key, values in author_fields.items():
-        #         resultats[key] = values
-        #     #resultats["authors"] = author_fields
-        #     continue
-        elif champ =="keywords" :
-           resultats[champ] =  extract_erudit_keywords_by_lang(root)
-           continue
+
+        elif champ == "keywords":
+            # Nouveau: tous les mots-clés, toutes langues
+            kw_by_lang = extract_erudit_keywords_all_langs(root)
+            resultats["keywords_by_lang"] = kw_by_lang  # nouveau champ structuré
+
+            # Compat: liste à plat dédupliquée (toutes langues confondues)
+            flat_seen = set()
+            flat_list = []
+            for lang, arr in kw_by_lang.items():
+                for kw in arr:
+                    key = kw.lower()
+                    if key not in flat_seen:
+                        flat_seen.add(key)
+                        flat_list.append(kw)
+            resultats["keywords"] = flat_list
+            continue
+
 
         elif champ == "bibliographies":
             resultats[champ] = []
@@ -440,7 +547,6 @@ def parse_erudit_xml(root):
         elif xpath:
             resultats[champ] = extract_from_path(root, xpath, ns_erudit)
         else:
-            print("A REVOIR")
             resultats[champ] = []
             
     # Extraction du body structuré (sections)
@@ -463,10 +569,11 @@ def parse_erudit_xml(root):
         authors.append(author)
 
     resultats["authors"] = authors
-    #resultats["body_sections"] = extract_body(root)
     resultats["section_titles"] = extract_section_titles_erudit(root)
     resultats["figures"] = extract_figures(root)
     resultats["tables"] = extract_tables(root)
+    resultats["content_table"] = extract_table_contents_erudit(root)
+
     return resultats
 
 

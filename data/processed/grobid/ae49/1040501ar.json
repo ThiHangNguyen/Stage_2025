@@ -1,18 +1,16 @@
 {
   "title": "inference with large clustered datasets*",
-  "overline": "",
-  "subtitle": "",
   "authors": [
     {
       "first_name": "james",
       "last_name": "mackinnon",
       "email": "jgm@econ.queensu.ca",
-      "affiliation": "queens university",
+      "affiliation": "queen's university",
       "website": "",
       "orcid": ""
     }
   ],
-  "abstract": "inference using large datasets is not nearly as straightforward as conventional econometric theory suggests when the disturbances are clustered, even with very small intracluster correlations.the information contained in such a dataset grows much more slowly with the sample size than it would if the observations were independent.moreover, inferences become increasingly unreliable as the dataset gets larger.these assertions are based on an extensive series of estimations undertaken using a large dataset taken from the u.s. current population survey.",
+  "abstract": "inference using large datasets is not nearly as straightforward as conventional econometric theory suggests when the disturbances are clustered, even with very small intra-cluster correlations.the information contained in such a dataset grows much more slowly with the sample size than it would if the observations were independent.moreover, inferences become increasingly unreliable as the dataset gets larger.these assertions are based on an extensive series of estimations undertaken using a large dataset taken from the u.s. current population survey.",
   "date": "",
   "id": {
     "doi": "",
@@ -26,7 +24,6 @@
     "text": "",
     "link": ""
   },
-  "editorial_team": [],
   "issue_number": "",
   "volume": "",
   "keywords": [],
@@ -46,103 +43,70 @@
     "conclusion"
   ],
   "bibliographies": [
-    "andrews, d. w. k. (2005). crosssection regression with common shocks. econometrica, 73(5): 15511585.",
-    "angrist, j. d., and j.s. pischke (2008). mostly harmless econometrics: an empiricists companion. 1 st ed. princeton university press.",
-    "bell, r. m., and d. f. mccaffrey (2002).bias reduction in standard errors for linear regression with multistage samples. survey methodology, 28(2), 169181.",
-    "bertrand, m., e. duflo, and s. mullainathan (2004). how much should we trust differencesindifferences estimates? the quarterly journal of economics, 119(1): 249275.",
-    "bester, c. a., t. g. conley, and c. b. hansen (2011). inference with dependent data using cluster covariance estimators. journal of econometrics, 165(2): 137151.",
-    "binder, d. a. (1983). on the variances of asymptotically normal estimators from complex surveys. international statistical review, 51(3): 279292.",
-    "cameron, a. c., j. b. gelbach, and d. l. miller (2008). bootstrapbased improvements for inference with clustered errors. the review of economics and statistics, 90(3): 414427.",
-    "card, d., and a. b. krueger (1994). minimum wages and employment: a case study of the fast food industry in new jersey and pennsylvania. american economic review, 84(4): 772793.",
-    "conley, t. g., and c. r. taber (2011). inference with difference in differences with a small number of policy changes. the review of economics and statistics, 93(1): 113125.",
-    "donald, s. g, and k. lang (2007). inference with differenceindifferences and other panel data. the review of economics and statistics, 89(2): 221233.",
-    "fuller, w. a. (1975). regression analysis for sample survey. sankhya, 37: 117132",
-    "imbens, g. w., and m. kolesar (2016). robust standard errors in small samples: some practical advice. review of economics and statistics, 98(4): 701712.",
-    "kloek, t. (1981). ols estimation in a model where a microvariable is explained by aggregates and contemporaneous disturbances are equicorrelated. econometrica, 49(1): 205207.",
-    "kolenikov, s. (2010).resampling variance estimation for complex survey data. the stata journal, 10: 165199.",
-    "liang, k.y., and s. l. zeger (1986). longitudinal data analysis using gener alized linear models. biometrika, 73(1): 1322.",
-    "mackinnon, j. g. (2015). wild cluster bootstrap confidence intervals. lactualite economique, 91(12): 1133.",
-    "mackinnon, j. g., and h. white (1985). some heteroskedasticity consistent covariance matrix estimators with improved finite sample properties. journal of econometrics, 29(3): 305325.",
-    "mackinnon, j. g., and m. d. webb (2016a).randomization inference for differ enceindifferences with few treated clusters. working paper no. 1355, queens university, department of economics.",
-    "mackinnon, j. g., and m. d. webb (2016b).the subcluster wild bootstrap for few (treated) clusters. working paper no. 1364, queens university, department of economics.",
-    "mackinnon, j. g., and m. d. webb (2017). wild bootstrap inference for wildly different cluster sizes. journal of applied econometrics, 32(2): 233254.",
-    "moulton, b. r. (1986). random group effects and the precision of regression estimates. journal of econometrics, 32(3): 385397.",
+    "andrews, d. w. k. (2005). cross-section regression with common shocks. econometrica, 73(5): 1551-1585.",
+    "angrist, j. d., and j.-s. pischke (2008). mostly harmless econometrics: an empiricist's companion. 1 st ed. princeton university press.",
+    "bell, r. m., and d. f. mccaffrey (2002).bias reduction in standard errors for linear regression with multi-stage samples. survey methodology, 28(2), 169-181.",
+    "bertrand, m., e. duflo, and s. mullainathan (2004). how much should we trust differences-in-differences estimates? the quarterly journal of economics, 119(1): 249-275.",
+    "bester, c. a., t. g. conley, and c. b. hansen (2011). inference with dependent data using cluster covariance estimators. journal of econometrics, 165(2): 137-151.",
+    "binder, d. a. (1983). on the variances of asymptotically normal estimators from complex surveys. international statistical review, 51(3): 279-292.",
+    "cameron, a. c., j. b. gelbach, and d. l. miller (2008). bootstrap-based improvements for inference with clustered errors. the review of economics and statistics, 90(3): 414-427.",
+    "card, d., and a. b. krueger (1994). minimum wages and employment: a case study of the fast food industry in new jersey and pennsylvania. american economic review, 84(4): 772-793.",
+    "conley, t. g., and c. r. taber (2011). inference with 'difference in differences' with a small number of policy changes. the review of economics and statistics, 93(1): 113-125.",
+    "donald, s. g, and k. lang (2007). inference with difference-in-differences and other panel data. the review of economics and statistics, 89(2): 221-233.",
+    "fuller, w. a. (1975). regression analysis for sample survey. sankhya, 37: 117-132",
+    "imbens, g. w., and m. kolesar (2016). robust standard errors in small samples: some practical advice. review of economics and statistics, 98(4): 701-712.",
+    "kloek, t. (1981). ols estimation in a model where a microvariable is explained by aggregates and contemporaneous disturbances are equicorrelated. econometrica, 49(1): 205-207.",
+    "kolenikov, s. (2010).resampling variance estimation for complex survey data. the stata journal, 10: 165-199.",
+    "liang, k.-y., and s. l. zeger (1986). longitudinal data analysis using gener- alized linear models. biometrika, 73(1): 13-22.",
+    "mackinnon, j. g. (2015). wild cluster bootstrap confidence intervals. l'actualite economique, 91(1-2): 11-33.",
+    "mackinnon, j. g., and h. white (1985). some heteroskedasticity consistent covariance matrix estimators with improved finite sample properties. journal of econometrics, 29(3): 305-325.",
+    "mackinnon, j. g., and m. d. webb (2016a).randomization inference for differ- ence-in-differences with few treated clusters. working paper no. 1355, queen's university, department of economics.",
+    "mackinnon, j. g., and m. d. webb (2016b).the subcluster wild bootstrap for few (treated) clusters. working paper no. 1364, queen's university, department of economics.",
+    "mackinnon, j. g., and m. d. webb (2017). wild bootstrap inference for wildly different cluster sizes. journal of applied econometrics, 32(2): 233-254.",
+    "moulton, b. r. (1986). random group effects and the precision of regression estimates. journal of econometrics, 32(3): 385-397.",
     "moulton, b. r. (1990). an illustration of a pitfall in estimating the effects of aggregate variables on micro units. review of economics and statistics, 72(2): 334.",
-    "rao, j. n. k., and c. f. j. wu (1988). resampling inference with complex survey data. journal of the american statistical association, 83(401): 231241.",
-    "webb, m. d. (2014). reworking wild bootstrap based inference for clustered errors. working paper no.1315, queens university, department of economics."
+    "rao, j. n. k., and c. f. j. wu (1988). resampling inference with complex survey data. journal of the american statistical association, 83(401): 231-241.",
+    "webb, m. d. (2014). reworking wild bootstrap based inference for clustered errors. working paper no.1315, queen's university, department of economics."
   ],
   "acknowledgements": "",
-  "biographical_notes": [],
+  "content_tables": [
+    "standard error case % gain (% gain) 95% lower 95% upper hc 1 11.589 0.222 11.155 12.023 cv 1 (s,y) 11.589 0.318 10.967 12.212 cv 1 (s) 11.589 0.584 10.447 12.732"
+  ],
   "notes": [],
   "figures": [
     {
-      "number": "1",
-      "title": "graphs the inverse of the average of the reported standard errors of j ˆ for three covariance matrix estimators against m, where the horizontal axis is proportional to the square root of m. for values of m less than about 30,000, the three standard errors are essentially the same.",
+      "number": "figure 1",
+      "title": "inverse of s(j ˆ) as a function of m",
       "source": ""
     },
     {
-      "number": "2",
-      "title": "reports rejection frequencies at the 5% level for t statistics based on the hc 1, cv 1 (s, y), and cv 1 (s) covariance matrices for all 51 possible values of g 1.",
+      "number": "",
+      "title": "figure 2 rejection frequencies for placebo law tests, n = 1,156,597",
       "source": ""
     },
     {
-      "number": "3",
-      "title": "shows 5% rejection frequencies for hc 1 t statistics for five sample sizes.",
+      "number": "",
+      "title": "figure 3rejection frequencies for placebo law tests, hc 1",
       "source": ""
     },
     {
-      "number": "4",
-      "title": "shows 5% rejection frequencies for cv 1 (s, y) t statistics for the same five sample sizes.",
+      "number": "",
+      "title": "figure 4rejection frequencies for placebo law tests, cv 1 (s, y)",
       "source": ""
     },
     {
-      "number": "5",
-      "title": "shows 5% rejection frequencies for cv 1 (s) t statistics for the same five sample sizes.",
+      "number": "",
+      "title": "figure 5rejection frequencies for placebo law tests, cv 1 (s)",
       "source": ""
     },
     {
-      "number": "6",
-      "title": "shows rejection frequencies for wild cluster bootstrap tests at the.01,",
+      "number": "",
+      "title": "figure 6rejection frequencies for bootstrap placebo law tests",
       "source": ""
     },
     {
-      "number": "7",
-      "title": "rejection frequencies for canadian placebo law tests",
-      "source": ""
-    },
-    {
-      "number": "7",
-      "title": "shows rejection frequencies for four different tests at the.05",
-      "source": ""
-    },
-    {
-      "number": "1inverse",
-      "title": "of s(j ˆ) as a function of m",
-      "source": ""
-    },
-    {
-      "number": "2",
-      "title": "rejection frequencies for placebo law tests, n = 1,156,597",
-      "source": ""
-    },
-    {
-      "number": "3rejection",
-      "title": "frequencies for placebo law tests, hc 1",
-      "source": ""
-    },
-    {
-      "number": "4rejection",
-      "title": "frequencies for placebo law tests, cv 1 (s, y)",
-      "source": ""
-    },
-    {
-      "number": "5rejection",
-      "title": "frequencies for placebo law tests, cv 1 (s)",
-      "source": ""
-    },
-    {
-      "number": "6rejection",
-      "title": "frequencies for bootstrap placebo law tests",
+      "number": "figure 1",
+      "title": "value of a postgraduate degree",
       "source": ""
     }
   ],
@@ -150,8 +114,8 @@
     {
       "number": "1",
       "title": "value of a postgraduate degree",
-      "content": "",
-      "note": ""
+      "content": "standard error case % gain (% gain) 95% lower 95% upper hc 1 11.589 0.222 11.155 12.023 cv 1 (s,y) 11.589 0.318 10.967 12.212 cv 1 (s) 11.589 0.584 10.447 12.732",
+      "note": "note: hc 1 does not cluster at all. cv 1 (s,y) uses 1887 clusters at the state-year level, and cv 1 (s) uses 51 clusters at the state level."
     }
   ]
 }

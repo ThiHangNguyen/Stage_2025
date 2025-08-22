@@ -1,0 +1,169 @@
+{
+  "title": "regime de change et cyclicite budgetaire dans les pays africains*",
+  "authors": [],
+  "abstract": "l'objectif de cet article est d'etablir, empiriquement, la relation entre le regime de changes et la cyclicite budgetaire. pour cela, nous estimons plusieurs variantes de la fonction de reaction des depenses de consommation publique specifiees en panel dynamique pour un echantillon de 34 pays africains sur la periode 1980-2012. en utilisant la methode des moments generalises en difference (diff-gmm) telle que developpee par arellano et bond (1991), et en adoptant la classification de facto de reinhart et rogoff (2004), nous parvenons a deux principaux resultats : (1) en regimes de change fixe et intermediaire, la procyclicite budgetaire est amplifiee; (2) en regime flexible, celle-ci est affaiblie.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "moyenne du log c",
+    "tableau 5 (suite)",
+    "conclusion",
+    "statistiques descriptives des variables en fonction des regimes de change",
+    "tableau a1 (suite)",
+    "estimation de la cyclicite budgetaire des pays africains selon la classification reinhart et rogoff",
+    "2.2 strategie d'estimation",
+    "variable expliquee : $\\delta \\log g_{i,t}$",
+    "graphiques differentiels des moyennes des donnees des variables",
+    "construction des variables regime de change",
+    "tableau 5",
+    "periode : 1980-2012",
+    "introduction",
+    "bibliographie",
+    "dans les regimes de change intermediaire",
+    "evolution du pib et des depenses de consommation publique",
+    "dans les regimes de change flexible",
+    "annexe",
+    "dans les regimes de change fixe",
+    "methode d'estimation : gmm en differences d'arellano-bond (1991)",
+    "moyenne du log g"
+  ],
+  "bibliographies": [
+    "liste des pays de l'echantillon",
+    "afrique du sud, algerie, benin, botswana, burkina faso, burundi, cameroun, cote d'ivoire, erythree, ethiopie, gabon, gambie, kenya, lesotho, madagascar, mauritanie, ile maurice, maroc, mozambique, namibie, republique arabe d'egypte, republique democratique du congo, republique du congo, rwanda, senegal, sierra leone, soudan, swaziland, tanzanie, tchad, togo, tunisie, ouganda, zambie."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "n min max moyenne ecart-type g 851 2,90e 07 6,00e 10 3,22e 09 7,64e 09 pib 917 2,70e 08 2,90e 11 1,88e 10 3,94e 10 cycle 1099 -2,956 3,561 -0,013 1,339",
+    "frequence pourcentage cumul fixe 405 43,69 43,69 flexible 107 11,54 55,23 intermediaire 415 44,77 100 total 927 100",
+    "logg δlogg logpib δlogpib cycle fixe 20,173 0,025 22,174 0,034 -0,324 (1,014) (0,203) (1,051) (0,051) (1,024) flexible 21,269 -0,006 23,039 0,016 0,589 (2,246) (0,189) (1,965) (0,048) (1,918) intermediaire 21,064 0,048 22,861 0,042 0,335 (1,438) (0,107) (1,392) (0,042) (1,392) total 20,679 0,032 22,578 0,036 0,073 (1,457) (0,167) (1,384) (0,047) (1,368)",
+    "variable expliquee : $\\delta \\log g_{i,t}$ **periode : 1980 - 2012** **methode d'estimation : gmm en differences d'arellano-bond (1991)**",
+    "constante 0,101 (0,128) $\\delta \\log g_{i,t-1}$ 0,996*** (0,006) $\\delta cycle_{i,t}$ 0,128*** (0,018) nombre d'observations 949 nombre de pays 34 test de validite globale du modele de wald 0,000 test d'autocorrelation d'arrelano-bond pour $ar(1)$ 0,003 test d'autocorrelation d'arrelano-bond pour $ar(2)$ 0,308 test de validite des instruments de sargan 0,357",
+    "(3a) (3b) (3c) (4a) (4b) (4c) constante -0,028 -0,008 0,107 -0,019 0,053 -0,036 (0,310) (0,318) (0,356) (0,310) (0,305) (0,379) $\\delta \\log g_{i,t-1}$ 1,000*** 1,000*** 0,995*** 1,000*** 0,997*** 1,002*** (0,014) (0,015) (0,017) (0,014) (0,014) (0,018) $\\delta cycle_{i,t}$ 0,097*** 0,092*** 0,099*** 0,090*** 0,088** 0,095** (0,034) (0,035) (0,038) (0,032) (0,034) (0,043) $rc_{i,t}$ fixe 0,042*** 0,042*** (0,003) (0,002) intermediaire 0,020*** 0,017** (0,007) (0,008) flexible -0,059*** -0,039** (0,014) (0,018)",
+    "$\\delta cycle_{i,t} * rc_{i,t}$ $\\delta cycle * fixe$ 0,020*** (0,002) $\\delta cycle * intermediaire$ 0,004 (0,005) $\\delta cycle * flexible$ -0,022** (0,009)",
+    "nombre d'observations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validite globale du modele de wald 0,000 0,000 0,000 0,000 0,000 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test d'autocorrelation d'arrelano-bond pour ar(2) 0,280 0,273 0,277 0,275 0,275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
+    "fixe flexible/intermediaire algerie benin botswana burkina faso burundi cameroun tchad congo dem. rep. congo rep. cote d'ivoire egypte erythree ethiopie gabon gambie kenya lesotho madagascar mauritanie ile maurice maroc mozambique namibie rwanda senegal sierra leone afrique du sud soudan swaziland tanzanie togo tunisie ouganda zambie",
+    "fixe flexible/intermediaire algerie benin ● botswana ● burkina faso ● burundi ● cameroun ● tchad ● congo dem. rep. ● congo rep. ● cote d'ivoire ● egypte ● erythree ● ethiopie ● gabon ● gambie ● kenya ● lesotho ● madagascar ● mauritanie ● ile maurice ● maroc ● mozambique ● namibie ● rwanda ● senegal ● sierra leone ● afrique du sud ● soudan ● swaziland ● tanzanie ● togo ● tunisie ● ouganda ● zambie ●"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graph i",
+      "title": "que de ce croisement est renvoyee dans l'annexe. les statistiques descriptives ainsi que les graphiques s'accordent sur le fait qu'en moyenne, a l'interieur de l'echantillon, les comportements des differentes variables du modele n'affichent pas des fortes disparites. de plus, tout au long de la periode etudiee, ces comportements affichent egalement une relative constance.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que est egalement renvoyee dans l'annexe. ces graphiques mettent en lumiere trois principaux enseignements. en premier lieu, les depenses de consommation publique evoluent dans la meme direction que l'ecart de production, et donc, il y a une forte presomption de procyclicite budgetaire au niveau global. en deuxieme lieu, il apparait que l'ampleur de cette procyclicite budgetaire varie en fonction des regimes de change et en fonction des annees. en troisieme lieu enfin, cette procyclicite budgetaire manifeste une certaine irregularite tout au long de la periode. ces differents constats feront l'objet d'une investigation plus poussee dans la section suivante.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques differentiels des moyennes des donnees des variables",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que a1",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que a2",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que a3",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "n min max moyenne ecart-type g 851 2,90e 07 6,00e 10 3,22e 09 7,64e 09 pib 917 2,70e 08 2,90e 11 1,88e 10 3,94e 10 cycle 1099 -2,956 3,561 -0,013 1,339",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "frequence pourcentage cumul fixe 405 43,69 43,69 flexible 107 11,54 55,23 intermediaire 415 44,77 100 total 927 100",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "logg δlogg logpib δlogpib cycle fixe 20,173 0,025 22,174 0,034 -0,324 (1,014) (0,203) (1,051) (0,051) (1,024) flexible 21,269 -0,006 23,039 0,016 0,589 (2,246) (0,189) (1,965) (0,048) (1,918) intermediaire 21,064 0,048 22,861 0,042 0,335 (1,438) (0,107) (1,392) (0,042) (1,392) total 20,679 0,032 22,578 0,036 0,073 (1,457) (0,167) (1,384) (0,047) (1,368)",
+      "note": "pour chaque regime de change, les valeurs de la premiere ligne representent les moyennes, sur la periode etudiee, des variables considerees. les valeurs de la deuxieme ligne, entre parentheses, indiquent les ecarts-types de ces variables."
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "variable expliquee : $\\delta \\log g_{i,t}$ **periode : 1980 - 2012** **methode d'estimation : gmm en differences d'arellano-bond (1991)**",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "constante 0,101 (0,128) $\\delta \\log g_{i,t-1}$ 0,996*** (0,006) $\\delta cycle_{i,t}$ 0,128*** (0,018) nombre d'observations 949 nombre de pays 34 test de validite globale du modele de wald 0,000 test d'autocorrelation d'arrelano-bond pour $ar(1)$ 0,003 test d'autocorrelation d'arrelano-bond pour $ar(2)$ 0,308 test de validite des instruments de sargan 0,357",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "(3a) (3b) (3c) (4a) (4b) (4c) constante -0,028 -0,008 0,107 -0,019 0,053 -0,036 (0,310) (0,318) (0,356) (0,310) (0,305) (0,379) $\\delta \\log g_{i,t-1}$ 1,000*** 1,000*** 0,995*** 1,000*** 0,997*** 1,002*** (0,014) (0,015) (0,017) (0,014) (0,014) (0,018) $\\delta cycle_{i,t}$ 0,097*** 0,092*** 0,099*** 0,090*** 0,088** 0,095** (0,034) (0,035) (0,038) (0,032) (0,034) (0,043) $rc_{i,t}$ fixe 0,042*** 0,042*** (0,003) (0,002) intermediaire 0,020*** 0,017** (0,007) (0,008) flexible -0,059*** -0,039** (0,014) (0,018)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$\\delta cycle_{i,t} * rc_{i,t}$ $\\delta cycle * fixe$ 0,020*** (0,002) $\\delta cycle * intermediaire$ 0,004 (0,005) $\\delta cycle * flexible$ -0,022** (0,009)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "nombre d'observations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validite globale du modele de wald 0,000 0,000 0,000 0,000 0,000 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test d'autocorrelation d'arrelano-bond pour ar(2) 0,280 0,273 0,277 0,275 0,275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "fixe flexible/intermediaire algerie benin botswana burkina faso burundi cameroun tchad congo dem. rep. congo rep. cote d'ivoire egypte erythree ethiopie gabon gambie kenya lesotho madagascar mauritanie ile maurice maroc mozambique namibie rwanda senegal sierra leone afrique du sud soudan swaziland tanzanie togo tunisie ouganda zambie",
+      "note": "\\( \\log g_1 = \\delta \\log g \\)"
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "fixe flexible/intermediaire algerie benin botswana burkina faso burundi cameroun tchad congo dem. rep. congo rep. cote d'ivoire egypte erythree ethiopie gabon gambie kenya lesotho madagascar mauritanie ile maurice maroc mozambique namibie rwanda senegal sierra leone afrique du sud soudan swaziland tanzanie togo tunisie ouganda zambie",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "a1 (suite)",
+      "content": "fixe flexible/intermediaire algerie benin ● botswana ● burkina faso ● burundi ● cameroun ● tchad ● congo dem. rep. ● congo rep. ● cote d'ivoire ● egypte ● erythree ● ethiopie ● gabon ● gambie ● kenya ● lesotho ● madagascar ● mauritanie ● ile maurice ● maroc ● mozambique ● namibie ● rwanda ● senegal ● sierra leone ● afrique du sud ● soudan ● swaziland ● tanzanie ● togo ● tunisie ● ouganda ● zambie ●",
+      "note": "logg1 = δlogg logg_loggdp = logg/loggdp"
+    }
+  ]
+}

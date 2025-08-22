@@ -1,0 +1,194 @@
+{
+  "title": "le role de la fiscalite",
+  "authors": [],
+  "abstract": "au cours des dernieres decennies, de nombreux gouvernements, concernes par les questions de redistribution des revenus, ont porte une attention particuliere a la maniere dont les recettes fiscales sont collectees. cet article applique un modele econometrique aux donnees de 34 etats membres de l'ocde sur la periode allant de 1970 a 2010. il souligne que le poids des recettes fiscales dans l'economie compte bien davantage dans la reduction des inegalites que les caracteristiques de la structure fiscale servant a les collecter. collecter plus de recettes fiscales permet aux gouvernements d'offrir davantage de services publics et de transferts a ses citoyens. ce resultat est coherent avec la litterature qui reconnait que la reduction des inegalites de revenus est principalement le resultat de depenses publiques et de transferts.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "regressions a effet fixe sur le niveau de recettes fiscales et la structure fiscale utilisee",
+    "doit-on se soucier de la structure",
+    "tableau 4 (suite)",
+    "variables de taxation (en % du pib)",
+    "regressions a effet fixe sur le financement des transferts sociaux",
+    "fiscale servant a prelever",
+    "le role de la fiscalite",
+    "tableau 3",
+    "tableau 5",
+    "introduction",
+    "bibliographie"
+  ],
+  "bibliographies": [
+    "barro, r. (2008), inequality and growth revisited, asian development bank, working paper series on regional economic integration, no 11, janvier. barnes, l. (2012), the facts about tax progressivity, publie par j. sides sur monkey cage blog: http://themonkeycage.org/2012/02/16/the-facts-about-tax-progressivity/.",
+    "bova, e., t. kinda, j. woo et y. s. zhang (2013), distributional consequences of fiscal consolidation and the role of fiscal policy: what do the data say?, cahier de recherche, imf.",
+    "cameron, a. c. et p. k. trivedi (2009), microeconometrics using stata, stata press publication.",
+    "cubero, r. et i. v. hollar (2010), equity and fiscal policy: the income distribution effects of taxation and social spending in central america, cahier de recherche, imf.",
+    "de gregorio, j. et j. lee (2002), education and income inequality: new evidence from cross-country data, review of income and wealth, 48(3) : 395-416.",
+    "duncan, d. et k. s. peter. (2012), tax progressivity and income inequality, iza dp n° 6910.",
+    "easterly, w. et s. fisher, (2001), inflation and the poor, journal of money, credit and banking, 1 : 159-178.",
+    "fonds monetaire international (2013), taxing time, in tax monitor, octobre 2013.",
+    "fonds monetaire international (2014), public expenditure reform: making difficult choices, in tax monitor, avril 2014.",
+    "forster, m. et m. pearson (2002), distribution des revenus et pauvrete dans la zone de l'ocde : tendances et determinants, revue economique de l'ocde, 34(1).",
+    "goni, e., j. h. lopez et l. serven (2011), fiscal redistribution and income inequality in latin america, world development, 39 (9) : 1558-1569.",
+    "hayashi, f. 2000, econometrics, princeton, nj: princeton university press.",
+    "joumard, i., m. pisu et d. bloch (2012), less income inequality and more growth - are they compatible?, part 3. income redistribution via taxes and transfers across oecd countries, cahier de recherche, n° 926, oecd.",
+    "kuznets, s. (1955), economic growth and income inequality. american economic review, 45(1): 1-28.",
+    "martinez, r., l. ayala et j. ruiz-huerta (2001), the impact of unemployment on inequality and poverty in oecd countries, economics of transition, 9(2) : 417-447.",
+    "martinez-vazquez, j., b. moreno-dodson et v. vulovic (2012), the impact of tax and expenditure policies on income distribution: evidence from a large panel of countries, review of public economics, 200-(4/2012) : 95-130.",
+    "mirrlees, j. a. (1971), an exploration in the theory of optimum income taxation, review of economic studies, 38(114) : 175-208.",
+    "lindert, p. h. (2004), growing public, cambridge: cambridge university press.",
+    "paulus, a., m. cok, f. figari, p. hegedus, n. kump, o. lelkes, h. levy, c. lietz, s. lupsik, d. mantovani, l. morawski, l. h. sutherland, p. szivos et a. vork (2009), the effects of taxes and benefits on income distribution in the enlarged eu, cahier de recherche, n° 8/09, euromod.",
+    "ramsey, f. (1927), a contribution to the theory of taxation, economic journal, 37(145) : 47-61.",
+    "schaffer, m.e. (2010), xtivreg2: stata module to perform extended iv/2sls, gmm and ac/hac, liml and k-class regression for panel data models, http://ideas.repec.org/c/boc/bocode/s456501.html",
+    "whiteford, p. (2008). how much redistribution do governments achieve? the role of cash transfers and household taxes, in growing unequal: income distribution and poverty in oecd countries, oecd."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "poids moyenne ocde poids minimum poids maximum impot sur le revenu et les benefices 32,5 17,0 republique slovaque 57,1 australie taxes a la consommation 20,5 8,1 etats-unis 38,7 chili impots sur les salaires 27,4 0,0 nouvelle-zelande 43,4 republique slovaque impots sur le patrimoine 5,4 1,1 estonie 12,8 etats-unis autres 14,2 8,3 suede 28,5 turquie",
+    "avant apres moyenne ecart-type min max moyenne ecart-type min max australie 0,468 0,004 0,465 0,476 0,321 0,012 0,309 0,336 autriche 0,469 0,018 0,433 0,489 0,258 0,012 0,236 0,268 belgique 0,473 0,013 0,449 0,494 0,271 0,011 0,259 0,289 canada 0,414 0,027 0,365 0,446 0,301 0,014 0,283 0,324 chili 0,527 0,010 0,511 0,541 0,507 0,011 0,494 0,527 rep. tcheque 0,456 0,014 0,442 0,474 0,255 0,011 0,232 0,268 danemark 0,408 0,014 0,373 0,417 0,227 0,009 0,215 0,248 estonie 0,475 0,022 0,450 0,504 0,326 0,017 0,313 0,349 finlande 0,404 0,143 0,000 0,483 0,218 0,075 0,000 0,259 france 0,483 0,008 0,473 0,493 0,287 0,007 0,276 0,300 allemagne 0,476 0,028 0,429 0,504 0,270 0,013 0,251 0,295 grece 0,467 0,028 0,426 0,503 0,346 0,032 0,307 0,424 hongrie 0,475 0,020 0,452 0,497 0,286 0,011 0,272 0,303 islande 0,376 0,008 0,365 0,383 0,278 0,019 0,257 0,301 irlande 0,526 0,034 0,504 0,591 0,312 0,014 0,293 0,331 israel 0,494 0,014 0,472 0,513 0,354 0,021 0,326 0,378 avant apres moyenne ecart-type min max moyenne ecart-type min max italie 0,477 0,057 0,386 0,557 0,319 0,026 0,275 0,352 japon 0,435 0,044 0,345 0,488 0,325 0,011 0,304 0,337 coree 0,339 0,007 0,330 0,345 0,311 0,004 0,306 0,314 luxembourg 0,441 0,034 0,383 0,482 0,265 0,013 0,247 0,288 mexique 0,497 0,030 0,453 0,532 0,483 0,026 0,452 0,519 pays-bas 0,437 0,024 0,417 0,484 0,283 0,012 0,263 0,297 nouvelle-zelande 0,462 0,024 0,408 0,488 0,323 0,021 0,271 0,339 norvege 0,407 0,035 0,351 0,447 0,249 0,020 0,222 0,276 pologne 0,497 0,033 0,467 0,542 0,320 0,019 0,304 0,349 portugal 0,501 0,033 0,436 0,542 0,358 0,016 0,329 0,385 republique slovaque 0,433 0,018 0,416 0,458 0,258 0,008 0,246 0,268 slovenie 0,439 0,013 0,423 0,452 0,242 0,005 0,236 0,247 espagne 0,462 0,015 0,447 0,493 0,330 0,018 0,309 0,371 suede 0,421 0,018 0,389 0,446 0,228 0,025 0,198 0,269 suisse 0,391 0,026 0,372 0,409 0,289 0,014 0,276 0,303 turquie 0,470 0,000 0,470 0,470 0,437 0,032 0,409 0,490 royaume-uni 0,483 0,047 0,338 0,519 0,334 0,020 0,268 0,354 etats-unis 0,454 0,031 0,406 0,486 0,351 0,022 0,307 0,384",
+    "variables independantes fe1 fe2 fe3 fe4 fe5 gini (avant impots et transferts) 0,5010 0,5091 0,4999 0,4993 0,4997 11,61 12,17 11,36 11,56 11,68 pib reel par habitant 0,0051 0,0061 0,0041 0,0043 0,0056 0,37 0,47 0,3 0,32 0,41 education -0,0008 0,0006 -0,0004 -0,0007 0,0000 -0,32 0,29 -0,18 -0,32 0 inflation 0,0003 0,0004 0,0003 0,0003 0,0004 0,9 1,29 0,98 0,92 1,67 taux de chomage -0,0010 -0,0007 -0,0011 -0,0010 -0,0007 -1,47 -1,06 -1,69 -1,49 -1,14",
+    "-4,58 -5,35 -4,78 -5,07 -5,87",
+    "variables independantes iv1 iv2 iv3 iv4 iv5 gini (avant impots et transferts) 0,5084 0,507 0,5083 0,5074 0,5001 17,23 16,86 16,34 16,94 14,97 pib reel / habitant -0,0012 -0,0008 -0,0018 0,0011 0,0051 -0,18 -0,12 -0,25 0,18 0,67 education 0,0008 0,0007 0,0011 0,0009 0,0001 0,88 0,83 1,38 1,05 0,04 inflation 0,0003 0,0004 0,0004 0,0003 0,0005 1,05 1,12 1,35 0,96 2,15 taux de chomage -0,0011 -0,0011 -0,0012 -0,0011 -0,0008 -2,88 -2,73 -3,11 -2,81 -1,37 variables de taxation (en % du pib) : (1) rt -0,2489 -0,2083 -0,2056 -0,2294 -0,3002 -4,9 -4,35 -4,95 -6,64 -5,21 (2) ir 0,196 1,5 (3) ic 0,241 1,54 (4) ip -0,0447 -0,21 (5) is 0,0656 0,47 (6) ratios (en log) entre 2 et 3 -0,009 -1,32 2 et 4 0,0082 1,53 2 et 5 0,0071 0,83",
+    "variables independantes iv1 iv2 iv3 iv4 iv5 instruments revenu en t-1, taux d'emploi taxes en t-1, taux d'emploi 45,9 a 93,5 ratio en t-1, taux d'emploi 108,72 ratio en t-1, taux d'emploi 81,85 ratio en t-1, pop, 15-64 82,05 stat, f 286,38 [0,000] 93,5 [0,000] 108,72 [0,000] 81,85 [0,000] 82,05 [0,000] stat, j hansen 0,113 [0,736] 0,486 [0,486] 0,489 [0,485] 0,000 [0,986] 1,623 [0,203] stat, c sargan - hansen 0,863 [0,353] 0,652 [0,419-0,730] 0,388 [0,533] 0,005 [0,943] 0,249 [0,618]",
+    "nombre d'observations 237 237 237 237 295 r-carre centre 0,809 0,81 0,81 0,814 0,743",
+    "variables independantes fe6 fe7 fe8 fe9 fe10 fe11 fe12 gini (avant impots et transferts) 0,4855 0,4920 0,4679 0,4733 0,4717 0,5290 0,7387 14,53 10,61 7,66 8,93 10,6 4,54 9,27 pib reel par habitant 0,0018 0,0065 0,0017 0,0002 0,0213 -0,0193 -0,0101 0,12 0,37 0,11 0,02 1,8 -0,7 -0,57 education 0,0025 0,0009 0,0011 -0,0001 -0,0011 -0,0012 -0,0075 1,29 0,56 0,6 -0,03 -0,52 -0,29 -2,42 inflation 0,0003 0,0003 0,0006 0,0006 0,0008 -0,0004 -0,0003 0,85 0,84 1,56 1,37 2,36 -0,25 -0,39 taux de chomage 0,0011 -0,0002 -0,0004 -0,0004 0,0005 0,0008 -0,0004 1,63 -0,26 -0,39 -0,42 0,68 0,31 -0,24 depenses (en % du pib) total des transferts -0,4154 -0,9041 -3,49 -2,59 pensions de vieillesse -0,5327 0,0042 -3,73 0,01 pensions de survivant -0,4950 0,6992 -1,34 1,61 pensions d'invalidite -0,5036 -0,3188 -1,29 -0,89 allocations familiales -1,7351 -1,4112 -3,39 -2,14 allocations chomage -1,9624 -0,0238 -4,29 -0,05 nombre d'observations 288 256 256 256 256 255 253 r-carre ajuste 0,972 0,968 0,964 0,964 0,969 0,495 0,797"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graphique 1",
+      "title": "donne une indication du poids de la fiscalite dans les etats membres de l'ocde. elle indique le pourcentage des recettes fiscales en proportion du pib.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que, a un taux de pression fiscale de 36,6 %. le quebec, contrairement",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": "permet d'observer l'evolution de la pression fiscale au sein des pays de l'ocde au cours des 30 dernieres annees.",
+      "source": ""
+    },
+    {
+      "number": "graphique 3",
+      "title": "montre cette evolution au cours des 40 dernieres annees. d'une maniere",
+      "source": ""
+    },
+    {
+      "number": "graphique 4",
+      "title": "), laquelle resulte du croisement de deux variables, soit la proportion cumulative d'une population et la proportion cumulative du revenu agrege detenu par cette meme population, le revenu etant trie par ordre descendant. une societe parfaitement egalitaire se traduit par la ligne diagonale de 45 degres. dans cette situation, un pourcentage donne de la population detient le meme pourcentage du revenu total. on definit l'inegalite au moyen du coefficient de gini (g) par l'equation suivante : \\( g = a/(a+b) \\) ou a represente l'aire entre la courbe de lorenz et la droite de l'egalite parfaite et b l'aire sous la courbe de lorenz. ainsi, plus l'aire a est petite, plus le coefficient de gini tend vers zero. plus le coefficient de gini est petit, plus la societe est egalitaire.",
+      "source": ""
+    },
+    {
+      "number": "graphique 5",
+      "title": "presente le coefficient de gini des pays de l'ocde avant et apres l'intervention gouvernementale. le coefficient de gini sur le revenu de marche (les points) est calcule sur l'ensemble des sources de revenus, sauf les transferts gouvernementaux, et il est calcule avant la perception.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 4",
+      "source": "centre d'etude sur la pauvrete et l'exclusion (lexique), http://www.cepe.gouv.qc.ca/lexique/index.asp."
+    },
+    {
+      "number": "graph i",
+      "title": "que 5",
+      "source": "ocde (2012), distribution des revenus et inegalites."
+    },
+    {
+      "number": "graphique 6",
+      "title": "montre qu'en moyenne le coefficient de gini passe de 0,43 avant impots et transferts a 0,29 apres impots et transferts. en vue de determiner la contribution des impots et des transferts, il faut calculer trois coefficients de gini, celui sur les revenus de marche, celui sur les revenus totaux (on ajoute alors aux revenus de marche, les",
+      "source": ""
+    },
+    {
+      "number": "graphique 7",
+      "title": "reprend le coefficient de gini sur la base des revenus apres impots et transferts (graphique 5) et le met en relation avec le poids des recettes fiscales (graphique 1). les droites verticales et horizontales indiquent les resultats moyens de l'ocde. une certaine correlation semble se dessiner entre ces deux variables montrant que les pays ou le poids des recettes fiscales est plus eleve que la moyenne de l'ocde sont egalement les juridictions qui ont des coefficients de gini indiquant de plus faibles inegalites. a l'inverse, les juridictions ayant un poids de la fiscalite plus faible que la moyenne de l'ocde tendent a avoir des inegalites superieures a la moyenne de l'ocde.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques et du marche du travail tels",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques et du marche du travail sont intuitivement correlates avec les variables fiscales, car pour la plupart des pays de l'ocde, les recettes fiscales sont collectees a partir des impots sur le revenu et de taxes sur les salaires. cependant, le coefficient de correlation d'un indicateur avec une variable fiscale varie significativement selon le choix. pour satisfaire la condition (i) de non-faiblesses, les indicateurs produisant la valeur la plus elevee pour la statistique $f$ (la premiere etape de la methode dmc) ont ete retenus. ainsi, parmi les indicateurs utilises, ce sont le taux d'emploi et la proportion de la population en age de travailler, chacune combinee avec la variable fiscale en temps $t-1$ qui satisfont cette condition. le tableau 4 revele que toutes les valeurs de la statistique $f$ sont elevees ainsi que leur valeur-$p$ nulle impliquant que nos instruments ne sont pas faibles.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques et du marche du travail. techniquement, l'intuition est confirmee par la statistique $j$ de hansen ou l'hypothese nulle est que les instruments sont exogenes. c'est un test adapte pour le cas ou les erreurs $\\epsilon$ sont heteroscedastiques\\(^9\\). c'est fortement le cas, car nos donnees sont sous forme d'un panel des pays de l'ocde. une petite valeur du test implique qu'on ne rejette pas l'hypothese nulle d'exogeneite des instruments. en effet, toutes les valeurs de la statistique sont petites et leur valeur-$p$ etant superieurs a 5 % signifie que l'hypothese nulle n'est pas rejetee. ainsi les instruments sont exogenes.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "poids moyenne ocde poids minimum poids maximum impot sur le revenu et les benefices 32,5 17,0 republique slovaque 57,1 australie taxes a la consommation 20,5 8,1 etats-unis 38,7 chili impots sur les salaires 27,4 0,0 nouvelle-zelande 43,4 republique slovaque impots sur le patrimoine 5,4 1,1 estonie 12,8 etats-unis autres 14,2 8,3 suede 28,5 turquie",
+      "note": "ocde, statistiques des recettes publiques - tableaux comparatifs, calculs des auteurs."
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "avant apres moyenne ecart-type min max moyenne ecart-type min max australie 0,468 0,004 0,465 0,476 0,321 0,012 0,309 0,336 autriche 0,469 0,018 0,433 0,489 0,258 0,012 0,236 0,268 belgique 0,473 0,013 0,449 0,494 0,271 0,011 0,259 0,289 canada 0,414 0,027 0,365 0,446 0,301 0,014 0,283 0,324 chili 0,527 0,010 0,511 0,541 0,507 0,011 0,494 0,527 rep. tcheque 0,456 0,014 0,442 0,474 0,255 0,011 0,232 0,268 danemark 0,408 0,014 0,373 0,417 0,227 0,009 0,215 0,248 estonie 0,475 0,022 0,450 0,504 0,326 0,017 0,313 0,349 finlande 0,404 0,143 0,000 0,483 0,218 0,075 0,000 0,259 france 0,483 0,008 0,473 0,493 0,287 0,007 0,276 0,300 allemagne 0,476 0,028 0,429 0,504 0,270 0,013 0,251 0,295 grece 0,467 0,028 0,426 0,503 0,346 0,032 0,307 0,424 hongrie 0,475 0,020 0,452 0,497 0,286 0,011 0,272 0,303 islande 0,376 0,008 0,365 0,383 0,278 0,019 0,257 0,301 irlande 0,526 0,034 0,504 0,591 0,312 0,014 0,293 0,331 israel 0,494 0,014 0,472 0,513 0,354 0,021 0,326 0,378 avant apres moyenne ecart-type min max moyenne ecart-type min max italie 0,477 0,057 0,386 0,557 0,319 0,026 0,275 0,352 japon 0,435 0,044 0,345 0,488 0,325 0,011 0,304 0,337 coree 0,339 0,007 0,330 0,345 0,311 0,004 0,306 0,314 luxembourg 0,441 0,034 0,383 0,482 0,265 0,013 0,247 0,288 mexique 0,497 0,030 0,453 0,532 0,483 0,026 0,452 0,519 pays-bas 0,437 0,024 0,417 0,484 0,283 0,012 0,263 0,297 nouvelle-zelande 0,462 0,024 0,408 0,488 0,323 0,021 0,271 0,339 norvege 0,407 0,035 0,351 0,447 0,249 0,020 0,222 0,276 pologne 0,497 0,033 0,467 0,542 0,320 0,019 0,304 0,349 portugal 0,501 0,033 0,436 0,542 0,358 0,016 0,329 0,385 republique slovaque 0,433 0,018 0,416 0,458 0,258 0,008 0,246 0,268 slovenie 0,439 0,013 0,423 0,452 0,242 0,005 0,236 0,247 espagne 0,462 0,015 0,447 0,493 0,330 0,018 0,309 0,371 suede 0,421 0,018 0,389 0,446 0,228 0,025 0,198 0,269 suisse 0,391 0,026 0,372 0,409 0,289 0,014 0,276 0,303 turquie 0,470 0,000 0,470 0,470 0,437 0,032 0,409 0,490 royaume-uni 0,483 0,047 0,338 0,519 0,334 0,020 0,268 0,354 etats-unis 0,454 0,031 0,406 0,486 0,351 0,022 0,307 0,384",
+      "note": "ocde, *income distribution database* - idd."
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "variables independantes fe1 fe2 fe3 fe4 fe5 gini (avant impots et transferts) 0,5010 0,5091 0,4999 0,4993 0,4997 11,61 12,17 11,36 11,56 11,68 pib reel par habitant 0,0051 0,0061 0,0041 0,0043 0,0056 0,37 0,47 0,3 0,32 0,41 education -0,0008 0,0006 -0,0004 -0,0007 0,0000 -0,32 0,29 -0,18 -0,32 0 inflation 0,0003 0,0004 0,0003 0,0003 0,0004 0,9 1,29 0,98 0,92 1,67 taux de chomage -0,0010 -0,0007 -0,0011 -0,0010 -0,0007 -1,47 -1,06 -1,69 -1,49 -1,14",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "-4,58 -5,35 -4,78 -5,07 -5,87",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "variables independantes iv1 iv2 iv3 iv4 iv5 gini (avant impots et transferts) 0,5084 0,507 0,5083 0,5074 0,5001 17,23 16,86 16,34 16,94 14,97 pib reel / habitant -0,0012 -0,0008 -0,0018 0,0011 0,0051 -0,18 -0,12 -0,25 0,18 0,67 education 0,0008 0,0007 0,0011 0,0009 0,0001 0,88 0,83 1,38 1,05 0,04 inflation 0,0003 0,0004 0,0004 0,0003 0,0005 1,05 1,12 1,35 0,96 2,15 taux de chomage -0,0011 -0,0011 -0,0012 -0,0011 -0,0008 -2,88 -2,73 -3,11 -2,81 -1,37 variables de taxation (en % du pib) : (1) rt -0,2489 -0,2083 -0,2056 -0,2294 -0,3002 -4,9 -4,35 -4,95 -6,64 -5,21 (2) ir 0,196 1,5 (3) ic 0,241 1,54 (4) ip -0,0447 -0,21 (5) is 0,0656 0,47 (6) ratios (en log) entre 2 et 3 -0,009 -1,32 2 et 4 0,0082 1,53 2 et 5 0,0071 0,83",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "variables independantes iv1 iv2 iv3 iv4 iv5 instruments revenu en t-1, taux d'emploi taxes en t-1, taux d'emploi 45,9 a 93,5 ratio en t-1, taux d'emploi 108,72 ratio en t-1, taux d'emploi 81,85 ratio en t-1, pop, 15-64 82,05 stat, f 286,38 [0,000] 93,5 [0,000] 108,72 [0,000] 81,85 [0,000] 82,05 [0,000] stat, j hansen 0,113 [0,736] 0,486 [0,486] 0,489 [0,485] 0,000 [0,986] 1,623 [0,203] stat, c sargan - hansen 0,863 [0,353] 0,652 [0,419-0,730] 0,388 [0,533] 0,005 [0,943] 0,249 [0,618]",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "nombre d'observations 237 237 237 237 295 r-carre centre 0,809 0,81 0,81 0,814 0,743",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "variables independantes fe6 fe7 fe8 fe9 fe10 fe11 fe12 gini (avant impots et transferts) 0,4855 0,4920 0,4679 0,4733 0,4717 0,5290 0,7387 14,53 10,61 7,66 8,93 10,6 4,54 9,27 pib reel par habitant 0,0018 0,0065 0,0017 0,0002 0,0213 -0,0193 -0,0101 0,12 0,37 0,11 0,02 1,8 -0,7 -0,57 education 0,0025 0,0009 0,0011 -0,0001 -0,0011 -0,0012 -0,0075 1,29 0,56 0,6 -0,03 -0,52 -0,29 -2,42 inflation 0,0003 0,0003 0,0006 0,0006 0,0008 -0,0004 -0,0003 0,85 0,84 1,56 1,37 2,36 -0,25 -0,39 taux de chomage 0,0011 -0,0002 -0,0004 -0,0004 0,0005 0,0008 -0,0004 1,63 -0,26 -0,39 -0,42 0,68 0,31 -0,24 depenses (en % du pib) total des transferts -0,4154 -0,9041 -3,49 -2,59 pensions de vieillesse -0,5327 0,0042 -3,73 0,01 pensions de survivant -0,4950 0,6992 -1,34 1,61 pensions d'invalidite -0,5036 -0,3188 -1,29 -0,89 allocations familiales -1,7351 -1,4112 -3,39 -2,14 allocations chomage -1,9624 -0,0238 -4,29 -0,05 nombre d'observations 288 256 256 256 256 255 253 r-carre ajuste 0,972 0,968 0,964 0,964 0,969 0,495 0,797",
+      "note": ""
+    }
+  ]
+}

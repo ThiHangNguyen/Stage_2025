@@ -99,7 +99,7 @@ def normalize_text(text):
     text = text.replace("»", "")         # guillemet français fermant
     text = text.replace('"', "")         # guillemet droit
     #Suppression des tirets et apostrophes
-    text = re.sub(r"[-']", "", text)
+    #text = re.sub(r"[-']", "", text)
     text = re.sub(r"\s+([,.])", r"\1", text)
     # Minuscule + strip + suppression des espaces multiples
     text = text.lower().strip()

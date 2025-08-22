@@ -67,8 +67,8 @@ def convert_to_base(data):
 
     base = {
         "title": first_or_empty(data.get("title")),
-        "overline": first_or_empty(data.get("overline")), 
-        "subtitle": first_or_empty(data.get("subtitle")),
+        # "overline": first_or_empty(data.get("overline")), 
+        # "subtitle": first_or_empty(data.get("subtitle")),
         "authors": [],
         "abstract": first_or_empty(data.get("abstract")),
         "date": normalize_date(first_or_raw(data.get("date"))),
@@ -84,7 +84,7 @@ def convert_to_base(data):
             "text": first_or_empty(data.get("rights_text")),
             "link": first_or_empty(data.get("rights_link")),
         },
-        "editorial_team":[],# data.get("editorial_team", {}),
+        #"editorial_team":[],# data.get("editorial_team", {}),
         "issue_number": first_or_empty(data.get("issue_number")),
         "volume": first_or_empty(data.get("volume")),
         "keywords": [normalize_text(k) for k in data.get("keywords", []) if isinstance(k, str)],
@@ -98,8 +98,8 @@ def convert_to_base(data):
                         ],
 
         "acknowledgements": first_or_empty(data.get("acknowledgements")),
-        "biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
-        "content_table": [normalize_text(k) for k in data.get("content_table", []) if isinstance(k, str)],
+        #"biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
+        "content_tables": [normalize_text(k) for k in data.get("content_table", []) if isinstance(k, str)],
         "notes": [normalize_text(n) for n in data.get("notes", []) if isinstance(n, str)],
                 # "bibliographies": [
         #     {
@@ -125,29 +125,7 @@ def convert_to_base(data):
     
     }
 
-    # Traitement des auteurs (prénom, nom, affiliation, etc.)
-    # first_names = data.get("author_first_name", [])
-    # last_names = data.get("author_last_name", [])
-    # affiliations = data.get("author_affiliation", [])
-    # emails = data.get("author_email", [])
-    # websites = data.get("author_website", [])
-    # orcids = data.get("author_orcid", [])
-
-    # nb_authors = max(len(first_names), len(last_names), len(affiliations), len(emails), len(websites), len(orcids))
-
-    # for i in range(nb_authors):
-    #     author = {
-    #         "first_name": normalize_text(first_names[i]) if i < len(first_names) else "",
-    #         "last_name": normalize_text(last_names[i]) if i < len(last_names) else "",
-    #         "affiliation": normalize_text(affiliations[i]) if i < len(affiliations) else "",
-    #         "email": normalize_text(emails[i]) if i < len(emails) else "",
-    #         "website": normalize_text(websites[i]) if i < len(websites) else "",
-    #         "orcid": normalize_text(orcids[i]) if i < len(orcids) else "",
-    #     }
-    #     base["authors"].append(author)
-
     authors = data.get("authors", [])
-    print(authors)
     if isinstance(authors, list):
         base["authors"] = []
         for author in authors:
@@ -163,14 +141,14 @@ def convert_to_base(data):
 
 
 
-    editorial_team = data.get("editorial_team", [])
-    if isinstance(editorial_team, list):
-        base["editorial_team"] = []
-        for member in editorial_team:
-            personne = {}
-            for k, v in member.items():
-                personne[k] = normalize_text(v) if isinstance(v, str) else v
-            base["editorial_team"].append(personne)
+    # editorial_team = data.get("editorial_team", [])
+    # if isinstance(editorial_team, list):
+    #     base["editorial_team"] = []
+    #     for member in editorial_team:
+    #         personne = {}
+    #         for k, v in member.items():
+    #             personne[k] = normalize_text(v) if isinstance(v, str) else v
+    #         base["editorial_team"].append(personne)
 
 
     # base["body"] = []
@@ -190,7 +168,6 @@ def convert_to_base(data):
                 "number": normalize_text(f.get("number", "")),
                 "title": normalize_text(f.get("title", "")),
                 "source": normalize_text(f.get("source", "")),
-                #"full_text": normalize_text(f.get("full_text", "")),
             })
 
 
@@ -202,9 +179,6 @@ def convert_to_base(data):
                 "title": normalize_text(t.get("title", "")),
                 "content":normalize_text(t.get("content", "")),
                 "note": normalize_text(t.get("note", "")),
-                #"parent": normalize_text(t.get("parent", "")) if t.get("parent") else None,
-                #"full_text" : normalize_text(t.get("full_text", "")) if t.get("full_text") else None,
-            
             })
 
 

@@ -1,0 +1,339 @@
+{
+  "title": "la microsimulation dans les projections de population",
+  "authors": [],
+  "abstract": "frans willekens",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "l'approche de la microsimulation",
+    "resultats complementaires",
+    "tableau 5 trajectoires les plus frequentes (population virtuelle)",
+    "illustration : vieillissement et incapacite",
+    "conclusion",
+    "abstract",
+    "introduction",
+    "bibliographie"
+  ],
+  "bibliographies": [
+    "aalen, o. o., ø. borgan et h. k. gjessing. 2008. survival and event history analysis. a process point of view. new york, springer.",
+    "billari, f. 2006. bridging the gap between micro-demography and macro-demography, dans g. graziella, j. vallin and g. wunsch (dir.), demography : analysis and synthesis, new york, academic press (elsevier), 4 : 695-707.",
+    "blossfeld h. p. et g. rohwer. 2002. techniques of event history analysis. new approaches to causal analysis (2e ed.). mahwah (nj), lawrence erlbaum associates.",
+    "cannan, e. 1895. the probability of a cessation of the growth of population in england and wales during the next century, the economic journal, 5 : 505-515.",
+    "chi, g. 2009. can knowledge improve population projections at subcounty levels?, demography, 46, 2 : 405-427.",
+    "coleman, j. s. 1991. foundations of social theory. cambridge (mass.), harvard university press.",
+    "de bruijn, b. j. 1999. foundations of demographic theory. choice, process, context. amsterdam, thela-thesis publishers.",
+    "evans, m., n. hastings et b. peacock. 2000. statistical distributions (3e ed.). new york, wiley.",
+    "gampe, j., s. zinn, f. willekens, n. van der gaag, j. de beer, h. himmelspach et a. uhrmacher. 2009. the microsimulation tool of the micmac project, communication presentee au 2e congres de la international microsimulation association, ottawa, 8-10 juin.",
+    "himmelspach, j. et a. m. uhrmacher. 2007. plug'n simulate, dans anss '07 : proceedings of the 40th annual simulation symposium, washington dc, ieee computer society : 137-143.",
+    "keyfitz, h. 1968. introduction to the mathematics of population. reading (mass.), addison-wesley.",
+    "keyfitz n. 1982. can knowledge improve forecasts?, population and development review, 8 : 729-751.",
+    "keyfitz, n. et h. caswell. 2005. applied mathematical demography (3e ed.). new york, springer.",
+    "ogurtsova, e., j. gampe et s. zinn. 2010. practical population forecasting by microsimulation : application of the micmac software, dans work session on demographic projections. lisbon, 28-30 april 2010, luxembourg, eurostat. pdf disponible sur le site d'eurostat, n° ks-ra-10-009. orcutt, g., s. caldwell et r. wertheimer. 1976. *policy exploration through microanalytic simulation*. washington dc, the urban institute.",
+    "preston, s., p. heuveline et m. guillot. 2001. *demography. measuring and modeling population processes*. oxford, blackwell.",
+    "rogers, a. 1975. *introduction to multiregional mathematical demography*. new york, wiley.",
+    "rubinstein, r. et d. kroese. 2008. *simulation and the monte carlo method* (2e ed.). orlando, wiley.",
+    "ryder, n. b. 1965. the cohort as a concept in the study of social change, *american sociological review*, 30 : 843-861.",
+    "sanderson, w. c. 1998. knowledge can improve forecasts : a review of selected socioeconomic population projection models, *population and development review*, 24, suppl. : 88-117.",
+    "schoen, r. 1988. *modeling multigroup populations*. new york, plenum press.",
+    "van imhoff, e. et w. post. 1998. microsimulation methods for population projection, n° special *population : an english selection, new methodological approaches in the social sciences* : 97-138.",
+    "whepton, p. k. 1928. population of the united states, 1925-1975, *the american journal of sociology*, 31 : 253-270.",
+    "willekens, f. 1984. spatial policy and demographic research opportunities, dans h. ter heide et f. willekens (dir.), *demographic research and spatial policy. the dutch experience*, new york, academic press : 355-401.",
+    "willekens, f. 2005. biographic forecasting : bridging the micro-macro gap in population forecasting, *new zealand population review*, 31, 1 : 77-124.",
+    "willekens, f. 2007. multistate model for biographic analysis and projection, working paper 2007/1, la hague, nidi.",
+    "willekens, f. 2009. continuous-time microsimulation in longitudinal analysis, dans a. zaidi, a. harding et p. williamson (dir.), *new frontiers in microsimulation modeling*. farnham, ashgate : 353-376.",
+    "willekens, f. 2011. biograph. version 2.0. comprehensive r archive network (cran). logiciel telechargeable a partir du site http://cran.r-project.org/",
+    "willekens, f. (sous presse). *biograph. multistate analysis of life histories with r*. springer.",
+    "zaidi, a. et k. rake. 2001. dynamic microsimulation models : a review and some lessons, sage discussion paper n° 2. consultable a partir de la page : http://www/lse.ac.uk/depts/sage/conference/workshop.htm",
+    "zaidi, a., a. harding et p. williamson (dir.). 2009. *new frontiers in microsimulation modelling*. farnham, ashgate.",
+    "zinn, s., j. himmelspach, j. gampe et a.m. uhrmacher. 2009. mic-core : a tool for microsimulation, dans *proceedings of the 2009 winter simulation conference : december 13-16, 2009, austin, texas, piscataway (n)*, ieee. zinn, s., j. gampe, j. himmelspach et a. m. uhrmacher. 2010. a devs model for demographic microsimulation, dans spring simulation multiconference 2010 - symposium on theory of modeling and simulation (devs), san diego, scs publishing house.",
+    "annexe a : le logiciel mic-mac",
+    "le projet micmac a ete concu pour combler l'ecart micro/macro dans le domaine des previsions de population. ce projet a ete mis en œuvre entre mai 2005 et avril 2009 par un consortium d'instituts de recherche et d'universites europeennes. ce consortium etait constitue de l'institut max planck pour la recherche demographique (mpidr) a rostock ; l'institut national d'etudes demographiques (ined) a paris ; l'institut viennois de la demographie (vid) ; l'institut international pour l'analyse appliquee des systemes (iiasa) a laxembourg, autriche ; le centre dondena pour la recherche sur la dynamique sociale de l'universite bocconi, milan ; le departement de la sante publique, universite erasmus, rotterdam ; ainsi que l'institut neerlandais interdisciplinaire de demographie (nidi) a la haye qui en a egalement assure la coordination. ce projet de recherche a ete finance par la commission europeenne dans le cadre du 6e programme-cadre (contrat n° sp23-ct-2005-006637).",
+    "dans le projet micmac les trajectoires individuelles sont generees par miccore, le module de simulation du logiciel micmac. le logiciel micmac comporte trois parties distinctes. tout d'abord, il comprend un preprocesseur qui produit la population de base et les taux de transition pour l'annee de depart et toutes les annees a venir dans le format requis par le logiciel de microsimulation. ensuite vient le processeur, c'est-a-dire le logiciel de microsimulation appele miccore. miccore effectue la microsimulation et stocke les resultats dans une base de donnees. enfin, il comprend un post-processeur qui lit la base de donnees produite par miccore et decrit la population simulee sous forme de tableaux et de graphiques.",
+    "miccore n'a pas ete developpe a partir de rien. apres une etude approfondie par zinn et collab. (2009) du logiciel de microsimulation dynamique, il a ete decide de mettre en œuvre miccore comme plug-in de james ii, qui est un outil global de modelisation et de simulation developpe par l'universite de rostock. james ii est un projet open-source qui tourne sous une plateforme java et est disponible sur le site www.jamesii.org. il peut etre utilise sur tous les systemes pour lesquels une machine virtuelle java (jvm) est disponible. james ii est dote de la technologie m&sa plus avancee, et offre donc une forte puissance de calcul, indispen- sable pour des simulations a grande echelle. james ii se base sur un concept de plug'n simulate (himmelspach et uhrmacher, 2007). ce concept permet au developpeur d'integrer de nouveaux composants (tels que des plug-ins) dans une structure existante. un grand nombre de plug-ins sont d'ores et deja disponibles pour james ii. miccore est developpe sous forme de deux plug-ins pour james ii : un plug-in de modelisation et un plug-in de simulation. miccore utilise james ii comme un service m&x et utilise des fonctions telles que les files d'attente. le plug-in de modelisation lit la population initiale et produit les taux de transition pour la periode de depart et toutes les annees a venir. le preprocesseur micmac cree les donnees demographiques et les taux de transition dans le format requis par miccore (deux fichiers ascii). le plug-in de simulation execute les microsimulations en appliquant la technique de simulation a evenements discrets (des) (zin et collab., 2010). dans ce type de simulation, le temps evolue de maniere discrete d'un evenement a un autre. avec miccore, tous les individus sont simules de maniere simultanee dans un echeancier continu d'evenements. au debut de la simulation, tous les individus sont places dans la file d'attente (en-queued) de l'echeancier. pour chaque individu, le delai de transition et l'etat de destination sont determines a l'aide de la methode decrite dans la partie principale de cet article. l'individu ayant le delai de transition le plus court est retire de la file d'attente (de-queued), puis la transition suivante est alors determinee pour cet individu a l'aide du taux de transition approprie dans la matrice des taux de transition, puis replace en file d'attente. l'individu ayant le delai de transition le plus court dans la file d'attente est selectionne, retire de la file d'attente, et ainsi de suite. dans miccore, les individus peuvent entrer dans la population par naissance et immigration, et en sortir par deces et emigration (etats absorbants). avec miccore, il est possible d'avoir des taux de transition pour les immigres differents de ceux appliques aux autochtones. les parcours de vie simules sont stockes dans deux fichiers ascii (grace a un mecanisme de collecte des donnees fourni par james ii). un des fichiers contient les dates de naissance de tous les individus simules. l'autre fichier contient l'echeancier des evenements simules et les etats de destination correspondants. il comprend egalement les dates d'entree des individus simules dans la population virtuelle. pour les individus de la population de depart, cette date correspond au debut de la simulation ; tandis que pour les immigres, il s'agit de la date d'immigration, et de la date de naissance pour les nouveau-nes. pour une description de miccore, voir gampe et collab. (2009), ogurtsova et collab. (2010) et zinn et collab. (2009)."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "origine a b c destination a 0,8763 0,2363 0,1405 b 0,0806 0,6887 0,1445 c 0,0431 0,0750 0,7150",
+    "etat annee 0 1 2 3 4 5 6 7 8 9 10 a 4000 4636 5086 5405 5629 5787 5897 5975 6029 6067 6094 b 3000 2822 2685 2581 2504 2448 2407 2378 2357 2343 2332 c 3000 2542 2229 2014 1867 1765 1695 1647 1613 1590 1574",
+    "destination origine a b c a 7,1 4,9 4,2 b 1,8 3,8 2,2 c 1,1 1,3 3,6 total 10 10 10",
+    "etat annee 0 1 2 3 4 5 6 7 8 9 10 a 4000 4638 5131 5447 5671 5891 5976 6039 6064 6121 6105 b 3000 2818 2666 2538 2474 2350 2340 2334 2315 2272 2312 c 3000 2544 2203 2015 1855 1759 1684 1627 1621 1607 1583",
+    "destination origine a b c a 7,4 4,6 3,9 b 1,6 4,2 2,1 c 1 1,2 4 total 10 10 10",
+    "ncas % cum % ns cas tr1 tr2 tr3 tr4 1 930 23,25 23,25 1 a 2 696 17,40 40,65 3 aba 3,86>b 5,94>a 3 289 7,22 47,88 2 ab 7,08>b 4 214 5,35 53,22 2 ac 6,41>c 5 199 4,97 58,20 3 aca 3,62>c 5,85>a 6 159 3,98 62,17 4 abab 3,25>b 5,28>a 8,02>b 7 144 3,60 65,77 4 acba 3,14>c 5,09>b 7,07>a 8 136 3,40 69,17 5 ababa 2,43>b 4,04>a 6,39>b 7,91>a 9 120 3,00 72,17 3 acb 5,11>c 7,78>b 10 119 2,98 75,15 3 abc 4,49>b 7,11>c",
+    "ncas % cum % ns cas tr1 tr2 tr3 tr4 1 736 24,53 24,53 2 ba 3,15>a 2 330 11,00 35,53 4 baba 1,89>a 5,06>b 6,95>a 3 226 7,53 43,07 3 bab 2,39>a 7,66>b 4 136 4,53 47,60 3 bca 2,47>c 5,43>a 5 129 4,30 51,90 4 bcba 2,06>c 4,21>b 6,35>a 6 118 3,93 55,83 3 bac 2,41>a 7,19>c 7 104 3,47 59,30 4 baca 2,25>a 5,25>c 7,09>a 8 77 2,57 61,87 3 bcb 3,22>c 6,85>b 9 73 2,43 64,30 5 babab 1,48>a 4,15>b 5,82>a 8,37>b 10 71 2,37 66,67 4 babc 2,12>a 5,75>b 7,82>c",
+    "ncas % cum % ns cas tr1 tr2 tr3 tr4 1 518 17,27 17,27 3 cba 2,71>b 5,16>a 2 420 14,00 31,27 2 ca 3,41>a 3 202 6,73 38,00 4 caba 1,98>a 5,25>b 7,15>a 4 161 5,37 43,37 2 cb 5,29>b 5 141 4,70 48,07 3 cab 2,81>a 7,77>b 6 141 4,70 52,77 4 cbab 2,41>b 4,28>a 7,99>b 7 125 4,17 56,93 5 cbaba 1,77>b 3,43>a 5,76>b 7,48>a 8 89 2,97 59,90 1 c 9 81 2,70 62,60 4 cbac 2,45>b 4,22>a 7,77>c 10 80 2,67 65,27 3 cac 2,41>a 6,82>c"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graph i",
+      "title": "que que la methode des composantes ne peut proposer.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que decrivent les changements en termes de caracteristiques demographiques (p. ex. la composition par age et par sexe) et les taux de fecondite, de mortalite et de migration (qui varient selon l'age et le sexe). l'age auquel les individus ont des enfants, migrent et decedent determine ces taux. les parcours de vie individuels sont a la base des variations demographiques. la microsimulation dynamique est une technique qui associe les changements au niveau de la population aux parcours de vie individuels. cet article presente un",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "institute (nidi) (willekens@nidi.nl)",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques et sociaux (ryder, 1965). c'est egalement pour cette raison que, dans les modeles de projection demographique, les populations sont stratifiees par cohorte. les modeles de projection les plus utilises sont les modeles a composantes de cohorte qui distinguent les cohortes de naissances et les composantes des changements demographiques en termes de fecondite, de mortalite et de migration. dans les projections demographiques fonctionnelles, la migration est remplacee par les transitions entre des etats fonctionnels. dans les projections de population relatives a l'education, c'est l'entree et la sortie du systeme educatif ainsi que les mouvements entre les differentes categories educatives (p. ex. le type d'ecole et le niveau) qui sont pris en compte. dans les projections de la population active, ce sont l'entree et la sortie du marche du travail ainsi que les mouvements entre les differentes categories du marche du travail (p. ex. personnes en emploi/sans emploi, categories professionnelles). dans les projections de l'etat de sante, c'est le mouvement entre les categories d'etat de sante. dans les modeles de projection traditionnels, on etudie la fecondite, la mortalite et les passages d'un etat a l'autre au niveau d'une population.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que. mais ces differences ont-elles de l'importance ? elles en ont, en effet. prenons par exemple les projections de la force de travail. les femmes d'un age donne qui travaillent ont une fecondite plus faible que les femmes du meme age qui ne travaillent pas. du fait de l'evolution de la fecondite, mais egalement de la selection, cette difference varie toutefois dans le temps. lorsque peu de femmes travaillent, celles qui ont un emploi sont susceptibles de se consacrer davantage a leur carriere qu'a leur famille. elles ont souvent beaucoup moins d'enfants que les femmes qui ne travaillent pas. lorsque les femmes sont plus nombreuses",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques. les modeles de projection qui acceptent cette heterogeneite incluent une possibilite de selection et sont plus adaptes aux theories comportementales et plus a meme de rendre compte des changements temporels, souci constant de la modelisation des projections de population (chi, 2009 ; keyfizt, 1982 ; sanderson, 1998 ; willekens, 1984).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques (qui interessent directement la projection), soit non demographiques (et donc consideres comme d'importants covariants). le nombre et les types d'attributs pris en compte varient suivant l'objectif de la projection et la prise ou compte ou non de l'impact des facteurs institutionnels. une des strategies visant a integrer les attributs personnels dans les modeles de projection consiste a stratifier la population en fonction des principaux attributs et a utiliser un modele multi-etats qui distingue les sous-populations (strates) et autorise les echanges entre les sous-populations. une deuxieme strategie, qui peut etre associee a la premiere, consiste a identifier une serie de predicteurs (covariants) des parametres du modele de projection et a specifier un modele de regression qui capture la relation. la microsimulation represente une troisieme strategie, qui peut etre associee aux deux premieres. ces trois strategies partagent les memes caracteristiques : (a) un individu est represente par un ensemble d'attributs personnels et (b) le comportement demographique de cet individu est projete ou predit en se fondant sur l'experience d'individus similaires, c'est-a-dire d'individus ayant les memes attributs, experience eventuellement renforcee par des hypotheses sur leur parcours de vie future. dans un groupe d'individus similaires, les individus partagent certains caracteres, mais pas necessairement le meme parcours de vie. les parcours de vie peuvent differer pour trois raisons : (a) les individus du groupe different en termes d'attributs omis lors de la projection, (b) des individus similaires repondent differemment aux experiences, evenements",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques influe-t-elle sur l'evolution des parcours de vie individuels ? la microsimulation est le seul moyen d'obtenir certaines informations utiles sur les changements demographiques.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e et micro-demographie a ete traite (p. ex. billari, 2006 ; keyfitz et caswell, 2005 ; willekens, 2005) mais il reste beaucoup a faire pour rendre ce lien parfaitement operationnel. cet article a pour objectif de favoriser le rapprochement entre projections demographiques et projections biographiques. les projections demographiques utilisent la methode des composantes de cohortes, qui prevoit une projection des caracteristiques demographiques par cohorte de naissance. ce modele permet d'obtenir, pour chaque cohorte de naissance et a des moments successifs dans le temps, le nombre d'individus en fonction du sexe et d'autres attributs demographiques choisis pour la projection. a mesure de l'avancee en age de la cohorte, les caracteristiques changent. ryder (1965) considere cette sequence de caracteristiques comme etant la biographie de la cohorte. le modele multi-etats par composantes permet d'obtenir des biographies de cohortes synthetiques. les projections biographiques, ou projections des parcours de vie individuels, se fondent le plus souvent sur la microsimulation dynamique (pour une discussion, voir willekens, 2009). a ce jour, la microsimulation dynamique et la methode des composantes de cohorte n'ont pas encore ete associees. c'est ce que nous tentons de faire ici.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "es individuelles. la methode de la microsimulation dynamique a ete choisie parce que les individus peuvent avoir des enfants, migrer ou deceder a n'importe quel moment ou n'importe quel age. le temps ecoule jusqu'a l'evenement depend de facteurs systematiques ou covariants (certains individus ont plus de probabilite de connaitre un evenement plus tot ou plus tard) et du",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "es individuelles generees par la microsimulation et les biographies des cohortes obtenues par la methode des composantes. dans les projections de population traditionnelles, cette coherence est garantie parce que l'on suppose qu'une cohorte est homogene, c'est-a-dire que tous les membres de la cohorte sont identiques, et qu'on ne tient pas compte des facteurs aleatoires. dans les modeles de microsimulation qui sont utilises aujourd'hui, ce critere de coherence est soit neglige soit impose ex post a l'aide de procedures d'alignement qui imposent une correspondance entre les previsions obtenues a partir de donnees agregees et les previsions externes (voir p. ex zaidi et rake, 2001). dans cet article, nous decrivons et illustrons une methode qui garantit la coherence entre les biographies individuelles et les biographies de cohortes, sous certaines conditions.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que des acteurs individuels de cette population. si pour chaque femme d'une population donnee ou pour une femme representative d'un groupe de femmes similaires, nous pouvions connaitre les intentions de grossesse pour les 12 prochains mois, nous serions en mesure de projeter le nombre de naissances apres correction pour tenir compte des differences evidentes entre ces intentions et leur realisation. selon cette approche, la dynamique du systeme de population est determinee par des processus internes au systeme au niveau des individus. la prediction du comportement du systeme sur la base des actions, des attentes, des intentions et des attitudes des acteurs a un niveau inferieur a celui du systeme est fortement liee au mode d'explication du comportement du systeme adopte par coleman (1991) et generalement appele individualisme methodologique, expression forgee par schumpeter en 1909. selon cette approche, les changements au niveau du systeme qui resultent des actions et interactions individuelles ne sont ni intentionnels ni prevus par les individus (coleman, 1991 : 5). de bruijn (1999) a developpe une base theorique du changement demographique selon la methode de l'individualisme methodologique. pour les projections de population, cette methode se justifie, parce qu'a la difference des systemes sociaux, le systeme de population n'influence pas sa dynamique de maniere autonome. peu de personnes adaptent leurs desirs d'enfants en reponse a la croissance de la population et peu de personnes egalement adaptent leur style de vie a cause d'une augmentation des deces dans leur pays. la dynamique des populations est en grande partie determinee par les actions des individus, par les interactions entre individus et les reponses individuelles aux facteurs et politiques institutionnels et autres variables liees au contexte. cette perspective laisse suffisamment de place a l'influence des normes, institutions, politiques, evenements historiques et autres types d'experiences collectives sur les actions et interactions individuelles. la figure 1 illustre la methode de l'individualisme methodologique appliquee a la projection demographique. la methode de projection la plus repandue, c'est-a-dire la methode des composantes, permet de predire la taille et la",
+      "source": ""
+    },
+    {
+      "number": "figure 1",
+      "title": "** le lien micro-macro en projection demographique",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "es de cohorte) et des experiences individuelles (biographies individuelles). nous utilisons les memes valeurs de parametres. les parametres estimes a partir de donnees sont des estimations ponctuelles ou valeurs attendues que l'on utilise dans le modele macro. le modele micro prend en compte les idiosyncrasies individuelles qui entrainent des differences de valeur de parametres d'un individu a l'autre. les valeurs possibles d'un parametre donne sont representees par une distribution de probabilite. en microsimulation, les valeurs des parametres sont derivees d'une distribution de probabilite. les parametres utilises a la fois dans le modele macro et le modele micro sont les taux de transition (taux de naissance, taux de mortalite et taux de mobilite). les taux sont avant tout des ratios nombre d'evenements / temps d'exposition. en demographie, on les designe comme des taux d'occurrence-exposition, dans lesquels le nombre d'occurrences est le nombre d'evenements. les taux de transition sont estimes a partir de donnees empiriques, qui sont des donnees sur la population (donnees d'etat civil) ou microdonnees. l'estimation des taux de transition a partir de donnees individuelles s'appuie sur des techniques de survie et sur l'analyse de l'historique des evenements (voir aalen, borgan et gjessing, 2008 ; blossfeld et rohwer, 2002).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "es de cohortes et des biographies individuelles. considerons une cohorte de 1000 individus et trois etats fonctionnels possibles (a, b et c).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e multi-etats (voir preston, heuveline et guillot, 2001 : 268 ; rogers, 1975 ; schoen, 1988). il est different de ce qui est prevu par les conventions en statistique (voir p. ex. aalen, borgan et gjessing, 2008 : 466), mais cette difference n'est pas d'une importance majeure pour la modelisation. on designe par $m$ la matrice de la transition",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e de la cohorte. considerons a present les biographies individuelles et supposons que les differences entre les membres de la cohorte sont seulement dues au hasard. les biographies individuelles sont etablies a partir des memes taux de transition qui servent a obtenir les biographies de cohortes. les biographies individuelles fournissent des informations complementaires sur la cohorte, notamment la proportion de membres de la cohorte commencant a l'etat a qui font un sejour en b et c avant de revenir a l'etat a, ainsi que les temps de transition prevus. autre exemple,",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "es individuelles necessite des tirages aleatoires a partir d'une distribution de probabilite, et plus particulierement de la distribution des temps d'attente. supposons un individu a l'etat i a l'instant 0. les temps d'attente en i jusqu'a un deplacement potentiel vers un etat de destination j, $t_{ij}$, peuvent etre simule a l'aide de la fonction de distribution inverse ou fonction quantile (rubinstein et kroese, 2008 : 53f; gampe et collab., 2009 : 3 ; willekens, 2009). il s'agit d'une pratique courante en simulation a evenements discrets2. la fonction quantile est une des fonctions de probabilite qui caracterisent une variable aleatoire. prenons $\\mu_y(t)$ pour designer le taux instantane de transition de l'etat i a l'etat j a un instant t. la fonction de survie est $s_y(t) = \\exp[-a_y(t)]$, ou",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques (taux de transition) identiques a ceux estimes a partir de donnees reelles. plus l'echantillon est important, plus les caracteristiques de l'echantillon se rapprochent des valeurs prevues.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "es individuelles (tableau 4).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques qui ne peuvent s'obtenir autrement. dans les projections obtenues par les modeles a composantes de cohorte, ces informations restent cachees, tandis que la technique de microsimulation permet de les extraire. plus precisement, elle permet d'extraire des informations sur les parcours de vie individuels totalement coherentes avec l'experience de la cohorte ou la dynamique demographique decrite par le modele de projection. les informations obtenues sont considerees comme fiables si les resultats de la microsimulation et les resultats obtenus par le modele a composantes ou un autre modele de projection sont suffisamment proches. parmi les informations extraites grace a la microsimulation, celles qui concernent les trajectoires presentent un interet particulier. dans la population virtuelle, pres d'un individu sur quatre qui commence en a reste en a pendant toute la periode d'etude (10 ans). ceux qui passent a l'etat b ou c ont de fortes chances de revenir en a. pas moins de 40 % de ceux qui sortent de a a un moment ou un autre y reviennent au moins une fois et sont en a a la fin de l'etude. la moitie des individus de l'echantillon virtuel de population ont une trajectoire parmi un choix de quatre trajectoires differentes, et 75 % une trajectoire parmi un choix de dix. les trajectoires les plus frequentes sont indiquees tableau 5.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques apporte un eclairage supplementaire sur ces dernieres, ce qui est particulierement utile pour etudier les effets des variations des parametres demographiques. supposons par exemple que le taux de transition de b a c augmente de 0,1 a 0,3. ce changement implique que la probabilite pour un individu en b d'etre en c un an plus tard passe de 7,5 % a 19,6 % et la probabilite qu'il reste en b baisse, passant de 69 % a 58 %. cela signifie egalement que dix ans plus tard, 23 % de la population sera en c et 18 % en b, un resultat tres different de celui obtenu avec la projection precedente qui donnait 17 % en c et 23 % en b (a condition que la repartition par etat a l'instant o soit inchangee). le temps median de la transition de b vers c pour un individu qui l'experimente pour la premiere fois baisse de 4,3 ans a 3,7 ans (baisse moyenne de 4,5 a 4,2). cela signifie en outre que les individus sont legerement plus mobiles, et que la part de leur trajectoire abc dans toutes les trajectoires possibles double, passant de 3 % a 6 % tandis que la part de la trajectoire aba diminue, de 17 % a 11 %. la part de la trajectoire ba baisse egalement, de 24 % a 14 %, tandis que celle de la trajectoire bca augmente, de 5 a 9 %. lorsqu'un des taux de transition augmente, cela affecte les parcours de vie dans l'ensemble du systeme de population.",
+      "source": ""
+    },
+    {
+      "number": "figure 2",
+      "title": "aux ages plus avances, la variation aleatoire des taux est forte du fait du nombre peu eleve d'individus. les taux utilises pour cet article ne sont pas lisses. les taux de transition sont des taux par age.",
+      "source": ""
+    },
+    {
+      "number": "figure 2",
+      "title": "** taux de transition hrsw",
+      "source": ""
+    },
+    {
+      "number": "figure 2",
+      "title": "on suppose que tous les individus entrent en observation a l'age de 55 ans. la taille de la population virtuelle est consideree comme identique a celle de l'echantillon de population hrsw (19 452 individus). la repartition a 55 ans des individus en bonne sante et en incapacite est celle que l'on observe pour les hrsw : 17 974 en bonne sante et 1 478 en incapacite. la figure 3 montre la cohorte par age et par statut d'incapacite. le nombre d'individus en incapacite augmente, passant de 1 478 (7,6 %) a 55 ans a un maximum de 3 284 (41,0 % de survivants) a 87 ans. au-dela de cet age, ce nombre diminue du fait de la mortalite. la proportion de survivants en incapacite continue d'augmenter jusqu'a plus de 80 % a 90 ans et plus.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que. le modele de projection est similaire a l'equation (1) mais avec des taux par age",
+      "source": ""
+    },
+    {
+      "number": "figure 4",
+      "title": "indique, pour la cohorte des personnes agees de 55 ans, la difference entre les valeurs de l'echantillon et les valeurs attendues du statut d'incapacite par age. la microsimulation avec un echantillon de 10 000 individus produit des moyennes d'echantillon proches des valeurs attendues obtenues par le modele demographique. les differences sont peu marquees sauf pour les ages les plus avances, lorsque la taille de l'echantillon est trop petite pour obtenir une estimation fiable des temps de sejour dans les differents etats.",
+      "source": ""
+    },
+    {
+      "number": "figure 4",
+      "title": "projection de l'incapacite: comparaison du modele a composantes de cohorte et de la microsimulation",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que, ce sont les trajectoires d'incapacite fournies par la projection demographique. les trajectoires sont designees par des lettres, par ex. hsd signifie en bonne sante, suivi d'un episode d'incapacite et du deces. la plupart des personnes en bonne sante a l'age de 55 ans meurent en bonne sante ou apres un episode isole d'incapacite. on compte ainsi 26 % d'individus qui decedent en bonne sante (hd) a l'age de 74 ans en moyenne. un nombre un peu plus eleve (28 %) decede apres une premiere periode d'incapacite (hsd) ; ils entrent en incapacite a l'age de 77 ans et meurent cinq ans plus tard a 82 ans. la troisieme trajectoire la plus frequente est hshsd (18 %). les personnes suivant cette trajectoire entrent en incapacite a un age inferieur (70 ans), guerissent 4 ans plus tard et entament une deuxieme periode d'incapacite a l'age de 84 ans avant de deceder a 89 ans. les personnes qui",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques. cet objectif n'est pas incompatible avec le critere de coherence. toutefois, si la microsimulation prend en compte une plus grande variabilite des taux de transitions que la methode des composantes, c'est-a-dire qu'elle prend en compte une population plus heterogene, alors les resultats de la microsimulation et du modele a composantes ne sont plus identiques.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques afin de deceler des schemas qui echappent habituellement a l'observation.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "theory. choice, process, context. amsterdam, thela-thesis publishers.",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "projections. lisbon, 28-30 april 2010, luxembourg, eurostat. pdf disponible sur le site d'eurostat, n° ks-ra-10-009.",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "research opportunities, dans h. ter heide et f. willekens (dir.), *demographic research and spatial policy. the dutch experience*, new york, academic press : 355-401.",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "forecasting : bridging the micro-macro gap in population forecasting, *new zealand population review*, 31, 1 : 77-124.",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "analysis and projection, working paper 2007/1, la hague, nidi.",
+      "source": ""
+    },
+    {
+      "number": "graph ic",
+      "title": "microsimulation, dans spring simulation multiconference 2010 - symposium on theory of modeling and simulation (devs), san diego, scs publishing house.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que (mpidr) a rostock ; l'institut national d'etudes demographiques (ined) a paris ; l'institut viennois de la demographie (vid) ; l'institut international pour l'analyse appliquee des systemes (iiasa) a laxembourg, autriche ; le centre dondena pour la recherche sur la dynamique sociale de l'universite bocconi, milan ; le departement de la sante publique, universite erasmus, rotterdam ; ainsi que l'institut neerlandais interdisciplinaire de demographie (nidi) a la haye qui en a egalement assure la coordination. ce projet de recherche a ete finance par la commission europeenne dans le cadre du 6e programme-cadre (contrat n° sp23-ct-2005-006637).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques et les taux de transition dans le format requis par miccore (deux fichiers ascii). le plug-in de simulation execute les microsimulations en appliquant la technique de simulation a evenements discrets (des) (zin et collab., 2010). dans ce type de simulation, le temps evolue de maniere discrete d'un evenement a un autre. avec miccore, tous les individus sont simules de maniere simultanee dans un echeancier continu d'evenements. au debut de la simulation, tous les individus sont places dans la file d'attente (en-queued) de l'echeancier. pour chaque individu, le delai de transition et l'etat de destination sont determines a l'aide de la methode decrite dans la partie principale de cet article. l'individu ayant le delai de transition le plus court est retire de la file d'attente (de-queued), puis la transition suivante est alors determinee pour cet individu a l'aide du taux de transition approprie dans la matrice des taux de transition, puis replace en file d'attente. l'individu ayant le delai de transition le plus court dans la file d'attente est selectionne, retire de la file d'attente, et ainsi de suite. dans miccore, les individus peuvent entrer dans la population par naissance et immigration, et en sortir par deces et emigration (etats absorbants). avec miccore, il est possible d'avoir des taux de transition pour les immigres differents de ceux appliques aux autochtones. les parcours de vie simules sont stockes dans deux fichiers ascii (grace a un mecanisme de collecte des donnees fourni par james ii). un des fichiers contient les dates de naissance de tous les individus simules. l'autre fichier contient l'echeancier des evenements simules et les etats de destination correspondants. il comprend egalement les dates d'entree des individus simules dans la population virtuelle. pour les individus de la population de depart, cette date correspond au debut de la simulation ; tandis que pour les immigres, il s'agit de la date d'immigration, et de la date de naissance pour les nouveau-nes. pour une description de miccore, voir gampe et collab. (2009), ogurtsova et collab. (2010) et zinn et collab. (2009).",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "origine a b c destination a 0,8763 0,2363 0,1405 b 0,0806 0,6887 0,1445 c 0,0431 0,0750 0,7150",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "etat annee 0 1 2 3 4 5 6 7 8 9 10 a 4000 4636 5086 5405 5629 5787 5897 5975 6029 6067 6094 b 3000 2822 2685 2581 2504 2448 2407 2378 2357 2343 2332 c 3000 2542 2229 2014 1867 1765 1695 1647 1613 1590 1574",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "destination origine a b c a 7,1 4,9 4,2 b 1,8 3,8 2,2 c 1,1 1,3 3,6 total 10 10 10",
+      "note": ""
+    },
+    {
+      "number": "3",
+      "title": "projection de cohorte obtenue par la microsimulation",
+      "content": "etat annee 0 1 2 3 4 5 6 7 8 9 10 a 4000 4638 5131 5447 5671 5891 5976 6039 6064 6121 6105 b 3000 2818 2666 2538 2474 2350 2340 2334 2315 2272 2312 c 3000 2544 2203 2015 1855 1759 1684 1627 1621 1607 1583",
+      "note": ""
+    },
+    {
+      "number": "4",
+      "title": "temps de sejour total dans les differents etats, selon l'etat d'origine (echantillon de population virtuelle)",
+      "content": "destination origine a b c a 7,4 4,6 3,9 b 1,6 4,2 2,1 c 1 1,2 4 total 10 10 10",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "ncas % cum % ns cas tr1 tr2 tr3 tr4 1 930 23,25 23,25 1 a 2 696 17,40 40,65 3 aba 3,86>b 5,94>a 3 289 7,22 47,88 2 ab 7,08>b 4 214 5,35 53,22 2 ac 6,41>c 5 199 4,97 58,20 3 aca 3,62>c 5,85>a 6 159 3,98 62,17 4 abab 3,25>b 5,28>a 8,02>b 7 144 3,60 65,77 4 acba 3,14>c 5,09>b 7,07>a 8 136 3,40 69,17 5 ababa 2,43>b 4,04>a 6,39>b 7,91>a 9 120 3,00 72,17 3 acb 5,11>c 7,78>b 10 119 2,98 75,15 3 abc 4,49>b 7,11>c",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "ncas % cum % ns cas tr1 tr2 tr3 tr4 1 736 24,53 24,53 2 ba 3,15>a 2 330 11,00 35,53 4 baba 1,89>a 5,06>b 6,95>a 3 226 7,53 43,07 3 bab 2,39>a 7,66>b 4 136 4,53 47,60 3 bca 2,47>c 5,43>a 5 129 4,30 51,90 4 bcba 2,06>c 4,21>b 6,35>a 6 118 3,93 55,83 3 bac 2,41>a 7,19>c 7 104 3,47 59,30 4 baca 2,25>a 5,25>c 7,09>a 8 77 2,57 61,87 3 bcb 3,22>c 6,85>b 9 73 2,43 64,30 5 babab 1,48>a 4,15>b 5,82>a 8,37>b 10 71 2,37 66,67 4 babc 2,12>a 5,75>b 7,82>c",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "ncas % cum % ns cas tr1 tr2 tr3 tr4 1 518 17,27 17,27 3 cba 2,71>b 5,16>a 2 420 14,00 31,27 2 ca 3,41>a 3 202 6,73 38,00 4 caba 1,98>a 5,25>b 7,15>a 4 161 5,37 43,37 2 cb 5,29>b 5 141 4,70 48,07 3 cab 2,81>a 7,77>b 6 141 4,70 52,77 4 cbab 2,41>b 4,28>a 7,99>b 7 125 4,17 56,93 5 cbaba 1,77>b 3,43>a 5,76>b 7,48>a 8 89 2,97 59,90 1 c 9 81 2,70 62,60 4 cbac 2,45>b 4,22>a 7,77>c 10 80 2,67 65,27 3 cac 2,41>a 6,82>c",
+      "note": ""
+    }
+  ]
+}

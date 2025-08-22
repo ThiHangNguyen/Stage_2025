@@ -1,9 +1,7 @@
 {
   "title": "inference with large clustered datasets*",
-  "overline": "",
-  "subtitle": "",
   "authors": [],
-  "abstract": "inference using large datasets is not nearly as straightforward as conventional econometric theory suggests when the disturbances are clustered, even with very small intracluster correlations. the information contained in such a dataset grows much more slowly with the sample size than it would if the observations were independent. moreover, inferences become increasingly unreliable as the dataset gets larger. these assertions are based on an extensive series of estimations undertaken using a large dataset taken from the u.s. current population survey. + footnote †: this research was supported, in part, by a grant from the social sciences and humanities research council of canada. much of the computation was performed at the centre for advanced computing of queens university. the paper was first presented under the title _donnees massives et regroupements_ as the conference francoisalbertangers at the 56th conference of the societe canadienne de science economique on may 12, 2016. it was also presented at the university of missouri and at aarhus university. the author is grateful to seminar participants and to stas kolenikov, matt webb, and russell davidson for comments.",
+  "abstract": "inference using large datasets is not nearly as straightforward as conventional econometric theory suggests when the disturbances are clustered, even with very small intra-cluster correlations. the information contained in such a dataset grows much more slowly with the sample size than it would if the observations were independent. moreover, inferences become increasingly unreliable as the dataset gets larger. these assertions are based on an extensive series of estimations undertaken using a large dataset taken from the u.s. current population survey. + footnote †: this research was supported, in part, by a grant from the social sciences and humanities research council of canada. much of the computation was performed at the centre for advanced computing of queen's university. the paper was first presented under the title _donnees massives et regroupements_ as the conference francois-albert-angers at the 56th conference of the societe canadienne de science economique on may 12, 2016. it was also presented at the university of missouri and at aarhus university. the author is grateful to seminar participants and to stas kolenikov, matt webb, and russell davidson for comments.",
   "date": "",
   "id": {
     "doi": "",
@@ -17,7 +15,6 @@
     "text": "",
     "link": ""
   },
-  "editorial_team": [],
   "issue_number": "",
   "volume": "",
   "keywords": [],
@@ -36,32 +33,34 @@
     "references"
   ],
   "bibliographies": [
-    "[1]andrews, d. w. k. (2005). crosssection regression with common shocks. econometrica, 73(5): 15511585.",
-    "[2]angrist, j. d., and j.s. pischke (2008). mostly harmless econometrics: an empiricists companion. 1st ed. princeton university press.",
-    "[3]bell, r. m., and d. f. mccaffrey (2002).bias reduction in standard errors for linear regression with multistage samples. survey methodology, 28(2), 169181.",
-    "[4]bertrand, m., e. duflo, and s. mullainathan (2004). how much should we trust differencesindifferences estimates? the quarterly journal of economics, 119(1): 249275.",
-    "[5]bester, c. a., t. g. conley, and c. b. hansen (2011). inference with dependent data using cluster covariance estimators. journal of econometrics, 165(2): 137151.",
-    "[6]binder, d. a. (1983). on the variances of asymptotically normal estimators from complex surveys. international statistical review, 51(3): 279292.",
-    "[7]cameron, a. c., j. b. gelbach, and d. l. miller (2008). bootstrapbased improvements for inference with clustered errors. the review of economics and statistics, 90(3): 414427.",
-    "[8]card, d., and a. b. krueger (1994). minimum wages and employment: a case study of the fast food industry in new jersey and pennsylvania. american economic review, 84(4): 772793.",
-    "[9]conley, t. g., and c. r. taber (2011). inference with difference in differences with a small number of policy changes. the review of economics and statistics, 93(1): 113125.",
-    "[10]donald, s. g, and k. lang (2007). inference with differenceindifferences and other panel data. the review of economics and statistics, 89(2): 221233.",
-    "[11]fuller, w. a. (1975). regression analysis for sample survey. sankhya, 37: 117132* imbens and kolesar (2016)imbens, g. w., and m. kolesar (2016). robust standard errors in small samples: some practical advice. review of economics and statistics, 98(4): 701712.",
-    "kloek (1981)kloek, t. (1981). ols estimation in a model where a microvariable is explained by aggregates and contemporaneous disturbances are equicorrelated. econometrica, 49(1): 205207.",
-    "kolenikov (2010)kolenikov, s. (2010).resampling variance estimation for complex survey data. the stata journal, 10: 165199.",
-    "liang and zeger (1986)liang, k.y., and s. l. zeger (1986). longitudinal data analysis using generalized linear models. biometrika, 73(1): 1322.",
-    "mackinnon (2015)mackinnon, j. g. (2015). wild cluster bootstrap confidence intervals. lactualite economique, 91(12): 1133.",
-    "mackinnon and white (1985)mackinnon, j. g., and h. white (1985). some heteroskedasticity consistent covariance matrix estimators with improved finite sample properties. journal of econometrics, 29(3): 305325.",
-    "mackinnon and webb (2016a)mackinnon, j. g., and m. d. webb (2016a).randomization inference for differenceindifferences with few treated clusters. working paper no. 1355, queens university, department of economics.",
-    "mackinnon and webb (2016b)mackinnon, j. g., and m. d. webb (2016b).the subcluster wild bootstrap for few (treated) clusters. working paper no. 1364, queens university, department of economics.",
-    "mackinnon and webb (2017)mackinnon, j. g., and m. d. webb (2017). wild bootstrap inference for wildly different cluster sizes. journal of applied econometrics, 32(2): 233254.",
-    "moulton (1986)moulton, b. r. (1986). random group effects and the precision of regression estimates. journal of econometrics, 32(3): 385397.",
+    "[1]andrews, d. w. k. (2005). cross-section regression with common shocks. econometrica, 73(5): 1551-1585.",
+    "[2]angrist, j. d., and j.-s. pischke (2008). mostly harmless econometrics: an empiricist's companion. 1st ed. princeton university press.",
+    "[3]bell, r. m., and d. f. mccaffrey (2002).bias reduction in standard errors for linear regression with multi-stage samples. survey methodology, 28(2), 169-181.",
+    "[4]bertrand, m., e. duflo, and s. mullainathan (2004). how much should we trust differences-in-differences estimates? the quarterly journal of economics, 119(1): 249-275.",
+    "[5]bester, c. a., t. g. conley, and c. b. hansen (2011). inference with dependent data using cluster covariance estimators. journal of econometrics, 165(2): 137-151.",
+    "[6]binder, d. a. (1983). on the variances of asymptotically normal estimators from complex surveys. international statistical review, 51(3): 279-292.",
+    "[7]cameron, a. c., j. b. gelbach, and d. l. miller (2008). bootstrap-based improvements for inference with clustered errors. the review of economics and statistics, 90(3): 414-427.",
+    "[8]card, d., and a. b. krueger (1994). minimum wages and employment: a case study of the fast food industry in new jersey and pennsylvania. american economic review, 84(4): 772-793.",
+    "[9]conley, t. g., and c. r. taber (2011). inference with 'difference in differences' with a small number of policy changes. the review of economics and statistics, 93(1): 113-125.",
+    "[10]donald, s. g, and k. lang (2007). inference with difference-in-differences and other panel data. the review of economics and statistics, 89(2): 221-233.",
+    "[11]fuller, w. a. (1975). regression analysis for sample survey. sankhya, 37: 117-132* imbens and kolesar (2016)imbens, g. w., and m. kolesar (2016). robust standard errors in small samples: some practical advice. review of economics and statistics, 98(4): 701-712.",
+    "kloek (1981)kloek, t. (1981). ols estimation in a model where a microvariable is explained by aggregates and contemporaneous disturbances are equicorrelated. econometrica, 49(1): 205-207.",
+    "kolenikov (2010)kolenikov, s. (2010).resampling variance estimation for complex survey data. the stata journal, 10: 165-199.",
+    "liang and zeger (1986)liang, k.-y., and s. l. zeger (1986). longitudinal data analysis using generalized linear models. biometrika, 73(1): 13-22.",
+    "mackinnon (2015)mackinnon, j. g. (2015). wild cluster bootstrap confidence intervals. l'actualite economique, 91(1-2): 11-33.",
+    "mackinnon and white (1985)mackinnon, j. g., and h. white (1985). some heteroskedasticity consistent covariance matrix estimators with improved finite sample properties. journal of econometrics, 29(3): 305-325.",
+    "mackinnon and webb (2016a)mackinnon, j. g., and m. d. webb (2016a).randomization inference for difference-in-differences with few treated clusters. working paper no. 1355, queen's university, department of economics.",
+    "mackinnon and webb (2016b)mackinnon, j. g., and m. d. webb (2016b).the subcluster wild bootstrap for few (treated) clusters. working paper no. 1364, queen's university, department of economics.",
+    "mackinnon and webb (2017)mackinnon, j. g., and m. d. webb (2017). wild bootstrap inference for wildly different cluster sizes. journal of applied econometrics, 32(2): 233-254.",
+    "moulton (1986)moulton, b. r. (1986). random group effects and the precision of regression estimates. journal of econometrics, 32(3): 385-397.",
     "moulton (1990)moulton, b. r. (1990). an illustration of a pitfall in estimating the effects of aggregate variables on micro units. review of economics and statistics, 72(2): 334.",
-    "rao and wu (1988)rao, j. n. k., and c. f. j. wu (1988). resampling inference with complex survey data. journal of the american statistical association, 83(401): 231241.",
-    "webb (2014)webb, m. d. (2014). reworking wild bootstrap based inference for clustered errors. working paper no.1315, queens university, department of economics."
+    "rao and wu (1988)rao, j. n. k., and c. f. j. wu (1988). resampling inference with complex survey data. journal of the american statistical association, 83(401): 231-241.",
+    "webb (2014)webb, m. d. (2014). reworking wild bootstrap based inference for clustered errors. working paper no.1315, queen's university, department of economics."
   ],
   "acknowledgements": "",
-  "biographical_notes": [],
+  "content_tables": [
+    "standard error case % gain (% gain) 95% lower 95% upper hc_1 11.589 0.222 11.155 12.023 cv_1(s,y) 11.589 0.318 10.967 12.212 cv_1(s) 11.589 0.584 10.447 12.732"
+  ],
   "notes": [],
   "figures": [],
   "tables": [
@@ -69,7 +68,7 @@
       "number": "tableau ?",
       "title": "",
       "content": "standard error case % gain (% gain) 95% lower 95% upper hc_1 11.589 0.222 11.155 12.023 cv_1(s,y) 11.589 0.318 10.967 12.212 cv_1(s) 11.589 0.584 10.447 12.732",
-      "note": "note.: hc_1 does not cluster at all. cv_1(s,y) uses 1887 clusters at the stateyear level, and cv_1(s) uses 51 clusters at the state level."
+      "note": "note.: hc_1 does not cluster at all. cv_1(s,y) uses 1887 clusters at the state-year level, and cv_1(s) uses 51 clusters at the state level."
     }
   ]
 }

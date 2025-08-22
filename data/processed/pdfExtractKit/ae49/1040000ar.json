@@ -1,7 +1,5 @@
 {
   "title": "",
-  "overline": "",
-  "subtitle": "",
   "authors": [],
   "abstract": "",
   "date": "",
@@ -17,7 +15,6 @@
     "text": "",
     "link": ""
   },
-  "editorial_team": [],
   "issue_number": "",
   "volume": "",
   "keywords": [],
@@ -32,7 +29,7 @@
     "icitehudgetalr",
     "",
     "modele",
-    "2.2strategiedestimatior",
+    "2.2strategied'estimatior",
     "2.3donnee:",
     "tableaul",
     "tableau2",
@@ -55,7 +52,15 @@
   ],
   "bibliographies": [],
   "acknowledgements": "",
-  "biographical_notes": [],
+  "content_tables": [
+    "n min max moyenne ecart-type g 851 2,90e+07 6,00e+10 3,22e+09 7,64e+09 pib 917 2,70e+08 2,90e+11 1,88e+10 3,94e+10 cycle 1099 -2,956 3,561 -0,013 1,339",
+    "frequence pourcentage cumul fixe 405 43,69 43,69 flexible 107 11,54 55,23 intermediaire 415 44,77 100 total 927 100",
+    "logg △logg logpib △logpib cycle fixe 20,173 0,025 22,174 0,034 -0,324 (1,014) (0,203) (1,051) (0,051) (1,024) flexible 21,269 -0,006 23,039 0,016 0,589 (2,246) (0,189) (1,965) (0,048) (1,918) intermediaire 21,064 0,048 22,861 0,042 0,335 (1,438) (0,107) (1,392) (0,042) (1,392) total 20,679 0,032 22,578 0,036 0,073 (1,457) (0,167) (1,384) (0,047) (1,368)",
+    "variable expliquee : alogg, periode : 1980 -2012 methode d'estimation :gmm en differences d'arellano-bond (1991) constante 0,101 (0,128) △loggi,t-1 0,996*** (0,006) △cycle,. 0,128*** (0,018) nombred'observations 949 nombre de pays 34 testdevaliditeglobaledumodeledewald 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,003 test d'autocorrelationd'arrelano-bondpour ar(2) 0,308 test devaliditedesinstrumentsdesargan 0,357",
+    "variable expliquee :logg. periode : 1980-2012 methode d'estimation : gmm en differences d'arellano-bond (1991) (3a) (3b) (3c) (4a) (4b) (4c) constante -0,028 -0,008 0,107 -0,019 0,053 -0,036 (0,310) (0,318) (0,356) (0,310) (0,305) (0,379) △loggi,t- 1,000*** 1,000*** 0,995*** 1,000*** 0,997*** 1,002*** (0,014) (0,015) (0,017) (0,014) (0,014) (0,018) △cycle,. 0,097*** 0,092*** 0,099*** 0,090*** 0,088** 0,095** (0,034) (0,035) (0,038) (0,032) (0,034) (0,043) fixe 0,042*** 0,042*** (0,003) (0,002) intermediaire 0,020*** 0,017** (0,007) (0,008) flexible -0,059*** -0,039** (0,014) (0,018)",
+    "variable expliquee : alogg,. periode:1980-2012 methode d'estimation : gmm en differences d'arellano-bond (1991) △cycle., * rc △cycle * fixe 0,020*** (0,002) △cycle *intermediaire 0,004 (0,005) △cycle * flexible -0,022** (0,009) nombred'observations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validiteglobale du modele dewald 0,000 0,000 0,000 0,000 0,000 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test d'autocorrelation d'arrelano-bondpourar(2) 0,280 0,273 0,277 0,275 0.275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
+    "variable expliquee : alogg. periode : 1980-2012 methode d'estimation : gmm en differences d'arellano-bond (1991) △cycle,, * rc △cycle * fixe 0,020*** (0,002) △cycle*intermediaire 0,004 (0,005) △cycle*flexible -0,022** (0,009) nombre d'observations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validiteglobale du modele dewald 0,000 0,000 0,000 0,000 0,000 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test d'autocorrelation d'arrelano-bond pour ar(2) 0,280 0,273 0,277 0,275 0.275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485"
+  ],
   "notes": [],
   "figures": [
     {
@@ -78,7 +83,7 @@
     {
       "number": "",
       "title": "",
-      "content": "n min max moyenne ecarttype g 851 2,90e+07 6,00e+10 3,22e+09 7,64e+09 pib 917 2,70e+08 2,90e+11 1,88e+10 3,94e+10 cycle 1099 2,956 3,561 0,013 1,339",
+      "content": "n min max moyenne ecart-type g 851 2,90e+07 6,00e+10 3,22e+09 7,64e+09 pib 917 2,70e+08 2,90e+11 1,88e+10 3,94e+10 cycle 1099 -2,956 3,561 -0,013 1,339",
       "note": ""
     },
     {
@@ -90,32 +95,32 @@
     {
       "number": "",
       "title": "",
-      "content": "logg △logg logpib △logpib cycle fixe 20,173 0,025 22,174 0,034 0,324 (1,014) (0,203) (1,051) (0,051) (1,024) flexible 21,269 0,006 23,039 0,016 0,589 (2,246) (0,189) (1,965) (0,048) (1,918) intermediaire 21,064 0,048 22,861 0,042 0,335 (1,438) (0,107) (1,392) (0,042) (1,392) total 20,679 0,032 22,578 0,036 0,073 (1,457) (0,167) (1,384) (0,047) (1,368)",
+      "content": "logg △logg logpib △logpib cycle fixe 20,173 0,025 22,174 0,034 -0,324 (1,014) (0,203) (1,051) (0,051) (1,024) flexible 21,269 -0,006 23,039 0,016 0,589 (2,246) (0,189) (1,965) (0,048) (1,918) intermediaire 21,064 0,048 22,861 0,042 0,335 (1,438) (0,107) (1,392) (0,042) (1,392) total 20,679 0,032 22,578 0,036 0,073 (1,457) (0,167) (1,384) (0,047) (1,368)",
       "note": ""
     },
     {
       "number": "",
       "title": "",
-      "content": "variable expliquee : alogg, periode : 1980 2012 methode destimation :gmm en differences darellanobond (1991) constante 0,101 (0,128) △loggi,t1 0,996*** (0,006) △cycle,. 0,128*** (0,018) nombredobservations 949 nombre de pays 34 testdevaliditeglobaledumodeledewald 0,000 test dautocorrelation darrelanobond pour ar(1) 0,003 test dautocorrelationdarrelanobondpour ar(2) 0,308 test devaliditedesinstrumentsdesargan 0,357",
+      "content": "variable expliquee : alogg, periode : 1980 -2012 methode d'estimation :gmm en differences d'arellano-bond (1991) constante 0,101 (0,128) △loggi,t-1 0,996*** (0,006) △cycle,. 0,128*** (0,018) nombred'observations 949 nombre de pays 34 testdevaliditeglobaledumodeledewald 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,003 test d'autocorrelationd'arrelano-bondpour ar(2) 0,308 test devaliditedesinstrumentsdesargan 0,357",
       "note": ""
     },
     {
       "number": "",
       "title": "",
-      "content": "variable expliquee :logg. periode : 19802012 methode destimation : gmm en differences darellanobond (1991) (3a) (3b) (3c) (4a) (4b) (4c) constante 0,028 0,008 0,107 0,019 0,053 0,036 (0,310) (0,318) (0,356) (0,310) (0,305) (0,379) △loggi,t 1,000*** 1,000*** 0,995*** 1,000*** 0,997*** 1,002*** (0,014) (0,015) (0,017) (0,014) (0,014) (0,018) △cycle,. 0,097*** 0,092*** 0,099*** 0,090*** 0,088** 0,095** (0,034) (0,035) (0,038) (0,032) (0,034) (0,043) fixe 0,042*** 0,042*** (0,003) (0,002) intermediaire 0,020*** 0,017** (0,007) (0,008) flexible 0,059*** 0,039** (0,014) (0,018)",
+      "content": "variable expliquee :logg. periode : 1980-2012 methode d'estimation : gmm en differences d'arellano-bond (1991) (3a) (3b) (3c) (4a) (4b) (4c) constante -0,028 -0,008 0,107 -0,019 0,053 -0,036 (0,310) (0,318) (0,356) (0,310) (0,305) (0,379) △loggi,t- 1,000*** 1,000*** 0,995*** 1,000*** 0,997*** 1,002*** (0,014) (0,015) (0,017) (0,014) (0,014) (0,018) △cycle,. 0,097*** 0,092*** 0,099*** 0,090*** 0,088** 0,095** (0,034) (0,035) (0,038) (0,032) (0,034) (0,043) fixe 0,042*** 0,042*** (0,003) (0,002) intermediaire 0,020*** 0,017** (0,007) (0,008) flexible -0,059*** -0,039** (0,014) (0,018)",
       "note": ""
     },
     {
       "number": "",
       "title": "",
-      "content": "variable expliquee : alogg,. periode:19802012 methode destimation : gmm en differences darellanobond (1991) △cycle., * rc △cycle * fixe 0,020*** (0,002) △cycle *intermediaire 0,004 (0,005) △cycle * flexible 0,022** (0,009) nombredobservations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validiteglobale du modele dewald 0,000 0,000 0,000 0,000 0,000 0,000 test dautocorrelation darrelanobond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test dautocorrelation darrelanobondpourar(2) 0,280 0,273 0,277 0,275 0.275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
+      "content": "variable expliquee : alogg,. periode:1980-2012 methode d'estimation : gmm en differences d'arellano-bond (1991) △cycle., * rc △cycle * fixe 0,020*** (0,002) △cycle *intermediaire 0,004 (0,005) △cycle * flexible -0,022** (0,009) nombred'observations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validiteglobale du modele dewald 0,000 0,000 0,000 0,000 0,000 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test d'autocorrelation d'arrelano-bondpourar(2) 0,280 0,273 0,277 0,275 0.275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
       "note": ""
     },
     {
       "number": "",
       "title": "",
-      "content": "variable expliquee : alogg. periode : 19802012 methode destimation : gmm en differences darellanobond (1991) △cycle,, * rc △cycle * fixe 0,020*** (0,002) △cycle*intermediaire 0,004 (0,005) △cycle*flexible 0,022** (0,009) nombre dobservations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validiteglobale du modele dewald 0,000 0,000 0,000 0,000 0,000 0,000 test dautocorrelation darrelanobond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test dautocorrelation darrelanobond pour ar(2) 0,280 0,273 0,277 0,275 0.275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
-      "note": "esecartslype"
+      "content": "variable expliquee : alogg. periode : 1980-2012 methode d'estimation : gmm en differences d'arellano-bond (1991) △cycle,, * rc △cycle * fixe 0,020*** (0,002) △cycle*intermediaire 0,004 (0,005) △cycle*flexible -0,022** (0,009) nombre d'observations 789 789 789 789 789 789 nombre de pays 34 34 34 34 34 34 test de validiteglobale du modele dewald 0,000 0,000 0,000 0,000 0,000 0,000 test d'autocorrelation d'arrelano-bond pour ar(1) 0,017 0,016 0,017 0,017 0,016 0,017 test d'autocorrelation d'arrelano-bond pour ar(2) 0,280 0,273 0,277 0,275 0.275 0,282 test de validite des instruments de sargan 0,406 0,422 0,392 0,391 0,470 0,485",
+      "note": "esecarts-lype"
     }
   ]
 }

@@ -1,22 +1,19 @@
-field,has_ref,has_extractor,strict,soft,levenshtein
-title,1,0,0.0,0.0,0.0
-overline,1,0,0.0,0.0,0.0
-subtitle,0,0,0.0,0.0,0.0
-abstract,1,1,0.0,0.998,0.998
-language,1,1,1.0,1.0,1.0
-date,1,0,0.0,0.0,0.0
-issue_number,1,0,0.0,0.0,0.0
-volume,1,0,0.0,0.0,0.0
-acknowledgements,1,0,0.0,0.0,0.0
-authors,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.625}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.712}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.712}"
-editorial_team,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-figures,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-keywords,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-themes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-biographical_notes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-section_titles,1,1,"{'precision': 0.062, 'recall': 0.091, 'avg_similarity': 0.091}","{'precision': 0.625, 'recall': 0.909, 'avg_similarity': 0.865}","{'precision': 0.625, 'recall': 0.909, 'avg_similarity': 0.865}"
-bibliographies,1,1,"{'precision': 0.941, 'recall': 0.941, 'avg_similarity': 0.941}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 1.0}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 1.0}"
-id,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-pagination,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-rights,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+field,has_ref,has_extractor,soft,levenshtein
+title,1,0,0.0,0.0
+abstract,1,1,0.998,0.998
+language,1,1,1.0,1.0
+date,1,0,0.0,0.0
+issue_number,1,0,0.0,0.0
+volume,1,0,0.0,0.0
+acknowledgements,1,0,0.0,0.0
+authors,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.712}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.712}"
+tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+figures,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+keywords,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+themes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+section_titles,1,1,"{'precision': 0.625, 'recall': 0.909, 'avg_similarity': 0.865}","{'precision': 0.625, 'recall': 0.909, 'avg_similarity': 0.865}"
+content_tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+bibliographies,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 1.0}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 1.0}"
+id,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+pagination,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+rights,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"

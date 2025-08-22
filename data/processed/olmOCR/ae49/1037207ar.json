@@ -1,0 +1,137 @@
+{
+  "title": "liquidite du marche des actions et rendements des fonds mutuels en temps de crise : evidence canadienne*",
+  "authors": [],
+  "abstract": "cet article porte sur la relation entre les rendements des fonds mutuels canadiens et la liquidite du marche des actions. nous cherchons specifiquement a documenter comment cette relation a evolue au cours de la periode entourant la crise de liquidite qui a secoue le monde financier en 2008. ces travaux sont importants puisque d'une part, les fonds mutuels sont des vehicules d'investissements tres presents dans l'economie et d'autre part, la liquidite",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "estimation avec mco et correction newey-west avec retard maximal de 65 jours",
+    "tableau 4",
+    "tableau 1",
+    "bibliographie",
+    "3 juin 2008 au 31 decembre 2009",
+    "tableau 2",
+    "matrice des coefficients de correlation et de leur valeur \\( p \\)",
+    "tableau 3",
+    "tableau 5",
+    "introduction",
+    "7.2.1 analyse de la periode complete : 1<sup>er</sup> janvier au 31 decembre 2009"
+  ],
+  "bibliographies": [
+    "acharya v. et l.h. pedersen (2005), asset pricing with liquidity risk, journal of financial economics, 77 : 375-410.",
+    "amihud, y. et h. mendelson (1986), asset pricing and the bid-ask spread, journal of financial economics, 17(2) : 223-249.",
+    "amihud, y. (2002), illiquidity and stock returns: cross-section and time-series effects, journal of financial markets, 5(1) : 31-56.",
+    "autorite des marches financiers (2006, les organismes de placement collectif, 1ere edition.",
+    "autorite des marches financiers (2006, petit lexique des investissements, 1ere edition.",
+    "brennan, m. et a. subrahmanyam (1996), market microstructure and asset pricing: on the compensation for illiquidity in stock returns, journal of financial economics, 41(3) : 441-464.",
+    "brown, s., w. goetzmann, r. ibbotson et s. ross (1992), survivorship bias in performance studies, the review of financial studies, 5(4) : 553-580.",
+    "brunnermeier, m. et l. pedersen (2009), market liquidity and funding liquidity, review of financial studies, 22(6) : 2201-2238.",
+    "carhart, m. (1997), on mutual fund performance, journal of finance, 52(1) : 57-82.",
+    "chen, j. h. hong, m. huang et j. kubik (2004), does fund size erode mutual fund performance? the role of liquidity and organization, the american economic review, 94(5) : 1276-1302.",
+    "chordia, t., r. roll et a. subrahmanyam (2000), commonality in liquidity, journal of financial economics, 56(1) : 3-28.",
+    "chordia, t., r. roll et a. subrahmanyam (2001), market liquidity and trading activity, journal of finance, 56(2) : 501-530.",
+    "fama, e. et k. french (1992), the cross-section of expected stock returns, journal of finance, 42(2) : 427-465.",
+    "fama, e. et k. french (1993), common risk factors in the return on stocks and bonds, journal of financial economics, 33(1) : 3-56. frazzini, a. et l. pedersen (2014), betting against beta, *journal of financial economics*, 111 : 1-25.",
+    "huang, m. (2003), liquidity shocks and equilibrium liquidity premia, *journal of economic theory*, 109 : 104-129.",
+    "investment company institute (2011), *2011 investment company fact book*, 51st edition.",
+    "kacperzyk, m., c. siam et l. zheng (2008), unobserved actions of mutual funds, *review of financial studies*, 21(6) : 2379-2416.",
+    "næs, r., j. skjeltorp et b. ødegaard (2011), stock market liquidity and the business cycle, *journal of finance*, 66(1) : 139-176.",
+    "newhey, w. et k. west, 1987, a simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix, *econometrica*, 55(3) : 703-708.",
+    "pastor l. et r. stambaugh (2003,) liquidity risk and expected stock returns, *journal of political economy*, 111 : 642-685.",
+    "shawky, h. et j. tian (2011), small cap equity mutual fund managers as liquidity providers, *journal of empirical finance*, 18(5) : 802-814.",
+    "vayanos, b. (2004), flight to quality, flight to liquidity, and the pricing of risk, working paper, national bureau of economic research, cambridge, ma.",
+    "wermers, r. (2000), mutual fund performance: an empirical decomposition into stock-picking talent, style, transactions costs, and expenses, *journal of finance*, 55(4) : 1655-1703."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "ratios quotidiens de rendements absolus de chaque action \\( r_{iyd} \\) sur le volume de transactions en dollars \\( vold_{iyd} \\) de cette action, et ou \\( d_{iy} \\) est le nombre de jours dans l'annee ou un rendement et un volume a ete enregistre sur l'action. cette mesure sera par la suite reprise par plusieurs chercheurs et deviendra une reference en matiere de mesure de liquidite et de price impact des transactions. on la decrit comme suit :",
+    "illiq_{iy} = \\frac{1}{d_{iy}} \\sum_{t=1}^{div} \\frac{ r_{iyd} }{vold_{iyd}}.",
+    "rm-rf smb hml mom liq(m,j) liq(i,j-1) innov(liq(i,j)) ri,j-rf,j **rm-rf** 1,0000 -0,0044 0,4919 -0,5905 -0,0272 0,0441 -0,0293 0,6759 0,0037 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 **smb** -0,0044 1,0000 -0,0383 -0,0024 -0,0005 0,0032 0,0226 -0,0490 0,0037 <.0001 0,1094 0,7663 0,0362 <.0001 <.0001 <.0001 **hml** 0,4919 -0,0383 1,0000 -0,6957 -0,0167 0,0223 0,0019 0,3969 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 0,2204 <.0001 **mom** -0,5905 -0,0024 -0,6957 1,0000 -0,0012 0,0056 0,0031 -0,4262 <.0001 0,1094 <.0001 0,4314 0,0003 0,0399 <.0001 <.0001 **liq(m,j)** -0,0272 -0,0005 -0,0167 -0,0012 1,0000 -0,0934 -0,2072 -0,0082 <.0001 0,7663 <.0001 0,4314 <.0001 <.0001 <.0001 <.0001 **liq(i,j-1)** 0,0441 0,0032 0,0223 0,0056 -0,0934 1,0000 -0,0025 0,0590 <.0001 0,0362 <.0001 0,0003 <.0001 0,0946 <.0001 <.0001 **innov(liq(i,j))** -0,0293 0,0226 0,0019 0,0031 -0,2072 -0,0025 1,0000 -0,0576 <.0001 <.0001 0,2204 0,0399 <.0001 0,0946 <.0001 <.0001 **ri,j-rf,j** 0,6759 -0,0490 0,3969 -0,4262 -0,0082 0,0590 -0,0576 1,0000 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001",
+    "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,53 0,59 0,56 0,52 0,51 0,45 0,46 0,43 0,36 0,08 (99,73) (43,16) (77,75) (51,15) (26,11) (25,48) (22,68) (22,59) (6,38) (1,95) **smb** -0,09 -0,11 -0,10 -0,05 -0,08 -0,10 -0,04 -0,10 0,00 -0,01 (14,43) (6,64) (11,66) (4,06) (3,09) (4,49) (1,64) (3,79) (0,06) (0,28) **hml** 0,16 0,13 0,18 0,21 0,14 0,14 0,23 0,12 0,08 -0,01 (24,14) (8,76) (17,70) (11,20) (5,01) (6,15) (7,60) (4,80) (1,46) (0,20) **mom** 0,01 0,05 0,00 -0,06 0,08 0,00 -0,03 0,05 0,06 -0,01 (2,21) (3,74) (0,38) (4,87) (3,48) (0,08) (1,54) 1,96 (1,08) (0,24) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (28,98) (12,77) (17,66) (10,15) (8,85) (7,66) (8,22) (8,92) (4,02) (8,62) **liq(i,j-1)** 0,02 0,06 0,11 0,01 0,02 0,02 0,20 0,01 0,01 -0,08 (3,76) (1,46) (7,06) (3,21) (0,91) (1,26) (6,21) (0,73) (0,19) (-2,51) **innov(liq(i,j))** -0,27 -0,79 -0,42 -0,06 -0,85 -0,61 -0,42 -0,66 -0,42 -0,27 (-9,28) (-8,64) (-7,86) (-6,00) (-7,80) (-7,19) (-3,52) (-7,73) (-2,52) (-2,27)",
+    "**r2** 0,46 0,48 0,53 0,56 0,38 0,42 0,51 0,29 0,25 0,02 **r2 ajuste** 0,46 0,48 0,53 0,56 0,38 0,42 0,51 0,29 0,24 0,02 **nombre d'observations** 411 444 74 051 156 399 51 897 29 583 24 408 18 571 27 225 5 736 8 175",
+    "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,48 0,54 0,52 0,48 0,48 0,39 0,42 0,34 0,34 0,16 (93,02) (40,12) (68,11) (51,34) (26,26) (20,82) (21,54) (16,59) (6,10) (3,91) **smb** 0,16 0,17 0,14 0,14 0,24 0,20 0,14 0,20 0,31 0,07 (31,34) (14,45) (18,02) (10,55) (11,19) (9,26) (5,70) (9,26) (5,74) (1,98) **hml** 0,44 0,47 0,43 0,36 0,55 0,40 0,33 0,47 0,53 0,22 (49,19) (22,76) (31,90) (16,54) (13,67) (10,86) (10,39) (11,91) (6,08) (3,07) **mom** 0,32 0,35 0,28 0,19 0,47 0,30 0,21 0,49 0,57 0,20 (31,45) (14,77) (19,58) (9,19) (9,99) (7,42) (6,50) (9,66) (6,73) (1,97) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (32,64) (15,88) (22,48) (11,35) (8,36) (7,18) (5,58) (8,07) (2,12) (2,55) **liq(i,j-1)** -0,01 0,01 0,02 0,02 -0,07 0,03 -0,01 -0,06 -0,09 0,02 (-1,98) (0,53) (0,95) (0,72) (-3,23) (1,27) (-0,31) (-2,75) (-0,86) (-0,57) **innov(liq(i,j))** -0,38 -0,49 -0,50 -0,09 -0,77 -0,36 -0,29 -0,41 -0,27 -0,14 (-13,12) (-5,86) (-7,16) (-1,20) (-8,02) (-4,74) (-2,25) (-6,68) (-1,86) (-2,04) **r2** 0,41 0,46 0,45 0,39 0,41 0,33 0,43 0,30 0,32 0,09 **r2 ajuste** 0,41 0,46 0,45 0,39 0,41 0,33 0,43 0,30 0,32 0,09 **nombre d'observations** 151 932 27 466 58 200 19 030 10 778 8 701 6 871 10 302 2 207 2 845",
+    "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,45 0,50 0,47 0,44 0,44 0,41 0,39 0,37 0,30 0,08 (80,02) (33,76) (54,43) (36,25) (20,87) (21,33) (18,33) (18,80) (5,68) (2,24) **smb** -0,03 -0,20 -0,24 -0,18 -0,25 -0,24 -0,15 -0,27 -0,14 0,04 (-21,25) (-7,61) (-14,82) (-8,49) (-9,75) (-6,25) (-4,89) (-4,99) (-1,47) (0,47) **hml** 0,37 0,38 0,40 0,39 0,34 0,34 0,33 0,28 0,17 -0,04 (30,85) (14,66) (21,84) (10,95) (9,75) (10,00) (5,74) (8,00) (2,17) (-0,79) **mom** 0,19 0,27 0,17 0,03 0,30 0,17 0,07 0,25 0,15 0,03 (27,59) (19,53) (16,29) (1,52) (12,40) (8,42) (2,48) (13,74) (4,45) (0,94) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (34,36) (14,78) (20,10) (11,81) (9,78) (9,13) (7,54) (11,08) (4,29) (4,95) **liq(i,j-1)** -1,10 -1,93 -0,11 -0,48 -1,29 -1,16 -1,30 -1,35 -1,14 -0,88 (-16,69) (-8,63) (-7,75) (-5,95) (-5,53) (-6,44) (-4,27) (-8,60) (-2,94) (-3,45) **innov(liq(i,j))** -0,01 -0,01 0,11 0,04 -0,14 -0,02 0,22 -0,07 -0,25 -0,01 (-0,09) (-0,13) (2,77) (2,70) (-2,90) (-0,45) (3,00) (-2,25) (-1,88) (-0,31)",
+    "**r2** 0,40 0,41 0,45 0,48 0,36 0,38 0,46 0,29 0,26 0,06 **r2 ajuste** 0,40 0,41 0,45 0,48 0,36 0,38 0,46 0,29 0,26 0,06 **nombre d'observations** 169 816 30 666 64 503 21 613 12 210 10 008 7 614 10 995 2 319 3 523",
+    "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,49 0,55 0,53 0,49 0,45 0,41 0,42 0,36 0,25 0,04 (68,12) (29,51) (53,22) (35,02) (17,15) (16,94) (15,18) (14,46) (3,85) (0,73) **smb** -0,16 -0,18 -0,17 -0,11 -0,17 -0,18 -0,10 -0,18 -0,12 -0,04 (-23,39) (-9,93) (-17,28) (-7,01) (-6,23) (-7,70) (-3,87) (-6,26) (-1,77) (-0,72) **hml** 0,09 0,03 0,11 0,19 0,02 0,07 0,20 0,01 -0,03 -0,03 (9,92) (1,62) (8,39) (7,69) (0,52) (2,28) (5,27) (0,01) (0,41) (-0,44) **mom** -0,08 -0,06 -0,08 -0,11 -0,06 -0,09 -0,10 -0,09 -0,09 -0,06 (-11,23) (-3,14) (-7,77) (-7,18) (-1,91) (-3,55) (-3,32) (-3,21) (-1,40) (-1,15) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (21,44) (9,39) (14,25) (7,30) (6,47) (5,48) (6,33) (5,50) (2,44) (2,88) **liq(i,j-1)** -0,25 -0,79 -0,42 -0,06 -0,76 -0,63 -0,43 -0,68 -0,41 -0,27 (-8,08) (-7,45) (-6,37) (-5,82) (-5,91) (-5,44) (-3,19) (-6,59) (-2,01) (-1,95) **innov(liq(i,j))** 0,02 0,09 0,14 0,01 0,05 0,03 0,23 0,02 -0,01 -0,07 (4,04) (1,60) (6,56) (2,32) (1,38) (1,08) (5,27) (0,75) (-0,22) (-2,60) **r2** 0,50 0,50 0,56 0,60 0,41 0,47 0,54 0,34 0,29 0,02 **r2 ajuste** 0,50 0,50 0,56 0,60 0,41 0,47 0,54 0,34 0,29 0,02 **nombre d'observations** 171 710 30 727 64 910 21 686 12 430 10 491 7 752 11 287 2 322 3 503"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "ratios quotidiens de rendements absolus de chaque action \\( r_{iyd} \\) sur le volume de transactions en dollars \\( vold_{iyd} \\) de cette action, et ou \\( d_{iy} \\) est le nombre de jours dans l'annee ou un rendement et un volume a ete enregistre sur l'action. cette mesure sera par la suite reprise par plusieurs chercheurs et deviendra une reference en matiere de mesure de liquidite et de price impact des transactions. on la decrit comme suit :",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "illiq_{iy} = \\frac{1}{d_{iy}} \\sum_{t=1}^{div} \\frac{ r_{iyd} }{vold_{iyd}}.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "rm-rf smb hml mom liq(m,j) liq(i,j-1) innov(liq(i,j)) ri,j-rf,j **rm-rf** 1,0000 -0,0044 0,4919 -0,5905 -0,0272 0,0441 -0,0293 0,6759 0,0037 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 **smb** -0,0044 1,0000 -0,0383 -0,0024 -0,0005 0,0032 0,0226 -0,0490 0,0037 <.0001 0,1094 0,7663 0,0362 <.0001 <.0001 <.0001 **hml** 0,4919 -0,0383 1,0000 -0,6957 -0,0167 0,0223 0,0019 0,3969 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 0,2204 <.0001 **mom** -0,5905 -0,0024 -0,6957 1,0000 -0,0012 0,0056 0,0031 -0,4262 <.0001 0,1094 <.0001 0,4314 0,0003 0,0399 <.0001 <.0001 **liq(m,j)** -0,0272 -0,0005 -0,0167 -0,0012 1,0000 -0,0934 -0,2072 -0,0082 <.0001 0,7663 <.0001 0,4314 <.0001 <.0001 <.0001 <.0001 **liq(i,j-1)** 0,0441 0,0032 0,0223 0,0056 -0,0934 1,0000 -0,0025 0,0590 <.0001 0,0362 <.0001 0,0003 <.0001 0,0946 <.0001 <.0001 **innov(liq(i,j))** -0,0293 0,0226 0,0019 0,0031 -0,2072 -0,0025 1,0000 -0,0576 <.0001 <.0001 0,2204 0,0399 <.0001 0,0946 <.0001 <.0001 **ri,j-rf,j** 0,6759 -0,0490 0,3969 -0,4262 -0,0082 0,0590 -0,0576 1,0000 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001 <.0001",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,53 0,59 0,56 0,52 0,51 0,45 0,46 0,43 0,36 0,08 (99,73) (43,16) (77,75) (51,15) (26,11) (25,48) (22,68) (22,59) (6,38) (1,95) **smb** -0,09 -0,11 -0,10 -0,05 -0,08 -0,10 -0,04 -0,10 0,00 -0,01 (14,43) (6,64) (11,66) (4,06) (3,09) (4,49) (1,64) (3,79) (0,06) (0,28) **hml** 0,16 0,13 0,18 0,21 0,14 0,14 0,23 0,12 0,08 -0,01 (24,14) (8,76) (17,70) (11,20) (5,01) (6,15) (7,60) (4,80) (1,46) (0,20) **mom** 0,01 0,05 0,00 -0,06 0,08 0,00 -0,03 0,05 0,06 -0,01 (2,21) (3,74) (0,38) (4,87) (3,48) (0,08) (1,54) 1,96 (1,08) (0,24) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (28,98) (12,77) (17,66) (10,15) (8,85) (7,66) (8,22) (8,92) (4,02) (8,62) **liq(i,j-1)** 0,02 0,06 0,11 0,01 0,02 0,02 0,20 0,01 0,01 -0,08 (3,76) (1,46) (7,06) (3,21) (0,91) (1,26) (6,21) (0,73) (0,19) (-2,51) **innov(liq(i,j))** -0,27 -0,79 -0,42 -0,06 -0,85 -0,61 -0,42 -0,66 -0,42 -0,27 (-9,28) (-8,64) (-7,86) (-6,00) (-7,80) (-7,19) (-3,52) (-7,73) (-2,52) (-2,27)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "**r2** 0,46 0,48 0,53 0,56 0,38 0,42 0,51 0,29 0,25 0,02 **r2 ajuste** 0,46 0,48 0,53 0,56 0,38 0,42 0,51 0,29 0,24 0,02 **nombre d'observations** 411 444 74 051 156 399 51 897 29 583 24 408 18 571 27 225 5 736 8 175",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,48 0,54 0,52 0,48 0,48 0,39 0,42 0,34 0,34 0,16 (93,02) (40,12) (68,11) (51,34) (26,26) (20,82) (21,54) (16,59) (6,10) (3,91) **smb** 0,16 0,17 0,14 0,14 0,24 0,20 0,14 0,20 0,31 0,07 (31,34) (14,45) (18,02) (10,55) (11,19) (9,26) (5,70) (9,26) (5,74) (1,98) **hml** 0,44 0,47 0,43 0,36 0,55 0,40 0,33 0,47 0,53 0,22 (49,19) (22,76) (31,90) (16,54) (13,67) (10,86) (10,39) (11,91) (6,08) (3,07) **mom** 0,32 0,35 0,28 0,19 0,47 0,30 0,21 0,49 0,57 0,20 (31,45) (14,77) (19,58) (9,19) (9,99) (7,42) (6,50) (9,66) (6,73) (1,97) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (32,64) (15,88) (22,48) (11,35) (8,36) (7,18) (5,58) (8,07) (2,12) (2,55) **liq(i,j-1)** -0,01 0,01 0,02 0,02 -0,07 0,03 -0,01 -0,06 -0,09 0,02 (-1,98) (0,53) (0,95) (0,72) (-3,23) (1,27) (-0,31) (-2,75) (-0,86) (-0,57) **innov(liq(i,j))** -0,38 -0,49 -0,50 -0,09 -0,77 -0,36 -0,29 -0,41 -0,27 -0,14 (-13,12) (-5,86) (-7,16) (-1,20) (-8,02) (-4,74) (-2,25) (-6,68) (-1,86) (-2,04) **r2** 0,41 0,46 0,45 0,39 0,41 0,33 0,43 0,30 0,32 0,09 **r2 ajuste** 0,41 0,46 0,45 0,39 0,41 0,33 0,43 0,30 0,32 0,09 **nombre d'observations** 151 932 27 466 58 200 19 030 10 778 8 701 6 871 10 302 2 207 2 845",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,45 0,50 0,47 0,44 0,44 0,41 0,39 0,37 0,30 0,08 (80,02) (33,76) (54,43) (36,25) (20,87) (21,33) (18,33) (18,80) (5,68) (2,24) **smb** -0,03 -0,20 -0,24 -0,18 -0,25 -0,24 -0,15 -0,27 -0,14 0,04 (-21,25) (-7,61) (-14,82) (-8,49) (-9,75) (-6,25) (-4,89) (-4,99) (-1,47) (0,47) **hml** 0,37 0,38 0,40 0,39 0,34 0,34 0,33 0,28 0,17 -0,04 (30,85) (14,66) (21,84) (10,95) (9,75) (10,00) (5,74) (8,00) (2,17) (-0,79) **mom** 0,19 0,27 0,17 0,03 0,30 0,17 0,07 0,25 0,15 0,03 (27,59) (19,53) (16,29) (1,52) (12,40) (8,42) (2,48) (13,74) (4,45) (0,94) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (34,36) (14,78) (20,10) (11,81) (9,78) (9,13) (7,54) (11,08) (4,29) (4,95) **liq(i,j-1)** -1,10 -1,93 -0,11 -0,48 -1,29 -1,16 -1,30 -1,35 -1,14 -0,88 (-16,69) (-8,63) (-7,75) (-5,95) (-5,53) (-6,44) (-4,27) (-8,60) (-2,94) (-3,45) **innov(liq(i,j))** -0,01 -0,01 0,11 0,04 -0,14 -0,02 0,22 -0,07 -0,25 -0,01 (-0,09) (-0,13) (2,77) (2,70) (-2,90) (-0,45) (3,00) (-2,25) (-1,88) (-0,31)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "**r2** 0,40 0,41 0,45 0,48 0,36 0,38 0,46 0,29 0,26 0,06 **r2 ajuste** 0,40 0,41 0,45 0,48 0,36 0,38 0,46 0,29 0,26 0,06 **nombre d'observations** 169 816 30 666 64 503 21 613 12 210 10 008 7 614 10 995 2 319 3 523",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "tout grande capitalisation moyenne capitalisation petite capitalisation croissance mix valeur croissance mix valeur croissance mix valeur **rm-rf** 0,49 0,55 0,53 0,49 0,45 0,41 0,42 0,36 0,25 0,04 (68,12) (29,51) (53,22) (35,02) (17,15) (16,94) (15,18) (14,46) (3,85) (0,73) **smb** -0,16 -0,18 -0,17 -0,11 -0,17 -0,18 -0,10 -0,18 -0,12 -0,04 (-23,39) (-9,93) (-17,28) (-7,01) (-6,23) (-7,70) (-3,87) (-6,26) (-1,77) (-0,72) **hml** 0,09 0,03 0,11 0,19 0,02 0,07 0,20 0,01 -0,03 -0,03 (9,92) (1,62) (8,39) (7,69) (0,52) (2,28) (5,27) (0,01) (0,41) (-0,44) **mom** -0,08 -0,06 -0,08 -0,11 -0,06 -0,09 -0,10 -0,09 -0,09 -0,06 (-11,23) (-3,14) (-7,77) (-7,18) (-1,91) (-3,55) (-3,32) (-3,21) (-1,40) (-1,15) **liq(m,j)** 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 0,01 (21,44) (9,39) (14,25) (7,30) (6,47) (5,48) (6,33) (5,50) (2,44) (2,88) **liq(i,j-1)** -0,25 -0,79 -0,42 -0,06 -0,76 -0,63 -0,43 -0,68 -0,41 -0,27 (-8,08) (-7,45) (-6,37) (-5,82) (-5,91) (-5,44) (-3,19) (-6,59) (-2,01) (-1,95) **innov(liq(i,j))** 0,02 0,09 0,14 0,01 0,05 0,03 0,23 0,02 -0,01 -0,07 (4,04) (1,60) (6,56) (2,32) (1,38) (1,08) (5,27) (0,75) (-0,22) (-2,60) **r2** 0,50 0,50 0,56 0,60 0,41 0,47 0,54 0,34 0,29 0,02 **r2 ajuste** 0,50 0,50 0,56 0,60 0,41 0,47 0,54 0,34 0,29 0,02 **nombre d'observations** 171 710 30 727 64 910 21 686 12 430 10 491 7 752 11 287 2 322 3 503",
+      "note": ""
+    }
+  ]
+}

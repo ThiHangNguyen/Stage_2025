@@ -1,3 +1,5 @@
+import re
+
 def extract_title_from_nougat_md(filepath):
     extracted_lines = []
     found_title_start = False
@@ -25,8 +27,6 @@ def extract_title_from_nougat_md(filepath):
 
     return " ".join(extracted_lines)
 
-import re
-import re
 
 def extract_abstract_from_nougat_md(filepath):
     abstract_lines = []
@@ -51,9 +51,6 @@ def extract_abstract_from_nougat_md(filepath):
                 abstract_lines.append(stripped)
 
     return " ".join(abstract_lines)
-
-
-
 
 
 
@@ -97,8 +94,6 @@ def extract_references_from_nougat_md(filepath):
 
     return references
 
-import re
-import re
 
 def clean_reference_line(text):
     # 1. Numéro : N\({}^{\circ}\) → N°
@@ -179,8 +174,6 @@ def extract_references_from_nougat_md(filepath):
 
 
 
-
-
 def extract_body_section_titles(filepath):
     section_titles = []
     
@@ -204,7 +197,6 @@ def extract_body_section_titles(filepath):
     return section_titles
 
 
-import re
 
 def clean_latex_expression(expr):
     # Supprimer les parenthèses LaTeX \(...\)
@@ -433,9 +425,10 @@ def parse_nougat_md(filepath):
 
     # Sections, figures, tableaux
     resultats["section_titles"] = extract_body_section_titles(filepath)
-    resultats["tables"] = extract_tables_from_nougat_latex(filepath)
+    tables = extract_tables_from_nougat_latex(filepath)
+    resultats["tables"] = tables
     resultats["figures"] = []  # tu pourras ajouter une fonction extract_nougat_figures_md(filepath) plus tard
-
+    resultats["content_table"] = [t.get("content", "") for t in tables if isinstance(t, dict)]
     # Notes de bas de page
     resultats["notes"] = []  # pareil, tu peux ajouter une fonction si besoin
 

@@ -1,0 +1,164 @@
+{
+  "title": "infeerence with large clustered datasets*",
+  "authors": [],
+  "abstract": "inference using large datasets is not nearly as straightforward as conventional econometric theory suggests when the disturbances are clustered, even with very small intra-cluster correlations. the information contained in such a dataset grows much more slowly with the sample size than it would if the observations were independent. moreover, inferences become increasingly unreliable as the dataset gets larger. these assertions are based on an extensive series of estimations undertaken using a large dataset taken from the u.s. current population survey.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "rejection frequencies for bootstrap placebo law tests",
+    "figure 6",
+    "figure 5",
+    "figure 2",
+    "inverse of $s(\\hat{\\phi})$ as a function of $m$",
+    "figure 1",
+    "figure 4",
+    "references",
+    "conclusion",
+    "rejection frequencies for placebo law tests, $n = 1,156,597$",
+    "figure 3",
+    "table 1"
+  ],
+  "bibliographies": [
+    "andrews, d. w. k. (2005). “cross-section regression with common shocks.” *econometrica*, 73(5): 1551-1585.",
+    "angrist, j. d., and j.-s. pischke (2008). *mostly harmless econometrics: an empiricist's companion*. 1st ed. princeton university press.",
+    "bell, r. m., and d. f. mccaffrey (2002). “bias reduction in standard errors for linear regression with multi-stage samples.” *survey methodology*, 28(2), 169-181.",
+    "bertrand, m., e. duflo, and s. mullainathan (2004). “how much should we trust differences-in-differences estimates?” *the quarterly journal of economics*, 119(1): 249-275.",
+    "bester, c. a., t. g. conley, and c. b. hansen (2011). “inference with dependent data using cluster covariance estimators.” *journal of econometrics*, 165(2): 137-151.",
+    "binder, d. a. (1983). “on the variances of asymptotically normal estimators from complex surveys.” *international statistical review*, 51(3): 279-292.",
+    "cameron, a. c., j. b. gelbach, and d. l. miller (2008). “bootstrap-based improvements for inference with clustered errors.” *the review of economics and statistics*, 90(3): 414-427.",
+    "card, d., and a. b. krueger (1994). “minimum wages and employment: a case study of the fast food industry in new jersey and pennsylvania.” *american economic review*, 84(4): 772-793.",
+    "conley, t. g., and c. r. taber (2011). “inference with 'difference in differences' with a small number of policy changes.” *the review of economics and statistics*, 93(1): 113-125.",
+    "donald, s. g, and k. lang (2007). “inference with difference-in-differences and other panel data.” *the review of economics and statistics*, 89(2): 221-233.",
+    "fuller, w. a. (1975). “regression analysis for sample survey.” *sankhya*, 37: 117-132. imbens, g. w., and m. kolesar (2016). “robust standard errors in small samples: some practical advice.” *review of economics and statistics*, 98(4): 701-712.",
+    "kloek, t. (1981). “ols estimation in a model where a microvariable is explained by aggregates and contemporaneous disturbances are equicorrelated.” *econometrica*, 49(1): 205-207.",
+    "kolenikov, s. (2010). “resampling variance estimation for complex survey data.” *the stata journal*, 10: 165-199.",
+    "liang, k.-y., and s. l. zeger (1986). “longitudinal data analysis using generalized linear models.” *biometrika*, 73(1): 13-22.",
+    "mackinnon, j. g. (2015). “wild cluster bootstrap confidence intervals.” *l'actualite economique*, 91(1-2): 11-33.",
+    "mackinnon, j. g., and h. white (1985). “some heteroskedasticity consistent covariance matrix estimators with improved finite sample properties.” *journal of econometrics*, 29(3): 305-325.",
+    "mackinnon, j. g., and m. d. webb (2016a). “randomization inference for difference-in-differences with few treated clusters.” working paper no. 1355, queen's university, department of economics.",
+    "mackinnon, j. g., and m. d. webb (2016b). “the subcluster wild bootstrap for few (treated) clusters.” working paper no. 1364, queen's university, department of economics.",
+    "mackinnon, j. g., and m. d. webb (2017). “wild bootstrap inference for wildly different cluster sizes.” *journal of applied econometrics*, 32(2): 233-254.",
+    "moulton, b. r. (1986). “random group effects and the precision of regression estimates.” *journal of econometrics*, 32(3): 385-397.",
+    "moulton, b. r. (1990). “an illustration of a pitfall in estimating the effects of aggregate variables on micro units.” *review of economics and statistics*, 72(2): 334.",
+    "rao, j. n. k., and c. f. j. wu (1988). “resampling inference with complex survey data.” *journal of the american statistical association*, 83(401): 231-241.",
+    "webb, m. d. (2014). “reworking wild bootstrap based inference for clustered errors.” working paper no.1315, queen's university, department of economics."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "case % gain standard error (% gain) 95% lower 95% upper hc1 11.589 0.222 11.155 12.023 cv1(s,y) 11.589 0.318 10.967 12.212 cv1(s) 11.589 0.584 10.447 12.732",
+    "\\[ \\hat{p}_s^* = \\frac{1}{b} \\sum_{b=1}^{b} i( \\hat{t}_{k}^{*b} > \\hat{t}_k ), \\]"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "figure 1",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "figure 1",
+      "title": "graphs the inverse of the average of the reported standard errors of $\\hat{\\phi}$ for three covariance matrix estimators against $m$, where the horizontal axis is proportional to the square root of $m$. for values of $m$ less than about 30,000, the three standard errors are essentially the same. for larger values of $m$, the heteroskedasticity-robust standard errors remain proportional to $\\sqrt{1/m}$, so the figure shows a straight line. however, the two cluster-robust standard errors decline more slowly than $\\sqrt{1/m}$. in consequence, their inverses increase more slowly. for state-level clustering, the inverse standard errors increase very slowly indeed beyond about $m = 250,000$.",
+      "source": ""
+    },
+    {
+      "number": "figure 1",
+      "title": "puts an (approximate) upper bound on the rate at which accuracy improves with sample size for the parameter $\\varphi$ with this dataset. as the theory suggests, this rate is very low for large sample sizes.",
+      "source": ""
+    },
+    {
+      "number": "figure 2",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "figure 2",
+      "title": "reports rejection frequencies at the 5% level for $t$ statistics based on the hc$_1$, cv$_1(s,y)$, and cv$_1(s)$ covariance matrices for all 51 possible values of $g_1$. only cv$_1(s)$ ever yields inferences that are close to being reliable. tests based on heteroskedasticity-robust standard errors always overreject extremely severely. tests based on clustering at the state-year level also always overreject very severely. in contrast, tests based on clustering at the state level overreject moderately for $g_1 > 15$. however, there is severe overrejection for $g_1 \\leq 5$ and extreme overrejection for $g_1 = 1$ and $g_1 = 2$.",
+      "source": ""
+    },
+    {
+      "number": "figure 1",
+      "title": ", it seems plausible that the placebo-law experiments would have yielded different results if the sample size had been smaller. in order to investigate this conjecture, i reduced the sample size to $m \\approx n/m$ by retaining observations numbered $m$, $2m$, and so on, for $m = 2, 5, 10,$ and $20$. i then performed the same set of 51 placebo-law experiments for each value of $m$ as for the full sample, except that i used 100,000 replications instead of 40,000 for $m = 5, 10,$ and $20$.",
+      "source": ""
+    },
+    {
+      "number": "figure 3",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "figure 3",
+      "title": "shows 5% rejection frequencies for $hc_i$ $t$ statistics for five sample sizes. these decrease steadily and quite dramatically as the sample size drops.",
+      "source": ""
+    },
+    {
+      "number": "figure 4",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "figure 4",
+      "title": "shows 5% rejection frequencies for cv$_1(s, y)$ $t$ statistics for the same five sample sizes. these also decrease quite dramatically as the sample size drops, but they are not as bad for large sample sizes as the ones in figure 3. for the very smallest sample, with $m = 57,829$, the cv$_1(s, y)$ and hc$_1$ rejection frequencies are almost indistinguishable. this suggests that the consequences of whatever within-sample correlations clustering at the state-year level picks up must be relatively small compared to those of the within-state, cross-year correlations that clustering at the state level picks up.",
+      "source": ""
+    },
+    {
+      "number": "figure 5",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "figure 5",
+      "title": "shows 5% rejection frequencies for $cv_1(s)$ $t$ statistics for the same five sample sizes. it looks very different from figures 3 and 4. in this case, sample size does not seem to matter. the five curves are almost on top of each other\\(^4\\). this suggests that the $cv_1(s)$ covariance matrices are taking proper account of whatever within-sample correlations there may be. clustering at the state level seems to be sufficient.",
+      "source": ""
+    },
+    {
+      "number": "figure 5",
+      "title": ", it appears that, with large samples like this one, inferences based on cluster-robust covariance matrices are likely to be inaccurate, especially when the number of treated clusters is small. for most values of $g$, however, it is possible to obtain more accurate inferences by using the wild cluster bootstrap. this procedure was proposed by cameron, colbach and miller (2008) and studied in detail by mackinnon and webb (2017).",
+      "source": ""
+    },
+    {
+      "number": "figure 6",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "figure 6",
+      "title": "shows rejection frequencies for wild cluster bootstrap tests at the.01,.05, and.10 levels. these are based on 10,000 replications with \\( b = 399 \\). results are shown only for \\( g_1 = 1, \\ldots, 24 \\) and \\( g_1 = 25, 30, \\ldots, 50 \\) because each experiment took at least seven days of computer time. the bootstrap tests perform very well, although not quite perfectly, for \\( g_1 \\geq 25 \\). they underreject severely when \\( g_1 \\) is very small, and they overreject moderately for values of \\( g_1 \\) that are quite small but not very small.",
+      "source": ""
+    },
+    {
+      "number": "figure 7",
+      "title": "shows rejection frequencies for four different tests at the.05 level of the coefficient on the placebo-law dummy variable. when we ignore intra-cluster correlation and simply use heteroskedasticity-robust standard errors, rejection...",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "case % gain standard error (% gain) 95% lower 95% upper hc1 11.589 0.222 11.155 12.023 cv1(s,y) 11.589 0.318 10.967 12.212 cv1(s) 11.589 0.584 10.447 12.732",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\[ \\hat{p}_s^* = \\frac{1}{b} \\sum_{b=1}^{b} i( \\hat{t}_{k}^{*b} > \\hat{t}_k ), \\]",
+      "note": ""
+    }
+  ]
+}

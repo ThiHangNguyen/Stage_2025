@@ -1,15 +1,8 @@
 
 chemins_erudit = {
     "title": ".//er:grtitre/er:titre",
-    "overline": ".//er:grtitre/er:surtitre",
-    "subtitle": ".//er:grtitre/er:sstitre",
-    # "author_first_name": [...],
-    # "author_last_name": [...],
-    # "author_affiliation": [...],
-    # "author_email": [...],
-    # "author_website": [...],
-    # "author_orcid": [...],
-
+    "overline": ".//er:grtitre/er:surtitre | .//er:grtitre/surtitre | .//grtitre/er:surtitre | .//grtitre/surtitre",
+    "subtitle": ".//er:grtitre/er:sstitre | .//er:grtitre/sstitre | .//grtitre/er:sstitre | .//grtitre/sstitre",
     "abstract": "//er:resume/er:alinea",
     "date": ".//er:date",
     "id": "//er:infoarticle/er:idpublic",
@@ -21,7 +14,6 @@ chemins_erudit = {
     "end_page": ".//er:pagination/er:dpage",
     "rights_text": "//er:droitsauteur/er:nomorg",
     "rights_link": "//er:droitsauteur/er:liensimple/@xlink:href",
-    #"keywords": ".//er:grmotcle/er:motcle",
     "keywords": None,
     "editorial_team": None, # traitement specifique 
     "issue_number": ".//er:numero/er:nonumero",

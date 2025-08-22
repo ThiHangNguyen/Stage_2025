@@ -1,5 +1,7 @@
 from utils.io import normalize_date, normalize_text, extract_from_path
 from .road import chemins_grobid
+import re
+
 ns_grobid = {"tei": "http://www.tei-c.org/ns/1.0"}
 
 
@@ -151,38 +153,6 @@ def extract_grobid_author_affiliations_flat(root):
     return affiliations
 
 
-def extract_body(root):
-    sections = []
-
-    body = root.find(".//tei:text/tei:body", namespaces=ns_grobid)
-    if body is None:
-        return []
-
-    for div in body.findall("tei:div", namespaces=ns_grobid):
-        section = {}
-
-        # Titre de section
-        head_node = div.find("tei:head", namespaces=ns_grobid)
-        section["title"] = " ".join(head_node.itertext()) if head_node is not None else ""
-
-        # Paragraphes (p + items)
-        paragraphs = []
-        for child in div:
-            if child.tag == f"{{{ns_grobid['tei']}}}p":
-                text = " ".join(child.itertext())
-                if text.strip():
-                    paragraphs.append(text.strip())
-            elif child.tag == f"{{{ns_grobid['tei']}}}list":
-                for item in child.findall("tei:item", namespaces=ns_grobid):
-                    item_text = " ".join(item.itertext())
-                    if item_text.strip():
-                        paragraphs.append(item_text.strip())
-
-        section["paragraphs"] = paragraphs
-        sections.append(section)
-
-    return sections
-
 #title section - body
 def extract_section_titles(root):
     """
@@ -204,78 +174,252 @@ def extract_section_titles(root):
     return section_titles
 
 
+# def extract_grobid_tables(root):
+#     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
+#     tables = []
+
+#     for figure in root.findall(".//tei:figure", namespaces=ns):
+#         print("Found <figure>")
+
+#         table_node = figure.find("tei:table", namespaces=ns)
+#         if table_node is None:
+#             print("  -> No <tei:table> inside.")
+#             continue
+
+#         label_node = figure.find("tei:label", namespaces=ns)
+#         number = normalize_text(" ".join(label_node.itertext())) if label_node is not None else ""
+
+#         figdesc_node = figure.find("tei:figDesc", namespaces=ns)
+#         title = normalize_text(" ".join(figdesc_node.itertext())) if figdesc_node is not None else ""
+
+#         rows = []
+#         for row in table_node.findall("tei:row", namespaces=ns):
+#             cells = [normalize_text(" ".join(cell.itertext())) for cell in row.findall("tei:cell", namespaces=ns)]
+#             rows.append(cells)
+
+#         full_text = f"{number} {title}".strip()
+#         tables.append({
+#             "number": number,
+#             "title": title,
+#             "rows": rows,
+#             "full_text": full_text if full_text else None
+#         })
+
+#     print(f"{len(tables)} tables found")
+#     return tables
 def extract_grobid_tables(root):
-    ns = {"tei": "http://www.tei-c.org/ns/1.0"}
+    NS = {"tei": "http://www.tei-c.org/ns/1.0"}
     tables = []
 
-    for figure in root.findall(".//tei:figure", namespaces=ns):
-        print("Found <figure>")
+    def _itxt(n): return " ".join(n.itertext()) if n is not None else ""
+    def _norm(s): return normalize_text(s) if s else ""
 
-        table_node = figure.find("tei:table", namespaces=ns)
-        if table_node is None:
-            print("  -> No <tei:table> inside.")
+    figures_with_tables = 0
+
+    # (A) tables sous figure
+    for fig in root.xpath(".//tei:figure", namespaces=NS):
+        table_elem = fig.find("tei:table", namespaces=NS)
+        if table_elem is None:
             continue
+        figures_with_tables += 1
 
-        label_node = figure.find("tei:label", namespaces=ns)
-        number = normalize_text(" ".join(label_node.itertext())) if label_node is not None else ""
+        label = _norm(_itxt(fig.find("tei:label", namespaces=NS)))
+        title = _norm(_itxt(fig.find("tei:figDesc", namespaces=NS))) or _norm(_itxt(table_elem.find("tei:head", namespaces=NS)))
 
-        figdesc_node = figure.find("tei:figDesc", namespaces=ns)
-        title = normalize_text(" ".join(figdesc_node.itertext())) if figdesc_node is not None else ""
+        # content: concat de toutes les cellules
+        all_text = []
+        for row in table_elem.findall(".//tei:row", namespaces=NS):
+            for cell in row.findall("tei:cell", namespaces=NS):
+                t = _norm(_itxt(cell)).strip()
+                if t:
+                    all_text.append(t)
+        content = _norm(" ".join(all_text))
 
-        rows = []
-        for row in table_node.findall("tei:row", namespaces=ns):
-            cells = [normalize_text(" ".join(cell.itertext())) for cell in row.findall("tei:cell", namespaces=ns)]
-            rows.append(cells)
+        # note: notes + éventuels "Source" dans label/figDesc
+        note_parts = []
+        for n in fig.findall(".//tei:note", namespaces=NS):
+            nt = _norm(_itxt(n))
+            if nt: note_parts.append(nt)
+        if ("source" in (label or "").lower()):
+            note_parts.append(label)
+        if ("source" in (title or "").lower()):
+            note_parts.append(title)
+        seen = set()
+        note = " ".join(x for x in note_parts if not (x in seen or seen.add(x))).strip()
 
-        full_text = f"{number} {title}".strip()
-        tables.append({
-            "number": number,
-            "title": title,
-            "rows": rows,
-            "full_text": full_text if full_text else None
-        })
+        tables.append({"number": label, "title": title, "content": content, "note": note})
 
-    print(f"{len(tables)} tables found")
+    # (B) optionnel: tables hors figure (aucune “devinette”, toujours <tei:table>)
+    for table_elem in root.xpath(".//tei:table[not(ancestor::tei:figure)]", namespaces=NS):
+        head = _norm(_itxt(table_elem.find("tei:head", namespaces=NS)))
+        all_text = []
+        for row in table_elem.findall(".//tei:row", namespaces=NS):
+            for cell in row.findall("tei:cell", namespaces=NS):
+                t = _norm(_itxt(cell)).strip()
+                if t:
+                    all_text.append(t)
+        content = _norm(" ".join(all_text))
+        note_parts = []
+        for n in table_elem.findall(".//tei:note", namespaces=NS):
+            nt = _norm(_itxt(n))
+            if nt: note_parts.append(nt)
+        seen = set()
+        note = " ".join(x for x in note_parts if not (x in seen or seen.add(x))).strip()
+        tables.append({"number": "", "title": head, "content": content, "note": note})
+
+    # petit log utile en dev
+    print(f"[tables] figures_with_tables={figures_with_tables}, tables_total={len(tables)}")
     return tables
 
+def extract_table_contents_grobid(root):
+    """
+    Retourne une liste[str], chaque élément = contenu d’un <tei:table>
+    obtenu en fusionnant le texte de toutes les cellules (ordre lignes→cellules).
+    Aucun fallback textuel: on ne prend que les vrais <tei:table>.
+    """
+    ns = globals().get("ns_grobid", {"tei": "http://www.tei-c.org/ns/1.0"})
+    out = []
+
+    def _itxt(node):
+        return " ".join(node.itertext()) if node is not None else ""
+
+    for table in root.findall(".//tei:table", namespaces=ns):
+        all_cells = []
+        for row in table.findall(".//tei:row", namespaces=ns):
+            for cell in row.findall("tei:cell", namespaces=ns):
+                t = normalize_text(_itxt(cell)).strip()
+                if t:
+                    all_cells.append(t)
+        merged = normalize_text(" ".join(all_cells)) if all_cells else ""
+        if merged:
+            out.append(merged)
+
+    return out
+
+import re
 
 def extract_grobid_figures_from_text(root):
     """
-    Extrait uniquement les titres de figures détectés dans le texte OCR GROBID.
-    Ne récupère que les phrases commençant par "GRAPHIQUE" ou "FIGURE".
-    Ajoute un champ "type" et "full_text" sans récupérer le contenu de la figure.
+    Extrait les figures depuis <tei:figure> uniquement.
+    Retourne une liste de dicts {number, title, source}.
+    - number = préfixe + identifiant (ex. 'figure 1', 'graphique II'), principalement depuis <label>
+    - title  = 1re phrase de <figDesc> (après nettoyage de 'Figure X ...')
+    - source = uniquement notes de bas de page liées à la figure (inline <note> ou via <noteRef>/<ref>/<ptr> => <note xml:id>)
+              AUCUN fallback 'Source:' dans le texte de la légende.
     """
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
     figures = []
 
-    for s in root.xpath(".//tei:s", namespaces=ns):
-        raw_text = " ".join(s.itertext()).strip()
-        text = normalize_text(raw_text)
+    def N(s):
+        try:
+            return normalize_text(s) if s else ""
+        except NameError:
+            return " ".join(str(s).split()) if s else ""
 
-        upper_text = text.upper()
-        if upper_text.startswith("GRAPHIQUE") or upper_text.startswith("FIGURE"):
-            words = text.split()
-            if not words:
-                continue
+    for fig in root.findall(".//tei:figure", namespaces=ns):
+        # ---- number (prefix + id) ----
+        num_word, num_id = "", ""
 
-            first_word = words[0].upper()
-            figure_type = "graphique" if first_word == "GRAPHIQUE" else "figure"
-            number = words[1] if len(words) > 1 else ""
-            title = " ".join(words[2:]) if len(words) > 2 else ""
+        # 1) depuis <label>
+        label = fig.find("tei:label", namespaces=ns)
+        if label is not None:
+            label_text = N(" ".join(label.itertext())).strip()
+            m = re.search(r'(fig(?:ure)?|graphiq(?:ue)?|graphique)\s*([0-9IVXLC]+)', label_text, flags=re.I)
+            if m:
+                num_word = m.group(1).lower()
+                num_id   = m.group(2)
+            else:
+                # au moins essayer de récupérer un identifiant numérique/romain
+                m2 = re.search(r'([0-9IVXLC]+)', label_text, flags=re.I)
+                if m2:
+                    num_word = "figure"
+                    num_id   = m2.group(1)
 
-            figures.append({
-                "type": figure_type,
-                "number": number,
-                "title": title,
-                "source": "",
-                "full_text": text
-            })
+        number = f"{(num_word or 'figure')} {num_id}".strip() if num_id else ""
+
+        # ---- title depuis figDesc ----
+        title = ""
+        figdesc = fig.find("tei:figDesc", namespaces=ns)
+        desc_text = N(" ".join(figdesc.itertext())) if figdesc is not None else ""
+
+        # on nettoie 'Figure X'/'Graphique X' AU SEIN du titre (si id connu)
+        desc_clean = desc_text
+        if desc_clean and num_id:
+            desc_clean = re.sub(
+                rf'^(?:fig(?:ure)?|graphiq(?:ue)?|graphique)\s*{re.escape(num_id)}\s*[ .:\-–—]*',
+                '', desc_clean, flags=re.I
+            )
+
+        # première phrase non vide comme titre
+        if desc_clean:
+            sentences = re.split(r'(?<=[.!?])\s+', desc_clean)
+            if sentences:
+                title = sentences[0].strip()
+
+        # ---- source : uniquement notes/footnotes rattachées à la figure ----
+        source = ""
+        notes_texts = []
+
+        # (1) Notes inline sous <figure> (on garde seulement les notes de bas de page)
+        for note in fig.findall(".//tei:note", namespaces=ns):
+            kind = f"{(note.get('type') or '').lower()} {(note.get('place') or '').lower()}".strip()
+            if ("foot" in kind) or (note.get("type", "").lower() in {"foot", "footnote"}):
+                t = N(" ".join(note.itertext())).strip()
+                if t:
+                    notes_texts.append(t)
+
+        # (2) Notes référencées depuis la figure : <noteRef>, <ref type='foot'>, <ptr type='foot'>
+        targets = set()
+
+        for elt in fig.findall(".//tei:noteRef", namespaces=ns):
+            tgt = (elt.get("target") or "").strip()
+            if tgt.startswith("#"):
+                targets.add(tgt[1:])
+
+        for elt in fig.findall(".//tei:ref", namespaces=ns):
+            if elt.get("type", "").lower() in {"foot", "footnote", "note", "fn"}:
+                tgt = (elt.get("target") or "").strip()
+                if tgt.startswith("#"):
+                    targets.add(tgt[1:])
+
+        for elt in fig.findall(".//tei:ptr", namespaces=ns):
+            if elt.get("type", "").lower() in {"foot", "footnote", "note", "fn"}:
+                tgt = (elt.get("target") or "").strip()
+                if tgt.startswith("#"):
+                    targets.add(tgt[1:])
+
+        # (3) Résoudre les cibles -> texte des <note> correspondantes (dans tout le doc)
+        if targets:
+            XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
+            for n in root.findall(".//tei:note", namespaces=ns):
+                nid = n.get(XML_ID) or n.get("xml:id")
+                if nid and nid in targets:
+                    kind = f"{(n.get('type') or '').lower()} {(n.get('place') or '').lower()}".strip()
+                    if ("foot" in kind) or (n.get("type", "").lower() in {"foot", "footnote"}):
+                        t = N(" ".join(n.itertext())).strip()
+                        if t:
+                            notes_texts.append(t)
+
+        # (4) Déduplication + fusion (pas de fallback "Source:")
+        seen, ordered = set(), []
+        for t in notes_texts:
+            if t and t not in seen:
+                ordered.append(t)
+                seen.add(t)
+
+        source = " | ".join(ordered)
+
+        if not (number or title or source):
+            continue
+
+        figures.append({
+            "number": number,
+            "title": title,
+            "source": source
+        })
 
     return figures
 
-
-
-import re
 
 def guess_name_from_affiliation(text):
     """
@@ -312,7 +456,7 @@ def extract_grobid_author_dicts(root):
     for elem in authors_elements:
         persName = elem.find("tei:persName", namespaces=ns)
         affiliations = elem.findall("tei:affiliation", namespaces=ns)
-        print (affiliations)
+        #print (affiliations)
         email_elem = elem.find("tei:email", namespaces=ns)
 
         current_author = {
@@ -366,8 +510,6 @@ def extract_grobid_author_dicts(root):
 
 
 
-
-
 def parse_grobid_xml(root):
     resultats = {}
 
@@ -406,7 +548,6 @@ def parse_grobid_xml(root):
             continue
 
 
-
         elif xpath:
             resultats[champ] = extract_from_path(root, xpath, ns_grobid)
         else:
@@ -422,8 +563,7 @@ def parse_grobid_xml(root):
     resultats["section_titles"] = extract_section_titles(root)
     resultats["figures"] = extract_grobid_figures_from_text(root)
     resultats["tables"] = extract_grobid_tables(root)
-
-
+    resultats["content_table"] = extract_table_contents_grobid(root)
     resultats["tool"] = "grobid"
     return resultats
 

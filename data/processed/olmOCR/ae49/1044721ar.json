@@ -1,0 +1,362 @@
+{
+  "title": "evaluation et comparaison des regles de vote derriere le voile de l'ignorance : tour d'horizon selectif et analyse des regles de scores a deux parametres*",
+  "authors": [],
+  "abstract": "nous proposons un cadre general pour l'etude et l'evaluation des regles de vote derriere le voile d'ignorance. nous montrerons comment de nombreuses contributions recensees dans notre revue de la litterature sur le vote peuvent etre considerees comme des cas particuliers de ce modele general. l'analyse se concentre ensuite sur l'optimisation utilitariste dans le cas d'elections a trois candidats et une specification bayesienne ou les preferences cardinales des electeurs entre trois options sont de l'information privee. dans ce contexte specifique, nous etudions les regles de vote qui sont des regles de score a deux parametres, telles qu'introduites par myerson (2002). nous montrons que tous les equilibres bayesiens symetriques induits par ces regles de vote sont des equilibres sinceres et ont une forme particuliere. ces equilibres sont uniques pour une vaste gamme de parametres, ce qui nous permet de comparer la performance a l'equilibre de differentes regles de vote. les resultats de nos calculs relatifs a l'efficacite des diverses regles de score (ou l'efficacite est evaluee a l'aide d'une variation de la mesure proposee par weber, 1978) permettent de conclure que les regles qui representent le plus efficacement les preferences des electeurs permettent l'expression de l'intensite de ces preferences, contrairement aux regles plus couramment utilisees telles que la regle de pluralite et celle de borda. alors que la regle de vote par assentiment permet l'expression de l'intensite des preferences, elle ne maximise pas l'efficacite, car elle ne parvient pas a rendre sans ambiguite les preferences ordinaires des electeurs.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "graphique 1",
+    "2.1.2 culture impartiale anonyme",
+    "1.4 structure de l'information",
+    "efficacite moyenne des regles de vote bien connues",
+    "5.2 simulations numeriques",
+    "bibliographie",
+    "2.2 vote rationnel en information complete",
+    "tableau 2",
+    "conclusion",
+    "regle de selection (\\( x, y \\)) la plus efficace associee a chaque distribution beta",
+    "introduction",
+    "ensemble de toutes les regles de selection a parametres \\((x, y)\\)"
+  ],
+  "bibliographies": [
+    "ahn, d. s. et s. oliveros (2016), approval voting and scoring rules with common values, *journal of economic theory*, 166 : 304-310.",
+    "apesteguia, j., m. a. ballester et r. ferrer (2011), on the justice of decision rules, *review of economic studies*, 78 : 1-16.",
+    "barbera, s. et m. o. jackson (2006), on the weights of nations: assigning voting weights in a heterogeneous union, *journal of political economy*, 114 : 317-339.",
+    "blais, a. et a. degun (2017), l'etude du vote strategique, dans ce numero.",
+    "bordley, r. f. (1983), a pragmatic method for evaluating election schemes through simulation, *american political science review*, 77 : 123-141.",
+    "borgers, t. et p. postl (2009), efficient compromising, *journal of economic theory*, 144 : 2057-2076.",
+    "brams, s. j. et p. c. fishburn (1978), approval voting, *american political science review*, 72 : 831-847.",
+    "brams, s. j. et p. c. fishburn (1978): (2002), voting procedures, in k. j. arrow, a. k. sen, et k. suzumura (ed.), *handbook of same choice and welfare, vol. i*, elsevier north holland, amsterdam, chap. 4, p.173-236.",
+    "buenrostro, l., a. dhillon et p. vida (2013), scoring rule voting games and dominance solvability, *social choice and welfare*, 40 : 329-352.",
+    "carmona, g. (2012), a voting model generically yielding sincere voting in large elections, university of cambridge, mimeo.",
+    "carroll, g. (2013), a quantitative approach to incentives: application to voting, stanford university, mimeo.",
+    "cervone, d. p., w. v. gehrlein et w. s. zwicker (2005), which scoring rule maximizes condorcet efficiency under iac?, *theory and decision*, 58 : 145-185. chamberlin, j. r. et m. d. cohen (1978), toward applicable social choice theory: a comparison of social choice functions under spatial model assumptions, *american political science review*, 72 : 1341-1356.",
+    "cook, w. d. et m. kress (1985), ordinal ranking with intensity of preference, *management science*, 31 : 26-32.",
+    "de sinopoli, f. (2001), sophisticated voting and equilibrium refinements under plurality rule, *social choice and welfare*, 17 : 655-672.",
+    "de sinopoli, f., b. dutta et j.-f. laslier (2006), approval voting: three examples, *international journal of game theory*, 35 : 27-38.",
+    "de sinopoli, f., g. iannantuoni et c. pimienta (2014), counterexamples on the superiority of approval versus plurality, *journal of public economic theory*, 16 : 824-834.",
+    "feddersen, t. et w. pesendorfer (1997), voting behavior and information aggregation in elections with private information, *econometrica*, 65 : 1029-1058.",
+    "fishburn, p. c. et s. j. brams (1981), approval voting, condorcet's principle, and runoff elections, *public choice*, 36 : 89-114.",
+    "fishburn, p. c. et w. v. gehrlein (1976), an analysis of simple two-stage voting systems, *behavioral science*, 21 : 1-12.",
+    "gehrlein, w. v. et d. lepelley (2001), the condorcet efficiency of borda rule with anonymous voters, *mathematical social sciences*, 41 : 39-50.",
+    "gehrlein, w. v. et d. lepelley (2011), *voting paradoxes and group coherence: the condorcet efficiency of voting rules*, springer verlag, heidelberg.",
+    "gehrlein, w. v., d. lepelley et f. plassmann (2016), should voters be required to rank candidates in an election?, *mathematical social sciences*, 46 : 707-747.",
+    "giles, a. et p. postl (2014), equilibrium and effectiveness of two-parameter scoring rules, *mathematical social sciences*, 68 : 31-52.",
+    "green-armytage, j., t. n. tideman et r. cosman (2016), statistical evaluation of voting rules, *mathematical social sciences*, 46 : 183-212.",
+    "holmstrom, b. et r. b. myerson (1983), efficient and durable decision rules with incomplete information, *econometrica*, 51 : 1799-1819.",
+    "hortala-vallve, r. (2009), inefficiencies on linking decision, *social choice and welfare*, 34 : 471-486.",
+    "jackson, m. o. et h. f. sonnenschein (2007), overcoming incentive constraints by linking decision, *econometrica*, 75 : 241-257.",
+    "kim, s. (2016), ordinal versus cardinal voting rules: a mechanism design approach, national taiwan university, mimeo.",
+    "laslier, j.-f. (2012), and the loser is...plurality voting, in d. s. felsenthal, et m. machover (eds), *electoral systems*, springer verlag, heidelberg, chap. 13, p. 327-351.",
+    "le breton, m., d. lepelley, a. mace et v. merlin (2017), le mecanisme optimal de vote au sein du conseil des representants dans un systeme federal, dans ce numero. lepelley, d. et f. valognes (2003), voting rules, manipulability and social homogeneity, *public choice*, 116 : 165-184.",
+    "maus, s., h. peters et t. storcken (2007), anonymous voting and minimal manipulability, *journal of economic theory*, 135 : 533-544.",
+    "meek, b. l. (1975), a transferable voting system including intensity of preference, *mathematique et sciences humaines*, 50 : 23-29.",
+    "merrill, s. (1984), a comparison of efficiency of multicandidate electoral systems, *american journal of political science*, 28 : 23-48.",
+    "merrill, s. (1985), a statistical model for condorcet efficiency based on simulation under spatial model assumptions, *public choice*, 47 : 389-403.",
+    "mertens, j.-f. (1989), stable equilibria - a reformulation. part i: definition and basic properties, *mathematics of operations research*, 14 : 575-625.",
+    "miralles, a. (2012), cardinal bayesian allocation mechanisms without transfers, *journal of economic theory*, 147 : 179-206.",
+    "myerson, r. b. (1978), refinements of the nash equilibrium concept, *international journal of game theory*, 15 : 133-154.",
+    "myerson, r. b. (2002), comparison of scoring rules in poisson voting games, *journal of economic theory*, 103 : 219-251.",
+    "myerson, r. b et r. j. weber (1993), a theory of voting equilibria, *american political science review*, 87 : 102-114.",
+    "niemi, r. g et h. f. weisberg (ed) (1972), *probability models of collective decision making*, c.e. merrill publishing company, michigan, usa.",
+    "nurmi, h. (1981), approaches to collective decision making with fuzzy preference relations, *fuzzy sets and systems*, 6 : 249-259.",
+    "nurmi, h. (1993), fuzzy social choice: a selective retrospect, *soft computing*, 12 : 281-288.",
+    "pivato, m. (2016), asymptotic utilitarianism in scoring rules, thema, universite de cergy-pontoise mimeo.",
+    "postl, p. (2011), strategy-proof compromises, *the b.e. journal of theoretical economics*, 11 : article 20.",
+    "rochet, j.-c. (1987), a necessary and sufficient condition for rationalizability in a quasilinear context, *journal of mathematical economics*, 16 : 191-200.",
+    "schmitz, p. w. et t. troger (2012), the (sub-)optimality of the majority rule, *games and economic behavior*, 74 : 651-665.",
+    "sel滕, r. (1975), a reexamination of the perfectness concept for equilibrium points in extensive games, *international journal of game theory*, 4 : 25-55.",
+    "smith, d. a. (1999), manipulability measures of common social choice functions, *social choice and welfare*, 16 : 639-661.",
+    "weber, r. j. (1978), comparison of public choice systems, *cowles foundation discussion paper*, no. 498."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "nous noterons $n = \\{1, 2, \\ldots, n 1\\}$ l'ensemble fini de joueurs qui comprend $ n = n 1$ electeurs. les electeurs doivent collectivement faire un choix a partir de l'ensemble fini $k$ de candidats ou options en votant individuellement, conformement a une regle de vote $r$. chaque electeur $i \\in n$ a un ordre de preference sur $k$ qui depend de son type. cela va nous permettre de modeliser l'idee que n'importe quel choix d'une regle de vote et de la decision qui s'ensuit sur la facon de voter doivent generalement se faire sans connaissance parfaite des preferences des electeurs. pour chaque electeur $i \\in n$, il existe un ensemble $t^i$ des types possibles. chaque type $t^i \\in t^i$ de l'electeur $i \\in n$ donne lieu a une fonction von neumann-morgenstern (vnm) d'utilite $u_i : k \\times t^i \\rightarrow \\mathbb{r}$, $(k, t^i) \\mapsto u_i(k, t^i)$ de laquelle decoule, par voie de consequence, un ordre de preference $\\succeq_i$ des candidats dans $k^{12,13}$. par exemple, si $k = \\{a, b, c\\}$ et le type $t^i$ de l'electeur $i$ est tel que $u_i(b, t^i) > u_i(a, t^i) > u_i(c, t^i)$, alors $b \\succ_i a \\succ_i c$.",
+    "$$e_{t^i}[\\mu_i(r((v^i(t^i), v^{-i}(t^{-i}))), t^i) t^i] \\geq e_{t^i}[\\mu_i(r((\\sigma^i, v^{-i}(t^{-i}))), t^i) t^i]$$",
+    "w^i_r = e_{t'}[e_{t'}[w^i(v_r(t), t) t'] t] = e_{t'}[w^i_r(t)] \\text{ ou } w^i_r(t) = w^i(v_r(t), t)",
+    "\\(^{17}\\) on laisse de cote les questions delicates soulevees par les situations d'equilibres multiples. notons que lorsque \\( k = 2 \\) et que les indifferences sont exclues, il y a un unique equilibre: chaque electeur a une strategie dominante. le mot equilibre est utilise ici abusivement pour englober aussi les situations ou le profil de reference considere ne decoule pas forcement d'un concept d'equilibre.",
+    "un critere d'evaluation pris en compte dans cette litterature (voir merrill, 1984) - et qui sera egalement etudie dans la section 3 ci-dessous du present article - est l'efficacite de la regle de vote. ce critere de bien-etre social est superieur a l'efficacite de condorcet si l'intensite des preferences des electeurs doit etre prise en compte (meme si merrill (1984) analyse une seule regle, a savoir le vote par assentiment, en fonction duquel les electeurs peuvent exprimer l'intensite de leurs preferences). afin d'evaluer la performance des differentes regles de vote, merrill (1984) simule un grand nombre d'elections a 25 electeurs et un nombre variable de candidats (de 2 a 5 candidats, puis 7 et 10 candidats, respectivement). afin de generer les types de l'electeur, il procede a des extractions independantes, a partir de la meme distribution, de chaque element du vecteur de types de l'electeur (toutefois, contrairement a notre comparaison bayesienne plus loin, merrill (1984) se limite a la distribution uniforme). bien que notre comparaison bayesienne de l'efficacite des regles de vote est centree sur le cas de 3 electeurs, nous comparons neanmoins ici l'efficacite des regles de vote pour les elections a 3 candidats et 25 electeurs discutee dans merrill (1984) a celle derivee de nos simulations numeriques pour la distribution uniforme : nous obtenons un niveau d'efficacite de 83,98 % pour la regle de pluralite (par rapport a 83 % dans merrill (1984) ou le vote est suppose etre sincere), une efficacite de 91,91 % pour le vote par assentiment (par rapport a 95,4 % dans merrill, 1984) et une efficacite de 94,47 % pour la regle de borda (par rapport a 94,8 % dans merrill, 1984). il est interessant de noter que le vote par assentiment surpasse de peu la regle de borda dans merrill (1984) alors que la regle de borda surpasse clairement le vote par assentiment dans notre contexte (et non seulement pour la distribution uniforme, mais, en moyenne, pour toutes les 25 distributions beta que nous considerons). l'exemple 1 de la section 2 ci-dessous suggere que cette difference est due au fait que dans l'equilibre de bayes-nash du vote par assentiment dans notre modele, les electeurs approuvent moins souvent que dans merrill (1984) le candidat qu'ils preferent en second. en se fondant sur l'hypothese ic, de nombreuses contributions a la litterature cherchent a comparer et a evaluer les dvr ordinale au regard des manipulations individuelles. par exemple, smith (1999) compare cinq regles de vote ordinale populaires, tandis que maus, peters et storcken (2007) definissent la classe des dvr ordinale anonymes, surjectives et a preference unique tops-only qui reduit au minimum la vulnerabilite a la manipulation individuelle, lorsque le nombre d'electeurs \\( n \\) est plus grand que le nombre de candidats \\( k \\). le lecteur peut consulter les references presentees ici pour des resultats supplementaires\\(^{18}\\).",
+    "un deuxieme critere d'evaluation considere sous cette structure d'information est l'efficacite de condorcet. dans le cas de \\( k = 3\\) candidats, merrill (1985)",
+    "les deux derniers criteres d'evaluation etudies sous l'hypothese de culture impartiale sont l'efficacite utilitariste et la resistance a la manipulabilite, ainsi qu'une combinaison de ces deux objectifs. green-armytage, tideman et cosman (2016) definissent la resistance a la manipulation comme la robustesse a la manipulation (telle que definie dans la section 1.6) constitutive d'un equilibre de nash fort. ils constatent qu'avec \\( n = 99\\) electeurs, les regles de hare et condorcet-hare (qui selectionne le gagnant de condorcet s'il en existe un et sinon le gagnant selon la regle de hare) surpassent chacune les 54 autres regles de vote considerees en ce qui a trait a la mesure de la resistance a la manipulabilite (plus de 80 % des elections donnant lieu a un resultat non manipulable). notons que green-armytage, tideman et cosman (2016) n'imposent pas de contrainte d'incitation sur le comportement de vote, parce qu'ils supposent simplement que le vote est sincere. il s'ensuit que leurs resultats passent sous silence le fait que le vote n'est peut-etre pas sincere en realite et, par consequent, ne permettent pas que la perte de bien-etre associee a toute instance de vote strategique soit chiffree.",
+    "en ce qui concerne le critere d'evaluation base sur l'efficacite utilitariste, apesteguia, ballester et ferrer (2011) montrent enfin que parmi les regles de vote direct ordinale, les regles de score (c'est-a-dire les regles en fonction desquelles chacun des \\( n \\) electeurs attribue un score a chaque candidat \\(k \\in k\\), sous reserve de certaines contraintes, de sorte que le candidat qui obtient le score agrege le plus eleve est le vainqueur) maximisent l'efficacite utilitariste esperee ex ante lorsque l'on suppose que les electeurs declarent leurs veritables preferences. en outre, ils determinent laquelle des regles de vote en particulier est optimale selon la distribution \\(\\lambda\\) a priori sur les profils de types des electeurs. dans un environnement connexe ou la structure",
+    "de l'information est plus generale (permettant la culture impartiale, la culture impartiale anonyme et d'autres comme cas speciaux), pivato (2016) etudie une version de notre modele de vote general decrit dans la section 1 pour un grand electorat (c'est-a-dire \\( n \\to \\infty\\)). ses resultats montrent que les regles de selection simples, par exemple, la regle de borda ou le vote par assentiment, permettent de choisir avec quasi-certitude un candidat qui maximise (ou presque) l'efficacite utilitariste.",
+    "la deuxieme structure d'information importante qui a ete etudiee a fond dans la litterature sur l'approche statistique en choix social est l'hypothese iac presentee dans la section 1.4. en se reportant au critere d'evaluation base sur l'efficacite de condorcet, gehrlein et lepelley (2001) comparent un certain nombre de regles de vote importantes dans le contexte d'elections a trois candidats : la regle de pluralite, le vote negatif (qui demande a chaque electeur lequel des trois candidats il souhaite eliminer), la regle de borda et la methode de pluralite avec elimination a deux tours (laquelle, pour \\( k = 3\\), correspond a la regle de hare decrite ci-dessus), ainsi que la pluralite avec elimination negative (au premier tour, on elimine le candidat le mieux classe, puis au deuxieme tour, on choisit le candidat majoritaire parmi les deux qui restent). conformement a l'efficacite de condorcet, les regles de vote sont constamment classees de la maniere suivante, quel que soit le nombre \\( n \\) d'electeurs : la pluralite avec elimination negative surpasse la regle de borda (d'environ 6 points de pourcentage), laquelle, a son tour, surpasse la regle de pluralite d'environ 3 points de pourcentage.",
+    "21. cette comparaison est basee sur \\( k = 3\\) candidats et \\( n = 101\\) electeurs. dans le document mentionne precedemment, green-armytage, tideman et cosman (2016) considerent egalement 54 regles de vote dans le contexte de iac, avec \\( k = 3\\) candidats et \\( n = 99\\) electeurs. comme dans le contexte de ic, les regles de hare et condorcet-hare surpassent toutes les 54 autres regles de vote considerees en ce qui a trait a la mesure de la resistance a la manipulabilite, tandis que la regle de borda a le mieux performe en termes de bien-etre utilitariste. lorsque les deux criteres d'evaluation, en l'occurrence l'efficacite utilitariste et la resistance a la manipulabilite, sont imposes conjointement, le compromis optimal entre les deux est de nouveau realise par les regles de hare et condorcet-hare, ces dernieres atteignant des scores pratiquement identiques d'environ 85 % et 90 % en termes d'efficacite et de resistance a la manipulabilite, respectivement.",
+    "si le profil de types \\(t\\) des electeurs est connaissance commune au debut de l'etape 2 de notre modele de vote general, alors le jeu induit par la regle de vote du concepteur est un jeu en information complete. de sinopoli, dutta et laslier (2006) etudient le jeu en information complete induit par la regle de vote par assentiment, laquelle permet aux electeurs de voter pour autant de candidats dans \\(k\\) qu'ils le souhaitent\\(^{22}\\). en prenant comme point de depart le resultat de fishburn et brams (1981), qui etablit que si le profil de types \\(t\\) est tel qu'un gagnant de condorcet existe, alors le jeu admet un equilibre de nash en strategies non dominees qui selectionne le gagnant de condorcet comme vainqueur de l'election. cependant, comme il y a d'autres equilibres de nash, il est naturel de se demander si l'equilibre de nash qui selectionne le gagnant de condorcet survit si le concept fait l'objet de raffinements. de sinopoli, dutta et laslier (2006) montrent a l'aide d'exemples que ce n'est pas le cas. tout d'abord, dans le cas ou \\( n = k = 3\\), il existe un profil de types pour lequel un gagnant de condorcet existe et qui est tel que dans l'equilibre unique obtenu par l'elimination iterative des strategies dominees, il y a egalite dans le nombre de votes recu par chacun des trois candidats. compte tenu de l'hypothese de departage equiprobable des *ex æquo*, le gagnant de condorcet ainsi que tous les autres candidats peuvent donc etre elus avec la meme probabilite. un autre",
+    "exemple montre avec \\( n =3\\) electeurs et \\( k =4\\) candidats qu'il existe des profils de types tels que dans l'equilibre unique obtenu en eliminant de maniere iterative les strategies dominees, le gagnant de condorcet ne recoit aucun vote. et enfin, ils construisent un exemple avec \\( k =4\\) candidats et un nombre impair \\( n \\geq 3\\) d'electeurs qui montre que l'unique meilleure reponse d'un electeur aux strategies des autres electeurs (deux electeurs jouent des strategies mixtes tandis que les autres jouent leurs strategies dominantes) implique un vote non sincere. en revanche, si dans cet exemple, la regle de pluralite est utilisee plutot que le vote par assentiment, alors l'equilibre stable exige le vote sincere de la part de tous les electeurs. cela montre que l'argument en faveur du vote par assentiment est plus nuance que ce qu'avancent fishburn et brams (1981).",
+    "dans l'article de buenrostro, dhillon et vida (2013), on applique le concept d'equilibre de nash en strategies non dominees a une categorie elargie de regles de vote (a savoir les regles de score) qui comprend le vote par assentiment comme cas particulier. les auteurs se concentrent sur des elections a \\( k =3\\) options et \\( n \\geq 4\\) electeurs pour demontrer que chaque fois que le jeu en information complete induit par une regle de score donnee peut etre resolu par l'elimination successive des actions dominees (c'est-a-dire est dominance solvable), les candidats elus a l'equilibre correspondent a l'ensemble des gagnants de condorcet. en outre, les auteurs montrent que le vote par assentiment est dominance solvable chaque fois qu'une autre regle de score est dominance solvable (ce qui en fait une regle superieure aux autres du point de vue de ce critere de dominance). cela porte a croire que le vote par assentiment est une regle attrayante lorsqu'il n'y a que trois candidats. notons, cependant, que dans une election avec trois candidats localises dans un espace ideologique unidimensionnel et ou les preferences des electeurs sont determinees par la distance entre leur ideologie individuelle et celle du vainqueur de l'election, il y a des cas ou le vote par assentiment ne parvient pas a selectionner le gagnant de condorcet, alors que la regle de pluralite y parvient avec certitude (voir de sinopoli, iannantuoni et pimienta, 2014).",
+    "**definition 1** pour tout sous-ensemble donne \\( \\mathcal{n} \\subseteq n \\) de \\( m = \\mathcal{n} \\) electeurs, le vecteur de scores agreges \\( s^m \\) sur la base de tous les electeurs dans \\( \\mathcal{n} \\) est la somme des vecteurs de scores individuels \\( \\sigma^j : s^m = (s^m_a, s^m_b, s^m_c) = \\left( \\sum_{j \\in \\mathcal{n}} \\sigma^j_a, \\sum_{j \\in \\mathcal{n}} \\sigma^j_b, \\sum_{j \\in \\mathcal{n}} \\sigma^j_c \\right) \\). nous designons par \\( s^m_{x,y} \\) l'ensemble de tous les vecteurs de scores agreges \\( s^m \\) qui peuvent",
+    "**definition 2** pour chaque sous-ensemble donne \\( \\mathcal{n} \\subseteq n \\) de \\( m = \\mathcal{n} \\) electeurs et chaque vecteur de scores agreges \\( s^m \\in s_{x,y}^m \\), une regle de score a parametres \\((x, y)\\) induit une distribution de probabilite sur l'ensemble des options dans \\( k \\) :",
+    "\\(s^1\\) \\(\\sigma'\\) \\(s^1 \\sigma'\\) \\(\\delta(s^1 \\sigma')\\) \\((y, 1, 0)\\) \\((1, x, 0)\\) \\((1 y, 1 x, 0)\\) \\((1, 0, 0)\\) \\((y, 1, 0)\\) \\((1, y, 0)\\) \\((1 y, 1 y, 0)\\) \\((\\frac{1}{2}, \\frac{1}{2}, 0)\\)",
+    "$s^2$ $\\sigma'$ $s^2 \\sigma'$ $\\delta(s^2 \\sigma')$ $(y, 1, 1 y)$ $(1, x, 0)$ $(1 y, 1 x, 1 y)$ $(\\frac{1}{2}, 0, \\frac{1}{2})$ $(y, 1, 1 y)$ $(1, y, 0)$ $(1 y, 1 y, 1 y)$ $(\\frac{1}{3}, \\frac{1}{3}, \\frac{1}{3})$",
+    "$s^3$ $\\sigma'$ $s^3 \\sigma'$ $\\delta(s^3 \\sigma')$ $(1 2y, 2 y, 0)$ $(1, x, 0)$ $(2 2y, 2 x y, 0)$ $(1, 0, 0)$ $(1 2y, 2 y, 0)$ $(1, y, 0)$ $(2 2y, 2 2y, 0)$ $(\\frac{1}{2}, \\frac{1}{2}, 0)$",
+    "$s^2$ $\\sigma'$ $s^2 \\sigma'$ $\\delta(s^2 \\sigma')$ $(x, 1, 1 x)$ $(1, x, 0)$ $(1 x, 1 x, 1 x)$ $(\\frac{1}{3}, \\frac{1}{3}, \\frac{1}{3})$ $(x, 1, 1 x)$ $(1, y, 0)$ $(1 x, 1 y, 1 x)$ $(0, 1, 0)$",
+    "30. deux conditions suffisantes (non mutuellement exclusives) pour l'unicite de \\(\\alpha^*\\) sont les suivantes : (i) le ratio perte-gain associe a la classe d'equivalence est une application contractante (c'est-a-dire \\( l'(p(\\alpha))p'(\\alpha) \\leq k < 1\\) pour tous les \\(\\alpha \\in (0, 1)\\)); (ii) le ratio perte-gain associe a la classe d'equivalence est soit partout strictement convexe, soit partout strictement concave (c'est-a-dire \\(l''(p(\\alpha))(p'(\\alpha))^2 l'(p(\\alpha))p''(\\alpha) \\geq 0\\) pour tous les \\(\\alpha \\in (0, 1)\\)).",
+    "regle de selection (x, y) efficacite par rapport a $f^{fb}$ efficacite par rapport a $f^*$ vote negatif (1, 1) 67,28 % 73,83 % regle de la pluralite (0, 0) 76,76 % 84,25 % vote par approbation (0, 1) 83,71 % 91,88 % meilleure regle ordinale (0, 6, 0, 6) 86,41 % 94,83 % regle la plus efficace (0, 4, 0, 9) 89,06 % 97,74 %",
+    "forme de \\( g(\\xi; a, b) \\) a titre indicatif parametres \\( a \\) et \\( b \\) regles de selection les plus efficaces ![graphique](image1.png) \\( a = 1, b = 5 \\) classe i ![graphique](image2.png) \\( a = 1, 2 < b < 5 \\) classe ii ![graphique](image3.png) \\( 2 \\leq a < b \\leq 5 \\) classe ii ![graphique](image4.png) \\( a = 1, b = 2 \\) classe ii ![graphique](image5.png) \\( a = 1, b = 1 \\) classe ii ![graphique](image6.png) \\( a = 2, b = 1 \\) classe ii ![graphique](image7.png) \\( a = b > 1 \\) classe iii ![graphique](image8.png) \\( 2 \\leq b < a \\leq 5 \\) classe iv ![graphique](image9.png) \\( b = 1, 2 < a < 5 \\) classe v"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graphique 1",
+      "title": "illustre l'ensemble de toutes les regles de score a parametres \\((x, y)\\) en soulignant les cas particuliers bien connus.",
+      "source": ""
+    },
+    {
+      "number": "graphique 1",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que de ces classes d'equivalence, voir les partitions indiquees par les lignes pointillees dans le graphique 2 ci-dessous. bien que nos resultats dans la proposition 3 montrent que le nombre de classes d'equivalence pour un nombre donne d'electeurs n'est pas specifique a la distribution employee, il est evident que la ou les valeurs du poids d'equilibre \\(\\alpha^*\\) rattache a chaque classe d'equivalence dependent de la distribution \\(g\\) par le biais du ratio perte-gain. meme dans la situation relativement simple ou il y a trois electeurs, il est impossible de formuler une expression analytique pour representer le poids d'equilibre \\(\\alpha^*\\) comme fonction des parametres \\(x\\) et \\(y\\) du modele et de la distribution \\(g\\). ce n'est pas possible parce que meme dans le cas des distributions parametrisees les plus simples (telles que \\(g(\\xi) = \\xi^b\\), avec \\(b > 0\\)), la condition d'equilibre \\(l(p(\\alpha^*)) = \\alpha^*\\) genere des expressions compliquees par l'intermediaire desquelles les resultats pour \\(\\alpha^*\\) ne peuvent etre obtenus qu'au moyen de simulations numeriques. dans le cas de trois electeurs et de la distribution \\(g\\) uniforme - contexte dans lequel un poids d'equilibre unique \\(\\alpha^*\\) existe pour chaque classe d'equivalence parce qu'au moins une des deux conditions suffisantes decrites dans la note 30 de bas de page est satisfaite - le graphique 2 illustre certains resultats numeriques obtenus pour \\(\\alpha^*\\) en fonction de \\(x\\) et \\(y\\). afin de faciliter l'interpretation de la figure, notons que chacun des nombres superposes sur le polygone du graphique 2 correspond a la valeur \\(\\alpha^*\\) relative a toutes les regles de score a deux parametres dont les valeurs \\(x\\) et \\(y\\) forment un point a l'interieur de ce polygone (a l'exclusion des bordures pointillees)\\(^{31}\\).",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": ", nous presentons seulement les valeurs \\(\\alpha^*\\) pour les 20 classes d'equivalence qui sont associees aux interieurs des differents polygones. les 44 classes d'equivalence qui restent sont associees aux frontieres pointillees entre les polygones, ainsi qu'aux intersections des frontieres pointillees.",
+      "source": ""
+    },
+    {
+      "number": "graphique 3",
+      "title": "(celles qui generent une efficacite de 89,06 %)\\(^{37}\\). ces regles permettent aux electeurs d'exprimer l'intensite de leurs preferences parce que $x < y$. nous constatons egalement que les regles ordinales (c'est-a-dire celles ou $x = y$) ne generent pas l'efficacite maximale.",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": ", nous montrons les niveaux d'efficacite de seulement 20 classes d'equivalence associees aux interieurs des divers polygones.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 3",
+      "source": ""
+    },
+    {
+      "number": "graphique 4",
+      "title": "(les classes i, ii et iv sont toutes les 3 representees par un triangle gris), tandis que les classes iii et v sont representees par les lignes epaisses de couleur noire\\textsuperscript{39}. le graphique confirme les attentes que nous avons formulees a propos des niveaux moyens d'efficacite, a savoir que les regles ordinaires ne generent pas le niveau d'efficacite maximal pour chacune des 25 distributions beta.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que, voir le tableau 11 dans giles et postl (2014).",
+      "source": ""
+    },
+    {
+      "number": "graphique 3",
+      "title": "l'indique, les niveaux d'efficacite des classes ii, iii et iv sont pratiquement identiques (l'efficacite de la classe iii, qui a ete omise du graphique 3, est de 89,04 %). cela permet de croire que toutes ces regles sont susceptibles de tres bien performer pour un large eventail de distributions. la classe i est la plus efficace seulement quand la masse de probabilite est tres concentree autour de valeurs peu elevees (comme dans \\( b(1, 5) \\)).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image1.png) | \\( a = 1, b = 5 \\) | classe i |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image2.png) | \\( a = 1, 2 < b < 5 \\) | classe ii |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image3.png) | \\( 2 \\leq a < b \\leq 5 \\) | classe ii |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image4.png) | \\( a = 1, b = 2 \\) | classe ii |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image5.png) | \\( a = 1, b = 1 \\) | classe ii |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image6.png) | \\( a = 2, b = 1 \\) | classe ii |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image7.png) | \\( a = b > 1 \\) | classe iii |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image8.png) | \\( 2 \\leq b < a \\leq 5 \\) | classe iv |",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que](image9.png) | \\( b = 1, 2 < a < 5 \\) | classe v |",
+      "source": ""
+    },
+    {
+      "number": "graphique 4",
+      "title": "est egalement la plus efficace; en effet, le classement des niveaux d'efficacite n'est pas influence par l'utilisation du jalon \\( f^* \\) plutot que de \\( f_{fb}^* \\)). cela laisse entendre que l'efficacite moins elevee de la classe ii relativement a l'optimum de premier rang peut etre attribuee presqu'entierement a la necessite de regrouper les types proportionnels. meme si la classe ii n'est peut-etre pas une dvr qui constitue un optimum de second rang, sa tres faible perte d'efficacite par rapport a \\( f^* \\) laisse supposer qu'elle est tres proche.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "nous noterons $n = \\{1, 2, \\ldots, n 1\\}$ l'ensemble fini de joueurs qui comprend $ n = n 1$ electeurs. les electeurs doivent collectivement faire un choix a partir de l'ensemble fini $k$ de candidats ou options en votant individuellement, conformement a une regle de vote $r$. chaque electeur $i \\in n$ a un ordre de preference sur $k$ qui depend de son type. cela va nous permettre de modeliser l'idee que n'importe quel choix d'une regle de vote et de la decision qui s'ensuit sur la facon de voter doivent generalement se faire sans connaissance parfaite des preferences des electeurs. pour chaque electeur $i \\in n$, il existe un ensemble $t^i$ des types possibles. chaque type $t^i \\in t^i$ de l'electeur $i \\in n$ donne lieu a une fonction von neumann-morgenstern (vnm) d'utilite $u_i : k \\times t^i \\rightarrow \\mathbb{r}$, $(k, t^i) \\mapsto u_i(k, t^i)$ de laquelle decoule, par voie de consequence, un ordre de preference $\\succeq_i$ des candidats dans $k^{12,13}$. par exemple, si $k = \\{a, b, c\\}$ et le type $t^i$ de l'electeur $i$ est tel que $u_i(b, t^i) > u_i(a, t^i) > u_i(c, t^i)$, alors $b \\succ_i a \\succ_i c$.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$$e_{t^i}[\\mu_i(r((v^i(t^i), v^{-i}(t^{-i}))), t^i) t^i] \\geq e_{t^i}[\\mu_i(r((\\sigma^i, v^{-i}(t^{-i}))), t^i) t^i]$$",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "w^i_r = e_{t'}[e_{t'}[w^i(v_r(t), t) t'] t] = e_{t'}[w^i_r(t)] \\text{ ou } w^i_r(t) = w^i(v_r(t), t)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\(^{17}\\) on laisse de cote les questions delicates soulevees par les situations d'equilibres multiples. notons que lorsque \\( k = 2 \\) et que les indifferences sont exclues, il y a un unique equilibre: chaque electeur a une strategie dominante. le mot equilibre est utilise ici abusivement pour englober aussi les situations ou le profil de reference considere ne decoule pas forcement d'un concept d'equilibre.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "un critere d'evaluation pris en compte dans cette litterature (voir merrill, 1984) - et qui sera egalement etudie dans la section 3 ci-dessous du present article - est l'efficacite de la regle de vote. ce critere de bien-etre social est superieur a l'efficacite de condorcet si l'intensite des preferences des electeurs doit etre prise en compte (meme si merrill (1984) analyse une seule regle, a savoir le vote par assentiment, en fonction duquel les electeurs peuvent exprimer l'intensite de leurs preferences). afin d'evaluer la performance des differentes regles de vote, merrill (1984) simule un grand nombre d'elections a 25 electeurs et un nombre variable de candidats (de 2 a 5 candidats, puis 7 et 10 candidats, respectivement). afin de generer les types de l'electeur, il procede a des extractions independantes, a partir de la meme distribution, de chaque element du vecteur de types de l'electeur (toutefois, contrairement a notre comparaison bayesienne plus loin, merrill (1984) se limite a la distribution uniforme). bien que notre comparaison bayesienne de l'efficacite des regles de vote est centree sur le cas de 3 electeurs, nous comparons neanmoins ici l'efficacite des regles de vote pour les elections a 3 candidats et 25 electeurs discutee dans merrill (1984) a celle derivee de nos simulations numeriques pour la distribution uniforme : nous obtenons un niveau d'efficacite de 83,98 % pour la regle de pluralite (par rapport a 83 % dans merrill (1984) ou le vote est suppose etre sincere), une efficacite de 91,91 % pour le vote par assentiment (par rapport a 95,4 % dans merrill, 1984) et une efficacite de 94,47 % pour la regle de borda (par rapport a 94,8 % dans merrill, 1984). il est interessant de noter que le vote par assentiment surpasse de peu la regle de borda dans merrill (1984) alors que la regle de borda surpasse clairement le vote par assentiment dans notre contexte (et non seulement pour la distribution uniforme, mais, en moyenne, pour toutes les 25 distributions beta que nous considerons). l'exemple 1 de la section 2 ci-dessous suggere que cette difference est due au fait que dans l'equilibre de bayes-nash du vote par assentiment dans notre modele, les electeurs approuvent moins souvent que dans merrill (1984) le candidat qu'ils preferent en second. en se fondant sur l'hypothese ic, de nombreuses contributions a la litterature cherchent a comparer et a evaluer les dvr ordinale au regard des manipulations individuelles. par exemple, smith (1999) compare cinq regles de vote ordinale populaires, tandis que maus, peters et storcken (2007) definissent la classe des dvr ordinale anonymes, surjectives et a preference unique tops-only qui reduit au minimum la vulnerabilite a la manipulation individuelle, lorsque le nombre d'electeurs \\( n \\) est plus grand que le nombre de candidats \\( k \\). le lecteur peut consulter les references presentees ici pour des resultats supplementaires\\(^{18}\\).",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "un deuxieme critere d'evaluation considere sous cette structure d'information est l'efficacite de condorcet. dans le cas de \\( k = 3\\) candidats, merrill (1985)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "les deux derniers criteres d'evaluation etudies sous l'hypothese de culture impartiale sont l'efficacite utilitariste et la resistance a la manipulabilite, ainsi qu'une combinaison de ces deux objectifs. green-armytage, tideman et cosman (2016) definissent la resistance a la manipulation comme la robustesse a la manipulation (telle que definie dans la section 1.6) constitutive d'un equilibre de nash fort. ils constatent qu'avec \\( n = 99\\) electeurs, les regles de hare et condorcet-hare (qui selectionne le gagnant de condorcet s'il en existe un et sinon le gagnant selon la regle de hare) surpassent chacune les 54 autres regles de vote considerees en ce qui a trait a la mesure de la resistance a la manipulabilite (plus de 80 % des elections donnant lieu a un resultat non manipulable). notons que green-armytage, tideman et cosman (2016) n'imposent pas de contrainte d'incitation sur le comportement de vote, parce qu'ils supposent simplement que le vote est sincere. il s'ensuit que leurs resultats passent sous silence le fait que le vote n'est peut-etre pas sincere en realite et, par consequent, ne permettent pas que la perte de bien-etre associee a toute instance de vote strategique soit chiffree.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "en ce qui concerne le critere d'evaluation base sur l'efficacite utilitariste, apesteguia, ballester et ferrer (2011) montrent enfin que parmi les regles de vote direct ordinale, les regles de score (c'est-a-dire les regles en fonction desquelles chacun des \\( n \\) electeurs attribue un score a chaque candidat \\(k \\in k\\), sous reserve de certaines contraintes, de sorte que le candidat qui obtient le score agrege le plus eleve est le vainqueur) maximisent l'efficacite utilitariste esperee ex ante lorsque l'on suppose que les electeurs declarent leurs veritables preferences. en outre, ils determinent laquelle des regles de vote en particulier est optimale selon la distribution \\(\\lambda\\) a priori sur les profils de types des electeurs. dans un environnement connexe ou la structure",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "de l'information est plus generale (permettant la culture impartiale, la culture impartiale anonyme et d'autres comme cas speciaux), pivato (2016) etudie une version de notre modele de vote general decrit dans la section 1 pour un grand electorat (c'est-a-dire \\( n \\to \\infty\\)). ses resultats montrent que les regles de selection simples, par exemple, la regle de borda ou le vote par assentiment, permettent de choisir avec quasi-certitude un candidat qui maximise (ou presque) l'efficacite utilitariste.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "la deuxieme structure d'information importante qui a ete etudiee a fond dans la litterature sur l'approche statistique en choix social est l'hypothese iac presentee dans la section 1.4. en se reportant au critere d'evaluation base sur l'efficacite de condorcet, gehrlein et lepelley (2001) comparent un certain nombre de regles de vote importantes dans le contexte d'elections a trois candidats : la regle de pluralite, le vote negatif (qui demande a chaque electeur lequel des trois candidats il souhaite eliminer), la regle de borda et la methode de pluralite avec elimination a deux tours (laquelle, pour \\( k = 3\\), correspond a la regle de hare decrite ci-dessus), ainsi que la pluralite avec elimination negative (au premier tour, on elimine le candidat le mieux classe, puis au deuxieme tour, on choisit le candidat majoritaire parmi les deux qui restent). conformement a l'efficacite de condorcet, les regles de vote sont constamment classees de la maniere suivante, quel que soit le nombre \\( n \\) d'electeurs : la pluralite avec elimination negative surpasse la regle de borda (d'environ 6 points de pourcentage), laquelle, a son tour, surpasse la regle de pluralite d'environ 3 points de pourcentage.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "21. cette comparaison est basee sur \\( k = 3\\) candidats et \\( n = 101\\) electeurs. dans le document mentionne precedemment, green-armytage, tideman et cosman (2016) considerent egalement 54 regles de vote dans le contexte de iac, avec \\( k = 3\\) candidats et \\( n = 99\\) electeurs. comme dans le contexte de ic, les regles de hare et condorcet-hare surpassent toutes les 54 autres regles de vote considerees en ce qui a trait a la mesure de la resistance a la manipulabilite, tandis que la regle de borda a le mieux performe en termes de bien-etre utilitariste. lorsque les deux criteres d'evaluation, en l'occurrence l'efficacite utilitariste et la resistance a la manipulabilite, sont imposes conjointement, le compromis optimal entre les deux est de nouveau realise par les regles de hare et condorcet-hare, ces dernieres atteignant des scores pratiquement identiques d'environ 85 % et 90 % en termes d'efficacite et de resistance a la manipulabilite, respectivement.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "si le profil de types \\(t\\) des electeurs est connaissance commune au debut de l'etape 2 de notre modele de vote general, alors le jeu induit par la regle de vote du concepteur est un jeu en information complete. de sinopoli, dutta et laslier (2006) etudient le jeu en information complete induit par la regle de vote par assentiment, laquelle permet aux electeurs de voter pour autant de candidats dans \\(k\\) qu'ils le souhaitent\\(^{22}\\). en prenant comme point de depart le resultat de fishburn et brams (1981), qui etablit que si le profil de types \\(t\\) est tel qu'un gagnant de condorcet existe, alors le jeu admet un equilibre de nash en strategies non dominees qui selectionne le gagnant de condorcet comme vainqueur de l'election. cependant, comme il y a d'autres equilibres de nash, il est naturel de se demander si l'equilibre de nash qui selectionne le gagnant de condorcet survit si le concept fait l'objet de raffinements. de sinopoli, dutta et laslier (2006) montrent a l'aide d'exemples que ce n'est pas le cas. tout d'abord, dans le cas ou \\( n = k = 3\\), il existe un profil de types pour lequel un gagnant de condorcet existe et qui est tel que dans l'equilibre unique obtenu par l'elimination iterative des strategies dominees, il y a egalite dans le nombre de votes recu par chacun des trois candidats. compte tenu de l'hypothese de departage equiprobable des *ex æquo*, le gagnant de condorcet ainsi que tous les autres candidats peuvent donc etre elus avec la meme probabilite. un autre",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "exemple montre avec \\( n =3\\) electeurs et \\( k =4\\) candidats qu'il existe des profils de types tels que dans l'equilibre unique obtenu en eliminant de maniere iterative les strategies dominees, le gagnant de condorcet ne recoit aucun vote. et enfin, ils construisent un exemple avec \\( k =4\\) candidats et un nombre impair \\( n \\geq 3\\) d'electeurs qui montre que l'unique meilleure reponse d'un electeur aux strategies des autres electeurs (deux electeurs jouent des strategies mixtes tandis que les autres jouent leurs strategies dominantes) implique un vote non sincere. en revanche, si dans cet exemple, la regle de pluralite est utilisee plutot que le vote par assentiment, alors l'equilibre stable exige le vote sincere de la part de tous les electeurs. cela montre que l'argument en faveur du vote par assentiment est plus nuance que ce qu'avancent fishburn et brams (1981).",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "dans l'article de buenrostro, dhillon et vida (2013), on applique le concept d'equilibre de nash en strategies non dominees a une categorie elargie de regles de vote (a savoir les regles de score) qui comprend le vote par assentiment comme cas particulier. les auteurs se concentrent sur des elections a \\( k =3\\) options et \\( n \\geq 4\\) electeurs pour demontrer que chaque fois que le jeu en information complete induit par une regle de score donnee peut etre resolu par l'elimination successive des actions dominees (c'est-a-dire est dominance solvable), les candidats elus a l'equilibre correspondent a l'ensemble des gagnants de condorcet. en outre, les auteurs montrent que le vote par assentiment est dominance solvable chaque fois qu'une autre regle de score est dominance solvable (ce qui en fait une regle superieure aux autres du point de vue de ce critere de dominance). cela porte a croire que le vote par assentiment est une regle attrayante lorsqu'il n'y a que trois candidats. notons, cependant, que dans une election avec trois candidats localises dans un espace ideologique unidimensionnel et ou les preferences des electeurs sont determinees par la distance entre leur ideologie individuelle et celle du vainqueur de l'election, il y a des cas ou le vote par assentiment ne parvient pas a selectionner le gagnant de condorcet, alors que la regle de pluralite y parvient avec certitude (voir de sinopoli, iannantuoni et pimienta, 2014).",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "**definition 1** pour tout sous-ensemble donne \\( \\mathcal{n} \\subseteq n \\) de \\( m = \\mathcal{n} \\) electeurs, le vecteur de scores agreges \\( s^m \\) sur la base de tous les electeurs dans \\( \\mathcal{n} \\) est la somme des vecteurs de scores individuels \\( \\sigma^j : s^m = (s^m_a, s^m_b, s^m_c) = \\left( \\sum_{j \\in \\mathcal{n}} \\sigma^j_a, \\sum_{j \\in \\mathcal{n}} \\sigma^j_b, \\sum_{j \\in \\mathcal{n}} \\sigma^j_c \\right) \\). nous designons par \\( s^m_{x,y} \\) l'ensemble de tous les vecteurs de scores agreges \\( s^m \\) qui peuvent",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "**definition 2** pour chaque sous-ensemble donne \\( \\mathcal{n} \\subseteq n \\) de \\( m = \\mathcal{n} \\) electeurs et chaque vecteur de scores agreges \\( s^m \\in s_{x,y}^m \\), une regle de score a parametres \\((x, y)\\) induit une distribution de probabilite sur l'ensemble des options dans \\( k \\) :",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\(s^1\\) \\(\\sigma'\\) \\(s^1 \\sigma'\\) \\(\\delta(s^1 \\sigma')\\) \\((y, 1, 0)\\) \\((1, x, 0)\\) \\((1 y, 1 x, 0)\\) \\((1, 0, 0)\\) \\((y, 1, 0)\\) \\((1, y, 0)\\) \\((1 y, 1 y, 0)\\) \\((\\frac{1}{2}, \\frac{1}{2}, 0)\\)",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$s^2$ $\\sigma'$ $s^2 \\sigma'$ $\\delta(s^2 \\sigma')$ $(y, 1, 1 y)$ $(1, x, 0)$ $(1 y, 1 x, 1 y)$ $(\\frac{1}{2}, 0, \\frac{1}{2})$ $(y, 1, 1 y)$ $(1, y, 0)$ $(1 y, 1 y, 1 y)$ $(\\frac{1}{3}, \\frac{1}{3}, \\frac{1}{3})$",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$s^3$ $\\sigma'$ $s^3 \\sigma'$ $\\delta(s^3 \\sigma')$ $(1 2y, 2 y, 0)$ $(1, x, 0)$ $(2 2y, 2 x y, 0)$ $(1, 0, 0)$ $(1 2y, 2 y, 0)$ $(1, y, 0)$ $(2 2y, 2 2y, 0)$ $(\\frac{1}{2}, \\frac{1}{2}, 0)$",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$s^2$ $\\sigma'$ $s^2 \\sigma'$ $\\delta(s^2 \\sigma')$ $(x, 1, 1 x)$ $(1, x, 0)$ $(1 x, 1 x, 1 x)$ $(\\frac{1}{3}, \\frac{1}{3}, \\frac{1}{3})$ $(x, 1, 1 x)$ $(1, y, 0)$ $(1 x, 1 y, 1 x)$ $(0, 1, 0)$",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "30. deux conditions suffisantes (non mutuellement exclusives) pour l'unicite de \\(\\alpha^*\\) sont les suivantes : (i) le ratio perte-gain associe a la classe d'equivalence est une application contractante (c'est-a-dire \\( l'(p(\\alpha))p'(\\alpha) \\leq k < 1\\) pour tous les \\(\\alpha \\in (0, 1)\\)); (ii) le ratio perte-gain associe a la classe d'equivalence est soit partout strictement convexe, soit partout strictement concave (c'est-a-dire \\(l''(p(\\alpha))(p'(\\alpha))^2 l'(p(\\alpha))p''(\\alpha) \\geq 0\\) pour tous les \\(\\alpha \\in (0, 1)\\)).",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "regle de selection (x, y) efficacite par rapport a $f^{fb}$ efficacite par rapport a $f^*$ vote negatif (1, 1) 67,28 % 73,83 % regle de la pluralite (0, 0) 76,76 % 84,25 % vote par approbation (0, 1) 83,71 % 91,88 % meilleure regle ordinale (0, 6, 0, 6) 86,41 % 94,83 % regle la plus efficace (0, 4, 0, 9) 89,06 % 97,74 %",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "forme de \\( g(\\xi; a, b) \\) a titre indicatif parametres \\( a \\) et \\( b \\) regles de selection les plus efficaces ![graphique](image1.png) \\( a = 1, b = 5 \\) classe i ![graphique](image2.png) \\( a = 1, 2 < b < 5 \\) classe ii ![graphique](image3.png) \\( 2 \\leq a < b \\leq 5 \\) classe ii ![graphique](image4.png) \\( a = 1, b = 2 \\) classe ii ![graphique](image5.png) \\( a = 1, b = 1 \\) classe ii ![graphique](image6.png) \\( a = 2, b = 1 \\) classe ii ![graphique](image7.png) \\( a = b > 1 \\) classe iii ![graphique](image8.png) \\( 2 \\leq b < a \\leq 5 \\) classe iv ![graphique](image9.png) \\( b = 1, 2 < a < 5 \\) classe v",
+      "note": ""
+    }
+  ]
+}

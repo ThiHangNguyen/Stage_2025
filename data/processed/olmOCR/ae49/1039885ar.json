@@ -1,0 +1,176 @@
+{
+  "title": "confiance, metacognition et perception",
+  "authors": [],
+  "abstract": "les probabilites subjectives ont un role central dans la prise de decision. si les modeles theoriques et les donnees experimentales sont relativement silencieux en economie sur la facon dont se forment ces croyances lors du processus decisionnel, il n'est pas de meme en sciences cognitives. nous proposons ici une revue de litterature de l'etude de la metacognition au travers de modeles computationnels de detection du signal. cette methodologie est ensuite importee a la decision non perceptive et nous montrons comment son utilisation ouvre de nouvelles pistes de recherche dans l'etude des croyances subjectives en economie experimentale.",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "graphique 1",
+    "graphique 5",
+    "1.2 la confiance ou la tds de type ii",
+    "graphique 2",
+    "courbes roc",
+    "criteres decisionnels de la confiance en fonction des distributions du signal et du bruit",
+    "annexe",
+    "dissociation entre la sensibilite metacognitive et le biais metacognitif",
+    "deux types de criteres decisionnels",
+    "deux types de distributions du signal et du bruit",
+    "conclusion",
+    "1.3 exemple illustratif : decision perceptive en choix force et confiance probabiliste",
+    "bases des modelisations du choix de type i et ii",
+    "introduction",
+    "bibliographie"
+  ],
+  "bibliographies": [
+    "theorie de la detection du signal :"
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "presence signal bruit detection correcte fausse alarme absence omission rejet correct",
+    "reponse correcte reponse fausse confiant type ii detection correcte type ii fausse alarme non confiant type ii omission type ii rejet correct",
+    "lors des essais \\(sn\\), le choix est fait en fonction du critere \\(\\beta_{fc}\\), avec une reponse gauche si \\(y \\geq \\beta_{fc}\\) et droite sinon. comme \\(y_{sn}\\) et \\(y_{ns}\\) sont les differences de deux variables aleatoires identiques, nous sommes automatiquement dans le cadre d'un modele a variances egales. dans ce cas, le \\(d'_{fc}\\) est calcule comme la distance entre les moyennes des variables en termes d'unite de deviation standard. le calcul des parametres s'obtient ici directement a partir du taux de succes pour les deux types d'essais. en notant ces taux \\(p_{c(sn)} = p(gauche sn)\\) et \\(p_{c(ns)} = p(droite ns)\\), nous avons les mesures suivantes :",
+    "pour une presentation detaillee de l'application de la tds au choix de type ii nous renvoyons le lecteur aux presentations de baret, dienes et seth (2013) et massoni (2013). nous ne presentons ici que les bases de la modelisation avec l'introduction des taux de fausses alarmes et de detections correctes ainsi que le \\( d' \\) de type ii. en se basant sur l'hypothese que les jugements de confiance sont bases sur les memes evidences que les reponses de type i, il est possible de definir des taux de detections correctes et de fausses alarmes de type ii. en supposant que la reponse prend deux valeurs, \\( r \\) si elle est correcte et \\( w \\) si elle est fausse, et que la confiance est binaire, \\( c \\) pour confiant et \\( u \\) pour non-confiant, les criteres de type ii se definissent comme suit : \\( \\beta_- \\) et \\( \\beta_ \\). si les evidences sont inferieures a \\( \\beta_- \\) ou superieures a \\( \\beta_ \\), l'individu est confiant, autrement il est non-confiant.\\(^{17}\\) les taux de detections correctes et de fausses alarmes de type ii sont donc \\( h = p(c r) \\) et \\( f = p(u w) \\). etant donnees les notations precedentes, ce taux de detections correctes se calcule de la maniere suivante :",
+    "h = p(c r) = p(c x_n, non).p(x_n, non r) p(c x_s, oui).p(x_s, oui r)."
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graph i",
+      "title": "quement par la probabilite d'occurrence du signal en fonction de l'intensite de la reponse interne. ainsi le graphique 1 represente la distribution du signal et du bruit lors de deux cas hypothetiques.",
+      "source": ""
+    },
+    {
+      "number": "graphique 1",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "graphique 1",
+      "title": "](image)",
+      "source": ""
+    },
+    {
+      "number": "graphique 1",
+      "title": "a). dans le cas contraire, le chevauchement des deux distributions rend le signal peu discernable du bruit (graphique 1b). la difference entre le mode des deux distributions donne une mesure de la possibilite de discriminer le signal et est notee $d'$. a partir de cette information incertaine,",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": "]",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": ") represente une strategie prudente ou l'individu ne reconnait la presence du signal que lorsqu'il en est pratiquement certain. a l'inverse, un critere bas ($\\beta_1$) conduit a une strategie risquee dans laquelle l'individu repond positivement au moindre indice en faveur du signal. le placement du critere implique evidemment differents taux de reponse de type detections correctes et fausses alarmes (graphique 3).",
+      "source": ""
+    },
+    {
+      "number": "graphique 4",
+      "title": "par les courbes roc (receiver-operating characteristics). l'aire sous ces courbes nous donne alors le pourcentage d'essais correctement classes. une aire de 0,5 correspond a des choix purement aleatoires et une aire egale a 1 indique une classification parfaite.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 4",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que roc](image)",
+      "source": ""
+    },
+    {
+      "number": "graphique 5",
+      "title": "). l'ensemble des mesures utilisees pour la decision de type i peut ainsi etre estime pour la decision de type ii.",
+      "source": ""
+    },
+    {
+      "number": "graphique 5",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "graphique 6c",
+      "title": "et massoni, 2013).",
+      "source": ""
+    },
+    {
+      "number": "graphique 6",
+      "title": "a). les deux cercles sont presentes apres un ecran de fixation de maniere rapide (700 ms) afin qu'il ne soit pas possible de compter le nombre de points. les sujets doivent indiquer quel cercle contient le plus de points puis donner leur niveau de confiance dans le succes de ce choix. nous presentons ici une confiance probabiliste ou les individus doivent donner leurs probabilites d'avoir correctement repondu entre 0 et 100. le mecanisme incitatif est la regle de matching probabilities qui incite les sujets a donner leur veritable confiance quelle que soit leur preference vis-a-vis du risque (nous renvoyons le lecteur a la partie 3.1 pour plus d'explications).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 7",
+      "source": ""
+    },
+    {
+      "number": "graphique 7",
+      "title": ", la sensibilite depend de l'ecart entre les distributions de confiance pour les essais reussis et les essais rates alors que la calibration ne concerne que le niveau de confiance moyen. un exemple simple pour comprendre cette difference est le suivant (liberman et tversky, 1993) : un medecin predinant le sexe d'un nouveau-ne avec une probabilite de 0.5 sera parfaitement calibre (le sexe etant equiprobable) mais aura une discrimination nulle (ne pouvant discriminer entre les deux sexes possibles).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "quement l'ensemble des alternatives disponibles en fonction du choix de placement du critere. en notant le taux de detections correctes (respectivement fausses alarmes) comme l'aire en dessous de la courbe de distribution du signal (respectivement du bruit) au niveau du critere",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "presence signal bruit detection correcte fausse alarme absence omission rejet correct",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "reponse correcte reponse fausse confiant type ii detection correcte type ii fausse alarme non confiant type ii omission type ii rejet correct",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "lors des essais \\(sn\\), le choix est fait en fonction du critere \\(\\beta_{fc}\\), avec une reponse gauche si \\(y \\geq \\beta_{fc}\\) et droite sinon. comme \\(y_{sn}\\) et \\(y_{ns}\\) sont les differences de deux variables aleatoires identiques, nous sommes automatiquement dans le cadre d'un modele a variances egales. dans ce cas, le \\(d'_{fc}\\) est calcule comme la distance entre les moyennes des variables en termes d'unite de deviation standard. le calcul des parametres s'obtient ici directement a partir du taux de succes pour les deux types d'essais. en notant ces taux \\(p_{c(sn)} = p(gauche sn)\\) et \\(p_{c(ns)} = p(droite ns)\\), nous avons les mesures suivantes :",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "pour une presentation detaillee de l'application de la tds au choix de type ii nous renvoyons le lecteur aux presentations de baret, dienes et seth (2013) et massoni (2013). nous ne presentons ici que les bases de la modelisation avec l'introduction des taux de fausses alarmes et de detections correctes ainsi que le \\( d' \\) de type ii. en se basant sur l'hypothese que les jugements de confiance sont bases sur les memes evidences que les reponses de type i, il est possible de definir des taux de detections correctes et de fausses alarmes de type ii. en supposant que la reponse prend deux valeurs, \\( r \\) si elle est correcte et \\( w \\) si elle est fausse, et que la confiance est binaire, \\( c \\) pour confiant et \\( u \\) pour non-confiant, les criteres de type ii se definissent comme suit : \\( \\beta_- \\) et \\( \\beta_ \\). si les evidences sont inferieures a \\( \\beta_- \\) ou superieures a \\( \\beta_ \\), l'individu est confiant, autrement il est non-confiant.\\(^{17}\\) les taux de detections correctes et de fausses alarmes de type ii sont donc \\( h = p(c r) \\) et \\( f = p(u w) \\). etant donnees les notations precedentes, ce taux de detections correctes se calcule de la maniere suivante :",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "h = p(c r) = p(c x_n, non).p(x_n, non r) p(c x_s, oui).p(x_s, oui r).",
+      "note": ""
+    }
+  ]
+}

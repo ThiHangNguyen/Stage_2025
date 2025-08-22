@@ -1,7 +1,5 @@
 {
   "title": "la microsimulation dans les projections de population",
-  "overline": "articles",
-  "subtitle": "",
   "authors": [
     {
       "first_name": "frans",
@@ -12,11 +10,11 @@
       "orcid": ""
     }
   ],
-  "abstract": "dans cet article, nous presentons un modele de microsimulation qui permet de generer des histoires de vie individuelles coherentes avec les projections de cohortes obtenues par le modele multietats a composantes de cohorte. le modele de microsimulation peut prendre en compte des differences individuelles que le modele a composantes de cohorte ne peut traiter. ces differences sont dues a une association de facteurs systematiques et de facteurs aleatoires. nous nous interessons principalement aux facteurs aleatoires. le modele de microsimulation utilise un modele de survie de cohorte multietats a temps continu et des tirages aleatoires a partir de distributions de temps dattente exponentielles par morceaux. si on prend comme parametres des distributions les intensites de transition du modele de survie de cohorte, les histoires de vie individuelles sont coherentes avec les projections de cohorte. les histoires de vie apportent un eclairage sur la dynamique demographique que la methode des composantes ne peut proposer.",
+  "abstract": "dans cet article, nous presentons un modele de microsimulation qui permet de generer des histoires de vie individuelles coherentes avec les projections de cohortes obtenues par le modele multi-etats a composantes de cohorte. le modele de microsimulation peut prendre en compte des differences individuelles que le modele a composantes de cohorte ne peut traiter. ces differences sont dues a une association de facteurs systematiques et de facteurs aleatoires. nous nous interessons principalement aux facteurs aleatoires. le modele de microsimulation utilise un modele de survie de cohorte multi-etats a temps continu et des tirages aleatoires a partir de distributions de temps d'attente exponentielles par morceaux. si on prend comme parametres des distributions les intensites de transition du modele de survie de cohorte, les histoires de vie individuelles sont coherentes avec les projections de cohorte. les histoires de vie apportent un eclairage sur la dynamique demographique que la methode des composantes ne peut proposer.",
   "date": "2012-07-30",
   "id": {
     "doi": "10.7202/1011542ar",
-    "issn": "17051495"
+    "issn": "1705-1495"
   },
   "pagination": {
     "start_page": "267",
@@ -26,49 +24,6 @@
     "text": "association des demographes du quebec",
     "link": ""
   },
-  "editorial_team": [
-    {
-      "first_name": "richard",
-      "middle_name": "",
-      "last_name": "marcoux",
-      "gender": "masculin",
-      "role": "",
-      "category": "director"
-    },
-    {
-      "first_name": "helene",
-      "middle_name": "",
-      "last_name": "vezina",
-      "gender": "feminin",
-      "role": "directrice adjointe",
-      "category": "director"
-    },
-    {
-      "first_name": "laurent",
-      "middle_name": "",
-      "last_name": "martel",
-      "type": "invite",
-      "category": "editor_in_chief"
-    },
-    {
-      "first_name": "eric",
-      "middle_name": "",
-      "last_name": "caron malenfant",
-      "type": "invite",
-      "category": "editor_in_chief"
-    },
-    {
-      "first_name": "alain",
-      "middle_name": "",
-      "last_name": "belanger",
-      "type": "invite",
-      "category": "editor_in_chief"
-    },
-    {
-      "organization": "association des demographes du quebec",
-      "category": "editor"
-    }
-  ],
   "issue_number": "2",
   "volume": "40",
   "keywords": [],
@@ -78,60 +33,60 @@
   "language": "fr",
   "section_titles": [
     "introduction",
-    "combler lecart micromacro dans les projections de population",
-    "lapproche de la survie par cohorte",
-    "lapproche de la microsimulation",
+    "combler l'ecart micro-macro dans les projections de population",
+    "l'approche de la survie par cohorte",
+    "l'approche de la microsimulation",
     "resultats complementaires",
     "illustration : vieillissement et incapacite",
     "conclusion"
   ],
   "bibliographies": [
     "aalen, o. o., ø. borgan et h. k. gjessing. 2008. survival and event history analysis. a process point of view. new york, springer.",
-    "billari, f. 2006. bridging the gap between microdemography and macrodemography, dans g. graziella, j. vallin and g. wunsch (dir.), demography : analysis and synthesis, new york, academic press (elsevier), 4 : 695707.",
+    "billari, f. 2006. bridging the gap between micro-demography and macro-demography, dans g. graziella, j. vallin and g. wunsch (dir.), demography : analysis and synthesis, new york, academic press (elsevier), 4 : 695-707.",
     "blossfeld h. p. et g. rohwer. 2002. techniques of event history analysis. new approaches to causal analysis (2e ed.). mahwah (nj), lawrence erlbaum associates.",
-    "cannan, e. 1895. the probability of a cessation of the growth of population in england and wales during the next century, the economic journal, 5 : 505515.",
-    "chi, g. 2009. can knowledge improve population projections at subcounty levels ?, demography, 46, 2 : 405427.",
+    "cannan, e. 1895. the probability of a cessation of the growth of population in england and wales during the next century, the economic journal, 5 : 505-515.",
+    "chi, g. 2009. can knowledge improve population projections at subcounty levels ?, demography, 46, 2 : 405-427.",
     "coleman, j. s. 1991. foundations of social theory. cambridge (mass.), harvard university press.",
-    "de bruijn, b. j. 1999. foundations of demographic theory. choice, process, context. amsterdam, thelathesis publishers.",
+    "de bruijn, b. j. 1999. foundations of demographic theory. choice, process, context. amsterdam, thela-thesis publishers.",
     "evans, m., n. hastings et b. peacock. 2000. statistical distributions (3e ed.). new york, wiley.",
-    "gampe, j., s. zinn, f. willekens, n. van der gaag, j. de beer, h. himmelspach et a. uhrmacher. 2009. the microsimulation tool of the micmac project, communication presentee au 2e congres de la international microsimulation association, ottawa, 810 juin.",
-    "himmelspach, j. et a. m. uhrmacher. 2007. plugn simulate, dans anss 07 : proceedings of the 40th annual simulation symposium, washington dc, ieee computer society : 137 143.",
-    "keyfitz, h. 1968. introduction to the mathematics of population. reading (mass.), addisonwesley.",
-    "keyfitz n. 1982. can knowledge improve forecasts ?, population and development review, 8 : 729751.",
+    "gampe, j., s. zinn, f. willekens, n. van der gaag, j. de beer, h. himmelspach et a. uhrmacher. 2009. the microsimulation tool of the micmac project, communication presentee au 2e congres de la international microsimulation association, ottawa, 8-10 juin.",
+    "himmelspach, j. et a. m. uhrmacher. 2007. plug'n simulate, dans anss '07 : proceedings of the 40th annual simulation symposium, washington dc, ieee computer society : 137- 143.",
+    "keyfitz, h. 1968. introduction to the mathematics of population. reading (mass.), addison-wesley.",
+    "keyfitz n. 1982. can knowledge improve forecasts ?, population and development review, 8 : 729-751.",
     "keyfitz, n. et h. caswell. 2005. applied mathematical demography (3e ed.). new york, springer.",
-    "ogurtsova, e., j. gampe et s. zinn. 2010. practical population forecasting by microsimulation : application of the micmac software, dans work session on demographic projections. lisbon, 2830 april 2010, luxembourg, eurostat. pdf disponible sur le site deurostat, n° ksra10009.",
+    "ogurtsova, e., j. gampe et s. zinn. 2010. practical population forecasting by microsimulation : application of the micmac software, dans work session on demographic projections. lisbon, 28-30 april 2010, luxembourg, eurostat. pdf disponible sur le site d'eurostat, n° ks-ra-10-009.",
     "orcutt, g., s. caldwell et r. wertheimer. 1976. policy exploration through microanalytic simulation. washington dc, the urban institute.",
     "preston, s., p. heuveline et m. guillot. 2001. demography. measuring and modeling population processes. oxford, blackwell.",
     "rogers, a. 1975. introduction to multiregional mathematical demography. new york, wiley.",
     "rubinstein, r. et d. kroese. 2008. simulation and the monte carlo method (2e ed.). orlando, wiley.",
-    "ryder, n. b. 1965. the cohort as a concept in the study of social change, american sociological review, 30 : 843861.",
-    "sanderson, w. c. 1998. knowledge can improve forecasts : a review of selected socioeconomic population projection models, population and development review, 24, suppl. : 88117.",
+    "ryder, n. b. 1965. the cohort as a concept in the study of social change, american sociological review, 30 : 843-861.",
+    "sanderson, w. c. 1998. knowledge can improve forecasts : a review of selected socioeconomic population projection models, population and development review, 24, suppl. : 88-117.",
     "schoen, r. 1988. modeling multigroup populations. new york, plenum press.",
-    "van imhoff, e. et w. post. 1998. microsimulation methods for population projection, n° special population : an english selection, new methodological approaches in the social sciences : 97138.",
-    "whelpton, p. k. 1928. population of the united states, 19251975, the american journal of sociology, 31 : 253270.",
-    "willekens, f. 1984. spatial policy and demographic research opportunities, dans h. ter heide et f. willekens (dir.), demographic research and spatial policy. the dutch experience, new york, academic press : 355401.",
-    "willekens, f. 2005. biographic forecasting : bridging the micromacro gap in population forecasting, new zealand population review, 31, 1 : 77124.",
+    "van imhoff, e. et w. post. 1998. microsimulation methods for population projection, n° special population : an english selection, new methodological approaches in the social sciences : 97-138.",
+    "whelpton, p. k. 1928. population of the united states, 1925-1975, the american journal of sociology, 31 : 253-270.",
+    "willekens, f. 1984. spatial policy and demographic research opportunities, dans h. ter heide et f. willekens (dir.), demographic research and spatial policy. the dutch experience, new york, academic press : 355-401.",
+    "willekens, f. 2005. biographic forecasting : bridging the micro-macro gap in population forecasting, new zealand population review, 31, 1 : 77-124.",
     "willekens, f. 2007. multistate model for biographic analysis and projection, working paper 2007/1, la hague, nidi.",
-    "willekens, f. 2009. continuoustime microsimulation in longitudinal analysis, dans a. zaidi, a. harding et p. williamson (dir.), new frontiers in microsimulation modeling, farnham, ashgate : 353376.",
-    "willekens, f. 2011. biograph. version 2.0. comprehensive r archive network (cran). logiciel telechargeable a partir du site http://cran.rproject.org/",
+    "willekens, f. 2009. continuous-time microsimulation in longitudinal analysis, dans a. zaidi, a. harding et p. williamson (dir.), new frontiers in microsimulation modeling, farnham, ashgate : 353-376.",
+    "willekens, f. 2011. biograph. version 2.0. comprehensive r archive network (cran). logiciel telechargeable a partir du site http://cran.r-project.org/",
     "willekens, f. (sous presse). biograph. multistate analysis of life histories with r. springer.",
     "zaidi, a. et k. rake. 2001. dynamic microsimulation models : a review and some lessons, sage discussion paper n° 2. consultable a partir de la page : http://www/lse.ac.uk/depts/sage/conference/workshop.htm",
     "zaidi, a., a. harding et p. williamson (dir.). 2009. new frontiers in microsimulation modelling. farnham, ashgate.",
-    "zinn, s., j. himmelspach, j. gampe et a.m. uhrmacher. 2009. miccore : a tool for microsimulation, dans proceedings of the 2009 winter simulation conference : december 1316, 2009, austin, texas, piscataway (nj), ieee.",
-    "zinn, s., j. gampe, j. himmelspach et a. m. uhrmacher. 2010. a devs model for demographic microsimulation, dans spring simulation multiconference 2010 symposium on theory of modeling and simulation (devs), san diego, scs publishing house."
+    "zinn, s., j. himmelspach, j. gampe et a.m. uhrmacher. 2009. mic-core : a tool for microsimulation, dans proceedings of the 2009 winter simulation conference : december 13-16, 2009, austin, texas, piscataway (nj), ieee.",
+    "zinn, s., j. gampe, j. himmelspach et a. m. uhrmacher. 2010. a devs model for demographic microsimulation, dans spring simulation multiconference 2010 - symposium on theory of modeling and simulation (devs), san diego, scs publishing house."
   ],
   "acknowledgements": "",
-  "biographical_notes": [],
+  "content_tables": [],
   "notes": [
-    "[1] dans ce cas, la matrice m est singuliere et par consequent elle ne peut etre inversee. pour obtenir une estimation du temps de sejour prevu total dans les differents etats fonctionnels avant un instant futur t, on ajoute un tres petit nombre aux elements diagonaux de m. ce petit nombre peut etre interprete comme un tres faible taux de sortie vers un etat absorbant qui nest pas inclus dans lespace de letat (p. ex, deces). le temps dattente prevu avant lentree dans un etat absorbant est superieur a 1 divise par ce petit nombre, ce qui correspond a un nombre tres important qui naffecte pas vraiment le temps de sejour total prevu dans les etats fonctionnels pendant la periode de 0 a t. ici, nous avons utilise le nombre 1e08 (0,00000001).",
-    "[2] la simulation a evenements discrets est utilisee dans le cadre du projet micmac, qui vise a combler lecart micromacro dans les projections de population. pour une description du logiciel micmac, voir lannexe a.",
-    "[3] pour les besoins de lanalyse, toutes les dates (date de naissance, date du deces, date des vagues) ont ete converties en dates sas. les dates sas mesurent le nombre de jours ecoules depuis le 1er janvier 1960. elles sont converties en annees et fractions dannee a laide de la formule suivante : dateyr < datesas/365,25 + 1960.",
-    "[4] cette procedure surestime lage a la transition de letat sans incapacite a letat dincapacite mais egalement de letat dincapacite a letat sans incapacite. un nombre tres important dindividus etant en incapacite au debut de lobservation, la procedure ne devrait pas trop affecter les resultats."
+    "[1] dans ce cas, la matrice m est singuliere et par consequent elle ne peut etre inversee. pour obtenir une estimation du temps de sejour prevu total dans les differents etats fonctionnels avant un instant futur t, on ajoute un tres petit nombre aux elements diagonaux de m. ce petit nombre peut etre interprete comme un tres faible taux de sortie vers un etat absorbant qui n'est pas inclus dans l'espace de l'etat (p. ex, deces). le temps d'attente prevu avant l'entree dans un etat absorbant est superieur a 1 divise par ce petit nombre, ce qui correspond a un nombre tres important qui n'affecte pas vraiment le temps de sejour total prevu dans les etats fonctionnels pendant la periode de 0 a t. ici, nous avons utilise le nombre 1e-08 (0,00000001).",
+    "[2] la simulation a evenements discrets est utilisee dans le cadre du projet micmac, qui vise a combler l'ecart micro-macro dans les projections de population. pour une description du logiciel micmac, voir l'annexe a.",
+    "[3] pour les besoins de l'analyse, toutes les dates (date de naissance, date du deces, date des vagues) ont ete converties en dates sas. les dates sas mesurent le nombre de jours ecoules depuis le 1er janvier 1960. elles sont converties en annees et fractions d'annee a l'aide de la formule suivante : dateyr < - datesas/365,25 + 1960.",
+    "[4] cette procedure surestime l'age a la transition de l'etat sans incapacite a l'etat d'incapacite mais egalement de l'etat d'incapacite a l'etat sans incapacite. un nombre tres important d'individus etant en incapacite au debut de l'observation, la procedure ne devrait pas trop affecter les resultats."
   ],
   "figures": [
     {
       "number": "figure 1",
-      "title": "le lien micromacro en projection demographique",
+      "title": "le lien micro-macro en projection demographique",
       "source": ""
     },
     {
@@ -141,25 +96,25 @@
     },
     {
       "number": "figure 3",
-      "title": "population virtuelle de 55 ans et plus, par age et statut dincapacite",
+      "title": "population virtuelle de 55 ans et plus, par age et statut d'incapacite",
       "source": ""
     },
     {
       "number": "figure 4",
-      "title": "projection de lincapacite : comparaison du modele a composantes de cohorte et de la microsimulation",
+      "title": "projection de l'incapacite : comparaison du modele a composantes de cohorte et de la microsimulation",
       "source": ""
     }
   ],
   "tables": [
     {
       "number": "tableau 1",
-      "title": "projection de la cohorte multietats : modele des composantes de cohorte",
+      "title": "projection de la cohorte multi-etats : modele des composantes de cohorte",
       "content": "",
       "note": ""
     },
     {
       "number": "tableau 2",
-      "title": "temps de sejour prevu dans les trois etats, par etat dorigine",
+      "title": "temps de sejour prevu dans les trois etats, par etat d'origine",
       "content": "",
       "note": ""
     },
@@ -171,7 +126,7 @@
     },
     {
       "number": "tableau 4",
-      "title": "temps de sejour total dans les differents etats, selon letat dorigine (echantillon de population virtuelle)",
+      "title": "temps de sejour total dans les differents etats, selon l'etat d'origine (echantillon de population virtuelle)",
       "content": "",
       "note": ""
     },
@@ -179,7 +134,7 @@
       "number": "tableau 5",
       "title": "trajectoires les plus frequentes (population virtuelle)",
       "content": "",
-      "note": "ncas, nombre de trajectoires ; %, pourcentage ; cum %, pourcentage cumule ; ns, nombre detats par trajectoire ; cas, trajectoire ; tr, transition."
+      "note": "ncas, nombre de trajectoires ; %, pourcentage ; cum %, pourcentage cumule ; ns, nombre d'etats par trajectoire ; cas, trajectoire ; tr, transition."
     }
   ]
 }

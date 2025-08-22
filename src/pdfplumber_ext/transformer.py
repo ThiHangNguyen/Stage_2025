@@ -63,4 +63,7 @@ def parse_csv_content_table(csv_path, keep_min_cells: int = 1):
     # dernier tableau
     flush()
 
-    return {"content_table": content_table}
+    return {
+        "tool": "pdfplumber",
+        "content_table": content_table
+    }

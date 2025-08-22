@@ -1,7 +1,5 @@
 {
   "title": "",
-  "overline": "",
-  "subtitle": "",
   "authors": [],
   "abstract": "",
   "date": "",
@@ -17,7 +15,6 @@
     "text": "",
     "link": ""
   },
-  "editorial_team": [],
   "issue_number": "",
   "volume": "",
   "keywords": [],
@@ -43,32 +40,37 @@
   ],
   "bibliographies": [],
   "acknowledgements": "",
-  "biographical_notes": [],
+  "content_tables": [
+    "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite global faillites saines global faillites saines global faillites saines variable moyenne moyenne moyenne moyenne moyenne moyenne moyenne moyenne moyenne ebit_ta 7,46 -2,44 7,76 7,6 2,1 7,8 7,72 0,54 7,76 (11,46) (14,54) (11,22) (11,33) (10,49) (11,31) (11,22) (9,42) (11,22) res_ta 20,52 -0,84 21,18 20,56 5,5 21,11 21,1 6,29 21,18 (26,15) (26,75) (25,86) (25,97) (23,11) (25,9) (25,83) (14,14) (25,86) curr_r 1,76 1,2 1,78 1,77 1,23 1,79 1,78 1,38 1,78 (1,89) (0,94) (1,91) (1,9) (0,5) (1,93) (1,91) (0,77) (1,91) dettes_ta 64,12 81,53 63,58 64,2 78,53 63,68 63,66 77,94 63,58 (22,59) (16,69) (22,54) (22,62) (15,29) (22,67) (22,54) (17,25) (22,54) logta 4,42 3,8 4,44 4,41 3,38 4,45 4,44 4,01 4,44 (0,57) (0,52) (0,56) (0,6) (0,59) (0,57) (0,56) (0,47) (0,56) va_pers 119,88 63,33 121,62 119,86 76,74 121,44 121,29 60,56 121,62 (111,07) (64,49) (111,74) (110,89) (96,72) (111,07) (111,56) (31,63) (111,74)",
+    "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta 1 1 1 res_ta 0,37 1 0,37 1 0,36 1 curr_r 0,14 0,41 1 0,14 0,41 1 0,14 0,41 1 dettes_ta -0,18 -0,62 -0,55 1 -0,18 -0,62 -0,55 1 -0,17 -0,62 -0,55 1 logta -0,07 -0,05 0,03 -0,1 1 -0,07 0,04 0,05 -0,1 1 -0,11 0,08 0,03 0,09 1 va_pers 0,25 0,07 0,05 -0,04 0,26 1 -0,01 0,01 0 0 0,13 1 0,25 0,06 0,05 -0,03 0,25 1",
+    "1 an avant 3 ans avant 5 ans avant la faillite la faillite la faillite ecart ecart ecart variable beta type beta type beta type ebit_ta -0,02* 0,01 -0,04** 0,01 0,02 0,02 res_ta -0,02*** 0,01 -0,01* 0,01 0,01 0,01 current_ratio -0,54* 0,25 -0,44 0,27 0,08 0,24 logta -3,59*** 0,34 -5,96*** 0,44 2,46*** 0,60 va_pers -0,02*** 0,01 -0,01 0,00 0,02*** 0,01 _cons 13,47*** 1,38 21,30*** 1,68 -7,24*** 2,46 test chi-2 359,78*** 605,19*** 70,70*** taille de 3905 3927 3809 l'echantillon log maximum -335,29 -264,90 -78,99 de vraisemblance",
+    "1 an avant 3 ans avant 5ans avant la faillite la faillite la faillite nombred'entreprisesfaillies 41 56 9 nombre d'entreprises saines 1261 1254 1262 taux de bons classements 96,85 % 97,63 % 99,29 %"
+  ],
   "notes": [],
   "figures": [],
   "tables": [
     {
       "number": "",
       "title": "lafalllte",
-      "content": "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite global faillites saines global faillites saines global faillites saines variable moyenne moyenne moyenne moyenne moyenne moyenne moyenne moyenne moyenne ebit_ta 7,46 2,44 7,76 7,6 2,1 7,8 7,72 0,54 7,76 (11,46) (14,54) (11,22) (11,33) (10,49) (11,31) (11,22) (9,42) (11,22) res_ta 20,52 0,84 21,18 20,56 5,5 21,11 21,1 6,29 21,18 (26,15) (26,75) (25,86) (25,97) (23,11) (25,9) (25,83) (14,14) (25,86) curr_r 1,76 1,2 1,78 1,77 1,23 1,79 1,78 1,38 1,78 (1,89) (0,94) (1,91) (1,9) (0,5) (1,93) (1,91) (0,77) (1,91) dettes_ta 64,12 81,53 63,58 64,2 78,53 63,68 63,66 77,94 63,58 (22,59) (16,69) (22,54) (22,62) (15,29) (22,67) (22,54) (17,25) (22,54) logta 4,42 3,8 4,44 4,41 3,38 4,45 4,44 4,01 4,44 (0,57) (0,52) (0,56) (0,6) (0,59) (0,57) (0,56) (0,47) (0,56) va_pers 119,88 63,33 121,62 119,86 76,74 121,44 121,29 60,56 121,62 (111,07) (64,49) (111,74) (110,89) (96,72) (111,07) (111,56) (31,63) (111,74)",
+      "content": "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite global faillites saines global faillites saines global faillites saines variable moyenne moyenne moyenne moyenne moyenne moyenne moyenne moyenne moyenne ebit_ta 7,46 -2,44 7,76 7,6 2,1 7,8 7,72 0,54 7,76 (11,46) (14,54) (11,22) (11,33) (10,49) (11,31) (11,22) (9,42) (11,22) res_ta 20,52 -0,84 21,18 20,56 5,5 21,11 21,1 6,29 21,18 (26,15) (26,75) (25,86) (25,97) (23,11) (25,9) (25,83) (14,14) (25,86) curr_r 1,76 1,2 1,78 1,77 1,23 1,79 1,78 1,38 1,78 (1,89) (0,94) (1,91) (1,9) (0,5) (1,93) (1,91) (0,77) (1,91) dettes_ta 64,12 81,53 63,58 64,2 78,53 63,68 63,66 77,94 63,58 (22,59) (16,69) (22,54) (22,62) (15,29) (22,67) (22,54) (17,25) (22,54) logta 4,42 3,8 4,44 4,41 3,38 4,45 4,44 4,01 4,44 (0,57) (0,52) (0,56) (0,6) (0,59) (0,57) (0,56) (0,47) (0,56) va_pers 119,88 63,33 121,62 119,86 76,74 121,44 121,29 60,56 121,62 (111,07) (64,49) (111,74) (110,89) (96,72) (111,07) (111,56) (31,63) (111,74)",
       "note": ""
     },
     {
       "number": "",
-      "title": "tableaudescorrelationsentrevariablesexplicativespourlesechantillonsdentreprisesbelges aun,troisetcinqanneesavantlafaillite",
-      "content": "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta 1 1 1 res_ta 0,37 1 0,37 1 0,36 1 curr_r 0,14 0,41 1 0,14 0,41 1 0,14 0,41 1 dettes_ta 0,18 0,62 0,55 1 0,18 0,62 0,55 1 0,17 0,62 0,55 1 logta 0,07 0,05 0,03 0,1 1 0,07 0,04 0,05 0,1 1 0,11 0,08 0,03 0,09 1 va_pers 0,25 0,07 0,05 0,04 0,26 1 0,01 0,01 0 0 0,13 1 0,25 0,06 0,05 0,03 0,25 1",
+      "title": "tableaudescorrelationsentrevariablesexplicativespourlesechantillonsd'entreprisesbelges aun,troisetcinqanneesavantlafaillite",
+      "content": "1 an avant la faillite 3 ans avant la faillite 5 ans avant la faillite ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta res_ta curr_r dettes_ta logta va_pers ebit_ta 1 1 1 res_ta 0,37 1 0,37 1 0,36 1 curr_r 0,14 0,41 1 0,14 0,41 1 0,14 0,41 1 dettes_ta -0,18 -0,62 -0,55 1 -0,18 -0,62 -0,55 1 -0,17 -0,62 -0,55 1 logta -0,07 -0,05 0,03 -0,1 1 -0,07 0,04 0,05 -0,1 1 -0,11 0,08 0,03 0,09 1 va_pers 0,25 0,07 0,05 -0,04 0,26 1 -0,01 0,01 0 0 0,13 1 0,25 0,06 0,05 -0,03 0,25 1",
       "note": ""
     },
     {
       "number": "",
       "title": "tableau3 modelesdeprevisionlogitaun,troisetcinqavantlafaillite",
-      "content": "1 an avant 3 ans avant 5 ans avant la faillite la faillite la faillite ecart ecart ecart variable beta type beta type beta type ebit_ta 0,02* 0,01 0,04** 0,01 0,02 0,02 res_ta 0,02*** 0,01 0,01* 0,01 0,01 0,01 current_ratio 0,54* 0,25 0,44 0,27 0,08 0,24 logta 3,59*** 0,34 5,96*** 0,44 2,46*** 0,60 va_pers 0,02*** 0,01 0,01 0,00 0,02*** 0,01 _cons 13,47*** 1,38 21,30*** 1,68 7,24*** 2,46 test chi2 359,78*** 605,19*** 70,70*** taille de 3905 3927 3809 lechantillon log maximum 335,29 264,90 78,99 de vraisemblance",
+      "content": "1 an avant 3 ans avant 5 ans avant la faillite la faillite la faillite ecart ecart ecart variable beta type beta type beta type ebit_ta -0,02* 0,01 -0,04** 0,01 0,02 0,02 res_ta -0,02*** 0,01 -0,01* 0,01 0,01 0,01 current_ratio -0,54* 0,25 -0,44 0,27 0,08 0,24 logta -3,59*** 0,34 -5,96*** 0,44 2,46*** 0,60 va_pers -0,02*** 0,01 -0,01 0,00 0,02*** 0,01 _cons 13,47*** 1,38 21,30*** 1,68 -7,24*** 2,46 test chi-2 359,78*** 605,19*** 70,70*** taille de 3905 3927 3809 l'echantillon log maximum -335,29 -264,90 -78,99 de vraisemblance",
       "note": "note:partiellementsignificatifap<o.10 significatifap<0,05,0,01et0,001 respectivement."
     },
     {
       "number": "",
       "title": "",
-      "content": "1 an avant 3 ans avant 5ans avant la faillite la faillite la faillite nombredentreprisesfaillies 41 56 9 nombre dentreprises saines 1261 1254 1262 taux de bons classements 96,85 % 97,63 % 99,29 %",
+      "content": "1 an avant 3 ans avant 5ans avant la faillite la faillite la faillite nombred'entreprisesfaillies 41 56 9 nombre d'entreprises saines 1261 1254 1262 taux de bons classements 96,85 % 97,63 % 99,29 %",
       "note": ""
     }
   ]

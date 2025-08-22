@@ -1,7 +1,5 @@
 {
   "title": "",
-  "overline": "",
-  "subtitle": "",
   "authors": [],
   "abstract": "",
   "date": "",
@@ -17,19 +15,18 @@
     "text": "",
     "link": ""
   },
-  "editorial_team": [],
   "issue_number": "",
   "volume": "",
   "keywords": [],
   "themes": [],
   "language": "",
   "section_titles": [
-    "gestion supervisee dune unite de coagulation pour la potabilisation des eaux a partir dune methodologie dapprentissageet dexpertise",
+    "gestion supervisee d'une unite de coagulation pour la potabilisation des eaux a partir d'une methodologie d'apprentissageet d'expertise",
     "resume",
-    "abstrac",
-    "ntroductot",
+    "abst'rac",
+    "nt'roductot",
     "3. la methode de classification lamda",
-    "2.presentation du site dapplication",
+    "2.presentation du site d'application",
     "resi seact",
     "tableau3.",
     "echantillons",
@@ -38,7 +35,12 @@
   ],
   "bibliographies": [],
   "acknowledgements": "",
-  "biographical_notes": [],
+  "content_tables": [
+    "classes t ph mes cond od classe 1 0,27 0,05 0,07 0,06 0,01 classe 2 0,57 0,06 0,63 0,08 0,03 classe 3 0,72 0,04 0,09 0,06 0,01 classe 4 0,67 0,65 0,14 0,30 0,04 classe 5 0,71 0,03 0,1 0,35 0,03 classe 6 0,35 0,49 0,12 0,20 0,08 classe 7 0,68 0,02 0,1 0,95 0,03 classe 8 0,37 0,03 0,08 0,50 0,10 classe 9 0,34 0,05 0,16 0,45 0,82 classe 10 0,27 0,04 0,07 0,70 0,12",
+    "classes nom de la classe etat fonctionnel nombre d'elements associes classe 1 bsaison normal 549 classe 2 mes_treselevees---->limites mesalarme+ 26 classe 3 hsaison normal 617 classe 4 ph_tresbas_hsaison phalarme 16 classe 5 od_bas_hsaison odalarme 206 classe 6 ph_bas_bsaison phalarme 6 classe 7 od_tresbas_hsaison odalarme 33 classe 8 od_bas_bsaison odalarme 44 classe 9 cond_tresbas_bsaison condalarme 11 classe 10 od_tresbas_bsaison odalarme 167",
+    "nombre d'elements associes classes auto-apprentissage reconnaissance classe 1 549 536 classe 2 26 27 classe 3 617 615 classe 4 16 15 classe 5 206 192 classe 6 6 10 classe 7 33 33 classe 8 44 64 classe 9 11 17 classe10 167 164",
+    "classification de reference classes classe 1 classe 2 classe 3 classe 4 classe 5 classe 6 classe 7 classe 8 classe 9 classe 10 classe 1 530 0 0 0 0 0 0 0 0 0 classe 2 0 26 1 0 0 0 0 0 0 0 classe 3 1 0 554 0 0 0 0 0 0 0 classe 4 0 0 0 16 0 0 0 0 0 0 classe 5 9 0 61 0 181 0 0 0 0 0 classe 6 4 0 0 0 0 6 0 0 0 0 classe 7 0 0 0 0 0 0 31 0 0 0 classe 8 5 0 1 0 23 0 2 33 0 0 classe 9 0 0 0 0 0 0 0 0 10 0 classe 10 0 0 0 0 0 0 0 9 0 154 classe 11 0 0 0 0 2 0 0 2 1 13"
+  ],
   "notes": [],
   "figures": [
     {
@@ -48,22 +50,22 @@
     },
     {
       "number": "2.",
-      "title": "degres dadequation marginale et globale. degreesofmarginalandglobaladequacy.",
+      "title": "degres d'adequation marginale et globale. degreesofmarginalandglobaladequacy.",
       "source": ""
     },
     {
       "number": "3.caracteristiques",
-      "title": "deleau brute. rawwatercharacteristics.",
+      "title": "del'eau brute. rawwatercharacteristics.",
       "source": ""
     },
     {
       "number": "4.",
-      "title": "(a) descripteurs normalises, (b) classes issues de iautoapprentissage (a)normaliseddescriptors,(b)selflearningclassificationresults",
+      "title": "(a) descripteurs normalises, (b) classes issues de iauto-apprentissage (a)normaliseddescriptors,(b)self-learningclassificationresults",
       "source": ""
     },
     {
       "number": "5.profil",
-      "title": "des classes issues delautoapprentissage. classprofilesstemmingfromtheselflearningprocedure",
+      "title": "des classes issues del'auto-apprentissage. classprofilesstemmingfromtheself-learningprocedure",
       "source": ""
     },
     {
@@ -73,12 +75,12 @@
     },
     {
       "number": "7.creation",
-      "title": "et modification des classes par apprentissage supervise. designandmodificationofclassesbysupervisedlearning. figure 8. profil de classes issues de lapprentissage supervise. classprofilesstemmingfromsupervisedlearning",
+      "title": "et modification des classes par apprentissage supervise. designandmodificationofclassesbysupervisedlearning. figure 8. profil de classes issues de l'apprentissage supervise. classprofilesstemmingfromsupervisedlearning",
       "source": ""
     },
     {
       "number": "9.",
-      "title": "classes issues de iapprentissage supervise avec la dose de coagulant classificationstemmingfromsupervisedlearningwithcoagulantdosage",
+      "title": "classes issues de i'apprentissage supervise avec la dose de coagulant classificationstemmingfromsupervisedlearningwithcoagulantdosage",
       "source": ""
     }
   ],
@@ -92,13 +94,13 @@
     {
       "number": "",
       "title": "",
-      "content": "classes nom de la classe etat fonctionnel nombre delements associes classe 1 bsaison normal 549 classe 2 mes_treselevees>limites mesalarme+ 26 classe 3 hsaison normal 617 classe 4 ph_tresbas_hsaison phalarme 16 classe 5 od_bas_hsaison odalarme 206 classe 6 ph_bas_bsaison phalarme 6 classe 7 od_tresbas_hsaison odalarme 33 classe 8 od_bas_bsaison odalarme 44 classe 9 cond_tresbas_bsaison condalarme 11 classe 10 od_tresbas_bsaison odalarme 167",
+      "content": "classes nom de la classe etat fonctionnel nombre d'elements associes classe 1 bsaison normal 549 classe 2 mes_treselevees---->limites mesalarme+ 26 classe 3 hsaison normal 617 classe 4 ph_tresbas_hsaison phalarme 16 classe 5 od_bas_hsaison odalarme 206 classe 6 ph_bas_bsaison phalarme 6 classe 7 od_tresbas_hsaison odalarme 33 classe 8 od_bas_bsaison odalarme 44 classe 9 cond_tresbas_bsaison condalarme 11 classe 10 od_tresbas_bsaison odalarme 167",
       "note": ""
     },
     {
       "number": "",
       "title": "",
-      "content": "nombre delements associes classes autoapprentissage reconnaissance classe 1 549 536 classe 2 26 27 classe 3 617 615 classe 4 16 15 classe 5 206 192 classe 6 6 10 classe 7 33 33 classe 8 44 64 classe 9 11 17 classe10 167 164",
+      "content": "nombre d'elements associes classes auto-apprentissage reconnaissance classe 1 549 536 classe 2 26 27 classe 3 617 615 classe 4 16 15 classe 5 206 192 classe 6 6 10 classe 7 33 33 classe 8 44 64 classe 9 11 17 classe10 167 164",
       "note": ""
     },
     {

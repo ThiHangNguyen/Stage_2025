@@ -1,0 +1,224 @@
+{
+  "title": "le mecanisme optimal de vote au sein du conseil des representants d'un systeme federal*",
+  "authors": [],
+  "abstract": "",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "poids calcules (ue 27)",
+    "2.3 le cas des etats composes de blocs",
+    "1.3 comparaison des mecanismes a l'aide des poids de barbera-jackson dans le cas neutre",
+    "cemoi",
+    "4.2 d'un choix dichotomique au choix sur un intervalle",
+    "marges de victoire estimees (ue 27)",
+    "introduction",
+    "annexe",
+    "tableau 1",
+    "tableau 2",
+    "2.2 echangeabilite",
+    "conclusion",
+    "theoreme (barbera et jackson, 2006)",
+    "3.4 criteres de succes, de deficit majoritaire espere et d'efficacite majoritaire",
+    "3.3 utilitarisme et egalitarisme",
+    "bibliographie"
+  ],
+  "bibliographies": [
+    "jeux simples, indice de banzhaf et indice de shapley-shubik",
+    "soit $l = \\{1, \\ldots, l\\}$ un ensemble d'electeurs. un mecanisme de vote $c$ sur $l$ est completement decrit par la liste $c^{-1}(1)$ des coalitions $s \\subseteq l$ telles que $c(s) = 1$ : nous identifions la coalition $s$ au vecteur $l(s)$ defini par $l^k(s) = 1$ si $k \\in s$. cette liste $w$ de coalitions definit ce qui est communement appele un jeu simple des l'instant ou $\\emptyset \\notin w$ et $l \\in w$ et $w$ est monotone ($s \\in w$ et $s \\subseteq t \\rightarrow t \\in w$); une coalition $s$ dans $w$ sera appelee ici une coalition gagnante. un jeu simple est dit propre si $s, t \\in w \\rightarrow s \\cap t \\neq \\emptyset$. il est fort si pour tout $s \\subseteq l : s \\in w$ ou $l \\setminus s \\in w$. un jeu est symetrique si $s \\in w$ et $|s| = |t| \\rightarrow t \\in w$. au nombre des jeux simples figurent en bonne place les jeux majoritaires ponderes (en particulier le jeu majoritaire ordinaire) et les jeux composes. un jeu simple $(l, w)$ est un jeu majoritaire pondere si il existe un vecteur de poids $(w_1, \\ldots, w_l) \\in r^l_+$ et un quota $q > 0$ tels que :",
+    "$$s \\in w \\text{ ssi } \\sum_{i \\in s} w_i \\geq q.$$",
+    "le nombre $q$ designe le quota necessaire pour valider la proposition qui est soumise au vote. dans le corps du papier ou $l = \\{1, \\ldots, k\\}$, le poids $w_k$ designe le poids du representant du district $k$ dans le conseil. si $q > \\frac{\\sum_{i \\in l} w_i}{2}$, le jeu $w$ est propre. lorsque les poids $w_i$ sont des entiers, le quota $\\left\\lfloor \\frac{\\sum_{i \\in l} w_i}{2} \\right\\rfloor$ ou $\\lfloor x \\rfloor$ designe le premier entier strictement superieur a $x$ designe le quota majoritaire et le jeu simple associe est appele le jeu majoritaire ordinaire. si $\\sum_{i \\in l} w_i$ est impair, le jeu majoritaire ordinaire $w$ est fort. lorsque $\\sum_{i \\in l} w_i$ est pair, ce n'est plus necessairement le cas. lorsqu'une telle situation se presente, un second jeu est utilise pour departager les ex æquo, par exemple, l'un des joueurs peut etre utilise comme tie breaker.",
+    "---",
+    "on peut definir un mecanisme de vote probabiliste comme une application $c$ de $\\{0,1\\}^l$ dans $[0,1]$ ou $c(r)$ s'interprete comme la probabilite de choisir 1 lorsque le profil des votes est $r$.",
+    "le mecanisme n'est pas constant.",
+    "le mecanisme $f$ traite equitablement les deux alternatives si et seulement si le jeu $w$ est propre et fort. en effet soit $p$ un profil tel que $f(p) = 1$. par consequent, si $s$ represente la coalition des joueurs votant 1 alors $s \\in w$. considerons le profil $p'$ ou les electeurs de $s$ votent maintenant 0 et ceux de $l \\setminus s$ votent 1. puisque $w$ est propre, $s \\in w$, $l \\setminus s \\notin w$ c'est-a-dire : $f(p') = 0$. si $p$ un profil tel que $f(p) = 0$, alors $s \\notin w$. puisque $w$ est fort, $l \\setminus s \\in w$. on en deduit $f(p') = 1$. on verifie reciproquement que si $f$ est neutre alors $w$ est propre et fort.",
+    "on dit alors que $(q, w_1, \\ldots, w_l)$ est une representation de $(l, w)$. elle est dite normalisee si $\\sum_{i \\in l} w_i = 1$ et integrale si les poids $w_i$ sont des nombres entiers.",
+    "c'est par exemple le cas du college electoral americain de 2008 avec $l = 51$ et des poids $w_i$ tels que $\\sum_{i \\in l} w_i = 538$ et donc $\\left\\lfloor \\frac{\\sum_{i \\in l} w_i}{2} \\right\\rfloor = 270$. en cas d'egalite (269 votes pour chacun des deux candidats), c'est la chambre des representants (qui comprend 435 membres) qui elit le president. dans le cas ou tous les poids sont egaux a 1 et \\( q = \\left\\lfloor \\frac{l}{2} \\right\\rfloor \\), on obtient le jeu majoritaire symetrique. si \\( l \\) est impair, le jeu majoritaire symetrique est fort.",
+    "supposons que l'ensemble \\( l \\) soit partitionne en sous-ensembles \\( l^1, \\ldots, l^r \\) et qu'a chacun de ces sous-ensembles \\( l^r \\) soit attache une famille de coalitions gagnantes \\( w^r \\). si en sus des \\( r \\) jeux simples \\( (l^r, w^r) \\), on considere un jeu simple sur \\( m = \\{1, \\ldots, r\\} \\) dont la famille de coalitions gagnantes est \\( \\hat{w} \\), on peut definir un nouveau jeu simple note \\( (\\hat{w}; w^1, \\ldots, w^r) \\) comme suit : \\( s \\in (w; w^1, \\ldots, w^r) \\) ssi \\( r \\in \\{1, \\ldots, r\\} : s \\cap l^r \\in w^r \\in \\hat{w} \\).",
+    "ce jeu, appele jeu compose \\( ^{58} \\) (shapley, 1962), decrit formellement l'operation de decision collective a deux etages dans sa forme la plus generale. si on interprete \\( m \\) comme l'ensemble des representants des districts, un jeu compose consiste a faire elire dans chaque district un representant (representant son district) et a ensuite reunir les representants entre eux pour un second et ultime vote. dans l'union europeenne, cela revient a diviser l'europe en zones avec des regles d'elections propres a chaque zone puis une regle d'election pour les representants des zones. si, au lieu de considerer \\( l = \\{1, \\ldots, k\\} \\), on considere \\( l = n, r = k \\) et \\( l^r = n^r \\), on aboutit au jeu compose ou les joueurs sont les electeurs des districts et non leurs representants. le jeu simple \\( w^r \\) induit la fonction \\( m^r \\) introduite dans la section 2.",
+    "la notion de jeu de vote est combinatoire. puisque le probleme de ce papier est d'identifier le ou les mecanisme(s) de vote optimal(aux) pour un objectif donne, le probleme d'optimisation est donc combinatoire. il faut explorer un nombre fini de solutions possibles : parler de poids optimaux est donc abusif car il s'agit avant tout \\( ^{59} \\) de trouver l'ensemble optimal de coalitions gagnantes. neanmoins la recherche de poids susceptibles d'eclairer la recherche du jeu simple optimal peut s'averer utile et pertinente. il est aussi pertinent d'attirer l'attention du lecteur sur le fait que le nombre de jeux simples ou meme de certaines familles de jeux simples (jeux propres, forts, propres et forts (appeles a somme constante), complets \\( ^{60} \\), homogenes...) croit tres rapidement avec le nombre de joueurs. l'enumeration des jeux a somme constante est due a von neumann et morgenstern (1944) pour \\( l \\leq 5 \\) et gurk et isbell (1959) pour \\( l = 6 \\). isbell (1959) decrit la liste des 135 jeux majoritaires ponderes de somme constante pour \\( l \\leq 7 \\) avec leur unique representation integrale minimale; parmi ceux-ci, 38 sont homogenes \\( ^{61} \\). le tableau de la page suivante est empruntee a krohn et sudholter (1995), a l'exception de la colonne \\( l = 9 \\) empruntee a kurz (2012b). notons que krohn et sudholter ne supposent pas que \\( \\emptyset \\notin w, n \\in w \\).",
+    "---",
+    "compound simple games.",
+    "meme si dans certains cas (pour de petites valeurs de \\( l \\)) il existe des representations canoniques uniques.",
+    "dans le jeu simple \\( (l, w) \\), le joueur \\( i \\) est plus desirable que le joueur \\( j \\) si \\( s \\in w \\) et \\( j \\subseteq s \\rightarrow (s \\setminus \\{j\\}) \\cup \\{i\\} \\in w \\). si la relation binaire etre plus desirable que est un preordre total, on dit que le jeu est complet. si le preordre total est l'ordre naturel des joueurs, on dit que le jeu simple est dirige.",
+    "une coalition gagnante est minimale si elle est minimale au sens de l'inclusion. un jeu simple \\( (n, w) \\) est homogene si toutes les coalitions gagnantes minimales sont de meme taille. l'enumeration de tous les jeux simples (incluant les cas extremes \\( v(\\emptyset) = 1 \\) et \\( v(n) = 0 \\)) est connue comme etant le probleme de dedekind. le tableau ci-dessous reproduit l'enumeration pour \\( l \\leq 6 \\).",
+    "| \\( l \\) | 1 | 2 | 3 | 4 | 5 | 6 | |--------|---|---|---|---|---|---| | # jeux simples | 3 | 6 | 20 | 168 | 7581 | 7828354 |",
+    "l'enumeration des jeux simples de somme constante est reproduite dans le tableau ci-dessous extrait de loeb et conway (2000) pour \\( l \\leq 8 \\).",
+    "| \\( l \\) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | |--------|---|---|---|---|---|---|---|---| | # jeux de somme constante | 1 | 2 | 4 | 12 | 81 | 2646 | 1422564 | 229809982112 |",
+    "les enumerations des deux derniers tableaux comptent des jeux qui sont isomorphiques. en se limitant aux classes d'equivalence, on obtient les chiffres reportes dans le tableau ci-dessous pour \\( l \\leq 6 \\).",
+    "| \\( l \\) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | |--------|---|---|---|---|---|---|---| | # classes d'equivalence de jeux a somme constante | 1 | 1 | 2 | 3 | 7 | 30 | 716 |",
+    "etant donne un jeu simple \\( c = (l, w) \\) et un joueur \\( i \\in l \\), on dira qu'une coalition \\( s \\) telle que \\( i \\notin s \\) est un swing pour le joueur \\( i \\) si \\( s \\notin w \\) et \\( s \\cup \\{i\\} \\in w \\). dans le cas ou un joueur compte a son actif de nombreux swings, on peut legitimement conclure qu'il est influent dans le contexte de ce jeu simple. le nombre de swings du joueur \\( i \\) note \\( \\eta_i(w) \\) rapporte au nombre total de coalitions ne contenant pas le joueur \\( i \\) definit ce que l'on appelle le pouvoir de banzhaf\\(^{62}\\) du joueur \\( i \\) dans le jeu simple.",
+    "---",
+    "qui se distingue du pouvoir de shapley et shubik (1954). $c = (l, w)$. dans le texte, il est note $b'(c)$. par consequent :",
+    "$$b'(c) = \\frac{\\eta^i(w)}{2^{l-1}}.$$",
+    "le pouvoir de shapley-shubik du joueur $i$ dans le jeu simple $c = (l, w)$ est defini quant a lui par l'expression :",
+    "$$\\sum_{s : s \\text{ est un swing pour } i} \\frac{|s||l \\setminus s \\cup \\{i\\}|}{l!}.$$",
+    "il correspond a la valeur de shapley du joueur $i$ dans le jeu simple a utilite transferable dont la fonction caracteristique $v$ est definie par :",
+    "$$v(s) = \\begin{cases} 1 & \\text{si } s \\in w \\\\ 0 & \\text{si } s \\notin w \\end{cases}.$$"
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "outre la carte des districts et les caracteristiques demographiques de ceux-ci, l'input de base est constitue par l'utilite que les differents citoyens retirent de la proposition si elle est retenue ou rejetee. l'espace des etats possibles est l'ensemble des profils d'utilites. en normalisant a 0 l'utilite de chaque citoyen dans le cas d'un rejet de la proposition, un etat possible est donc un vecteur $u = (u_1, u_2, \\ldots, u_n) \\in \\mathbb{r}^n$ : le type du citoyen $i$ est un nombre reel $u_i$ decrivant son utilite nette pour l'alternative 1. une valeur $u_i > 0$ (respectivement $< 0$) indique que l'individu $i$ prefere l'option 1 au statu quo 0 (respectivement 0 a 1). un modele aleatoire est decrit par une loi de probabilite jointe $\\lambda$ sur l'ensemble des etats possibles $\\mathbb{r}^n$. nous noterons $\\pr_\\lambda(a)$ la probabilite de l'evenement $a \\subseteq \\mathbb{r}^n$. on notera $\\lambda_k$ la marginale du district $k$ et $\\lambda_i$ la marginale du citoyen $i$. le modele aleatoire $\\lambda$ est dit neutre si pour tout $k = 1, \\ldots, k$ et tout ensemble mesurable $t \\subseteq \\mathbb{r}^{n_k}$, $\\pr_\\lambda(t) = \\pr_\\lambda(-t)$. le modele aleatoire $\\lambda$ est symetrique si pour tout $k = 1, \\ldots, k$ et tout ensemble mesurable $t \\subseteq \\mathbb{r}^{n_k}$ et toute permutation $\\sigma$ de $n^k$, $\\pr_\\lambda(t) = \\pr_\\lambda(\\sigma(t))$ ou $\\sigma(t) \\equiv \\{u \\in \\mathbb{r}^{n_k} : \\exists u \\in t \\text{ tel que } u = \\sigma(u)\\}$. on remarque que si $\\lambda$ est symetrique, alors pour tout $k = 1, \\ldots, k : e(u_j u_j \\geq 0) = e(u_j u_j \\geq 0)$ et $e(u_j u_j \\leq 0) = e(u_j u_j \\leq 0)$ pour tout $i, j \\in n^k$. dans cet article, nous supposerons que les preferences des citoyens sont independantes entre districts.",
+    "le mecanisme de decision comporte donc deux etages (two tier mechanism). une premiere fonction decrit comment les preferences des citoyens des differentes entites influencent l'opinion de leurs representants (notons ici qu'un representant est decrit par une opinion et non par une utilite). formellement, ceci est decrit par une fonction \\( m : r^n \\rightarrow \\{0,1\\}^k ; m^k(u) = 1 \\) signifie que dans le cas du vecteur \\( u \\), le representant de l'entite \\( k \\) est en faveur de 1. nous supposerons que \\( m^k \\) ne depend que du sous-vecteur \\( u^k = (u_i)_{i \\in n^k} \\). si le representant suit l'opinion majoritaire dans son district, \\( m^k(u) = 1 \\) ssi \\( \\sum_{i \\in n^k} u_i \\geq 0 \\) (on peut alors parler de representant de type majoritaire). si en revanche le representant base son vote sur le critere utilitariste restreint a son district, \\( m^k(u) = 1 \\) ssi \\( \\left \\{ i \\in n^k : u_i > 0 \\} \\right \\geq \\frac{n_k}{2} \\) (on peut alors parler de representant de type utilitariste)\\(^{11}\\). la seconde fonction, notee \\( c \\) ci-dessus, decrit comment les votes des representants \\((m^1(u), \\ldots, m^k(u)) = m(u)\\) sont transformes en une decision collective.",
+    "\\[ \\pr_\\lambda(u_i > 0) = \\pr_\\lambda(u_i < 0) = \\frac{1}{2}, \\quad e[u_i u_i > 0] = -e[u_i u_i < 0] \\text{ pour tout } i \\in n^k \\]",
+    "w^k_i = e \\left[ \\sum_{i \\in n^k} u_i m^k(u) = 1 \\right] = -e \\left[ \\sum_{i \\in n^k} u_i m^k(u) = 0 \\right] = w^k_0",
+    "\\[ w^k(\\lambda) = 2\\xi^k \\sum_{ s_k - \\frac{n_k 1}{2}} \\pr(\\text{les electeurs dans } s_k \\text{ votent 1 et les autres votent 0}) \\times (2 s_k - n_k). \\]",
+    "pays marge pays marge allemagne 53,3 suede 44,8 royaume-uni 36,6 bulgarie 41,6 france 52,4 autriche 51,2 italie 56,1 slovaquie 48,6 espagne 54,5 danemark 42,4 pologne 54,6 finlande 47,5 roumanie 44,7 irlande 55,1 pays-bas 55,1 lituanie 45,5 grece 61,6 lettonie 54,6 republique tcheque 42,4 slovenie 53,5 belgique 49,7 estonie 43,5 hongrie 52,2 chypre 70,1 portugal 52,2 luxembourg 56,6 malte 48,8",
+    "pays poids pays poids allemagne 44,1 suede 4,0 royaume-uni 21,8 bulgarie 3,2 france 31,1 autriche 4,1 italie 32,3 slovaquie 2,6 espagne 21,8 danemark 2,5 pologne 21,1 finlande 2,5 roumanie 10,0 irlande 2,1 pays-bas 8,8 lituanie 1,6 grece 6,5 lettonie 1,3 republique tcheque 4,4 slovenie 1,0 belgique 5,1 estonie 0,6 hongrie 5,3 chypre 0,6 portugal 5,2 luxembourg 0,3 malte 0,2",
+    "\\( q \\) 1 2 3 10 100 \\( \\psi(q) \\) 1/3 0.3 0.2857 0.2619 0.25124",
+    "\\( q \\) 1 2 3 5 \\( \\phi(q) \\) 1/2 3/8 5/16 63/256",
+    "le principe egalitariste pose en realite un probleme tres difficile. en pratique, les valeurs de $k$ sont relativement petites et l'objectif egalitariste, des l'instant ou il ne peut pas etre satisfait exactement ou presque exactement (il ne faut pas oublier que le probleme est ici combinatoire), oblige a se donner un critere de minimisation par rapport a un objectif cible. on pourrait alors se donner comme objectif pour une norme donnee $\\ \\cdot\\ $ de determiner un vecteur de poids $w^*$ et un quota $q^*$ tel que le vecteur de banzhaf normalise $\\beta([q^*; w^*])$ resultant du jeu majoritaire pondere $[q^*; w^*]$ minimise la distance $\\ \\beta^* - \\beta([q; w])\\ $. nous nous sommes limites ici aux jeux majoritaires ponderes mais nous pourrions proceder de maniere similaire pour un jeu simple $w$ quelconque et remplacer $\\beta([q; w])$ par $\\beta(w)$. le vecteur $\\beta^*$ est l'objectif cible, et dans le cas ic ci-dessus $\\beta^* = (\\frac{\\sqrt{n_1}}{\\sum_{k=1}^{k} \\sqrt{n_k}}, \\ldots, \\frac{\\sqrt{n_k}}{\\sum_{k=1}^{k} \\sqrt{n_k}})$ puisque l'on a vu que le pouvoir d'un etat devait etre proportionnel a la racine carre de sa population. ce probleme est connu sous le nom de probleme de banzhaf inverse (alon et edelman, 2010). il n'est pas evident de savoir quels sont les vecteurs du simplexe qui peuvent s'ecrire comme des vecteurs de banzhaf normalises d'un jeu simple adequatement construit. ii en resulte que la resolution du probleme de minimisation ci-dessus n'est pas un probleme facile. on peut pour les toutes petites valeurs de $k$ passer en force en enumerant au prealable l'ensemble des jeux (les nombres respectifs apparaissent dans l'annexe) mais rapidement (disons pour $k \\geq 9$) la necessite de developper des methodes algorithmiques intelligentes s'impose. il existe plusieurs contributions a cette litterature. on peut citer par exemple le travail de kurz (2012a) qui montre comment formuler le probleme inverse comme un probleme de programmation lineaire avec contraintes entieres. kurz et napel (2014) utilisent cette technique de resolution pour comparer (pour trois normes differentes) les performances de trois mecanismes de vote qui ont en commun de prendre comme vecteur de poids $w$ le vecteur cible $\\beta^*$ mais different quant aux quotas respectifs utilises : $\\frac{1}{2}, \\frac{1}{2} \\frac{1}{2} \\sqrt{\\sum_{k=1}^{k} (w_k)^2}$ et $\\frac{1}{2} \\frac{1}{\\sqrt{\\pi k}}$. la qualite des deux dernieres methodes a ete decouverte par slomczynski et zyczkowski (2006, 2008, 2014). les valeurs obtenues en cherchant numeriquement la solution du probleme inverse pour l'europe a 25 et l'europe a 27 sont compatibles avec une precision de 2 % avec les donnees obtenues sur la base des populations de l'union. ils montrent que dans le cas de l'europe a 25 les ratios sont tous tres voisins de 1 lorsque $q$ est",
+    "dans leurs autres articles, maaser et napel se penchent sur des criteres utilitaristes. en supposant une desutilite qui evolue lineairement ou quadratiquement en fonction de la distance au point ideal, on aboutit a deux criteres differents d'utilite totale esperee. dans un cas, le choix public optimal est la valeur mediane des points ideaux dans la population alors que dans le second cas, le choix optimal est la valeur moyenne. mais dans les deux cas, le choix federal n'a aucune raison de coincider avec ces valeurs. comme chez barbera et jackson, la question est donc de determiner le vecteur \\( w \\) qui maximise l'utilite esperee totale pour les deux versions. dans le cas lineaire, maaser et napel (2012) appellent deficit democratique (direct) l'expression \\( \\left med\\left(\\theta_i\\right)_{i\\in s_n} - med\\left(\\hat{\\theta}_k\\right)_{1\\leq k\\leq k} \\right \\). ils font une distinction tres claire entre le cas appele ic ci-dessus (independance au sein des districts) et le cas iac generalise (correlation plus ou moins forte au sein des districts). a l'exception de quelques intuitions dans des cas simples extremes, maaser et napel (2014) inventorent les difficultes techniques attachees a leur probleme et s'en remettent a des simulations pour decouvrir les poids optimaux sous l'hypothese \\( w^k = (n_k)^{\\alpha} \\); plus exactement ils s'efforcent donc de decouvrir la degressivite optimale. dans leurs simulations, ils tirent au hasard des profils de populations et pour une grille de valeurs de \\( \\alpha \\) calculent l'esperance de l'utilite totale sachant que les points ideaux sont tires uniformement dans \\([0,1]\\). dans le cas ic, ils obtiennent des valeurs de \\( \\alpha \\) proches de \\( \\frac{1}{2} \\) pour les deux types de fonctions d'utilite. en revanche, dans le cas",
+    "soit $l = \\{1, \\ldots, l\\}$ un ensemble d'electeurs. un mecanisme de vote $c$ sur $l$ est completement decrit par la liste $c^{-1}(1)$ des coalitions $s \\subseteq l$ telles que $c(s) = 1$ : nous identifions la coalition $s$ au vecteur $l(s)$ defini par $l^k(s) = 1$ si $k \\in s$. cette liste $w$ de coalitions definit ce qui est communement appele un jeu simple des l'instant ou $\\emptyset \\notin w$ et $l \\in w$ et $w$ est monotone ($s \\in w$ et $s \\subseteq t \\rightarrow t \\in w$); une coalition $s$ dans $w$ sera appelee ici une coalition gagnante. un jeu simple est dit propre si $s, t \\in w \\rightarrow s \\cap t \\neq \\emptyset$. il est fort si pour tout $s \\subseteq l : s \\in w$ ou $l \\setminus s \\in w$. un jeu est symetrique si $s \\in w$ et $ s = t \\rightarrow t \\in w$. au nombre des jeux simples figurent en bonne place les jeux majoritaires ponderes (en particulier le jeu majoritaire ordinaire) et les jeux composes. un jeu simple $(l, w)$ est un jeu majoritaire pondere si il existe un vecteur de poids $(w_1, \\ldots, w_l) \\in r^l_ $ et un quota $q > 0$ tels que :",
+    "\\( l \\) 1 2 3 4 5 6 # jeux simples 3 6 20 168 7581 7828354",
+    "\\( l \\) 1 2 3 4 5 6 7 8 # jeux de somme constante 1 2 4 12 81 2646 1422564 229809982112",
+    "\\( l \\) 1 2 3 4 5 6 7 # classes d'equivalence de jeux a somme constante 1 1 2 3 7 30 716",
+    "$$\\sum_{s : s \\text{ est un swing pour } i} \\frac{ s l \\setminus s \\cup \\{i\\} }{l!}.$$"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graph i",
+      "title": "que. ce nouveau systeme de vote a la majorite qualifiee est applicable depuis le 1er novembre 2014 (mais avec une possibilite d'utilisation du systeme de vote defini par le traite de nice au cas par cas jusqu'au 31 mars 2017).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e se decline-t-elle dans le detail ? l'idee la plus courante est l'idee de proportionnalite : representer chaque entite a la hauteur de sa population. la proportionnalite est une idee simple et profonde qui a des racines philosophiques anciennes et nous verrons dans cet article que l'approche developpee ici confirme cette intuition de",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "ques de ceux-ci, l'input de base est constitue par l'utilite que les differents citoyens retirent de la proposition si elle est retenue ou rejetee. l'espace des etats possibles est l'ensemble des profils d'utilites. en normalisant a 0 l'utilite de chaque citoyen dans le cas d'un rejet de la proposition, un etat possible est donc un vecteur $u = (u_1, u_2, \\ldots, u_n) \\in \\mathbb{r}^n$ : le type du citoyen $i$ est un nombre reel $u_i$ decrivant son utilite nette pour l'alternative 1. une valeur $u_i > 0$ (respectivement $< 0$) indique que l'individu $i$ prefere l'option 1 au statu quo 0 (respectivement 0 a 1). un modele aleatoire est decrit par une loi de probabilite jointe $\\lambda$ sur l'ensemble des etats possibles $\\mathbb{r}^n$. nous noterons $\\pr_\\lambda(a)$ la probabilite de l'evenement $a \\subseteq \\mathbb{r}^n$. on notera $\\lambda_k$ la marginale du district $k$ et $\\lambda_i$ la marginale du citoyen $i$. le modele aleatoire $\\lambda$ est dit neutre si pour tout $k = 1, \\ldots, k$ et tout ensemble mesurable $t \\subseteq \\mathbb{r}^{n_k}$, $\\pr_\\lambda(t) = \\pr_\\lambda(-t)$. le modele aleatoire $\\lambda$ est symetrique si pour tout $k = 1, \\ldots, k$ et tout ensemble mesurable $t \\subseteq \\mathbb{r}^{n_k}$ et toute permutation $\\sigma$ de $n^k$, $\\pr_\\lambda(t) = \\pr_\\lambda(\\sigma(t))$ ou $\\sigma(t) \\equiv \\{u \\in \\mathbb{r}^{n_k} : \\exists u \\in t \\text{ tel que } u = \\sigma(u)\\}$. on remarque que si $\\lambda$ est symetrique, alors pour tout $k = 1, \\ldots, k : e(u_j | u_j \\geq 0) = e(u_j | u_j \\geq 0)$ et $e(u_j | u_j \\leq 0) = e(u_j | u_j \\leq 0)$ pour tout $i, j \\in n^k$. dans cet article, nous supposerons que les preferences des citoyens sont independantes entre districts.",
+      "source": ""
+    },
+    {
+      "number": "figure l",
+      "title": "e cas binaire qui correspond au cas ou pour tout \\( i \\in n \\), \\( u_i \\) prend deux valeurs symetriques par rapport a 0 (disons 1 et -1)\\(^{16}\\). dans ce cas, le mecanisme qui maximise l'utilite totale \\( ex post \\) est le mecanisme majoritaire ordinaire (a un seul etage) : l'esperance de l'utilite totale du mecanisme \\( ex post \\) optimal est donc l'esperance de la taille du groupe majoritaire. en revanche, le mecanisme optimal dans le cas ou il y a deux etages et ou le representant suit sa majorite peut produire des decisions collectives tres differentes du mecanisme majoritaire, meme dans le cas ou les districts sont equipeuples et identiques du point de vue de la loi \\( \\lambda \\).",
+      "source": ""
+    },
+    {
+      "number": "figure l",
+      "title": "a repartition d'un budget entre les differents districts. dans ce cas, il est raisonnable de supposer que la preference et donc le vote du representant du district $k$ dependront exclusivement et positivement de la part qui echoit au district $k$. si au lieu d'un budget, il s'agit d'un fardeau, la dependance sera negative. nous nous limiterons ici au cas d'un budget dont la taille est normalisee a 1 et ou les representants ne font preuve d'aucun altruisme\\textsuperscript{48}. une fois choisi le mecanisme de vote $c$, il faut decrire la maniere exacte dont seront prises les decisions car l'espace devient ici multidimensionnel (le simplexe unitaire de dimension $k-1$). plusieurs solutions non cooperatives peuvent etre envisagees, comme par exemple l'equilibre stationnaire parfait en sous-jeux du modele de vote sequentiel sur des offres et contre-offres introduit par baron et ferejohn (1989), ou cooperatives comme le nucleole ou la valeur de shapley. sachant comment le choix de $w$ et du quota $q$ influence la solution, le probleme revient alors a choisir $w$ et $q$ de maniere a maximiser un critere d'utilite sociale\\textsuperscript{49}. le probleme de mechanism design est pose en ces termes dans le breton, montero et zaporozhets (2012) qui determinent le jeu simple optimal dans plusieurs configurations decrivant le conseil des ministres de l'europe depuis sa creation et sous l'hypothese que le jeu de baron et ferejohn est specifie de telle sorte que l'equilibre coincide\\textsuperscript{50} avec le nucleole du jeu cooperatif associe. notons encore une fois que le probleme est purement combinatoire et qu'il est difficile car le nombre de possibilites augmente tres rapidement avec le nombre $k$\\textsuperscript{51}. il n'est pas necessaire de se limiter aux jeux majoritaires car ici rien n'etablit \\textit{a priori} qu'il faille se limiter a ceux-la. dans le cas ou $k=6$ (l'europe a sa creation) ils comparent les 21 jeux simples diriges et forts (qui coincident avec les jeux majoritaires et forts) du point de vue de l'utilite totale quadratique (c'est-a-dire la variance de l'ecart par rapport a l'egalite parfaite). sur la base des populations de 1958, ils trouvent que le jeu optimal est le jeu majoritaire de representation [5; 3, 2, 2, 1, 1, 0] et non le jeu [12; 4, 4, 4, 2, 2, 1] qui avait ete retenu. un exercice de meme nature est conduit dans la cas de l'europe de 1973 mais les 175 428 jeux majoritaires de somme constante ne sont pas etudies!",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "outre la carte des districts et les caracteristiques demographiques de ceux-ci, l'input de base est constitue par l'utilite que les differents citoyens retirent de la proposition si elle est retenue ou rejetee. l'espace des etats possibles est l'ensemble des profils d'utilites. en normalisant a 0 l'utilite de chaque citoyen dans le cas d'un rejet de la proposition, un etat possible est donc un vecteur $u = (u_1, u_2, \\ldots, u_n) \\in \\mathbb{r}^n$ : le type du citoyen $i$ est un nombre reel $u_i$ decrivant son utilite nette pour l'alternative 1. une valeur $u_i > 0$ (respectivement $< 0$) indique que l'individu $i$ prefere l'option 1 au statu quo 0 (respectivement 0 a 1). un modele aleatoire est decrit par une loi de probabilite jointe $\\lambda$ sur l'ensemble des etats possibles $\\mathbb{r}^n$. nous noterons $\\pr_\\lambda(a)$ la probabilite de l'evenement $a \\subseteq \\mathbb{r}^n$. on notera $\\lambda_k$ la marginale du district $k$ et $\\lambda_i$ la marginale du citoyen $i$. le modele aleatoire $\\lambda$ est dit neutre si pour tout $k = 1, \\ldots, k$ et tout ensemble mesurable $t \\subseteq \\mathbb{r}^{n_k}$, $\\pr_\\lambda(t) = \\pr_\\lambda(-t)$. le modele aleatoire $\\lambda$ est symetrique si pour tout $k = 1, \\ldots, k$ et tout ensemble mesurable $t \\subseteq \\mathbb{r}^{n_k}$ et toute permutation $\\sigma$ de $n^k$, $\\pr_\\lambda(t) = \\pr_\\lambda(\\sigma(t))$ ou $\\sigma(t) \\equiv \\{u \\in \\mathbb{r}^{n_k} : \\exists u \\in t \\text{ tel que } u = \\sigma(u)\\}$. on remarque que si $\\lambda$ est symetrique, alors pour tout $k = 1, \\ldots, k : e(u_j u_j \\geq 0) = e(u_j u_j \\geq 0)$ et $e(u_j u_j \\leq 0) = e(u_j u_j \\leq 0)$ pour tout $i, j \\in n^k$. dans cet article, nous supposerons que les preferences des citoyens sont independantes entre districts.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "le mecanisme de decision comporte donc deux etages (two tier mechanism). une premiere fonction decrit comment les preferences des citoyens des differentes entites influencent l'opinion de leurs representants (notons ici qu'un representant est decrit par une opinion et non par une utilite). formellement, ceci est decrit par une fonction \\( m : r^n \\rightarrow \\{0,1\\}^k ; m^k(u) = 1 \\) signifie que dans le cas du vecteur \\( u \\), le representant de l'entite \\( k \\) est en faveur de 1. nous supposerons que \\( m^k \\) ne depend que du sous-vecteur \\( u^k = (u_i)_{i \\in n^k} \\). si le representant suit l'opinion majoritaire dans son district, \\( m^k(u) = 1 \\) ssi \\( \\sum_{i \\in n^k} u_i \\geq 0 \\) (on peut alors parler de representant de type majoritaire). si en revanche le representant base son vote sur le critere utilitariste restreint a son district, \\( m^k(u) = 1 \\) ssi \\( \\left \\{ i \\in n^k : u_i > 0 \\} \\right \\geq \\frac{n_k}{2} \\) (on peut alors parler de representant de type utilitariste)\\(^{11}\\). la seconde fonction, notee \\( c \\) ci-dessus, decrit comment les votes des representants \\((m^1(u), \\ldots, m^k(u)) = m(u)\\) sont transformes en une decision collective.",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\[ \\pr_\\lambda(u_i > 0) = \\pr_\\lambda(u_i < 0) = \\frac{1}{2}, \\quad e[u_i u_i > 0] = -e[u_i u_i < 0] \\text{ pour tout } i \\in n^k \\]",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "w^k_i = e \\left[ \\sum_{i \\in n^k} u_i m^k(u) = 1 \\right] = -e \\left[ \\sum_{i \\in n^k} u_i m^k(u) = 0 \\right] = w^k_0",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\[ w^k(\\lambda) = 2\\xi^k \\sum_{ s_k - \\frac{n_k 1}{2}} \\pr(\\text{les electeurs dans } s_k \\text{ votent 1 et les autres votent 0}) \\times (2 s_k - n_k). \\]",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "pays marge pays marge allemagne 53,3 suede 44,8 royaume-uni 36,6 bulgarie 41,6 france 52,4 autriche 51,2 italie 56,1 slovaquie 48,6 espagne 54,5 danemark 42,4 pologne 54,6 finlande 47,5 roumanie 44,7 irlande 55,1 pays-bas 55,1 lituanie 45,5 grece 61,6 lettonie 54,6 republique tcheque 42,4 slovenie 53,5 belgique 49,7 estonie 43,5 hongrie 52,2 chypre 70,1 portugal 52,2 luxembourg 56,6 malte 48,8",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "pays poids pays poids allemagne 44,1 suede 4,0 royaume-uni 21,8 bulgarie 3,2 france 31,1 autriche 4,1 italie 32,3 slovaquie 2,6 espagne 21,8 danemark 2,5 pologne 21,1 finlande 2,5 roumanie 10,0 irlande 2,1 pays-bas 8,8 lituanie 1,6 grece 6,5 lettonie 1,3 republique tcheque 4,4 slovenie 1,0 belgique 5,1 estonie 0,6 hongrie 5,3 chypre 0,6 portugal 5,2 luxembourg 0,3 malte 0,2",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\( q \\) 1 2 3 10 100 \\( \\psi(q) \\) 1/3 0.3 0.2857 0.2619 0.25124",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\( q \\) 1 2 3 5 \\( \\phi(q) \\) 1/2 3/8 5/16 63/256",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "le principe egalitariste pose en realite un probleme tres difficile. en pratique, les valeurs de $k$ sont relativement petites et l'objectif egalitariste, des l'instant ou il ne peut pas etre satisfait exactement ou presque exactement (il ne faut pas oublier que le probleme est ici combinatoire), oblige a se donner un critere de minimisation par rapport a un objectif cible. on pourrait alors se donner comme objectif pour une norme donnee $\\ \\cdot\\ $ de determiner un vecteur de poids $w^*$ et un quota $q^*$ tel que le vecteur de banzhaf normalise $\\beta([q^*; w^*])$ resultant du jeu majoritaire pondere $[q^*; w^*]$ minimise la distance $\\ \\beta^* - \\beta([q; w])\\ $. nous nous sommes limites ici aux jeux majoritaires ponderes mais nous pourrions proceder de maniere similaire pour un jeu simple $w$ quelconque et remplacer $\\beta([q; w])$ par $\\beta(w)$. le vecteur $\\beta^*$ est l'objectif cible, et dans le cas ic ci-dessus $\\beta^* = (\\frac{\\sqrt{n_1}}{\\sum_{k=1}^{k} \\sqrt{n_k}}, \\ldots, \\frac{\\sqrt{n_k}}{\\sum_{k=1}^{k} \\sqrt{n_k}})$ puisque l'on a vu que le pouvoir d'un etat devait etre proportionnel a la racine carre de sa population. ce probleme est connu sous le nom de probleme de banzhaf inverse (alon et edelman, 2010). il n'est pas evident de savoir quels sont les vecteurs du simplexe qui peuvent s'ecrire comme des vecteurs de banzhaf normalises d'un jeu simple adequatement construit. ii en resulte que la resolution du probleme de minimisation ci-dessus n'est pas un probleme facile. on peut pour les toutes petites valeurs de $k$ passer en force en enumerant au prealable l'ensemble des jeux (les nombres respectifs apparaissent dans l'annexe) mais rapidement (disons pour $k \\geq 9$) la necessite de developper des methodes algorithmiques intelligentes s'impose. il existe plusieurs contributions a cette litterature. on peut citer par exemple le travail de kurz (2012a) qui montre comment formuler le probleme inverse comme un probleme de programmation lineaire avec contraintes entieres. kurz et napel (2014) utilisent cette technique de resolution pour comparer (pour trois normes differentes) les performances de trois mecanismes de vote qui ont en commun de prendre comme vecteur de poids $w$ le vecteur cible $\\beta^*$ mais different quant aux quotas respectifs utilises : $\\frac{1}{2}, \\frac{1}{2} \\frac{1}{2} \\sqrt{\\sum_{k=1}^{k} (w_k)^2}$ et $\\frac{1}{2} \\frac{1}{\\sqrt{\\pi k}}$. la qualite des deux dernieres methodes a ete decouverte par slomczynski et zyczkowski (2006, 2008, 2014). les valeurs obtenues en cherchant numeriquement la solution du probleme inverse pour l'europe a 25 et l'europe a 27 sont compatibles avec une precision de 2 % avec les donnees obtenues sur la base des populations de l'union. ils montrent que dans le cas de l'europe a 25 les ratios sont tous tres voisins de 1 lorsque $q$ est",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "dans leurs autres articles, maaser et napel se penchent sur des criteres utilitaristes. en supposant une desutilite qui evolue lineairement ou quadratiquement en fonction de la distance au point ideal, on aboutit a deux criteres differents d'utilite totale esperee. dans un cas, le choix public optimal est la valeur mediane des points ideaux dans la population alors que dans le second cas, le choix optimal est la valeur moyenne. mais dans les deux cas, le choix federal n'a aucune raison de coincider avec ces valeurs. comme chez barbera et jackson, la question est donc de determiner le vecteur \\( w \\) qui maximise l'utilite esperee totale pour les deux versions. dans le cas lineaire, maaser et napel (2012) appellent deficit democratique (direct) l'expression \\( \\left med\\left(\\theta_i\\right)_{i\\in s_n} - med\\left(\\hat{\\theta}_k\\right)_{1\\leq k\\leq k} \\right \\). ils font une distinction tres claire entre le cas appele ic ci-dessus (independance au sein des districts) et le cas iac generalise (correlation plus ou moins forte au sein des districts). a l'exception de quelques intuitions dans des cas simples extremes, maaser et napel (2014) inventorent les difficultes techniques attachees a leur probleme et s'en remettent a des simulations pour decouvrir les poids optimaux sous l'hypothese \\( w^k = (n_k)^{\\alpha} \\); plus exactement ils s'efforcent donc de decouvrir la degressivite optimale. dans leurs simulations, ils tirent au hasard des profils de populations et pour une grille de valeurs de \\( \\alpha \\) calculent l'esperance de l'utilite totale sachant que les points ideaux sont tires uniformement dans \\([0,1]\\). dans le cas ic, ils obtiennent des valeurs de \\( \\alpha \\) proches de \\( \\frac{1}{2} \\) pour les deux types de fonctions d'utilite. en revanche, dans le cas",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "soit $l = \\{1, \\ldots, l\\}$ un ensemble d'electeurs. un mecanisme de vote $c$ sur $l$ est completement decrit par la liste $c^{-1}(1)$ des coalitions $s \\subseteq l$ telles que $c(s) = 1$ : nous identifions la coalition $s$ au vecteur $l(s)$ defini par $l^k(s) = 1$ si $k \\in s$. cette liste $w$ de coalitions definit ce qui est communement appele un jeu simple des l'instant ou $\\emptyset \\notin w$ et $l \\in w$ et $w$ est monotone ($s \\in w$ et $s \\subseteq t \\rightarrow t \\in w$); une coalition $s$ dans $w$ sera appelee ici une coalition gagnante. un jeu simple est dit propre si $s, t \\in w \\rightarrow s \\cap t \\neq \\emptyset$. il est fort si pour tout $s \\subseteq l : s \\in w$ ou $l \\setminus s \\in w$. un jeu est symetrique si $s \\in w$ et $ s = t \\rightarrow t \\in w$. au nombre des jeux simples figurent en bonne place les jeux majoritaires ponderes (en particulier le jeu majoritaire ordinaire) et les jeux composes. un jeu simple $(l, w)$ est un jeu majoritaire pondere si il existe un vecteur de poids $(w_1, \\ldots, w_l) \\in r^l_ $ et un quota $q > 0$ tels que :",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\( l \\) 1 2 3 4 5 6 # jeux simples 3 6 20 168 7581 7828354",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\( l \\) 1 2 3 4 5 6 7 8 # jeux de somme constante 1 2 4 12 81 2646 1422564 229809982112",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "\\( l \\) 1 2 3 4 5 6 7 # classes d'equivalence de jeux a somme constante 1 1 2 3 7 30 716",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$$\\sum_{s : s \\text{ est un swing pour } i} \\frac{ s l \\setminus s \\cup \\{i\\} }{l!}.$$",
+      "note": ""
+    }
+  ]
+}

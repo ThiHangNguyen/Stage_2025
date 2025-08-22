@@ -1,0 +1,233 @@
+{
+  "title": "une analyse economique de propositions visant a bonifier la couverture du risque de longevite*",
+  "authors": [],
+  "abstract": "nous utilisons des methodes de simulation pour analyser les impacts de certaines propositions de reforme visant a ameliorer la couverture du risque de longevite. ce risque, qui peut en principe etre adequatement couvert par les regimes de retraite classiques a prestations determinees, fait l'objet d'une attention particuliere au quebec depuis quelques annees, notamment en raison du declin de la participation a de tels regimes. les propositions recentes visant a bonifier la couverture du risque de longevite se concentrent en grande partie sur l'expansion du 2e pilier du systeme de revenu de retraite, actuellement constitue du regime de rentes du quebec. nous considerons a ce titre une proposition-cle du comite d'amours (la rente longevite), ainsi que deux autres propositions : celle de mintz et wilson, qui vise a augmenter la generosite du regime actuel, et celle de wolfson, qui introduit une notion de taux de cotisation et de prestations differencies selon le revenu. a l'aide de donnees provenant des enquetes de statistique canada, nous analysons pour plusieurs types d'individus le taux de rendement interne (tri) de ces propositions en prenant en consideration l'inegalite d'esperance de vie, la variabilite temporelle des revenus ainsi que les interactions avec la fiscalite et les differents programmes de soutien du revenu a la retraite. nous",
+  "date": "",
+  "id": {
+    "doi": "",
+    "issn": ""
+  },
+  "pagination": {
+    "start_page": "",
+    "end_page": ""
+  },
+  "rights": {
+    "text": "",
+    "link": ""
+  },
+  "issue_number": "",
+  "volume": "",
+  "keywords": [],
+  "themes": [],
+  "language": "",
+  "section_titles": [
+    "liste des elements pris en compte dans simtax",
+    "tableau 4",
+    "facteurs de correction des taux de mortalite",
+    "probabilite de survie jusqu'a l'age \\( t \\)",
+    "conclusion",
+    "tableau 3",
+    "mortalite",
+    "annexe c",
+    "tableau 1",
+    "tableau 2",
+    "parametres estimes des processus de revenu de travail",
+    "annexe b",
+    "estimation des revenus de marche une fois a la retraite",
+    "taxation et transferts sociaux",
+    "esg uqam",
+    "graphique 10",
+    "taux de rendement implicite",
+    "introduction",
+    "2.5 scenario alternatif 4 : epargne personnelle dans un rver et achat d'une rente viagere",
+    "bibliographie",
+    "annexe a",
+    "tableau synthese des reformes",
+    "graphique 9",
+    "annexe d",
+    "revenus de travail avant la retraite",
+    "facteurs de croissance du salaire"
+  ],
+  "bibliographies": [
+    "adam, l. (2012), the canadian pensioners' mortality table, rapport technique, institut canadien des actuaires.",
+    "d'amours, a., r. beaudry, l. godbout, c. lamoureux, m. n. marchon, b. morency et m. rochette (2013), innover pour perenniser le systeme de retraite : un contrat social pour renforcer la securite financiere de tous les travailleurs quebecois, rapport technique, comite d'experts sur l'avenir du systeme de retraite quebecois.",
+    "french, e. (2005), the effects of health, wealth, and wages on labour supply and retirement behaviour, *the review of economic studies*, 72(2) : 395-427.",
+    "gourinchas, p. o. et j. parker (2002), consumption over the life cycle, *econometrica*, 59 : 779-813.",
+    "institut de la statistique du quebec (2014), *le bilan demographique du quebec*, gouvernement du quebec.",
+    "judd, k. l. (1998), *numerical methods in economics*, mit press. milevsky, m. a. (2013), life annuities : an optimal product for retirement income, rapport technique, research foundation of cfa institute.",
+    "milligan, k. et t. schirle (2014), simulated replacement rates for cpp reform options, spp research papers 7-7, social science research network.",
+    "mintz, j. et wilson, t. (2013), reform proposals for replenishing retirement savings, spp research papers 6-9, university of calgary school of public policy.",
+    "roy-cesar, e. et vaillancourt, f. (2010), the incidence of payroll taxes in ontario and quebec; evidence from collective agreements for 1985-2007, cahier scientifique 2010s-36, cirano.",
+    "wolfson, m. (2013), not-so-modest options for expanding the cpp/qpp, etude irpp 41, irpp.",
+    "yaari, m. e. (1965), uncertain lifetime, life insurance, and the theory of the consumer, *the review of economic studies*, 32(2) : 137-150."
+  ],
+  "acknowledgements": "",
+  "content_tables": [
+    "nous utilisons d'abord la table de mortalite de 2009 de l'institut de la statistique du quebec (isq). en denotant l'indicateur de deces entre l'age $t$ et l'age $t 1$ par $m_{t 1}$, nous obtenons une probabilite de deces donnee par $\\pr(m_{t 1} = 1 t)$. nous calculons ensuite $\\pr(m_{t 1} = 1 e = e, t)$, en utilisant le fait que",
+    "$$\\pr(m_{t 1} = 1 e = e, t) = \\frac{\\pr(e = e m_{t 1} = 1, t)}{\\pr(e = e t)} \\pr(m_{t 1} = 1 t).$$",
+    "on estime $\\pr(e = e m_{t 1} = 1, t)$ et $\\pr(e = e t)$ a partir de l'enquete nationale sur la sante de la population (ensp), cycles 1994-2010, pour ensuite calculer $\\pr(m_{t 1} = 1 e = e, t)$. l'annexe b donne les details de l'application de cette methode ainsi que les resultats. nous estimons que les ecarts de mortalite sont plus importants avant 65 ans et qu'ils diminuent apres 65 ans. une des raisons probables est un effet de selection dynamique : les individus survivant jusqu'a 65 ans au sein du groupe ayant un risque de mortalite structurel plus eleve ont sans doute des caracteristiques inobservables qui rendent leur probabilite individuelle de deces plus faible que la probabilite de deces moyenne du groupe d'individus ayant un risque de mortalite structurel plus faible. l'esperance de vie a la naissance ainsi estimee varie de 78,3 a 84,6 annees, selon le niveau d'education, conditionnellement au fait d'avoir survecu jusqu'a l'age de 25 ans (puisque c'est l'age de nos agents au debut des simulations).",
+    "taux annuel cotisations (variation en points de %) taux annuel prestations (variation en points de %) **0 a 0,5*mga** **0,5*mga a 1*mga** **1*mga a 2*mga** **65 a 75 ans** **75 ans ** rente longevite 1,65 1,65 - - 20 mintz-wilson 2,5 2,5 - 10 wolfson - 3,1 8,3 - 15",
+    "on estime les parametres \\((\\rho, \\sigma_\\mu, \\sigma_\\varepsilon)\\) par distance minimale en utilisant le fait que \\(e[\\eta_t \\eta_{t-s}] = \\rho^{ t-s } \\frac{\\sigma_\\varepsilon^2}{1-\\rho^2}, \\quad s > 0\\) et \\(v[\\eta_t] = \\frac{\\sigma_\\varepsilon^2}{1-\\rho^2} \\sigma_\\mu^2\\).",
+    "niveau d'education \\(\\rho\\) \\(\\sigma_\\varepsilon\\) \\(\\sigma_\\mu\\) moins que secondaire 0,9500 0,0259 0,1168 secondaire 0,9301 0,0292 0,0778 universite 0,9261 0,0375 0,0649",
+    "coefficient ecart-type secondaire 0,0645414*** 0,0213239 universite 0,1302574*** 0,0299713 revenu de travail 0,0000009** 0,0000004 constante 0,2443028*** 0,0196956",
+    "impot sur le revenu transferts sociaux - impot federal - pension de la securite de la vieillesse - taux et seuils d'imposition - supplement de revenu garanti<sup>a</sup> - remboursement de la psv - aide sociale - impot provincial - prime au travail (qc) - taux et seuils d'imposition cotisations - contribution sante - regime de rentes du quebec - credits d'impots non-remboursables - regime quebecois d'assurance parentale - montant de base - assurance emploi - montant canadien pour emploi - montant pour revenus de pension - montant pour l'age - montant pour cotisations"
+  ],
+  "notes": [],
+  "figures": [
+    {
+      "number": "graphique 1",
+      "title": "montre le taux de cotisation et le taux de remplacement provenant des prestations du rrq/rpc dans le scenario de reference et avec la proposition de wolfson, (2013).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 1",
+      "source": ""
+    },
+    {
+      "number": "graphique 2",
+      "title": "presente les taux de remplacement a 75 ans pour chacun des scenarios alternatifs, ainsi que pour le scenario de reference (soit la situation qui prevalait effectivement en 2011). on constate que c'est la rente longevite qui hausse le plus les taux de remplacement pour les individus avec un faible revenu moyen, et ce jusqu'a un revenu annuel de 60 000 $ environ. a l'oppose, la proposition wolfson laisse les taux de remplacement largement inchanges pour les individus gagnant en moyenne 20 000 $ ou moins, et devient a partir d'un revenu brut (donc avant impots) moyen de 60 000 $ la proposition de reforme qui hausse le plus les taux de remplacement. la hausse generee par la rente longevite, elle, est surtout concentree entre des revenus initiaux de 15 000 $ et de 45 000 $, et c'est a partir d'un revenu moyen de 60 000 $ qu'elle cesse de hausser les taux de remplacement davantage que les autres reformes. il faut rappeler toutefois que les hausses de taux de remplacement engendrees par l'introduction de la rente longevite, bien qu'elles soient les plus genereuses pour plusieurs tranches de revenu, ne s'appliquent qu'a partir de 75 ans, offrant donc jusqu'a 10 annees de prestations de moins que les autres propositions.",
+      "source": ""
+    },
+    {
+      "number": "graphique 3",
+      "title": "presente les taux de rendement interne par groupe d'education et de revenu dans chacun des scenarios alternatifs. on note que dans tous les scenarios, ces taux de rendement sont plus importants pour les individus ayant un niveau d'education plus eleve, en raison notamment de l'ecart d'esperance de vie entre ces groupes. de plus, le profil general des rendements comporte un maximum entre 25 000 $ et 45 000 $ avec cependant plusieurs exceptions. de facon generale egalement, en raison de la croissance des salaires avec l'age et de l'interaction de ceux-ci avec le mga, les taux de rendement diminuent a mesure que le revenu moyen de l'individu augmente.",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 3",
+      "source": ""
+    },
+    {
+      "number": "graphique 4",
+      "title": "montre tout d'abord l'effet sur les taux de rendement interne de supprimer le srg dans chacun des 5 differents scenarios. le graphique presente l'effet de la suppression du srg *ceteris paribus* en points de pourcentages supplementaires de rendement qu'offre chacun des scenarios dans ce monde hypothetique. nous montrons uniquement ici le cas des individus sans diplome secondaire, qui sont ceux ayant le risque de mortalite le plus eleve - et donc, en consequence, ceux qui obtiennent le rendement le plus faible dans tous les scenarios de reforme.",
+      "source": ""
+    },
+    {
+      "number": "graphique 4",
+      "title": "s'arrete a ce niveau de revenu).",
+      "source": ""
+    },
+    {
+      "number": "graphique 5",
+      "title": "indique que ce facteur a un impact plus limite sur le rendement des differentes propositions, qui s'etablit a environ 0,4 point de pourcentage pour les individus sans diplome secondaire. dit autrement, dans un monde ou ces individus auraient un risque de mortalite identique a la moyenne, le rendement supplementaire qu'ils obtiendraient dans chaque scenario de reforme serait superieur de 0,4 point de pourcentage. cet effet est loin d'etre insignifiant, mais on voit qu'il est beaucoup plus petit que l'effet du srg pour les individus a plus faible revenu. ce sont les individus gagnant plus de 30 000 $ par an qui sont davantage desavantages par la mortalite differenciee que par la presence du srg, ce qui est attendu puisque ce dernier s'adresse aux individus a plus faible revenu.",
+      "source": ""
+    },
+    {
+      "number": "graphique 6",
+      "title": "montre ces taux de rendement en l'absence de revenus de retraite prives (reer ou regimes complementaires de retraite).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 6",
+      "source": ""
+    },
+    {
+      "number": "graphique 7",
+      "title": "montre les profils d'age-education \\( g_{e,t} \\). ceux-ci sont lisses a l'aide d'un estimateur non-parametrique lowess a partir des valeurs estimees de \\( g_j \\).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 7",
+      "source": ""
+    },
+    {
+      "number": "graphique 7",
+      "title": "](image-url)",
+      "source": ""
+    },
+    {
+      "number": "graphique 8",
+      "title": "donne les taux de mortalite periodiques de 2009 rapportes par l'isq. on denote ce taux a la periode \\( t \\) par \\( m_t^0 = p(m_{t+1} | t) \\).",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que 8",
+      "source": ""
+    },
+    {
+      "number": "graphique 9",
+      "title": "presente les facteurs de correction \\( \\frac{p_{e,1,t}}{p_{e,0,t} + p_{e,1,t}} \\) estimes.",
+      "source": ""
+    },
+    {
+      "number": "graphique 10",
+      "title": "donne les courbes de survie par niveau d'education alors que le graphique 11 montre les courbes d'esperance de vie restante etant donne la survie a l'age \\( t \\).",
+      "source": ""
+    },
+    {
+      "number": "graphique 9",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "graphique 10",
+      "title": "**",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "e",
+      "source": ""
+    },
+    {
+      "number": "graph i",
+      "title": "que du quebec*, gouvernement du quebec.",
+      "source": ""
+    }
+  ],
+  "tables": [
+    {
+      "number": "",
+      "title": "",
+      "content": "nous utilisons d'abord la table de mortalite de 2009 de l'institut de la statistique du quebec (isq). en denotant l'indicateur de deces entre l'age $t$ et l'age $t 1$ par $m_{t 1}$, nous obtenons une probabilite de deces donnee par $\\pr(m_{t 1} = 1 t)$. nous calculons ensuite $\\pr(m_{t 1} = 1 e = e, t)$, en utilisant le fait que",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "$$\\pr(m_{t 1} = 1 e = e, t) = \\frac{\\pr(e = e m_{t 1} = 1, t)}{\\pr(e = e t)} \\pr(m_{t 1} = 1 t).$$",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "on estime $\\pr(e = e m_{t 1} = 1, t)$ et $\\pr(e = e t)$ a partir de l'enquete nationale sur la sante de la population (ensp), cycles 1994-2010, pour ensuite calculer $\\pr(m_{t 1} = 1 e = e, t)$. l'annexe b donne les details de l'application de cette methode ainsi que les resultats. nous estimons que les ecarts de mortalite sont plus importants avant 65 ans et qu'ils diminuent apres 65 ans. une des raisons probables est un effet de selection dynamique : les individus survivant jusqu'a 65 ans au sein du groupe ayant un risque de mortalite structurel plus eleve ont sans doute des caracteristiques inobservables qui rendent leur probabilite individuelle de deces plus faible que la probabilite de deces moyenne du groupe d'individus ayant un risque de mortalite structurel plus faible. l'esperance de vie a la naissance ainsi estimee varie de 78,3 a 84,6 annees, selon le niveau d'education, conditionnellement au fait d'avoir survecu jusqu'a l'age de 25 ans (puisque c'est l'age de nos agents au debut des simulations).",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "taux annuel cotisations (variation en points de %) taux annuel prestations (variation en points de %) **0 a 0,5*mga** **0,5*mga a 1*mga** **1*mga a 2*mga** **65 a 75 ans** **75 ans ** rente longevite 1,65 1,65 - - 20 mintz-wilson 2,5 2,5 - 10 wolfson - 3,1 8,3 - 15",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "on estime les parametres \\((\\rho, \\sigma_\\mu, \\sigma_\\varepsilon)\\) par distance minimale en utilisant le fait que \\(e[\\eta_t \\eta_{t-s}] = \\rho^{ t-s } \\frac{\\sigma_\\varepsilon^2}{1-\\rho^2}, \\quad s > 0\\) et \\(v[\\eta_t] = \\frac{\\sigma_\\varepsilon^2}{1-\\rho^2} \\sigma_\\mu^2\\).",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "niveau d'education \\(\\rho\\) \\(\\sigma_\\varepsilon\\) \\(\\sigma_\\mu\\) moins que secondaire 0,9500 0,0259 0,1168 secondaire 0,9301 0,0292 0,0778 universite 0,9261 0,0375 0,0649",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "coefficient ecart-type secondaire 0,0645414*** 0,0213239 universite 0,1302574*** 0,0299713 revenu de travail 0,0000009** 0,0000004 constante 0,2443028*** 0,0196956",
+      "note": ""
+    },
+    {
+      "number": "",
+      "title": "",
+      "content": "impot sur le revenu transferts sociaux - impot federal - pension de la securite de la vieillesse - taux et seuils d'imposition - supplement de revenu garanti<sup>a</sup> - remboursement de la psv - aide sociale - impot provincial - prime au travail (qc) - taux et seuils d'imposition cotisations - contribution sante - regime de rentes du quebec - credits d'impots non-remboursables - regime quebecois d'assurance parentale - montant de base - assurance emploi - montant canadien pour emploi - montant pour revenus de pension - montant pour l'age - montant pour cotisations",
+      "note": ""
+    }
+  ]
+}

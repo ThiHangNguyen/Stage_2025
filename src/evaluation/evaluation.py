@@ -7,7 +7,7 @@ from evaluation.metrics.metrics import compute_metrics
 import time  
 
 STRATEGIES = {
-    "strict": strict_match,
+    #"strict": strict_match,
     "soft": soft_match, #matchesequence 
     "levenshtein": levenshtein_match,
 }
@@ -220,6 +220,11 @@ def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
 
                 if field_scores:
                     obj_score = sum(field_scores) / len(field_scores)
+
+                    if type_ == "tables":
+                        ct_ref = exp_obj.get("content", None)
+                        if not has_data(ct_ref):
+                            continue
                     obj_similarities.append(obj_score)
 
         fp = len(pred_list) - tp
@@ -271,8 +276,8 @@ def compare_raw_bibliographies(erudit_bib, grobid_bib):
 FIELD_COMPARISON_FUNCTIONS = {
     # champs simples (string) -- similar score
     "title": compare_simple,
-    "overline": compare_simple,
-    "subtitle": compare_simple,
+    # "overline": compare_simple,
+    # "subtitle": compare_simple,
     "abstract": compare_simple,
     "language": compare_simple,
     "date": compare_simple,
@@ -282,15 +287,16 @@ FIELD_COMPARISON_FUNCTIONS = {
 
      #structured --f1
     "authors": compare_structured_fields, 
-    "editorial_team": compare_structured_fields,
+    #"editorial_team": compare_structured_fields,
     "tables": compare_structured_fields,
     "figures": compare_structured_fields,
 
     #list of strings --f1
     "keywords" : compare_list_of_strings,
     "themes": compare_list_of_strings,
-    "biographical_notes": compare_list_of_strings,
+    #"biographical_notes": compare_list_of_strings,
     "section_titles": compare_list_of_strings,
+    "content_tables": compare_list_of_strings,
 
     "bibliographies": compare_list_of_strings,
 

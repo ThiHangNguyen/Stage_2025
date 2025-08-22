@@ -1,5 +1,3 @@
-# tatr_parsers.py
-
 from pathlib import Path
 from typing import Dict, Any, List
 import json
@@ -21,10 +19,12 @@ def parse_tatr_json(filepath: str, keep_empty: bool = True) -> Dict[str, Any]:
         "tool": "tatr",
         "tables": [
           {"number": str, "title": str, "content": str, "note": str}, ...
-        ]
+        ],
+        "content_table": [str, ...]  # liste des `content` des tables retenues
       }
     - handle: fichier racine = liste OU dict
     - keep_empty=True pour l'évaluation (conserver tables au content vide)
+      -> `content_table` reflète le même filtrage que `tables`.
     """
     data = json.loads(Path(filepath).read_text(encoding="utf-8"))
 
@@ -35,9 +35,7 @@ def parse_tatr_json(filepath: str, keep_empty: bool = True) -> Dict[str, Any]:
     elif isinstance(data, dict):
         raw_tables = data.get("tables")
         if raw_tables is None:
-            # fallback: certains pipelines mettent directement la liste à la racine
-            # ou sous d'autres clés; on tente une récupération prudente
-            # -> si une des valeurs est une liste de dicts ressemblant à des tables
+            # fallback: essayer de récupérer une liste de dicts ressemblant à des tables
             raw_tables = []
             for v in data.values():
                 if isinstance(v, list) and v and all(isinstance(x, dict) for x in v):
@@ -49,6 +47,8 @@ def parse_tatr_json(filepath: str, keep_empty: bool = True) -> Dict[str, Any]:
         raw_tables = []
 
     tables_out: List[Dict[str, str]] = []
+    content_table: List[str] = []
+
     for t in raw_tables:
         number  = _to_str(t.get("number"))
         title   = _to_str(t.get("title"))
@@ -63,5 +63,6 @@ def parse_tatr_json(filepath: str, keep_empty: bool = True) -> Dict[str, Any]:
                 "content": content,   # string
                 "note": note          # string
             })
+            content_table.append(content)
 
-    return {"tool": "tatr", "tables": tables_out}
+    return {"tool": "tatr", "tables": tables_out, "content_table": content_table}
