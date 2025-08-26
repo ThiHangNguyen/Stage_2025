@@ -27,6 +27,10 @@ TOOL_FILE_TYPES = {
 }
 
 def run_command(cmd):
+    """
+    Exécute une commande shell et stoppe en cas d’échec.
+    """
+     
     print(f"\n[INFO] Commande : {' '.join(cmd)}")
     result = subprocess.run(cmd)
     if result.returncode != 0:
@@ -34,14 +38,15 @@ def run_command(cmd):
         sys.exit(result.returncode)
 
 def get_ids_from_raw_xml(directory):
+    """
+    Retourne les IDs des fichiers .xml présents dans un dossier donné.
+    """
+
     return [
         os.path.splitext(f)[0]
         for f in os.listdir(directory)
         if f.endswith(".xml")
     ]
-
-
-
 
 def transformer_article(article_id, tool, subfolder=None):
     """
@@ -49,7 +54,7 @@ def transformer_article(article_id, tool, subfolder=None):
 
     Args:
         article_id (str): Nom de l’article sans extension (ex: "1039880ar")
-        tool (str): Nom de l’outil ("grobid", "erudit", "nougat")
+        tool (str): Nom de l’outil ("grobid", "erudit", "nougat", ...)
         subfolder (str): Sous-répertoire (ex: "ae49", "cqd27", etc.)
     """
     if tool not in TOOL_FILE_TYPES:
@@ -137,6 +142,11 @@ def transformer_batch(tool, journals=None, subfolder=None):
 
 
 def evaluate_subfolder(source: str, target: str, subfolder: str = None, journals=None):
+    """
+    Lance l’évaluation entre deux outils (source vs target) sur un sous-dossier
+    ou une liste de journaux (fichiers JSON déjà générés).
+    """
+
     if journals:
         for journal in journals:
             base_dir = Path("data/processed") / target / journal
@@ -221,7 +231,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    # python3 src/main.py --tool erudit --id 1080394ar_2
-    # python3 src/main.py --tool grobid --id 1080394ar_2 --evaluation
-    # python3 src/main.py --tool grobid --batch --evaluation

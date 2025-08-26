@@ -1,47 +1,123 @@
-transformer - il faut changer nom d'outil:
-python3 src/main.py --tool grobid --id test/1013496ar
-sur un répertoire : ( --batch ou --xml_2cols)
-python3 src/main.py --tool grobid --batch
+# 📘 Projet : Extraction et Évaluation des Métadonnées (Stage 2025)
 
-1.---------------transformation----------------------
-python3 src/main.py --tool erudit  --id ae49/1039880ar // remplace grobid
-python3 src/main.py --tool grobid --journals cqd27 ae49 haf18 2cols // transformer // grobid
+Ce projet permet de :
+- Transformer des articles scientifiques (PDF, XML, Markdown, JSON OCR, etc.) en un format **JSON standardisé**.  
+- Évaluer les résultats des outils d’extraction (GROBID, Nougat, olmOCR, TATR, pdfExtractKit, pdfplumber, Érudit).  
+- Visualiser les performances par champ (titres, auteurs, dates, bibliographies, tableaux, figures, etc.).
 
-2.---------------évaluation sur un journal---------------
+---
 
-python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool grobid 
-python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool nougat
-3.---------------visualisation--------------
+🔄 Workflow global
 
-Calculer des moyens:
-python3 src/evaluation/compute_means.py --tool grobid --dirs ae49 cqd27 haf18 2cols
-python3 src/evaluation/compute_means.py --tool nougat --dirs ae49 cqd27 haf18 2cols
+ PDF → XML (via GROBID ou autre extracteur brut).
 
-structured field
-python3 src/evaluation/plot.py --dir 2cols --type structured --method levenshtein --tool grobid
-python3 src/evaluation/plot.py --type structured --method levenshtein --metric recall --tool grobid
+ XML/JSON/Markdown → JSON standardisé (via src/main.py).
 
-Simple field
-python3 src/evaluation/plot.py --dir 2cols --type simple --tool grobid
-python3 src/evaluation/plot.py --type simple --method levenshtein --tool grobid
+ Évaluation : comparer avec la référence Érudit (--evaluation).
+
+ Visualisation : tracer moyennes, rappels, précisions, comparaisons multi-outils
+
+ ---
+
+ 1. Transformation des données
+
+Changer le nom d’outil (`--tool`) selon le cas :
+
+```bash
+# Transformer un seul article avec l’outil Érudit (id = chemin relatif "ae49/1039880ar")
+python3 src/main.py --tool erudit --id ae49/1039880ar  
+
+# Transformer plusieurs journaux avec l’outil GROBID
+# (ici : cqd27, ae49, haf18 et 2cols)
+python3 src/main.py --tool grobid --journals cqd27 ae49 haf18 2cols  
 
 
----tester
-python3 src/evaluation/visualisation.py --field title --method strict --tool grobid --dir ae49 --compare
+
+2. Évaluation sur un ou plusieurs journaux
+
+# Évaluer GROBID sur plusieurs journaux
+python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool grobid  
+
+# Évaluer olmOCR sur plusieurs journaux
+python3 src/main.py --evaluation --journals cqd27 ae49 haf18 2cols --tool olmOCR  
+
+
+# Calculer les moyennes des résultats GROBID
+python3 src/evaluation/compute_means.py --tool grobid --dirs ae49 cqd27 haf18 2cols  
+
+# Calculer les moyennes des résultats pdfplumber
+python3 src/evaluation/compute_means.py --tool pdfplumber --dirs ae49 cqd27 haf18 2cols  
+
+
+3. Visualisation des résultats
+
+Champs structurés
+
+# Visualiser résultats pour olmOCR (méthode Levenshtein, structuré, sur 2cols)
+python3 src/evaluation/plot.py --dir 2cols --type structured --method levenshtein --tool olmOCR  
+
+# Visualiser résultats pour olmOCR (structuré, avec rappel)
+python3 src/evaluation/plot.py --type structured --method levenshtein --metric recall --tool olmOCR  
+
+
+Champs simples
+
+# Visualiser résultats simples pour olmOCR (répertoire 2cols)
+python3 src/evaluation/plot.py --dir 2cols --type simple --tool olmOCR  
+
+# Visualiser résultats simples pour Nougat (méthode stricte)
+python3 src/evaluation/plot.py --type simple --method strict --tool nougat  
+
+Comparaison multi-outils
+# Comparer plusieurs outils (résultats simples, Levenshtein, rappel)
+
+python3 src/evaluation/plot.py --compare_tools --tools grobid nougat olmOCR --method levenshtein --metric recall --dir 2cols --type simple  
+
+# Comparer un plus grand ensemble d’outils (structuré)
+python3 src/evaluation/plot.py --compare_tools --tools grobid nougat tatr pdfExtractKit olmOCR pdfplumber --method levenshtein --metric recall --dir 2cols --type structured  
 
 
 
-sh pour grobid
+------------------------------------
 
-"""
+Extraction avec GROBID via curl
 #!/bin/bash
+# Dossier contenant les PDFs en entrée
 INPUT_DIR="/Tmp/nguyth/project/Stage_2025/data/pdfs" 
+
+# Dossier de sortie pour les fichiers XML générés
 OUTPUT_DIR="/Tmp/nguyth/project/Stage_2025/data/raw/xml_grobid/" 
+
+# Créer le dossier de sortie si inexistant
 mkdir -p "$OUTPUT_DIR"
 
+# Boucler sur tous les fichiers PDF
 for f in "$INPUT_DIR"/*.pdf; do 
-	b=$(basename "$f" .pdf) 
-	echo "Processing $f..." 
-	curl -s -X POST http://localhost:8070/api/processFulltextDocument -F input=@"$f" -F consolidateHeader=1 -F consolidateCitations=1 -F consolidateFunding=1 -F includeRawAffiliations=1 -F includeRawCitations=1 -F includeRawCopyright=1 -F segmentSentences=1 -F generateIDs=1 -F teiCoordinates=persName -F teiCoordinates=figure -F teiCoordinates=ref -F teiCoordinates=biblStruct -F teiCoordinates=formula -F teiCoordinates=head -F teiCoordinates=label -F teiCoordinates=figureDesc -F teiCoordinates=table -F teiCoordinates=tr -F teiCoordinates=s -o "$OUTPUT_DIR/$b.xml" 
-done 
-"""
+    b=$(basename "$f" .pdf)  # nom du fichier sans extension
+    echo "Processing $f..."  
+
+    # Envoi à l’API GROBID (http://localhost:8070) pour extraction complète
+    curl -s -X POST http://localhost:8070/api/processFulltextDocument \
+        -F input=@"$f" \
+        -F consolidateHeader=1 \
+        -F consolidateCitations=1 \
+        -F consolidateFunding=1 \
+        -F includeRawAffiliations=1 \
+        -F includeRawCitations=1 \
+        -F includeRawCopyright=1 \
+        -F segmentSentences=1 \
+        -F generateIDs=1 \
+        -F teiCoordinates=persName \
+        -F teiCoordinates=figure \
+        -F teiCoordinates=ref \
+        -F teiCoordinates=biblStruct \
+        -F teiCoordinates=formula \
+        -F teiCoordinates=head \
+        -F teiCoordinates=label \
+        -F teiCoordinates=figureDesc \
+        -F teiCoordinates=table \
+        -F teiCoordinates=tr \
+        -F teiCoordinates=s \
+        -o "$OUTPUT_DIR/$b.xml"   # sortie XML
+done
+

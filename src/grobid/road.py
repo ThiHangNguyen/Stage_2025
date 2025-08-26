@@ -1,3 +1,7 @@
+# chemins_grobid :
+# Dictionnaire qui mappe les champs cibles (title, authors, abstract, etc.)
+# vers leurs expressions XPath dans les fichiers TEI produits par GROBID.
+# Les valeurs None indiquent qu’il n’y a pas d’extraction directe prévue.
 
 chemins_grobid = {
     "title": "//tei:titleStmt/tei:title",

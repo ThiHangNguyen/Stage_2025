@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
 """
 Extracteurs OCR/Markdown (FR/EN) pour titres, résumés, mots-clés, sections,
-références, tableaux et figures.
-
-⚠️ Invariant : parse_olmocr_markdown conserve sa signature et son comportement.
+références, tableaux ( list de contenus )et figures.
 """
 
 import os
@@ -208,7 +205,12 @@ def extract_abstracts(text: str) -> Tuple[str, str]:
 
 
 def extract_section_titles(text: str) -> List[str]:
-    """Collecte des titres de sections via # Markdown, **gras**, ou majuscules typographiques."""
+    """
+    Titres de sections depuis :
+    - en-têtes Markdown (#..###)
+    - lignes en **gras**
+    - blocs en capitales (hors “Figure/Table/Keywords/Mots”)
+    """
     titles: set[str] = set()
 
     # En-têtes Markdown
@@ -234,8 +236,9 @@ def extract_section_titles(text: str) -> List[str]:
 
 def _block_to_entries(block: str) -> List[str]:
     """
-    Transforme un bloc multi-lignes en entrées (séparation par ligne vide/puce/numéro).
-    Concatène les lignes de continuation avec un espace.
+    Transforme un bloc multi-lignes en entrées bibliographiques.
+    - Sépare sur lignes vides / puces / numéros
+    - Concatène les lignes de continuation
     """
     lines = [l.rstrip() for l in block.split("\n")]
     entries, cur = [], []
@@ -293,7 +296,8 @@ def _kw_pre_norm(text: str) -> str:
 
 def extract_keywords(text: str) -> List[str]:
     """
-    Détecte TOUS les blocs FR/EN (y compris en gras Markdown) et fusionne en une seule liste nettoyée.
+    Détecte blocs étiquetés (FR/EN), concatène lignes suivantes jusqu’à un nouveau titre,
+    puis découpe par séparateurs ; , / | puce, etc. Déduplication insensible à la casse.
     """
     t = _kw_pre_norm(text)
     lines = t.split("\n")
@@ -344,6 +348,11 @@ def extract_keywords(text: str) -> List[str]:
 # -------------------- Contenu des tableaux (fusionné) --------------------
 
 def _looks_table_line(s: str) -> bool:
+    """
+    Vérifie si une ligne ressemble à une ligne de tableau
+    (pipes |, séparateurs ----, ou colonnes espacées).
+    """
+
     ss = s.rstrip()
     if not ss:
         return False

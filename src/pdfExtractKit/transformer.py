@@ -3,6 +3,14 @@ import json
 import re
 
 def _ensure_pages(obj):
+    """
+    Garantit que l'entrée (obj) est une liste de pages JSON.
+    - Si c'est un chemin → charge le fichier JSON.
+    - Si c'est un dict → cherche une clé candidate (pages, data, document, result).
+    - Si déjà une liste → la retourne telle quelle.
+    - Sinon → encapsule dans une liste.
+    """
+    
     if isinstance(obj, (str, Path)):
         with open(obj, "r", encoding="utf-8") as f:
             obj = json.load(f)

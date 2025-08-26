@@ -1,15 +1,17 @@
 from utils.io import normalize_text, extract_from_path
 from .road import chemins_erudit
-from typing import List
+from typing import Dict, List
+import re
 
-
+# Namespaces XML propres à Érudit
 ns_erudit = {"er": "http://www.erudit.org/xsd/article",
              "xlink": "http://www.w3.org/1999/xlink"}
 
 
 def extract_biblio_text(node, ns) -> str:
     """
-    Extrait tout le texte d'un <refbiblio>, sauf le contenu de <idpublic>.
+    Extrait le texte brut d’une référence bibliographique (<refbiblio>),
+    en ignorant les identifiants <idpublic>.
     """
     parts = []
 
@@ -36,8 +38,6 @@ def extract_erudit_author_fields(root):
     Retourne un dictionnaire avec une liste de valeurs pour chaque champ.
     """
 
-    ns = {"er": "http://www.erudit.org/xsd/article"}
-
     result = {
         "author_first_name": [],
         "author_last_name": [],
@@ -47,21 +47,21 @@ def extract_erudit_author_fields(root):
         "author_affiliation": [],
     }
 
-    auteurs = root.xpath("//er:grauteur/er:auteur", namespaces=ns)
+    auteurs = root.xpath("//er:grauteur/er:auteur", namespaces=ns_erudit)
 
     for auteur in auteurs:
-        first_name = auteur.xpath("er:nompers/er:prenom/text()", namespaces=ns)
-        last_name_raw = auteur.xpath("er:nompers/er:nomfamille//text()", namespaces=ns)
+        first_name = auteur.xpath("er:nompers/er:prenom/text()", namespaces=ns_erudit)
+        last_name_raw = auteur.xpath("er:nompers/er:nomfamille//text()", namespaces=ns_erudit)
         last_name_text = "".join(last_name_raw).strip()  # ← ce nom est correct
 
-        email = auteur.xpath("er:courriel/er:liensimple/text()", namespaces=ns)
-        orcid = auteur.xpath("er:idno[@type='orcid']/text()", namespaces=ns)
-        website = auteur.xpath("er:liensimple[@type='web']/text()", namespaces=ns)
-        affiliations = auteur.xpath("er:affiliation/er:alinea/text()", namespaces=ns)
+        email = auteur.xpath("er:courriel/er:liensimple/text()", namespaces=ns_erudit)
+        orcid = auteur.xpath("er:idno[@type='orcid']/text()", namespaces=ns_erudit)
+        website = auteur.xpath("er:liensimple[@type='web']/text()", namespaces=ns_erudit)
+        affiliations = auteur.xpath("er:affiliation/er:alinea/text()", namespaces=ns_erudit)
         aff_clean = [a.strip() for a in affiliations if a.strip()]
 
         if not aff_clean:
-            alt_aff = auteur.xpath("er:affiliation/er:alinea//text()", namespaces=ns)
+            alt_aff = auteur.xpath("er:affiliation/er:alinea//text()", namespaces=ns_erudit)
             aff_clean = [a.strip() for a in alt_aff if a.strip()]
 
         result["author_first_name"].append(first_name[0] if first_name else "")
@@ -91,16 +91,15 @@ def extract_erudit_editorial_team(root):
     Retourne une liste de dictionnaires plats, avec un champ 'category'.
     """
 
-    ns = {"er": "http://www.erudit.org/xsd/article"}
     team_flat = []
 
     # Directeurs
-    for d in root.xpath(".//er:directeur", namespaces=ns):
+    for d in root.xpath(".//er:directeur", namespaces=ns_erudit):
         sexe = d.attrib.get("sexe", "")
-        prenom = d.findtext("er:nompers/er:prenom", default="", namespaces=ns)
-        autreprenom = d.findtext("er:nompers/er:autreprenom", default="", namespaces=ns)
-        nomfamille = d.findtext("er:nompers/er:nomfamille", default="", namespaces=ns)
-        fonction = d.findtext("er:fonction", default="", namespaces=ns)
+        prenom = d.findtext("er:nompers/er:prenom", default="", namespaces=ns_erudit)
+        autreprenom = d.findtext("er:nompers/er:autreprenom", default="", namespaces=ns_erudit)
+        nomfamille = d.findtext("er:nompers/er:nomfamille", default="", namespaces=ns_erudit)
+        fonction = d.findtext("er:fonction", default="", namespaces=ns_erudit)
 
         team_flat.append({
             "first_name": prenom,
@@ -112,11 +111,11 @@ def extract_erudit_editorial_team(root):
         })
 
     # Rédacteurs en chef
-    for r in root.xpath(".//er:redacteurchef", namespaces=ns):
+    for r in root.xpath(".//er:redacteurchef", namespaces=ns_erudit):
         typerc = r.attrib.get("typerc", "")
-        prenom = r.findtext("er:nompers/er:prenom", default="", namespaces=ns)
-        autreprenom = r.findtext("er:nompers/er:autreprenom", default="", namespaces=ns)
-        nomfamille = r.findtext("er:nompers/er:nomfamille", default="", namespaces=ns)
+        prenom = r.findtext("er:nompers/er:prenom", default="", namespaces=ns_erudit)
+        autreprenom = r.findtext("er:nompers/er:autreprenom", default="", namespaces=ns_erudit)
+        nomfamille = r.findtext("er:nompers/er:nomfamille", default="", namespaces=ns_erudit)
 
         team_flat.append({
             "first_name": prenom,
@@ -125,15 +124,6 @@ def extract_erudit_editorial_team(root):
             "type": typerc,
             "category": "editor_in_chief"
         })
-
-    # Éditeurs (organismes)
-    # for e in root.xpath(".//er:editeur", namespaces=ns):
-    #     org_name = e.findtext("er:nomorg", default="", namespaces=ns)
-    #     if org_name:
-    #         team_flat.append({
-    #             "organization": org_name,
-    #             "category": "editor"
-    #         })
 
     return team_flat
 
@@ -158,14 +148,13 @@ def extract_figures(root):
     - source (texte de <source>)
     - full_text (tout le texte brut de la figure normalisé)
     """
-    ns = {"er": "http://www.erudit.org/xsd/article"}
     figures = []
 
     # Cas 1 : groupes de figures <grfigure>
-    for grfig in root.findall(".//er:grfigure", namespaces=ns):
-        group_number = grfig.findtext("er:no", default="", namespaces=ns)
-        group_title = grfig.findtext("er:legende/er:titre", default="", namespaces=ns)
-        group_source = extract_source(grfig, ns)
+    for grfig in root.findall(".//er:grfigure", namespaces=ns_erudit):
+        group_number = grfig.findtext("er:no", default="", namespaces=ns_erudit)
+        group_title = grfig.findtext("er:legende/er:titre", default="", namespaces=ns_erudit)
+        group_source = extract_source(grfig, ns_erudit)
         group_text = normalize_text(" ".join(grfig.itertext()))
 
         figures.append({
@@ -176,15 +165,15 @@ def extract_figures(root):
         })
 
     # Cas 2 : figures simples hors <grfigure>
-    for fig in root.findall(".//er:figure", namespaces=ns):
+    for fig in root.findall(".//er:figure", namespaces=ns_erudit):
         # Éviter les sous-figures dans les <grfigure>
         parent = fig.getparent()
         if parent is not None and parent.tag.endswith("grfigure"):
             continue
 
-        fig_number = fig.findtext("er:no", default="", namespaces=ns)
-        fig_title = fig.findtext("er:legende/er:titre", default="", namespaces=ns)
-        fig_source = extract_source(fig, ns)
+        fig_number = fig.findtext("er:no", default="", namespaces=ns_erudit)
+        fig_title = fig.findtext("er:legende/er:titre", default="", namespaces=ns_erudit)
+        fig_source = extract_source(fig, ns_erudit)
         fig_text = normalize_text(" ".join(fig.itertext()))
 
         figures.append({
@@ -198,6 +187,11 @@ def extract_figures(root):
 
 
 def extract_tabtexte_content(table_node, ns):
+
+    """
+    Extrait le contenu textuel (TSV) d’un tableau Érudit.
+    """
+
     lignes = []
 
     # En-tête
@@ -335,21 +329,7 @@ def extract_section_titles_erudit(root):
     return titles
 
 
-def extract_erudit_keywords_by_lang(root):
 
-    # Si root est un ElementTree, on récupère son élément racine
-    if hasattr(root, "getroot"):
-        root = root.getroot()
-
-    lang = root.get("{http://www.w3.org/XML/1998/namespace}lang") or root.get("lang")
-
-    if not lang:
-        return []
-
-    xpath_expr = f".//er:grmotcle[@lang='{lang}']/er:motcle"
-    return [normalize_text(elem.text) for elem in root.xpath(xpath_expr, namespaces=ns_erudit) if elem.text]
-
-from typing import Dict, List
 
 
 def extract_erudit_keywords_all_langs(root) -> Dict[str, List[str]]:
@@ -437,7 +417,8 @@ def extract_table_contents_erudit(root) -> List[str]:
             uniq.append(s)
 
     return uniq
-import re
+
+
 def extract_erudit_keywords_all_langs(root) -> Dict[str, List[str]]:
     """
     Récupère tous les <motcle> groupés par langue, en capturant le texte imbriqué
@@ -491,9 +472,15 @@ def extract_erudit_keywords_all_langs(root) -> Dict[str, List[str]]:
 
 
 def parse_erudit_xml(root):
-
     """
-    Fonction principale de parsing pour un fichier XML Érudit.
+    Fonction principale : transforme un XML Érudit en dictionnaire structuré.
+    Inclut :
+    - champs simples (via chemins_erudit)
+    - auteurs
+    - équipe éditoriale
+    - sections, figures, tables
+    - bibliographies, notes
+    - mots-clés 
     """
     resultats = {}
 

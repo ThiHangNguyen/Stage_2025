@@ -6,6 +6,22 @@ import numpy as np
 
 
 def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, tool=None):
+    """
+    Affiche un graphique en barres groupées pour comparer les scores
+    (strict, soft, levenshtein) d’un répertoire donné.
+
+    Paramètres
+    ----------
+    df : DataFrame
+        Données des scores au format "simple.csv".
+    directory : str
+        Nom du répertoire (ex: "haf18", "2cols").
+    seuil : float, optionnel
+        Seuil à afficher comme ligne horizontale (par défaut 0.8).
+    tool : str, optionnel
+        Nom de l’outil évalué (ex: "grobid", "nougat").
+    """
+
     df = df[df["directory"] == directory]
     if df.empty:
         print(f" Aucune donnée pour {directory}")
@@ -26,9 +42,9 @@ def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, tool=None):
     width = 0.25
 
     colors = {
-        "strict": "#FF9999",        # rose clair
-        "soft": "#FFD580",          # orange pâle
-        "levenshtein": "#A6D785"    # vert pastel
+        "strict": "#FF9999",        
+        "soft": "#FFD580",          
+        "levenshtein": "#A6D785"   
     }
     plt.figure(figsize=(14, 6))
     for i, method in enumerate(methods):
@@ -41,7 +57,6 @@ def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, tool=None):
             color=colors.get(method, 'gray')
         )
 
-    # Ligne seuil
     plt.axhline(y=seuil, color='blue', linestyle='--', label=f"Seuil = {seuil}")
     plt.xticks([val + width for val in x], fields, rotation=45, ha='right')
     plt.ylim(0, 1.05)
@@ -59,6 +74,22 @@ def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, tool=None):
 
 
 def plot_structured_fields_all(df, directory, method="strict", seuil=0.8, tool=None):
+    """
+    Affiche précision, rappel et similarité pour chaque champ structuré
+    d’un répertoire donné.
+
+    df : DataFrame
+        Données des scores au format "structured.csv".
+    directory : str
+        Nom du répertoire.
+    method : str
+        Méthode d’évaluation ("strict", "soft", "levenshtein").
+    seuil : float
+        Seuil de qualité.
+    tool : str
+        Nom de l’outil.
+    """
+
     df = df[df["directory"] == directory]
 
     precision_metric = f"{method}_precision"
@@ -112,7 +143,12 @@ def plot_structured_fields_all(df, directory, method="strict", seuil=0.8, tool=N
 
 def get_sorted_fields_by_directory_priority(df_method, directories=None):
     """
-    Trie les champs selon leur score moyen (par colonne).
+    Trie les champs selon leur score moyen (tous répertoires confondus).
+
+    Retour
+    ------
+    sorted_fields : list[str]
+        Liste des champs triés du meilleur au moins bon.
     """
     fields = [col for col in df_method.columns if col not in ["directory", "method", "metric"]]
     sorted_fields = sorted(fields, key=lambda f: df_method[f].mean(), reverse=True)
@@ -121,8 +157,10 @@ def get_sorted_fields_by_directory_priority(df_method, directories=None):
 
 def plot_grouped_bars(df_method, sorted_fields, directories, method, tool=None):
     """
-    Crée un graphique en barres groupées pour chaque répertoire.
+    Crée un graphique en barres groupées comparant plusieurs répertoires
+    pour une méthode donnée.
     """
+
     seuil = 0.8
     x = range(len(sorted_fields))
     bar_width = 0.9 / len(directories)  # plus étroit
@@ -171,8 +209,27 @@ def plot_grouped_bars(df_method, sorted_fields, directories, method, tool=None):
 
 def plot_simple_all_fields_grouped_by_directory(df, method, tool=None):
     """
-    Affiche un graphique comparant tous les champs pour une méthode donnée,
-    en groupant les barres par répertoire.
+    Affiche un graphique en barres groupées comparant les scores de tous les champs
+    pour une méthode donnée, en regroupant les résultats par répertoire.
+
+    Paramètres
+    ----------
+    df : pandas.DataFrame
+        Données issues du fichier simple.csv (format : colonnes = champs, lignes = répertoires).
+    method : str
+        Méthode d’évaluation à afficher ("strict", "soft", "levenshtein").
+    tool : str, optionnel
+        Nom de l’outil évalué (ex: "grobid", "nougat").
+        Sert uniquement à ajouter une étiquette dans le titre du graphique.
+
+    Exemple
+    -------
+     df = pd.read_csv("results/csv/grobid/means/simple.csv")
+     plot_simple_all_fields_grouped_by_directory(df, method="strict", tool="grobid")
+
+    Cela produira un graphique où chaque champ est représenté sur l’axe X,
+    et les barres correspondent aux scores obtenus dans chaque répertoire,
+    pour la méthode choisie.
     """
     df_method = df[df["method"] == method]
 
@@ -186,6 +243,37 @@ def plot_simple_all_fields_grouped_by_directory(df, method, tool=None):
 
 
 def plot_structured_all_fields_grouped_by_directory(df, method, metric, tool=None):
+
+    """
+    Affiche un graphique en barres groupées pour comparer les scores de tous les champs
+    structurés, en regroupant les résultats par répertoire, pour une méthode et une
+    métrique données.
+
+    Paramètres
+    ----------
+    df : pandas.DataFrame
+        Données issues du fichier structured.csv (avec colonnes: directory, metric, fields...).
+    method : str
+        Méthode d’évaluation à afficher ("strict", "soft", "levenshtein").
+    metric : str
+        Métrique à comparer ("precision", "recall", "avg_similarity").
+    tool : str, optionnel
+        Nom de l’outil évalué (ex: "grobid", "nougat").
+        Sert uniquement à l’affichage dans le titre du graphique.
+
+    Résultat
+    --------
+    - Génère un graphique matplotlib :
+      - Axe X : champs structurés (triés par score moyen décroissant).
+      - Axe Y : score entre 0 et 1.
+      - Barres groupées par répertoire.
+      - Ligne horizontale représentant le seuil de qualité (0.8 par défaut).
+      - Légende indiquant les répertoires.
+
+    Cela produit un graphique comparant les champs structurés de différents
+    répertoires pour l’outil "grobid", méthode stricte, métrique rappel.
+    """
+
     seuil = 0.8
     df_method = df[df["metric"] == f"{method}_{metric}"]
 
@@ -241,33 +329,45 @@ def plot_structured_all_fields_grouped_by_directory(df, method, metric, tool=Non
 
 
 
-def compare_tools_on_fields(
-    tools,
-    method,
-    metric,
-    base_dir="results/csv",
-    seuil=0.8,
-    directory_target="2cols",
-    field_type="structured",
-    annot=True,                # écrire les valeurs dans les cellules
-    cmap="YlOrRd",             # palette orange→rouge (alternatives: "OrRd", "inferno")
-    fmt=".2f",                 # format des annotations
-):
+def compare_tools_on_fields(tools, method, metric, base_dir="results/csv", seuil=0.8, directory_target="2cols", field_type="structured", annot=True, cmap="YlOrRd", fmt=".2f"):
+
+    """
+    Compare plusieurs outils sur un ensemble de champs et affiche une heatmap
+    des scores moyens (champs × outils).
+
+    Paramètres
+    ----------
+    tools : list[str]        Liste des outils à comparer.
+    method : str             Méthode d’évaluation ("strict", "soft", "levenshtein").
+    metric : str             Métrique à utiliser (si structured : "precision", "recall", "avg_similarity").
+    base_dir : str           Répertoire racine des résultats (défaut: "results/csv").
+    seuil : float            Seuil indicatif (défaut: 0.8).
+    directory_target : str   Répertoire cible (ex: "2cols").
+    field_type : str         "structured" ou "simple".
+    annot : bool             Si True, affiche les valeurs sur la heatmap.
+    cmap : str               Palette matplotlib (défaut: "YlOrRd").
+    fmt : str                Format des annotations (défaut: ".2f").
+
+    Résultat
+    --------
+    Affiche une heatmap matplotlib comparant les outils par champ.
+    """
+
     all_dfs = []
     filename = "structured.csv" if field_type == "structured" else "simple.csv"
 
-    # ----- chargement / filtrage (identique à avant) -----
+    # ----- chargement  -----
     for tool in tools:
         path = os.path.join(base_dir, tool, "means", filename)
         if not os.path.exists(path):
-            print(f"❌ Fichier introuvable : {path}")
+            print(f"Fichier introuvable : {path}")
             continue
 
         df_raw = pd.read_csv(path)
 
         if field_type == "structured":
             if "metric" not in df_raw.columns:
-                print(f"⚠️ Format incorrect dans {path} : colonne 'metric' manquante")
+                print(f"Format incorrect dans {path} : colonne 'metric' manquante")
                 continue
 
             df_long = df_raw.melt(
@@ -286,7 +386,7 @@ def compare_tools_on_fields(
             ]
         else:
             if "method" not in df_raw.columns:
-                print(f"⚠️ Format incorrect dans {path} : colonne 'method' manquante")
+                print(f"Format incorrect dans {path} : colonne 'method' manquante")
                 continue
 
             df_long = df_raw.melt(
@@ -303,12 +403,12 @@ def compare_tools_on_fields(
             ]
 
         if df_filtered.empty:
-            print(f"⚠️ Aucune donnée pour {tool} (method={method}, metric={metric}, dir={directory_target})")
+            print(f"Aucune donnée pour {tool} (method={method}, metric={metric}, dir={directory_target})")
         else:
             all_dfs.append(df_filtered)
 
     if not all_dfs:
-        print("🚫 Aucune donnée valide pour la comparaison.")
+        print("Aucune donnée valide pour la comparaison.")
         return
 
     # ----- agrégation -----
@@ -321,7 +421,7 @@ def compare_tools_on_fields(
 
     present_tools = [t for t in tools if t in df_mean["tool"].unique()]
     if not present_tools:
-        print("🚫 Aucun outil présent après filtrage.")
+        print("Aucun outil présent après filtrage.")
         return
 
     pivot = df_mean.pivot(index="field", columns="tool", values="mean_score")
@@ -383,21 +483,38 @@ def compare_tools_on_fields(
 
     plt.tight_layout()
     plt.show()
-    print("✅ Done ")
+    print("Done ")
 
 
 def compare_mean_per_field_across_dirs(tools, method, metric, seuil=0.8):
+    """
+    Compare plusieurs outils en calculant la moyenne des scores par champ 
+    sur tous les répertoires, et affiche un graphique radar.
+
+    Paramètres
+    ----------
+    tools : list[str]      Liste des outils à comparer.
+    method : str           Méthode d’évaluation ("strict", "soft", "levenshtein").
+    metric : str           Métrique à utiliser ("precision", "recall", "avg_similarity").
+    seuil : float          Seuil indicatif affiché (défaut: 0.8).
+
+    Résultat
+    --------
+    Génère un radar chart matplotlib comparant les scores moyens par champ
+    entre outils, avec indication du seuil.
+    """
+
     all_dfs = []
 
     for tool in tools:
         path = os.path.join("results/csv", tool, "means", "structured.csv")
         if not os.path.exists(path):
-            print(f"❌ Fichier introuvable : {path}")
+            print(f"Fichier introuvable : {path}")
             continue
 
         df_raw = pd.read_csv(path)
         if "metric" not in df_raw.columns:
-            print(f"⚠️ Format incorrect dans {path} : colonne 'metric' manquante")
+            print(f"Format incorrect dans {path} : colonne 'metric' manquante")
             continue
 
         # Transformation longue
@@ -412,12 +529,12 @@ def compare_mean_per_field_across_dirs(tools, method, metric, seuil=0.8):
         ]
 
         if df_filtered.empty:
-            print(f"⚠️ Aucune donnée pour {tool} avec méthode={method} et métrique={metric}")
+            print(f"Aucune donnée pour {tool} avec méthode={method} et métrique={metric}")
         else:
             all_dfs.append(df_filtered)
 
     if not all_dfs:
-        print("🚫 Aucune donnée valide pour la comparaison.")
+        print("Aucune donnée valide pour la comparaison.")
         return
 
     # Fusionner et calculer la moyenne par outil et champ
@@ -488,7 +605,7 @@ if __name__ == "__main__":
             directory_target=args.dir,
             field_type=args.type )
         exit()
-    #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat olmOCR --method levenshtein --metric recall --dir ae49 --type simple 
+    #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat olmOCR --method levenshtein --metric recall --dir 2cols --type simple 
     #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat tatr pdfExtractKit olmOCR pdfplumber --method levenshtein --metric recall --dir 2cols --type structured
 
     
@@ -515,8 +632,41 @@ if __name__ == "__main__":
         else:
             print("Veuillez spécifier au moins --dir et --method, ou --method et --metric pour 'structured'.")
 
-#python3 src/evaluation/plot.py --dir haf18 --type structured --method soft
-#python3 src/evaluation/plot.py --type structured --method soft --metric recall
 
-#python3 src/evaluation/plot.py --dir haf18 --type simple
-#python3 src/evaluation/plot.py --type simple --method soft
+"""
+===========================================================
+💡 Commandes utiles pour lancer plot.py
+===========================================================
+
+# 1. Radar chart (moyenne sur tous les répertoires) ### non utilise  
+#il faut choisir des extracteur 
+#python3 src/evaluation/plot.py --tools grobid nougat --method strict --metric recall --mean
+
+# 2. Heatmap multi-outils (par répertoire)
+## 2A. Données structured
+python3 src/evaluation/plot.py --compare_tools --tools grobid nougat olmOCR --method levenshtein --metric recall --dir 2cols --type structured
+
+## 2B. Données simple
+python3 src/evaluation/plot.py --compare_tools --tools grobid nougat olmOCR --method strict --dir 2cols --type simple
+
+# 3. Un seul outil, données simple
+## 3A. Pour un répertoire précis
+python3 src/evaluation/plot.py --tool grobid --type simple --dir haf18 --seuil 0.8
+
+## 3B. Pour tous les répertoires (groupés), méthode donnée
+python3 src/evaluation/plot.py --tool grobid --type simple --method strict
+
+# 4. Un seul outil, données structured
+## 4A. Tous les répertoires groupés (méthode + métrique)
+python3 src/evaluation/plot.py --tool grobid --type structured --method soft --metric precision
+
+## 4B. Un répertoire précis (précision / rappel / similarité par champ)
+python3 src/evaluation/plot.py --tool grobid --type structured --dir 2cols --method strict --seuil 0.8
+
+# 5. Variantes utiles
+## Changer le seuil
+python3 src/evaluation/plot.py --tool grobid --type structured --dir 2cols --method strict --seuil 0.9
+
+## Ajouter / retirer des outils dans la comparaison
+python3 src/evaluation/plot.py --compare_tools --tools grobid nougat tatr pdfplumber --method strict --metric recall --dir 2cols --type structured
+"""

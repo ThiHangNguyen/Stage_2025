@@ -149,8 +149,5 @@ def main():
             except Exception as e:
                 print(f"  [ERREUR] pour {article_id} : {e}")
 
-    #download_erudit_xml_2cols()
-    #clean_pdf_2cols()
-
 if __name__ == "__main__":
     main()

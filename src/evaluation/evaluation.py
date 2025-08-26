@@ -12,51 +12,20 @@ STRATEGIES = {
     "levenshtein": levenshtein_match,
 }
 
-def compare_dict_of_strings(exp_dict, pred_dict, seuil=0.8):
-    """
-    Compare deux dictionnaires simples (ex: id, pagination, rights),
-    en appliquant des similarités sur chaque champ,
-    et en calculant un F1 global.
-    """
-
-    results = {}
-
-    for strat_name, match_fn in STRATEGIES.items():
-        tp = 0
-        fp = 0
-        fn = 0
-        for k in exp_dict:
-            val1 = exp_dict[k]
-            val2 = pred_dict[k]
-            if not val1 and not val2:
-                score = 0.0
-            else:
-                raw = match_fn(val1, val2)
-
-                if isinstance(raw, list):
-                    score = float(raw[0])
-                elif isinstance(raw, bool):
-                    score = 1.0 if raw else 0.0
-                else:
-                    score = float(raw)
-
-                if score >= seuil:
-                    tp += 1
-                            
-        fn = len(exp_dict) - tp
-        fp = len(pred_dict) - tp
-        metrics = compute_metrics(tp, fp, fn)
-        results[f"{strat_name}"] = round(metrics["f1"], 3)
-
-    return results
-
-
 def compare_dict_of_strings(expected_dict, predicted_dict, seuil=0.8):
     """
-    Compare deux dictionnaires simples champ par champ.
-    Pour chaque stratégie :
-    - calcule précision, rappel, F1, support via compute_metrics
-    - calcule la similarité moyenne des champs matchés
+    Compare deux dictionnaires champ par champ avec plusieurs stratégies.
+    Calcule précision, rappel et similarité moyenne.
+
+    Paramètres
+    ----------
+    expected_dict : dict   Dictionnaire attendu (référence).
+    predicted_dict : dict  Dictionnaire prédit.
+    seuil : float          Seuil de similarité (défaut: 0.8).
+
+    Retour
+    ------
+    dict : {stratégie: {precision, recall, avg_similarity}}
     """
 
     results = {}
@@ -101,14 +70,19 @@ def compare_dict_of_strings(expected_dict, predicted_dict, seuil=0.8):
 
 def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
     """
-    Compare deux listes de chaînes de caractères :
-    - predicted_list : la liste générée ex par GROBID (à évaluer)
-    - expected_list  : la vérité de terrain (Érudit)
-    
-    Pour chaque stratégie de STRATEGIES :
-    - aligne les éléments avec meilleure similarité ≥ seuil (1-to-1)
-    - calcule précision, rappel, F1 via compute_metrics
-    - calcule la similarité moyenne des appariements
+    Compare deux listes de chaînes avec plusieurs stratégies.
+    Aligne les éléments par meilleure similarité ≥ seuil (1-to-1).
+    Calcule précision, rappel et similarité moyenne.
+
+    Paramètres
+    ----------
+    predicted_list : list[str]   Liste prédite (ex: outil).
+    expected_list : list[str]    Liste de référence.
+    seuil : float                Seuil de similarité (défaut: 0.8).
+
+    Retour
+    ------
+    dict : {stratégie: {precision, recall, avg_similarity}}
     """
 
     scores = {}
@@ -159,11 +133,19 @@ def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
 
 def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
     """
-    Compare deux listes d’objets structurés.
-    Pour chaque prédiction (GROBID), cherche le meilleur match dans la référence (Érudit).
-    Utilise une similarité de clé ≥ seuil pour aligner.
-    Calcule les métriques via compute_metrics.
-    Retourne : précision, rappel, support, et similarité moyenne des objets prédits correctement.
+    Compare deux listes d’objets structurés (ex: auteurs, tables).
+    Cherche le meilleur alignement clé ≥ seuil et calcule métriques.
+    
+    Paramètres
+    ----------
+    pred_list : list[dict]   Liste prédite.
+    exp_list : list[dict]    Liste de référence.
+    type_ : str              Type d’objet structuré (ex: "authors", "tables").
+    seuil : float            Seuil de similarité (défaut: 0.8).
+
+    Retour
+    ------
+    dict : {stratégie: {precision, recall, avg_similarity}}
     """
 
     scores = {}
@@ -269,6 +251,21 @@ def compare_simple(text1: str, text2: str) -> dict:
     return scores
 
 def compare_raw_bibliographies(erudit_bib, grobid_bib):
+
+    """
+    Compare les bibliographies brutes (raw_reference) entre deux outils.
+    Transforme en listes de chaînes puis appelle compare_list_of_strings.
+
+    Paramètres
+    ----------
+    erudit_bib : list[dict]    Bibliographie de référence.
+    grobid_bib : list[dict]    Bibliographie prédite.
+
+    Retour
+    ------
+    dict : Résultats de comparaison par stratégie.
+    """
+    
     erudit_refs = [ref.get("raw_reference", "").strip() for ref in erudit_bib if "raw_reference" in ref]
     grobid_refs = [ref.get("raw_reference", "").strip() for ref in grobid_bib if "raw_reference" in ref]
     return compare_list_of_strings(erudit_refs, grobid_refs)
@@ -310,6 +307,21 @@ FIELD_COMPARISON_FUNCTIONS = {
 
 
 def evaluate_fields_from_json(source, target, fields_to_compare):
+    """
+    Évalue un ensemble de champs entre deux articles JSON.
+    Sélectionne la bonne fonction de comparaison par champ.
+    Mesure le temps d’exécution par champ.
+
+    Paramètres
+    ----------
+    source : dict            Données extraites (outil).
+    target : dict            Données de référence (outil).
+    fields_to_compare : list Liste des champs à comparer.
+
+    Retour
+    ------
+    dict : {champ: résultats de comparaison + présence}
+    """
     results = {}
     presence_flags = {} 
     for field in fields_to_compare:
@@ -346,14 +358,19 @@ def evaluate_fields_from_json(source, target, fields_to_compare):
 
 def evaluate(source: str, target: str, article_id: str, subfolder: str = None):
     """
-    Évalue un article donné entre deux outils (source et target),
-    en comparant leurs fichiers JSON transformés.
+    Évalue un article donné entre deux outils (source et target).
+    Charge les JSON, compare les champs, sauvegarde les résultats en CSV.
 
-    Args:
-        source (str): Nom de l'outil source (ex: "erudit").
-        target (str): Nom de l'outil cible (ex: "grobid").
-        article_id (str): Identifiant de l'article.
-        subfolder (str, optional): Sous-répertoire dans data/processed/<tool>/ (ex: "xml_2cols").
+    Paramètres
+    ----------
+    source : str        Nom de l’outil source.
+    target : str        Nom de l’outil cible.
+    article_id : str    Identifiant de l’article.
+    subfolder : str     Sous-répertoire optionnel.
+
+    Retour
+    ------
+    None (sauvegarde résultats en CSV)
     """
     source_data = load_json(source, article_id, subfolder=subfolder)
     target_data = load_json(target, article_id, subfolder=subfolder)

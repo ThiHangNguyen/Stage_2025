@@ -1,52 +1,5 @@
 from .io import normalize_date, normalize_text, first_or_empty, first_or_raw
 
-def convert_section(section_data):
-    """
-    Objectif :
-        Convertir une section d'article (et ses sous-sections) en une structure JSON normalisée dans le body,
-        en nettoyant le contenu textuel et en structurant les éléments multimédias, citations et formules.
-
-    Paramètres :
-        section_data (dict) : Données d'une section, extraites d’un XML structuré (ex : body_sections),
-                              contenant des champs comme titre, paragraphes, figures, formules, sous-sections, etc.
-
-    Retour :
-        dict : Section normalisée contenant :
-            - "title" : titre de la section (chaîne nettoyée)
-            - "paragraphs" : liste de paragraphes nettoyés
-            - "citations" : liste d’objets citation {text, source}
-            - "urls" : Liste de liens URL présents dans la section, nettoyés.
-            - "formulas" : Liste de formules mathématiques
-            - "media_objects" : Liste d’objets multimédias (images, vidéos, etc.) dans leur forme brute.
-            - "references" : Liste de chaînes textuelles correspondant à des références ou renvois, nettoyées.
-            - "subsections" : traitement récursif des sous-sections
-    """
-
-    return {
-        "title": first_or_empty(section_data.get("title")),
-        "paragraphs": [normalize_text(p) for p in section_data.get("paragraphs", [])],
-        "citations": [
-            {
-                "text": normalize_text(c.get("text", "")),
-                "source": normalize_text(c.get("source", "")) if "source" in c else ""
-            }
-            for c in section_data.get("citations", [])
-        ],
-        "formulas": [
-            {
-                "content": normalize_text(f.get("content", "")),
-                "image_href": f.get("image_href", "")
-            }
-            for f in section_data.get("formulas", section_data.get("equations", []))
-            if isinstance(f, dict)
-        ],
-        "urls": [normalize_text(u) for u in section_data.get("urls", [])],
-        "media_objects": section_data.get("media_objects", []),
-        "references": [normalize_text(r) for r in section_data.get("references", [])],
-        "subsections": [convert_section(s) for s in section_data.get("subsections", [])],
-    }
-
-
 def convert_to_base(data):
     """
     Objectif :
@@ -101,27 +54,6 @@ def convert_to_base(data):
         #"biographical_notes": [normalize_text(n) for n in data.get("biographical_notes", []) if isinstance(n, str)],
         "content_tables": [normalize_text(k) for k in data.get("content_table", []) if isinstance(k, str)],
         "notes": [normalize_text(n) for n in data.get("notes", []) if isinstance(n, str)],
-                # "bibliographies": [
-        #     {
-        #         "authors": b.get("authors", []),
-        #         "title": normalize_text(b.get("title", "")),
-        #         "monograph_title": normalize_text(b.get("monograph_title", "")),
-        #         "editors": b.get("editors", []),
-        #         "publisher": normalize_text(b.get("publisher", "")),
-        #         "place": normalize_text(b.get("place", "")),
-        #         "date": normalize_date(b.get("date", "")),
-        #         "pages": normalize_text(b.get("pages", "")),
-        #         "volume": normalize_text(b.get("volume", "")),
-        #         "issue": normalize_text(b.get("issue", "")),
-        #         "organization": normalize_text(b.get("organization", "")),
-        #         "notes": normalize_text(b.get("notes", "")),
-        #         "url": normalize_text(b.get("url", "")),
-        #         "doi": normalize_text(b.get("doi", "")),
-        #         "raw_reference": normalize_text(b.get("raw_reference", ""))
-        #     }
-        #     for b in data.get("bibliographies", [])
-        #     if isinstance(b, dict)
-        # ],
     
     }
 
@@ -138,28 +70,6 @@ def convert_to_base(data):
                 "orcid": normalize_text(author.get("orcid", ""))
             }
             base["authors"].append(personne)
-
-
-
-    # editorial_team = data.get("editorial_team", [])
-    # if isinstance(editorial_team, list):
-    #     base["editorial_team"] = []
-    #     for member in editorial_team:
-    #         personne = {}
-    #         for k, v in member.items():
-    #             personne[k] = normalize_text(v) if isinstance(v, str) else v
-    #         base["editorial_team"].append(personne)
-
-
-    # base["body"] = []
-    # for s in data.get("body_sections", []):
-    #     if isinstance(s, dict):
-    #         base["body"].append({
-    #             "title": normalize_text(s.get("title", "")),
-                #"paragraphs": [normalize_text(p) for p in s.get("paragraphs", [])],
-                #"parent": normalize_text(s["parent"]) if s.get("parent") else None
-    #        })
-
 
     base["figures"] = []
     for f in data.get("figures", []):

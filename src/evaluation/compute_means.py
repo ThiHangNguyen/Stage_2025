@@ -5,6 +5,18 @@ import pandas as pd
 from collections import defaultdict
 
 def is_structured(value):
+    """
+    Vérifie si une valeur représente un dictionnaire (JSON-like).
+    
+    Paramètres
+    ----------
+    value : str
+        Valeur en texte (souvent issue d’un CSV).
+    
+    Retour
+    ------
+    bool : True si la valeur est un dictionnaire parsable, False sinon.
+    """
     try:
         parsed = ast.literal_eval(value)
         return isinstance(parsed, dict)
@@ -12,13 +24,30 @@ def is_structured(value):
         return False
 
 def process_per_field(repertoires, base_dir):
+    """
+    Calcule les scores moyens par champ (simple et structuré) pour chaque répertoire.
+    Génère deux CSV : simple.csv et structured.csv dans results/csv/<tool>/means/.
+
+    Paramètres
+    ----------
+    repertoires : list[str]
+        Liste des sous-dossiers (ex: ["haf18", "2cols"]).
+    base_dir : str
+        Chemin vers le dossier racine d’un outil (ex: results/csv/grobid).
+
+    Résultat
+    --------
+    - results/csv/<tool>/means/simple.csv
+    - results/csv/<tool>/means/structured.csv
+    """
+
     simple_rows = []
     structured_rows = []
 
     for rep in repertoires:
         dir_path = os.path.join(base_dir, rep)
         if not os.path.isdir(dir_path):
-            print(f"⚠️ Répertoire introuvable : {dir_path}")
+            print(f"Répertoire introuvable : {dir_path}")
             continue
 
         simple_scores = defaultdict(lambda: defaultdict(list))
@@ -31,7 +60,7 @@ def process_per_field(repertoires, base_dir):
             try:
                 df = pd.read_csv(file_path)
             except Exception as e:
-                print(f"⚠️ Erreur lecture fichier {file_path}: {e}")
+                print(f"Erreur lecture fichier {file_path}: {e}")
                 continue
 
             df = df[df["has_ref"] == 1]  
@@ -53,7 +82,7 @@ def process_per_field(repertoires, base_dir):
         all_simple_fields = sorted(simple_scores.keys())
         all_struct_fields = sorted(structured_scores.keys())
 
-        # 🔹 simple.csv : une ligne par méthode
+        #  simple.csv : une ligne par méthode
         for method in ["strict","soft", "levenshtein"]:
             row = {"directory": rep, "method": method}
             for field in all_simple_fields:
@@ -61,7 +90,7 @@ def process_per_field(repertoires, base_dir):
                 row[field] = sum(values) / len(values) if values else 0.0
             simple_rows.append(row)
 
-        # 🔹 structured.csv : une ligne par méthode+metric
+        #  structured.csv : une ligne par méthode+metric
         for method in ["strict","soft", "levenshtein"]:
             for metric in ["precision", "recall", "avg_similarity"]:
                 row = {"directory": rep, "metric": f"{method}_{metric}"}
@@ -83,7 +112,7 @@ def process_per_field(repertoires, base_dir):
     df_simple.to_csv(os.path.join(out_dir, "simple.csv"), index=False)
     df_structured.to_csv(os.path.join(out_dir, "structured.csv"), index=False)
 
-    print(f"✅ Résultats sauvegardés dans :\n  - {out_dir}/simple.csv\n  - {out_dir}/structured.csv")
+    print(f"Résultats sauvegardés dans :\n  - {out_dir}/simple.csv\n  - {out_dir}/structured.csv")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Calcul des moyennes par champ avec has_ref=1")

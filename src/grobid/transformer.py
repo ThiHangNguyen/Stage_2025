@@ -23,6 +23,12 @@ def extract_grobid_footnotes(root):
 
 
 def extract_grobid_biblio_dicts(root):
+    """
+    Extrait toutes les références bibliographiques (<biblStruct>).
+    Retourne une liste de dictionnaires avec champs normalisés :
+    auteurs, titre, monographie, éditeurs, date, pages, volume, DOI, URL, etc.
+    """
+
     biblios = []
     bibl_structs = root.xpath(".//tei:back//tei:div[@type='references']//tei:listBibl//tei:biblStruct", namespaces=ns_grobid)
     print(len(bibl_structs))
@@ -138,7 +144,7 @@ def extract_grobid_biblio_dicts(root):
 
 def extract_grobid_author_affiliations_flat(root):
     """
-    #Extrait les affiliations des auteurs dans GROBID (plate et simple).
+    Extrait les affiliations des auteurs dans GROBID (plate et simple).
     """
     affiliations = []
     authors = root.xpath("//tei:sourceDesc//tei:author", namespaces={"tei": "http://www.tei-c.org/ns/1.0"})
@@ -173,41 +179,11 @@ def extract_section_titles(root):
 
     return section_titles
 
-
-# def extract_grobid_tables(root):
-#     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
-#     tables = []
-
-#     for figure in root.findall(".//tei:figure", namespaces=ns):
-#         print("Found <figure>")
-
-#         table_node = figure.find("tei:table", namespaces=ns)
-#         if table_node is None:
-#             print("  -> No <tei:table> inside.")
-#             continue
-
-#         label_node = figure.find("tei:label", namespaces=ns)
-#         number = normalize_text(" ".join(label_node.itertext())) if label_node is not None else ""
-
-#         figdesc_node = figure.find("tei:figDesc", namespaces=ns)
-#         title = normalize_text(" ".join(figdesc_node.itertext())) if figdesc_node is not None else ""
-
-#         rows = []
-#         for row in table_node.findall("tei:row", namespaces=ns):
-#             cells = [normalize_text(" ".join(cell.itertext())) for cell in row.findall("tei:cell", namespaces=ns)]
-#             rows.append(cells)
-
-#         full_text = f"{number} {title}".strip()
-#         tables.append({
-#             "number": number,
-#             "title": title,
-#             "rows": rows,
-#             "full_text": full_text if full_text else None
-#         })
-
-#     print(f"{len(tables)} tables found")
-#     return tables
 def extract_grobid_tables(root):
+    """
+    Extrait les tableaux (<tei:table>), qu’ils soient dans une figure ou non.
+    Chaque tableau = dict {number, title, content, note}.
+    """
     NS = {"tei": "http://www.tei-c.org/ns/1.0"}
     tables = []
 
@@ -296,7 +272,6 @@ def extract_table_contents_grobid(root):
 
     return out
 
-import re
 
 def extract_grobid_figures_from_text(root):
     """
@@ -421,33 +396,41 @@ def extract_grobid_figures_from_text(root):
     return figures
 
 
-def guess_name_from_affiliation(text):
-    """
-    Essaie d'extraire un prénom et un nom depuis une chaîne d'affiliation brute.
-    Hypothèse : le nom est au début de la chaîne (avant la première virgule).
-    """
-    if not text:
-        return "", ""
+# def guess_name_from_affiliation(text):
+#     """
+#     Essaie d'extraire un prénom et un nom depuis une chaîne d'affiliation brute.
+#     Hypothèse : le nom est au début de la chaîne (avant la première virgule).
+#     """
+#     if not text:
+#         return "", ""
 
-    # Supprimer label type "**" ou autres caractères spéciaux
-    text = re.sub(r'^\*+\s*', '', text)
-    text = text.strip()
+#     # Supprimer label type "**" ou autres caractères spéciaux
+#     text = re.sub(r'^\*+\s*', '', text)
+#     text = text.strip()
 
-    # Prendre les mots avant la première virgule
-    parts = text.split(",", 1)
-    if parts:
-        name_part = parts[0].strip()
+#     # Prendre les mots avant la première virgule
+#     parts = text.split(",", 1)
+#     if parts:
+#         name_part = parts[0].strip()
 
-        # Tenter de séparer en prénom / nom
-        name_tokens = name_part.split()
-        if len(name_tokens) >= 2:
-            return name_tokens[0], " ".join(name_tokens[1:])
-        else:
-            return "", name_tokens[0]  # Si un seul mot, on suppose que c’est le nom
+#         # Tenter de séparer en prénom / nom
+#         name_tokens = name_part.split()
+#         if len(name_tokens) >= 2:
+#             return name_tokens[0], " ".join(name_tokens[1:])
+#         else:
+#             return "", name_tokens[0]  # Si un seul mot, on suppose que c’est le nom
 
-    return "", ""
+#     return "", ""
 
 def extract_grobid_author_dicts(root):
+    """
+    Extrait les auteurs et leurs métadonnées :
+    - prénom, nom
+    - email
+    - affiliations (notes brutes)
+    Retourne une liste de dicts.
+    """
+
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
     authors_elements = root.xpath("//tei:sourceDesc//tei:author", namespaces=ns)
 
@@ -456,7 +439,6 @@ def extract_grobid_author_dicts(root):
     for elem in authors_elements:
         persName = elem.find("tei:persName", namespaces=ns)
         affiliations = elem.findall("tei:affiliation", namespaces=ns)
-        #print (affiliations)
         email_elem = elem.find("tei:email", namespaces=ns)
 
         current_author = {
@@ -495,10 +477,10 @@ def extract_grobid_author_dicts(root):
                     affiliation_texts.append(note_text)
 
                     # Deviner nom si vide
-                    if not current_author["first_name"] and not current_author["last_name"]:
-                        guess_first, guess_last = guess_name_from_affiliation(note_text)
-                        current_author["first_name"] = guess_first
-                        current_author["last_name"] = guess_last
+                    # if not current_author["first_name"] and not current_author["last_name"]:
+                    #     guess_first, guess_last = guess_name_from_affiliation(note_text)
+                    #     current_author["first_name"] = guess_first
+                    #     current_author["last_name"] = guess_last
 
         current_author["affiliation"] = " ; ".join(affiliation_texts)
 
@@ -511,6 +493,12 @@ def extract_grobid_author_dicts(root):
 
 
 def parse_grobid_xml(root):
+    """
+    Fonction principale : transforme un XML TEI GROBID en dict structuré.
+    Extrait tous les champs définis dans chemins_grobid :
+    - date, id, notes, bibliographies, auteurs, sections, figures, tables.
+    Normalise les textes avant retour.
+    """
     resultats = {}
 
     for champ, xpath in chemins_grobid.items():
@@ -553,7 +541,6 @@ def parse_grobid_xml(root):
         else:
             resultats[champ] = []
         
-        # Normaliser tous les textes extraits
         if isinstance(resultats[champ], list):
             resultats[champ] = [normalize_text(x) for x in resultats[champ] if isinstance(x, str)]
         elif isinstance(resultats[champ], str):

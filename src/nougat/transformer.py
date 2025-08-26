@@ -1,6 +1,13 @@
 import re
 
 def extract_title_from_nougat_md(filepath):
+    """
+    Extrait le titre principal d’un fichier Markdown Nougat.
+    - Début : première ligne commençant par "# ".
+    - Fin : arrêt quand une ligne suivante commence par une majuscule (soupçonnée de section).
+    Retourne une chaîne concaténée.
+    """
+
     extracted_lines = []
     found_title_start = False
 
@@ -29,6 +36,13 @@ def extract_title_from_nougat_md(filepath):
 
 
 def extract_abstract_from_nougat_md(filepath):
+    """
+    Extrait le résumé (abstract) depuis un fichier Markdown Nougat.
+    - Cherche un titre de section (## Abstract / Résumé).
+    - Concatène toutes les lignes suivantes jusqu’au prochain header Markdown.
+    Retourne une chaîne.
+    """
+
     abstract_lines = []
     in_abstract = False
     abstract_pattern = re.compile(r"^#{2,6}\s+(abstract|résumé|resume)\s*$", re.IGNORECASE)
@@ -53,49 +67,14 @@ def extract_abstract_from_nougat_md(filepath):
     return " ".join(abstract_lines)
 
 
-
-def extract_references_from_nougat_md(filepath):
-    references = []
-    in_references = False
-    is_bibliography_format = False  # Pour savoir si on est dans un bloc "Bibliography"
-
-    with open(filepath, "r", encoding="utf-8") as f:
-        for line in f:
-            stripped = line.strip()
-
-            # Début de la section "References"
-            if not in_references and re.match(r"^#{2,6}.*\breferences\b", stripped, re.IGNORECASE):
-                in_references = True
-                is_bibliography_format = False  # C'est le format avec [année]
-                continue
-
-            # Début de la section "Bibliography"
-            if not in_references and re.match(r"^#{2,6}.*\bbibliography\b", stripped, re.IGNORECASE):
-                in_references = True
-                is_bibliography_format = True  # Format paragraphe classique
-                continue
-
-            if in_references:
-                # Fin de section si un nouveau bloc markdown commence
-                if re.match(r"^#{1,6}\s", stripped):
-                    break
-
-                if not stripped:
-                    continue  # Ignorer lignes vides
-
-                if is_bibliography_format:
-                    # Bibliography : ajouter ligne entière
-                    references.append(stripped)
-                else:
-                    # References : matcher "* [1990] Texte"
-                    match = re.match(r"\*\s*\[\d{4}\]\s+(.*)", stripped)
-                    if match:
-                        references.append(match.group(1).strip())
-
-    return references
-
-
 def clean_reference_line(text):
+    """
+    Nettoie une ligne de référence bibliographique Markdown/LaTeX :
+    - remplace N° et degrés, guillemets français, italique Markdown, etc.
+    - supprime caractères LaTeX (\ , \\ , accolades).
+    Retourne une chaîne nettoyée.
+    """
+
     # 1. Numéro : N\({}^{\circ}\) → N°
     text = re.sub(r'N\\\(\{\}\^\{\\circ\}\\\)', 'N°', text)
     
@@ -118,10 +97,17 @@ def clean_reference_line(text):
     return text.strip()
 
 
-# def clean_reference_line(line):
-#     return line.replace("N\\({}^{\\circ}\\)", "No").replace("\\({}^{\\circ}\\)", "No")
-
 def extract_references_from_nougat_md(filepath):
+    """
+    Extrait la liste des références bibliographiques depuis un fichier Markdown Nougat.
+    Étapes :
+    - Détecte le début de la section (## References, ## Bibliography, ou équivalents).
+    - Arrête l’extraction dès qu’un nouveau header est rencontré.
+    - Nettoie chaque ligne avec `clean_reference_line`.
+    - Gère deux formats : listes à puces (* Texte) et format bibliographie brute.
+    Retourne une liste de références (chaînes).
+    """
+
     references = []
     in_references = False
     is_bibliography_format = False
@@ -175,6 +161,13 @@ def extract_references_from_nougat_md(filepath):
 
 
 def extract_body_section_titles(filepath):
+    """
+    Extrait les titres des sections (Markdown ## ... ######) d’un fichier Nougat.
+    - Parcourt toutes les lignes et capture les titres de niveau ≥ 2.
+    - Ignore les titres vides ou contenant des mots-clés exclus (abstract, references, etc.).
+    Retourne une liste de chaînes (titres des sections).
+    """
+
     section_titles = []
     
     #excluded_keywords = ["abstract", "résumé", "resume", "references", "bibliography", "bibliographie", "bibliographies", "annexe"]
@@ -198,74 +191,18 @@ def extract_body_section_titles(filepath):
 
 
 
-def clean_latex_expression(expr):
-    # Supprimer les parenthèses LaTeX \(...\)
-    expr = re.sub(r"\\\(|\\\)|\$", "", expr)
-
-    # Convertir I_{1} → I1, X_{abc} → Xabc
-    expr = re.sub(r"_\{([^}]+)\}", r"\1", expr)
-    expr = re.sub(r"_(\w)", r"\1", expr)
-
-    # Supprimer autres balises LaTeX inutiles
-    expr = re.sub(r"\\text\{([^}]+)\}", r"\1", expr)
-    expr = re.sub(r"\\mathrm\{([^}]+)\}", r"\1", expr)
-    expr = re.sub(r"\\[a-zA-Z]+\s*", "", expr)
-
-    return expr.strip()
-
-
 
 def clean_latex_text(text):
-    if not text or len(text) > 1000 or text.count("#") > 30:
-        return None  # Bruit probable
+    
+    """
+    Nettoie une chaîne contenant du LaTeX ou Markdown parasite.
+    - Supprime formules ($...$, \(...\), \[...\]), commandes LaTeX et multicolumn.
+    - Convertit les caractères spéciaux (\%, \_, \&, etc.).
+    - Supprime accolades, balises Markdown (*...*, **...**).
+    - Filtre bruit excessif (#, séquences spéciales, erreurs OCR).
+    Retourne une chaîne propre ou None si texte considéré comme bruit.
+    """
 
-    # Supprimer les maths : \( \), \[ \], $ $
-    text = re.sub(r"\\\((.*?)\\\)", r"\1", text)
-    text = re.sub(r"\\\[(.*?)\\\]", r"\1", text)
-    text = re.sub(r"\$(.*?)\$", r"\1", text)
-
-    # Remplacer \multicolumn{n}{format}{contenu} par juste le contenu
-    text = re.sub(r"\\multicolumn\{\d+\}\{[^\}]*\}\{([^\}]*)\}", r"\1", text)
-
-
-    # Supprimer les commandes \command{...}
-    text = re.sub(r"\\[a-zA-Z]+\*?\{([^}]*)\}", r"\1", text)
-
-    # Extraire le contenu des multicolumns et remplacer par le contenu réel
-    text = re.sub(r"\\multicolumn\{\d+\}\{[lcr|]+\}\{([^}]*)\}", r"\1", text)
-
-    # Supprimer les commandes simples (sans arguments)
-    text = re.sub(r"\\[a-zA-Z]+\*?", "", text)
-
-    # Caractères spéciaux LaTeX
-    text = text.replace(r"\&", "&").replace(r"\%", "%")
-    text = text.replace(r"\_", "_").replace(r"\$", "$")
-    text = text.replace(r"\\", " ")
-
-    # Supprimer les définitions de colonnes LaTeX : |p{...}|, |c|, etc.
-    text = re.sub(r"\|?(p|c|l|r)\{[^}]+\}\|?", "", text)
-
-    # Supprimer les balises Markdown accidentelles (** ou *)
-    text = re.sub(r"\*\*(.*?)\*\*", r"\1", text)
-    text = re.sub(r"\*(.*?)\*", r"\1", text)
-
-    # Supprimer les accolades
-    text = text.replace("{", "").replace("}", "")
-
-    # Supprimer les barres ou caractères répétés
-    text = re.sub(r"[\\/^]{3,}", "", text)
-
-    # Nettoyage final
-    cleaned = " ".join(text.strip().split())
-
-    if not cleaned or len(cleaned) < 2:
-        return None
-    return cleaned
-
-import re
-import re
-
-def clean_latex_text(text):
     if not text or len(text) > 1000 or text.count("#") > 30:
         return None  # Probablement du bruit ou une cellule vide trop grande
 
@@ -319,26 +256,17 @@ def clean_latex_text(text):
     return cleaned
 
 
-
-def extract_notes_around_tabular(latex: str) -> list[str]:
-    """
-    Cherche les notes directement après les environnements tabular
-    comme "Note:", "Source:", "ND:" etc.
-    """
-    note_lines = []
-    pattern = re.compile(
-        r'(\\end\{tabular\*?\})(.*?)(?=\\begin|\Z)',  # ce qu'il y a après un \end{tabular}
-        flags=re.DOTALL
-    )
-    for match in pattern.finditer(latex):
-        after = match.group(2).strip()
-        # Check first line after \end{tabular}
-        first_line = after.split('\n')[0].strip()
-        if re.match(r'^(Note|Source|ND)\s*:', first_line, re.IGNORECASE):
-            note_lines.append(first_line)
-    return note_lines
-
 def extract_tables_from_nougat_latex(filepath):
+
+    """
+    Extrait les tableaux d’un fichier Nougat (LaTeX dans Markdown).
+    Étapes :
+    - Localise les blocs \\begin{tabular}...\\end{tabular}.
+    - Nettoie les cellules avec `clean_latex_text`.
+    - Associe un titre (Table X: ...) et une note (Note: ou Source:).
+    Retourne une liste de dicts {number, title, content, note}.
+    """
+
     tables = []
 
     with open(filepath, encoding="utf-8") as f:
@@ -416,6 +344,13 @@ def extract_tables_from_nougat_latex(filepath):
 
 
 def parse_nougat_md(filepath):
+    """
+    Fonction principale de parsing pour un Markdown Nougat.
+    - Extrait : titre, abstract, sections, tables, figures, notes, bibliographie.
+    - Figures/notes = vides pour l’instant (placeholders).
+    Retourne un dictionnaire structuré avec les champs normalisés.
+    """
+
     resultats = {}
 
     # Métadonnées principales

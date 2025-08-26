@@ -1,3 +1,7 @@
+# chemins_erudit :
+# Dictionnaire qui mappe les champs cibles (title, authors, abstract, etc.)
+# vers leurs expressions XPath dans les fichiers XML fournis par Érudit.
+# Les valeurs None indiquent qu’il n’y a pas d’extraction directe prévue.
 
 chemins_erudit = {
     "title": ".//er:grtitre/er:titre",
