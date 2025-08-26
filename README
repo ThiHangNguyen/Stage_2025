@@ -19,7 +19,7 @@ python3 src/evaluation/compute_means.py --tool nougat --dirs ae49 cqd27 haf18 2c
 
 structured field
 python3 src/evaluation/plot.py --dir 2cols --type structured --method levenshtein --tool grobid
-python3 src/evaluation/plot.py --type structured --method soft --metric recall --tool nougat
+python3 src/evaluation/plot.py --type structured --method levenshtein --metric recall --tool grobid
 
 Simple field
 python3 src/evaluation/plot.py --dir 2cols --type simple --tool grobid

@@ -1,19 +1,19 @@
-field,has_ref,has_extractor,soft,levenshtein
-title,1,1,0.696,0.696
-abstract,1,1,0.998,0.998
-language,1,1,1.0,1.0
-date,1,0,0.0,0.0
-issue_number,1,0,0.0,0.0
-volume,1,0,0.0,0.0
-acknowledgements,1,1,0.048,0.966
-authors,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.997}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.997}"
-tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-figures,1,1,"{'precision': 0.333, 'recall': 0.25, 'avg_similarity': 0.49}","{'precision': 0.333, 'recall': 0.25, 'avg_similarity': 0.49}"
-keywords,1,1,"{'precision': 1.0, 'recall': 0.5, 'avg_similarity': 0.5}","{'precision': 1.0, 'recall': 0.5, 'avg_similarity': 0.5}"
-themes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-section_titles,1,1,"{'precision': 0.722, 'recall': 1.0, 'avg_similarity': 0.911}","{'precision': 0.722, 'recall': 1.0, 'avg_similarity': 0.911}"
-content_tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-bibliographies,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.999}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.999}"
-id,1,1,"{'precision': 0.5, 'recall': 0.5, 'avg_similarity': 1.0}","{'precision': 0.5, 'recall': 0.5, 'avg_similarity': 1.0}"
-pagination,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-rights,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+field,has_ref,has_extractor,strict,soft,levenshtein
+title,1,1,0.0,0.696,0.696
+abstract,1,1,0.0,0.998,0.998
+language,1,1,1.0,1.0,1.0
+date,1,0,0.0,0.0,0.0
+issue_number,1,0,0.0,0.0,0.0
+volume,1,0,0.0,0.0,0.0
+acknowledgements,1,1,0.0,0.048,0.966
+authors,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.688}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.997}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.997}"
+tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+figures,1,1,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.333, 'recall': 0.25, 'avg_similarity': 0.49}","{'precision': 0.333, 'recall': 0.25, 'avg_similarity': 0.49}"
+keywords,1,1,"{'precision': 1.0, 'recall': 0.5, 'avg_similarity': 0.5}","{'precision': 1.0, 'recall': 0.5, 'avg_similarity': 0.5}","{'precision': 1.0, 'recall': 0.5, 'avg_similarity': 0.5}"
+themes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+section_titles,1,1,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.722, 'recall': 1.0, 'avg_similarity': 0.911}","{'precision': 0.722, 'recall': 1.0, 'avg_similarity': 0.911}"
+content_tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+bibliographies,1,1,"{'precision': 0.758, 'recall': 0.758, 'avg_similarity': 0.758}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.999}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.999}"
+id,1,1,"{'precision': 0.5, 'recall': 0.5, 'avg_similarity': 1.0}","{'precision': 0.5, 'recall': 0.5, 'avg_similarity': 1.0}","{'precision': 0.5, 'recall': 0.5, 'avg_similarity': 1.0}"
+pagination,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+rights,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"

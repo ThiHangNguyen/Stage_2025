@@ -38,7 +38,7 @@ def process_per_field(repertoires, base_dir):
 
             for _, row in df.iterrows():
                 field = row["field"]
-                for method in ["soft", "levenshtein"]:
+                for method in ["strict", "soft", "levenshtein"]:
                     val = row[method]
                     if is_structured(val):
                         parsed = ast.literal_eval(val)
@@ -54,7 +54,7 @@ def process_per_field(repertoires, base_dir):
         all_struct_fields = sorted(structured_scores.keys())
 
         # 🔹 simple.csv : une ligne par méthode
-        for method in ["soft", "levenshtein"]:
+        for method in ["strict","soft", "levenshtein"]:
             row = {"directory": rep, "method": method}
             for field in all_simple_fields:
                 values = simple_scores[field][method]
@@ -62,7 +62,7 @@ def process_per_field(repertoires, base_dir):
             simple_rows.append(row)
 
         # 🔹 structured.csv : une ligne par méthode+metric
-        for method in ["soft", "levenshtein"]:
+        for method in ["strict","soft", "levenshtein"]:
             for metric in ["precision", "recall", "avg_similarity"]:
                 row = {"directory": rep, "metric": f"{method}_{metric}"}
                 for field in all_struct_fields:

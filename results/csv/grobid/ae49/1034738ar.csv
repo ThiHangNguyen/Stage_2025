@@ -1,19 +1,19 @@
-field,has_ref,has_extractor,soft,levenshtein
-title,1,1,0.984,0.984
-abstract,0,1,0.0,0.0
-language,1,1,1.0,1.0
-date,1,0,0.0,0.0
-issue_number,1,0,0.0,0.0
-volume,1,0,0.0,0.0
-acknowledgements,1,0,0.0,0.0
-authors,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.914}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.914}"
-tables,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-figures,0,1,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-keywords,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-themes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-section_titles,1,1,"{'precision': 0.571, 'recall': 0.571, 'avg_similarity': 0.533}","{'precision': 0.571, 'recall': 0.571, 'avg_similarity': 0.533}"
-content_tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-bibliographies,1,1,"{'precision': 0.765, 'recall': 1.0, 'avg_similarity': 0.996}","{'precision': 0.765, 'recall': 1.0, 'avg_similarity': 0.996}"
-id,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-pagination,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
-rights,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+field,has_ref,has_extractor,strict,soft,levenshtein
+title,1,1,0.0,0.984,0.984
+abstract,0,1,0.0,0.0,0.0
+language,1,1,1.0,1.0,1.0
+date,1,0,0.0,0.0,0.0
+issue_number,1,0,0.0,0.0,0.0
+volume,1,0,0.0,0.0,0.0
+acknowledgements,1,0,0.0,0.0,0.0
+authors,1,1,"{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.75}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.914}","{'precision': 1.0, 'recall': 1.0, 'avg_similarity': 0.914}"
+tables,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+figures,0,1,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+keywords,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+themes,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+section_titles,1,1,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.571, 'recall': 0.571, 'avg_similarity': 0.533}","{'precision': 0.571, 'recall': 0.571, 'avg_similarity': 0.533}"
+content_tables,0,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+bibliographies,1,1,"{'precision': 0.324, 'recall': 0.423, 'avg_similarity': 0.423}","{'precision': 0.765, 'recall': 1.0, 'avg_similarity': 0.996}","{'precision': 0.765, 'recall': 1.0, 'avg_similarity': 0.996}"
+id,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+pagination,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"
+rights,1,0,"{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}","{'precision': 0.0, 'recall': 0.0, 'avg_similarity': 0.0}"

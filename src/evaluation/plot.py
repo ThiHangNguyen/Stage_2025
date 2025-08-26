@@ -5,7 +5,7 @@ import os
 import numpy as np
 
 
-def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, output_dir="figures"):
+def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, tool=None):
     df = df[df["directory"] == directory]
     if df.empty:
         print(f" Aucune donnée pour {directory}")
@@ -46,7 +46,11 @@ def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, output_dir="figures"
     plt.xticks([val + width for val in x], fields, rotation=45, ha='right')
     plt.ylim(0, 1.05)
     plt.ylabel("Score de similarité")
-    plt.title(f"Scores moyens pour chaque méthode – {directory}", fontweight='bold', fontsize=14)
+    plt.title(
+        f"{'['+tool+'] ' if tool else ''}Scores moyens par champ – {directory}",
+        fontweight='bold',
+        fontsize=14
+    )
     plt.legend(loc="upper right")
     plt.tight_layout()
     plt.show()
@@ -54,7 +58,7 @@ def plot_simple_grouped_bar_chart(df, directory, seuil=0.8, output_dir="figures"
 
 
 
-def plot_structured_fields_all(df, directory, method="strict", seuil=0.8, output_dir="figures"):
+def plot_structured_fields_all(df, directory, method="strict", seuil=0.8, tool=None):
     df = df[df["directory"] == directory]
 
     precision_metric = f"{method}_precision"
@@ -97,8 +101,9 @@ def plot_structured_fields_all(df, directory, method="strict", seuil=0.8, output
     plt.xticks(x, sorted_fields, rotation=45, ha='right')
     plt.ylim(0, 1.1)
     plt.ylabel("Score")
-    plt.title(f"{directory} – {method.capitalize()} - Scores par champ structuré",
-          fontweight='bold', fontsize=14)
+    title_text = f"[{tool}] " if tool else ""
+    title_text += f"{directory} – {method.capitalize()} - Scores par champ structuré"
+    plt.title(title_text, fontweight='bold', fontsize=14)
 
     plt.legend(loc="upper right")
     plt.tight_layout()
@@ -114,7 +119,7 @@ def get_sorted_fields_by_directory_priority(df_method, directories=None):
     return sorted_fields
 
 
-def plot_grouped_bars(df_method, sorted_fields, directories, method, output_dir):
+def plot_grouped_bars(df_method, sorted_fields, directories, method, tool=None):
     """
     Crée un graphique en barres groupées pour chaque répertoire.
     """
@@ -156,13 +161,15 @@ def plot_grouped_bars(df_method, sorted_fields, directories, method, output_dir)
     )
     plt.ylim(0, 1.05)
     plt.ylabel("Score")
-    plt.title(f"Scores moyens par champ et journal — méthode {method}", fontweight='bold', fontsize=14)
+    title_text = f"[{tool}] " if tool else ""
+    title_text += f"Scores moyens par champ et journal — méthode {method}"
+    plt.title(title_text, fontweight='bold', fontsize=14)
     plt.legend(title="Répertoire", loc="upper right")
 
     plt.tight_layout()
     plt.show()
 
-def plot_simple_all_fields_grouped_by_directory(df, method, output_dir="figures"):
+def plot_simple_all_fields_grouped_by_directory(df, method, tool=None):
     """
     Affiche un graphique comparant tous les champs pour une méthode donnée,
     en groupant les barres par répertoire.
@@ -175,10 +182,10 @@ def plot_simple_all_fields_grouped_by_directory(df, method, output_dir="figures"
 
     directories = df_method["directory"].tolist()
     sorted_fields = get_sorted_fields_by_directory_priority(df_method, directories)
-    plot_grouped_bars(df_method, sorted_fields, directories, method, output_dir)
+    plot_grouped_bars(df_method, sorted_fields, directories, method, tool=tool)
 
 
-def plot_structured_all_fields_grouped_by_directory(df, method, metric, output_dir="figures"):
+def plot_structured_all_fields_grouped_by_directory(df, method, metric, tool=None):
     seuil = 0.8
     df_method = df[df["metric"] == f"{method}_{metric}"]
 
@@ -225,18 +232,31 @@ def plot_structured_all_fields_grouped_by_directory(df, method, metric, output_d
     )
     plt.ylim(0, 1.05)
     plt.ylabel("Score")
-    plt.title(f"{method.capitalize()} – {metric.capitalize()} sur les types de journaux")
+    title_text = f"[{tool}] " if tool else ""
+    title_text += f"{method.capitalize()} – {metric.capitalize()} sur les types de journaux"
+    plt.title(title_text, fontweight='bold', fontsize=14)
     plt.legend(title="Répertoire", loc="upper right")
     plt.tight_layout()
-    os.makedirs(output_dir, exist_ok=True)
     plt.show()
 
 
-def compare_tools_on_fields(tools, method, metric, base_dir="results/csv", seuil=0.8, directory_target="2cols", field_type="structured"):
-    all_dfs = []
 
+def compare_tools_on_fields(
+    tools,
+    method,
+    metric,
+    base_dir="results/csv",
+    seuil=0.8,
+    directory_target="2cols",
+    field_type="structured",
+    annot=True,                # écrire les valeurs dans les cellules
+    cmap="YlOrRd",             # palette orange→rouge (alternatives: "OrRd", "inferno")
+    fmt=".2f",                 # format des annotations
+):
+    all_dfs = []
     filename = "structured.csv" if field_type == "structured" else "simple.csv"
 
+    # ----- chargement / filtrage (identique à avant) -----
     for tool in tools:
         path = os.path.join(base_dir, tool, "means", filename)
         if not os.path.exists(path):
@@ -250,25 +270,32 @@ def compare_tools_on_fields(tools, method, metric, base_dir="results/csv", seuil
                 print(f"⚠️ Format incorrect dans {path} : colonne 'metric' manquante")
                 continue
 
-            df_long = df_raw.melt(id_vars=["directory", "metric"], var_name="field", value_name="score")
+            df_long = df_raw.melt(
+                id_vars=["directory", "metric"],
+                var_name="field",
+                value_name="score"
+            )
             df_long["method"] = df_long["metric"].apply(lambda x: x.split("_")[0])
             df_long["metric"] = df_long["metric"].apply(lambda x: "_".join(x.split("_")[1:]))
-            df_long["tool"] = tool
+            df_long["tool"]  = tool
 
             df_filtered = df_long[
                 (df_long["method"] == method)
                 & (df_long["metric"] == metric)
                 & (df_long["directory"] == directory_target)
             ]
-
         else:
             if "method" not in df_raw.columns:
                 print(f"⚠️ Format incorrect dans {path} : colonne 'method' manquante")
                 continue
 
-            df_long = df_raw.melt(id_vars=["directory", "method"], var_name="field", value_name="score")
+            df_long = df_raw.melt(
+                id_vars=["directory", "method"],
+                var_name="field",
+                value_name="score"
+            )
             df_long["metric"] = "score"
-            df_long["tool"] = tool
+            df_long["tool"]  = tool
 
             df_filtered = df_long[
                 (df_long["method"] == method)
@@ -276,7 +303,7 @@ def compare_tools_on_fields(tools, method, metric, base_dir="results/csv", seuil
             ]
 
         if df_filtered.empty:
-            print(f"⚠️ Aucune donnée pour {tool} avec méthode={method}, metric={metric}, directory={directory_target}")
+            print(f"⚠️ Aucune donnée pour {tool} (method={method}, metric={metric}, dir={directory_target})")
         else:
             all_dfs.append(df_filtered)
 
@@ -284,45 +311,79 @@ def compare_tools_on_fields(tools, method, metric, base_dir="results/csv", seuil
         print("🚫 Aucune donnée valide pour la comparaison.")
         return
 
-    # 🔹 Concaténer toutes les données filtrées
+    # ----- agrégation -----
     df_all = pd.concat(all_dfs, ignore_index=True)
-    fields = sorted(df_all["field"].unique())
-    N = len(fields)
-    angles = np.linspace(0, 2 * np.pi, N, endpoint=False).tolist()
-    angles += angles[:1]
+    df_mean = (
+        df_all.groupby(["field", "tool"], as_index=False)["score"]
+        .mean()
+        .rename(columns={"score": "mean_score"})
+    )
 
-    fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
-    ax.spines["polar"].set_visible(False)
+    present_tools = [t for t in tools if t in df_mean["tool"].unique()]
+    if not present_tools:
+        print("🚫 Aucun outil présent après filtrage.")
+        return
 
-    for tool in tools:
-        df_tool = df_all[df_all["tool"] == tool]
-        df_tool = df_tool.groupby("field", as_index=False)["score"].mean()
-        df_tool = df_tool.set_index("field").reindex(fields)
+    pivot = df_mean.pivot(index="field", columns="tool", values="mean_score")
+    pivot["_mean"] = pivot[present_tools].mean(axis=1)
+    pivot = pivot.sort_values("_mean", ascending=False).drop(columns=["_mean"])
+    pivot = pivot.reindex(columns=present_tools)
 
-        scores = df_tool["score"].tolist()
-        scores += scores[:1]
+    data   = pivot.fillna(0.0).values
+    fields = list(pivot.index)
+    cols   = list(pivot.columns)
 
-        ax.plot(angles, scores, label=tool, linewidth=2)
+    # ----- heatmap matplotlib (orange→rouge + annotations) -----
+    fig_w = max(8, 0.35 * len(cols))
+    fig_h = max(6, 0.35 * len(fields))
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
 
-    ax.set_yticks([])
-    for val in [0, seuil, 1.0]:
-        ax.text(1.5, val + 0.02, f"{val}", ha='center', va='bottom', fontsize=9, fontweight='bold')
+    im = ax.imshow(data, aspect="auto", vmin=0.0, vmax=1.0, cmap=cmap)
 
-    ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(fields, fontsize=9)
+    ax.set_xticks(np.arange(len(cols)))
+    ax.set_yticks(np.arange(len(fields)))
+    ax.set_xticklabels(cols, rotation=30, ha="right")
+    ax.set_yticklabels(fields)
+
+    # titre/labels
     if field_type == "simple":
-        title_text = f"similarité moyenne par méthode {method} sur ' {directory_target} '"
+        title_text = f"similarité moyenne — méthode {method} — dossier '{directory_target}'"
+        cbar_label = "score"
     else:
-        title_text = f"{metric} moyen par méthode {method} sur ' {directory_target} '"
-    ax.set_title(title_text, size=14, pad=20, fontweight="bold")
+        title_text = f"{metric.capitalize()} — méthode {method} — dossier '{directory_target}'"
+        cbar_label = metric
+    ax.set_title(title_text, pad=12, fontweight="bold")
+    ax.set_xlabel("Outils")
+    ax.set_ylabel("Champs")
 
-    ax.set_rlabel_position(30)
-    ax.axhline(seuil, color="blue", linestyle="--", label=f"Seuil = {seuil}")
-    ax.set_ylim(0, 1)
-    ax.legend(loc='upper right', bbox_to_anchor=(1.2, 1.1))
+    # barre de couleur
+    cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
+    cbar.set_label(cbar_label, rotation=90, va="center")
+    cbar.set_ticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
+
+    # annotations
+    if annot:
+        for i in range(data.shape[0]):
+            for j in range(data.shape[1]):
+                val = data[i, j]
+                # option: n'afficher rien pour 0.0 -> décommente si voulu
+                # if val == 0: continue
+                ax.text(j, i, format(val, fmt), ha="center", va="center", fontsize=8)
+
+    # rappel visuel du seuil (texte)
+    ax.text(1.01, -0.08, f"Seuil visé : {seuil}", transform=ax.transAxes,
+            ha="left", va="top", fontsize=9)
+
+    # fines séparations (grille légère)
+    ax.set_xlim(-0.5, data.shape[1]-0.5)
+    ax.set_ylim(data.shape[0]-0.5, -0.5)
+    ax.grid(which="both", color="white", linewidth=0.5, alpha=0.5)
+    ax.set_xticks(np.arange(-0.5, data.shape[1], 1), minor=True)
+    ax.set_yticks(np.arange(-0.5, data.shape[0], 1), minor=True)
+
     plt.tight_layout()
     plt.show()
-    print(f"✅ Done")
+    print("✅ Done ")
 
 
 def compare_mean_per_field_across_dirs(tools, method, metric, seuil=0.8):
@@ -404,7 +465,7 @@ if __name__ == "__main__":
     parser.add_argument('--dir', help="Nom du répertoire (ex: haf18)")
     parser.add_argument('--type', choices=["simple", "structured"], help="Type de score à tracer")
     parser.add_argument('--seuil', type=float, default=0.8, help="Seuil pour marquer 'bien extrait'")
-    parser.add_argument('--method', type=str, default="strict", choices=["strict", "soft", "levenshtein"],
+    parser.add_argument('--method', type=str, default="strict", choices=["strict","soft", "levenshtein"],
                         help="Méthode de comparaison à afficher pour les champs structurés")
     parser.add_argument('--metric', choices=["precision", "recall", "avg_similarity"],
                         help="Métrique à comparer entre les répertoires (structuré seulement)")
@@ -427,8 +488,8 @@ if __name__ == "__main__":
             directory_target=args.dir,
             field_type=args.type )
         exit()
-    #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat --method strict --metric recall --dir ae49 --type simple 
-    #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat --method levenshtein --metric recall --dir ae49 --type structured
+    #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat olmOCR --method levenshtein --metric recall --dir ae49 --type simple 
+    #python3 src/evaluation/plot.py --compare_tools --tools grobid nougat tatr pdfExtractKit olmOCR pdfplumber --method levenshtein --metric recall --dir 2cols --type structured
 
     
     if not args.tool or not args.type:
@@ -440,17 +501,17 @@ if __name__ == "__main__":
     if args.type == "simple":
         df = pd.read_csv(f"{base_path}/simple.csv")
         if args.dir:
-            plot_simple_grouped_bar_chart(df, args.dir, seuil=args.seuil)
+            plot_simple_grouped_bar_chart(df, args.dir, seuil=args.seuil, tool=args.tool)
         elif args.method:
-            plot_simple_all_fields_grouped_by_directory(df, method=args.method)
+            plot_simple_all_fields_grouped_by_directory(df, method=args.method, tool=args.tool)
 
     elif args.type == "structured":
         df = pd.read_csv(f"{base_path}/structured.csv")
 
         if args.method and args.metric and not args.dir:
-            plot_structured_all_fields_grouped_by_directory(df, method=args.method, metric=args.metric)
+            plot_structured_all_fields_grouped_by_directory(df, method=args.method, metric=args.metric, tool=args.tool)
         elif args.dir and args.method:
-            plot_structured_fields_all(df, args.dir, method=args.method, seuil=args.seuil)
+            plot_structured_fields_all(df, args.dir, method=args.method, seuil=args.seuil, tool=args.tool)
         else:
             print("Veuillez spécifier au moins --dir et --method, ou --method et --metric pour 'structured'.")
 

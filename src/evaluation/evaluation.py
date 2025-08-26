@@ -7,7 +7,7 @@ from evaluation.metrics.metrics import compute_metrics
 import time  
 
 STRATEGIES = {
-    #"strict": strict_match,
+    "strict": strict_match,
     "soft": soft_match, #matchesequence 
     "levenshtein": levenshtein_match,
 }
