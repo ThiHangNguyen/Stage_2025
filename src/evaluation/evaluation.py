@@ -72,6 +72,7 @@ def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
     """
     Compare deux listes de chaînes avec plusieurs stratégies.
     Aligne les éléments par meilleure similarité ≥ seuil (1-to-1).
+    Utilise une copie de expected_list pour retirer les éléments matchés.
     Calcule précision, rappel et similarité moyenne.
 
     Paramètres
@@ -88,17 +89,14 @@ def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
     scores = {}
 
     for name, fn in STRATEGIES.items():
-        matched_pred = set()
-        matched_exp = set()
+        exp_copy = expected_list.copy()  # copie consommable
         similarity_scores = []
+        tp = 0
 
-        for i, val_pred in enumerate(predicted_list):
+        for val_pred in predicted_list:
             best_score = 0.0
             best_j = None
-            for j, val_exp in enumerate(expected_list):
-                if j in matched_exp:
-                    continue  # déjà utilisé
-
+            for j, val_exp in enumerate(exp_copy):
                 raw_score = fn(val_pred, val_exp)
                 score = (
                     float(raw_score[0]) if isinstance(raw_score, list)
@@ -111,11 +109,10 @@ def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
                     best_j = j
 
             if best_score >= seuil and best_j is not None:
-                matched_pred.add(i)
-                matched_exp.add(best_j)
+                tp += 1
                 similarity_scores.append(best_score)
+                exp_copy.pop(best_j)  # retire l’élément matché
 
-        tp = len(matched_pred)
         fp = len(predicted_list) - tp
         fn = len(expected_list) - tp
         metrics = compute_metrics(tp, fp, fn)
@@ -128,7 +125,6 @@ def compare_list_of_strings(predicted_list, expected_list, seuil=0.8):
         }
 
     return scores
-
 
 
 def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
@@ -153,18 +149,15 @@ def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
     pred_map = hashmap(pred_list, type_)
 
     for strat_name, match_fn in STRATEGIES.items():
-        matched_exp_keys = set()
-        tp, fp, fn = 0, 0, 0
+        exp_copy = exp_map.copy()  # copie consommable
+        tp, fp = 0, 0
         obj_similarities = []
 
         for pred_key, pred_obj in pred_map.items():
             best_match_key = None
             best_key_score = 0.0
 
-            for exp_key in exp_map:
-                if exp_key in matched_exp_keys:
-                    continue
-
+            for exp_key, exp_obj in exp_copy.items():
                 key_score = match_fn(pred_key, exp_key)
                 if isinstance(key_score, list):
                     key_score = float(key_score[0])
@@ -179,11 +172,10 @@ def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
 
             if best_match_key:
                 tp += 1
-                matched_exp_keys.add(best_match_key)
+                exp_obj = exp_copy.pop(best_match_key)  # retire la ref matchée
 
-                exp_obj = exp_map[best_match_key]
+                # comparaison des champs
                 field_scores = []
-
                 for field in exp_obj:
                     val_exp = str(exp_obj.get(field, "")).strip().lower()
                     if not val_exp:
@@ -211,17 +203,21 @@ def compare_structured_fields(pred_list, exp_list, type_: str = "", seuil=0.8):
 
         fp = len(pred_list) - tp
         fn = len(exp_list) - tp
-
         metrics = compute_metrics(tp, fp, fn)
-        avg_similarity = round(sum(obj_similarities) / len(obj_similarities), 3) if obj_similarities else 0.0
+
+        avg_similarity = (
+            round(sum(obj_similarities) / len(obj_similarities), 3)
+            if obj_similarities else 0.0
+        )
 
         scores[strat_name] = {
             "precision": metrics["precision"],
             "recall": metrics["recall"],
-            "avg_similarity": avg_similarity
+            "avg_similarity": avg_similarity,
         }
 
     return scores
+
 
 
 
